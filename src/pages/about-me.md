@@ -25,4 +25,4 @@ You might also like to visit his friends:
 
 - - - - - -
 
-[Mid-Era Steve](/img/2022/04/steve.jpg)
+![Mid-Era Steve](/img/2022/04/steve.jpg)

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
+title: HTML5 Browser Test
 navMenu: false
-title: 'HTML5 Browser Test'
 pubDate: 2009-07-28T22:26:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1072'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
     - Programming
@@ -23,9 +20,9 @@ If you are using a different browser to those listed below, [please get in touch
 
 More detail on the results can be found below.
 
-### Works Fine
+## Works Fine
 
-![Works](/img/2015/07/html5_full.png)
+:img{src="/img/2015/07/html5_full.png" alt="An example of the working page" loading="lazy"}
 
 - Avant 11.7
 - Chrome 0.4 / 1 / 2 / 3
@@ -42,9 +39,9 @@ More detail on the results can be found below.
 - Seamonkey 2.0
 - Shiretoko 3.5
 
-### Limited Success
+## Limited Success
 
-![Limited](/img/2015/07/html5_partial.png)
+:img{src="/img/2015/07/html5_partial.png" alt="A usable page that doesn't look perfect" loading="lazy"}
 
 In these cases, the website does display, but with limited graphical support and with a generally in-line style.
 

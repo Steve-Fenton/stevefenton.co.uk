@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
+title: Fenton JavaScript Ethos
 navMenu: false
-title: 'Fenton JavaScript Ethos'
 pubDate: 2009-06-20T20:35:52+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1109'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -29,7 +26,7 @@ I’m basically trying to spread my JavaScript ethos. It’s a really simple one
 3. JavaScript should add something useful and pleasing to the user experience.
 4. Stay out of the Global scope
 
-### Rule Number 1
+## Rule Number 1
 
 > If people don’t have JavaScript, everything should still function.
 
@@ -41,14 +38,14 @@ Add your roll-overs and click events as we’ve discussed and make that gallery 
 
 As an added bonus, you’ve done your part for the World Wide Web as your page will work for everyone in the whole world!
 
-### Rule Number 2
+## Rule Number 2
 
-> Like CSS, JavaScript shouldn’t appear inline in your HTML.
+> Like CSS, JavaScript shouldn’t appear inline in your HTML attributes.
 
 Remember when you used to do this..?
 
-```
-<pre class="prettyprint lang-html"><p align="center">
+```html
+<p align="center">
     <font family="Arial" size="3" color="Black">
         <b>Hello!</b>
     </font>
@@ -58,56 +55,63 @@ I think we all agreed that this was nasty, especially when the marketing departm
 
 So we all moved to this…
 
+```html
+<p class="hello">Hello!</p>
 ```
-<pre class="prettyprint lang-html"><p class="hello">Hello!</p>
-```
+
 With a separate .css file that contained the style…
 
-```
-<pre class="prettyprint lang-css">.hello {
+```css
+.hello {
     font-family: Arial;
     font-size: 3;
     color: Black;
     font-weight: bold;
 }
 ```
+
 Much better! The main reason this works is because it makes it easier to change the style of the website. The other important reason, which is less obvious, is that HTML is supposed to semantically describe parts of your page. A H1 tag should be used to tell people that the text is the main heading on the page, not to make it big and bold and tags like the font tag and bold tag don’t actually add any meaning or describe what the content is about.
 
 So apply the same to your JavaScript and life will become much better!
 
 We used to do this…
 
+```html
+<a href="javascript: alert('Hello World!');">Alert</a>
 ```
-<pre class="prettyprint lang-html"><a href="javascript: alert('Hello World!');">Alert</a>
-```
+
 Or this…
 
+```html
+<a href="#" onclick="alert('Hello World!');">Alert</a>
 ```
-<pre class="prettyprint lang-html"><a href="#" onclick="alert('Hello World!');">Alert</a>
-```
+
 Or this…
 
+```html
+<a href="javascript: void(0);" onclick="alert('Hello World!');">Alert</a>
 ```
-<pre class="prettyprint lang-html"><a href="javascript: void(0);" onclick="alert('Hello World!');">Alert</a>
-```
+
 But now we do this…
 
+```html
+<a href="a_real_page.html" id="alert">Alert</a>
 ```
-<pre class="prettyprint lang-html"><a href="a_real_page.html" id="alert">Alert</a>
-```
+
 And then we do with JavaScript what we’ve been doing with CSS since we got our adult teeth…
 
-```
-<pre class="prettyprint lang-javascript">function myFunction() {
+```javascript
+function myFunction() {
     alert("Hello World!");
     return false;
 }
 
 document.getElementById("alert").onclick = myFunction;
 ```
+
 The “return false” bit is quite important, as it tells the browser that you’ve done something clever and that the actual link doesn’t need to be followed. If JavaScript is disabled, the link will be followed – so everyone sees something happen, which means we have abided by rule number 1.
 
-### Rule Number 3
+## Rule Number 3
 
 > JavaScript should add something useful and pleasing to the user experience.
 
@@ -119,7 +123,7 @@ If you can’t think of a reason why the JavaScript has made the page more usabl
 
 Classic blunders include chuff that follows your mouse around the page, animated seasonal snow-showers, messing around with people’s status-bar text and some really dodgy DHTML drop-down menus.
 
-### Rule Number 4
+## Rule Number 4
 
 > Stay out of the global scope. Give your JavaScript a home.
 
@@ -127,8 +131,8 @@ Your JavaScript doesn’t belong in the global scope of the document. You need t
 
 There is a basic example below that demonstrates how to “namespace” your JavaScript, with private variables and function that are only available to your namespace and a list of public variables and functions (the stuff contained in the return statement).
 
-```
-<pre class="prettyprint lang-javascript">const MyNamespace = (function() {
+```javascript
+const MyNamespace = (function() {
     const myPrivateVariable = "Fenton";
     return {
         MyPublicVariable : "SomeValue",
@@ -143,14 +147,15 @@ There is a basic example below that demonstrates how to “namespace” your Jav
 MyNamespace.sayHello("Steve");
 MyNamespace.sayGoodbye("Steve");
 ```
+
 And even better… you can use modules to keep absolutely everything out of the global scope in all the modern browsers.
 
-### And then…
+## And then…
 
 And in true Colombo style… there’s just one more thing! If you are using JavaScript right, you will probably never need to use a No Script tag – so never (seriously NEVER) use a No Script tag like this…
 
-```
-<pre class="prettyprint lang-html"><noscript>
+```html
+<noscript>
     <p>This document works best with script enabled browsers</p>
 </noscript>
 ```

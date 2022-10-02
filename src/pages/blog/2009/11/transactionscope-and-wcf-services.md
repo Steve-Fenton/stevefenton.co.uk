@@ -1,24 +1,21 @@
 ---
 layout: src/layouts/Default.astro
+title: TransactionScope and WCF Services
 navMenu: false
-title: 'TransactionScope and WCF Services'
 pubDate: 2009-11-26T22:18:51+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1067'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - c#
     - wcf
 ---
 
 The problem I encountered was that, while I had started a TransactionScope in my calling method (and could even see a current transaction in my services) – an error in a second WCF service call was NOT rolling back the changes made in a previous WCF service call. The behaviour was as if each service had its own transaction, rather than joining the existing ambient transaction that I started in my client.
 
-### Example
+## Example
 
 - I press a button on an .aspx web page
 - I start a TransactionScope: `using (TransactionScope scope = new TransactionScope()) {`
@@ -26,24 +23,23 @@ The problem I encountered was that, while I had started a TransactionScope in my
 - I call another service to update a different item somewhere else – this also contains a using statement for the transaction scope
 - The second service errors for some reason
 
-#### Expected
+### Expected
 
 - The changes from both services are rolled back
 
-#### Actual
+### Actual
 
 - The first service call succeeds and the second service call rolls back
 
-### Solution
+## Solution
 
 In order to create an ambient transaction in your client and ensure that it is used by your WCF services, you need to make sure you’ve done the following…
 
-#### Configure Your Binding
+### Configure Your Binding
 
 In your WCF service, you will need to make sure that your binding has transactionFlow set to true. To do this, create a binding configuration and refer to it on your endpoint:
 
-```
-<pre class="prettyprint lang-csharp">
+```xml
 <bindings>
     <wsHttpBinding>
         <binding name="wsHttpTransactional" transactionFlow="true" />
@@ -54,46 +50,46 @@ In your WCF service, you will need to make sure that your binding has transactio
           bindingConfiguration="wsHttpTransactional" 
           contract="WcfServiceLibrary1.IService1">
 ```
-#### Attribute Up Your Interface
+### Attribute Up Your Interface
 
 You now need to add TransactionFlow attributes to your interface – so if it looks like this:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [OperationContract]
 bool UpdateSomethingElse(string whatever);
 ```
+
 You need to add this:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [OperationContract]
 [TransactionFlow(TransactionFlowOption.Allowed)]
 bool UpdateSomethingElse(string whatever);
 ```
-#### Attribute Up Your Method
+
+### Attribute Up Your Method
 
 You can then add an OperationBehavior to your method to tell it to enlist in the transactionScope, so you find this:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public bool UpdateSomethingElse(string whatever) {
 ```
+
 And you add an attribute like this:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [OperationBehavior(TransactionScopeRequired = true)]
 public bool UpdateSomethingElse(string whatever) {
 ```
-### Connection Strings
+
+## Connection Strings
 
 It is well mooted that you should adjust your connection strings to ensure safety in the event of a time out – all you have to do is add the following attribute to your connection:
 
-```
-<pre class="prettyprint lang-plain_text">
+```xml
 Transaction Binding=Explicit Unbind;
 ```
-### Summary
+
+## Summary
 
 Hopefully this article will help a few people who are getting unexpected results from their use of TransactionScope – please [contact me](/contact/) if you want to add anything!

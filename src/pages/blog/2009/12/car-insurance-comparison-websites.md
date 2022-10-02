@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
+title: Car insurance comparison websites
 navMenu: false
-title: 'Car Insurance Comparison Websites'
 pubDate: 2009-12-30T22:16:24+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1065'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 ---
@@ -26,10 +23,10 @@ What’s the problem with recent times? Well, the problem is, there are now lots
 
 This means we’re now back to square one. We need to use several price-comparison websites as well as contacting a couple of direct companies before we know we’re getting a good deal.
 
-Using my own details today, I tried out three well-known price comparison websites, [Confused](https://www.confused.com/), [Go Compare](http://www.gocompare.com/) and [Money Supermarket](https://www.moneysupermarket.com/). Taking the lowest price from these three websites gave me a difference of £100 between the best offer and the worst offer. It doesn’t matter which was the cheapest as it all depends on your personal quotation details. The point is – unless you try all of them, you could still be paying £100 too much for your car insurance.
+Using my own details today, I tried out three well-known price comparison websites, [Confused](https://www.confused.com/), [Go Compare](https://www.gocompare.com/) and [Money Supermarket](https://www.moneysupermarket.com/). Taking the lowest price from these three websites gave me a difference of £100 between the best offer and the worst offer. It doesn’t matter which was the cheapest as it all depends on your personal quotation details. The point is – unless you try all of them, you could still be paying £100 too much for your car insurance.
 
 So what now? Perhaps we’ll have a price-comparison-aggregation-service – a website that takes your details once and feeds them into all of the price-comparison websites? Maybe this is a task that could be completed by an Insurance Broker (that would get them back in business wouldn’t it?)
 
 In any case. Before you buy your insurance, put in a bit of effort. If you spend one hour typing in your details a few times and save £100 – that’s a very well paid hour indeed.
 
-Oh – and in case you’re wondering… I ended up telephoning my existing insurance company to tell them I had found a cheaper deal elsewhere… and they matched it.
+Oh – and in case you’re wondering… I ended up telephoning my existing insurance company to tell them I had found a cheaper deal elsewhere and they matched it.
