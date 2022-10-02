@@ -11,7 +11,7 @@ tags:
     - typescript
 ---
 
-![Warning Triangle](https://www.stevefenton.co.uk/wp-content/uploads/2018/01/warning-triangle-300x263.png)TypeScript never stops improving, although most changes over the past year have been “non syntactical” – i.e. there have been a huge swathe of improvements to how types are handled, and a large slice of improvements to make the tooling even better. It has a been a while, though, since we got a new character to decorate our code. The wait is over, thanks to the TypeScript Definite Assignment Assertion. Let’s take a look at it with a short example.
+![Warning Triangle](https://www.stevefenton.co.uk/wp-content/uploads/2018/01/warning-triangle.png)TypeScript never stops improving, although most changes over the past year have been “non syntactical” – i.e. there have been a huge swathe of improvements to how types are handled, and a large slice of improvements to make the tooling even better. It has a been a while, though, since we got a new character to decorate our code. The wait is over, thanks to the TypeScript Definite Assignment Assertion. Let’s take a look at it with a short example.
 
 ### No definite assignment
 

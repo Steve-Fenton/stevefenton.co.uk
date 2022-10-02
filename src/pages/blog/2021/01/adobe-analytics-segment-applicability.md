@@ -24,4 +24,4 @@ The first is a pure segment (A). This is where you will filter a whole report ba
 
 The second is as filter (B), where you will use it to filter a single column. In these cases, it is better to include the item (hit, visit, visitor) that matches the “Expire After” value for the conversion variable in Traffic Management. If the filter only makes sense for a specific conversion variable, name it after the metric. For “Checkouts” you can call it “Checkouts After UTM Filter”, for example.
 
-[![Segement (top left) vs filter (dropped under a column)](https://www.stevefenton.co.uk/wp-content/uploads/2021/01/segment-vs-filter-1024x211.jpg)](https://www.stevefenton.co.uk/2021/01/adobe-analytics-segment-applicability/segment-vs-filter/)
+[![Segement (top left) vs filter (dropped under a column)](https://www.stevefenton.co.uk/wp-content/uploads/2021/01/segment-vs-filter.jpg)](https://www.stevefenton.co.uk/2021/01/adobe-analytics-segment-applicability/segment-vs-filter/)

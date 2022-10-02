@@ -118,7 +118,7 @@ jobs:
           name: output
           path: _output
 ```
-[![](https://www.stevefenton.co.uk/wp-content/uploads/2022/04/github-action-complete-1024x417.jpg)](https://www.stevefenton.co.uk/2022/04/converting-markdown-files-to-pdf-in-github-actions/github-action-complete/)
+[![](https://www.stevefenton.co.uk/wp-content/uploads/2022/04/github-action-complete.jpg)](https://www.stevefenton.co.uk/2022/04/converting-markdown-files-to-pdf-in-github-actions/github-action-complete/)
 
 ### Page options
 

@@ -28,6 +28,6 @@ At any point, you can hit the “Take Snapshot” button underneath the graphs i
 
 You can click on the snap shot and view the managed memory, which summarises size and counts. Select any item to drill into the information in the bottom half of the split view. You can click on the screenshot below if you would like to see a full-screen version.
 
-[![Heap Inspection](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/heap-inspection-1024x353.png)](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/heap-inspection.png)
+[![Heap Inspection](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/heap-inspection.png)](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/heap-inspection.png)
 
 These diagnostic tools take a lot of the guesswork and mystery out of memory usage in your application – it is worth making yourself familiar with these new tools so you can quickly track down problems using them later on.

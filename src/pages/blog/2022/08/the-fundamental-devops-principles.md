@@ -34,7 +34,7 @@ For example, it seems like five minutes ago we were talking about the four DORA 
 
 It’s worth keeping up to date with changes to get insights that might sharpen your competitive edge further…
 
-[![DevOps Structural Equation Model (SEM)](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/devops-structural-equation-model-1-1024x670.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+[![DevOps Structural Equation Model (SEM)](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
 
 So, the first fundamental principle is that our new era of software delivery is about doing the best thing that we know of at the current time.
 

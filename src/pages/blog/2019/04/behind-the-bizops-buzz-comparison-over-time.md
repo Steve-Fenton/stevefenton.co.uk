@@ -28,7 +28,7 @@ And finally, you need an anchor. Rather than compare to a rolling window, work o
 
 Here is a mega-annotaged image that backs up the explanation.
 
-![Conversion Rate Chart](https://www.stevefenton.co.uk/wp-content/uploads/2019/04/conversion-rate-chart-1024x291.jpg)
+![Conversion Rate Chart](https://www.stevefenton.co.uk/wp-content/uploads/2019/04/conversion-rate-chart.jpg)
 
 If we look at the dark-blue line in this chart, there is some volatility on what might happen in a day. The anchor number of 3.8% allows us to understand the two ranges better. The first range starts with a spike and then falls by ten points, but that’s only 1.8 points compared to the anchor. The second range starts well below the anchor and rises by 2.2 points, but actually only ends up achieving equilibrium. The anchor is a point of reference that we can use to better understand our comparison.
 

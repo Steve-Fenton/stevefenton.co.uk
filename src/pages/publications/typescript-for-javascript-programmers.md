@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-![TypeScript for JavaScript Programmers](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-199x300.png)This was the first book ever published on the TypeScript programming language. If you are looking to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](https://www.stevefenton.co.uk/publications/pro-typescript/).
+![TypeScript for JavaScript Programmers](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript.png)This was the first book ever published on the TypeScript programming language. If you are looking to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](https://www.stevefenton.co.uk/publications/pro-typescript/).
 
 > This book is the perfect introduction, covering classes, interfaces, enumerations, generics and more. I found it very a useful way to learn the language and easily followed the clear and concise code examples. Thoroughly recommended.
 

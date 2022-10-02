@@ -26,7 +26,7 @@ If you have a server with IIS installed, you can [use the Web Platform Installer
 
 Once installed, you will have a new node in IIS Manager called **Server Farms**.
 
-[![Server farms node in IIS Manager](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/iis-manager-server-farms-1024x479.jpg)](https://www.stevefenton.co.uk/?attachment_id=12770)
+[![Server farms node in IIS Manager](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/iis-manager-server-farms.jpg)](https://www.stevefenton.co.uk/?attachment_id=12770)
 
 ### Creating a server farm
 

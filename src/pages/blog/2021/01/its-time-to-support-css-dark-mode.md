@@ -5,7 +5,7 @@ title: 'It&#8217;s time to support CSS dark mode'
 pubDate: 2021-01-28T06:00:57+00:00
 author:
     - steve-fenton
-image: /wp-content/uploads/2021/01/moon-black-sky-1568x936.jpg
+image: /wp-content/uploads/2021/01/moon-black-sky.jpg
 categories:
     - Programming
 tags:

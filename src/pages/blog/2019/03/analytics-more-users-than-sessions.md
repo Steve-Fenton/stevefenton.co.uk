@@ -18,7 +18,7 @@ Logically speaking, we can imagine a user having one or more sessions. What seem
 
 Referring back to our graphic of Purple Jane and Blue Dave from the previous article, we can see that in our analytics report we would expect to find the stats in the table below. Purple Jane visits just once in January, and views two pages. Blue Dave visits two pages in January and another two in a return visit in February.
 
-![Two Visitors, both visit in January and one visits again in Febrary](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/unique-visit-tracking-1024x446.png)
+![Two Visitors, both visit in January and one visits again in Febrary](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/unique-visit-tracking.png)
 
 Analytics – Year so Far
 | Metric | Value |
@@ -55,11 +55,11 @@ Our user, Purple Jane, hits the website and looks at three pages. The landing pa
 
 If we look at our website stats, we’ll see we have 1 unique user, 1 session (or visit), and 3 page views. There is nothing confusing here.
 
-![Unfiltered Analytics](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/unfiltered-users-session-1024x971.png)
+![Unfiltered Analytics](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/unfiltered-users-session.png)
 
 If we filter our website stats, for example by running a report that only includes our product pages, we can get a confusing result. We have 1 unique user, 0 sessions (or visits), and two page views… which looks a bit odd.
 
-![Filtered Analytics](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/filtered-users-session-1019x1024.png)
+![Filtered Analytics](https://www.stevefenton.co.uk/wp-content/uploads/2019/02/filtered-users-session.png)
 
 The stats aren’t telling us that no visits were made to these pages, they are telling us that no visits *started* on these pages.
 

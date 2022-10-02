@@ -26,7 +26,7 @@ The Azure Portal has a really neat area for cost management, which includes some
 
 This is the best place to start as it breaks down the cost per resource and provides a forecast of spending. This screen is able to provide reasonable forecasts after a couple of days of normal operation.
 
-[![Cost Forecast](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/forecast-1024x204.jpg)](https://www.stevefenton.co.uk/2020/07/reduce-costs-by-12x-on-azure/forecast/)
+[![Cost Forecast](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/forecast.jpg)](https://www.stevefenton.co.uk/2020/07/reduce-costs-by-12x-on-azure/forecast/)
 
 My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn’t required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
 

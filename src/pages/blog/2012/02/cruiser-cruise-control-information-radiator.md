@@ -17,7 +17,7 @@ tags:
     - javascript
 ---
 
-![Cruise Control Radiator](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cctray_radiator-300x224.jpg)I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.
+![Cruise Control Radiator](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cctray_radiator.jpg)I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.
 
 What you really need is a big display that makes it really obvious when a build breaks, so I sketched out a quick idea of some big square boxes to represent each project that change colour and display some kind of “epic fail” icon when something goes wrong.
 

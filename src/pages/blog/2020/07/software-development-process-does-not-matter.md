@@ -18,7 +18,7 @@ The reason it doesn’t matter is this simple fact: Any process used with good i
 
 There are two general factors that affect intent. The team and the management. You can deploy [quaductionism](https://www.stevefenton.co.uk/2017/10/quaductionism-clarity-via-reductionism/) to simplify this as shown below:
 
-[![Impact of intent on outcome](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/process-quadrants-of-intent-400x393.jpg)](https://www.stevefenton.co.uk/2020/07/software-development-process-does-not-matter/process-quadrants-of-intent/)
+[![Impact of intent on outcome](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/process-quadrants-of-intent.jpg)](https://www.stevefenton.co.uk/2020/07/software-development-process-does-not-matter/process-quadrants-of-intent/)
 
 ### Team intent
 

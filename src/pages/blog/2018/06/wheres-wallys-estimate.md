@@ -12,7 +12,7 @@ categories:
     - Process
 ---
 
-![Where'ss Wally - World Recordin Dublin](/wp-content/uploads/2018/06/wheres-wally-world-record-dublin-1024x574.jpg)
+![Where'ss Wally - World Recordin Dublin](/wp-content/uploads/2018/06/wheres-wally-world-record-dublin.jpg)
 
 This is a balancing post to follow on from work I have done in several teams on estimates. Firstly, I’d like to confirm that in some teams, I have eliminated estimates; and in others I have improved the discipline of estimates. Both are valid approaches in different situations. What I never do is leave dysfunctional estimation in place.
 

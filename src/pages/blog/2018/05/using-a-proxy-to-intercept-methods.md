@@ -15,7 +15,7 @@ tags:
     - typescript
 ---
 
-![Espresso Filter](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/esspresso-filter-300x200.jpg)This is just a short note on how to use an ECMAScript Proxy to intercept methods. There are plenty of examples that intercept properties, but examples with methods seem absent currently.
+![Espresso Filter](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/esspresso-filter.jpg)This is just a short note on how to use an ECMAScript Proxy to intercept methods. There are plenty of examples that intercept properties, but examples with methods seem absent currently.
 
 For demonstration purposes, we’re going to intercept a very famous method. The console log method takes any number of arguments of any type. This is the call we’re going to intercept:
 

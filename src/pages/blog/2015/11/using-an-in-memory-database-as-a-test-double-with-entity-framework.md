@@ -15,7 +15,7 @@ tags:
     - tdd
 ---
 
-![Brain by Dierk Schaefer](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/brain-by-dierk-schaefer-294x300.jpg)If you are using Entity Framework and you want to test your application without the *real* database, the typical technique employed is to write a repository or query provider that you can substitute with a stub during the test. Sometimes, though, you are better off pushing things a couple of levels deeper. This is where an in-memory database can be really useful.
+![Brain by Dierk Schaefer](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/brain-by-dierk-schaefer.jpg)If you are using Entity Framework and you want to test your application without the *real* database, the typical technique employed is to write a repository or query provider that you can substitute with a stub during the test. Sometimes, though, you are better off pushing things a couple of levels deeper. This is where an in-memory database can be really useful.
 
 Using an in-memory database as a test double has the following benefits:
 

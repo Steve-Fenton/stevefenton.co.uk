@@ -13,7 +13,7 @@ tags:
     - operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring-199x300.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is another in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about incident investigations and the causations principles.
+[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is another in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about incident investigations and the causations principles.
 
 When things go wrong, it may be that some internal trigger such as a software release or configuration change has made things explode. It is also possible that some external factor has brought things down. Perhaps an increased load, or an attack, or a plain old infrastructure fault.
 

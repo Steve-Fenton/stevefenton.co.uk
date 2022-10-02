@@ -19,7 +19,7 @@ Analytics is lossy. There are a whole host of reasons the transmission of analyt
 
 Importantly, many of the factors that will prevent your analytics from making it into your monthly report are outside of your control. Breath deeply. There is no analytics platform that will give you guaranteed delivery of analytics data, and you wouldn’t want to use any platform that did… because the provider misunderstands the purpose of analytics.
 
-![Analytics are Lossy](https://www.stevefenton.co.uk/wp-content/uploads/2019/06/analytics-are-lossy-1024x683.jpg)
+![Analytics are Lossy](https://www.stevefenton.co.uk/wp-content/uploads/2019/06/analytics-are-lossy.jpg)
 
 ### Lossy analytics in practice
 

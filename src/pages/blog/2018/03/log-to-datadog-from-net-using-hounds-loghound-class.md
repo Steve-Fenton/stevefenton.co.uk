@@ -25,7 +25,7 @@ Hound is written in .NET standard 2.0, which makes it pretty portable. You can g
 
 First, install the NuGet package… there are lots of ways to do this these days, but I’ll show the package manager version here. Feel free to use a package explorer, or your preferred flavour of command. This is for version 0.1.2, which is current at the time of writing.
 
-![Hound NuGet Package](https://www.stevefenton.co.uk/wp-content/uploads/2018/03/hound-300x300.png)
+![Hound NuGet Package](https://www.stevefenton.co.uk/wp-content/uploads/2018/03/hound.png)
 
 The icon for Hound is taken from the album cover of *Park it Where You Like*, by 90s band *dog!*
 

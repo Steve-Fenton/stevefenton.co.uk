@@ -12,7 +12,7 @@ tags:
     - javascript
 ---
 
-![iframe Resize](https://www.stevefenton.co.uk/wp-content/uploads/2015/09/iframe-resize1-200x300.png)If you have ever integrated third party components on your website, you will have found a dazzling variety of integration methods, from JavaScript snippets, to iframes, to server-side APIs. Many of the integrations seek to inject content onto your page, but I sincerely advise against this. You don’t need to spend long reading the [OWASP Top Ten Application Security Risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) to see that allowing people to place content on your website is a recipe for disaster.
+![iframe Resize](https://www.stevefenton.co.uk/wp-content/uploads/2015/09/iframe-resize1.png)If you have ever integrated third party components on your website, you will have found a dazzling variety of integration methods, from JavaScript snippets, to iframes, to server-side APIs. Many of the integrations seek to inject content onto your page, but I sincerely advise against this. You don’t need to spend long reading the [OWASP Top Ten Application Security Risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) to see that allowing people to place content on your website is a recipe for disaster.
 
 So despite its falling out of favour, the humble iframe is one of the more secure ways you can give over a portion of your website to a third party without inadvertently handing them the keys to the castle.
 

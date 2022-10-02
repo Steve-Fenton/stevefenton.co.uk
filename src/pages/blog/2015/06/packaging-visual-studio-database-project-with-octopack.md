@@ -14,7 +14,7 @@ tags:
     - sql
 ---
 
-[![Exploring Octopus Deploy](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/exploring-octopus-deploy-199x300.jpg)](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/)The prevalent method of packaging databases for Octopus Deploy is to use update scripts, along with a tool such as DbUp or ReadyRoll to perform the upgrade and manage which scripts have been run on each environment.
+[![Exploring Octopus Deploy](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/exploring-octopus-deploy.jpg)](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/)The prevalent method of packaging databases for Octopus Deploy is to use update scripts, along with a tool such as DbUp or ReadyRoll to perform the upgrade and manage which scripts have been run on each environment.
 
 If you are using Visual Studio Database projects, though, you’ll be interested in how to perform a model-based upgrade using your dacpac file. There are a few examples out there, but they seem a little over-complicated.
 

@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-![The Humans Are Dead](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/the-humans-are-dead-199x300.jpg)When an organisation sets out on the long and treacherous journey of adopting software test automation, it seems inevitable that they are doomed to repeat the mistakes that countless others have already made. It is hard to avoid the problems that congregate around this situation when adopting such a major new way of working, because it is unlikely that you already have the appropriate skills to hand. This problem is made worse by the myriad myths and legends of automation.
+![The Humans Are Dead](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/the-humans-are-dead.jpg)When an organisation sets out on the long and treacherous journey of adopting software test automation, it seems inevitable that they are doomed to repeat the mistakes that countless others have already made. It is hard to avoid the problems that congregate around this situation when adopting such a major new way of working, because it is unlikely that you already have the appropriate skills to hand. This problem is made worse by the myriad myths and legends of automation.
 
 > “Steve Fenton has great experience, a keen mind, and refreshing sense of humor. We need more testing books like this. What an amazing resource.” – David West
 

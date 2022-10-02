@@ -25,7 +25,7 @@ The problem is that you can’t reduce disk size in the Azure portal, compounded
 
 The chart below shows three zones. Zone A was using serverless SQL, which is super-easy to use but a bit pricey for the amount of reads and writes I was using. Zone B is when I switched to VMs, but accidentally added massive disks. Zone C is the cost saving when I made the disks “the right size”.
 
-[![Azure Cost Tracking and Saving](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/azure-cost-saving-1024x269.png)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/azure-cost-saving/)
+[![Azure Cost Tracking and Saving](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/azure-cost-saving.png)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/azure-cost-saving/)
 
 ### Checklist
 
@@ -83,11 +83,11 @@ Open up a session on the Virtual Machine and go to Start &gt; Computer Managemen
 
 Then select the disk management section. It will prompt you to initialize the disks.
 
-[![Initialize Disks](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/initialize-disks-in-disk-management-1024x813.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/initialize-disks-in-disk-management/)
+[![Initialize Disks](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/initialize-disks-in-disk-management.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/initialize-disks-in-disk-management/)
 
 The two disks will be listed with all 16 GB “Unallocated”, so we can right click and choose “New Simple Volume…” to complete the allocation wizard.
 
-[![Start Allocation Wizard](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/initialize-disks-new-simple-volume-1024x401.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/initialize-disks-new-simple-volume/)
+[![Start Allocation Wizard](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/initialize-disks-new-simple-volume.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/initialize-disks-new-simple-volume/)
 
 During this process, make a note of the disk drive letters you assign as we will need these shortly.
 
@@ -135,7 +135,7 @@ net stop MSSQLSERVER
 ```
 We can now return to Computer Management &gt; Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
 
-[![Change Drive Letter](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/change-drive-letter-and-paths-1024x445.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/change-drive-letter-and-paths/)
+[![Change Drive Letter](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/change-drive-letter-and-paths.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/change-drive-letter-and-paths/)
 
 Then select the “Change” button.
 

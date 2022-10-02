@@ -68,7 +68,7 @@ If we sum up the results (29 + 4) we get our weighted average, which is 33. That
 
 Here is diagram that shows all my workings for the above the numbers, feel free to try this out for yourself in Excel, a calculator, or even an abacus.
 
-![Average of Averages](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/average-of-averages-610x1024.jpg)
+![Average of Averages](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/average-of-averages.jpg)
 
 ### Summary
 

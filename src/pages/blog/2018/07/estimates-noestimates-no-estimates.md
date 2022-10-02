@@ -16,7 +16,7 @@ tags:
     - estimation
 ---
 
-![Mechanical Calculator](/wp-content/uploads/2018/07/mechanical-calculator-1024x682.jpg)  
+![Mechanical Calculator](/wp-content/uploads/2018/07/mechanical-calculator.jpg)  
 <small>Photo by [CEphoto, Uwe Aranas](https://commons.wikimedia.org/wiki/File:Mechanical-calculator-Brunsviga-15-01a.jpg)</small>
 
 I have said a thing or two about estimates in the past; and it generally leads to no good. What I do sometimes need to do is clarify my perspective, because people don’t get it. As always, definitions are important – so I’m to clarify what I think of when I talk about estimates, #NoEstimates, and no estimates.

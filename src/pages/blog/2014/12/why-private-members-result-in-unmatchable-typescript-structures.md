@@ -12,7 +12,7 @@ tags:
     - typescript
 ---
 
-[![Pro TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pro-typescript-199x300.jpg)](https://www.stevefenton.co.uk/publications/pro-typescript/)I covered this in detail in Pro TypeScript, but the question comes up often, so here is a quick refresher on how private members affect type matching in TypeScript’s structural type system. class CustomerId { constructor(private id: number) {} getId() { return this.id; } } class ProductId { constructor(private id: number) {} getId() { return this.id; } }
+[![Pro TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pro-typescript.jpg)](https://www.stevefenton.co.uk/publications/pro-typescript/)I covered this in detail in Pro TypeScript, but the question comes up often, so here is a quick refresher on how private members affect type matching in TypeScript’s structural type system. class CustomerId { constructor(private id: number) {} getId() { return this.id; } } class ProductId { constructor(private id: number) {} getId() { return this.id; } }
 
 If you create a new CustomerId, it cannot be assigned to a variable of type ProductId, despite the fact they *look* exactly identical. They both have a private property named “id” and a public method named “getId”.
 

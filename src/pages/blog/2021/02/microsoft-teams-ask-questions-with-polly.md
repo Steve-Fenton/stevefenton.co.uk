@@ -18,7 +18,7 @@ Microsoft Teams has a growing collection of apps that can be used to enhance you
 
 To install Polly, click on the triple-dot menu in any chat, search for “polly”, and select result for Polly in the list. It will install the app with a simple login with your Microsoft account.
 
-[![Getting Polly](https://www.stevefenton.co.uk/wp-content/uploads/2021/02/getting-polly-1024x605.jpg)](https://www.stevefenton.co.uk/2021/02/microsoft-teams-ask-questions-with-polly/getting-polly/)
+[![Getting Polly](https://www.stevefenton.co.uk/wp-content/uploads/2021/02/getting-polly.jpg)](https://www.stevefenton.co.uk/2021/02/microsoft-teams-ask-questions-with-polly/getting-polly/)
 
 ### Running a poll
 

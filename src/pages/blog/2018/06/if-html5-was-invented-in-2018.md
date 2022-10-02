@@ -15,7 +15,7 @@ tags:
     - 'random thought'
 ---
 
-![Thinking Cat](/wp-content/uploads/2018/06/Screenshot_2018-06-01-22-13-36-1024x681.jpg)
+![Thinking Cat](/wp-content/uploads/2018/06/Screenshot_2018-06-01-22-13-36.jpg)
 
 When HTML5 was created, the new elements came from a study of class names from millions of websites.
 

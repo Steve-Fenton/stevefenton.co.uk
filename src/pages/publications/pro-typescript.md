@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-![Pro TypeScript Second Edition](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pro-typescript-second-edition-199x300.png)
+![Pro TypeScript Second Edition](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pro-typescript-second-edition.png)
 
 Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler. This fully revised and updated second edition of Steve Fenton’s popular book covers everything you need to discover this fascinating language and transform your experience of JavaScript development.
 

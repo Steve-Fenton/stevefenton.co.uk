@@ -16,7 +16,7 @@ tags:
     - typescript
 ---
 
-![Cypress Tree](/wp-content/uploads/2018/06/cypress-tree-1024x681.jpg)
+![Cypress Tree](/wp-content/uploads/2018/06/cypress-tree.jpg)
 
 Cypress is a front-end testing utility that allows you to write UI tests using Mocha and Chai. It has auto-waits, time-travel (look back at snapshots from within test runs), and automatic discovery of tests. This blog provides a quick start for getting started with Cypress and TypeScript.
 
@@ -158,7 +158,7 @@ As soon as the compiler outputs the JavaScript files for this application, the U
 
 You can then click on it and it will run.
 
-![Cypress Runner](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/cypress-runner-1024x629.png)
+![Cypress Runner](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/cypress-runner.png)
 
 You can click on the steps displayed on the left-hand side of the runner (which is within whichever browser you selected) and it will show you the state of the system under test at that time.
 

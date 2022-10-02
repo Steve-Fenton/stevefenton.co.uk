@@ -14,7 +14,7 @@ tags:
     - 'risk management'
 ---
 
-![Sohnee at The Joiners Arms](/wp-content/uploads/2018/10/sohnee-joiners-arms-1024x681.jpg)
+![Sohnee at The Joiners Arms](/wp-content/uploads/2018/10/sohnee-joiners-arms.jpg)
 
 Risk Management was first made interesting for me by Tom DeMarco and Timothy Lister in *Waltzing with Bears*. If you want to know more about the subject, that’s a good place to start. But what is the difference between *materialisation* and *crystallisation* in the world of risk?
 

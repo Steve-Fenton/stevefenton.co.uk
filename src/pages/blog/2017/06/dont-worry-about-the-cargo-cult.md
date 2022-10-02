@@ -15,7 +15,7 @@ tags:
     - holocracy
 ---
 
-![Green Island, 1944](/wp-content/uploads/2017/06/green-island-1944-1024x688.jpg)
+![Green Island, 1944](/wp-content/uploads/2017/06/green-island-1944.jpg)
 
 One of the most famous tales in [Surely You’re Joking Mr Feynman](https://www.amazon.co.uk/Surely-Youre-Joking-Feynman-Adventures/dp/009917331X) must be the story of the Cargo Cult. The story concerns a group of people who, due to a war, had an airbase planted nearby. They saw all of the airplanes arriving with lots of amazing stuff on board, so when the airbase was later abandoned they set up an immitation airbase with a fake runway with fires lit along it and a wooden control tower with a man sat in it wearing pretend headphones made out of wood, with bamboo canes for antennas. They thought if they immitated what people at an airbase did, it would result in airplanes landing full of amazing stuff.
 

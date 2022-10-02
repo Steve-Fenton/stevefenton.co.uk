@@ -41,6 +41,6 @@ All of the gradients, colours, the second-hand, and other details are removed to
 
 The following picture was taken in a typical coffee shop, and demonstrates the low-power always-on watch face.
 
-![Sony SmartWatch 3 Transflective Display](https://www.stevefenton.co.uk/wp-content/uploads/2016/01/sony-smartwatch3-transflective-217x300.jpg)
+![Sony SmartWatch 3 Transflective Display](https://www.stevefenton.co.uk/wp-content/uploads/2016/01/sony-smartwatch3-transflective.jpg)
 
 So *if* the one compelling feature of Smart Watches appeals to you, you’d be hard pressed to find a better offering for this money. People are easily finding much worse for three or four times this money.

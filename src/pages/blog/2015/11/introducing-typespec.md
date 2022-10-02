@@ -13,7 +13,7 @@ tags:
     - typespec
 ---
 
-![TypeSpec Browser Ouput](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/typespec-browser-output-300x177.png)Having completed the [MVP roadmap](https://github.com/Steve-Fenton/TypeSpec/issues?q=milestone%3Av0.5), [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) is now available to use.
+![TypeSpec Browser Ouput](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/typespec-browser-output.png)Having completed the [MVP roadmap](https://github.com/Steve-Fenton/TypeSpec/issues?q=milestone%3Av0.5), [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) is now available to use.
 
 TypeSpec is a BDD framework for TypeScript designed to work with separate specifications written in the Given-When-Then style. It works in the browser (real or ghost), and on Node.
 

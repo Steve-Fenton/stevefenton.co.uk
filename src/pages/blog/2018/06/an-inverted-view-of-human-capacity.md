@@ -14,7 +14,7 @@ tags:
     - people
 ---
 
-![Soap Dispenser](/wp-content/uploads/2018/05/bathroom-dispenser-kitchen-86000-1024x682.jpg)
+![Soap Dispenser](/wp-content/uploads/2018/05/bathroom-dispenser-kitchen-86000.jpg)
 
 Human capacity is hard to understand, so we create metaphors to simplify things. When people talk about capacity, thought-bubbles emerge from the heads of some managers, revealing an interesting problem. They view capacity as a bucket into which you pour liquid-work until it is full. This metaphor for capacity leads to bad outcomes. Work isn’t like water; and people aren’t like buckets. Modern work is typically hard and oddly shaped. There is no way to plan work that will perfectly tessellate in order to fill every available cubic centimetre inside a bucket, so even if you knew the exact volume of each of these oddly shaped chunks you couldn’t simply add work using the formula: `bucket capacity minus chunk volume equals remaining capacity`.
 

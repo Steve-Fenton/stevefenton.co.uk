@@ -26,7 +26,7 @@ The cycle is simple. You have some information. You realise something that the i
 
 That’s the DITE cycle. Data -&gt; Insight -&gt; Theory -&gt; Experiment.
 
-![Data -> Insight -> Theory -> Experiment](/wp-content/uploads/2019/08/dite-cycle-1024x731.jpg)
+![Data -> Insight -> Theory -> Experiment](/wp-content/uploads/2019/08/dite-cycle.jpg)
 
 <aside>Why not a *bet*? While business is often about balancing risks and benefits and while the money we invest might not realise the expected return… you are going to isolate your execs if you start describing everything you do as a bet. Depending on your culture, betting might be associated with camel-coloured trenchcoats and people shouting at walls of televisions showing horse races. This isn’t the image you want to leverage to get people on board. The term *experiment* describes the process well, but brings to mind a more diciplined and rigorous image that is more likely to get people on board.</aside>### Start with small wins
 

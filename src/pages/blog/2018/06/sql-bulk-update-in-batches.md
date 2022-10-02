@@ -14,7 +14,7 @@ tags:
     - sql
 ---
 
-![A Pile of RAM](/wp-content/uploads/2018/06/a-pile-of-ram-1024x587.jpg)
+![A Pile of RAM](/wp-content/uploads/2018/06/a-pile-of-ram.jpg)
 
 When you perform a SQL bulk update, you *can* just press go and wait. Most humans, though, get an increasing feeling of impending doom when the clock ticks up towards several hours with no visible progress.
 

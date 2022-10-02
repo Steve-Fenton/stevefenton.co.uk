@@ -30,7 +30,7 @@ The actual number of cases in March 2020 based on the predictive model is ~50,00
 
 The measurement I have selected is hospital admissions. This metric is not dependent on self-reporting or the availability of testing. We can theorise that there is a strong relationship between the number of cases and the number of patients admitted to hospital. Using the data from the public dataset, we can construct the following chart.
 
-[![Original Coronavirus Data](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/original-coronavirus-data-1024x535.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/original-coronavirus-data/)
+[![Original Coronavirus Data](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/original-coronavirus-data.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/original-coronavirus-data/)
 
 The main suspect area in this cart appears on the left-hand side, where the number of hospital admissions seems high compared to the number of cases. There is a secondary suspect area on the right, where the media reported that the availability of tests was limited.
 
@@ -38,15 +38,15 @@ The main suspect area in this cart appears on the left-hand side, where the numb
 
 If we take the data “in the middle”, where we know there was a testing system in place (but before the tests started to run out), we can create the following chart based on a relationship between hospital admissions and cases.
 
-[![Coronavirus Adjusted Model](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-adjusted-cases-model-1024x532.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-adjusted-cases-model/)
+[![Coronavirus Adjusted Model](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-adjusted-cases-model.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-adjusted-cases-model/)
 
 The model suggests that the number of cases during the peak of the pandemic may have been in the region of 50,000 cases per day. This is significantly higher – in fact, so much higher we need to remain sceptical about the model. Let’s test the model on recent numbers.
 
-[![Model Prediction August/September](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-predicted-numbers-1024x535.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-predicted-numbers/)
+[![Model Prediction August/September](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-predicted-numbers.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-predicted-numbers/)
 
 And now lets look at the reported numbers for the same period.
 
-[![Coronavirus Reported Number August/September](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-actual-numbers-1024x532.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-actual-numbers/)
+[![Coronavirus Reported Number August/September](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/coronavirus-actual-numbers.jpg)](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/coronavirus-actual-numbers/)
 
 The model isn’t too far out from the reported numbers. The reality is likely to be in the same zone – in all probability, higher than being reported of the past week by some fifteen to twenty-five percent.
 

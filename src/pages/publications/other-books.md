@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-<div class="four-images">![TypeScript Succinctly](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/TypeScript-Succinctly-215x300.jpg)![The Odford English Dictionary](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/odford-211x300.jpg)![The Mag: The Early Years](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/6x9_Front_EN-199x300.jpg)![The Reason Your Website Sucks](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/the-reason-your-website-sucks-211x300.png)</div>### TypeScript Succinctly
+<div class="four-images">![TypeScript Succinctly](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/TypeScript-Succinctly.jpg)![The Odford English Dictionary](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/odford.jpg)![The Mag: The Early Years](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/6x9_Front_EN.jpg)![The Reason Your Website Sucks](https://www.stevefenton.co.uk/wp-content/uploads/2019/07/the-reason-your-website-sucks.png)</div>### TypeScript Succinctly
 
 > “…it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast” – [Ryan O’Neill](http://ryanoneill.com/typescript-succintly/)
 

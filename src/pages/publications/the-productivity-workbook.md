@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-[![Steve Fenton - The Productivity Workbook](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/the-productivity-workbook-305x400.jpg)](https://www.stevefenton.co.uk/publications/the-productivity-workbook/the-productivity-workbook/)
+[![Steve Fenton - The Productivity Workbook](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/the-productivity-workbook.jpg)](https://www.stevefenton.co.uk/publications/the-productivity-workbook/the-productivity-workbook/)
 
 ### Book overview
 

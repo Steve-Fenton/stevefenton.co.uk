@@ -16,7 +16,7 @@ description:
 
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" loading="lazy" src="https://www.youtube-nocookie.com/embed/LkIe4wYR1f8" style="min-width: 100%" width="560"></iframe>
 
-<div class="simple-grid"><div> [![It Doesn't Have to be Crazy at Work](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/idhtbcaw-265x400.jpg)](https://basecamp.com/books/calm) </div><div> ![The Manual](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/the-manual-262x400.jpg)</div></div>## Writing reminder
+<div class="simple-grid"><div> [![It Doesn't Have to be Crazy at Work](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/idhtbcaw.jpg)](https://basecamp.com/books/calm) </div><div> ![The Manual](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/the-manual.jpg)</div></div>## Writing reminder
 
 1. Research first
 2. Create an outline with… 

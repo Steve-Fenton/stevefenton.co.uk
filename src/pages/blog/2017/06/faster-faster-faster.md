@@ -14,7 +14,7 @@ tags:
     - process
 ---
 
-![Road Wings](/wp-content/uploads/2017/06/road-wings-1024x575.jpg)
+![Road Wings](/wp-content/uploads/2017/06/road-wings.jpg)
 
 I was listening to someone talking about being agile and lean in software development. The conversation was very interesting, but there was an underlying theme of urgency and efficiency that I found troubling. There is nothing wrong with delivering quickly, but we should never forget that “you can only go fast if you go right” (Uncle Bob). So when I’m hearing about how things have been made faster, faster, faster, and more efficient – I’m always hoping to hear just as much about discipline and practices that support the speed. The other troubling thought I had was that whenever the speed was mentioned, it was the software development that was being made faster and more efficient. We must also remember to see the whole, not just a part.
 

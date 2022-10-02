@@ -21,7 +21,7 @@ Perhaps the most famous example of quaductionism is the The Eisenhower Method, p
 
 … and in quaductionist terms:
 
-![Quaductionism](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/quaductionism-300x279.jpg)
+![Quaductionism](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/quaductionism.jpg)
 
 - Top-Left: Urgent *and* Important
 - Top-Right: Important (but not urgent)

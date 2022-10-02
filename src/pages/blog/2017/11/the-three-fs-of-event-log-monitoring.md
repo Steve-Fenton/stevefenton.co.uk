@@ -14,7 +14,7 @@ tags:
     - operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring-199x300.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)
+[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)
 
 This is one of a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about the Three Fs of event log monitoring.
 
@@ -60,4 +60,4 @@ If you can’t apply the Three Fs to your error, perhaps it is just being put in
 
 The perfect outcome of the Three Fs would be that you eventually end up with no event logs, ever. This may not actually be achievable, but you want to end up as close to ideal as you can. Just keep running the Three Fs on your most noisome event log entries until you get things under control.
 
-[![The Three Fs of Event Log Monitoring](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/Three-Fs-1024x381.png)](https://www.stevefenton.co.uk/2017/11/the-three-fs-of-event-log-monitoring/three-fs/)
+[![The Three Fs of Event Log Monitoring](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/Three-Fs.png)](https://www.stevefenton.co.uk/2017/11/the-three-fs-of-event-log-monitoring/three-fs/)

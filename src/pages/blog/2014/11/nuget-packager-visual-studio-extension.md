@@ -71,7 +71,7 @@ Update Package.nuspec… especially if you couldn’t name your project exactly 
     </summary>
     <language>en-US</language>
     <projectUrl>https://github.com/Steve-Fenton/tsUnit</projectUrl>
-    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright Steve Fenton 2012-2014</copyright>

@@ -22,19 +22,19 @@ A rapid introduction to the important metrics, charts, and monitoring concepts n
 
 [Find out more about Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/).
 
-</article><article>![Exploring Octopus Deploy](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/exploring-octopus-deploy-199x300.jpg)#### Exploring Octopus Deploy
+</article><article>![Exploring Octopus Deploy](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/exploring-octopus-deploy.jpg)#### Exploring Octopus Deploy
 
 An introduction to Octopus Deploy that shows you how to package, publish, and deploy your applications.
 
 [Read more about Exploring Octopus Deploy](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/).
 
-</article><article>![The Humans Are Dead](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/the-humans-are-dead-199x300.jpg)#### The Humans are Dead
+</article><article>![The Humans Are Dead](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/the-humans-are-dead.jpg)#### The Humans are Dead
 
 A short collection of thoughts on automation and, in particular, test automation. An Amazon Top 25 title.
 
 [Find out more about The Humans are Dead](https://www.stevefenton.co.uk/publications/the-humans-are-dead/).
 
-</article><article>![Cranked](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cranked-book-199x300.jpg)#### Cranked
+</article><article>![Cranked](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cranked-book.jpg)#### Cranked
 
 An overview of how our team created a process that enabled us to write software with zero defects.
 

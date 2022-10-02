@@ -86,6 +86,6 @@ A more general problem I have with the article in general is that it seems highl
 
 Steve McConnell wrote the definitive guide to estimation in [Software Estimation: Demystifying the Black Art](https://wordery.com/software-estimation-steve-mcconnell-9780735605350) (Microsoft Press). This book is backed by a great deal of well researched information from industry sources. It debunks the aforementioned article in great detail, despite being written more than a decade earlier. Mike Cohn has also written a book I refer to often, [Agile Estimating and Planning](https://wordery.com/agile-estimating-and-planning-mike-cohn-9780131479418), which brings solid estimation advice to iterative software development.
 
-![Software Estimation Books](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/software-estimation-books-400x317.jpg)
+![Software Estimation Books](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/software-estimation-books.jpg)
 
 Remember, you don’t always have to estimate. The [Phase Precision Premise](https://www.stevefenton.co.uk/2019/03/the-phase-precision-premise/) and the [Estimation Decision Flowchart](https://www.stevefenton.co.uk/2015/09/noestimates-in-practice/) may lead you to alternatives. When you *do* need to estimate, Steve and Mike have got you covered.

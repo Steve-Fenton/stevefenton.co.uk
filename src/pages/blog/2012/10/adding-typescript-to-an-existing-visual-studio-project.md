@@ -25,7 +25,7 @@ As of December 2013 things are a bit different than when I first wrote this arti
 
 If you are using Visual Studio 2013 and you have the [TypeScript Visual Studio Extension](https://www.typescriptlang.org/) installed, you’ll get the following message as soon as you add a TypeScript file to your project…
 
-![TypeScript Configured](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-configured-300x129.png)
+![TypeScript Configured](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-configured.png)
 
 If you don’t get this message, you’ll find that there are just a couple of lines you need to add to your project file:
 

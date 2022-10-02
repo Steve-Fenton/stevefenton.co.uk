@@ -14,7 +14,7 @@ tags:
     - sql
 ---
 
-![Shattering Glass Containing Buttons](/wp-content/uploads/2018/05/fragments-1024x680.jpg)
+![Shattering Glass Containing Buttons](/wp-content/uploads/2018/05/fragments.jpg)
 
 I was investigating an issue with am Azure SQL Server database that was much bigger than it ought to be. It was around 50 GB, but should really have been about 15 GB. I ran an old query I keep lying around that [finds the size of tables in a SQL database](https://www.stevefenton.co.uk/2016/05/finding-table-sizes-in-sql-server/) and there was a lot of unused space. Usually shrinking the database solves this issue, but it turns out I was experiencing a slightly different problem: SQL server index fragmentation.
 

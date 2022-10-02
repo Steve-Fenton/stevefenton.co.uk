@@ -5,7 +5,7 @@ title: 'A practical right-to-left example'
 pubDate: 2022-01-28T09:05:26+00:00
 author:
     - steve-fenton
-image: /wp-content/uploads/2022/01/task-board-scaled.jpg
+image: /wp-content/uploads/2022/01/task-board.jpg
 categories:
     - Process
 tags:
@@ -14,7 +14,7 @@ tags:
 
 The phrase ‘right-to-left’ is pretty well embedded in software development teams. There are some great works on Kanban and flow that discuss it in detail. Mike Burrows has a great book that is even called ‘Right to Left’. This article doesn’t replace or repeat all that good stuff, it’s just an example of right-to-left based on an anonymised screenshot of a task board that I have in front of me at this moment. I’m going to try and describe what arcs across my brain when I open up this map of the work.
 
-[![A task board. From the left there are columns named new, development, pull requests, dev test, deployed to test, testing, ready to release](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board-1024x436.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board/)
+[![A task board. From the left there are columns named new, development, pull requests, dev test, deployed to test, testing, ready to release](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board/)
 
 ### Board description
 
@@ -40,13 +40,13 @@ If the card awaiting testing has a lower version that the cards we want to deplo
 
 If the cards ready for release are versions 1 and 2, and the card ready to test is version 3… we hit that button and deploy the software. We update the board to show the cards are deployed.
 
-[![The task board has been updated with the changes](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board-2-1024x436.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board-2/)
+[![The task board has been updated with the changes](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board-2.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board-2/)
 
 Now we repeat the process, only this time the right-most card is the one waiting to be tested. That’s the next thing to do (and as it moves to the right, you’ll notice that we continue to focus on this card until it is off the board, because it always going to be the right-most card now we are thinking right-to-left). So, we focus on getting the card tested and then we focus on getting the card live.
 
 Each time we do this, we not only finish the card that is closest to completion, we are also clearing the path for any work that follows.
 
-[![The updated task board shows the potential for work to flow](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board-3-1024x436.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board-3/)
+[![The updated task board shows the potential for work to flow](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/task-board-3.jpg)](https://www.stevefenton.co.uk/2022/01/a-practical-right-to-left-example/task-board-3/)
 
 If we keep following this pattern, we naturally land on single-piece flow as a result of prioritising “finishing” over “starting” work. If you are working on a stack-ranked list of options, this benefits your “most important card” as no other work slows down the cycle time of the important work. This benefit is repeated as each “most important card” gets pulled from the to-do list.
 

@@ -25,7 +25,7 @@ GET https://www.example.com/ HTTP 1.1
 ```
 The extension will add a “Send Request” option above the request. When you click this, it will send the request and show you the response in another editor pane.
 
-![VSCode REST Client](https://www.stevefenton.co.uk/wp-content/uploads/2020/03/vscode-rest-client-1024x672.jpg)
+![VSCode REST Client](https://www.stevefenton.co.uk/wp-content/uploads/2020/03/vscode-rest-client.jpg)
 
 This is super-simple. The file is readable and can easily be shared with your team. You can also save the full response, or the response body into a file.
 

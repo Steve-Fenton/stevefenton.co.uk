@@ -23,7 +23,7 @@ Meh. This is a probably a bad example even of its kind. It doesn’t look like t
 
 I had to roll out the trusty [TypeScript pixel counter](https://www.stevefenton.co.uk/2018/01/typescript-pixel-counter/) to reverse-engineer the relative size of the segments. The output is shown below…
 
-![Pixel Counter Output](https://www.stevefenton.co.uk/wp-content/uploads/2020/01/pixel-counter-half-donut-1024x887.jpg)
+![Pixel Counter Output](https://www.stevefenton.co.uk/wp-content/uploads/2020/01/pixel-counter-half-donut.jpg)
 
 It gave me a working set of numbers with the values of the four areas being: Javascript 39%, Python 26%, Android 22%, PHP 13%.
 

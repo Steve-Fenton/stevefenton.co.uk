@@ -17,7 +17,7 @@ Full credit to Geoffrey Moore, whose seminal *Crossing the Chasm* keeps proving 
 
 In [Crossing the Chasm](https://wordery.com/crossing-the-chasm-3rd-edition-geoffrey-a-moore-9780062292988), Geoffrey Moore describes a process (aptly shown on the cover of the third edition) by which technology is adopted. Like all great ideas, it is more broadly applicable than you may realise. Anyway, the stages of the technology adoption lifecycle are…
 
-[![Crossing the Chasm Book Cover](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/crossing-the-chasm-1024x1024.jpg)](https://www.stevefenton.co.uk/skipping-the-chasm-how-a-crisis-accelerates-progress__trashed/crossing-the-chasm/)
+[![Crossing the Chasm Book Cover](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/crossing-the-chasm.jpg)](https://www.stevefenton.co.uk/skipping-the-chasm-how-a-crisis-accelerates-progress__trashed/crossing-the-chasm/)
 
 1. Innovators
 2. Early Adopters
