@@ -4,7 +4,7 @@ import { addSlashToAddress } from '@util/Url.astro';
 
 async function getData() {
   //@ts-ignore
-  const allArticles = import.meta.glob('./articles/**/*.md');
+  const allArticles = import.meta.glob('./blog/**/*.md');
   
   let articles = [];
   
@@ -39,7 +39,7 @@ async function getData() {
   <link href="${ SITE.url }/atom.xml" rel="self" />
   <link href="${ SITE.url }" />
   <id>${ SITE.url }/atom.xml</id>
-  <updated>${  articles[0].frontmatter.pubDate }</updated>
+  <updated>${ articles[0]?.frontmatter?.pubDate }</updated>
 ${items.join('')}
 </feed>`
   }
