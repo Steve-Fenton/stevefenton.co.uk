@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: Getting started: Microsoft Edge Tools for VS Code
+title: 'Getting started: Microsoft Edge Tools for VS Code'
 navMenu: false
 pubDate: 2021-04-08T11:59:43+01:00
 authors:
