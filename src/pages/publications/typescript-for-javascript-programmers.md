@@ -1,0 +1,18 @@
+---
+layout: src/layouts/Default.astro
+title: TypeScript for JavaScript Programmers
+navOrder: 8000
+pubDate: 2022-10-02
+keywords: 
+description: 
+---
+
+![TypeScript for JavaScript Programmers](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-199x300.png)This was the first book ever published on the TypeScript programming language. If you are looking to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](https://www.stevefenton.co.uk/publications/pro-typescript/).
+
+> This book is the perfect introduction, covering classes, interfaces, enumerations, generics and more. I found it very a useful way to learn the language and easily followed the clear and concise code examples. Thoroughly recommended.
+
+> This book is a great read. Like this review, it is short, to the point, and explains the key concepts clearly \[…\] Even if I do not end up using TypeScript, it has already taught me a few things I didn’t know about JavaScript.
+
+> This book takes you through each skill that you need to learn TypeScript step by step, so you can follow along and observe TypeScript in action. This is a short book, easy to read and follow, and you will know 99% of Typescript when you finish it.
+
+> As a C# developer who’s a little scared of Javascript, Typescript is now my preferred method of writing JavaScript. This book is the perfect introduction, covering classes, interfaces, enumerations, generics and more. I found it very a useful way to learn the language and easily followed the clear and concise code examples. Thoroughly recommended.

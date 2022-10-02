@@ -8,7 +8,4 @@ navSitemap: false
 pubDate: 2022-10-02
 keywords: steve fenton,blog
 description: Steve Fenton's blog.
-bannerImage:
-    src: /img/surface-accessories.png
-    alt: Dummy image
 ---
