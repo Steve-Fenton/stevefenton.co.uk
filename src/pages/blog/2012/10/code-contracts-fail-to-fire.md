@@ -1,9 +1,10 @@
 ---
 id: 714
+layout: src/layouts/Default.astro
 title: 'Code contracts fail to fire'
-pubDate: '2012-10-09T23:30:50+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-09T23:30:50+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=714'
 permalink: /2012/10/code-contracts-fail-to-fire/
 interface_sidebarlayout:

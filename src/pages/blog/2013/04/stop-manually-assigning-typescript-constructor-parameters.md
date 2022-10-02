@@ -1,9 +1,10 @@
 ---
 id: 617
+layout: src/layouts/Default.astro
 title: 'Stop manually assigning TypeScript constructor parameters'
-pubDate: '2013-04-15T15:13:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-04-15T15:13:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=617'
 permalink: /2013/04/stop-manually-assigning-typescript-constructor-parameters/
 interface_sidebarlayout:

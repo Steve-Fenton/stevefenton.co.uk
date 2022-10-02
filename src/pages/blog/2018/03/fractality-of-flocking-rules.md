@@ -1,9 +1,10 @@
 ---
 id: 3387
+layout: src/layouts/Default.astro
 title: 'Fractality of Flocking Rules'
-pubDate: '2018-03-13T08:58:58+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-03-13T08:58:58+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3387'
 permalink: /2018/03/fractality-of-flocking-rules/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 3756
+layout: src/layouts/Default.astro
 title: 'Is DevOps a replacement for Agile?'
-pubDate: '2018-06-21T07:00:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-21T07:00:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3756'
 permalink: /2018/06/is-devops-a-replacement-for-agile/
 medium_post:

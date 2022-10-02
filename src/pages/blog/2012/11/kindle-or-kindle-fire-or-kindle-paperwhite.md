@@ -1,9 +1,10 @@
 ---
 id: 698
+layout: src/layouts/Default.astro
 title: 'Kindle or Kindle Fire or Kindle Paperwhite'
-pubDate: '2012-11-12T23:06:48+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-12T23:06:48+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=698'
 permalink: /2012/11/kindle-or-kindle-fire-or-kindle-paperwhite/
 interface_sidebarlayout:

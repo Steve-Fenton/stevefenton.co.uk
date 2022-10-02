@@ -1,9 +1,10 @@
 ---
 id: 1308
+layout: src/layouts/Default.astro
 title: 'Conditionally add filters only when a value is supplied'
-pubDate: '2015-07-25T07:30:26+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-25T07:30:26+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1308'
 permalink: /2015/07/conditionally-add-filters-only-when-a-value-is-supplied/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 532
+layout: src/layouts/Default.astro
 title: 'How much do you want to spend on estimates'
-pubDate: '2013-08-01T11:38:04+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-08-01T11:38:04+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=532'
 permalink: /2013/08/how-much-do-you-want-to-spend-on-estimates/
 interface_sidebarlayout:

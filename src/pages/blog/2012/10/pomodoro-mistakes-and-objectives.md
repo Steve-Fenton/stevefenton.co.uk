@@ -1,9 +1,10 @@
 ---
 id: 712
+layout: src/layouts/Default.astro
 title: 'Pomodoro mistakes and objectives'
-pubDate: '2012-10-17T23:29:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-17T23:29:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=712'
 permalink: /2012/10/pomodoro-mistakes-and-objectives/
 interface_sidebarlayout:

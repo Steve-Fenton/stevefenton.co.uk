@@ -1,9 +1,10 @@
 ---
 id: 969
+layout: src/layouts/Default.astro
 title: 'Find the process Id for an application pool'
-pubDate: '2011-03-24T19:44:39+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-03-24T19:44:39+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=969'
 permalink: /2011/03/find-the-process-id-for-an-application-pool/
 interface_sidebarlayout:

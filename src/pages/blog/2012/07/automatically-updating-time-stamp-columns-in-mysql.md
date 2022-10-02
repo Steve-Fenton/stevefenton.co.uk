@@ -1,9 +1,10 @@
 ---
 id: 768
+layout: src/layouts/Default.astro
 title: 'Automatically updating time stamp columns in MySql'
-pubDate: '2012-07-23T15:34:41+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-07-23T15:34:41+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=768'
 permalink: /2012/07/automatically-updating-time-stamp-columns-in-mysql/
 interface_sidebarlayout:

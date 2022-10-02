@@ -1,9 +1,10 @@
 ---
 id: 6391
+layout: src/layouts/Default.astro
 title: 'Html.RenderAction equivalent in .NET Core MVC'
-pubDate: '2019-08-28T23:25:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-08-28T23:25:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6391'
 permalink: /2019/08/html-renderaction-equivalent-in-net-core-mvc/
 categories:

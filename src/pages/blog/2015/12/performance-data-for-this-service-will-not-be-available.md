@@ -1,9 +1,10 @@
 ---
 id: 1605
+layout: src/layouts/Default.astro
 title: 'Performance data for this service will not be available'
-pubDate: '2015-12-29T11:01:35+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-29T11:01:35+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1605'
 permalink: /2015/12/performance-data-for-this-service-will-not-be-available/
 categories:

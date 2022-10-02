@@ -1,9 +1,10 @@
 ---
 id: 683
+layout: src/layouts/Default.astro
 title: 'The Dreyfus Model mistake in software development'
-pubDate: '2012-12-03T22:40:58+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-12-03T22:40:58+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=683'
 permalink: /2012/12/the-dreyfus-model-mistake-in-software-development/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 1053
+layout: src/layouts/Default.astro
 title: 'Search Titles Only with Windows Search'
-pubDate: '2010-03-09T22:03:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-03-09T22:03:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1053'
 permalink: /2010/03/search-titles-only-with-windows-search/
 interface_sidebarlayout:

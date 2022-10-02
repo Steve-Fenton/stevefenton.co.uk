@@ -1,9 +1,10 @@
 ---
 id: 13007
+layout: src/layouts/Default.astro
 title: 'Partially cleaned hotel rooms'
-pubDate: '2022-07-04T17:21:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-07-04T17:21:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13007'
 permalink: /2022/07/partially-cleaned-hotel-rooms/
 categories:

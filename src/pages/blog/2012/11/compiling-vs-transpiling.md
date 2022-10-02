@@ -1,9 +1,10 @@
 ---
 id: 694
+layout: src/layouts/Default.astro
 title: 'Compiling vs Transpiling'
-pubDate: '2012-11-18T23:02:16+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-18T23:02:16+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=694'
 permalink: /2012/11/compiling-vs-transpiling/
 interface_sidebarlayout:

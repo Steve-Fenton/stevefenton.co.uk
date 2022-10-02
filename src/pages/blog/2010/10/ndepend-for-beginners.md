@@ -1,9 +1,10 @@
 ---
 id: 1003
+layout: src/layouts/Default.astro
 title: 'NDepend for Beginners'
-pubDate: '2010-10-03T20:40:23+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-10-03T20:40:23+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1003'
 permalink: /2010/10/ndepend-for-beginners/
 interface_sidebarlayout:

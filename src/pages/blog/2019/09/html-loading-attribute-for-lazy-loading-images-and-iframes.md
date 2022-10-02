@@ -1,9 +1,10 @@
 ---
 id: 6475
+layout: src/layouts/Default.astro
 title: 'HTML loading attribute for lazy loading images and iframes'
-pubDate: '2019-09-16T14:15:35+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-09-16T14:15:35+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6475'
 permalink: /2019/09/html-loading-attribute-for-lazy-loading-images-and-iframes/
 categories:

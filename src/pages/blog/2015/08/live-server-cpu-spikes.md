@@ -1,9 +1,10 @@
 ---
 id: 1391
+layout: src/layouts/Default.astro
 title: 'Live server CPU spikes'
-pubDate: '2015-08-21T07:30:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-21T07:30:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1391'
 permalink: /2015/08/live-server-cpu-spikes/
 categories:

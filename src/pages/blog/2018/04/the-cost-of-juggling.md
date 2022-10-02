@@ -1,9 +1,10 @@
 ---
 id: 3460
+layout: src/layouts/Default.astro
 title: 'The cost of juggling'
-pubDate: '2018-04-20T20:14:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-04-20T20:14:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3460'
 permalink: /2018/04/the-cost-of-juggling/
 medium_post:

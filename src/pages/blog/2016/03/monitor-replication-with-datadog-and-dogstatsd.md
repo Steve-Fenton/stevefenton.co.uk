@@ -1,9 +1,10 @@
 ---
 id: 1711
+layout: src/layouts/Default.astro
 title: 'Monitor replication with DataDog and DogStatsd'
-pubDate: '2016-03-08T06:00:47+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-03-08T06:00:47+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1711'
 permalink: /2016/03/monitor-replication-with-datadog-and-dogstatsd/
 categories:

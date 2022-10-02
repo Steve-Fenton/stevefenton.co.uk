@@ -1,9 +1,10 @@
 ---
 id: 2503
+layout: src/layouts/Default.astro
 title: 'Continuous delivery and JavaScript bundling'
-pubDate: '2017-10-12T06:00:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-12T06:00:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2503'
 permalink: /2017/10/continuous-delivery-javascript-bundling/
 categories:

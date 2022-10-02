@@ -1,9 +1,10 @@
 ---
 id: 5915
+layout: src/layouts/Default.astro
 title: 'The disheartening early phase of cycle times'
-pubDate: '2019-05-14T21:00:41+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-05-14T21:00:41+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5915'
 permalink: /2019/05/the-disheartening-early-phase-of-cycle-times/
 image: /wp-content/uploads/2019/05/early-cycle-time.jpg

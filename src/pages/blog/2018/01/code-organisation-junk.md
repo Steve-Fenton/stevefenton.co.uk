@@ -1,9 +1,10 @@
 ---
 id: 3262
+layout: src/layouts/Default.astro
 title: 'Code organisation and junk'
-pubDate: '2018-01-05T06:00:45+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-01-05T06:00:45+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3262'
 permalink: /2018/01/code-organisation-junk/
 categories:

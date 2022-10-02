@@ -1,9 +1,10 @@
 ---
 id: 359
+layout: src/layouts/Default.astro
 title: 'Using Unity with WebAPI Testing'
-pubDate: '2014-05-05T22:17:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-05-05T22:17:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=359'
 permalink: /2014/05/using-unity-with-webapi-testing/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 2059
+layout: src/layouts/Default.astro
 title: 'Pie charts &#8211; The quick version'
-pubDate: '2017-05-09T08:24:48+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-05-09T08:24:48+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2059'
 permalink: /2017/05/pie-charts-the-quick-version/
 categories:

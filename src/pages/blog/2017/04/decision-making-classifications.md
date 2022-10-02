@@ -1,9 +1,10 @@
 ---
 id: 2047
+layout: src/layouts/Default.astro
 title: 'Decision making classifications'
-pubDate: '2017-04-24T12:16:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-04-24T12:16:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2047'
 permalink: /2017/04/decision-making-classifications/
 medium_post:

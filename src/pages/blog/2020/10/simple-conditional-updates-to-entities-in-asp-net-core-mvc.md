@@ -1,9 +1,10 @@
 ---
 id: 9932
+layout: src/layouts/Default.astro
 title: 'Simple conditional updates to entities in ASP.NET Core MVC'
-pubDate: '2020-10-11T10:07:28+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-10-11T10:07:28+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9932'
 permalink: /2020/10/simple-conditional-updates-to-entities-in-asp-net-core-mvc/
 categories:

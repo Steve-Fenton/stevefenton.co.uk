@@ -1,9 +1,10 @@
 ---
 id: 3538
+layout: src/layouts/Default.astro
 title: 'Principles of Object-Oriented Living (OOL)'
-pubDate: '2018-05-23T07:00:02+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-23T07:00:02+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3538'
 permalink: /2018/05/principles-of-object-oriented-living-ool/
 medium_post:

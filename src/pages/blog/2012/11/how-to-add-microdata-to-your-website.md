@@ -1,9 +1,10 @@
 ---
 id: 689
+layout: src/layouts/Default.astro
 title: 'How to add Microdata to your website'
-pubDate: '2012-11-28T22:48:31+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-28T22:48:31+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=689'
 permalink: /2012/11/how-to-add-microdata-to-your-website/
 interface_sidebarlayout:

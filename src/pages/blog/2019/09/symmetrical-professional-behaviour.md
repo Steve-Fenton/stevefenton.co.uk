@@ -1,9 +1,10 @@
 ---
 id: 6518
+layout: src/layouts/Default.astro
 title: 'Symmetrical Professional Behaviour'
-pubDate: '2019-09-23T16:28:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-09-23T16:28:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6518'
 permalink: /2019/09/symmetrical-professional-behaviour/
 categories:

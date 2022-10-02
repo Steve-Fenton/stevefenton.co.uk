@@ -1,9 +1,10 @@
 ---
 id: 6152
+layout: src/layouts/Default.astro
 title: 'Stand away from the edge: Thinking about edge workers'
-pubDate: '2019-06-24T12:27:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-06-24T12:27:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6152'
 permalink: /2019/06/stand-away-from-the-edge-thinking-about-edge-workers/
 image: /wp-content/uploads/2019/06/mind-the-gap.jpg

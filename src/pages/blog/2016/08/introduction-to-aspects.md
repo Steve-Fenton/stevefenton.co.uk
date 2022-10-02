@@ -1,9 +1,10 @@
 ---
 id: 1879
+layout: src/layouts/Default.astro
 title: 'Introduction to Aspects'
-pubDate: '2016-08-05T06:00:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-05T06:00:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1879'
 permalink: /2016/08/introduction-to-aspects/
 medium_post:

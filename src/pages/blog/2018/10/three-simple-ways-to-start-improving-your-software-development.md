@@ -1,9 +1,10 @@
 ---
 id: 4019
+layout: src/layouts/Default.astro
 title: 'Simple ways to improve your software development process'
-pubDate: '2018-10-06T12:00:55+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-10-06T12:00:55+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4019'
 permalink: /2018/10/three-simple-ways-to-start-improving-your-software-development/
 medium_post:

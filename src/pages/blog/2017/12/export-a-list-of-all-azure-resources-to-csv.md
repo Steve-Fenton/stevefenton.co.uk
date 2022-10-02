@@ -1,9 +1,10 @@
 ---
 id: 3179
+layout: src/layouts/Default.astro
 title: 'Export a list of all Azure resources to CSV'
-pubDate: '2017-12-04T13:43:33+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-12-04T13:43:33+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3179'
 permalink: /2017/12/export-a-list-of-all-azure-resources-to-csv/
 categories:

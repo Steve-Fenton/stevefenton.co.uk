@@ -1,9 +1,10 @@
 ---
 id: 11464
+layout: src/layouts/Default.astro
 title: 'Strings contain empty strings'
-pubDate: '2021-03-16T11:13:21+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-03-16T11:13:21+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11464'
 permalink: /2021/03/strings-contain-empty-strings/
 categories:

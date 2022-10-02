@@ -1,9 +1,10 @@
 ---
 id: 279
+layout: src/layouts/Default.astro
 title: 'Use NuGet to satisfy open-source license conditions'
-pubDate: '2014-09-09T20:52:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-09T20:52:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=279'
 permalink: /2014/09/use-nuget-to-satisfy-open-source-license-conditions/
 interface_sidebarlayout:

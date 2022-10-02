@@ -1,9 +1,10 @@
 ---
 id: 1496
+layout: src/layouts/Default.astro
 title: 'Setting the default start-up project in Visual Studio'
-pubDate: '2015-10-28T08:12:59+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-28T08:12:59+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1496'
 permalink: /2015/10/setting-the-default-start-up-project-in-visual-studio/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 475
+layout: src/layouts/Default.astro
 title: 'Remove duplication from your web and app config files'
-pubDate: '2013-12-06T09:49:15+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-12-06T09:49:15+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=475'
 permalink: /2013/12/remove-duplication-from-your-web-and-app-config-files/
 interface_sidebarlayout:

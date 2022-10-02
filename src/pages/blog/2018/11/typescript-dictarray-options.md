@@ -1,9 +1,10 @@
 ---
 id: 4189
+layout: src/layouts/Default.astro
 title: 'TypeScript Dictarray options'
-pubDate: '2018-11-14T09:21:48+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-14T09:21:48+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4189'
 permalink: /2018/11/typescript-dictarray-options/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 473
+layout: src/layouts/Default.astro
 title: 'Hey TypeScript! Where are my compiled JavaScript files'
-pubDate: '2013-12-07T09:48:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-12-07T09:48:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=473'
 permalink: /2013/12/hey-typescript-where-are-my-compiled-javascript-files/
 interface_sidebarlayout:

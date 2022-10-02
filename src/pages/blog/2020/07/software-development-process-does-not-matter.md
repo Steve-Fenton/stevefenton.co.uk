@@ -1,9 +1,10 @@
 ---
 id: 8917
+layout: src/layouts/Default.astro
 title: 'Software development: Process does not matter'
-pubDate: '2020-07-08T19:03:25+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-07-08T19:03:25+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8917'
 permalink: /2020/07/software-development-process-does-not-matter/
 image: /wp-content/uploads/2020/07/process-quadrants-of-intent.jpg

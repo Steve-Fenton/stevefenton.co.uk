@@ -1,9 +1,10 @@
 ---
 id: 386
+layout: src/layouts/Default.astro
 title: 'Surgical team vs foreman metaphors'
-pubDate: '2014-02-26T22:41:50+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-02-26T22:41:50+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=386'
 permalink: /2014/02/surgical-team-vs-foreman-metaphors/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 808
+layout: src/layouts/Default.astro
 title: 'Test your website for colour blindness issues'
-pubDate: '2012-04-29T16:16:00+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-04-29T16:16:00+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=808'
 permalink: /2012/04/test-your-website-for-colour-blindness-issues/
 interface_sidebarlayout:

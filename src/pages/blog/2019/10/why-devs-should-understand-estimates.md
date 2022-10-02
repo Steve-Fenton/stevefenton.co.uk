@@ -1,9 +1,10 @@
 ---
 id: 6592
+layout: src/layouts/Default.astro
 title: 'Why devs (should) understand estimates'
-pubDate: '2019-10-24T13:30:11+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-10-24T13:30:11+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6592'
 permalink: /2019/10/why-devs-should-understand-estimates/
 image: /wp-content/uploads/2019/10/software-estimation-books.jpg

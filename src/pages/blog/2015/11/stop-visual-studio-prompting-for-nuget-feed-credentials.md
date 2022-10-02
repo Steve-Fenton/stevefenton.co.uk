@@ -1,9 +1,10 @@
 ---
 id: 1515
+layout: src/layouts/Default.astro
 title: 'Stop Visual Studio prompting for NuGet feed credentials'
-pubDate: '2015-11-19T06:00:40+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-11-19T06:00:40+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1515'
 permalink: /2015/11/stop-visual-studio-prompting-for-nuget-feed-credentials/
 categories:

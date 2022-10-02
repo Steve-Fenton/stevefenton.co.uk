@@ -1,9 +1,10 @@
 ---
 id: 413
+layout: src/layouts/Default.astro
 title: 'The Flux Capacitor of influence'
-pubDate: '2014-02-05T23:07:40+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-02-05T23:07:40+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=413'
 permalink: /2014/02/the-flux-capacitor-of-influence/
 interface_sidebarlayout:

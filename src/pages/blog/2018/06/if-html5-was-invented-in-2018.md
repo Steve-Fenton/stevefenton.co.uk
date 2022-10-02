@@ -1,9 +1,10 @@
 ---
 id: 3575
+layout: src/layouts/Default.astro
 title: 'If HTML5 was invented in 2018'
-pubDate: '2018-06-01T22:19:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-01T22:19:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3575'
 permalink: /2018/06/if-html5-was-invented-in-2018/
 medium_post:

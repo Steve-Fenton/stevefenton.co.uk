@@ -1,9 +1,10 @@
 ---
 id: 4024
+layout: src/layouts/Default.astro
 title: 'Passing audits with Azure DevOps'
-pubDate: '2018-10-07T08:00:37+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-10-07T08:00:37+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4024'
 permalink: /2018/10/passing-audits-with-azure-devops/
 medium_post:

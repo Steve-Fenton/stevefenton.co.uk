@@ -1,9 +1,10 @@
 ---
 id: 13104
+layout: src/layouts/Default.astro
 title: 'Reading site.config and site.data in Jekyll Plugins and Liquid Filters'
-pubDate: '2022-09-13T09:56:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-09-13T09:56:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13104'
 permalink: /2022/09/reading-site-config-and-site-data-in-jekyll-plugins-and-liquid-filters/
 meta_description:

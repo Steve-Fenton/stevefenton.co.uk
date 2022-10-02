@@ -1,9 +1,10 @@
 ---
 id: 1377
+layout: src/layouts/Default.astro
 title: 'The NoEstimates philosophical divide'
-pubDate: '2015-08-11T17:30:26+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-11T17:30:26+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1377'
 permalink: /2015/08/the-no-estimates-philosophical-divide/
 medium_post:

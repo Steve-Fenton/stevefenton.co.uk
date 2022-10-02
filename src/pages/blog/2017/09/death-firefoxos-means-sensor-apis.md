@@ -1,9 +1,10 @@
 ---
 id: 2296
+layout: src/layouts/Default.astro
 title: 'What the death of FirefoxOS means for sensor APIs'
-pubDate: '2017-09-09T15:29:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-09-09T15:29:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2296'
 permalink: /2017/09/death-firefoxos-means-sensor-apis/
 categories:

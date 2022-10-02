@@ -1,9 +1,10 @@
 ---
 id: 481
+layout: src/layouts/Default.astro
 title: 'Mind your language'
-pubDate: '2013-12-01T10:00:55+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-12-01T10:00:55+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=481'
 permalink: /2013/12/mind-your-language/
 interface_sidebarlayout:

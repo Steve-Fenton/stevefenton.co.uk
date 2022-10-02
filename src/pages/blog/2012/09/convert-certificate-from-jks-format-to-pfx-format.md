@@ -1,9 +1,10 @@
 ---
 id: 734
+layout: src/layouts/Default.astro
 title: 'Convert a certificate from JKS format to PFX format'
-pubDate: '2012-09-24T23:54:20+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-24T23:54:20+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=734'
 permalink: /2012/09/convert-certificate-from-jks-format-to-pfx-format/
 interface_sidebarlayout:

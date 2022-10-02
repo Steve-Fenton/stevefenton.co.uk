@@ -1,9 +1,10 @@
 ---
 id: 916
+layout: src/layouts/Default.astro
 title: 'Why it is still important for a page to work without JavaScript'
-pubDate: '2011-08-09T17:55:18+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-08-09T17:55:18+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=916'
 permalink: /2011/08/why-it-is-still-important-for-a-page-to-work-without-javascript/
 interface_sidebarlayout:

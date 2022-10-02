@@ -1,9 +1,10 @@
 ---
 id: 1360
+layout: src/layouts/Default.astro
 title: 'HTML and CSS full screen layout without fuss'
-pubDate: '2015-08-10T07:30:02+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-10T07:30:02+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1360'
 permalink: /2015/08/html-and-css-full-screen-layout-without-fuss/
 categories:

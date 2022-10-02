@@ -1,9 +1,10 @@
 ---
 id: 2134
+layout: src/layouts/Default.astro
 title: 'SpecFlow living documentation VSTS extension'
-pubDate: '2017-08-01T08:47:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-08-01T08:47:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2134'
 permalink: /2017/08/specflow-living-documentation-vsts-extension/
 categories:

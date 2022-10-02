@@ -1,9 +1,10 @@
 ---
 id: 933
+layout: src/layouts/Default.astro
 title: 'Run multiple websites on the same IP address and port; even over SSL'
-pubDate: '2011-06-06T18:09:23+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-06-06T18:09:23+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=933'
 permalink: /2011/06/run-multiple-websites-on-the-same-ip-address-and-port-even-over-ssl/
 interface_sidebarlayout:

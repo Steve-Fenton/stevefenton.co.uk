@@ -1,9 +1,10 @@
 ---
 id: 2224
+layout: src/layouts/Default.astro
 title: 'If&#8230;'
-pubDate: '2017-08-18T05:00:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-08-18T05:00:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2224'
 permalink: /2017/08/if/
 categories:

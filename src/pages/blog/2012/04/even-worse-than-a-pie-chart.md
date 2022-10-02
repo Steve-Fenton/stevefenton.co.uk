@@ -1,9 +1,10 @@
 ---
 id: 814
+layout: src/layouts/Default.astro
 title: 'Even worse than a pie chart'
-pubDate: '2012-04-19T16:21:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-04-19T16:21:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=814'
 permalink: /2012/04/even-worse-than-a-pie-chart/
 interface_sidebarlayout:

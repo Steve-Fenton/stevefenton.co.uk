@@ -1,9 +1,10 @@
 ---
 id: 339
+layout: src/layouts/Default.astro
 title: 'Definition of estimates'
-pubDate: '2014-06-16T21:53:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-06-16T21:53:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=339'
 permalink: /2014/06/definition-of-estimates/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 642
+layout: src/layouts/Default.astro
 title: '5 annoying social media techniques'
-pubDate: '2013-02-26T21:46:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-02-26T21:46:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=642'
 permalink: /2013/02/5-annoying-social-media-techniques/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 6832
+layout: src/layouts/Default.astro
 title: 'Half-donut charts are still pie charts'
-pubDate: '2020-01-01T20:56:17+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-01-01T20:56:17+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6832'
 permalink: /2020/01/half-donut-charts-are-still-pie-charts/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 1478
+layout: src/layouts/Default.astro
 title: 'Social media conversations'
-pubDate: '2015-10-14T07:00:31+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-14T07:00:31+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1478'
 permalink: /2015/10/social-media-conversations/
 categories:

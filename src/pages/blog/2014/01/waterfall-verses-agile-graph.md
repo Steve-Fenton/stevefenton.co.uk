@@ -1,9 +1,10 @@
 ---
 id: 422
+layout: src/layouts/Default.astro
 title: 'Waterfall vs Agile graph'
-pubDate: '2014-01-31T23:13:25+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-01-31T23:13:25+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=422'
 permalink: /2014/01/waterfall-verses-agile-graph/
 interface_sidebarlayout:

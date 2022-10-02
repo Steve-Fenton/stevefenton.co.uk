@@ -1,9 +1,10 @@
 ---
 id: 371
+layout: src/layouts/Default.astro
 title: 'Real Linq-style operations using ECMAScript 6'
-pubDate: '2014-03-21T22:27:58+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-03-21T22:27:58+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=371'
 permalink: /2014/03/real-linq-style-operations-using-ecmascript-6/
 interface_sidebarlayout:

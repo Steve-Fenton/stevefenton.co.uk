@@ -1,9 +1,10 @@
 ---
 id: 604
+layout: src/layouts/Default.astro
 title: 'Time to say goodbye to chickens And pigs'
-pubDate: '2013-04-26T14:53:01+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-04-26T14:53:01+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=604'
 permalink: /2013/04/time-to-say-goodbye-to-chickens-and-pigs/
 interface_sidebarlayout:

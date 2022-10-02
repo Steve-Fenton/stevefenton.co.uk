@@ -1,9 +1,10 @@
 ---
 id: 12983
+layout: src/layouts/Default.astro
 title: 'Defer YouTube Videos'
-pubDate: '2022-06-12T11:23:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-06-12T11:23:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12983'
 permalink: /2022/06/defer-youtube-videos/
 categories:

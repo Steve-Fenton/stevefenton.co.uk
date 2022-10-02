@@ -1,9 +1,10 @@
 ---
 id: 588
+layout: src/layouts/Default.astro
 title: 'Estimating with time and relative sizes'
-pubDate: '2013-05-15T14:25:33+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-05-15T14:25:33+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=588'
 permalink: /2013/05/estimating-with-time-and-relative-sizes/
 interface_sidebarlayout:

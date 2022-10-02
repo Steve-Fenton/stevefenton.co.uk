@@ -1,9 +1,10 @@
 ---
 id: 2033
+layout: src/layouts/Default.astro
 title: 'Work prioritisation vs stack ranking'
-pubDate: '2017-03-24T06:00:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-03-24T06:00:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2033'
 permalink: /2017/03/work-prioritisation-vs-stack-ranking/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 4333
+layout: src/layouts/Default.astro
 title: 'TypeScript NotFunction type'
-pubDate: '2018-11-24T12:09:48+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-24T12:09:48+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4333'
 permalink: /2018/11/typescript-notfunction-type/
 medium_post:

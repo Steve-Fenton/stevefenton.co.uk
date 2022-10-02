@@ -1,9 +1,10 @@
 ---
 id: 1594
+layout: src/layouts/Default.astro
 title: 'One way to never send an email from your test environment'
-pubDate: '2015-12-16T22:00:20+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-16T22:00:20+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1594'
 permalink: /2015/12/one-way-to-never-send-an-email-from-your-test-environment/
 categories:

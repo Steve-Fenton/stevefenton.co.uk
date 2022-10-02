@@ -1,9 +1,10 @@
 ---
 id: 1051
+layout: src/layouts/Default.astro
 title: 'The Specified Directory Service Attribute or Value Does Not Exist'
-pubDate: '2010-03-16T22:02:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-03-16T22:02:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1051'
 permalink: /2010/03/the-specified-directory-service-attribute-or-value-does-not-exist/
 interface_sidebarlayout:

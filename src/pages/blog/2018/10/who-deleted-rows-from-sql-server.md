@@ -1,9 +1,10 @@
 ---
 id: 4028
+layout: src/layouts/Default.astro
 title: 'Who deleted rows from SQL Server'
-pubDate: '2018-10-09T06:00:56+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-10-09T06:00:56+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4028'
 permalink: /2018/10/who-deleted-rows-from-sql-server/
 medium_post:

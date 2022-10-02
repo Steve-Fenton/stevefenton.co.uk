@@ -1,9 +1,10 @@
 ---
 id: 384
+layout: src/layouts/Default.astro
 title: 'Should spikes be estimated'
-pubDate: '2014-03-03T22:41:05+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-03-03T22:41:05+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=384'
 permalink: /2014/03/should-spikes-be-estimated/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 289
+layout: src/layouts/Default.astro
 title: 'Cannot compile external modules unless the module flag is provided'
-pubDate: '2014-09-05T21:02:12+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-05T21:02:12+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=289'
 permalink: /2014/09/cannot-compile-external-modules-unless-the-module-flag-is-provided/
 interface_sidebarlayout:

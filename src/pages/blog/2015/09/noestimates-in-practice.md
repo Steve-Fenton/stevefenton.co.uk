@@ -1,9 +1,10 @@
 ---
 id: 1412
+layout: src/layouts/Default.astro
 title: '#NoEstimates in practice'
-pubDate: '2015-09-10T07:00:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-09-10T07:00:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1412'
 permalink: /2015/09/noestimates-in-practice/
 medium_post:

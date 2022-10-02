@@ -1,9 +1,10 @@
 ---
 id: 3564
+layout: src/layouts/Default.astro
 title: 'An inverted view of human capacity'
-pubDate: '2018-06-01T07:00:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-01T07:00:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3564'
 permalink: /2018/06/an-inverted-view-of-human-capacity/
 medium_post:

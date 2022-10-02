@@ -1,9 +1,10 @@
 ---
 id: 309
+layout: src/layouts/Default.astro
 title: 'Open-source contribution graph and competitive eating'
-pubDate: '2014-08-01T21:26:55+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-08-01T21:26:55+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=309'
 permalink: /2014/08/open-source-contribution-graph-and-competitive-eating/
 interface_sidebarlayout:

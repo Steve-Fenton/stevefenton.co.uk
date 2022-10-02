@@ -1,9 +1,10 @@
 ---
 id: 1751
+layout: src/layouts/Default.astro
 title: 'Shorten your Linq expressions'
-pubDate: '2016-04-14T06:00:11+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-04-14T06:00:11+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1751'
 permalink: /2016/04/shorten-your-linq-expressions/
 categories:

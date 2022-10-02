@@ -1,9 +1,10 @@
 ---
 id: 1564
+layout: src/layouts/Default.astro
 title: 'Hide away your units'
-pubDate: '2015-12-04T14:26:34+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-04T14:26:34+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1564'
 permalink: /2015/12/hide-away-your-units/
 categories:

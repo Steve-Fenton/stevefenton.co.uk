@@ -1,9 +1,10 @@
 ---
 id: 1566
+layout: src/layouts/Default.astro
 title: 'Knowledge Hardwork Attitide Coincidence or Not'
-pubDate: '2015-12-05T06:00:04+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-05T06:00:04+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1566'
 permalink: /2015/12/knowledge-hardwork-attitide-coincidence-or-not/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 3474
+layout: src/layouts/Default.astro
 title: 'Clean UI trends and how to do it right'
-pubDate: '2018-05-03T08:50:35+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-03T08:50:35+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3474'
 permalink: /2018/05/clean-ui-trends-and-how-to-do-it-right/
 amp_status:

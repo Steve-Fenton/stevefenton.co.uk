@@ -1,9 +1,10 @@
 ---
 id: 1786
+layout: src/layouts/Default.astro
 title: 'Finding table sizes in SQL Server'
-pubDate: '2016-05-10T10:56:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-05-10T10:56:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1786'
 permalink: /2016/05/finding-table-sizes-in-sql-server/
 medium_post:

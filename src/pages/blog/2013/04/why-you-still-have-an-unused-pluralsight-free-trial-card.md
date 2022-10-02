@@ -1,9 +1,10 @@
 ---
 id: 619
+layout: src/layouts/Default.astro
 title: 'Why you still have an unused Pluralsight free trial card'
-pubDate: '2013-04-12T15:15:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-04-12T15:15:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=619'
 permalink: /2013/04/why-you-still-have-an-unused-pluralsight-free-trial-card/
 interface_sidebarlayout:

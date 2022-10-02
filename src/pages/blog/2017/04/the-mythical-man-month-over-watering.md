@@ -1,9 +1,10 @@
 ---
 id: 2050
+layout: src/layouts/Default.astro
 title: 'The Mythical Man Month &#8211; Over-watering'
-pubDate: '2017-04-27T09:30:12+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-04-27T09:30:12+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2050'
 permalink: /2017/04/the-mythical-man-month-over-watering/
 medium_post:

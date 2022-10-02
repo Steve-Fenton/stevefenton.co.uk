@@ -1,9 +1,10 @@
 ---
 id: 1397
+layout: src/layouts/Default.astro
 title: 'Translating your ASP.NET MVC routes'
-pubDate: '2015-08-31T20:09:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-31T20:09:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1397'
 permalink: /2015/08/translating-your-asp-net-mvc-routes/
 categories:

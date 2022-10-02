@@ -1,9 +1,10 @@
 ---
 id: 8010
+layout: src/layouts/Default.astro
 title: '.NET Core Entity Framework Migrations'
-pubDate: '2020-03-28T21:37:15+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-03-28T21:37:15+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8010'
 permalink: /2020/03/net-core-entity-framework-migrations/
 categories:

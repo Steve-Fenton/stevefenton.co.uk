@@ -1,9 +1,10 @@
 ---
 id: 1500
+layout: src/layouts/Default.astro
 title: 'Using an in-memory database as a test double with Entity Framework'
-pubDate: '2015-11-10T07:00:41+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-11-10T07:00:41+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1500'
 permalink: /2015/11/using-an-in-memory-database-as-a-test-double-with-entity-framework/
 categories:

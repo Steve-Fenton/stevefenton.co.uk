@@ -1,9 +1,10 @@
 ---
 id: 1011
+layout: src/layouts/Default.astro
 title: 'JavaScript What is &#8220;this&#8221; and How Do I Use It'
-pubDate: '2010-08-10T20:54:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-08-10T20:54:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1011'
 permalink: /2010/08/javascript-what-is-this-and-how-do-i-use-it/
 interface_sidebarlayout:

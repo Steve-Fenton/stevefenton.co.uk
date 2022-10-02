@@ -1,9 +1,10 @@
 ---
 id: 981
+layout: src/layouts/Default.astro
 title: 'Using Visual Studio LightSwitch to create an application in under four minutes'
-pubDate: '2011-01-14T20:00:57+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-01-14T20:00:57+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=981'
 permalink: /2011/01/using-visual-studio-lightswitch-to-create-an-application-in-under-four-minutes/
 interface_sidebarlayout:

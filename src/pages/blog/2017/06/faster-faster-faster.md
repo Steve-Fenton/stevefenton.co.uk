@@ -1,9 +1,10 @@
 ---
 id: 2087
+layout: src/layouts/Default.astro
 title: 'Faster! Faster! Faster!'
-pubDate: '2017-06-15T10:28:27+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-06-15T10:28:27+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2087'
 permalink: /2017/06/faster-faster-faster/
 medium_post:

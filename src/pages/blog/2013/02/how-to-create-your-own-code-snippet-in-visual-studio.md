@@ -1,9 +1,10 @@
 ---
 id: 663
+layout: src/layouts/Default.astro
 title: 'How to create your own code snippet in Visual Studio'
-pubDate: '2013-02-03T22:20:50+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-02-03T22:20:50+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=663'
 permalink: /2013/02/how-to-create-your-own-code-snippet-in-visual-studio/
 interface_sidebarlayout:

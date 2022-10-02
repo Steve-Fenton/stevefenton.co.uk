@@ -1,9 +1,10 @@
 ---
 id: 11660
+layout: src/layouts/Default.astro
 title: 'Stripping times from dates in C#'
-pubDate: '2021-08-25T09:58:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-08-25T09:58:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11660'
 permalink: /2021/08/stripping-times-from-dates-in-c/
 categories:

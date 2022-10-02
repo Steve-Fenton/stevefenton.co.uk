@@ -1,9 +1,10 @@
 ---
 id: 11431
+layout: src/layouts/Default.astro
 title: 'Most frameworks solve easy problems'
-pubDate: '2021-10-07T10:18:27+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-10-07T10:18:27+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11431'
 permalink: /2021/10/most-frameworks-solve-easy-problems/
 categories:

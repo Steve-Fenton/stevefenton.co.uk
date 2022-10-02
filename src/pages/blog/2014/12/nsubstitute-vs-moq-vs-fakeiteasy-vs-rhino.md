@@ -1,13 +1,13 @@
 ---
 id: 230
+layout: src/layouts/Default.astro
 title: 'NSubstitute vs Moq vs FakeItEasy vs Rhino'
-pubDate: '2014-12-20T19:35:36+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-12-20T19:35:36+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=230'
 permalink: /2014/12/nsubstitute-vs-moq-vs-fakeiteasy-vs-rhino/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

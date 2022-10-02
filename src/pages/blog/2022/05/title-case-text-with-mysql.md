@@ -1,9 +1,10 @@
 ---
 id: 12944
+layout: src/layouts/Default.astro
 title: 'Title case text with MySql'
-pubDate: '2022-05-17T20:00:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-05-17T20:00:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12944'
 permalink: /2022/05/title-case-text-with-mysql/
 categories:

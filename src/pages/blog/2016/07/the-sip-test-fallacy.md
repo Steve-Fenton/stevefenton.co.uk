@@ -1,9 +1,10 @@
 ---
 id: 1859
+layout: src/layouts/Default.astro
 title: 'The Sip Test Fallacy'
-pubDate: '2016-07-21T06:30:50+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-07-21T06:30:50+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1859'
 permalink: /2016/07/the-sip-test-fallacy/
 medium_post:

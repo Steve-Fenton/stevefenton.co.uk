@@ -1,9 +1,10 @@
 ---
 id: 2851
+layout: src/layouts/Default.astro
 title: 'TypeScript Mighty Morphing Mapped Types'
-pubDate: '2017-11-16T07:00:37+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-16T07:00:37+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2851'
 permalink: /2017/11/typescript-mighty-morphing-mapped-types/
 medium_post:

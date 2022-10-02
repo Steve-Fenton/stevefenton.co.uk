@@ -1,9 +1,10 @@
 ---
 id: 798
+layout: src/layouts/Default.astro
 title: 'Common sense rules for UK cookie law'
-pubDate: '2012-05-27T16:07:49+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-05-27T16:07:49+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=798'
 permalink: /2012/05/common-sense-rules-for-uk-cookie-law/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 937
+layout: src/layouts/Default.astro
 title: 'Using NCover exclusions with MSBuild'
-pubDate: '2011-05-30T18:24:04+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-05-30T18:24:04+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=937'
 permalink: /2011/05/using-ncover-exclusions-with-msbuild/
 interface_sidebarlayout:

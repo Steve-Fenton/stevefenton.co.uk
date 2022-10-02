@@ -1,9 +1,10 @@
 ---
 id: 5894
+layout: src/layouts/Default.astro
 title: 'On Being an Introverted Extrovert'
-pubDate: '2019-05-12T08:00:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-05-12T08:00:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5894'
 permalink: /2019/05/on-being-an-introverted-extrovert/
 categories:

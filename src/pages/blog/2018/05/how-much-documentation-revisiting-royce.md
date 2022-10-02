@@ -1,9 +1,10 @@
 ---
 id: 3545
+layout: src/layouts/Default.astro
 title: 'How much documentation: Revisiting Royce'
-pubDate: '2018-05-24T07:00:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-24T07:00:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3545'
 permalink: /2018/05/how-much-documentation-revisiting-royce/
 medium_post:

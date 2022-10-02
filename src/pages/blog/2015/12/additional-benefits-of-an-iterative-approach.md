@@ -1,9 +1,10 @@
 ---
 id: 1581
+layout: src/layouts/Default.astro
 title: 'Additional benefits of an iterative approach'
-pubDate: '2015-12-12T00:50:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-12T00:50:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1581'
 permalink: /2015/12/additional-benefits-of-an-iterative-approach/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 2038
+layout: src/layouts/Default.astro
 title: 'Distractions, context-switching, and disjointed tools'
-pubDate: '2017-04-05T08:29:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-04-05T08:29:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2038'
 permalink: /2017/04/distractions-context-switching-and-disjointed-tools/
 medium_post:

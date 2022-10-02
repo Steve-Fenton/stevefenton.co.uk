@@ -1,9 +1,10 @@
 ---
 id: 833
+layout: src/layouts/Default.astro
 title: 'British Pie Week'
-pubDate: '2012-03-05T16:37:11+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-03-05T16:37:11+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=833'
 permalink: /2012/03/british-pie-week/
 interface_sidebarlayout:

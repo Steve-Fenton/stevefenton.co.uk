@@ -1,9 +1,10 @@
 ---
 id: 3510
+layout: src/layouts/Default.astro
 title: 'SQL Server index fragmentation'
-pubDate: '2018-05-18T07:00:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-18T07:00:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3510'
 permalink: /2018/05/sql-server-index-fragmentation/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 298
+layout: src/layouts/Default.astro
 title: 'Share your own code with NuGet'
-pubDate: '2014-08-29T21:16:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-08-29T21:16:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=298'
 permalink: /2014/08/share-your-own-code-with-nuget/
 interface_sidebarlayout:

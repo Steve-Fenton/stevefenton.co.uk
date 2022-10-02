@@ -1,9 +1,10 @@
 ---
 id: 12799
+layout: src/layouts/Default.astro
 title: 'Parameter Null Checking in C#'
-pubDate: '2022-03-04T15:39:44+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-03-04T15:39:44+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12799'
 permalink: /2022/03/parameter-null-checking-in-c/
 categories:

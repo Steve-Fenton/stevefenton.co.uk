@@ -1,9 +1,10 @@
 ---
 id: 5607
+layout: src/layouts/Default.astro
 title: 'Minification failed. Returning unminified contents.'
-pubDate: '2019-03-13T11:39:09+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-03-13T11:39:09+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5607'
 permalink: /2019/03/minification-failed-returning-unminified-contents/
 categories:

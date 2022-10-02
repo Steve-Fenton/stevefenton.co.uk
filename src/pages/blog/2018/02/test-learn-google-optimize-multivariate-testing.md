@@ -1,9 +1,10 @@
 ---
 id: 3325
+layout: src/layouts/Default.astro
 title: 'Test and learn with Google Optimize multivariate testing'
-pubDate: '2018-02-05T08:50:21+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-02-05T08:50:21+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3325'
 permalink: /2018/02/test-learn-google-optimize-multivariate-testing/
 categories:

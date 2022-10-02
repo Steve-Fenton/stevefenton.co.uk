@@ -1,9 +1,10 @@
 ---
 id: 316
+layout: src/layouts/Default.astro
 title: 'Embrace type inference in TypeScript'
-pubDate: '2014-07-18T21:36:12+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-07-18T21:36:12+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=316'
 permalink: /2014/07/embrace-type-inference-in-typescript/
 interface_sidebarlayout:

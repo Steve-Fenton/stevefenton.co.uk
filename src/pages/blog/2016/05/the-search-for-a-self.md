@@ -1,9 +1,10 @@
 ---
 id: 1807
+layout: src/layouts/Default.astro
 title: 'The search for a Self'
-pubDate: '2016-05-29T17:41:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-05-29T17:41:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1807'
 permalink: /2016/05/the-search-for-a-self/
 categories:

@@ -1,13 +1,13 @@
 ---
 id: 71
+layout: src/layouts/Default.astro
 title: 'World No Resources Day'
-pubDate: '2015-05-01T00:19:01+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-01T00:19:01+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=71'
 permalink: /2015/05/world-no-resources-day/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Psychology
 tags:

@@ -1,9 +1,10 @@
 ---
 id: 10246
+layout: src/layouts/Default.astro
 title: 'Awesome Microsoft Edge vertical tabs'
-pubDate: '2020-10-27T16:35:47+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-10-27T16:35:47+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=10246'
 permalink: /2020/10/awesome-microsoft-edge-vertical-tabs/
 image: /wp-content/uploads/2020/10/vertical-tabs.jpg

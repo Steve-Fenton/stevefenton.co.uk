@@ -1,9 +1,10 @@
 ---
 id: 718
+layout: src/layouts/Default.astro
 title: 'Dealing with the address access denied exception'
-pubDate: '2012-10-05T23:35:28+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-05T23:35:28+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=718'
 permalink: /2012/10/dealing-with-the-address-access-denied-exception/
 interface_sidebarlayout:

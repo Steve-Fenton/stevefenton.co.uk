@@ -1,9 +1,10 @@
 ---
 id: 1065
+layout: src/layouts/Default.astro
 title: 'Car Insurance Comparison Websites'
-pubDate: '2009-12-30T22:16:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2009-12-30T22:16:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1065'
 permalink: /2009/12/car-insurance-comparison-websites/
 interface_sidebarlayout:

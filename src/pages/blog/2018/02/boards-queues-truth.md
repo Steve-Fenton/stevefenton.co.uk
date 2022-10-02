@@ -1,9 +1,10 @@
 ---
 id: 3334
+layout: src/layouts/Default.astro
 title: 'Boards, queues, truth'
-pubDate: '2018-02-02T09:50:29+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-02-02T09:50:29+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3334'
 permalink: /2018/02/boards-queues-truth/
 medium_post:

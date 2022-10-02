@@ -1,9 +1,10 @@
 ---
 id: 11628
+layout: src/layouts/Default.astro
 title: 'The Boy Who Cried Wolf &#8211; An Alternative Ending'
-pubDate: '2021-08-07T07:12:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-08-07T07:12:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11628'
 permalink: /2021/08/the-boy-who-cried-wolf-an-alternative-ending/
 image: /wp-content/uploads/2021/08/Boycriedwolfbarlow.jpg

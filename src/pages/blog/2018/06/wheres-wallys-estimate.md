@@ -1,9 +1,10 @@
 ---
 id: 3747
+layout: src/layouts/Default.astro
 title: 'Where&#8217;s Wally&#8217;s estimate?'
-pubDate: '2018-06-17T21:19:07+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-17T21:19:07+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3747'
 permalink: /2018/06/wheres-wallys-estimate/
 medium_post:

@@ -1,9 +1,10 @@
 ---
 id: 1730
+layout: src/layouts/Default.astro
 title: 'Cannot create a file when that file already exists'
-pubDate: '2016-03-21T14:12:57+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-03-21T14:12:57+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1730'
 permalink: /2016/03/cannot-create-a-file-when-that-file-already-exists/
 categories:

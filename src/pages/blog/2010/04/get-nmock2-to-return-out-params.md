@@ -1,9 +1,10 @@
 ---
 id: 1043
+layout: src/layouts/Default.astro
 title: 'Get NMock2 to Return Out Params'
-pubDate: '2010-04-29T21:41:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-04-29T21:41:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1043'
 permalink: /2010/04/get-nmock2-to-return-out-params/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 4432
+layout: src/layouts/Default.astro
 title: 'Visual Studio Code IntelliCode extension preview'
-pubDate: '2018-12-06T09:50:27+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-12-06T09:50:27+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4432'
 permalink: /2018/12/visual-studio-code-intellicode-extension-preview/
 medium_post:

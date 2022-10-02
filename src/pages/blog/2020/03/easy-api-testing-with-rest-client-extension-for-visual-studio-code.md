@@ -1,9 +1,10 @@
 ---
 id: 7881
+layout: src/layouts/Default.astro
 title: 'Easy API testing with REST Client extension for Visual Studio Code'
-pubDate: '2020-03-16T19:02:17+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-03-16T19:02:17+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7881'
 permalink: /2020/03/easy-api-testing-with-rest-client-extension-for-visual-studio-code/
 image: /wp-content/uploads/2020/03/vscode-rest-client.jpg

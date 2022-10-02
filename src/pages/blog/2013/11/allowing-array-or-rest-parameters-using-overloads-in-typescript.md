@@ -1,9 +1,10 @@
 ---
 id: 487
+layout: src/layouts/Default.astro
 title: 'Allowing array or rest parameters using overloads in TypeScript'
-pubDate: '2013-11-06T10:06:42+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-11-06T10:06:42+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=487'
 permalink: /2013/11/allowing-array-or-rest-parameters-using-overloads-in-typescript/
 interface_sidebarlayout:

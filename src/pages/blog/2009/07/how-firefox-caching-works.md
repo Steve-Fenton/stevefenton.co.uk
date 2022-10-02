@@ -1,9 +1,10 @@
 ---
 id: 1076
+layout: src/layouts/Default.astro
 title: 'How Firefox Caching Works'
-pubDate: '2009-07-23T22:30:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2009-07-23T22:30:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1076'
 permalink: /2009/07/how-firefox-caching-works/
 interface_sidebarlayout:

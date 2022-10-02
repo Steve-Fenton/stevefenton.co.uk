@@ -1,9 +1,10 @@
 ---
 id: 1370
+layout: src/layouts/Default.astro
 title: 'Bind multiple actions with conditional keys for keyboard events'
-pubDate: '2015-08-14T07:30:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-14T07:30:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1370'
 permalink: /2015/08/bind-multiple-actions-with-conditional-keys-for-keyboard-events/
 categories:

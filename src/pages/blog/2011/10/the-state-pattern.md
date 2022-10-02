@@ -1,9 +1,10 @@
 ---
 id: 890
+layout: src/layouts/Default.astro
 title: 'The State Pattern'
-pubDate: '2011-10-19T17:29:43+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-10-19T17:29:43+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=890'
 permalink: /2011/10/the-state-pattern/
 interface_sidebarlayout:

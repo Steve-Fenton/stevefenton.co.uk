@@ -1,9 +1,10 @@
 ---
 id: 3122
+layout: src/layouts/Default.astro
 title: 'TypeScript index signatures are not type checked'
-pubDate: '2017-11-28T21:11:21+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-28T21:11:21+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3122'
 permalink: /2017/11/typescript-index-signatures-not-type-checked/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 1542
+layout: src/layouts/Default.astro
 title: 'TypeSpec compared to SpecFlow'
-pubDate: '2015-12-15T06:00:38+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-15T06:00:38+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1542'
 permalink: /2015/12/typespec-compared-to-specflow/
 categories:

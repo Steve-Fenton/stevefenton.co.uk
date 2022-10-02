@@ -1,9 +1,10 @@
 ---
 id: 1875
+layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find user agents'
-pubDate: '2016-08-02T12:18:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-02T12:18:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1875'
 permalink: /2016/08/using-log-parser-studio-to-find-user-agents/
 categories:

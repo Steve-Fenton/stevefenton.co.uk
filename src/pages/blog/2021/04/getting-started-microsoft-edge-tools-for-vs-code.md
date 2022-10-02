@@ -1,9 +1,10 @@
 ---
 id: 11481
+layout: src/layouts/Default.astro
 title: 'Getting started: Microsoft Edge Tools for VS Code'
-pubDate: '2021-04-08T11:59:43+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-04-08T11:59:43+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11481'
 permalink: /2021/04/getting-started-microsoft-edge-tools-for-vs-code/
 image: /wp-content/uploads/2021/04/running-edge-tools-in-vs-code-1568x980.jpg

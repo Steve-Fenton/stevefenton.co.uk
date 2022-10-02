@@ -1,9 +1,10 @@
 ---
 id: 930
+layout: src/layouts/Default.astro
 title: 'Firefox spinners and what they can tell you'
-pubDate: '2011-06-15T18:08:02+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-06-15T18:08:02+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=930'
 permalink: /2011/06/firefox-spinners-and-what-they-can-tell-you/
 interface_sidebarlayout:

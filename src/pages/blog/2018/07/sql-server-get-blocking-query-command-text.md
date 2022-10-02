@@ -1,9 +1,10 @@
 ---
 id: 3921
+layout: src/layouts/Default.astro
 title: 'SQL Server: Get blocking query command text'
-pubDate: '2018-07-23T15:40:25+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-23T15:40:25+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3921'
 permalink: /2018/07/sql-server-get-blocking-query-command-text/
 medium_post:

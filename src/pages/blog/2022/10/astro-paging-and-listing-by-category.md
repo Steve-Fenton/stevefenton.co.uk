@@ -1,9 +1,10 @@
 ---
 id: 13127
+layout: src/layouts/Default.astro
 title: 'Astro paging and listing by category'
-pubDate: '2022-10-02T11:05:05+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-10-02T11:05:05+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13127'
 permalink: /2022/10/astro-paging-and-listing-by-category/
 meta_description:

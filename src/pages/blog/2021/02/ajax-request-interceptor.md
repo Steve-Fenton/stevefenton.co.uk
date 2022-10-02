@@ -1,9 +1,10 @@
 ---
 id: 11391
+layout: src/layouts/Default.astro
 title: 'AJAX Request Interceptor'
-pubDate: '2021-02-02T11:06:44+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-02-02T11:06:44+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11391'
 permalink: /2021/02/ajax-request-interceptor/
 image: /wp-content/uploads/2021/02/angel-interceptor.jpg

@@ -1,9 +1,10 @@
 ---
 id: 1155
+layout: src/layouts/Default.astro
 title: 'WordPress social sharing links without JavaScript'
-pubDate: '2015-07-11T20:56:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-11T20:56:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1155'
 permalink: /2015/07/wordpress-social-sharing-links-without-javascript/
 categories:

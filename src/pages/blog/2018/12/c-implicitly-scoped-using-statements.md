@@ -1,9 +1,10 @@
 ---
 id: 4622
+layout: src/layouts/Default.astro
 title: 'C# implicitly scoped using statements'
-pubDate: '2018-12-22T14:41:35+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-12-22T14:41:35+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4622'
 permalink: /2018/12/c-implicitly-scoped-using-statements/
 categories:

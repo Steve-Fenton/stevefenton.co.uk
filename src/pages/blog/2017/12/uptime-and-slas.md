@@ -1,9 +1,10 @@
 ---
 id: 2955
+layout: src/layouts/Default.astro
 title: 'Uptime and SLAs'
-pubDate: '2017-12-11T08:50:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-12-11T08:50:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2955'
 permalink: /2017/12/uptime-and-slas/
 categories:

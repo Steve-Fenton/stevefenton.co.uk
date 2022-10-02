@@ -1,9 +1,10 @@
 ---
 id: 3446
+layout: src/layouts/Default.astro
 title: 'Migrating existing tests to ApprovalTests'
-pubDate: '2018-04-14T14:10:35+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-04-14T14:10:35+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3446'
 permalink: /2018/04/migrating-existing-tests-to-approvaltests/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 12221
+layout: src/layouts/Default.astro
 title: 'The elusive text-overflow: ellipsis display issue'
-pubDate: '2021-11-18T16:17:07+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-11-18T16:17:07+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12221'
 permalink: /2021/11/the-elusive-text-overflow-ellipsis-display-issue/
 categories:

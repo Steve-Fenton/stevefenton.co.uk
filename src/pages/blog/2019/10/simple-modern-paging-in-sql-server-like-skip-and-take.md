@@ -1,9 +1,10 @@
 ---
 id: 6546
+layout: src/layouts/Default.astro
 title: 'Simple modern paging in SQL Server &#8211; Like Skip and Take'
-pubDate: '2019-10-02T08:08:20+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-10-02T08:08:20+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6546'
 permalink: /2019/10/simple-modern-paging-in-sql-server-like-skip-and-take/
 categories:

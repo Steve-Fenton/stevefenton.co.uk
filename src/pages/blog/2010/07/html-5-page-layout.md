@@ -1,9 +1,10 @@
 ---
 id: 1022
+layout: src/layouts/Default.astro
 title: 'HTML5 Page Layout'
-pubDate: '2010-07-03T21:10:02+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-07-03T21:10:02+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1022'
 permalink: /2010/07/html-5-page-layout/
 interface_sidebarlayout:

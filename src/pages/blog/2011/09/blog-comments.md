@@ -1,9 +1,10 @@
 ---
 id: 900
+layout: src/layouts/Default.astro
 title: 'Blog comments'
-pubDate: '2011-09-27T17:42:38+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-09-27T17:42:38+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=900'
 permalink: /2011/09/blog-comments/
 interface_sidebarlayout:

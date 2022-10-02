@@ -1,9 +1,10 @@
 ---
 id: 1026
+layout: src/layouts/Default.astro
 title: 'Supercharge Your PHP Pages'
-pubDate: '2010-06-22T21:14:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-06-22T21:14:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1026'
 permalink: /2010/06/supercharge-your-php-pages/
 interface_sidebarlayout:

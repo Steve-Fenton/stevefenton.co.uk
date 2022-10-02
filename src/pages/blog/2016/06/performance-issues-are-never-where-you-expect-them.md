@@ -1,9 +1,10 @@
 ---
 id: 1847
+layout: src/layouts/Default.astro
 title: 'Performance issues are never where you expect them'
-pubDate: '2016-06-28T18:18:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-06-28T18:18:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1847'
 permalink: /2016/06/performance-issues-are-never-where-you-expect-them/
 categories:

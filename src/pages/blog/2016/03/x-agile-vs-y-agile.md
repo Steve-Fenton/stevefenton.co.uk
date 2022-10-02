@@ -1,9 +1,10 @@
 ---
 id: 1721
+layout: src/layouts/Default.astro
 title: 'X-Agile vs Y-Agile'
-pubDate: '2016-03-10T22:48:32+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-03-10T22:48:32+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1721'
 permalink: /2016/03/x-agile-vs-y-agile/
 medium_post:

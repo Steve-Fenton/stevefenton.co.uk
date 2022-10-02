@@ -1,9 +1,10 @@
 ---
 id: 2507
+layout: src/layouts/Default.astro
 title: 'Signs you broke the Interface Segregation Principle'
-pubDate: '2017-10-12T09:15:49+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-12T09:15:49+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2507'
 permalink: /2017/10/signs-broke-interface-segregation-principle/
 categories:

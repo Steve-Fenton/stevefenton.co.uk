@@ -1,9 +1,10 @@
 ---
 id: 9221
+layout: src/layouts/Default.astro
 title: 'The type or namespace name &#8216;ApplicationInsights&#8217; does not exist in the namespace &#8216;Microsoft&#8217;'
-pubDate: '2020-08-12T13:22:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-08-12T13:22:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9221'
 permalink: /2020/08/the-type-or-namespace-name-applicationinsights-does-not-exist-in-the-namespace-microsoft/
 categories:

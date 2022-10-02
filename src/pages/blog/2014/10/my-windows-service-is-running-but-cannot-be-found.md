@@ -1,9 +1,10 @@
 ---
 id: 264
+layout: src/layouts/Default.astro
 title: 'My Windows Service is running but cannot be found'
-pubDate: '2014-10-17T20:33:58+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-10-17T20:33:58+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=264'
 permalink: /2014/10/my-windows-service-is-running-but-cannot-be-found/
 interface_sidebarlayout:

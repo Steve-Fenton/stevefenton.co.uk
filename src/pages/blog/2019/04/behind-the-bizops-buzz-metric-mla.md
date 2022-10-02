@@ -1,9 +1,10 @@
 ---
 id: 5704
+layout: src/layouts/Default.astro
 title: 'Behind the BizOps buzz: Metric MLA'
-pubDate: '2019-04-02T07:50:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-04-02T07:50:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5704'
 permalink: /2019/04/behind-the-bizops-buzz-metric-mla/
 image: /wp-content/uploads/2019/04/conversions-per-week.jpg

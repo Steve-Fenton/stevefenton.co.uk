@@ -1,9 +1,10 @@
 ---
 id: 1930
+layout: src/layouts/Default.astro
 title: 'Sources of risk'
-pubDate: '2016-09-14T06:00:40+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-09-14T06:00:40+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1930'
 permalink: /2016/09/sources-of-risk/
 medium_post:

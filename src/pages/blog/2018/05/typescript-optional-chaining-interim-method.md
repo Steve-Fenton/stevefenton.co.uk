@@ -1,9 +1,10 @@
 ---
 id: 3506
+layout: src/layouts/Default.astro
 title: 'TypeScript optional chaining interim method'
-pubDate: '2018-05-17T07:00:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-17T07:00:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3506'
 permalink: /2018/05/typescript-optional-chaining-interim-method/
 medium_post:

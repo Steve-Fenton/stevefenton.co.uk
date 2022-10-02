@@ -1,9 +1,10 @@
 ---
 id: 12170
+layout: src/layouts/Default.astro
 title: 'The Productivity Offset Law'
-pubDate: '2021-10-22T08:00:20+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-10-22T08:00:20+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12170'
 permalink: /2021/10/the-productivity-offset-law/
 categories:

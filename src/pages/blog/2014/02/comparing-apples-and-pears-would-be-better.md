@@ -1,9 +1,10 @@
 ---
 id: 401
+layout: src/layouts/Default.astro
 title: 'Coffee vs books'
-pubDate: '2014-02-17T22:56:49+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-02-17T22:56:49+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=401'
 permalink: /2014/02/comparing-apples-and-pears-would-be-better/
 interface_sidebarlayout:

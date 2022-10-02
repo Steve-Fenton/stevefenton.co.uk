@@ -1,9 +1,10 @@
 ---
 id: 1923
+layout: src/layouts/Default.astro
 title: 'Free up Windows Update disk space'
-pubDate: '2016-08-24T14:42:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-24T14:42:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1923'
 permalink: /2016/08/free-up-windows-update-disk-space/
 categories:

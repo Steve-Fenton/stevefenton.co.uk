@@ -1,9 +1,10 @@
 ---
 id: 837
+layout: src/layouts/Default.astro
 title: 'Common is not a name for an assembly'
-pubDate: '2012-03-05T16:39:05+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-03-05T16:39:05+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=837'
 permalink: /2012/03/common-is-not-a-name-for-an-assembly/
 interface_sidebarlayout:

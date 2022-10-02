@@ -1,9 +1,10 @@
 ---
 id: 2586
+layout: src/layouts/Default.astro
 title: 'Quaductionism &#8211; Clarity via reductionism'
-pubDate: '2017-10-24T22:15:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-24T22:15:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2586'
 permalink: /2017/10/quaductionism-clarity-via-reductionism/
 categories:

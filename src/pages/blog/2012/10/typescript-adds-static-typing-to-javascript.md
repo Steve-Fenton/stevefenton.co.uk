@@ -1,9 +1,10 @@
 ---
 id: 730
+layout: src/layouts/Default.astro
 title: 'TypeScript adds static typing to JavaScript'
-pubDate: '2012-10-01T23:50:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-01T23:50:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=730'
 permalink: /2012/10/typescript-adds-static-typing-to-javascript/
 interface_sidebarlayout:

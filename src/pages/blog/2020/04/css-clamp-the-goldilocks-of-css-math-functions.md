@@ -1,9 +1,10 @@
 ---
 id: 8273
+layout: src/layouts/Default.astro
 title: 'CSS Clamp: The Goldilocks of CSS math functions'
-pubDate: '2020-04-21T20:20:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-04-21T20:20:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8273'
 permalink: /2020/04/css-clamp-the-goldilocks-of-css-math-functions/
 categories:

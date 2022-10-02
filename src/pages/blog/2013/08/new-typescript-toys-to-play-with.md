@@ -1,9 +1,10 @@
 ---
 id: 526
+layout: src/layouts/Default.astro
 title: 'New TypeScript toys to play with'
-pubDate: '2013-08-06T11:29:15+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-08-06T11:29:15+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=526'
 permalink: /2013/08/new-typescript-toys-to-play-with/
 interface_sidebarlayout:

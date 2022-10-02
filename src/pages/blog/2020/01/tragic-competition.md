@@ -1,9 +1,10 @@
 ---
 id: 6830
+layout: src/layouts/Default.astro
 title: 'Tragic Competition'
-pubDate: '2020-01-01T20:19:37+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-01-01T20:19:37+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6830'
 permalink: /2020/01/tragic-competition/
 categories:

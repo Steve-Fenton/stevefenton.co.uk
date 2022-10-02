@@ -1,9 +1,10 @@
 ---
 id: 720
+layout: src/layouts/Default.astro
 title: 'Adding TypeScript to an Existing Visual Studio project'
-pubDate: '2012-10-04T23:36:32+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-04T23:36:32+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=720'
 permalink: /2012/10/adding-typescript-to-an-existing-visual-studio-project/
 interface_sidebarlayout:

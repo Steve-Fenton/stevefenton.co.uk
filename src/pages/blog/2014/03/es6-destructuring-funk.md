@@ -1,9 +1,10 @@
 ---
 id: 374
+layout: src/layouts/Default.astro
 title: 'ES6 destructuring funk'
-pubDate: '2014-03-17T22:30:39+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-03-17T22:30:39+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=374'
 permalink: /2014/03/es6-destructuring-funk/
 interface_sidebarlayout:

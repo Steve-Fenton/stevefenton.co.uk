@@ -1,9 +1,10 @@
 ---
 id: 3313
+layout: src/layouts/Default.astro
 title: 'Mixed content warnings on Kentico websites'
-pubDate: '2018-01-26T18:30:41+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-01-26T18:30:41+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3313'
 permalink: /2018/01/mixed-content-warnings-kentico-websites/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 979
+layout: src/layouts/Default.astro
 title: 'X509 certificates on Windows Server 2003'
-pubDate: '2011-01-14T19:59:16+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-01-14T19:59:16+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=979'
 permalink: /2011/01/x509-certificates-on-windows-server-2003/
 interface_sidebarlayout:

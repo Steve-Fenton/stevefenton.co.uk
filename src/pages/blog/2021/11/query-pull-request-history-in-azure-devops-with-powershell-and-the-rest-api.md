@@ -1,9 +1,10 @@
 ---
 id: 12248
+layout: src/layouts/Default.astro
 title: 'Query pull request history in Azure DevOps with PowerShell and the REST API'
-pubDate: '2021-11-30T20:27:29+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-11-30T20:27:29+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12248'
 permalink: /2021/11/query-pull-request-history-in-azure-devops-with-powershell-and-the-rest-api/
 categories:

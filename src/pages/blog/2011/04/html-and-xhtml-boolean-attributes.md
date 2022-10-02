@@ -1,9 +1,10 @@
 ---
 id: 967
+layout: src/layouts/Default.astro
 title: 'HTML and XHTML boolean attributes'
-pubDate: '2011-04-05T19:41:32+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-04-05T19:41:32+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=967'
 permalink: /2011/04/html-and-xhtml-boolean-attributes/
 interface_sidebarlayout:

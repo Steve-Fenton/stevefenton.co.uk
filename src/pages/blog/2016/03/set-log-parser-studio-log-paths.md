@@ -1,9 +1,10 @@
 ---
 id: 1739
+layout: src/layouts/Default.astro
 title: 'Set Log Parser Studio log paths'
-pubDate: '2016-03-29T13:46:05+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-03-29T13:46:05+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1739'
 permalink: /2016/03/set-log-parser-studio-log-paths/
 categories:

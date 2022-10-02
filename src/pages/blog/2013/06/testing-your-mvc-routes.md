@@ -1,9 +1,10 @@
 ---
 id: 560
+layout: src/layouts/Default.astro
 title: 'Testing your MVC routes'
-pubDate: '2013-06-21T12:03:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-06-21T12:03:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=560'
 permalink: /2013/06/testing-your-mvc-routes/
 interface_sidebarlayout:

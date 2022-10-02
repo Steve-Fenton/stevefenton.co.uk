@@ -1,9 +1,10 @@
 ---
 id: 584
+layout: src/layouts/Default.astro
 title: 'Disciplined reading'
-pubDate: '2013-05-20T14:21:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-05-20T14:21:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=584'
 permalink: /2013/05/disciplined-reading/
 interface_sidebarlayout:

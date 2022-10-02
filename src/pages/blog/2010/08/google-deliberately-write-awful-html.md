@@ -1,9 +1,10 @@
 ---
 id: 1013
+layout: src/layouts/Default.astro
 title: 'Google Deliberately Write Awful HTML'
-pubDate: '2010-08-05T20:56:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-08-05T20:56:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1013'
 permalink: /2010/08/google-deliberately-write-awful-html/
 interface_sidebarlayout:

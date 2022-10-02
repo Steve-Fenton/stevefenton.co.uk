@@ -1,9 +1,10 @@
 ---
 id: 12962
+layout: src/layouts/Default.astro
 title: 'Extreme Programming practices'
-pubDate: '2022-06-01T22:15:33+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-06-01T22:15:33+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12962'
 permalink: /2022/06/extreme-programming-practices/
 meta_description:

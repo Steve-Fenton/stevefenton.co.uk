@@ -1,9 +1,10 @@
 ---
 id: 11493
+layout: src/layouts/Default.astro
 title: 'The Int Betweeners (or&#8230; An extension method for numbers)'
-pubDate: '2021-04-23T08:57:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-04-23T08:57:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11493'
 permalink: /2021/04/the-int-betweeners-or-an-extension-method-for-numbers/
 image: /wp-content/uploads/2021/04/greg-davies-inbetweeners.jpg

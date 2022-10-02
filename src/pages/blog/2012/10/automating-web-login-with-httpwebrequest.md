@@ -1,9 +1,10 @@
 ---
 id: 710
+layout: src/layouts/Default.astro
 title: 'Automating web login with HttpWebRequest'
-pubDate: '2012-10-19T23:26:12+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-19T23:26:12+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=710'
 permalink: /2012/10/automating-web-login-with-httpwebrequest/
 interface_sidebarlayout:

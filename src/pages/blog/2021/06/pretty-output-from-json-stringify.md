@@ -1,9 +1,10 @@
 ---
 id: 11530
+layout: src/layouts/Default.astro
 title: 'Pretty output from JSON.stringify'
-pubDate: '2021-06-03T13:59:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-06-03T13:59:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11530'
 permalink: /2021/06/pretty-output-from-json-stringify/
 categories:

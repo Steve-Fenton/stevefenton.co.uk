@@ -1,9 +1,10 @@
 ---
 id: 3750
+layout: src/layouts/Default.astro
 title: 'SAML front channel and back channel examples'
-pubDate: '2018-06-20T07:00:26+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-20T07:00:26+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3750'
 permalink: /2018/06/saml-front-channel-and-back-channel-examples/
 medium_post:

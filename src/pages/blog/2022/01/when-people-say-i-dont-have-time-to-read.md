@@ -1,9 +1,10 @@
 ---
 id: 12612
+layout: src/layouts/Default.astro
 title: 'When people say &#8220;I don&#8217;t have time to read&#8230;&#8221;'
-pubDate: '2022-01-06T06:00:33+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-06T06:00:33+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12612'
 permalink: /2022/01/when-people-say-i-dont-have-time-to-read/
 categories:

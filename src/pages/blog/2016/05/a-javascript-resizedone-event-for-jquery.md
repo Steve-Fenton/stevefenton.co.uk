@@ -1,9 +1,10 @@
 ---
 id: 1798
+layout: src/layouts/Default.astro
 title: 'A JavaScript resizeDone event for jQuery'
-pubDate: '2016-05-16T09:14:18+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-05-16T09:14:18+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1798'
 permalink: /2016/05/a-javascript-resizedone-event-for-jquery/
 categories:

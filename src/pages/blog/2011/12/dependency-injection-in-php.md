@@ -1,9 +1,10 @@
 ---
 id: 872
+layout: src/layouts/Default.astro
 title: 'Dependency injection in PHP'
-pubDate: '2011-12-27T17:06:45+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-12-27T17:06:45+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=872'
 permalink: /2011/12/dependency-injection-in-php/
 interface_sidebarlayout:

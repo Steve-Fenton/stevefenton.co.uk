@@ -1,9 +1,10 @@
 ---
 id: 6069
+layout: src/layouts/Default.astro
 title: 'Analytics are lossy and that&#8217;s okay'
-pubDate: '2019-06-12T07:50:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-06-12T07:50:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6069'
 permalink: /2019/06/analytics-are-lossy-and-thats-okay/
 categories:

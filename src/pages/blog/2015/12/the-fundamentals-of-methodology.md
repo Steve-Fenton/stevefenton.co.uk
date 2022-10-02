@@ -1,9 +1,10 @@
 ---
 id: 1575
+layout: src/layouts/Default.astro
 title: 'The fundamentals of methodology'
-pubDate: '2015-12-06T07:00:12+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-06T07:00:12+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1575'
 permalink: /2015/12/the-fundamentals-of-methodology/
 medium_post:

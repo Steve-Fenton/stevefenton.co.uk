@@ -1,9 +1,10 @@
 ---
 id: 997
+layout: src/layouts/Default.astro
 title: 'Adding Multiple Lines to Descriptions in ICalendar Files'
-pubDate: '2010-11-17T20:15:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-11-17T20:15:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=997'
 permalink: /2010/11/adding-multiple-lines-to-description-in-icalendar-files/
 interface_sidebarlayout:

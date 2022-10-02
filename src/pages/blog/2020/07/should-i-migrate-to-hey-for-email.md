@@ -1,9 +1,10 @@
 ---
 id: 8856
+layout: src/layouts/Default.astro
 title: 'Should I migrate to Hey for e-mail?'
-pubDate: '2020-07-01T14:26:06+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-07-01T14:26:06+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8856'
 permalink: /2020/07/should-i-migrate-to-hey-for-email/
 categories:

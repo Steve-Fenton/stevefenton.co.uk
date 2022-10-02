@@ -1,9 +1,10 @@
 ---
 id: 11439
+layout: src/layouts/Default.astro
 title: 'Microsoft Teams &#8211; Ask questions with Polly'
-pubDate: '2021-02-17T17:12:34+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-02-17T17:12:34+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11439'
 permalink: /2021/02/microsoft-teams-ask-questions-with-polly/
 image: /wp-content/uploads/2021/02/teams-polly.jpg

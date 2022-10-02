@@ -1,9 +1,10 @@
 ---
 id: 1871
+layout: src/layouts/Default.astro
 title: 'Schedule compression'
-pubDate: '2016-08-02T06:00:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-02T06:00:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1871'
 permalink: /2016/08/schedule-compression/
 medium_post:

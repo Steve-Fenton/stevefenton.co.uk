@@ -1,9 +1,10 @@
 ---
 id: 2728
+layout: src/layouts/Default.astro
 title: 'Don&#8217;t use TypeScript error suppression comments'
-pubDate: '2017-11-01T08:21:49+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-01T08:21:49+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2728'
 permalink: /2017/11/dont-use-typescript-error-suppression-comments/
 categories:

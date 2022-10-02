@@ -1,9 +1,10 @@
 ---
 id: 736
+layout: src/layouts/Default.astro
 title: 'WPF bubbling a command from a child view'
-pubDate: '2012-09-20T23:57:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-20T23:57:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=736'
 permalink: /2012/09/wpf-bubbling-a-command-from-a-child-view/
 interface_sidebarlayout:

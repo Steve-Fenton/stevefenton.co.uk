@@ -1,9 +1,10 @@
 ---
 id: 3414
+layout: src/layouts/Default.astro
 title: 'The value of experience in programming'
-pubDate: '2018-03-28T13:38:59+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-03-28T13:38:59+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3414'
 permalink: /2018/03/the-value-of-experience-in-programming/
 medium_post:

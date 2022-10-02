@@ -1,9 +1,10 @@
 ---
 id: 992
+layout: src/layouts/Default.astro
 title: 'Continued pie chart hatred'
-pubDate: '2010-12-02T20:11:46+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-12-02T20:11:46+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=992'
 permalink: /2010/12/continued-pie-chart-hatred/
 interface_sidebarlayout:

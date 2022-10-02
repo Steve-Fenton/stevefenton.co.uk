@@ -1,9 +1,10 @@
 ---
 id: 6576
+layout: src/layouts/Default.astro
 title: 'The best browser extensions for analytics and tag debugging'
-pubDate: '2019-10-16T14:53:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-10-16T14:53:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6576'
 permalink: /2019/10/the-best-browser-extensions-for-analytics-and-tag-debugging/
 image: /wp-content/uploads/2019/10/tag-assistant-by-google.jpg

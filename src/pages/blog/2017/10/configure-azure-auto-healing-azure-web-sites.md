@@ -1,9 +1,10 @@
 ---
 id: 2664
+layout: src/layouts/Default.astro
 title: 'Configure Azure Auto-Healing for your Azure Web Sites'
-pubDate: '2017-10-31T09:39:35+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-31T09:39:35+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2664'
 permalink: /2017/10/configure-azure-auto-healing-azure-web-sites/
 medium_post:

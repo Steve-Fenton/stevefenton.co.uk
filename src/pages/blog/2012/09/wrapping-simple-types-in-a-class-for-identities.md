@@ -1,9 +1,10 @@
 ---
 id: 750
+layout: src/layouts/Default.astro
 title: 'Wrapping simple types in a class for identities'
-pubDate: '2012-09-04T00:14:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-04T00:14:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=750'
 permalink: /2012/09/wrapping-simple-types-in-a-class-for-identities/
 interface_sidebarlayout:

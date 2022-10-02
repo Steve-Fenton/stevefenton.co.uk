@@ -1,9 +1,10 @@
 ---
 id: 12881
+layout: src/layouts/Default.astro
 title: 'Delete all local git branches except the main branch'
-pubDate: '2022-04-07T14:41:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-04-07T14:41:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12881'
 permalink: /2022/04/delete-all-local-git-branches-except-the-main-branch/
 categories:

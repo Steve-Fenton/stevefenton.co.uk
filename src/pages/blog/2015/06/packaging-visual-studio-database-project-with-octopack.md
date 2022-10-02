@@ -1,13 +1,13 @@
 ---
 id: 222
+layout: src/layouts/Default.astro
 title: 'Packaging and deploying a Visual Studio database project with OctoPack and Octopus Deploy'
-pubDate: '2015-06-24T18:21:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-06-24T18:21:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=222'
 permalink: /2015/06/packaging-visual-studio-database-project-with-octopack/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 tags:

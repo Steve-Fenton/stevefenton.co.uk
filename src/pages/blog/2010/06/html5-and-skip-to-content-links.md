@@ -1,9 +1,10 @@
 ---
 id: 1035
+layout: src/layouts/Default.astro
 title: 'HTML5 and Skip to Content Links'
-pubDate: '2010-06-14T21:28:18+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-06-14T21:28:18+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1035'
 permalink: /2010/06/html5-and-skip-to-content-links/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 1649
+layout: src/layouts/Default.astro
 title: 'Get the topmost assembly name'
-pubDate: '2016-01-23T06:00:50+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-23T06:00:50+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1649'
 permalink: /2016/01/get-the-topmost-assembly-name/
 categories:

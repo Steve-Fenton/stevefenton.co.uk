@@ -1,9 +1,10 @@
 ---
 id: 351
+layout: src/layouts/Default.astro
 title: '#NoEstimates anger'
-pubDate: '2014-05-28T22:12:55+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-05-28T22:12:55+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=351'
 permalink: /2014/05/no-estimates-anger/
 interface_sidebarlayout:

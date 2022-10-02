@@ -1,9 +1,10 @@
 ---
 id: 6568
+layout: src/layouts/Default.astro
 title: 'Meet the Trello Butler'
-pubDate: '2019-10-16T08:56:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-10-16T08:56:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6568'
 permalink: /2019/10/meet-the-trello-butler/
 image: /wp-content/uploads/2019/10/trello-butler-workflow-automation.jpg

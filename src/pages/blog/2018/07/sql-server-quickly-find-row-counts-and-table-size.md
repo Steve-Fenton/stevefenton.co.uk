@@ -1,9 +1,10 @@
 ---
 id: 3867
+layout: src/layouts/Default.astro
 title: 'SQL Server: Quickly find row counts and table size'
-pubDate: '2018-07-04T13:53:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-04T13:53:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3867'
 permalink: /2018/07/sql-server-quickly-find-row-counts-and-table-size/
 medium_post:

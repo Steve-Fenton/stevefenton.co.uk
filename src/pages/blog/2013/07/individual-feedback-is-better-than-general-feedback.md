@@ -1,9 +1,10 @@
 ---
 id: 540
+layout: src/layouts/Default.astro
 title: 'Individual feedback is better than general feedback'
-pubDate: '2013-07-19T11:46:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-07-19T11:46:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=540'
 permalink: /2013/07/individual-feedback-is-better-than-general-feedback/
 interface_sidebarlayout:

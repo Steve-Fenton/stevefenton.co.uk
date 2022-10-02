@@ -1,9 +1,10 @@
 ---
 id: 1948
+layout: src/layouts/Default.astro
 title: 'Open Visual Studio with Source Control Explorer open'
-pubDate: '2016-10-11T15:12:28+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-10-11T15:12:28+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1948'
 permalink: /2016/10/open-visual-studio-with-source-control-explorer-open/
 categories:

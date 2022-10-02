@@ -1,9 +1,10 @@
 ---
 id: 11606
+layout: src/layouts/Default.astro
 title: 'Reduce roles and reduce handovers'
-pubDate: '2014-09-28T12:07:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-28T12:07:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11606'
 permalink: /2014/09/reduce-roles-and-reduce-handovers/
 categories:

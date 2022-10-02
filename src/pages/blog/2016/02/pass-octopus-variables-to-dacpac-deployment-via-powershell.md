@@ -1,9 +1,10 @@
 ---
 id: 1667
+layout: src/layouts/Default.astro
 title: 'Pass Octopus Deploy variables to DacPac deployments via PowerShell'
-pubDate: '2016-02-11T16:32:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-02-11T16:32:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1667'
 permalink: /2016/02/pass-octopus-variables-to-dacpac-deployment-via-powershell/
 categories:

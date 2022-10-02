@@ -1,9 +1,10 @@
 ---
 id: 1658
+layout: src/layouts/Default.astro
 title: 'Mind first, language second'
-pubDate: '2016-01-31T19:04:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-31T19:04:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1658'
 permalink: /2016/01/mind-first-language-second/
 categories:

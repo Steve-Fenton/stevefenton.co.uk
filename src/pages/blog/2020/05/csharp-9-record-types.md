@@ -1,9 +1,10 @@
 ---
 id: 8507
+layout: src/layouts/Default.astro
 title: 'C# 9 record types'
-pubDate: '2020-05-23T06:30:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-05-23T06:30:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8507'
 permalink: /2020/05/csharp-9-record-types/
 categories:

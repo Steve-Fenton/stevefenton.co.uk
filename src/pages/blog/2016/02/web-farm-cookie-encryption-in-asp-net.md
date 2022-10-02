@@ -1,9 +1,10 @@
 ---
 id: 1701
+layout: src/layouts/Default.astro
 title: 'Web farm cookie encryption in ASP.NET'
-pubDate: '2016-02-24T10:56:23+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-02-24T10:56:23+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1701'
 permalink: /2016/02/web-farm-cookie-encryption-in-asp-net/
 categories:

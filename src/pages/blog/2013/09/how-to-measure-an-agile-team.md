@@ -1,9 +1,10 @@
 ---
 id: 514
+layout: src/layouts/Default.astro
 title: 'How to measure an Agile team'
-pubDate: '2013-09-04T10:56:06+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-09-04T10:56:06+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=514'
 permalink: /2013/09/how-to-measure-an-agile-team/
 interface_sidebarlayout:

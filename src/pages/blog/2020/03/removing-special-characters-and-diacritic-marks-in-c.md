@@ -1,9 +1,10 @@
 ---
 id: 7989
+layout: src/layouts/Default.astro
 title: 'Removing special characters and diacritic marks in C#'
-pubDate: '2020-03-26T13:18:16+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-03-26T13:18:16+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7989'
 permalink: /2020/03/removing-special-characters-and-diacritic-marks-in-c/
 categories:

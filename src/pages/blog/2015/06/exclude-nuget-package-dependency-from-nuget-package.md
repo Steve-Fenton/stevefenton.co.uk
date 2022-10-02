@@ -1,13 +1,13 @@
 ---
 id: 225
+layout: src/layouts/Default.astro
 title: 'Exclude NuGet package dependency from a NuGet package'
-pubDate: '2015-06-23T18:26:09+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-06-23T18:26:09+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=225'
 permalink: /2015/06/exclude-nuget-package-dependency-from-nuget-package/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

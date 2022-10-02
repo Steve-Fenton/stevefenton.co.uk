@@ -1,9 +1,10 @@
 ---
 id: 1866
+layout: src/layouts/Default.astro
 title: 'Custom states break population of work item closed date'
-pubDate: '2016-07-29T09:06:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-07-29T09:06:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1866'
 permalink: /2016/07/custom-states-break-population-of-work-item-closed-date/
 medium_post:

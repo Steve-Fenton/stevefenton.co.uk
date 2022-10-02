@@ -1,9 +1,10 @@
 ---
 id: 1005
+layout: src/layouts/Default.astro
 title: 'Mocking NHJump In Your Unit Tests'
-pubDate: '2010-09-16T20:41:33+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-09-16T20:41:33+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1005'
 permalink: /2010/09/mocking-nhjump-in-your-unit-tests/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 748
+layout: src/layouts/Default.astro
 title: 'Using NDepend to get a grasp of your code'
-pubDate: '2012-09-04T00:11:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-04T00:11:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=748'
 permalink: /2012/09/using-ndepend-to-get-a-grasp-of-your-code/
 interface_sidebarlayout:

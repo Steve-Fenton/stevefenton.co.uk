@@ -1,9 +1,10 @@
 ---
 id: 6528
+layout: src/layouts/Default.astro
 title: 'Easily collect audit history on SQL Server tables'
-pubDate: '2019-09-26T07:50:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-09-26T07:50:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6528'
 permalink: /2019/09/easily-collect-audit-history-on-sql-server-tables/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 602
+layout: src/layouts/Default.astro
 title: 'My unit testing epiphany'
-pubDate: '2013-05-01T14:51:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-05-01T14:51:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=602'
 permalink: /2013/05/my-unit-testing-epiphany/
 interface_sidebarlayout:

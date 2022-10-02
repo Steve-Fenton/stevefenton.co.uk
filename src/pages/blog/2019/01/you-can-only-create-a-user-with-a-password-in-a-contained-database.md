@@ -1,9 +1,10 @@
 ---
 id: 4755
+layout: src/layouts/Default.astro
 title: 'You can only create a user with a password in a contained database'
-pubDate: '2019-01-04T07:00:34+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-01-04T07:00:34+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4755'
 permalink: /2019/01/you-can-only-create-a-user-with-a-password-in-a-contained-database/
 categories:

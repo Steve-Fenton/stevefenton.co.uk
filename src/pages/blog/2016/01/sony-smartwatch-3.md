@@ -1,9 +1,10 @@
 ---
 id: 1621
+layout: src/layouts/Default.astro
 title: 'Sony SmartWatch 3'
-pubDate: '2016-01-09T06:00:08+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-09T06:00:08+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1621'
 permalink: /2016/01/sony-smartwatch-3/
 categories:

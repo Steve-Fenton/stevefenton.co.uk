@@ -1,9 +1,10 @@
 ---
 id: 1045
+layout: src/layouts/Default.astro
 title: 'AJAX Ready State Codes'
-pubDate: '2010-04-23T21:45:46+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-04-23T21:45:46+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1045'
 permalink: /2010/04/ajax-ready-state-codes/
 interface_sidebarlayout:

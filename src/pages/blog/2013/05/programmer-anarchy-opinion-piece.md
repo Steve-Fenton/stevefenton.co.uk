@@ -1,9 +1,10 @@
 ---
 id: 578
+layout: src/layouts/Default.astro
 title: 'Programmer Anarchy opinion piece'
-pubDate: '2013-05-27T12:15:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-05-27T12:15:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=578'
 permalink: /2013/05/programmer-anarchy-opinion-piece/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 326
+layout: src/layouts/Default.astro
 title: 'Additional specification by example benefits'
-pubDate: '2014-07-02T21:45:56+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-07-02T21:45:56+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=326'
 permalink: /2014/07/additional-specification-by-example-benefits/
 interface_sidebarlayout:

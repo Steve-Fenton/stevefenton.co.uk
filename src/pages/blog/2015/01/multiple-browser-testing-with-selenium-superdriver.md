@@ -1,13 +1,13 @@
 ---
 id: 200
+layout: src/layouts/Default.astro
 title: 'Multiple browser testing with Selenium SuperDriver'
-pubDate: '2015-01-18T16:29:20+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-01-18T16:29:20+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=200'
 permalink: /2015/01/multiple-browser-testing-with-selenium-superdriver/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
     - Browsers

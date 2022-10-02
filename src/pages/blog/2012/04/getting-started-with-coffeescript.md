@@ -1,9 +1,10 @@
 ---
 id: 812
+layout: src/layouts/Default.astro
 title: 'Getting started with CoffeeScript'
-pubDate: '2012-04-20T16:19:33+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-04-20T16:19:33+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=812'
 permalink: /2012/04/getting-started-with-coffeescript/
 interface_sidebarlayout:

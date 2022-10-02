@@ -1,9 +1,10 @@
 ---
 id: 3906
+layout: src/layouts/Default.astro
 title: 'Estimates, #NoEstimates, No Estimates'
-pubDate: '2018-07-14T12:06:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-14T12:06:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3906'
 permalink: /2018/07/estimates-noestimates-no-estimates/
 medium_post:

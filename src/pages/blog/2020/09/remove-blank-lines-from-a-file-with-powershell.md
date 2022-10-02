@@ -1,9 +1,10 @@
 ---
 id: 9568
+layout: src/layouts/Default.astro
 title: 'Remove blank lines from a file with PowerShell'
-pubDate: '2020-09-11T08:14:11+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-09-11T08:14:11+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9568'
 permalink: /2020/09/remove-blank-lines-from-a-file-with-powershell/
 categories:

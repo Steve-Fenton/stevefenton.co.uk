@@ -1,9 +1,10 @@
 ---
 id: 708
+layout: src/layouts/Default.astro
 title: 'Operation could destabilize the runtime using fakes'
-pubDate: '2012-10-23T23:24:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-10-23T23:24:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=708'
 permalink: /2012/10/operation-could-destabilize-the-runtime-using-fakes/
 interface_sidebarlayout:

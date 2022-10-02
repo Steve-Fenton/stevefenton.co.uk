@@ -1,9 +1,10 @@
 ---
 id: 3990
+layout: src/layouts/Default.astro
 title: 'SQL Server: Get the size of all databases on a server'
-pubDate: '2018-09-04T08:34:33+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-09-04T08:34:33+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3990'
 permalink: /2018/09/sql-server-get-the-size-of-all-databases-on-a-server/
 medium_post:

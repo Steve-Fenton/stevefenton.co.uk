@@ -1,9 +1,10 @@
 ---
 id: 390
+layout: src/layouts/Default.astro
 title: 'Pessimistic road mapping'
-pubDate: '2014-02-24T22:45:05+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-02-24T22:45:05+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=390'
 permalink: /2014/02/pessimistic-road-mapping/
 interface_sidebarlayout:

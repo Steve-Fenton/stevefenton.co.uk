@@ -1,9 +1,10 @@
 ---
 id: 322
+layout: src/layouts/Default.astro
 title: 'What is TS* and how is it safer TypeScript?'
-pubDate: '2014-07-07T21:44:41+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-07-07T21:44:41+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=322'
 permalink: /2014/07/what-is-ts-and-how-is-it-safer-typescript/
 interface_sidebarlayout:

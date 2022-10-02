@@ -1,9 +1,10 @@
 ---
 id: 510
+layout: src/layouts/Default.astro
 title: 'Being effortless requires effort'
-pubDate: '2013-09-16T10:54:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-09-16T10:54:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=510'
 permalink: /2013/09/being-effortless-requires-effort/
 interface_sidebarlayout:

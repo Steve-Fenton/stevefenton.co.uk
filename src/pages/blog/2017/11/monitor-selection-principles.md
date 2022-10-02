@@ -1,9 +1,10 @@
 ---
 id: 2787
+layout: src/layouts/Default.astro
 title: 'The Monitor Selection Principles'
-pubDate: '2017-11-27T05:00:59+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-27T05:00:59+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2787'
 permalink: /2017/11/monitor-selection-principles/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 11451
+layout: src/layouts/Default.astro
 title: 'Using sibling-selectors to style the element before the match'
-pubDate: '2021-02-25T14:03:59+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-02-25T14:03:59+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11451'
 permalink: /2021/02/using-sibling-selectors-to-style-the-element-before-the-match/
 categories:

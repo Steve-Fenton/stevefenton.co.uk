@@ -1,9 +1,10 @@
 ---
 id: 679
+layout: src/layouts/Default.astro
 title: 'Can you patronise people into change?'
-pubDate: '2013-01-03T22:38:23+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-01-03T22:38:23+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=679'
 permalink: /2013/01/can-you-patronise-people-into-change/
 interface_sidebarlayout:

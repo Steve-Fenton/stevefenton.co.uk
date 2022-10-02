@@ -1,9 +1,10 @@
 ---
 id: 12262
+layout: src/layouts/Default.astro
 title: 'Visualise and fix your pull request problems'
-pubDate: '2022-01-05T14:43:08+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-05T14:43:08+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12262'
 permalink: /2022/01/visualise-and-fix-your-pull-request-problems/
 categories:

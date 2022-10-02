@@ -1,9 +1,10 @@
 ---
 id: 8207
+layout: src/layouts/Default.astro
 title: 'Entity type IdentityUserLogin<string> requires a primary key'
-pubDate: '2020-04-14T07:50:23+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-04-14T07:50:23+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8207'
 permalink: /2020/04/entity-type-identityuserlogin-requires-a-primary-key/
 categories:

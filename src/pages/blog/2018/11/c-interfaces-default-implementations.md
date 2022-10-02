@@ -1,9 +1,10 @@
 ---
 id: 4216
+layout: src/layouts/Default.astro
 title: 'C# interfaces: Default implementations'
-pubDate: '2018-11-16T19:17:50+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-16T19:17:50+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4216'
 permalink: /2018/11/c-interfaces-default-implementations/
 medium_post:

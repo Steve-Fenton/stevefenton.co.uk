@@ -1,9 +1,10 @@
 ---
 id: 2947
+layout: src/layouts/Default.astro
 title: 'Yashica Y35 digiFILM camera'
-pubDate: '2017-11-19T13:59:15+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-19T13:59:15+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2947'
 permalink: /2017/11/yashica-y35-digifilm-camera/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 427
+layout: src/layouts/Default.astro
 title: 'Scrum Masters are ushers'
-pubDate: '2014-01-24T23:17:29+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-01-24T23:17:29+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=427'
 permalink: /2014/01/scrum-masters-are-ushers/
 interface_sidebarlayout:

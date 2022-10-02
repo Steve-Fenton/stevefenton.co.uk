@@ -1,9 +1,10 @@
 ---
 id: 12271
+layout: src/layouts/Default.astro
 title: 'Automatically fix your namespaces'
-pubDate: '2022-01-05T06:00:30+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-05T06:00:30+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12271'
 permalink: /2022/01/automatically-fix-your-namespaces/
 categories:

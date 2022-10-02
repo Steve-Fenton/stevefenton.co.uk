@@ -1,9 +1,10 @@
 ---
 id: 1059
+layout: src/layouts/Default.astro
 title: 'JavaScript Namespacing'
-pubDate: '2010-02-03T22:11:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-02-03T22:11:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1059'
 permalink: /2010/02/javascript-name-spacing/
 interface_sidebarlayout:

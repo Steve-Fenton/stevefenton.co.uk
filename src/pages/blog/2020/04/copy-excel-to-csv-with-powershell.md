@@ -1,9 +1,10 @@
 ---
 id: 8160
+layout: src/layouts/Default.astro
 title: 'Copy Excel to CSV with PowerShell'
-pubDate: '2020-04-10T07:50:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-04-10T07:50:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8160'
 permalink: /2020/04/copy-excel-to-csv-with-powershell/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 9098
+layout: src/layouts/Default.astro
 title: 'IISExpress.exe exited with access violation'
-pubDate: '2020-07-31T18:18:24+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-07-31T18:18:24+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9098'
 permalink: /2020/07/iisexpress-exe-exited-with-access-violation/
 categories:

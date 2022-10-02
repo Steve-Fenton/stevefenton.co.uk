@@ -1,9 +1,10 @@
 ---
 id: 366
+layout: src/layouts/Default.astro
 title: 'Process Kata'
-pubDate: '2014-04-14T22:22:48+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-04-14T22:22:48+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=366'
 permalink: /2014/04/process-kata/
 interface_sidebarlayout:

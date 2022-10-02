@@ -1,9 +1,10 @@
 ---
 id: 8165
+layout: src/layouts/Default.astro
 title: 'Run multiple PowerShell scripts from a Co-ordinating PowerShell Script'
-pubDate: '2020-04-12T07:50:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-04-12T07:50:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8165'
 permalink: /2020/04/run-multiple-powershell-scripts-from-a-coordinating-powershell-script/
 categories:

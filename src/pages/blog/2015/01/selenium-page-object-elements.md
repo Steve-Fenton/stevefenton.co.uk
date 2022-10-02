@@ -1,13 +1,13 @@
 ---
 id: 220
+layout: src/layouts/Default.astro
 title: 'Selenium page object elements'
-pubDate: '2015-01-01T16:57:40+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-01-01T16:57:40+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=220'
 permalink: /2015/01/selenium-page-object-elements/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
     - Programming

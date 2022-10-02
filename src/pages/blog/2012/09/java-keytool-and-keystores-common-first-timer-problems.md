@@ -1,9 +1,10 @@
 ---
 id: 740
+layout: src/layouts/Default.astro
 title: 'Java keytool and keystores: Common first-timer problems'
-pubDate: '2012-09-13T00:04:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-13T00:04:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=740'
 permalink: /2012/09/java-keytool-and-keystores-common-first-timer-problems/
 interface_sidebarlayout:

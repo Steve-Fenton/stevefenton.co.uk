@@ -1,9 +1,10 @@
 ---
 id: 5465
+layout: src/layouts/Default.astro
 title: '5 DbUp tips from Paul Stovell'
-pubDate: '2019-02-20T22:17:03+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-02-20T22:17:03+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5465'
 permalink: /2019/02/5-dbup-tips-from-paul-stovell/
 categories:

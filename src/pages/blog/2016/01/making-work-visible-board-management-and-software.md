@@ -1,9 +1,10 @@
 ---
 id: 1642
+layout: src/layouts/Default.astro
 title: 'Making work visible, board management, and software'
-pubDate: '2016-01-22T06:00:07+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-22T06:00:07+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1642'
 permalink: /2016/01/making-work-visible-board-management-and-software/
 medium_post:

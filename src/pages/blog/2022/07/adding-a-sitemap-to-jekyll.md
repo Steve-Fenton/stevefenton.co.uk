@@ -1,9 +1,10 @@
 ---
 id: 13032
+layout: src/layouts/Default.astro
 title: 'Adding a sitemap to Jekyll'
-pubDate: '2022-07-21T14:42:35+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-07-21T14:42:35+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13032'
 permalink: /2022/07/adding-a-sitemap-to-jekyll/
 categories:
@@ -20,6 +21,7 @@ To give you control over whether a page appears in the sitemap, I’ve used an a
 <pre class="prettyprint lang-ruby">
 ---
 layout: page
+layout: src/layouts/Default.astro
 title: My Page Title 
 date: 2022-07-20
 sitemap: true

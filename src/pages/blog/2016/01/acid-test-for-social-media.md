@@ -1,9 +1,10 @@
 ---
 id: 1600
+layout: src/layouts/Default.astro
 title: 'Acid test for social media'
-pubDate: '2016-01-01T00:00:46+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-01T00:00:46+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1600'
 permalink: /2016/01/acid-test-for-social-media/
 categories:

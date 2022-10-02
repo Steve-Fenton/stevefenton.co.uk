@@ -1,9 +1,10 @@
 ---
 id: 11581
+layout: src/layouts/Default.astro
 title: 'Uptime checker myth busting'
-pubDate: '2021-06-15T16:50:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-06-15T16:50:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11581'
 permalink: /2021/06/uptime-checker-mythbusting/
 categories:

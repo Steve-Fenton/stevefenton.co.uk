@@ -1,9 +1,10 @@
 ---
 id: 894
+layout: src/layouts/Default.astro
 title: 'A great example of a terrible pie chart'
-pubDate: '2011-10-03T17:38:31+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-10-03T17:38:31+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=894'
 permalink: /2011/10/a-great-example-of-a-terrible-pie-chart/
 interface_sidebarlayout:

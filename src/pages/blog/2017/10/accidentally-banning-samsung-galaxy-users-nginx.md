@@ -1,9 +1,10 @@
 ---
 id: 2318
+layout: src/layouts/Default.astro
 title: 'Accidentally banning Samsung Galaxy users with Nginx'
-pubDate: '2017-10-05T06:00:50+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-05T06:00:50+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2318'
 permalink: /2017/10/accidentally-banning-samsung-galaxy-users-nginx/
 categories:

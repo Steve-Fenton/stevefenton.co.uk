@@ -1,9 +1,10 @@
 ---
 id: 11511
+layout: src/layouts/Default.astro
 title: 'A perspective on laws of software development'
-pubDate: '2021-09-14T15:54:05+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-09-14T15:54:05+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11511'
 permalink: /2021/09/a-perspective-on-laws-of-software-development/
 categories:

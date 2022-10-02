@@ -1,9 +1,10 @@
 ---
 id: 5561
+layout: src/layouts/Default.astro
 title: 'The Phase Precision Premise'
-pubDate: '2019-03-04T19:25:16+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-03-04T19:25:16+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5561'
 permalink: /2019/03/the-phase-precision-premise/
 image: /wp-content/uploads/2019/03/payback-chart.jpg

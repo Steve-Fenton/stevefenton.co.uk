@@ -1,9 +1,10 @@
 ---
 id: 12266
+layout: src/layouts/Default.astro
 title: 'Show Reassigned Variables in Visual Studio'
-pubDate: '2022-01-04T13:16:00+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-04T13:16:00+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12266'
 permalink: /2022/01/show-reassigned-variables-in-visual-studio/
 image: /wp-content/uploads/2022/01/reassigned-variable.jpg

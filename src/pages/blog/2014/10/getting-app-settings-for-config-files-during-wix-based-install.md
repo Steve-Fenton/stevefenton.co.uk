@@ -1,9 +1,10 @@
 ---
 id: 275
+layout: src/layouts/Default.astro
 title: 'Getting app settings for config files during WiX-based install'
-pubDate: '2014-10-08T20:43:38+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-10-08T20:43:38+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=275'
 permalink: /2014/10/getting-app-settings-for-config-files-during-wix-based-install/
 interface_sidebarlayout:

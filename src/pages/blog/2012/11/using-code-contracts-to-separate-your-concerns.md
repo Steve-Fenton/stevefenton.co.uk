@@ -1,9 +1,10 @@
 ---
 id: 700
+layout: src/layouts/Default.astro
 title: 'Using code contracts to separate your concerns'
-pubDate: '2012-11-05T23:07:47+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-05T23:07:47+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=700'
 permalink: /2012/11/using-code-contracts-to-separate-your-concerns/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 8412
+layout: src/layouts/Default.astro
 title: 'Investigate JavaScript execution times using Edge Dev Tools'
-pubDate: '2020-05-11T16:48:19+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-05-11T16:48:19+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8412'
 permalink: /2020/05/investigate-javascript-execution-times-using-edge-dev-tools/
 categories:

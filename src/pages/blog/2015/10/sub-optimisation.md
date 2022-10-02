@@ -1,9 +1,10 @@
 ---
 id: 1465
+layout: src/layouts/Default.astro
 title: Sub-optimisation
-pubDate: '2015-10-01T06:45:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-01T06:45:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1465'
 permalink: /2015/10/sub-optimisation/
 medium_post:

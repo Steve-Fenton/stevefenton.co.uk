@@ -1,9 +1,10 @@
 ---
 id: 2254
+layout: src/layouts/Default.astro
 title: 'SQL Server replication and non-clustered indexes'
-pubDate: '2017-08-21T15:12:43+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-08-21T15:12:43+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2254'
 permalink: /2017/08/sql-server-replication-and-non-clustered-indexes/
 categories:

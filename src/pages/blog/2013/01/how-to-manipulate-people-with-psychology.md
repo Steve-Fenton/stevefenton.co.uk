@@ -1,9 +1,10 @@
 ---
 id: 665
+layout: src/layouts/Default.astro
 title: 'How to manipulate people with psychology'
-pubDate: '2013-01-29T22:24:33+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-01-29T22:24:33+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=665'
 permalink: /2013/01/how-to-manipulate-people-with-psychology/
 interface_sidebarlayout:

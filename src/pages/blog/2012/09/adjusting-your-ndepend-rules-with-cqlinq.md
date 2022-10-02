@@ -1,9 +1,10 @@
 ---
 id: 738
+layout: src/layouts/Default.astro
 title: 'Adjusting your NDepend rules with CQLinq'
-pubDate: '2012-09-16T00:01:07+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-16T00:01:07+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=738'
 permalink: /2012/09/adjusting-your-ndepend-rules-with-cqlinq/
 interface_sidebarlayout:

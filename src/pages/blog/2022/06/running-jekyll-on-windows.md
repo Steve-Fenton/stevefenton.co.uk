@@ -1,9 +1,10 @@
 ---
 id: 12999
+layout: src/layouts/Default.astro
 title: 'Running Jekyll on Windows'
-pubDate: '2022-06-29T11:03:16+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-06-29T11:03:16+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12999'
 permalink: /2022/06/running-jekyll-on-windows/
 categories:

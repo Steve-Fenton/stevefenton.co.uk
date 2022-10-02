@@ -1,9 +1,10 @@
 ---
 id: 5453
+layout: src/layouts/Default.astro
 title: 'Capturing telephone and mail link clicks in Google Analytics'
-pubDate: '2019-02-20T12:31:54+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-02-20T12:31:54+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5453'
 permalink: /2019/02/capturing-telephone-and-mail-link-clicks-in-google-analytics/
 categories:

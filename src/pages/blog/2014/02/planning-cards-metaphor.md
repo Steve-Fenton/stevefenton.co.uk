@@ -1,9 +1,10 @@
 ---
 id: 419
+layout: src/layouts/Default.astro
 title: 'Planning cards metaphor for quality'
-pubDate: '2014-02-01T23:11:55+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-02-01T23:11:55+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=419'
 permalink: /2014/02/planning-cards-metaphor/
 interface_sidebarlayout:

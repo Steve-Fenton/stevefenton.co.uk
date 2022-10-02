@@ -1,9 +1,10 @@
 ---
 id: 13072
+layout: src/layouts/Default.astro
 title: 'The difference between The Phoenix Project and The Unicorn Project'
-pubDate: '2022-09-02T08:22:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-09-02T08:22:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13072'
 permalink: /2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/
 categories:

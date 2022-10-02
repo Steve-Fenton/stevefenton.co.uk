@@ -1,9 +1,10 @@
 ---
 id: 3108
+layout: src/layouts/Default.astro
 title: 'Add page-specific permissions in Kentico'
-pubDate: '2017-11-29T08:50:01+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-29T08:50:01+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3108'
 permalink: /2017/11/add-page-specific-permissions-kentico/
 categories:

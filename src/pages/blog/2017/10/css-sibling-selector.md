@@ -1,9 +1,10 @@
 ---
 id: 2529
+layout: src/layouts/Default.astro
 title: 'The CSS sibling selector'
-pubDate: '2017-10-19T12:08:23+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-19T12:08:23+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2529'
 permalink: /2017/10/css-sibling-selector/
 medium_post:

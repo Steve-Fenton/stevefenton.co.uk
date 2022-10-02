@@ -1,9 +1,10 @@
 ---
 id: 1290
+layout: src/layouts/Default.astro
 title: 'State of Agile 2015'
-pubDate: '2015-07-18T17:56:31+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-18T17:56:31+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1290'
 permalink: /2015/07/state-of-agile-2015/
 medium_post:

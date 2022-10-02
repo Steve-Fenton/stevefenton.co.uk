@@ -1,9 +1,10 @@
 ---
 id: 1965
+layout: src/layouts/Default.astro
 title: 'The essential problem of prioritisation'
-pubDate: '2016-11-16T08:34:01+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-11-16T08:34:01+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1965'
 permalink: /2016/11/the-essential-problem-of-prioritisation/
 medium_post:

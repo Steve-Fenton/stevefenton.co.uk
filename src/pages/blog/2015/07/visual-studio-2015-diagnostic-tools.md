@@ -1,9 +1,10 @@
 ---
 id: 1329
+layout: src/layouts/Default.astro
 title: 'Visual Studio 2015 diagnostic tools'
-pubDate: '2015-07-23T07:30:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-23T07:30:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1329'
 permalink: /2015/07/visual-studio-2015-diagnostic-tools/
 categories:

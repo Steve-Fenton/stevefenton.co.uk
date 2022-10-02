@@ -1,9 +1,10 @@
 ---
 id: 503
+layout: src/layouts/Default.astro
 title: 'When to use TypeScript reference comments'
-pubDate: '2013-10-04T10:48:40+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-10-04T10:48:40+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=503'
 permalink: /2013/10/when-to-use-typescript-reference-comments/
 interface_sidebarlayout:

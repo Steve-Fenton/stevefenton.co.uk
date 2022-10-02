@@ -1,9 +1,10 @@
 ---
 id: 954
+layout: src/layouts/Default.astro
 title: 'The 1024 Byte Parable'
-pubDate: '2011-05-10T19:23:46+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-05-10T19:23:46+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=954'
 permalink: /2011/05/the-1024-byte-parable/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 10602
+layout: src/layouts/Default.astro
 title: 'Lookup DNS on a specific nameserver with NSLOOKUP'
-pubDate: '2020-11-10T16:06:11+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-11-10T16:06:11+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=10602'
 permalink: /2020/11/lookup-dns-on-a-specific-nameserver-with-nslookup/
 categories:

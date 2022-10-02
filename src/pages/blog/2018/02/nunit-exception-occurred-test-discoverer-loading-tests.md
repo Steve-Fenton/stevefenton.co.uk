@@ -1,9 +1,10 @@
 ---
 id: 3350
+layout: src/layouts/Default.astro
 title: 'NUnit exception occurred while test discoverer was loading tests'
-pubDate: '2018-02-15T12:11:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-02-15T12:11:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3350'
 permalink: /2018/02/nunit-exception-occurred-test-discoverer-loading-tests/
 categories:

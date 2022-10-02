@@ -1,9 +1,10 @@
 ---
 id: 2890
+layout: src/layouts/Default.astro
 title: 'Should you code in your spare time?'
-pubDate: '2017-11-22T08:40:19+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-22T08:40:19+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2890'
 permalink: /2017/11/code-spare-time/
 categories:

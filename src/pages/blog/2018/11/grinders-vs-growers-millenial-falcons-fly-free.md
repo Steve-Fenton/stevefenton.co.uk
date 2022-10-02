@@ -1,9 +1,10 @@
 ---
 id: 4181
+layout: src/layouts/Default.astro
 title: 'Grinders vs Growers: Millenial falcons fly free'
-pubDate: '2018-11-15T07:00:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-15T07:00:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4181'
 permalink: /2018/11/grinders-vs-growers-millenial-falcons-fly-free/
 medium_post:

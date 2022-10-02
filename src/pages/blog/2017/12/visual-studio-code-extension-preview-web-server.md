@@ -1,9 +1,10 @@
 ---
 id: 3177
+layout: src/layouts/Default.astro
 title: 'Visual Studio Code Extension: Preview on Web Server'
-pubDate: '2017-12-03T19:26:31+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-12-03T19:26:31+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3177'
 permalink: /2017/12/visual-studio-code-extension-preview-web-server/
 categories:

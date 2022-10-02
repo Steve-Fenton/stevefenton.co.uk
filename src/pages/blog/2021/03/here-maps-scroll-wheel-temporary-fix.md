@@ -1,9 +1,10 @@
 ---
 id: 11459
+layout: src/layouts/Default.astro
 title: 'Here Maps scroll wheel temporary fix'
-pubDate: '2021-03-08T16:00:38+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-03-08T16:00:38+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11459'
 permalink: /2021/03/here-maps-scroll-wheel-temporary-fix/
 image: /wp-content/uploads/2021/03/colour-map.png

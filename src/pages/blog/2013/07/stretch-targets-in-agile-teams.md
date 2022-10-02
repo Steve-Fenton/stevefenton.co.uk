@@ -1,9 +1,10 @@
 ---
 id: 545
+layout: src/layouts/Default.astro
 title: 'Stretch targets in Agile teams'
-pubDate: '2013-07-10T11:56:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-07-10T11:56:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=545'
 permalink: /2013/07/stretch-targets-in-agile-teams/
 interface_sidebarlayout:

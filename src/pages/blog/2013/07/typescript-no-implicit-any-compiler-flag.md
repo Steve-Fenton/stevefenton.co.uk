@@ -1,9 +1,10 @@
 ---
 id: 536
+layout: src/layouts/Default.astro
 title: 'TypeScript no-implicit-any compiler flag'
-pubDate: '2013-07-26T11:40:54+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-07-26T11:40:54+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=536'
 permalink: /2013/07/typescript-no-implicit-any-compiler-flag/
 interface_sidebarlayout:

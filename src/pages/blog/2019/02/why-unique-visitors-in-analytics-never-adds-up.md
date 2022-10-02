@@ -1,9 +1,10 @@
 ---
 id: 5525
+layout: src/layouts/Default.astro
 title: 'Why unique visitors in analytics never adds up'
-pubDate: '2019-02-26T17:33:19+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-02-26T17:33:19+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5525'
 permalink: /2019/02/why-unique-visitors-in-analytics-never-adds-up/
 image: /wp-content/uploads/2019/02/unique-visit-tracking.png

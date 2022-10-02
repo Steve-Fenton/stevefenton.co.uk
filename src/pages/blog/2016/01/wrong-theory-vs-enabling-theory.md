@@ -1,9 +1,10 @@
 ---
 id: 1619
+layout: src/layouts/Default.astro
 title: 'Wrong Theory vs Enabling Theory'
-pubDate: '2016-01-06T07:00:37+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-06T07:00:37+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1619'
 permalink: /2016/01/wrong-theory-vs-enabling-theory/
 medium_post:

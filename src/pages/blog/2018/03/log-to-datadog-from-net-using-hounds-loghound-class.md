@@ -1,9 +1,10 @@
 ---
 id: 3395
+layout: src/layouts/Default.astro
 title: 'Log to Datadog from .NET using Hound&#8217;s LogHound class'
-pubDate: '2018-03-19T08:50:09+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-03-19T08:50:09+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3395'
 permalink: /2018/03/log-to-datadog-from-net-using-hounds-loghound-class/
 medium_post:

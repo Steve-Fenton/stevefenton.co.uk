@@ -1,9 +1,10 @@
 ---
 id: 1980
+layout: src/layouts/Default.astro
 title: 'The Absent Boss Effect'
-pubDate: '2017-01-17T06:00:01+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-01-17T06:00:01+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1980'
 permalink: /2017/01/the-absent-boss-effect/
 categories:

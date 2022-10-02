@@ -1,9 +1,10 @@
 ---
 id: 1662
+layout: src/layouts/Default.astro
 title: 'Octopus Deploy package upload order matters'
-pubDate: '2016-02-03T06:00:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-02-03T06:00:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1662'
 permalink: /2016/02/octopus-deploy-package-upload-order-matters/
 categories:

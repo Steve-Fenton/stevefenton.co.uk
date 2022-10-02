@@ -1,9 +1,10 @@
 ---
 id: 6366
+layout: src/layouts/Default.astro
 title: 'The ESM module loader is experimental'
-pubDate: '2019-08-23T08:17:04+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-08-23T08:17:04+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6366'
 permalink: /2019/08/the-esm-module-loader-is-experimental/
 categories:

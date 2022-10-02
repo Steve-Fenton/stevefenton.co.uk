@@ -1,9 +1,10 @@
 ---
 id: 1801
+layout: src/layouts/Default.astro
 title: 'Highlight versions on the Octopus Deploy dashboard'
-pubDate: '2016-05-18T18:03:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-05-18T18:03:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1801'
 permalink: /2016/05/highlight-versions-on-octopus-deploy-dashboard/
 image: /wp-content/uploads/2016/05/octodash-pastel-1200x438.jpg

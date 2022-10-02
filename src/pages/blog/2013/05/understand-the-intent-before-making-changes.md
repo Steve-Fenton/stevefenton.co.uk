@@ -1,9 +1,10 @@
 ---
 id: 599
+layout: src/layouts/Default.astro
 title: 'Understand the intent before making changes'
-pubDate: '2013-05-03T14:45:42+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-05-03T14:45:42+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=599'
 permalink: /2013/05/understand-the-intent-before-making-changes/
 interface_sidebarlayout:

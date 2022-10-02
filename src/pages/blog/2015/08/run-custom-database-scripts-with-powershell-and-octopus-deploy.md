@@ -1,9 +1,10 @@
 ---
 id: 1354
+layout: src/layouts/Default.astro
 title: 'Run custom database scripts with PowerShell and Octopus Deploy'
-pubDate: '2015-08-08T07:30:53+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-08-08T07:30:53+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1354'
 permalink: /2015/08/run-custom-database-scripts-with-powershell-and-octopus-deploy/
 categories:

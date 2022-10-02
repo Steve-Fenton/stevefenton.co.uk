@@ -1,13 +1,13 @@
 ---
 id: 55
+layout: src/layouts/Default.astro
 title: 'Getting a list of tables and row counts in SQL Server'
-pubDate: '2015-05-09T00:01:42+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-09T00:01:42+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=55'
 permalink: /2015/05/getting-a-list-of-tables-and-row-counts-in-sql-server/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

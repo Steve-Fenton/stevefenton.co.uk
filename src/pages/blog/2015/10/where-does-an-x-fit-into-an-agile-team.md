@@ -1,9 +1,10 @@
 ---
 id: 1480
+layout: src/layouts/Default.astro
 title: 'Where does an X fit into an Agile team?'
-pubDate: '2015-10-17T08:21:15+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-17T08:21:15+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1480'
 permalink: /2015/10/where-does-an-x-fit-into-an-agile-team/
 medium_post:

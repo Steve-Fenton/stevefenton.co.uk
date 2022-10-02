@@ -1,13 +1,13 @@
 ---
 id: 50
+layout: src/layouts/Default.astro
 title: 'Mescoservice architecture'
-pubDate: '2015-05-14T23:54:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-14T23:54:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=50'
 permalink: /2015/05/mescoservice-architecture/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

@@ -1,9 +1,10 @@
 ---
 id: 1339
+layout: src/layouts/Default.astro
 title: 'Tabs vs spaces in Visual Studio Code'
-pubDate: '2015-07-30T07:30:00+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-30T07:30:00+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1339'
 permalink: /2015/07/tabs-vs-spaces/
 categories:

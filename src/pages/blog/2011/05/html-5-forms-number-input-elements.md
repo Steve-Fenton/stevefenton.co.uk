@@ -1,9 +1,10 @@
 ---
 id: 943
+layout: src/layouts/Default.astro
 title: 'HTML5 forms number input elements'
-pubDate: '2011-05-23T19:08:55+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-05-23T19:08:55+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=943'
 permalink: /2011/05/html-5-forms-number-input-elements/
 interface_sidebarlayout:

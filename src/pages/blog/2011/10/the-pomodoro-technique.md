@@ -1,9 +1,10 @@
 ---
 id: 898
+layout: src/layouts/Default.astro
 title: 'The Pomodoro Technique'
-pubDate: '2011-10-01T17:41:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-10-01T17:41:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=898'
 permalink: /2011/10/the-pomodoro-technique/
 interface_sidebarlayout:

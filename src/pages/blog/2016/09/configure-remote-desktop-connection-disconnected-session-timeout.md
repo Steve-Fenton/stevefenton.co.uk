@@ -1,9 +1,10 @@
 ---
 id: 1940
+layout: src/layouts/Default.astro
 title: 'Configure remote desktop connection disconnected session timeout'
-pubDate: '2016-09-27T09:06:05+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-09-27T09:06:05+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1940'
 permalink: /2016/09/configure-remote-desktop-connection-disconnected-session-timeout/
 categories:

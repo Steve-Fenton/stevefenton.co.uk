@@ -1,9 +1,10 @@
 ---
 id: 1493
+layout: src/layouts/Default.astro
 title: 'Programming books should go beyond syntax'
-pubDate: '2015-10-27T07:31:21+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-27T07:31:21+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1493'
 permalink: /2015/10/programming-books-should-go-beyond-syntax/
 categories:

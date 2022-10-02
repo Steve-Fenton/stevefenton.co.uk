@@ -1,9 +1,10 @@
 ---
 id: 12183
+layout: src/layouts/Default.astro
 title: 'Block XML RPC in WordPress using CloudFlare&#8217;s firewall'
-pubDate: '2021-10-25T09:28:59+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-10-25T09:28:59+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12183'
 permalink: /2021/10/block-xml-rpc-in-wordpress-using-cloudflares-firewall/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 2835
+layout: src/layouts/Default.astro
 title: 'TypeScript: Using classes as interfaces'
-pubDate: '2017-11-05T16:05:52+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-05T16:05:52+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2835'
 permalink: /2017/11/typescript-using-classes-interfaces/
 categories:

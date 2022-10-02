@@ -1,9 +1,10 @@
 ---
 id: 1037
+layout: src/layouts/Default.astro
 title: 'JavaScript Short Tags and XHTML'
-pubDate: '2010-05-20T21:32:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-05-20T21:32:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1037'
 permalink: /2010/05/javascript-short-tags-and-xhtml/
 interface_sidebarlayout:

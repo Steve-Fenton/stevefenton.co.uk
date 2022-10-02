@@ -1,9 +1,10 @@
 ---
 id: 11671
+layout: src/layouts/Default.astro
 title: 'C# Caller Attributes make tracing and logging easier'
-pubDate: '2021-09-03T07:50:24+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-09-03T07:50:24+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11671'
 permalink: /2021/09/c-caller-attributes-make-tracing-and-logging-easier/
 categories:

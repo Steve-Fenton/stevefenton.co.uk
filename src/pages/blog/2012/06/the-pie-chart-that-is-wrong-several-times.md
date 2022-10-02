@@ -1,9 +1,10 @@
 ---
 id: 790
+layout: src/layouts/Default.astro
 title: 'The pie chart that is wrong several times'
-pubDate: '2012-06-12T16:02:02+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-06-12T16:02:02+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=790'
 permalink: /2012/06/the-pie-chart-that-is-wrong-several-times/
 interface_sidebarlayout:

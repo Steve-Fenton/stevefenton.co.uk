@@ -1,9 +1,10 @@
 ---
 id: 4031
+layout: src/layouts/Default.astro
 title: 'Using ECMAScript modules with zero global scope'
-pubDate: '2018-10-09T20:13:09+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-10-09T20:13:09+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4031'
 permalink: /2018/10/using-ecmascript-modules-with-zero-global-scope/
 medium_post:

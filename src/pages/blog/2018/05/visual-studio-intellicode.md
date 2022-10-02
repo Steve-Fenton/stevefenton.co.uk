@@ -1,9 +1,10 @@
 ---
 id: 3485
+layout: src/layouts/Default.astro
 title: 'Visual Studio IntelliCode'
-pubDate: '2018-05-09T07:15:04+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-05-09T07:15:04+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3485'
 permalink: /2018/05/visual-studio-intellicode/
 medium_post:

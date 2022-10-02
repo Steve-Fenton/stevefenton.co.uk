@@ -1,13 +1,13 @@
 ---
 id: 154
+layout: src/layouts/Default.astro
 title: 'Separate your JMeter testing and reporting'
-pubDate: '2015-03-28T15:45:26+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-03-28T15:45:26+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=154'
 permalink: /2015/03/separate-your-jmeter-testing-and-reporting/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 tags:

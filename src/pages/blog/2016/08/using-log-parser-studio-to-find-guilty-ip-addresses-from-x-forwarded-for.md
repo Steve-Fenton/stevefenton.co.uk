@@ -1,9 +1,10 @@
 ---
 id: 1893
+layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find guilty IP addresses from X-Forwarded-For'
-pubDate: '2016-08-08T16:57:58+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-08T16:57:58+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1893'
 permalink: /2016/08/using-log-parser-studio-to-find-guilty-ip-addresses-from-x-forwarded-for/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 2894
+layout: src/layouts/Default.astro
 title: 'ASP.NET MVC widgets with RenderAction'
-pubDate: '2017-11-18T08:50:25+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-18T08:50:25+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2894'
 permalink: /2017/11/asp-net-mvc-widgets-renderaction/
 medium_post:

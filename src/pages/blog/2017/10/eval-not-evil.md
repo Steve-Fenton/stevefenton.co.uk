@@ -1,9 +1,10 @@
 ---
 id: 2478
+layout: src/layouts/Default.astro
 title: 'Eval is not evil'
-pubDate: '2017-10-07T05:00:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-07T05:00:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2478'
 permalink: /2017/10/eval-not-evil/
 medium_post:

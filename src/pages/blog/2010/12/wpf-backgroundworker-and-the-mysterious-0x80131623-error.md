@@ -1,9 +1,10 @@
 ---
 id: 988
+layout: src/layouts/Default.astro
 title: 'WPF BackgroundWorker and the mysterious 0x80131623 error'
-pubDate: '2010-12-30T20:05:47+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-12-30T20:05:47+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=988'
 permalink: /2010/12/wpf-backgroundworker-and-the-mysterious-0x80131623-error/
 interface_sidebarlayout:

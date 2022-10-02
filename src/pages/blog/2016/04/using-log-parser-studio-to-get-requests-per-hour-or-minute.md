@@ -1,9 +1,10 @@
 ---
 id: 1773
+layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to get requests per hour or minute'
-pubDate: '2016-04-23T11:42:05+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-04-23T11:42:05+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1773'
 permalink: /2016/04/using-log-parser-studio-to-get-requests-per-hour-or-minute/
 categories:

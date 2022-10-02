@@ -1,13 +1,13 @@
 ---
 id: 47
+layout: src/layouts/Default.astro
 title: 'Patterns, principles, and practices of Domain Driven Design'
-pubDate: '2015-05-23T23:53:07+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-23T23:53:07+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=47'
 permalink: /2015/05/patterns-principles-and-practices-of-domain-driven-design/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

@@ -1,9 +1,10 @@
 ---
 id: 882
+layout: src/layouts/Default.astro
 title: 'Slides from test-driven development'
-pubDate: '2011-11-25T17:16:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-11-25T17:16:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=882'
 permalink: /2011/11/slides-from-test-driven-development/
 interface_sidebarlayout:

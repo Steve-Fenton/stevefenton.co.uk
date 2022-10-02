@@ -1,9 +1,10 @@
 ---
 id: 681
+layout: src/layouts/Default.astro
 title: 'Useful TypeScript resources'
-pubDate: '2012-12-09T22:40:06+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-12-09T22:40:06+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=681'
 permalink: /2012/12/useful-typescript-resources/
 interface_sidebarlayout:

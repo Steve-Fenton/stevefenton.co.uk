@@ -1,9 +1,10 @@
 ---
 id: 6490
+layout: src/layouts/Default.astro
 title: 'Fixing CSS object-fit for Internet Explorer'
-pubDate: '2019-09-20T07:00:45+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-09-20T07:00:45+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6490'
 permalink: /2019/09/fixing-css-object-fit-for-internet-explorer/
 categories:

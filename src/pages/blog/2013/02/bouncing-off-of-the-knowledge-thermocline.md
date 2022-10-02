@@ -1,9 +1,10 @@
 ---
 id: 640
+layout: src/layouts/Default.astro
 title: 'Bouncing off the knowledge thermocline'
-pubDate: '2013-02-28T15:51:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-02-28T15:51:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=640'
 permalink: /2013/02/bouncing-off-of-the-knowledge-thermocline/
 interface_sidebarlayout:

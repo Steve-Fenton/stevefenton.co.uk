@@ -1,9 +1,10 @@
 ---
 id: 6646
+layout: src/layouts/Default.astro
 title: 'Make HAProxy strip spaces from a request header'
-pubDate: '2019-11-19T16:14:53+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-11-19T16:14:53+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6646'
 permalink: /2019/11/make-haproxy-strip-spaces-from-a-request-header/
 categories:

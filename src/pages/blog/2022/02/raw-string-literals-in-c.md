@@ -1,9 +1,10 @@
 ---
 id: 12732
+layout: src/layouts/Default.astro
 title: 'Raw string literals in C#'
-pubDate: '2022-02-17T20:00:41+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-02-17T20:00:41+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12732'
 permalink: /2022/02/raw-string-literals-in-c/
 image: /wp-content/uploads/2022/02/raw-string-literals.jpg

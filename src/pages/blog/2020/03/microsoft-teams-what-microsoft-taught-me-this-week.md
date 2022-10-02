@@ -1,9 +1,10 @@
 ---
 id: 7890
+layout: src/layouts/Default.astro
 title: 'Microsoft Teams &#8211; What Microsoft taught me this week'
-pubDate: '2020-03-17T18:07:56+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-03-17T18:07:56+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7890'
 permalink: /2020/03/microsoft-teams-what-microsoft-taught-me-this-week/
 categories:

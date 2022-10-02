@@ -1,9 +1,10 @@
 ---
 id: 1910
+layout: src/layouts/Default.astro
 title: 'Filling-in the care gap'
-pubDate: '2016-08-20T05:00:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-20T05:00:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1910'
 permalink: /2016/08/filling-in-the-care-gap/
 categories:

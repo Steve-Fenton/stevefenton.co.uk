@@ -1,9 +1,10 @@
 ---
 id: 742
+layout: src/layouts/Default.astro
 title: 'JavaScript remote error logging'
-pubDate: '2012-09-07T00:06:46+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-09-07T00:06:46+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=742'
 permalink: /2012/09/javascript-remote-error-logging/
 interface_sidebarlayout:

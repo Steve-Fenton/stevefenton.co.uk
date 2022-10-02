@@ -1,9 +1,10 @@
 ---
 id: 11591
+layout: src/layouts/Default.astro
 title: 'How to get accurate element width as a floating point number'
-pubDate: '2021-07-02T18:15:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-07-02T18:15:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11591'
 permalink: /2021/07/how-to-get-accurate-element-width-as-a-floating-point-number/
 categories:

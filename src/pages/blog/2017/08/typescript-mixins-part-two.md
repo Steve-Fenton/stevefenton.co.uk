@@ -1,9 +1,10 @@
 ---
 id: 2279
+layout: src/layouts/Default.astro
 title: 'TypeScript Mixins part two'
-pubDate: '2017-08-26T16:21:55+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-08-26T16:21:55+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2279'
 permalink: /2017/08/typescript-mixins-part-two/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 8625
+layout: src/layouts/Default.astro
 title: 'The Lockdown Effect'
-pubDate: '2020-06-03T09:33:42+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-06-03T09:33:42+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=8625'
 permalink: /2020/06/the-lockdown-effect/
 categories:

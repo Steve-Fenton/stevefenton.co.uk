@@ -1,9 +1,10 @@
 ---
 id: 3053
+layout: src/layouts/Default.astro
 title: 'Pie charts don&#8217;t belong in the board room'
-pubDate: '2017-11-25T13:26:55+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-25T13:26:55+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3053'
 permalink: /2017/11/pie-charts-dont-belong-board-room/
 categories:

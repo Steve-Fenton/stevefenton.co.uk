@@ -1,13 +1,13 @@
 ---
 id: 232
+layout: src/layouts/Default.astro
 title: 'Overloaded steps in SpecFlow'
-pubDate: '2014-12-10T19:40:04+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-12-10T19:40:04+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=232'
 permalink: /2014/12/overloaded-steps-in-specflow/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

@@ -1,9 +1,10 @@
 ---
 id: 4374
+layout: src/layouts/Default.astro
 title: 'Create and hydrate a TypeScript class from JSON'
-pubDate: '2018-11-29T11:15:26+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-29T11:15:26+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4374'
 permalink: /2018/11/create-and-hydrate-a-typescript-class-from-json/
 medium_post:

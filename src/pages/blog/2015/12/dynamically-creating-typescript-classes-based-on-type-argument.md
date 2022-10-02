@@ -1,9 +1,10 @@
 ---
 id: 1610
+layout: src/layouts/Default.astro
 title: 'Dynamically creating TypeScript classes based on a type argument'
-pubDate: '2015-12-31T07:56:12+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-12-31T07:56:12+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1610'
 permalink: /2015/12/dynamically-creating-typescript-classes-based-on-type-argument/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 973
+layout: src/layouts/Default.astro
 title: 'Invalid label JavaScript error'
-pubDate: '2011-02-15T19:51:32+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-02-15T19:51:32+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=973'
 permalink: /2011/02/invalid-label-javascript-error/
 interface_sidebarlayout:

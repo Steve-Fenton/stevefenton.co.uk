@@ -1,9 +1,10 @@
 ---
 id: 1507
+layout: src/layouts/Default.astro
 title: 'How to fix broken IntelliSense in Visual Studio razor views'
-pubDate: '2015-11-09T15:21:25+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-11-09T15:21:25+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1507'
 permalink: /2015/11/how-to-fix-broken-intellisense-in-visual-studio-razor-views/
 categories:

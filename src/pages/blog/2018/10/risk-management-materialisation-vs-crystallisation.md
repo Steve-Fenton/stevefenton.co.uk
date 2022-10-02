@@ -1,9 +1,10 @@
 ---
 id: 4042
+layout: src/layouts/Default.astro
 title: 'Risk Management &#8211; Materialisation vs Crystallisation'
-pubDate: '2018-10-16T19:58:15+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-10-16T19:58:15+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4042'
 permalink: /2018/10/risk-management-materialisation-vs-crystallisation/
 medium_post:

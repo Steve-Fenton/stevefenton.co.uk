@@ -1,9 +1,10 @@
 ---
 id: 12200
+layout: src/layouts/Default.astro
 title: 'Codeless != Designless'
-pubDate: '2022-01-07T06:00:00+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-07T06:00:00+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12200'
 permalink: /2022/01/codeless-not-designless/
 categories:

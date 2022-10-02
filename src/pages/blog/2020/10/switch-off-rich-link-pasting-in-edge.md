@@ -1,9 +1,10 @@
 ---
 id: 9872
+layout: src/layouts/Default.astro
 title: 'Switch off rich link pasting in Edge'
-pubDate: '2020-10-06T11:35:54+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-10-06T11:35:54+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9872'
 permalink: /2020/10/switch-off-rich-link-pasting-in-edge/
 categories:

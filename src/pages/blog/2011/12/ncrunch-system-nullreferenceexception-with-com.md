@@ -1,9 +1,10 @@
 ---
 id: 877
+layout: src/layouts/Default.astro
 title: 'NCrunch system NullReferenceException with COM'
-pubDate: '2011-12-09T17:12:20+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-12-09T17:12:20+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=877'
 permalink: /2011/12/ncrunch-system-nullreferenceexception-with-com/
 interface_sidebarlayout:

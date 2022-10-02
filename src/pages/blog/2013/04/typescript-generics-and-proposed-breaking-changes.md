@@ -1,9 +1,10 @@
 ---
 id: 610
+layout: src/layouts/Default.astro
 title: 'TypeScript generics and proposed breaking changes'
-pubDate: '2013-04-22T15:06:27+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-04-22T15:06:27+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=610'
 permalink: /2013/04/typescript-generics-and-proposed-breaking-changes/
 interface_sidebarlayout:

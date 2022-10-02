@@ -1,9 +1,10 @@
 ---
 id: 562
+layout: src/layouts/Default.astro
 title: 'Why TypeScript interfaces can extend classes'
-pubDate: '2013-06-19T12:04:58+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-06-19T12:04:58+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=562'
 permalink: /2013/06/why-typescript-interfaces-can-extend-classes/
 interface_sidebarlayout:

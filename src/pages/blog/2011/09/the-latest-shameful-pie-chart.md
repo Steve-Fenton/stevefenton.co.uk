@@ -1,9 +1,10 @@
 ---
 id: 902
+layout: src/layouts/Default.astro
 title: 'The latest shameful pie chart'
-pubDate: '2011-09-26T17:43:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-09-26T17:43:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=902'
 permalink: /2011/09/the-latest-shameful-pie-chart/
 interface_sidebarlayout:

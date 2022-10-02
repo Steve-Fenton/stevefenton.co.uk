@@ -1,9 +1,10 @@
 ---
 id: 1403
+layout: src/layouts/Default.astro
 title: 'Working hard vs thinking hard'
-pubDate: '2015-09-04T07:30:53+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-09-04T07:30:53+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1403'
 permalink: /2015/09/working-hard-vs-thinking-hard/
 categories:

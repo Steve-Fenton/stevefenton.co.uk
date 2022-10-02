@@ -1,9 +1,10 @@
 ---
 id: 551
+layout: src/layouts/Default.astro
 title: 'Solve role confusion with Group Role Visualisation technique'
-pubDate: '2013-07-03T11:58:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-07-03T11:58:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=551'
 permalink: /2013/07/solve-role-confusion-with-group-role-visualisation-technique/
 interface_sidebarlayout:

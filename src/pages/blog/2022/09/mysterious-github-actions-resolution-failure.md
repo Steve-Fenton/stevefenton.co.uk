@@ -1,9 +1,10 @@
 ---
 id: 13120
+layout: src/layouts/Default.astro
 title: 'Mysterious GitHub Actions resolution failure'
-pubDate: '2022-09-23T15:38:34+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-09-23T15:38:34+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13120'
 permalink: /2022/09/mysterious-github-actions-resolution-failure/
 meta_description:

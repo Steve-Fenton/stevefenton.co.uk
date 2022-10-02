@@ -1,9 +1,10 @@
 ---
 id: 2078
+layout: src/layouts/Default.astro
 title: 'Don&#8217;t worry about The Cargo Cult'
-pubDate: '2017-06-08T08:27:49+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-06-08T08:27:49+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2078'
 permalink: /2017/06/dont-worry-about-the-cargo-cult/
 medium_post:

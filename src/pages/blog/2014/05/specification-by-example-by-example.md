@@ -1,9 +1,10 @@
 ---
 id: 355
+layout: src/layouts/Default.astro
 title: 'Specification by example&#8230; by example'
-pubDate: '2014-05-07T22:15:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-05-07T22:15:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=355'
 permalink: /2014/05/specification-by-example-by-example/
 interface_sidebarlayout:

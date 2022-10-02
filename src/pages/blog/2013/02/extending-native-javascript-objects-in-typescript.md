@@ -1,9 +1,10 @@
 ---
 id: 653
+layout: src/layouts/Default.astro
 title: 'Extending native JavaScript objects in TypeScript'
-pubDate: '2013-02-16T22:04:27+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-02-16T22:04:27+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=653'
 permalink: /2013/02/extending-native-javascript-objects-in-typescript/
 interface_sidebarlayout:

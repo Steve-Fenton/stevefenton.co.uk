@@ -1,9 +1,10 @@
 ---
 id: 337
+layout: src/layouts/Default.astro
 title: 'Beyond estimates'
-pubDate: '2014-06-18T21:52:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-06-18T21:52:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=337'
 permalink: /2014/06/beyond-estimates/
 interface_sidebarlayout:

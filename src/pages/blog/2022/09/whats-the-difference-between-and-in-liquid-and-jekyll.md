@@ -1,9 +1,10 @@
 ---
 id: 13101
+layout: src/layouts/Default.astro
 title: 'What&#8217;s the difference between {%- and {% in Liquid and Jekyll'
-pubDate: '2022-09-07T13:54:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-09-07T13:54:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13101'
 permalink: /2022/09/whats-the-difference-between-and-in-liquid-and-jekyll/
 meta_description:

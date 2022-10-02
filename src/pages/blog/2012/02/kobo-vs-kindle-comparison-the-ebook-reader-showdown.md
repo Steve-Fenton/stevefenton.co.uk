@@ -1,9 +1,10 @@
 ---
 id: 841
+layout: src/layouts/Default.astro
 title: 'Kobo vs Kindle comparison: The ebook reader showdown'
-pubDate: '2012-02-29T16:44:44+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-02-29T16:44:44+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=841'
 permalink: /2012/02/kobo-vs-kindle-comparison-the-ebook-reader-showdown/
 interface_sidebarlayout:

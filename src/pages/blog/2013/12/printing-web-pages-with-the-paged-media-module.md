@@ -1,9 +1,10 @@
 ---
 id: 479
+layout: src/layouts/Default.astro
 title: 'Printing web pages with the Paged Media module'
-pubDate: '2013-12-02T09:58:37+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-12-02T09:58:37+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=479'
 permalink: /2013/12/printing-web-pages-with-the-paged-media-module/
 interface_sidebarlayout:

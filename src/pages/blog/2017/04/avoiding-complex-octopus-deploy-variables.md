@@ -1,9 +1,10 @@
 ---
 id: 2041
+layout: src/layouts/Default.astro
 title: 'Avoiding complex Octopus Deploy variables'
-pubDate: '2017-04-05T15:14:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-04-05T15:14:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2041'
 permalink: /2017/04/avoiding-complex-octopus-deploy-variables/
 categories:

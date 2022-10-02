@@ -1,9 +1,10 @@
 ---
 id: 687
+layout: src/layouts/Default.astro
 title: 'How to add RDFa Lite to your website'
-pubDate: '2012-11-29T22:44:53+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-29T22:44:53+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=687'
 permalink: /2012/11/how-to-add-rdfa-lite-to-your-website/
 interface_sidebarlayout:

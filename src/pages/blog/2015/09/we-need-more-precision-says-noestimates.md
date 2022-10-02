@@ -1,9 +1,10 @@
 ---
 id: 1459
+layout: src/layouts/Default.astro
 title: 'We need more precision, says #NoEstimates'
-pubDate: '2015-09-25T18:19:24+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-09-25T18:19:24+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1459'
 permalink: /2015/09/we-need-more-precision-says-noestimates/
 medium_post:

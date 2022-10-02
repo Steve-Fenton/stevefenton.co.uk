@@ -1,9 +1,10 @@
 ---
 id: 7842
+layout: src/layouts/Default.astro
 title: 'The Universal Truth of Collections'
-pubDate: '2020-03-12T20:29:00+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-03-12T20:29:00+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7842'
 permalink: /2020/03/the-universal-truth-of-collections/
 categories:

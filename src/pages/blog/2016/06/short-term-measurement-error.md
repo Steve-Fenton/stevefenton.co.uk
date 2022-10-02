@@ -1,9 +1,10 @@
 ---
 id: 1814
+layout: src/layouts/Default.astro
 title: 'Short-term measurement error'
-pubDate: '2016-06-01T18:44:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-06-01T18:44:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1814'
 permalink: /2016/06/short-term-measurement-error/
 medium_post:

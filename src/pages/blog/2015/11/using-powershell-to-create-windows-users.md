@@ -1,9 +1,10 @@
 ---
 id: 1526
+layout: src/layouts/Default.astro
 title: 'Using PowerShell to create Windows users'
-pubDate: '2015-11-27T06:30:58+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-11-27T06:30:58+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1526'
 permalink: /2015/11/using-powershell-to-create-windows-users/
 categories:

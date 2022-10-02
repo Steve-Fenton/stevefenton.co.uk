@@ -1,9 +1,10 @@
 ---
 id: 283
+layout: src/layouts/Default.astro
 title: 'TypeScript enumerations are numbers'
-pubDate: '2014-09-12T20:56:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-12T20:56:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=283'
 permalink: /2014/09/typescript-enumerations-are-numbers/
 interface_sidebarlayout:

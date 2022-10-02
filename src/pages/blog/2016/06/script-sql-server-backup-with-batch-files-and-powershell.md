@@ -1,9 +1,10 @@
 ---
 id: 1832
+layout: src/layouts/Default.astro
 title: 'Script SQL Server backup with batch files and PowerShell'
-pubDate: '2016-06-15T15:51:59+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-06-15T15:51:59+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1832'
 permalink: /2016/06/script-sql-server-backup-with-batch-files-and-powershell/
 categories:

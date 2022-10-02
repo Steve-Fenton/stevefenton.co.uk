@@ -1,9 +1,10 @@
 ---
 id: 1436
+layout: src/layouts/Default.astro
 title: 'Gamification is either infantile or manipulative'
-pubDate: '2015-09-19T11:00:08+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-09-19T11:00:08+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1436'
 permalink: /2015/09/gamification-is-either-infantile-or-manipulative/
 categories:

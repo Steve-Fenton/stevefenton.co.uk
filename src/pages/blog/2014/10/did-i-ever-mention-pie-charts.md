@@ -1,13 +1,13 @@
 ---
 id: 268
+layout: src/layouts/Default.astro
 title: 'Did I ever mention pie charts?'
-pubDate: '2014-10-13T20:39:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-10-13T20:39:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=268'
 permalink: /2014/10/did-i-ever-mention-pie-charts/
-interface_sidebarlayout:
-    - default
+
 categories:
     - 'Pie Charts'
 tags:

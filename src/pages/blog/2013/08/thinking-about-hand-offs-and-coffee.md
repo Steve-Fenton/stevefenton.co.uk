@@ -1,9 +1,10 @@
 ---
 id: 522
+layout: src/layouts/Default.astro
 title: 'Thinking about hand offs and coffee'
-pubDate: '2013-08-09T11:23:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-08-09T11:23:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=522'
 permalink: /2013/08/thinking-about-hand-offs-and-coffee/
 interface_sidebarlayout:

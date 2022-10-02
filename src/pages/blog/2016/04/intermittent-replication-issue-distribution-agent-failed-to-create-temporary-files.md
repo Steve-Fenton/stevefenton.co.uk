@@ -1,9 +1,10 @@
 ---
 id: 1766
+layout: src/layouts/Default.astro
 title: 'Intermittent replication issue &#8211; Distribution agent failed to create temporary files'
-pubDate: '2016-04-20T06:00:12+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-04-20T06:00:12+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1766'
 permalink: /2016/04/intermittent-replication-issue-distribution-agent-failed-to-create-temporary-files/
 categories:

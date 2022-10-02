@@ -1,9 +1,10 @@
 ---
 id: 810
+layout: src/layouts/Default.astro
 title: 'CoffeeScript comparison'
-pubDate: '2012-04-21T16:17:26+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-04-21T16:17:26+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=810'
 permalink: /2012/04/coffeescript-comparison/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 573
+layout: src/layouts/Default.astro
 title: 'Pragmatism. Elitism. Crapism.'
-pubDate: '2013-06-05T12:12:37+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-06-05T12:12:37+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=573'
 permalink: /2013/06/pragmatism-elitism-crapism/
 interface_sidebarlayout:

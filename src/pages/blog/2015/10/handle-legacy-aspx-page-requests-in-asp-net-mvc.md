@@ -1,9 +1,10 @@
 ---
 id: 1471
+layout: src/layouts/Default.astro
 title: 'Handle legacy .aspx page requests in ASP.NET MVC'
-pubDate: '2015-10-05T19:00:26+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-05T19:00:26+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1471'
 permalink: /2015/10/handle-legacy-aspx-page-requests-in-asp-net-mvc/
 categories:

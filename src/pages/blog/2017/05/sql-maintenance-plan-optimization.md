@@ -1,9 +1,10 @@
 ---
 id: 2069
+layout: src/layouts/Default.astro
 title: 'SQL maintenance plan optimization'
-pubDate: '2017-05-30T14:10:41+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-05-30T14:10:41+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2069'
 permalink: /2017/05/sql-maintenance-plan-optimization/
 categories:

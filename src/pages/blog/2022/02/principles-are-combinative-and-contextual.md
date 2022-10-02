@@ -1,9 +1,10 @@
 ---
 id: 12712
+layout: src/layouts/Default.astro
 title: 'Principles are combinative and contextual'
-pubDate: '2022-02-14T14:55:04+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-02-14T14:55:04+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12712'
 permalink: /2022/02/principles-are-combinative-and-contextual/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 907
+layout: src/layouts/Default.astro
 title: 'Missing changes in IIS'
-pubDate: '2011-09-06T17:49:11+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-09-06T17:49:11+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=907'
 permalink: /2011/09/missing-changes-in-iis/
 interface_sidebarlayout:

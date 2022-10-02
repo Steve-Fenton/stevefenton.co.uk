@@ -1,9 +1,10 @@
 ---
 id: 888
+layout: src/layouts/Default.astro
 title: 'PHP doc comments look hideous'
-pubDate: '2011-10-24T17:26:21+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-10-24T17:26:21+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=888'
 permalink: /2011/10/php-doc-comments-look-hideous/
 interface_sidebarlayout:

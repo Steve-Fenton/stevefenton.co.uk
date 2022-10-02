@@ -1,9 +1,10 @@
 ---
 id: 12216
+layout: src/layouts/Default.astro
 title: 'ASP.NET Core Identity AddDefaultIdentity vs AddIdentity'
-pubDate: '2021-11-12T10:54:54+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-11-12T10:54:54+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12216'
 permalink: /2021/11/asp-net-core-identity-adddefaultidentity-vs-addidentity/
 categories:

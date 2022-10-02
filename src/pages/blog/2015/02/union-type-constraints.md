@@ -1,13 +1,13 @@
 ---
 id: 188
+layout: src/layouts/Default.astro
 title: 'TypeScript union type constraints'
-pubDate: '2015-02-01T16:16:52+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-02-01T16:16:52+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=188'
 permalink: /2015/02/union-type-constraints/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

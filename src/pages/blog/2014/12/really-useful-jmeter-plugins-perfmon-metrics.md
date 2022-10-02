@@ -1,13 +1,13 @@
 ---
 id: 227
+layout: src/layouts/Default.astro
 title: 'Really useful JMeter plugins: PerfMon metrics'
-pubDate: '2014-12-24T18:37:07+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-12-24T18:37:07+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=227'
 permalink: /2014/12/really-useful-jmeter-plugins-perfmon-metrics/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 tags:

@@ -1,9 +1,10 @@
 ---
 id: 1031
+layout: src/layouts/Default.astro
 title: 'Using CSS Selectors'
-pubDate: '2010-06-21T21:19:46+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-06-21T21:19:46+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1031'
 permalink: /2010/06/using-css-selectors/
 interface_sidebarlayout:

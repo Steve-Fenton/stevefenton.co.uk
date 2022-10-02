@@ -1,9 +1,10 @@
 ---
 id: 328
+layout: src/layouts/Default.astro
 title: 'Firefox responsive mode'
-pubDate: '2014-06-30T21:46:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-06-30T21:46:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=328'
 permalink: /2014/06/firefox-responsive-mode/
 interface_sidebarlayout:

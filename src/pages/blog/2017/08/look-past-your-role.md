@@ -1,9 +1,10 @@
 ---
 id: 2204
+layout: src/layouts/Default.astro
 title: 'Look past your role'
-pubDate: '2017-08-12T08:07:48+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-08-12T08:07:48+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2204'
 permalink: /2017/08/look-past-your-role/
 categories:

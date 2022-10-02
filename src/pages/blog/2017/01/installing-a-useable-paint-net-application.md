@@ -1,9 +1,10 @@
 ---
 id: 1989
+layout: src/layouts/Default.astro
 title: 'Installing a usable Paint.Net application'
-pubDate: '2017-01-21T06:00:28+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-01-21T06:00:28+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1989'
 permalink: /2017/01/installing-a-useable-paint-net-application/
 categories:

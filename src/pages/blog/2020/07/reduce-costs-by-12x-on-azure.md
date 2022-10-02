@@ -1,9 +1,10 @@
 ---
 id: 9067
+layout: src/layouts/Default.astro
 title: 'Reduce costs by 12x on Azure'
-pubDate: '2020-07-28T20:00:24+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-07-28T20:00:24+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9067'
 permalink: /2020/07/reduce-costs-by-12x-on-azure/
 image: /wp-content/uploads/2020/07/flat-comparison.jpg

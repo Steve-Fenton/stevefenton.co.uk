@@ -1,9 +1,10 @@
 ---
 id: 512
+layout: src/layouts/Default.astro
 title: 'Visual Studio refactoring shortcuts'
-pubDate: '2013-09-12T10:55:14+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-09-12T10:55:14+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=512'
 permalink: /2013/09/visual-studio-refactoring-shortcuts/
 interface_sidebarlayout:

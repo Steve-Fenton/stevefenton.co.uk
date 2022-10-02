@@ -1,9 +1,10 @@
 ---
 id: 1992
+layout: src/layouts/Default.astro
 title: 'Object Orientation isn&#8217;t just objects'
-pubDate: '2017-01-21T12:56:30+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-01-21T12:56:30+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1992'
 permalink: /2017/01/object-orientation-isnt-just-objects/
 categories:

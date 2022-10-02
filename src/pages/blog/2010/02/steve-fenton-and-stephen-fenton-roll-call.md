@@ -1,9 +1,10 @@
 ---
 id: 1294
+layout: src/layouts/Default.astro
 title: 'Steve Fenton and Stephen Fenton Roll Call'
-pubDate: '2010-02-18T21:34:44+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-02-18T21:34:44+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1294'
 permalink: /2010/02/steve-fenton-and-stephen-fenton-roll-call/
 categories:

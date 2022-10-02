@@ -1,13 +1,13 @@
 ---
 id: 32
+layout: src/layouts/Default.astro
 title: 'Add Visual Studio Command Prompt to Visual Studio 2015'
-pubDate: '2015-06-16T23:34:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-06-16T23:34:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=32'
 permalink: /2015/06/add-visual-studio-command-prompt-to-visual-studio-2015/
-interface_sidebarlayout:
-    - default
+
 categories:
     - 'Visual Studio'
 tags:

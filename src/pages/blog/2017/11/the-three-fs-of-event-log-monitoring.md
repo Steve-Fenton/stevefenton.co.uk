@@ -1,9 +1,10 @@
 ---
 id: 2782
+layout: src/layouts/Default.astro
 title: 'The Three Fs of event log monitoring'
-pubDate: '2017-11-06T05:00:07+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-06T05:00:07+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2782'
 permalink: /2017/11/the-three-fs-of-event-log-monitoring/
 image: /wp-content/uploads/2017/11/Three-Fs.png

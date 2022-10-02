@@ -1,9 +1,10 @@
 ---
 id: 11692
+layout: src/layouts/Default.astro
 title: 'New Teams insights features'
-pubDate: '2021-09-20T15:48:38+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-09-20T15:48:38+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11692'
 permalink: /2021/09/new-teams-insights-features/
 image: /wp-content/uploads/2021/09/teams-praise-feature.png

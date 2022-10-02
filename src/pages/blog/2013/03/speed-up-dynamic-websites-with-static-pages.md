@@ -1,9 +1,10 @@
 ---
 id: 637
+layout: src/layouts/Default.astro
 title: 'Speed up dynamic websites with static pages'
-pubDate: '2013-03-01T15:48:52+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-03-01T15:48:52+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=637'
 permalink: /2013/03/speed-up-dynamic-websites-with-static-pages/
 interface_sidebarlayout:

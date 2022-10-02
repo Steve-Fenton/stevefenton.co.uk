@@ -1,9 +1,10 @@
 ---
 id: 13079
+layout: src/layouts/Default.astro
 title: 'How I use TypeScript in 2022'
-pubDate: '2022-09-05T18:00:31+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-09-05T18:00:31+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=13079'
 permalink: /2022/09/how-i-use-typescript-in-2022/
 categories:

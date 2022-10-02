@@ -1,9 +1,10 @@
 ---
 id: 1296
+layout: src/layouts/Default.astro
 title: 'Useful Apache mod rewrite rules'
-pubDate: '2015-07-19T08:00:57+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-19T08:00:57+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1296'
 permalink: /2015/07/useful-apache-mod-rewrite-rules/
 categories:

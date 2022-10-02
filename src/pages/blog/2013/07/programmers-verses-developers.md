@@ -1,9 +1,10 @@
 ---
 id: 538
+layout: src/layouts/Default.astro
 title: 'Programmers vs Developers'
-pubDate: '2013-07-24T11:42:41+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-07-24T11:42:41+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=538'
 permalink: /2013/07/programmers-verses-developers/
 interface_sidebarlayout:

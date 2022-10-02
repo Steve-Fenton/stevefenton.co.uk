@@ -1,9 +1,10 @@
 ---
 id: 1510
+layout: src/layouts/Default.astro
 title: 'Change the date format in Visual Studio Team Services'
-pubDate: '2015-11-18T06:00:04+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-11-18T06:00:04+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1510'
 permalink: /2015/11/change-the-date-format-in-visual-studio-online/
 categories:

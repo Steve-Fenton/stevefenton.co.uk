@@ -1,9 +1,10 @@
 ---
 id: 785
+layout: src/layouts/Default.astro
 title: 'Battery status API'
-pubDate: '2012-06-26T15:55:13+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-06-26T15:55:13+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=785'
 permalink: /2012/06/battery-status-api/
 interface_sidebarlayout:

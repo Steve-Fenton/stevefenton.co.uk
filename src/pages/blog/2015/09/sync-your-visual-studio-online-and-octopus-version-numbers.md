@@ -1,9 +1,10 @@
 ---
 id: 1431
+layout: src/layouts/Default.astro
 title: 'Sync your Visual Studio Online and Octopus Deploy version numbers'
-pubDate: '2015-09-17T16:55:53+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-09-17T16:55:53+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1431'
 permalink: /2015/09/sync-your-visual-studio-online-and-octopus-version-numbers/
 categories:

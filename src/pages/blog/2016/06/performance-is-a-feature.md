@@ -1,9 +1,10 @@
 ---
 id: 1837
+layout: src/layouts/Default.astro
 title: 'Performance is a feature'
-pubDate: '2016-06-18T21:36:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-06-18T21:36:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1837'
 permalink: /2016/06/performance-is-a-feature/
 medium_post:

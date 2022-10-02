@@ -1,9 +1,10 @@
 ---
 id: 1483
+layout: src/layouts/Default.astro
 title: 'What is a Nanoconference?'
-pubDate: '2015-10-19T20:00:27+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-10-19T20:00:27+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1483'
 permalink: /2015/10/what-is-a-nanoconference/
 medium_post:

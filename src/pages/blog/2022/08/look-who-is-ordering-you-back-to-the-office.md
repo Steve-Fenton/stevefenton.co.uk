@@ -1,8 +1,10 @@
 ---
 id: 13052
+layout: src/layouts/Default.astro
 title: Home
-pubDate: '2022-08-04T11:23:15+01:00'
-author: 'Steve Fenton'
+pubDate: 2022-08-04T11:23:15+01:00
+author:
+    - steve-fenton
 layout: revision
 guid: 'https://www.stevefenton.co.uk/?p=13052'
 permalink: '/?p=13052'

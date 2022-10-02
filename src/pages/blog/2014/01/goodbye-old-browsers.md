@@ -1,9 +1,10 @@
 ---
 id: 438
+layout: src/layouts/Default.astro
 title: 'Goodbye old browsers'
-pubDate: '2014-01-03T23:26:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-01-03T23:26:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=438'
 permalink: /2014/01/goodbye-old-browsers/
 interface_sidebarlayout:

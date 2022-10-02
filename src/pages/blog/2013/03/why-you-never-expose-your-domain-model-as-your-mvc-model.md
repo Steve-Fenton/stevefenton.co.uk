@@ -1,9 +1,10 @@
 ---
 id: 626
+layout: src/layouts/Default.astro
 title: 'Why you never expose your domain model as your MVC model'
-pubDate: '2013-03-14T15:27:53+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-03-14T15:27:53+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=626'
 permalink: /2013/03/why-you-never-expose-your-domain-model-as-your-mvc-model/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 9964
+layout: src/layouts/Default.astro
 title: 'Skipping the chasm: How a crisis accelerates progress'
-pubDate: '2020-10-14T06:00:28+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-10-14T06:00:28+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9964'
 permalink: /2020/10/skipping-the-chasm-how-a-crisis-accelerates-progress/
 categories:

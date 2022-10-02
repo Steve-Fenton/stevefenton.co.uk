@@ -1,9 +1,10 @@
 ---
 id: 6394
+layout: src/layouts/Default.astro
 title: 'The DITE Cycle: Data Insight Theory Experiment'
-pubDate: '2019-09-02T07:50:53+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-09-02T07:50:53+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=6394'
 permalink: /2019/09/the-dite-cycle-data-insight-theory-experiment/
 image: /wp-content/uploads/2019/08/dite-cycle.jpg

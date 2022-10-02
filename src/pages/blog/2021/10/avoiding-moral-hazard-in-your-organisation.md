@@ -1,9 +1,10 @@
 ---
 id: 7159
+layout: src/layouts/Default.astro
 title: 'Avoiding Moral Hazard in your organisation'
-pubDate: '2021-10-07T10:13:04+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-10-07T10:13:04+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7159'
 permalink: /2021/10/avoiding-moral-hazard-in-your-organisation/
 image: /wp-content/uploads/2020/01/dangerous-zone.jpg

@@ -1,9 +1,10 @@
 ---
 id: 4218
+layout: src/layouts/Default.astro
 title: 'Traits vs Mixins'
-pubDate: '2018-11-16T19:16:52+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-16T19:16:52+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4218'
 permalink: /2018/11/traits-vs-mixins/
 medium_post:

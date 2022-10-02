@@ -1,9 +1,10 @@
 ---
 id: 3873
+layout: src/layouts/Default.astro
 title: 'SQL Availability Groups: Find the primary server'
-pubDate: '2018-07-06T17:10:49+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-06T17:10:49+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3873'
 permalink: /2018/07/sql-availability-groups-find-the-primary-server/
 medium_post:

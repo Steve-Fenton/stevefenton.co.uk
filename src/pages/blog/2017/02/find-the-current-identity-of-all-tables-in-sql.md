@@ -1,9 +1,10 @@
 ---
 id: 2019
+layout: src/layouts/Default.astro
 title: 'Find the current identity of all tables in SQL'
-pubDate: '2017-02-20T08:10:06+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-02-20T08:10:06+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2019'
 permalink: /2017/02/find-the-current-identity-of-all-tables-in-sql/
 medium_post:

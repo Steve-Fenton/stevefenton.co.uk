@@ -1,9 +1,10 @@
 ---
 id: 920
+layout: src/layouts/Default.astro
 title: 'Hitting enter in a text input causes a button click event to fire'
-pubDate: '2011-07-15T17:57:59+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-07-15T17:57:59+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=920'
 permalink: /2011/07/hitting-enter-in-a-text-input-causes-a-button-click-event-to-fire/
 interface_sidebarlayout:

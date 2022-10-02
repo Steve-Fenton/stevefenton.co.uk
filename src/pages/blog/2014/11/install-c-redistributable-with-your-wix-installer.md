@@ -1,9 +1,10 @@
 ---
 id: 258
+layout: src/layouts/Default.astro
 title: 'Install C++ redistributable with your WiX Installer'
-pubDate: '2014-11-03T20:22:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-11-03T20:22:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=258'
 permalink: /2014/11/install-c-redistributable-with-your-wix-installer/
 interface_sidebarlayout:

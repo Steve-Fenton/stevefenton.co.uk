@@ -1,9 +1,10 @@
 ---
 id: 1337
+layout: src/layouts/Default.astro
 title: 'Hide JavaScript files in Visual Studio Code'
-pubDate: '2015-07-26T07:30:40+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-07-26T07:30:40+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1337'
 permalink: /2015/07/hide-javascript-files-in-visual-studio-code/
 categories:

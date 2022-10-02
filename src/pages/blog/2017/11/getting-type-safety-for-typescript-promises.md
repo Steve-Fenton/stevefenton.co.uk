@@ -1,9 +1,10 @@
 ---
 id: 2900
+layout: src/layouts/Default.astro
 title: 'Getting type safety for TypeScript promises'
-pubDate: '2017-11-21T08:45:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-11-21T08:45:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2900'
 permalink: /2017/11/getting-type-safety-for-typescript-promises/
 categories:

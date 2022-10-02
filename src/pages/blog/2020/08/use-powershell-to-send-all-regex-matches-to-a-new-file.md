@@ -1,9 +1,10 @@
 ---
 id: 9251
+layout: src/layouts/Default.astro
 title: 'Use PowerShell to send all regex matches to a new file'
-pubDate: '2020-08-14T17:19:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-08-14T17:19:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=9251'
 permalink: /2020/08/use-powershell-to-send-all-regex-matches-to-a-new-file/
 categories:

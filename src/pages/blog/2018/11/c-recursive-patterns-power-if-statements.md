@@ -1,9 +1,10 @@
 ---
 id: 4121
+layout: src/layouts/Default.astro
 title: 'C# recursive patterns: Power if-statements'
-pubDate: '2018-11-13T06:00:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-11-13T06:00:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=4121'
 permalink: /2018/11/c-recursive-patterns-power-if-statements/
 medium_post:

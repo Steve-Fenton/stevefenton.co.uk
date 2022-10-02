@@ -1,9 +1,10 @@
 ---
 id: 1972
+layout: src/layouts/Default.astro
 title: 'Get the command text for a SQL Query based on its SPID'
-pubDate: '2016-12-06T08:55:05+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-12-06T08:55:05+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1972'
 permalink: /2016/12/get-the-command-text-for-a-sql-query-based-on-its-spid/
 medium_post:

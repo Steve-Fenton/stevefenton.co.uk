@@ -1,9 +1,10 @@
 ---
 id: 242
+layout: src/layouts/Default.astro
 title: 'Example test MIME message'
-pubDate: '2014-11-21T20:03:15+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-11-21T20:03:15+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=242'
 permalink: /2014/11/example-test-mime-message/
 interface_sidebarlayout:

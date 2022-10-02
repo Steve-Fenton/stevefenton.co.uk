@@ -1,9 +1,10 @@
 ---
 id: 1855
+layout: src/layouts/Default.astro
 title: 'Generate multiple themes from the same LESS file'
-pubDate: '2016-07-20T17:16:07+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-07-20T17:16:07+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1855'
 permalink: /2016/07/generate-multiple-themes-from-the-same-less-file/
 categories:

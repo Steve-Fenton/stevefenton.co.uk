@@ -1,9 +1,10 @@
 ---
 id: 3852
+layout: src/layouts/Default.astro
 title: 'SQL bulk update in batches'
-pubDate: '2018-06-29T17:12:18+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-29T17:12:18+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3852'
 permalink: /2018/06/sql-bulk-update-in-batches/
 medium_post:

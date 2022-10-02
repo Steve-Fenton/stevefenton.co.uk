@@ -1,9 +1,10 @@
 ---
 id: 1047
+layout: src/layouts/Default.astro
 title: 'Firefox About URI Schema'
-pubDate: '2010-04-15T21:47:22+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-04-15T21:47:22+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1047'
 permalink: /2010/04/firefox-about-uri-schema/
 interface_sidebarlayout:

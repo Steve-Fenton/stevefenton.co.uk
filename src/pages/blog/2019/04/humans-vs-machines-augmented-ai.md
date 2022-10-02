@@ -1,9 +1,10 @@
 ---
 id: 5836
+layout: src/layouts/Default.astro
 title: 'Humans vs Machines: Augmented AI'
-pubDate: '2019-04-29T21:10:46+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-04-29T21:10:46+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5836'
 permalink: /2019/04/humans-vs-machines-augmented-ai/
 categories:

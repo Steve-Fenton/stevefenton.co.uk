@@ -1,9 +1,10 @@
 ---
 id: 855
+layout: src/layouts/Default.astro
 title: 'Beach ball charts are worse than pie charts'
-pubDate: '2012-02-17T16:53:59+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-02-17T16:53:59+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=855'
 permalink: /2012/02/beach-ball-charts-are-worse-than-pie-charts/
 interface_sidebarlayout:

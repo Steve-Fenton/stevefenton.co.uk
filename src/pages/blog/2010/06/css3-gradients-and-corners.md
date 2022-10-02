@@ -1,9 +1,10 @@
 ---
 id: 1028
+layout: src/layouts/Default.astro
 title: 'CSS3 Gradients and Corners'
-pubDate: '2010-06-22T21:16:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-06-22T21:16:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1028'
 permalink: /2010/06/css3-gradients-and-corners/
 interface_sidebarlayout:

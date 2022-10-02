@@ -1,9 +1,10 @@
 ---
 id: 2021
+layout: src/layouts/Default.astro
 title: 'Get a list of gaps in a sequence in SQL Server'
-pubDate: '2017-02-22T10:50:28+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-02-22T10:50:28+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2021'
 permalink: /2017/02/get-a-list-of-gaps-in-a-sequence-in-sql-server/
 categories:

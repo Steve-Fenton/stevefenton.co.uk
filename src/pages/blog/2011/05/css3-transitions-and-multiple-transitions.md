@@ -1,9 +1,10 @@
 ---
 id: 939
+layout: src/layouts/Default.astro
 title: 'CSS3 transitions and multiple transitions'
-pubDate: '2011-05-27T19:05:10+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-05-27T19:05:10+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=939'
 permalink: /2011/05/css3-transitions-and-multiple-transitions/
 interface_sidebarlayout:

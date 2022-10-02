@@ -1,9 +1,10 @@
 ---
 id: 11568
+layout: src/layouts/Default.astro
 title: 'How to debug Google Analytics v4 (GA4)'
-pubDate: '2021-06-14T08:22:03+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-06-14T08:22:03+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11568'
 permalink: /2021/06/how-to-debug-google-analytics-v4-ga4/
 image: /wp-content/uploads/2021/06/google-analytics-debug-view.jpg

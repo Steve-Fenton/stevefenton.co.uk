@@ -1,9 +1,10 @@
 ---
 id: 12203
+layout: src/layouts/Default.astro
 title: 'Automating Windows Task Scheduler with PowerShell'
-pubDate: '2021-11-02T14:51:24+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-11-02T14:51:24+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12203'
 permalink: /2021/11/automating-windows-task-scheduler-with-powershell/
 categories:

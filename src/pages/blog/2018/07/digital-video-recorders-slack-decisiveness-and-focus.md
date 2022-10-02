@@ -1,9 +1,10 @@
 ---
 id: 3929
+layout: src/layouts/Default.astro
 title: 'Digital video recorders, slack, decisiveness, and focus'
-pubDate: '2018-07-29T19:03:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-29T19:03:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3929'
 permalink: /2018/07/digital-video-recorders-slack-decisiveness-and-focus/
 medium_post:

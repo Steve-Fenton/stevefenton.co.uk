@@ -1,9 +1,10 @@
 ---
 id: 3596
+layout: src/layouts/Default.astro
 title: 'Getting started with Cypress and TypeScript'
-pubDate: '2018-06-07T07:00:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-06-07T07:00:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3596'
 permalink: /2018/06/getting-started-with-cypress-and-typescript/
 medium_post:

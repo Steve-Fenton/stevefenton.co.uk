@@ -1,9 +1,10 @@
 ---
 id: 7236
+layout: src/layouts/Default.astro
 title: 'Manager vs individual contributor vs lubricator'
-pubDate: '2020-01-31T08:02:04+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-01-31T08:02:04+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=7236'
 permalink: /2020/01/manager-vs-individual-contributor-vs-lubricator/
 image: /wp-content/uploads/2020/01/manager-vs-individual-contributor.jpg

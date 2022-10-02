@@ -1,13 +1,13 @@
 ---
 id: 236
+layout: src/layouts/Default.astro
 title: 'Why private members result in unmatchable TypeScript structures'
-pubDate: '2014-12-03T19:47:54+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-12-03T19:47:54+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=236'
 permalink: /2014/12/why-private-members-result-in-unmatchable-typescript-structures/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

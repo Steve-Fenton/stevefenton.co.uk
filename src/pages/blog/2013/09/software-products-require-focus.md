@@ -1,9 +1,10 @@
 ---
 id: 518
+layout: src/layouts/Default.astro
 title: 'Software product development requires focus'
-pubDate: '2013-09-01T11:15:54+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2013-09-01T11:15:54+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=518'
 permalink: /2013/09/software-products-require-focus/
 interface_sidebarlayout:

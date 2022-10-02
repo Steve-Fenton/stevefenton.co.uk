@@ -1,9 +1,10 @@
 ---
 id: 1985
+layout: src/layouts/Default.astro
 title: 'Log phishing attack'
-pubDate: '2017-01-18T08:23:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-01-18T08:23:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1985'
 permalink: /2017/01/log-phishing-attack/
 medium_post:

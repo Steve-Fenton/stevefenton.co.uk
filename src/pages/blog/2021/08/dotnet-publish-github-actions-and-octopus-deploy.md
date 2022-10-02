@@ -1,9 +1,10 @@
 ---
 id: 11645
+layout: src/layouts/Default.astro
 title: 'DotNet Publish, GitHub Actions, and Octopus Deploy'
-pubDate: '2021-08-19T14:51:52+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-08-19T14:51:52+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11645'
 permalink: /2021/08/dotnet-publish-github-actions-and-octopus-deploy/
 categories:

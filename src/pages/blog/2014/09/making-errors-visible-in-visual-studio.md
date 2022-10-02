@@ -1,9 +1,10 @@
 ---
 id: 285
+layout: src/layouts/Default.astro
 title: 'Making errors visible in Visual Studio'
-pubDate: '2014-09-10T20:58:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-10T20:58:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=285'
 permalink: /2014/09/making-errors-visible-in-visual-studio/
 interface_sidebarlayout:

@@ -1,9 +1,10 @@
 ---
 id: 696
+layout: src/layouts/Default.astro
 title: 'AOP with TypeScript'
-pubDate: '2012-11-14T23:04:49+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-11-14T23:04:49+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=696'
 permalink: /2012/11/aop-with-typescript/
 interface_sidebarlayout:

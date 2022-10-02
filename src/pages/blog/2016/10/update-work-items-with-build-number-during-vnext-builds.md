@@ -1,9 +1,10 @@
 ---
 id: 1950
+layout: src/layouts/Default.astro
 title: 'Update work items with build number during vNext builds'
-pubDate: '2016-10-13T12:23:49+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-10-13T12:23:49+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1950'
 permalink: /2016/10/update-work-items-with-build-number-during-vnext-builds/
 categories:

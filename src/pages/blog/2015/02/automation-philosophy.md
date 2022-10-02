@@ -1,13 +1,13 @@
 ---
 id: 182
+layout: src/layouts/Default.astro
 title: 'Automation Philosophy'
-pubDate: '2015-02-14T16:11:17+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-02-14T16:11:17+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=182'
 permalink: /2015/02/automation-philosophy/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 ---

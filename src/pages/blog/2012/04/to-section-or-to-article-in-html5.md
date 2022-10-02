@@ -1,9 +1,10 @@
 ---
 id: 821
+layout: src/layouts/Default.astro
 title: 'To section or to article in HTML5'
-pubDate: '2012-04-05T16:26:06+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2012-04-05T16:26:06+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=821'
 permalink: /2012/04/to-section-or-to-article-in-html5/
 interface_sidebarlayout:

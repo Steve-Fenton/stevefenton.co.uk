@@ -1,9 +1,10 @@
 ---
 id: 11020
+layout: src/layouts/Default.astro
 title: 'Change an Excel cell&#8217;s colour based on data'
-pubDate: '2020-12-21T08:30:41+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2020-12-21T08:30:41+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11020'
 permalink: /2020/12/change-an-excel-cells-colour-based-on-data/
 image: /wp-content/uploads/2020/12/excel-rgb-cells-preview-background-color.jpg

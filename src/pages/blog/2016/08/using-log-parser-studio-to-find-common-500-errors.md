@@ -1,9 +1,10 @@
 ---
 id: 1925
+layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find common 500 errors'
-pubDate: '2016-08-25T19:15:17+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-08-25T19:15:17+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1925'
 permalink: /2016/08/using-log-parser-studio-to-find-common-500-errors/
 categories:

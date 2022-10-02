@@ -1,9 +1,10 @@
 ---
 id: 277
+layout: src/layouts/Default.astro
 title: 'TypeScript protected access modifier'
-pubDate: '2014-09-26T20:49:18+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-09-26T20:49:18+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=277'
 permalink: /2014/09/typescript-protected-access-modifier/
 interface_sidebarlayout:

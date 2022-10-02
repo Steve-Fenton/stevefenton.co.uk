@@ -1,9 +1,10 @@
 ---
 id: 2011
+layout: src/layouts/Default.astro
 title: 'Secure Octopus Deploy with an auto-updating Let&#8217;s Encrypt certificate'
-pubDate: '2017-02-15T06:00:14+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-02-15T06:00:14+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2011'
 permalink: /2017/02/secure-octopus-deploy-with-an-auto-updating-lets-encrypt-certificate/
 categories:

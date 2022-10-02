@@ -1,9 +1,10 @@
 ---
 id: 2509
+layout: src/layouts/Default.astro
 title: 'Conditionally apply IIS URLRewrite rules'
-pubDate: '2017-10-15T05:00:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-10-15T05:00:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2509'
 permalink: /2017/10/conditionally-apply-iis-urlrewrite-rules/
 medium_post:

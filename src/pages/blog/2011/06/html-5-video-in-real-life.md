@@ -1,9 +1,10 @@
 ---
 id: 928
+layout: src/layouts/Default.astro
 title: 'HTML5 video in real life'
-pubDate: '2011-06-16T18:06:37+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-06-16T18:06:37+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=928'
 permalink: /2011/06/html-5-video-in-real-life/
 interface_sidebarlayout:

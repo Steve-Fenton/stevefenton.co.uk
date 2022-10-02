@@ -1,9 +1,10 @@
 ---
 id: 1821
+layout: src/layouts/Default.astro
 title: 'TFS or VSTS task board has missing cards'
-pubDate: '2016-06-05T06:47:54+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-06-05T06:47:54+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1821'
 permalink: /2016/06/tfs-or-vsts-task-board-has-missing-cards/
 medium_post:

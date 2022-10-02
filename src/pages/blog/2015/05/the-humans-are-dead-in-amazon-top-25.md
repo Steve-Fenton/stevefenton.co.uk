@@ -1,13 +1,13 @@
 ---
 id: 42
+layout: src/layouts/Default.astro
 title: 'The Humans Are Dead in Amazon Top 25'
-pubDate: '2015-05-30T23:45:51+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-30T23:45:51+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=42'
 permalink: /2015/05/the-humans-are-dead-in-amazon-top-25/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 tags:

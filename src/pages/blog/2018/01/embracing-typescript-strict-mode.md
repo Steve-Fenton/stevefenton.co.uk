@@ -1,9 +1,10 @@
 ---
 id: 3318
+layout: src/layouts/Default.astro
 title: 'Embracing the TypeScript strict mode'
-pubDate: '2018-01-30T08:50:06+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-01-30T08:50:06+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3318'
 permalink: /2018/01/embracing-typescript-strict-mode/
 medium_post:

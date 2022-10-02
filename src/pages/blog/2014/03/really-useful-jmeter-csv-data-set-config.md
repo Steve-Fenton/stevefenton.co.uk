@@ -1,9 +1,10 @@
 ---
 id: 376
+layout: src/layouts/Default.astro
 title: 'Really useful JMeter CSV data set config'
-pubDate: '2014-03-14T22:33:06+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2014-03-14T22:33:06+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=376'
 permalink: /2014/03/really-useful-jmeter-csv-data-set-config/
 interface_sidebarlayout:

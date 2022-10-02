@@ -1,9 +1,10 @@
 ---
 id: 1782
+layout: src/layouts/Default.astro
 title: 'Performing really big deletes in SQL Server'
-pubDate: '2016-05-01T15:25:29+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-05-01T15:25:29+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1782'
 permalink: /2016/05/performing-really-big-deletes-in-sql-server/
 medium_post:

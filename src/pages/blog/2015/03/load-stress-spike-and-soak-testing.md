@@ -1,13 +1,13 @@
 ---
 id: 167
+layout: src/layouts/Default.astro
 title: 'Load, stress, spike, and soak testing'
-pubDate: '2015-03-14T15:59:51+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-03-14T15:59:51+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=167'
 permalink: /2015/03/load-stress-spike-and-soak-testing/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Automation
 tags:

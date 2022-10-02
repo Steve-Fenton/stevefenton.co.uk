@@ -1,9 +1,10 @@
 ---
 id: 2053
+layout: src/layouts/Default.astro
 title: 'Multiple certificates for the same HAProxy front-end binding'
-pubDate: '2017-04-28T09:57:56+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-04-28T09:57:56+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2053'
 permalink: /2017/04/multiple-certificates-for-the-same-haproxy-front-end-binding/
 categories:

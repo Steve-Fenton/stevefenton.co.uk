@@ -1,13 +1,13 @@
 ---
 id: 75
+layout: src/layouts/Default.astro
 title: 'TypeScript scope responsibility'
-pubDate: '2015-04-19T00:22:36+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-04-19T00:22:36+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=75'
 permalink: /2015/04/typescript-scope-responsibility/
-interface_sidebarlayout:
-    - default
+
 categories:
     - Programming
 tags:

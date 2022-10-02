@@ -1,9 +1,10 @@
 ---
 id: 5024
+layout: src/layouts/Default.astro
 title: 'The dedicated Scrum Master role'
-pubDate: '2019-01-20T11:34:05+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2019-01-20T11:34:05+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=5024'
 permalink: /2019/01/the-dedicated-scrum-master-role/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 2006
+layout: src/layouts/Default.astro
 title: 'Remove multiple headers with HAProxy'
-pubDate: '2017-02-02T13:38:29+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2017-02-02T13:38:29+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=2006'
 permalink: /2017/02/remove-multiple-headers-with-haproxy/
 categories:

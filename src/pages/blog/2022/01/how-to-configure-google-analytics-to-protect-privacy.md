@@ -1,9 +1,10 @@
 ---
 id: 12682
+layout: src/layouts/Default.astro
 title: 'How to configure Google Analytics to protect privacy'
-pubDate: '2022-01-31T12:04:07+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2022-01-31T12:04:07+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12682'
 permalink: /2022/01/how-to-configure-google-analytics-to-protect-privacy/
 categories:

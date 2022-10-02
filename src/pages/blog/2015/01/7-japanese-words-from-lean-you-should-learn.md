@@ -1,13 +1,13 @@
 ---
 id: 194
+layout: src/layouts/Default.astro
 title: '7 Japanese words from Lean you should learn'
-pubDate: '2015-01-24T16:25:57+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-01-24T16:25:57+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=194'
 permalink: /2015/01/7-japanese-words-from-lean-you-should-learn/
-interface_sidebarlayout:
-    - default
+
 medium_post:
     - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"477d134c40c1";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/477d134c40c1";}'
 categories:

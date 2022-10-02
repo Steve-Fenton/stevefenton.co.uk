@@ -1,9 +1,10 @@
 ---
 id: 12232
+layout: src/layouts/Default.astro
 title: 'The wrong image seems to be selected from a picture element'
-pubDate: '2021-11-25T09:28:18+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2021-11-25T09:28:18+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=12232'
 permalink: /2021/11/what-image-is-selected-from-a-picture-element/
 categories:

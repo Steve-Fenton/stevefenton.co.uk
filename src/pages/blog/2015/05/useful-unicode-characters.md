@@ -1,9 +1,10 @@
 ---
 id: 1596
+layout: src/layouts/Default.astro
 title: 'Useful Unicode characters'
-pubDate: '2015-05-12T06:00:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2015-05-12T06:00:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1596'
 permalink: /2015/05/useful-unicode-characters/
 categories:

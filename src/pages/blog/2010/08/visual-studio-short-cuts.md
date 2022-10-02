@@ -1,9 +1,10 @@
 ---
 id: 1009
+layout: src/layouts/Default.astro
 title: 'Visual Studio Short Cuts'
-pubDate: '2010-08-14T20:52:39+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2010-08-14T20:52:39+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1009'
 permalink: /2010/08/visual-studio-short-cuts/
 interface_sidebarlayout:

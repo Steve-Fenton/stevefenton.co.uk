@@ -1,9 +1,10 @@
 ---
 id: 3916
+layout: src/layouts/Default.astro
 title: 'SQL Server: Filter and sort records from sp_who2'
-pubDate: '2018-07-19T14:36:44+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-07-19T14:36:44+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3916'
 permalink: /2018/07/sql-server-filter-and-sort-records-from-sp_who2/
 medium_post:

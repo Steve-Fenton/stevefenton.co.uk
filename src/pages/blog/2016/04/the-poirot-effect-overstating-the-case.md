@@ -1,9 +1,10 @@
 ---
 id: 1771
+layout: src/layouts/Default.astro
 title: 'The Poirot Effect &#8211; Overstating the case'
-pubDate: '2016-04-22T19:41:30+01:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-04-22T19:41:30+01:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1771'
 permalink: /2016/04/the-poirot-effect-overstating-the-case/
 categories:

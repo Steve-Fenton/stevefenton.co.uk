@@ -1,9 +1,10 @@
 ---
 id: 880
+layout: src/layouts/Default.astro
 title: 'Some handy NCrunch tips'
-pubDate: '2011-12-07T17:14:43+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2011-12-07T17:14:43+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=880'
 permalink: /2011/12/some-handy-ncrunch-tips/
 interface_sidebarlayout:

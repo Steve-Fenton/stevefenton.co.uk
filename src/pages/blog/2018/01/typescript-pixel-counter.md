@@ -1,9 +1,10 @@
 ---
 id: 3290
+layout: src/layouts/Default.astro
 title: 'TypeScript Pixel Counter'
-pubDate: '2018-01-21T20:00:23+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2018-01-21T20:00:23+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=3290'
 permalink: /2018/01/typescript-pixel-counter/
 categories:

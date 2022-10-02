@@ -1,9 +1,10 @@
 ---
 id: 1630
+layout: src/layouts/Default.astro
 title: 'Supercharge your Android Wear battery life'
-pubDate: '2016-01-14T06:00:46+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-14T06:00:46+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1630'
 permalink: /2016/01/supercharge-your-android-wear-battery-life/
 categories:

@@ -1,9 +1,10 @@
 ---
 id: 1643
+layout: src/layouts/Default.astro
 title: 'The Mainstream Effect'
-pubDate: '2016-01-20T06:00:47+00:00'
-author: 'Steve Fenton'
-layout: post
+pubDate: 2016-01-20T06:00:47+00:00
+author:
+    - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1643'
 permalink: /2016/01/the-mainstream-effect/
 categories:
