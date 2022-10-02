@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
+title: Creating a goal template in Google Analytics v3
 navMenu: false
-title: 'Creating a goal template in Google Analytics v3'
 pubDate: 2021-03-16T11:23:08+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/03/goal-view-001.jpg
 categories:
     - Analytics
 tags:
@@ -18,17 +17,17 @@ Google Analytics version 4 is on the way, but I have no news yet about how to sh
 
 Go to your Google Analytics account and choose the property with your nicely configured goals.
 
-Then open Admin &gt; View &gt; Goals
+Then open Admin > View > Goals
 
-[![Goal View in Google Analytics](/img/2021/03/goal-view-001.jpg)](/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-001/)
+:img{src="/img/2021/03/goal-view-001.jpg" alt="Goal View in Google Analytics" loading="lazy"}
 
 Either use the tick box to select all, or choose specific goals from the list. When you do this, a “Share” option appears in the toolbar.
 
-[![Goal Sharing Link](/img/2021/03/goal-view-002.jpg)](/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-002/)
+:img{src="/img/2021/03/goal-view-002.jpg" alt="Goal Sharing Link" loading="lazy"}
 
 Click on this share option and choose “Share template link”. This will create a shareable link that can be used to add goals to any other Google Analytics v3 view (by someone who has permissions to do so).
 
-[![Share Template Link](/img/2021/03/share-template-link.jpg)](/2021/03/creating-a-goal-template-in-google-analytics-v3/share-template-link/)
+:img{src="/img/2021/03/share-template-link.jpg" alt="Share Template Link" loading="lazy"}
 
 You’ll get a message containing a link that you need to copy and keep somewhere to re-use, like your favourites bar.
 

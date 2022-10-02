@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: The Fundamental DevOps Principles
 navMenu: false
-title: 'The Fundamental DevOps Principles'
 pubDate: 2022-08-04T11:33:26+01:00
 authors:
     - steve-fenton
@@ -20,7 +20,7 @@ So, bear in mind that this little thought has come not just from two decades of 
 
 My research encompassed stacks of work done by others. DORA (obviously), but also the CD Foundation, Puppet, The Association for Computer Machinery, and many others.
 
-### Fundamental principle: “At the current time”
+## Fundamental principle: “At the current time”
 
 Continuous Delivery is the best way that we know of to deliver software *at the current time*. The State of DevOps Report has the most extensive research into software delivery that we have *at the current time*.
 
@@ -30,11 +30,11 @@ For example, it seems like five minutes ago we were talking about the four DORA 
 
 It’s worth keeping up to date with changes to get insights that might sharpen your competitive edge further…
 
-[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+:img{src="/img/2022/06/devops-structural-equation-model-1.png" alt="DevOps Structural Equation Model (SEM)" loading="lazy"}
 
 So, the first fundamental principle is that our new era of software delivery is about doing the best thing that we know of at the current time.
 
-### Fundamental principle: Types of work
+## Fundamental principle: Types of work
 
 To keep things simple, I’ll say there’s two types of work. What I mean is that work can be plotted along a scale that is either more like one type, or more like the other.
 
@@ -45,7 +45,7 @@ Software engineering can be divided into two types of tasks (remember my point a
 1. Complex and unpredictable work
 2. Predictable work
 
-[![](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)](/2015/02/automation-philosophy/definitely-routine-to-definitely-eccentric/)
+:img{src="/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png" alt="A scale from predictable to complex work" loading="lazy"}
 
 The fundamental principle of DevOps is that **we reduce as much of the predictable work as possible to give us more time and energy to handle the complex and unpredictable stuff**.
 
@@ -53,7 +53,7 @@ We can reduce it by automation (such as automated builds and deployment automati
 
 The specific ways we reduce that routine work might change. We might identify more things that we can reduce. Advancements in tools might make some things that are hard to reduce far easier, shifting the economics of things like automation.
 
-### Automation
+## Automation
 
 If this sounds familiar, it’s because it connects back to my [automation philosophy](/2015/02/automation-philosophy/). I used the terms “routine” and “eccentric” to describe the work and said that all the routine stuff should be automated. Anything truly “routine” *can* be automated, but there is an economic U-curve to surf. As technology advances, the economics will shift in favour of automation for even the most difficult routine stuff we handle right now.
 
@@ -65,14 +65,14 @@ We are also targeting *routine* or *predictable* tasks in particular. There may 
 
 The point is, at the current time and with the currently available tools, we should reduce and automate all the tasks that are predictable so the humans can get to work on the tough stuff.
 
-### Summary
+## Summary
 
 The summary is short and sharp…
 
 1. Use the best way to stuff that we know at the current time
 2. Identify, reduce, and automate routine work
 
-### White papers
+## White papers
 
 These white papers can be downloaded for free from Octopus Deploy.
 

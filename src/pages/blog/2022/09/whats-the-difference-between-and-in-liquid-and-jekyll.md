@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: What's the difference between {%- and {% in Liquid and Jekyll
+navMenu: false
 pubDate: 2022-09-07T13:54:57+01:00
 authors:
     - steve-fenton
@@ -16,16 +16,15 @@ If you are looking at Jekyll templates, you may be wondering what the difference
 
 Luckily, the answer isn’t too difficult. The addition of dashes, such as `{%- -%}`, requests that white space surrounding the block is stripped.
 
-You can use it for just whitespace before the block: `{%- %}`.
+You can use it for whitespace before the block: `{%- %}`.
 
-Or, just for whitespace after the block: `{% -%}`.
+Or, for whitespace after the block: `{% -%}`.
 
 And of course, neither or both! Just put the dash at the end you would like to strip whitespace from. This lets you keep the output super clean, especially when you have multiple lines for readability.
 
 Here’s some code to generate a simple XML sitemap:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 ---
 layout: null
 ---
@@ -45,10 +44,10 @@ layout: null
 {% endfor %}
 </urlset>
 ```
+
 This results in a gappy output file!
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -73,10 +72,10 @@ This results in a gappy output file!
 
 </urlset>
 ```
+
 But this can be solved using the whitespace stripping syntax, in this case, just stripping left-hand whitespace in a few location:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- assign pages = site.pages | where: 'nav-sitemap','true' %}
@@ -92,12 +91,11 @@ But this can be solved using the whitespace stripping syntax, in this case, just
   </url>
 {%- endfor %}
 </urlset>
-
 ```
+
 This results in a tidy output file:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>

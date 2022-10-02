@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: How to find installed text to speech voices on Windows
 navMenu: false
-title: 'How to find installed text to speech voices on Windows'
 pubDate: 2022-05-16T09:21:12+01:00
 authors:
     - steve-fenton
@@ -15,17 +15,17 @@ I’m using a Visual Studio Code extension that provides text-to-speech, which I
 
 As I’m using Windows 11 on a Surface Book 3, I can quickly find installed voices using a PowerShell script…
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 Add-Type -AssemblyName System.speech
 $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $synth.GetInstalledVoices() | foreach { $_.VoiceInfo.Name }
 ```
+
 Running these three lines of PowerShell will give you a list such as this:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 Microsoft Hazel Desktop
 Microsoft Zira Desktop
 ```
+
 Enter the full name, such as “Microsoft Zira Desktop”, in the settings for the VSCode Speech plugin settings. You should set this under user preferences, not workspace settings – as speed and voice is going to be a personal choice for your colleagues.

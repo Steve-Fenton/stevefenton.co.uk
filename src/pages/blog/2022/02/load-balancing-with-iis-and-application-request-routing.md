@@ -1,34 +1,36 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Load balancing with IIS and Application Request Routing'
+title: Load balancing with IIS and Application Request Routing
 pubDate: 2022-02-28T20:00:38+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/02/load-balancing-with-arr.png
+bannerImage:
+    src: /i/x/2022/02/load-balancing-with-arr.png
+    alt: Traffic routed between servers using application request routing
 categories:
     - Programming
 tags:
     - arr
     - iis
-    - 'load balancing'
+    - load balancing
 ---
 
 Application Request Routing (ARR) is a feature in <abbr title="Internet Information Services">IIS</abbr> that allows you to set up a web farm and load balance the requests. ARR sits within IIS Manager and provides load balancing, caching, and health monitoring features.
 
 In this article, a single-server web app will be updated to run on two web servers with an ARR server sitting in front of them to distribute the traffic.
 
-![Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers.](/img/2022/02/load-balancing-with-arr.png)
+:img{src="/img/2022/02/load-balancing-with-arr.png" alt="Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers"}
 
-### Installing ARR
+## Installing ARR
 
 If you have a server with IIS installed, you can [use the Web Platform Installer to add ARR](https://www.iis.net/downloads/microsoft/application-request-routing).
 
 Once installed, you will have a new node in IIS Manager called **Server Farms**.
 
-![Server farms node in IIS Manager](/img/2022/02/iis-manager-server-farms.jpg)
+:img{src="/img/2022/02/iis-manager-server-farms.jpg" alt="Server farms node in IIS Manager" loading="lazy"}
 
-### Creating a server farm
+## Creating a server farm
 
 In IIS Manager, expand the machine and right-click on **Server Farms**, which should appear alongside **Application Pools** and **Sites**.
 
@@ -40,7 +42,7 @@ You will now be asked to add a server to the farm. You can enter the IP address 
 
 Repeat this step for each machine, then select **Finish**. The wizard will offer to automatically create the routing rules for you, which usually does what you want.
 
-### Update your DNS
+## Update your DNS
 
 You will need to change your DNS from pointing at the web server to the load-balancing server. IN our example, we would change the IP address from `192.168.236.128` (the original web server) to be `192.168.236.130` (our IIS ARR load balancer).
 
@@ -48,7 +50,7 @@ You can also update the firewalls on the two web servers so they only accept web
 
 Once you have updated the DNS, you can make a request and you should see the same web app as before, except served via the load balancer and cached. You’ll notice there is an additional header on responses made by the load balancer: `X-Powered-By: ARR/3.0`.
 
-### Exploring the features
+## Exploring the features
 
 IIS Manager has specific sections to configure and monitor your server farm.
 
@@ -62,9 +64,9 @@ IIS Manager has specific sections to configure and monitor your server farm.
 
 The example below shows a configuration where routing rules allow all “\*.jpg” files to be server from the load balancer, with all other requests forwarded to the web farm.
 
-![Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers.](/img/2022/02/arr-selective-routing.png)
+:img{src="/img/2022/02/arr-selective-routing.png" alt="Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers" loading="lazy"}
 
-### Summary
+## Summary
 
 Adding ARR to IIS is a straightforward way to introduce load balancing. It may not have as many options as a dedicated offering, but it is a production-ready solution with a simple set of options.
 

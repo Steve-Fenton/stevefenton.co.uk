@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Browser Extension: Link Reporter
 navMenu: false
-title: 'Browser Extension: Link Reporter'
 pubDate: 2022-03-07T16:13:36+00:00
 authors:
     - steve-fenton
@@ -14,15 +14,15 @@ tags:
 
 I needed to grab a report that listed all hyperlinks on a web page, so I wrote a browser extension to do it for me.
 
-[![Link reporter in the extension store](/img/2022/03/link-reporter-edge-extension.jpg)](/2022/03/browser-extension-link-reporter/link-reporter-edge-extension/)
+:img{src="/img/2022/03/link-reporter-edge-extension.jpg" alt="Link reporter in the extension store"}
 
 Get [LinkReporter in the Edge store](https://microsoftedge.microsoft.com/addons/detail/linkreporter/fjcjpdljldimcgcinebaopphlnoegfng).
 
 Grab [LinkReporter in the Chrome Store](https://chrome.google.com/webstore/detail/linkreporter/mkfnghikdmejcicolbcdmfdfbkbhmefl).
 
-### How to use Link Reporter
+## How to use Link Reporter
 
-[![Click on the LinkReporter icon in the browser toolbar and the report will download.](/img/2022/03/using-link-reporter.jpg)](/2022/03/browser-extension-link-reporter/using-link-reporter/)
+:img{src="/img/2022/03/using-link-reporter.jpg" alt="Click on the LinkReporter icon in the browser toolbar and the report will download" loading="lazy"}
 
 Once you’ve installed the extension:
 
@@ -30,7 +30,7 @@ Once you’ve installed the extension:
 2. Click the Link Reporter icon
 3. A CSV file will download into your usual folder, open it to see the report
 
-[![Example report from Link Reporter](/img/2022/03/example-report.png)](/2022/03/browser-extension-link-reporter/example-report/)
+:img{src="/img/2022/03/example-report.png" alt="Example report from Link Reporter" loading="lazy"}
 
 The report contains the following information:
 
@@ -38,6 +38,6 @@ The report contains the following information:
 - Link Text – this is the raw text for the link; if you have used an image there will be nothing here
 - Destination – the destination address for the link
 
-### Summary
+## Summary
 
 This is a quick way to get a list of links from a web page, organised by section path.

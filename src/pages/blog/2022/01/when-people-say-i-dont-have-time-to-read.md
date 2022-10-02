@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: When people say I don't have time to read
+navMenu: false
 pubDate: 2022-01-06T06:00:33+00:00
 authors:
     - steve-fenton
@@ -22,11 +22,13 @@ That means, any average person who switches half their social time to reading ti
 
 That means our average person can read thirty to sixty books a year just by exchanging doom-scrolling for reading. The average person who does this ceases to be average very quickly and becomes more than average. Interesting. Knowledgeable. Empathetic. They might even write a social post worth reading after ingesting this many books.
 
-### Time to Read
+## Time to Read
 
-[![An infographic showing that giving up half your social time will gift you 30 books a year.](/img/2022/01/time-to-read.png)](/img/2022/01/time-to-read.png)
+:img{src="/img/2022/01/time-to-read.png" alt="An infographic showing that giving up half your social time will gift you 30 books a year" loading="lazy"}
 
-### Notes
+[Click here to open a larger version](/img/2022/01/time-to-read.png)
+
+## Notes
 
 12 books per year is an average that is shifted higher by the most avid readers. This is true even though it is estimated that thirty percent of people don’t read *at all*. These numbers come from the [Pew Research Centre](https://www.pewresearch.org/fact-tank/2015/10/19/slightly-fewer-americans-are-reading-print-books-new-survey-finds/), based in part on research funded by the Bill and Melinda Gates Foundation. This number may be slightly US-centric due to the population surveyed.
 

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Counting a non-generic IEnumerable
 navMenu: false
-title: 'Counting a non-generic IEnumerable'
 pubDate: 2021-06-23T19:01:08+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ Now, you can’t just use `System.Linq` to count an `IEnumerable` because Linq w
 
 Here’s the extension that does it, including a helper that allows us to dispose of the enumerator *if it is disposable*.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public static class EnumerableExtensions
 {
     public static int Count(this IEnumerable source)
@@ -58,9 +57,9 @@ public static class EnumerableExtensions
     }
 }
 ```
+
 To use this code, we just call it on our `IEnumerable`, like this…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 int count = multiSelectList.SelectedItems.Count();
 ```

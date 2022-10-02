@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: It's time to support CSS dark mode
+navMenu: false
 pubDate: 2021-01-28T06:00:57+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/01/moon-black-sky.jpg
 categories:
     - Programming
 tags:
@@ -20,8 +19,7 @@ I have been running a dark-mode option behind a user-selectable toggle and there
 
 If you are running a modern CSS stack, you can just provide alternate values for your variables based on `prefers-color-scheme: dark`.
 
-```
-<pre class="prettyprint lang-css">
+```css
 :root {
     --fore: #000;
     --aft: #f4f4f2;
@@ -45,10 +43,10 @@ a {
     color: var(link);
 }
 ```
+
 It’s a bit more verbose old-school, and this size will increase proportionally to how crazy you’ve been when adding colour declarations.
 
-```
-<pre class="prettyprint lang-css">
+```css
 body {
     color: #000;
     background-color: #f4f4f2;
@@ -69,4 +67,5 @@ a {
     }
 }
 ```
-Credit to Kev for sharing dark mode and CSS variables with me.
+
+Credit to Basher (Kev) for sharing dark mode and CSS variables with me.

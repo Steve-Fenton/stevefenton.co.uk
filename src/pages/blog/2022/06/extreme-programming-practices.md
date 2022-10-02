@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Extreme Programming practices
 navMenu: false
-title: 'Extreme Programming practices'
 pubDate: 2022-06-01T22:15:33+01:00
 authors:
     - steve-fenton
@@ -14,11 +14,11 @@ tags:
 
 I created this Extreme Programming practices diagram to try and represented Kent Beck’s hand-sketched diagram as honestly as possible with a bit more structure. Hopefully this is a useful version that can help you visualise all the interactions between practices that were observed by Kent, which he wrote about in Extreme Programming Explained (definitely worth a read).
 
-[![Extreme Programming (XP) Practices](/img/2022/06/xp-extreme-programming-practices-1.png)](/2022/06/extreme-programming-practices/xp-extreme-programming-practices-2/)
+:img{src="/img/2022/06/xp-extreme-programming-practices-1.png" alt="Extreme Programming (XP) Practices"}
 
 That might be all you need from this page, but as I’m also working in the DevOps and continuous delivery space right now I thought I’d add a little comparison between this XP map of practices and the DevOps *structural equation model* (SEM).
 
-### DevOps backed proof of XP practices
+## DevOps backed proof of XP practices
 
 The State of DevOps report is the best study available of the specific techniques and capabilities that amplify success all the way through your technology teams right through to the success of the organisation. The SEM is part of this research and it includes some of the practices and relationships that were in the Extreme Programming practices two decades ago.
 
@@ -30,9 +30,9 @@ We can re-draw the diagram to show:
 
 Here’s a reminder of the DevOps structural equation model.
 
-[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+:img{src="/img/2022/06/devops-structural-equation-model-1.png" alt="DevOps Structural Equation Model (SEM)" loading="lazy"}
 
-#### No XP/DevOps equivalent
+### No XP/DevOps equivalent
 
 The following don’t have an equivalent or it would be too much of a stretch to describe them as equivalent.
 
@@ -44,11 +44,11 @@ The following don’t have an equivalent or it would be too much of a stretch to
 
 As an example, the 40 hour work week is a cultural practice, but I couldn’t really say it’s equivalent to the DevOps cultural capabilities.
 
-#### Equivalent-ish XP/DevOps practices
+### Equivalent-ish XP/DevOps practices
 
 There is a capability in DevOps called “loosely coupled architecture”. I have classified the XP practices of refactoring and simple design as part of this broader DevOps item.
 
-#### Close partners between XP and DevOps
+### Close partners between XP and DevOps
 
 The following are treated as being the same in XP and DevOps, or close enough that the differences are minimal.
 
@@ -57,11 +57,11 @@ The following are treated as being the same in XP and DevOps, or close enough th
 - Short releases in XP is part of continuous delivery in DevOps
 - Collective ownership in XP is part of continuous delivery in DevOps (it’s actually one of the continuous delivery principles)
 
-### Confirmed practices and relationships
+## Confirmed practices and relationships
 
 With the above classifications in mind, we can confirm many of the practices and relationships found in XP.
 
-[![XP vs DevOps SEM](/img/2022/06/xp-devops-1.png)](/2022/06/extreme-programming-practices/xp-devops-2/)
+:img{src="/img/2022/06/xp-devops-1.png" alt="XP vs DevOps Structural Equation Model" loading="lazy"}
 
 Represented by solid coloured lines in the diagram, the following relationships are directionally confirmed.
 
@@ -77,7 +77,7 @@ We also have a number of relationships that can be inferred to be sound, noted i
 - Testing and refactoring
 - Simple design and testing
 
-### Other relationships
+## Other relationships
 
 The other relationships of XP, which are greyed-out dotted lines in the diagram, are not proven as part of the State of DevOps research.
 
@@ -85,7 +85,7 @@ This doesn’t mean you should throw them out. Many of them *feel* like valid co
 
 Rather importantly, all of these *confirmed* relationships are established all the way through to organisational performance.
 
-### Summary
+## Summary
 
 Extreme Programming was the method de jour when The Agile Manifesto was written. It ought to have remained the primary agile method as one of the few that had concrete technical and cultural practices.
 

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: How to return non-HTML responses from Astro
 navMenu: false
-title: 'How to return non-HTML responses from Astro'
 pubDate: 2022-09-19T18:18:25+01:00
 authors:
     - steve-fenton
@@ -18,8 +18,7 @@ To do this, create a file with the appropriate name, but add `.js` on the end. F
 
 Inside the file, you need to export a getter that returns a response with a body, for example:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 export const get = () => {
     return {
         body: '[1, 2, 3, 4]'

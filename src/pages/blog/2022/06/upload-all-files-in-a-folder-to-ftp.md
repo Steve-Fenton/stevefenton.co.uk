@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Upload all files in a folder to FTP
 navMenu: false
-title: 'Upload all files in a folder to FTP'
 pubDate: 2022-06-08T21:06:33+01:00
 authors:
     - steve-fenton
@@ -15,8 +15,7 @@ This is the second old-school post this week. Hey, I’m clearing the decks of s
 
 There’s not much to explain here. It’s a simple `System.Net.WebClient` doing the work, with a credential added for the username and password. The source folder is searched for non-directory entries using `Get-ChildItem` and passing into `Where-Object` to filter by last write time. Each match is moved up to the FTP folder with the same name.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $source = '../src'
 $server = 'ftp://0.0.0.0'
 $date = (Get-date).AddDays(-1)

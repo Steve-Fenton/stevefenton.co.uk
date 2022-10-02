@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Astro: Rollup failed to resolve import
 navMenu: false
-title: 'Astro: Rollup failed to resolve import'
 pubDate: 2022-09-20T13:19:20+01:00
 authors:
     - steve-fenton

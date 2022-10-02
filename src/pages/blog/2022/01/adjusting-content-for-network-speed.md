@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Adjusting Content for Network Speed
 navMenu: false
-title: 'Adjusting Content for Network Speed'
 pubDate: 2022-01-10T09:49:33+00:00
 authors:
     - steve-fenton
@@ -23,18 +23,17 @@ The summary contains three items:
 
 Here’s an example:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 {
     "saveData": false,
     "speedInMB": 3.1,
     "type": "downlink"
 }
 ```
+
 To get this, we just need to use the `getConnectionSpeed` function, defined below:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 function getConnectionSpeed() {
   const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
 
@@ -85,10 +84,10 @@ function getConnectionSpeed() {
   return result;
 };
 ```
+
 And here is how you might use it…
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 function onConnectionChange() {
     const elem = document.getElementById('result');
     elem.innerHTML = JSON.stringify(getConnectionSpeed(), null, 4);
@@ -102,4 +101,5 @@ if (navigator.connection) {
     navigator.connection.addEventListener('change', onConnectionChange);
 }
 ```
-You can check current browser support on [Can I Use… netinfo](https://caniuse.com/netinfo). Partial support is currently listed for Chrome and Edge, but the items used in the above function *are* supported (and the code itself works through a list to find a supported property).
+
+You can check current browser support on [Can I Use netinfo](https://caniuse.com/netinfo). Partial support is currently listed for Chrome and Edge, but the items used in the above function *are* supported (and the code itself works through a list to find a supported property).

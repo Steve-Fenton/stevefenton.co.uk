@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: AJAX Request Interceptor
 navMenu: false
-title: 'AJAX Request Interceptor'
 pubDate: 2021-02-02T11:06:44+00:00
 authors:
     - steve-fenton
@@ -17,16 +17,15 @@ This is a little funky script to intercept AJAX requests and raise a simple cust
 
 To use this, you just need to listen for a custom event named `AjaxDetected`. The method, url, and any data is passed in the event detail.
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 document.body.addEventListener('AjaxDetected', function (e) {
     console.log(e.detail.method, e.detail.url, e.detail.data);
 }, false);
 ```
+
 This event is raised by code that inserts it’s own interceptor functions *before* the original `XMLHttpRequest` functions for `open` and `send`.
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 (function () {
     const arl = new Object();
     arl._open = XMLHttpRequest.prototype.open;

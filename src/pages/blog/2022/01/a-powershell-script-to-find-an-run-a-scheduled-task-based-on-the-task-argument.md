@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: A PowerShell script to find an run a scheduled task based on the task argument
 navMenu: false
-title: 'A PowerShell script to find an run a scheduled task based on the task argument'
 pubDate: 2022-01-19T12:43:52+00:00
 authors:
     - steve-fenton
@@ -16,8 +16,7 @@ This is a pretty specific example about finding and running a task in Task Sched
 
 This task is written as an Octopus Deploy runbook, so you’ll notice the variable `#{TaskArgument}` contains the name of the argument we are searching for. The script has been designed to run all tasks that match (as opposed to the first one, for example). If you aren’t running within Octopus Deploy, you can simply use the string for your filter, such as `'myargumentstring'`.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $found = $False;
 
 Write-Host 'Looking for #{TaskArgument}'
@@ -45,7 +44,8 @@ if ($found) {
     Write-Warning 'No task found on this server for #{TaskArgument}'
 }
 ```
-### PowerShell stuff used
+
+## PowerShell stuff used
 
 Breaking this down into it’s parts, we perform the following:
 
@@ -59,6 +59,6 @@ Breaking this down into it’s parts, we perform the following:
 
 `Start-ScheduledTask`: if it is ready, we start the task using the task name.
 
-### Summary
+## Summary
 
 This is mainly an interesting expansion of interacting with Task Scheduler with PowerShell, that expands upon the previous article on [automating Windows Task Scheduler with PowerShell](/2021/11/automating-windows-task-scheduler-with-powershell/).

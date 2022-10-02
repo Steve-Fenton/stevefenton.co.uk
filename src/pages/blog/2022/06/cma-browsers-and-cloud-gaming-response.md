@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: CMA Browsers and Cloud Gaming Response
 navMenu: false
-title: 'CMA Browsers and Cloud Gaming Response'
 pubDate: 2022-06-23T19:23:37+01:00
 authors:
     - steve-fenton
@@ -25,7 +25,7 @@ The [OWA](https://open-web-advocacy.org/) needs your help from UK based individu
 
 We all need to speak up now, not to force Apple to change its behaviour, but to get protection for The Web from any large company that finds itself in a similar position.
 
-### How you can help
+## How you can help
 
 Read the CMA report on [browsers and cloud gaming](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming)
 
@@ -35,7 +35,7 @@ You can also encourage friends, co-workers, and even your company to submit a re
 
 If you’re not sure where to start with your response to the CMA, here is my full submission. This might give you time ideas of where to start.
 
-### My response
+## My response
 
 Good afternoon,
 

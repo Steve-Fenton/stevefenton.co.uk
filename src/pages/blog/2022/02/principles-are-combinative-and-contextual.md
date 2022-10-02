@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Principles are combinative and contextual
 navMenu: false
-title: 'Principles are combinative and contextual'
 pubDate: 2022-02-14T14:55:04+00:00
 authors:
     - steve-fenton

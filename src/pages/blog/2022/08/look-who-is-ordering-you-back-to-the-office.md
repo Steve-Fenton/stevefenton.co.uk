@@ -1,28 +1,64 @@
 ---
 layout: src/layouts/Default.astro
+title: Look who is ordering you back to the office
 navMenu: false
-title: Home
-pubDate: 2022-08-04T11:23:15+01:00
+pubDate: 2022-08-03T14:07:20+01:00
 authors:
     - steve-fenton
+categories:
+    - Opinion
+tags:
+    - wfh
 ---
 
-Steve Fenton is an **Octonaut** at [Octopus Deploy](https://www.octopus.com/) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/2020/07/the-software-punk-revolution/) and writer. You can [find out more about Steve Fenton here](/about-me/).
+This week, Malcolm Gladwell joined the ranks of people yelling at workers to *get back to work*. Like many of the people arguing for a return to office work, they tell us they don't believe it's possible to do good work unless you are under management observation.
 
-<div class="listing-item">
+> It’s not in your best interest to work at home. I know it’s a hassle to come into the office, but if you’re just sitting in your pyjamas in your bedroom, is that the work-life you want to live? <cite>Malcolm Gladwell</cite>
 
-## A Note From Steve
+There are a number of reasons to get frustrated by this.
 
-The primary audience for the writing found herein is me. It’s super-easy to forget stuff if you don’t write it down, as I did the *second time* I had to fix a really tricky certificate problem in .NET.
+## Pyjamas
 
-If only I had written down the answer, I could have saved hours of irritating replays of all the same steps I had used to find the problem in the first instance.
+I work at a company who have a <a href="https://handbook.octopus.com/life-octopus/trust">high-trust environment</a>. Our handbook tells us <a href="https://handbook.octopus.com/life-octopus/where-you-work">"do your best work, from where you work best"</a>. I don't go to work in pyjamas. I wear a rather snazzy set of pinstripe trousers and a company tee. It's what I would wear if I went to an office. It would be fine for me to work in pyjamas if that's what helped me do my best work and live my best life... but I find that dressing for work helps me get my head into the game.
 
-My goal in life is to start a punk revolution in software development. I am also secretly [S. M. Fenton](https://www.smfenton.uk/s-m-fenton/) the author of [The Vanishing Room](https://www.smfenton.uk/the-vanishing-room/).
+When someone accuses people who work from home of *wearing pyjamas*, it makes it look like their only work-from-home experience is from Internet memes. Or, perhaps, this is what *they* would do if they worked from home. Worse even than this explanation is that *they think they are an exception*; they wouldn't wear pyjamas, but they think "workers" would.
 
-</div>
+WFH ≠ Pyjamas
 
-## Recent Thoughts
+## Sense of belonging
 
-You can review my [full archive of thoughts](/blog/), but the most recent entries are listed below.
+> ...we want you to have a feeling of belonging and to feel necessary... and if you’re not here it’s really hard to do that. <cite>Malcolm Gladwell</cite>
 
-<div class="display-posts-listing"><div class="listing-item">[Astro paging and listing by category](/2022/10/astro-paging-and-listing-by-category/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">When you have blogs, articles, news, or similar collections of posts in Astro, you can generate paged lists of these items automatically. The mechanism to do this involves two key components. A file path that has one or more tokens A getStaticPaths function that gives Astro the information needed to generate pages File path tokens \[…\]</span></div><div class="listing-item">[Mysterious GitHub Actions resolution failure](/2022/09/mysterious-github-actions-resolution-failure/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">This error came from resolving an import through VITE, but it could happen just as easily for any file reference / import when you have working imports locally that fail when you run GitHub Actions. It’s worth keeping this information somewhere in your brain for later as I had to guess my way to the \[…\]</span></div><div class="listing-item">[Astro: Rollup failed to resolve import](/2022/09/astro-rollup-failed-to-resolve-import/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">This is short reminder to my future self about an error I found in Astro, which defied explanation. This ran find on a local npm run build, but inside of GitHub actions it failed. Rollup failed to resolve import "../components/Head/Head.astro" For better or worse, I solved this by renaming Head.astro to HtmlHead.astro. Either the term \[…\]</span></div><div class="listing-item">[How to return non-HTML responses from Astro](/2022/09/how-to-return-non-html-responses-from-astro/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">There are some cases in Astro where you need to return a non-HTML response. For example, and XML or JSON file. To do this, create a file with the appropriate name, but add .js on the end. For example, if you want search.json place the file in the pages directory with the name search.json.js. Inside \[…\]</span></div><div class="listing-item">[Reading site.config and site.data in Jekyll Plugins and Liquid Filters](/2022/09/reading-site-config-and-site-data-in-jekyll-plugins-and-liquid-filters/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">It seems like I’m working a great deal in Jekyll, Ruby, and Liquid at the moment. Here’s the solution to a little problem I had. I needed to access the Jekyll configuration and site data from within a plugin that added a Liquid filter. Here’s the shape of the plugin, which is pretty common: require \[…\]</span></div><div class="listing-item">[What’s the difference between {%- and {% in Liquid and Jekyll](/2022/09/whats-the-difference-between-and-in-liquid-and-jekyll/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">If you are looking at Jekyll templates, you may be wondering what the difference is between {%- -%} and {% %} template blocks. Luckily, the answer isn’t too difficult. The addition of dashes, such as {%- -%}, requests that white space surrounding the block is stripped. You can use it for just whitespace before the \[…\]</span></div><div class="listing-item">[Adding multiple attributes with kramdown](/2022/09/adding-multiple-attributes-with-kramdown/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">If you are using kramdown (the default markdown parser in Jekyll) there are some neat features that aren’t available in standard markdown. One of these features is inline attribute lists, or IALs. Block element IALs Here’s a basic use of IAL for a paragraph. For any block element, you just add the IAL on the \[…\]</span></div><div class="listing-item">[How I use TypeScript in 2022](/2022/09/how-i-use-typescript-in-2022/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Programming](/category/programming/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">I feel I need to write a disclaimer at the start of this article, which goes something like this. This is about how I am using TypeScript right now. I’m definitely not telling you how you should use it. Some context about the kind of stuff I’m writing will be useful to see if we’re \[…\]</span></div><div class="listing-item">[The difference between The Phoenix Project and The Unicorn Project](/2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Process](/category/process/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">This is a short post to explain the difference between The Phoenix Project and The Unicorn Project. Funnily enough, there are more similarities than differences (though it’s a key difference). The Phoenix Project Written by Gene Kim, Kevin Behr, and George Spafford, The Phoenix Project is a business novel following Bill, IT Manager for Parts \[…\]</span></div><div class="listing-item">[Look who is ordering you back to the office](/2022/08/look-who-is-ordering-you-back-to-the-office/) <span class="category-display"><span class="category-display-label">Posted in:</span> [Opinion](/category/opinion/)</span> <span class="excerpt-dash">-</span> <span class="excerpt">This week, Malcolm Gladwell joined the ranks of people yelling at workers to get back to work. Like many of the people arguing for a return to office work, they tell us they don’t believe it’s possible to do good work unless you are under management observation. It’s not in your best interest to work \[…\]</span></div></div>
+The reality here is that a modern manager should be able to build a distributed team with a sense of purpose. It *is* really hard work to do that, which is why managers get paid to do it. If you are a manager in a modern workplace, distributed team chops are a necessary skill. If you don't have the knowledge or the techniques, go see what the old-timers of distributed teams are doing (by old-timers, we're talking about companies that did this before the pandemic).
+
+With so many managers climbing into positions without any thought to the additional skills they need beyond "being good at the work", there are already loads of teams sitting together in the same room with no sense of purpose or belonging. This problem is not unique to distributed teams. There are specific challenges to making the magic happen in a distributed team, but it has been done.
+
+```
+Office ≠ Purpose
+```
+
+## Your best interest
+
+You know who can discover your best interests? You. Not Malcolm Gladwell. He doesn't even know most of you. While writing the excellent book, Blink, Malcolm found what best served his interests and the interests of the project. This is how he described his process in <a href="https://www.theguardian.com/money/2005/mar/05/workandcareers.politicsphilosophyandsociety">2005</a>.
+
+> I hate desks. Desks are now banished. I work better when I'm comfortable. <cite>Malcolm Gladwell</cite>
+
+Yes, you read that right. Malcolm worked from home and a variety of other spots because *it's where he did his best work*. He used places like his sofa, the Savoy, the Monmouth Coffee Company. Anywhere except an office with a desk, because desks are now banished. Of course, he still had an office at The New Yorker:
+
+> I used to go there every day and I slowly kind of weaned myself away... I felt like I was in exile when I was in the New Yorker offices. I missed being connected. <cite>Malcolm Gladwell</cite>
+
+## Summary
+
+I could just let Malcolm provide the closing argument for what we kinda already know to be true. Having access to an office isn't a terrible thing, but the key is to work where you can do your best work. What might be a total grind in an office, or at a desk, might become a breeze in the right location. Finding different spaces that inspire you to do awesome stuff is really the key to working remotely.
+
+> It seems like a fun activity now. Kind of casual. It's been more seamlessly integrated into my life and that's made it much more pleasurable. I never want to be at a desk again. <cite>Malcolm Gladwell</cite>
+
+Some people have pointed out that Malcolm relies a little on PR, which I suppose is true. Saying stuff to raise attention so people buy your excellent books is one thing... depending on the collateral damage, I suppose.
+
+When people with shares in office space ordered us back to the office, it was really clear why they wanted us back there. Same goes for all the people whose business is adjacent to office space. You could follow the money trail in most cases.
+
+Eventually, those businesses will adjust to a decentralised reality. Those empty local shop fronts will gain value once more as people look for those locations to place in their own rotation. A coffee shop within a ten minute walk that served great coffee could do fair business, though perhaps not as much as one giant coffee shop with the associated low levels of service. We may not want to travel to a giant office miles away, but smaller local shared spaces might be appealing when you need something like that in your rotation.
+
+I'm not really sure what Malcolm Gladwell's motivation is for his recent statements. Maybe they were just off-the-cuff comments that we've taken a bit too seriously... it doesn't really seem like he believes any of the stuff about belonging coming from shared offices?!
+
+Don't rush back to your office just yet, as there might be a bit more to this story.

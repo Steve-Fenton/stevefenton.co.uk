@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Reading site.config and site.data in Jekyll Plugins and Liquid Filters
 navMenu: false
-title: 'Reading site.config and site.data in Jekyll Plugins and Liquid Filters'
 pubDate: 2022-09-13T09:56:22+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ It seems like I’m working a great deal in Jekyll, Ruby, and Liquid at the mome
 
 Here’s the shape of the plugin, which is pretty common:
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 require 'liquid'
 
 module Jekyll
@@ -35,12 +34,12 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-### Adding Jekyll configuration
+
+## Adding Jekyll configuration
 
 There’s two parts to this, when we reference the configuration, it loads it. We don’t want to do that every time, so we ought to remember it as it doesn’t change during the site generation. We’ll get the configuration using `Jekyll.configuration({})` and read the `language` entry…
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 require 'liquid'
 
 module Jekyll
@@ -63,12 +62,12 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-### Adding Jekyll site data
+
+## Adding Jekyll site data
 
 The site is provided within the context, so we can get it from `@context.registers[:site]` (thanks to [Michael Currin for his Jekyll Cheat Sheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/)). Once we have it, we can use it *almost* as we would from within a Liquid tag on the page. The only difference is instead of `site.data.name...` we must use `site.data['name']`.
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 require 'liquid'
 
 module Jekyll
@@ -92,20 +91,20 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-### Language plugin
+
+## Language plugin
 
 Here’s a more complete language plugin based on the above. It falls back to English if an entry isn’t found.
 
 **\_config.yaml**
 
-```
-<pre class="prettyprint lang-yaml">
+```yaml
 language: en #en, fr, fr-be, etc
 ```
+
 **\_data/language.yaml**
 
-```
-<pre class="prettyprint lang-yaml">
+```yaml
 skiplinks:
   skip_to_navigation:
     en: Skip to navigation
@@ -117,14 +116,14 @@ skiplinks:
     en: Skip to footer
     fr-be: Aller au pied de page
 ```
+
 You simply add entries for any languages you need to support, and apologies for my translation skills in the above example.
 
 **\_plugins/liquid\_language.rb**
 
 The plugin has been expanded to fallback through languages. For example, if your site language is set to `fr-be`, it will check `fr-be`, then `fr`, then the default `en`. This means, for example, you can set up a general “French” language and only customise the “Belgian French” items that differ, rather than having to duplicate the “French” language items that are the same.
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 require 'liquid'
 
 module Jekyll
@@ -164,9 +163,9 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
+
 **Usage**
 
-```
-<pre class="prettyprint lang-html">
+```html
 <a href="#site-nav">{{ 'skiplinks' | t: 'skip_to_navigation' }}</a>
 ```

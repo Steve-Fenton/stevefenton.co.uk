@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Title case text with MySql'
+title: Title case text with MySql
 pubDate: 2022-05-17T20:00:21+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ As you can see from the script, it has limitations! Specifically, if you need it
 
 For each word, it applies `UPPER` to the fist letter and `LOWER` to the rest, so it fixes things in both directions. For example “BACK TO THE FUTURE”, “back to the future”, and “bAcK tO tHe FuTuRe” will all become “Back To The Future”.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 UPDATE `terms` SET name = TRIM(
     CONCAT_WS(' ',
         CONCAT(UPPER(LEFT(SUBSTRING_INDEX(name, ' ', 1), 1)), LOWER(MID(SUBSTRING_INDEX(name, ' ', 1), 2))),
@@ -35,4 +34,5 @@ UPDATE `terms` SET name = TRIM(
     )
 );
 ```
+
 If someone knows a better way, I’d love to hear it!

@@ -18,7 +18,7 @@ When you have blogs, articles, news, or similar collections of posts in Astro, y
 - A file path that has one or more tokens
 - A `getStaticPaths` function that gives Astro the information needed to generate pages
 
-### File path tokens
+## File path tokens
 
 Let’s call our collection “articles” for these examples. We don’t want one long list of articles, we want to provide pages of articles with the most recent ones first.
 
@@ -47,7 +47,7 @@ For our paged list by category, we’ll add another file within `/pages/articles
 
 The only rule for tokens is that each one needs to have a param when we create the `getStaticPaths` function. Cue segueway jingle…
 
-### The `getStaticPaths` function
+## The `getStaticPaths` function
 
 The basic structure of the `getStaticPaths` function is:
 
@@ -123,7 +123,7 @@ export async function getStaticPaths({ paginate }: any) {
 }
 ```
 
-### Summary
+## Summary
 
 The combination of file path tokens and the `getStaticPaths` function, with their shared params / tokens is what powers the generation of paged lists.
 

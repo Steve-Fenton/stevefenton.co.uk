@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Codeless != Designless
 navMenu: false
-title: 'Codeless != Designless'
 pubDate: 2022-01-07T06:00:00+00:00
 authors:
     - steve-fenton

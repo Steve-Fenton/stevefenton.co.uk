@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Show Reassigned Variables in Visual Studio
 navMenu: false
-title: 'Show Reassigned Variables in Visual Studio'
 pubDate: 2022-01-04T13:16:00+00:00
 authors:
     - steve-fenton
@@ -19,8 +19,7 @@ When you enable this feature, variables that are assigned once are left alone, b
 
 Examples that will *not* be highlighted:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 // Example 1 - this is never reassigned, so isn't highlighted
 int example1 = 1;
 
@@ -29,10 +28,10 @@ int example2;
 
 example2 = 2;
 ```
+
 Examples that *will* be highlighted:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 // Example 1 - this is reassigned later, so will be highlighted
 int example1 = 1;
 
@@ -44,12 +43,13 @@ example 2 = 2;
 example1 = 10;
 example2 = 20;
 ```
+
 Here is a screenshot to show this in action, you’ll see the `notAfter` variable is underlined, because it is reassigned. The other variables are not highlighted because they are never reassigned.
 
-[![Screenshot showing a variable underlined because it is reassigned](/img/2022/01/reassigned-variable.jpg)](/2022/01/show-reassigned-variables-in-visual-studio/reassigned-variable/)
+:img{src="/img/2022/01/reassigned-variable.jpg" alt="Screenshot showing a variable underlined because it is reassigned" loading="lazy"}
 
-### How to enable this feature
+## How to enable this feature
 
 You can enable this feature in **Tools -&gt; Options** by navigating to **Text Editor -&gt; C# -&gt; Advanced** and selecting the option **Underline reassigned variables**.
 
-[![Finding the underline reassigned variables option in the options dialog.](/img/2022/01/underline-reassignments.jpg)](/2022/01/show-reassigned-variables-in-visual-studio/underline-reassignments/)
+:img{src="/img/2022/01/underline-reassignments.jpg" alt="Finding the underline reassigned variables option in the options dialog" loading="lazy"}

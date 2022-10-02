@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: The Int Betweeners (An extension method for numbers)
 navMenu: false
-title: 'The Int Betweeners (or&#8230; An extension method for numbers)'
 pubDate: 2021-04-23T08:57:57+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/04/greg-davies-inbetweeners.jpg
+bannerImage:
+    src: /i/x/2021/04/greg-davies-inbetweeners.jpg
+    alt: Greg Davies in the Inbetweeners
 categories:
     - Programming
 ---
@@ -18,19 +20,18 @@ Implicit in this statement is that this would be inclusive. When a magician says
 
 The simplest way to do this is with an extension method.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public static bool Between(this int number, int a, int b)
 {
     return number >= Math.Min(a, b) && number <= Math.Max(a, b);
 }
 ```
+
 This provides the eminently readable `if (number.Between(1, 10))` check, which is nice.
 
 Example:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 int number = 5;
 
 // true cases
@@ -43,10 +44,10 @@ Console.WriteLine(number.Between(5, 5));
 Console.WriteLine(number.Between(6, 10));
 Console.WriteLine(number.Between(3, 1));
 ```
+
 It's just a one line method, so it's no particular bother to write a similar one to handle other types. If we are being kind to those using the code, there would probably be more documentation than there would be code... so, here is the full thing.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public static class TypeExtensions
 {
     public static bool Between(this int number, int a, int b)
@@ -60,4 +61,5 @@ public static class TypeExtensions
     }
 }
 ```
+
 Photo: Greg Davies, The Inbetweeners. [Check out this busy chap](https://gregdavies.co.uk/).

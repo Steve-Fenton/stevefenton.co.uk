@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Advanced Ruby gsub with regular expressions
 navMenu: false
-title: 'Advanced Ruby gsub with regular expressions'
 pubDate: 2022-08-03T14:07:20+01:00
 authors:
     - steve-fenton
@@ -19,52 +19,51 @@ Let’s set the scene for the problem. I’m processing a custom Markdown block 
 
 The custom Markdown block looks like this:
 
-```
-<pre class="prettyprint lang-markdown">
+```markdown
 :::hint
 
 Some content to be shown in a hint box.
 
 :::
 ```
+
 By the time the text is handed to me, it’s already been mostly processed by Jekyll’s Markdown parser, so what we’re dealing with is something like:
 
-```
-<pre class="prettyprint lang-html">
+```html
 <p>:::hint</p>
 
 <p>Some content to be shown in a hint box.</p>
 
 <p>:::</p>
 ```
+
 However, what we really want is for the `:::` syntax to trigger a container with a class called “hint” (or whatever text has been added by the author), like this:
 
-```
-<pre class="prettyprint lang-html">
+```html
 <div class="hint">
 
 <p>Some content to be shown in a hint box.</p>
 
 </div>
 ```
-### Jekyll hooks
+
+## Jekyll hooks
 
 We’re running inside a Jekyll hook, so there is a file named `custom_html.rb` inside my `_plugins` directory with a simple hook defined…
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 Jekyll::Hooks.register :pages, :post_convert do |item|
     # Do something with the item
 end
 ```
+
 This is where `item` comes from in the examples below and I’ll leave out the hook-specific code to keep the examples short.
 
-### gsub basics
+## gsub basics
 
 You can do a simple replace using strings and `gsub`, like this:
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 content = "
 <p>:::hint</p>
 
@@ -76,18 +75,19 @@ content = content.gsub(':::', '<div>')
 
 puts content
 ```
+
 Basic `gsub` usage looks for the first string, and replaces it with the second one.
 
 You can see from the output that this replaces the `:::` strings, but this isn’t enough to solve our requirement just yet.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <p><div>hint</p>
 
 <p>Test</p>
 
 <p><div></p>
 ```
+
 Our problems are:
 
 - We can’t tell the difference between opening and closing tags if we just use ‘:::’
@@ -96,14 +96,13 @@ Our problems are:
 
 We can use our problem to explore some more advanced use cases for `gsub`.
 
-### gsub with regular expressions
+## gsub with regular expressions
 
 We can tell the difference between a start and end tag using a regular expression. Don’t shudder, it’s not going to be that bad. The syntax for using a regular expression is shown below.
 
 We use one `gsub` to find the opening tag, including the surplus paragraphs, and one to find the closing tag, replacing them as appropriate.
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 content = "
 <p>:::hint</p>
 
@@ -117,12 +116,12 @@ content = content
 
 puts content
 ```
+
 The key part of the regular expression is that `[a-z]+` part, which explains that we expect to find some extra text on the opening tag that isn’t there on the closing tag.
 
 Here’s the output.
 
-```
-<pre class="prettyprint lang-html">
+```html
 content = "
 <p>:::hint</p>
 
@@ -131,16 +130,11 @@ content = "
 <p>:::</p>
 
 "
-
-content = content
-    .gsub(/<p>:::[a-z]+<\/p>/, '<div>')
-    .gsub(/<p>:::<\/p>/, '</div>')
-
-puts content
 ```
+
 Our output is now valid HTML, but our class name is still missing. We’ll tackle that next.
 
-### Using a match from the regular expression in the output
+## Using a match from the regular expression in the output
 
 We just need to fine tune our regular expression now to get hold of that class name, so we can use it in the output.
 
@@ -150,8 +144,7 @@ The second part of our update is to use the text we found in the output. The syn
 
 As we want to use the text as the class name, we’ll use `'<div class="\1">'`
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 content = "
 <p>:::hint</p>
 
@@ -167,29 +160,30 @@ content = content
 
 puts content
 ```
+
 Our output is now exactly what we want. We’re converting a markdown block into an HTML block with the appropriate class name.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <div class="hint">
 
 <p>Test</p>
 
 </div>
 ```
-### The key parts
+
+## The key parts
 
 To summarise, here’s the line of code with important bits called out:
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 content
     .gsub(/<p>:::([a-z]+)<\/p>/, '<div class="\1">')
 #         ^ / starts and ends the regular expression
 #                ^ brackets create the capture group
 #                                             ^ \1 uses the first match in the output
 ```
-### The final solution
+
+## The final solution
 
 Having made it *work*, it’s time to make it *right*. Before I started, I hadn’t used `gsub` or Jekyll hooks. Now I’ve learned a bit, I want to clean things up.
 
@@ -199,8 +193,7 @@ However, there is another hook called `post_init` which fires *before* the markd
 
 Here’s the final solution. An additional item is (because you are running before markdown) to signal that you would like markdown processed within the HTML block you create. The `markdown="1"` signals to Kramdown that you want the markdown processed within the element.
 
-```
-<pre class="prettyprint lang-ruby">
+```ruby
 Jekyll::Hooks.register :pages, :post_init do |item|
     item.content = item.content
         .gsub(/:::([a-z]+)/, '<div class="\1" markdown="1">')

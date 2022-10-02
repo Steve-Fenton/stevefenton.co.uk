@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Using sibling-selectors to style the element before the match
 navMenu: false
-title: 'Using sibling-selectors to style the element before the match'
 pubDate: 2021-02-25T14:03:59+00:00
 authors:
     - steve-fenton
@@ -12,20 +12,19 @@ tags:
     - html
 ---
 
-The original question for the below answer was wanting to hide a link when a button that’s next to the link has a “selected” class. This is interesting because this requires a sibling selector, but sibling selectors in CSS are a bit funky… with a sibling selector, the target element is always \_subsequent\_. That means it’s always the right-hand argument.
+The original question for the below answer was wanting to hide a link when a button that’s next to the link has a “selected” class. This is interesting because this requires a sibling selector, but sibling selectors in CSS are a bit funky… with a sibling selector, the target element is always *subsequent*. That means it’s always the right-hand argument.
 
 In the examples, I’ll make the background change so you can see effect – but to “hide the link” you’ll want to set `display:none`.
 
 Let’s demonstrate by doing it the wrong way around. If we were to add the “is-open” class to the anchor, we could easily affect the next button:
 
-```
-<pre class="prettyprint lang-css">
+```css
     a.is-open + button {
         background-color: Aqua;
     }
 ```
-```
-<pre class="prettyprint lang-html">
+
+```html
 <a href="./index.html" class="logo-header"><span class="logo-part">Web</span>Project</a>
 
 <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
@@ -53,24 +52,24 @@ Let’s demonstrate by doing it the wrong way around. If we were to add the “i
     </svg>
 </button>
 ```
+
 To do this “the right way around”, the button would need to be before the anchor – so if that’s an option you can switch them around and use
 
-```
-<pre class="prettyprint lang-css">
+```css
    button.is-open + a {
         background-color: Aqua;
     }
 ```
+
 If not, you can wrap each pair in an enclosing element, such as a ‘div’ element wrapping the anchor and the button. If you set the “is-open” class on that div, you can easily have CSS selectors to do what you want.
 
-```
-<pre class="prettyprint lang-css">
+```css
     div.is-open a {
         background-color: Aqua;
     }
 ```
-```
-<pre class="prettyprint lang-html">
+
+```html
 <div>
     <a href="./index.html" class="logo-header"><span class="logo-part">Web</span>Project</a>
 
