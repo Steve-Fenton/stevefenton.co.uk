@@ -5,10 +5,6 @@ title: 'How to return non-HTML responses from Astro'
 pubDate: 2022-09-19T18:18:25+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Programming
 tags:

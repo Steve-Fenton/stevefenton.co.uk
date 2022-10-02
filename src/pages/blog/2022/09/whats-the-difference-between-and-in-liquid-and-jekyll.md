@@ -5,10 +5,6 @@ title: What's the difference between {%- and {% in Liquid and Jekyll
 pubDate: 2022-09-07T13:54:57+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Programming
 tags:

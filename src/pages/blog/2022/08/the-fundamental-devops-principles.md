@@ -5,10 +5,6 @@ title: 'The Fundamental DevOps Principles'
 pubDate: 2022-08-04T11:33:26+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Process
 tags:

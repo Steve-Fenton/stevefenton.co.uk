@@ -5,10 +5,6 @@ title: 'Astro paging and listing by category'
 pubDate: 2022-10-02T11:05:05+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Programming
 tags:

@@ -5,10 +5,6 @@ title: 'Mysterious GitHub Actions resolution failure'
 pubDate: 2022-09-23T15:38:34+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Programming
 tags:

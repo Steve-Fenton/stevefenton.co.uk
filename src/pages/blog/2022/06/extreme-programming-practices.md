@@ -5,10 +5,6 @@ title: 'Extreme Programming practices'
 pubDate: 2022-06-01T22:15:33+01:00
 author:
     - steve-fenton
-meta_description:
-    - ''
-meta_keywords:
-    - ''
 categories:
     - Programming
 tags:

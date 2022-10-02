@@ -44,12 +44,17 @@ export async function getStaticPaths({ paginate }: any) {
     .filter(p => p.url != null && p.url != '')
     .sort(sortByPubDateDesc);
 
+  console.log('urlPosts length', urlPosts.length);
   const categories: string[] = [];
-  urlPosts.forEach(p => p.frontmatter.categories.forEach(c => {
-    if (!categories.includes(c)) {
-      categories.push(c);
-    }
-  }));
+  urlPosts.forEach(p => {
+    console.log(p.url, p.frontmatter.categories);
+    const cats: string[] = p.frontmatter.categories ?? [];
+    cats.forEach(c => {
+      if (!categories.includes(c)) {
+        categories.push(c);
+      }
+    });
+  });
 
   return categories.map(c => {
     const filtered = urlPosts.filter(p => p.frontmatter.categories.includes(c));
