@@ -101,6 +101,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3em;
     font-size: clamp(2em, 4vw, 3em);
+    text-transform: uppercase;
+    text-decoration-color: var(--icon-block);
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.2em;
 }
 
 h2 {
@@ -371,8 +375,14 @@ nav.site-nav h2 {
 }
 
 main {
+    border: 1px dashed var(--fore);
+    box-shadow: var(--box-shadow);
     max-width: calc(var(--grid-max-width) - var(--navigation-width) - var(--grid-gap));
     width: calc(var(--grid-width) - var(--navigation-width) - var(--grid-gap));
+}
+
+main > article {
+    padding: 1rem;
 }
 
 main h1 {
@@ -426,6 +436,11 @@ main ul ol, main ul ul, main ol ol, main ol ul {
     width: 100%;
     color: var(--fore-head);
     background-color: var(--aft-head);
+}
+
+.site-footer a {
+    color: var(--link-head);
+    text-decoration: none;
 }
 
 /* Overlay (Mobile Navigation, Search) */
