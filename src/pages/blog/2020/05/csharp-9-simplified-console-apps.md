@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: C# 9 simplified console apps
 navMenu: false
-title: 'C# 9 simplified console apps'
 pubDate: 2020-05-20T06:30:13+01:00
 authors:
     - steve-fenton
@@ -20,12 +20,12 @@ For example, `args` is still available, and if you use an `await` it will work o
 
 Here’s an example…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using static System.Console;
 
 WriteLine("Hey, I didn't write a class or method here!");
 ```
+
 The concept behind this is to simplify that first-write experience to remove the cruft and focus everything on *your* code.
 
 Check back for some more [C# 9 articles](/tag/c-sharp/) coming soon!

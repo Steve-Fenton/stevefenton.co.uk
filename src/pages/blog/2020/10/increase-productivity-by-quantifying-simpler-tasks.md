@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Increase productivity by quantifying simpler tasks
 navMenu: false
-title: 'Increase productivity by quantifying simpler tasks'
 pubDate: 2020-10-21T08:21:12+01:00
 authors:
     - steve-fenton
@@ -19,7 +19,7 @@ The full title of this article should really be “Increase Productivity by Quan
 
 Please heed previous warnings on [gamification and funification](/2015/09/gamification-is-either-infantile-or-manipulative/).
 
-### My view
+## My view
 
 The question of whether quantification will improve or hinder performance is not complex. Unlike many simple things that are hard to do, this one is easy. If the task is simpler than than the numbers, productivity will increase. If the task is harder than the numbers, productivity will decrease. The measurement acts a bit like a gravitational force.
 
@@ -31,6 +31,6 @@ Complex task. Writing an article. I open a blank text editor and start writing a
 
 Let’s drop them on a picture, with the measurement of “Words per Minute” in the middle, and its gravitational effect on the touch typing task and the article writing task…
 
-[![Measurement Complexity Creates a Gravitational Force](/img/2020/10/complexity-gravity.jpg)](/2020/10/increase-productivity-by-quantifying-simpler-tasks/complexity-gravity/)
+:img{src="/img/2020/10/complexity-gravity.jpg" alt="Measurement Complexity Creates a Gravitational Force" loading="lazy"}
 
 I suspect that it is, in theory, possible to reverse the gravitational pull by operating on the method of quantification (i.e. if I were to measure my article in a more refined manner). Over time as sophisticated measurement tools are made available, we might be able to push the quantification upwards and create a stronger pull that will work positively against more complex tasks. As my good friend Keith Drew also pointed out, we could operate to break up and simplify a task to bring it below the measurement line. In practice, though, it seems sensible to abandon the numbers game once a certain complexity threshold is reached.

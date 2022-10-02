@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Skipping the chasm: How a crisis accelerates progress
 navMenu: false
-title: 'Skipping the chasm: How a crisis accelerates progress'
 pubDate: 2020-10-14T06:00:28+01:00
 authors:
     - steve-fenton
@@ -11,13 +11,15 @@ tags:
     - remote
 ---
 
-Full credit to Geoffrey Moore, whose seminal *Crossing the Chasm* keeps proving to be a useful book thirty years after it was written. Credit also to Hans Baumhardt who introduced me to the book and who critically shaped my thinking about work and life. What I hope do, now that the credits are over, is explain how we are all currently being affected by a crisis in a positive way. By no means do I intend to side-line the terrible impact of the pandemic, which has sadly affected hundreds of thousands of people. However, in this piece I’m going to talk exclusively about the upside, where some advantages are to be found by those who can see the opportunity, and how all of that relates to Moore’s *Crossing the Chasm*.
+Full credit to Geoffrey Moore, whose seminal *Crossing the Chasm* keeps proving to be a useful book thirty years after it was written. Credit also to Hans Baumhardt who introduced me to the book and who critically shaped my thinking about work and life. What I hope do, now that the credits are over, is explain how we are all currently being affected by a crisis in a positive way.
 
-### Crossing the Chasm
+By no means do I intend to side-line the terrible impact of the pandemic, which has sadly affected hundreds of thousands of people. However, in this piece I’m going to talk exclusively about the upside, where some advantages are to be found by those who can see the opportunity, and how all of that relates to Moore’s *Crossing the Chasm*.
+
+## Crossing the Chasm
 
 In [Crossing the Chasm](https://wordery.com/crossing-the-chasm-3rd-edition-geoffrey-a-moore-9780062292988), Geoffrey Moore describes a process (aptly shown on the cover of the third edition) by which technology is adopted. Like all great ideas, it is more broadly applicable than you may realise. Anyway, the stages of the technology adoption lifecycle are…
 
-[![Crossing the Chasm Book Cover](/img/2020/10/crossing-the-chasm.jpg)](/skipping-the-chasm-how-a-crisis-accelerates-progress__trashed/crossing-the-chasm/)
+:img{src="/img/2020/10/crossing-the-chasm.jpg" alt="Crossing the Chasm Book Cover" loading="lazy"}
 
 1. Innovators
 2. Early Adopters
@@ -29,7 +31,7 @@ But, importantly, there is a big gap between *Early Adopters* and *The Early Maj
 
 The normal route used to cross the chasm is the spark ignited by the Innovators and the momentum and promotion of the Early Adopters.
 
-### Skipping the chasm
+## Skipping the chasm
 
 When there is a crisis, that gap between Early Adopters and The Early Majority narrows. That means that adverse conditions can create an environment within which progress is accelerated. Potentially by years.
 
@@ -39,7 +41,7 @@ Then the crisis hit, and there was no alternative for companies but to acquire t
 
 A crisis narrows the chasm, or even closes it.
 
-### What does this mean for business
+## What does this mean for business
 
 The subject of remote working is one that has come up in most companies I have worked at over the past ten years. Over this time, I have built and refined a model that predicts there are certain phases to remote work. There are important implications for organisations that have not yet moved to remote or hybrid teams. I have adjusted the model based on events this year.
 
@@ -58,11 +60,11 @@ The next phase will be disruptive to The Late Majority and devastating to Laggar
 
 Finally, we reach the phase where the best tech talent is only available remotely. If you haven’t adopted by this stage, you’ll be working out the details while others are flying. Any competitive advantage will have been lost and you’ll be spending even more money that The Early Adopters just trying to catch up to them.
 
-### Prove it!
+## Prove it!
 
 The writing is on the wall. Microsoft have invested a ton of effort into Microsoft Teams, researching remote work fatigue and introducing features that reduce it. They’ve quickly made Teams the most compelling tool for remote workforces. On top of this Microsoft has announced its own move to a hybrid workforce. Those who opt to work remotely for more than half their time lose a permadesk at the office, but can use a pool of office space when they need to visit HQ.
 
-### Why?!!
+## Why?!!
 
 The old script of working hard to fund a retirement has been torn up. Not many people hold out much hope of having a dream lifestyle when they step back from the workforce at the ever increasing retirement age. People are realising that if you want to live a life, you need to do that *while you are working*. Once again, the Innovators and The Early Adopters are selling this as part of the package. Basecamp work four-day weeks for the whole summer, offer generous holiday (including a 30-day paid sabbatical every three years), and strive to promote a healthy balance of work and life. Many other companies are moving in a similar direction.
 

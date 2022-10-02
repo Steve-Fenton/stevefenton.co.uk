@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Use PowerShell to send all regex matches to a new file
 navMenu: false
-title: 'Use PowerShell to send all regex matches to a new file'
 pubDate: 2020-08-14T17:19:22+01:00
 authors:
     - steve-fenton
@@ -17,7 +17,7 @@ Yesterday I had to look at a list of stuff on a third-party website and match it
 
 Rather than go through the whole process, we’ll just look at the common bit that you might want to use, which is grabbing a file (in my case an HTML source file, but it can be any text file) and stripping out the regex matches into a new clean file.
 
-### PowerShell commands
+## PowerShell commands
 
 We’re going to use the following:
 
@@ -29,10 +29,9 @@ We’re going to use the following:
 
 In the example below I’m sending it all into a CSV – this is arbitrary as it is just a new line for each match. In my case, treating it as a CSV data source is useful in the next step. You could send it to a plain text file too.
 
-### Complete PowerShell script
+## Complete PowerShell script
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $sourcePath = "example.txt"
 $outPath = "example.csv"
 
@@ -43,16 +42,16 @@ Get-Content $sourcePath |
     ForEach-Object {$_.matches.groups[1].value} | 
     Out-File $outPath
 ```
+
 The regex happens to be looking for a particular pattern I’m interested in – you can <abbr title="Bring Your Own Regex">BYOR</abbr>.
 
-### Input / output
+## Input / output
 
 This is a brief example of input and output.
 
 *Input*
 
-```
-<pre class="prettyprint lang-html">
+```html
 <div class="checkbox_block">
   <input type="checkbox" id="f_projects_box2205109" value="2205109">
   <label for="f_projects_box2205109">
@@ -70,13 +69,14 @@ This is a brief example of input and output.
   </label>
 </div>
 ```
+
 *Output*
 
 ```
 KT-2002
 AR-9999
 ```
-### Summary
+## Summary
 
 Whenever I have a task that has distinct steps, I automate it. Even running this once would make it worth the effort because (a) I’m a human not a robot, so writing a PowerShell script is a better use of my time than doing manual repetitive work (which is [boring and not aligned to the way of the punk](/2020/07/the-software-punk-revolution/)), (b) the process results in a task being automated *and* my brain containing more knowledge as the more I PowerShell the more I learn about it and the faster I am the next time I automate something, and (c) I get to share this with my future self so if I need to do something similar later, I won’t be starting from scratch.
 

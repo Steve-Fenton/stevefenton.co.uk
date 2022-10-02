@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: Turn an old phone into a programmable keyboard
 navMenu: false
-title: 'Turn an old phone into a programmable keyboard'
 pubDate: 2020-05-25T21:41:08+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/05/touch-portal-mobile-app.jpg
+bannerImage:
+    src: /i/x/2020/05/touch-portal-mobile-app.jpg
+    alt: The user interface of touch portal
 categories:
     - Programming
     - Windows
@@ -21,21 +23,21 @@ Touch Portal is a desktop app, and a mobile app, that chat to each other to let 
 
 Touch Portal is freemium, so you can use two screens for free, and pay a small amount (around £10-£15) to go Pro and use the app without limits.
 
-[![Touch Portal Desktop App](/img/2020/05/touch-portal.jpg)](/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal/)
+:img{src="/img/2020/05/touch-portal.jpg" alt="Touch Portal Desktop App" loading="lazy"}
 
 Adding buttons is pretty simple. You can visually compose logic and actions using an interface no unlike MIT’s Scratch to do a variety of tasks. One of the key simple tasks is keyboard shortcuts. I have a collection of shortcut buttons in pages for Microsoft Teams and for Microsoft Visual Studio. They let me do things like mute and unmute myself with a bit button, so I don’t have to remember all the handy [Microsoft Teams Shortcut Keys](/2020/03/microsoft-teams-what-microsoft-taught-me-this-week/). For Visual Studio I have a one-tap “Run Tests”, plus some common refactoring shortcuts.
 
-[![Touch Portal Mobile App](/img/2020/05/touch-portal-mobile-app.jpg)](/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal-mobile-app/)
+:img{src="/img/2020/05/touch-portal-mobile-app.jpg" alt="Touch Portal Mobile App" loading="lazy"}
 
-### Running batch files or PowerShell
+## Running batch files or PowerShell
 
 To run a batch file or PowerShell script, you just point to the script location on your machine. Simples. It’s best to start from an already working script file, so develop that first and then point at it. I use the “Start Script and Wait” task to launch the script.
 
 Now, in terms of getting feedback, the output from the scripts is appended to the Touch Portal log file in `%APPDATA%\TouchPortal\log.txt`. What you may want to do, though, is pop yourself a little dialog. It’s a bit of a hack, but a simple way to show a dialog from a PowerShell script is to import Presentation and pop a MessageBox:
 
-```
-<pre class="prettypring lang-powershell">
+```powershell
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 [System.Windows.MessageBox]::Show('The test data has now been copied to all locations')
 ```
+
 The ability to run scripts effectively makes it possible to do anything. Between this and the simple-to-build keyboard shortcuts, this is a great alternative to a hardware programmable keyboard.

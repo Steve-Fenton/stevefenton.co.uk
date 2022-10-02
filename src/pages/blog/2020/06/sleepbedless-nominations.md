@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: '#SleepBedless nominations'
+navMenu: false
 pubDate: 2020-06-28T09:32:33+01:00
 authors:
     - steve-fenton
@@ -25,6 +25,6 @@ The #SleepBedless campaign asks you to do three simple actions:
 
 Why three people? Because £15 is enough to provide a bed for one night for a vulnerable young person. It makes sense doesn’t it.
 
-[![](/img/2020/06/sleep-bedless.jpg)](/2020/06/sleepbedless-nominations/sleep-bedless/)
+:img{src="/img/2020/06/sleep-bedless.jpg" alt="Steve Fenton - Sleep Bedless" loading="lazy"}
 
-[![Every pound raised goes a long way to help our young people to avoid the dangers of rough sleeping. But that's not all we do. Our teams also provide thousands of young people with the life skills, education and training they need to lead happy and healthy lives.](/img/2020/06/depaul-donation.jpg)](/2020/06/sleepbedless-nominations/depaul-donation/)
+[:img{src="/img/2020/06/depaul-donation.jpg" alt="Every pound raised goes a long way to help our young people to avoid the dangers of rough sleeping. But that's not all we do. Our teams also provide thousands of young people with the life skills, education and training they need to lead happy and healthy lives." loading="lazy"}](/2020/06/sleepbedless-nominations/depaul-donation/)

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: The type or namespace name ApplicationInsights does not exist in the namespace Microsoft
+navMenu: false
 pubDate: 2020-08-12T13:22:14+01:00
 authors:
     - steve-fenton
@@ -20,14 +20,14 @@ If you uninstall the Application Insights package from a .NET Core MVC project, 
 
 All you have to do to fix this is go and update your \_ViewImports.cshtml file to remove the App Insights references:
 
-```
-<pre class="prettyprint">
+```csharp
 @inject Microsoft.ApplicationInsights....
 ```
+
 Once you remove these, you’ll probably get a second layer of issues, from the stuff in your views that depended on this injection.
 
-```
-<pre class="prettyprint">
+```csharp
 @Html.Raw(JavaScriptSnippet.FullScript)
 ```
+
 Once you’ve chased through the list, you’ll find it’s easy to resolve – the hard bit is knowing you have to start in the \_ViewImports.cshtml file.

@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: The Software Punk Revolution
 navMenu: false
-title: 'The Software Punk Revolution'
 pubDate: 2020-07-05T19:30:53+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/07/sex-pistols.jpg
+bannerImage:
+    src: /i/x/2020/07/sex-pistols.jpg
+    alt: The Sex Pistols performing live
 categories:
     - Programming
 tags:
@@ -24,9 +26,9 @@ So, many problems might be caused by the availability heuristic. If you are feel
 
 But I’m not feeling generous. The following might offend musicians or music lovers. Don’t @ me.
 
-[![The Sex Pistols playing live.](/img/2020/07/sex-pistols.jpg)](/2020/07/the-software-punk-revolution/sex-pistols/)
+:img{src="/img/2020/07/sex-pistols.jpg" alt="The Sex Pistols playing live" loading="lazy"}
 
-### Prog
+## Prog
 
 Back in the latter-half of the sixties, something happened to music; it got pretentious. Under the moniker of art-rock, progressive, or the short-form, “prog”, we lost all sense of the song and scratched the itch of virtuosity. Wow! That massive instrumental section with the *technically* brilliant solo was such wow. Yawn. It was *almost* as if the musicians were entirely preoccupied with showing everyone how proficient they were. There’s no denying it – they *were* amazing musicians. They could do things that you wouldn’t believe at speeds you couldn’t comprehend. It was, however, dreadful.
 
@@ -36,7 +38,7 @@ The only way to stamp out this plague of virtuosity was a revolution.
 
 That revolution was punk.
 
-### Punk
+## Punk
 
 Though it was never as bad as the “they only know two chords” moans of its detractors, punk was undoubtedly not the territory of master musicians. There was no doubt that these bands did *not* grow up listening to Baroque composers. They were noisy, simple, and necessarily had an attitude of visceral defiance. Looking at their safety-pin encrusted trousers, you might not realise they were here to save us all from double a-side [12″](https://en.wikipedia.org/wiki/LP_record) prog compositions (two songs and forty-four minutes of your life).
 
@@ -44,7 +46,7 @@ By throwing away all claims of *mastery*, they gave us back the song. No more �
 
 That’s not to say there wasn’t an abundance of talent. Look through those bands and listen carefully and you’ll see that there is plenty. However, **the talent was never more important than the song**.
 
-### Software
+## Software
 
 This is what we need right now in software development. An uprising. A revolution. Punk. Nothing should be more important than the problem at hand. No complex architecture. No amazing framework. No cool new tech. Nothing is more important that providing something useful to your users.
 

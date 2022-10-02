@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: Easy API testing with REST Client extension for Visual Studio Code
 navMenu: false
-title: 'Easy API testing with REST Client extension for Visual Studio Code'
 pubDate: 2020-03-16T19:02:17+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/03/vscode-rest-client.jpg
+bannerImage:
+    src: /i/x/2020/03/vscode-rest-client.jpg
+    alt: The REST Client extension
 categories:
     - Programming
 tags:
@@ -20,16 +22,15 @@ Visual Studio Code is becoming my go-to tool for automating stuff. It’s lightw
 Once you install the [REST Client Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client), you just open a file (you can call it `sample.http`) and type a simple request:
 
 ```
-<pre class="prettyprint">
 GET https://www.example.com/ HTTP 1.1
 ```
 The extension will add a “Send Request” option above the request. When you click this, it will send the request and show you the response in another editor pane.
 
-![VSCode REST Client](/img/2020/03/vscode-rest-client.jpg)
+:img{src="/img/2020/03/vscode-rest-client.jpg" alt="VSCode REST Client" loading="lazy"}
 
 This is super-simple. The file is readable and can easily be shared with your team. You can also save the full response, or the response body into a file.
 
-### More complex example
+## More complex example
 
 Let’s look at a more complex example so we can see variables, extracting variables from the response, and chained requests.
 
@@ -42,7 +43,6 @@ Finally, you can chain requests by separating them with `###`.
 Let’s put it all together in order to get an auth token from an API and use it to query some values.
 
 ```
-<pre class="prettyprint">
 @user = SuperTed
 @password = SecretMagicWord
 @pageSize = 10
@@ -63,6 +63,7 @@ grant_type=password
 GET https://www.example.com/api/cosmicdust/episodes?limit={{pageSize}}&page=1 HTTP/1.1
 Authorization: Bearer {{token}}
 ```
+
 We start off creating some variables for the values that will change frequently. That way they are at the top of the file and we won’t accidentally ruin a request with a bad edit.
 
 Then we name our login request, using `# @name login`.
@@ -73,7 +74,7 @@ Then we pull the access token out of the response and store it in a variable.
 
 The `###` separates our requests, then we make the next request using the token we kept hold of. The UI will underline this when you haven’t yet obtained an access token to remind you to get it first.
 
-### Summary
+## Summary
 
 The best thing about the REST Client extension is that you can easily see all of the request configuration and you can share it (without the sensitive parts) easily with your team, for example via source control.
 

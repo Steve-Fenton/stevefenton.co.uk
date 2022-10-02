@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Extract an Excel column to a text file with PowerShell
 navMenu: false
-title: 'Extract an Excel column to a text file with PowerShell'
 pubDate: 2020-04-11T07:50:03+01:00
 authors:
     - steve-fenton
@@ -21,8 +21,7 @@ Use `$startRow` to start at row 2 if you have a header row. Otherwise, set it to
 
 Use `$col` to set the column. Column A is 1, Columns B is 2, and so on. Excel starts from 1, not zero… so don’t get caught out. The script works out how far to run down the rows and it writes out the range being used, so you can check that it’s the right column and rows.
 
-```
-<pre class="prettyprint">
+```powershell
 & {
     $sourceFile = "C:\Temp\data.xlsx"
     $outFile = "C:\Temp\data.txt"

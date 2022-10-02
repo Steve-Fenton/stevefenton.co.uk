@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Entity type IdentityUserLogin<string> requires a primary key
 navMenu: false
-title: 'Entity type IdentityUserLogin<string> requires a primary key'
 pubDate: 2020-04-14T07:50:23+01:00
 authors:
     - steve-fenton
@@ -25,8 +25,7 @@ When you override `OnModelCreating` without calling back up to the parent, it me
 
 Here’s an example with the problem…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
     public class ApplicationDbContext 
         : IdentityDbContext
     {
@@ -39,10 +38,10 @@ Here’s an example with the problem…
         }
     }
 ```
+
 You can fix your code by adding the call to the parent’s `OnModelCreating`.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
     public class ApplicationDbContext 
         : IdentityDbContext
     {
@@ -57,4 +56,5 @@ You can fix your code by adding the call to the parent’s `OnModelCreating`.
         }
     }
 ```
+
 Now the identity set up will work.

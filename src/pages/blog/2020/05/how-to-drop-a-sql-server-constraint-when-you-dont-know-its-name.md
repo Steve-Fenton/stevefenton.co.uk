@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: How to drop a SQL Server constraint when you don't know its name
+navMenu: false
 pubDate: 2020-05-15T11:21:59+01:00
 authors:
     - steve-fenton
@@ -15,8 +15,7 @@ If you are looking after a database that has been haphazardly maintained in the 
 
 That’s when you need to do a lookup to get the name, so you can drop the constraint. You can use this to target constraints by column and table names. In the future, never let anyone except a human name your constraints.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 DECLARE
     @constraint NVARCHAR(200),
     @command NVARCHAR(300)

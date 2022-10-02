@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Copy Excel to CSV with PowerShell
 navMenu: false
-title: 'Copy Excel to CSV with PowerShell'
 pubDate: 2020-04-10T07:50:16+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ Having opened up the same Excel spreadsheet to save the data as a CSV for the th
 
 Simply set the source and destination files and the script takes care of the rest.
 
-```
-<pre class="prettyprint">
+```powershell
 & {
     $sourceFile = "C:\Temp\data.xlsx"
     $outFile = "C:\Temp\data.csv"

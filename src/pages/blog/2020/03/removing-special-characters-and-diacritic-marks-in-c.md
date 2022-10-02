@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Removing special characters and diacritic marks in C#
 navMenu: false
-title: 'Removing special characters and diacritic marks in C#'
 pubDate: 2020-03-26T13:18:16+00:00
 authors:
     - steve-fenton
@@ -16,8 +16,7 @@ I did this trick in [JavaScript to remove diacritic marks](/2019/09/simplify-str
 
 The following method simplifies strings such as “façade” into simple string like “façade”.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 private static string Simplify(string input) 
 {
     string normalizedString = input.Normalize(NormalizationForm.FormD);

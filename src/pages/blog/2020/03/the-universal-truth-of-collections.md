@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: The Universal Truth of Collections
 navMenu: false
-title: 'The Universal Truth of Collections'
 pubDate: 2020-03-12T20:29:00+00:00
 authors:
     - steve-fenton

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Little scripts: Checking web page images'
+title: Little scripts: Checking web page images
 pubDate: 2020-07-28T13:43:07+01:00
 authors:
     - steve-fenton
@@ -20,8 +20,7 @@ As images sizes aren’t reliable until the image is displayed, you will need to
 
 Just paste this whole thing into your browser console… and then call `checkAllImages()` each time you want to re-check.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 window.checkAllImages = (function () {
 
     // We're going to look for images more than 20% bigger than their display...
@@ -115,8 +114,9 @@ window.checkAllImages = (function () {
 
 checkAllImages();
 ```
+
 Here’s an example of it running against my home page:
 
-[![Result of Checking Images](/img/2020/07/check-images.jpg)](/2020/07/little-scripts-checking-web-page-images/check-images/)
+:img{src="/img/2020/07/check-images.jpg" alt="Result of Checking Images" loading="lazy"}
 
 Yikes! I need to go fix those images.

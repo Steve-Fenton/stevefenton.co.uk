@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Notifications for web apps
 navMenu: false
-title: 'Notifications for web apps'
 pubDate: 2020-08-05T06:00:10+01:00
 authors:
     - steve-fenton
@@ -29,8 +29,7 @@ The key components within the function are:
 
 Here is a hastily written example that works. You can make this cleaner, but I’ve optimised for comprehension within a blog post where you won’t be navigating easily between lots of functions if I split it up.
 
-```
-<pre class="prettypring lang-javascript">
+```javascript
 // This is the function you call when you want to notify a user
 function tryNotify(title, message, link) {
 
@@ -76,6 +75,7 @@ function showNotification(title, message, link) {
     }
 }
 ```
-[![Web Notification](/img/2020/08/web-notification.jpg)](/2020/08/notifications-for-web-apps/web-notification/)
+
+:img{src="/img/2020/08/web-notification.jpg" alt="Web Notification" loading="lazy"}
 
 The notifications feature is [reasonably well supported](https://caniuse.com/#feat=notifications) on desktop and even has some support on mobile. In any case, you should be design robustly as if it’s not there in case either (a) you don’t have the user’s consent for notifications, or (b) they have disabled notifications at the operating system level (i.e. you can disable all notifications on Windows).

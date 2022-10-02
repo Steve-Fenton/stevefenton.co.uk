@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'CSS Clamp: The Goldilocks of CSS math functions'
+navMenu: false
 pubDate: 2020-04-21T20:20:10+01:00
 authors:
     - steve-fenton
@@ -16,12 +16,11 @@ There is a problem I have wrestled with a couple of times, which was frustrating
 
 Let’s dash through the information, then grab a sample to try out at the end.
 
-### Purely relative
+## Purely relative
 
 We started to apply the trick of using units relative to the view width, but as you can see, things can get a little out of hand and you end up having to apply media queries to bump things around in frankly horrifying ways.
 
-```
-<pre class="prettyprint lang-css">
+```css
 article h1 {
   font-size: 4vw;
 }
@@ -30,16 +29,16 @@ article p {
   font-size: 3vw;
 }
 ```
+
 When the screen is really big, the text gets really big. When the screen is really small, the text gets… well, it looks like centipede as viewed from several meters away. It certainly cannot be read.
 
-### Clamp down
+## Clamp down
 
 When you start introducing media queries to try and stop things getting too big or small, what you are really trying to do is clamp the view-relative size with a minimum and a maximum. So, let’s clamp!
 
 Clamp takes three arguments, `clamp(min, size, max)`.
 
-```
-<pre class="prettyprint lang-css">
+```css
 article h1 {
   font-size: clamp(1.5em, 4vw, 4em);
 }
@@ -48,32 +47,31 @@ article p {
   font-size: clamp(1em, 3vw, 2em);
 }
 ```
+
 The heading will now use 4 view widths to size, but stop before it goes below 1.5em, or above 4em.
 
-### Not just text
+## Not just text
 
 And finally, it’s not just for text!
 
-```
-<pre class="prettyprint lang-css">
+```css
 article {
   width: clamp(350px, 50vw, 600px);
   margin: 0 auto;
 }
 ```
-### Browser support
+
+## Browser support
 
 Browser support is exactly what you’d expect with the usual collection of Edge, Chrome, and Firefox offering support along with Opera on desktop, and just Chrome making it available on mobile. However, it’s early days and it won’t be long before we’re all using it as commonly as we use `calc` now.
 
 Check [Can I Use](https://caniuse.com/#feat=css-math-functions) for an up-to-date view on support.
 
-### Full Example
+## Full Example
 
 You can stick this full example into your favourite code editor or online playground to try it out.
 
-```
-<pre class="prettyprint lang-html">
-
+```html
 <html>
 
 <head>
@@ -120,4 +118,3 @@ You can stick this full example into your favourite code editor or online playgr
 
 </html>
 ```
-</body></html>

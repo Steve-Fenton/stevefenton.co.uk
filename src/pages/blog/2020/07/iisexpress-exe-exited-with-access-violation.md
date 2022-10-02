@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: IISExpress.exe exited with access violation
 navMenu: false
-title: 'IISExpress.exe exited with access violation'
 pubDate: 2020-07-31T18:18:24+01:00
 authors:
     - steve-fenton
@@ -24,31 +24,31 @@ To cut a long story short, this Access Violation error is caused by a type probl
 
 I have a method that generates a dictionary that can be used on a link, thus:
 
-```
-<pre class="prettyprint lang-razor">
+```html
 <a asp-action="index" asp-all-route-data="@Model.GetRouteParameters(page)">Link Text</a>
 ```
+
 The method hands back a dictionary with all the route parameters needed to render the page, with the adjustment to the page number. Simple right. So if my current page is `/Stuff/my-id?p=1`, I can use this to supply a link to `/Stuff/my-id?p=2` or whatever.
 
 The model doesn’t do the work, it just calls something more general that does the work…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public IDictionary<string, string> GetRouteParameters(int p)
 {
     return Controls.GetRouteParameters(p);
 }
 ```
+
 Due to introducing some other use cases, it became necessary in that “Controls” class to make the page optional. That meant that my call chain for the existing links involved an `int` in this model, but the general purpose code beneath accepted an `int?`. This coercion into the nullable type was causing the issue. Severe.
 
 The fix was simple (far simpler that finding what needed to be fixed). Use the same type throughout…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 // ------------------------------------------------------↧
 public IDictionary<string, string> GetRouteParameters(int? p)
 {
     return Controls.GetRouteParameters(p);
 }
 ```
+
 This might help someone in the future if they get this Access Denied crash. Probably me.

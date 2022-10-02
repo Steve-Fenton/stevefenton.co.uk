@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: The fly on the windshield
 navMenu: false
-title: 'The fly on the windshield'
 pubDate: 2020-10-07T07:05:43+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2015/07/fly.jpg
+bannerImage:
+    src: /wp-content/uploads/2015/07/fly.jpg
+    alt: A macro shot of a fly
 categories:
     - Opinion
 tags:

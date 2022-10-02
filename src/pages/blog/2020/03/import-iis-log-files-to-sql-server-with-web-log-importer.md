@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: Import IIS log files to SQL Server with Web Log Importer
 navMenu: false
-title: 'Import IIS log files to SQL Server with Web Log Importer'
 pubDate: 2020-03-10T16:52:01+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/03/importing-containers.jpg
+bannerImage:
+    src: /i/x/2020/03/importing-containers.jpg
+    alt: A literal version of importing, containers at a port
 categories:
     - Programming
 tags:
@@ -20,7 +22,7 @@ In the past I have used [Log Parser Studio](/tag/log-parser-studio/) to run SQL 
 
 This calls for a quick .net Core Console App, which I’ve written and placed on GitHub, called [Web Log Importer](https://github.com/Steve-Fenton/WebLogImporter).
 
-### How does it work
+## How does it work
 
 Web Log Importer will take a bunch of files that you place in a folder and prepare them for import. There are a few lines that need to be dropped out and we want to combine them into a single file to pass to SQL.
 
@@ -28,7 +30,7 @@ Once the file is ready, we use SQL bulk import to fill a table with the log entr
 
 All of this is done by running the console app.
 
-### How fast / efficient is it
+## How fast / efficient is it
 
 Using a sample from a web server with one day of traffic, the whole process took under eleven seconds. This imported 274,434 log entries from 19 files, approximately 90 MB of source data.
 
@@ -36,7 +38,7 @@ Using a sample from a web server with one day of traffic, the whole process took
 
 During a debug run, the memory and CPU used by the application is low/stable.
 
-![Web Log Importer Diagnostics](/img/2020/03/web-log-importer.jpg)
+:img{src="/img/2020/03/web-log-importer.jpg" alt="Web Log Importer Diagnostics" loading="lazy"}
 
 Because the data is created from scratch during the process, [SQL index fragmentation](/2018/05/sql-server-index-fragmentation/) will always be zero.
 
@@ -44,14 +46,14 @@ Because the data is created from scratch during the process, [SQL index fragment
 DatabaseName    TableName           IndexName    IndexType          AverageFragmentationPercent
 WebLogs         [dbo].[LogEntry]    cci          CLUSTERED INDEX    0
 ```
-### Running SQL Queries Over IIS log files
+
+## Running SQL Queries Over IIS log files
 
 Now the data has been imported, you can just run plain-old, super-quick, lovely SQL queries to see what’s going on.
 
 Here’s a complete example that creates a league table of client IP addresses ranked by number of log entries. It filters the logs by date, and time.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     [c_ip],
     COUNT(1)
@@ -66,9 +68,10 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
+
 As the date and time are split between different columns, you can query them independently… i.e. you can look across the 4pm to 5pm time without choosing a date to see early-evening trends across multiple dates, and you can use “date =” to select a single day (which you can’t do when there is a time component to the date).
 
-### Column names
+## Column names
 
 Because you already know IIS log files, and you already know SQL, I’ve tried not to fiddle too much with things.
 
@@ -78,7 +81,7 @@ Where a header contains a hyphen `-` it has to be an underscore in the table `_`
 
 The IIS log files follow a convention where “s-” is a server value, “c-” is a client value. Where things are passed from client to server, you’ll see “cs-” and when the reverse is true you’ll see “sc-“. For example, the query string is passed by the client and used by the server, so it’s `cs-uri-query` and the response code is passed from the server and used by the client, so it’s `sc-status`.
 
-### Speeding it up
+## Speeding it up
 
 The best way to speed up your import process is to configure IIS to rollover log files when they hit a particular size.
 
@@ -89,7 +92,7 @@ There are two benefits in terms of speed here.
 1. Each file is small
 2. You can just import files from the time period you are interested in
 
-### Why it’s useful
+## Why it’s useful
 
 The benefits of running SQL queries against your data are pretty obvious, but there are also benefits to the loading process. Because it will merge and load IIS log files, you can drop in logs from several different servers and have them all loaded into a single view. If you have a web farm, you can quickly get a view across all your web farm servers using this tool.
 

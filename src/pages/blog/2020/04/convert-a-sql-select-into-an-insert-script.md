@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Convert a SQL SELECT into an INSERT script
 navMenu: false
-title: 'Convert a SQL SELECT into an INSERT script'
 pubDate: 2020-04-05T13:11:14+01:00
 authors:
     - steve-fenton
@@ -20,8 +20,7 @@ Change the three user variables at the top to say
 - Which table you want to operate against
 - What filter you want to apply to the data, for example `WHERE Id = 1`
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 DECLARE 
      @includePK BIT = 1,
      @table VARCHAR(MAX) = 'LogEntry',
@@ -67,10 +66,10 @@ SELECT @queryToGenerateScript = 'SELECT ''' +
 
 EXECUTE (@queryToGenerateScript)
 ```
+
 Result (it doesn’t come out looking “pretty”, but I made it readable here by adding whitespace).
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 INSERT INTO LogEntry(
     [date],
     [time],
@@ -110,4 +109,5 @@ VALUES(
     '1.1.1.1'
 )
 ```
+
 There are some limitations. This script isn’t going to check your column types, so everything is gonna be a string. SQL usually does alright with this, but you might find some loss of precision in datetime fields. It also doesn’t append the additional code to set identity insert on. I might add this later.

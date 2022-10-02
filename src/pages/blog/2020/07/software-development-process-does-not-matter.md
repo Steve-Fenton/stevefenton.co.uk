@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Software development: Process does not matter'
+navMenu: false
 pubDate: 2020-07-08T19:03:25+01:00
 authors:
     - steve-fenton
@@ -18,9 +18,9 @@ The reason it doesn’t matter is this simple fact: Any process used with good i
 
 There are two general factors that affect intent. The team and the management. You can deploy [quaductionism](/2017/10/quaductionism-clarity-via-reductionism/) to simplify this as shown below:
 
-[![Impact of intent on outcome](/img/2020/07/process-quadrants-of-intent.jpg)](/2020/07/software-development-process-does-not-matter/process-quadrants-of-intent/)
+:img{src="/img/2020/07/process-quadrants-of-intent.jpg" alt="Impact of intent on outcome" loading="lazy"}
 
-### Team intent
+## Team intent
 
 What does good intent look like at the team level? The team is self-motivated by the desire to deliver working software. This is their primary driver.
 
@@ -28,7 +28,7 @@ They don’t want to stuff their CV full of the latest buzztech. They aren’t s
 
 Here’s an example. A developer opens the admin screen to test their new feature, and they realise that you can’t keyboard-navigate to the fields. That means users are being excluded based on their input device. That’s not good… so they make the fields keyboard navigable. A keyboard user in Brighton signs in and smiles when they manage to complete the task they wanted to achieve without having to wrestle with a peripheral device.
 
-### Management intent
+## Management intent
 
 What does good intent look like at the management level? The managers create a strong vision and operate against the whole system to create a healthy environment for the team.
 
@@ -38,7 +38,7 @@ It’s hard to provide great examples here as there are few thinner lines that e
 
 Warning signs might include demands for the asymptotic, checkbox exercises against the intangible, and demands that only sound reasonable if you are insane (for example, “I want 100% of potential test cases executed”).
 
-### Intent in general
+## Intent in general
 
 Where there is bad intent, we need to follow the breadcrumbs. Often, there is a negative spiral at play. If a team appears to be operating with bad intent, what management practices might be encouraging it? For example, it’s common to find individual objectives behind a lack of collaboration; everyone is competing with each other for some scarce reward.
 
@@ -48,7 +48,7 @@ When a manager acts with bad intent, it is a little more likely they are doing i
 
 In both cases, intent should not be assumed. You need to look behind the curtain, as they did in Oz, to find out the real human story. However, the use of the word *intent* here should not be personal or judgemental. It *does*, however, need to be changed.
 
-### What this means
+## What this means
 
 We have four quadrants in play. Only one of them works. The top-right quadrant, the one titled “virtuous circles”, is the only good place to be. The team and the management are all acting with good intent.
 
@@ -64,7 +64,7 @@ Process evolution works in this way. It adapts the goals. The goal or a virtuous
 
 This *might* mean the process converges on a common *agile* way of working in a virtuous circles organisation; but only if that’s what works. We don’t need to debate that here because we know that process doesn’t matter, in the same way that gravity doesn’t matter to water. It looks to us, as observers, like it matters, but the water is just doing its own thing. It doesn’t need to be told to go downhill, or to flow around obstacles.
 
-### Remain vigilant
+## Remain vigilant
 
 One last thing. If you have nailed one of the two requirements of a virtuous circle organisation, it’s easy to fool yourself into thinking the job is done. Don’t be complacent, though, as the two half-way states are temporary. You either work your way up, or you naturally decay. Without effort, you move down and left. Great teams are killed by management with bad intent (either the fire in their eyes dies, or they leave) and ace managers are worn down by teams with bad intent until they leave or become bad managers. It’s thermodynamics. Almost.
 

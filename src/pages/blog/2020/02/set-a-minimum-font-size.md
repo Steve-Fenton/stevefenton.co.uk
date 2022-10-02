@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Set a minimum font size
 navMenu: false
-title: 'Set a minimum font size'
 pubDate: 2020-02-14T16:04:22+00:00
 authors:
     - steve-fenton
@@ -14,8 +14,7 @@ tags:
 
 This is just a little script I needed to use to increase text size conditionally. It only increases text below a minimum size and leaves everything else. Please also see a more recent post on [CSS Clamp](/2020/04/css-clamp-the-goldilocks-of-css-math-functions/)!
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 (function () {
     var minFontSize = function () {
         $(".content-zone *").each(function () {
@@ -30,12 +29,13 @@ This is just a little script I needed to use to increase text size conditionally
     $(document).ajaxComplete(minFontSize);
 })();
 ```
+
 Before Image
 
-![Text Size Before](/img/2020/02/text-size-before.jpg)
+:img{src="/img/2020/02/text-size-before.jpg" alt="Text Size Before" loading="lazy"}
 
 After Image
 
-![Text Size After](/img/2020/02/text-size-after.jpg)
+:img{src="/img/2020/02/text-size-after.jpg" alt="Text Size After" loading="lazy"}
 
 You can see that the span element is the same size before and after, but all the tiny text has been increased to the minimum size.
