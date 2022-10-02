@@ -1,35 +1,19 @@
 ---
 layout: src/layouts/Default.astro
-title: Welcome to Astro Accelerator
+title: Steve Fenton
 navTitle: Home
 navOrder: 0
 pubDate: 2022-10-02
-keywords: astro,accelerator,site generator
-description: An accelerator for a very clean version of Astro.
-bannerImage:
-    src: /img/surface-accessories.png
-    alt: Dummy image
+keywords: 
+description: 
 ---
 
-Welcome to Astro Accelerator. A super-lightweight, accessible, SEO friendly starter project for [Astro](https://astro.build/).
+Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/?swcfpc=1) and writer. You can find out [more about Steve Fenton here](/about-me/).
 
-:::div{.note}
-The Astro Accelerator source code is available on [GitHub](https://github.com/Steve-Fenton/astro-accelerator).
-:::
+## A note from Steve
 
-Astro Accelerator is built on some strong opinions:
+The primary audience for the writing found herein is me. It’s super-easy to forget stuff if you don’t write it down, as I did the second time I had to fix a really tricky certificate problem in .NET.
 
-- Accessibility is not just important, it's fundamental
-- Everything should work without JavaScript
-- The democratizing force in the World Wide Web is HTML files
-- Software supply chains should be minimal
+If only I had written down the answer, I could have saved hours of irritating replays of all the same steps I had used to find the problem in the first instance.
 
-> Astro is the first framework build on the *majestic HTML* concept, where pages can be largely static but still enhanced with additional stateful behavior where needed.
->
-> It's clean semantic HTML, simple CSS, and some minor non-essential enhancements in plain JavaScript. <cite>Steve Fenton</cite>
-
-Out of the box, Astro Accelerator is a "top scores" high-performance website in the lab. [Pagespeed Insights](https://developers.google.com/speed/docs/insights/v5/about?hl=en-US) tests website performance on mobile and desktop across a number of measurements.
-
-:img{ src="/img/astro-lighthouse.png" alt="Astro Lighthouse Score (100% in all categories)" loading="lazy" }
-
-Test scores aren't everything, but Astro Accelerator is light and fast.
+My goal in life is to start a punk revolution in software development. I am also secretly [S. M. Fenton](https://www.smfenton.uk/s-m-fenton/) the author of [The Vanishing Room](https://www.smfenton.uk/the-vanishing-room/).
