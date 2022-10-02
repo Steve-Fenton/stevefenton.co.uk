@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Theme an ASP.NET MVC website with custom views
 navMenu: false
-title: 'Theme an ASP.NET MVC website with custom views'
 pubDate: 2021-11-22T17:07:03+00:00
 authors:
     - steve-fenton
@@ -24,7 +24,7 @@ The project is ASP.NET full framework version (the project is quite mature).
 
 Kudos to [Dave Beaumont](https://www.dave-beaumont.co.uk/) for the initial work on this, which formed the basis of the code in this article.
 
-### Custom RazorViewEngine
+## Custom RazorViewEngine
 
 By default, ASP.NET MVC has an opinion on where your views will be. It checks in a folder named after your controller for a file named after your action. For example `/Home/Index` will look for a file named `Index.cshtml` in the folder `/Views/Home/`. If it doesn’t find this view in this folder, it will check `/Views/Shared/`, and finally in `/Views/Error/`.
 
@@ -34,8 +34,7 @@ To make these views discoverable in the normal way, we need to implement a custo
 
 We can wire up our custom view engine in the `Global.asax.cs` file in our `Application_Start` method, by clearing out the default engine and adding our own.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public void Application_Start(object sender, EventArgs e)
 {
     AreaRegistration.RegisterAllAreas();
@@ -46,10 +45,10 @@ public void Application_Start(object sender, EventArgs e)
     //... more configuration!
 }
 ```
+
 To implement a custom view engine, we create a class that inherits from `RazorViewEngine` and overrides the methods `FindPartialView` and `FindView`. Almost all the code in each of these methods will end up doing the same thing, so we’ll create a private method that does all the work.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public class CustomViewEngine 
     : RazorViewEngine
 {
@@ -71,12 +70,12 @@ public class CustomViewEngine
         // Custom View implementation
     }
 ```
+
 Because there is a subtle difference between the underlying `CreatePartialView` and `CreateView` method calls that we need to make after we decide which locations to search, we need to wrap these to pass into our shared method.
 
 Some key points are explained after this full example…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public class CustomViewEngine 
     : RazorViewEngine
 {
@@ -173,7 +172,8 @@ public class CustomViewEngine
     }
 }
 ```
-### Key points
+
+## Key points
 
 One incredibly important part of this example is the `keyPath` as this must contain enough information to make it unique. For example, if the `partialSet` variable was not included in this key, you would end up with the first request “winning the cache” and subsequent requests could use the wrong view.
 
@@ -183,6 +183,6 @@ The second hugely important aspect of this example is the order of your view loc
 
 We have avoided writing near-identical code in the two overridden methods by capturing the key difference in local functions named `createPartialView` and `createView`, which we pass in to be used in the two places where the `ViewEngineResult` is created.
 
-### Summary
+## Summary
 
 Creating a custom view engine is a little tricky as there are a couple of traps waiting for you along the way. However, the flexibility it provides in terms of theme customisation is more than worth it.

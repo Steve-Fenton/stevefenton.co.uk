@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Type Coercion vs Type Conversion
 navMenu: false
-title: 'Type Coercion vs Type Conversion'
 pubDate: 2021-08-19T09:29:17+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ In other words, “type conversion” refers to the general process of changing 
 
 Here are some pseudocode examples of these operations…
 
-```
-<pre class="prettyprint lang=javascript">
+```javascript
 Number num = 1;
 String str = '2';
 

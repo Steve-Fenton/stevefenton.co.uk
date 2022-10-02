@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Pretty output from JSON.stringify
 navMenu: false
-title: 'Pretty output from JSON.stringify'
 pubDate: 2021-06-03T13:59:39+01:00
 authors:
     - steve-fenton
@@ -16,18 +16,17 @@ We all like to log stuff out sometimes and it would be nice if it were as readab
 
 When you call stringify, like below, you get a long string of data.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 JSON.stringify(event.detail);
 
 /*
 {"name":"Eifel Tower","dimensions":{"height":357.5,"width":124.9}}
 */
 ```
+
 But there are actually two other parameters on stringify: `JSON.stringify(value, replacer, space)`. That last one is the interesting one here, as it allows you to specify the indentation for a pretty output.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 JSON.stringify(event.detail, null, 4);
 
 /*
@@ -40,4 +39,5 @@ JSON.stringify(event.detail, null, 4);
 }
 */
 ```
+
 Now we have the same output, but formatted with new lines and indentation.

@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: The Ultimate Productivity Suite
 navMenu: false
-title: 'The Ultimate Productivity Suite'
 pubDate: 2021-09-25T07:00:36+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/10/the-productivity-workbook.jpg
+bannerImage:
+    src: /i/x/2021/10/the-productivity-workbook.jpg
+    alt: The Productivity Workbook
 categories:
     - Process
 tags:
@@ -14,13 +16,15 @@ tags:
     - 'pomodoro technique'
 ---
 
-If we were honest with ourselves about the number of hours we might have left to live and the amount of stuff we would like to get done, we’d have to admit that it isn’t all going to get done. Even based on our more optimistic estimates of longevity, it’s not going to get done; and we don’t really know what the Universe has planned for us. Without some kind of personal productivity process we end up not really getting as much done as we’d like. This isn’t about tasks to be done for work; it’s about everything you want to do. You might be writing music as a hobby and you’d like to hit the studio to record some of it. You might be mulling over the plot of a fantastic novel that you might one day write. You might have come up with an idea for a new electrolyser with a bamboo-based semi-permeable membrane layer. You might not even be stuck trying to choose between all the cool options in your head. This affects work, it affects our personal lives. It stops us achieving stuff.
+If we were honest with ourselves about the number of hours we might have left to live and the amount of stuff we would like to get done, we’d have to admit that it isn’t all going to get done. Even based on our more optimistic estimates of longevity, it’s not going to get done; and we don’t really know what the Universe has planned for us. Without some kind of personal productivity process we end up not really getting as much done as we’d like.
+
+This isn’t about tasks to be done for work; it’s about everything you want to do. You might be writing music as a hobby and you’d like to hit the studio to record some of it. You might be mulling over the plot of a fantastic novel that you might one day write. You might have come up with an idea for a new electrolyser with a bamboo-based semi-permeable membrane layer. You might not even be stuck trying to choose between all the cool options in your head. This affects work, it affects our personal lives. It stops us achieving stuff.
 
 Quite a lot of personal productivity boils down to “write down a list”, but there are three ideas that provide a deeper and more useful model for achieving things. What’s even better is that, with practice, they eventually combine into the Ultimate Productivity Suite.
 
 In a hurry… [click here to jump over to the free downloads for The Productivity Workbook](/publications/the-productivity-workbook/).
 
-### Why is this needed?
+## Why is this needed?
 
 The psychology perspective on this is that if you have all this stuff in your head, your brain feels a need to revisit it all regularly and work on it in the background. This isn’t great for your mind.
 
@@ -28,7 +32,7 @@ The stoic view on this is that we’re basically going to die one day and there�
 
 The mindfulness take on this is that if we do things in the right way, they are more joyful. Imagine that… you could enjoy doing stuff.
 
-### The Ultimate Productivity Triumvirate
+## The Ultimate Productivity Triumvirate
 
 I’ll present the three ideas from the broadest big-picture techniques down to the tiny step techniques. If you haven’t used any of these, you may find it easier to start from the inside and add the outer layers once you feel you have mastered the small stuff.
 
@@ -96,6 +100,6 @@ Use Personal Kanban to track your projects and actions as *options*, to track yo
 
 Use The Pomodoro Technique to manage your daily time and focus on the *tasks* on your Personal Kanban board.
 
-### Summary
+## Summary
 
 Please don’t mistake this as a plan for going faster. You *will* get more done and the tasks you choose *will* be more likely to be the things that will contribute towards your goals. However, the point here is to take more joy in the work, have more focus on the stuff you want to achieve, and to use your time and energy in a thoughtful way.

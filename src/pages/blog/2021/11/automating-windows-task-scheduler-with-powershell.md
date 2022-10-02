@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Automating Windows Task Scheduler with PowerShell
 navMenu: false
-title: 'Automating Windows Task Scheduler with PowerShell'
 pubDate: 2021-11-02T14:51:24+00:00
 authors:
     - steve-fenton
@@ -20,7 +20,7 @@ If you are dealing with Windows Task Scheduler, you will almost certainly benefi
 4. Updating the task settings
 5. Starting the task
 
-### Does the task exist?
+## Does the task exist?
 
 The simplest way to check with the task exists in Task Scheduler is to pipe all tasks into a filter. We’ll use two commands for this:
 
@@ -29,8 +29,7 @@ The simplest way to check with the task exists in Task Scheduler is to pipe all 
 
 Here’s the script…
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $taskName = 'Example'
 $taskExists = Get-ScheduledTask | Where-Object {$_.TaskName -like $taskName }
 
@@ -38,7 +37,8 @@ if($taskExists) {
     Write-Host 'The task exists!'
 }
 ```
-### Stopping and deleting the task
+
+## Stopping and deleting the task
 
 We can use our `$taskExists` condition to run our stop and delete commands. For this we will use these two commands:
 
@@ -47,8 +47,7 @@ We can use our `$taskExists` condition to run our stop and delete commands. For 
 
 Here’s the updated script…
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $taskName = 'Example'
 $taskExists = Get-ScheduledTask | Where-Object {$_.TaskName -like $taskName }
 
@@ -60,12 +59,12 @@ if($taskExists) {
     Unregister-ScheduledTask -TaskName $taskName -Confirm:$false
 }
 ```
-### Creating the task
+
+## Creating the task
 
 Creating the task is a little more involved, because we want to set lots of information. Most commonly, we need a user, a trigger, and an action.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $taskName = 'Example'
 
 $filePath = 'c:\Temp\'
@@ -82,31 +81,32 @@ Register-ScheduledTask `
     -Trigger $trigger `
     -RunLevel Highest -Force
 ```
+
 This gives us a pretty boilerplate task that starts when the system starts and *does something* (calls an executable in our case). You can adjust the trigger to use a schedule by changing `-AtStartup` to a time-based schedule such as `-Daily -At 12:00` to run each day at lunch or something more complex, like `-Weekly -WeeksInterval 1 -DaysOfWeek Sunday -At 6am`, which almost reads like a sentence.
 
-### Update task settings
+## Update task settings
 
 The example in my head is using startup-based running, and just sits in the background doing stuff as long as the machine is switched on. The default settings for a task will actually mean this task is killed after three hours, so we need to change the settings to let it run infinitely. We can do this by updating the `ExecutionTimeLimit`, but the example shows you how you can change any of the settings for a task.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $taskName = 'Example'
 $task = Get-ScheduledTask -TaskName $taskName
 $task.Settings.ExecutionTimeLimit = 'PT0H'
 Set-ScheduledTask $task
 ```
-### Start the task
+
+## Start the task
 
 The final step is to kick the task off. For a time-based schedule we could just wait until the schedule fires, but for our startup-based task we would be waiting until the machine restarted. It makes sense to kick it off straight away.
 
 We can use `Start-ScheduledTask` to run the task.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $taskName = 'Example'
 Start-ScheduledTask -TaskName $taskName
 ```
-### Summary
+
+## Summary
 
 I’ve made each of the code samples stand-alone, but you can combine them all by removing all but the first task name variable: `$taskName = 'Example'`.
 

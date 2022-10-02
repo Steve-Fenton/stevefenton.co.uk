@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: Most frameworks solve easy problems
 navMenu: false
-title: 'Most frameworks solve easy problems'
 pubDate: 2021-10-07T10:18:27+01:00
 authors:
     - steve-fenton

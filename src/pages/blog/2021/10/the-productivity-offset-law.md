@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: The Productivity Offset Law
 navMenu: false
-title: 'The Productivity Offset Law'
 pubDate: 2021-10-22T08:00:20+01:00
 authors:
     - steve-fenton
@@ -19,11 +19,11 @@ Justin Etzine had a thought about *Engineer’s Lunch Law*, which he described i
 > 
 >  – [Justin Etzine via Twitter](https://twitter.com/Justetz/status/1450900166911741952?s=20)
 
-### Etzine’s Law
+## Etzine’s Law
 
 There is something about *Etzine’s Law* that resonates with many people. If you scroll through the replies, lots of people are shifting their work patterns to take advantage of hours that don’t get disrupted. Some are starting early, others are finishing late, and still more are moving their lunches.
 
-### Generalising the law
+## Generalising the law
 
 Bearing in mind all of these responses, I think we can generalise *Etzine’s Law* as as *The Productivity Offset Law*, which is:
 

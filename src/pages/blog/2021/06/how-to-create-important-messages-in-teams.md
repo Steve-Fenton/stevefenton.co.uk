@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: How to create important messages in Teams
 navMenu: false
-title: 'How to create important messages in Teams'
 pubDate: 2021-06-11T11:56:35+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/06/important-message-example.jpg
+bannerImage:
+    src: /i/x/2021/06/important-message-example.jpg
+    alt: An important message is highlighted in Teams
 categories:
     - Other
 tags:
@@ -16,10 +18,10 @@ Sometimes you have something super-important to communicate in Microsoft Teams, 
 
 All you need to do is use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>i</kbd> in the compose textarea. This will elevate your message to an important one.
 
-[![Microsoft Teams Important Message](/img/2021/06/microsoft-teams-important-message.jpg)](/2021/06/how-to-create-important-messages-in-teams/microsoft-teams-important-message/)
+:img{src="/img/2021/06/microsoft-teams-important-message.jpg" alt="Microsoft Teams Important Message"}
 
 When you send the message, it gets the border style and an additional icon to make sure people know you have something important to say.
 
-[![Message marked as important in teams](/img/2021/06/important-message-example.jpg)](/2021/06/how-to-create-important-messages-in-teams/important-message-example/)
+:img{src="/img/2021/06/important-message-example.jpg" alt="Message marked as important in teams" loading="lazy"}
 
 I’m sure that none of you will abuse this feature!

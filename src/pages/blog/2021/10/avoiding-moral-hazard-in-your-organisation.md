@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
+title: Avoiding Moral Hazard in your organisation
 navMenu: false
-title: 'Avoiding Moral Hazard in your organisation'
 pubDate: 2021-10-07T10:13:04+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/01/dangerous-zone.jpg
+bannerImage:
+    src: /i/x/2020/01/dangerous-zone.jpg
+    alt: Dangerous zone sign
 categories:
     - Psychology
 tags:
@@ -18,7 +20,7 @@ Although the term was coined for economics, and insurance in particular, *moral 
 
 Within an organisation, you’ll see a number of common scenarios that fit the description of *moral hazard*. They are all made up based on squashing together myriad real life cases, but all names have been changed. I’ve made up the company “WritePress” for this example.
 
-### WritePress and Moral Hazard
+## WritePress and moral hazard
 
 Roger invented WritePress, an amazing blogging platform. He asks Sarah in his programming team if they can add support for customers to link their WritePress website to their in-house CRM system. Most of Roger’s customers are using the same popular CRM and they have built a workflow that allows the content to be created and approved within the CRM. Currently they need to copy and paste the content into their WritePress website as the final step in the process. It would be nice if they could publish it automatically from the CRM when it gets approved.
 
@@ -28,7 +30,7 @@ So far, so good. But during the pilot Roger is excited about the new feature and
 
 Here comes the moral hazard… the result of Roger’s decision to ditch the “linking” screen is that Sarah will lose an increasing number of hours each week manually configuring customers that want to use the WritePress CMS integration. In fact, as more customers sign up to use WritePress thanks to the CRM vendor making a big deal of the integration, Sarah spends more time setting up customers than working on her original job as a programmer. Within a month, she’s spent more time manually configuring customers than it would have taken to just create the UI.
 
-### Summary
+## Summary
 
 To resolve this issue, we need to *complete the pain loop*. Roger needs to be on the hook in some way for this manual configuration process, even if it is just performing some kind of preparation task that means he has “skin-contact” with the problem. As the demand for this manual work increases, it should pinch a bit and inspire everyone to just do the right thing and get this UI screen into WritePress.
 
