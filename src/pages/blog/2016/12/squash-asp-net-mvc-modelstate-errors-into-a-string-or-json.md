@@ -1,0 +1,24 @@
+---
+id: 1974
+title: 'Squash ASP.NET MVC ModelState errors into a string or JSON'
+pubDate: '2016-12-09T08:07:46+00:00'
+author: 'Steve Fenton'
+layout: post
+guid: 'https://www.stevefenton.co.uk/?p=1974'
+permalink: /2016/12/squash-asp-net-mvc-modelstate-errors-into-a-string-or-json/
+categories:
+    - Programming
+tags:
+    - .net
+    - 'c#'
+    - json
+    - mvc
+---
+
+Once ASP.NET MVC has done all of the hard work of validating a model for you, you may find yourself wanting to squash the ModelState values into a string or JSON object. Because of the hierarchy, it might not be obvious at first glance how to do this, so your best bet would be to write it down on your blog so you can remember:
+
+```
+<pre class="prettyprint lang-csharp">string errors = JsonConvert.SerializeObject(ModelState.Values
+    .SelectMany(state => state.Errors)
+    .Select(error => error.ErrorMessage));
+```

@@ -1,0 +1,42 @@
+---
+id: 11020
+title: 'Change an Excel cell&#8217;s colour based on data'
+pubDate: '2020-12-21T08:30:41+00:00'
+author: 'Steve Fenton'
+layout: post
+guid: 'https://www.stevefenton.co.uk/?p=11020'
+permalink: /2020/12/change-an-excel-cells-colour-based-on-data/
+image: /wp-content/uploads/2020/12/excel-rgb-cells-preview-background-color.jpg
+categories:
+    - Programming
+tags:
+    - excel
+    - vba
+---
+
+This might be a bit niche, but I needed to collect <abbr title="red, green, blue">RGB</abbr> values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!
+
+My set up is that I have Red, Green, and Blue in cells E, F, and G. I want to leave a gap and then fill cell I based on the input in those cells.
+
+[![Excel RGB Cells (Before)](https://www.stevefenton.co.uk/wp-content/uploads/2020/12/excel-rgb-cells.jpg)](https://www.stevefenton.co.uk/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells/)
+
+So, we need to listen for changes to the worksheet with `Worksheet_Change`, grab the values from the three cells in the row that changed, and fill in the cell in the same row.
+
+```
+<pre class="prettyprint lang-vba">
+Private Sub Worksheet_Change(ByVal Target As Range)
+   If Target.CountLarge > 1 Then Exit Sub
+   If Intersect(Target, Range("E:G")) Is Nothing Then Exit Sub
+   With Range("I" & Target.Row)
+      .Interior.Color = RGB(.Offset(, -4).Value, .Offset(, -3).Value, .Offset(, -2).Value)
+   End With
+End Sub
+```
+
+Important notes… because I want to leave a gap after the RGB cells before I fill a cell, my offsets are -4 (red), -3 (green), and -2 (blue). If you were filling the cell directly after the RGB values, you’d use -3, -2, -1 because this is basically how far away from the coloured cell the values can be found.
+
+You need to specify the cell range containing the RGB colour value (in my case `E:G`) and the cell you want to paint (for me `I`).
+
+The result is a preview of each value that updates automatically whenever you edit a value.
+
+[![Excel RGB Cells with Colour Preview in Background](https://www.stevefenton.co.uk/wp-content/uploads/2020/12/excel-rgb-cells-preview-background-color.jpg)](https://www.stevefenton.co.uk/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells-preview-background-color/)

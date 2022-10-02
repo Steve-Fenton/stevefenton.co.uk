@@ -1,0 +1,58 @@
+---
+import type { MarkdownInstance } from 'astro';
+import type { NavPage } from './NavigationTypes.astro';
+
+import { addSlashToAddress } from './Url.astro';
+
+export const mapNavPageWithUrl = (currentUrl: URL) => {
+  const mapFunction = (page: MarkdownInstance<Record<string, any>>) => 
+    mapNavPage(page, currentUrl.pathname) 
+  return mapFunction;
+};
+
+export const mapNavPage = (page: MarkdownInstance<Record<string, any>>, currentPath: string) => {
+  let url = page.url == null || (page.url ?? '').length == 0 
+    ? '/'
+    : page.url;
+
+  // Send visitors straight to the first page
+  if (page.frontmatter.paged) {
+    url += '/1/';
+  }
+
+  url = addSlashToAddress(url);
+
+  const isCurrent = url == currentPath;
+
+  const entry: NavPage = {
+    section: page.frontmatter.navSection ?? page.frontmatter.navTitle ?? page.frontmatter.title,
+    title: page.frontmatter.navTitle ?? page.frontmatter.title,
+    url: url,
+    order: page.frontmatter.navOrder,
+    isOpen: currentPath.startsWith(url),
+    ariaCurrent: isCurrent ? 'page' : false,
+    children: [],
+  }
+
+  return entry;
+};
+
+export const popMatchingPage = (allPages: MarkdownInstance<Record<string, any>>[], search: string) => {
+  const numberToRemove = 1;
+  let indexToRemove = -1;
+  let match = null;
+
+  for (let i = 0; i < allPages.length; i++) {
+    if (allPages[i].url == search) {
+      indexToRemove = i;
+      match = allPages[i];
+    }
+  }
+
+  if (match) {
+    allPages.splice(indexToRemove, numberToRemove);
+  }
+
+  return match;
+};
+---

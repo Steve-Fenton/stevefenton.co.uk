@@ -1,0 +1,69 @@
+---
+import { SITE, Frontmatter } from '@config';
+
+import t from '@util/language.json';
+import { Lang } from '@util/Languages.astro';
+
+import { formatDate } from '@util/DateFormat.astro';
+import { getAuthorList } from '@util/Authors.astro';
+import { addSlashToAddress } from '@util/Url.astro';
+
+import Navigation from '@components/Navigation.astro';
+
+// Properties
+type Props = {
+  lang: string;
+  frontmatter: Frontmatter;
+  headings: { depth: number; slug: string; text: string; }[];
+};
+const { lang, frontmatter, headings } = Astro.props as Props;
+
+// Language
+const _ = Lang(lang);
+
+// Logic
+const authorList = await getAuthorList(frontmatter);
+---
+<div class="content-group">
+  <Navigation lang={ lang } />
+  <main id="site-main">
+      <article>
+          {headings?.length > 0 &&
+          <nav class="page-toc" aria-label={ _(t.aria.toc) }>
+            <details>
+              <summary>{ _(t.toc.title) }</summary>
+              <ol>
+                <li><a href="#site-content">{ frontmatter.title ?? SITE.title }</a></li>
+                {headings.map((heading) =>(
+                  <li><a href={ '#' + heading.slug }>{ heading.text }</a></li>
+                ))}
+              </ol>
+            </details>
+          </nav>
+          }
+          <header>
+              <h1>{ frontmatter.title ?? SITE.title }</h1>
+          </header>
+          {authorList.writers.length > 0 && 
+          <div class="post-meta">
+            {authorList.image?.src && 
+            <img src={ authorList.image.src } alt={ authorList.image.alt } width="50" height="50" class="author-image" />
+            }
+            <div class="author-info">
+              <span>{ _(t.post.written_by) }
+                {authorList.writers.map((writer) => (
+                  <a href={ addSlashToAddress(writer.url) }>{ writer.frontmatter.title }</a>
+                ))}
+                <time class="dt-published" datetime={ frontmatter.pubDate.toString() } itemprop="datePublished">
+                { formatDate(frontmatter, lang, SITE) }
+                </time>
+              </span>
+            </div>
+          </div>
+          }
+          <div>
+              <slot />
+          </div>
+      </article>
+  </main>
+</div>

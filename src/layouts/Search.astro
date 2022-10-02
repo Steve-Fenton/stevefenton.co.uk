@@ -1,0 +1,15 @@
+---
+import type { Frontmatter } from '@config';
+import Search from '@layouts/Search.astro';
+
+// Properties
+type Props = {
+    frontmatter: Frontmatter
+    headings: { depth: number; slug: string; text: string; }[];
+}
+const { frontmatter, headings } = Astro.props as Props;
+
+---
+<Search frontmatter={ frontmatter } headings={ headings }>
+    <slot />
+</Search>

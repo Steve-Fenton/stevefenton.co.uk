@@ -1,0 +1,43 @@
+---
+id: 2087
+title: 'Faster! Faster! Faster!'
+pubDate: '2017-06-15T10:28:27+01:00'
+author: 'Steve Fenton'
+layout: post
+guid: 'https://www.stevefenton.co.uk/?p=2087'
+permalink: /2017/06/faster-faster-faster/
+medium_post:
+    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"20147283fcc0";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/20147283fcc0";}'
+categories:
+    - Process
+tags:
+    - optimization
+    - process
+---
+
+![Road Wings](/wp-content/uploads/2017/06/road-wings-1024x575.jpg)
+
+I was listening to someone talking about being agile and lean in software development. The conversation was very interesting, but there was an underlying theme of urgency and efficiency that I found troubling. There is nothing wrong with delivering quickly, but we should never forget that “you can only go fast if you go right” (Uncle Bob). So when I’m hearing about how things have been made faster, faster, faster, and more efficient – I’m always hoping to hear just as much about discipline and practices that support the speed. The other troubling thought I had was that whenever the speed was mentioned, it was the software development that was being made faster and more efficient. We must also remember to see the whole, not just a part.
+
+So let’s talk about washing clothes. Software development will be represented by the ironing. On day one, we look at the basket full of crumpled clothes and we say “we need to iron this faster”. Here are some of the suggestions:
+
+- Buy better tools (an expensive iron, or a more ergonomic ironing board)
+- Iron all of the shirts, then all of the t-shirts, then all of the socks – this will make it more efficient
+- Get more iron-ers
+- Iron everything while it is still damp
+
+I’m sure you can think of many more, far better suggestions for making the ironing faster, faster, faster, and more efficient. Perhaps we could even outsource the problem to an ironing company and pay them fixed rates to control the cost, with penalties for missed SLAs.
+
+### Why?
+
+Buy *why* do we need to iron the clothes faster? In fact, rather than “faster, faster, faster, and more efficient”, how about “why, why, why, and more breadth”.
+
+So let’s discover what is really needed. The customer wears casual clothes most of the time, but they sometimes have to go into an important business meeting where they have to wear a crispy white shirt and neatly pressed trousers. Can we solve this problem just by ironing faster? Would it be better to optimize the whole instead!
+
+If we optimize the whole, we would be asking how we can deliver one clean and pressed outfit in time for the meeting, given the input of one dirty crumpled outfit. If we look at the whole process, not just the ironing, we will be able to make huge improvements on the end-to-end time it takes to get from *dirty and crumpled* to *clean and pressed*. We can also deliver the clean and pressed outfit without necessarily having to wash and press everything in the basket that is dirty. We can also determine how long it takes, and then defer the work to the last responsible moment to ensure that the outfit is still fresh and clean for the meeting (rather than ready a month in advance and gradually losing it’s edge).
+
+The ironing no longer has to be the focus of improvements, there are many more opportunities to optimize when you look at the whole thing.
+
+And that’s why we call it “cycle time”.
+
+<small>Road Wings from [Max Pixel](https://www.maxpixel.net/Auto-Speed-Road-Wings-Car-Taking-Off-Drive-3393202). [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en).</small>

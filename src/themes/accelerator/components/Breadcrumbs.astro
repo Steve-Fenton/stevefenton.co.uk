@@ -1,0 +1,35 @@
+---
+import type { Frontmatter } from '@config';
+
+import t from '@util/language.json';
+import { Lang } from '@util/Languages.astro';
+import { getBreadcrumbs } from '@util/Breadcrumbs.astro';
+import { addSlashToAddress } from '@util/Url.astro';
+
+// Properties
+type Props = {
+  lang: string;
+  frontmatter: Frontmatter
+  headings: { depth: number; slug: string; text: string; }[];
+};
+const { lang } = Astro.props as Props;
+
+// Language
+const _ = Lang(lang);
+
+// Logic
+const currentUrl = new URL(Astro.request.url);
+const navPages = await getBreadcrumbs(currentUrl);
+---
+<nav class="site-breadcrumbs" aria-label={ _(t.aria.breadcrumbs) }>
+  <ol vocab="http://schema.org/" typeof="BreadcrumbList">
+    {navPages.map((page, index) => (
+    <li property="itemListElement" typeof="ListItem">
+      <meta property="position" content={ index.toString() } />
+      <a property="item" typeof="WebPage" href={ addSlashToAddress(page.url) } aria-current={ page.ariaCurrent }>
+        <span property="name">{ page.title }</span>
+      </a>
+    </li>
+    ))}
+  </ol>
+</nav>

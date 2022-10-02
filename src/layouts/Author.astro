@@ -1,0 +1,15 @@
+---
+import type { Frontmatter } from '@config';
+import Author from '@layouts/Author.astro';
+
+// Properties
+type Props = {
+    frontmatter: Frontmatter
+    headings: { depth: number; slug: string; text: string; }[];
+}
+const { frontmatter, headings } = Astro.props as Props;
+
+---
+<Author frontmatter={ frontmatter } headings={ headings }>
+    <slot />
+</Author>

@@ -1,0 +1,94 @@
+{
+    "aria": {
+        "breadcrumbs": {
+            "en": "Breadcrumb"
+        },
+        "site_navigation": {
+            "en": "Site Navigation"
+        },
+        "toc": {
+            "en": "Table of contents"
+        },
+        "paging": {
+            "en": "Paging"
+        },
+        "skiplinks": {
+            "en": "Skip Links"
+        },
+        "back_to_top": {
+            "en": "Skip Back"
+        }
+    },
+    "skiplinks": {
+        "skip_to_top": {
+            "en": "Back to top"      
+        },
+        "skip_to_navigation": {
+            "en": "Skip to navigation"
+        },
+        "skip_to_content": {
+            "en": "Skip to main content"
+        },
+        "skip_to_footer": {
+            "en": "Skip to footer"
+        }
+    },
+    "header": {
+      "open_menu": {
+          "en": "Open menu"
+      },
+      "open_search": {
+          "en": "Open site search"
+      }
+    },
+    "navigation": {
+        "title": {
+            "en": "Navigation"
+        }
+    },
+    "toc": {
+        "title":{
+            "en": "Table of contents"
+        }
+    },
+    "footer": {
+        "copyright": {
+            "en": "Copyright"
+        }
+    },
+    "post": {
+        "written_by": {
+            "en": "Written by"
+        }
+    },
+    "author": {
+        "recent_articles": {
+            "en": "Recent Articles"
+        },
+        "twitter": {
+            "en": "Twitter"
+        }
+    },
+    "search": {
+        "search_for": {
+            "en": "Search for"
+        },
+        "submit": {
+            "en": "Go"
+        },
+        "results_title": {
+            "en": "Results"
+        },
+        "no_results_title": {
+            "en": "No Results"
+        }
+    },
+    "articles": {
+        "previous": {
+            "en": "Prev"
+        },
+        "next": {
+            "en": "Next"
+        }
+    }
+}
