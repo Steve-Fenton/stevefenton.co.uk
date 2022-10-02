@@ -24,21 +24,26 @@ Let’s call our collection “articles” for these examples. We don’t want o
 
 We can create pages that will be found at the following addresses:
 
-- `/pages/articles/1/`
-- `/pages/articles/2/`
-- `/pages/articles/3/`
+```
+/pages/articles/1/
+/pages/articles/2/
+/pages/articles/3/
+```
 
-To do this, we create the following file: `/pages/articles/[page].astro`.
+To do this, we create the following filein `/pages/articles/` with the name `[page].astro`.
 
-As you can see, we have used a token for `\[page\]`; this will be replaced with each page number.
+As you can see, we have used a token for `[page]`; this will be replaced with each page number.
 
 A more complex example would be to have paged lists *per category*. That is possible, too – you can use tokens anywhere in the file path.
 
-For our paged list by category, we’ll use `/pages/articles/category/[category]/[page].astro`.
+For our paged list by category, we’ll add another file within `/pages/articles/` but this time we'll use folders and file names to create `category/[category]/[page].astro`. The idea is to generate addresses for all the categories:
 
-- `/pages/articles/category/typescript/1/`
-- `/pages/articles/category/javascript/1/`
-- `/pages/articles/category/javascript/2/`
+```
+/pages/articles/category/typescript/1/
+/pages/articles/category/typescript/2/
+/pages/articles/category/javascript/1/
+/pages/articles/category/javascript/2/
+```
 
 The only rule for tokens is that each one needs to have a param when we create the `getStaticPaths` function. Cue segueway jingle…
 
@@ -52,15 +57,16 @@ The basic structure of the `getStaticPaths` function is:
 
 Here’s the basic shape of things:
 
-```
+```typescript
 export async function getStaticPaths({ paginate }: any) {
   // Get a list of "appropriate posts... then:
   return paginate(posts, { pageSize: SITE.pageSize });
 }
 ```
+
 And a working example of “page all articles”:
 
-```
+```typescript
 const sortByPubDateDesc = (a: MarkdownInstance<Record<string, any>>, b: MarkdownInstance<Record<string, any>>) => {
   return b.frontmatter.pubDate.localeCompare(a.frontmatter.pubDate);
 }
@@ -74,6 +80,7 @@ export async function getStaticPaths({ paginate }: any) {
   return paginate(posts, { pageSize: SITE.pageSize });
 }
 ```
+
 In the above example, we filter and sort the posts we found with `Astro.glob`. In most cases, it makes sense to place the `[page].astro` page in the same folder as all the posts, like `/pages/articles/` or `/pages/blog/`, so we can look for all markdown files in subfolders.
 
 But what if we want to add category lists?
@@ -82,7 +89,7 @@ We just need to do a little more work in our function.
 
 The example below is broken into three chunks… get all the posts, then find a list of categories based on them, and then create a paginate instance for each category with a filtered list of posts.
 
-```
+```typescript
 export async function getStaticPaths({ paginate }: any) {
   const sourcePosts = await Astro.glob('../../**/*.md');
   const posts = sourcePosts
@@ -115,6 +122,7 @@ export async function getStaticPaths({ paginate }: any) {
   });
 }
 ```
+
 ### Summary
 
 The combination of file path tokens and the `getStaticPaths` function, with their shared params / tokens is what powers the generation of paged lists.
