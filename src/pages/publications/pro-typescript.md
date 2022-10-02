@@ -1,6 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 title: Pro TypeScript - Second Edition
+navTitle: Pro TypeScript
 navOrder: 1000
 pubDate: 2022-10-02
 keywords: 

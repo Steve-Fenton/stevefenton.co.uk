@@ -25,6 +25,8 @@ You might also like to visit his friends:
 
 - - - - - -
 
-<div style="text-align: center">[![Mid-Era Steve](/img/2022/04/steve.jpg)](https://www.stevefenton.co.uk/about-me/steve/)
+<div style="text-align: center">
+
+[![Mid-Era Steve](/img/2022/04/steve.jpg)](https://www.stevefenton.co.uk/about-me/steve/)
 
 </div>

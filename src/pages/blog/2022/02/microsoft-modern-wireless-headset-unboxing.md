@@ -19,7 +19,13 @@ I have been using a Sennheiser wired headset for the past two years, but this ma
 
 After the usual agonising research, I bought the *[Modern Wireless Headset](https://www.microsoft.com/en-gb/d/microsoft-modern-wireless-headset/8wn49139qkjf)* from Microsoft. This purchase was made with my own money, so this isn’t a sponsored post or promotion, but I am a Microsoft MVP for Developer Technologies.
 
-<div class="simple-grid"><div>[![Microsoft Modern Wireless Headset](/img/2022/02/PXL_20220215_1226220253.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1226220253/)</div><div>[![Microsoft Accessories App](/img/2022/02/PXL_20220215_123805815.MP2_.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_123805815-mp2/)</div></div>[![Microsoft Modern Wireless Headset and Surface Ergonomic Keyboard](/img/2022/02/PXL_20220215_1233074962.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1233074962/)
+<div class="simple-grid"><div>
+
+[![Microsoft Modern Wireless Headset](/img/2022/02/PXL_20220215_1226220253.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1226220253/)</div><div>
+
+[![Microsoft Accessories App](/img/2022/02/PXL_20220215_123805815.MP2_.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_123805815-mp2/)</div></div>
+
+[![Microsoft Modern Wireless Headset and Surface Ergonomic Keyboard](/img/2022/02/PXL_20220215_1233074962.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1233074962/)
 
 ### Neat features
 

@@ -1,6 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 title: TypeScript for JavaScript Programmers
+navTitle: TypeScript (JavaScript ed.)
 navOrder: 8000
 pubDate: 2022-10-02
 keywords: 

@@ -1,6 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 title: Web Ops Dashboards, Monitoring, and Alerting
+navTitle: Web Ops
 navOrder: 2000
 pubDate: 2022-10-02
 keywords: 

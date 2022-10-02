@@ -1,6 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 title: TypeScript for C# Programmers
+navTitle: TypeScript (C# ed.)
 navOrder: 7000
 pubDate: 2022-10-02
 keywords: 
