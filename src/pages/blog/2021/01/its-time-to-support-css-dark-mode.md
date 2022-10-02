@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'It&#8217;s time to support CSS dark mode'
+title: It's time to support CSS dark mode
 pubDate: 2021-01-28T06:00:57+00:00
 author:
     - steve-fenton

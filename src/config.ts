@@ -16,7 +16,7 @@ export const SITE = {
 		fallbackSite: 'q',
 		fallbackQuery: 'q',
 	},
-	pageSize: 4,
+	pageSize: 10,
 	pageLinks: 5,
 	rssLimit: 20,
 	dateOptions: {

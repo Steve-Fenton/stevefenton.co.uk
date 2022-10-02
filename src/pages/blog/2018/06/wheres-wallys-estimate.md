@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Where&#8217;s Wally&#8217;s estimate?'
+title: Where's Wally's estimate?
 pubDate: 2018-06-17T21:19:07+01:00
 author:
     - steve-fenton

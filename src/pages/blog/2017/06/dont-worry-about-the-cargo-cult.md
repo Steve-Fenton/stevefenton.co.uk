@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Don&#8217;t worry about The Cargo Cult'
+title: Don't worry about The Cargo Cult
 pubDate: 2017-06-08T08:27:49+01:00
 author:
     - steve-fenton

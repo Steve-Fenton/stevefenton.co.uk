@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Block XML RPC in WordPress using CloudFlare&#8217;s firewall'
+title: Block XML RPC in WordPress using CloudFlare's firewall
 pubDate: 2021-10-25T09:28:59+01:00
 author:
     - steve-fenton

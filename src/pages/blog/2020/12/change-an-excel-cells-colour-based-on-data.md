@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Change an Excel cell&#8217;s colour based on data'
+title: Change an Excel cell's colour based on data
 pubDate: 2020-12-21T08:30:41+00:00
 author:
     - steve-fenton

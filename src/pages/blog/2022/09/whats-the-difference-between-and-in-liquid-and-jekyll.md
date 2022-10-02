@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'What&#8217;s the difference between {%- and {% in Liquid and Jekyll'
+title: What's the difference between {%- and {% in Liquid and Jekyll
 pubDate: 2022-09-07T13:54:57+01:00
 author:
     - steve-fenton

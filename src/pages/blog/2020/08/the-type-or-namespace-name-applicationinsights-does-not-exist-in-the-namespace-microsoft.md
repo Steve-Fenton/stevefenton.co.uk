@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'The type or namespace name &#8216;ApplicationInsights&#8217; does not exist in the namespace &#8216;Microsoft&#8217;'
+title: The type or namespace name ApplicationInsights does not exist in the namespace Microsoft
 pubDate: 2020-08-12T13:22:14+01:00
 author:
     - steve-fenton
