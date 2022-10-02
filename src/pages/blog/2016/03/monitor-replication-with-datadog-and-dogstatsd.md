@@ -23,7 +23,9 @@ Let’s look at monitoring SQL Server Replication using DogStatsd and C#.
 DogStatsd runs on port 8125 by default, although you can change this if you would like to. You will be collecting metrics from the same box, so you don’t need to let anyone external see this port. You can configure the port in your datadog.conf file:
 
 ```
-<pre class="prettyprint lang-yaml"># ========================================================================== #
+<pre class="prettyprint lang-yaml">
+
+# ========================================================================== #
 # DogStatsd configuration                                                    #
 # ========================================================================== #
 

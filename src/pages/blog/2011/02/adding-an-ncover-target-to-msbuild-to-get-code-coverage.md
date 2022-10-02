@@ -40,7 +40,9 @@ If you are using a 64bit version of Windows, you will need to specify the path t
 </ItemGroup>
 
 <PropertyGroup>
-    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0#/>#/NUnitPath>
+    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0#/>
+
+#/NUnitPath>
     <NCoverPath>C:\Program Files\NCover</NCoverPath>
     <NCoverOutputPath>C:\Inetpub\wwwroot\NCover</NCoverOutputPath>
 </PropertyGroup>

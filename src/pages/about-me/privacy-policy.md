@@ -17,6 +17,6 @@ The tools provided for free by Google allow me to find errors on my pages and ge
 
 I receive contact forms by email and I keep them in my email archive if they say nice things. You can [contact me](https://www.stevefenton.co.uk/contact/) to request that I delete all emails that you have sent. I don’t share data or use it for marketing purposes, which is why I don’t ask for your permission to do either of these things.
 
-### Browser Extensions
+## Browser Extensions
 
 My browser extensions don’t collect or transmit data and only perform transient interactions on the active web page, which are lost on refresh.

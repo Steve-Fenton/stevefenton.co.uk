@@ -73,7 +73,9 @@ Here is the complete example, which shows how it all slots together.
     <SolutionFile Include="$(SourceDirectory)\Solution.sln"/>
 </ItemGroup>
 <PropertyGroup>
-    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0#/>#/NUnitPath>
+    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0#/>
+
+#/NUnitPath>
     <NCoverPath>C:\Program Files\NCover</NCoverPath>
     <NCoverOutputPath>C:\Inetpub\wwwroot\NCover</NCoverOutputPath>
 </PropertyGroup>

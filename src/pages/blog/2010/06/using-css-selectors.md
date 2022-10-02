@@ -67,7 +67,9 @@ Gets all elements with the specified class name. In this example all elements wi
 Gets all div elements with the specified class name.
 
 ```
-<pre class="prettyprint lang-css">#myid
+<pre class="prettyprint lang-css">
+
+#myid
 ```
 Gets the element (there should be only one) with the specified id. In this example, the element with id=”myid”.
 

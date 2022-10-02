@@ -9,7 +9,9 @@ author:
 
 Steve Fenton is an **Octonaut** at [Octopus Deploy](https://www.octopus.com/) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/) and writer. You can [find out more about Steve Fenton here](https://www.stevefenton.co.uk/about-me/).
 
-<div class="listing-item">## A Note From Steve
+<div class="listing-item">
+
+## A Note From Steve
 
 The primary audience for the writing found herein is me. It’s super-easy to forget stuff if you don’t write it down, as I did the *second time* I had to fix a really tricky certificate problem in .NET.
 
@@ -17,7 +19,9 @@ If only I had written down the answer, I could have saved hours of irritating re
 
 My goal in life is to start a punk revolution in software development. I am also secretly [S. M. Fenton](https://www.smfenton.uk/s-m-fenton/) the author of [The Vanishing Room](https://www.smfenton.uk/the-vanishing-room/).
 
-</div>## Recent Thoughts
+</div>
+
+## Recent Thoughts
 
 You can review my [full archive of thoughts](https://www.stevefenton.co.uk/blog/), but the most recent entries are listed below.
 

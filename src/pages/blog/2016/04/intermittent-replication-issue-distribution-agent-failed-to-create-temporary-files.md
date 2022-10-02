@@ -29,7 +29,9 @@ The fix for this is to grant write permissions to the folder to the distribution
 If you are scripting your permissions, here is the PowerShell…
 
 ```
-<pre class="prettyprint lang-powershell"># Special permission for repl_distribution_user
+<pre class="prettyprint lang-powershell">
+
+# Special permission for repl_distribution_user
 $accessControlList = Get-Acl "C:\Program Files\Microsoft SQL Server\110\COM"
 $accessRule = New-Object system.security.accesscontrol.filesystemaccessrule("repl_distribution_user", "FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")
 $accessControlList.SetAccessRule($accessRule)
