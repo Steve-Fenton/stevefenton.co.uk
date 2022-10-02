@@ -1,12 +1,11 @@
 ---
-id: 758
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Flux Capacitor of control'
 pubDate: 2012-08-09T09:53:33+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=758'
-permalink: /2012/08/the-flux-capacitor-of-control/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 9311
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Make Azure Virtual Machine disks smaller'
 pubDate: 2020-08-19T21:00:47+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9311'
-permalink: /2020/08/make-azure-virtual-machine-disks-smaller/
 categories:
     - Azure
 tags:

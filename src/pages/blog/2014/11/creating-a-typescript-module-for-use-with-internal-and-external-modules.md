@@ -1,12 +1,10 @@
 ---
-id: 253
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Creating a TypeScript module for use with internal and external modules'
 pubDate: 2014-11-05T20:13:42+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=253'
-permalink: /2014/11/creating-a-typescript-module-for-use-with-internal-and-external-modules/
 
 categories:
     - Programming

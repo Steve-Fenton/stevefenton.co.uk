@@ -1,12 +1,10 @@
 ---
-id: 12769
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Load balancing with IIS and Application Request Routing'
 pubDate: 2022-02-28T20:00:38+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12769'
-permalink: /2022/02/load-balancing-with-iis-and-application-request-routing/
 image: /wp-content/uploads/2022/02/load-balancing-with-arr.png
 categories:
     - Programming

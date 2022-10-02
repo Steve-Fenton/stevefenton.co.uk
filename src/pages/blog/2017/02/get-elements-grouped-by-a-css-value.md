@@ -1,12 +1,10 @@
 ---
-id: 2024
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Get elements grouped by a CSS value'
 pubDate: 2017-02-28T08:44:22+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2024'
-permalink: /2017/02/get-elements-grouped-by-a-css-value/
 categories:
     - Programming
 tags:

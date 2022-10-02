@@ -1,12 +1,10 @@
 ---
-id: 3042
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Stop writing web firmware'
 pubDate: 2017-11-30T08:50:47+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3042'
-permalink: /2017/11/stop-writing-web-firmware/
 categories:
     - Programming
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 12980
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Upload all files in a folder to FTP'
 pubDate: 2022-06-08T21:06:33+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12980'
-permalink: /2022/06/upload-all-files-in-a-folder-to-ftp/
 categories:
     - Programming
 tags:

@@ -1,12 +1,11 @@
 ---
-id: 1109
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Fenton JavaScript Ethos'
 pubDate: 2009-06-20T20:35:52+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1109'
-permalink: /2009/06/fenton-javascript-ethos/
 interface_sidebarlayout:
     - default
 categories:

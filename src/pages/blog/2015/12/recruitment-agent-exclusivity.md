@@ -1,12 +1,10 @@
 ---
-id: 1589
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Recruitment agent exclusivity'
 pubDate: 2015-12-15T11:27:52+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1589'
-permalink: /2015/12/recruitment-agent-exclusivity/
 categories:
     - Opinion
 tags:

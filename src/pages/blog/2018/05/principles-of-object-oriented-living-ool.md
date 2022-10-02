@@ -1,12 +1,10 @@
 ---
-id: 3538
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Principles of Object-Oriented Living (OOL)'
 pubDate: 2018-05-23T07:00:02+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3538'
-permalink: /2018/05/principles-of-object-oriented-living-ool/
 medium_post:
     - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"5453c7cd6ce5";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:6:"public";s:3:"url";s:92:"https://medium.com/@steve.fenton.co.uk/principles-of-object-oriented-living-ool-5453c7cd6ce5";}'
 image: /wp-content/uploads/2018/05/principles-of-light-and-colour.jpg

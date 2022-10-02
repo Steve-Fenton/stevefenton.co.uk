@@ -1,12 +1,11 @@
 ---
-id: 802
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Mocking a service proxy in .NET with Rhino Mocks'
 pubDate: 2012-05-10T16:12:30+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=802'
-permalink: /2012/05/mocking-a-service-proxy-in-net-with-rhino-mocks/
 interface_sidebarlayout:
     - default
 categories:

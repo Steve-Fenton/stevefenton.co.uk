@@ -1,12 +1,10 @@
 ---
-id: 191
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Useful SpecFlow regular expressions'
 pubDate: 2015-01-31T16:22:01+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=191'
-permalink: /2015/01/useful-specflow-regular-expressions/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 69
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Mock-up tools are constraining'
 pubDate: 2015-05-01T00:17:18+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=69'
-permalink: /2015/05/mock-up-tools-are-constraining/
 
 categories:
     - Windows

@@ -1,12 +1,11 @@
 ---
-id: 858
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Automatic deep focal range photography'
 pubDate: 2012-02-16T16:55:53+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=858'
-permalink: /2012/02/automatic-deep-focal-range-photography/
 interface_sidebarlayout:
     - default
 categories:

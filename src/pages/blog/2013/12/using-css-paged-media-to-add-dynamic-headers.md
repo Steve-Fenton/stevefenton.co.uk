@@ -1,12 +1,11 @@
 ---
-id: 477
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using CSS paged media to add dynamic headers'
 pubDate: 2013-12-04T09:52:35+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=477'
-permalink: /2013/12/using-css-paged-media-to-add-dynamic-headers/
 interface_sidebarlayout:
     - default
 categories:

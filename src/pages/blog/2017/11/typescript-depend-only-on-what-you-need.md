@@ -1,12 +1,10 @@
 ---
-id: 2978
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript: Depend only on what you need'
 pubDate: 2017-11-23T08:50:43+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2978'
-permalink: /2017/11/typescript-depend-only-on-what-you-need/
 categories:
     - Programming
 tags:

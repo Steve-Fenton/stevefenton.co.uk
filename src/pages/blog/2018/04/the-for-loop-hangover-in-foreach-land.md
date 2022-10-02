@@ -1,12 +1,10 @@
 ---
-id: 3440
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The for loop hangover in foreach land'
 pubDate: 2018-04-13T08:50:01+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3440'
-permalink: /2018/04/the-for-loop-hangover-in-foreach-land/
 categories:
     - Programming
 tags:

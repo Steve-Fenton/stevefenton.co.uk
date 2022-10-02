@@ -1,12 +1,10 @@
 ---
-id: 1776
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Find code hotspots with NDepend'
 pubDate: 2016-04-24T19:56:54+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1776'
-permalink: /2016/04/find-code-hotspots-with-ndepend/
 categories:
     - Programming
 tags:

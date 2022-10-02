@@ -1,12 +1,11 @@
 ---
-id: 580
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript default parameters'
 pubDate: 2013-05-24T14:15:05+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=580'
-permalink: /2013/05/typescript-default-parameters/
 interface_sidebarlayout:
     - default
 categories:

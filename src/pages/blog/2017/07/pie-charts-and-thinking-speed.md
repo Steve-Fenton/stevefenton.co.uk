@@ -1,12 +1,10 @@
 ---
-id: 2125
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Pie charts and thinking speed'
 pubDate: 2017-07-27T14:38:25+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2125'
-permalink: /2017/07/pie-charts-and-thinking-speed/
 categories:
     - 'Pie Charts'
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 8492
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'A glance at PowerToys and WinGet'
 pubDate: 2020-05-19T21:22:37+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8492'
-permalink: /2020/05/a-glance-at-powertoys-and-winget/
 image: /wp-content/uploads/2020/05/powertoys-run-shell-command.jpg
 categories:
     - Programming

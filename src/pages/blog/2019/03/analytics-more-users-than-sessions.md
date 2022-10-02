@@ -1,12 +1,10 @@
 ---
-id: 5540
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Analytics: More users than sessions'
 pubDate: 2019-03-01T07:00:03+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5540'
-permalink: /2019/03/analytics-more-users-than-sessions/
 image: /wp-content/uploads/2019/02/sample-users-session.png
 categories:
     - Analytics

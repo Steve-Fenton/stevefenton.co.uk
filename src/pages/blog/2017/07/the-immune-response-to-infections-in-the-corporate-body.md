@@ -1,12 +1,10 @@
 ---
-id: 2117
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The immune response to infections in the corporate body'
 pubDate: 2017-07-18T09:39:37+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2117'
-permalink: /2017/07/the-immune-response-to-infections-in-the-corporate-body/
 categories:
     - Opinion
 ---

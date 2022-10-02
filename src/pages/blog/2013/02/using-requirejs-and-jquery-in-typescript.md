@@ -1,12 +1,11 @@
 ---
-id: 659
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using RequireJS and jQuery in TypeScript'
 pubDate: 2013-02-05T22:12:19+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=659'
-permalink: /2013/02/using-requirejs-and-jquery-in-typescript/
 interface_sidebarlayout:
     - default
 categories:

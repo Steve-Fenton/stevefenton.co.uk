@@ -1,12 +1,11 @@
 ---
-id: 926
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'A great general CSS3 transition rule'
 pubDate: 2011-06-18T18:04:58+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=926'
-permalink: /2011/06/a-great-general-css3-transition-rule/
 interface_sidebarlayout:
     - default
 categories:

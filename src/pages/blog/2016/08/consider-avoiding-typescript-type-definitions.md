@@ -1,12 +1,10 @@
 ---
-id: 1905
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Consider avoiding TypeScript type definitions'
 pubDate: 2016-08-14T19:33:15+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1905'
-permalink: /2016/08/consider-avoiding-typescript-type-definitions/
 categories:
     - Opinion
     - Programming

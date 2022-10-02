@@ -1,12 +1,10 @@
 ---
-id: 7478
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Set a minimum font size'
 pubDate: 2020-02-14T16:04:22+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=7478'
-permalink: /2020/02/set-a-minimum-font-size/
 categories:
     - Programming
 tags:

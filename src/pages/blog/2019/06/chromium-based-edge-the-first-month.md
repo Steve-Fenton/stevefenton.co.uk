@@ -1,12 +1,10 @@
 ---
-id: 6008
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Chromium-based Edge: The first month'
 pubDate: 2019-06-01T15:58:39+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6008'
-permalink: /2019/06/chromium-based-edge-the-first-month/
 categories:
     - Browsers
 tags:

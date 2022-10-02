@@ -1,12 +1,10 @@
 ---
-id: 244
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JMeter throughput shaping tip'
 pubDate: 2014-11-19T20:04:50+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=244'
-permalink: /2014/11/jmeter-throughput-shaping-tip/
 interface_sidebarlayout:
     - default
 categories:

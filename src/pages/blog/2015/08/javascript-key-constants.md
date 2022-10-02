@@ -1,12 +1,10 @@
 ---
-id: 1373
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript key constants'
 pubDate: 2015-08-17T07:30:55+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1373'
-permalink: /2015/08/javascript-key-constants/
 categories:
     - Programming
 tags:

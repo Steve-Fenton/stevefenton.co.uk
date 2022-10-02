@@ -1,12 +1,10 @@
 ---
-id: 11372
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'It&#8217;s time to support CSS dark mode'
 pubDate: 2021-01-28T06:00:57+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11372'
-permalink: /2021/01/its-time-to-support-css-dark-mode/
 image: /wp-content/uploads/2021/01/moon-black-sky-1568x936.jpg
 categories:
     - Programming

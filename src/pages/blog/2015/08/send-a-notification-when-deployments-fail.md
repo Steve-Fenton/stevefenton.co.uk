@@ -1,12 +1,10 @@
 ---
-id: 1326
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Send a notification when deployments fail'
 pubDate: 2015-08-03T07:30:41+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1326'
-permalink: /2015/08/send-a-notification-when-deployments-fail/
 categories:
     - Automation
 tags:

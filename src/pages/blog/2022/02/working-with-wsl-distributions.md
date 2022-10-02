@@ -1,12 +1,10 @@
 ---
-id: 12755
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Working with WSL distributions'
 pubDate: 2022-02-21T20:00:56+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12755'
-permalink: /2022/02/working-with-wsl-distributions/
 categories:
     - Windows
 tags:

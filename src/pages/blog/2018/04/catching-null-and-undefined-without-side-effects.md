@@ -1,12 +1,10 @@
 ---
-id: 3434
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Catching null and undefined without side effects'
 pubDate: 2018-04-03T21:35:09+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3434'
-permalink: /2018/04/catching-null-and-undefined-without-side-effects/
 categories:
     - Programming
 tags:

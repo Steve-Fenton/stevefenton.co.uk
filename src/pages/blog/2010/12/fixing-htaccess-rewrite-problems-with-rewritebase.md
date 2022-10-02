@@ -1,12 +1,11 @@
 ---
-id: 990
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Fixing .htaccess rewrite problems with RewriteBase'
 pubDate: 2010-12-06T20:07:52+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=990'
-permalink: /2010/12/fixing-htaccess-rewrite-problems-with-rewritebase/
 interface_sidebarlayout:
     - default
 categories:

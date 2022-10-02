@@ -1,12 +1,10 @@
 ---
-id: 13115
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Astro: Rollup failed to resolve import'
 pubDate: 2022-09-20T13:19:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=13115'
-permalink: /2022/09/astro-rollup-failed-to-resolve-import/
 meta_description:
     - ''
 meta_keywords:

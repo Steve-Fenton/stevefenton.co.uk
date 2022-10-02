@@ -1,12 +1,10 @@
 ---
-id: 9880
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The fly on the windshield'
 pubDate: 2020-10-07T07:05:43+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9880'
-permalink: /2020/10/the-fly-on-the-windshield/
 image: /wp-content/uploads/2015/07/fly.jpg
 categories:
     - Opinion

@@ -1,12 +1,10 @@
 ---
-id: 11639
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Global Using Statements and Code Clues'
 pubDate: 2021-08-11T09:56:51+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11639'
-permalink: /2021/08/global-using-statements-and-code-clues/
 categories:
     - Programming
 tags:

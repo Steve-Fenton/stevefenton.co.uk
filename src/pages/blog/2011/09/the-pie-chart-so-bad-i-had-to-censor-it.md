@@ -1,12 +1,11 @@
 ---
-id: 909
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The pie chart so bad I had to censor It'
 pubDate: 2011-09-05T17:51:30+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=909'
-permalink: /2011/09/the-pie-chart-so-bad-i-had-to-censor-it/
 interface_sidebarlayout:
     - default
 categories:

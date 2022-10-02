@@ -1,12 +1,10 @@
 ---
-id: 6661
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Budgets not Estimates'
 pubDate: 2019-11-30T19:53:30+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6661'
-permalink: /2019/11/budgets-not-estimates/
 categories:
     - Process
 tags:

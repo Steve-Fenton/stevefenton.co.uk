@@ -1,12 +1,11 @@
 ---
-id: 1079
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Google Uses Image Sprites'
 pubDate: 2009-05-01T22:32:14+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1079'
-permalink: /2009/05/google-uses-image-sprites/
 interface_sidebarlayout:
     - default
 categories:

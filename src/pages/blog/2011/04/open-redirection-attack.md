@@ -1,12 +1,11 @@
 ---
-id: 963
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Open Redirection Attack'
 pubDate: 2011-04-09T19:36:28+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=963'
-permalink: /2011/04/open-redirection-attack/
 interface_sidebarlayout:
     - default
 categories:

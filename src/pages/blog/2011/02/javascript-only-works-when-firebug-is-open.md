@@ -1,12 +1,11 @@
 ---
-id: 971
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript only works when Firebug is open'
 pubDate: 2011-02-16T19:46:07+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=971'
-permalink: /2011/02/javascript-only-works-when-firebug-is-open/
 interface_sidebarlayout:
     - default
 categories:

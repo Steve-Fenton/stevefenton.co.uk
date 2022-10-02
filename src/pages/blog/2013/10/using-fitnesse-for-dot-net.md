@@ -1,12 +1,11 @@
 ---
-id: 497
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using Fitnesse for .NET'
 pubDate: 2013-10-21T10:43:36+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=497'
-permalink: /2013/10/using-fitnesse-for-dot-net/
 interface_sidebarlayout:
     - default
 categories:

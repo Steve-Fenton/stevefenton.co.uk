@@ -1,12 +1,10 @@
 ---
-id: 7669
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Avoid expensive innerHTML manipulation with insertAdjacentHTML'
 pubDate: 2020-02-29T15:45:07+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=7669'
-permalink: /2020/02/avoid-manipulating-innerhtml-with-insertadjacenthtml/
 categories:
     - Programming
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 1141
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Clean out old IIS log files'
 pubDate: 2015-07-07T21:00:34+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1141'
-permalink: /2015/07/clean-out-old-iis-log-files/
 
 categories:
     - Programming

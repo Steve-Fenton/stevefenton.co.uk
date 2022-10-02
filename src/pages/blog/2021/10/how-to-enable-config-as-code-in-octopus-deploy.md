@@ -1,12 +1,10 @@
 ---
-id: 11707
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to enable config-as-code in Octopus Deploy'
 pubDate: 2021-10-07T09:28:54+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11707'
-permalink: /2021/10/how-to-enable-config-as-code-in-octopus-deploy/
 categories:
     - Automation
 tags:

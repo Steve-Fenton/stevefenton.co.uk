@@ -1,12 +1,10 @@
 ---
-id: 1762
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using Log Parser Studio to get request by host name'
 pubDate: 2016-04-19T06:00:21+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1762'
-permalink: /2016/04/using-log-parser-studio-to-get-request-by-host-name/
 categories:
     - Programming
     - Windows

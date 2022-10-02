@@ -1,12 +1,10 @@
 ---
-id: 12975
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'SQL Filestream thoughts'
 pubDate: 2022-06-07T16:01:14+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12975'
-permalink: /2022/06/sql-filestream-thoughts/
 categories:
     - Programming
 tags:

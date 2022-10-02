@@ -1,12 +1,11 @@
 ---
-id: 461
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Web Essentials style side-by-side editing of TypeScript files'
 pubDate: 2013-12-16T09:34:16+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=461'
-permalink: /2013/12/web-essentials-style-side-by-side-editing-of-typescript-files/
 interface_sidebarlayout:
     - default
 categories:

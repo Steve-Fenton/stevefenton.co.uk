@@ -1,12 +1,11 @@
 ---
-id: 804
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using the light sensor API in Firefox'
 pubDate: 2012-05-05T16:12:45+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=804'
-permalink: /2012/05/using-the-light-sensor-api-in-firefox/
 interface_sidebarlayout:
     - default
 categories:

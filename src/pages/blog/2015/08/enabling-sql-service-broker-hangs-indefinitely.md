@@ -1,12 +1,10 @@
 ---
-id: 1386
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Enabling SQL Service Broker hangs indefinitely'
 pubDate: 2015-08-12T14:23:42+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1386'
-permalink: /2015/08/enabling-sql-service-broker-hangs-indefinitely/
 categories:
     - Programming
 tags:

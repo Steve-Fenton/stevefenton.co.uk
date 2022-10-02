@@ -1,12 +1,10 @@
 ---
-id: 1468
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Tidying up The Web'
 pubDate: 2015-10-04T12:00:24+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1468'
-permalink: /2015/10/tidying-up-the-web/
 categories:
     - Opinion
     - Psychology

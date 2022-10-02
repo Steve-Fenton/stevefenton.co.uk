@@ -1,12 +1,10 @@
 ---
-id: 1900
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Use Log Parser Studio to get a list of top IP ranges'
 pubDate: 2016-08-12T06:00:08+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1900'
-permalink: /2016/08/use-log-parser-studio-to-get-list-of-top-ip-ranges/
 categories:
     - Programming
     - Windows

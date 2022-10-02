@@ -1,12 +1,11 @@
 ---
-id: 410
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Peeling the Agile onion'
 pubDate: 2014-02-07T23:05:24+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=410'
-permalink: /2014/02/peeling-the-agile-onion/
 interface_sidebarlayout:
     - default
 medium_post:

@@ -1,12 +1,10 @@
 ---
-id: 6342
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Where to put your TypeScript type annotations'
 pubDate: 2019-08-13T09:31:29+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6342'
-permalink: /2019/08/where-to-put-your-typescript-type-annotations/
 categories:
     - Programming
 tags:

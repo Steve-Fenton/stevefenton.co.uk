@@ -1,12 +1,10 @@
 ---
-id: 1746
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'DataDog Interactive Monitor Report'
 pubDate: 2016-04-12T06:00:23+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1746'
-permalink: /2016/04/datadog-interactive-monitor-report/
 categories:
     - Automation
 tags:

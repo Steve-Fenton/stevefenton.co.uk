@@ -1,12 +1,11 @@
 ---
-id: 1061
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Apple iPad Unveiled'
 pubDate: 2010-01-28T22:13:28+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1061'
-permalink: /2010/01/apple-ipad-unveiled/
 interface_sidebarlayout:
     - default
 categories:

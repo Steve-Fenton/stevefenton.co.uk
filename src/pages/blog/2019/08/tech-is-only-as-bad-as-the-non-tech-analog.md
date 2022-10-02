@@ -1,12 +1,10 @@
 ---
-id: 6379
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Tech is only as bad as the non-tech analog'
 pubDate: 2019-08-28T07:50:16+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6379'
-permalink: /2019/08/tech-is-only-as-bad-as-the-non-tech-analog/
 categories:
     - Opinion
 tags:

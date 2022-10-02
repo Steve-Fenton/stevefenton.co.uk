@@ -1,12 +1,10 @@
 ---
-id: 2785
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Incident Causation Principles'
 pubDate: 2017-11-13T05:00:42+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2785'
-permalink: /2017/11/incident-causation-principles/
 categories:
     - Automation
     - Programming

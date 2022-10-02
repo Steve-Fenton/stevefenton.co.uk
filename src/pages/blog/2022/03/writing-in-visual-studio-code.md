@@ -1,12 +1,10 @@
 ---
-id: 12838
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Writing in Visual Studio Code'
 pubDate: 2022-03-23T13:51:28+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12838'
-permalink: /2022/03/writing-in-visual-studio-code/
 image: /wp-content/uploads/2022/03/markdown-all-in-one.jpg
 categories:
     - Programming

@@ -1,12 +1,10 @@
 ---
-id: 2072
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Tool decision approval process'
 pubDate: 2017-06-04T20:24:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2072'
-permalink: /2017/06/tool-decision-approval-process/
 categories:
     - Opinion
     - Programming

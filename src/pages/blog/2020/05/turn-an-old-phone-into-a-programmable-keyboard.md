@@ -1,12 +1,10 @@
 ---
-id: 8569
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Turn an old phone into a programmable keyboard'
 pubDate: 2020-05-25T21:41:08+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8569'
-permalink: /2020/05/turn-an-old-phone-into-a-programmable-keyboard/
 image: /wp-content/uploads/2020/05/touch-portal-mobile-app-scaled.jpg
 categories:
     - Programming

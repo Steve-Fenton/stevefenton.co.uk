@@ -1,12 +1,11 @@
 ---
-id: 586
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Drawing on Carl Rogers for Agile'
 pubDate: 2013-05-17T14:23:06+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=586'
-permalink: /2013/05/drawing-on-carl-rogers-for-agile/
 interface_sidebarlayout:
     - default
 medium_post:

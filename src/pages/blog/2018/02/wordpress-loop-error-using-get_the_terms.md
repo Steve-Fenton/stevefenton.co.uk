@@ -1,12 +1,10 @@
 ---
-id: 3322
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'WordPress loop error using get_the_terms'
 pubDate: 2018-02-01T08:50:44+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3322'
-permalink: /2018/02/wordpress-loop-error-using-get_the_terms/
 categories:
     - Programming
 tags:

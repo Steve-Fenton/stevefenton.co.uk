@@ -1,12 +1,11 @@
 ---
-id: 667
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Getting the right set up for TypeScript'
 pubDate: 2013-01-25T22:26:19+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=667'
-permalink: /2013/01/getting-the-right-set-up-for-typescript/
 interface_sidebarlayout:
     - default
 categories:

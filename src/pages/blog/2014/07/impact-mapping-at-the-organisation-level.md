@@ -1,12 +1,11 @@
 ---
-id: 324
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Impact Mapping at the organisation level'
 pubDate: 2014-07-04T21:44:54+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=324'
-permalink: /2014/07/impact-mapping-at-the-organisation-level/
 interface_sidebarlayout:
     - default
 medium_post:

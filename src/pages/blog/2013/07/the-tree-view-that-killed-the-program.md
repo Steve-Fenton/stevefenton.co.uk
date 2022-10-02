@@ -1,12 +1,11 @@
 ---
-id: 534
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The tree view that killed the program'
 pubDate: 2013-07-27T11:39:44+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=534'
-permalink: /2013/07/the-tree-view-that-killed-the-program/
 interface_sidebarlayout:
     - default
 categories:

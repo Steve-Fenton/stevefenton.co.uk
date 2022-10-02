@@ -1,12 +1,10 @@
 ---
-id: 1718
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Kill a deployment stuck in a cancelled state in Octopus Deploy'
 pubDate: 2016-03-09T06:00:01+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1718'
-permalink: /2016/03/kill-a-deployment-stuck-in-a-cancelled-state-in-octopus-deploy/
 categories:
     - Automation
     - Programming

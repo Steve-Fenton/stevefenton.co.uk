@@ -1,12 +1,10 @@
 ---
-id: 2794
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Alerting Principles'
 pubDate: 2017-11-20T05:00:40+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2794'
-permalink: /2017/11/the-alerting-principles/
 categories:
     - Automation
     - Programming

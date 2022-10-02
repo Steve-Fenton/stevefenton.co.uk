@@ -1,12 +1,10 @@
 ---
-id: 12897
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Converting markdown files to PDF in GitHub actions'
 pubDate: 2022-04-14T13:24:36+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12897'
-permalink: /2022/04/converting-markdown-files-to-pdf-in-github-actions/
 image: /wp-content/uploads/2022/04/github-action-complete.jpg
 categories:
     - Programming

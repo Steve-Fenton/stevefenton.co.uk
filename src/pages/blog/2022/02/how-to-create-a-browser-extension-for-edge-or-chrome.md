@@ -1,12 +1,10 @@
 ---
-id: 12700
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to create a browser extension for Edge or Chrome'
 pubDate: 2022-02-08T21:00:44+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12700'
-permalink: /2022/02/how-to-create-a-browser-extension-for-edge-or-chrome/
 categories:
     - Browsers
     - Programming

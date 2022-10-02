@@ -1,12 +1,11 @@
 ---
-id: 489
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What size boxes should I use to move house?'
 pubDate: 2013-11-01T10:13:59+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=489'
-permalink: /2013/11/what-size-boxes-should-i-use-to-move-house/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 1405
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Get argument values from Linq expressions'
 pubDate: 2015-09-08T08:00:39+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1405'
-permalink: /2015/09/get-argument-values-from-linq-expression/
 categories:
     - Programming
 tags:

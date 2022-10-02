@@ -1,12 +1,10 @@
 ---
-id: 5709
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Behind the BizOps buzz: Comparison over time'
 pubDate: 2019-04-04T07:30:54+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5709'
-permalink: /2019/04/behind-the-bizops-buzz-comparison-over-time/
 image: /wp-content/uploads/2019/04/conversion-rate-chart.jpg
 categories:
     - Analytics

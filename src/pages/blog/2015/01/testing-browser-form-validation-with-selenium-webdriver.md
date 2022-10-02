@@ -1,12 +1,10 @@
 ---
-id: 216
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Testing browser form validation with Selenium WebDriver'
 pubDate: 2015-01-10T16:47:31+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=216'
-permalink: /2015/01/testing-browser-form-validation-with-selenium-webdriver/
 interface_sidebarlayout:
     - default
 categories:

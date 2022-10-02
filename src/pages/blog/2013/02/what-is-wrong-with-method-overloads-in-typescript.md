@@ -1,12 +1,11 @@
 ---
-id: 645
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What is wrong with method overloads in TypeScript'
 pubDate: 2013-02-24T21:48:03+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=645'
-permalink: /2013/02/what-is-wrong-with-method-overloads-in-typescript/
 interface_sidebarlayout:
     - default
 categories:

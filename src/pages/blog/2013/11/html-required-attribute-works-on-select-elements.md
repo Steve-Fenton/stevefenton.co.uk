@@ -1,12 +1,11 @@
 ---
-id: 485
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML required attribute works on select elements'
 pubDate: 2013-11-20T10:05:00+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=485'
-permalink: /2013/11/html-required-attribute-works-on-select-elements/
 interface_sidebarlayout:
     - default
 categories:

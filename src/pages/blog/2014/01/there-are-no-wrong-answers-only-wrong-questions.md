@@ -1,12 +1,11 @@
 ---
-id: 430
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'There are no wrong answers only wrong questions'
 pubDate: 2014-01-20T23:18:51+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=430'
-permalink: /2014/01/there-are-no-wrong-answers-only-wrong-questions/
 interface_sidebarlayout:
     - default
 categories:

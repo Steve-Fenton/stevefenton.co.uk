@@ -1,12 +1,10 @@
 ---
-id: 1945
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Run a console application with PowerShell'
 pubDate: 2016-09-29T11:56:11+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1945'
-permalink: /2016/09/run-a-console-application-with-powershell/
 categories:
     - Programming
 tags:

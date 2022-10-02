@@ -1,12 +1,10 @@
 ---
-id: 5763
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Sociable Pomodoro Timer'
 pubDate: 2019-04-14T16:34:44+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5763'
-permalink: /2019/04/sociable-pomodoro-timer/
 categories:
     - Process
 tags:

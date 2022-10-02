@@ -1,12 +1,10 @@
 ---
-id: 1452
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Cross-domain iframe resizing'
 pubDate: 2015-09-24T07:00:41+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1452'
-permalink: /2015/09/cross-domain-iframe-resizing/
 categories:
     - Programming
 tags:

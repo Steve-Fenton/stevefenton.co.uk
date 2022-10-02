@@ -1,12 +1,10 @@
 ---
-id: 8440
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to drop a SQL Server constraint when you don&#8217;t know its name'
 pubDate: 2020-05-15T11:21:59+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8440'
-permalink: /2020/05/how-to-drop-a-sql-server-constraint-when-you-dont-know-its-name/
 categories:
     - Programming
 tags:

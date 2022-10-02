@@ -1,12 +1,10 @@
 ---
-id: 307
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The many manifestations of yak-shaving'
 pubDate: 2014-08-06T21:24:53+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=307'
-permalink: /2014/08/the-many-manifestations-of-yak-shaving/
 interface_sidebarlayout:
     - default
 medium_post:

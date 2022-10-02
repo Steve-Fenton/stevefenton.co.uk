@@ -1,12 +1,10 @@
 ---
-id: 6407
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Prevent AJAX requests making sessions infinite in ASP.NET MVC'
 pubDate: 2019-09-04T09:40:31+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6407'
-permalink: /2019/09/prevent-ajax-requests-making-sessions-infinite-in-asp-net-mvc/
 categories:
     - Programming
 tags:

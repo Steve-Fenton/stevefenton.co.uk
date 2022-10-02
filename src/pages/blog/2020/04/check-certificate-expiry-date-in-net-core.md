@@ -1,12 +1,10 @@
 ---
-id: 8088
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Check certificate expiry date in .NET Core'
 pubDate: 2020-04-04T15:35:51+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8088'
-permalink: /2020/04/check-certificate-expiry-date-in-net-core/
 categories:
     - Programming
 tags:

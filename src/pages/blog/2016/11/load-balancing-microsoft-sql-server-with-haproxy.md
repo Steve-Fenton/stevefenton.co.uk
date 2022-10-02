@@ -1,12 +1,10 @@
 ---
-id: 1960
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Load balancing Microsoft SQL Server with HAProxy'
 pubDate: 2016-11-04T13:03:17+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1960'
-permalink: /2016/11/load-balancing-microsoft-sql-server-with-haproxy/
 categories:
     - Programming
 tags:

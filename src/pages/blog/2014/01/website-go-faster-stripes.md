@@ -1,12 +1,11 @@
 ---
-id: 436
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Website go faster stripes'
 pubDate: 2014-01-06T23:25:05+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=436'
-permalink: /2014/01/website-go-faster-stripes/
 interface_sidebarlayout:
     - default
 categories:

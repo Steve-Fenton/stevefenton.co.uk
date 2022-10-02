@@ -1,12 +1,10 @@
 ---
-id: 12988
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Run a Bash Script with Arguments in GitHub Actions'
 pubDate: 2022-06-14T11:46:47+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12988'
-permalink: /2022/06/run-a-bash-script-with-arguments-in-github-actions/
 categories:
     - Programming
 tags:

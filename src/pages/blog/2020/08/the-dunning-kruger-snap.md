@@ -1,12 +1,10 @@
 ---
-id: 9402
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Dunning-Kruger Snap'
 pubDate: 2020-08-29T11:31:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9402'
-permalink: /2020/08/the-dunning-kruger-snap/
 categories:
     - Psychology
 tags:

@@ -1,12 +1,11 @@
 ---
-id: 777
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Modularising JMeter tests'
 pubDate: 2012-06-27T15:50:34+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=777'
-permalink: /2012/06/modularising-jmeter-tests/
 interface_sidebarlayout:
     - default
 categories:

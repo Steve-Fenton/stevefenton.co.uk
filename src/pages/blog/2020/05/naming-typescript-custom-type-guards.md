@@ -1,12 +1,10 @@
 ---
-id: 8422
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Naming TypeScript custom type guards'
 pubDate: 2020-05-12T15:22:16+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8422'
-permalink: /2020/05/naming-typescript-custom-type-guards/
 categories:
     - Programming
 tags:

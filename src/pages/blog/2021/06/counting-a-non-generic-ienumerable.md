@@ -1,12 +1,10 @@
 ---
-id: 11588
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Counting a non-generic IEnumerable'
 pubDate: 2021-06-23T19:01:08+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11588'
-permalink: /2021/06/counting-a-non-generic-ienumerable/
 categories:
     - Programming
 tags:

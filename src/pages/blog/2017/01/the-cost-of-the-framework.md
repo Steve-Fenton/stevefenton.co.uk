@@ -1,12 +1,10 @@
 ---
-id: 1987
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The cost of the framework'
 pubDate: 2017-01-19T06:00:10+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1987'
-permalink: /2017/01/the-cost-of-the-framework/
 categories:
     - Opinion
     - Programming

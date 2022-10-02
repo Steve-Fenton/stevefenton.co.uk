@@ -1,12 +1,11 @@
 ---
-id: 622
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Why programmers should learn to touch type'
 pubDate: 2013-04-02T15:17:00+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=622'
-permalink: /2013/04/why-programmers-should-learn-to-touch-type/
 interface_sidebarlayout:
     - default
 categories:

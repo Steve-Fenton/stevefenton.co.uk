@@ -1,12 +1,10 @@
 ---
-id: 2078
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Don&#8217;t worry about The Cargo Cult'
 pubDate: 2017-06-08T08:27:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2078'
-permalink: /2017/06/dont-worry-about-the-cargo-cult/
 medium_post:
     - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"9668a1d78ea0";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/9668a1d78ea0";}'
 image: /wp-content/uploads/2017/06/green-island-1944.jpg

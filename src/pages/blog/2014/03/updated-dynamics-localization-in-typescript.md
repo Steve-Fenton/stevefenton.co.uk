@@ -1,12 +1,11 @@
 ---
-id: 369
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Updated Dynamics localization in TypeScript'
 pubDate: 2014-03-26T22:24:42+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=369'
-permalink: /2014/03/updated-dynamics-localization-in-typescript/
 interface_sidebarlayout:
     - default
 categories:

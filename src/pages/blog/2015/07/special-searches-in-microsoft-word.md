@@ -1,12 +1,10 @@
 ---
-id: 30
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Special searches in Microsoft Word'
 pubDate: 2015-07-01T23:34:15+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=30'
-permalink: /2015/07/special-searches-in-microsoft-word/
 
 categories:
     - Windows

@@ -1,12 +1,10 @@
 ---
-id: 2262
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Stop mixing TypeScript modules and namespaces'
 pubDate: 2017-08-22T12:05:15+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2262'
-permalink: /2017/08/stop-mixing-typescript-modules-and-namespaces/
 categories:
     - Programming
 tags:

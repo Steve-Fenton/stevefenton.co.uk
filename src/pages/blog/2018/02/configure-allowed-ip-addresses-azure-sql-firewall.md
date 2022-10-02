@@ -1,12 +1,10 @@
 ---
-id: 3340
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Configure allowed IP addresses with Azure SQL Firewall'
 pubDate: 2018-02-07T11:48:47+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3340'
-permalink: /2018/02/configure-allowed-ip-addresses-azure-sql-firewall/
 categories:
     - Programming
 tags:

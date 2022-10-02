@@ -1,12 +1,11 @@
 ---
-id: 914
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What is the difference between symbol, branch, and method code coverage'
 pubDate: 2011-08-16T17:54:37+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=914'
-permalink: /2011/08/what-is-the-difference-between-symbol-branch-and-method-code-coverage/
 interface_sidebarlayout:
     - default
 categories:

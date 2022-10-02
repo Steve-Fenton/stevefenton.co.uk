@@ -1,12 +1,10 @@
 ---
-id: 262
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript AMD dependency comment'
 pubDate: 2014-10-20T20:27:46+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=262'
-permalink: /2014/10/typescript-amd-dependency-comment/
 interface_sidebarlayout:
     - default
 categories:

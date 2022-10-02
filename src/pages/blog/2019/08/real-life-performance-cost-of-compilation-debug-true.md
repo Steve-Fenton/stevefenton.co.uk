@@ -1,12 +1,10 @@
 ---
-id: 6332
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Real life performance cost of compilation debug=&#8221;true&#8221;'
 pubDate: 2019-08-07T17:13:37+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6332'
-permalink: /2019/08/real-life-performance-cost-of-compilation-debug-true/
 categories:
     - Programming
 tags:

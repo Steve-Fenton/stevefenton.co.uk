@@ -1,12 +1,10 @@
 ---
-id: 2798
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Monitor Matrix'
 pubDate: 2017-12-04T05:00:06+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2798'
-permalink: /2017/12/the-monitor-matrix/
 categories:
     - Automation
     - Programming

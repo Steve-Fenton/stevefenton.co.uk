@@ -1,12 +1,11 @@
 ---
-id: 1024
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Hayfever Allergy Relief Test'
 pubDate: 2010-06-29T21:13:00+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1024'
-permalink: /2010/06/hayfever-allergy-relief-test/
 interface_sidebarlayout:
     - default
 categories:

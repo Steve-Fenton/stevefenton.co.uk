@@ -1,12 +1,11 @@
 ---
-id: 575
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Disk optimisation in your brain'
 pubDate: 2013-06-03T12:13:32+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=575'
-permalink: /2013/06/disk-optimisation-in-your-brain/
 interface_sidebarlayout:
     - default
 categories:

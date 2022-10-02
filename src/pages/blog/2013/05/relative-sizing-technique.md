@@ -1,12 +1,11 @@
 ---
-id: 582
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Relative sizing technique'
 pubDate: 2013-05-22T14:20:27+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=582'
-permalink: /2013/05/relative-sizing-technique/
 interface_sidebarlayout:
     - default
 medium_post:

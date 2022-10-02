@@ -1,12 +1,10 @@
 ---
-id: 5153
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Genius in hindsight: TypeScript type annotations'
 pubDate: 2019-01-28T18:14:20+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5153'
-permalink: /2019/01/genius-in-hindsight-typescript-type-annotations/
 categories:
     - Programming
 tags:

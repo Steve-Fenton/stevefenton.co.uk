@@ -1,12 +1,10 @@
 ---
-id: 1302
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Getting the SQL query from an Entity Framework IQueryable'
 pubDate: 2015-07-24T07:30:57+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1302'
-permalink: /2015/07/getting-the-sql-query-from-an-entity-framework-iqueryable/
 categories:
     - Programming
 tags:

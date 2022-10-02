@@ -1,12 +1,11 @@
 ---
-id: 364
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The software development community'
 pubDate: 2014-04-28T22:21:32+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=364'
-permalink: /2014/04/the-software-development-community/
 interface_sidebarlayout:
     - default
 categories:

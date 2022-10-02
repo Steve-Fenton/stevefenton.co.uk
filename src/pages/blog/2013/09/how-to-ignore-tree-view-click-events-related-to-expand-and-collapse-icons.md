@@ -1,12 +1,11 @@
 ---
-id: 516
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to ignore tree view click events related to expand and collapse icons'
 pubDate: 2013-09-02T11:13:02+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=516'
-permalink: /2013/09/how-to-ignore-tree-view-click-events-related-to-expand-and-collapse-icons/
 interface_sidebarlayout:
     - default
 categories:

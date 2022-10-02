@@ -1,12 +1,11 @@
 ---
-id: 434
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What is a closure in JavaScript'
 pubDate: 2014-01-13T23:23:13+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=434'
-permalink: /2014/01/what-is-a-closure-in-javascript/
 interface_sidebarlayout:
     - default
 categories:

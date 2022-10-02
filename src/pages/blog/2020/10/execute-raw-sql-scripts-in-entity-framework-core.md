@@ -1,12 +1,10 @@
 ---
-id: 9947
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Execute raw SQL scripts in Entity Framework Core'
 pubDate: 2020-10-13T07:00:36+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9947'
-permalink: /2020/10/execute-raw-sql-scripts-in-entity-framework-core/
 categories:
     - Programming
 tags:

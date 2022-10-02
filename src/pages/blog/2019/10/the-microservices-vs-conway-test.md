@@ -1,12 +1,10 @@
 ---
-id: 6606
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Microservices vs Conway Test'
 pubDate: 2019-10-26T17:00:54+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6606'
-permalink: /2019/10/the-microservices-vs-conway-test/
 image: /wp-content/uploads/2019/10/complexity.jpg
 categories:
     - Programming

@@ -1,12 +1,10 @@
 ---
-id: 6513
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Debugging Adobe Analytics'
 pubDate: 2019-09-21T13:43:13+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6513'
-permalink: /2019/09/debugging-adobe-analytics/
 categories:
     - Analytics
     - Programming

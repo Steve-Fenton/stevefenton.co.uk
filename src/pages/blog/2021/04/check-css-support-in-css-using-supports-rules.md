@@ -1,12 +1,10 @@
 ---
-id: 11491
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Check CSS support in CSS using @supports rules'
 pubDate: 2021-04-20T13:15:19+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11491'
-permalink: /2021/04/check-css-support-in-css-using-supports-rules/
 categories:
     - Programming
 tags:

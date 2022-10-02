@@ -1,12 +1,11 @@
 ---
-id: 320
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Creating TypeScript classes dynamically'
 pubDate: 2014-07-11T21:41:44+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=320'
-permalink: /2014/07/creating-typescript-classes-dynamically/
 interface_sidebarlayout:
     - default
 categories:

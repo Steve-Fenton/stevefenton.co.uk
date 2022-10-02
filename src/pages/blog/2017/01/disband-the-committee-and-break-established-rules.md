@@ -1,12 +1,10 @@
 ---
-id: 1995
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Disband the Committee and break established rules'
 pubDate: 2017-01-23T20:02:43+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1995'
-permalink: /2017/01/disband-the-committee-and-break-established-rules/
 categories:
     - Opinion
 tags:

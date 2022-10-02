@@ -1,12 +1,11 @@
 ---
-id: 945
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 forms date input elements'
 pubDate: 2011-05-23T19:11:45+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=945'
-permalink: /2011/05/html-5-forms-date-input-elements/
 interface_sidebarlayout:
     - default
 categories:

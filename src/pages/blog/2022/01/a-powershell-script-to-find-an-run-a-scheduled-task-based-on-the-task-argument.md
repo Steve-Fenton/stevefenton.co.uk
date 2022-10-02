@@ -1,12 +1,10 @@
 ---
-id: 12645
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'A PowerShell script to find an run a scheduled task based on the task argument'
 pubDate: 2022-01-19T12:43:52+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12645'
-permalink: /2022/01/a-powershell-script-to-find-an-run-a-scheduled-task-based-on-the-task-argument/
 categories:
     - Programming
 tags:

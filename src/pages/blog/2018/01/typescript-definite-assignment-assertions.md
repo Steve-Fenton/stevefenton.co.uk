@@ -1,12 +1,10 @@
 ---
-id: 3267
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript definite assignment assertions'
 pubDate: 2018-01-17T20:06:02+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3267'
-permalink: /2018/01/typescript-definite-assignment-assertions/
 categories:
     - Programming
 tags:

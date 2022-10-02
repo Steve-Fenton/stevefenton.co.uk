@@ -1,12 +1,11 @@
 ---
-id: 556
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The future of search'
 pubDate: 2013-06-26T12:01:14+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=556'
-permalink: /2013/06/the-future-of-search/
 interface_sidebarlayout:
     - default
 categories:

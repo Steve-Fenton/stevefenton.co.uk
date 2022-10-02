@@ -1,12 +1,11 @@
 ---
-id: 554
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Alternative culture and respecting people'
 pubDate: 2013-06-28T11:59:53+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=554'
-permalink: /2013/06/alternative-culture-and-respecting-people/
 interface_sidebarlayout:
     - default
 categories:

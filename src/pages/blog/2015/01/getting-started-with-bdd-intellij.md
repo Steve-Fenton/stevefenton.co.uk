@@ -1,12 +1,10 @@
 ---
-id: 205
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Getting started with BDD IntelliJ'
 pubDate: 2015-01-17T16:33:28+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=205'
-permalink: /2015/01/getting-started-with-bdd-intellij/
 
 categories:
     - Automation

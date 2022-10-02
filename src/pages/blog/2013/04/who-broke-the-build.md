@@ -1,12 +1,11 @@
 ---
-id: 606
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Who broke the build?'
 pubDate: 2013-04-24T15:05:56+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=606'
-permalink: /2013/04/who-broke-the-build/
 interface_sidebarlayout:
     - default
 medium_post:

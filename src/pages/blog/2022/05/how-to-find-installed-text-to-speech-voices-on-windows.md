@@ -1,12 +1,10 @@
 ---
-id: 12941
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to find installed text to speech voices on Windows'
 pubDate: 2022-05-16T09:21:12+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12941'
-permalink: /2022/05/how-to-find-installed-text-to-speech-voices-on-windows/
 categories:
     - Programming
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 178
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Test Automation Philosophy'
 pubDate: 2015-02-21T16:08:36+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=178'
-permalink: /2015/02/test-automation-philosophy/
 
 categories:
     - Automation

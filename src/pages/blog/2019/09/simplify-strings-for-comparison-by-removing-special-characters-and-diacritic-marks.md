@@ -1,12 +1,10 @@
 ---
-id: 6466
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Simplify strings for comparison by removing special characters and diacritic marks'
 pubDate: 2019-09-13T16:30:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6466'
-permalink: /2019/09/simplify-strings-for-comparison-by-removing-special-characters-and-diacritic-marks/
 categories:
     - Programming
 tags:

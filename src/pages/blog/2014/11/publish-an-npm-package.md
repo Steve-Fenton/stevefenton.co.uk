@@ -1,12 +1,10 @@
 ---
-id: 240
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Publish an NPM package'
 pubDate: 2014-11-29T19:59:46+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=240'
-permalink: /2014/11/publish-an-npm-package/
 interface_sidebarlayout:
     - default
 categories:

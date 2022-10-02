@@ -1,12 +1,11 @@
 ---
-id: 831
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML async and defer attributes'
 pubDate: 2012-03-08T16:36:17+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=831'
-permalink: /2012/03/html-async-and-defer-attributes/
 interface_sidebarlayout:
     - default
 categories:

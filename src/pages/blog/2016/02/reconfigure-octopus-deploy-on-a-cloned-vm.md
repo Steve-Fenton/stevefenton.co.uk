@@ -1,12 +1,10 @@
 ---
-id: 1695
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Reconfigure Octopus Deploy on a cloned VM'
 pubDate: 2016-02-22T09:24:21+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1695'
-permalink: /2016/02/reconfigure-octopus-deploy-on-a-cloned-vm/
 categories:
     - Automation
 tags:

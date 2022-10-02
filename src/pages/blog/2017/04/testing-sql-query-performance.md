@@ -1,12 +1,10 @@
 ---
-id: 2044
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Testing SQL query performance'
 pubDate: 2017-04-13T16:25:09+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2044'
-permalink: /2017/04/testing-sql-query-performance/
 categories:
     - Programming
 tags:

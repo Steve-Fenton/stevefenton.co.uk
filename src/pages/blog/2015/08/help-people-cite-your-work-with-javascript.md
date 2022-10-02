@@ -1,12 +1,10 @@
 ---
-id: 1367
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Help people cite your work with JavaScript'
 pubDate: 2015-08-12T07:30:26+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1367'
-permalink: /2015/08/help-people-cite-your-work-with-javascript/
 categories:
     - Programming
 tags:

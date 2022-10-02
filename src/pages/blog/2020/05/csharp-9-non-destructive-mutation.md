@@ -1,12 +1,10 @@
 ---
-id: 8505
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'C# 9 non-destructive mutation'
 pubDate: 2020-05-22T06:30:26+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8505'
-permalink: /2020/05/csharp-9-non-destructive-mutation/
 categories:
     - Programming
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 6459
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Code responsibly: Paying attention to the humans you impact'
 pubDate: 2019-09-13T08:21:42+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6459'
-permalink: /2019/09/code-responsibly-paying-attention-to-the-humans-you-impact/
 image: /wp-content/uploads/2019/09/code-responsibly.jpg
 categories:
     - Programming

@@ -1,12 +1,11 @@
 ---
-id: 328
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Firefox responsive mode'
 pubDate: 2014-06-30T21:46:52+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=328'
-permalink: /2014/06/firefox-responsive-mode/
 interface_sidebarlayout:
     - default
 categories:

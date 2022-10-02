@@ -1,12 +1,10 @@
 ---
-id: 1677
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Octopus Deploy: Deployments are code'
 pubDate: 2016-02-17T07:00:11+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1677'
-permalink: /2016/02/octopus-deploy-deployments-are-code/
 categories:
     - Automation
 tags:

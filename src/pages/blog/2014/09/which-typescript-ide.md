@@ -1,12 +1,11 @@
 ---
-id: 281
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Which TypeScript IDE'
 pubDate: 2014-09-15T20:54:40+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=281'
-permalink: /2014/09/which-typescript-ide/
 interface_sidebarlayout:
     - default
 categories:

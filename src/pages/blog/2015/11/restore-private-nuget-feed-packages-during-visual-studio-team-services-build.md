@@ -1,12 +1,10 @@
 ---
-id: 1523
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Restore private NuGet feed packages during Visual Studio Team Services builds'
 pubDate: 2015-11-20T06:30:32+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1523'
-permalink: /2015/11/restore-private-nuget-feed-packages-during-visual-studio-team-services-build/
 categories:
     - Automation
     - Programming

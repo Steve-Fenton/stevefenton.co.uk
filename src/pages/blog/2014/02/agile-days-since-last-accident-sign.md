@@ -1,12 +1,11 @@
 ---
-id: 397
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Agile days since last accident sign'
 pubDate: 2014-02-19T22:52:44+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=397'
-permalink: /2014/02/agile-days-since-last-accident-sign/
 interface_sidebarlayout:
     - default
 medium_post:

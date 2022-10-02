@@ -1,12 +1,10 @@
 ---
-id: 2168
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Test-driven development and duplication'
 pubDate: 2017-08-04T10:36:40+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2168'
-permalink: /2017/08/test-driven-development-and-duplication/
 categories:
     - Programming
 tags:

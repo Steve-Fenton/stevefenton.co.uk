@@ -1,12 +1,10 @@
 ---
-id: 3298
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Deep TypeScript destructuring'
 pubDate: 2018-01-25T08:45:29+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3298'
-permalink: /2018/01/deep-typescript-destructuring/
 categories:
     - Programming
 tags:

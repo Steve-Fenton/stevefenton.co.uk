@@ -1,12 +1,11 @@
 ---
-id: 795
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Context switching comes at the price of delivery'
 pubDate: 2012-06-10T16:05:51+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=795'
-permalink: /2012/06/context-switching-comes-at-the-price-of-delivery/
 interface_sidebarlayout:
     - default
 medium_post:

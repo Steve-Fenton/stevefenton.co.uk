@@ -1,12 +1,11 @@
 ---
-id: 673
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 article and section refresher'
 pubDate: 2013-01-13T22:35:36+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=673'
-permalink: /2013/01/html5-article-and-section-refresher/
 interface_sidebarlayout:
     - default
 categories:

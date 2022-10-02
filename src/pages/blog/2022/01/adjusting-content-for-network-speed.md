@@ -1,12 +1,10 @@
 ---
-id: 12627
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adjusting Content for Network Speed'
 pubDate: 2022-01-10T09:49:33+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12627'
-permalink: /2022/01/adjusting-content-for-network-speed/
 categories:
     - Programming
 tags:

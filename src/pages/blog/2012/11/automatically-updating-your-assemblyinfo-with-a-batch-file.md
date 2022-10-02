@@ -1,12 +1,11 @@
 ---
-id: 691
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Automatically updating your AssemblyInfo with a batch file'
 pubDate: 2012-11-20T23:00:50+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=691'
-permalink: /2012/11/automatically-updating-your-assemblyinfo-with-a-batch-file/
 interface_sidebarlayout:
     - default
 categories:

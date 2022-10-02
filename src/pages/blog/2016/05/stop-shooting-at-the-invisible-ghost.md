@@ -1,12 +1,10 @@
 ---
-id: 1794
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Stop shooting at the invisible ghost'
 pubDate: 2016-05-13T14:35:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1794'
-permalink: /2016/05/stop-shooting-at-the-invisible-ghost/
 categories:
     - Programming
 tags:

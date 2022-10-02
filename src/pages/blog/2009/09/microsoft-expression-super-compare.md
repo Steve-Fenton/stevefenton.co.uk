@@ -1,12 +1,11 @@
 ---
-id: 1069
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Microsoft Expression Super Compare'
 pubDate: 2009-09-14T22:24:27+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1069'
-permalink: /2009/09/microsoft-expression-super-compare/
 interface_sidebarlayout:
     - default
 categories:

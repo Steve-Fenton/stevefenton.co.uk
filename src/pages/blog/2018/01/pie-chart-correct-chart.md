@@ -1,12 +1,10 @@
 ---
-id: 3271
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'When a pie chart is the correct chart'
 pubDate: 2018-01-19T08:30:37+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3271'
-permalink: /2018/01/pie-chart-correct-chart/
 categories:
     - 'Pie Charts'
 ---

@@ -1,12 +1,11 @@
 ---
-id: 342
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Understanding the hierarchy of needs'
 pubDate: 2014-06-01T21:55:44+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=342'
-permalink: /2014/06/understanding-the-hierarchy-of-needs/
 interface_sidebarlayout:
     - default
 categories:

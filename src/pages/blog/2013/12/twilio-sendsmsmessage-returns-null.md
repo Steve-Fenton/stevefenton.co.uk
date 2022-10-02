@@ -1,12 +1,11 @@
 ---
-id: 470
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Twilio SendSmsMessage returns null'
 pubDate: 2013-12-09T09:45:51+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=470'
-permalink: /2013/12/twilio-sendsmsmessage-returns-null/
 interface_sidebarlayout:
     - default
 categories:

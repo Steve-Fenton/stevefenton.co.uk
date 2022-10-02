@@ -1,12 +1,11 @@
 ---
-id: 122
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Pie charts are bad'
 pubDate: 2009-04-17T01:42:58+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=122'
-permalink: /2009/04/pie-charts-are-bad/
 
 image: /wp-content/uploads/2015/07/pie004.png
 categories:

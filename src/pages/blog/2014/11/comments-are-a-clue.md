@@ -1,12 +1,10 @@
 ---
-id: 246
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Comments are a clue'
 pubDate: 2014-11-16T20:05:39+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=246'
-permalink: /2014/11/comments-are-a-clue/
 
 categories:
     - Programming

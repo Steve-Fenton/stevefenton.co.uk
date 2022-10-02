@@ -1,12 +1,11 @@
 ---
-id: 965
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'ASP .NET MVC post-redirect-get pattern'
 pubDate: 2011-04-05T19:39:08+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=965'
-permalink: /2011/04/asp-net-mvc-post-redirect-get-pattern/
 interface_sidebarlayout:
     - default
 categories:

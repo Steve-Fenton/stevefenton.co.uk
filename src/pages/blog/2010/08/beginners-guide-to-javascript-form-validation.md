@@ -1,12 +1,11 @@
 ---
-id: 1007
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Beginners Guide To JavaScript Form Validation'
 pubDate: 2010-08-23T20:46:26+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1007'
-permalink: /2010/08/beginners-guide-to-javascript-form-validation/
 interface_sidebarlayout:
     - default
 categories:

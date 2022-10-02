@@ -1,12 +1,11 @@
 ---
-id: 499
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Context. Autonomy. Trust.'
 pubDate: 2013-10-11T10:45:38+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=499'
-permalink: /2013/10/context-autonomy-trust/
 interface_sidebarlayout:
     - default
 medium_post:

@@ -1,12 +1,10 @@
 ---
-id: 2305
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Obey my command (prompt)'
 pubDate: 2017-09-26T06:00:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2305'
-permalink: /2017/09/obey-command-prompt/
 categories:
     - Programming
 tags:

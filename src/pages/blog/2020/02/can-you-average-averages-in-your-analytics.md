@@ -1,12 +1,10 @@
 ---
-id: 7468
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Can you average averages in your analytics?'
 pubDate: 2020-02-14T07:57:53+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=7468'
-permalink: /2020/02/can-you-average-averages-in-your-analytics/
 categories:
     - Analytics
 ---

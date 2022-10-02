@@ -1,12 +1,10 @@
 ---
-id: 2065
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The JavaScript NIFE Pattern'
 pubDate: 2017-05-19T16:04:30+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2065'
-permalink: /2017/05/the-javascript-nife-pattern/
 categories:
     - Programming
 tags:

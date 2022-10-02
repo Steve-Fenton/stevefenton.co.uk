@@ -1,12 +1,10 @@
 ---
-id: 12808
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Browser Extension: Link Reporter'
 pubDate: 2022-03-07T16:13:36+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12808'
-permalink: /2022/03/browser-extension-link-reporter/
 categories:
     - Browsers
 tags:

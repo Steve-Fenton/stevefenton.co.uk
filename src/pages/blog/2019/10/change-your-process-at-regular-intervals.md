@@ -1,12 +1,10 @@
 ---
-id: 6554
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Change your process at regular intervals'
 pubDate: 2019-10-07T17:05:47+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6554'
-permalink: /2019/10/change-your-process-at-regular-intervals/
 categories:
     - Process
 tags:

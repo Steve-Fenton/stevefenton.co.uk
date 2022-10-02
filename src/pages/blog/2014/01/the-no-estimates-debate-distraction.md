@@ -1,12 +1,11 @@
 ---
-id: 425
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The #NoEstimates debate distraction'
 pubDate: 2014-01-29T23:15:30+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=425'
-permalink: /2014/01/the-no-estimates-debate-distraction/
 interface_sidebarlayout:
     - default
 medium_post:

@@ -1,12 +1,10 @@
 ---
-id: 260
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Mocking Entity Framework DbContext and IDbSet with Rhino Mocks'
 pubDate: 2014-11-01T20:25:01+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=260'
-permalink: /2014/11/mocking-entity-framework-dbcontext-and-idbset-with-rhino-mocks/
 interface_sidebarlayout:
     - default
 categories:

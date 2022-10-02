@@ -1,12 +1,11 @@
 ---
-id: 649
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Background animation with JavaScript and CSS'
 pubDate: 2013-02-20T21:53:12+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=649'
-permalink: /2013/02/background-animation-with-javascript-and-css/
 interface_sidebarlayout:
     - default
 categories:

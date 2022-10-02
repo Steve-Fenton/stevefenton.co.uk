@@ -1,12 +1,11 @@
 ---
-id: 787
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Writing a mobile app using HTML5'
 pubDate: 2012-06-16T15:57:01+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=787'
-permalink: /2012/06/writing-a-mobile-app-using-html-5/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,11 @@
 ---
-id: 501
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'RDFa vs Microdata for SEO'
 pubDate: 2013-10-09T10:46:56+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=501'
-permalink: /2013/10/rdfa-verses-microdata-for-seo/
 interface_sidebarlayout:
     - default
 categories:

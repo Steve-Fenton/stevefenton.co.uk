@@ -1,12 +1,10 @@
 ---
-id: 1790
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Poking around services using commands'
 pubDate: 2016-05-13T07:00:13+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1790'
-permalink: /2016/05/poking-around-services-using-commands/
 categories:
     - Programming
     - Windows

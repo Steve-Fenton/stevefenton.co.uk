@@ -1,12 +1,11 @@
 ---
-id: 614
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Command and control in Agile teams'
 pubDate: 2013-04-19T15:12:20+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=614'
-permalink: /2013/04/command-and-control-in-agile-teams/
 interface_sidebarlayout:
     - default
 medium_post:

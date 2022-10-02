@@ -1,12 +1,11 @@
 ---
-id: 800
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using the proximity sensor API in Firefox'
 pubDate: 2012-05-17T16:08:36+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=800'
-permalink: /2012/05/using-the-proximity-sensor-api-in-firefox/
 interface_sidebarlayout:
     - default
 categories:

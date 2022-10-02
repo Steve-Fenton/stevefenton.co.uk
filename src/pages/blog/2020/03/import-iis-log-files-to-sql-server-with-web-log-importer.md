@@ -1,12 +1,10 @@
 ---
-id: 7806
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Import IIS log files to SQL Server with Web Log Importer'
 pubDate: 2020-03-10T16:52:01+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=7806'
-permalink: /2020/03/import-iis-log-files-to-sql-server-with-web-log-importer/
 image: /wp-content/uploads/2020/03/importing-containers.jpg
 categories:
     - Programming

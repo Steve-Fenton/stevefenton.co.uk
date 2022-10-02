@@ -1,12 +1,10 @@
 ---
-id: 1616
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Simpler TypeScript bit flags'
 pubDate: 2016-01-04T20:25:15+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1616'
-permalink: /2016/01/simpler-typescript-bit-flags/
 categories:
     - Programming
 tags:

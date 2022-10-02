@@ -1,12 +1,10 @@
 ---
-id: 1299
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Universal tasks in Visual Studio Code'
 pubDate: 2015-07-22T07:30:21+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1299'
-permalink: /2015/07/universal-tasks-in-visual-studio-code/
 categories:
     - 'Visual Studio'
 tags:

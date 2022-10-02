@@ -1,12 +1,10 @@
 ---
-id: 1462
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTTP 403 is not just authorization related'
 pubDate: 2015-09-29T08:19:42+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1462'
-permalink: /2015/09/http-403-not-just-authorization-related/
 categories:
     - Programming
 tags:

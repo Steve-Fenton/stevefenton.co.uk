@@ -1,12 +1,11 @@
 ---
-id: 975
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adding an NCover target to MSBuild to get code coverage'
 pubDate: 2011-02-09T19:54:07+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=975'
-permalink: /2011/02/adding-an-ncover-target-to-msbuild-to-get-code-coverage/
 interface_sidebarlayout:
     - default
 categories:

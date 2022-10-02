@@ -1,12 +1,10 @@
 ---
-id: 12656
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'De-mystifying Linq'
 pubDate: 2022-01-24T13:53:36+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12656'
-permalink: /2022/01/de-mystifying-linq/
 categories:
     - Programming
 tags:

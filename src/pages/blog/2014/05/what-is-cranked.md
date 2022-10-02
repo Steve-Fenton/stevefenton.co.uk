@@ -1,12 +1,11 @@
 ---
-id: 11602
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What is Cranked?'
 pubDate: 2014-05-06T12:02:28+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11602'
-permalink: /2014/05/what-is-cranked/
 image: /wp-content/uploads/2021/07/crank-mechanism.png
 categories:
     - Process

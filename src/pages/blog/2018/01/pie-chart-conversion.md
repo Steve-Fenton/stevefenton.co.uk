@@ -1,12 +1,10 @@
 ---
-id: 3282
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Pie chart conversion'
 pubDate: 2018-01-22T08:50:32+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3282'
-permalink: /2018/01/pie-chart-conversion/
 categories:
     - 'Pie Charts'
 tags:

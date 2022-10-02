@@ -1,12 +1,10 @@
 ---
-id: 3301
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Kentico marketing automation finishes without sending an email'
 pubDate: 2018-01-25T19:00:58+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3301'
-permalink: /2018/01/kentico-marketing-automation-finishes-without-sending-email/
 categories:
     - Automation
     - CMS

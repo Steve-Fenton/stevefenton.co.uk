@@ -1,12 +1,10 @@
 ---
-id: 1312
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Only primitive types or enumeration types are supported in this context'
 pubDate: 2015-07-27T07:30:41+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1312'
-permalink: /2015/07/only-primitive-types-or-enumeration-types-are-supported-in-this-context/
 categories:
     - Programming
 tags:

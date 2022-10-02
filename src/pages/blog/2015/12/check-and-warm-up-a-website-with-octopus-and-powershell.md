@@ -1,12 +1,10 @@
 ---
-id: 1546
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Check and warm up a website with Octopus Deploy and PowerShell'
 pubDate: 2015-12-02T06:00:59+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1546'
-permalink: /2015/12/check-and-warm-up-a-website-with-octopus-and-powershell/
 categories:
     - Automation
     - Programming

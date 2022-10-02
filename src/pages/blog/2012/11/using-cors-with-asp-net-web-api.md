@@ -1,12 +1,11 @@
 ---
-id: 704
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using CORS with ASP NET Web API'
 pubDate: 2012-11-01T23:14:02+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=704'
-permalink: /2012/11/using-cors-with-asp-net-web-api/
 interface_sidebarlayout:
     - default
 categories:

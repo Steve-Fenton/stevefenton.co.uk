@@ -1,12 +1,10 @@
 ---
-id: 1426
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Select the host name from a string in SQL'
 pubDate: 2015-09-14T08:43:46+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1426'
-permalink: /2015/09/select-the-host-name-from-a-string-in-sql/
 categories:
     - Programming
 tags:

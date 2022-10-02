@@ -1,12 +1,11 @@
 ---
-id: 493
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Running sequence tests in Fitnesse'
 pubDate: 2013-10-25T10:40:08+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=493'
-permalink: /2013/10/running-sequence-tests-in-fitnesse/
 interface_sidebarlayout:
     - default
 categories:

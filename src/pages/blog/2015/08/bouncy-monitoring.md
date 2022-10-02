@@ -1,12 +1,10 @@
 ---
-id: 1322
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Bouncy monitoring'
 pubDate: 2015-08-01T07:30:17+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1322'
-permalink: /2015/08/bouncy-monitoring/
 categories:
     - Windows
 tags:

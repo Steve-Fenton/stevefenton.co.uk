@@ -1,12 +1,11 @@
 ---
-id: 558
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The novice view of jQuery'
 pubDate: 2013-06-24T12:02:24+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=558'
-permalink: /2013/06/the-novice-view-of-jquery/
 interface_sidebarlayout:
     - default
 categories:

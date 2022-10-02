@@ -1,12 +1,11 @@
 ---
-id: 11612
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Cranked reading list'
 pubDate: 2014-07-21T12:13:13+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11612'
-permalink: /2014/07/cranked-reading-list/
 amp_status:
     - enabled
 image: /wp-content/uploads/2021/07/reading-list.png

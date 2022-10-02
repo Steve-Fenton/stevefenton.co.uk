@@ -1,12 +1,11 @@
 ---
-id: 1041
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Always Use Those Curly Braces'
 pubDate: 2010-05-04T21:37:20+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1041'
-permalink: /2010/05/always-use-those-curly-braces/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 57
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Custom tasks in Visual Studio Code'
 pubDate: 2015-05-04T00:03:26+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=57'
-permalink: /2015/05/custom-tasks-in-visual-studio-code/
 
 categories:
     - 'Visual Studio'

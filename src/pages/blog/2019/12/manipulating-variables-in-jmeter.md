@@ -1,12 +1,10 @@
 ---
-id: 6683
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Manipulating variables in JMeter'
 pubDate: 2019-12-16T09:53:38+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6683'
-permalink: /2019/12/manipulating-variables-in-jmeter/
 categories:
     - Automation
     - Programming

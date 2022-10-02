@@ -1,12 +1,10 @@
 ---
-id: 2270
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Your identity should be immutable and unconfusable'
 pubDate: 2017-08-23T10:53:22+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2270'
-permalink: /2017/08/your-identity-should-be-immutable-and-unconfusable/
 categories:
     - Programming
 tags:

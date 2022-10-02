@@ -1,12 +1,10 @@
 ---
-id: 5599
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Use PowerShell to count the number of elements in XML files'
 pubDate: 2019-03-12T07:30:24+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5599'
-permalink: /2019/03/use-powershell-to-count-the-number-of-elements-in-xml-files/
 categories:
     - Programming
 tags:

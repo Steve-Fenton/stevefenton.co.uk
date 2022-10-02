@@ -1,12 +1,10 @@
 ---
-id: 9079
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Little scripts: Checking web page images'
 pubDate: 2020-07-28T13:43:07+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9079'
-permalink: /2020/07/little-scripts-checking-web-page-images/
 categories:
     - Automation
 tags:

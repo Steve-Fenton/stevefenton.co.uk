@@ -1,12 +1,11 @@
 ---
-id: 569
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Agile boards: Rows vs columns'
 pubDate: 2013-06-12T12:09:03+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=569'
-permalink: /2013/06/agile-boards-rows-vs-columns/
 interface_sidebarlayout:
     - default
 medium_post:

@@ -1,12 +1,11 @@
 ---
-id: 728
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Classes and inheritance in TypeScript'
 pubDate: 2012-10-02T23:46:15+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=728'
-permalink: /2012/10/classes-and-inheritance-in-typescript/
 interface_sidebarlayout:
     - default
 categories:

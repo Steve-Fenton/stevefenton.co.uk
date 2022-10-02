@@ -1,12 +1,10 @@
 ---
-id: 185
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Union types ease TypeScript getters and setters'
 pubDate: 2015-02-08T16:13:40+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=185'
-permalink: /2015/02/union-types-ease-getters-and-setters/
 
 categories:
     - Programming

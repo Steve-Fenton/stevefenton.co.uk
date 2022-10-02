@@ -1,12 +1,11 @@
 ---
-id: 332
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Firefox 3D mode'
 pubDate: 2014-06-27T21:50:22+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=332'
-permalink: /2014/06/firefox-3d-mode/
 interface_sidebarlayout:
     - default
 categories:

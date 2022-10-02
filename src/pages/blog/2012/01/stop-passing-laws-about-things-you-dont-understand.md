@@ -1,12 +1,11 @@
 ---
-id: 868
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Stop passing laws about things you don&#8217;t understand'
 pubDate: 2012-01-24T17:03:49+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=868'
-permalink: /2012/01/stop-passing-laws-about-things-you-dont-understand/
 interface_sidebarlayout:
     - default
 categories:

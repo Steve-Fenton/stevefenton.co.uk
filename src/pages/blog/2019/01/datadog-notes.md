@@ -1,12 +1,10 @@
 ---
-id: 4823
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Datadog notes'
 pubDate: 2019-01-07T13:52:23+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=4823'
-permalink: /2019/01/datadog-notes/
 categories:
     - Automation
 tags:

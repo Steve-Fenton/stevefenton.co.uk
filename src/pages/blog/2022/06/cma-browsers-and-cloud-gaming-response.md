@@ -1,12 +1,10 @@
 ---
-id: 12991
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'CMA Browsers and Cloud Gaming Response'
 pubDate: 2022-06-23T19:23:37+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12991'
-permalink: /2022/06/cma-browsers-and-cloud-gaming-response/
 categories:
     - Browsers
 tags:

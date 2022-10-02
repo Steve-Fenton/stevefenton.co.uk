@@ -1,12 +1,10 @@
 ---
-id: 1758
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Unable to rebuild performance counter setting from System Backup Store'
 pubDate: 2016-04-16T10:20:41+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1758'
-permalink: /2016/04/unable-to-rebuild-performance-counter-setting-from-system-backup-store/
 categories:
     - Programming
     - Windows

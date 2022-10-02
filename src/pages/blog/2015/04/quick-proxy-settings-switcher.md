@@ -1,12 +1,10 @@
 ---
-id: 78
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Quick proxy settings switcher'
 pubDate: 2015-04-18T00:28:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=78'
-permalink: /2015/04/quick-proxy-settings-switcher/
 
 categories:
     - Browsers

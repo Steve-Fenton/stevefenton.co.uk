@@ -1,12 +1,11 @@
 ---
-id: 817
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Get your MVC models right'
 pubDate: 2012-04-13T16:23:31+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=817'
-permalink: /2012/04/get-your-mvc-models-right/
 interface_sidebarlayout:
     - default
 categories:

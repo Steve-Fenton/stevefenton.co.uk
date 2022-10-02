@@ -1,12 +1,10 @@
 ---
-id: 295
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript console table logging polyfill'
 pubDate: 2014-09-01T21:13:44+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=295'
-permalink: /2014/09/javascript-console-table-logging-pollyfill/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,11 @@
 ---
-id: 671
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'An early vision of TypeScript generics'
 pubDate: 2013-01-21T22:33:30+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=671'
-permalink: /2013/01/an-early-vision-of-typescript-generics/
 interface_sidebarlayout:
     - default
 categories:

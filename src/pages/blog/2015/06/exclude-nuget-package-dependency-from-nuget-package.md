@@ -1,12 +1,10 @@
 ---
-id: 225
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Exclude NuGet package dependency from a NuGet package'
 pubDate: 2015-06-23T18:26:09+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=225'
-permalink: /2015/06/exclude-nuget-package-dependency-from-nuget-package/
 
 categories:
     - Programming

@@ -1,12 +1,10 @@
 ---
-id: 8809
 layout: src/layouts/Default.astro
+navMenu: false
 title: '#SleepBedless nominations'
 pubDate: 2020-06-28T09:32:33+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8809'
-permalink: /2020/06/sleepbedless-nominations/
 categories:
     - Other
 ---

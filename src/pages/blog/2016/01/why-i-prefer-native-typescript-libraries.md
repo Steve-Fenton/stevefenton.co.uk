@@ -1,12 +1,10 @@
 ---
-id: 1614
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Why I prefer native TypeScript libraries'
 pubDate: 2016-01-07T20:23:14+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1614'
-permalink: /2016/01/why-i-prefer-native-typescript-libraries/
 categories:
     - Programming
 tags:

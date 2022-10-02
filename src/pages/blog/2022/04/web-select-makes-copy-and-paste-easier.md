@@ -1,12 +1,10 @@
 ---
-id: 12863
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Web select makes copy and paste easier'
 pubDate: 2022-04-04T19:46:35+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12863'
-permalink: /2022/04/web-select-makes-copy-and-paste-easier/
 image: /wp-content/uploads/2022/04/web-select-table.jpg
 categories:
     - Browsers

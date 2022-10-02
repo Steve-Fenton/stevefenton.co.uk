@@ -1,12 +1,11 @@
 ---
-id: 361
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Process Kata questions and answers'
 pubDate: 2014-05-01T22:19:59+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=361'
-permalink: /2014/05/process-kata-questions-and-answers/
 interface_sidebarlayout:
     - default
 medium_post:

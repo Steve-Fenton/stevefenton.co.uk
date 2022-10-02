@@ -1,12 +1,11 @@
 ---
-id: 1018
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Show Links When Printing a Web Page'
 pubDate: 2010-07-07T21:02:19+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1018'
-permalink: /2010/07/show-links-when-printing-a-web-page/
 interface_sidebarlayout:
     - default
 categories:

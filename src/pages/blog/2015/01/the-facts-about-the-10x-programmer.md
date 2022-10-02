@@ -1,12 +1,10 @@
 ---
-id: 214
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The facts about the 10x Programmer'
 pubDate: 2015-01-11T16:45:49+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=214'
-permalink: /2015/01/the-facts-about-the-10x-programmer/
 interface_sidebarlayout:
     - default
 image: /wp-content/uploads/2015/01/clock.jpg

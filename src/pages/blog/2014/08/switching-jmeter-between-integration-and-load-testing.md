@@ -1,12 +1,11 @@
 ---
-id: 302
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Switching JMeter between integration and load testing'
 pubDate: 2014-08-20T21:20:52+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=302'
-permalink: /2014/08/switching-jmeter-between-integration-and-load-testing/
 interface_sidebarlayout:
     - default
 categories:

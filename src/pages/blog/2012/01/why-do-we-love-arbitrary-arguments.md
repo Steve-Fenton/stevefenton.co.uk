@@ -1,12 +1,11 @@
 ---
-id: 870
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Why do we love arbitrary arguments?'
 pubDate: 2012-01-17T17:05:27+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=870'
-permalink: /2012/01/why-do-we-love-arbitrary-arguments/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,11 @@
 ---
-id: 941
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 forms summary'
 pubDate: 2011-05-23T19:07:50+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=941'
-permalink: /2011/05/html-5-forms-summary/
 interface_sidebarlayout:
     - default
 categories:

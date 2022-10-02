@@ -1,12 +1,10 @@
 ---
-id: 62
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript with Visual Studio Code'
 pubDate: 2015-05-02T00:09:39+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=62'
-permalink: /2015/05/typescript-with-visual-studio-code/
 
 categories:
     - 'Visual Studio'

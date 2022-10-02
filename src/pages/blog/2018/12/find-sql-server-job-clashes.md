@@ -1,12 +1,10 @@
 ---
-id: 4672
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Find SQL Server job clashes'
 pubDate: 2018-12-27T20:00:43+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=4672'
-permalink: /2018/12/find-sql-server-job-clashes/
 categories:
     - Programming
 tags:

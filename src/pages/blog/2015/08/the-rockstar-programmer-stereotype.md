@@ -1,12 +1,10 @@
 ---
-id: 1384
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Rockstar Programmer Stereotype'
 pubDate: 2015-08-19T07:30:53+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1384'
-permalink: /2015/08/the-rockstar-programmer-stereotype/
 categories:
     - Opinion
 ---

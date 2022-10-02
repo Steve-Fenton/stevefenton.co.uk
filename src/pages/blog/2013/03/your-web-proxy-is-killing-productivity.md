@@ -1,12 +1,11 @@
 ---
-id: 624
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Your Web Proxy is killing productivity'
 pubDate: 2013-03-20T15:26:48+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=624'
-permalink: /2013/03/your-web-proxy-is-killing-productivity/
 interface_sidebarlayout:
     - default
 categories:

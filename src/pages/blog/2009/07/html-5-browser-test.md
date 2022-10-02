@@ -1,12 +1,11 @@
 ---
-id: 1072
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 Browser Test'
 pubDate: 2009-07-28T22:26:20+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1072'
-permalink: /2009/07/html-5-browser-test/
 interface_sidebarlayout:
     - default
 categories:

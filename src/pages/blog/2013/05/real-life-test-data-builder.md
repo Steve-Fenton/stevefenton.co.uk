@@ -1,12 +1,11 @@
 ---
-id: 592
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Real-life Test Data Builder'
 pubDate: 2013-05-10T14:32:39+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=592'
-permalink: /2013/05/real-life-test-data-builder/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 12227
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Theme an ASP.NET MVC website with custom views'
 pubDate: 2021-11-22T17:07:03+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12227'
-permalink: /2021/11/theme-an-asp-net-mvc-website-with-custom-views/
 categories:
     - Programming
 tags:

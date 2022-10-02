@@ -1,12 +1,11 @@
 ---
-id: 524
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Say goodbye to TypeScript reference comments'
 pubDate: 2013-08-08T11:26:40+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=524'
-permalink: /2013/08/say-goodbye-to-typescript-reference-comments/
 interface_sidebarlayout:
     - default
 categories:

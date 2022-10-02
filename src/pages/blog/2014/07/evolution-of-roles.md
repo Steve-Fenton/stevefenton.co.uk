@@ -1,12 +1,11 @@
 ---
-id: 11608
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Evolution of roles'
 pubDate: 2014-07-24T12:10:25+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11608'
-permalink: /2014/07/evolution-of-roles/
 amp_status:
     - enabled
 categories:

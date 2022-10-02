@@ -1,12 +1,10 @@
 ---
-id: 13041
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Advanced Ruby gsub with regular expressions'
 pubDate: 2022-08-03T14:07:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=13041'
-permalink: /2022/08/advanced-ruby-gsub-with-regular-expressions/
 categories:
     - Programming
 tags:

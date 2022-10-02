@@ -1,12 +1,10 @@
 ---
-id: 80
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Combinatorial and pairwise testing with NUnit'
 pubDate: 2015-04-11T00:29:28+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=80'
-permalink: /2015/04/combinatorial-and-pairwise-testing-with-nunit/
 
 categories:
     - Automation

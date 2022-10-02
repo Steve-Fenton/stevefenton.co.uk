@@ -1,12 +1,10 @@
 ---
-id: 13113
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to return non-HTML responses from Astro'
 pubDate: 2022-09-19T18:18:25+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=13113'
-permalink: /2022/09/how-to-return-non-html-responses-from-astro/
 meta_description:
     - ''
 meta_keywords:

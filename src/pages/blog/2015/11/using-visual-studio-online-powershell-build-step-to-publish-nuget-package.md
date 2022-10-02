@@ -1,12 +1,10 @@
 ---
-id: 1513
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using Visual Studio Online PowerShell build steps to publish NuGet packages'
 pubDate: 2015-11-18T07:00:45+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1513'
-permalink: /2015/11/using-visual-studio-online-powershell-build-step-to-publish-nuget-package/
 categories:
     - Automation
     - Programming

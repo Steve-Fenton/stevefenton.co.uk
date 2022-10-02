@@ -1,5 +1,6 @@
 ---
 layout: src/layouts/Default.astro
+navMenu: false
 title: Welcome to Astro Accelerator
 navTitle: Home
 navOrder: 0

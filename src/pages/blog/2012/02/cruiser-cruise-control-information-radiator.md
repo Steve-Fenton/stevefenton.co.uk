@@ -1,12 +1,11 @@
 ---
-id: 851
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Cruiser: Cruise Control information radiator'
 pubDate: 2012-02-22T16:51:14+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=851'
-permalink: /2012/02/cruiser-cruise-control-information-radiator/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,11 @@
 ---
-id: 406
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Slacker parsing in JavaScript'
 pubDate: 2014-02-15T23:00:40+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=406'
-permalink: /2014/02/slacker-parsing-in-javascript/
 interface_sidebarlayout:
     - default
 categories:

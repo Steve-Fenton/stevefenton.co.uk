@@ -1,13 +1,10 @@
 ---
-id: 13052
 layout: src/layouts/Default.astro
+navMenu: false
 title: Home
 pubDate: 2022-08-04T11:23:15+01:00
 author:
     - steve-fenton
-layout: revision
-guid: 'https://www.stevefenton.co.uk/?p=13052'
-permalink: '/?p=13052'
 ---
 
 Steve Fenton is an **Octonaut** at [Octopus Deploy](https://www.octopus.com/) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/) and writer. You can [find out more about Steve Fenton here](https://www.stevefenton.co.uk/about-me/).

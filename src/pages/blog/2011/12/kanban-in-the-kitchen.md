@@ -1,12 +1,11 @@
 ---
-id: 875
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Kanban in the kitchen'
 pubDate: 2011-12-13T17:10:54+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=875'
-permalink: /2011/12/kanban-in-the-kitchen/
 interface_sidebarlayout:
     - default
 medium_post:

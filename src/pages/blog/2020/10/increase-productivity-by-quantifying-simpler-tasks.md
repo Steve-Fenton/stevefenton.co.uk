@@ -1,12 +1,10 @@
 ---
-id: 10103
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Increase productivity by quantifying simpler tasks'
 pubDate: 2020-10-21T08:21:12+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=10103'
-permalink: /2020/10/increase-productivity-by-quantifying-simpler-tasks/
 categories:
     - Opinion
 tags:

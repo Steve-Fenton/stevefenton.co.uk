@@ -1,12 +1,10 @@
 ---
-id: 8511
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'C# 9 covariant return types'
 pubDate: 2020-05-26T06:30:22+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8511'
-permalink: /2020/05/csharp-9-covariant-return-types/
 categories:
     - Programming
 tags:

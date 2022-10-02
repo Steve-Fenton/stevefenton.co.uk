@@ -1,12 +1,11 @@
 ---
-id: 530
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Conference circuit sexism'
 pubDate: 2013-08-02T11:36:40+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=530'
-permalink: /2013/08/conference-circuit-sexism/
 interface_sidebarlayout:
     - default
 categories:

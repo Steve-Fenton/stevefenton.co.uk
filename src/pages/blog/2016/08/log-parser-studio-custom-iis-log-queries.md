@@ -1,12 +1,10 @@
 ---
-id: 1895
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Log Parser Studio custom IIS log queries'
 pubDate: 2016-08-09T06:00:58+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1895'
-permalink: /2016/08/log-parser-studio-custom-iis-log-queries/
 categories:
     - Programming
     - Windows

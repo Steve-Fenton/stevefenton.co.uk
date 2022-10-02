@@ -1,12 +1,11 @@
 ---
-id: 594
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Why Spotify will make music better'
 pubDate: 2013-05-08T14:43:34+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=594'
-permalink: /2013/05/why-spotify-will-make-music-better/
 interface_sidebarlayout:
     - default
 categories:

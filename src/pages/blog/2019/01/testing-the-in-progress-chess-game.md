@@ -1,12 +1,10 @@
 ---
-id: 5141
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Testing the in-progress Chess game'
 pubDate: 2019-01-27T18:29:46+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=5141'
-permalink: /2019/01/testing-the-in-progress-chess-game/
 image: /wp-content/uploads/2015/07/self-organising-pawn.jpg
 categories:
     - Process

@@ -1,12 +1,10 @@
 ---
-id: 6373
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Linq style mapping for single objects'
 pubDate: 2019-08-25T14:19:27+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6373'
-permalink: /2019/08/linq-style-mapping-for-single-objects/
 categories:
     - Programming
 tags:

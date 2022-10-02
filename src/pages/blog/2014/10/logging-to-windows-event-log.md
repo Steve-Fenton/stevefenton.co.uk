@@ -1,12 +1,10 @@
 ---
-id: 266
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Logging to Windows Event Log'
 pubDate: 2014-10-15T20:37:57+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=266'
-permalink: /2014/10/logging-to-windows-event-log/
 interface_sidebarlayout:
     - default
 categories:

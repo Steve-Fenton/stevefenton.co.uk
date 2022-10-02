@@ -1,12 +1,11 @@
 ---
-id: 977
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Event code 3005: An unhandled exception has occurred'
 pubDate: 2011-01-18T19:57:45+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=977'
-permalink: /2011/01/event-code-3005-an-unhandled-exception-has-occurred/
 interface_sidebarlayout:
     - default
 categories:

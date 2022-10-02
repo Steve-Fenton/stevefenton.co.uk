@@ -1,12 +1,11 @@
 ---
-id: 1020
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'jQuery Get Text While Excluding Children'
 pubDate: 2010-07-05T21:06:23+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1020'
-permalink: /2010/07/jquery-get-text-while-excluding-children/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 3040
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'WordPress custom query page size'
 pubDate: 2017-11-28T08:50:39+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3040'
-permalink: /2017/11/wordpress-custom-query-page-size/
 categories:
     - CMS
     - Programming

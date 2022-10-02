@@ -1,12 +1,11 @@
 ---
-id: 1067
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TransactionScope and WCF Services'
 pubDate: 2009-11-26T22:18:51+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1067'
-permalink: /2009/11/transactionscope-and-wcf-services/
 interface_sidebarlayout:
     - default
 categories:

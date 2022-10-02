@@ -1,12 +1,11 @@
 ---
-id: 483
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Query optimisation is still alive'
 pubDate: 2013-11-29T10:02:00+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=483'
-permalink: /2013/11/query-optimisation-is-still-alive/
 interface_sidebarlayout:
     - default
 categories:

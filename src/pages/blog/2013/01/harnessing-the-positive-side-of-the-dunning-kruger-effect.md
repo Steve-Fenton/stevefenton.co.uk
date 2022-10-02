@@ -1,12 +1,11 @@
 ---
-id: 675
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Harnessing the positive side of the Dunning Kruger Effect'
 pubDate: 2013-01-11T22:36:28+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=675'
-permalink: /2013/01/harnessing-the-positive-side-of-the-dunning-kruger-effect/
 interface_sidebarlayout:
     - default
 categories:

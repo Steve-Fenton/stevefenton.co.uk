@@ -1,12 +1,10 @@
 ---
-id: 1741
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using Log Parser Studio to find guilty IP addresses'
 pubDate: 2016-03-30T06:00:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1741'
-permalink: /2016/03/using-log-parser-studio-to-find-guilty-ip-addresses/
 categories:
     - Programming
     - Windows

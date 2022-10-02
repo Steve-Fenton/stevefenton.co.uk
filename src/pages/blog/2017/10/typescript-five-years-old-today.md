@@ -1,12 +1,10 @@
 ---
-id: 2311
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript is five years old today'
 pubDate: 2017-10-01T01:00:50+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2311'
-permalink: /2017/10/typescript-five-years-old-today/
 categories:
     - Programming
 tags:

@@ -1,12 +1,11 @@
 ---
-id: 774
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What are self-organising teams?'
 pubDate: 2012-07-02T15:46:28+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=774'
-permalink: /2012/07/what-are-self-organising-teams/
 interface_sidebarlayout:
     - default
 medium_post:

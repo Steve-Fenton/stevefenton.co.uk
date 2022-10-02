@@ -1,12 +1,11 @@
 ---
-id: 491
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What to do about that line of code'
 pubDate: 2013-10-28T10:37:45+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=491'
-permalink: /2013/10/what-to-do-about-that-line-of-code/
 interface_sidebarlayout:
     - default
 categories:

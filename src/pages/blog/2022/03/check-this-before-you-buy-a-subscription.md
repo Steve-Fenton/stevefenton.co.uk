@@ -1,12 +1,10 @@
 ---
-id: 12833
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Check this before you buy a subscription'
 pubDate: 2022-03-18T06:00:12+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12833'
-permalink: /2022/03/check-this-before-you-buy-a-subscription/
 categories:
     - Opinion
 ---

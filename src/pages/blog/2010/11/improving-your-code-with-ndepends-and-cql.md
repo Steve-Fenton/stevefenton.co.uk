@@ -1,12 +1,11 @@
 ---
-id: 995
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Improving Your Code with NDepend and CQL'
 pubDate: 2010-11-22T20:13:43+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=995'
-permalink: /2010/11/improving-your-code-with-ndepends-and-cql/
 interface_sidebarlayout:
     - default
 categories:

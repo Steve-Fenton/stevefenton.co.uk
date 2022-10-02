@@ -1,12 +1,10 @@
 ---
-id: 9759
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'What data is missing?'
 pubDate: 2020-09-25T06:00:08+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9759'
-permalink: /2020/09/what-data-is-missing/
 categories:
     - Analytics
 tags:

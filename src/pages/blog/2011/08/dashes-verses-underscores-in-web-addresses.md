@@ -1,12 +1,11 @@
 ---
-id: 912
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Dashes vs underscores in web addresses'
 pubDate: 2011-08-28T17:53:22+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=912'
-permalink: /2011/08/dashes-verses-underscores-in-web-addresses/
 interface_sidebarlayout:
     - default
 categories:

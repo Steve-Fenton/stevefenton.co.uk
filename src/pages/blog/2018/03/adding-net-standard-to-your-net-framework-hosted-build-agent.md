@@ -1,12 +1,10 @@
 ---
-id: 3406
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adding .NET Standard to your .NET Framework hosted build agent'
 pubDate: 2018-03-19T10:12:27+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3406'
-permalink: /2018/03/adding-net-standard-to-your-net-framework-hosted-build-agent/
 categories:
     - Programming
 tags:

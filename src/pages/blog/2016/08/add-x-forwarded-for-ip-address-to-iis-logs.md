@@ -1,12 +1,10 @@
 ---
-id: 1889
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Add X-Forwarded-For IP address to IIS logs'
 pubDate: 2016-08-08T16:52:55+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1889'
-permalink: /2016/08/add-x-forwarded-for-ip-address-to-iis-logs/
 categories:
     - Windows
 tags:

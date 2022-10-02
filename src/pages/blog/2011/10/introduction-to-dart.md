@@ -1,12 +1,11 @@
 ---
-id: 892
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Introduction to Dart'
 pubDate: 2011-10-15T17:36:44+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=892'
-permalink: /2011/10/introduction-to-dart/
 interface_sidebarlayout:
     - default
 categories:

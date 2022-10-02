@@ -1,12 +1,10 @@
 ---
-id: 11335
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adobe Analytics segment applicability'
 pubDate: 2021-01-14T14:12:39+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11335'
-permalink: /2021/01/adobe-analytics-segment-applicability/
 image: /wp-content/uploads/2021/01/simple-utm-then-checkout-segment.jpg
 categories:
     - Analytics

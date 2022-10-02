@@ -1,12 +1,10 @@
 ---
-id: 2090
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Failed to load penimc.dll and related problems'
 pubDate: 2017-06-20T10:13:25+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2090'
-permalink: /2017/06/failed-to-load-penimc-dll-and-related-problems/
 categories:
     - Windows
 tags:

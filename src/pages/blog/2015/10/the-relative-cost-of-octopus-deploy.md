@@ -1,12 +1,10 @@
 ---
-id: 1488
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The relative cost of Octopus Deploy'
 pubDate: 2015-10-25T13:47:58+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1488'
-permalink: /2015/10/the-relative-cost-of-octopus-deploy/
 categories:
     - Automation
 tags:

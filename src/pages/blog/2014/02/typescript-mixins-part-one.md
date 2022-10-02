@@ -1,12 +1,11 @@
 ---
-id: 395
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript mixins (part one)'
 pubDate: 2014-02-21T22:49:05+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=395'
-permalink: /2014/02/typescript-mixins-part-one/
 interface_sidebarlayout:
     - default
 categories:

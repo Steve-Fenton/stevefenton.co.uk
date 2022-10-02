@@ -1,12 +1,10 @@
 ---
-id: 6521
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Unpeeling pie charts'
 pubDate: 2019-09-23T16:53:42+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6521'
-permalink: /2019/09/unpeeling-pie-charts/
 categories:
     - 'Pie Charts'
 tags:

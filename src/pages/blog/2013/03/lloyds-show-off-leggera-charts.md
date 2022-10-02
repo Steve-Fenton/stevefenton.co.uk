@@ -1,12 +1,11 @@
 ---
-id: 628
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Lloyds show off leggera charts'
 pubDate: 2013-03-12T15:39:29+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=628'
-permalink: /2013/03/lloyds-show-off-leggera-charts/
 interface_sidebarlayout:
     - default
 categories:

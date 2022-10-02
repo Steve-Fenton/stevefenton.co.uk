@@ -1,12 +1,10 @@
 ---
-id: 13083
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adding multiple attributes with kramdown'
 pubDate: 2022-09-06T10:49:51+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=13083'
-permalink: /2022/09/adding-multiple-attributes-with-kramdown/
 categories:
     - Programming
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 11522
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Duplication vs Coupling'
 pubDate: 2021-05-29T07:00:09+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11522'
-permalink: /2021/05/duplication-vs-coupling/
 categories:
     - Programming
 tags:

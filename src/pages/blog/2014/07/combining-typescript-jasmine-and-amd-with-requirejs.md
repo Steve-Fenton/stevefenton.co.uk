@@ -1,12 +1,10 @@
 ---
-id: 314
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Combining TypeScript, Jasmine, and AMD with RequireJS'
 pubDate: 2014-07-25T21:31:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=314'
-permalink: /2014/07/combining-typescript-jasmine-and-amd-with-requirejs/
 interface_sidebarlayout:
     - default
 categories:

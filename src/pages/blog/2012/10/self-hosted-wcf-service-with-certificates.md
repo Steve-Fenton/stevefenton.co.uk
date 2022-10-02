@@ -1,12 +1,11 @@
 ---
-id: 716
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Self-hosted WCF service with certificates'
 pubDate: 2012-10-09T23:33:06+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=716'
-permalink: /2012/10/self-hosted-wcf-service-with-certificates/
 interface_sidebarlayout:
     - default
 categories:

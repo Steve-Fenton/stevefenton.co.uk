@@ -1,12 +1,11 @@
 ---
-id: 612
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Obtaining a class name at runtime in TypeScript'
 pubDate: 2013-04-22T15:10:06+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=612'
-permalink: /2013/04/obtaining-a-class-name-at-runtime-in-typescript/
 interface_sidebarlayout:
     - default
 categories:

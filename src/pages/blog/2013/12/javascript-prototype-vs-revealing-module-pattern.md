@@ -1,12 +1,11 @@
 ---
-id: 468
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript prototype vs revealing module pattern'
 pubDate: 2013-12-11T09:40:14+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=468'
-permalink: /2013/12/javascript-prototype-vs-revealing-module-pattern/
 interface_sidebarlayout:
     - default
 categories:

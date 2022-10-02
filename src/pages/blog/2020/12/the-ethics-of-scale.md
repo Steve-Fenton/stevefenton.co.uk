@@ -1,12 +1,10 @@
 ---
-id: 10862
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The ethics of scale'
 pubDate: 2020-12-03T06:00:37+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=10862'
-permalink: /2020/12/the-ethics-of-scale/
 categories:
     - Automation
 tags:

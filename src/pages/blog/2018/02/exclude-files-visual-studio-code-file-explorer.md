@@ -1,12 +1,10 @@
 ---
-id: 3366
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Exclude files from the Visual Studio Code file explorer'
 pubDate: 2018-02-27T08:50:12+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=3366'
-permalink: /2018/02/exclude-files-visual-studio-code-file-explorer/
 categories:
     - Programming
     - 'Visual Studio'

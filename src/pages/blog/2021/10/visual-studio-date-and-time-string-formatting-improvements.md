@@ -1,12 +1,10 @@
 ---
-id: 12192
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Visual Studio date and time string formatting improvements'
 pubDate: 2021-10-26T13:36:48+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12192'
-permalink: /2021/10/visual-studio-date-and-time-string-formatting-improvements/
 categories:
     - Programming
     - 'Visual Studio'

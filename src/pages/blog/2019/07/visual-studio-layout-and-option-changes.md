@@ -1,12 +1,10 @@
 ---
-id: 6202
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Visual Studio layout and option changes'
 pubDate: 2019-07-03T22:32:18+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6202'
-permalink: /2019/07/visual-studio-layout-and-option-changes/
 categories:
     - 'Visual Studio'
 tags:

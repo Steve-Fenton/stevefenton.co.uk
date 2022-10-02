@@ -1,12 +1,10 @@
 ---
-id: 45
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Stop mixing TypeScript Internal and external modules'
 pubDate: 2015-05-28T23:52:05+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=45'
-permalink: /2015/05/stop-mixing-typescript-internal-and-external-modules/
 
 categories:
     - Programming

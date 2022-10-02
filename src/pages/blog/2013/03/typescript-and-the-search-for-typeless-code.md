@@ -1,12 +1,11 @@
 ---
-id: 631
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript and the search for typeless code'
 pubDate: 2013-03-10T15:41:36+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=631'
-permalink: /2013/03/typescript-and-the-search-for-typeless-code/
 interface_sidebarlayout:
     - default
 categories:

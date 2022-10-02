@@ -1,12 +1,10 @@
 ---
-id: 9031
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Start and stop an Azure App Service on a schedule with Azure Logic Apps'
 pubDate: 2020-07-22T19:00:05+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9031'
-permalink: /2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/
 categories:
     - Azure
 tags:

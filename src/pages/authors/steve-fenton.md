@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Author.astro
-id: steve-fenton
 layout: src/layouts/Default.astro
+navMenu: false
 title: Steve Fenton
 navOrder: 1000
 pubDate: 2022-09-17

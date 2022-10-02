@@ -1,12 +1,10 @@
 ---
-id: 12670
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'A practical right-to-left example'
 pubDate: 2022-01-28T09:05:26+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12670'
-permalink: /2022/01/a-practical-right-to-left-example/
 image: /wp-content/uploads/2022/01/task-board-scaled.jpg
 categories:
     - Process

@@ -1,12 +1,10 @@
 ---
-id: 11446
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Calculating Coronavirus timings with Excel'
 pubDate: 2021-02-22T20:00:09+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11446'
-permalink: /2021/02/calculating-coronavirus-timings-with-excel/
 categories:
     - Opinion
 tags:

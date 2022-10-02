@@ -1,12 +1,10 @@
 ---
-id: 71
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'World No Resources Day'
 pubDate: 2015-05-01T00:19:01+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=71'
-permalink: /2015/05/world-no-resources-day/
 
 categories:
     - Psychology

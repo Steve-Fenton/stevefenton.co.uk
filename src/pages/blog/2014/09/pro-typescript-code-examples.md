@@ -1,12 +1,10 @@
 ---
-id: 293
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Pro TypeScript code examples'
 pubDate: 2014-09-03T21:11:16+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=293'
-permalink: /2014/09/pro-typescript-code-examples/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,11 @@
 ---
-id: 770
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Fakes, stubs, and shims in Visual Studio 2012'
 pubDate: 2012-07-08T15:39:10+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=770'
-permalink: /2012/07/fakes-stubs-and-shims-in-visual-studio-2012/
 interface_sidebarlayout:
     - default
 categories:

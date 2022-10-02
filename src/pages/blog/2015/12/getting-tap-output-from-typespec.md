@@ -1,12 +1,10 @@
 ---
-id: 1537
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Getting TAP output from TypeSpec'
 pubDate: 2015-12-01T06:00:09+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1537'
-permalink: /2015/12/getting-tap-output-from-typespec/
 categories:
     - Automation
     - Programming

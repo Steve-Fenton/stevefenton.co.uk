@@ -1,12 +1,11 @@
 ---
-id: 1049
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Auto Load Your PHP Classes'
 pubDate: 2010-04-07T21:48:09+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1049'
-permalink: /2010/04/auto-load-your-php-classes/
 interface_sidebarlayout:
     - default
 categories:

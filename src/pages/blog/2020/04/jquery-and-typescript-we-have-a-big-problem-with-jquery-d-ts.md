@@ -1,12 +1,10 @@
 ---
-id: 8314
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JQuery and TypeScript &#8211; We Have a big problem with jquery.d.ts'
 pubDate: 2020-04-27T07:00:34+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8314'
-permalink: /2020/04/jquery-and-typescript-we-have-a-big-problem-with-jquery-d-ts/
 categories:
     - Programming
 tags:

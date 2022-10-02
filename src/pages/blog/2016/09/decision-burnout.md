@@ -1,12 +1,10 @@
 ---
-id: 1937
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Decision burnout'
 pubDate: 2016-09-17T14:51:22+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1937'
-permalink: /2016/09/decision-burnout/
 categories:
     - Programming
     - Psychology

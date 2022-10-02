@@ -1,12 +1,10 @@
 ---
-id: 1395
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Visual Studio selection tricks'
 pubDate: 2015-08-26T20:32:01+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1395'
-permalink: /2015/08/visual-studio-selection-tricks/
 categories:
     - 'Visual Studio'
 tags:

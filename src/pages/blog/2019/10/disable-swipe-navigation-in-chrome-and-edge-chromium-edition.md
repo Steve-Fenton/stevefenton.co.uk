@@ -1,12 +1,10 @@
 ---
-id: 6585
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Disable swipe navigation in Chrome and Edge (Chromium edition)'
 pubDate: 2019-10-23T13:08:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6585'
-permalink: /2019/10/disable-swipe-navigation-in-chrome-and-edge-chromium-edition/
 categories:
     - Browsers
 tags:

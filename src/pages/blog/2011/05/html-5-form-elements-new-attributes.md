@@ -1,12 +1,11 @@
 ---
-id: 949
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 form elements new attributes'
 pubDate: 2011-05-23T19:16:26+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=949'
-permalink: /2011/05/html-5-form-elements-new-attributes/
 interface_sidebarlayout:
     - default
 categories:

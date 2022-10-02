@@ -1,12 +1,10 @@
 ---
-id: 1699
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Beware of @@SERVERNAME in Microsoft SQL Server'
 pubDate: 2016-02-23T12:10:30+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1699'
-permalink: /2016/02/beware-of-servername-in-microsoft-sql-server/
 categories:
     - Programming
 tags:

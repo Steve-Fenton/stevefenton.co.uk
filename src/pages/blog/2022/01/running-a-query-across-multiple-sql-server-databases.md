@@ -1,12 +1,10 @@
 ---
-id: 12638
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Running a query across multiple SQL Server databases'
 pubDate: 2022-01-18T11:36:59+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12638'
-permalink: /2022/01/running-a-query-across-multiple-sql-server-databases/
 categories:
     - Programming
 tags:

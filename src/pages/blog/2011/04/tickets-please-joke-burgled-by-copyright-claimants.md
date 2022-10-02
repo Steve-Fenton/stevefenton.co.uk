@@ -1,12 +1,11 @@
 ---
-id: 961
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Tickets Please joke burgled by copyright claimants'
 pubDate: 2011-04-27T19:33:48+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=961'
-permalink: /2011/04/tickets-please-joke-burgled-by-copyright-claimants/
 interface_sidebarlayout:
     - default
 categories:

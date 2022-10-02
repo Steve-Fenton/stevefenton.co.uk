@@ -1,12 +1,11 @@
 ---
-id: 335
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Limit work in progress and actually deliver'
 pubDate: 2014-06-25T21:51:45+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=335'
-permalink: /2014/06/limit-work-in-progress-and-actually-deliver/
 interface_sidebarlayout:
     - default
 medium_post:

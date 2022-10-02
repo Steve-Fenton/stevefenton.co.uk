@@ -1,12 +1,11 @@
 ---
-id: 865
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Tidy desk. Tidy mind!'
 pubDate: 2012-01-28T17:01:00+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=865'
-permalink: /2012/01/tidy-desk-tidy-mind/
 interface_sidebarlayout:
     - default
 categories:

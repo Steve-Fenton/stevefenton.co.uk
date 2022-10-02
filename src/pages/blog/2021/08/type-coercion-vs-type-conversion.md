@@ -1,12 +1,10 @@
 ---
-id: 11643
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Type Coercion vs Type Conversion'
 pubDate: 2021-08-19T09:29:17+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11643'
-permalink: /2021/08/type-coercion-vs-type-conversion/
 categories:
     - Programming
 tags:

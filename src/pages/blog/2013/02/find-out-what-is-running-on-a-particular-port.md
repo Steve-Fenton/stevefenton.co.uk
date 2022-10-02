@@ -1,12 +1,11 @@
 ---
-id: 657
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Find out what is running on a particular port'
 pubDate: 2013-02-09T22:09:30+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=657'
-permalink: /2013/02/find-out-what-is-running-on-a-particular-port/
 interface_sidebarlayout:
     - default
 categories:

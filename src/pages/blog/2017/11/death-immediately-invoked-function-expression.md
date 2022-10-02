@@ -1,12 +1,10 @@
 ---
-id: 2774
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The death of the immediately invoked function expression'
 pubDate: 2017-11-04T15:29:23+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2774'
-permalink: /2017/11/death-immediately-invoked-function-expression/
 categories:
     - Programming
 tags:

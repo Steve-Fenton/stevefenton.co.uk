@@ -1,12 +1,11 @@
 ---
-id: 312
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript and structural verses nominal types'
 pubDate: 2014-07-31T21:28:58+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=312'
-permalink: /2014/07/typescript-and-structural-verses-nominal-types/
 interface_sidebarlayout:
     - default
 categories:

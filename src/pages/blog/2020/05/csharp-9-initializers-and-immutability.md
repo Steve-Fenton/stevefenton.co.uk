@@ -1,12 +1,10 @@
 ---
-id: 8503
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'C# 9 initializers and immutability'
 pubDate: 2020-05-21T06:30:55+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=8503'
-permalink: /2020/05/csharp-9-initializers-and-immutability/
 categories:
     - Programming
 tags:

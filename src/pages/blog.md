@@ -1,5 +1,6 @@
 ---
 layout: src/layouts/Default.astro
+navMenu: false
 title: Blog
 paged: true
 navOrder: 2000

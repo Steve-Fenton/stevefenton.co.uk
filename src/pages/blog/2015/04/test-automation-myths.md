@@ -1,12 +1,10 @@
 ---
-id: 73
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Test automation myths'
 pubDate: 2015-04-25T00:20:46+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=73'
-permalink: /2015/04/test-automation-myths/
 
 categories:
     - Automation

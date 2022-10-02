@@ -1,12 +1,11 @@
 ---
-id: 349
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Deep thinking and metacognition'
 pubDate: 2014-05-30T21:59:37+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=349'
-permalink: /2014/05/deep-thinking-and-metacognition/
 interface_sidebarlayout:
     - default
 categories:

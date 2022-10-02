@@ -1,12 +1,10 @@
 ---
-id: 2028
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Database deployments with Octopus Deploy and a SQL Cluster'
 pubDate: 2017-03-23T09:41:07+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2028'
-permalink: /2017/03/database-deployments-with-octopus-deploy-and-a-sql-cluster/
 categories:
     - Automation
 tags:

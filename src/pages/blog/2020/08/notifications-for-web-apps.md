@@ -1,12 +1,10 @@
 ---
-id: 9113
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Notifications for web apps'
 pubDate: 2020-08-05T06:00:10+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=9113'
-permalink: /2020/08/notifications-for-web-apps/
 image: /wp-content/uploads/2020/08/web-notification.jpg
 categories:
     - Programming

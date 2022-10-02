@@ -1,12 +1,11 @@
 ---
-id: 918
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Do I need to validate my HTML?'
 pubDate: 2011-08-07T17:56:37+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=918'
-permalink: /2011/08/do-i-need-to-validate-my-html/
 interface_sidebarlayout:
     - default
 categories:

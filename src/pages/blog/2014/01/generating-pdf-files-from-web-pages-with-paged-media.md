@@ -1,12 +1,11 @@
 ---
-id: 432
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Generating PDF files from web pages with paged media'
 pubDate: 2014-01-17T23:20:18+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=432'
-permalink: /2014/01/generating-pdf-files-from-web-pages-with-paged-media/
 interface_sidebarlayout:
     - default
 categories:

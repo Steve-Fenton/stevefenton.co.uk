@@ -1,12 +1,10 @@
 ---
-id: 11558
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to create important messages in Teams'
 pubDate: 2021-06-11T11:56:35+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11558'
-permalink: /2021/06/how-to-create-important-messages-in-teams/
 image: /wp-content/uploads/2021/06/important-message-example.jpg
 categories:
     - Other

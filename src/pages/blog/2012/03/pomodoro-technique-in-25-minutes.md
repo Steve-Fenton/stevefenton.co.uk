@@ -1,12 +1,11 @@
 ---
-id: 824
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Pomodoro Technique in 25 minutes'
 pubDate: 2012-03-22T16:27:05+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=824'
-permalink: /2012/03/pomodoro-technique-in-25-minutes/
 interface_sidebarlayout:
     - default
 medium_post:

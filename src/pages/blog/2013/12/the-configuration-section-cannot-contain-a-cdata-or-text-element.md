@@ -1,12 +1,11 @@
 ---
-id: 466
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The configuration section cannot contain a CDATA or text element'
 pubDate: 2013-12-13T09:38:44+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=466'
-permalink: /2013/12/the-configuration-section-cannot-contain-a-cdata-or-text-element/
 interface_sidebarlayout:
     - default
 categories:

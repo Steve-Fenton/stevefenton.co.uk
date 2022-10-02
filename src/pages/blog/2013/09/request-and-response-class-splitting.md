@@ -1,12 +1,11 @@
 ---
-id: 508
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Request and response class splitting'
 pubDate: 2013-09-27T10:52:09+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=508'
-permalink: /2013/09/request-and-response-class-splitting/
 interface_sidebarlayout:
     - default
 categories:

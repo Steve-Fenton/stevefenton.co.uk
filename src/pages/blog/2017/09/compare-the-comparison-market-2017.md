@@ -1,12 +1,10 @@
 ---
-id: 2289
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Compare the comparison market 2017'
 pubDate: 2017-09-03T18:14:24+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2289'
-permalink: /2017/09/compare-the-comparison-market-2017/
 categories:
     - Opinion
 tags:

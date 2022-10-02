@@ -1,12 +1,11 @@
 ---
-id: 506
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Getting a 404 response when using Chunked Encoding'
 pubDate: 2013-09-30T10:49:43+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=506'
-permalink: /2013/09/getting-a-404-response-when-using-chunked-encoding/
 interface_sidebarlayout:
     - default
 categories:

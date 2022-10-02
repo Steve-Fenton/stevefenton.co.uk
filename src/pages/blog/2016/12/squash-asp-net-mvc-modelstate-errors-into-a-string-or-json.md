@@ -1,12 +1,10 @@
 ---
-id: 1974
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Squash ASP.NET MVC ModelState errors into a string or JSON'
 pubDate: 2016-12-09T08:07:46+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1974'
-permalink: /2016/12/squash-asp-net-mvc-modelstate-errors-into-a-string-or-json/
 categories:
     - Programming
 tags:

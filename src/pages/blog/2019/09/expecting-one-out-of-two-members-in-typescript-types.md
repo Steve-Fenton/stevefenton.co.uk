@@ -1,12 +1,10 @@
 ---
-id: 6418
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Expecting one out of two members in TypeScript types'
 pubDate: 2019-09-06T06:30:29+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6418'
-permalink: /2019/09/expecting-one-out-of-two-members-in-typescript-types/
 categories:
     - Programming
 tags:

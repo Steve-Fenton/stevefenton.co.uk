@@ -1,12 +1,11 @@
 ---
-id: 571
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adding Unity to your Web API project'
 pubDate: 2013-06-10T12:09:46+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=571'
-permalink: /2013/06/adding-unity-to-your-web-api-project/
 interface_sidebarlayout:
     - default
 categories:

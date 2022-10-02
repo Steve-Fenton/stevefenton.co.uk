@@ -1,12 +1,11 @@
 ---
-id: 951
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using NCover with MSBuild to get reports and trends'
 pubDate: 2011-05-17T19:19:03+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=951'
-permalink: /2011/05/using-ncover-with-msbuild-to-get-reports-and-trends/
 interface_sidebarlayout:
     - default
 categories:

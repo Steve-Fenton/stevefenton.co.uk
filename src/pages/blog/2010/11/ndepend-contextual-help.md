@@ -1,12 +1,11 @@
 ---
-id: 1001
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'NDepend Contextual Help'
 pubDate: 2010-11-05T20:38:27+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1001'
-permalink: /2010/11/ndepend-contextual-help/
 interface_sidebarlayout:
     - default
 categories:

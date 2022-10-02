@@ -1,12 +1,10 @@
 ---
-id: 2001
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Full page screenshot in Firefox'
 pubDate: 2017-02-01T06:00:32+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2001'
-permalink: /2017/02/full-page-screenshot-in-firefox/
 categories:
     - Browsers
 tags:

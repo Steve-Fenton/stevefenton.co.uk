@@ -1,12 +1,11 @@
 ---
-id: 379
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Really useful JMeter plugins: Parameterized controller'
 pubDate: 2014-03-10T22:36:33+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=379'
-permalink: /2014/03/really-useful-jmeter-plugins-parameterized-controller/
 interface_sidebarlayout:
     - default
 categories:

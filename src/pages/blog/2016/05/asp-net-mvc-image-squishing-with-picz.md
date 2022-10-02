@@ -1,12 +1,10 @@
 ---
-id: 1788
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'ASP.NET MVC image squishing with Picz'
 pubDate: 2016-05-12T07:00:20+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1788'
-permalink: /2016/05/asp-net-mvc-image-squishing-with-picz/
 categories:
     - Programming
 tags:

@@ -1,12 +1,11 @@
 ---
-id: 647
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'TypeScript utilities'
 pubDate: 2013-02-22T21:51:52+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=647'
-permalink: /2013/02/typescript-utilities/
 interface_sidebarlayout:
     - default
 categories:

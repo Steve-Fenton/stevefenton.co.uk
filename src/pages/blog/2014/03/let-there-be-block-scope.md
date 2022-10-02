@@ -1,12 +1,11 @@
 ---
-id: 382
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Let there be block scope'
 pubDate: 2014-03-07T22:38:06+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=382'
-permalink: /2014/03/let-there-be-block-scope/
 interface_sidebarlayout:
     - default
 categories:

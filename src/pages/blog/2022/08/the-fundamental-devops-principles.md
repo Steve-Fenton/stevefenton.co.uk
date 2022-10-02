@@ -1,12 +1,10 @@
 ---
-id: 13015
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Fundamental DevOps Principles'
 pubDate: 2022-08-04T11:33:26+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=13015'
-permalink: /2022/08/the-fundamental-devops-principles/
 meta_description:
     - ''
 meta_keywords:

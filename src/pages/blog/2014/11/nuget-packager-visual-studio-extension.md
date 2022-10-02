@@ -1,12 +1,10 @@
 ---
-id: 255
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'NuGet Packager Visual Studio extension'
 pubDate: 2014-11-03T20:17:38+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=255'
-permalink: /2014/11/nuget-packager-visual-studio-extension/
 interface_sidebarlayout:
     - default
 categories:

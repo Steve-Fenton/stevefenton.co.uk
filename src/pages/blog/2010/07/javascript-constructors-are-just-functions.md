@@ -1,12 +1,11 @@
 ---
-id: 1016
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript Constructors are Just Functions'
 pubDate: 2010-07-28T21:00:11+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1016'
-permalink: /2010/07/javascript-constructors-are-just-functions/
 interface_sidebarlayout:
     - default
 categories:

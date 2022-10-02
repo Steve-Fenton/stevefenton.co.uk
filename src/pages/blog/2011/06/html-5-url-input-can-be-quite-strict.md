@@ -1,12 +1,11 @@
 ---
-id: 935
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'HTML5 URL input can be quite strict'
 pubDate: 2011-06-04T18:11:59+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=935'
-permalink: /2011/06/html-5-url-input-can-be-quite-strict/
 interface_sidebarlayout:
     - default
 categories:

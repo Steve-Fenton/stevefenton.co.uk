@@ -1,12 +1,10 @@
 ---
-id: 52
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Connect TFS Cruiser to Visual Studio Team Services'
 pubDate: 2015-05-11T23:55:49+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=52'
-permalink: /2015/05/connect-tfs-cruiser-to-visual-studio-online/
 
 categories:
     - Automation

@@ -1,12 +1,10 @@
 ---
-id: 272
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Visual Studio 2013 crashes when dragging items onto layer diagrams'
 pubDate: 2014-10-10T20:41:59+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=272'
-permalink: /2014/10/visual-studio-2013-crashes-when-dragging-items-onto-layer-diagrams/
 interface_sidebarlayout:
     - default
 categories:

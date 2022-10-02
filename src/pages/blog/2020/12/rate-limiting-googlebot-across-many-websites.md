@@ -1,12 +1,10 @@
 ---
-id: 11211
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Rate-limiting Googlebot across many websites'
 pubDate: 2020-12-31T06:00:32+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11211'
-permalink: /2020/12/rate-limiting-googlebot-across-many-websites/
 categories:
     - Programming
 tags:

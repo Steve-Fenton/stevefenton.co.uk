@@ -1,12 +1,10 @@
 ---
-id: 1344
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'An update on TypeScript circular dependencies'
 pubDate: 2015-08-05T07:30:39+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1344'
-permalink: /2015/08/an-update-on-typescript-circular-dependencies/
 categories:
     - Programming
 tags:

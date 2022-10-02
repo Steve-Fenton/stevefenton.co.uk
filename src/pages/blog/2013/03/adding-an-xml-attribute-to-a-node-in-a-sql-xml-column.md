@@ -1,12 +1,11 @@
 ---
-id: 633
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Adding an XML attribute to a node in a SQL XML column'
 pubDate: 2013-03-08T15:43:31+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=633'
-permalink: /2013/03/adding-an-xml-attribute-to-a-node-in-a-sql-xml-column/
 interface_sidebarlayout:
     - default
 categories:

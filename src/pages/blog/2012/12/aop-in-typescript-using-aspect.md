@@ -1,12 +1,11 @@
 ---
-id: 685
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'AOP in TypeScript using Aspect'
 pubDate: 2012-12-01T22:41:47+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=685'
-permalink: /2012/12/aop-in-typescript-using-aspect/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 6949
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Advertising experiment: What are annoying adverts worth'
 pubDate: 2020-01-08T16:47:22+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6949'
-permalink: /2020/01/advertising-experiment-what-are-annoying-adverts-worth/
 categories:
     - Opinion
 tags:

@@ -1,12 +1,10 @@
 ---
-id: 6533
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Using .NET Core Identity without the standard pages'
 pubDate: 2019-09-27T16:05:13+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=6533'
-permalink: /2019/09/using-net-core-identity-without-the-standard-pages/
 categories:
     - Programming
 tags:

@@ -1,12 +1,11 @@
 ---
-id: 744
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Response to pie chart comment'
 pubDate: 2012-09-06T00:08:56+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=744'
-permalink: /2012/09/response-to-pie-chart-comment/
 interface_sidebarlayout:
     - default
 categories:

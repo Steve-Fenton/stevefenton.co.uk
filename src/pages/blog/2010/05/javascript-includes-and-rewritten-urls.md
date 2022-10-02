@@ -1,12 +1,11 @@
 ---
-id: 1039
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'JavaScript Includes and Rewritten URLs'
 pubDate: 2010-05-19T21:34:29+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1039'
-permalink: /2010/05/javascript-includes-and-rewritten-urls/
 interface_sidebarlayout:
     - default
 categories:

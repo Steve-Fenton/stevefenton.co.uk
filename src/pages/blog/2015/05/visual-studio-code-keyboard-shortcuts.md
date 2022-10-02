@@ -1,12 +1,10 @@
 ---
-id: 60
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Visual Studio Code keyboard shortcuts'
 pubDate: 2015-05-03T00:08:00+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=60'
-permalink: /2015/05/visual-studio-code-keyboard-shortcuts/
 
 categories:
     - 'Visual Studio'

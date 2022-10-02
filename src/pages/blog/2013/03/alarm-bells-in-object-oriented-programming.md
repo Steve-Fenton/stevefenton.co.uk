@@ -1,12 +1,11 @@
 ---
-id: 635
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Alarm bells in object oriented programming'
 pubDate: 2013-03-06T15:46:29+00:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=635'
-permalink: /2013/03/alarm-bells-in-object-oriented-programming/
 interface_sidebarlayout:
     - default
 categories:

@@ -1,12 +1,10 @@
 ---
-id: 1539
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Custom output from TypeSpec'
 pubDate: 2015-12-08T06:00:56+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1539'
-permalink: /2015/12/custom-output-from-typespec/
 categories:
     - Automation
     - Programming

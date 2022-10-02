@@ -1,12 +1,10 @@
 ---
-id: 2081
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Election 2017 boundaries'
 pubDate: 2017-06-10T19:48:01+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2081'
-permalink: /2017/06/election-2017-boundaries/
 categories:
     - Opinion
 tags:

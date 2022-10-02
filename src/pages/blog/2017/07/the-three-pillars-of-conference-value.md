@@ -1,12 +1,10 @@
 ---
-id: 2121
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The Three Pillars of conference value'
 pubDate: 2017-07-25T06:00:14+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=2121'
-permalink: /2017/07/the-three-pillars-of-conference-value/
 categories:
     - Opinion
 tags:

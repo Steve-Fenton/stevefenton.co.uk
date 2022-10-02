@@ -1,12 +1,10 @@
 ---
-id: 12726
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'How to tidy your Windows 11 Taskbar'
 pubDate: 2022-02-16T19:00:19+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12726'
-permalink: /2022/02/how-to-tidy-your-windows-11-taskbar/
 image: /wp-content/uploads/2022/02/example-taskbar-sketch.jpg
 categories:
     - Windows

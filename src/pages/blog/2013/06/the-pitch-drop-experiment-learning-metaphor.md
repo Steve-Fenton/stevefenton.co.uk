@@ -1,12 +1,11 @@
 ---
-id: 564
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'The pitch drop experiment learning metaphor'
 pubDate: 2013-06-17T12:05:53+01:00
 author:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=564'
-permalink: /2013/06/the-pitch-drop-experiment-learning-metaphor/
 interface_sidebarlayout:
     - default
 categories:

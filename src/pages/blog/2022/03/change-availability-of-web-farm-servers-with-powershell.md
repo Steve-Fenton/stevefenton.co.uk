@@ -1,12 +1,10 @@
 ---
-id: 12796
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Change availability of web farm servers with PowerShell'
 pubDate: 2022-03-02T20:20:08+00:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12796'
-permalink: /2022/03/change-availability-of-web-farm-servers-with-powershell/
 categories:
     - Programming
 tags:

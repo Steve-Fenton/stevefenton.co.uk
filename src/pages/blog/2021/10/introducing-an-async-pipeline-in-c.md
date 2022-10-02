@@ -1,12 +1,10 @@
 ---
-id: 12187
 layout: src/layouts/Default.astro
+navMenu: false
 title: 'Introducing an async pipeline in C#'
 pubDate: 2021-10-25T16:45:09+01:00
 author:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=12187'
-permalink: /2021/10/introducing-an-async-pipeline-in-c/
 categories:
     - Programming
 tags:
