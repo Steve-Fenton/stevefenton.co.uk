@@ -37,15 +37,21 @@ export const OPEN_GRAPH = {
 
 export const HEADER_SCRIPTS = `
 <meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3C5CMFDKJ"></script>
 <script>
+function add_ga(id) {
+  var script = document.createElement('script');
+  script.setAttribute('async', 'async');
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+  document.getElementsByTagName('head')[0].appendChild(script);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-Q3C5CMFDKJ', { 'anonymize_ip': true });
+  gtag('config', id, { 'anonymize_ip': true });
   gtag('set', 'allow_ad_personalization_signals', false);
+}
+if (document.location.hostname === 'www.stevefenton.co.uk') {
+  add_ga('G-Q3C5CMFDKJ')
+}
 </script>
 `.trim();
 
