@@ -7,7 +7,11 @@ keywords:
 description: 
 ---
 
-<div class="four-images">![TypeScript Succinctly](/img/2019/07/TypeScript-Succinctly.jpg)![The Odford English Dictionary](/img/2019/07/odford.jpg)![The Mag: The Early Years](/img/2019/07/6x9_Front_EN.jpg)![The Reason Your Website Sucks](/img/2019/07/the-reason-your-website-sucks.png)</div>### TypeScript Succinctly
+<div class="four-images">
+
+![TypeScript Succinctly](/img/2019/07/TypeScript-Succinctly.jpg)![The Odford English Dictionary](/img/2019/07/odford.jpg)![The Mag: The Early Years](/img/2019/07/6x9_Front_EN.jpg)![The Reason Your Website Sucks](/img/2019/07/the-reason-your-website-sucks.png)</div>
+
+### TypeScript Succinctly
 
 > “…it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast” – [Ryan O’Neill](http://ryanoneill.com/typescript-succintly/)
 

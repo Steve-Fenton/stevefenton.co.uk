@@ -23,7 +23,9 @@ This post started as a scratch pad as I was looking at helping a colleague imple
 ```
 Here’s the output (in case of future browser changes… we see the JPG image below).
 
-<picture><source height="500" src="/img/2021/11/webp.webp" type="image/webp" width="500"><source height="500" src="/img/2021/11/png.png" type="image/png" width="500">![lorem ipsum](/img/2021/11/jpg.jpg)</source></source></picture>This turns out to be a pretty simple issue with the `src` attribute being the wrong one for this case (it’s valid for audio and video use cases). On the `source` element, we should be using `srcset` instead. Like this…
+<picture><source height="500" src="/img/2021/11/webp.webp" type="image/webp" width="500"><source height="500" src="/img/2021/11/png.png" type="image/png" width="500">
+
+![lorem ipsum](/img/2021/11/jpg.jpg)</source></source></picture>This turns out to be a pretty simple issue with the `src` attribute being the wrong one for this case (it’s valid for audio and video use cases). On the `source` element, we should be using `srcset` instead. Like this…
 
 ```
 <pre class="prettyprint lang-html">
@@ -35,4 +37,6 @@ Here’s the output (in case of future browser changes… we see the JPG image b
 ```
 Here’s the output (in case of future browser changes… we see the WEBP image below).
 
-<picture><source height="500" srcset="/img/2021/11/webp.webp" type="image/webp" width="500"><source height="500" srcset="/img/2021/11/png.png" type="image/png" width="500">![lorem ipsum](/img/2021/11/jpg.jpg)</source></source></picture>Now we see a WEBP where it is supported, or a PNG for slightly older browsers, or a JPG for very old browsers.
+<picture><source height="500" srcset="/img/2021/11/webp.webp" type="image/webp" width="500"><source height="500" srcset="/img/2021/11/png.png" type="image/png" width="500">
+
+![lorem ipsum](/img/2021/11/jpg.jpg)</source></source></picture>Now we see a WEBP where it is supported, or a PNG for slightly older browsers, or a JPG for very old browsers.

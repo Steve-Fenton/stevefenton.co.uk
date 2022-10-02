@@ -20,7 +20,9 @@ This was the first time I needed to create an end-to-end process with GitHub Act
 
 That gives me the following set-up for the application.
 
-<dl><dt>IDE</dt><dd>Visual Studio</dd><dt>Source Control</dt><dd>GitHub</dd><dt>Builds</dt><dd>GitHub Actions</dd><dt>Deployments</dt><dd>Octopus Deploy</dd><dt>Hosting</dt><dd>Azure</dd></dl>### GitHub Actions – simple .NET build and test
+<dl><dt>IDE</dt><dd>Visual Studio</dd><dt>Source Control</dt><dd>GitHub</dd><dt>Builds</dt><dd>GitHub Actions</dd><dt>Deployments</dt><dd>Octopus Deploy</dd><dt>Hosting</dt><dd>Azure</dd></dl>
+
+### GitHub Actions – simple .NET build and test
 
 GitHub actions run based on a file you place in a folder named `.github/workflows`. The files use YAML, but don’t on it. This is one use case where YAML is quite a good solution as most other data formats would put you in quote-escaping hell.
 

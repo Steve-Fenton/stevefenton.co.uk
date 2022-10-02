@@ -10,37 +10,69 @@ id: 105
 
 <style scoped="">
 article { clear: both; }
-</style><article>![Pro TypeScript Second Edition](/img/2015/07/pro-typescript-second-edition.png)#### Pro TypeScript
+</style><article>
+
+![Pro TypeScript Second Edition](/img/2015/07/pro-typescript-second-edition.png)
+
+#### Pro TypeScript
 
 Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler.
 
 [Find out more about Pro TypeScript](https://www.stevefenton.co.uk/publications/pro-typescript/).
 
-</article><article>![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)#### Web Operations Dashboards, Monitoring, and Alerting
+</article>
+
+<article>
+
+![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)
+
+#### Web Operations Dashboards, Monitoring, and Alerting
 
 A rapid introduction to the important metrics, charts, and monitoring concepts needed to kick start your web operations journey.
 
 [Find out more about Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/).
 
-</article><article>![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)#### Exploring Octopus Deploy
+</article>
+
+<article>
+
+![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)
+
+#### Exploring Octopus Deploy
 
 An introduction to Octopus Deploy that shows you how to package, publish, and deploy your applications.
 
 [Read more about Exploring Octopus Deploy](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/).
 
-</article><article>![The Humans Are Dead](/img/2015/07/the-humans-are-dead.jpg)#### The Humans are Dead
+</article>
+
+<article>
+
+![The Humans Are Dead](/img/2015/07/the-humans-are-dead.jpg)
+
+#### The Humans are Dead
 
 A short collection of thoughts on automation and, in particular, test automation. An Amazon Top 25 title.
 
 [Find out more about The Humans are Dead](https://www.stevefenton.co.uk/publications/the-humans-are-dead/).
 
-</article><article>![Cranked](/img/2015/07/cranked-book.jpg)#### Cranked
+</article>
+
+<article>
+
+![Cranked](/img/2015/07/cranked-book.jpg)
+
+#### Cranked
 
 An overview of how our team created a process that enabled us to write software with zero defects.
 
 [Read more about Cranked](https://www.stevefenton.co.uk/publications/cranked/).
 
-</article><article>### Notes on Publications
+</article>
+
+<article>
+
+### Notes on Publications
 
 If you are looking for fiction, my [Gothic tales can be found on my author website](https://smfenton.uk/).
 
