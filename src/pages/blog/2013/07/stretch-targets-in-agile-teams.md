@@ -18,7 +18,7 @@ tags:
 
 So you have a team with a velocity of 85 points per Sprint and you decide they could do more. So you set them a stretch target of 100 points for the next Sprint. What happens next?
 
-Because you [get what you measure](https://www.stevefenton.co.uk/2013/07/You-Get-What-You-Measure/), you might get 100 points. This is the worst possible thing that could happen.
+Because you [get what you measure](/2013/07/You-Get-What-You-Measure/), you might get 100 points. This is the worst possible thing that could happen.
 
 Because your focus is on the number of points, what short-cuts will be made to meet the stretch target? Maybe people stop pair-programming so the team can work on more things concurrently. Maybe people will skip writing tests. Maybe they’ll fix up a feature and then skip refactoring things to make it easier to maintain. This will lead to more bugs and problems maintaining the pace indefinitely, so you’ll get your 100 points now, but you’ll get stung later.
 

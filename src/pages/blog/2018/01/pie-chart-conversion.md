@@ -24,7 +24,7 @@ Normally, you’d head to the value labels, or an associated table in order to g
 
 ![ShipChain ICO Pie Chart](/img/2018/01/pie-shipchain-ico.jpg)
 
-To find out what I wanted to know – the comparative desire to invest in these different options – I needed to work out the values. For this reason, [I wrote a utility in TypeScript to analyse the image and divide it between the different colour segments](https://www.stevefenton.co.uk/2018/01/typescript-pixel-counter/).
+To find out what I wanted to know – the comparative desire to invest in these different options – I needed to work out the values. For this reason, [I wrote a utility in TypeScript to analyse the image and divide it between the different colour segments](/2018/01/typescript-pixel-counter/).
 
 Here is the result…
 

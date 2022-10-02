@@ -13,7 +13,7 @@ tags:
 
 I needed to get a history of completed pull requests from Azure DevOps and the simplest way to do this was to call the Azure DevOps REST API from a PowerShell script. The examples below assume you have already created a Personal Access Token, which you can get from the User Settings menu in Azure DevOps.
 
-[![Obtain a Personal Access Token from the User Settings / Personal access tokens menu](/img/2021/11/personal-access-token.jpg)](https://www.stevefenton.co.uk/2021/11/query-pull-request-history-in-azure-devops-with-powershell-and-the-rest-api/personal-access-token/)
+[![Obtain a Personal Access Token from the User Settings / Personal access tokens menu](/img/2021/11/personal-access-token.jpg)](/2021/11/query-pull-request-history-in-azure-devops-with-powershell-and-the-rest-api/personal-access-token/)
 
 ### Get your repository ID
 

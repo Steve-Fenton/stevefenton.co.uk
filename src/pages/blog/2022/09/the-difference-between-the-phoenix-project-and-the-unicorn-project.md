@@ -15,7 +15,7 @@ This is a short post to explain the difference between The Phoenix Project and T
 
 ### The Phoenix Project
 
-[![The Phoenix Project](/img/2022/09/phoenix.jpg)](https://www.stevefenton.co.uk/2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/phoenix/)
+[![The Phoenix Project](/img/2022/09/phoenix.jpg)](/2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/phoenix/)
 
 Written by Gene Kim, Kevin Behr, and George Spafford, The Phoenix Project is a business novel following Bill, IT Manager for Parts Unlimited. The project is critical to the survival of the company, but it’s a mess.
 
@@ -23,7 +23,7 @@ Bill, assisted by a mysterious mentor (a nod to Goldratt’s *Jonah*), must lear
 
 ### The Unicorn Project
 
-[![The Unicorn Project](/img/2022/09/unicorn.jpg)](https://www.stevefenton.co.uk/2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/unicorn/)
+[![The Unicorn Project](/img/2022/09/unicorn.jpg)](/2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project/unicorn/)
 
 Written by Gene Kim, The Unicorn Project takes us back to Parts Unlimited on *the same timeline* as the original Phoenix Project. This time, we see things play out from the perspective of the team trying to deliver the software.
 

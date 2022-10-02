@@ -17,7 +17,7 @@ tags:
 
 I haven’t mentioned pie charts for a while, but Lloyds Bank have plastered this advert everywhere with their CD-shaped pie chart (also known as Leggera Charts). It is worth pointing out how rubbish it is.
 
-Even if it wasn’t [a true fact that pie charts are never the right chart to display your data](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/), they haven’t even followed [the rules that make pie charts readable](https://www.stevefenton.co.uk/2011/10/A-Great-Example-Of-A-Terrible-Pie-Chart/).
+Even if it wasn’t [a true fact that pie charts are never the right chart to display your data](/2009/04/pie-charts-are-bad/), they haven’t even followed [the rules that make pie charts readable](/2011/10/A-Great-Example-Of-A-Terrible-Pie-Chart/).
 
 ![Lloyds Leggera Chart](/img/2015/07/lloyds-cd-chart1.jpg)
 

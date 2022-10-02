@@ -15,11 +15,11 @@ tags:
     - html
 ---
 
-Revised, July 2014 – Please [see my update on dropping the HTML5 shim](https://www.stevefenton.co.uk/2014/01/Goodbye-Old-Browsers/).
+Revised, July 2014 – Please [see my update on dropping the HTML5 shim](/2014/01/Goodbye-Old-Browsers/).
 
 Having managed to get the HTML5 website working in all the popular browsers, I ran a test on a larger number of browsers and operating systems with the following result: If you are running the latest version of any major browser – it almost certainly works.It even works on my mobile phone, which is running an old version of Windows mobile.
 
-If you are using a different browser to those listed below, [please get in touch](https://www.stevefenton.co.uk/contact/) to tell me how things look. I will be experimenting with the fixes to see if more browser coverage can be achieved.
+If you are using a different browser to those listed below, [please get in touch](/contact/) to tell me how things look. I will be experimenting with the fixes to see if more browser coverage can be achieved.
 
 More detail on the results can be found below.
 

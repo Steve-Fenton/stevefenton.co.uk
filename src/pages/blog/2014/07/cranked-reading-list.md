@@ -21,4 +21,4 @@ If you have read our book on Cranked and want to read further on the specific to
 
 The reading list works from the centre outwards, and you can work out along each node to find out more about the particular subject you are most interest in. The first-tier of books can form a recommended reading list for your team.
 
-[![Cranked - Reading List](/img/2021/07/reading-list.png)](https://www.stevefenton.co.uk/2014/07/cranked-reading-list/reading-list/)
+[![Cranked - Reading List](/img/2021/07/reading-list.png)](/2014/07/cranked-reading-list/reading-list/)

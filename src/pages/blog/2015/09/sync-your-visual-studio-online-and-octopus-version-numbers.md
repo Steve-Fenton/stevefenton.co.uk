@@ -11,7 +11,7 @@ tags:
     - octopus
 ---
 
-I am using a [batch file to update the version number in an AssemblyInfo file](https://www.stevefenton.co.uk/2012/11/automatically-updating-your-assemblyinfo-with-a-batch-file/) based on the Visual Studio Online build number. It overwrites a file named GloabalAssemblyInfo.cs that is linked to all of the projects in the set. This means the version automatically updates each time the software is built, and it means the components that are built together have the same version number.
+I am using a [batch file to update the version number in an AssemblyInfo file](/2012/11/automatically-updating-your-assemblyinfo-with-a-batch-file/) based on the Visual Studio Online build number. It overwrites a file named GloabalAssemblyInfo.cs that is linked to all of the projects in the set. This means the version automatically updates each time the software is built, and it means the components that are built together have the same version number.
 
 Once the packages are built, the packages are uploaded to the Octopus Deploy library, which kicks off a release that is automatically deployed to the Edge Environment. By default, a release will get a version number assigned by Octopus.
 

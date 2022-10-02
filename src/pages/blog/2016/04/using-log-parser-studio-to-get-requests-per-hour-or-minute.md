@@ -34,7 +34,7 @@ ORDER BY M
 ```
 ### Web Log Importer
 
-If you are using [Web Log Importer](https://www.stevefenton.co.uk/tag/web-log-importer/), you can get the same information using the following query (the function will move dates to the nearest minute, the last argument is how many minutes – so in this case every “1” minute):
+If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query (the function will move dates to the nearest minute, the last argument is how many minutes – so in this case every “1” minute):
 
 ```
 <pre class="prettyprint lang-sql">

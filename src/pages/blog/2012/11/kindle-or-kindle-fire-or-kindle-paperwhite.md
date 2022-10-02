@@ -12,7 +12,7 @@ categories:
     - Opinion
 ---
 
-After reading my article about [Kindle vs Kobo](https://www.stevefenton.co.uk/2012/02/Kobo-Vs-Kindle-Comparison-The-Ebook-Reader-Showdown/), a lot of people have been asking me whether to get a Kindle, Kindle Fire or Kindle Paperwhite. Rather than respond to everyone individually, I thought I’d put my opinions down in a follow up article. This article assumes that you’ve decided to buy a Kindle and compares what you get from each of the current models.
+After reading my article about [Kindle vs Kobo](/2012/02/Kobo-Vs-Kindle-Comparison-The-Ebook-Reader-Showdown/), a lot of people have been asking me whether to get a Kindle, Kindle Fire or Kindle Paperwhite. Rather than respond to everyone individually, I thought I’d put my opinions down in a follow up article. This article assumes that you’ve decided to buy a Kindle and compares what you get from each of the current models.
 
 ### Kindle Fire HD
 

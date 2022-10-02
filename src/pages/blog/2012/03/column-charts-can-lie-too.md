@@ -15,7 +15,7 @@ tags:
     - visualisation
 ---
 
-My [views on pie charts](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/) are well known, but that isn’t to say that all other charts are good. The problem with pie charts is that they make it hard to understand information, but with many other charts, the problem is how people use sneaky tricks to deceive you.
+My [views on pie charts](/2009/04/pie-charts-are-bad/) are well known, but that isn’t to say that all other charts are good. The problem with pie charts is that they make it hard to understand information, but with many other charts, the problem is how people use sneaky tricks to deceive you.
 
 Whether it is a strange use of 3D perspective to distract your eye from a downturn in a stock price or a naughty use of a double-scaled axis to make things look more similar than they really are, the tricks are almost everywhere you look. It is strange really, because they are so prevalent you might think that they are perfectly acceptable.
 

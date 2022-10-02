@@ -50,4 +50,4 @@ The color input type is a complete transformation of the input field. Instead of
 ```
 ### Next Episode!
 
-My next episode will deal with [the various date inputs that are available in HTML5](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Date-Input-Elements/).
+My next episode will deal with [the various date inputs that are available in HTML5](/2011/05/HTML-5-Forms-Date-Input-Elements/).

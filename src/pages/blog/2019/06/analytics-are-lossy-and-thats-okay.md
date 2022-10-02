@@ -9,7 +9,7 @@ categories:
     - Analytics
 ---
 
-This is the latest in my flurry of articles on [analytics](https://www.stevefenton.co.uk/category/analytics/), which have all come from various questions and misconceptions about what analytics are, what they are for, and how they work. Today, I’m going to explain that analytics are lossy, what that means, and why it’s okay. Let’s define what we mean by “lossy”.
+This is the latest in my flurry of articles on [analytics](/category/analytics/), which have all come from various questions and misconceptions about what analytics are, what they are for, and how they work. Today, I’m going to explain that analytics are lossy, what that means, and why it’s okay. Let’s define what we mean by “lossy”.
 
 ### Lossy
 

@@ -11,7 +11,7 @@ tags:
     - typescript
 ---
 
-I [wrote about bit flags a while ago](https://www.stevefenton.co.uk/publications/pro-typescript/), demonstrating that you can use an enum in TypeScript along with “powers of two” to create flags:
+I [wrote about bit flags a while ago](/publications/pro-typescript/), demonstrating that you can use an enum in TypeScript along with “powers of two” to create flags:
 
 ```
 <pre class="prettyprint lang-typescript">export enum StepType {

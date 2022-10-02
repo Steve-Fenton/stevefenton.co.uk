@@ -22,23 +22,23 @@ Let’s add a logic app called “ServiceStartScheduler”.
 
 To trigger the logic app, add a Recurrence trigger. This can be a bit confusing as the only visible options when you start are “Interval” and “Frequency”. We want to trigger our task at a set time each week day, which we will get to shortly. For now, select an interval of 1 and a frequency of “Week”.
 
-[![Recurrence trigger with a 1 week frequency](/img/2020/07/azure-logic-app-step-001.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-001/)
+[![Recurrence trigger with a 1 week frequency](/img/2020/07/azure-logic-app-step-001.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-001/)
 
 To change this recurrence trigger to fire on specific days at a selected time, use the “Add new parameter” section to add the items “On these days”, “At these hours”, and “At these minutes”.
 
-[![Recurrence trigger with new parameters selected](/img/2020/07/azure-logic-app-step-002.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-002/)
+[![Recurrence trigger with new parameters selected](/img/2020/07/azure-logic-app-step-002.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-002/)
 
 You can now fill in the parameters to set your schedule. You can set it to run on certain days and, in our case, set a specific single time to trigger the action. It is possible to set the task to run multiple times on the selected days, but that’s probably overkill for what we’re doing here.
 
-[![A recurrence trigger for each weekday at 7 AM](/img/2020/07/azure-logic-app-step-003.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-003/)
+[![A recurrence trigger for each weekday at 7 AM](/img/2020/07/azure-logic-app-step-003.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-003/)
 
 Now it’s time to add a new step. Search for “Azure App Service” and select the “Start Web App” action.
 
-[![Start Azure App Service Action](/img/2020/07/azure-logic-app-step-004.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-004/)
+[![Start Azure App Service Action](/img/2020/07/azure-logic-app-step-004.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-004/)
 
 You might be prompted to sign in for the next step, once you’ve done that use the lists to select the specific App Service you want to start.
 
-[![Select the app service to start](/img/2020/07/azure-logic-app-step-005.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-005/)
+[![Select the app service to start](/img/2020/07/azure-logic-app-step-005.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-step-005/)
 
 Now save the logic app and you are done with the “Start Azure App Service” logic app.
 
@@ -58,11 +58,11 @@ Delete the “Start web app” step and replace it with a “Stop web app” ste
 
 You don’t have to wait a whole day to test your logic app. Open the “ServiceStopScheduler” and hit “Run” to trigger the task immediately.
 
-[![Run Logic App](/img/2020/07/azure-logic-app-testing.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-testing/)
+[![Run Logic App](/img/2020/07/azure-logic-app-testing.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-testing/)
 
 You can immediately confirm that the app has in fact stopped by visiting it.
 
-[![Stopped App](/img/2020/07/azure-logic-app-stopped.jpg)](https://www.stevefenton.co.uk/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-stopped/)
+[![Stopped App](/img/2020/07/azure-logic-app-stopped.jpg)](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/azure-logic-app-stopped/)
 
 You can now repeat the process to test the “ServiceStartScheduler”. The app should now be running.
 

@@ -50,7 +50,7 @@ This is all actually pointless and I recommend modules for everything.
 
 > What if I want to flatten everything into a single file – do I have to use internal modules for this?
 
-Nope. You can use tools to flatten your modules into a bundled file. These days, though, [maybe you shouldn’t be bundling your JavaScript](https://www.stevefenton.co.uk/2017/10/continuous-delivery-javascript-bundling/).
+Nope. You can use tools to flatten your modules into a bundled file. These days, though, [maybe you shouldn’t be bundling your JavaScript](/2017/10/continuous-delivery-javascript-bundling/).
 
 > Can I run my app everywhere if I use external modules?
 

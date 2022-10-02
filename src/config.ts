@@ -35,6 +35,20 @@ export const OPEN_GRAPH = {
 	}
 };
 
+export const HEADER_SCRIPTS = `
+<meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3C5CMFDKJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q3C5CMFDKJ', { 'anonymize_ip': true });
+  gtag('set', 'allow_ad_personalization_signals', false);
+</script>
+`.trim();
+
 type Mapped<T> = {
     [P in keyof T]?: any
 }

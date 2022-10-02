@@ -12,7 +12,7 @@ tags:
     - visualisation
 ---
 
-For those of you still keen on using [pie charts](https://www.stevefenton.co.uk/category/pie-charts/), let’s embrace those big blobs of colour and do something cool with them. We’re going to unpeel a bunch of them. So, what’s the use of unpeeling pie charts – and how do we do it?
+For those of you still keen on using [pie charts](/category/pie-charts/), let’s embrace those big blobs of colour and do something cool with them. We’re going to unpeel a bunch of them. So, what’s the use of unpeeling pie charts – and how do we do it?
 
 ### Before unpeeling
 

@@ -17,7 +17,7 @@ The full title of this article should really be “Increase Productivity by Quan
 > 
 > In contrast, those who perform complex tasks that require higher levels of artisanship believe quantification to be an imperfect measure of their on-the-job performance and are thus demotivated by such real-time scorekeeping. <cite>Deborah Lynn Blumburg – [Stanford Business](https://www.gsb.stanford.edu/insights/good-bad-measuring-worker-output-real-time)</cite>
 
-Please heed previous warnings on [gamification and funification](https://www.stevefenton.co.uk/2015/09/gamification-is-either-infantile-or-manipulative/).
+Please heed previous warnings on [gamification and funification](/2015/09/gamification-is-either-infantile-or-manipulative/).
 
 ### My view
 
@@ -31,6 +31,6 @@ Complex task. Writing an article. I open a blank text editor and start writing a
 
 Let’s drop them on a picture, with the measurement of “Words per Minute” in the middle, and its gravitational effect on the touch typing task and the article writing task…
 
-[![Measurement Complexity Creates a Gravitational Force](/img/2020/10/complexity-gravity.jpg)](https://www.stevefenton.co.uk/2020/10/increase-productivity-by-quantifying-simpler-tasks/complexity-gravity/)
+[![Measurement Complexity Creates a Gravitational Force](/img/2020/10/complexity-gravity.jpg)](/2020/10/increase-productivity-by-quantifying-simpler-tasks/complexity-gravity/)
 
 I suspect that it is, in theory, possible to reverse the gravitational pull by operating on the method of quantification (i.e. if I were to measure my article in a more refined manner). Over time as sophisticated measurement tools are made available, we might be able to push the quantification upwards and create a stronger pull that will work positively against more complex tasks. As my good friend Keith Drew also pointed out, we could operate to break up and simplify a task to bring it below the measurement line. In practice, though, it seems sensible to abandon the numbers game once a certain complexity threshold is reached.

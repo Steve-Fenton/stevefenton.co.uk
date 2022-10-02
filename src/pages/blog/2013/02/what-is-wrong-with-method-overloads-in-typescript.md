@@ -183,7 +183,7 @@ class Example {
   }
 }
 ```
-What we’ve done is change the class to depend on the `DataProvider` abstraction. If we add a new kind of data provider, like `MagneticTapeData`, we don’t need to change our method to be aware of the new type. This is key to reducing the echoes of change throughout an application (i.e. finding all of the `if` and `switch` statements that need to have the new type added as an additional logical branch – [see Alarm Bells in Object-Oriented Programming](https://www.stevefenton.co.uk/2013/03/alarm-bells-in-object-oriented-programming/)).
+What we’ve done is change the class to depend on the `DataProvider` abstraction. If we add a new kind of data provider, like `MagneticTapeData`, we don’t need to change our method to be aware of the new type. This is key to reducing the echoes of change throughout an application (i.e. finding all of the `if` and `switch` statements that need to have the new type added as an additional logical branch – [see Alarm Bells in Object-Oriented Programming](/2013/03/alarm-bells-in-object-oriented-programming/)).
 
 ### Never Use Overloads
 

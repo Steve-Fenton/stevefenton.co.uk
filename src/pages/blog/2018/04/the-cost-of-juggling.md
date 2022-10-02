@@ -20,7 +20,7 @@ On the 2nd of September 2017, in Middletown USA, Patrick Ponce achieved the worl
 
 I’m sure we all feel the same.
 
-Now, I can’t be sure about this (unless you’re reading Patrick, in which case please [get in touch](https://www.stevefenton.co.uk/contact/) to correct my numbers) – but I would estimate that Patrick could solve three Rubik’s Cubes, one after another, in about 15 seconds. Perhaps 20 seconds if he needed to check his watch and grab some popcorn.
+Now, I can’t be sure about this (unless you’re reading Patrick, in which case please [get in touch](/contact/) to correct my numbers) – but I would estimate that Patrick could solve three Rubik’s Cubes, one after another, in about 15 seconds. Perhaps 20 seconds if he needed to check his watch and grab some popcorn.
 
 ### Juggling
 
@@ -28,7 +28,7 @@ Now, I can’t be sure about this (unless you’re reading Patrick, in which cas
 
 But wait… it takes 00:05:06.000 to solve three annoying puzzle lumps while juggling, but (probably) only 00:00:20.000 to solve them if we don’t juggle them. Seriously, it takes 15 times longer to do something if you add juggling to the process. And remember, we’re counting a popcorn break in our 20 second time!
 
-I’d love to know how long it takes Que Jianyu to solve all three without juggling. [Message me!](https://www.stevefenton.co.uk/contact/)
+I’d love to know how long it takes Que Jianyu to solve all three without juggling. [Message me!](/contact/)
 
 ### Less juggling
 
@@ -52,7 +52,7 @@ We didn’t really need a table or a graph. What we needed was to simply acknowl
 
 ### Not just speed
 
-Let’s not forget that [there is more to life than flat out speed](https://www.stevefenton.co.uk/2017/06/faster-faster-faster/). If you review the video footage, you’ll see that the juggled version doesn’t result in a cube that is neatly aligned. The juggled version is messy. It took longer… and it’s not such a great outcome as it would have been if it was done one-at-a-time.
+Let’s not forget that [there is more to life than flat out speed](/2017/06/faster-faster-faster/). If you review the video footage, you’ll see that the juggled version doesn’t result in a cube that is neatly aligned. The juggled version is messy. It took longer… and it’s not such a great outcome as it would have been if it was done one-at-a-time.
 
 ![Que Jianyu](/img/2018/04/que-jianyu.png)
 

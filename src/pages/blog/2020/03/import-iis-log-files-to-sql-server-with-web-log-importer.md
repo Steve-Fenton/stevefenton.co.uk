@@ -16,7 +16,7 @@ tags:
     - 'web log importer'
 ---
 
-In the past I have used [Log Parser Studio](https://www.stevefenton.co.uk/tag/log-parser-studio/) to run SQL style queries against IIS logs, but it can take a fair bit of time to do this. Sometimes you just want to run a quick SQL query against the log data that IIS has collected. SQL Server is a super quick way of running queries to discover what is going on in your log files, but you need to import your IIS log files first to be able to take advantage of the speed and familiarity of your SQL queries.
+In the past I have used [Log Parser Studio](/tag/log-parser-studio/) to run SQL style queries against IIS logs, but it can take a fair bit of time to do this. Sometimes you just want to run a quick SQL query against the log data that IIS has collected. SQL Server is a super quick way of running queries to discover what is going on in your log files, but you need to import your IIS log files first to be able to take advantage of the speed and familiarity of your SQL queries.
 
 This calls for a quick .net Core Console App, which I’ve written and placed on GitHub, called [Web Log Importer](https://github.com/Steve-Fenton/WebLogImporter).
 
@@ -38,7 +38,7 @@ During a debug run, the memory and CPU used by the application is low/stable.
 
 ![Web Log Importer Diagnostics](/img/2020/03/web-log-importer.jpg)
 
-Because the data is created from scratch during the process, [SQL index fragmentation](https://www.stevefenton.co.uk/2018/05/sql-server-index-fragmentation/) will always be zero.
+Because the data is created from scratch during the process, [SQL index fragmentation](/2018/05/sql-server-index-fragmentation/) will always be zero.
 
 ```
 DatabaseName    TableName           IndexName    IndexType          AverageFragmentationPercent

@@ -23,7 +23,7 @@ Now this is actually a very pretty little chart showing the distribution of CSS 
 
 ### Typical Pie Chart Errors
 
-As we all know by now, if you are going to use a pie chart ([and you probably shouldn’t](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/)) it is easier to judge the size of a segment if it begins and ends on the four compass points on the circle. In this case, the chart manages to miss all four, not even opting to start at 12 o’clock.
+As we all know by now, if you are going to use a pie chart ([and you probably shouldn’t](/2009/04/pie-charts-are-bad/)) it is easier to judge the size of a segment if it begins and ends on the four compass points on the circle. In this case, the chart manages to miss all four, not even opting to start at 12 o’clock.
 
 The other convention you can use to make a pie chart easier to interpret is to order the segments and labels from highest to lowest. You can test this for yourself by reading out loud the first and second place items on this chart. Another test of this chart is to see how it answers the question – which CSS preprocessor is the most popular?
 

@@ -14,7 +14,7 @@ tags:
     - conway
 ---
 
-Following on from my article on [Mescoservices](https://www.stevefenton.co.uk/2015/05/Mescoservice-Architecture/) back in 2015, this article expands on an idea I had last month on how monoliths, mescoservices, and microservices fit into organisation design. The microservices vs Conway test encodes a common piece of advice into a first-draft formula for testing your architecture against your organisation.
+Following on from my article on [Mescoservices](/2015/05/Mescoservice-Architecture/) back in 2015, this article expands on an idea I had last month on how monoliths, mescoservices, and microservices fit into organisation design. The microservices vs Conway test encodes a common piece of advice into a first-draft formula for testing your architecture against your organisation.
 
 ### Microservice advice
 

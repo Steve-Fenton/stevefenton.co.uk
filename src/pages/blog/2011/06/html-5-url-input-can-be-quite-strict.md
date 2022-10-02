@@ -14,7 +14,7 @@ tags:
     - html
 ---
 
-Following on from my [articles on HTML5 Forms](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Summary/), I have been busy trying things out in various browsers, old and new.
+Following on from my [articles on HTML5 Forms](/2011/05/HTML-5-Forms-Summary/), I have been busy trying things out in various browsers, old and new.
 
 I have noticed that the input of type “url” in HTML5 is being validated pretty strictly by some browsers.
 

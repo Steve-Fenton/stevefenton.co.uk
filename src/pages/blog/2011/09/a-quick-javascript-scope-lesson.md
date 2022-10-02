@@ -52,4 +52,4 @@ So if you want to have a “private” variable for your object that can only be
 
 ### Lesson 3 – Block Scope
 
-Check out a new feature in JavaScript that didn’t exist at the time of writing… [JavaScript block scope](https://www.stevefenton.co.uk/2014/03/let-there-be-block-scope/)!
+Check out a new feature in JavaScript that didn’t exist at the time of writing… [JavaScript block scope](/2014/03/let-there-be-block-scope/)!

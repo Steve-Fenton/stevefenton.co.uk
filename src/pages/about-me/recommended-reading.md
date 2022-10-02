@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-As of July 2020, I have re-aligned my reading list to [The Software Punk Revolution](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/). We need a fundamental shift and we need it now. These books contain the seeds that will grow in healthy ways inside your head.
+As of July 2020, I have re-aligned my reading list to [The Software Punk Revolution](/2020/07/the-software-punk-revolution/). We need a fundamental shift and we need it now. These books contain the seeds that will grow in healthy ways inside your head.
 
 <article itemscope="" itemtype="http://schema.org/Book">
 

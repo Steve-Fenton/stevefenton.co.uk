@@ -17,7 +17,7 @@ tags:
 
 The phrase “performance is a feature” is not new. If you get it, leave now and go read something new. I am certain nothing I’m about to type is novel.
 
-So here is the thing. [Cranked](https://www.stevefenton.co.uk/publications/cranked/) was hugely influenced by [XP](https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0201616416), it had major differences too – but one of the biggest headlines was Kent Beck’s idea that:
+So here is the thing. [Cranked](/publications/cranked/) was hugely influenced by [XP](https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0201616416), it had major differences too – but one of the biggest headlines was Kent Beck’s idea that:
 
 > …business people make business decisions and technical people make technical decisions…
 

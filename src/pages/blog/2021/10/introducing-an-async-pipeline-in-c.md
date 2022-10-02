@@ -205,4 +205,4 @@ public class PipelineTests
 ```
 ### Feedback welcome
 
-This is a real-life example, so it’s not perfect. Real life never is, but we have Stoicism to help us with that. However, if something isn’t clear or you feel I’ve enraged you with something bad I’ve done, I’m happy to improve on this example. You can find current ways to get in touch on my [contact page](https://www.stevefenton.co.uk/contact/).
+This is a real-life example, so it’s not perfect. Real life never is, but we have Stoicism to help us with that. However, if something isn’t clear or you feel I’ve enraged you with something bad I’ve done, I’m happy to improve on this example. You can find current ways to get in touch on my [contact page](/contact/).

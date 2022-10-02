@@ -17,7 +17,7 @@ This might be a bit niche, but I needed to collect <abbr title="red, green, blue
 
 My set up is that I have Red, Green, and Blue in cells E, F, and G. I want to leave a gap and then fill cell I based on the input in those cells.
 
-[![Excel RGB Cells (Before)](/img/2020/12/excel-rgb-cells.jpg)](https://www.stevefenton.co.uk/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells/)
+[![Excel RGB Cells (Before)](/img/2020/12/excel-rgb-cells.jpg)](/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells/)
 
 So, we need to listen for changes to the worksheet with `Worksheet_Change`, grab the values from the three cells in the row that changed, and fill in the cell in the same row.
 
@@ -37,4 +37,4 @@ You need to specify the cell range containing the RGB colour value (in my case `
 
 The result is a preview of each value that updates automatically whenever you edit a value.
 
-[![Excel RGB Cells with Colour Preview in Background](/img/2020/12/excel-rgb-cells-preview-background-color.jpg)](https://www.stevefenton.co.uk/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells-preview-background-color/)
+[![Excel RGB Cells with Colour Preview in Background](/img/2020/12/excel-rgb-cells-preview-background-color.jpg)](/2020/12/change-an-excel-cells-colour-based-on-data/excel-rgb-cells-preview-background-color/)

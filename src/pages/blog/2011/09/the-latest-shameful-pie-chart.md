@@ -25,6 +25,6 @@ Go figure! Let’s start the calls for sensible charts, like line charts, column
 
 ### Further Reading
 
-- [Pie Charts Are Bad](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/)
-- [Continued Pie Chart Hatred](https://www.stevefenton.co.uk/2010/12/Continued-Pie-Chart-Hatred/)
-- [The Pie Chart So Bad I Had To Censor It](https://www.stevefenton.co.uk/2011/09/The-Pie-Chart-So-Bad-I-Had-To-Censor-It/)
+- [Pie Charts Are Bad](/2009/04/pie-charts-are-bad/)
+- [Continued Pie Chart Hatred](/2010/12/Continued-Pie-Chart-Hatred/)
+- [The Pie Chart So Bad I Had To Censor It](/2011/09/The-Pie-Chart-So-Bad-I-Had-To-Censor-It/)

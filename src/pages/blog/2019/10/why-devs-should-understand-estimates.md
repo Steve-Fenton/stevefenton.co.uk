@@ -18,7 +18,7 @@ Yes, this is a sub-post! A reaction to a post titled “Why Devs (Should) Like E
 
 > When you don’t understand *why* an estimate is needed, you won’t solve the problem – even with an estimate.
 
-There are two tools I use in respect of estimates: One is the [phase precision premise](https://www.stevefenton.co.uk/2019/03/the-phase-precision-premise/), which identifies some broad classifications that apply to software development that should affect your decision on whether to estimate. The second is [a simple decision flowchart for estimation / not estimating](https://www.stevefenton.co.uk/2015/09/noestimates-in-practice/), which helps you decide whether the underlying need can be solved in a different way. This post builds on this and offers a critique of the “Why Devs (Should) Like Estimates” article.
+There are two tools I use in respect of estimates: One is the [phase precision premise](/2019/03/the-phase-precision-premise/), which identifies some broad classifications that apply to software development that should affect your decision on whether to estimate. The second is [a simple decision flowchart for estimation / not estimating](/2015/09/noestimates-in-practice/), which helps you decide whether the underlying need can be solved in a different way. This post builds on this and offers a critique of the “Why Devs (Should) Like Estimates” article.
 
 ### Why now?
 
@@ -44,7 +44,7 @@ Having worked within an agency environment in the past, I feel we need to distin
 
 > as many of us have learned, while it is easy to give someone a number, it is much harder to give a number that is in any way accurate
 
-As Robert C. Martin often points out, it is trivial to give an accurate estimate. It is also trivial to give a precise estimate. The only time it becomes difficult is when both precision and accuracy are needed. Without getting into lots of detail about the [cone of uncertainty](https://www.stevefenton.co.uk/2017/11/alternate-visualisation-cone-uncertainty/), or individual estimation methods, I’ll simply state than an “accurate” estimate means one that turns out to be correct (for example, between one and one-million days). A “precise” estimate is one that has a narrow range (for example, between three and five days). The cone of uncertainty shows us how likely we are to achieve both precision and accuracy *on average* across a number of projects, based on the stage in the project lifecycle. It should be possible to transfer this thinking between projects, products, and features with minor adjustments.
+As Robert C. Martin often points out, it is trivial to give an accurate estimate. It is also trivial to give a precise estimate. The only time it becomes difficult is when both precision and accuracy are needed. Without getting into lots of detail about the [cone of uncertainty](/2017/11/alternate-visualisation-cone-uncertainty/), or individual estimation methods, I’ll simply state than an “accurate” estimate means one that turns out to be correct (for example, between one and one-million days). A “precise” estimate is one that has a narrow range (for example, between three and five days). The cone of uncertainty shows us how likely we are to achieve both precision and accuracy *on average* across a number of projects, based on the stage in the project lifecycle. It should be possible to transfer this thinking between projects, products, and features with minor adjustments.
 
 > an accurate estimate will enable you to deliver your work with a high level of quality in the least amount of time
 
@@ -52,7 +52,7 @@ An organisation must exhibit a form of dysfunction if the estimates impact quali
 
 > It will help you to avoid false starts and the pain of having to throw away code unnecessarily
 
-An estimate does not prevent false starts. If the planned solution doesn’t solve the underlying problem you will have a false start, even with an accurate and precise estimate. Learning-based cycles such as [DIBBs and DITE](https://www.stevefenton.co.uk/2019/09/the-dite-cycle-data-insight-theory-experiment/) are designed to help you avoid investing too much in a false start. Unless you have no feedback loop, you should only ever need to throw away code necessarily.
+An estimate does not prevent false starts. If the planned solution doesn’t solve the underlying problem you will have a false start, even with an accurate and precise estimate. Learning-based cycles such as [DIBBs and DITE](/2019/09/the-dite-cycle-data-insight-theory-experiment/) are designed to help you avoid investing too much in a false start. Unless you have no feedback loop, you should only ever need to throw away code necessarily.
 
 > It will help to minimize scope changes
 
@@ -88,4 +88,4 @@ Steve McConnell wrote the definitive guide to estimation in [Software Estimation
 
 ![Software Estimation Books](/img/2019/10/software-estimation-books.jpg)
 
-Remember, you don’t always have to estimate. The [Phase Precision Premise](https://www.stevefenton.co.uk/2019/03/the-phase-precision-premise/) and the [Estimation Decision Flowchart](https://www.stevefenton.co.uk/2015/09/noestimates-in-practice/) may lead you to alternatives. When you *do* need to estimate, Steve and Mike have got you covered.
+Remember, you don’t always have to estimate. The [Phase Precision Premise](/2019/03/the-phase-precision-premise/) and the [Estimation Decision Flowchart](/2015/09/noestimates-in-practice/) may lead you to alternatives. When you *do* need to estimate, Steve and Mike have got you covered.

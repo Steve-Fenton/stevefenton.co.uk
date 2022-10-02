@@ -21,7 +21,7 @@ This is a balancing post to follow on from work I have done in several teams on 
 What is dysfunctional estimation? There are a few different kinds, but good examples include:
 
 - Asking for an estimate without having a hypothesis about a factor that you hope will be impacted, and to what extent it may be impacted
-- Asking for estimates at a greater level of precision than the cone of uncertainty allows (see my [alternate visualisation of the cone of uncertainty](https://www.stevefenton.co.uk/2017/11/alternate-visualisation-cone-uncertainty/))
+- Asking for estimates at a greater level of precision than the cone of uncertainty allows (see my [alternate visualisation of the cone of uncertainty](/2017/11/alternate-visualisation-cone-uncertainty/))
 - Using an estimate intended for one purpose (broad-brush planning) for another purpose (writing a contact)
 - … and the classic, pressuring people to provide an optimistic estimate to use a stick to beat them with later
 

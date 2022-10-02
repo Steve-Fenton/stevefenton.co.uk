@@ -21,11 +21,11 @@ Touch Portal is a desktop app, and a mobile app, that chat to each other to let 
 
 Touch Portal is freemium, so you can use two screens for free, and pay a small amount (around £10-£15) to go Pro and use the app without limits.
 
-[![Touch Portal Desktop App](/img/2020/05/touch-portal.jpg)](https://www.stevefenton.co.uk/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal/)
+[![Touch Portal Desktop App](/img/2020/05/touch-portal.jpg)](/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal/)
 
-Adding buttons is pretty simple. You can visually compose logic and actions using an interface no unlike MIT’s Scratch to do a variety of tasks. One of the key simple tasks is keyboard shortcuts. I have a collection of shortcut buttons in pages for Microsoft Teams and for Microsoft Visual Studio. They let me do things like mute and unmute myself with a bit button, so I don’t have to remember all the handy [Microsoft Teams Shortcut Keys](https://www.stevefenton.co.uk/2020/03/microsoft-teams-what-microsoft-taught-me-this-week/). For Visual Studio I have a one-tap “Run Tests”, plus some common refactoring shortcuts.
+Adding buttons is pretty simple. You can visually compose logic and actions using an interface no unlike MIT’s Scratch to do a variety of tasks. One of the key simple tasks is keyboard shortcuts. I have a collection of shortcut buttons in pages for Microsoft Teams and for Microsoft Visual Studio. They let me do things like mute and unmute myself with a bit button, so I don’t have to remember all the handy [Microsoft Teams Shortcut Keys](/2020/03/microsoft-teams-what-microsoft-taught-me-this-week/). For Visual Studio I have a one-tap “Run Tests”, plus some common refactoring shortcuts.
 
-[![Touch Portal Mobile App](/img/2020/05/touch-portal-mobile-app.jpg)](https://www.stevefenton.co.uk/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal-mobile-app/)
+[![Touch Portal Mobile App](/img/2020/05/touch-portal-mobile-app.jpg)](/2020/05/turn-an-old-phone-into-a-programmable-keyboard/touch-portal-mobile-app/)
 
 ### Running batch files or PowerShell
 

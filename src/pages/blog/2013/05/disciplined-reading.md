@@ -13,7 +13,7 @@ categories:
     - Psychology
 ---
 
-I have been reading books for quite a while and keep a record of everything I read (on Goodreads) along with a note on [books I highly recommend](https://www.stevefenton.co.uk/publications/recommended-reading/) to someone doing a similar role. I do this because I know that the biggest leaps I have made in terms of changing my mindset and increasing my skills has come from disciplined reading.
+I have been reading books for quite a while and keep a record of everything I read (on Goodreads) along with a note on [books I highly recommend](/publications/recommended-reading/) to someone doing a similar role. I do this because I know that the biggest leaps I have made in terms of changing my mindset and increasing my skills has come from disciplined reading.
 
 I use the term “disciplined reading” because I find it reasonably hard to read. There are always other things to do. In order to read a whole book (and actually absorb what it says) I need to set aside regular time to dedicate to it. I then need to protect the time from all of the other things that would happily occupy it.
 

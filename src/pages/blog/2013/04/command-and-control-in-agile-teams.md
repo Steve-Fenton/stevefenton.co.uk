@@ -17,7 +17,7 @@ categories:
 
 Although Agile can start anywhere in an organisation, very often it starts somewhere near programmers. Very often it will be a programmer who has had prior exposure to Agile or a development team who introduces the process or framework.
 
-There is a hidden danger in this that is often overlooked. As a programmer, I find the concept of [self-organising teams](https://www.stevefenton.co.uk/2012/07/What-Are-Self-Organising-Teams/) fundamentally important. I have worked for enough companies where programmers controlled by a hierarchy who had no idea about how to deliver working software to know that if you want programming work done, you let the programmers work out how to do it. Of course, this requires the appropriate context to be set – everyone needs to know what is required in order to help achieve it.
+There is a hidden danger in this that is often overlooked. As a programmer, I find the concept of [self-organising teams](/2012/07/What-Are-Self-Organising-Teams/) fundamentally important. I have worked for enough companies where programmers controlled by a hierarchy who had no idea about how to deliver working software to know that if you want programming work done, you let the programmers work out how to do it. Of course, this requires the appropriate context to be set – everyone needs to know what is required in order to help achieve it.
 
 So the first stage of an Agile introduction is typically a small self-organising unit that doesn’t represent all of the roles required to deliver the software. Over time, the other roles are brought into the process, so that everything can be “done-done” within the Agile team.
 

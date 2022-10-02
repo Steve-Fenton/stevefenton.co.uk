@@ -8,9 +8,7 @@ keywords:
 description: 
 ---
 
-Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/?swcfpc=1) and writer. You can find out [more about Steve Fenton here](/about-me/).
-
-## A note from Steve
+Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/2020/07/the-software-punk-revolution/?swcfpc=1) and writer. You can find out [more about Steve Fenton here](/about-me/).
 
 The primary audience for the writing found herein is me. It’s super-easy to forget stuff if you don’t write it down, as I did the second time I had to fix a really tricky certificate problem in .NET.
 

@@ -16,7 +16,7 @@ tags:
     - estimates
 ---
 
-If you read my recent note on [Estimating With Time And Relative Sizes](https://www.stevefenton.co.uk/2013/05/Estimating-With-Time-And-Relative-Sizes/) you might be interested in this method of generating relative sizes.
+If you read my recent note on [Estimating With Time And Relative Sizes](/2013/05/Estimating-With-Time-And-Relative-Sizes/) you might be interested in this method of generating relative sizes.
 
 Firstly, some important ground rules. You want a group of people to generate a size simultaneously and you don’t want to let anyone say numbers out loud, or undermine another individuals thought process before the moment of sizing. Phrases like “seems pretty simple” or “can’t be that hard” or “clearly this is a 3, but what does everyone think?” are all totally unacceptable. Everyone should make their own mind up and nobody should ever be scared to give a radically different answer – what did they think of that nobody else did?
 

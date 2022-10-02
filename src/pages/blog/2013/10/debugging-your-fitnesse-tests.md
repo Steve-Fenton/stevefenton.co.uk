@@ -16,7 +16,7 @@ tags:
     - fitnesse
 ---
 
-I have been [using Fitnesse with FitSharp to run C# integration tests](https://www.stevefenton.co.uk/2013/10/Using-Fitnesse-For-Dot-Net/) and I can happily state that it took a long time for me to find a scenario where I needed to debug a Fitnesse test. When a test fails it is abundantly clear why so you don’t need to spark up a debugger to tell you the information.
+I have been [using Fitnesse with FitSharp to run C# integration tests](/2013/10/Using-Fitnesse-For-Dot-Net/) and I can happily state that it took a long time for me to find a scenario where I needed to debug a Fitnesse test. When a test fails it is abundantly clear why so you don’t need to spark up a debugger to tell you the information.
 
 However, I had an instance where it really looked like a collection should contain the value that was being checked and I wanted to see what was in the collection before it was tested.
 

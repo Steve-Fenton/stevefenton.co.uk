@@ -13,7 +13,7 @@ categories:
     - Process
 ---
 
-In [Cranked: a lean and agile software development method](https://www.stevefenton.co.uk/publications/cranked/), I wrote about an extended definition of *Yak Shaving* and thought I’d share some of the thinking behind it here.
+In [Cranked: a lean and agile software development method](/publications/cranked/), I wrote about an extended definition of *Yak Shaving* and thought I’d share some of the thinking behind it here.
 
 The original definition of Yak Shaving covered the common experience of finding yourself performing a task on tangentially related to an original purpose.
 

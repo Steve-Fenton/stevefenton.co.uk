@@ -14,7 +14,7 @@ tags:
     - typescript
 ---
 
-When I originally discovered that [TypeScript interfaces can extend classes](https://www.stevefenton.co.uk/2013/06/TypeScript-Interfaces-Can-Extend-Classes/), I thought it was novel – but lacking in real-world usages.
+When I originally discovered that [TypeScript interfaces can extend classes](/2013/06/TypeScript-Interfaces-Can-Extend-Classes/), I thought it was novel – but lacking in real-world usages.
 
 At the time, I had a solution with no problem, so for the sake of argument I tried to imagine what the problem might be. Perhaps you could point an interface at a third party class to ensure that your swappable implementation stayed in step with any changes to the original. Not a compelling reason to use this feature by any means.
 

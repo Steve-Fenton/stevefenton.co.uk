@@ -16,7 +16,7 @@ tags:
     - javascript
 ---
 
-I am officially ditching the [HTML5 shim for old browsers](https://www.stevefenton.co.uk/Content/Blog/Date/200907/Blog/HTML-5-Browser-Test/) and here is why.
+I am officially ditching the [HTML5 shim for old browsers](/Content/Blog/Date/200907/Blog/HTML-5-Browser-Test/) and here is why.
 
 I have dropped all stats from my website, so I won’t be able to tell when my “Internet Explorer 6” user base reaches zero. However, last time I checked it was just **0.**05500982318% of you. This is less than 100 people this week. Please upgrade to a newer version!
 

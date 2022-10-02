@@ -16,7 +16,7 @@ categories:
 
 ![Process Kata](/img/2015/07/process-kata-two.jpg)
 
-I wrote an article describing how [the team I work on used a kata to test out our new process](https://www.stevefenton.co.uk/2014/04/Process-Kata/). I got some interesting questions and comments, so I thought I’d respond in more detail in this follow up.
+I wrote an article describing how [the team I work on used a kata to test out our new process](/2014/04/Process-Kata/). I got some interesting questions and comments, so I thought I’d respond in more detail in this follow up.
 
 > This only works if the team has permission to discard any process treacle they find.
 

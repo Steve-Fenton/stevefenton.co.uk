@@ -96,4 +96,4 @@ Transaction Binding=Explicit Unbind;
 ```
 ### Summary
 
-Hopefully this article will help a few people who are getting unexpected results from their use of TransactionScope – please [contact me](https://www.stevefenton.co.uk/contact/) if you want to add anything!
+Hopefully this article will help a few people who are getting unexpected results from their use of TransactionScope – please [contact me](/contact/) if you want to add anything!

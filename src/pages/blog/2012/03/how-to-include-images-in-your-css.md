@@ -15,7 +15,7 @@ tags:
     - html
 ---
 
-When I created [Cruiser, a CruiseControl.NET Wall-board](https://www.stevefenton.co.uk/2012/02/cruiser-cruise-control-information-radiator/) I wanted to make it as easy as possible for people to use. I didn’t want to force people to download a zip archive and extract files into specific locations. I wanted people to be able to drop a single file onto their build server and get instant results.
+When I created [Cruiser, a CruiseControl.NET Wall-board](/2012/02/cruiser-cruise-control-information-radiator/) I wanted to make it as easy as possible for people to use. I didn’t want to force people to download a zip archive and extract files into specific locations. I wanted people to be able to drop a single file onto their build server and get instant results.
 
 Because you only need to load the page once, with all the updates happening via AJAX requests, I didn’t mind including all my JavaScript on the page, rather than within an include file. With most build servers running over a network and with the concept of a wall-board being that you switch it on and leave it running, I could live without the JavaScript being cached. In fact, the same was true for the CSS and for the images – but the question was how do you include your images in a single HTML file?
 
@@ -29,7 +29,7 @@ Here is a typical background-image declaration in CSS:
     background-image: url('/images/plus.png');
 }
 ```
-And sometimes, if the site is using [CSS image sprites](https://www.stevefenton.co.uk/2009/05/Google-Uses-Image-Sprites/), it will look like this:
+And sometimes, if the site is using [CSS image sprites](/2009/05/Google-Uses-Image-Sprites/), it will look like this:
 
 ```
 <pre class="prettyprint lang-css">

@@ -14,7 +14,7 @@ categories:
 
 Disclaimer: I’m not a lawyer… get legal advice if you need it.
 
-Back in January I penned a rather annoyed article about the [ridiculous EU cookie law](https://www.stevefenton.co.uk/2012/01/Stop-Passing-Laws-About-Things-You-Dont-Understand/), which required website owners to get permission before storing non-essential cookies. I also implemented the letter of law on my own website, albeit rather sarcastically by asking whether I was allowed to store a cookie and redirecting people to a search engine if they said no.
+Back in January I penned a rather annoyed article about the [ridiculous EU cookie law](/2012/01/Stop-Passing-Laws-About-Things-You-Dont-Understand/), which required website owners to get permission before storing non-essential cookies. I also implemented the letter of law on my own website, albeit rather sarcastically by asking whether I was allowed to store a cookie and redirecting people to a search engine if they said no.
 
 In the months building up to the official implementation date, more and more companies sprang up to offer consultancy on this law – further demonstrating how a rubbish piece of legislation can encourage an entire mini-industry of hangers on who want to either charge you to audit your website or supply you with scripts to run on your web pages.
 

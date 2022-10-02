@@ -27,4 +27,4 @@ Once you have the SPID, you probably want to know what query is executing, in or
 ```
 This is a step I often recommend people add to their troubleshooting process (rather than running a KILL against the SPID, which can be a little rash!)
 
-I also have a useful script for [filtering and sorting sp\_who2 queries](https://www.stevefenton.co.uk/2018/07/sql-server-filter-and-sort-records-from-sp_who2/).
+I also have a useful script for [filtering and sorting sp\_who2 queries](/2018/07/sql-server-filter-and-sort-records-from-sp_who2/).

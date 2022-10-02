@@ -17,7 +17,7 @@ tags:
     - ndepend
 ---
 
-I’ve talked a couple of times about NDepend recently, in the article [NDepend For Beginners](https://www.stevefenton.co.uk/2010/10/NDepend-For-Beginners/).
+I’ve talked a couple of times about NDepend recently, in the article [NDepend For Beginners](/2010/10/NDepend-For-Beginners/).
 
 NDpend is jammed full of code analysis tools, but sometimes you need a bit of a hint to tell you what is going on in the various matrix displays and graphs – well now NDepend is getting some improvements to help explain what is going on, with some contextual help.
 

@@ -22,4 +22,4 @@ Bad context includes statements like “*it must be web-based*“. You haven’t
 
 Don’t be the driver stood looking at your car telling the mechanic how to fix it. Trust them to find the fault and then call you to discuss the cost of fixing it. Yes – you decide whether it is even worth fixing and if it is, which of the cost options you are happy with.
 
-This is all about trusting people to do their job. Without this, no professional will tolerate the working environment. [Know your roles](https://www.stevefenton.co.uk/2013/07/Solve-Role-Confusion-With-Group-Role-Visualisation-Technique/) and trust the people to do it right and coach them when they make mistakes.
+This is all about trusting people to do their job. Without this, no professional will tolerate the working environment. [Know your roles](/2013/07/Solve-Role-Confusion-With-Group-Role-Visualisation-Technique/) and trust the people to do it right and coach them when they make mistakes.

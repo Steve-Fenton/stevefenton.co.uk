@@ -18,7 +18,7 @@ August 2021
 ## CSS Tricks – Map Interactivity Issues
 
 March 2021  
-Chris Coyier delves a bit deeper into the usability issues that occur when you embed a map on your web page (I posted a method to [help users trapped in maps here](https://www.stevefenton.co.uk/2021/03/here-maps-scroll-wheel-temporary-fix/)).  
+Chris Coyier delves a bit deeper into the usability issues that occur when you embed a map on your web page (I posted a method to [help users trapped in maps here](/2021/03/here-maps-scroll-wheel-temporary-fix/)).  
 [See Chris’ Article on CSS Tricks](https://css-tricks.com/maps-scroll-wheel-fix/).
 
 ## 2019 BIG Innovation Awards – Glasswall
@@ -167,7 +167,7 @@ Read the full article on [The NewVoiceMedia blog…](https://web.archive.org/web
 ## Chicago Tribune
 
 7th February 2012  
-I was honoured with a citation in the Chicago Tribune for my [thoughts on Pie Charts](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/) in an article about an even more hideous variant, the beach-ball chart. You can read the full article on [The Chicago Tribune…](https://web.archive.org/web/20120210020254/http://blog.apps.chicagotribune.com/2012/02/07/style-and-substance-analyzing-a-beach-ball-chart/).
+I was honoured with a citation in the Chicago Tribune for my [thoughts on Pie Charts](/2009/04/pie-charts-are-bad/) in an article about an even more hideous variant, the beach-ball chart. You can read the full article on [The Chicago Tribune…](https://web.archive.org/web/20120210020254/http://blog.apps.chicagotribune.com/2012/02/07/style-and-substance-analyzing-a-beach-ball-chart/).
 
 ## Maca is Rambling
 

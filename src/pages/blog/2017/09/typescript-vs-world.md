@@ -28,7 +28,7 @@ class Article {
     }
 }
 ```
-This is not how you do things if you are a TypeScript programmer. If a colleague sent a pull request with this code, I’d be pairing up and making some changes. This is how your TypeScript code should look (i.e. [stop manually mapping parameters to properties](https://www.stevefenton.co.uk/2013/04/stop-manually-assigning-typescript-constructor-parameters/)):
+This is not how you do things if you are a TypeScript programmer. If a colleague sent a pull request with this code, I’d be pairing up and making some changes. This is how your TypeScript code should look (i.e. [stop manually mapping parameters to properties](/2013/04/stop-manually-assigning-typescript-constructor-parameters/)):
 
 ```
 class Article {
@@ -42,7 +42,7 @@ Similarly, there are examples littered with unnecessary type annotations. The Ty
 
 > “Switch on the *noImplicitAny* flag and only add types where the compiler prompts you!” – Steve Fenton, twice per day since October 2012\*.
 
-You know… [just embrace type inference in TypeScript because: IT’S AWESOME!](https://www.stevefenton.co.uk/2014/07/embrace-type-inference-in-typescript/)
+You know… [just embrace type inference in TypeScript because: IT’S AWESOME!](/2014/07/embrace-type-inference-in-typescript/)
 
 ### Artificial
 

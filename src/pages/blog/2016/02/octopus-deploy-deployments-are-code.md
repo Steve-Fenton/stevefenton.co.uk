@@ -11,7 +11,7 @@ tags:
     - octopus
 ---
 
-[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/)In the professional software development community, we use a disciplined approach to releasing our software. This is why many of us use tools such as Octopus Deploy to manage releases and deployments.
+[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)In the professional software development community, we use a disciplined approach to releasing our software. This is why many of us use tools such as Octopus Deploy to manage releases and deployments.
 
 Because this post is specifically about Octopus Deploy, I will assume that you understand why a code change should flow through a continuous delivery pipeline that ensures the code change results in an application that compiles, passes the automated tests, deploys to an early environment (we call our “Edge”), flows through all of the pre-production environments (whether they are automated test environments, exploratory test environments, pre-production environments, or something else)… and lands safely on the live server in an uneventful fashion.
 
@@ -33,4 +33,4 @@ The following items are fixed when a release is created:
 - The entire deployment process
 - The deployment variables
 
-Addendum: Octopus Deploy will now literally treat your deployment as code, with the new [Configuration as Code feature](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/) (October 2021).
+Addendum: Octopus Deploy will now literally treat your deployment as code, with the new [Configuration as Code feature](/2021/10/how-to-enable-config-as-code-in-octopus-deploy/) (October 2021).

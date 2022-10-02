@@ -14,7 +14,7 @@ tags:
     - productivity
 ---
 
-Disambiguation: I’m sticking closely to the term “10x programmer” here. Others have used titles such as “[Rockstar Programmer](https://www.stevefenton.co.uk/2015/08/the-rockstar-programmer-stereotype/)“, but I think this muddies the water on the discussion as it is a poor metaphor.
+Disambiguation: I’m sticking closely to the term “10x programmer” here. Others have used titles such as “[Rockstar Programmer](/2015/08/the-rockstar-programmer-stereotype/)“, but I think this muddies the water on the discussion as it is a poor metaphor.
 
 So what is a 10x programmer? Quite simply, this describes the result of a *study of a study* that showed that the top performing individuals outperformed the worst performers by ten times.
 
@@ -42,4 +42,4 @@ The individuals that outperform the worst performers by 10x and the median perfo
 
 So the truth at the heart of the 10x story is that your organisation is either attracting/enabling the 10x-er or it is repelling/disabling them. Yes, there will always be people outperforming others, but within a single organisation it is not likely to be by 10x.
 
-If you want to know how to become more like a 10x organisation, check out Peopleware by Tom DeMarco and Timothy Lister it’s on my [recommended reading list](https://www.stevefenton.co.uk/about-me/recommended-reading/).
+If you want to know how to become more like a 10x organisation, check out Peopleware by Tom DeMarco and Timothy Lister it’s on my [recommended reading list](/about-me/recommended-reading/).

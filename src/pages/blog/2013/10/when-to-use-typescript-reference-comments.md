@@ -14,7 +14,7 @@ tags:
     - typescript
 ---
 
-It wasn’t that long ago that [I proclaimed the demise of TypeScript reference comments](https://www.stevefenton.co.uk/2013/08/Say-Goodbye-To-TypeScript-Reference-Comments/), but actually there may be some good reasons to keep hold of your “references.ts” file for a little bit longer.
+It wasn’t that long ago that [I proclaimed the demise of TypeScript reference comments](/2013/08/Say-Goodbye-To-TypeScript-Reference-Comments/), but actually there may be some good reasons to keep hold of your “references.ts” file for a little bit longer.
 
 There is one job that your references file does that isn’t replaced by Visual Studio’s clever “I know what you have in your project” method of providing auto-completion for all your TypeScript files – it provides a hint to the compiler about the ordering of your program, which will be used when you supply the “–out” flag to the compiler.
 

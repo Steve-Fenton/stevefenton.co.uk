@@ -68,4 +68,4 @@ Bear in mind that the message displayed by browsers may not be very descriptive,
 
 #### Next Episode!
 
-Check back soon for my next instalment on HTML5 Forms, which will deal with some [new special types of input elements](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Special-Input-Elements/).
+Check back soon for my next instalment on HTML5 Forms, which will deal with some [new special types of input elements](/2011/05/HTML-5-Forms-Special-Input-Elements/).

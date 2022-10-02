@@ -13,7 +13,7 @@ tags:
     - sql
 ---
 
-I have a [script I use to find table sizes in SQL server](https://www.stevefenton.co.uk/2016/05/finding-table-sizes-in-sql-server/). Sometimes, though, I need to find the rough table size of a massive table without the need for absolute precision.
+I have a [script I use to find table sizes in SQL server](/2016/05/finding-table-sizes-in-sql-server/). Sometimes, though, I need to find the rough table size of a massive table without the need for absolute precision.
 
 SQL server has a procedure for finding out the number of rows, space, and index size of a table; and it can run very quickly even for massive tables. It retrieves summary information, so it won’t give you a perfect and precise number.
 

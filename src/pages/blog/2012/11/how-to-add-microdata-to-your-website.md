@@ -15,7 +15,7 @@ tags:
     - microdata
 ---
 
-Everyone is talking about microdata these days (or indeed, [RDFa Lite](https://www.stevefenton.co.uk/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/)), but you may be wondering where to start with it.
+Everyone is talking about microdata these days (or indeed, [RDFa Lite](/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/)), but you may be wondering where to start with it.
 
 First off, microdata and RDFa Lite are competing specifications, but they work almost identically. If you want to use RDFa Lite instead of microdata you can totally do it and it even works off of the same definitions (at [schema.org](http://schema.org/)).
 
@@ -64,4 +64,4 @@ Now we have defined the kind of thing we are describing, we can pick out the bit
     </footer>
 </article>
 ```
-Before you crack on, though, you might want to also [read my article on RDFa Lite](https://www.stevefenton.co.uk/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/).
+Before you crack on, though, you might want to also [read my article on RDFa Lite](/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/).

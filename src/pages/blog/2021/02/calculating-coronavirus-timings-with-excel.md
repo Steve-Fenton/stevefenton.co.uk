@@ -11,7 +11,7 @@ tags:
     - data
 ---
 
-Following on from my [article on working with public coronavirus data](https://www.stevefenton.co.uk/2020/09/working-with-public-coronavirus-data/) where I calculated the original peak in the UK to have been an estimated 50,000 cases per day (not the recorded 6,000 cases per day)… the most common follow up questions (aside from predictions on what will happen next) are about timings. What is the typical roadmap for a sufferer from confirmed case, to hospitalisation, to death.
+Following on from my [article on working with public coronavirus data](/2020/09/working-with-public-coronavirus-data/) where I calculated the original peak in the UK to have been an estimated 50,000 cases per day (not the recorded 6,000 cases per day)… the most common follow up questions (aside from predictions on what will happen next) are about timings. What is the typical roadmap for a sufferer from confirmed case, to hospitalisation, to death.
 
 The simple answer to this, thanks to some simple Excel formulas and VLOOKUPs is:
 
@@ -21,7 +21,7 @@ Death occurs around 15 days after a positive test result, but only for around 2.
 
 We can visualise this by offsetting the dates on the relevant datasets, so we can see the shapes of the line graphs lining up, as shown below.
 
-[![Coronavirus Offsets](/img/2021/02/covid-offsets.jpg)](https://www.stevefenton.co.uk/2021/02/calculating-coronavirus-timings-with-excel/covid-offsets/)
+[![Coronavirus Offsets](/img/2021/02/covid-offsets.jpg)](/2021/02/calculating-coronavirus-timings-with-excel/covid-offsets/)
 
 All of the above analysis is based on data since 1st September 2020 (and 8 or 15 days before for the offset data).
 

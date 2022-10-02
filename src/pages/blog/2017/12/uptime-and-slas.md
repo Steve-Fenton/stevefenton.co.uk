@@ -12,7 +12,7 @@ tags:
     - operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.
+[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.
 
 Having helped a number of businesses understand what uptime and SLAs are, and how they work in real life, I have encountered a few myths about them both over the years. Here are a few of the things that people believe to be true (that are, in fact, *not* true).
 
@@ -22,7 +22,7 @@ Having helped a number of businesses understand what uptime and SLAs are, and ho
 - 99.9% and 99.999% are practically the same
 - An SLA is how much uptime there will be
 - 
-- (want to share another myth… [message me](https://www.stevefenton.co.uk/contact/))
+- (want to share another myth… [message me](/contact/))
 
 Let’s quickly work through these myths.
 
@@ -77,4 +77,4 @@ This is the kind of asymmetrical contractual problem a business can land itself 
 
 ### Summary
 
-Understanding what the uptime percentages translate into is an important part of understanding uptime and SLAs – as is ensuring that the business impact of downtime when it inevitably happens is recoverable. There are lots of tips and tricks to help you track and manage problems in my book [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/) – but there is not yet an economical way of ensuring 100% uptime, so downtime needs to be part of your plan.
+Understanding what the uptime percentages translate into is an important part of understanding uptime and SLAs – as is ensuring that the business impact of downtime when it inevitably happens is recoverable. There are lots of tips and tricks to help you track and manage problems in my book [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/) – but there is not yet an economical way of ensuring 100% uptime, so downtime needs to be part of your plan.

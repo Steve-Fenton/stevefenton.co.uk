@@ -67,4 +67,4 @@ TypeTwo result = from t in typeOneInput
 ```
 Thanks James!
 
-As an aside… read this if you’re wondering [why you can’t comment on posts](https://www.stevefenton.co.uk/2011/09/blog-comments/) (from 2011).
+As an aside… read this if you’re wondering [why you can’t comment on posts](/2011/09/blog-comments/) (from 2011).

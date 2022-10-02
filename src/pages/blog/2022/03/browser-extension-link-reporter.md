@@ -14,7 +14,7 @@ tags:
 
 I needed to grab a report that listed all hyperlinks on a web page, so I wrote a browser extension to do it for me.
 
-[![Link reporter in the extension store](/img/2022/03/link-reporter-edge-extension.jpg)](https://www.stevefenton.co.uk/2022/03/browser-extension-link-reporter/link-reporter-edge-extension/)
+[![Link reporter in the extension store](/img/2022/03/link-reporter-edge-extension.jpg)](/2022/03/browser-extension-link-reporter/link-reporter-edge-extension/)
 
 Get [LinkReporter in the Edge store](https://microsoftedge.microsoft.com/addons/detail/linkreporter/fjcjpdljldimcgcinebaopphlnoegfng).
 
@@ -22,7 +22,7 @@ Grab [LinkReporter in the Chrome Store](https://chrome.google.com/webstore/detai
 
 ### How to use Link Reporter
 
-[![Click on the LinkReporter icon in the browser toolbar and the report will download.](/img/2022/03/using-link-reporter.jpg)](https://www.stevefenton.co.uk/2022/03/browser-extension-link-reporter/using-link-reporter/)
+[![Click on the LinkReporter icon in the browser toolbar and the report will download.](/img/2022/03/using-link-reporter.jpg)](/2022/03/browser-extension-link-reporter/using-link-reporter/)
 
 Once you’ve installed the extension:
 
@@ -30,7 +30,7 @@ Once you’ve installed the extension:
 2. Click the Link Reporter icon
 3. A CSV file will download into your usual folder, open it to see the report
 
-[![Example report from Link Reporter](/img/2022/03/example-report.png)](https://www.stevefenton.co.uk/2022/03/browser-extension-link-reporter/example-report/)
+[![Example report from Link Reporter](/img/2022/03/example-report.png)](/2022/03/browser-extension-link-reporter/example-report/)
 
 The report contains the following information:
 

@@ -15,7 +15,7 @@ tags:
     - javascript
 ---
 
-Update! You may want to [check out some native HTML validation attributes](https://www.stevefenton.co.uk/2011/05/HTML-5-Form-Elements-New-Attributes/) that are way better than JavaScript validation!
+Update! You may want to [check out some native HTML validation attributes](/2011/05/HTML-5-Form-Elements-New-Attributes/) that are way better than JavaScript validation!
 
 JavaScript form validation is a great way to hint to your users what they should be typing into your web page. It isn’t a replacement for validation on the server, as it can be bypasses incredibly easy – but if you want to tell people that they’ve missed a field or that the value in a field isn’t acceptable without round-tripping to the server, JavaScript is a really easy way to check input values
 

@@ -14,7 +14,7 @@ tags:
     - fitnesse
 ---
 
-Following on from this week’s blog posts on [using Fitnesse in .NET](https://www.stevefenton.co.uk/2013/10/Using-Fitnesse-For-Dot-Net//) and [debugging Fitnesse tests](https://www.stevefenton.co.uk/2013/10/Debugging-Your-Fitnesse-Tests/), I thought I’d write up how I am using sequence tests to provide a domain-specific language to the Fitnesse test pages.
+Following on from this week’s blog posts on [using Fitnesse in .NET](/2013/10/Using-Fitnesse-For-Dot-Net//) and [debugging Fitnesse tests](/2013/10/Debugging-Your-Fitnesse-Tests/), I thought I’d write up how I am using sequence tests to provide a domain-specific language to the Fitnesse test pages.
 
 Normal Fitnesse tests take a bunch of data and throw it a method you wrote – like this:
 

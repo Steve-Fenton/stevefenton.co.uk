@@ -22,6 +22,6 @@ Notable examples:
 - TDD
 - Philosophy
 
-Please [get in touch if you have other notable examples](https://www.stevefenton.co.uk/contact/) and I’ll include the best ones.
+Please [get in touch if you have other notable examples](/contact/) and I’ll include the best ones.
 
 Thanks to Mark Jones for the TDD suggestion.

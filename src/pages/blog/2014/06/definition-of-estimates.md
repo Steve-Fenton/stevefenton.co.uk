@@ -47,7 +47,7 @@ If you create an estimate with sufficient information to ensure that it is corre
 
 A similar note should be made of *projections*, which are another subset of estimates. Projections are estimates based on current trends.
 
-There may be more such definitions – [let me know](https://www.stevefenton.co.uk/contact/) if you have another that should be added.
+There may be more such definitions – [let me know](/contact/) if you have another that should be added.
 
 The debate may well cover this relationship in great detail and this seems reasonable. The value of an estimate may be linked to its accuracy (and to be clear, we are talking accuracy rather than precision here).
 
@@ -55,6 +55,6 @@ One point that I hope needs no debate is that if you are spending any length of 
 
 ### The Debate
 
-Now we have a premise for our debate. [I will update it](https://www.stevefenton.co.uk/contact/) if anyone sees a flaw in these definitions.
+Now we have a premise for our debate. [I will update it](/contact/) if anyone sees a flaw in these definitions.
 
 Too much time has been lost because of arguments over the definitions – now that we have those we can take the discussion beyond the current broken propositions. No more talking about “estimates are just guesses”. Given that we agree on the definition of an estimate – can we now talk in a constructive way about them?

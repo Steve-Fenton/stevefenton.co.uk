@@ -20,10 +20,10 @@ I have divided the information into attributes, special input types, date-relate
 
 Note: the demo works differently in different browsers, this is part of the demo really as you can see the backwards-compatible rendering. Use any really up-to-date browser if you want to see all the cool widgets.
 
-- [HTML 5 Forms – New Attributes](https://www.stevefenton.co.uk/2011/05/HTML-5-Form-Elements-New-Attributes/)
-- [HTML 5 Forms – Special Input Types](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Special-Input-Elements/)
-- [HTML 5 Forms – Date And Time Input Types](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Date-Input-Elements/)
-- [HTML 5 Forms – Numeric Input Types](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Number-Input-Elements/)
+- [HTML 5 Forms – New Attributes](/2011/05/HTML-5-Form-Elements-New-Attributes/)
+- [HTML 5 Forms – Special Input Types](/2011/05/HTML-5-Forms-Special-Input-Elements/)
+- [HTML 5 Forms – Date And Time Input Types](/2011/05/HTML-5-Forms-Date-Input-Elements/)
+- [HTML 5 Forms – Numeric Input Types](/2011/05/HTML-5-Forms-Number-Input-Elements/)
 
 So now we deal with the question everyone asks about HTML 5. Can I use it yet?
 

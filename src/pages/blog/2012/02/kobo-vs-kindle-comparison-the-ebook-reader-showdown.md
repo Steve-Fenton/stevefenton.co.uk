@@ -108,7 +108,7 @@ It is also very easy to be distracted by technical specifications and features t
 
 ### Further Reading
 
-Decided on a Kindle, but don’t know which Kindle to buy? I have written [a handy guide to choosing which Kindle to buy](https://www.stevefenton.co.uk/2012/11/Kindle-Or-Kindle-Fire-Or-Kindle-Paperwhite/).
+Decided on a Kindle, but don’t know which Kindle to buy? I have written [a handy guide to choosing which Kindle to buy](/2012/11/Kindle-Or-Kindle-Fire-Or-Kindle-Paperwhite/).
 
 ### Feedback
 

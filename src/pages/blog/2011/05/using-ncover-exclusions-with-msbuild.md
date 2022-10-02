@@ -17,7 +17,7 @@ tags:
     - ncover
 ---
 
-I have previously discussed [adding NCover to MSBuild](https://www.stevefenton.co.uk/2011/02/Adding-An-NCover-Target-To-MSBuild-To-Get-Code-Coverage/) and also [how to get trend reporting as part of the NCover MSBuild target](https://www.stevefenton.co.uk/2011/05/Using-NCover-With-MSBuild-To-Get-Reports-And-Trends/). Let’s add to all of that by filtering the NCover results to exclude stuff that you don’t want in your coverage reports.
+I have previously discussed [adding NCover to MSBuild](/2011/02/Adding-An-NCover-Target-To-MSBuild-To-Get-Code-Coverage/) and also [how to get trend reporting as part of the NCover MSBuild target](/2011/05/Using-NCover-With-MSBuild-To-Get-Reports-And-Trends/). Let’s add to all of that by filtering the NCover results to exclude stuff that you don’t want in your coverage reports.
 
 Remember, with great power comes great responsibility. Don’t exclude code unless one of the following applies:
 

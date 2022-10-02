@@ -26,7 +26,7 @@ Because of low-quality interviews, programmers have started to believe that perf
 
 Ultimately, if you have an application that isn’t performing well, you’ll end up asking it to do less in some way. Asking the database to return fewer rows, or selecting fewer columns in each row, or not pulling back that data anyway because the econimics are off.
 
-For example, I was investigating a slow search page. The business were telling me it wasn’t fast enough, which is good because [performance is a feature](https://www.stevefenton.co.uk/2016/06/performance-is-a-feature/). I could also see there was a problem, because the search page would sometimes take more than thirty seconds to come back. This was the perfect time to optimise!
+For example, I was investigating a slow search page. The business were telling me it wasn’t fast enough, which is good because [performance is a feature](/2016/06/performance-is-a-feature/). I could also see there was a problem, because the search page would sometimes take more than thirty seconds to come back. This was the perfect time to optimise!
 
 Was the optimisation where I expected? No. I thought there was “obviously a missing index on the table” – but there wasn’t. The problem was tracked down eventually to a bottleneck on the disk, which was maxing out at 45,000 IOPS. This bottleneck turned out to be down to a single line of code that was asking for *too many datas* and by reducing the amount of data being requested, IOPS was reduced to 1,500 IOPS and the search page (and many other pages) became much faster than they were before… and we could prove that it was faster because we had the measurements from before the fix!
 

@@ -37,23 +37,23 @@ And a little preferences fix in my **user**-level `settings.json` as I like to e
 
 The all-in-one markdown extension provides editor support for `.md` files and a preview tool that you can use side-by-side to get a view of your work as you write.
 
-[![Markdown all-in-one with syntax highlighting and preview pane.](/img/2022/03/markdown-all-in-one.jpg)](https://www.stevefenton.co.uk/2022/03/writing-in-visual-studio-code/markdown-all-in-one/)
+[![Markdown all-in-one with syntax highlighting and preview pane.](/img/2022/03/markdown-all-in-one.jpg)](/2022/03/writing-in-visual-studio-code/markdown-all-in-one/)
 
 You can also specify a stylesheet to be used to render the preview. This is best done as a **workspace** setting, so you can have different styles for different stuff. The path is relative to the folder, when you open the folder as a project. Otherwise, you’ll need to use a full path. This merges into the preview settings, so you may need to force some overrides on your body style to give the stylesheet full control.
 
-[![Markdown styles setting to add a stylesheet](/img/2022/03/markdown-styles.jpg)](https://www.stevefenton.co.uk/2022/03/writing-in-visual-studio-code/markdown-styles/)
+[![Markdown styles setting to add a stylesheet](/img/2022/03/markdown-styles.jpg)](/2022/03/writing-in-visual-studio-code/markdown-styles/)
 
 ### Auto markdown TOC
 
 The auto markdown TOC extension inserts and manages a table of contents in your file. After right-clicking and selecting “Auto markdown TOC: Insert/Update” a list of links to headings is added to the file. It gets updated each time you save.
 
-[![An automatically managed table of contents](/img/2022/03/markdown-toc.jpg)](https://www.stevefenton.co.uk/2022/03/writing-in-visual-studio-code/markdown-toc/)
+[![An automatically managed table of contents](/img/2022/03/markdown-toc.jpg)](/2022/03/writing-in-visual-studio-code/markdown-toc/)
 
 ### Word count
 
 The word count extension simply adds the number of words to the editor status bar. Here’s a zoomed-in version so you can it in the bottom left.
 
-[![Status bar reads "24 words"](/img/2022/03/word-count.jpg)](https://www.stevefenton.co.uk/2022/03/writing-in-visual-studio-code/word-count/)
+[![Status bar reads "24 words"](/img/2022/03/word-count.jpg)](/2022/03/writing-in-visual-studio-code/word-count/)
 
 ### Markdown Table Prettifier
 
@@ -79,7 +79,7 @@ Select a table and “format selection” to fix up your tables and make them re
 
 VSCode Speech let’s you select a block of text and right-click to “speak selection”. It then reads it out. This is a super-useful tool for the editing process, when you want to hear the text rather than reading it (your brain makes a lot of automatic corrections during reading, so ingesting it through another sense can help detect errors).
 
-[![VSCode has an option to "speak selection" from the context menu.](/img/2022/03/vscode-speech.jpg)](https://www.stevefenton.co.uk/2022/03/writing-in-visual-studio-code/vscode-speech/)
+[![VSCode has an option to "speak selection" from the context menu.](/img/2022/03/vscode-speech.jpg)](/2022/03/writing-in-visual-studio-code/vscode-speech/)
 
 ### Wish list!
 

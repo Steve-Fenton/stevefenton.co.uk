@@ -13,7 +13,7 @@ categories:
     - Psychology
 ---
 
-Following on from [my Journey Through Sexism](https://www.stevefenton.co.uk/2013/02/A-Journey-Through-Sexism/) and after yet another technology-industry-gender-incident, I formed a theory and decided to put it to the test.
+Following on from [my Journey Through Sexism](/2013/02/A-Journey-Through-Sexism/) and after yet another technology-industry-gender-incident, I formed a theory and decided to put it to the test.
 
 Here is my theory.
 

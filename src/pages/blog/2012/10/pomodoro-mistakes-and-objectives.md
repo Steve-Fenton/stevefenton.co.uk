@@ -16,7 +16,7 @@ tags:
     - pomodoro
 ---
 
-I love [Pomodoro technique®](https://www.stevefenton.co.uk/2011/10/The-Pomodoro-Technique/) – it’s like a personal version of Agile. Not only do I love it, but I have used it to great effect and [shared with others how to use it](https://www.stevefenton.co.uk/2012/03/Pomodoro-Technique-In-25-Minutes/).
+I love [Pomodoro technique®](/2011/10/The-Pomodoro-Technique/) – it’s like a personal version of Agile. Not only do I love it, but I have used it to great effect and [shared with others how to use it](/2012/03/Pomodoro-Technique-In-25-Minutes/).
 
 When I first started using it, I made a few Pomodoro mistakes and as they are sometimes the best way to learn I thought I’d share them with you. I’m also going to talk about the objectives of Pomodoro Technique.
 

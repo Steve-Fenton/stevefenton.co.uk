@@ -26,6 +26,6 @@ This pie chart example is based on an [article posted yesterday on the Google Te
 
 1. I have had to estimate the true values of the three items with no value label
 2. The most likely question the chart will be answering is “what are the most common bugs?”
-3. You can improve a pie chart by following the advice in [Typical Pie Chart Errors](https://www.stevefenton.co.uk/2012/06/the-pie-chart-that-is-wrong-several-times/#typical-pie-chart-errors)
-4. … [but pie charts are inherently bad](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/)…
-5. … [for lots of reasons](https://www.stevefenton.co.uk/category/pie-charts/)
+3. You can improve a pie chart by following the advice in [Typical Pie Chart Errors](/2012/06/the-pie-chart-that-is-wrong-several-times/#typical-pie-chart-errors)
+4. … [but pie charts are inherently bad](/2009/04/pie-charts-are-bad/)…
+5. … [for lots of reasons](/category/pie-charts/)

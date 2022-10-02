@@ -14,7 +14,7 @@ tags:
     - html
 ---
 
-HTML5 is now just around the corner. I have already [tested HTML 5 on a myriad of browsers](https://www.stevefenton.co.uk/2009/07/HTML-5-Browser-Test/) and with a tiny JavaScript and CSS fix, it works in every major player – so if you are a web developer you need to start thinking about your HTML in a subtly different way.
+HTML5 is now just around the corner. I have already [tested HTML 5 on a myriad of browsers](/2009/07/HTML-5-Browser-Test/) and with a tiny JavaScript and CSS fix, it works in every major player – so if you are a web developer you need to start thinking about your HTML in a subtly different way.
 
 The big change is that in HTML 5, you can use specific and meaningful containers instead of generic and meaningless div-tags. So instead of having a div for your header, a div for your menu and a div for your content, you can use the header, nav and article tags to really describe your web page.
 

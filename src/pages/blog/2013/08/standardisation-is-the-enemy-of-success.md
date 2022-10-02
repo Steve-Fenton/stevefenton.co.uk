@@ -30,7 +30,7 @@ The answer to all these questions is because we know that standardisation is the
 
 The process should flex to suit the people, not the other way around. If one team finds that Fibonacci numbers ain’t working, they should be able to use something else. If one team finds that a three-week sprint works better than a four-week sprint, that’s fine too.
 
-It is when we try to standardise that we ruin all of the good work that Agile has done and standardisation is just command and control – and we recognise that[ command and control is not Agile](https://www.stevefenton.co.uk/2013/04/Command-And-Control-In-Agile-Teams/).
+It is when we try to standardise that we ruin all of the good work that Agile has done and standardisation is just command and control – and we recognise that[ command and control is not Agile](/2013/04/Command-And-Control-In-Agile-Teams/).
 
 If a team is being effective, you have what you want. If they aren’t, you bring it to the retrospective and they will work out how to change what they are doing to make it effective – and you’ll give them the time they need to experiment and adjust their process in order to become great.
 

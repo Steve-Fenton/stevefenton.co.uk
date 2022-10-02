@@ -15,7 +15,7 @@ tags:
     - visualisation
 ---
 
-If you are going to use a pie chart ([please don’t use a pie chart](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/)) then you need to know the rules of the pie chart. I actually don’t think anyone ever needs to use a pie chart, they are <del>very nearly</del> always the wrong chart for the data you want to display and despite the fact that you now think that your chart is in the small percentage of charts that would work as a pie chart you are actually wrong and should think about perhaps using a column chart, or a pie chart or a line graph. Not as sexy as a pie chart, but much better for displaying data.
+If you are going to use a pie chart ([please don’t use a pie chart](/2009/04/pie-charts-are-bad/)) then you need to know the rules of the pie chart. I actually don’t think anyone ever needs to use a pie chart, they are <del>very nearly</del> always the wrong chart for the data you want to display and despite the fact that you now think that your chart is in the small percentage of charts that would work as a pie chart you are actually wrong and should think about perhaps using a column chart, or a pie chart or a line graph. Not as sexy as a pie chart, but much better for displaying data.
 
 So with this in mind, what are the rules of the pie chart, and just how many of them does this chart break?
 
@@ -65,7 +65,7 @@ Error five, not a single value is placed on 0, 90, 180 or 270 degrees.
 
 ### Too Much Information
 
-Pie charts stop working entirely when you add too many segments. The safe bet is to stick the first four segments on and then gather up everything else into an “Other” segment. Attempting to display every segment of information often ends up in [a car-crash of pie chart labels](https://www.stevefenton.co.uk/2011/09/The-Latest-Shameful-Pie-Chart/).
+Pie charts stop working entirely when you add too many segments. The safe bet is to stick the first four segments on and then gather up everything else into an “Other” segment. Attempting to display every segment of information often ends up in [a car-crash of pie chart labels](/2011/09/The-Latest-Shameful-Pie-Chart/).
 
 Error six, too many segments.
 

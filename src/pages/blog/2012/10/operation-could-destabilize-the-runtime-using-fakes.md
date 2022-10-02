@@ -15,7 +15,7 @@ tags:
     - 'c#'
 ---
 
-A while ago I wrote about [Fakes, Stubs and Shims in Visual Studio](https://www.stevefenton.co.uk/2012/07/Fakes-Stubs-And-Shims-In-Visual-Studio-2012/) and I have been chewing my own dog food by using them, rather than a mocking framework in my recent work.
+A while ago I wrote about [Fakes, Stubs and Shims in Visual Studio](/2012/07/Fakes-Stubs-And-Shims-In-Visual-Studio-2012/) and I have been chewing my own dog food by using them, rather than a mocking framework in my recent work.
 
 When faking your own classes and interfaces, there isn’t much to talk about in this respect – things do seem to just work. The problems arise when you need to fake certain system classes, at which point you get the rather serious message:
 

@@ -70,7 +70,7 @@ console.log(dictarray[0], dictarray['key']);
 ```
 All the type checking and inference above works. It errors when I try to assign numbers. It infers the correct type when I pull things out.
 
-I’m tempted to supress the error using a [TypeScript Error Supression Comment](https://www.stevefenton.co.uk/2017/11/dont-use-typescript-error-suppression-comments/):
+I’m tempted to supress the error using a [TypeScript Error Supression Comment](/2017/11/dont-use-typescript-error-suppression-comments/):
 
 ```
 interface Dictarray extends Array<string> {

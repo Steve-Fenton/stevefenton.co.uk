@@ -54,11 +54,11 @@ The second edition can be found under ISBN 978-1-4842-3249-1 for the ebook and I
 
 ### Questions and Comments
 
-I’m a real person sat at the other end of the cable. I try to respond to as many messages as I can, but I’m not Ringo Starr. [Please contact me if you have questions or comments](https://www.stevefenton.co.uk/contact/).
+I’m a real person sat at the other end of the cable. I try to respond to as many messages as I can, but I’m not Ringo Starr. [Please contact me if you have questions or comments](/contact/).
 
 ### Where to Buy Pro TypeScript
 
-Here are the places you can buy Pro TypeScript, [please let me know](https://www.stevefenton.co.uk/contact/) if you have other locations for me to add.
+Here are the places you can buy Pro TypeScript, [please let me know](/contact/) if you have other locations for me to add.
 
 #### International
 

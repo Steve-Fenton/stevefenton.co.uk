@@ -20,7 +20,7 @@ In order to stop the flow of people who are so keen to tell me what my opinion i
 
 This is my *current* position, as of today. I may change my mind if sufficient evidence is presented to sway me (be it qualitative or quantitative in nature).
 
-There are [many kinds of estimates](https://www.stevefenton.co.uk/2014/06/Definition-of-Estimates/) in use, including:
+There are [many kinds of estimates](/2014/06/Definition-of-Estimates/) in use, including:
 
 - Guesses
 - Carefully judged predictions

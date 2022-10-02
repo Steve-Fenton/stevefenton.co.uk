@@ -29,6 +29,6 @@ This chart below amply highlights the dominance of Android 2.3.3 and the decline
 
 Going back to the earlier question, what do you think the percentage value is for 2.3.3 based on the column chart? The correct answer is 58%. How close were you when you answered the question based on the pie chart?
 
-This case is an interesting one, because [I normally point out really terrible pie charts](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/). This isn’t anywhere near as terrible as some of the examples I have posted before, but it does demonstrate really well how much harder it is to read a pie chart than a humble column chart.
+This case is an interesting one, because [I normally point out really terrible pie charts](/2009/04/pie-charts-are-bad/). This isn’t anywhere near as terrible as some of the examples I have posted before, but it does demonstrate really well how much harder it is to read a pie chart than a humble column chart.
 
 Disclaimer: If you actually read the numbers in the table on the [platform versions page](https://developer.android.com/about/dashboards/index.html), you will spot that the label 2.3.3 is actually not quite correct, as it covers “2.3.3 to 2.3.7”. However, this labelling oddity makes little difference in the discussion on whether pie charts are any good – they still aren’t.

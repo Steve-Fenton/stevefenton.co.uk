@@ -14,17 +14,17 @@ If you are wondering which metrics are important, confused about the kind of cha
 
 ### Free Content
 
-[Uptime and SLAs](https://www.stevefenton.co.uk/2017/12/uptime-and-slas/)
+[Uptime and SLAs](/2017/12/uptime-and-slas/)
 
-[Monitor Selection Principles](https://www.stevefenton.co.uk/2017/11/monitor-selection-principles/)
+[Monitor Selection Principles](/2017/11/monitor-selection-principles/)
 
-[Alerting Principles](https://www.stevefenton.co.uk/2017/11/the-alerting-principles/)
+[Alerting Principles](/2017/11/the-alerting-principles/)
 
-[The Three Fs of Event Log Monitoring](https://www.stevefenton.co.uk/2017/11/the-three-fs-of-event-log-monitoring/)
+[The Three Fs of Event Log Monitoring](/2017/11/the-three-fs-of-event-log-monitoring/)
 
-[Incident Causation Principles](https://www.stevefenton.co.uk/2017/11/incident-causation-principles/)
+[Incident Causation Principles](/2017/11/incident-causation-principles/)
 
-[Monitor Matrix](https://www.stevefenton.co.uk/2017/12/the-monitor-matrix/)
+[Monitor Matrix](/2017/12/the-monitor-matrix/)
 
 ### About the Book
 

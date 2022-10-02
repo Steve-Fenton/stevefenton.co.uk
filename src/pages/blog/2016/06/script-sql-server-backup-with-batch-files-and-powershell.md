@@ -27,7 +27,7 @@ powershell.exe -ExecutionPolicy Bypass -file "E:\Deployments\db-backup.ps1"
 echo Backup Database Done
 pause
 ```
-The contents of “db-backup.ps1” are shown below. There is a simple SQL Script to execute the backup, which is executed by importing the SQLPS module and using the “Invoke-Sqlcmd” cmdlet. (You may need to [install the tools to run sql scripts using PowerShell on your server](https://www.stevefenton.co.uk/2015/08/run-custom-database-scripts-with-powershell-and-octopus-deploy/#running-sql-with-powershell)).
+The contents of “db-backup.ps1” are shown below. There is a simple SQL Script to execute the backup, which is executed by importing the SQLPS module and using the “Invoke-Sqlcmd” cmdlet. (You may need to [install the tools to run sql scripts using PowerShell on your server](/2015/08/run-custom-database-scripts-with-powershell-and-octopus-deploy/#running-sql-with-powershell)).
 
 ```
 <pre class="prettyprint lang-powershell">Import-Module "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\SQLPS\sqlps"

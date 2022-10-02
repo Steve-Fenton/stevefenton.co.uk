@@ -19,4 +19,4 @@ I find myself in the midst of one of those rote programming jobs that feels very
 
 The trusty old <kbd>ALT</kbd> and mouse-drag selects the same characters on multiple rows.
 
-You may also be interested in the [widen-selection and narrow-selection short-cuts](https://www.stevefenton.co.uk/2013/09/visual-studio-refactoring-shortcuts/) that Uncle Bob introduced me to.
+You may also be interested in the [widen-selection and narrow-selection short-cuts](/2013/09/visual-studio-refactoring-shortcuts/) that Uncle Bob introduced me to.

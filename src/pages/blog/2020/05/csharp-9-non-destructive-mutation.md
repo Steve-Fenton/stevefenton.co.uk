@@ -14,7 +14,7 @@ tags:
 
 There are some phrases in programming that feel like they belong in a superhero movie. Non-destructive mutation is just such as phrase. It refers to a concept in functional programming that means when you want to change the state of an object, you create a copy with the change – rather than changing the original.
 
-Firstly, we need to use the new C# 9 record type, which is just a class preceded by the `data` keyword. Let’s continue the book example from the [C# 9 Initializers and Immutability article](https://www.stevefenton.co.uk/2020/05/csharp-9-initializers-and-immutability/).
+Firstly, we need to use the new C# 9 record type, which is just a class preceded by the `data` keyword. Let’s continue the book example from the [C# 9 Initializers and Immutability article](/2020/05/csharp-9-initializers-and-immutability/).
 
 ```
 <pre class="prettyprint lang-csharp">

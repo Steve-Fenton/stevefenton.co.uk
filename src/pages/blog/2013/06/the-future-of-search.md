@@ -16,7 +16,7 @@ I have made a few statements in the past that haven’t been far wrong from the 
 
 For example in 2008 I noted that mobile versions of websites would quickly fall out of favour and later in the same week I proposed that people would eventually have music-as-a-service, rather than purchasing and storing music themselves.
 
-Around the same time, I left a company who couldn’t understand that their future should be web-based – but they were putting all of their money on Windows Forms and Windows Presentation Foundation (sigh). [I upgraded to HTML5](https://www.stevefenton.co.uk/2009/07/HTML-5-Browser-Test/) at this time too, despite everyone telling me that XHTML 2.0 was the future (chortle).
+Around the same time, I left a company who couldn’t understand that their future should be web-based – but they were putting all of their money on Windows Forms and Windows Presentation Foundation (sigh). [I upgraded to HTML5](/2009/07/HTML-5-Browser-Test/) at this time too, despite everyone telling me that XHTML 2.0 was the future (chortle).
 
 I have a few “in-progress” predictions, such as the demise of JavaScript frameworks such as jQuery in the next few years (replaced with small re-usable modules for things like AJAX and Web Sockets).
 

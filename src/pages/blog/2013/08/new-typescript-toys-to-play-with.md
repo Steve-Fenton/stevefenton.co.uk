@@ -61,7 +61,7 @@ document.onclick = listener.helloWorld;
 ```
 ### You Missed One
 
-There are a couple of situations in TypeScript where you can catch yourself out and accidentally create a dynamic variable where you actually want it typed. You can find these situations using the [no implicit any compiler flag, which I talked about in July](https://www.stevefenton.co.uk/2013/07/TypeScript-No-Implicit-Any-Compiler-Flag/).
+There are a couple of situations in TypeScript where you can catch yourself out and accidentally create a dynamic variable where you actually want it typed. You can find these situations using the [no implicit any compiler flag, which I talked about in July](/2013/07/TypeScript-No-Implicit-Any-Compiler-Flag/).
 
 ```
 <pre class="prettyprint lang-powershell">

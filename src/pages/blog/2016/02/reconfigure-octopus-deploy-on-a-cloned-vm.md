@@ -12,7 +12,7 @@ tags:
     - powershell
 ---
 
-[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/)If you clone a VM that has an existing Octopus Deploy tentacle running, you’ll find that you’ll have a problem with a thumbprint clash.
+[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)If you clone a VM that has an existing Octopus Deploy tentacle running, you’ll find that you’ll have a problem with a thumbprint clash.
 
 All you need to do is generate a new thumprint using tentacle.exe. You can do this using a command window, or PowerShell…
 

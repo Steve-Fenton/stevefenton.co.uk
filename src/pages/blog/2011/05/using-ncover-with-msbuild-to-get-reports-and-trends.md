@@ -16,7 +16,7 @@ tags:
     - ncover
 ---
 
-A while ago I wrote an article about [how to get HTML Reports generated automatically by NCover as part of an MSBuild task](https://www.stevefenton.co.uk/2011/02/Adding-An-NCover-Target-To-MSBuild-To-Get-Code-Coverage/). In this article, I extend the example in order to get trend reporting.
+A while ago I wrote an article about [how to get HTML Reports generated automatically by NCover as part of an MSBuild task](/2011/02/Adding-An-NCover-Target-To-MSBuild-To-Get-Code-Coverage/). In this article, I extend the example in order to get trend reporting.
 
 In order to get trend reporting, you must specify a CoverageFile in your NCover task, and also an AppendTrendTo file, which will either create or update a trend file. Here is our NCover task after we have added these two properties:
 

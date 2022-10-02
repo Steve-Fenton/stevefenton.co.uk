@@ -12,7 +12,7 @@ tags:
     - 'c#'
 ---
 
-I did this trick in [JavaScript to remove diacritic marks](https://www.stevefenton.co.uk/2019/09/simplify-strings-for-comparison-by-removing-special-characters-and-diacritic-marks/) a while back and the need to perform a similar transformation in C# came up this week.
+I did this trick in [JavaScript to remove diacritic marks](/2019/09/simplify-strings-for-comparison-by-removing-special-characters-and-diacritic-marks/) a while back and the need to perform a similar transformation in C# came up this week.
 
 The following method simplifies strings such as “façade” into simple string like “façade”.
 

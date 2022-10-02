@@ -15,7 +15,7 @@ tags:
     - visualisation
 ---
 
-![Hideous Pie Chart](/img/2015/07/hideous_pie_chart.jpg)How long has it been since I last spotted a rubbish pie chart. Okay, I admit it – it was last month. It is actually quite easy to spot them because [actually all pie charts are awful](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/).
+![Hideous Pie Chart](/img/2015/07/hideous_pie_chart.jpg)How long has it been since I last spotted a rubbish pie chart. Okay, I admit it – it was last month. It is actually quite easy to spot them because [actually all pie charts are awful](/2009/04/pie-charts-are-bad/).
 
 So why is this one so bad? Simple. A two-dimensional pie chart has been proven to be hard for humans to accurately compare. We are pretty good at judging simple shapes, like rectangles – but a triangle with a curved side is just a lot harder to judge. When you tilt a pie chart, it makes it even harder because the segments near the top are made smaller by the perspective.
 

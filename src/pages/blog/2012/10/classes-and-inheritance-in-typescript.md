@@ -14,7 +14,7 @@ tags:
     - typescript
 ---
 
-Yesterday I wrote [a very brief introduction to TypeScript](https://www.stevefenton.co.uk/2012/10/TypeScript-Adds-Static-Typing-To-JavaScript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
+Yesterday I wrote [a very brief introduction to TypeScript](/2012/10/TypeScript-Adds-Static-Typing-To-JavaScript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
 
 The two topics for conversation today are classes and inheritance – topics that you’ll be familiar with if you are using a first class object oriented language, or one that supports it if you happen to have used those features.
 

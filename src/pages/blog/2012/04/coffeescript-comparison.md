@@ -16,7 +16,7 @@ tags:
 
 As I’m in the middle of writing a JavaScript unit testing framework, I thought the best way of trying out CoffeeScript would be to re-write an existing unit test class from JavaScript to CoffeeScript and then see what the compiled output looks like in comparison.
 
-If you want to play along and haven’t set up CoffeeScript, [read how to get started with CoffeeScript](https://www.stevefenton.co.uk/2012/04/Getting-Started-With-CoffeeScript/).
+If you want to play along and haven’t set up CoffeeScript, [read how to get started with CoffeeScript](/2012/04/Getting-Started-With-CoffeeScript/).
 
 ### My Hand Cranked JavaScript
 

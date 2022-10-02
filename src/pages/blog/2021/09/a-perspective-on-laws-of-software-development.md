@@ -53,7 +53,7 @@ The design of your organisation will inevitably be reflected back to you in the 
 
 ### The Dreyfus Model composition problem
 
-The Dreyfus Model has great merit. In the model, you progress your skill through five stages: Novice, Advanced Beginner, Competent, Proficient, and Expert. The [Dreyfus Model Composition Problem](https://www.stevefenton.co.uk/2012/12/the-dreyfus-model-mistake-in-software-development/) takes place when you believe the Dreyfus Model applies to “a software developer”. It doesn’t, it applies to any individual skill. You may be an *expert* in C#, but a *novice* at HTML, and a *competent* at CSS. (That last one is joke as nobody feels competent with CSS). Which leads neatly onto…
+The Dreyfus Model has great merit. In the model, you progress your skill through five stages: Novice, Advanced Beginner, Competent, Proficient, and Expert. The [Dreyfus Model Composition Problem](/2012/12/the-dreyfus-model-mistake-in-software-development/) takes place when you believe the Dreyfus Model applies to “a software developer”. It doesn’t, it applies to any individual skill. You may be an *expert* in C#, but a *novice* at HTML, and a *competent* at CSS. (That last one is joke as nobody feels competent with CSS). Which leads neatly onto…
 
 ### The Dunning/Kruger Effect
 

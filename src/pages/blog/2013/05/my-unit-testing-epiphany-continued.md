@@ -14,7 +14,7 @@ tags:
     - tdd
 ---
 
-I had some great feedback on [my unit testing epiphany](https://www.stevefenton.co.uk/2013/05/My-Unit-Testing-Epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.
+I had some great feedback on [my unit testing epiphany](/2013/05/My-Unit-Testing-Epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.
 
 So here are some questions I got and my thoughts on them, with the over-arching caveat that I am currently in the process of actually putting my implementation where my mouth is – so I don’t have data with any longevity to back this up, only my own experience with <abbr title="Test Driven Development">TDD</abbr>.
 

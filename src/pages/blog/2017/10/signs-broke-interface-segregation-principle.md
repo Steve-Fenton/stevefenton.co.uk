@@ -43,6 +43,6 @@ class JetPrinter : IPrinter {
 
 Can you see the violation? Because the `IPrinter` interface has too many members, classes that implement the interface start throwing exceptions for the members that they don’t support. This is a classic signpost for ISP problems.
 
-I solve this particular problem in [Pro TypeScript](https://www.stevefenton.co.uk/publications/pro-typescript/) by creating interfaces that group the features into a Printer, a Copier, and a Scanner. If your printer supports all three, it simply implements all three – but you can also implement different combinations.
+I solve this particular problem in [Pro TypeScript](/publications/pro-typescript/) by creating interfaces that group the features into a Printer, a Copier, and a Scanner. If your printer supports all three, it simply implements all three – but you can also implement different combinations.
 
 When you follow the interface segregation principle, you’ll remove the proliferation of the `NotImplementedException`.

@@ -30,7 +30,7 @@ At the time of writing, apps can be placed along a slider that runs from full na
 - An app written in HTML, but using an API that allows calls to native sensors
 - An app written in HTML just like any web page
 
-From a technical point of view, as of the start of 2012, if you want to access things like contacts, camera, proximity sensor or other on-board gadgets, you need some link back to the native operating system. This is all about to change though as JavaScript APIs that will allow access to these things (with the user’s permission) are being created and standardised, such as [the light sensor API](https://www.stevefenton.co.uk/2012/05/Using-The-Light-Sensor-API-In-Firefox/) and [the proximity sensor API](https://www.stevefenton.co.uk/2012/05/Using-The-Proximity-Sensor-API-In-Firefox/).
+From a technical point of view, as of the start of 2012, if you want to access things like contacts, camera, proximity sensor or other on-board gadgets, you need some link back to the native operating system. This is all about to change though as JavaScript APIs that will allow access to these things (with the user’s permission) are being created and standardised, such as [the light sensor API](/2012/05/Using-The-Light-Sensor-API-In-Firefox/) and [the proximity sensor API](/2012/05/Using-The-Proximity-Sensor-API-In-Firefox/).
 
 Enough talk. Let’s assume that you don’t need any of these gadgets but you want to write an HTML5 app that runs from the home screen and doesn’t look any different from any other native app on your phone.
 

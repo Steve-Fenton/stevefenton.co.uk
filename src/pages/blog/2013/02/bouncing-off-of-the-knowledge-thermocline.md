@@ -16,7 +16,7 @@ I am a really passionate programmer. I know that sometimes I let this get the be
 
 Usually, though, given a one-on-one conversation I can adjust my style to suit the level of the conversation. I’m happy to invent metaphors on the fly that I think will help people relate to the subject and I love to draw ideas out to help illustrate the point.
 
-I am not the best programmer on the planet and I am not always right, but it is through discussion that I learn. I am always ready to change my opinion and have very few absolutely fixed view – maybe just [pie charts](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/)! I only usually get annoyed when confronted with logical fallacies as they prevent real debate. I learn because I am just as ready to listen as I am to speak.
+I am not the best programmer on the planet and I am not always right, but it is through discussion that I learn. I am always ready to change my opinion and have very few absolutely fixed view – maybe just [pie charts](/2009/04/pie-charts-are-bad/)! I only usually get annoyed when confronted with logical fallacies as they prevent real debate. I learn because I am just as ready to listen as I am to speak.
 
 So here is where things can come unstuck.
 

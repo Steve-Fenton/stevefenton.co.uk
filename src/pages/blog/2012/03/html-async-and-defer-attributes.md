@@ -33,4 +33,4 @@ Visually, the pages loaded fast in all three scenarios (no attributes, defer and
 
 For example, if you use jQuery, you will need to replace your document ready set-up with a function that you call when the script is loaded. If you have a script that relies on another file, you probably can’t use async.
 
-It seems like you are much better off following the good practices of combining scripts, minifying them and putting them at the end of your page. If anyone has some good real world examples of async and defer in action, please [let me know](https://www.stevefenton.co.uk/contact/).
+It seems like you are much better off following the good practices of combining scripts, minifying them and putting them at the end of your page. If anyone has some good real world examples of async and defer in action, please [let me know](/contact/).

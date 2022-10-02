@@ -37,7 +37,7 @@ Just change the date as you need.
 
 ### Web Log Importer
 
-If you are using [Web Log Importer](https://www.stevefenton.co.uk/tag/web-log-importer/), you can get the same information using the following query:
+If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
 
 ```
 <pre class="prettyprint lang-sql">

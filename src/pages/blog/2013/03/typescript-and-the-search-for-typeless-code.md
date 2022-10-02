@@ -58,4 +58,4 @@ const elem = document.getElementById('result');
 ```
 So you get to use the “madeUp” method, without erasing all the type information from your selected HTMLElement and when you find out the full details you can extend the type information in a single place, rather than throughout your program.
 
-Don’t cast to any. Learn how to add simple type definitions ([or complex type definitions](https://www.stevefenton.co.uk/2013/01/complex-typescript-definitions-made-easy/) if you know all the details) using the features supplied in the language!
+Don’t cast to any. Learn how to add simple type definitions ([or complex type definitions](/2013/01/complex-typescript-definitions-made-easy/) if you know all the details) using the features supplied in the language!

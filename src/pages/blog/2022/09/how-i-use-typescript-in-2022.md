@@ -47,4 +47,4 @@ When you have architected many small isolated things, this is a great set-up as 
 
 ### Summary
 
-So, I’m still heavily using TypeScript, as applied through my JavaScript files, so there is no source and output files – just the files I’m working on. “What about…” yes, minification, dealing with compatibility, etc, etc. There’s nothing to stop you having a [compilation or traspilation](https://www.stevefenton.co.uk/2012/11/compiling-vs-transpiling/) step to do this if you want to. Or, you know, set up your CDN to do it. Whatever works for you.
+So, I’m still heavily using TypeScript, as applied through my JavaScript files, so there is no source and output files – just the files I’m working on. “What about…” yes, minification, dealing with compatibility, etc, etc. There’s nothing to stop you having a [compilation or traspilation](/2012/11/compiling-vs-transpiling/) step to do this if you want to. Or, you know, set up your CDN to do it. Whatever works for you.

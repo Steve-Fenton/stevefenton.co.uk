@@ -13,7 +13,7 @@ tags:
     - typescript
 ---
 
-Don’t worry, the mechanism for creating TypeScript mixins hasn’t changed, but I just wanted to demonstrate that the technique described in [TypeScript Mixins Part Two](https://www.stevefenton.co.uk/2017/08/typescript-mixins-part-two/) is valid for use with static properties.
+Don’t worry, the mechanism for creating TypeScript mixins hasn’t changed, but I just wanted to demonstrate that the technique described in [TypeScript Mixins Part Two](/2017/08/typescript-mixins-part-two/) is valid for use with static properties.
 
 Reusing the original example, let’s see what happens if we add static properties to our `Flies` and `Climbs` mixins.
 

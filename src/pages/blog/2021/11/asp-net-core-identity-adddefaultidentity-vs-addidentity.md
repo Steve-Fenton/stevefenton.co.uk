@@ -15,7 +15,7 @@ tags:
 
 The short version on the difference between `AddDefaultIdentity` and `AddIdentity` is the *default* part adds in all the built-in controllers and views for logging in, recovering accounts, and password resets but doesn’t add roles. You can, though, add roles to `AddDefaultIdentity` to get *all the things*.
 
-[![AddDefaultIdentity  vs AddIdentity](/img/2021/11/adddefaultidentity-vs-addidentity.jpg)](https://www.stevefenton.co.uk/2021/11/asp-net-core-identity-adddefaultidentity-vs-addidentity/adddefaultidentity-vs-addidentity/)
+[![AddDefaultIdentity  vs AddIdentity](/img/2021/11/adddefaultidentity-vs-addidentity.jpg)](/2021/11/asp-net-core-identity-adddefaultidentity-vs-addidentity/adddefaultidentity-vs-addidentity/)
 
 ### AddDefaultIdentity
 

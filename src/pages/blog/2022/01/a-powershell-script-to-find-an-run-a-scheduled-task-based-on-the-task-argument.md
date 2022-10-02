@@ -61,4 +61,4 @@ Breaking this down into it’s parts, we perform the following:
 
 ### Summary
 
-This is mainly an interesting expansion of interacting with Task Scheduler with PowerShell, that expands upon the previous article on [automating Windows Task Scheduler with PowerShell](https://www.stevefenton.co.uk/2021/11/automating-windows-task-scheduler-with-powershell/).
+This is mainly an interesting expansion of interacting with Task Scheduler with PowerShell, that expands upon the previous article on [automating Windows Task Scheduler with PowerShell](/2021/11/automating-windows-task-scheduler-with-powershell/).

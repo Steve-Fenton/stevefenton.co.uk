@@ -11,7 +11,7 @@ tags:
     - typescript
 ---
 
-I have talked before about [highly dynamic instantiation of classes in TypeScript](https://www.stevefenton.co.uk/2014/07/creating-typescript-classes-dynamically/), for example when you know it’s name – but a common question that keeps coming up is:
+I have talked before about [highly dynamic instantiation of classes in TypeScript](/2014/07/creating-typescript-classes-dynamically/), for example when you know it’s name – but a common question that keeps coming up is:
 
 > Why can’t I instantiate a class based on a type argument?
 

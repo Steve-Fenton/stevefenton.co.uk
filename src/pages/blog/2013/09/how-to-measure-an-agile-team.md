@@ -20,7 +20,7 @@ The long standing question of metrics, measurement and performance in Agile team
 
 The answer to this question is to throw out all this stuff. It takes up a load of time and tells you nothing.
 
-I have [said this before](https://www.stevefenton.co.uk/2013/07/You-Get-What-You-Measure/), but I have tested it in action and I can say that I genuinely know when a Sprint is going to be a success based on how joyous the team is. Smiles, jokes, playfulness – these all indicate that things are going to go well. I also believe these signals are evident well before your burn-down chart tells you the story.
+I have [said this before](/2013/07/You-Get-What-You-Measure/), but I have tested it in action and I can say that I genuinely know when a Sprint is going to be a success based on how joyous the team is. Smiles, jokes, playfulness – these all indicate that things are going to go well. I also believe these signals are evident well before your burn-down chart tells you the story.
 
 It really is this simple. If your team look a bit deflated, or are unusually quiet or aren’t having some fun – you’re going to miss your Sprint.
 

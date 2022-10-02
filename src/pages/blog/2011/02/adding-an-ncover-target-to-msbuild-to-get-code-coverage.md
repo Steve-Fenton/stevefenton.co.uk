@@ -18,7 +18,7 @@ tags:
 
 This article describes how to add NCover code coverage to your MSBuild scripts in an extensible way. By using and adapting the example below, you should be able to get NCover results across your entire code base, all compiled into an excellent web-based summary.
 
-You might also be interested in generating [Trend reports using MSBuild and NCover](https://www.stevefenton.co.uk/2011/05/Using-NCover-With-MSBuild-To-Get-Reports-And-Trends/).
+You might also be interested in generating [Trend reports using MSBuild and NCover](/2011/05/Using-NCover-With-MSBuild-To-Get-Reports-And-Trends/).
 
 If you follow a reasonable naming convention for your Unit Test projects, you can take advantage of this method, which will automatically add Unit Test projects based on running a regular expression to detect the projects based on the convention.
 

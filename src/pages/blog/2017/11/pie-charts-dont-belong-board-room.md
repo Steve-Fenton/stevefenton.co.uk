@@ -12,7 +12,7 @@ tags:
     - visualisation
 ---
 
-I have been writing about pie charts since [2009 when I wrote how pie charts are bad](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/) and I haven’t stopped [writing about pie charts](https://www.stevefenton.co.uk/category/pie-charts/) since then. Rather than a critique of some random pie chart I have seen, or been sent, or been linked to by the Chicago Tribune – I wanted to talk about how pie charts don’t belong in the board room.
+I have been writing about pie charts since [2009 when I wrote how pie charts are bad](/2009/04/pie-charts-are-bad/) and I haven’t stopped [writing about pie charts](/category/pie-charts/) since then. Rather than a critique of some random pie chart I have seen, or been sent, or been linked to by the Chicago Tribune – I wanted to talk about how pie charts don’t belong in the board room.
 
 ![Terrible Pie Chart](/img/2017/11/terrible-pie-chart.png)
 

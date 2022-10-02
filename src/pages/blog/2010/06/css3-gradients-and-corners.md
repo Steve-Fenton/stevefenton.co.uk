@@ -14,7 +14,7 @@ tags:
     - css
 ---
 
-CSS3 is going to bring some awesome new stuff that will combine excellently with HTML5 to give us an absolutely smashing Internet experience. Thing is, it isn’t here quite yet. Despite this, I just can’t wait for all the new features that HTML5 and CSS3 are going to bring. That’s why I [converted this website to HTML 5 last year and tested it in loads of browsers](https://www.stevefenton.co.uk/2009/07/HTML-5-Browser-Test/).
+CSS3 is going to bring some awesome new stuff that will combine excellently with HTML5 to give us an absolutely smashing Internet experience. Thing is, it isn’t here quite yet. Despite this, I just can’t wait for all the new features that HTML5 and CSS3 are going to bring. That’s why I [converted this website to HTML 5 last year and tested it in loads of browsers](/2009/07/HTML-5-Browser-Test/).
 
 So you don’t have to wait to use HTML 5 as with a minor bit of jiggery-pokery you can getting working in some pretty old-school browsers. So what about CSS3? If you’re reasonably careful, there are quite a few CSS3 styles you can add that don’t do too much damage if the browser doesn’t support them. Here are my two favourites.
 

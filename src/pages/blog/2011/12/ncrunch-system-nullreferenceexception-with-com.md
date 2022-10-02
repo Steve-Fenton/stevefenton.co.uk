@@ -16,7 +16,7 @@ tags:
     - ncrunch
 ---
 
-If you are using [NCrunch awesomeness in Visual Studio](https://www.stevefenton.co.uk/2011/12/Some-Handy-NCrunch-Tips/), you may come across this slight bug. It is most likely to appear if you reference a COM component in your project:
+If you are using [NCrunch awesomeness in Visual Studio](/2011/12/Some-Handy-NCrunch-Tips/), you may come across this slight bug. It is most likely to appear if you reference a COM component in your project:
 
 ```
 <pre class="prettyprint">

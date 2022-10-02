@@ -34,7 +34,7 @@ The second reason the releases were rather touch-and-go was the usual reason. To
 
 We reduced the amount of risk in each release by lowering the work-in-process limits and increasing the frequency of deployments. The team had grown afraid to release their software, so I challenged them by requesting releases at times they previously wouldn’t consider them. I wanted everyone on the team to expect their changes to made live at any time. Even Fridays. Even afternoons. Once the code was integrated into the mainline, it was going to go live. We all think about our changes differently when we can’t ice them in source control for six months.
 
-If you want more detail on the changes, maybe you haven’t read Accelerate by Nicole Forsgren with Jez Humble and Gene Kim. I recommend this book as it correlates specific practices with organisational success. You can then source more detailed books on any of the practices you aren’t familiar with. Some of them are [listed in my section on great books](https://www.stevefenton.co.uk/about-me/recommended-reading/).
+If you want more detail on the changes, maybe you haven’t read Accelerate by Nicole Forsgren with Jez Humble and Gene Kim. I recommend this book as it correlates specific practices with organisational success. You can then source more detailed books on any of the practices you aren’t familiar with. Some of them are [listed in my section on great books](/about-me/recommended-reading/).
 
 ### Stupid metaphors
 

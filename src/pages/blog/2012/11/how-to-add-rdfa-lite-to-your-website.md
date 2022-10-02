@@ -15,7 +15,7 @@ tags:
     - rdfa
 ---
 
-This is really the second half of my [article on microdata](https://www.stevefenton.co.uk/2012/11/How-To-Add-Microdata-To-Your-Website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.
+This is really the second half of my [article on microdata](/2012/11/How-To-Add-Microdata-To-Your-Website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.
 
 So this article follows the same process as my microdata article, but adds “RDFa Data-Tome” attributes rather than microdata attributes.
 

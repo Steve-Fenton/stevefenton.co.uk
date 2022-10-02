@@ -21,11 +21,11 @@ After the usual agonising research, I bought the *[Modern Wireless Headset](http
 
 <div class="simple-grid"><div>
 
-[![Microsoft Modern Wireless Headset](/img/2022/02/PXL_20220215_1226220253.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1226220253/)</div><div>
+[![Microsoft Modern Wireless Headset](/img/2022/02/PXL_20220215_1226220253.jpg)](/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1226220253/)</div><div>
 
-[![Microsoft Accessories App](/img/2022/02/PXL_20220215_123805815.MP2_.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_123805815-mp2/)</div></div>
+[![Microsoft Accessories App](/img/2022/02/PXL_20220215_123805815.MP2_.jpg)](/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_123805815-mp2/)</div></div>
 
-[![Microsoft Modern Wireless Headset and Surface Ergonomic Keyboard](/img/2022/02/PXL_20220215_1233074962.jpg)](https://www.stevefenton.co.uk/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1233074962/)
+[![Microsoft Modern Wireless Headset and Surface Ergonomic Keyboard](/img/2022/02/PXL_20220215_1233074962.jpg)](/2022/02/microsoft-modern-wireless-headset-unboxing/pxl_20220215_1233074962/)
 
 ### Neat features
 

@@ -17,7 +17,7 @@ It has been a while hasn’t it. However, it is sometimes a good thing to remind
 
 ![PHP Version Adoption](/img/2015/07/php-version-adoption-pie1.png)
 
-Despite the pie chart not following any of the best practices for pie charts (some of which are available [here](https://www.stevefenton.co.uk/2011/10/A-Great-Example-Of-A-Terrible-Pie-Chart/)), you can tell that the purple section is the biggest. You can then look up that this is version 5.3.
+Despite the pie chart not following any of the best practices for pie charts (some of which are available [here](/2011/10/A-Great-Example-Of-A-Terrible-Pie-Chart/)), you can tell that the purple section is the biggest. You can then look up that this is version 5.3.
 
 Picking second place is a little trickier. Looking at the pie reveals that cream and pastel blue are the contenders, but you may need to check the values on the labels to see that cream is the winner by a marginal amount.
 

@@ -10,7 +10,7 @@ categories:
     - Opinion
 ---
 
-This is just a brief article to give a who’s who of people named Steve or Stephen Fenton the world over and gives you an idea of where to find some other sources of Steve Fenton genius. If you are another Steve or Stephen Fenton who would like a shout on this page, just [get in touch with your details](https://www.stevefenton.co.uk/contact/).
+This is just a brief article to give a who’s who of people named Steve or Stephen Fenton the world over and gives you an idea of where to find some other sources of Steve Fenton genius. If you are another Steve or Stephen Fenton who would like a shout on this page, just [get in touch with your details](/contact/).
 
 [Steve Fenton – Programmer, Author](http://www.stevefenton.co.uk/)
 

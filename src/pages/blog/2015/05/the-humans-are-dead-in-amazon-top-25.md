@@ -12,7 +12,7 @@ tags:
     - books
 ---
 
-My collection of thoughts on software test automation, [The Humans are Dead](https://www.stevefenton.co.uk/publications/the-humans-are-dead/), is currently in the Top 25 in Amazon.com’s “Programming” category.
+My collection of thoughts on software test automation, [The Humans are Dead](/publications/the-humans-are-dead/), is currently in the Top 25 in Amazon.com’s “Programming” category.
 
 To celebrate, you can download the Kindle edition for free – but be quick, because this offer is only open for a couple of days.
 

@@ -62,4 +62,4 @@ Oddly though, this wasn’t how I was doing it during daylight hours. I think th
 
 If you have been doing things the way I did don’t feel guilty about it, because much of the literature is misleading. Let’s all just do it better from now.
 
-This article generated lots of great discussion. You can read more in [My Unit Testing Epiphany Continued!](https://www.stevefenton.co.uk/2013/05/My-Unit-Testing-Epiphany-Continued/)
+This article generated lots of great discussion. You can read more in [My Unit Testing Epiphany Continued!](/2013/05/My-Unit-Testing-Epiphany-Continued/)

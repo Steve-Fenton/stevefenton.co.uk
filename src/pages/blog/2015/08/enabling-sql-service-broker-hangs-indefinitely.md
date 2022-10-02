@@ -12,7 +12,7 @@ tags:
     - sql
 ---
 
-We are [using Octopus Deploy to perform model-driven deployments](https://www.stevefenton.co.uk/2015/06/packaging-visual-studio-database-project-with-octopack/) to our SQL Server databases based on the DacPac created in a Visual Studio Database project. One of the post-deployment scripts was hanging indefinitely:
+We are [using Octopus Deploy to perform model-driven deployments](/2015/06/packaging-visual-studio-database-project-with-octopack/) to our SQL Server databases based on the DacPac created in a Visual Studio Database project. One of the post-deployment scripts was hanging indefinitely:
 
 ```
 <pre class="prettyprint lang-sql">IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'MyDatabase' AND is_broker_enabled = 1)

@@ -18,11 +18,11 @@ Sometimes you need to see what’s going on under the hood of your analytics tra
 
 The DebugView can be found in your Google Analytics v4 property, at the bottom of the menu.
 
-[![Google Analytics v4 Debug View](/img/2021/06/google-analytics-debug-view.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-debug-google-analytics-v4-ga4/google-analytics-debug-view/)
+[![Google Analytics v4 Debug View](/img/2021/06/google-analytics-debug-view.jpg)](/2021/06/how-to-debug-google-analytics-v4-ga4/google-analytics-debug-view/)
 
 One of the useful features is that when you choose an event, it will show you the value over time. For example, in the screenshot below the `ConsentLoaded` event shows the value for “HasIndicatedConsent” was `false` at 08:42, changed to `true` at 08:44, and has remained true for the subsequent two events.
 
-[![Event Values Over Time](/img/2021/06/event-values-over-time.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-debug-google-analytics-v4-ga4/event-values-over-time/)
+[![Event Values Over Time](/img/2021/06/event-values-over-time.jpg)](/2021/06/how-to-debug-google-analytics-v4-ga4/event-values-over-time/)
 
 ### Switching on debug mode
 

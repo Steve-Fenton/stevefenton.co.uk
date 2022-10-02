@@ -15,7 +15,7 @@ tags:
     - visualisation
 ---
 
-I have been known to [give pie charts a bad time](https://www.stevefenton.co.uk/2009/04/pie-charts-are-bad/) because in a vast majority of cases, they are the wrong choice for displaying the kinds of data they are used for. It isn’t just pie charts that are utterly rubbish though. Any chart has the potential to suck in many ways.
+I have been known to [give pie charts a bad time](/2009/04/pie-charts-are-bad/) because in a vast majority of cases, they are the wrong choice for displaying the kinds of data they are used for. It isn’t just pie charts that are utterly rubbish though. Any chart has the potential to suck in many ways.
 
 The problem with charts is that the people who make them forget why people are using them. A chart doesn’t just show a piece of information in an attractive way, the entire point of any chart is to show values in comparison with other values. You either want to see how this month compares to last month, or you want to see if green is more popular than red – and by how much.
 

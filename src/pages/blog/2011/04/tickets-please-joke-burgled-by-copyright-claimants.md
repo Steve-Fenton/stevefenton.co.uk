@@ -40,4 +40,4 @@ In order to claim copyright for an adaptation, you need to dramatically alter th
 
 This is a really important distinction, because under UK law, you can’t claim you own copyright over a work that you actually didn’t write, even if you make a few subtle changes to it along the way. Certainly, you shouldn’t be harassing anyone who reproduces a joke that you didn’t even write.
 
-If you are the original author of this joke (not someone who has created a derivative work) then I would love to give you full credit on this page. Please [contact me](https://www.stevefenton.co.uk/contact) with the story behind the joke, what the original rivalry was and when it was originally written!
+If you are the original author of this joke (not someone who has created a derivative work) then I would love to give you full credit on this page. Please [contact me](/contact) with the story behind the joke, what the original rivalry was and when it was originally written!

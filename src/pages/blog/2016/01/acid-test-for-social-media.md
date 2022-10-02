@@ -11,7 +11,7 @@ tags:
     - 'social media'
 ---
 
-This is likely to be the final part in a series that includes posts on [tidying up the web](https://www.stevefenton.co.uk/2015/10/tidying-up-the-web/), and [the problem with social media conversations](https://www.stevefenton.co.uk/2015/10/social-media-conversations/), and [annoying social media techniques](https://www.stevefenton.co.uk/2013/02/5-annoying-social-media-techniques/) (an article that would have grown into an epic if I were to update it with all the latest tricks)… my main reason for writing it is because quite a lot of people are contacting me to tell me that my Twitter account has gone, so I wanted to assure everyone that it is deliberate!
+This is likely to be the final part in a series that includes posts on [tidying up the web](/2015/10/tidying-up-the-web/), and [the problem with social media conversations](/2015/10/social-media-conversations/), and [annoying social media techniques](/2013/02/5-annoying-social-media-techniques/) (an article that would have grown into an epic if I were to update it with all the latest tricks)… my main reason for writing it is because quite a lot of people are contacting me to tell me that my Twitter account has gone, so I wanted to assure everyone that it is deliberate!
 
 So as a few people have noticed, I have been gradually deleting all of my social media accounts over the past eight months. I originally deleted Facebook, then Twitter, and then all of the others (including Google+).
 
@@ -37,4 +37,4 @@ This was the nail in Twitter’s coffin. I persevered for quite some time with T
 
 And so the story goes for pretty much every account that I deleted. They failed one or both of these simple checks.
 
-What I have kept is RSS feeds (thanks to [Feedly](http://feedly.com/)) which pass both tests with flying colours (and there’s jam for tea). So while I’m not following people on social media, I am following them via their blogs. One major benefit of RSS feeds is that you can [enjoy your reading without the inane comments](https://www.stevefenton.co.uk/2011/09/blog-comments/).
+What I have kept is RSS feeds (thanks to [Feedly](http://feedly.com/)) which pass both tests with flying colours (and there’s jam for tea). So while I’m not following people on social media, I am following them via their blogs. One major benefit of RSS feeds is that you can [enjoy your reading without the inane comments](/2011/09/blog-comments/).

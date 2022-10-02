@@ -30,7 +30,7 @@ For example, it seems like five minutes ago we were talking about the four DORA 
 
 It’s worth keeping up to date with changes to get insights that might sharpen your competitive edge further…
 
-[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
 
 So, the first fundamental principle is that our new era of software delivery is about doing the best thing that we know of at the current time.
 
@@ -45,7 +45,7 @@ Software engineering can be divided into two types of tasks (remember my point a
 1. Complex and unpredictable work
 2. Predictable work
 
-[![](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)](https://www.stevefenton.co.uk/2015/02/automation-philosophy/definitely-routine-to-definitely-eccentric/)
+[![](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)](/2015/02/automation-philosophy/definitely-routine-to-definitely-eccentric/)
 
 The fundamental principle of DevOps is that **we reduce as much of the predictable work as possible to give us more time and energy to handle the complex and unpredictable stuff**.
 
@@ -55,7 +55,7 @@ The specific ways we reduce that routine work might change. We might identify mo
 
 ### Automation
 
-If this sounds familiar, it’s because it connects back to my [automation philosophy](https://www.stevefenton.co.uk/2015/02/automation-philosophy/). I used the terms “routine” and “eccentric” to describe the work and said that all the routine stuff should be automated. Anything truly “routine” *can* be automated, but there is an economic U-curve to surf. As technology advances, the economics will shift in favour of automation for even the most difficult routine stuff we handle right now.
+If this sounds familiar, it’s because it connects back to my [automation philosophy](/2015/02/automation-philosophy/). I used the terms “routine” and “eccentric” to describe the work and said that all the routine stuff should be automated. Anything truly “routine” *can* be automated, but there is an economic U-curve to surf. As technology advances, the economics will shift in favour of automation for even the most difficult routine stuff we handle right now.
 
 The goal isn’t to just automate everything. Some things don’t need to be done at all, so don’t automated them, just stop doing them. In other cases, doing something more often makes it vastly less work.
 
@@ -82,5 +82,5 @@ These white papers can be downloaded for free from Octopus Deploy.
 
 ### Further reading
 
-- [Automation Philosophy](https://www.stevefenton.co.uk/2015/02/automation-philosophy/)
-- [Test Automation Philosophy](https://www.stevefenton.co.uk/2015/02/test-automation-philosophy/)
+- [Automation Philosophy](/2015/02/automation-philosophy/)
+- [Test Automation Philosophy](/2015/02/test-automation-philosophy/)

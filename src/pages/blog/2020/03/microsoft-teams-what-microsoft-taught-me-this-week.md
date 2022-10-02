@@ -64,4 +64,4 @@ When you are asking a question in meeting chat, start it with “Question:”. I
 
 ### Your tips
 
-Do you have any tips for team calls that you want to share? [Let me know](https://www.stevefenton.co.uk/contact/)!
+Do you have any tips for team calls that you want to share? [Let me know](/contact/)!

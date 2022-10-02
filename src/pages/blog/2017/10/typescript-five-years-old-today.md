@@ -19,7 +19,7 @@ My enthusiasm for the language has grown as it has matured. Being able to see th
 
 TypeScript is no longer simply a route into JavaScript for programmers of other curly-braced languages; it is now a mature language with unique features and its own paradigms.
 
-### [Pro Typescript, Second Edition](https://www.stevefenton.co.uk/publications/pro-typescript/)
+### [Pro Typescript, Second Edition](/publications/pro-typescript/)
 
 To celebrate the fifth official birthday, I thought I’d let the cat out of the bag… I am deeply buried in an update to Pro TypeScript that will introduce all of the new language features that have been added since the first edition. I am also adding content to cover usage patterns that hadn’t emerged when I wrote the first book.
 

@@ -15,7 +15,7 @@ tags:
     - typescript
 ---
 
-I wrote yesterday about how to [extend native JavaScript objects](https://www.stevefenton.co.uk/2013/02/extending-native-javascript-objects-in-typescript/). Today, I’m going to show you the extra bits you need to do to use the same code in TypeScript – and get static typing for your extensions.
+I wrote yesterday about how to [extend native JavaScript objects](/2013/02/extending-native-javascript-objects-in-typescript/). Today, I’m going to show you the extra bits you need to do to use the same code in TypeScript – and get static typing for your extensions.
 
 The plain JavaScript looks like this:
 

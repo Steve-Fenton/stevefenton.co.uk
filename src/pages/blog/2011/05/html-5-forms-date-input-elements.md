@@ -56,4 +56,4 @@ Follow the same pattern for type=”time” and type=”datetime”. The browser
 
 ### Next Episode!
 
-In my next episode on HTML5 forms I’m going to cover [number related inputs](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Number-Input-Elements/).
+In my next episode on HTML5 forms I’m going to cover [number related inputs](/2011/05/HTML-5-Forms-Number-Input-Elements/).
