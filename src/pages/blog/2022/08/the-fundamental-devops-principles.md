@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Fundamental DevOps Principles'
 pubDate: 2022-08-04T11:33:26+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

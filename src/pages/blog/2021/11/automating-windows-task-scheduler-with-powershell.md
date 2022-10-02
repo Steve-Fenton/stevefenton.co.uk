@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automating Windows Task Scheduler with PowerShell'
 pubDate: 2021-11-02T14:51:24+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

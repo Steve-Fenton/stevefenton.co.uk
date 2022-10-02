@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Firefox 3D mode'
 pubDate: 2014-06-27T21:50:22+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=332'
 interface_sidebarlayout:

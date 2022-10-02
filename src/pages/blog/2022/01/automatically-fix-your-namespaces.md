@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automatically fix your namespaces'
 pubDate: 2022-01-05T06:00:30+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

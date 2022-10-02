@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Auto Load Your PHP Classes'
 pubDate: 2010-04-07T21:48:09+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1049'
 interface_sidebarlayout:

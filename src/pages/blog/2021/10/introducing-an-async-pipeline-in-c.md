@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Introducing an async pipeline in C#'
 pubDate: 2021-10-25T16:45:09+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

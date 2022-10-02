@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Monitor Matrix'
 pubDate: 2017-12-04T05:00:06+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

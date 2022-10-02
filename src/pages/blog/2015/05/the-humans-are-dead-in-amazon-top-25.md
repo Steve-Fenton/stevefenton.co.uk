@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Humans Are Dead in Amazon Top 25'
 pubDate: 2015-05-30T23:45:51+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Communication is the organisational cardiovascular system'
 pubDate: 2015-06-06T23:41:29+01:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

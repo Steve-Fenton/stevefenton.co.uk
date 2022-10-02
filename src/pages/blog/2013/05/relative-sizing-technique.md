@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Relative sizing technique'
 pubDate: 2013-05-22T14:20:27+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=582'
 interface_sidebarlayout:

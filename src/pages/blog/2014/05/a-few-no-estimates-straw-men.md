@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A few #NoEstimates straw men'
 pubDate: 2014-05-26T22:14:21+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=353'
 interface_sidebarlayout:

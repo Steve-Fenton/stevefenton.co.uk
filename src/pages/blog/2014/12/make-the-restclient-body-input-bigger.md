@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Make the RESTClient body input bigger'
 pubDate: 2014-12-01T19:51:49+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'De-mystifying Linq'
 pubDate: 2022-01-24T13:53:36+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

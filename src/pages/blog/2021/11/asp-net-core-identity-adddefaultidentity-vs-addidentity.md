@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'ASP.NET Core Identity AddDefaultIdentity vs AddIdentity'
 pubDate: 2021-11-12T10:54:54+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

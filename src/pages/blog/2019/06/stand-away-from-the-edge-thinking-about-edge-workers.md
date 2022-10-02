@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stand away from the edge: Thinking about edge workers'
 pubDate: 2019-06-24T12:27:14+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/06/mind-the-gap.jpg
 categories:

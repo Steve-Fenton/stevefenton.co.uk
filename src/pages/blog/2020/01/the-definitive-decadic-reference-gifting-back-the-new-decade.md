@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Definitive Decadic Reference: Gifting back the new decade'
 pubDate: 2020-01-01T20:04:01+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

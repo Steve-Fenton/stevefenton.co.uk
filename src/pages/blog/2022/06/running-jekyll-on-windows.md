@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Running Jekyll on Windows'
 pubDate: 2022-06-29T11:03:16+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

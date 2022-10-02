@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML5 and Skip to Content Links'
 pubDate: 2010-06-14T21:28:18+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1035'
 interface_sidebarlayout:

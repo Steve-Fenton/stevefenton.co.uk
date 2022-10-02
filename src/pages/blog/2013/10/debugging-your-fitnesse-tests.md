@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Debugging your Fitnesse tests'
 pubDate: 2013-10-23T10:42:22+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=495'
 interface_sidebarlayout:

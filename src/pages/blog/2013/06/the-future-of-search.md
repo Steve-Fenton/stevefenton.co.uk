@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The future of search'
 pubDate: 2013-06-26T12:01:14+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=556'
 interface_sidebarlayout:

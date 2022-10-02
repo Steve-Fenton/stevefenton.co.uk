@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The pie chart so bad I had to censor It'
 pubDate: 2011-09-05T17:51:30+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=909'
 interface_sidebarlayout:

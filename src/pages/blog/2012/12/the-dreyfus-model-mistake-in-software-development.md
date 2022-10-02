@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Dreyfus Model mistake in software development'
 pubDate: 2012-12-03T22:40:58+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=683'
 interface_sidebarlayout:

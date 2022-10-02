@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: Don't use TypeScript error suppression comments
 pubDate: 2017-11-01T08:21:49+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

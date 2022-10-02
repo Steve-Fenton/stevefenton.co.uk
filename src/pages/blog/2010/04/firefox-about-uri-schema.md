@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Firefox About URI Schema'
 pubDate: 2010-04-15T21:47:22+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1047'
 interface_sidebarlayout:

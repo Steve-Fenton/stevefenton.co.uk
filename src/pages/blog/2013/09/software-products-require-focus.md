@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Software product development requires focus'
 pubDate: 2013-09-01T11:15:54+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=518'
 interface_sidebarlayout:

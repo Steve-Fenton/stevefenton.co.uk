@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using personas for more than usability'
 pubDate: 2015-02-22T16:06:42+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

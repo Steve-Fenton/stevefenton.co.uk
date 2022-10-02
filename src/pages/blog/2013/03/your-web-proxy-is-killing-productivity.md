@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Your Web Proxy is killing productivity'
 pubDate: 2013-03-20T15:26:48+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=624'
 interface_sidebarlayout:

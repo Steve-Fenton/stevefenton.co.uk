@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Find SQL Server job clashes'
 pubDate: 2018-12-27T20:00:43+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

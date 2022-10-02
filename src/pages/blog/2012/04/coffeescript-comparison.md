@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'CoffeeScript comparison'
 pubDate: 2012-04-21T16:17:26+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=810'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Find stored procedures that reference a table'
 pubDate: 2017-01-24T10:45:36+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The death of the immediately invoked function expression'
 pubDate: 2017-11-04T15:29:23+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

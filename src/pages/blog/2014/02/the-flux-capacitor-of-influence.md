@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Flux Capacitor of influence'
 pubDate: 2014-02-05T23:07:40+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=413'
 interface_sidebarlayout:

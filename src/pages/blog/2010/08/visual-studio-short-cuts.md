@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio Short Cuts'
 pubDate: 2010-08-14T20:52:39+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1009'
 interface_sidebarlayout:

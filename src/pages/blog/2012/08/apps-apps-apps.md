@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Apps! Apps! Apps!'
 pubDate: 2012-08-07T15:32:23+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=765'
 interface_sidebarlayout:

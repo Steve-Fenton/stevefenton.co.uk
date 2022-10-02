@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Agile days since last accident sign'
 pubDate: 2014-02-19T22:52:44+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=397'
 interface_sidebarlayout:

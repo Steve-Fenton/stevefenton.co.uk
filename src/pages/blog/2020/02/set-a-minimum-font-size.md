@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Set a minimum font size'
 pubDate: 2020-02-14T16:04:22+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Add page-specific permissions in Kentico'
 pubDate: 2017-11-29T08:50:01+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - CMS

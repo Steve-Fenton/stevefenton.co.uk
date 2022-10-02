@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Your Agile process is not a template'
 pubDate: 2013-07-05T11:57:51+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=549'
 interface_sidebarlayout:

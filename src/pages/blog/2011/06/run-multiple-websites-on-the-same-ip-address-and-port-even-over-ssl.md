@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Run multiple websites on the same IP address and port; even over SSL'
 pubDate: 2011-06-06T18:09:23+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=933'
 interface_sidebarlayout:

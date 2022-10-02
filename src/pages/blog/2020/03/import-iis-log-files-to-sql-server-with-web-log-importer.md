@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Import IIS log files to SQL Server with Web Log Importer'
 pubDate: 2020-03-10T16:52:01+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/03/importing-containers.jpg
 categories:

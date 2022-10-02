@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Log Parser Studio to find guilty IP addresses from X-Forwarded-For'
 pubDate: 2016-08-08T16:57:58+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

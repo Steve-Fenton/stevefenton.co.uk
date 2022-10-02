@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Partially cleaned hotel rooms'
 pubDate: 2022-07-04T17:21:45+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Get NMock2 to Return Out Params'
 pubDate: 2010-04-29T21:41:44+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1043'
 interface_sidebarlayout:

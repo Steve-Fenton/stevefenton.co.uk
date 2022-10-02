@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Just released tsUnit 1.6.0 with fakes'
 pubDate: 2014-11-13T20:08:39+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

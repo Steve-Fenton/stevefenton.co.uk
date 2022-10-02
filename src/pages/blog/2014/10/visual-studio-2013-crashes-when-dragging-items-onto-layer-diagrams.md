@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio 2013 crashes when dragging items onto layer diagrams'
 pubDate: 2014-10-10T20:41:59+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

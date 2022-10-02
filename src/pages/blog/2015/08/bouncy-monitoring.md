@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Bouncy monitoring'
 pubDate: 2015-08-01T07:30:17+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

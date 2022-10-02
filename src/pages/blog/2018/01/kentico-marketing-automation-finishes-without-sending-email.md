@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Kentico marketing automation finishes without sending an email'
 pubDate: 2018-01-25T19:00:58+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

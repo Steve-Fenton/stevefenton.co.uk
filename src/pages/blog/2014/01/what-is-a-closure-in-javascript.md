@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What is a closure in JavaScript'
 pubDate: 2014-01-13T23:23:13+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=434'
 interface_sidebarlayout:

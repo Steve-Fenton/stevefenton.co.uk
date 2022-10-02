@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript What is &#8220;this&#8221; and How Do I Use It'
 pubDate: 2010-08-10T20:54:34+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1011'
 interface_sidebarlayout:

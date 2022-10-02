@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Updated Dynamics localization in TypeScript'
 pubDate: 2014-03-26T22:24:42+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=369'
 interface_sidebarlayout:

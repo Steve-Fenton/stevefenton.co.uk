@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: How to drop a SQL Server constraint when you don't know its name
 pubDate: 2020-05-15T11:21:59+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

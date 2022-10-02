@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript Short Tags and XHTML'
 pubDate: 2010-05-20T21:32:10+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1037'
 interface_sidebarlayout:

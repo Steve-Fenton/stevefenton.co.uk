@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'If&#8230;'
 pubDate: 2017-08-18T05:00:44+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

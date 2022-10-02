@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Dependency injection in PHP'
 pubDate: 2011-12-27T17:06:45+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=872'
 interface_sidebarlayout:

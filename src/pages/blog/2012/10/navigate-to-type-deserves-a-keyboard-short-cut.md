@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Navigate to type deserves a keyboard shortcut'
 pubDate: 2012-10-01T23:52:11+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=732'
 interface_sidebarlayout:

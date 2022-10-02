@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding a sitemap to Jekyll'
 pubDate: 2022-07-21T14:42:35+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

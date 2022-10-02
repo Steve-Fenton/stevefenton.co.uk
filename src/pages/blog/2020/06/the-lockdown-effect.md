@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Lockdown Effect'
 pubDate: 2020-06-03T09:33:42+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

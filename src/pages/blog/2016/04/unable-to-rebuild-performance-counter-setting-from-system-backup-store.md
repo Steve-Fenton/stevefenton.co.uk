@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Unable to rebuild performance counter setting from System Backup Store'
 pubDate: 2016-04-16T10:20:41+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

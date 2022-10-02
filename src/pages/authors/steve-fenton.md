@@ -1,7 +1,8 @@
 ---
 layout: src/layouts/Author.astro
-navMenu: false
 title: Steve Fenton
+id: steve-fenton
+navMenu: false
 navOrder: 1000
 pubDate: 2022-09-17
 keywords: steve fenton
@@ -11,4 +12,4 @@ bannerImage:
     alt: Steve Fenton
 ---
 
-Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/2020/07/the-software-punk-revolution/?swcfpc=1) and writer. You can find out [more about Steve Fenton here](/about-me/).
+Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/2020/07/the-software-punk-revolution/) and writer. You can find out [more about Steve Fenton here](/about-me/).

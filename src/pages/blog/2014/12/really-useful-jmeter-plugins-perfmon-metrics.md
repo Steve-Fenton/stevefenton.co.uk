@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Really useful JMeter plugins: PerfMon metrics'
 pubDate: 2014-12-24T18:37:07+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

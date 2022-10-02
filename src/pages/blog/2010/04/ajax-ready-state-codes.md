@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'AJAX Ready State Codes'
 pubDate: 2010-04-23T21:45:46+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1045'
 interface_sidebarlayout:

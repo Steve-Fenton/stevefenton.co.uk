@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Software Punk Revolution'
 pubDate: 2020-07-05T19:30:53+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/07/sex-pistols.jpg
 categories:

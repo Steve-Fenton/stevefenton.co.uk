@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Live server CPU spikes'
 pubDate: 2015-08-21T07:30:19+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

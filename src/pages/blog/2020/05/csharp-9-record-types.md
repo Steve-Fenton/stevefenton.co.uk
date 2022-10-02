@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 record types'
 pubDate: 2020-05-23T06:30:10+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

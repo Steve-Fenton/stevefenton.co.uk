@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Incident Causation Principles'
 pubDate: 2017-11-13T05:00:42+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Use Log Parser Studio to get a list of top IP ranges'
 pubDate: 2016-08-12T06:00:08+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

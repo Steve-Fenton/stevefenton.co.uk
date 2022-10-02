@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'World No Resources Day'
 pubDate: 2015-05-01T00:19:01+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

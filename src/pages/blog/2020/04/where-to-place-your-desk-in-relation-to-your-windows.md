@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Where to Place your desk in relation to your windows'
 pubDate: 2020-04-05T08:21:58+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/04/MVIMG_20200316_191453-1.jpg
 categories:

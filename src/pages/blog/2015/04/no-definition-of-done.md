@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'No definition of done'
 pubDate: 2015-04-05T00:33:54+01:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

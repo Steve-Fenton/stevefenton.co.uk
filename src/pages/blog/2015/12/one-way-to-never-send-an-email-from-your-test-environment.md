@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'One way to never send an email from your test environment'
 pubDate: 2015-12-16T22:00:20+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

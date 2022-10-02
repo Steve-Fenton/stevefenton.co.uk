@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Simulate real users with JMeter'
 pubDate: 2016-03-19T21:51:27+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

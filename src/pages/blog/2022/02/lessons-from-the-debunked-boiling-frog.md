@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Lessons from the debunked boiling frog'
 pubDate: 2022-02-22T21:30:39+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

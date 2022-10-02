@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Beach ball charts are worse than pie charts'
 pubDate: 2012-02-17T16:53:59+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=855'
 interface_sidebarlayout:

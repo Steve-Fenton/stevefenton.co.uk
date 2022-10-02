@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript Pixel Counter'
 pubDate: 2018-01-21T20:00:23+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

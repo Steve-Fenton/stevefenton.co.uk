@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Deep thinking and metacognition'
 pubDate: 2014-05-30T21:59:37+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=349'
 interface_sidebarlayout:

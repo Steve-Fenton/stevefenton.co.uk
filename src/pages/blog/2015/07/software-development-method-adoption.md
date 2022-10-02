@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Software development method adoption'
 pubDate: 2015-07-10T08:21:11+01:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Solve role confusion with Group Role Visualisation technique'
 pubDate: 2013-07-03T11:58:44+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=551'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'NDepend for Beginners'
 pubDate: 2010-10-03T20:40:23+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1003'
 interface_sidebarlayout:

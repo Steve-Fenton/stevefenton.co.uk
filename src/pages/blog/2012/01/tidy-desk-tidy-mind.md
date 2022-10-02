@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Tidy desk. Tidy mind!'
 pubDate: 2012-01-28T17:01:00+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=865'
 interface_sidebarlayout:

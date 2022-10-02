@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Defer YouTube Videos'
 pubDate: 2022-06-12T11:23:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

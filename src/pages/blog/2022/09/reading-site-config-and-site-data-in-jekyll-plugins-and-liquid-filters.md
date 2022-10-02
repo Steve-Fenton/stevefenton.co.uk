@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Reading site.config and site.data in Jekyll Plugins and Liquid Filters'
 pubDate: 2022-09-13T09:56:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

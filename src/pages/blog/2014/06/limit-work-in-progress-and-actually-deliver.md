@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Limit work in progress and actually deliver'
 pubDate: 2014-06-25T21:51:45+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=335'
 interface_sidebarlayout:

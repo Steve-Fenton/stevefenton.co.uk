@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Say goodbye to TypeScript reference comments'
 pubDate: 2013-08-08T11:26:40+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=524'
 interface_sidebarlayout:

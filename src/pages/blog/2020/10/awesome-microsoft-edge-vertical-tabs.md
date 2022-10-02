@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Awesome Microsoft Edge vertical tabs'
 pubDate: 2020-10-27T16:35:47+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/10/vertical-tabs.jpg
 categories:

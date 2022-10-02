@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pie chart conversion'
 pubDate: 2018-01-22T08:50:32+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

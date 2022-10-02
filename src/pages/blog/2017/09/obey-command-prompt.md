@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Obey my command (prompt)'
 pubDate: 2017-09-26T06:00:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

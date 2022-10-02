@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Behind the BizOps buzz: Metric MLA'
 pubDate: 2019-04-02T07:50:21+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/04/conversions-per-week.jpg
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Microservices vs Conway Test'
 pubDate: 2019-10-26T17:00:54+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/10/complexity.jpg
 categories:

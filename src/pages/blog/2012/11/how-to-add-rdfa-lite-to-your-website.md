@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to add RDFa Lite to your website'
 pubDate: 2012-11-29T22:44:53+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=687'
 interface_sidebarlayout:

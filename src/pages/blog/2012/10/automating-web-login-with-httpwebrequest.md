@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automating web login with HttpWebRequest'
 pubDate: 2012-10-19T23:26:12+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=710'
 interface_sidebarlayout:

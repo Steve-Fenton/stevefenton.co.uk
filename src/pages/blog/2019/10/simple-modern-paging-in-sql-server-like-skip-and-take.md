@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Simple modern paging in SQL Server &#8211; Like Skip and Take'
 pubDate: 2019-10-02T08:08:20+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

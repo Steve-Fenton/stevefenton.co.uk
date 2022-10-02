@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Useful Apache mod rewrite rules'
 pubDate: 2015-07-19T08:00:57+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

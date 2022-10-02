@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Additional specification by example benefits'
 pubDate: 2014-07-02T21:45:56+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=326'
 interface_sidebarlayout:

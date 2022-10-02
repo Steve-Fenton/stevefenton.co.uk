@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Standardisation is the enemy of success'
 pubDate: 2013-08-19T11:17:37+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=520'
 interface_sidebarlayout:

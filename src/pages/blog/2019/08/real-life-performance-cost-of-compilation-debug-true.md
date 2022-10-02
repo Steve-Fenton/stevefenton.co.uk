@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Real life performance cost of compilation debug=&#8221;true&#8221;'
 pubDate: 2019-08-07T17:13:37+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

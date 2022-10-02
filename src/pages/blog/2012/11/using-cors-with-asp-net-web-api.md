@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using CORS with ASP NET Web API'
 pubDate: 2012-11-01T23:14:02+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=704'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Can you patronise people into change?'
 pubDate: 2013-01-03T22:38:23+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=679'
 interface_sidebarlayout:

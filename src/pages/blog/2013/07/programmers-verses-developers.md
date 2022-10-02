@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Programmers vs Developers'
 pubDate: 2013-07-24T11:42:41+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=538'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Thinking about hand offs and coffee'
 pubDate: 2013-08-09T11:23:51+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=522'
 interface_sidebarlayout:

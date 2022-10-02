@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Check and warm up a website with Octopus Deploy and PowerShell'
 pubDate: 2015-12-02T06:00:59+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

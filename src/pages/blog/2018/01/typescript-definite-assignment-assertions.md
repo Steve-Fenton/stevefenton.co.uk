@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript definite assignment assertions'
 pubDate: 2018-01-17T20:06:02+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

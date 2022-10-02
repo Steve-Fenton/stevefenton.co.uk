@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'When a pie chart is the correct chart'
 pubDate: 2018-01-19T08:30:37+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

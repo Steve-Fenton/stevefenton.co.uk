@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Find code hotspots with NDepend'
 pubDate: 2016-04-24T19:56:54+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Three Pillars of conference value'
 pubDate: 2017-07-25T06:00:14+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Dashes vs underscores in web addresses'
 pubDate: 2011-08-28T17:53:22+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=912'
 interface_sidebarlayout:

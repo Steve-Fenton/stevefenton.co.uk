@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adobe Analytics segment applicability'
 pubDate: 2021-01-14T14:12:39+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/01/simple-utm-then-checkout-segment.jpg
 categories:

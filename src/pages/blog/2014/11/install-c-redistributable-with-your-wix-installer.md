@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Install C++ redistributable with your WiX Installer'
 pubDate: 2014-11-03T20:22:24+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

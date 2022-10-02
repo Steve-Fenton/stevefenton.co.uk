@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML Challenge: Toggle Switch vs Checkbox'
 pubDate: 2020-02-16T19:39:45+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

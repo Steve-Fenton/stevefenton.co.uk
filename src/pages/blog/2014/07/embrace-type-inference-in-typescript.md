@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Embrace type inference in TypeScript'
 pubDate: 2014-07-18T21:36:12+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=316'
 interface_sidebarlayout:

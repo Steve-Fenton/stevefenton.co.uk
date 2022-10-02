@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Configure remote desktop connection disconnected session timeout'
 pubDate: 2016-09-27T09:06:05+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

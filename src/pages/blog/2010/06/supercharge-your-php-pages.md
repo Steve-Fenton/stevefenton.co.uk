@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Supercharge Your PHP Pages'
 pubDate: 2010-06-22T21:14:16+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1026'
 interface_sidebarlayout:

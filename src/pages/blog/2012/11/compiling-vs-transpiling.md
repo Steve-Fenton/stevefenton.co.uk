@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Compiling vs Transpiling'
 pubDate: 2012-11-18T23:02:16+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=694'
 interface_sidebarlayout:

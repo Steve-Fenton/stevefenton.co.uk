@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Introducing TypeSpec'
 pubDate: 2015-11-29T11:13:42+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

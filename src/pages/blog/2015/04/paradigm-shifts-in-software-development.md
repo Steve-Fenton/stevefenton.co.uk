@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Paradigm shifts in software development'
 pubDate: 2015-04-04T00:35:14+01:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

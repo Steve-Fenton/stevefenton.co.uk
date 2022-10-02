@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript is five years old today'
 pubDate: 2017-10-01T01:00:50+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

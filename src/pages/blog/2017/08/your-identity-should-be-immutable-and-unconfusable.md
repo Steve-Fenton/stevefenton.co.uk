@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Your identity should be immutable and unconfusable'
 pubDate: 2017-08-23T10:53:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Kill a deployment stuck in a cancelled state in Octopus Deploy'
 pubDate: 2016-03-09T06:00:01+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Exclude files from the Visual Studio Code file explorer'
 pubDate: 2018-02-27T08:50:12+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

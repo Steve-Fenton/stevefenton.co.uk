@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: Google uses image sprites
 navMenu: false
 pubDate: 2009-05-01T22:32:14+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

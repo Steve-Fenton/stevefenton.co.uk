@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Load, stress, spike, and soak testing'
 pubDate: 2015-03-14T15:59:51+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

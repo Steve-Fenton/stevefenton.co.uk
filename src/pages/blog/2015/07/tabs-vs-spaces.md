@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Tabs vs spaces in Visual Studio Code'
 pubDate: 2015-07-30T07:30:00+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

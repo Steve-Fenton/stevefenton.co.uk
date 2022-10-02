@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Writing in Visual Studio Code'
 pubDate: 2022-03-23T13:51:28+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/03/markdown-all-in-one.jpg
 categories:

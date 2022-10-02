@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Database deployments with Octopus Deploy and a SQL Cluster'
 pubDate: 2017-03-23T09:41:07+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

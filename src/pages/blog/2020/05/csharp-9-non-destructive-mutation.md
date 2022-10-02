@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 non-destructive mutation'
 pubDate: 2020-05-22T06:30:26+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Phase Precision Premise'
 pubDate: 2019-03-04T19:25:16+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/03/payback-chart.jpg
 categories:

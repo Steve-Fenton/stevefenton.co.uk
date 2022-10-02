@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What data is missing?'
 pubDate: 2020-09-25T06:00:08+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Analytics

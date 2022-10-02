@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Custom output from TypeSpec'
 pubDate: 2015-12-08T06:00:56+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

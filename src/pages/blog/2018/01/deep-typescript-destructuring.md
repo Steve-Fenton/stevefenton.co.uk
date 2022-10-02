@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Deep TypeScript destructuring'
 pubDate: 2018-01-25T08:45:29+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

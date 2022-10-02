@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to create a browser extension for Edge or Chrome'
 pubDate: 2022-02-08T21:00:44+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Blog comments'
 pubDate: 2011-09-27T17:42:38+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=900'
 interface_sidebarlayout:

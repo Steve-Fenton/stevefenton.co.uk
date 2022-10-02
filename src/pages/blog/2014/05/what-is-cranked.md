@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What is Cranked?'
 pubDate: 2014-05-06T12:02:28+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11602'
 image: /wp-content/uploads/2021/07/crank-mechanism.png

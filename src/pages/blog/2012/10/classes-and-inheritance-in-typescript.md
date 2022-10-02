@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Classes and inheritance in TypeScript'
 pubDate: 2012-10-02T23:46:15+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=728'
 interface_sidebarlayout:

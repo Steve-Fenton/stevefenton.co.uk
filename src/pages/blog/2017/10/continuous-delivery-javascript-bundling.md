@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Continuous delivery and JavaScript bundling'
 pubDate: 2017-10-12T06:00:39+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

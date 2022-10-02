@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Catching null and undefined without side effects'
 pubDate: 2018-04-03T21:35:09+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

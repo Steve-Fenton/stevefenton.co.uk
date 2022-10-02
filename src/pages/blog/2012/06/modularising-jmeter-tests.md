@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Modularising JMeter tests'
 pubDate: 2012-06-27T15:50:34+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=777'
 interface_sidebarlayout:

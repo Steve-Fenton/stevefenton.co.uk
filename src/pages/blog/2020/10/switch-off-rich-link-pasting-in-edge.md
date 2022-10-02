@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Switch off rich link pasting in Edge'
 pubDate: 2020-10-06T11:35:54+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

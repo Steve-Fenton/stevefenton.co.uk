@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to measure an Agile team'
 pubDate: 2013-09-04T10:56:06+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=514'
 interface_sidebarlayout:

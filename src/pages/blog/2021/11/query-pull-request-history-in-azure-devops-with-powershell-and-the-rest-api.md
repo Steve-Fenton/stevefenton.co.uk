@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Query pull request history in Azure DevOps with PowerShell and the REST API'
 pubDate: 2021-11-30T20:27:29+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

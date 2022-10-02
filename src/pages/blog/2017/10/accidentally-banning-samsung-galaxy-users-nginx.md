@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Accidentally banning Samsung Galaxy users with Nginx'
 pubDate: 2017-10-05T06:00:50+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

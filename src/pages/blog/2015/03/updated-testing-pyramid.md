@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Updated testing pyramid'
 pubDate: 2015-03-21T15:56:48+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

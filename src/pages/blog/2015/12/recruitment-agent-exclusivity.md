@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Recruitment agent exclusivity'
 pubDate: 2015-12-15T11:27:52+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

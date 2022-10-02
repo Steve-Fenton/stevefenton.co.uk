@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# implicitly scoped using statements'
 pubDate: 2018-12-22T14:41:35+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

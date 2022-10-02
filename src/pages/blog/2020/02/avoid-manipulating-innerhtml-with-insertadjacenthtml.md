@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Avoid expensive innerHTML manipulation with insertAdjacentHTML'
 pubDate: 2020-02-29T15:45:07+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

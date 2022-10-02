@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Reduce costs by 12x on Azure'
 pubDate: 2020-07-28T20:00:24+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/07/flat-comparison.jpg
 categories:

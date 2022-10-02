@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Cannot create a file when that file already exists'
 pubDate: 2016-03-21T14:12:57+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

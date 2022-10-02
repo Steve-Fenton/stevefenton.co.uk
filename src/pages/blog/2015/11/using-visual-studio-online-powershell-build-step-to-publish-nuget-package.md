@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Visual Studio Online PowerShell build steps to publish NuGet packages'
 pubDate: 2015-11-18T07:00:45+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

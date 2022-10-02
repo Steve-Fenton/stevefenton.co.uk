@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeSpec compared to SpecFlow'
 pubDate: 2015-12-15T06:00:38+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

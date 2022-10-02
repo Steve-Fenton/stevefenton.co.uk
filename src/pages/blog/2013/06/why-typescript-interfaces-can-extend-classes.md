@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why TypeScript interfaces can extend classes'
 pubDate: 2013-06-19T12:04:58+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=562'
 interface_sidebarlayout:

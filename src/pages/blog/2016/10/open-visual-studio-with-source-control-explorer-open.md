@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Open Visual Studio with Source Control Explorer open'
 pubDate: 2016-10-11T15:12:28+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

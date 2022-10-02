@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Load balancing Microsoft SQL Server with HAProxy'
 pubDate: 2016-11-04T13:03:17+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

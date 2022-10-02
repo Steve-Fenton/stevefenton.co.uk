@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Turn an old phone into a programmable keyboard'
 pubDate: 2020-05-25T21:41:08+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/05/touch-portal-mobile-app.jpg
 categories:

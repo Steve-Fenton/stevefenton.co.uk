@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Useful SpecFlow regular expressions'
 pubDate: 2015-01-31T16:22:01+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

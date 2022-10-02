@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Microsoft Teams &#8211; Ask questions with Polly'
 pubDate: 2021-02-17T17:12:34+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/02/teams-polly.jpg
 categories:

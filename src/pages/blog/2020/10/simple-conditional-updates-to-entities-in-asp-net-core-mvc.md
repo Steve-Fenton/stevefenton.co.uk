@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Simple conditional updates to entities in ASP.NET Core MVC'
 pubDate: 2020-10-11T10:07:28+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

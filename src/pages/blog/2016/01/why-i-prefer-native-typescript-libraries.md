@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why I prefer native TypeScript libraries'
 pubDate: 2016-01-07T20:23:14+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

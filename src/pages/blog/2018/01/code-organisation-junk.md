@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Code organisation and junk'
 pubDate: 2018-01-05T06:00:45+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

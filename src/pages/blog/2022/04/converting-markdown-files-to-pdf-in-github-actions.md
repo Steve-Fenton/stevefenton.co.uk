@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Converting markdown files to PDF in GitHub actions'
 pubDate: 2022-04-14T13:24:36+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/04/github-action-complete.jpg
 categories:

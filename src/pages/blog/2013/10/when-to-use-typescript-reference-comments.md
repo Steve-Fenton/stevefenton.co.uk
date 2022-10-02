@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'When to use TypeScript reference comments'
 pubDate: 2013-10-04T10:48:40+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=503'
 interface_sidebarlayout:

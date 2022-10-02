@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 initializers and immutability'
 pubDate: 2020-05-21T06:30:55+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

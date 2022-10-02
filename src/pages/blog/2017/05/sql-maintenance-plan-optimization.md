@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'SQL maintenance plan optimization'
 pubDate: 2017-05-30T14:10:41+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

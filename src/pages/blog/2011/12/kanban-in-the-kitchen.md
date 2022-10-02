@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Kanban in the kitchen'
 pubDate: 2011-12-13T17:10:54+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=875'
 interface_sidebarlayout:

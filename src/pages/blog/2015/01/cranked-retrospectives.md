@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Cranked retrospectives'
 pubDate: 2015-01-03T16:53:59+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

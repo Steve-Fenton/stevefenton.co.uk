@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'WordPress custom query page size'
 pubDate: 2017-11-28T08:50:39+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - CMS

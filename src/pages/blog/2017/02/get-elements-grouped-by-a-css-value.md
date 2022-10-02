@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Get elements grouped by a CSS value'
 pubDate: 2017-02-28T08:44:22+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

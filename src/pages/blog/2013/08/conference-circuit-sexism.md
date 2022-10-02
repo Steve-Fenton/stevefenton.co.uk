@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Conference circuit sexism'
 pubDate: 2013-08-02T11:36:40+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=530'
 interface_sidebarlayout:

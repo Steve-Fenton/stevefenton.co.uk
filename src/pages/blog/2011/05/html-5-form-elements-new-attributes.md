@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML5 form elements new attributes'
 pubDate: 2011-05-23T19:16:26+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=949'
 interface_sidebarlayout:

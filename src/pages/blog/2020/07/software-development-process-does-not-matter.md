@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Software development: Process does not matter'
 pubDate: 2020-07-08T19:03:25+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/07/process-quadrants-of-intent.jpg
 categories:

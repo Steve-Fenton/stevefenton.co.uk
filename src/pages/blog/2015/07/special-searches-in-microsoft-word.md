@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Special searches in Microsoft Word'
 pubDate: 2015-07-01T23:34:15+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

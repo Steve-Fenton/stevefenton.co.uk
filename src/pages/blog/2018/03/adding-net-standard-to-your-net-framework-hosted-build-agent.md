@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding .NET Standard to your .NET Framework hosted build agent'
 pubDate: 2018-03-19T10:12:27+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

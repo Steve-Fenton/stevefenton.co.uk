@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Quaductionism &#8211; Clarity via reductionism'
 pubDate: 2017-10-24T22:15:14+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

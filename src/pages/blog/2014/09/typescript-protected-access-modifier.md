@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript protected access modifier'
 pubDate: 2014-09-26T20:49:18+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=277'
 interface_sidebarlayout:

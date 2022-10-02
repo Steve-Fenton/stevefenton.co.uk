@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A PowerShell script to find an run a scheduled task based on the task argument'
 pubDate: 2022-01-19T12:43:52+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

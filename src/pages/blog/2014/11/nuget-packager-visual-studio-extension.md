@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'NuGet Packager Visual Studio extension'
 pubDate: 2014-11-03T20:17:38+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

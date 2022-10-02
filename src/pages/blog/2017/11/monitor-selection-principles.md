@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Monitor Selection Principles'
 pubDate: 2017-11-27T05:00:59+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

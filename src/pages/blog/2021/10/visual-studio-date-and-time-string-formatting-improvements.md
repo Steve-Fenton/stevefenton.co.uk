@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio date and time string formatting improvements'
 pubDate: 2021-10-26T13:36:48+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Example test MIME message'
 pubDate: 2014-11-21T20:03:15+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

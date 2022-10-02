@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Continued pie chart hatred'
 pubDate: 2010-12-02T20:11:46+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=992'
 interface_sidebarlayout:

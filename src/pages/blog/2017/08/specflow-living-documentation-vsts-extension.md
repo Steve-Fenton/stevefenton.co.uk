@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'SpecFlow living documentation VSTS extension'
 pubDate: 2017-08-01T08:47:16+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

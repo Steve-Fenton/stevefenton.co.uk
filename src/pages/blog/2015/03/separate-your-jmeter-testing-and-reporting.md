@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Separate your JMeter testing and reporting'
 pubDate: 2015-03-28T15:45:26+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Notifications for web apps'
 pubDate: 2020-08-05T06:00:10+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/08/web-notification.jpg
 categories:

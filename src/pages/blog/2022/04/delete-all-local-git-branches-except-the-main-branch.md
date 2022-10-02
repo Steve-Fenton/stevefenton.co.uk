@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Delete all local git branches except the main branch'
 pubDate: 2022-04-07T14:41:30+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

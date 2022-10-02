@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Unity with WebAPI Testing'
 pubDate: 2014-05-05T22:17:16+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=359'
 interface_sidebarlayout:

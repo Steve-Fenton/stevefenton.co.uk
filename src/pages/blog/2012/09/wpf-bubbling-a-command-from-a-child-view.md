@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'WPF bubbling a command from a child view'
 pubDate: 2012-09-20T23:57:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=736'
 interface_sidebarlayout:

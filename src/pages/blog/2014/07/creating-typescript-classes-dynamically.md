@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Creating TypeScript classes dynamically'
 pubDate: 2014-07-11T21:41:44+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=320'
 interface_sidebarlayout:

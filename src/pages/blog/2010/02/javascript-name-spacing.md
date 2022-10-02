@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript Namespacing'
 pubDate: 2010-02-03T22:11:14+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1059'
 interface_sidebarlayout:

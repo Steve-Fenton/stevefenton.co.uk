@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Goodbye old browsers'
 pubDate: 2014-01-03T23:26:43+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=438'
 interface_sidebarlayout:

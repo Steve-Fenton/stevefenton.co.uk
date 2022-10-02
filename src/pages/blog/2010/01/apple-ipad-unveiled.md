@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Apple iPad Unveiled'
 pubDate: 2010-01-28T22:13:28+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1061'
 interface_sidebarlayout:

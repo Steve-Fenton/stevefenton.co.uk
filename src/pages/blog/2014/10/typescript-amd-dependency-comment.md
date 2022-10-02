@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript AMD dependency comment'
 pubDate: 2014-10-20T20:27:46+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

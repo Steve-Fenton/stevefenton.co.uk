@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Log Parser Studio to get request by host name'
 pubDate: 2016-04-19T06:00:21+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

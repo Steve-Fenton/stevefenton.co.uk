@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pessimistic road mapping'
 pubDate: 2014-02-24T22:45:05+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=390'
 interface_sidebarlayout:

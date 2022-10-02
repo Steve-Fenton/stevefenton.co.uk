@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Easily collect audit history on SQL Server tables'
 pubDate: 2019-09-26T07:50:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

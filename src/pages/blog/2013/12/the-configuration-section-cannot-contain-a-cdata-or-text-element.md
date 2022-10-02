@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The configuration section cannot contain a CDATA or text element'
 pubDate: 2013-12-13T09:38:44+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=466'
 interface_sidebarlayout:

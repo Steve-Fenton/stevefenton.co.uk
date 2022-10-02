@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Hey TypeScript! Where are my compiled JavaScript files'
 pubDate: 2013-12-07T09:48:18+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=473'
 interface_sidebarlayout:

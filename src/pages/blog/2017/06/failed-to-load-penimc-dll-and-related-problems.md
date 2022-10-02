@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Failed to load penimc.dll and related problems'
 pubDate: 2017-06-20T10:13:25+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

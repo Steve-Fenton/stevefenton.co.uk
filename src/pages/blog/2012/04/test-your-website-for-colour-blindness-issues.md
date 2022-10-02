@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Test your website for colour blindness issues'
 pubDate: 2012-04-29T16:16:00+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=808'
 interface_sidebarlayout:

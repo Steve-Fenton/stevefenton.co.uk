@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Octopus Deploy package upload order matters'
 pubDate: 2016-02-03T06:00:24+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

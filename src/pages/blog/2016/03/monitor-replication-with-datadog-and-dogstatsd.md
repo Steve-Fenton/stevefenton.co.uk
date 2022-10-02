@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Monitor replication with DataDog and DogStatsd'
 pubDate: 2016-03-08T06:00:47+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

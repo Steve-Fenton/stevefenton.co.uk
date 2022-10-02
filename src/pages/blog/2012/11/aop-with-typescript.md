@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'AOP with TypeScript'
 pubDate: 2012-11-14T23:04:49+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=696'
 interface_sidebarlayout:

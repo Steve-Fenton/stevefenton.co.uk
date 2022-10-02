@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The ESM module loader is experimental'
 pubDate: 2019-08-23T08:17:04+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

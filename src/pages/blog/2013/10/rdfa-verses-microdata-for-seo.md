@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'RDFa vs Microdata for SEO'
 pubDate: 2013-10-09T10:46:56+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=501'
 interface_sidebarlayout:

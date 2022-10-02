@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Kindle or Kindle Fire or Kindle Paperwhite'
 pubDate: 2012-11-12T23:06:48+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=698'
 interface_sidebarlayout:

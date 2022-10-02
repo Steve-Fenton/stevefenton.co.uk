@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using code contracts to separate your concerns'
 pubDate: 2012-11-05T23:07:47+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=700'
 interface_sidebarlayout:

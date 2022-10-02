@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Peeling the Agile onion'
 pubDate: 2014-02-07T23:05:24+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=410'
 interface_sidebarlayout:

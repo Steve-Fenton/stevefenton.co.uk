@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Drawing on Carl Rogers for Agile'
 pubDate: 2013-05-17T14:23:06+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=586'
 interface_sidebarlayout:

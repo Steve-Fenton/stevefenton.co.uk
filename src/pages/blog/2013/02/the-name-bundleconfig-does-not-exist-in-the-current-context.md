@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The name BundleConfig does not exist in the current context'
 pubDate: 2013-02-18T22:01:11+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=651'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How I use TypeScript in 2022'
 pubDate: 2022-09-05T18:00:31+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

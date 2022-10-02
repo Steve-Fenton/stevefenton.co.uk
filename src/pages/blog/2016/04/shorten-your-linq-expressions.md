@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Shorten your Linq expressions'
 pubDate: 2016-04-14T06:00:11+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

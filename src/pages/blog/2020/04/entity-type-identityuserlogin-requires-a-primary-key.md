@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Entity type IdentityUserLogin<string> requires a primary key'
 pubDate: 2020-04-14T07:50:23+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Strings contain empty strings'
 pubDate: 2021-03-16T11:13:21+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

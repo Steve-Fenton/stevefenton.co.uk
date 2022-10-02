@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Setting the default start-up project in Visual Studio'
 pubDate: 2015-10-28T08:12:59+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Conditionally add filters only when a value is supplied'
 pubDate: 2015-07-25T07:30:26+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

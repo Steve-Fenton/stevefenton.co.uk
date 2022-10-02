@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Tool decision approval process'
 pubDate: 2017-06-04T20:24:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

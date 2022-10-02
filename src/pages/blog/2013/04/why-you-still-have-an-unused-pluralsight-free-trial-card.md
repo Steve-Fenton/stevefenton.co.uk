@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why you still have an unused Pluralsight free trial card'
 pubDate: 2013-04-12T15:15:29+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=619'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Translating your ASP.NET MVC routes'
 pubDate: 2015-08-31T20:09:57+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

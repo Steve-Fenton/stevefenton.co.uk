@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Alternative culture and respecting people'
 pubDate: 2013-06-28T11:59:53+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=554'
 interface_sidebarlayout:

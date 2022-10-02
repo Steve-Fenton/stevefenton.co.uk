@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Show Reassigned Variables in Visual Studio'
 pubDate: 2022-01-04T13:16:00+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/01/reassigned-variable.jpg
 categories:

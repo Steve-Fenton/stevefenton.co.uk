@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Genius in hindsight: TypeScript type annotations'
 pubDate: 2019-01-28T18:14:20+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

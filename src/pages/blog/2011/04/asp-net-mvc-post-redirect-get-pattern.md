@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'ASP .NET MVC post-redirect-get pattern'
 pubDate: 2011-04-05T19:39:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=965'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Unpeeling pie charts'
 pubDate: 2019-09-23T16:53:42+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Publish an NPM package'
 pubDate: 2014-11-29T19:59:46+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript remote error logging'
 pubDate: 2012-09-07T00:06:46+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=742'
 interface_sidebarlayout:

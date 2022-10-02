@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'jQuery Get Text While Excluding Children'
 pubDate: 2010-07-05T21:06:23+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1020'
 interface_sidebarlayout:

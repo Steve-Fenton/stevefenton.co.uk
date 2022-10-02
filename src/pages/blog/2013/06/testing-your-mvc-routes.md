@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Testing your MVC routes'
 pubDate: 2013-06-21T12:03:34+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=560'
 interface_sidebarlayout:

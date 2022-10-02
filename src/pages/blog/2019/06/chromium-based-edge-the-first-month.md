@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Chromium-based Edge: The first month'
 pubDate: 2019-06-01T15:58:39+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Analytics: More users than sessions'
 pubDate: 2019-03-01T07:00:03+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/02/sample-users-session.png
 categories:

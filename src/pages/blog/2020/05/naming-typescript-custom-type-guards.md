@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Naming TypeScript custom type guards'
 pubDate: 2020-05-12T15:22:16+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

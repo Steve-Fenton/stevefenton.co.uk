@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Disk optimisation in your brain'
 pubDate: 2013-06-03T12:13:32+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=575'
 interface_sidebarlayout:

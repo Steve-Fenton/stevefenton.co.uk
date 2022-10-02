@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Test Automation Philosophy'
 pubDate: 2015-02-21T16:08:36+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

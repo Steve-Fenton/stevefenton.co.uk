@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'ASP.NET MVC image squishing with Picz'
 pubDate: 2016-05-12T07:00:20+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

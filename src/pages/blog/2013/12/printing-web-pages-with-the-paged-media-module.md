@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Printing web pages with the Paged Media module'
 pubDate: 2013-12-02T09:58:37+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=479'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automatically remove unused using directives on save in Visual Studio'
 pubDate: 2012-02-14T16:58:06+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=861'
 interface_sidebarlayout:

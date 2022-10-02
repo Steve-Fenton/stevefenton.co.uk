@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Waterfall vs Agile graph'
 pubDate: 2014-01-31T23:13:25+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=422'
 interface_sidebarlayout:

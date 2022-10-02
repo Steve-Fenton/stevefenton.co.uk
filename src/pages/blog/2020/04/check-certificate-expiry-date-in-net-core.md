@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Check certificate expiry date in .NET Core'
 pubDate: 2020-04-04T15:35:51+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

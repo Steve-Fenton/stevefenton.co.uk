@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A practical right-to-left example'
 pubDate: 2022-01-28T09:05:26+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/01/task-board.jpg
 categories:

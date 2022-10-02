@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Katelyn Crawler to find all domain references'
 pubDate: 2017-11-01T05:00:41+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

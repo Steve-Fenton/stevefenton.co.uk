@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'New Teams insights features'
 pubDate: 2021-09-20T15:48:38+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/09/teams-praise-feature.png
 categories:

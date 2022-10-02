@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The latest shameful pie chart'
 pubDate: 2011-09-26T17:43:34+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=902'
 interface_sidebarlayout:

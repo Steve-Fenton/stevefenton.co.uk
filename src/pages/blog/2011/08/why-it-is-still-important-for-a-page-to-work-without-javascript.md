@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why it is still important for a page to work without JavaScript'
 pubDate: 2011-08-09T17:55:18+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=916'
 interface_sidebarlayout:

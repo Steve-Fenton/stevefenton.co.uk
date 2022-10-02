@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Real Linq-style operations using ECMAScript 6'
 pubDate: 2014-03-21T22:27:58+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=371'
 interface_sidebarlayout:

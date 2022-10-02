@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Lloyds show off leggera charts'
 pubDate: 2013-03-12T15:39:29+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=628'
 interface_sidebarlayout:

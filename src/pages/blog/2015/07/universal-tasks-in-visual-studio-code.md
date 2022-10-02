@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Universal tasks in Visual Studio Code'
 pubDate: 2015-07-22T07:30:21+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

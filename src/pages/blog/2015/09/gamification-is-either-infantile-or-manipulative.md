@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Gamification is either infantile or manipulative'
 pubDate: 2015-09-19T11:00:08+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

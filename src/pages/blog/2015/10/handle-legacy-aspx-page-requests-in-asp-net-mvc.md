@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Handle legacy .aspx page requests in ASP.NET MVC'
 pubDate: 2015-10-05T19:00:26+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

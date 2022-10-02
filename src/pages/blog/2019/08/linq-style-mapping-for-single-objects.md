@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Linq style mapping for single objects'
 pubDate: 2019-08-25T14:19:27+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

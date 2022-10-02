@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Raw string literals in C#'
 pubDate: 2022-02-17T20:00:41+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/02/raw-string-literals.jpg
 categories:

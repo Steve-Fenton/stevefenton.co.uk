@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Website go faster stripes'
 pubDate: 2014-01-06T23:25:05+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=436'
 interface_sidebarlayout:

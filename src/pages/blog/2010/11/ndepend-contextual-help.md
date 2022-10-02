@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'NDepend Contextual Help'
 pubDate: 2010-11-05T20:38:27+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1001'
 interface_sidebarlayout:

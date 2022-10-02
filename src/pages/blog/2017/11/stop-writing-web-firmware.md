@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stop writing web firmware'
 pubDate: 2017-11-30T08:50:47+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

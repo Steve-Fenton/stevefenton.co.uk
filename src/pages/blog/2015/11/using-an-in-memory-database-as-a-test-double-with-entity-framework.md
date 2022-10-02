@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using an in-memory database as a test double with Entity Framework'
 pubDate: 2015-11-10T07:00:41+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

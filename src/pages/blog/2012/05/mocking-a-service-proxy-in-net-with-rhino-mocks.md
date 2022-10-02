@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Mocking a service proxy in .NET with Rhino Mocks'
 pubDate: 2012-05-10T16:12:30+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=802'
 interface_sidebarlayout:

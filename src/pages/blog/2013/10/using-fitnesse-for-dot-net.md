@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Fitnesse for .NET'
 pubDate: 2013-10-21T10:43:36+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=497'
 interface_sidebarlayout:

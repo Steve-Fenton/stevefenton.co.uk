@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why do we love arbitrary arguments?'
 pubDate: 2012-01-17T17:05:27+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=870'
 interface_sidebarlayout:

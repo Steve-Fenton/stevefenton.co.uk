@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Increase productivity by quantifying simpler tasks'
 pubDate: 2020-10-21T08:21:12+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

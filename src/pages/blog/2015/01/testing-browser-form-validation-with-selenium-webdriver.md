@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Testing browser form validation with Selenium WebDriver'
 pubDate: 2015-01-10T16:47:31+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

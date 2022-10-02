@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '#SleepBedless nominations'
 pubDate: 2020-06-28T09:32:33+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Other

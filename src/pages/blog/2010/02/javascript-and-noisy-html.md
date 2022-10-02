@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript and Noisy HTML'
 pubDate: 2010-02-10T22:06:45+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1057'
 interface_sidebarlayout:

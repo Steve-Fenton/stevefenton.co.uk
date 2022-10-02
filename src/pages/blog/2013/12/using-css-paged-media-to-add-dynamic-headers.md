@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using CSS paged media to add dynamic headers'
 pubDate: 2013-12-04T09:52:35+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=477'
 interface_sidebarlayout:

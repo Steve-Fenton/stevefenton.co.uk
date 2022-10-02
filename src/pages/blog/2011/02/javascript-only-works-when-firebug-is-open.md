@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript only works when Firebug is open'
 pubDate: 2011-02-16T19:46:07+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=971'
 interface_sidebarlayout:

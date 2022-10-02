@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# Caller Attributes make tracing and logging easier'
 pubDate: 2021-09-03T07:50:24+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

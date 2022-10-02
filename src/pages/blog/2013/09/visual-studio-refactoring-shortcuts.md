@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio refactoring shortcuts'
 pubDate: 2013-09-12T10:55:14+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=512'
 interface_sidebarlayout:

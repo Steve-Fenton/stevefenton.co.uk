@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Swinging the balance in favour of what you know'
 pubDate: 2012-04-13T16:24:47+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=819'
 interface_sidebarlayout:

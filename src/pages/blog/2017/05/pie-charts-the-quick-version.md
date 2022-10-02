@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pie charts &#8211; The quick version'
 pubDate: 2017-05-09T08:24:48+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

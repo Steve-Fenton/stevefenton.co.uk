@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Who broke the build?'
 pubDate: 2013-04-24T15:05:56+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=606'
 interface_sidebarlayout:

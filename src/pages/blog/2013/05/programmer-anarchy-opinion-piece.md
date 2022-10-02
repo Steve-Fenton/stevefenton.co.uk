@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Programmer Anarchy opinion piece'
 pubDate: 2013-05-27T12:15:39+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=578'
 interface_sidebarlayout:

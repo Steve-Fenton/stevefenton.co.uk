@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Title case text with MySql'
 pubDate: 2022-05-17T20:00:21+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

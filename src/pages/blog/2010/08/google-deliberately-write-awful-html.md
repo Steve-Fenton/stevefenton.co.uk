@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Google Deliberately Write Awful HTML'
 pubDate: 2010-08-05T20:56:17+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1013'
 interface_sidebarlayout:

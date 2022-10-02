@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pretty output from JSON.stringify'
 pubDate: 2021-06-03T13:59:39+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

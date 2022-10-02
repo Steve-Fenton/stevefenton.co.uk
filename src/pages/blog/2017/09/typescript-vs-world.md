@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript vs the world'
 pubDate: 2017-09-24T11:22:42+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

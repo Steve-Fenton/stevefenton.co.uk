@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Pomodoro Technique'
 pubDate: 2011-10-01T17:41:03+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=898'
 interface_sidebarlayout:

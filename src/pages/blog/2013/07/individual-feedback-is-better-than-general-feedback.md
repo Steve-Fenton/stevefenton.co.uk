@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Individual feedback is better than general feedback'
 pubDate: 2013-07-19T11:46:29+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=540'
 interface_sidebarlayout:

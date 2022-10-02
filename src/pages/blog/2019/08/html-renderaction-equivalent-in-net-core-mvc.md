@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Html.RenderAction equivalent in .NET Core MVC'
 pubDate: 2019-08-28T23:25:13+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

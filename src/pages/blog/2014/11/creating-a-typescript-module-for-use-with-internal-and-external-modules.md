@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Creating a TypeScript module for use with internal and external modules'
 pubDate: 2014-11-05T20:13:42+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

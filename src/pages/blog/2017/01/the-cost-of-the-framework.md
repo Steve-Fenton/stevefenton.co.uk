@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The cost of the framework'
 pubDate: 2017-01-19T06:00:10+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

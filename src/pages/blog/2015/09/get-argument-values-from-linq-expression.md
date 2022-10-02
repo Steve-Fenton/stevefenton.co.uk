@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Get argument values from Linq expressions'
 pubDate: 2015-09-08T08:00:39+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

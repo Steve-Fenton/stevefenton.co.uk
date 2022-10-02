@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The DITE Cycle: Data Insight Theory Experiment'
 pubDate: 2019-09-02T07:50:53+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/08/dite-cycle.jpg
 categories:

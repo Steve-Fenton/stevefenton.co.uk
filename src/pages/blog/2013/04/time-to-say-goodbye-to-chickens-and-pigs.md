@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Time to say goodbye to chickens And pigs'
 pubDate: 2013-04-26T14:53:01+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=604'
 interface_sidebarlayout:

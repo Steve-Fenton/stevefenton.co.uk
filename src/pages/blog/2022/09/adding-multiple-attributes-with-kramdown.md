@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding multiple attributes with kramdown'
 pubDate: 2022-09-06T10:49:51+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

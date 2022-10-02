@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: Stop passing laws about things you don't understand
 pubDate: 2012-01-24T17:03:49+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=868'
 interface_sidebarlayout:

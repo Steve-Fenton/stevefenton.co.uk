@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'My Windows Service is running but cannot be found'
 pubDate: 2014-10-17T20:33:58+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: It's time to support CSS dark mode
 pubDate: 2021-01-28T06:00:57+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/01/moon-black-sky.jpg
 categories:

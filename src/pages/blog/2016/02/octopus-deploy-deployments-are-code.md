@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Octopus Deploy: Deployments are code'
 pubDate: 2016-02-17T07:00:11+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

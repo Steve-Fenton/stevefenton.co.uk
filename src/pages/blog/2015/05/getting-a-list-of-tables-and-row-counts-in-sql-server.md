@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Getting a list of tables and row counts in SQL Server'
 pubDate: 2015-05-09T00:01:42+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

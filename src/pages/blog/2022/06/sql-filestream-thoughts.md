@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'SQL Filestream thoughts'
 pubDate: 2022-06-07T16:01:14+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

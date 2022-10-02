@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '.NET Core Entity Framework Migrations'
 pubDate: 2020-03-28T21:37:15+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

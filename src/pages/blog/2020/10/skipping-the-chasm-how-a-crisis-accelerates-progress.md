@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Skipping the chasm: How a crisis accelerates progress'
 pubDate: 2020-10-14T06:00:28+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

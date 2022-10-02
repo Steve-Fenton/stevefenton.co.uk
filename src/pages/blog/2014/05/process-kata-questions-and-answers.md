@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Process Kata questions and answers'
 pubDate: 2014-05-01T22:19:59+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=361'
 interface_sidebarlayout:

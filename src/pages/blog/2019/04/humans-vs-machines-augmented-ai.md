@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Humans vs Machines: Augmented AI'
 pubDate: 2019-04-29T21:10:46+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

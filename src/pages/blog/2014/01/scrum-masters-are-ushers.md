@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Scrum Masters are ushers'
 pubDate: 2014-01-24T23:17:29+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=427'
 interface_sidebarlayout:

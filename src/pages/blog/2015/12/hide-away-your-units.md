@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Hide away your units'
 pubDate: 2015-12-04T14:26:34+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

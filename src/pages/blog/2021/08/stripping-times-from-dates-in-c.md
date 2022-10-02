@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stripping times from dates in C#'
 pubDate: 2021-08-25T09:58:03+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

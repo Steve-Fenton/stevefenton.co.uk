@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Exclude NuGet package dependency from a NuGet package'
 pubDate: 2015-06-23T18:26:09+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

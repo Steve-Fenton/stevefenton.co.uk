@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML required attribute works on select elements'
 pubDate: 2013-11-20T10:05:00+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=485'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Duplication vs Coupling'
 pubDate: 2021-05-29T07:00:09+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Mainstream Effect'
 pubDate: 2016-01-20T06:00:47+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

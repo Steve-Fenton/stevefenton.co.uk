@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Investigate JavaScript execution times using Edge Dev Tools'
 pubDate: 2020-05-11T16:48:19+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

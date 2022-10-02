@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'ES6 destructuring funk'
 pubDate: 2014-03-17T22:30:39+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=374'
 interface_sidebarlayout:

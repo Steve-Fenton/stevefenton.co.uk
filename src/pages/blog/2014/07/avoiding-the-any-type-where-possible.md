@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Avoiding the any type where possible'
 pubDate: 2014-07-14T21:39:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=318'
 interface_sidebarlayout:

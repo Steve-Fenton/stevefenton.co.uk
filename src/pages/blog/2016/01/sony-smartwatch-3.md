@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Sony SmartWatch 3'
 pubDate: 2016-01-09T06:00:08+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

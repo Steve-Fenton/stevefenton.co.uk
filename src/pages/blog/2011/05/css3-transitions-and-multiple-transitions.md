@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'CSS3 transitions and multiple transitions'
 pubDate: 2011-05-27T19:05:10+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=939'
 interface_sidebarlayout:

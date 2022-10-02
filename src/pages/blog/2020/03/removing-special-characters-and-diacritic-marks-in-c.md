@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Removing special characters and diacritic marks in C#'
 pubDate: 2020-03-26T13:18:16+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

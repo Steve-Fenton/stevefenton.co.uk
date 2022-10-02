@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A glance at PowerToys and WinGet'
 pubDate: 2020-05-19T21:22:37+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/05/powertoys-run-shell-command.jpg
 categories:

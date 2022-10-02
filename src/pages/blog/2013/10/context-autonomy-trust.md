@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Context. Autonomy. Trust.'
 pubDate: 2013-10-11T10:45:38+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=499'
 interface_sidebarlayout:

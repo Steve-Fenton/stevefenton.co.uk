@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Column charts can lie too'
 pubDate: 2012-03-11T16:29:09+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=827'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Battery status API'
 pubDate: 2012-06-26T15:55:13+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=785'
 interface_sidebarlayout:

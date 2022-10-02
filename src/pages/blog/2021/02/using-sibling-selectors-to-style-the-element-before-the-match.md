@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using sibling-selectors to style the element before the match'
 pubDate: 2021-02-25T14:03:59+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

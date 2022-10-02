@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Log Parser Studio to find user agents'
 pubDate: 2016-08-02T12:18:52+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

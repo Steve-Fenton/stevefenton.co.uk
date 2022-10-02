@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Enabling SQL Service Broker hangs indefinitely'
 pubDate: 2015-08-12T14:23:42+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

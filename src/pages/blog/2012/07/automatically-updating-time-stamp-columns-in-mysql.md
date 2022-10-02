@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automatically updating time stamp columns in MySql'
 pubDate: 2012-07-23T15:34:41+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=768'
 interface_sidebarlayout:

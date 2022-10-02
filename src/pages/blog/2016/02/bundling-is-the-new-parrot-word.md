@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Bundling is the new parrot word'
 pubDate: 2016-02-15T06:00:40+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

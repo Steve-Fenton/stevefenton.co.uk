@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Dynamically creating TypeScript classes based on a type argument'
 pubDate: 2015-12-31T07:56:12+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Election 2017 boundaries'
 pubDate: 2017-06-10T19:48:01+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

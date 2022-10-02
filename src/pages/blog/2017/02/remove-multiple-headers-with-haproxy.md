@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Remove multiple headers with HAProxy'
 pubDate: 2017-02-02T13:38:29+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

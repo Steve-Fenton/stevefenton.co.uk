@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A journey through sexism'
 pubDate: 2013-02-13T22:08:20+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=655'
 interface_sidebarlayout:

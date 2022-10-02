@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Free up Windows Update disk space'
 pubDate: 2016-08-24T14:42:13+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

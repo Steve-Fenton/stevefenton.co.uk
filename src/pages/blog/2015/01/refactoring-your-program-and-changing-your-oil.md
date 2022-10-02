@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Refactoring your program and changing your oil'
 pubDate: 2015-01-20T16:27:42+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

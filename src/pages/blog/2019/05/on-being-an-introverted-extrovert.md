@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'On Being an Introverted Extrovert'
 pubDate: 2019-05-12T08:00:21+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Psychology

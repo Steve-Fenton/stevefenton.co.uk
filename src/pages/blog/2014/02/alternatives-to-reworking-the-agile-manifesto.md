@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Alternatives to reworking the Agile Manifesto'
 pubDate: 2014-02-12T23:03:53+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=408'
 interface_sidebarlayout:

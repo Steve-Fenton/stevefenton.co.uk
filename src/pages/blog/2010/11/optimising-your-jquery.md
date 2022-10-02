@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Optimising Your jQuery'
 pubDate: 2010-11-11T20:17:22+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=999'
 interface_sidebarlayout:

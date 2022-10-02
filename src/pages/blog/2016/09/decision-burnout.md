@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Decision burnout'
 pubDate: 2016-09-17T14:51:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

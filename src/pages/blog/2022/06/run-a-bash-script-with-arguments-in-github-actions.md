@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Run a Bash Script with Arguments in GitHub Actions'
 pubDate: 2022-06-14T11:46:47+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

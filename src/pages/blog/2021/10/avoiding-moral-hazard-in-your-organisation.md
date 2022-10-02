@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Avoiding Moral Hazard in your organisation'
 pubDate: 2021-10-07T10:13:04+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/01/dangerous-zone.jpg
 categories:

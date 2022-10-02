@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Inserting soft hyphens into a string just before capital letters'
 pubDate: 2016-04-08T06:00:08+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

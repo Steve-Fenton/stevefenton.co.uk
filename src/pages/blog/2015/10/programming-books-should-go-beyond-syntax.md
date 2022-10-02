@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Programming books should go beyond syntax'
 pubDate: 2015-10-27T07:31:21+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

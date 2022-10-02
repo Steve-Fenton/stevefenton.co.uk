@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Meet the Trello Butler'
 pubDate: 2019-10-16T08:56:03+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/10/trello-butler-workflow-automation.jpg
 categories:

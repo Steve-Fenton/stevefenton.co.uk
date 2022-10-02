@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stop mixing TypeScript modules and namespaces'
 pubDate: 2017-08-22T12:05:15+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

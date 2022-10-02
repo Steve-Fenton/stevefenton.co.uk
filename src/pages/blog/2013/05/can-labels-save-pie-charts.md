@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Can labels save pie charts?'
 pubDate: 2013-05-06T14:44:28+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=597'
 interface_sidebarlayout:

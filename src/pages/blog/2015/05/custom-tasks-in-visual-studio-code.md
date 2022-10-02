@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Custom tasks in Visual Studio Code'
 pubDate: 2015-05-04T00:03:26+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

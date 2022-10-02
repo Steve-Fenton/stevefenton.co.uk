@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Z-index and the stacking context'
 pubDate: 2012-08-08T15:29:50+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=762'
 interface_sidebarlayout:

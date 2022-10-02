@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The difference between The Phoenix Project and The Unicorn Project'
 pubDate: 2022-09-02T08:22:52+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

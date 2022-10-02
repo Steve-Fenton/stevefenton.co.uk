@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Slacker parsing in JavaScript'
 pubDate: 2014-02-15T23:00:40+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=406'
 interface_sidebarlayout:

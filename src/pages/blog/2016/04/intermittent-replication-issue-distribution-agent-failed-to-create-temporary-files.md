@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Intermittent replication issue &#8211; Distribution agent failed to create temporary files'
 pubDate: 2016-04-20T06:00:12+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The forgotten use of story slicing'
 pubDate: 2015-03-07T16:02:28+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

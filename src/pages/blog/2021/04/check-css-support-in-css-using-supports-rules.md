@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Check CSS support in CSS using @supports rules'
 pubDate: 2021-04-20T13:15:19+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

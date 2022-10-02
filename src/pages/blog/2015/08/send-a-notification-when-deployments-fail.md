@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Send a notification when deployments fail'
 pubDate: 2015-08-03T07:30:41+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

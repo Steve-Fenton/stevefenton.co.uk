@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stop mixing TypeScript Internal and external modules'
 pubDate: 2015-05-28T23:52:05+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

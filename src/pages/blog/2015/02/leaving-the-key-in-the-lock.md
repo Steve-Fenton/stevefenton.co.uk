@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Leaving the key in the lock'
 pubDate: 2015-02-28T16:04:02+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

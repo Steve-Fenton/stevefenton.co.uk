@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Running a query across multiple SQL Server databases'
 pubDate: 2022-01-18T11:36:59+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

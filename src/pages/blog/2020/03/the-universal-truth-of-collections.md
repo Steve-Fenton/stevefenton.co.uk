@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Universal Truth of Collections'
 pubDate: 2020-03-12T20:29:00+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

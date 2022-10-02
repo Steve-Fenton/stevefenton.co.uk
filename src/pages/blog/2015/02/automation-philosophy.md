@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automation Philosophy'
 pubDate: 2015-02-14T16:11:17+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Export a list of all Azure resources to CSV'
 pubDate: 2017-12-04T13:43:33+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Azure

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Command and control in Agile teams'
 pubDate: 2013-04-19T15:12:20+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=614'
 interface_sidebarlayout:

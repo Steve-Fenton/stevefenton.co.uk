@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Add X-Forwarded-For IP address to IIS logs'
 pubDate: 2016-08-08T16:52:55+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

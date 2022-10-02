@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The disheartening early phase of cycle times'
 pubDate: 2019-05-14T21:00:41+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/05/early-cycle-time.jpg
 categories:

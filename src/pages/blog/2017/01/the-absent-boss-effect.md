@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Absent Boss Effect'
 pubDate: 2017-01-17T06:00:01+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

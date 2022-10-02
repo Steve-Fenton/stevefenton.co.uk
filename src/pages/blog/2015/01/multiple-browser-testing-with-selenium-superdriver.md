@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Multiple browser testing with Selenium SuperDriver'
 pubDate: 2015-01-18T16:29:20+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

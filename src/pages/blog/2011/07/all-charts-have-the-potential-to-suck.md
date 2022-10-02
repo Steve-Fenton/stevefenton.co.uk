@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'All charts have the potential to suck'
 pubDate: 2011-07-11T18:01:53+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=922'
 interface_sidebarlayout:

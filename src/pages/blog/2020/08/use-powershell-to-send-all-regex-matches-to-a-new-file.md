@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Use PowerShell to send all regex matches to a new file'
 pubDate: 2020-08-14T17:19:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Datadog notes'
 pubDate: 2019-01-07T13:52:23+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

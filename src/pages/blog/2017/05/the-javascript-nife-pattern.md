@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The JavaScript NIFE Pattern'
 pubDate: 2017-05-19T16:04:30+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

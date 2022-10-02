@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to get accurate element width as a floating point number'
 pubDate: 2021-07-02T18:15:51+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

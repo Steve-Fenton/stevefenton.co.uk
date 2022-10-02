@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Parameter Null Checking in C#'
 pubDate: 2022-03-04T15:39:44+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

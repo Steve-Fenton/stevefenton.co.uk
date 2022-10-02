@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Surgical team vs foreman metaphors'
 pubDate: 2014-02-26T22:41:50+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=386'
 interface_sidebarlayout:

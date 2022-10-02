@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Flux Capacitor of control'
 pubDate: 2012-08-09T09:53:33+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=758'
 interface_sidebarlayout:

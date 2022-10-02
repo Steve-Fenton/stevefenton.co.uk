@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using PowerShell to create Windows users'
 pubDate: 2015-11-27T06:30:58+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

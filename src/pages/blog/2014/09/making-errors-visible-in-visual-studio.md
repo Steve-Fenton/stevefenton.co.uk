@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Making errors visible in Visual Studio'
 pubDate: 2014-09-10T20:58:36+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

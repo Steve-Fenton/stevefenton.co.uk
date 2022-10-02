@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'DataDog Interactive Monitor Report'
 pubDate: 2016-04-12T06:00:23+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to create important messages in Teams'
 pubDate: 2021-06-11T11:56:35+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/06/important-message-example.jpg
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Supercharge your Android Wear battery life'
 pubDate: 2016-01-14T06:00:46+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Manager vs individual contributor vs lubricator'
 pubDate: 2020-01-31T08:02:04+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/01/manager-vs-individual-contributor.jpg
 categories:

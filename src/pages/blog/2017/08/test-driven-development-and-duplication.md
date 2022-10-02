@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Test-driven development and duplication'
 pubDate: 2017-08-04T10:36:40+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

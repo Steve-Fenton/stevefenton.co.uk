@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Run a console application with PowerShell'
 pubDate: 2016-09-29T11:56:11+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

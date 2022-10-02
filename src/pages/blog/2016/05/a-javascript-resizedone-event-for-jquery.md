@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A JavaScript resizeDone event for jQuery'
 pubDate: 2016-05-16T09:14:18+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

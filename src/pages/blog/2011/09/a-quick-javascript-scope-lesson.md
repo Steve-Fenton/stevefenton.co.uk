@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A quick JavaScript scope lesson'
 pubDate: 2011-09-22T17:46:03+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=905'
 interface_sidebarlayout:

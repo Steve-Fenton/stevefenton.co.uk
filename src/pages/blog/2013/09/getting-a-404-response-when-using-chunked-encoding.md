@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Getting a 404 response when using Chunked Encoding'
 pubDate: 2013-09-30T10:49:43+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=506'
 interface_sidebarlayout:

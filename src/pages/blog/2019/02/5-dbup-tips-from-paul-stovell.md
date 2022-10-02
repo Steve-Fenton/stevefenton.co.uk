@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '5 DbUp tips from Paul Stovell'
 pubDate: 2019-02-20T22:17:03+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Hide JavaScript files in Visual Studio Code'
 pubDate: 2015-07-26T07:30:40+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

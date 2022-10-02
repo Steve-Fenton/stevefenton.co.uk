@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML5 forms summary'
 pubDate: 2011-05-23T19:07:50+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=941'
 interface_sidebarlayout:

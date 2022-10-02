@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The testing spotlights'
 pubDate: 2014-02-03T23:09:34+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=416'
 interface_sidebarlayout:

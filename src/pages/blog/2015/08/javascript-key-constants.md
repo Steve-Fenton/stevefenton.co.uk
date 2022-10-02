@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript key constants'
 pubDate: 2015-08-17T07:30:55+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

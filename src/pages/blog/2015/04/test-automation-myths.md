@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Test automation myths'
 pubDate: 2015-04-25T00:20:46+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

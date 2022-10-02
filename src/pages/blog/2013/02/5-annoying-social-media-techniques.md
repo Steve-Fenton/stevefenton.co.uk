@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '5 annoying social media techniques'
 pubDate: 2013-02-26T21:46:18+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=642'
 interface_sidebarlayout:

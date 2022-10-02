@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Microsoft Teams &#8211; What Microsoft taught me this week'
 pubDate: 2020-03-17T18:07:56+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Office

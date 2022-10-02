@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Web select makes copy and paste easier'
 pubDate: 2022-04-04T19:46:35+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/04/web-select-table.jpg
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Here Maps scroll wheel temporary fix'
 pubDate: 2021-03-08T16:00:38+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/03/colour-map.png
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Select the host name from a string in SQL'
 pubDate: 2015-09-14T08:43:46+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Counting a non-generic IEnumerable'
 pubDate: 2021-06-23T19:01:08+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

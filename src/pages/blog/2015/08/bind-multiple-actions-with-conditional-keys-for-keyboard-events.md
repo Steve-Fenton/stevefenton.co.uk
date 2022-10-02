@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Bind multiple actions with conditional keys for keyboard events'
 pubDate: 2015-08-14T07:30:17+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

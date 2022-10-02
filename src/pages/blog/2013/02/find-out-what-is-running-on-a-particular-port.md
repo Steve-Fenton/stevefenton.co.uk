@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Find out what is running on a particular port'
 pubDate: 2013-02-09T22:09:30+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=657'
 interface_sidebarlayout:

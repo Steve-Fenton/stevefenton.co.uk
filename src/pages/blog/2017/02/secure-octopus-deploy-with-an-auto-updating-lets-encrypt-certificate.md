@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: Secure Octopus Deploy with an auto-updating Let's Encrypt certificate
 pubDate: 2017-02-15T06:00:14+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

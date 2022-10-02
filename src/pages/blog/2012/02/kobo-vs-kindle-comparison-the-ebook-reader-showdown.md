@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Kobo vs Kindle comparison: The ebook reader showdown'
 pubDate: 2012-02-29T16:44:44+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=841'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Simpler TypeScript bit flags'
 pubDate: 2016-01-04T20:25:15+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

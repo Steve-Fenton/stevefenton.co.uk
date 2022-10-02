@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Sociable Pomodoro Timer'
 pubDate: 2019-04-14T16:34:44+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

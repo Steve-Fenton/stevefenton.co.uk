@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'New TypeScript toys to play with'
 pubDate: 2013-08-06T11:29:15+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=526'
 interface_sidebarlayout:

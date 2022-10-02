@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Firefox spinners and what they can tell you'
 pubDate: 2011-06-15T18:08:02+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=930'
 interface_sidebarlayout:

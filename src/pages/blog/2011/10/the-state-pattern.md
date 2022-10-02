@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The State Pattern'
 pubDate: 2011-10-19T17:29:43+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=890'
 interface_sidebarlayout:

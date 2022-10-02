@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Cool new Visual Studio features'
 pubDate: 2014-11-12T20:12:39+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

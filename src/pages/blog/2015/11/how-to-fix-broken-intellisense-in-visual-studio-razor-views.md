@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to fix broken IntelliSense in Visual Studio razor views'
 pubDate: 2015-11-09T15:21:25+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

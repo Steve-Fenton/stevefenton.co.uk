@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why you never expose your domain model as your MVC model'
 pubDate: 2013-03-14T15:27:53+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=626'
 interface_sidebarlayout:

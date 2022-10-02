@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Astro paging and listing by category'
 pubDate: 2022-10-02T11:05:05+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

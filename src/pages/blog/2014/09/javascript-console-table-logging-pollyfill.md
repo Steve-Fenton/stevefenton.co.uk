@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript console table logging polyfill'
 pubDate: 2014-09-01T21:13:44+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

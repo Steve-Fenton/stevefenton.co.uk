@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Selenium page object elements'
 pubDate: 2015-01-01T16:57:40+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

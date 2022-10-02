@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Easy API testing with REST Client extension for Visual Studio Code'
 pubDate: 2020-03-16T19:02:17+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/03/vscode-rest-client.jpg
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Getting type safety for TypeScript promises'
 pubDate: 2017-11-21T08:45:18+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

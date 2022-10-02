@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Apply TypeScript types honestly'
 pubDate: 2018-02-26T08:40:30+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML and CSS full screen layout without fuss'
 pubDate: 2015-08-10T07:30:02+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

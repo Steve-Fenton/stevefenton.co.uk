@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Execute raw SQL scripts in Entity Framework Core'
 pubDate: 2020-10-13T07:00:36+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

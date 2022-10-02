@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Really useful JMeter plugins: Parameterized controller'
 pubDate: 2014-03-10T22:36:33+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=379'
 interface_sidebarlayout:

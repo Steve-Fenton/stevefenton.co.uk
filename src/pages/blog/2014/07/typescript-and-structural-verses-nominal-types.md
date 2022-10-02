@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript and structural verses nominal types'
 pubDate: 2014-07-31T21:28:58+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=312'
 interface_sidebarlayout:

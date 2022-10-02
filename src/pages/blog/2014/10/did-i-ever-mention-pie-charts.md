@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Did I ever mention pie charts?'
 pubDate: 2014-10-13T20:39:14+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

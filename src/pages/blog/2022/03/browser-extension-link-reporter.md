@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Browser Extension: Link Reporter'
 pubDate: 2022-03-07T16:13:36+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

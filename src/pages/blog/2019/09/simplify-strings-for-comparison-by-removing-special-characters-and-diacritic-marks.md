@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Simplify strings for comparison by removing special characters and diacritic marks'
 pubDate: 2019-09-13T16:30:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

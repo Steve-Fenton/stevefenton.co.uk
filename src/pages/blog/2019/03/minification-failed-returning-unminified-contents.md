@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Minification failed. Returning unminified contents.'
 pubDate: 2019-03-13T11:39:09+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

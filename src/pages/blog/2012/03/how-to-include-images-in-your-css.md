@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to include images in your CSS'
 pubDate: 2012-03-04T16:41:07+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=839'
 interface_sidebarlayout:

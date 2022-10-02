@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Mixed content warnings on Kentico websites'
 pubDate: 2018-01-26T18:30:41+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - CMS

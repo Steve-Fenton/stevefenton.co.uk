@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Disciplined reading'
 pubDate: 2013-05-20T14:21:45+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=584'
 interface_sidebarlayout:

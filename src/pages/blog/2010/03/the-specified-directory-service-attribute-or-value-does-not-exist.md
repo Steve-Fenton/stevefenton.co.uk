@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Specified Directory Service Attribute or Value Does Not Exist'
 pubDate: 2010-03-16T22:02:18+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1051'
 interface_sidebarlayout:

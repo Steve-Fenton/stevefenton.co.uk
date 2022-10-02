@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pomodoro mistakes and objectives'
 pubDate: 2012-10-17T23:29:29+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=712'
 interface_sidebarlayout:

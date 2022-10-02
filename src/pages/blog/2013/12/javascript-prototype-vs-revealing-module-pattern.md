@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript prototype vs revealing module pattern'
 pubDate: 2013-12-11T09:40:14+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=468'
 interface_sidebarlayout:

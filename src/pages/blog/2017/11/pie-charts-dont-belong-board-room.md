@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: Pie charts don't belong in the board room
 pubDate: 2017-11-25T13:26:55+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

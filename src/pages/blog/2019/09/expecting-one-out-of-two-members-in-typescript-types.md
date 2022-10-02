@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Expecting one out of two members in TypeScript types'
 pubDate: 2019-09-06T06:30:29+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

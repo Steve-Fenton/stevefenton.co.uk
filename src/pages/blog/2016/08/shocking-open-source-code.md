@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Shocking open source code'
 pubDate: 2016-08-05T06:00:06+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

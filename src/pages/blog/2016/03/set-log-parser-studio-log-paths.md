@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Set Log Parser Studio log paths'
 pubDate: 2016-03-29T13:46:05+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

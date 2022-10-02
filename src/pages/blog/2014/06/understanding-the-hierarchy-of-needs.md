@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Understanding the hierarchy of needs'
 pubDate: 2014-06-01T21:55:44+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=342'
 interface_sidebarlayout:

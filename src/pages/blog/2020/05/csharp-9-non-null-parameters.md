@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 non-null parameters'
 pubDate: 2020-05-25T06:30:42+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

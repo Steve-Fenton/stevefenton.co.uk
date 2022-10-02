@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Use NuGet to satisfy open-source license conditions'
 pubDate: 2014-09-09T20:52:21+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=279'
 interface_sidebarlayout:

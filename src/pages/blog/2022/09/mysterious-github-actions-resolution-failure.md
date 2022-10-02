@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Mysterious GitHub Actions resolution failure'
 pubDate: 2022-09-23T15:38:34+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

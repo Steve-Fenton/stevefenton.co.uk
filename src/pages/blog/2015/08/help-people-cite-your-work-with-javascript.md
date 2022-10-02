@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Help people cite your work with JavaScript'
 pubDate: 2015-08-12T07:30:26+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

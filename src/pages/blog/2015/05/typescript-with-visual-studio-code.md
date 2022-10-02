@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript with Visual Studio Code'
 pubDate: 2015-05-02T00:09:39+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

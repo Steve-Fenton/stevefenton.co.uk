@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Trello tricks'
 pubDate: 2015-06-08T23:38:43+01:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Some handy NCrunch tips'
 pubDate: 2011-12-07T17:14:43+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=880'
 interface_sidebarlayout:

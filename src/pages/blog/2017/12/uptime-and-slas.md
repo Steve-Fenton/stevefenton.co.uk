@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Uptime and SLAs'
 pubDate: 2017-12-11T08:50:14+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

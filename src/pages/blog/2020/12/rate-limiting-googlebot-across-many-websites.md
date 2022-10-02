@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Rate-limiting Googlebot across many websites'
 pubDate: 2020-12-31T06:00:32+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

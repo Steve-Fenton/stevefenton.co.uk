@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stop manually assigning TypeScript constructor parameters'
 pubDate: 2013-04-15T15:13:19+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=617'
 interface_sidebarlayout:

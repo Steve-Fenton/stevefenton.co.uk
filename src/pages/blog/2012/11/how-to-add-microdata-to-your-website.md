@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to add Microdata to your website'
 pubDate: 2012-11-28T22:48:31+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=689'
 interface_sidebarlayout:

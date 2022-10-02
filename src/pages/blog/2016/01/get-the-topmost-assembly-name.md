@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Get the topmost assembly name'
 pubDate: 2016-01-23T06:00:50+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

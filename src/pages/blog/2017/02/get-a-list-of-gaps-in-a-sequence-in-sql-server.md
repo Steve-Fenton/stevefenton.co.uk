@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Get a list of gaps in a sequence in SQL Server'
 pubDate: 2017-02-22T10:50:28+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

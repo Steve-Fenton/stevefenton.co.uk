@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Process Kata'
 pubDate: 2014-04-14T22:22:48+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=366'
 interface_sidebarlayout:

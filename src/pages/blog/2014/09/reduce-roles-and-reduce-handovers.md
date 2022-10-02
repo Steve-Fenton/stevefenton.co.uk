@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Reduce roles and reduce handovers'
 pubDate: 2014-09-28T12:07:30+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=11606'
 categories:

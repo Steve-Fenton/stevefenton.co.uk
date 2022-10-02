@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio layout and option changes'
 pubDate: 2019-07-03T22:32:18+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

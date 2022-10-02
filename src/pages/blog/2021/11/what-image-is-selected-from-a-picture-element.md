@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The wrong image seems to be selected from a picture element'
 pubDate: 2021-11-25T09:28:18+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

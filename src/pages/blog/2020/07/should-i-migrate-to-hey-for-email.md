@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Should I migrate to Hey for e-mail?'
 pubDate: 2020-07-01T14:26:06+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

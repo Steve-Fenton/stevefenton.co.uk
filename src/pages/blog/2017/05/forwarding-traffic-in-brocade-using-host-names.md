@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Forwarding traffic in Brocade using host names'
 pubDate: 2017-05-03T12:34:12+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stretch targets in Agile teams'
 pubDate: 2013-07-10T11:56:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=545'
 interface_sidebarlayout:

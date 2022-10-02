@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'NSubstitute vs Moq vs FakeItEasy vs Rhino'
 pubDate: 2014-12-20T19:35:36+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

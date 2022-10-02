@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Mocking Entity Framework DbContext and IDbSet with Rhino Mocks'
 pubDate: 2014-11-01T20:25:01+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

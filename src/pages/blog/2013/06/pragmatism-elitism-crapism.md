@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pragmatism. Elitism. Crapism.'
 pubDate: 2013-06-05T12:12:37+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=573'
 interface_sidebarlayout:

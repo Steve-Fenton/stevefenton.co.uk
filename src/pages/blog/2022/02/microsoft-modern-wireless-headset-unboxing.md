@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Microsoft Modern Wireless Headset unboxing'
 pubDate: 2022-02-15T20:00:27+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/02/PXL_20220215_1233074962.jpg
 categories:

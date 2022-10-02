@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Find Out Who is Logged In to a Server and Kick Them Off'
 pubDate: 2010-03-06T22:04:27+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1055'
 interface_sidebarlayout:

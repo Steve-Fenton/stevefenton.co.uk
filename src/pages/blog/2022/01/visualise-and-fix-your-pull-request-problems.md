@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visualise and fix your pull request problems'
 pubDate: 2022-01-05T14:43:08+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

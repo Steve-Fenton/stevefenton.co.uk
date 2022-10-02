@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '7 Japanese words from Lean you should learn'
 pubDate: 2015-01-24T16:25:57+00:00
-author:
+authors:
     - steve-fenton
 
 medium_post:

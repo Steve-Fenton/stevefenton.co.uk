@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript generics and proposed breaking changes'
 pubDate: 2013-04-22T15:06:27+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=610'
 interface_sidebarlayout:

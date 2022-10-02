@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Test and learn with Google Optimize multivariate testing'
 pubDate: 2018-02-05T08:50:21+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

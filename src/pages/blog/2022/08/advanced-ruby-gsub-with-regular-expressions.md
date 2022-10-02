@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Advanced Ruby gsub with regular expressions'
 pubDate: 2022-08-03T14:07:20+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

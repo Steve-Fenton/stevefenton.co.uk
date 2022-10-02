@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to configure Google Analytics to protect privacy'
 pubDate: 2022-01-31T12:04:07+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Analytics

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Wrapping simple types in a class for identities'
 pubDate: 2012-09-04T00:14:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=750'
 interface_sidebarlayout:

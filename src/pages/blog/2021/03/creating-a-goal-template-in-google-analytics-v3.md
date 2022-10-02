@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Creating a goal template in Google Analytics v3'
 pubDate: 2021-03-16T11:23:08+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/03/goal-view-001.jpg
 categories:

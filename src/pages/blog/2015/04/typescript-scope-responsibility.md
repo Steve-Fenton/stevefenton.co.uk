@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript scope responsibility'
 pubDate: 2015-04-19T00:22:36+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Firefox responsive mode'
 pubDate: 2014-06-30T21:46:52+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=328'
 interface_sidebarlayout:

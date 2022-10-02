@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Run multiple PowerShell scripts from a Co-ordinating PowerShell Script'
 pubDate: 2020-04-12T07:50:45+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

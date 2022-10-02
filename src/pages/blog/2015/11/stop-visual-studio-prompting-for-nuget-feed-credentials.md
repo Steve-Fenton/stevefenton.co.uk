@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Stop Visual Studio prompting for NuGet feed credentials'
 pubDate: 2015-11-19T06:00:40+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

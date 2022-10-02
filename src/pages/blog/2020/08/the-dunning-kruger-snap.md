@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Dunning-Kruger Snap'
 pubDate: 2020-08-29T11:31:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Psychology

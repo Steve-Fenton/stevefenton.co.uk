@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Compare the comparison market 2017'
 pubDate: 2017-09-03T18:14:24+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

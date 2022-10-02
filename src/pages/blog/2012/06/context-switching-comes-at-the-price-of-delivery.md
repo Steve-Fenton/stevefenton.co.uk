@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Context switching comes at the price of delivery'
 pubDate: 2012-06-10T16:05:51+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=795'
 interface_sidebarlayout:

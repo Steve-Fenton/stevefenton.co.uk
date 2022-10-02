@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Introduction to Dart'
 pubDate: 2011-10-15T17:36:44+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=892'
 interface_sidebarlayout:

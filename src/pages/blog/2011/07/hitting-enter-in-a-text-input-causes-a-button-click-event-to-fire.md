@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Hitting enter in a text input causes a button click event to fire'
 pubDate: 2011-07-15T17:57:59+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=920'
 interface_sidebarlayout:

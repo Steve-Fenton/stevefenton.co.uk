@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pass Octopus Deploy variables to DacPac deployments via PowerShell'
 pubDate: 2016-02-11T16:32:14+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

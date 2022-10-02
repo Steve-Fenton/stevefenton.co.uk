@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The immune response to infections in the corporate body'
 pubDate: 2017-07-18T09:39:37+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

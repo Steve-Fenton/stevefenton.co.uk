@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Change availability of web farm servers with PowerShell'
 pubDate: 2022-03-02T20:20:08+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

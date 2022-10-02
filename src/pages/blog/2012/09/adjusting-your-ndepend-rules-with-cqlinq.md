@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adjusting your NDepend rules with CQLinq'
 pubDate: 2012-09-16T00:01:07+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=738'
 interface_sidebarlayout:

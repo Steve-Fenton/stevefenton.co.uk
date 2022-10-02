@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Working with public Coronavirus data'
 pubDate: 2020-09-21T10:14:50+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2020/09/prediction-vs-recorded-cases.png
 categories:

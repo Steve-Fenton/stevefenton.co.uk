@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'British Pie Week'
 pubDate: 2012-03-05T16:37:11+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=833'
 interface_sidebarlayout:

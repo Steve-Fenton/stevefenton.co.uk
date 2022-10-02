@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The relative cost of Octopus Deploy'
 pubDate: 2015-10-25T13:47:58+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

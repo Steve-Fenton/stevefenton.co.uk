@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript union type constraints'
 pubDate: 2015-02-01T16:16:52+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

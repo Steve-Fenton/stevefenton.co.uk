@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Ultimate Productivity Suite'
 pubDate: 2021-09-25T07:00:36+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/10/the-productivity-workbook.jpg
 categories:

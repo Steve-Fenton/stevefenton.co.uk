@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Copy Excel to CSV with PowerShell'
 pubDate: 2020-04-10T07:50:16+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Office

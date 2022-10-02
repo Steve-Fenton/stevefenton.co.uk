@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Boy Who Cried Wolf &#8211; An Alternative Ending'
 pubDate: 2021-08-07T07:12:51+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/08/Boycriedwolfbarlow.jpg
 categories:

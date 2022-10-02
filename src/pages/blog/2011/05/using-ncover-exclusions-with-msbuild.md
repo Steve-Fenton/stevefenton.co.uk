@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using NCover exclusions with MSBuild'
 pubDate: 2011-05-30T18:24:04+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=937'
 interface_sidebarlayout:

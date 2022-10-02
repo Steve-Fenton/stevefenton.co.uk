@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Comments are a clue'
 pubDate: 2014-11-16T20:05:39+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

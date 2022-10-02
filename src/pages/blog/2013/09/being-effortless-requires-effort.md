@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Being effortless requires effort'
 pubDate: 2013-09-16T10:54:08+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=510'
 interface_sidebarlayout:

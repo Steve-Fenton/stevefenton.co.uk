@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'PHP doc comments look hideous'
 pubDate: 2011-10-24T17:26:21+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=888'
 interface_sidebarlayout:

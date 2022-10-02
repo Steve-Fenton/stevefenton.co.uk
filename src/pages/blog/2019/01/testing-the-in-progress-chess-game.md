@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Testing the in-progress Chess game'
 pubDate: 2019-01-27T18:29:46+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2015/07/self-organising-pawn.jpg
 categories:

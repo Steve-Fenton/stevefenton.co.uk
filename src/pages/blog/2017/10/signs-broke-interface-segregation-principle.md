@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Signs you broke the Interface Segregation Principle'
 pubDate: 2017-10-12T09:15:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

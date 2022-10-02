@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Getting app settings for config files during WiX-based install'
 pubDate: 2014-10-08T20:43:38+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

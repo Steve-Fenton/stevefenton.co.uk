@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Convert a SQL SELECT into an INSERT script'
 pubDate: 2020-04-05T13:11:14+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

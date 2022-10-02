@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Calculating Coronavirus timings with Excel'
 pubDate: 2021-02-22T20:00:09+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

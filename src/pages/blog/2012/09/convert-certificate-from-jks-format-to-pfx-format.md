@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Convert a certificate from JKS format to PFX format'
 pubDate: 2012-09-24T23:54:20+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=734'
 interface_sidebarlayout:

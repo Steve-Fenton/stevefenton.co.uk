@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: Fenton JavaScript Ethos
 navMenu: false
 pubDate: 2009-06-20T20:35:52+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The dedicated Scrum Master role'
 pubDate: 2019-01-20T11:34:05+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

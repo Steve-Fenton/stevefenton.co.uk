@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A great example of a terrible pie chart'
 pubDate: 2011-10-03T17:38:31+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=894'
 interface_sidebarlayout:

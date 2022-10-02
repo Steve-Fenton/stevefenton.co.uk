@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What the death of FirefoxOS means for sensor APIs'
 pubDate: 2017-09-09T15:29:36+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adjusting Content for Network Speed'
 pubDate: 2022-01-10T09:49:33+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

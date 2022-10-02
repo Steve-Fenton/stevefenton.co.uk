@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Union types ease TypeScript getters and setters'
 pubDate: 2015-02-08T16:13:40+00:00
-author:
+authors:
     - steve-fenton
 
 categories:

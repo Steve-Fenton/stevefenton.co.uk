@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Avoiding complex Octopus Deploy variables'
 pubDate: 2017-04-05T15:14:17+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

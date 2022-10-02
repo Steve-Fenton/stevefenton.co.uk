@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Reconfigure Octopus Deploy on a cloned VM'
 pubDate: 2016-02-22T09:24:21+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

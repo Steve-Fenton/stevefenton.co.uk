@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Event code 3005: An unhandled exception has occurred'
 pubDate: 2011-01-18T19:57:45+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=977'
 interface_sidebarlayout:

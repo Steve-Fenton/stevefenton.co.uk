@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Log Parser Studio to get requests per hour or minute'
 pubDate: 2016-04-23T11:42:05+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

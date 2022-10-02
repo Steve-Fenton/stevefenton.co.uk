@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The for loop hangover in foreach land'
 pubDate: 2018-04-13T08:50:01+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -6,7 +6,7 @@ pubDate: 2009-04-17T01:42:58+01:00
 bannerImage:
     src: /i/x/2015/07/pie004.png
     alt: A pie chart
-author:
+authors:
     - steve-fenton
 categories:
     - Pie Charts

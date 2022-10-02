@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'You get what you measure'
 pubDate: 2013-07-08T11:56:56+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=547'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 covariant return types'
 pubDate: 2020-05-26T06:30:22+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

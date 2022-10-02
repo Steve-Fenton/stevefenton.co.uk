@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Astro: Rollup failed to resolve import'
 pubDate: 2022-09-20T13:19:20+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

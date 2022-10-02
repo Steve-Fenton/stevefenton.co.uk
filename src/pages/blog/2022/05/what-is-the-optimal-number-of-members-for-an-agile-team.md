@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What is the optimal number of members for an agile team?'
 pubDate: 2022-05-20T14:08:00+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Process

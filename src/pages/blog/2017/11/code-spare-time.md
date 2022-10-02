@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Should you code in your spare time?'
 pubDate: 2017-11-22T08:40:19+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding an XML attribute to a node in a SQL XML column'
 pubDate: 2013-03-08T15:43:31+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=633'
 interface_sidebarlayout:

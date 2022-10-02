@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Check this before you buy a subscription'
 pubDate: 2022-03-18T06:00:12+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

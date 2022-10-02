@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Lookup DNS on a specific nameserver with NSLOOKUP'
 pubDate: 2020-11-10T16:06:11+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

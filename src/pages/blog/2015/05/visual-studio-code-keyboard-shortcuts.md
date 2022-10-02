@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Visual Studio Code keyboard shortcuts'
 pubDate: 2015-05-03T00:08:00+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

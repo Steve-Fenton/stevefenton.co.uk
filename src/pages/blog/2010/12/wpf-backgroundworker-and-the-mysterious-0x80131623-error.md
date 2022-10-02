@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'WPF BackgroundWorker and the mysterious 0x80131623 error'
 pubDate: 2010-12-30T20:05:47+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=988'
 interface_sidebarlayout:

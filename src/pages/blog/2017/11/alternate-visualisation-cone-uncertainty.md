@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Alternate visualisation of the Cone of Uncertainty'
 pubDate: 2017-11-16T08:50:46+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

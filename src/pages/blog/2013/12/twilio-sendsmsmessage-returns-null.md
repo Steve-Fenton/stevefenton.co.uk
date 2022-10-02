@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Twilio SendSmsMessage returns null'
 pubDate: 2013-12-09T09:45:51+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=470'
 interface_sidebarlayout:

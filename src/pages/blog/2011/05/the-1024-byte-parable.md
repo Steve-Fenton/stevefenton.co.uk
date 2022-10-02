@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The 1024 Byte Parable'
 pubDate: 2011-05-10T19:23:46+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=954'
 interface_sidebarlayout:

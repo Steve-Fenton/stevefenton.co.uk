@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Share your own code with NuGet'
 pubDate: 2014-08-29T21:16:29+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=298'
 interface_sidebarlayout:

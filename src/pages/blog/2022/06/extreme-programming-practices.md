@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Extreme Programming practices'
 pubDate: 2022-06-01T22:15:33+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Consider avoiding TypeScript type definitions'
 pubDate: 2016-08-14T19:33:15+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

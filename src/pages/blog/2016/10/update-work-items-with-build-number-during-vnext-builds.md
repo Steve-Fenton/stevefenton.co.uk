@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Update work items with build number during vNext builds'
 pubDate: 2016-10-13T12:23:49+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

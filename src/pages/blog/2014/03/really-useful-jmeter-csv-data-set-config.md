@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Really useful JMeter CSV data set config'
 pubDate: 2014-03-14T22:33:06+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=376'
 interface_sidebarlayout:

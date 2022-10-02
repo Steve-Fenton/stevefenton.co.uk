@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'C# 9 simplified console apps'
 pubDate: 2020-05-20T06:30:13+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

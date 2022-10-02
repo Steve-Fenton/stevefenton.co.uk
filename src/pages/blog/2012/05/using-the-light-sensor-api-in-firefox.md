@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using the light sensor API in Firefox'
 pubDate: 2012-05-05T16:12:45+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=804'
 interface_sidebarlayout:

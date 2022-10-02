@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pro TypeScript code examples'
 pubDate: 2014-09-03T21:11:16+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

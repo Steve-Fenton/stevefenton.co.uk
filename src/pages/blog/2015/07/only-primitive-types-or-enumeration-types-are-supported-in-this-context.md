@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Only primitive types or enumeration types are supported in this context'
 pubDate: 2015-07-27T07:30:41+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

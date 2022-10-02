@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Code contracts fail to fire'
 pubDate: 2012-10-09T23:30:50+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=714'
 interface_sidebarlayout:

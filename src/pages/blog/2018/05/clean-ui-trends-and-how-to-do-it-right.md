@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Clean UI trends and how to do it right'
 pubDate: 2018-05-03T08:50:35+01:00
-author:
+authors:
     - steve-fenton
 amp_status:
     - enabled

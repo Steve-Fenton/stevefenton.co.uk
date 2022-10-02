@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Why unique visitors in analytics never adds up'
 pubDate: 2019-02-26T17:33:19+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2019/02/unique-visit-tracking.png
 categories:

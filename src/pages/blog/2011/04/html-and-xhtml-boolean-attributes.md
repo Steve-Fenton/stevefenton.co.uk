@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML and XHTML boolean attributes'
 pubDate: 2011-04-05T19:41:32+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=967'
 interface_sidebarlayout:

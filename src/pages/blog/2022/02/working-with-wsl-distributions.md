@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Working with WSL distributions'
 pubDate: 2022-02-21T20:00:56+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Windows

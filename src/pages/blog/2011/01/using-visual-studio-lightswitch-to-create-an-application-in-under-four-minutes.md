@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Visual Studio LightSwitch to create an application in under four minutes'
 pubDate: 2011-01-14T20:00:57+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=981'
 interface_sidebarlayout:

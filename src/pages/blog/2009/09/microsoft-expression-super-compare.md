@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: Microsoft Expression Super Compare
 navMenu: false
 pubDate: 2009-09-14T22:24:27+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

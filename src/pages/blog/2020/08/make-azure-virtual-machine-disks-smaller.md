@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Make Azure Virtual Machine disks smaller'
 pubDate: 2020-08-19T21:00:47+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Azure

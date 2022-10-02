@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding Multiple Lines to Descriptions in ICalendar Files'
 pubDate: 2010-11-17T20:15:43+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=997'
 interface_sidebarlayout:

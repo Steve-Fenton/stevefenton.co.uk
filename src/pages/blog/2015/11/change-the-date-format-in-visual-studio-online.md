@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Change the date format in Visual Studio Team Services'
 pubDate: 2015-11-18T06:00:04+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Visual Studio'

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The elusive text-overflow: ellipsis display issue'
 pubDate: 2021-11-18T16:17:07+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

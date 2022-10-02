@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Estimating with time and relative sizes'
 pubDate: 2013-05-15T14:25:33+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=588'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '7 bad practices TFS can add to your Scrum process'
 pubDate: 2012-10-27T23:23:23+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=706'
 interface_sidebarlayout:

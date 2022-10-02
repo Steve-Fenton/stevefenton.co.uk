@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Slides from test-driven development'
 pubDate: 2011-11-25T17:16:43+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=882'
 interface_sidebarlayout:

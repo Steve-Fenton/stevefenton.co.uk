@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript no-implicit-any compiler flag'
 pubDate: 2013-07-26T11:40:54+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=536'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'My unit testing epiphany continued'
 pubDate: 2013-05-13T14:30:28+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=590'
 interface_sidebarlayout:

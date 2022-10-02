@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Extending native JavaScript objects in TypeScript'
 pubDate: 2013-02-16T22:04:27+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=653'
 interface_sidebarlayout:

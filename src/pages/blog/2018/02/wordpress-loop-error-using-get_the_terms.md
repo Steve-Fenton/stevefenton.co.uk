@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'WordPress loop error using get_the_terms'
 pubDate: 2018-02-01T08:50:44+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

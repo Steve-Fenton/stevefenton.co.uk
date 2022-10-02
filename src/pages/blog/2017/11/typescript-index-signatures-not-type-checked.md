@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript index signatures are not type checked'
 pubDate: 2017-11-28T21:11:21+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

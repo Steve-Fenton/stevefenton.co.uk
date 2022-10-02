@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript Mixins part two'
 pubDate: 2017-08-26T16:21:55+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

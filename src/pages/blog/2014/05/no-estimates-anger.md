@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: '#NoEstimates anger'
 pubDate: 2014-05-28T22:12:55+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=351'
 interface_sidebarlayout:

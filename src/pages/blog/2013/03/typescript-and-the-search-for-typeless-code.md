@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'TypeScript and the search for typeless code'
 pubDate: 2013-03-10T15:41:36+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=631'
 interface_sidebarlayout:

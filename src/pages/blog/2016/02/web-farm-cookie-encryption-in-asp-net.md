@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Web farm cookie encryption in ASP.NET'
 pubDate: 2016-02-24T10:56:23+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

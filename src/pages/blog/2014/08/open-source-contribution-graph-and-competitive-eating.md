@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Open-source contribution graph and competitive eating'
 pubDate: 2014-08-01T21:26:55+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

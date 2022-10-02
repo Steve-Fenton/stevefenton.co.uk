@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Manipulating variables in JMeter'
 pubDate: 2019-12-16T09:53:38+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

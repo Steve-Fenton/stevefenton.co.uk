@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The Three Fs of event log monitoring'
 pubDate: 2017-11-06T05:00:07+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2017/11/Three-Fs.png
 categories:

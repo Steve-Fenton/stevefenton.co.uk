@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Adding an NCover target to MSBuild to get code coverage'
 pubDate: 2011-02-09T19:54:07+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=975'
 interface_sidebarlayout:

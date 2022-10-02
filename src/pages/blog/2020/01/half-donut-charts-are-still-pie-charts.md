@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Half-donut charts are still pie charts'
 pubDate: 2020-01-01T20:56:17+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - 'Pie Charts'

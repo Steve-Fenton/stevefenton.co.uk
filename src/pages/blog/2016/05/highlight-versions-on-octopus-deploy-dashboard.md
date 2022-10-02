@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Highlight versions on the Octopus Deploy dashboard'
 pubDate: 2016-05-18T18:03:44+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2016/05/octodash-pastel.jpg
 categories:

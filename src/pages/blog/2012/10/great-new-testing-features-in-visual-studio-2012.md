@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Great new testing features in Visual Studio 2012'
 pubDate: 2012-10-03T23:40:22+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=723'
 interface_sidebarlayout:

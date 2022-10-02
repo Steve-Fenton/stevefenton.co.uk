@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Theme an ASP.NET MVC website with custom views'
 pubDate: 2021-11-22T17:07:03+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

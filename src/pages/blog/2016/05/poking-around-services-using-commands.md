@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Poking around services using commands'
 pubDate: 2016-05-13T07:00:13+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

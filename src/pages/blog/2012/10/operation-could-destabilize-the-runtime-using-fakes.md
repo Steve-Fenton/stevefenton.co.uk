@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Operation could destabilize the runtime using fakes'
 pubDate: 2012-10-23T23:24:30+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=708'
 interface_sidebarlayout:

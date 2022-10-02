@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Tech is only as bad as the non-tech analog'
 pubDate: 2019-08-28T07:50:16+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

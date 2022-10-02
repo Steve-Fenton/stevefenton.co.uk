@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Improving Your Code with NDepend and CQL'
 pubDate: 2010-11-22T20:13:43+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=995'
 interface_sidebarlayout:

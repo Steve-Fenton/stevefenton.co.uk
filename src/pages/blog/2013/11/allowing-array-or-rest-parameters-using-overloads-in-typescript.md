@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Allowing array or rest parameters using overloads in TypeScript'
 pubDate: 2013-11-06T10:06:42+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=487'
 interface_sidebarlayout:

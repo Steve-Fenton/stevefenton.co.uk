@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JQuery and TypeScript &#8211; We Have a big problem with jquery.d.ts'
 pubDate: 2020-04-27T07:00:34+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

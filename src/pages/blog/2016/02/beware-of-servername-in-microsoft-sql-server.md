@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Beware of @@SERVERNAME in Microsoft SQL Server'
 pubDate: 2016-02-23T12:10:30+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

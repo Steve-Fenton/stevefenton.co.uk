@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Harnessing the positive side of the Dunning Kruger Effect'
 pubDate: 2013-01-11T22:36:28+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=675'
 interface_sidebarlayout:

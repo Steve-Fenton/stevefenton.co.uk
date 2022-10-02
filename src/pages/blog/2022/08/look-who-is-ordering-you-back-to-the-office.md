@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: Home
 pubDate: 2022-08-04T11:23:15+01:00
-author:
+authors:
     - steve-fenton
 ---
 

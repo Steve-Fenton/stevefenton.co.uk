@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Acid test for social media'
 pubDate: 2016-01-01T00:00:46+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

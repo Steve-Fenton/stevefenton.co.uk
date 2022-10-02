@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to debug Google Analytics v4 (GA4)'
 pubDate: 2021-06-14T08:22:03+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/06/google-analytics-debug-view.jpg
 categories:

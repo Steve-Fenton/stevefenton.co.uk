@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Getting started: Microsoft Edge Tools for VS Code'
 pubDate: 2021-04-08T11:59:43+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/04/running-edge-tools-in-vs-code.jpg
 categories:

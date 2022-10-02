@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using the proximity sensor API in Firefox'
 pubDate: 2012-05-17T16:08:36+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=800'
 interface_sidebarlayout:

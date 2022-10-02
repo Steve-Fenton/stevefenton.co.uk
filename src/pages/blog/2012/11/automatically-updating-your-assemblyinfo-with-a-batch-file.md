@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Automatically updating your AssemblyInfo with a batch file'
 pubDate: 2012-11-20T23:00:50+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=691'
 interface_sidebarlayout:

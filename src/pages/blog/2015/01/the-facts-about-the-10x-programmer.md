@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The facts about the 10x Programmer'
 pubDate: 2015-01-11T16:45:49+00:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The pitch drop experiment learning metaphor'
 pubDate: 2013-06-17T12:05:53+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=564'
 interface_sidebarlayout:

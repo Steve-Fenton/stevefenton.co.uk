@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'HTML5 URL input can be quite strict'
 pubDate: 2011-06-04T18:11:59+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=935'
 interface_sidebarlayout:

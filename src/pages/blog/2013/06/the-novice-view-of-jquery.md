@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The novice view of jQuery'
 pubDate: 2013-06-24T12:02:24+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=558'
 interface_sidebarlayout:

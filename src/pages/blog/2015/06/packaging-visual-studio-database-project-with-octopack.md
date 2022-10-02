@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Packaging and deploying a Visual Studio database project with OctoPack and Octopus Deploy'
 pubDate: 2015-06-24T18:21:57+01:00
-author:
+authors:
     - steve-fenton
 
 categories:

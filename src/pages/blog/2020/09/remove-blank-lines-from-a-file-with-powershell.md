@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Remove blank lines from a file with PowerShell'
 pubDate: 2020-09-11T08:14:11+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Full page screenshot in Firefox'
 pubDate: 2017-02-01T06:00:32+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

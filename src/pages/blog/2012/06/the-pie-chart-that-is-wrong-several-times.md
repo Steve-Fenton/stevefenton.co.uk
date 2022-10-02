@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'The pie chart that is wrong several times'
 pubDate: 2012-06-12T16:02:02+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=790'
 interface_sidebarlayout:

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Generate multiple themes from the same LESS file'
 pubDate: 2016-07-20T17:16:07+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

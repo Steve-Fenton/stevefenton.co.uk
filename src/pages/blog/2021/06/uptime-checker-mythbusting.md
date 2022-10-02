@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Uptime checker myth busting'
 pubDate: 2021-06-15T16:50:57+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Automation

@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Writing a mobile app using HTML5'
 pubDate: 2012-06-16T15:57:01+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=787'
 interface_sidebarlayout:

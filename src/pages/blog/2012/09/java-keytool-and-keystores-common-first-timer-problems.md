@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Java keytool and keystores: Common first-timer problems'
 pubDate: 2012-09-13T00:04:16+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=740'
 interface_sidebarlayout:

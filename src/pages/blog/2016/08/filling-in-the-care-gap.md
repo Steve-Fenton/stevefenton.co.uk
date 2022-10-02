@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Filling-in the care gap'
 pubDate: 2016-08-20T05:00:39+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

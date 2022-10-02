@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Social media conversations'
 pubDate: 2015-10-14T07:00:31+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

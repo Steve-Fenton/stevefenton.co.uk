@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Open Redirection Attack'
 pubDate: 2011-04-09T19:36:28+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=963'
 interface_sidebarlayout:

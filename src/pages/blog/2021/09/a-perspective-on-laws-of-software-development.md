@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A perspective on laws of software development'
 pubDate: 2021-09-14T15:54:05+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

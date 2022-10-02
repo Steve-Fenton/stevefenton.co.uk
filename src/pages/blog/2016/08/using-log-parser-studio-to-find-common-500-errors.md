@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using Log Parser Studio to find common 500 errors'
 pubDate: 2016-08-25T19:15:17+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

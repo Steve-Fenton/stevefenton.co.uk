@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'AJAX Request Interceptor'
 pubDate: 2021-02-02T11:06:44+00:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2021/02/angel-interceptor.jpg
 categories:

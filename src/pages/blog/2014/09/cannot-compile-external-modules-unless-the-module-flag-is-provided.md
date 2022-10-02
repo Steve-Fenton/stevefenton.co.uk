@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Cannot compile external modules unless the module flag is provided'
 pubDate: 2014-09-05T21:02:12+01:00
-author:
+authors:
     - steve-fenton
 interface_sidebarlayout:
     - default

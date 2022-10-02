@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'SQL Server replicating schema changes'
 pubDate: 2016-04-28T20:06:28+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

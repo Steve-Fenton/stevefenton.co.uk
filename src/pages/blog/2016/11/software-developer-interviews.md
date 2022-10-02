@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Software developer interviews'
 pubDate: 2016-11-18T06:00:00+00:00
-author:
+authors:
     - steve-fenton
 categories:
     - Opinion

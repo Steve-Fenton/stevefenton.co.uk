@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Invalid label JavaScript error'
 pubDate: 2011-02-15T19:51:32+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=973'
 interface_sidebarlayout:

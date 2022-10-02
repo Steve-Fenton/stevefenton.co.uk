@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'GitHub Copilot is coming to Visual Studio'
 pubDate: 2022-03-29T18:48:24+01:00
-author:
+authors:
     - steve-fenton
 image: /wp-content/uploads/2022/03/copilot-fibbonaci.jpg
 categories:

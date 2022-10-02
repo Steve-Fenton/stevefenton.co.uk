@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Pomodoro Technique in 25 minutes'
 pubDate: 2012-03-22T16:27:05+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=824'
 interface_sidebarlayout:

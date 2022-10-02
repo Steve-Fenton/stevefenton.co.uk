@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'A great general CSS3 transition rule'
 pubDate: 2011-06-18T18:04:58+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=926'
 interface_sidebarlayout:

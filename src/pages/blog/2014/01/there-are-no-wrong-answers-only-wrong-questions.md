@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'There are no wrong answers only wrong questions'
 pubDate: 2014-01-20T23:18:51+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=430'
 interface_sidebarlayout:

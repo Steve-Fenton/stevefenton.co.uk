@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Using CSS Selectors'
 pubDate: 2010-06-21T21:19:46+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1031'
 interface_sidebarlayout:

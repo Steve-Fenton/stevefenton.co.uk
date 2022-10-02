@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Complex TypeScript definitions made easy'
 pubDate: 2013-01-23T22:27:10+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=669'
 interface_sidebarlayout:

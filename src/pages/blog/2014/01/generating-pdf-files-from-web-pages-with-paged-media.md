@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Generating PDF files from web pages with paged media'
 pubDate: 2014-01-17T23:20:18+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=432'
 interface_sidebarlayout:

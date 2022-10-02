@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'What size boxes should I use to move house?'
 pubDate: 2013-11-01T10:13:59+00:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=489'
 interface_sidebarlayout:

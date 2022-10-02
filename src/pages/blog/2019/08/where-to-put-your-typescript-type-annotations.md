@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Where to put your TypeScript type annotations'
 pubDate: 2019-08-13T09:31:29+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Programming

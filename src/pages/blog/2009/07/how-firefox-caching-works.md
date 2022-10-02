@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: How Firefox Caching Works
 navMenu: false
 pubDate: 2009-07-23T22:30:52+01:00
-author:
+authors:
     - steve-fenton
 categories:
     - Browsers

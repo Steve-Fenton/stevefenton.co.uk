@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'JavaScript Includes and Rewritten URLs'
 pubDate: 2010-05-19T21:34:29+01:00
-author:
+authors:
     - steve-fenton
 guid: 'https://www.stevefenton.co.uk/?p=1039'
 interface_sidebarlayout:
