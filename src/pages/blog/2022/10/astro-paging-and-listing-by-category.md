@@ -90,15 +90,28 @@ export async function getStaticPaths({ paginate }: any) {
     .sort(sortByPubDateDesc);
 
   const categories: string[] = [];
-  posts.forEach(p => p.frontmatter.categories.forEach(c => {
-    if (!categories.includes(c)) {
-      categories.push(c);
+  posts.forEach(p => {
+    const cats: string[] = p.frontmatter.categories ?? [];
+    if (cats.length == 0) {
+      console.log('No categories found', p.url);
     }
-  }));
+    cats.forEach(c => {
+      if (!categories.includes(c)) {
+        categories.push(c);
+      }
+    });
+  });
 
   return categories.map(c => {
-    const filtered = posts.filter(p => p.frontmatter.categories.includes(c));
-    return paginate(filtered, { params: { category: c.toLowerCase() }, pageSize: SITE.pageSize })
+    const filtered = posts.filter(p => {
+      const cats: string[] = p.frontmatter.categories ?? [];
+      return cats.includes(c);
+    });
+    return paginate(
+      filtered,
+      { params: { category: c.toLowerCase() },
+      pageSize: SITE.pageSize
+    });
   });
 }
 ```
