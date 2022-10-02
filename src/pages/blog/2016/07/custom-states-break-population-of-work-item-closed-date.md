@@ -27,6 +27,6 @@ But there’s a problem. Somewhere deep inside of VSTS is an “OOB Transition R
 
 We are currently using a workaround to get similar data by adding “WHERE ChangedDate…” alongside our “WHERE ClosedDate…” clauses – but beware… if a card is “Changed” after it is “Done” it will pop back into your reports:
 
-![Query Workaround](https://www.stevefenton.co.uk/wp-content/uploads/2016/07/query-workaround.png)
+![Query Workaround](/img/2016/07/query-workaround.png)
 
 [Please support the resolution of this transition rule issue by voting for it on User Voice](https://visualstudio.uservoice.com/forums/330519-team-services/suggestions/15453015-custom-states-break-oob-transition-rules).

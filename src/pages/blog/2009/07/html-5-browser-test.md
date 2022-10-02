@@ -25,7 +25,7 @@ More detail on the results can be found below.
 
 ### Works Fine
 
-![Works](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/html5_full.png)
+![Works](/img/2015/07/html5_full.png)
 
 - Avant 11.7
 - Chrome 0.4 / 1 / 2 / 3
@@ -44,7 +44,7 @@ More detail on the results can be found below.
 
 ### Limited Success
 
-![Limited](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/html5_partial.png)
+![Limited](/img/2015/07/html5_partial.png)
 
 In these cases, the website does display, but with limited graphical support and with a generally in-line style.
 

@@ -20,7 +20,7 @@ The requirement was absolutely clear. It read:
 
 > Please only put toilet tissue down the toilet.
 
-![Specification by Example](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/specification-by-example-by-example.jpg)
+![Specification by Example](/img/2015/07/specification-by-example-by-example.jpg)
 
 The Original Requirement!
 

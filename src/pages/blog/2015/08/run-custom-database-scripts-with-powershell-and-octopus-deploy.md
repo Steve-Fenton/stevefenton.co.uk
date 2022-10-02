@@ -18,7 +18,7 @@ We are using [model-based deployments using Visual Studio database projects and 
 
 The solution is to change the “disable replication” script to a plain “copy always” script in Visual Studio (so it will be packaged by Octopack and deployed to the server) and then run it on the server using a PowerShell command prior to the DacPac deployment.
 
-[![PowerShell Steps in Octopus Deploy](https://www.stevefenton.co.uk/wp-content/uploads/2015/08/powershell-steps.png)](https://www.stevefenton.co.uk/wp-content/uploads/2015/08/powershell-steps.png)
+[![PowerShell Steps in Octopus Deploy](/img/2015/08/powershell-steps.png)](/img/2015/08/powershell-steps.png)
 
 ### Running SQL Scripts With Powershell
 

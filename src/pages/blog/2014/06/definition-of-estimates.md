@@ -39,7 +39,7 @@ So you are likely to find people estimating all of the following:
 ### Guess
 
 11. <span>The risk involved in the work</span>
-![Estimates vs Guess Diagram](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/estimate-guess.png)
+![Estimates vs Guess Diagram](/img/2015/07/estimate-guess.png)
 
 Some people have referred to estimates as guesses. This isn’t entirely incorrect as *guess* is a subset of *estimate*. An estimate that has been created without sufficient information that would ensure it is *reasonable* is indeed a guess. So all guesses are estimates, but importantly; not all estimates are guesses.
 

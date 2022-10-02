@@ -12,7 +12,7 @@ categories:
     - Psychology
 ---
 
-![Flux Capacitor](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/flux-capacitor.jpg)I wrote a while back about [the flux capacitor of control](http://www.stevefenton.co.uk/Content/Blog/Date/201208/Blog/The-Flux-Capacitor-Of-Control/), which essentially is a technique you can use to spend your energy on fruitful pursuits. I realise now that this technique is one small step on a longer journey and I wanted to expand on the original ideas with what I have learned so far.
+![Flux Capacitor](/img/2015/07/flux-capacitor.jpg)I wrote a while back about [the flux capacitor of control](http://www.stevefenton.co.uk/Content/Blog/Date/201208/Blog/The-Flux-Capacitor-Of-Control/), which essentially is a technique you can use to spend your energy on fruitful pursuits. I realise now that this technique is one small step on a longer journey and I wanted to expand on the original ideas with what I have learned so far.
 
 So a brief run through of the original idea…
 

@@ -19,21 +19,21 @@ Working in VSCode is a bit different to working in other editors and IDEs – so
 
 Once you have [downloaded and installed VSCode](http://code.visualstudio.com/), you can open it up to find the welcome screen looks like this…
 
-![Visual Studio Code with TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-code-typescript-001.png)
+![Visual Studio Code with TypeScript](/img/2015/07/visual-studio-code-typescript-001.png)
 
 Select “File”, then “Open Folder…” to choose where you are going to write your first TypeScript app in VSCode. You can open any folder, which will be treated as an *implicit project*. I’ll discuss *explicit projects* in a moment.
 
-![Visual Studio Code - TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-code-typescript-002.png)
+![Visual Studio Code - TypeScript](/img/2015/07/visual-studio-code-typescript-002.png)
 
 Once you have navigated to the appropriate folder, use the “Select Folder” button to choose it.
 
-![Visual Studio Code - TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-code-typescript-003.png)
+![Visual Studio Code - TypeScript](/img/2015/07/visual-studio-code-typescript-003.png)
 
 Your VSCode window will now look like this… and if you hover over your folder name (“Example” in my case), you’ll get icons for adding files, adding folders, refreshing the view, and collapsing the tree.
 
 Click on the “Add File” icon (the first one in the image below).
 
-![Visual Studio Code - TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-code-typescript-004.png)
+![Visual Studio Code - TypeScript](/img/2015/07/visual-studio-code-typescript-004.png)
 
 Add the following files:
 
@@ -42,7 +42,7 @@ Add the following files:
 
 The tsconfig.json file converts your folder into an *explicit project*. You can edit the tsconfig file to specify compiler options and pass in files to the compiler (so you don’t have to use reference comments, for example).
 
-![Visual Studio Code - TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-code-typescript-005.png)
+![Visual Studio Code - TypeScript](/img/2015/07/visual-studio-code-typescript-005.png)
 
 My tsconfig file is shown below…
 

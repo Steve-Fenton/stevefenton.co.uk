@@ -20,7 +20,7 @@ If you are using JMeter in the same way, you may find that you are constantly ad
 
 Here is an overview of how we avoid updating a ton of configuration each time we want to switch between these two modes of operation.
 
-![Integration Tests Tree](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter-tree-integration-and-load.png)
+![Integration Tests Tree](/img/2015/07/jmeter-tree-integration-and-load.png)
 
 All of the actual requests to the APIs are containing in the modules thread (which has zero threads configured against it). This allows requests to be re-used, rather than copying the REST sampler each time we want to make a particular request.
 
@@ -40,11 +40,11 @@ When not in use, both the load test thread and the integration test thread are s
 
 When we want to run a load test, we simply configure the number of threads and number of loops on the load test thread group and the tests run indefinitely.
 
-![Load Test Threads](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/load-test-threads.png)
+![Load Test Threads](/img/2015/07/load-test-threads.png)
 
 When we want to run an integration test, we set the load test thread group to 0 threads, and set the integration test thread group number of threads to 1, as shown below.
 
-![Integration Test Threads](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/integration-test-threads.png)
+![Integration Test Threads](/img/2015/07/integration-test-threads.png)
 
 The only duplication in the tests are the calls to the modules (you can read more about [modularising your JMeter tests](/Content/Blog/Date/201206/Blog/Modularising-JMeter-Tests/) in my earlier post).
 

@@ -13,7 +13,7 @@ tags:
 
 If you are working on an older application that has a lot of logic inside of the SQL database in jobs, procedures, and functions – you may find that your job schedules cause a repeating wave of SQL compilation peaks. If you suspect jobs may be the cause, you can use a query to find SQL server job clashes.
 
-![Repeating Wave of Peaks](https://www.stevefenton.co.uk/wp-content/uploads/2018/12/five-minute-query-spike.png)
+![Repeating Wave of Peaks](/img/2018/12/five-minute-query-spike.png)
 
 The query just looks into the job schedules to inspect the next run time to tell you *at the current moment* what the next clashes will be.
 
@@ -51,11 +51,11 @@ For example, imagine you have the following jobs set up:
 
 You will have clashed with up to three concurrent jobs and on many time slots before your lunch.
 
-![Round Number Scheduling of Jobs](https://www.stevefenton.co.uk/wp-content/uploads/2018/12/jobs-round-number-scheduling.png)
+![Round Number Scheduling of Jobs](/img/2018/12/jobs-round-number-scheduling.png)
 
 If you change the interval to 7, 17, and 11 minutes respectively you get only three clashes, and of only two concurrent jobs. Quite an improvement.
 
-![Jobs With Prime Number Intervals](https://www.stevefenton.co.uk/wp-content/uploads/2018/12/jobs-prime-number-interval.png)
+![Jobs With Prime Number Intervals](/img/2018/12/jobs-prime-number-interval.png)
 
 If you need to go further in reducing clashes, you can calculate the start times to be aligned to the scale. This means you lose additional clashes caused by the round-number start times:
 
@@ -63,7 +63,7 @@ If you need to go further in reducing clashes, you can calculate the start times
 - 10:34 every seventeen minutes
 - 11:06 every eleven minutes
 
-![Jobs With Prime Number Schedule and Interval](https://www.stevefenton.co.uk/wp-content/uploads/2018/12/jobs-prime-number-schedule-and-interval.png)
+![Jobs With Prime Number Schedule and Interval](/img/2018/12/jobs-prime-number-schedule-and-interval.png)
 
 If you are still having trouble, reduce the frequency by increasing the interval (rather than getting even more complicated with numbers!)
 

@@ -100,7 +100,7 @@ GO
 ```
 You will see your table get a new icon, and a nested temporal history table with the audit history:
 
-![Temporal Audit History Table Icon and Nested Table](https://www.stevefenton.co.uk/wp-content/uploads/2019/09/temporal-audit-history-sql-server.jpg)
+![Temporal Audit History Table Icon and Nested Table](/img/2019/09/temporal-audit-history-sql-server.jpg)
 
 ### Entity Framework
 

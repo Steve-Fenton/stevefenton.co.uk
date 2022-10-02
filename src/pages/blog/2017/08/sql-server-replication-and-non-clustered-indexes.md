@@ -23,14 +23,14 @@ Watch out for the following surprise that SQL Server has in store though!
 
 If you select “Set Properties of All Table Articles” when opening up the properties for an article:
 
-![Article Properties](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/article-properties.png)
+![Article Properties](/img/2017/08/article-properties.png)
 
 You may see that the “Copy nonclustered indexes” property is shown as “False”, like this:
 
-![Properties of All Tables](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/all-tables.png)
+![Properties of All Tables](/img/2017/08/all-tables.png)
 
 But if you check each table laboriously individually, you’ll find that they are actually all “True”…
 
-![Highlighted Table Properties](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/highlighted-tables-1.png)
+![Highlighted Table Properties](/img/2017/08/highlighted-tables-1.png)
 
 So before you go all snapshotting, double-check whether your setting may already be true.

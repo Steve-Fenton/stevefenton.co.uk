@@ -12,7 +12,7 @@ tags:
     - operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.
+[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.
 
 Having helped a number of businesses understand what uptime and SLAs are, and how they work in real life, I have encountered a few myths about them both over the years. Here are a few of the things that people believe to be true (that are, in fact, *not* true).
 

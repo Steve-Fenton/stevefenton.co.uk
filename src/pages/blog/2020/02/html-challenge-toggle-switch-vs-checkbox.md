@@ -20,11 +20,11 @@ So, should the humble checkbox be supplanted by a slidey-toggle switch? Let’s 
 
 Let’s take a look at the toggle switch control:
 
-![Toggle Switch Control](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/toggle-example.jpg)
+![Toggle Switch Control](/img/2020/02/toggle-example.jpg)
 
 And the checkbox:
 
-![Checkbox Control](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/checkbox-example.jpg)
+![Checkbox Control](/img/2020/02/checkbox-example.jpg)
 
 Both of these user interface elements sever the same purpose. They select on of two states. You can call it on and off, ticked and un-ticked, or yes and no.
 
@@ -34,7 +34,7 @@ Although both of these controls are seemingly identical in purpose, I uncovered 
 
 To find out, I asked The Internet via a poll and found out that things were mostly in favour of the latter.
 
-![92.3 % of users say "on" is on the right](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/toggle.jpg)
+![92.3 % of users say "on" is on the right](/img/2020/02/toggle.jpg)
 
 92.3% of respondents said that “on” was on the right.
 
@@ -42,7 +42,7 @@ This might be enough to make you conclude your experiment and fix your decision.
 
 To plan a course of action, we need to know how well a toggle switch performs relative to a checkbox; so I asked The Internet again.
 
-![100% of people consider a ticked checkbox to be "on".](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/checkbox.jpg)
+![100% of people consider a ticked checkbox to be "on".](/img/2020/02/checkbox.jpg)
 
 100% of respondents said that “on” is ticked.
 
@@ -62,7 +62,7 @@ Toggle switches tickle that same visual stimulation itch that causes so many peo
 
 The question is, why do we need to make form elements more appealing? It doesn’t make them easier to understand or easier to use, so who exactly is the trend of toggles serving? Perhaps it is just another case of someone trying to copy something they found on their mobile phone.
 
-![Android Toggle Switch](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/Screenshot_20200216-192733.png)
+![Android Toggle Switch](/img/2020/02/Screenshot_20200216-192733.png)
 
 ### And so…
 

@@ -14,7 +14,7 @@ categories:
     - Process
 ---
 
-![Sliced Onions](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/onions.jpg)
+![Sliced Onions](/img/2015/07/onions.jpg)
 
 I once worked in a company where one of the directors was heard to say:
 

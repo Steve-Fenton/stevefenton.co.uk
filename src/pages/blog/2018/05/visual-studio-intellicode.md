@@ -24,17 +24,17 @@ IntelliCode is the AI version of IntelliSense. Instead of showing auto-completio
 
 Here’s Visual Studio before IntelliCode:
 
-![Before IntelliCode](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/before-intellicode-001.png)
+![Before IntelliCode](/img/2018/05/before-intellicode-001.png)
 
 And here is the same thing with IntelliCode added:
 
-![With IntelliCode](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/with-intellicode-001.png)
+![With IntelliCode](/img/2018/05/with-intellicode-001.png)
 
 You can see that the suggestions have been re-ordered, with more relevant suggestions at the top and marked with a star. These will change over time, becoming more relevant as the intelligence is trained.
 
 But does it work on real code? Here is an example from an open source project. The “correct” answer is now right near the top. You can see the old alphabetical suggestions in red that would have been shown before the intelligence was added.
 
-![IntelliCode with Real Code](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/intellicode-with-real-code.png)
+![IntelliCode with Real Code](/img/2018/05/intellicode-with-real-code.png)
 
 ### Coding style rules
 
@@ -42,11 +42,11 @@ IntelliCode can also automatically infer your in-house coding style and generate
 
 Just add a new item to your project using the `editorconfig` template. Instead of getting a blank file, you get an inferred set of rules based on your existing code. You can still change it, but you don’t need to start from nothing.
 
-![editorconfig](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/editorconfig.png)
+![editorconfig](/img/2018/05/editorconfig.png)
 
 You’ll now be warned about any style issues and be supplied with instant fixes with the lightbulb icon.
 
-![Code Violations](https://www.stevefenton.co.uk/wp-content/uploads/2018/05/code-violations.png)
+![Code Violations](/img/2018/05/code-violations.png)
 
 ### Summay
 

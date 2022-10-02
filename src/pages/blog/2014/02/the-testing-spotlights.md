@@ -14,7 +14,7 @@ categories:
 
 There are lots of different ways to test software at many different stages in the software development cycle, but as we all know, there is no panacea. There isn’t even room for a discussion about which one method is the most effective – because any individual class of testing is utterly inadequate.
 
-![Spotlight](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/spotlight.png)  
+![Spotlight](/img/2015/07/spotlight.png)  
 [Image by Mateusz Stachowski](http://www.sxc.hu/profile/Mattox)
 
 ### Defect Detection

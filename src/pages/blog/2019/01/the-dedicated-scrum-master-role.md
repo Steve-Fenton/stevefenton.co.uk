@@ -15,7 +15,7 @@ After reading a discussion about whether having a *dedicated* Scrum Master is an
 
 So, with this in mind, here’s how the picture looks. I’ve worked in roughly equal numbers of organisations with and without a dedicated Scrum Master role. The short version is that where I have found Scrum Masters, I have found they cause more problems than they solve. That split of three roles causes problems (Technical, Business, Scrum Master), and the Scrum Master role often appeals to the wrong individuals. In particular, the role is highly desirable to people who subscribe to the theory that either the technical people, or the business people, need to be corralled into delivering.
 
-![Empirical Scrum Masters vs Not](https://www.stevefenton.co.uk/wp-content/uploads/2019/01/empirical-scrum-masters-vs-not.png)  
+![Empirical Scrum Masters vs Not](/img/2019/01/empirical-scrum-masters-vs-not.png)  
 <small>[See my side note!](#side-note)</small>
 
 The result, within the confines of my own limited experience, is that teams seeking agility without a formal or dedicated Scrum Master are more consistent with the actual Agile Manifesto and principles.

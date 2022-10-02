@@ -11,7 +11,7 @@ categories:
     - Process
 ---
 
-![Decision Maturity Model](https://www.stevefenton.co.uk/wp-content/uploads/2017/04/decision-maturity-model.jpg)
+![Decision Maturity Model](/img/2017/04/decision-maturity-model.jpg)
 
 The pyramid of good organisational decision making is quite well known these days, as is the inverted-pyramid of command and control organisations. However, it is an interesting exploration to attempt to categorise the rough stages that you will find along the scale from “inverted” to “righted”. Some organisations don’t make it all the way.
 

@@ -15,7 +15,7 @@ tags:
 
 It has been a while hasn’t it. However, it is sometimes a good thing to remind ourselves of why pie charts are best avoided. This particular example came from a great blog post. The chart describes version adoption for a particular piece of software.
 
-![PHP Version Adoption](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/php-version-adoption-pie1.png)
+![PHP Version Adoption](/img/2015/07/php-version-adoption-pie1.png)
 
 Despite the pie chart not following any of the best practices for pie charts (some of which are available [here](https://www.stevefenton.co.uk/2011/10/A-Great-Example-Of-A-Terrible-Pie-Chart/)), you can tell that the purple section is the biggest. You can then look up that this is version 5.3.
 
@@ -23,7 +23,7 @@ Picking second place is a little trickier. Looking at the pie reveals that cream
 
 All of this is much easier if you just use a column chart (there are, indeed, other options, but simplicity is a good thing when it comes to sharing data visually).
 
-![PHP Version Adoption Column Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/php-version-adoption-column1.png)
+![PHP Version Adoption Column Chart](/img/2015/07/php-version-adoption-column1.png)
 
 The column chart tells us the same thing (and I have preserved the original order because in this case, the versions tell a chronological story that is interesting – if this wasn’t the case I would certainly order these by value).
 

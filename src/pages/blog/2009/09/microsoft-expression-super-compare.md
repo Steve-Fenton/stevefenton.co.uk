@@ -24,4 +24,4 @@ You have the option to perform a side-by-side compare, which highlights the diff
 
 Here’s the overlay comparison for my website. You can see the blurs where the margins get a slightly different treatment between the two browser versions, but other than that all is well.
 
-![Expression Super Preview](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/expression_super_preview.jpg)
+![Expression Super Preview](/img/2015/07/expression_super_preview.jpg)

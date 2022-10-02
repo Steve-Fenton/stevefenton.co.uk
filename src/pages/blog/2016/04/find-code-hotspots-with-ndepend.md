@@ -22,7 +22,7 @@ So why, when I have so many analysers am I turning to NDepend?
 
 Simple: NDepend is the big boss man of analysers. It has a huge range of reports and rules to help find and fix problems in your code. This huge range of tools can be overwhelming – so here is a good place to start.
 
-![NDepend 6 Most Complex Method](https://www.stevefenton.co.uk/wp-content/uploads/2016/04/ndepend-6-most-complex-method.png)
+![NDepend 6 Most Complex Method](/img/2016/04/ndepend-6-most-complex-method.png)
 
 There is a menu in NDepend titled “METRIC”, with four fantastic options:
 

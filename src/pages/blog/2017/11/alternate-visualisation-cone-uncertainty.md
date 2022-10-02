@@ -45,7 +45,7 @@ To drive home the point, here is a cone of uncertainty that also has blue expand
 
 Here is the cone with the overlays:
 
-![Cone of Uncertainty](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/cone-of-uncertainty.jpg)
+![Cone of Uncertainty](/img/2017/11/cone-of-uncertainty.jpg)
 
 A: Initial Concept  
 B: Approved Product Definition  

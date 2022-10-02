@@ -20,15 +20,15 @@ Go to your Google Analytics account and choose the property with your nicely con
 
 Then open Admin &gt; View &gt; Goals
 
-[![Goal View in Google Analytics](https://www.stevefenton.co.uk/wp-content/uploads/2021/03/goal-view-001.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-001/)
+[![Goal View in Google Analytics](/img/2021/03/goal-view-001.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-001/)
 
 Either use the tick box to select all, or choose specific goals from the list. When you do this, a “Share” option appears in the toolbar.
 
-[![Goal Sharing Link](https://www.stevefenton.co.uk/wp-content/uploads/2021/03/goal-view-002.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-002/)
+[![Goal Sharing Link](/img/2021/03/goal-view-002.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/goal-view-002/)
 
 Click on this share option and choose “Share template link”. This will create a shareable link that can be used to add goals to any other Google Analytics v3 view (by someone who has permissions to do so).
 
-[![Share Template Link](https://www.stevefenton.co.uk/wp-content/uploads/2021/03/share-template-link.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/share-template-link/)
+[![Share Template Link](/img/2021/03/share-template-link.jpg)](https://www.stevefenton.co.uk/2021/03/creating-a-goal-template-in-google-analytics-v3/share-template-link/)
 
 You’ll get a message containing a link that you need to copy and keep somewhere to re-use, like your favourites bar.
 

@@ -57,7 +57,7 @@ Argument of type 'Error' is not assignable to parameter of type 'string | Promis
   Type 'Error' is not assignable to type 'PromiseLike<string>'.
     Property 'then' is missing in type 'Error'.
 ```
-![Promise Resolve/Reject Error](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/promise-resolve-reject-error.png)
+![Promise Resolve/Reject Error](/img/2017/11/promise-resolve-reject-error.png)
 
 So how do we end up not being told about this problem by the compiler?
 

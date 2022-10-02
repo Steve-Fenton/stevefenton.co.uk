@@ -18,7 +18,7 @@ tags:
 
 I created this Extreme Programming practices diagram to try and represented Kent Beck’s hand-sketched diagram as honestly as possible with a bit more structure. Hopefully this is a useful version that can help you visualise all the interactions between practices that were observed by Kent, which he wrote about in Extreme Programming Explained (definitely worth a read).
 
-[![Extreme Programming (XP) Practices](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/xp-extreme-programming-practices-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/xp-extreme-programming-practices-2/)
+[![Extreme Programming (XP) Practices](/img/2022/06/xp-extreme-programming-practices-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/xp-extreme-programming-practices-2/)
 
 That might be all you need from this page, but as I’m also working in the DevOps and continuous delivery space right now I thought I’d add a little comparison between this XP map of practices and the DevOps *structural equation model* (SEM).
 
@@ -34,7 +34,7 @@ We can re-draw the diagram to show:
 
 Here’s a reminder of the DevOps structural equation model.
 
-[![DevOps Structural Equation Model (SEM)](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
 
 #### No XP/DevOps equivalent
 
@@ -65,7 +65,7 @@ The following are treated as being the same in XP and DevOps, or close enough th
 
 With the above classifications in mind, we can confirm many of the practices and relationships found in XP.
 
-[![XP vs DevOps SEM](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/xp-devops-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/xp-devops-2/)
+[![XP vs DevOps SEM](/img/2022/06/xp-devops-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/xp-devops-2/)
 
 Represented by solid coloured lines in the diagram, the following relationships are directionally confirmed.
 

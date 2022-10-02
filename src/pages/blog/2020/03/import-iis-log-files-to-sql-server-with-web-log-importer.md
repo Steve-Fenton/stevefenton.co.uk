@@ -36,7 +36,7 @@ Using a sample from a web server with one day of traffic, the whole process took
 
 During a debug run, the memory and CPU used by the application is low/stable.
 
-![Web Log Importer Diagnostics](https://www.stevefenton.co.uk/wp-content/uploads/2020/03/web-log-importer.jpg)
+![Web Log Importer Diagnostics](/img/2020/03/web-log-importer.jpg)
 
 Because the data is created from scratch during the process, [SQL index fragmentation](https://www.stevefenton.co.uk/2018/05/sql-server-index-fragmentation/) will always be zero.
 

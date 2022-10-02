@@ -14,7 +14,7 @@ tags:
 
 You can use the [Katelyn Crawler](https://github.com/Steve-Fenton/Katelyn/wiki/Katelyn-UI) to crawl a website looking for references to a particular domain. I have an example below, which will report back not just each instance of the domain, but the actual full URL that was found, but don’t limit your imagination.
 
-![Katelyn Crawler](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/katelyn-crawler.png)
+![Katelyn Crawler](/img/2017/10/katelyn-crawler.png)
 
 You could search for any HTTP references that should be HTTPS, or all links to a domain that you have retired, or to find links that use an old scheme that you have replaced with a new scheme.
 

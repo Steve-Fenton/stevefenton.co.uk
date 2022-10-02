@@ -117,9 +117,9 @@ AutoHeal keeps on moving around, but Sebastian Inones has tipped me off to its l
 4. From the button groups, pick AutoHeal from the Proactive Tools group
 5. You’ll now have an open “Mitigation” tab with several AutoHeal options
 
-![Azure App Service Diagnostic Tools](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/azure-app-service-diagnostic-tools.jpg)
+![Azure App Service Diagnostic Tools](/img/2017/10/azure-app-service-diagnostic-tools.jpg)
 
-![AutoHeal Link in Diagnostic Tools](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/azure-app-service-diagnostic-tools-auto-heal-link.jpg)
+![AutoHeal Link in Diagnostic Tools](/img/2017/10/azure-app-service-diagnostic-tools-auto-heal-link.jpg)
 
 The mitigation tab lets you recover from unexpected behavior. You set a trigger (request count, slow requests, memory limit) and pair it with an action (restart the process, log an event). The pairing will keep the lights on for you while you investigate the route cause of your instability. It’s a kind of really good sticking plaster for an ill-behaved application.
 
@@ -127,7 +127,7 @@ By default, proactive AutoHeal will be enabled for your App Service. It will wat
 
 The most important part of AutoHeal is checking whether you have a problem that you need to resolve… and that’s where the AutoHeal history comes in. You can check the history of interventions in this view.
 
-![Azure AutoHeal History](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/azure-autoheal-history.jpg)
+![Azure AutoHeal History](/img/2017/10/azure-autoheal-history.jpg)
 
 AutoHeal shouldn’t be used as a permanent replacement for working code!
 

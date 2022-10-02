@@ -12,7 +12,7 @@ categories:
     - Process
 ---
 
-![Key](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/image.jpg)There is a false dichotomy that is often presented in the face of allowing teams to self-organise in an organisation that is transitioning from their traditional command and control patterns.
+![Key](/img/2015/07/image.jpg)There is a false dichotomy that is often presented in the face of allowing teams to self-organise in an organisation that is transitioning from their traditional command and control patterns.
 
 The deadlock occurs when the organisation’s management wants to give autonomy to a team, but doesn’t yet trust that the team can perform to the current controlled standard. The outcome is usually a consensus of “the team can have the responsibility for doing it, but the management will retain the authority”. This is one case where compromise is the worst possible outcome. You cannot place authority and responsibility with different people if you want to get good results.
 

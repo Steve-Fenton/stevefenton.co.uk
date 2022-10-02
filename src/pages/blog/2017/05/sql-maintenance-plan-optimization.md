@@ -27,4 +27,4 @@ You can trade some speed for disk by making the cleanup task run less often. You
 
 SQL -&gt; Management -&gt; Maintenance Plans -&gt; Maintenance Plan Wizard
 
-![Maintenance Plan](https://www.stevefenton.co.uk/wp-content/uploads/2017/05/maintenance-plan.png)
+![Maintenance Plan](/img/2017/05/maintenance-plan.png)

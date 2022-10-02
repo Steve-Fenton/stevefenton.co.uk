@@ -14,7 +14,7 @@ categories:
     - Process
 ---
 
-![Playing Cards](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/playing-cards.jpg)I rather enjoyed discovering a metaphor about quality, born out of the planning game itself!
+![Playing Cards](/img/2015/07/playing-cards.jpg)I rather enjoyed discovering a metaphor about quality, born out of the planning game itself!
 
 Like many teams, the team uses playing cards to size stories, with sets of cards in the sequence 1, 2, 3, 5, 8. Anything bigger than an 8 is too big. The cards get handed out at the start of the planning game and then put back into a box at the end to wait for next time.
 

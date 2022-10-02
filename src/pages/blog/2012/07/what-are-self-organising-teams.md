@@ -16,7 +16,7 @@ tags:
     - teams
 ---
 
-![Self-Organising Pawn](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/self-organising-pawn.jpg)If you have a background in a “traditional” software development methodology, such as Waterfall, you probably won’t have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.
+![Self-Organising Pawn](/img/2015/07/self-organising-pawn.jpg)If you have a background in a “traditional” software development methodology, such as Waterfall, you probably won’t have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.
 
 The self-organising team in software development is borrowed from a principle in lean car manufacturing. Rather than have 5 wheel guys putting on wheels under the supervision of a clipboard-wielding whip-cracker, whose job is to tell the 5 wheel guys how they could do their job faster and better – you just make sure your wheel guys are experts and tell them to work out the best process for putting on wheels. This all stems from the concept that if you employ experts to do a job, they actually want to do the right thing and as they have amazing knowledge in their subject area, they will come up with the best method for delivering quality in good time. The person holding the clipboard can throw it away, stop managing the low level details and instead allow their gaze to take in the “bigger picture”.
 

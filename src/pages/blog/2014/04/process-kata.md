@@ -14,7 +14,7 @@ categories:
     - Process
 ---
 
-![Process Kata](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/process-kata.jpg)
+![Process Kata](/img/2015/07/process-kata.jpg)
 
 The team I work on has been performing coding katas for some time to improve our coding chops. It is a great way of practising test-first programming, it can test your program design skills and it helps you to gain familiarity with your tools.
 

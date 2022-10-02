@@ -76,6 +76,6 @@ function showNotification(title, message, link) {
     }
 }
 ```
-[![Web Notification](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/web-notification.jpg)](https://www.stevefenton.co.uk/2020/08/notifications-for-web-apps/web-notification/)
+[![Web Notification](/img/2020/08/web-notification.jpg)](https://www.stevefenton.co.uk/2020/08/notifications-for-web-apps/web-notification/)
 
 The notifications feature is [reasonably well supported](https://caniuse.com/#feat=notifications) on desktop and even has some support on mobile. In any case, you should be design robustly as if it’s not there in case either (a) you don’t have the user’s consent for notifications, or (b) they have disabled notifications at the operating system level (i.e. you can disable all notifications on Windows).

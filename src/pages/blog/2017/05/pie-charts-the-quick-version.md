@@ -16,11 +16,11 @@ This pie chart example is based on an [article posted yesterday on the Google Te
 
 ### No
 
-![Google Testing Pie](https://www.stevefenton.co.uk/wp-content/uploads/2017/05/google-testing-pie.png)
+![Google Testing Pie](/img/2017/05/google-testing-pie.png)
 
 ### Yes
 
-![Google Testing Bars](https://www.stevefenton.co.uk/wp-content/uploads/2017/05/google-testing-bars.png)
+![Google Testing Bars](/img/2017/05/google-testing-bars.png)
 
 ### Notes
 

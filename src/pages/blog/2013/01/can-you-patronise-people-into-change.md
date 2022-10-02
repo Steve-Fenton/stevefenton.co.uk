@@ -12,7 +12,7 @@ categories:
     - Psychology
 ---
 
-![Who Moved My Cheese](https://www.stevefenton.co.uk/wp-content/uploads/2013/01/who-moved-my-cheese.jpg)There is a well known management book named ‘Who Moved My Cheese’ by Dr Spencer Johnson. This is a book that has sold in large numbers and has on countless occasions been used as some kind of patronising change-truncheon to force employees to embrace some organisational change.
+![Who Moved My Cheese](/img/2013/01/who-moved-my-cheese.jpg)There is a well known management book named ‘Who Moved My Cheese’ by Dr Spencer Johnson. This is a book that has sold in large numbers and has on countless occasions been used as some kind of patronising change-truncheon to force employees to embrace some organisational change.
 
 While I have no strong opinion on the book’s message (change is going to happen whether you like it or not) I do have an immense problem with the use of a story that sounds like it was written for children to deliver the message. In my experience, using children’s stories to spread a message is popular in religious brainwashing, not in normal work life.
 

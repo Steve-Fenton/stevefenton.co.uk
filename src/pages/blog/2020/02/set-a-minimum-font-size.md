@@ -32,10 +32,10 @@ This is just a little script I needed to use to increase text size conditionally
 ```
 Before Image
 
-![Text Size Before](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/text-size-before.jpg)
+![Text Size Before](/img/2020/02/text-size-before.jpg)
 
 After Image
 
-![Text Size After](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/text-size-after.jpg)
+![Text Size After](/img/2020/02/text-size-after.jpg)
 
 You can see that the span element is the same size before and after, but all the tiny text has been increased to the minimum size.

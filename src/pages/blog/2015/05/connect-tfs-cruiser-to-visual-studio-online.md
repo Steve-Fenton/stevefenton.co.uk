@@ -21,7 +21,7 @@ You definitely don’t want to put your user name and password into the TFS Crui
 
 My Profile -&gt; Credentials -&gt; Add alternate credentials
 
-![Visual Studio Online - My Profile](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-online-my-profile.png)
+![Visual Studio Online - My Profile](/img/2015/07/visual-studio-online-my-profile.png)
 
 ### Step Two – Config
 

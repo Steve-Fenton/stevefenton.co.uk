@@ -39,4 +39,4 @@ A has a z-index of 100, so it is on top of C, which has a z-index of 90 *and is 
 
 B is on top of A and C, because it has a z-index of 2, but is in the Stacking Context of A, so think of it as A + 2, or 100 + 2.
 
-![Stacking Context](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/stackingcontext.jpg)
+![Stacking Context](/img/2015/07/stackingcontext.jpg)

@@ -14,7 +14,7 @@ tags:
     - typescript
 ---
 
-![Duck of Vaucanson](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/Duck_of_Vaucanson.jpg)We’ve all read JavaScript: The Good Parts, and there is plenty of wisdom in Douglas Crockford’s landmark work. His reminder that eval is evil has echoed through the JavaScript community and saved many people from a total mess.
+![Duck of Vaucanson](/img/2017/10/Duck_of_Vaucanson.jpg)We’ve all read JavaScript: The Good Parts, and there is plenty of wisdom in Douglas Crockford’s landmark work. His reminder that eval is evil has echoed through the JavaScript community and saved many people from a total mess.
 
 However, as programmers we must remain thinking individuals who question received wisdom. You must resist inappropriate use of reductionism; the kind that tempts you to compress a chapter of intelligent monologue into a bullet-point rule. This is the kind of problem we had more than 15 years ago when we realised that “you shouldn’t use tables for layout”… which gets repeated back to us by novices as “you shouldn’t use tables!”.
 

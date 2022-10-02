@@ -117,6 +117,6 @@ checkAllImages();
 ```
 Here’s an example of it running against my home page:
 
-[![Result of Checking Images](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/check-images.jpg)](https://www.stevefenton.co.uk/2020/07/little-scripts-checking-web-page-images/check-images/)
+[![Result of Checking Images](/img/2020/07/check-images.jpg)](https://www.stevefenton.co.uk/2020/07/little-scripts-checking-web-page-images/check-images/)
 
 Yikes! I need to go fix those images.

@@ -24,7 +24,7 @@ I’m a big fan of [using modules in JMeter](http://www.stevefenton.co.uk/Conten
 
 The good news is that the extras set contains a parameterized Controller. You can add one of these for each scenario and then nest the module controller inside of the parameterized Controller. You can then reference the user defined variables you set up in your parameterized controller just like you do the ones you set up at the Test Plan level.
 
-![Parameterized Controller](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter-param-controller.png)
+![Parameterized Controller](/img/2015/07/jmeter-param-controller.png)
 
 Remember, you can copy/paste the parameterized controller and change the values. This isn’t repeating yourself because all of the repetition is squirrelled away in your simple controller.
 

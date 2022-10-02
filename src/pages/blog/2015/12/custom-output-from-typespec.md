@@ -53,4 +53,4 @@ To use the custom test reporter, pass it in when you instantiate the SpecRunner.
 ```
 The result of this custom test reporter is shown below:
 
-![TypeSpec Browser Ouput](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/typespec-browser-output.png)
+![TypeSpec Browser Ouput](/img/2015/11/typespec-browser-output.png)

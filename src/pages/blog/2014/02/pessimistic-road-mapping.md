@@ -17,7 +17,7 @@ tags:
     - 'road map'
 ---
 
-![Rolling Guessed Roadmap](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/rolling-guessed-roadmap.png)
+![Rolling Guessed Roadmap](/img/2015/07/rolling-guessed-roadmap.png)
 
 Having seen roadmaps implemented in five or six different organisations, I was largely unsurprised that the subject came up this week. The difficult thing about roadmaps is making it clear that everything shown on the map is both:
 
@@ -38,7 +38,7 @@ Let’s start with the pessimistic sketch…
 
 ### Pessimistic Sketch
 
-![Pessimistic Roadmap](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pessimistic-roadmap.png)
+![Pessimistic Roadmap](/img/2015/07/pessimistic-roadmap.png)
 
 The pessimistic sketch shown above shows the epic ideas stacked left to right in the order they are going to be worked on (as at the moment you create the chart). When you add items, they are given the biggest size you use when mapping. In this case the biggest size is “I reckon that would take 32 weeks” – so everything is 32 weeks.
 
@@ -46,7 +46,7 @@ The pessimistic sketch shown above shows the epic ideas stacked left to right in
 
 Once you have the pessimistic sketch, you guess the first few items to produce a partially guessed version (in my system there is never a “fully guessed version” and there shouldn’t ever be).
 
-![Partially Guessed Roadmap](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/partially-guessed-roadmap.png)
+![Partially Guessed Roadmap](/img/2015/07/partially-guessed-roadmap.png)
 
 This partially guessed version helps visualise the relative sizes of the guesses. It provides a launchpad for other guesses and shows how long the next few features might take (even though they won’t take this amount of time, because we know it is utterly wrong).
 
@@ -54,7 +54,7 @@ This partially guessed version helps visualise the relative sizes of the guesses
 
 The rolling version of the map is an attempt to have guesses for “the next *n* months” or “the next *6* months” for the purposes of this example. Whenever a feature pops off of the left because you delivered it, had a party and signed up 1,000 new customers – you guess enough things on the right to maintain the view of the next six months. This rolling guesswork then takes very little time to maintain, which is good because the value isn’t in guessing numbers – it is in generating the vision of where the product is going.
 
-![Rolling Guessed Roadmap](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/rolling-guessed-roadmap.png)
+![Rolling Guessed Roadmap](/img/2015/07/rolling-guessed-roadmap.png)
 
 ### No Dates
 

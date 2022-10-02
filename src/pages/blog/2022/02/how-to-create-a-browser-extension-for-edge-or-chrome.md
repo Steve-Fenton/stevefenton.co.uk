@@ -16,7 +16,7 @@ Once upon a time we used to write *scriptlets*, or *bookmarklets*, that would ru
 
 I’ll share the technical details here as well as some information on how to list it in the official stores.
 
-You can [download a sample zip file and make your own extension with it here](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/example.zip).
+You can [download a sample zip file and make your own extension with it here](/img/2022/02/example.zip).
 
 ### Anatomy of an extension
 

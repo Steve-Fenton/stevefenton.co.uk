@@ -18,7 +18,7 @@ So here’s the story. I picked up a trick years ago whereby if you held the shi
 
 Recently, this menu item has been usurped with an “Open Powershell window here” option. This makes sense as I probably spend more time in Powershell than Command Prompt… except when I’m chugging some Node awesome!
 
-![Powershell Window Here](https://www.stevefenton.co.uk/wp-content/uploads/2017/09/powershell-window-here.png)
+![Powershell Window Here](/img/2017/09/powershell-window-here.png)
 
 ### Productivity surprise
 
@@ -30,14 +30,14 @@ Well, truth be told – I completely did **not** know that you could do this. I 
 
 So if you have the folder open…
 
-![Folder Address Bar](https://www.stevefenton.co.uk/wp-content/uploads/2017/09/c-win-temp.png)
+![Folder Address Bar](/img/2017/09/c-win-temp.png)
 
 And you type `cmd` into the folder address bar…
 
-![CMD in Folder Address Bar](https://www.stevefenton.co.uk/wp-content/uploads/2017/09/cmd-in-address-bar.png)
+![CMD in Folder Address Bar](/img/2017/09/cmd-in-address-bar.png)
 
 Then you get a Command Prompt Window in your current folder!
 
-![Command Window](https://www.stevefenton.co.uk/wp-content/uploads/2017/09/cmd-win.png)
+![Command Window](/img/2017/09/cmd-win.png)
 
 Although many of you will probably be thinking “yeah… I know”, there must be others out there who have been using some other way of achieving this and it may help to increase their joy and productivity.

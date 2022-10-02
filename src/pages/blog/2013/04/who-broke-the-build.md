@@ -15,7 +15,7 @@ categories:
     - Programming
 ---
 
-![Cruiser - CC.NET Build Status](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cruiser.jpg)In an Agile software development area you’ll usually find lots of information in prominent places about the status of builds and tests. Whether it is a big screen acting as an information radiator that highlights a problem as soon as a build breaks or whether it is a siren and flashing lights that alerts everyone of a problem – build and test information is important.
+![Cruiser - CC.NET Build Status](/img/2015/07/cruiser.jpg)In an Agile software development area you’ll usually find lots of information in prominent places about the status of builds and tests. Whether it is a big screen acting as an information radiator that highlights a problem as soon as a build breaks or whether it is a siren and flashing lights that alerts everyone of a problem – build and test information is important.
 
 The reason it is important is that we like to know that at any given moment we could ship our products.
 

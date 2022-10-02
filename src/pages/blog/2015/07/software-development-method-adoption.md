@@ -25,7 +25,7 @@ When agile methods went mainstream, the reports started flooding in about failed
 
 Here is how you go mainstream with a software development method.
 
-![Adoption vs Failure Incidents](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/image1.jpg)
+![Adoption vs Failure Incidents](/img/2015/07/image1.jpg)
 
 Stage one. A team experiments and creates an evolving method that works really well for them. So far, 100% success rate.
 

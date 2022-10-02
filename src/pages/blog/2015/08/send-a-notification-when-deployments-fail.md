@@ -15,7 +15,7 @@ If you are using Octopus Deploy as part of a continuous delivery pipeline, youâ€
 
 Here is a simple email notification step that tells you when a deployment fails, including a reasonable amount of information about the failure.
 
-![Octopus Deploy Failed Deployment Email](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/failed-deployment-email.png)
+![Octopus Deploy Failed Deployment Email](/img/2015/07/failed-deployment-email.png)
 
 The key parts of this email are the subject:
 

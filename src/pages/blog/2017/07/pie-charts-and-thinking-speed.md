@@ -18,14 +18,14 @@ Brains are a bit like this. When we look at a chart, we are attempting to answer
 
 When we look at a chart such as this:
 
-![Per-Channel Original](https://www.stevefenton.co.uk/wp-content/uploads/2017/07/per-channel-original.png)
+![Per-Channel Original](/img/2017/07/per-channel-original.png)
 
 We need to think a bit like this:
 
-![Per-Channel Annotated](https://www.stevefenton.co.uk/wp-content/uploads/2017/07/per-channel-annotated.png)
+![Per-Channel Annotated](/img/2017/07/per-channel-annotated.png)
 
 This drains our mental power as we are allocating more CPU to the parsing of the chart than we are to the questions we were trying to answer.
 
 You can optimise this whole process using charts that don’t require more than an ambient amount of brain-CPU to parse… or even better, charts that already answer the most common questions that someone is likely to be asking; like the chart below.
 
-![Per-Channel Replacement](https://www.stevefenton.co.uk/wp-content/uploads/2017/07/bar-chart.png)
+![Per-Channel Replacement](/img/2017/07/bar-chart.png)

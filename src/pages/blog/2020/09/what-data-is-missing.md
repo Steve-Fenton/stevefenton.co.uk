@@ -28,7 +28,7 @@ Let’s look at an example that embodies this principle.
 
 These are the results of the 2016 US Election in terms of votes. Clinton had 1.3 million more votes than Trump (but the electoral college system resulted in Trump being elected).
 
-[![Column chart shows Clinton has the majority of votes, a small lead over Trump, with a small column for other votes.](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/2016-us-election-votes.jpg)](https://www.stevefenton.co.uk/2020/09/what-data-is-missing/2016-us-election-votes/)
+[![Column chart shows Clinton has the majority of votes, a small lead over Trump, with a small column for other votes.](/img/2020/09/2016-us-election-votes.jpg)](https://www.stevefenton.co.uk/2020/09/what-data-is-missing/2016-us-election-votes/)
 
 You will hear people saying that 48% of voters chose Clinton and 47% chose Trump. This is wrong. When we look at votes, we are excluding specific groups of the population. In particular, we exclude those not eligible to vote and those who *didn’t* vote (or whose vote was not counted).
 
@@ -36,7 +36,7 @@ That doesn’t matter right? Can’t we just scale up our population? No, becaus
 
 In the case of the US Election in 2016, the “no vote” population is massive. In fact, if we look at *voters* rather than *votes* we find that “no vote” represents 43% of the voting population, leaving just 27% for Clinton and 26% for Trump.
 
-[![Chart shows the largest column is no votes, with columns that are three fifths as high for Clinton and Trump and a very small column for others.](https://www.stevefenton.co.uk/wp-content/uploads/2020/09/2016-us-election-voters.jpg)](https://www.stevefenton.co.uk/2020/09/what-data-is-missing/2016-us-election-voters/)
+[![Chart shows the largest column is no votes, with columns that are three fifths as high for Clinton and Trump and a very small column for others.](/img/2020/09/2016-us-election-voters.jpg)](https://www.stevefenton.co.uk/2020/09/what-data-is-missing/2016-us-election-voters/)
 
 Why does this matter?
 

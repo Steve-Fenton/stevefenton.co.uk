@@ -13,7 +13,7 @@ Visual Studio Team Services is rather good, but if you are using it outside of t
 
 The current fix is as follows:
 
-![Visual Studio Online Date Format](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/visual-studio-online-date-format.png)
+![Visual Studio Online Date Format](/img/2015/11/visual-studio-online-date-format.png)
 
 A) Go to your name in the top-right of the screen, then select “My Profile” -&gt; “Preferences”
 

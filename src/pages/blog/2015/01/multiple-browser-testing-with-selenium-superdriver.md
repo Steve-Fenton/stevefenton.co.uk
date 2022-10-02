@@ -42,11 +42,11 @@ SuperWebDriver uses deep-wrapping. For example, calling FindElement on a driver 
 
 Here is a typical structure for a single web driver, such as the FirefoxDriver.
 
-![Normal WebDriver](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/web-driver-normal.png)
+![Normal WebDriver](/img/2015/07/web-driver-normal.png)
 
 And here is the SuperWebDriver, which hides multiple drivers and distributes commands to multiple drivers and co-ordinates the responses to allow a single coherent response to your test code.
 
-![Super WebDriver](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/web-driver-super.png)
+![Super WebDriver](/img/2015/07/web-driver-super.png)
 
 The fundamental principle of the Super Driver project is to take a single command from your test code and send it out to multiple browsers and then apply the same principle in reverse to hide the multiple responses within a super wrapper to ensure your test code never knows that there are many browsers running at the same time.
 

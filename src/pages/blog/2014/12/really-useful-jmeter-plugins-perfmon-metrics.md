@@ -22,7 +22,7 @@ You start the PerfMon Agent by opening the “startAgent.bat” (or “startAgen
 
 Once the PerfMon Agent is running, you can collect data using the PerMon Metrics Collector plugin.
 
-![JMeter Perfmon Listener](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter-perfmon-listener.png)
+![JMeter Perfmon Listener](/img/2015/07/jmeter-perfmon-listener.png)
 
 You can use “Add Row” to create lines on the graph, using a row per server/metric. In the example above, I’m collecting the CPU data from localhost and the Memory data from localhost.
 

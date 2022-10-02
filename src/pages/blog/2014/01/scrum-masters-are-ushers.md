@@ -14,7 +14,7 @@ categories:
     - Process
 ---
 
-![Scrum Usher](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/scrum-usher.jpg)Metaphors are at the heart of agile. From describing processes to providing a system vision, drawing comparisons with familiar reference points can provide the light-bulb moment that makes you understand a concept.
+![Scrum Usher](/img/2015/07/scrum-usher.jpg)Metaphors are at the heart of agile. From describing processes to providing a system vision, drawing comparisons with familiar reference points can provide the light-bulb moment that makes you understand a concept.
 
 I am currently reading Scrum Mastery by Geoff Watts and the description Geoff gives of the servant-master role gave me the idea for a Scrum Master metaphor that I think describes the role well.
 

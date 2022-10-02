@@ -24,7 +24,7 @@ That means our average person can read thirty to sixty books a year just by exch
 
 ### Time to Read
 
-[![An infographic showing that giving up half your social time will gift you 30 books a year.](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/time-to-read.png)](https://www.stevefenton.co.uk/?attachment_id=12620)
+[![An infographic showing that giving up half your social time will gift you 30 books a year.](/img/2022/01/time-to-read.png)](https://www.stevefenton.co.uk/?attachment_id=12620)
 
 ### Notes
 

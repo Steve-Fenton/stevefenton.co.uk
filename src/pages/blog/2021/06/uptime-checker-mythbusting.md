@@ -17,7 +17,7 @@ Whether you use Pingdom, UpDn, Datadog, or some other platform to test if your w
 
 The idea behind an uptime checker is that it will visit your site frequently and report whether it managed to get there. There are lots of reasons it might not get there, but it basically records the success or failure and then reports the uptime, usually as a percentage. For example, the below chart shows the daily uptime on this website for the past 28 days.
 
-[![28 Days of Uptime Results](https://www.stevefenton.co.uk/wp-content/uploads/2021/06/uptime-results-28-day-chart.jpg)](https://www.stevefenton.co.uk/2021/06/uptime-checker-mythbusting/uptime-results-28-day-chart/)
+[![28 Days of Uptime Results](/img/2021/06/uptime-results-28-day-chart.jpg)](https://www.stevefenton.co.uk/2021/06/uptime-checker-mythbusting/uptime-results-28-day-chart/)
 
 There are two blips on there for June 7th and June 12th. Both were my fault!
 

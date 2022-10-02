@@ -26,6 +26,6 @@ So here is a suggestion that came up in conversation with a friend: Automatic De
 
 This would allow the best of several shots to be selected, for example in portrait photography you could select the shot with best focus on the eye – but could also be used to combine several shallow depth-of-field shots to highlight detail. If you have ever taken a photo of a hoverfly, you’ll know that you have to choose between focus on the eyes or focus on the wings.
 
-![Fly](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/fly.jpg)
+![Fly](/img/2015/07/fly.jpg)
 
 By having a selection of shots with different focal lengths not only could you choose the best one, you could combine them to get the perfect depth of field by taking the area of focus from several shots and merging them together. Ideally, you would get the camera to do this automatically, but even having the shots taken in sequence with the focal length adjustment taking place for you would mean you can work on the set of images later on.

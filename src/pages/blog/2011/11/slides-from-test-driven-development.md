@@ -16,13 +16,13 @@ tags:
 
 Here is a brief overview and some of the slides from my Test Driven Development (TDD) talk on Thursday. The theme of the talk was to to discuss TDD in a non-zealous manner. This meant discussing both the costs and the benefits as well as referencing real studies as well as anecdotal evidence.
 
-![TDD Isn't Free](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/TDDSlide2.jpg)
+![TDD Isn't Free](/img/2015/07/TDDSlide2.jpg)
 
 So I started by pointing out that TDD isn’t free of charge. [Case studies at Microsoft and IBM](https://www.microsoft.com/en-us/research/group/empirical-software-engineering-group-ese/) found a *15-35% increase in initial development time* after adopting TDD. This will vary based on the people, but it is important that everyone understands that there is an up-front cost to TDD.
 
 So why take this initial hit? To highlight some of the benefits I sketched a picture. Importantly, the last thing on the list is that you would expect fewer bugs to make it into the application. I put this last because it is an obvious benefit – but possibly not the greatest benefit.
 
-![TDD Benefits](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/TDDSlide4.jpg)
+![TDD Benefits](/img/2015/07/TDDSlide4.jpg)
 
 So returning to the top of the list, tests act as documentation and sample code, which in a lot of cases means you don’t need to write a text document to explain the code. Text documents don’t get updated when code is changed, but tests do get updated. This makes them better than text documents.
 
@@ -51,4 +51,4 @@ TDD is very rarely used on its own in a successful team either. A combination of
 
 So please bear in mind that a developer can be great without using TDD just as a terrible developer may still be terrible if they used it. TDD alone is not the indicator of a good developer, even though the developers that I have worked with and respect the most were advocates and practitioners of TDD.
 
-![TDD Discuss](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/TDDSlide1.jpg)
+![TDD Discuss](/img/2015/07/TDDSlide1.jpg)

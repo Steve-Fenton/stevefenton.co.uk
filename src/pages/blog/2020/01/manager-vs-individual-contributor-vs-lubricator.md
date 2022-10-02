@@ -12,13 +12,13 @@ categories:
 
 You can’t have been following leadership literature for very long if you haven’t heard of manager time vs individual contributor time. The general concept is that individual contributors need some big chunks of time to *get stuff done*, and managers (partly to protect these big chunks for their team) work in small fragments of time. You could loosely say that managers work in half-hour fragments, whereas individual contributors need to work in half-day chunks. It’s not precise; you could track it on a sun dial in winter.
 
-![Manager Time vs Individual Contributor Time](https://www.stevefenton.co.uk/wp-content/uploads/2020/01/manager-vs-individual-contributor.jpg)
+![Manager Time vs Individual Contributor Time](/img/2020/01/manager-vs-individual-contributor.jpg)
 
 ### Mode management
 
 When you are both a manager *and* an individual contributor, you can only survive with strong mode-management. The first defence of mode-management is to ensure you aren’t doing things that your team should be doing. As a manager, leader, or bossy-boss, you first thought in respect of IC-work should be… “If I’m doing this… why can’t my team do it?”. Now go and make it possible for them to do it. The second defence of mode-management is that you have to know what you are trying to achieve and defend it. If you are being the IC for a morning; you make sure you get that big chunk of focus time to get stuff done (See [The Ultimate Productivity Suite](https://www.stevefenton.co.uk/2021/09/the-ultimate-productivity-suite/)).
 
-![Defending Work Modes](https://www.stevefenton.co.uk/wp-content/uploads/2020/01/mode-management.jpg)
+![Defending Work Modes](/img/2020/01/mode-management.jpg)
 
 Reality will come after you with a vengeance when you do this, but I’m serious when I say…
 
@@ -28,7 +28,7 @@ Reality will come after you with a vengeance when you do this, but I’m serious
 
 There is another type of contributor that doesn’t fit the two modes above. The lubricator. These are the people who have some kind of knowledge or ability that has an asymmetrical demand/supply balance. For example, if you have one IT person and 300 old machines, there will be a constant queue of two-minute tasks with an interrupt-driven immediacy to the work pattern. Unlike managers or individual contributors, their day isn’t neatly divided into chunks, it looks more like… well, this:
 
-![Manager vs Individual Contributor vs Lubricator](https://www.stevefenton.co.uk/wp-content/uploads/2020/01/manager-vs-individual-contributor-vs-lubricator.jpg)
+![Manager vs Individual Contributor vs Lubricator](/img/2020/01/manager-vs-individual-contributor-vs-lubricator.jpg)
 
 Can you service this kind of work alongside manager-mode, or alongside individual contributor mode? Not really… unless you have steely resolve and limitless energy.
 

@@ -68,10 +68,10 @@ Pro Get knows when you are uploading a new version of a package and handles all 
 
 To see your feed in Visual Studio, open up NuGet Package Manager and hit the “Settings” button. You can then add the name and URL of your package source:
 
-![NuGet Add Package Source](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/nuget-add-package-source.png)
+![NuGet Add Package Source](/img/2015/07/nuget-add-package-source.png)
 
 Once you save this configuration, your package feed will appear right next to the nuget.org package feed in Visual Studio and you can install any of the packages you have uploaded.
 
-![NuGet Use Package Source](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/nuget-use-package-source.png)
+![NuGet Use Package Source](/img/2015/07/nuget-use-package-source.png)
 
 And that’s all there is to it. Creating, publishing and consuming your own NuGet packages to share your code within your organisation – or even further afield.

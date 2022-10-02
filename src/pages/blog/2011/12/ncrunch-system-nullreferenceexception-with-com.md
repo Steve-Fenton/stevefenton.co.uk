@@ -35,4 +35,4 @@ If you are using [NCrunch awesomeness in Visual Studio](https://www.stevefenton.
 ```
 Don’t panic – there is a work around for this. Open NCrunch configuration and find the project that fails with this error and change the setting “InstrumentAssembly” to false. It is the NCrunch instrumentation that has a problem, so this will allow the project to build and for the tests to run.
 
-![NCrunch](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/NCrunchInstrumentationSetting.jpg)
+![NCrunch](/img/2015/07/NCrunchInstrumentationSetting.jpg)

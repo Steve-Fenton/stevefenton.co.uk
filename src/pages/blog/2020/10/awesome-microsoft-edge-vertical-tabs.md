@@ -15,21 +15,21 @@ tags:
 
 I’ll be honest, it has taken a day or two to retrain my cerebellum for this one, but it is totally worth it. Modern day displays happen to be wider than you need. Horizontal real estate is in surplus and is cheap, but vertical space is more valuable. That’s why Microsoft Edge is getting a feature called Vertical Tabs. Which is easier shown than told, so let’s take a look.
 
-[![Microsoft Edge Vertical Tabs](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/vertical-tabs.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs/)
+[![Microsoft Edge Vertical Tabs](/img/2020/10/vertical-tabs.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs/)
 
 That’s the beauties. They sit quietly down the side of your screen, giving you a few extra prime vertical pixels for the web page. You can fit quite a lot of tabs down this list, which you can set to expand and collapse. To show it for scale, this is the whole screen with the tabs in minimal mode:
 
-[![Minimal Vertical Tabs](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/vertical-tabs-minimised.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs-minimised/)
+[![Minimal Vertical Tabs](/img/2020/10/vertical-tabs-minimised.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs-minimised/)
 
 And this is the screen with them expanded. You can keep them expanded if you prefer.
 
-[![Expanded Vertical Tabs](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/vertical-tabs-expanded.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs-expanded/)
+[![Expanded Vertical Tabs](/img/2020/10/vertical-tabs-expanded.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/vertical-tabs-expanded/)
 
 ### Enable Vertical Tabs in Edge
 
 You can enable vertical tabs by visiting `edge://settings/` and doing a quick search for “vertical tabs”.
 
-[![Edge Setting for Vertical Tabs](https://www.stevefenton.co.uk/wp-content/uploads/2020/10/edge-setting-vertical-tabs.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/edge-setting-vertical-tabs/)
+[![Edge Setting for Vertical Tabs](/img/2020/10/edge-setting-vertical-tabs.jpg)](https://www.stevefenton.co.uk/2020/10/awesome-microsoft-edge-vertical-tabs/edge-setting-vertical-tabs/)
 
 ### Summary
 

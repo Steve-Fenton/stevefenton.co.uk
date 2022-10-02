@@ -14,7 +14,7 @@ tags:
     - ood
 ---
 
-![A Flock of Starlings](https://www.stevefenton.co.uk/wp-content/uploads/2018/03/flocking-rules.jpg)
+![A Flock of Starlings](/img/2018/03/flocking-rules.jpg)
 
 I spent something like $50 on [99 Bottles of OOP](https://www.sandimetz.com/99bottles/) when it came out. That could have bought me 60 Mars Bars, or even 0.005 Bitcoins! But I have been telling people to buy this book as it is an investment in their career. I’m going to share some of that value here, but to get the full benefit you’ll still need to buy the book yourself.
 

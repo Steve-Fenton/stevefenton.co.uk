@@ -14,7 +14,7 @@ categories:
 
 The new Apple iPad has been revealed in a big ceremony with an impressive demo from Apple’s CEO. Despite Fujitsu possibly still owning the trademark “i-pad” for hand-held computing, it is an impressive bit of kit.
 
-![iPad](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/ipada.jpg)
+![iPad](/img/2015/07/ipada.jpg)
 
 The iPad is a roughly A4 sized touch-screen with web, game and book functionality (amongst lots of other things). Imagine a piece of thick A4 paper made of aluminium with a massive screen on one side and that’s exactly what’s on offer.
 
@@ -22,4 +22,4 @@ Having seen the awesome demo of the iPad, I suddenly had a brilliant idea. The m
 
 Here’s a mock-up of what the iPad might look like with this modification.
 
-![iPad - Keyboard Edition](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/ipadb.jpg)
+![iPad - Keyboard Edition](/img/2015/07/ipadb.jpg)

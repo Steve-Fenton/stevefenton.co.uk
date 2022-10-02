@@ -18,7 +18,7 @@ tags:
 
 I saw a picture that hinted that DevOps was a substitute or successor for Agile. This made me consider the question “Is DevOps a replacement for Agile?”. It had a chart that represented time from left to right, and suggested that Agile was “waterfall with shorter iterations” and that DevOps was “agile with even shorter iterations”. Here is a re-creation of the original chart.
 
-![Waterfall, Agile, DevOps](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/original-concept.png)
+![Waterfall, Agile, DevOps](/img/2018/06/original-concept.png)
 
 The problem I have with this is that it doesn’t fairly picture what both Agile and DevOps have been moving towards: *continuous everything*. Since Continuous Integration became *a thing*, software development teams have been looking to turn the dial up to ten across the entire lifecycle. Hopefully this already hints at my conclusion to the original question.
 
@@ -32,6 +32,6 @@ DevOps is really an evolution of Agile and of Extreme Programming. Bringing the 
 
 In fact, both Agile and DevOps can best be shown with this updated chart.
 
-![Agile and DevOps - Continuous All The Things](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/updated-concept.png)
+![Agile and DevOps - Continuous All The Things](/img/2018/06/updated-concept.png)
 
 This better reflects the *continuous everything* mindset that really makes things so effective. If you want evidence on the impact of this approach, pick up a copy of [Accelerate](https://itrevolution.com/book/accelerate/).

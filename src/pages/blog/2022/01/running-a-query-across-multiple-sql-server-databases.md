@@ -49,7 +49,7 @@ The only argument to pass to `mq` is the drive letter, in the above example itâ€
 
 The output file will have a column for each of the fields in the field list, plus an extra one to tell you the data source for each of the rows. Itâ€™s just a plain old CSV file.
 
-[![The temp mq folder with an input and output file](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/temp-mq-folder.jpg)](https://www.stevefenton.co.uk/2022/01/running-a-query-across-multiple-sql-server-databases/temp-mq-folder/)
+[![The temp mq folder with an input and output file](/img/2022/01/temp-mq-folder.jpg)](https://www.stevefenton.co.uk/2022/01/running-a-query-across-multiple-sql-server-databases/temp-mq-folder/)
 
 ### Least privilege
 

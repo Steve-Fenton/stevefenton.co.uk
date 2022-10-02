@@ -23,7 +23,7 @@ I won’t mention where I spotted it, but it was published by some people that r
 2. Can I determine how big each value is in relation to each other value?
 3. Should this be a bar chart?
 
-![Stupid Pie Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/stupidpie.png)
+![Stupid Pie Chart](/img/2015/07/stupidpie.png)
 
 In particular, while many people will correctly identify the first block (12 o’clock to around 5 o’clock) as the largest, it is incredibly difficult to tell the sizes of the next two blocks – and they are so similar in size, it is difficult to determine their relative worth in respect of each other. It isn’t even that easy to compare one of the small blocks to the larger block.
 

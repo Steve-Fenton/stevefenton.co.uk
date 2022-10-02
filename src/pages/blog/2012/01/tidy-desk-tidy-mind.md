@@ -18,4 +18,4 @@ All that is left are a couple of monitors, some headphones a keyboard and a mous
 
 Take a look and revel in the tidiness!
 
-![My Desk](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/desk.jpg)
+![My Desk](/img/2015/07/desk.jpg)

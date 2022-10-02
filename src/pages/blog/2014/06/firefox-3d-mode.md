@@ -18,7 +18,7 @@ If you haven’t checked out the native Firefox Developer Tools in a while, it i
 
 The feature I’m going to highlight briefly is the 3D view. Once you get over the childish excitement of the 3D rotatable funk, you’ll notice that it does actually serve a purpose.
 
-![Firefox 3D View](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/firefox-3d-view.jpg)
+![Firefox 3D View](/img/2015/07/firefox-3d-view.jpg)
 
 If you have trouble finding this option, it is because it isn’t switched on by default – so head to the Settings page (tiny cog on the left of the developer tools header) and tick the “3D View” feature. This will cause a little wire box icon to appear near the right-hand side of the developer tools header.
 

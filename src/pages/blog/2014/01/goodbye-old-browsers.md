@@ -32,7 +32,7 @@ For older browsers, the worst case scenario is that the block elements in HTML5 
 
 ### Working Browsers
 
-![Browser Test Rekonq](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/browser-test-rekonq.png)
+![Browser Test Rekonq](/img/2015/07/browser-test-rekonq.png)
 
 Here are just some of the browsers everything looks fine in (I have put the minimum version tested – I tested quite a lot of versions). This is not an exhaustive list.
 
@@ -52,7 +52,7 @@ Here are just some of the browsers everything looks fine in (I have put the mini
 
 ### Working Text Browsers
 
-![Browser Test Lynx](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/browser-test-lynx.png)
+![Browser Test Lynx](/img/2015/07/browser-test-lynx.png)
 
 These browsers are fine too (but are text-browsers):
 
@@ -61,7 +61,7 @@ These browsers are fine too (but are text-browsers):
 
 ### Shonky Browsers
 
-![Browser Test Konqueror](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/browser-test-konqueror.png)
+![Browser Test Konqueror](/img/2015/07/browser-test-konqueror.png)
 
 And these look shonky, but work:
 

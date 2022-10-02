@@ -123,11 +123,11 @@ The simple way to determine a winner is using the percentage probabilities, but 
 
 The screen shot below shows that baseline and the first variation are not significantly better, but the second variation is significantly outperforming both. It is 77% likely to be better than the baseline. The exact number that counts as “a strong outcome” differs based on the number of variations. For a false dichotomy test, 77% wouldn’t be so strong, but with three variations it is pretty good.
 
-![Google Optimize Inline Charts](https://www.stevefenton.co.uk/wp-content/uploads/2018/02/google-optimize-inline-charts.png)
+![Google Optimize Inline Charts](/img/2018/02/google-optimize-inline-charts.png)
 
 The strange looking charts show a line for the middle 95th, a thicker bar for the middle 50th, and a circle for the median. You can hover to see the details and the numbers are also plotted over time on the chart below the table. Each row compares the variation with the baseline.
 
-![Google Optimize Inline Charts Hover](https://www.stevefenton.co.uk/wp-content/uploads/2018/02/google-optimize-inline-charts-hover.png)
+![Google Optimize Inline Charts Hover](/img/2018/02/google-optimize-inline-charts-hover.png)
 
 What is also interesting in this picture is that it hints that we might have found the “left hand side” of a bell curve, so perhaps we should attempt an experiment that would complete that picture.
 

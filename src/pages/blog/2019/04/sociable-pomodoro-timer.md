@@ -21,4 +21,4 @@ And that’s where my Oregon Scientific TW331 comes in. It has all the benefits 
 
 As an extra bonus, it has two timers; so you can have your 5 or 15 minute timer primed in T2 while the 25 minute countdown is running in T1. You can also use the memory function to remember your times, so you can push one button to reset T1 to 25 minutes, and the same for the T2 timer.
 
-![Pomodoro Timer](https://www.stevefenton.co.uk/wp-content/uploads/2019/04/pomodoro-timer.jpg)
+![Pomodoro Timer](/img/2019/04/pomodoro-timer.jpg)

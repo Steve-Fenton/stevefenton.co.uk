@@ -93,19 +93,19 @@ Edit your vNext build and choose the “Variables” section.
 
 Add a variable named “VstsUsername” with your username and a variable named “VstsPassword” with your newly minted token.
 
-![vNext Build Variables](https://www.stevefenton.co.uk/wp-content/uploads/2016/10/vnext-build-variables.png)
+![vNext Build Variables](/img/2016/10/vnext-build-variables.png)
 
 ### PowerShell build step
 
 Now you can add a PowerShell build step to your vNext build, calling the PowerShell script and passing the VSTS Username and Password.
 
-![vNext PowerShell Step](https://www.stevefenton.co.uk/wp-content/uploads/2016/10/vnext-powershell-step.png)
+![vNext PowerShell Step](/img/2016/10/vnext-powershell-step.png)
 
 ### Magic
 
 The next time a build triggers for a changeset that has associated work items, those work items will be updated with the build number…
 
-![vNext Automatic Build Number](https://www.stevefenton.co.uk/wp-content/uploads/2016/10/vnext-automatic-build-number.png)
+![vNext Automatic Build Number](/img/2016/10/vnext-automatic-build-number.png)
 
 You can make that visible on your board, it appears in the work item details, and you can also use it in your queries and reports.
 

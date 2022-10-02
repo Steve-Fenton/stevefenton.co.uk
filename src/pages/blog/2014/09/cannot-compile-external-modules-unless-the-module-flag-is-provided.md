@@ -40,7 +40,7 @@ To solve this, the settings were moved to project-level. Yay.
 
 So if you right-click on your project and select “Properties”, you’ll be able to choose either AMD or CommonJS in the TypeScript build properties:
 
-![TypeScript Build Properties](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-compile-debug.png)
+![TypeScript Build Properties](/img/2015/07/typescript-compile-debug.png)
 
 You can also inject these properties directly into the project file if you find that the “TypeScript Build” tab isn’t available:
 
@@ -57,7 +57,7 @@ You can also inject these properties directly into the project file if you find 
 
 It is possible to still encounter the error even after doing all of this (in fact, it is highly likely if you pasted into the project file…) the reason for this is that you can have different settings for Debug and Release mode… so go back to the project properties and use the drop down at the top of the TypeScript Build properties tab to check both Debug and Release settings have the module kind set correctly.
 
-![TypeScript Release Mode Settings](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/typescript-compile-release.png)
+![TypeScript Release Mode Settings](/img/2015/07/typescript-compile-release.png)
 
 As you can see from this screenshot, the Debug settings that we set before correctly set the AMD module type, but the Release settings still show “None”.
 

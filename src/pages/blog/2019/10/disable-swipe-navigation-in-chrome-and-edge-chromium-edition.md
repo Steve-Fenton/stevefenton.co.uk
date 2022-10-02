@@ -28,7 +28,7 @@ Edge
 
 Within the settings page, you’ll find an item titled “Overscroll history navigation”, which you can disable.
 
-![Overscroll Navigation History](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/overscroll-navigation-history.jpg)
+![Overscroll Navigation History](/img/2019/10/overscroll-navigation-history.jpg)
 
 You might also spot other settings that can be a pain in terms of accidental activation, such as pull-to-refresh.
 

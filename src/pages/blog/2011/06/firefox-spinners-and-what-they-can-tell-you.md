@@ -14,9 +14,9 @@ categories:
 
 Update! In Firefox Quantum, the spinners were updated to Cylon-eyes. The TL;DR is that there are still two spinning states:
 
-1. ![Firefox Quantum Grey Cylon](https://www.stevefenton.co.uk/wp-content/uploads/2011/06/firefox-quantum-grey-cylon.png)  
+1. ![Firefox Quantum Grey Cylon](/img/2011/06/firefox-quantum-grey-cylon.png)  
     Grey Cylon (equivalent to the old anti-clockwise grey spinner)… waiting for response
-2. ![Firefox Quantum Blue Cylon](https://www.stevefenton.co.uk/wp-content/uploads/2011/06/firefox-quantum-blue-cylon.png)  
+2. ![Firefox Quantum Blue Cylon](/img/2011/06/firefox-quantum-blue-cylon.png)  
     Blue Cylon (quivalent to the old clockwise green spinner)… receiving the response
 
 The original article on spinners is below.
@@ -25,7 +25,7 @@ If you are an avid Firefox user, you have probably noticed that when a page is l
 
 Well, the difference is actually quite interesting. It is actually interesting enough for a bright green post-it note of knowledge.
 
-![Firefox Loading](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/firefoxloading.jpg)
+![Firefox Loading](/img/2015/07/firefoxloading.jpg)
 
 When you click, the anti-clockwise grey spinner starts. This continues while your request is travelling down thousands of miles of cable all the way to the web server. It carries on while the web server processes your request (for example, while it is getting stuff from a database and converting it into a web page).
 

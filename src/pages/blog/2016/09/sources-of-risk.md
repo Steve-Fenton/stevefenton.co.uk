@@ -16,7 +16,7 @@ In software development, there is a simplistic model that says that risk is a fu
 
 > r = *f*(*t*)
 
-![Risk as a function of time (or money)](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/risk-function-time.jpg)
+![Risk as a function of time (or money)](/img/2016/09/risk-function-time.jpg)
 
 But risk does not necessarily have to be tied to the length of time, or the amount of money. The only reason it looks like it is related to these is that, traditionally, the number of feedback loops for these projects is close to one. For example, for a six month project, the outcome is reviewed after six months. It may *look* like there are more frequent loop closures, because there are status reports or other forms of suggested progress… but these are all artificial.
 
@@ -28,7 +28,7 @@ So risk is really about the change that has accumulated, where change is defined
 
 This means that we can make a project of any budget, and any duration, successful. We just need to manage the feedback loops (without resorting to artificial indicators of progress). So long as we reduce the risk with regular feedback loops, we can continue indefinitely.
 
-![Risk as a function of change](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/risk-function-change.jpg)
+![Risk as a function of change](/img/2016/09/risk-function-change.jpg)
 
 This is a concept that is not new to people familiar with Extreme Programming, or Lean Startup, or Agile software development… it is sustainable pace, validated learning, fast feedback. It is risk management at a simple level. It is deciding not to travel too far before checking your direction.
 
@@ -64,7 +64,7 @@ There are multiple feedback loops and each one is enclosed with the next one. Th
 2. You get to close another feedback loop when the software is released as people can now see it. If you do this regularly, you limit risk because you reduce the amount of change in each release. This is why some companies release multiple times a day – if you add up the risk of 6 releases, it will be less than the risk of one release with all six changes (remember the curve is not linear).
 3. Impact Mapping closes a feedback loop a little later, because it usually involves collecting some data following a release. The difference between this feedback loop and previous one is that it is validated. You either make progress towards your goal, or you don’t. You *know* now, whereas before you just *think* you do.
 
-![Feedback Loops](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/feedback-loops.jpg)
+![Feedback Loops](/img/2016/09/feedback-loops.jpg)
 
 ### Faking it
 

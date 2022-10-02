@@ -13,7 +13,7 @@ categories:
 
 There are lots of ways of making errors pop out in Visual Studio and I use all of them! I even added a new one today. Here is my current display, followed by some info on how to get each element.
 
-![Visual Studio with Errors](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/visual-studio-with-errors.png)
+![Visual Studio with Errors](/img/2015/07/visual-studio-with-errors.png)
 
 There are three parts to this display:
 
@@ -27,4 +27,4 @@ The other handy helper, once your attention has been obtained, is the preview sc
 
 You can enable this feature (and adjust its size) in Tools &gt; Options &gt; Text Editor &gt; All Languages &gt; Scroll Bars &gt; Show Preview Tooltip – Source Overview – as per the below screenshot.
 
-![Scrollbar Preview Options](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/scrollbar-preview-options.png)
+![Scrollbar Preview Options](/img/2015/07/scrollbar-preview-options.png)

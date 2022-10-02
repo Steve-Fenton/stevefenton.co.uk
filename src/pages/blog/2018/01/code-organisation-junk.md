@@ -23,7 +23,7 @@ The essential problem is that we sometimes group code into units that are too bi
 
 You can usually detect this problem when you open up a code file to find something, and have to sift through a lot of other stuff to find it. A bit like finding your screwdriver in your junk drawer:
 
-![Junk Drawer](https://www.stevefenton.co.uk/wp-content/uploads/2018/01/junk-drawer.jpg)  
+![Junk Drawer](/img/2018/01/junk-drawer.jpg)  
 Junk Drawer, by [Liz West, Flickr](https://www.flickr.com/photos/calliope/)
 
 ### Using junk / importing junk

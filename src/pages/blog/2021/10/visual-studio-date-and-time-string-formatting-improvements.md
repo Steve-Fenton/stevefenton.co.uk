@@ -24,7 +24,7 @@ This isn’t a tricky bit of code, but you have to remember that months are `M` 
 
 Visual Studio knows that you shouldn’t have to remember this stuff, so it now starts suggesting auto-complete entries *within your string literal*, as shown below.
 
-[![Auto completion of date format strings](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/autocomplete-date-formats.jpg)](https://www.stevefenton.co.uk/2021/10/visual-studio-date-and-time-string-formatting-improvements/autocomplete-date-formats/)
+[![Auto completion of date format strings](/img/2021/10/autocomplete-date-formats.jpg)](https://www.stevefenton.co.uk/2021/10/visual-studio-date-and-time-string-formatting-improvements/autocomplete-date-formats/)
 
 This is a big energy-saver as you no longer need to perform two or three feedback loops to refine your guessed-date-string.
 

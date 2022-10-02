@@ -17,7 +17,7 @@ tags:
     - javascript
 ---
 
-![Cruise Control Radiator](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cctray_radiator.jpg)I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.
+![Cruise Control Radiator](/img/2015/07/cctray_radiator.jpg)I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.
 
 What you really need is a big display that makes it really obvious when a build breaks, so I sketched out a quick idea of some big square boxes to represent each project that change colour and display some kind of “epic fail” icon when something goes wrong.
 
@@ -29,8 +29,8 @@ Feel free to use it, but please bear in mind that it is a work in progress. You 
 
 The display fills the available screen, so it works at virtually any size from a small window on your developer machine to a massive plasma screen on the wall in the dev room, normal browser features like zoom and full-screen work just fine.
 
-![Cruiser - CC.NET Build Status](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cruiser.jpg)
+![Cruiser - CC.NET Build Status](/img/2015/07/cruiser.jpg)
 
 And if you can’t wait to get back to the office to check your build status, you can check it whilst down the pub using your mobile phone.
 
-![Cruiser on Mobile](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cruiser_mobile.jpg)
+![Cruiser on Mobile](/img/2015/07/cruiser_mobile.jpg)

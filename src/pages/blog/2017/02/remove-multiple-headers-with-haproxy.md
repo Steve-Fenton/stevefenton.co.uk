@@ -11,7 +11,7 @@ tags:
     - haproxy
 ---
 
-![](https://www.stevefenton.co.uk/wp-content/uploads/2017/02/too-much-information.png)
+![](/img/2017/02/too-much-information.png)
 
 Do you ever wonder if your server is giving away too much information in the HTTP headers?
 

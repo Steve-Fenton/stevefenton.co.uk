@@ -14,7 +14,7 @@ tags:
     - communication
 ---
 
-![Web Sticky Notes](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/webstickynotes_full.jpg)I read a statement that said communication is oxygen to a company. I could see the intention of the metaphor, but I don’t think it was quite right. Communication is more like the cardiovascular system of the organisation.
+![Web Sticky Notes](/img/2015/07/webstickynotes_full.jpg)I read a statement that said communication is oxygen to a company. I could see the intention of the metaphor, but I don’t think it was quite right. Communication is more like the cardiovascular system of the organisation.
 
 Here are my reasons for this adjustment.
 

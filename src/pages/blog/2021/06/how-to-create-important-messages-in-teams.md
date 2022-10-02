@@ -16,10 +16,10 @@ Sometimes you have something super-important to communicate in Microsoft Teams, 
 
 All you need to do is use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>i</kbd> in the compose textarea. This will elevate your message to an important one.
 
-[![Microsoft Teams Important Message](https://www.stevefenton.co.uk/wp-content/uploads/2021/06/microsoft-teams-important-message.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-create-important-messages-in-teams/microsoft-teams-important-message/)
+[![Microsoft Teams Important Message](/img/2021/06/microsoft-teams-important-message.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-create-important-messages-in-teams/microsoft-teams-important-message/)
 
 When you send the message, it gets the border style and an additional icon to make sure people know you have something important to say.
 
-[![Message marked as important in teams](https://www.stevefenton.co.uk/wp-content/uploads/2021/06/important-message-example.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-create-important-messages-in-teams/important-message-example/)
+[![Message marked as important in teams](/img/2021/06/important-message-example.jpg)](https://www.stevefenton.co.uk/2021/06/how-to-create-important-messages-in-teams/important-message-example/)
 
 I’m sure that none of you will abuse this feature!

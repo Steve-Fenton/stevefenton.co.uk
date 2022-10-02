@@ -25,7 +25,7 @@ So here are the Four Ss?
 
 Feel free to pronounce the first one “Sload”.
 
-![Load Stress Spike Soak](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/load-stress-spike-soak.png)
+![Load Stress Spike Soak](/img/2015/07/load-stress-spike-soak.png)
 
 The picture above highlights the difference between the Four Ss.
 

@@ -18,7 +18,7 @@ Application Request Routing (ARR) is a feature in <abbr title="Internet Informat
 
 In this article, a single-server web app will be updated to run on two web servers with an ARR server sitting in front of them to distribute the traffic.
 
-[![Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers.](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/load-balancing-with-arr.png)](https://www.stevefenton.co.uk/?attachment_id=12772)
+[![Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers.](/img/2022/02/load-balancing-with-arr.png)](https://www.stevefenton.co.uk/?attachment_id=12772)
 
 ### Installing ARR
 
@@ -26,7 +26,7 @@ If you have a server with IIS installed, you can [use the Web Platform Installer
 
 Once installed, you will have a new node in IIS Manager called **Server Farms**.
 
-[![Server farms node in IIS Manager](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/iis-manager-server-farms.jpg)](https://www.stevefenton.co.uk/?attachment_id=12770)
+[![Server farms node in IIS Manager](/img/2022/02/iis-manager-server-farms.jpg)](https://www.stevefenton.co.uk/?attachment_id=12770)
 
 ### Creating a server farm
 
@@ -62,7 +62,7 @@ IIS Manager has specific sections to configure and monitor your server farm.
 
 The example below shows a configuration where routing rules allow all “\*.jpg” files to be server from the load balancer, with all other requests forwarded to the web farm.
 
-[![Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers.](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/arr-selective-routing.png)](https://www.stevefenton.co.uk/?attachment_id=12779)
+[![Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers.](/img/2022/02/arr-selective-routing.png)](https://www.stevefenton.co.uk/?attachment_id=12779)
 
 ### Summary
 

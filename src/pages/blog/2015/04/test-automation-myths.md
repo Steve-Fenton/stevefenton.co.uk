@@ -10,7 +10,7 @@ categories:
     - Automation
 ---
 
-[![The Humans Are Dead](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/the-humans-are-dead.jpg)](https://www.stevefenton.co.uk/publications/the-humans-are-dead/)When I originally wrote this article, I didn’t realise that my thoughts would coalesce into the short collection of essays that I have now published under the title, The Humans Are Dead.
+[![The Humans Are Dead](/img/2015/07/the-humans-are-dead.jpg)](https://www.stevefenton.co.uk/publications/the-humans-are-dead/)When I originally wrote this article, I didn’t realise that my thoughts would coalesce into the short collection of essays that I have now published under the title, The Humans Are Dead.
 
 I have actually expanded and refined my original ideas, so I have found it necessary to re-draft the following article to allow it to catch up to where my mind has wandered
 

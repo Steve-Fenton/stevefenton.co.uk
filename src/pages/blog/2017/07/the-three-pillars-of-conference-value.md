@@ -21,7 +21,7 @@ From the perspective of an organisation, there are three pillars you need to ben
 
 Here is a quick summary of the interaction of these pillars.
 
-![Conference Pillars](https://www.stevefenton.co.uk/wp-content/uploads/2017/07/conference-pillars-1.png)
+![Conference Pillars](/img/2017/07/conference-pillars-1.png)
 
 The matrix visualises the impact of your organisation’s investment in people; just because you drop your employees into the “Stagnating” zone doesn’t mean that they aren’t developing their own skills. The object of stagnation is your organisation, not necessarily the people.
 

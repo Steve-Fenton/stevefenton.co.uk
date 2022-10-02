@@ -12,7 +12,7 @@ categories:
     - Psychology
 ---
 
-![Socrates](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/socrates.jpg)I wrote a while ago about how [context switching comes at a high price](https://www.stevefenton.co.uk/2012/06/Context-Switching-Comes-At-The-Price-Of-Delivery/), and I used a comparison to computers to explain the problems. Brace yourselves, because I’m going to do it again – partly inspired by some of the chapters I read in CLR via C# by Jeffrey Richter and Why Plans Fail by Jim Benson.
+![Socrates](/img/2015/07/socrates.jpg)I wrote a while ago about how [context switching comes at a high price](https://www.stevefenton.co.uk/2012/06/Context-Switching-Comes-At-The-Price-Of-Delivery/), and I used a comparison to computers to explain the problems. Brace yourselves, because I’m going to do it again – partly inspired by some of the chapters I read in CLR via C# by Jeffrey Richter and Why Plans Fail by Jim Benson.
 
 So your brain consists of short-term memory, medium-term memory and long-term memory. Short-term memory is a fixed allocation of bytes that acts like RAM. You get to store a certain amount in short-term memory, but when you overflow the allocation, it cycles round and starts over-writing the older parts.
 

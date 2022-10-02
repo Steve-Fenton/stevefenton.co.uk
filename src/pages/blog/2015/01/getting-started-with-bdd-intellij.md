@@ -29,15 +29,15 @@ Here are the steps to follow to get going – the second project you use BDD wit
 
 Open IntelliJ and select “New Project”. To get started quickly, use the Maven archetype org.apache.maven.archetypes:maven-archetype-quickstart. This will start your project with a reasonable structure and will help you to follow this example.
 
-![New IntelliJ Project](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-new-project.jpg)
+![New IntelliJ Project](/img/2015/07/intellij-new-project.jpg)
 
 Enter some details for the GroupId (I have entered “com.example”) and ArtifactId (I have entered “example”.
 
-![New IntelliJ Project Part 2](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-new-project-2.jpg)
+![New IntelliJ Project Part 2](/img/2015/07/intellij-new-project-2.jpg)
 
 Click next. The next screen should be pre-completed, so just click next again. If you don’t have a path in the Maven path, you will get an error – [download Maven](http://maven.apache.org/download.cgi) if you haven’t already and then supply the path to the location you unzipped Maven to.
 
-![New IntelliJ Project - Part 3](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-new-project-3.jpg)
+![New IntelliJ Project - Part 3](/img/2015/07/intellij-new-project-3.jpg)
 
 I have entered the project name “Example” and allowed IntelliJ to select the project location for me.
 
@@ -94,7 +94,7 @@ The quick start archetype will have added an App.java and AppTest.java file. Del
 
 You should now have a clean project structure like the image below, with just the folder structure for the program and tests and the “pom.xml” file and external libraries.
 
-![Clean Solution](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-quickstart-clean-solution.jpg)
+![Clean Solution](/img/2015/07/intellij-quickstart-clean-solution.jpg)
 
 ### Cukes Runner
 
@@ -115,7 +115,7 @@ This wires up Cucumber to JUnit and tells it to find the feature files in the �
 
 To get the best out of IntelliJ when working with Cucumber, download the Cucumber for Java plugin. You can do this by opening “File” &gt; “Settings” and searching for “Cucumber” in the plugins search box.
 
-![Cucumber for Java](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-cucumber-for-java.jpg)
+![Cucumber for Java](/img/2015/07/intellij-cucumber-for-java.jpg)
 
 ### Features
 
@@ -177,7 +177,7 @@ If you run the tests again, you’ll see that the output has changed to show the
 
 Project Structure
 
-![Final Solution](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-final-solution.jpg)
+![Final Solution](/img/2015/07/intellij-final-solution.jpg)
 
 CukesRunner.java
 
@@ -242,7 +242,7 @@ public class Example {
 ```
 Test Results
 
-![Test Results](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-test-results.jpg)
+![Test Results](/img/2015/07/intellij-test-results.jpg)
 
 ### GitHub
 

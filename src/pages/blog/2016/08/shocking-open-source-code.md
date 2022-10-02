@@ -18,7 +18,7 @@ I received the following issue on GitHub:
 
 The thing is, this kind of feedback doesn’t help. If we want to encourage more people to share their code with the world then we need to be more careful with how we communicate. Yes, you have to put up with my awful projects on GitHub if you want to avoid putting off the developer who has something really awesome that she is considering gifting to the world, for free.
 
-![For Freeeeeeeeee](https://www.stevefenton.co.uk/wp-content/uploads/2016/08/fhd008BTS_Rob_Schneider_003.jpg)
+![For Freeeeeeeeee](/img/2016/08/fhd008BTS_Rob_Schneider_003.jpg)
 
 I think it is important to keep things in perspective. All of the projects I post on GitHub represent little ideas and experiments that I have shared in case someone finds them useful. Most are dormant unless someone finds a bug and is unable to fix it for themself. I use highly permissive licences so people can take snippets that they like and generate entirely competing projects.
 

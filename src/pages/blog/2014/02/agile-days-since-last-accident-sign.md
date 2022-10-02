@@ -14,7 +14,7 @@ categories:
     - Process
 ---
 
-![Accident Free Days](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/mban1987h.jpg)
+![Accident Free Days](/img/2015/07/mban1987h.jpg)
 
 No matter what process you are using based on the Agile manifesto and principles, there will always be external pressures to break your own rules.
 
@@ -36,7 +36,7 @@ But in times of crisis it is easy to forget these reminders and take in work wit
 
 So use this sign responsibly to encourage the focus on following your own process.
 
-[![Agile Days Since Last Accident](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/sprint-rules-200x300.gif)](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/sprint-rules.gif)
+[![Agile Days Since Last Accident](/img/2015/07/sprint-rules-200x300.gif)](/img/2015/07/sprint-rules.gif)
 
 Sign credit: Days Without Breaking Sprint Rules, by Steve Fenton [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/deed.en_US)  
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US).

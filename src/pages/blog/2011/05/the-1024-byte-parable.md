@@ -16,4 +16,4 @@ categories:
 
 And just for the purposes of double checking… if you do paste this into a [byte counter](https://mothereff.in/byte-counter), watch out for any of the simple quotes and dashes being converted into curly special versions.
 
-![Byte Counter](https://www.stevefenton.co.uk/wp-content/uploads/2011/05/byte-counter.png)
+![Byte Counter](/img/2011/05/byte-counter.png)

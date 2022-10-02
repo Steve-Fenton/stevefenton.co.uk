@@ -32,7 +32,7 @@ console.table(items, ['name', 'occupation', 'title']);
 ```
 Of course, this doesn’t work anywhere else – but you can use this hastily written pollyfill to get support everywhere else… the table isn’t as pretty, only handles specifically arrays of objects and you can’t sort it in the console, but it works while you’re waiting for browsers to decide it is a great idea.
 
-![Console Table](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/console-table.png)
+![Console Table](/img/2015/07/console-table.png)
 
 ```
 <pre class="prettyprint lang-javascript">

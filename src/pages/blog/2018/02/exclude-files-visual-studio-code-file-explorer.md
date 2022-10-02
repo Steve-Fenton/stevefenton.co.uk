@@ -19,7 +19,7 @@ This is a quick note with an updated version on how to exclude files from the Vi
 
 The most appropriate place for the list of exclusions is in the Workspace Settings. The most appropriate way to add this file is to navigate to `File -> Preferences -> Settings` and select the all-caps “Workspace Settings” tab.
 
-![VSCode Workspace Settings](https://www.stevefenton.co.uk/wp-content/uploads/2018/02/vscode-settings.png)
+![VSCode Workspace Settings](/img/2018/02/vscode-settings.png)
 
 Within this file, you can add a `files.exclude` setting, as shown below.
 

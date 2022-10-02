@@ -38,7 +38,7 @@ const htmlElement: HTMLElement = path[0];
 ```
 An `SVGPathElement` doth not an `HTMLElement` make. In fact, both of these are sub-classes of `Element`
 
-[![Element Class Hierarchy](https://www.stevefenton.co.uk/wp-content/uploads/2020/04/element-class-hierarchy.jpg)](https://www.stevefenton.co.uk/2020/04/jquery-and-typescript-we-have-a-big-problem-with-jquery-d-ts/element-class-hierarchy/)
+[![Element Class Hierarchy](/img/2020/04/element-class-hierarchy.jpg)](https://www.stevefenton.co.uk/2020/04/jquery-and-typescript-we-have-a-big-problem-with-jquery-d-ts/element-class-hierarchy/)
 
 Now, the jQuery documentation states that for `jQuery( selector [, context ] )` the function…
 

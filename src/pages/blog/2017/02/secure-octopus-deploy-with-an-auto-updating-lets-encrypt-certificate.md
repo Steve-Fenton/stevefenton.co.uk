@@ -39,7 +39,7 @@ Add a new website to your IIS sites called “octoproxy”.
 
 Open up the URL Rewrite feature in IIS Manager:
 
-![](https://www.stevefenton.co.uk/wp-content/uploads/2017/02/rewrite-icon.png)
+![](/img/2017/02/rewrite-icon.png)
 
 There are three rules to set up, and the order is important (and you can re-order them at any time to ensure they are in the order shown below):
 
@@ -47,7 +47,7 @@ There are three rules to set up, and the order is important (and you can re-orde
 - A rule to redirect HTTP traffic to HTTPS
 - A reverse proxy to rewrite requests to the local Octopus Web Portal
 
-![](https://www.stevefenton.co.uk/wp-content/uploads/2017/02/url-rewrite.png)
+![](/img/2017/02/url-rewrite.png)
 
 Rule 1: Add a new blank rule…
 

@@ -15,7 +15,7 @@ tags:
     - visualisation
 ---
 
-![Beach Ball Charts](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/beachballchart.jpg)It seems to me that the tide is now turning against the pie chart. Most of the discussions I discover these days are via track-backs to my website where someone has cited one of my opinion pieces in a discussion about how pie charts are pretty much always the wrong way to display your data.
+![Beach Ball Charts](/img/2015/07/beachballchart.jpg)It seems to me that the tide is now turning against the pie chart. Most of the discussions I discover these days are via track-backs to my website where someone has cited one of my opinion pieces in a discussion about how pie charts are pretty much always the wrong way to display your data.
 
 Obviously, if you are trying to deliberately make data hard to read in order to hide some nasty numbers, or if you work in an old-school marketing team – you are still going to love pie charts. Who doesn’t like pies right?
 

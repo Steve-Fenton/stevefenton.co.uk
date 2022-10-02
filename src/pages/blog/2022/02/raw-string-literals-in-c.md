@@ -122,7 +122,7 @@ All the meaningful indentation remains, but the additional four spaces (in this 
 ```
 Important note: You get to choose how much indentation to remove with your placement of the quotes, so if you want the whole block moved out by four spaces, just move the closing quote block four spaces left! The compiler will warn you when the closing quote is indented more than the “least indented line”.
 
-[![Indentation Warning](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/indentation-warning.jpg)](https://www.stevefenton.co.uk/?attachment_id=12748)
+[![Indentation Warning](/img/2022/02/indentation-warning.jpg)](https://www.stevefenton.co.uk/?attachment_id=12748)
 
 As you can see in the above example, the closing quote group is *more* indented than one of the lines within the string. This is an error condition, usually solved by moving the closing quote group to the left.
 

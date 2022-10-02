@@ -177,7 +177,7 @@ Having one item per lines makes it read like an ordered pipeline.
 
 The ability to handle one at a time is my favourite part of Linq – especially as this applies across the whole enumerable pipeline. It means you could be iterating a massive dataset from a database, but your memory consumption is low and stable throughout the whole process because you deal with one record, which is available for garbage collection once you have moved onto the next item.
 
-[![Diagram shows previous item available for garbage collection, while current item is in memory and future items are not yet loaded into memory.](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/Linq.png)](https://www.stevefenton.co.uk/2022/01/de-mystifying-linq/linq/)
+[![Diagram shows previous item available for garbage collection, while current item is in memory and future items are not yet loaded into memory.](/img/2022/01/Linq.png)](https://www.stevefenton.co.uk/2022/01/de-mystifying-linq/linq/)
 
 There are a few cases where you might wreck the concept of handling one item at a time. The most common is calling `.ToList()` on an `IEnumerable` as this pulls all results into memory. Another is using `if (items.Count() > 0)` as this needs to iterate all the items to get you the count; you should use `if (items.Any())`, which will return true as soon as the first item is found (in the worst-case scenario it would take the same amount of time as a count would – but the best case scenario is that it returns on the first item… it just depends on the position of the first matching item in the collection).
 

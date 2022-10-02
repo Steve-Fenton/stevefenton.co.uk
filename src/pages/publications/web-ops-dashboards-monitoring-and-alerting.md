@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring.jpg)This book is for anyone involved in software development who needs some practical tips to kick off their web operations monitoring journey.
+![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)This book is for anyone involved in software development who needs some practical tips to kick off their web operations monitoring journey.
 
 If you are wondering which metrics are important, confused about the kind of chart you should add to your dashboards, or want to discover how to find and fix incidents before your customers even know there is a problem; this book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with, and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
 

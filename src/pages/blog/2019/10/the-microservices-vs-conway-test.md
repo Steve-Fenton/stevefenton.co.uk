@@ -43,15 +43,15 @@ The relationships can be described with the following examples.
 
 The relationship for a single team is shown below. Complexity increases as more active services are managed by a single team. The more you hope to escape Conway’s Law, the more the complexity hurts.
 
-![Complexity increases as more services are added to a single team](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/complexity-for-single-team.jpg)
+![Complexity increases as more services are added to a single team](/img/2019/10/complexity-for-single-team.jpg)
 
 The relationship for a larger number of teams is illustrated below. Where we have five teams, we can survive give-or-take two either way. But if there are too-few services, or too-many services we increase the otherwise manageable complexity.
 
-![For five teams, complexity increases beyond a manageable level when there are too many, or too few services.](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/complexity-for-five-teams.jpg)
+![For five teams, complexity increases beyond a manageable level when there are too many, or too few services.](/img/2019/10/complexity-for-five-teams.jpg)
 
 The complexity curve follows the assertion that the further you deviate from the team-per-service organisation design, the more complex things will become; no matter whether it is too many teams for the number of services, or vice versa.
 
-![Complexity is symmetrical based on deviation from balanced team and service numbers.](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/complexity-curve.jpg)
+![Complexity is symmetrical based on deviation from balanced team and service numbers.](/img/2019/10/complexity-curve.jpg)
 
 Comparing these figures to real-world examples, I would propose that single-digit complexity is likely to be necessary.
 
@@ -75,6 +75,6 @@ Another technique is to assess fixed contracts vs fluid contracts. If you have a
 
 ### Summary
 
-![Complexity: Microservices vs Conway Test](https://www.stevefenton.co.uk/wp-content/uploads/2019/10/complexity.jpg)
+![Complexity: Microservices vs Conway Test](/img/2019/10/complexity.jpg)
 
 Having been careful to consider Conway’s law, I have avoided designing teams and architecture in isolation of each other. I believe this is the only way to ensure the design of both is successful. If you don’t balance the design on both sides (the technology on one side and the people on the other), the complexity is damaging to both.

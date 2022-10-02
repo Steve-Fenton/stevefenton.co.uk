@@ -12,7 +12,7 @@ tags:
     - typescript
 ---
 
-![Firmware](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/firmware.jpg)This has been a problem for a long time. It was a problem with jQuery, it was a problem with AngularJS, it is a problem right now with Angular, Aurelia, Vue, and React. None of these frameworks are at fault, but there is a huge industry-wide issue with people writing all of their code inside of the framework. Please… stop writing web firmware!
+![Firmware](/img/2017/11/firmware.jpg)This has been a problem for a long time. It was a problem with jQuery, it was a problem with AngularJS, it is a problem right now with Angular, Aurelia, Vue, and React. None of these frameworks are at fault, but there is a huge industry-wide issue with people writing all of their code inside of the framework. Please… stop writing web firmware!
 
 If you have an app that calculates monthly payments for a mortgage, the code that performs these calculations should not reference any of these web frameworks. The majority of your code should be entirely unaware of whether it will be used in an Angular app or a React app.
 

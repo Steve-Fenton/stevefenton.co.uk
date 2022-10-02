@@ -45,7 +45,7 @@ public void GivenThisLineAcceptsIn(string p0)
     ScenarioContext.Current.Pending();
 }
 ```
-![SpecFlow Before](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/specflow-before.png)
+![SpecFlow Before](/img/2015/07/specflow-before.png)
 
 As you can see, the third line is not purple because it is actually matched to the step definition for the second line (you can tell this because the silver text includes the whole middle chunk of the specification).
 
@@ -67,7 +67,7 @@ You might also want to note that there is a double-quote after the \\ – this i
 
 The result of this is the expected behaviour:
 
-![SpecFlow After](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/specflow-after.png)
+![SpecFlow After](/img/2015/07/specflow-after.png)
 
 For single quotes, you could use `([^\']*)`
 

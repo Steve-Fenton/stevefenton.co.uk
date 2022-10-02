@@ -21,7 +21,7 @@ Even if you were a fan of pie charts you would have to admit that there are mass
 
 Go figure! Let’s start the calls for sensible charts, like line charts, columns charts and bar charts. The pie nonsense needs to end!
 
-![Insidious Pie Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/insidious_pie_chart.jpg)
+![Insidious Pie Chart](/img/2015/07/insidious_pie_chart.jpg)
 
 ### Further Reading
 

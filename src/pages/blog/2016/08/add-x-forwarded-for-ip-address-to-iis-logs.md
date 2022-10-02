@@ -30,7 +30,7 @@ Add a new field:
 - Source Type: Request Header
 - Source: X-Forwarded-For
 
-![Log X-Forwarded-For in IIS logs.](https://www.stevefenton.co.uk/wp-content/uploads/2016/08/iis-log-custom-fields.png)
+![Log X-Forwarded-For in IIS logs.](/img/2016/08/iis-log-custom-fields.png)
 
 Don’t forget to hit “Apply” in the Logging module screen.
 

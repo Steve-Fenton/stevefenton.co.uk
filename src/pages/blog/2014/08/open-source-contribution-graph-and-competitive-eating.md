@@ -16,7 +16,7 @@ A lot of people have been bragging about their GitHub contributions and sharing 
 
 Here is my humble GitHub activity; a scattering of occasional contributions.
 
-![GitHub Activity](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/github-activity.png)
+![GitHub Activity](/img/2015/07/github-activity.png)
 
 Many might be ashamed of such a humble activity report – but not me. I value open-source software and use a great deal of it. I respect the people whose efforts have made my life more enjoyable, whether they are being paid to write open-source software or whether they give up spare time to do it.
 

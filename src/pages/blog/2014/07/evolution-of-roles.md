@@ -23,7 +23,7 @@ When we documented Cranked, we included just two roles:
 
 That’s it. Just the two.
 
-[![Role Comparison](https://www.stevefenton.co.uk/wp-content/uploads/2021/07/roles.png)](https://www.stevefenton.co.uk/2014/07/evolution-of-roles/roles/)
+[![Role Comparison](/img/2021/07/roles.png)](https://www.stevefenton.co.uk/2014/07/evolution-of-roles/roles/)
 
 This isn’t actually very controversial; it is simply the next step in an evolution of roles – as shown in the diagram in this article (you can click through to a larger version). The essence of the diagram is that in traditional software development there were a lot of roles. In Scrum, there were three and now we have two.
 

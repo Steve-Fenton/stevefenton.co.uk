@@ -14,7 +14,7 @@ tags:
     - monitoring
 ---
 
-![DataDog Replication Monitoring](https://www.stevefenton.co.uk/wp-content/uploads/2016/03/datadog-replication.png)Although [DataDog](https://www.datadoghq.com/) comes with a healthy selection of integrations, there is always going to be something custom that you want to monitor. This is why [DogStatsd](http://docs.datadoghq.com/guides/dogstatsd/) has been made available.
+![DataDog Replication Monitoring](/img/2016/03/datadog-replication.png)Although [DataDog](https://www.datadoghq.com/) comes with a healthy selection of integrations, there is always going to be something custom that you want to monitor. This is why [DogStatsd](http://docs.datadoghq.com/guides/dogstatsd/) has been made available.
 
 > DogStatsd is a small server that aggregates your custom app metrics.
 

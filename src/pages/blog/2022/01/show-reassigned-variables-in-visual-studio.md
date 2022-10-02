@@ -46,10 +46,10 @@ example2 = 20;
 ```
 Here is a screenshot to show this in action, you’ll see the `notAfter` variable is underlined, because it is reassigned. The other variables are not highlighted because they are never reassigned.
 
-[![Screenshot showing a variable underlined because it is reassigned](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/reassigned-variable.jpg)](https://www.stevefenton.co.uk/2022/01/show-reassigned-variables-in-visual-studio/reassigned-variable/)
+[![Screenshot showing a variable underlined because it is reassigned](/img/2022/01/reassigned-variable.jpg)](https://www.stevefenton.co.uk/2022/01/show-reassigned-variables-in-visual-studio/reassigned-variable/)
 
 ### How to enable this feature
 
 You can enable this feature in **Tools -&gt; Options** by navigating to **Text Editor -&gt; C# -&gt; Advanced** and selecting the option **Underline reassigned variables**.
 
-[![Finding the underline reassigned variables option in the options dialog.](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/underline-reassignments.jpg)](https://www.stevefenton.co.uk/2022/01/show-reassigned-variables-in-visual-studio/underline-reassignments/)
+[![Finding the underline reassigned variables option in the options dialog.](/img/2022/01/underline-reassignments.jpg)](https://www.stevefenton.co.uk/2022/01/show-reassigned-variables-in-visual-studio/underline-reassignments/)

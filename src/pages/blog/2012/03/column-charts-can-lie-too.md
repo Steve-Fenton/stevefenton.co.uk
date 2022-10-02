@@ -21,13 +21,13 @@ Whether it is a strange use of 3D perspective to distract your eye from a downtu
 
 Take, for example, the following column chart, which featured in a party political broadcast.
 
-![Cheating Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cheating_chart1.jpg)
+![Cheating Chart](/img/2015/07/cheating_chart1.jpg)
 
 The message is clearly “look how much we are planning to invest in the NHS over the next few years”. And yes, the last column is 14 times bigger than the first column – so that must be a massive investment right?
 
 Well, not quite. What we have here is a classic trick. The chart starts from £100 billion, which means that almost all of the values are hidden below the axis. This makes each increment look far bigger than it actually is. If the chart was being 100% honest, it would look more like this:
 
-![Honest Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/honest_chart1.jpg)
+![Honest Chart](/img/2015/07/honest_chart1.jpg)
 
 As you can see, the increase of NHS budget isn’t quite as big as you might have believed. As a summary, they are making less than a 2% increase each year and that isn’t very much – especially once inflation has reduced the value of this money.
 

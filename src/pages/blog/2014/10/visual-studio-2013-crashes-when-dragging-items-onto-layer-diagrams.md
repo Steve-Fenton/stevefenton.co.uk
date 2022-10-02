@@ -16,7 +16,7 @@ tags:
 
 This bug is a gateway to a whole load of [yak shaving](/Content/Blog/Date/201408/Blog/The-Many-Manifestations-of-Yak-Shaving/). You open a layer diagram in Visual Studio 2013, drag an item from your solution explorer (like you have done a hundred times before) and \*bang\* Visual Studio crashes. You retry and get exactly the same result.
 
-![Visual Studio Crash](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/VisualStudioCrash.png)
+![Visual Studio Crash](/img/2015/07/VisualStudioCrash.png)
 
 This may not be the answer for everyone, but it was the answer for me – and I suspect will be the answer for a number of people in the future who would like to avoid the elongated process I undertook to discover it.
 

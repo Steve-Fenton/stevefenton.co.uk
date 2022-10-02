@@ -34,7 +34,7 @@ For example, it seems like five minutes ago we were talking about the four DORA 
 
 It’s worth keeping up to date with changes to get insights that might sharpen your competitive edge further…
 
-[![DevOps Structural Equation Model (SEM)](https://www.stevefenton.co.uk/wp-content/uploads/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
+[![DevOps Structural Equation Model (SEM)](/img/2022/06/devops-structural-equation-model-1.png)](https://www.stevefenton.co.uk/2022/06/extreme-programming-practices/devops-structural-equation-model-2/)
 
 So, the first fundamental principle is that our new era of software delivery is about doing the best thing that we know of at the current time.
 
@@ -49,7 +49,7 @@ Software engineering can be divided into two types of tasks (remember my point a
 1. Complex and unpredictable work
 2. Predictable work
 
-[![](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)](https://www.stevefenton.co.uk/2015/02/automation-philosophy/definitely-routine-to-definitely-eccentric/)
+[![](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)](https://www.stevefenton.co.uk/2015/02/automation-philosophy/definitely-routine-to-definitely-eccentric/)
 
 The fundamental principle of DevOps is that **we reduce as much of the predictable work as possible to give us more time and energy to handle the complex and unpredictable stuff**.
 

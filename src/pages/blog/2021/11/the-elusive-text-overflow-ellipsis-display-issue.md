@@ -25,7 +25,7 @@ The basic idea behind this in CSS is shown below. First, we limit the `height`, 
 ```
 In many cases, though, this simply doesn’t do what you expect.
 
-[![No ellipsis is shown](https://www.stevefenton.co.uk/wp-content/uploads/2021/11/no-ellipsis.jpg)](https://www.stevefenton.co.uk/2021/11/the-elusive-text-overflow-ellipsis-display-issue/no-ellipsis/)
+[![No ellipsis is shown](/img/2021/11/no-ellipsis.jpg)](https://www.stevefenton.co.uk/2021/11/the-elusive-text-overflow-ellipsis-display-issue/no-ellipsis/)
 
 There are two common reasons for this.
 
@@ -48,4 +48,4 @@ In most cases, this will solve the missing ellipsis problem.
 
 If the `white-space` fix doesn’t solve the problem, the second most likely issue is that an element inside your overflow element is causing your issue. You need to make sure you are targeting the element that contains the text to ensure the ellipsis sees the light of day. With the example above, moving the class to the inner-element will resolve this.
 
-[![Ellipsis is shown](https://www.stevefenton.co.uk/wp-content/uploads/2021/11/with-ellipsis.jpg)](https://www.stevefenton.co.uk/2021/11/the-elusive-text-overflow-ellipsis-display-issue/with-ellipsis/)
+[![Ellipsis is shown](/img/2021/11/with-ellipsis.jpg)](https://www.stevefenton.co.uk/2021/11/the-elusive-text-overflow-ellipsis-display-issue/with-ellipsis/)

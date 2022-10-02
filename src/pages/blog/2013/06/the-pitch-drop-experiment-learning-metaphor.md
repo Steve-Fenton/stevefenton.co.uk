@@ -14,7 +14,7 @@ tags:
     - leadership
 ---
 
-![Pitch Drop Experiment](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pitch-drop.jpg)Professor John Mainstone has been spending a great deal of time watching a slowly forming droplet of pitch, in an experiment started by Professor Thomas Parnell in 1927 to study the substance. The pitch was actually given three years to settle before the study started in 1930, but in the following 83 years there were a whopping nine drops (including those drops that occurred inconveniently while Professor Mainstone was away). That is about one drop every nine years.
+![Pitch Drop Experiment](/img/2015/07/pitch-drop.jpg)Professor John Mainstone has been spending a great deal of time watching a slowly forming droplet of pitch, in an experiment started by Professor Thomas Parnell in 1927 to study the substance. The pitch was actually given three years to settle before the study started in 1930, but in the following 83 years there were a whopping nine drops (including those drops that occurred inconveniently while Professor Mainstone was away). That is about one drop every nine years.
 
 It struck me today how well this describes teams of people. (Sometimes you have to bear with me on these things).
 

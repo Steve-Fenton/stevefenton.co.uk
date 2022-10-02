@@ -31,7 +31,7 @@ From the dashboard in Octopus Deploy, navigate to **Configuration -&gt; Features
 
 Expand Configuration as Code and select Enabled. Then hit SAVE to store the change.
 
-[![The Octopus Deploy configuration setting for Configuration-as-Code](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/octopus-deploy-config-as-code.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/octopus-deploy-config-as-code/)
+[![The Octopus Deploy configuration setting for Configuration-as-Code](/img/2021/10/octopus-deploy-config-as-code.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/octopus-deploy-config-as-code/)
 
 When you navigate to a deployment project, you will now see a new setting called Version Control.
 
@@ -46,7 +46,7 @@ There are two things you need to obtain from GitHub before you set up the Git re
 
 The URL of your GitHub repository can be found in the Code tab, using the drop-down panel behind the green Code button.
 
-[![Obtain your GitHub repository URL from the Code tab in GitHub.](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/github-repository-url.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/github-repository-url/)
+[![Obtain your GitHub repository URL from the Code tab in GitHub.](/img/2021/10/github-repository-url.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/github-repository-url/)
 
 You can obtain a new personal access token from **Profile -&gt; Settings -&gt; Developer settings -&gt; Personal access tokens**.
 
@@ -80,7 +80,7 @@ Keep an eye on the [Octopus Blog](https://octopus.com/blog) for general availabi
 
 The full webinar is available on YouTube.
 
-[![A new dot-octopus folder in the GitHub repository](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/initial-octopus-deploy-commit.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/initial-octopus-deploy-commit/)
+[![A new dot-octopus folder in the GitHub repository](/img/2021/10/initial-octopus-deploy-commit.png)](https://www.stevefenton.co.uk/2021/10/how-to-enable-config-as-code-in-octopus-deploy/initial-octopus-deploy-commit/)
 
 You can read about [configuration-as-code in the Octopus Deploy docs](https://octopus.com/docs/projects/version-control) and watch the webinar below, which also has a rich Q&amp;A section at the end.
 

@@ -24,7 +24,7 @@ So, many problems might be caused by the availability heuristic. If you are feel
 
 But I’m not feeling generous. The following might offend musicians or music lovers. Don’t @ me.
 
-[![The Sex Pistols playing live.](https://www.stevefenton.co.uk/wp-content/uploads/2020/07/sex-pistols.jpg)](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/sex-pistols/)
+[![The Sex Pistols playing live.](/img/2020/07/sex-pistols.jpg)](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/sex-pistols/)
 
 ### Prog
 

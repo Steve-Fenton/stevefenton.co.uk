@@ -32,7 +32,7 @@ You should also set up a Cloudflare firewall rule like this:
 
 Or, using the expression editor, enter `(http.request.uri.path contains "xmlrpc.php")`
 
-[![Block XML RPC on WordPress using Cloudflare](https://www.stevefenton.co.uk/wp-content/uploads/2021/10/block-xmlrpc-on-cloudflare.jpg)](https://www.stevefenton.co.uk/2021/10/block-xml-rpc-in-wordpress-using-cloudflares-firewall/block-xmlrpc-on-cloudflare/)
+[![Block XML RPC on WordPress using Cloudflare](/img/2021/10/block-xmlrpc-on-cloudflare.jpg)](https://www.stevefenton.co.uk/2021/10/block-xml-rpc-in-wordpress-using-cloudflares-firewall/block-xmlrpc-on-cloudflare/)
 
 Hit “DEPLOY” to set your rule live and then test it using the following:
 

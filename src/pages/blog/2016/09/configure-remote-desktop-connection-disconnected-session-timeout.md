@@ -18,12 +18,12 @@ In Windows Server 2012, you may find that Remote Desktop Session Host Configurat
 
 Open group policy admin and navigate to User Configuration -&gt; Administrative Templates -&gt; Windows Components -&gt; Remote Desktop Services…
 
-![RDP Disconnected Session Step 1](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/rdp-disconnected-session-001.png)
+![RDP Disconnected Session Step 1](/img/2016/09/rdp-disconnected-session-001.png)
 
 Expand Remote Desktop Session Host Configuration -&gt; Session Time Limits and select “Set time limit for disconnected sessions”…
 
-![RDP Disconnected Session Step 2](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/rdp-disconnected-session-002.png)
+![RDP Disconnected Session Step 2](/img/2016/09/rdp-disconnected-session-002.png)
 
 And finally, set the item to “Enabled” and select time limit that should elapse before ending the disconnected session…
 
-![RDP Disconnected Session Step 3](https://www.stevefenton.co.uk/wp-content/uploads/2016/09/rdp-disconnected-session-003.png)
+![RDP Disconnected Session Step 3](/img/2016/09/rdp-disconnected-session-003.png)

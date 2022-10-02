@@ -13,7 +13,7 @@ tags:
     - typescript
 ---
 
-[![Pro TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/pro-typescript.jpg)](https://www.stevefenton.co.uk/publications/pro-typescript/)TypeScript has immediate and first class support for two mechanisms of code delivery. You can merge the whole application into a single output file, or you can take advantage of modules and load them asynchronously on demand.
+[![Pro TypeScript](/img/2015/07/pro-typescript.jpg)](https://www.stevefenton.co.uk/publications/pro-typescript/)TypeScript has immediate and first class support for two mechanisms of code delivery. You can merge the whole application into a single output file, or you can take advantage of modules and load them asynchronously on demand.
 
 Folklore in the web industry has firmly imprinted the idea that “bundling is best” and it wouldn’t surprise me if this was baked into many scripted interviews the world over. For TypeScript, though, I’d like to suggest that bundling is second-best.
 

@@ -22,7 +22,7 @@ Because of this asymmetry, development teams are overwhelmed with work. This is 
 
 When we code responsibly, we are thinking broadly about all of the humans that will be impacted by what we write. To do this, you might want to complete a simple exercise to write down what groups of people are affected by what you do. It doesn’t have to be neat and tidy, or even complete. It just helps to think about it…
 
-![Code Responsibility Diagram](https://www.stevefenton.co.uk/wp-content/uploads/2019/09/code-responsibly.jpg)
+![Code Responsibility Diagram](/img/2019/09/code-responsibly.jpg)
 
 You are likely to think of your employer, your colleagues, customers, users, partner companies… maybe you’ll even think about the wider development community or society as a whole. Once you’ve done this, you can break it down further. Who are your users? What groups can you use to represent users, especially those who might have different needs. You might think of users who interact with your software using assistive technology. Perhaps you’ll think of partners who are impacted by changes you might make to an API. Dig down and work out how to make these groups visible.
 

@@ -13,7 +13,7 @@ tags:
     - operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/wp-content/uploads/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is one more article in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about Monitor Selection Principles.
+[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/)This is one more article in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](https://www.stevefenton.co.uk/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about Monitor Selection Principles.
 
 While it can be tempting to start off by monitoring everything, and alerting every time something slightly odd happens, there is a better pattern for choosing what you monitor and when to sound the alarm. This better way is called the Monitor Selection Principles, because who doesn’t like principles?
 

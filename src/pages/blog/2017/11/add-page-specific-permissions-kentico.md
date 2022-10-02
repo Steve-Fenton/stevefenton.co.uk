@@ -19,13 +19,13 @@ Head to the “Roles” application.
 
 Add a new role called “Page-Only Editor”, and click “Save”.
 
-![Page-Only Editor Role](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/page-only-editor-role.png)
+![Page-Only Editor Role](/img/2017/11/page-only-editor-role.png)
 
 Under the “Permissions” tab in your new role, select the permissions group “Module” -&gt; “Content” (don’t look for “Pages”, you want “Content”!).
 
 Select “Allow” for “Browse Tree”.
 
-![Page-Only Editor Role Permissions](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/page-only-editor-role-permissions.png)
+![Page-Only Editor Role Permissions](/img/2017/11/page-only-editor-role-permissions.png)
 
 ### Page-only user
 
@@ -33,7 +33,7 @@ Add a new user with the “Editor” permission level.
 
 Under the “Roles” tab, select the “Page-Only Editor” role.
 
-![User Role](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/user-role.png)
+![User Role](/img/2017/11/user-role.png)
 
 At this stage, the user can log-in and see the “Pages” application and view the tree-view of all pages. They won’t be able to open any of the pages for editing, or see any of the page metadata.
 
@@ -47,7 +47,7 @@ Select the “Add Users” option and find the user account you want to assign.
 
 Give the user “Read”, “Modify”, and “Browse Tree” permissions.
 
-![Page Level Permissions](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/page-level-permissions.png)
+![Page Level Permissions](/img/2017/11/page-level-permissions.png)
 
 ### Summary
 

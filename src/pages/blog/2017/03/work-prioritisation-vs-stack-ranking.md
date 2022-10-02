@@ -13,7 +13,7 @@ categories:
 
 Why is it that modern software development processes prefer stack ranking over priorisation? There is a simple answer – and isn’t (just) the simplistic “everything will be raised as a Priority 1” that you usually hear.
 
-![Stack Ranking vs Prioritisation](https://www.stevefenton.co.uk/wp-content/uploads/2017/03/stack-ranking-vs-prioritisation.jpg)
+![Stack Ranking vs Prioritisation](/img/2017/03/stack-ranking-vs-prioritisation.jpg)
 
 The fact is, there will be multiple Priority 1 (P1) items – and without stack ranking these, implicit decisions will be made about what to work on. If you have three P1 items and you can only deliver two this week, which one do you miss? There are many ways to answer the dilemma in this question – but unless you stack rank the cards everyone will use a different model to make the decision.
 

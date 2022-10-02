@@ -11,7 +11,7 @@ tags:
     - people
 ---
 
-![Circles](https://www.stevefenton.co.uk/wp-content/uploads/2016/08/circles.jpg)
+![Circles](/img/2016/08/circles.jpg)
 
 We all care quite a lot for the people we are close to.
 

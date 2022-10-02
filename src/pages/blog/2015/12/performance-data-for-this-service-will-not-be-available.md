@@ -25,4 +25,4 @@ There is a graphical tool for managing performance counters called [Extensible P
 
 The tool can be found here: `%Program Files%\Resource Kit\exctrlst.exe` and if you don’t have it here, you can install it from the [Microsoft Extensible Performance Counter List download page](http://download.microsoft.com/download/win2000platform/exctrlst/1.00.0.1/nt5/en-us/exctrlst_setup.exe).
 
-![exctrlst.exe](https://www.stevefenton.co.uk/wp-content/uploads/2015/12/exctrlst.png)
+![exctrlst.exe](/img/2015/12/exctrlst.png)

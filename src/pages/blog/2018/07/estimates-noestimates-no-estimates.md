@@ -43,6 +43,6 @@ You don’t simply stop estimating. You need to acknowledge problems and work in
 
 The below diagram indicates that I don’t agree with blindly providing estimates simply because they are requested. It also illustrates that blindly denying the request is no better. The only path I’m interested in is one in which we find the need a solve it in the most appropriate way.
 
-![Estimates vs No Estimates](https://www.stevefenton.co.uk/wp-content/uploads/2018/07/no-estimates-and-estimates.png)
+![Estimates vs No Estimates](/img/2018/07/no-estimates-and-estimates.png)
 
 If you would like to read more, I have a [flowchart that reflects the thought process of #NoEstimates in practice](https://www.stevefenton.co.uk/2015/09/noestimates-in-practice/).

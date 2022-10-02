@@ -14,7 +14,7 @@ tags:
     - agile
 ---
 
-<figure class="wp-block-image">![Three Ways to Improve Software Development](https://www.stevefenton.co.uk/wp-content/uploads/2018/10/continuous-improvement.png)</figure>These are the three things I encourage people to look at when they aren’t getting what they need out of their software development process. Because I had started with these so many times, I sometimes imagine everyone knows all about them; but each time I start helping a software team turn things around I find that these techniques have yet to be applied.
+<figure class="wp-block-image">![Three Ways to Improve Software Development](/img/2018/10/continuous-improvement.png)</figure>These are the three things I encourage people to look at when they aren’t getting what they need out of their software development process. Because I had started with these so many times, I sometimes imagine everyone knows all about them; but each time I start helping a software team turn things around I find that these techniques have yet to be applied.
 
 ### Make Work Visible
 

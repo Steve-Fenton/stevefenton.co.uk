@@ -46,7 +46,7 @@ So to create our new reusable block, we add a new Thread Group, and add a new Si
 - Thread Group 
     - Simple Controller
 
-![JMeter Simple Controller](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter001.jpg)
+![JMeter Simple Controller](/img/2015/07/jmeter001.jpg)
 
 Don’t configure your new Thread Group to have any more than 1 of everything. Your test Thread Group is where you will specify all of this information and you don’t need it on your reusable module.
 
@@ -81,10 +81,10 @@ Now, where the sign in HTTP Request used to be, we add a new Module Controller, 
         - \[Testing something in a loop\]
     - HTTP Request (Sign Out)
 
-![Module Controller](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter002.jpg)
+![Module Controller](/img/2015/07/jmeter002.jpg)
 
 We can repeat this process for anything that can be reused and use a Module Controller in each tests that needs the nodes.
 
 Here is our actual JMeter structure after doing this:
 
-![JMeter Tree](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/jmeter003.jpg)
+![JMeter Tree](/img/2015/07/jmeter003.jpg)

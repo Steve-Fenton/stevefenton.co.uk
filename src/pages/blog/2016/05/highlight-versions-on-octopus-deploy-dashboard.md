@@ -16,7 +16,7 @@ tags:
 
 Some time ago, I wrote a JavaScript bookmarklet that you could use to highlight version numbers in your Octopus Deploy dashboard. This makes it easier to compare versions across your environments.
 
-[![Octodash Output](https://www.stevefenton.co.uk/wp-content/uploads/2016/05/octodash-pastel.jpg)](https://www.stevefenton.co.uk/2016/05/highlight-versions-on-octopus-deploy-dashboard/octodash-pastel/)
+[![Octodash Output](/img/2016/05/octodash-pastel.jpg)](https://www.stevefenton.co.uk/2016/05/highlight-versions-on-octopus-deploy-dashboard/octodash-pastel/)
 
 The code for the bookmarklet is below, but I am currently awaiting approval for a simple Google Chrome extension for this script, which adds a button to your browser that you can use to highlight the versions. I will link to the extension so you can install it in Chrome or Edge as soon as it is available.
 
@@ -28,7 +28,7 @@ You can install it from the [Octodash Chrome Extension page](https://chrome.goog
 
 Or, you can install it from the [Octodash Edge Extension page](https://microsoftedge.microsoft.com/addons/search/octodash).
 
-[![Octodash Listing](https://www.stevefenton.co.uk/wp-content/uploads/2016/05/octodash.png)](https://www.stevefenton.co.uk/2016/05/highlight-versions-on-octopus-deploy-dashboard/octodash/)
+[![Octodash Listing](/img/2016/05/octodash.png)](https://www.stevefenton.co.uk/2016/05/highlight-versions-on-octopus-deploy-dashboard/octodash/)
 
 You can also find out more about [writing browser extensions](https://www.stevefenton.co.uk/2022/02/how-to-create-a-browser-extension-for-edge-or-chrome/).
 

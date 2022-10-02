@@ -154,11 +154,11 @@ Hopefully you’ll notice that the specification itself knows nothing about Cypr
 
 As soon as the compiler outputs the JavaScript files for this application, the UI will pick them up and list them.
 
-![Cypress UI](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/cypress-ui.png)
+![Cypress UI](/img/2018/06/cypress-ui.png)
 
 You can then click on it and it will run.
 
-![Cypress Runner](https://www.stevefenton.co.uk/wp-content/uploads/2018/06/cypress-runner.png)
+![Cypress Runner](/img/2018/06/cypress-runner.png)
 
 You can click on the steps displayed on the left-hand side of the runner (which is within whichever browser you selected) and it will show you the state of the system under test at that time.
 

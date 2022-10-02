@@ -79,7 +79,7 @@ The UI is pretty unrefined for the Pixel Counter – I gave it a progress bar (w
 
 Here is an example of the output.
 
-![Pixel Counter Output](https://www.stevefenton.co.uk/wp-content/uploads/2018/01/output.png)
+![Pixel Counter Output](/img/2018/01/output.png)
 
 ### Enhancements
 

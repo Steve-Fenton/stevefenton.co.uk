@@ -15,7 +15,7 @@ I don’t “do politics” and I apologise that this is political – but not i
 
 Did you ever wonder how important the boundaries are in a general election in the UK? What would happen if every vote counted? Here is a quick summary.
 
-![Election 2017 Actual vs Proportational](https://www.stevefenton.co.uk/wp-content/uploads/2017/06/election-2017.png)
+![Election 2017 Actual vs Proportational](/img/2017/06/election-2017.png)
 
 This chart shows the parties, excluding “Other”, “Ind”, and parties getting less than 100,000 votes in total.
 

@@ -22,12 +22,12 @@ To start off, open your TypeScript file in Visual Studio – then show your hidd
 
 Then grab the tab-header and drag it to sit alongside the TypeScript file using the hover-target panel that opens when you are dragging.
 
-![Side by Side TypeScript](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/ts-side-by-side.png)
+![Side by Side TypeScript](/img/2015/07/ts-side-by-side.png)
 
 When you let go over the side-by-side docking option, you’ll have the TypeScript and JavaScript files both running and when you save the TypeScript file, the JavaScript will magically update… almost. There is just one thing you’ll want to adjust.
 
-![Side by Side TypeScript Result](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/ts-side-by-side-result.png)
+![Side by Side TypeScript Result](/img/2015/07/ts-side-by-side-result.png)
 
 When the JavaScript file changes, Visual Studio will helpfully pop up a message telling you it has changed and asking if you want to re-load the file. Of course you want to re-load the file – so head to Tools &gt; Options &gt; Environment &gt; Documents and select the “Auto-load changes, if saved” option.
 
-![Auto-Load Changes](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/ts-auto-load-changes.png)
+![Auto-Load Changes](/img/2015/07/ts-auto-load-changes.png)

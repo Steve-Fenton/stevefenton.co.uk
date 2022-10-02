@@ -24,4 +24,4 @@ and
 
 - [Amazon USA](http://www.amazon.com/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)
 
-![The Humans Are Dead - Amazon Chart](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/amazon.png)
+![The Humans Are Dead - Amazon Chart](/img/2015/07/amazon.png)

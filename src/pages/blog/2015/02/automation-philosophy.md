@@ -18,7 +18,7 @@ Routine work is well defined. It can be processed using written procedure or che
 
 Eccentric work is irregular, uncommon or highly variable. It may require novel solutions on a regular basis. It needs a level of thinking to be solved efficiently.
 
-![Definitely Routine to Definitely Eccentric](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)
+![Definitely Routine to Definitely Eccentric](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)
 
 ### Isolation vs Collaboration
 

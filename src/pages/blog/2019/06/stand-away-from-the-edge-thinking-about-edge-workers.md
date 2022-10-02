@@ -30,7 +30,7 @@ Edge compute, flexible SSL, apps, workers… they’re all kinda nice. They brea
 
 Most importantly, I can’t switch off Cloudflare if there’s a problem… so I would have to just wait for them to fix it.
 
-![Mind The Gap Signs on a Railway Platform](https://www.stevefenton.co.uk/wp-content/uploads/2019/06/mind-the-gap.jpg)
+![Mind The Gap Signs on a Railway Platform](/img/2019/06/mind-the-gap.jpg)
 
 ### Stand away from the edge
 

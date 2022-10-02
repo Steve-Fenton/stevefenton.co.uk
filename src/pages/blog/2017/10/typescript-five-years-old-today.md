@@ -32,4 +32,4 @@ The chapter on language features is getting a substantial update, and there is a
 
 The re-write is still a substantial work in progress, so I don’t have a release date yet. I will update everyone as soon as I know when the book will be available.
 
-![Pro TypeScript Second Edition Preview](https://www.stevefenton.co.uk/wp-content/uploads/2017/09/cover-preview.png)
+![Pro TypeScript Second Edition Preview](/img/2017/09/cover-preview.png)

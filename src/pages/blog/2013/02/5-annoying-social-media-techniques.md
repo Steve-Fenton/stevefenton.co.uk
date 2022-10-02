@@ -16,7 +16,7 @@ tags:
 
 I am now a proud member of just one social network… which is mostly meeting people in my local coffee chop. These annoying social media techniques were contributing factors when I retired all my social network accounts. Let’s have a look at the anti-social-media methods.
 
-![Dog Logo](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/dog_logo.jpg)
+![Dog Logo](/img/2015/07/dog_logo.jpg)
 
 ### Enigma
 

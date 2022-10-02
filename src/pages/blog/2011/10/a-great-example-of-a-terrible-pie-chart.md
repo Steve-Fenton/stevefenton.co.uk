@@ -19,7 +19,7 @@ If you are going to use a pie chart ([please don’t use a pie chart](https://ww
 
 So with this in mind, what are the rules of the pie chart, and just how many of them does this chart break?
 
-![This Pie Chart Was Born In The Eighties](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/calvin_harris_got_love_for_this_chart.jpg)
+![This Pie Chart Was Born In The Eighties](/img/2015/07/calvin_harris_got_love_for_this_chart.jpg)
 
 I would like to point out that I didn’t create this chart, it was displayed during a presentation and I took a hasty photo with my smart phone in order to share it with you. This is also the reason why I appear in the reflection on the display screen!
 
@@ -75,4 +75,4 @@ That is surely plenty to be getting on with. The main error is actually using a 
 
 Let’s just imagine what things might have looked like if we had just used a more appropriate chart in the first place – for fairness I have styled this to also look like it was made in the eighties!
 
-![This Column Chart Provides Chronology](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/same_thing_but_with_columns.jpg)
+![This Column Chart Provides Chronology](/img/2015/07/same_thing_but_with_columns.jpg)

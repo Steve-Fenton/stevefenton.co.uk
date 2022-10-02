@@ -21,7 +21,7 @@ Death occurs around 15 days after a positive test result, but only for around 2.
 
 We can visualise this by offsetting the dates on the relevant datasets, so we can see the shapes of the line graphs lining up, as shown below.
 
-[![Coronavirus Offsets](https://www.stevefenton.co.uk/wp-content/uploads/2021/02/covid-offsets.jpg)](https://www.stevefenton.co.uk/2021/02/calculating-coronavirus-timings-with-excel/covid-offsets/)
+[![Coronavirus Offsets](/img/2021/02/covid-offsets.jpg)](https://www.stevefenton.co.uk/2021/02/calculating-coronavirus-timings-with-excel/covid-offsets/)
 
 All of the above analysis is based on data since 1st September 2020 (and 8 or 15 days before for the offset data).
 

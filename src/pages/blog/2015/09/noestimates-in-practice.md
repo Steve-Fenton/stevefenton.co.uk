@@ -23,7 +23,7 @@ Of course, this isn’t about faders. It’s about Estimates (and of course, #No
 
 Let’s look at it the pragmatic way with a basic flowchart.
 
-[![No Estimates Framework for Thinking](https://www.stevefenton.co.uk/wp-content/uploads/2015/09/When-To-Estimate-Flowchart.png)](https://www.stevefenton.co.uk/wp-content/uploads/2015/09/When-To-Estimate-Flowchart.png)
+[![No Estimates Framework for Thinking](/img/2015/09/When-To-Estimate-Flowchart.png)](/img/2015/09/When-To-Estimate-Flowchart.png)
 
 This flowchart essentially boils down to the following:
 
