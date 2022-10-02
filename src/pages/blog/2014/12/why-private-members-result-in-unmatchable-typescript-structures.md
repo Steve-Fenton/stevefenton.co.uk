@@ -19,7 +19,6 @@ If you create a new CustomerId, it cannot be assigned to a variable of type Prod
 Here is the reason this is such an important feature in TypeScript…
 
 ```
-<pre class="prettyprint lang-typescript">
 class CustomerId {
     constructor(private id: number) {}
        
@@ -46,7 +45,6 @@ getCustomer(id1);
 // The compiler just saved you from a tricky little bug!
 getCustomer(id2);
 ```
-
 I am using the Domain Driven Design technique of creating identifiers to wrap the primitive number type. The purpose of creating this extra code is that it is easy to accidentally pass the wrong id to a method if the method simply accepts a number. For example, I wanted to pass “item.ProductId” number, but I slipped when typing and chose the “item.PortfolioId” number instead.
 
 The best case scenario is that the PortfolioId doesn’t exist in the Product table and I get an error. The worst case scenario is that there is a Product with the same id as the Portfolio and so instead of getting a simple error that will lead me to spot my mistake, I actually have a system that looks like it is working, but exhibits really strange behaviour that can’t easily be tracked back to my original typing error.
@@ -58,7 +56,6 @@ And this neatly demonstrates why private members *should* cause a type to be str
 If there is ever a case where I do need to be able to substitute any of the identifiers for one another, it can be done with a simple interface:
 
 ```
-<pre class="prettyprint lang-typescript">
 interface GeneralId {
     getId() : number;
 }

@@ -39,7 +39,6 @@ var localizedStrings = {
 var LocalizedErrorMessage = localizedStrings.ErrorMessage["_" + userLcid];
 var LocalizedWelcomeMessage = localizedStrings.Welcome["_" + userLcid];
 ```
-
 I didn’t like how you have to keep passing in the userLcid variable and I didn’t like the additions of the underscore a bunch of times and I didn’t like how the internal data structure gradually infects the whole application.
 
 ### TypeScript
@@ -83,7 +82,6 @@ var localizedStrings = new Localization.LocalizedStrings(userLcid);
 var welcome = localizedStrings.welcome;
 var error = localizedStrings.errorMessage;
 ```
-
 Now the data structures are all hidden away and the usage of the strings doesn’t require the constant passing of the userLcid. The module hides the LocalizedData class entirely and represents the chunk of code that will change for the same reason, for example if a new language becomes supported you only change the LocalizedData class. If you add a new string, both the data and LocalizedStrings class needs to be changed.
 
 ### Compiled JavaScript

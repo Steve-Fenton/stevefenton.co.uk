@@ -57,7 +57,6 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b);
 }
 ```
-
 The above code will generate all possible combinations of the inputs.
 
 But what about pairwise testing? To show this off, we need more than two inputs (because with two inputs pairwise and combinatorial are the same). With three inputs we can start to see the problem of combinatorial explosion (when the number of combinations starts to get out of hand).
@@ -73,7 +72,6 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b + " " + c);
 }
 ```
-
 This results in 36 possible combinations, but if we switch to pairwise, we get just 12 combinations:
 
 ```
@@ -87,7 +85,6 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b + " " + c);
 }
 ```
-
 It is worth reading up on the pros and cons of pairwise testing, but given that the computer is doing the hard work and assuming your tests are blazingly fast, you may find combinatorial testing sufficient in cases where you decide to use it.
 
 Here is a quick example that is a little more realistic – we’re going to make dinner. This example was taken from a training course written by James Skilton – he uses it to demonstrate combinatorial vs pairwise testing… and told me:

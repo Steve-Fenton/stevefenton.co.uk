@@ -18,7 +18,6 @@ We are [using Octopus Deploy to perform model-driven deployments](https://www.st
 <pre class="prettyprint lang-sql">IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'MyDatabase' AND is_broker_enabled = 1)
     ALTER DATABASE [MyDatabase] SET ENABLE_BROKER
 ```
-
 This is caused by the script essentially waiting for everyone else’s connection to end, which isn’t likely to happen by chance.
 
 To solve this problem, the script needs to be run in single user mode:
@@ -31,7 +30,6 @@ IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'MyDatabase' AND is_brok
 
 ALTER DATABASE [MyDatabase] SET MULTI_USER
 ```
-
 And here is the real version that takes the Ocotpus Deploy database name variable from our project variables page.
 
 ```

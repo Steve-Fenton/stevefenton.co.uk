@@ -28,7 +28,6 @@ frontend fe-example
     bind *:80
     bind *:443 ssl crt /etc/site-ssl/region1.pem
 ```
-
 Our configuration after the change (note the additional `crt` keyword before the second certificate path).
 
 ```
@@ -38,5 +37,4 @@ frontend fe-example
     bind *:80
     bind *:443 ssl crt /etc/site-ssl/region1.pem crt /etc/site-ssl/region2.pem
 ```
-
 Important additional note – if you are running a pair of HAProxy servers, remember to upload the certificate to all of them *before* you change the configuration – otherwise the configuration will fail to reload on the second machine when the configuration is copied over.

@@ -29,7 +29,6 @@ Here is the entire HAProxy config for a basic database load balancing listener, 
     server DB-2 4.4.4.2:1433 check port 1433 inter 1000
     server DB-3 4.4.4.3:1433 check port 1433 inter 1000
 ```
-
 You can get more advanced here – you could perform more advanced checks using SQL to make sure you have more than just a connection to a port – but you get the idea.
 
 What does this cost?

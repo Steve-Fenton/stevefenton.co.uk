@@ -43,7 +43,6 @@ Get-Content $sourcePath |
     ForEach-Object {$_.matches.groups[1].value} | 
     Out-File $outPath
 ```
-
 The regex happens to be looking for a particular pattern I’m interested in – you can <abbr title="Bring Your Own Regex">BYOR</abbr>.
 
 ### Input / output
@@ -71,15 +70,12 @@ This is a brief example of input and output.
   </label>
 </div>
 ```
-
 *Output*
 
 ```
-
 KT-2002
 AR-9999
 ```
-
 ### Summary
 
 Whenever I have a task that has distinct steps, I automate it. Even running this once would make it worth the effort because (a) I’m a human not a robot, so writing a PowerShell script is a better use of my time than doing manual repetitive work (which is [boring and not aligned to the way of the punk](https://www.stevefenton.co.uk/2020/07/the-software-punk-revolution/)), (b) the process results in a task being automated *and* my brain containing more knowledge as the more I PowerShell the more I learn about it and the faster I am the next time I automate something, and (c) I get to share this with my future self so if I need to do something similar later, I won’t be starting from scratch.

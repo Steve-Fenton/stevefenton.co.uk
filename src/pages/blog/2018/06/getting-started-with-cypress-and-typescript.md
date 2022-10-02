@@ -35,7 +35,6 @@ Your `package.json` file will need the following minimal development dependencie
     }
 }
 ```
-
 Run an `npm install` and then check that the UI works okay by running `npx cypress open`. Leave it running as you continue as it will auto-load changes and you can run your tests as you go.
 
 ### Running Cypress
@@ -46,7 +45,6 @@ You can run Cypress with the open command:
 <pre class="prettyprint">
 npx cypress open
 ```
-
 If you leave it running while you’re writing tests, it will update as files change. You can also run a test suite and leave it open to see the tests automatically re-run when you change them.
 
 ### Code location and TS Config
@@ -78,7 +76,6 @@ I am putting my TypeScript files in the root of the test app, with component obj
     ]
 }
 ```
-
 ### First test
 
 I won’t patronise you with a “true equals true” assertion. We’ll just put together an entire test. Tests use Mocha and Chai, so anyone who has used these (or Jasmine, or Jest)… will know exactly how to write their tests. Anyone who has used Selenium will know to use classes to represent components. You’ll hear this referred to as Page Object Models; but actually you should represent components, or widgets, rather than whole pages.
@@ -92,7 +89,6 @@ You’ll see call to `cy`, which is the global Cypress variable. You will also n
 `./pages/home.ts`
 
 ```
-<pre class="prettyprint lang-typescript">
 import { Search } from './search';
 
 export class Home {
@@ -106,11 +102,9 @@ export class Home {
     }
 }
 ```
-
 `./pages/search.ts`
 
 ```
-<pre class="prettyprint lang-typescript">
 import { Result } from "./result";
 
 export class Search {
@@ -123,11 +117,9 @@ export class Search {
     }
 }
 ```
-
 `./pages/result.ts`
 
 ```
-<pre class="prettyprint lang-typescript">
 export class Result {
     count() {
         return 6;
@@ -139,7 +131,6 @@ export class Result {
     }
 }
 ```
-
 ### Cypress specification
 
 You can use these component object models from a specification file.
@@ -147,7 +138,6 @@ You can use these component object models from a specification file.
 `./specification.ts`
 
 ```
-<pre class="prettyprint lang-typescript">
 import { Home } from './pages/home';
 
 describe('Site Search', () => {
@@ -160,7 +150,6 @@ describe('Site Search', () => {
     });
 });
 ```
-
 Hopefully you’ll notice that the specification itself knows nothing about Cypress, or the DOM, or element selectors.
 
 As soon as the compiler outputs the JavaScript files for this application, the UI will pick them up and list them.
@@ -178,10 +167,8 @@ You can click on the steps displayed on the left-hand side of the runner (which 
 The most comment assertions will be against elements, which look like this…
 
 ```
-<pre class="prettyprint lang-typescript">
 cy.get('#myElementId').should('contain', 'Expected Text');
 ```
-
 ### Summary
 
 Cypress is a neat tool for running front-end tests, but you need to lean on all the knowledge that has come from tools such as Selenium to ensure you organise your code in a nice way. Front-end tests tend to be harder to maintain, so good design is needed to minimize this overhead. The familiarity of the tool to anyone who has used JavaScript testing frameworks, and other front-end test frameworks makes it easy to use, and it has some nice features such as the time-travel utility.

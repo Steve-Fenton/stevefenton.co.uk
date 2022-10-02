@@ -37,7 +37,6 @@ Add the Nuget Installer build task, which can be found under “Add build step�
   </activePackageSource>
 </configuration>
 ```
-
 Simply supply the path to the solution and the path to this NuGet.config file to the vNext build task and it will do everything without neededing the PowerShell script I wrote below.
 
 ### The old way
@@ -74,7 +73,6 @@ Foreach ($path in $projectPaths) {
 	Invoke-Expression -Command $installCommand
 }
 ```
-
 The script is entirely controlled via the list of paramters, which you can supply in the “arguments” field in the PowerShell Build Step:
 
 ```

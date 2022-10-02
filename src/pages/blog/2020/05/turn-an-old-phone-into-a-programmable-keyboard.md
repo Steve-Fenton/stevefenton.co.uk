@@ -38,5 +38,4 @@ Now, in terms of getting feedback, the output from the scripts is appended to th
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 [System.Windows.MessageBox]::Show('The test data has now been copied to all locations')
 ```
-
 The ability to run scripts effectively makes it possible to do anything. Between this and the simple-to-build keyboard shortcuts, this is a great alternative to a hardware programmable keyboard.

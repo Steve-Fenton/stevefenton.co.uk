@@ -32,7 +32,6 @@ WHERE
 GROUP BY M 
 ORDER BY M
 ```
-
 ### Web Log Importer
 
 If you are using [Web Log Importer](https://www.stevefenton.co.uk/tag/web-log-importer/), you can get the same information using the following query (the function will move dates to the nearest minute, the last argument is how many minutes – so in this case every “1” minute):
@@ -51,7 +50,6 @@ GROUP BY
 ORDER BY
     dbo.RoundToMinutes([date], [time], 1)
 ```
-
 And it’s easy to switch from minutes to hours by changing the size of the round call, like so (rounds to “60” minute chunks):
 
 ```

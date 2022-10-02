@@ -45,7 +45,6 @@ Edit your project file by inserting the following just before the closing “&lt
            Text="OctoPack couldn't run." />
 </Target>
 ```
-
 Save your project and re-load it.
 
 ### Try It Out
@@ -56,7 +55,6 @@ You can now test that a package is created using the normal Visual Studio comman
 <pre class="prettyprint lang-powershell">
 msbuild YourSolution.sln /p:RunOctoPack=true
 ```
-
 The package will be placed in the database project directory:
 
 “\\obj\\octopacked\\Your.Database.1.0.0.0.nupkg”
@@ -97,7 +95,6 @@ Register-ObjectEvent -InputObject $d -EventName "Message" -Action { Write-Host $
 # Dacpac deployment
 $d.Deploy($dp, $DatabaseName, $true, $options)
 ```
-
 This script assumes you have set up the following Octopus Variables in your project.
 
 - DatabaseServer: i.e. MyServer\\MyInstance.

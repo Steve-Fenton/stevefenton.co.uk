@@ -27,14 +27,12 @@ a:after {
     content: " [" attr(href) "] ";
 }
 ```
-
 When used on this hyperlink:
 
 ```
 <pre class="prettyprint lang-html">
 <a href="https://www.stevefenton.co.uk/">Click Here</a>
 ```
-
 …it will transform “Click Here” into “Click Here \[https://www.stevefenton.co.uk/\]”. By adding this to your print-style-sheet, you can ensure that people have all the information they need.
 
 You can add print-specific stylesheets like this:

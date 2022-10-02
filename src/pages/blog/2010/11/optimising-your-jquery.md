@@ -30,7 +30,6 @@ $('.example').each(function () {
     alert("The item with the id '" + id + "' was " + width + "x" + height + ".");
 });
 ```
-
 At first glance, this looks rather simple. What could be wrong with this simple slice of jQuery. Well, there are two problems demonstrated in this example that are incredibly common.
 
 ### Optimising jQuery Code
@@ -47,7 +46,6 @@ $('.example').each( function () {
     alert("The item with the id '" + id + "' was " + width + "x" + height + ".");
 });
 ```
-
 The second optimisation is to avoid using jQuery when you don’t need to. This is also built into the example, when we call `$(this).attr("id")`. Instead of instantiating a jQuery object in order to get the id, we could simple call `this.id`. The calls to height() and width() need to be jQuery calls, because the jQuery framework evens out browser differences for us, but for simple attribute calls, there’s no need to use it. Here is the example with this optimisation added to the first suggestion.
 
 ```
@@ -60,7 +58,6 @@ $('.example').each( function () {
     alert("The item with the id '" + id + "' was " + width + "x" + height + ".");
 });
 ```
-
 These techniques might not seem like much – but don’t forget that the class selector can return many elements, which means this little bit of code could run many times over, which is the other thing I’d like to mention.
 
 ### Think Loop

@@ -57,7 +57,6 @@ The first thing we need is a simple Widget class, that will look familiar to any
         }
     }
 ```
-
 And for our top level page, we’ll have a collection of Widgets that we want to render:
 
 ```
@@ -66,7 +65,6 @@ And for our top level page, we’ll have a collection of Widgets that we want to
         public IList Widgets { get; set; } = new List();
     }
 ```
-
 ### Primary controller
 
 The default controller is responsible for one thing… getting a list of widgets and passing them to the primiary view. In the example below there are just two hard coded widgets, but in reality there will be a number of widgets and you’ll probably store them somewhere and retrieve them based on the request (for example, but host name, or some request parameter).
@@ -92,7 +90,6 @@ The default controller is responsible for one thing… getting a list of widgets
         }
     }
 ```
-
 ### Primary view
 
 The primary view is also relatively simple. It just loops through each widget and calls RenderAction, with a little exception handling. The exception handler calls logging with the widget details and the exception details, so you’ll always know exactly what went wrong if there is a problem (but depending on which widget exploded, you are likely to have a reasonable working page for your users still). The exception handler also emits a simple tag that can be used with [Katelyn Crawler](https://github.com/Steve-Fenton/Katelyn) to detect any problems with your web application. Because the pages are resilient to individual widget faults, they will be reporting a 200 status code and sending back a mostly-rendered page – but you’ll want to be able to treat those pages as errors when you test them.
@@ -113,7 +110,6 @@ The primary view is also relatively simple. It just loops through each widget an
     }
 }
 ```
-
 All you need to do to change the layout is change the widgets-at-rest in your storage. You could serve different widgets for different requests, or re-order them, or show/hide them conditionally. This all belongs to the process of retrieving the widgets to be displayed.
 
 ### Performance of widgets with RenderAction

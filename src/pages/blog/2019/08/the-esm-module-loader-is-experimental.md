@@ -35,7 +35,6 @@ SyntaxError: Unexpected token {
     at processTicksAndRejections (internal/process/task_queues.js:85:5)
     at async Loader.import (internal/modules/esm/loader.js:134:24)
 ```
-
 You have two options to resolve your issue, but first… what’s the issue?
 
 ### Common JS
@@ -52,7 +51,6 @@ By default, when you write TypeScript code, you won’t get commonjs modules unl
         }
     }
 ```
-
 ### Experiment All The Things
 
 Alternatively, you can set the *experimental* (read: there may be trouble with it) feature in Node so it will work with the modules you are already generating… to do this you need to make a very similar change, but in your package.json:
@@ -61,7 +59,6 @@ Alternatively, you can set the *experimental* (read: there may be trouble with i
 <pre class="prettyprint lang-json">
     "type": "module"
 ```
-
 Either one of these will fix the issue, but while ES modules are experimental, you might want to generate commonjs modules from your TypeScript code.
 
 If you are reading this in the future, this advice may be reversed – but by that time your chances of getting this error should be slim!

@@ -71,14 +71,12 @@ Navigate to the IIS Admin Scripts folder, usually:
 <pre class="prettyprint lang-powershell">
 cd c:\Inetpub\AdminScripts
 ```
-
 Then run this commend for each web site:
 
 ```
 <pre class="prettyprint lang-powershell">
 cscript adsutil.vbs set /w3svc/[Identifier]/SecureBindings ":443:[host-header]"
 ```
-
 The “Identifier” is visible inside IIS Manager by clicking on the “Web Sites” folder.
 
 So for our example, we would run:
@@ -88,14 +86,12 @@ So for our example, we would run:
 cscript adsutil.vbs set /w3svc/1/SecureBindings ":443:test.stevefenton.co.uk"
 cscript adsutil.vbs set /w3svc/2/SecureBindings ":443:other.stevefenton.co.uk"
 ```
-
 If you make a mistake, for example if you spell the host header incorrectly, you can just run the script again with the correct spelling. The response to this message will look like this:
 
 ```
 <pre class="prettyprint lang-powershell">
 : <LIST> ":443:test.stevefenton.co.uk"
 ```
-
 Once you have run this for each web site, you should run an IIS Reset and make sure that all of your web sites have started. If you have forgotten one of the steps listed in this article, one of your web sites will refuse to start with a message about not being able to write a file that already exists.
 
 What this process changes is that it allows IIS to decrypt the host-header using the shared certificate before it decides which web site can service the request. With the decrypted host header, IIS can route the request to the correct web site.

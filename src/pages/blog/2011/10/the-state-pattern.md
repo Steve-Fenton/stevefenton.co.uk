@@ -38,7 +38,6 @@ callState.Retrieve();
 // End the call
 callState.Disconnect();
 ```
-
 If you look at this code, it looks like you create a CallStateContext and then call methods on it such as “Answer”, “Hold” or “Retrieve”. To the calling code, it looks like a single object that knows what to do with all of these requests and that can also validate that each transition is valid. If this was the case (it isn’t) we could expect to see a grand series of if and switch statements that split down lots of logical branches in the code. If you made a change or introduced a new state, all of those if and switch statements would need to be revised and tested. This is one of the problems the State Pattern wants to solve.
 
 ### So how does it work?
@@ -63,7 +62,6 @@ public interface ICallStateContext
     void Disconnect();
 }
 ```
-
 These all look sensible right? We have some methods that describe transitions we want to make between states. For example, Disconnect() is the transition from ActiveState to NullState, or from HoldState to NullState (or from any state to any other state depending on the context).
 
 Here is the full implementation of CallStateContext. In a real world example, it would contain more “context”, i.e. any data that is required to perform the state transitions, for example a CallId.
@@ -106,7 +104,6 @@ public class CallStateContext : ICallStateContext
     }
 }
 ```
-
 Note that the CallStateContext doesn’t perform any transitions, it calls the CallState \_state object to do this. It is this \_state member that will be replaced with the different states at runtime. The CallStateContext also doesn’t decide what goes in this field, this is actually decided by each state. This means that if you call Hold when you are in the ActiveState, you can decide to transition to HeldState. If you call Hold when you are in the RingingState, you might decide that this maps to QueuedState. All of these implementation details are encapsulated within each different state, with no switch or if statements necessary.
 
 So what do the states look like. All of our states are based on an abstract class called CallState.
@@ -123,7 +120,6 @@ public abstract class CallState
     public abstract void Disconnect(CallStateContext context);
 }
 ```
-
 We can implement any number of states that can each have a different implementation of these methods. Each concrete state will decide whether a transition is allowed (and what to do if it isn’t), how the transition takes place and what the next state will be after the transition.
 
 In the following example concrete state, ActiveState, I have removed all implementation about how the transition takes place (for example, a call to a telephony component to signal that the call is being picked up) but left in the validation and the setting of the new state.
@@ -153,7 +149,6 @@ public class ActiveState : CallState
     }
 }
 ```
-
 This shows how you cannot Answer an active call. This makes sense because if it is active, it has already been answered. The validation failure might throw an exception, write a log or simply ignore the request – the correct decision in this respect should be dictated by the problem you are trying to solve.
 
 For the Hold transition, the method replaces context.State (which currently contains the instance of ActiveState) with an instance of HeldState – so any future calls to our CallStateContext will be processed by the HeldState class until it replaces itself with another implementation of CallState.
@@ -187,7 +182,6 @@ public class HeldState : CallState
     }
 }
 ```
-
 And that is the State Pattern. It replaces lots of logical branches in your code with a tidy and extensible mechanism for handling state.
 
 The one problem you can have with this pattern is that if you have a large number of transitions each CallState keeps growing, and many of the transitions may not be relevant to all CallState objects. One suggestion I have read on this is that you could create interfaces that contain sections of logic, for example ICanAnswer, ICanHold, ICanRetrieve and so on. You could then detect these interfaces in CallStateContext in order to tell if the transition is allowed.
@@ -214,7 +208,6 @@ public class ActiveState : CallState
     }
 }
 ```
-
 We no longer specify the Answer method, which is irrelevant to our ActiveState. The call would then fall to our base class, which has a default to throw the exception or to ignore the request:
 
 ```
@@ -228,5 +221,4 @@ public class CallState
 
     ....
 ```
-
 Have fun using the State Pattern!

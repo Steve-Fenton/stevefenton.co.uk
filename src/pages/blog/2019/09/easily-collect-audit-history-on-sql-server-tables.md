@@ -30,7 +30,6 @@ CREATE TABLE [dbo].[tblTenant] (
 )
 GO
 ```
-
 ### Optional but sensible columns
 
 You should already have columns on your table that contain the data you would look for in the audit history. For example, the user who made the change is almost always needed. So, although you won’t be forced to add this data it’s up to you to ensure the history row is useful when you finally need to use it.
@@ -49,7 +48,6 @@ Here’s the addition…
 [SysEndTime] DATETIME2 GENERATED ALWAYS AS ROW END NOT NULL,
 PERIOD FOR SYSTEM_TIME (SysStartTime, SysEndTime),
 ```
-
 And where it fits into our script so far…
 
 ```
@@ -69,7 +67,6 @@ CREATE TABLE [dbo].[tblTenant] (
 )
 GO
 ```
-
 ### Automatic history table
 
 Now you have the right columns, you can ask SQL Server to add an automatic *temporal version history table*. Sounds cool, and can be done using one additional line in your table definition. The only part to change is the name of the table. I call all my temporal history tables “tblHistoryOf…” – followed by the table name. So in our case “tblHistoryOfTenant”. You’ll thank yourself for using this convention later on as it makes it super-clear which tables are “data” and which tables are “history”.
@@ -80,7 +77,6 @@ The additional line is…
 <pre class="prettyprint lang-sql">
 WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.tblHistoryOfTenant));
 ```
-
 And it fits into your tables script here…
 
 ```
@@ -102,7 +98,6 @@ CREATE TABLE [dbo].[tblTenant] (
 WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.tblHistoryOfTenant));
 GO
 ```
-
 You will see your table get a new icon, and a nested temporal history table with the audit history:
 
 ![Temporal Audit History Table Icon and Nested Table](https://www.stevefenton.co.uk/wp-content/uploads/2019/09/temporal-audit-history-sql-server.jpg)
@@ -117,7 +112,6 @@ modelBuilder
     .Entity<Tenant>()
     .ToTable("Tenant", b => b.IsTemporal());
 ```
-
 When using EF Core to do this, you’ll get a `TenantHistory` table with automatic `PeriodStart` and `PeriodEnd` columns. You can override these defaults if you need to:
 
 ```
@@ -130,5 +124,4 @@ modelBuilder
         b.UseHistoryTable("HistoryOfTenant");
     ));
 ```
-
 Neat!

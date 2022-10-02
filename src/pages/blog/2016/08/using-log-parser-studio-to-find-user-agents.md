@@ -31,7 +31,6 @@ GROUP BY
 ORDER BY
     count(cs(User-Agent)) DESC
 ```
-
 Remember to change the date when you run it.
 
 ### Web Log Importer

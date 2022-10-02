@@ -23,7 +23,6 @@ Here is an example:
 <pre class="prettyprint lang-sql">
 sp_spaceused MyMassiveTable
 ```
-
 And the output is similar to the below made up result:
 
 ```
@@ -32,5 +31,4 @@ name               rows                 reserved           data               in
 ------------------ -------------------- ------------------ ------------------ ------------------ ------------------
 MyMassiveTable     113572103            477067904 KB       672320720 KB       5505568 KB         841616 KB
 ```
-
 This mechanism will return a result in under one second, whereas a “proper” `COUNT` could take much longer.

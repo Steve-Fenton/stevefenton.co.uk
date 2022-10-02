@@ -30,7 +30,6 @@ To do this, set the URLs Must Match field to:
 ```
 <pre class="prettyprint">^((?!google|someone-else|some-other-third-party).)*$
 ```
-
 This will exclude URLs that contain the specified terms (so you would need to ensure there was no clash – for example, if you had a resource on your website such as “http://example.com/interesting-google-buttons.css”, it would not be downloaded as an embedded resource.
 
 ### Summary

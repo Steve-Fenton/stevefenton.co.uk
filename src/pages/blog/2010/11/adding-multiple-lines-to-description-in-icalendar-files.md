@@ -24,12 +24,10 @@ There is a quick fix though, which will get your iCal file back up and running w
 <pre class="prettyprint lang-plain_text">
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:
 ```
-
 Then replace all of the line breaks with “=0D=0A”. Like this…
 
 ```
 <pre class="prettyprint lang-plain_text">
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:This is the first line.=0D=0AThe Second line.=0D=0AThe third line.
 ```
-
 This will be interpreted as containing line breaks when the iCal is imported. Job done!

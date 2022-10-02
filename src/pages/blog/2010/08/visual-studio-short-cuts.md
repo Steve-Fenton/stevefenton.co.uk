@@ -34,7 +34,6 @@ private string Title { get; set; }
 private string FirstName { get; set; }
 private string LastName { get; set; }
 ```
-
 Once you have elected them, you can over-type them, for example with “public”, so you end up with this.
 
 ```
@@ -44,7 +43,6 @@ public string Title { get; set; }
 public string FirstName { get; set; }
 public string LastName { get; set; }
 ```
-
 My favourite short-cut in Visual Studio is `CTRL` + `K` followed by `CTRL` + `D`, this formats the entire document according to my configured layout rules are tidies up all the nasty formatting left behind by other developers.
 
 [MSDN has a full list](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?WT.mc_id=DT-MVP-5002938), it is massive!

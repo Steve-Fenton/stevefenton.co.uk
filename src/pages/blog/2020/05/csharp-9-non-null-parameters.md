@@ -24,14 +24,12 @@ Well, you can. This is the before…
 <pre class="prettyprint lang-csharp">
 public Book(string firstName, string lastName)
 ```
-
 And this is the after, with bangs after the parameter name to say “this can’t be null”.
 
 ```
 <pre class="prettyprint lang-csharp">
 public Book(string firstName!, string lastName!)
 ```
-
 This is a shortcut that asks the compiler to add some code in for us, to save us some typing. Each bang is roughly equivalent to a check like this:
 
 ```
@@ -40,5 +38,4 @@ if (firstName is null) {
     throw new ArgumentNullException(nameof(firstName));
 }
 ```
-
 Ideally, this would have been the default way back when, but we live and learn and can now bang-up our parameters and kill off nulls high up in our stack, if they have to exist at all.

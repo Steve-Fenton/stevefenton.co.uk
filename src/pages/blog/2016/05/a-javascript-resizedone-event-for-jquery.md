@@ -19,7 +19,6 @@ If you have ever handled a resize event in JavaScript, you will have noticed tha
     // Your code gets called A LOT!
 });
 ```
-
 In almost all cases, you would rather subscribe to a “resizeDone” event, that only raises when the resize has finished.
 
 The following jQuery example shows a lightweight resize listener that reduces the many resize events down to a single resizeDone event.
@@ -34,7 +33,6 @@ $window.on('resize', function () {
     }, 250);
 });
 ```
-
 You can now update your code to listen for the resizeDone event…
 
 ```

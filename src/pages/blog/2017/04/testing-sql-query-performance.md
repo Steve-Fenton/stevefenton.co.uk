@@ -20,7 +20,6 @@ GO
 
 SELECT * FROM MyTable
 ```
-
 ### Very important notes
 
 There are some very important things to consider before you use these commands.
@@ -42,5 +41,4 @@ GO
 SET STATISTICS TIME OFF
 GO
 ```
-
 Basically, it is just the plain query, with statistics supplied in the “Messages” window.

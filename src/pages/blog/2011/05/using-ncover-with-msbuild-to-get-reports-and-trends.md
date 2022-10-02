@@ -33,7 +33,6 @@ In order to get trend reporting, you must specify a CoverageFile in your NCover 
         AppendTrendTo="$(NCoverOutputPath)\Trends\NCover.trend"
     />
 ```
-
 The trend file is generated using the coverage file, so you have to generate the coverage file in order to get trend reports, even if you are most interested in the HTML reports.
 
 Now you need to add an NCoverReporting task to do the rest. To do this, you will first need to add a UsingTask statement to your MSBuild script:
@@ -43,7 +42,6 @@ Now you need to add an NCoverReporting task to do the rest. To do this, you will
 <UsingTask TaskName="NCover.MSBuildTasks.NCoverReporting" 
            AssemblyFile="$(NCoverPath)\Build Task Plugins\NCover.MSBuildTasks.dll" />
 ```
-
 And then the NCoverReporting task itself:
 
 ```
@@ -53,7 +51,6 @@ And then the NCoverReporting task itself:
         OutputReport="$(NCoverOutputPath)\Trends\"
     />
 ```
-
 You should now have a Coverage.xml file and an NCover.trend file stored in the location of your choice.
 
 Follow these instructions to view the trends…

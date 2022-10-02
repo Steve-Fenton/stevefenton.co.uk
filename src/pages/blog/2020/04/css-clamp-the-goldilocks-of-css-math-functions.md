@@ -30,7 +30,6 @@ article p {
   font-size: 3vw;
 }
 ```
-
 When the screen is really big, the text gets really big. When the screen is really small, the text gets… well, it looks like centipede as viewed from several meters away. It certainly cannot be read.
 
 ### Clamp down
@@ -49,7 +48,6 @@ article p {
   font-size: clamp(1em, 3vw, 2em);
 }
 ```
-
 The heading will now use 4 view widths to size, but stop before it goes below 1.5em, or above 4em.
 
 ### Not just text
@@ -63,7 +61,6 @@ article {
   margin: 0 auto;
 }
 ```
-
 ### Browser support
 
 Browser support is exactly what you’d expect with the usual collection of Edge, Chrome, and Firefox offering support along with Opera on desktop, and just Chrome making it available on mobile. However, it’s early days and it won’t be long before we’re all using it as commonly as we use `calc` now.
@@ -123,5 +120,4 @@ You can stick this full example into your favourite code editor or online playgr
 
 </html>
 ```
-
 </body></html>

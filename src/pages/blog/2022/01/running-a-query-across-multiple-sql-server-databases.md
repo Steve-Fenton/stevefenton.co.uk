@@ -33,7 +33,6 @@ The query configuration is just a simple JSON file that takes the SQL query, the
   ]
 }
 ```
-
 The input file goes in `c:\Temp\mq\input.json` and the `output.csv` gets written to the same location (you can set a different drive letter if you wish, see below).
 
 ### Running the query
@@ -44,7 +43,6 @@ Then you just run the app using:
 <pre class="prettyprint">
 c:\...\MultiQuery> mq c
 ```
-
 The only argument to pass to `mq` is the drive letter, in the above example it’s `c`.
 
 ### The output

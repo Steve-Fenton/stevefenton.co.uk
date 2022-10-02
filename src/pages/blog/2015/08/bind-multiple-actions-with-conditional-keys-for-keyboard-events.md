@@ -56,7 +56,6 @@ Here is the full script:
     };
 })(jQuery);
 ```
-
 And you call it like this if you want the defaults:
 
 ```
@@ -64,7 +63,6 @@ And you call it like this if you want the defaults:
    alert('Yes'); 
 });
 ```
-
 And like this if you want to specify something…
 
 ```

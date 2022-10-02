@@ -54,7 +54,6 @@ In your WCF service, you will need to make sure that your binding has transactio
           bindingConfiguration="wsHttpTransactional" 
           contract="WcfServiceLibrary1.IService1">
 ```
-
 #### Attribute Up Your Interface
 
 You now need to add TransactionFlow attributes to your interface – so if it looks like this:
@@ -64,7 +63,6 @@ You now need to add TransactionFlow attributes to your interface – so if it lo
 [OperationContract]
 bool UpdateSomethingElse(string whatever);
 ```
-
 You need to add this:
 
 ```
@@ -73,7 +71,6 @@ You need to add this:
 [TransactionFlow(TransactionFlowOption.Allowed)]
 bool UpdateSomethingElse(string whatever);
 ```
-
 #### Attribute Up Your Method
 
 You can then add an OperationBehavior to your method to tell it to enlist in the transactionScope, so you find this:
@@ -82,7 +79,6 @@ You can then add an OperationBehavior to your method to tell it to enlist in the
 <pre class="prettyprint lang-csharp">
 public bool UpdateSomethingElse(string whatever) {
 ```
-
 And you add an attribute like this:
 
 ```
@@ -90,7 +86,6 @@ And you add an attribute like this:
 [OperationBehavior(TransactionScopeRequired = true)]
 public bool UpdateSomethingElse(string whatever) {
 ```
-
 ### Connection Strings
 
 It is well mooted that you should adjust your connection strings to ensure safety in the event of a time out – all you have to do is add the following attribute to your connection:
@@ -99,7 +94,6 @@ It is well mooted that you should adjust your connection strings to ensure safet
 <pre class="prettyprint lang-plain_text">
 Transaction Binding=Explicit Unbind;
 ```
-
 ### Summary
 
 Hopefully this article will help a few people who are getting unexpected results from their use of TransactionScope – please [contact me](https://www.stevefenton.co.uk/contact/) if you want to add anything!

@@ -28,7 +28,6 @@ IEnumerable<string> GetEnrollees()
     }
 }
 ```
-
 In English, the if-statement here resolves true if the person is a student, who hasn’t graduated, and whose name we know. It basically acts as if you had written this pretend code (which is nowhere near valid, but is the clearest explanation of what is happening):
 
 ```
@@ -47,7 +46,6 @@ IEnumerable<string> GetEnrollees()
     }
 }
 ```
-
 For the above code to be valid, the type of the p variable would have to change after the first condition, and you’d need to be able to shimmy the name into a variable. You can’t, so this is the actual valid version of the code you’d write before this feature:
 
 ```
@@ -68,5 +66,4 @@ IEnumerable<string> GetEnrollees()
     }
 }
 ```
-
 And this is C# Recursive Patterns in a nutshell; once we get used to their shape I think they’ll be a great addition to the toolkit as they provide a clear and expressive way to construct a conditional statement and extract variables (although you don’t have to do both!)

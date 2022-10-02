@@ -25,7 +25,6 @@ As of TypeScript 0.9.1 you don’t need to mess about with reference comments in
 mod.ts
 
 ```
-<pre class="prettyprint lang-typescript">
 module Mod {
     export class ModClass {
         doSomething() {
@@ -34,15 +33,12 @@ module Mod {
     }
 }
 ```
-
 app.ts
 
 ```
-<pre class="prettyprint lang-typescript">
 var mod = new Mod.ModClass();
 mod.doSomething();
 ```
-
 And this works. It works in the Visual Studio editor and it works when I compile it using the BeforeBuild target in the project file.
 
 ```
@@ -51,7 +47,6 @@ And this works. It works in the Visual Studio editor and it works when I compile
     <Exec Command=""$(PROGRAMFILES)\Microsoft SDKs\TypeScript\tsc" --out final.js @(TypeScriptCompile ->'"%(fullpath)"', ' ')" />
 </Target>
 ```
-
 This does mean you have to clear up any old TypeScript files you aren’t using as they do make it into the “final.js” file.
 
 Note: Web Essentials 2012 isn’t ready for this change just yet!

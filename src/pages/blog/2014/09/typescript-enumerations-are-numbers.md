@@ -21,7 +21,6 @@ Whilst [answering a question on Stack Overflow](http://stackoverflow.com/q/25762
 This means that you can use any arbitrary number in place of an enum, which means you might choose a number that doesn’t actually exist. For example:
 
 ```
-<pre class="prettyprint lang-typescript">
 enum BallType {
     pingPong,
     golf,
@@ -32,23 +31,19 @@ enum BallType {
 
 var ballType: BallType = 100;
 ```
-
 Clearly, there are not enough ball types for 100 to be a valid choice as we have enough items to cover 0 – 4 only. Rather than treating the assignment of a number to the variable typed with the BallType annotation, the compiler allows this.
 
 This is the area of hazard for TypeScript enums, but you can add in safety checks…
 
 ```
-<pre class="prettyprint lang-typescript">
 var ballType: BallType = 100;
 
 if (typeof BallType[ballType] === 'undefined') {
     alert('No ball type for ' + ballType);
 }
 ```
-
 You might be a little upset about this implementation detail – but don’t throw the baby out with the bathwater because enums are still useful… not just because you get auto-completion for them and using enums instead of numbers prevents sync issues, but because they prevent this…
 
 ```
-<pre class="prettyprint lang-typescript">
 var ballType: BallType = SportType.pingPong;
 ```

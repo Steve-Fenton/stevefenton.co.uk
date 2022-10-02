@@ -57,17 +57,14 @@ The basic structure of the `getStaticPaths` function is:
 Here’s the basic shape of things:
 
 ```
-<pre class="prettyprint lang-typescript">
 export async function getStaticPaths({ paginate }: any) {
   // Get a list of "appropriate posts... then:
   return paginate(posts, { pageSize: SITE.pageSize });
 }
 ```
-
 And a working example of “page all articles”:
 
 ```
-
 const sortByPubDateDesc = (a: MarkdownInstance<Record<string, any>>, b: MarkdownInstance<Record<string, any>>) => {
   return b.frontmatter.pubDate.localeCompare(a.frontmatter.pubDate);
 }
@@ -81,7 +78,6 @@ export async function getStaticPaths({ paginate }: any) {
   return paginate(posts, { pageSize: SITE.pageSize });
 }
 ```
-
 In the above example, we filter and sort the posts we found with `Astro.glob`. In most cases, it makes sense to place the `[page].astro` page in the same folder as all the posts, like `/pages/articles/` or `/pages/blog/`, so we can look for all markdown files in subfolders.
 
 But what if we want to add category lists?
@@ -91,7 +87,6 @@ We just need to do a little more work in our function.
 The example below is broken into three chunks… get all the posts, then find a list of categories based on them, and then create a paginate instance for each category with a filtered list of posts.
 
 ```
-<pre class="prettyprint lang-typescript">
 export async function getStaticPaths({ paginate }: any) {
   const sourcePosts = await Astro.glob('../../**/*.md');
   const posts = sourcePosts
@@ -111,7 +106,6 @@ export async function getStaticPaths({ paginate }: any) {
   });
 }
 ```
-
 ### Summary
 
 The combination of file path tokens and the `getStaticPaths` function, with their shared params / tokens is what powers the generation of paged lists.

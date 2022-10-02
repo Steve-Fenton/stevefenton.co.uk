@@ -35,7 +35,6 @@ WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !IsSpecialName AND
   !IsEventDelegateObject
 ```
-
 After…
 
 ```
@@ -49,7 +48,6 @@ WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !IsSpecialName AND
   !IsEventDelegateObject
 ```
-
 As you can see, I’ve changed the rule for static fields from m\_ to simply \_ as that is the coding standard I am currently adhering to.
 
 Not only was this edit incredibly easy – I could do it from within Visual Studio as NDepend runs inside of my development environment.

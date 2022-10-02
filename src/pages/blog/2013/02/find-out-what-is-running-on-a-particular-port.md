@@ -23,7 +23,6 @@ The basic command is:
 <pre class="prettyprint lang-powershell">
 netstat
 ```
-
 This will crawl your ports and give you a list of ports that are taken.
 
 ```
@@ -32,14 +31,12 @@ Proto  Local Address          Foreign Address        State
   TCP    127.0.0.1:1282         MACHINE:1283       ESTABLISHED
   TCP    127.0.0.1:1283         MACHINE:1282       ESTABLISHED
 ```
-
 This isn’t enough, so you’ll probably want details of the app that is causing the port to be taken. So you can use:
 
 ```
 <pre class="prettyprint lang-powershell">
 netstat -b
 ```
-
 If you get the message “The requested operation requires elevation”, either hold your computer above your head, or run command prompt in Administrator mode.
 
 ```

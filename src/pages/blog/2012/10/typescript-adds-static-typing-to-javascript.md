@@ -21,12 +21,10 @@ This time, though, things might be different, because TypeScript is JavaScript w
 Here is an example, you will probably be able to spot the differences immediately:
 
 ```
-<pre class="prettyprint lang-typescript">
 function addTwoNumbers(numberA: number, numberB: number) {
     return numberA + numberB;
 }
 ```
-
 The difference with TypeScript is that you can make JavaScript statically typed.
 
 Obviously, this is a simplified view on things – but the point is that you can state the intent of the types and get your IDE to check that you aren’t doing invalid things with those types and it can give code-completion hints based on those types.

@@ -20,7 +20,6 @@ It’s a pretty common occurrence to write a message that includes a date, and w
 <pre class="prettyprint lang-csharp">
     string output = $"... {n.CreatedDate.ToString("yyyy-MM-dd HH:mm:ss")} ...";
 ```
-
 This isn’t a tricky bit of code, but you have to remember that months are `M` and minutes are `m` and other arcane stuff like the difference between `M`, `MM`, `MMM`, and `MMMM` (it’s starting to sound rather tasty).
 
 Visual Studio knows that you shouldn’t have to remember this stuff, so it now starts suggesting auto-complete entries *within your string literal*, as shown below.
@@ -35,5 +34,4 @@ Also, Visual Studio will also hint the slightly tidier format specifier for inte
 <pre class="prettyprint lang-csharp">
     string output = $"... {n.CreatedDate:yyyy-MM-dd HH:mm:ss} ...";
 ```
-
 Am I last one to this party?

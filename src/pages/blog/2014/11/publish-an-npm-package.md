@@ -49,7 +49,6 @@ Make sure you have a quality [package.json](https://www.npmjs.org/doc/files/pack
     }
 }
 ```
-
 The name (must be all lower case) and version are the most important fields (you could leave off most of the rest).
 
 The interesting bits are the “files” array and the “main” property. My package.json file is in the same folder as the tsUnit.ts file and the tsUnit.js file – so I’m only dealing with a very simple scenario here.
@@ -62,7 +61,6 @@ You need to [add a user](https://www.npmjs.org/doc/cli/npm-adduser.html). You ju
 <pre class="prettyprint lang-powershell">
 npm adduser
 ```
-
 ### Step 3 – Publish
 
 You can now publish. This is a simple as running the following command from the directory containing the package.json file:
@@ -71,7 +69,6 @@ You can now publish. This is a simple as running the following command from the 
 <pre class="prettyprint lang-powershell">
 npm publish
 ```
-
 If there are any problems, you’ll get a message telling you what you need to change. Otherwise, your package will show up just like the [tsunit.external pacakge on npm here](https://www.npmjs.org/package/tsunit.external).
 
 ### Step 3 – Install It
@@ -82,12 +79,10 @@ You can install your package using:
 <pre class="prettyprint lang-powershell">
 npm install tsunit.external
 ```
-
 ### Step 4 – Use It
 
 To use the package, you can use:
 
 ```
-<pre class="prettyprint lang-typescript">
 import tsUnit = require('./node_modules/tsunit.external/tsUnit');
 ```

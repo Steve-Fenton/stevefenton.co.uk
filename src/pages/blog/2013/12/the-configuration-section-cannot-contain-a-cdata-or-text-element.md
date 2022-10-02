@@ -31,5 +31,4 @@ For example:
   </appSettings>
 </configuration>
 ```
-
 In this example, someone meant to press “CTRL + S” to save the file, but missed the CTRL key, so the “s” is a hanging piece of text that makes the config file invalid.

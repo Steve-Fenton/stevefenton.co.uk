@@ -33,7 +33,6 @@ The icon for Hound is taken from the album cover of *Park it Where You Like*, by
 <pre class="prettyprint lang-bash">
 PM> Install-Package Hound -Version 0.1.2
 ```
-
 Second, store your Datadog API key somewhere as you’ll need that. I create a custom key so I can control access. You can add a separate key on the Datadog portal in Integrations -&gt; API -&gt; API Keys -&gt; New API Key. You only need an API key and not an application key for Hound.
 
 ![Datadog New API Key Screen](https://www.stevefenton.co.uk/wp-content/uploads/2018/03/datadog-new-api-key.png)
@@ -51,7 +50,6 @@ catch (Exception ex)
     LogHound.LogException(apiKey, new HoundException("Unexpected Error! Byt see below for a better way to log messages!", ex));
 }
 ```
-
 ### Better start
 
 In the quick start example we wrapped the exception in a `HoundException`. A better way to write your application would be to put your base custom exception over the top of this class. That way, you can catch unwrapped sub-classes of `HoundException`, which gives you better output in Datadog.
@@ -73,7 +71,6 @@ catch (Exception ex)
     LogHound.LogException(apiKey, new HoundException("Unexpected Error!", ex));
 }
 ```
-
 This works better because:
 
 - Exceptions are grouped in Datadog, so using specific exceptions will make monitoring easier

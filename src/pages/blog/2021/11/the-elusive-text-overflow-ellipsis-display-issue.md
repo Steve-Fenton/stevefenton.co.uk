@@ -23,7 +23,6 @@ The basic idea behind this in CSS is shown below. First, we limit the `height`, 
         text-overflow: ellipsis;
     }
 ```
-
 In many cases, though, this simply doesn’t do what you expect.
 
 [![No ellipsis is shown](https://www.stevefenton.co.uk/wp-content/uploads/2021/11/no-ellipsis.jpg)](https://www.stevefenton.co.uk/2021/11/the-elusive-text-overflow-ellipsis-display-issue/no-ellipsis/)
@@ -43,7 +42,6 @@ In our above example, text wrapping will prevent the ellipsis from being display
         white-space: nowrap;
     }
 ```
-
 In most cases, this will solve the missing ellipsis problem.
 
 ### Targeting the right element

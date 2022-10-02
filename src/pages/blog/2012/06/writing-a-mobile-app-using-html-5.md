@@ -65,7 +65,6 @@ In your HTML, you specify the location of the cache manifest on your html tag:
 <pre class="prettyprint lang-html">
 <html manifest="manifest.php">
 ```
-
 My cache manifest is PHP, because I need to set the response type to be “text/cache-manifest”. You could also do this via your web server configuration. However you do it, it is important that your server the manifest with the correct content type.
 
 Here is the file – the PHP block is only needed if you are setting the content type the same way as me:
@@ -82,7 +81,6 @@ script.js
 splash.png
 style.css
 ```
-
 As you can see, I have included all of the files in my entire app because I want it to work even when the phone has no Internet connection available.
 
 #### Special Apple Tags
@@ -98,7 +96,6 @@ To supply a custom icon and splash screen on an iPhone and to run in a chrome-le
 <link rel="apple-touch-startup-image" href="splash.png">
 <link rel="stylesheet" href="style.css" type="text/css" media="screen, mobile" title="main" charset="utf-8">
 ```
-
 That may seem like a lot of fuss, but it really does make the app look awesome because it no longer looks like it is simply a shortcut to the web browser.
 
 Important note, if you are having trouble getting items to stay in the offline cache, you may find that removing this tag helps:
@@ -107,7 +104,6 @@ Important note, if you are having trouble getting items to stay in the offline c
 <pre class="prettyprint lang-html">
 <meta name="apple-mobile-web-app-capable" content="yes">
 ```
-
 This will allow the content to be stored offline, but sadly results in the app not running full screen. This appears to be a difference between Safari, which has a reliable offline cache and the browser used for home screen apps on iPhone, which doesn’t.
 
 ### Images
@@ -134,7 +130,6 @@ for(var i = 0; i < anchors.length; i++)
     };
 }
 ```
-
 This effectively cancels the default behaviour of opening the link in Safari and will keep your application in full-screen mode. It also won’t affect the app on other devices – although you will have to be careful if you have other onclick events that this may replace, or that may replace this.
 
 ### Usability Improvements

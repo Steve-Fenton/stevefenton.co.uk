@@ -35,7 +35,6 @@ You can exclude a whole assembly in NCover using the ExcludeAssemblies attribute
 <pre class="prettyprint lang-plain_text">
 ExcludeAssemblies="MySql.Data"
 ```
-
 This will exclude all code in MySql.Data.dll.
 
 You can also specify multiple assemblies, using a semi-colon to separate each one.
@@ -44,7 +43,6 @@ You can also specify multiple assemblies, using a semi-colon to separate each on
 <pre class="prettyprint lang-plain_text">
 ExcludeAssemblies="AutoMapper;MySql.Data"
 ```
-
 Keep them in alphabetical order to make this list easier to maintain!
 
 ### Exclude By Attribute
@@ -58,21 +56,18 @@ using System.Diagnostics.CodeAnalysis;
 private class MyClass {
    //...
 ```
-
 If you don’t have .NET 4, roll your own until you upgrade your projects:
 
 ```
 <pre class="prettyprint lang-csharp">
 public class ExcludeFromCodeCoverageAttribute : Attribute { }
 ```
-
 In order to inform NCover about this attribute, supply the ExcludeAttributes attribute on your build target:
 
 ```
 <pre class="prettyprint lang-plain_text">
 ExcludeAttributes="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute"
 ```
-
 Once again, use a semi-colon if you want to use more than one attribute.
 
 ### Exclude Specific Files
@@ -85,7 +80,6 @@ Use the ExcludeFiles attribute to remove particular files from coverage results�
 <pre class="prettyprint lang-plain_text">
 ExcludeFiles="c:\\Source\\Project\\Web References\\SomeWebService\\Reference\.cs"
 ```
-
 Note that you need to double-slash the file path with “\\\\” and you need to escape the full-stop “\\.” – otherwise it just won’t work and you’ll get a message about an “Invalid Regular Expression”.
 
 ### Full Example

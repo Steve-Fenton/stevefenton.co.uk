@@ -37,7 +37,6 @@ Cell A3 contains the date for the number of cases, cell B1 contains the number o
 <pre class="prettyprint">
 =A3-$B$1
 ```
-
 The second is the awesome VLOOKUP, which allows me to take this calculated date and find the number of hospital admissions, or the number of deaths, by looking up the value from the offset date. I’ve organised the data I’ve downloaded into tabs named “cases”, “admissions”, and “deaths”.
 
 So, for example I’m looking for admissions using:
@@ -46,7 +45,6 @@ So, for example I’m looking for admissions using:
 <pre class="prettyprint">
 =VLOOKUP(B3,admissions!A:B,2,FALSE)
 ```
-
 In other words, I’m looking up the date in “B3” (the result of my date calculation), in the data found in the first two columns of the admissions sheet “admissions!A:B”. Column A is the date and Column B is the number of admissions, so I’m asking for column 2 (the second column), and I’m requesting no range lookup by saying “FALSE” in the range lookup flag.
 
 With a chart for cases, admissions, and deaths based on this calculated offset date, I’m able to change the value of B1 (the number of days to offset) and immediately see whether it brings the charts into alignment. A few tracer-guesses either side soon found the numbers used above.

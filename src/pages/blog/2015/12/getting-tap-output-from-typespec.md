@@ -23,5 +23,4 @@ Just pass in the TapReporter to the auto runner:
 
 AutoRunner.testReporter = new TapReporter();
 ```
-
 You’ll now get TAP compliant output that can easily be read by your build system.

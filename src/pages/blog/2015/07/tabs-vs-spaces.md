@@ -20,7 +20,6 @@ Whichever side of the eternal flaming pit of tabs vs spaces you find yourself, V
     "editor.insertSpaces": true
 }
 ```
-
 If you hit File -&gt; Preferences -&gt; Workspace Settings it will open this file for you (and create it if it doesn’t yet exist).
 
 You would obviously use false if you’re a rookie who still uses tabs, rather than an expert craftsman who uses spaces.

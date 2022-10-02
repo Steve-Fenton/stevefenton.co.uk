@@ -30,14 +30,12 @@ This caused me to run netstat:
 <pre class="prettyprint lang-powershell">
 netstat -an | find "25"
 ```
-
 And the output showed that port 25 had an IPv6 address, not an IPv4 address.
 
 ```
 <pre class="prettyprint lang-powershell">
 TCP    [xx99::999x:xxx9:9999:99xx%4]:25  [::]:0                 LISTENING
 ```
-
 As is the way in co-located teams, no sooner had I spoken this finding out loud – a solution was offered up.
 
 And the solution was to replace this code:
@@ -47,12 +45,10 @@ And the solution was to replace this code:
 var endpoint = new IPEndPoint(Dns.GetHostAddresses(Dns.GetHostName()).First(), listeningPort);
 _tcpListener = new TcpListener(endpoint);
 ```
-
 With this call to TcpListener.Create:
 
 ```
 <pre class="prettyprint lang-csharp">
 _tcpListener = TcpListener.Create(listeningPort);
 ```
-
 Re-running netstat shows the service is now visible under both IPv4 and IPv6.

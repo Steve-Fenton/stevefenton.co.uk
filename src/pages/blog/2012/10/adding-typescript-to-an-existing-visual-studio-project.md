@@ -37,7 +37,6 @@ If you don’t get this message, you’ll find that there are just a couple of l
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" 
           Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
 ```
-
 If you aren’t using all the new funky stuff – there is still “the old way”, as described below:
 
 ### The Old Way
@@ -60,5 +59,4 @@ The second step (and this is my second solution to this problem as the pre-build
     <Exec Command=""$(PROGRAMFILES)\Microsoft SDKs\TypeScript\0.8.0.0\tsc" @(TypeScriptCompile ->'"%(fullpath)"', ' ')" />
   </Target>
 ```
-
 This will compile all your .ts TypeScript files into .js JavaScript files.

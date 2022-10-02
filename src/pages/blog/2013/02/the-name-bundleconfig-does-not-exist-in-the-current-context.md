@@ -28,7 +28,6 @@ Usually this means you have the following line of code in your Global.asax.cs fi
 <pre class="prettyprint lang-javascript">
 BundleConfig.RegisterBundles(BundleTable.Bundles);
 ```
-
 There are two possible reasons for this error.
 
 ### Namespace
@@ -45,7 +44,6 @@ namespace YourApp.App_Start
         {
             //...
 ```
-
 And change it to:
 
 ```
@@ -58,7 +56,6 @@ namespace YourApp
         {
             //...
 ```
-
 ### Optimization Package
 
 The second most obvious reason will be that you don’t have the System.Web.Optimization assembly.

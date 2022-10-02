@@ -46,7 +46,6 @@ duck = new Duck();
 // Also fine
 duck = new LooksLikeADuckQuacksLikeADuck();
 ```
-
 Of course, we can make the example more elaborate – but all we do is make the compiler work harder, the result is the same – with one exception.
 
 If you create a class with private members, you create a structure that cannot be imitated. For example, the result of the original code is transformed entirely, simply by adding a private member to Duck:
@@ -64,7 +63,6 @@ If you create a class with private members, you create a structure that cannot b
     }
 }
 ```
-
 The “imposter” class doesn’t implement this private field, so it is no longer considered to have the same structure. You may think you can remedy this by adding a matching private field to the “imposter”, but actually this will result in the compiler warning you that the type cannot be converted, because of the private field.
 
 So if you are looking for nominal types, the simple addition of a private member will get you the behaviour you need, despite TypeScript not being a nominally typed language. This may actually be enough for domain-driven design enthusiasts, who need this behaviour for their domain id classes (this prevents the common accident of using the wrong id when calling a method, for example, because the ids are not all numbers, each one has a unique type).
@@ -90,7 +88,6 @@ For the purposes of an example I have used the “named” keyword to mark the t
     }
 }
 ```
-
 Now the Duck class (or any class or interface marked with the “named” keyword) would be nominal and would not be compatible with an identical structure. No need for a private member – this type is nominal.
 
 #### A Bridge Too Far
@@ -102,7 +99,6 @@ The keyword could also be used to create a nominal-style restriction locally to 
     //...
 }
 ```
-
 This would state that the structural type “ProductId” should be treated as a nominal type for this function (or variable when used as a variable type annotation, for example). If you accidentally passed an identical structure such as “PersonId”, although it is structurally identical it would be rejected because the id parameter is nominal.
 
 So this is my idea for nominal types in TypeScript – in the meantime, you can use the private member trick (or the other common trick, the funkily-named public member that won’t accidentally match other types).

@@ -29,7 +29,6 @@ int example2;
 
 example2 = 2;
 ```
-
 Examples that *will* be highlighted:
 
 ```
@@ -45,7 +44,6 @@ example 2 = 2;
 example1 = 10;
 example2 = 20;
 ```
-
 Here is a screenshot to show this in action, you’ll see the `notAfter` variable is underlined, because it is reassigned. The other variables are not highlighted because they are never reassigned.
 
 [![Screenshot showing a variable underlined because it is reassigned](https://www.stevefenton.co.uk/wp-content/uploads/2022/01/reassigned-variable.jpg)](https://www.stevefenton.co.uk/2022/01/show-reassigned-variables-in-visual-studio/reassigned-variable/)

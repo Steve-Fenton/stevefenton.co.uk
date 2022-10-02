@@ -43,7 +43,6 @@ You can enable auto-healing based on a number of factors – and it is as simple
     </monitoring>
 </system.webServer>
 ```
-
 ### Invalid child element
 
 The `monitoring` element is only really applicable once your application is on Azure, so you may see the error `'system.webServer' has invalid child element 'monitoring'.` when you are working locally on this configuration. A common method for this is to add the configuration as a transformation in a separate file:
@@ -62,7 +61,6 @@ The `monitoring` element is only really applicable once your application is on A
     </system.webServer>
 </configuration>
 ```
-
 ### Auto-healing triggers
 
 You can trigger auto-healing in a number of different scenarios, based on:
@@ -101,7 +99,6 @@ Here are the standard examples for you to take a look at…
     </monitoring>
 </system.webServer>
 ```
-
 ### <del>Kudu</del>
 
 <del>You can also set up auto-healing in Kudu, by navigating to Kudu -&gt; Tools -&gt; Support, selecting the application you want to configure, and opening the Mitigate tab:</del>

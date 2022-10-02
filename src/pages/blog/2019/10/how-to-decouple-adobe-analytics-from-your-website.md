@@ -79,7 +79,6 @@ Here’s a jQuery event listener for our analytics script file…
        _satellite.getVar('CustomEventName');
     });
 ```
-
 There are two important parts to this script. The first is that we push the data into the data layer, you need to ensure it has been initialised, so if you’re uncertain you can make sure just before you set the value:
 
 ```
@@ -87,7 +86,6 @@ There are two important parts to this script. The first is that we push the data
 window.data= window.data|| {};
 window.data.customEvent = window.data.customEvent || {};
 ```
-
 The second important bit is the call to `_satellite.getVar('CustomEventName');`. By retrieving the eVar by it’s name, we trigger the pull from the data layer, and the signal up to our Analytics Account. Without this line, nothing happens.
 
 You can inspect your network tab to see the request that is sent, or use the Observepoint browser extension to see the values being transmitted.

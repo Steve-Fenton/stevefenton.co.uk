@@ -29,7 +29,6 @@ First, we’ll create a directory to store the exported distros.
 <pre class="prettyprint lang-powershell">
 PS C:\> New-Item -Path c:\wsl-exports -ItemType directory
 ```
-
 Then we can see what available distributions we have by listing them all:
 
 ```
@@ -38,7 +37,6 @@ PS C:\> wsl --list --all
 Windows Subsystem for Linux Distributions:
 Ubuntu (Default)
 ```
-
 In my case, only the [default Ubuntu instance that I got from the Microsoft Store](https://www.microsoft.com/store/productId/9N6SVWS3RX71) is listed. This is the one I updated to get it in the right baseline state.
 
 I can export this using the following command, where I name it “Ubuntu” and place it in the directory I just created.
@@ -47,7 +45,6 @@ I can export this using the following command, where I name it “Ubuntu” and 
 <pre class="prettyprint lang-powershell">
 PS C:\> wsl --export Ubuntu c:\wsl-exports\ubuntu.tar
 ```
-
 This may take some time, depending on what you’ve added to the distro.
 
 ### Importing a WSL distro
@@ -58,14 +55,12 @@ When you need to create a fresh test machine, you can run an import command. You
 <pre class="prettyprint lang-powershell">
 PS C:\> New-Item -Path c:\wsl-distros -ItemType directory
 ```
-
 Now we can import the distro by giving it a meaningful name, providing our import folder, and specifying where the distro should be imported from:
 
 ```
 <pre class="prettyprint lang-powershell">
 PS C:\> wsl --import ExampleUbuntu c:\wsl-distros\exampleubuntu c:\wsl-exports\ubuntu.tar
 ```
-
 To interact with the fresh instance, you can use:
 
 ```
@@ -73,7 +68,6 @@ To interact with the fresh instance, you can use:
 PS C:\> wsl -d ExampleUbuntu
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
 ```
-
 If you are using the new Windows Terminal, you can also choose “ExampleUbuntu” from the list of terminals.
 
 ### Removing a WSL distro
@@ -85,14 +79,12 @@ When you have finished with a temporary instance, you can unregister and delete 
 PS C:\> wsl --unregister ExampleUbuntu
 Unregistering...
 ```
-
 Only run the remove command if you are sure you want to delete the whole instance.
 
 ```
 <pre class="prettyprint lang-powershell">
 PS C:\> Remove-Item c:\wsl-distros\exampleubuntu -Recurse -Force
 ```
-
 ### Summary
 
 This describes the basics of creating a custom distro that you can use to spin up instances in a known good state. This can help you avoid growing a nightmare instance that accumulates unnecessary features over time. By keeping a good starter distro, you can have a clean start each time you need a temporary machine without installing all your essential tools every time.

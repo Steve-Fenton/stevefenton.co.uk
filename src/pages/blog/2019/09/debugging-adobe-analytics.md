@@ -23,7 +23,6 @@ Paste in the below code…
 <pre class="prettyprint lang-js">
 _satellite.setDebug(true);
 ```
-
 Now refresh the page… you can now basically hear every thought Adobe Analytics is having during the page load and as the user interacts with the page. For example:
 
 `SATELLITE: detected click on INPUT`

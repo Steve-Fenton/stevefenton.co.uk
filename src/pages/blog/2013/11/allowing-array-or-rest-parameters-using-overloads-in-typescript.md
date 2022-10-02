@@ -21,7 +21,6 @@ The idea was that rest parameters are the friendly way of accepting “any numbe
 So I originally came up with using a function overload to get this result:
 
 ```
-<pre class="prettyprint lang-typescript">
 class Example {
     test(...strArray: string[]);
     test(strArray: string[]);
@@ -30,7 +29,6 @@ class Example {
     }
 }
 ```
-
 TypeScript jumped in at this point and told me that the signatures were not compatible. What?! They are both string arrays right?
 
 No – actually it isn’t quite that simple. When you use rest parameters, TypeScript generates code inside of the function body that converts the arguments list into an array and assigns it all to the argument. This code is only generated if the rest parameter appears on the implementation signature. [Thanks to Ryan Cavanaugh for that information](http://stackoverflow.com/questions/19759851/typescript-overload-signature-not-compatible-with-rest-and-array-overloads/)!
@@ -38,7 +36,6 @@ No – actually it isn’t quite that simple. When you use rest parameters, Type
 So given the problem of TypeScript not generating the mapping code, I added it in myself, which means it is possible to accept both rest parameters and an array using the same function:
 
 ```
-<pre class="prettyprint lang-typescript">
 class Example {
     test(...strArray: string[]);
     test(strArray: string[]);

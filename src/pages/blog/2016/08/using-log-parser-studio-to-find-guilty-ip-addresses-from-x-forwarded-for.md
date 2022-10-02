@@ -31,7 +31,6 @@ GROUP BY
 ORDER BY
     count(X-Forwarded-For) DESC
 ```
-
 Don’t forget to change the date when you run this query.
 
 ### Web Log Importer

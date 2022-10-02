@@ -47,7 +47,6 @@ Update NuGet.config… unless you are planning on publishing to the most likely 
   </packageSources>
 </configuration>
 ```
-
 ### Step Five
 
 Update Package.nuspec… especially if you couldn’t name your project exactly as you wanted the package to be named.
@@ -88,7 +87,6 @@ Update Package.nuspec… especially if you couldn’t name your project exactly 
   </files>
 </package>
 ```
-
 ### Done
 
 When you build in Debug mode, you’ll get a “.nupkg” file in the root folder of your NuGet Packager project. Rename it to be a “.zip” file and have a check through it to see if contains everything you’d expect.

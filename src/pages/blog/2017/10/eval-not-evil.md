@@ -43,7 +43,6 @@ for (let i = 0; i &lt; functionQueue.length; i++) {
     eval(func);
 }
 ```
-
 Right at the end there is the `eval` – but replacing that line with something like `window[functionQueue[i]]();` does nothing but disguise the real issue, which is design.
 
 The real problem here is the `functionQueue`, which contains strings not functions.
@@ -70,7 +69,6 @@ for (let i = 0; i &lt; functionQueue.length; i++) {
     functionQueue[i]();
 }
 ```
-
 If we use our text editor’s tools to rename these functions (they do have terrible names currently) – our code will still work. Refactoring tools can change the function name in the function declaration and also in the list of functions. This is the real problem with the first solution, not the `eval`… the `eval` was just telling us about the problem. So maybe eval is just trying to help you, Roland.
 
 ### The Function Name Strings Come From Elsewhere
@@ -106,7 +104,6 @@ for (let i = 0; i &lt; functionQueue.length; i++) {
      functionFactory(functionQueue[i])();
 }
 ```
-
 If you rename `myFunction1`, the map will be updated, but the external key will not be affected. The external source and the internal code are decoupled. We now also have a function that has the single responsibility of mapping the “public name” to an actual function, which means we have a good place to hand the code to handle the exceptional case of not having a function that maps to an unknown public key. In all of the above examples, that case simply results in a very quiet popping sound.
 
 ### Summary

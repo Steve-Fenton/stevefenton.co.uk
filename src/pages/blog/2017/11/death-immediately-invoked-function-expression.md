@@ -26,7 +26,6 @@ So your common and garden IIFE works like this simple example, which is (inciden
 
 alert(typeof example); // undefined
 ```
-
 It’s pretty simple, but it is two lines of boilerplate with enough braces and brackets to appeal to a RegEx connoisseur.
 
 ### To let (or const)
@@ -41,7 +40,6 @@ The logical replacement for this IIFE in modern times would be a block scoped va
 
 alert(typeof example); // undefined
 ```
-
 What we have here is behaviourally identical to the IIFE example, but with an entire function removed. We still have a clean global scope, and we could put “one item into global scope” should we wish, by declaring it outside of the curly braces. In any case, we have the same thing going on.
 
 A note on let/const: use `const` by default and “downgrade” to `let` where you find you must reassign the variable.

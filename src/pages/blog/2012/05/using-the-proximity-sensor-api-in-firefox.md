@@ -29,5 +29,4 @@ var proximiyFeatureCallback = function (proximity) {
 
 window.addEventListener('userproximity', proximiyFeatureCallback, true);
 ```
-
 You can also get hold of proximity.value, and proximity.min and proximity.max values from the proximity object that is passed to your callback.

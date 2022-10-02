@@ -35,7 +35,6 @@ The short version is that you find *boot.js*, which is the Jasmine source file t
     //env.execute();
 };
 ```
-
 Why do this? The problem is that the *window.onload* even will fire before you have managed to asynchronously load up all of your scripts. This means Jasmine will execute, and shortly after it has displayed the message “No specs found” you’ll register a whole bunch of specifications.
 
 So by commenting out this line, you stop Jasmine from going off before you are ready.
@@ -46,7 +45,6 @@ Of course, you’ve actually stopped Jasmine from going off at all, so now it is
 <pre class="prettyprint lang-typescript">// Hai Jasmine - ready to go!
 jasmine.getEnv().execute();
 ```
-
 This will then tell Jasmine you are ready and will execute your tests.
 
 ### The Long Version
@@ -73,7 +71,6 @@ If you are using Jasmine (version 2.x) everything starts with *SpecRunner.html*.
 </body>
 </html>
 ```
-
 As you can see, the Jasmine files (*jasmine.js*, *jasmine-html.js* and *boot.js*) are not loaded using AMD / RequireJS. The interesting bit of code is the final script tag, which points to RequireJS. The *data-main* attribute should be the name of your main specification file. In my case, *app.ts* contains the entry point for all of the specifications (although the specifications themselves are in other files, which *app.ts* includes).
 
 There is one small tweak to be made to the *boot.js* file, which is to comment out the following line:
@@ -87,7 +84,6 @@ There is one small tweak to be made to the *boot.js* file, which is to comment o
     //env.execute();
 };
 ```
-
 If the *env.execute()* line of code is left in, Jasmine will run too early. This is because your modules will be loaded asynchronously and are likely to load after this line of code has executed. Only specifications registered before this line of code will run – and yours will be registered after this line when your script file eventually downloads and runs. So by commenting out this line, you give your specifications time to load and be registered.
 
 To tell Jasmine when you are ready, you need to call this execute method later. For example, here is the call at the end of the *app.ts* file (my main file).
@@ -100,7 +96,6 @@ ajaxTests.run();
 // Hai Jasmine - ready to go!
 jasmine.getEnv().execute();
 ```
-
 Let’s run through this file out loud in some patronising bullet points!
 
 1. This file only runs once it has loaded asynchronously (RequireJS does that for us)
@@ -140,7 +135,6 @@ export var run = () => {
     });
 };
 ```
-
 Once again, you’ll notice that I’m running some Ajax tests here, which are also asynchronous! I am using the Jasmine done method to ensure each test completes only when the request is complete.
 
 So there we have it – a whole bunch of asynchrony, a combination of TypeScript, Jasmine, AMD (using RequireJS) and it all works. Cracking.

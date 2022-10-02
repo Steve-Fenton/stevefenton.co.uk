@@ -58,7 +58,6 @@ public static class EnumerableExtensions
     }
 }
 ```
-
 To use this code, we just call it on our `IEnumerable`, like this…
 
 ```

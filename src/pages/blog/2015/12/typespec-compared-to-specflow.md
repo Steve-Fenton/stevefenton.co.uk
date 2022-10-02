@@ -29,17 +29,14 @@ public void EnterNumber(decimal num) {
     calculator.Add(num);
 }
 ```
-
 And here is the same step in TypeSpec.
 
 ```
-<pre class="prettyprint lang-typescript">
 @given(/I have entered (\"\d+\") into the calculator/i)
 enterNumber(context: any, num: number) {
     calculator.add(num);
 }
 ```
-
 As you can see, there is a lot in common between these. Although the features of the programming languages force some syntactical switches there is a regular expression that is used to match steps written in Gherkin’s given-when-then syntax, and a method to handle that step.
 
 Both SpecFlow and TypeSpec will find arguments in the specification, parse them to the correct type, and pass them to your step method. Both allow variables to be entered directly, or appended using a table of examples.

@@ -36,7 +36,6 @@ The View Component class always has an `Invoke` method.
         }
     }
 ```
-
 ### Default view
 
 The view needs to be placed in a special location. View Components views are placed in a folder structure according to the View Component name.
@@ -59,7 +58,6 @@ All you need to do to call out to the View Component is invoke it.
 @await Component.InvokeAsync("Navigation")
 </nav>
 ```
-
 If you need to pass arguments, that’s easy too:
 
 ```
@@ -68,7 +66,6 @@ If you need to pass arguments, that’s easy too:
 @await Component.InvokeAsync("Navigation", new { page = 3 })
 </nav>
 ```
-
 This will call out to the view component, which will go and get the data it needs, and render the content that will appear where you first invoked it.
 
 ### Summary

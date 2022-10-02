@@ -19,7 +19,6 @@ The issue is with the following request header, which you might see in your logs
 <pre class="prettyprint">
 Referer: http:// www.example.com
 ```
-
 That space between the scheme and host name causes the problem.
 
 ### Strip Spaces from request headers
@@ -30,5 +29,4 @@ The following rule goes in your HAProxy backend, and replaces the Referer header
 <pre class="prettyprint">
 http-request set-header Referer %[req.hdr(Referer),regsub(' ','',g)]
 ```
-
 A similar rule could be used for other request headers if necessary.

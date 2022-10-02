@@ -33,7 +33,6 @@ And a little preferences fix in my **user**-level `settings.json` as I like to e
     "editor.fontFamily": "Consolas, 'Courier New', monospace"
 }
 ```
-
 ### Markdown all in one
 
 The all-in-one markdown extension provides editor support for `.md` files and a preview tool that you can use side-by-side to get a view of your work as you write.
@@ -76,7 +75,6 @@ Select a table and “format selection” to fix up your tables and make them re
 | A    | B     |
 | C    | D     |
 ```
-
 ### VSCode Speech
 
 VSCode Speech let’s you select a block of text and right-click to “speak selection”. It then reads it out. This is a super-useful tool for the editing process, when you want to hear the text rather than reading it (your brain makes a lot of automatic corrections during reading, so ingesting it through another sense can help detect errors).

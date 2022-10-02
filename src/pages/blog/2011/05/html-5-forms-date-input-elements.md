@@ -26,7 +26,6 @@ So here is an example of a date input with both min and max dates set. The brows
 <pre class="prettyprint lang-html">
 <input type="date" name="date" min="2011-01-01" max="2011-05-31">
 ```
-
 #### Min
 
 Dates before the “min” date cannot be selected.
@@ -43,7 +42,6 @@ Just as you thought it couldn’t get any more exciting, you discover that there
 <pre class="prettyprint lang-html">
 <input type="week" name="week">
 ```
-
 ### Month
 
 Another variation on the date input type, the month selector allows a user to select a month, for example “2011-05”. All the same rules apply to this one too.
@@ -52,7 +50,6 @@ Another variation on the date input type, the month selector allows a user to se
 <pre class="prettyprint lang-html">
 <input type="month" name="month">
 ```
-
 ### Time and Datetime
 
 Follow the same pattern for type=”time” and type=”datetime”. The browser will show a visual picker and you can specify min and max values… great stuff!

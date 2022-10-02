@@ -23,7 +23,6 @@ Wherever you were about to use a raw variable, such as `${Example}` you can wrap
 <pre class-="">
 ${__javaScript("${Example}".trim())}
 ```
-
 The important thing to remember is that the `${__javaScript( )}` will let you drop into JavaScript wherever you can use a variable, so you can easily drop into here to use pretty much any JavaScript stuff that will help you.
 
 You can also store back the result into a different variable, as this example shows – it adds together two variables, trims the string, and stores it in `NewVariableName`.

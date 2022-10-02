@@ -30,27 +30,22 @@ The first thing I discovered is that there is a lot of colour noise. You don’t
 The size of these colour brackets is arbitrary, but I decided 20% was a good number and it gave reasonable results on the test image.
 
 ```
-<pre class="prettyprint lang-typescript">
     private round(num: number) {
         return Math.round(num / 51) * 51;
     }
 ```
-
 ### Blocking the UI
 
 The next problem was that my tight loop of pixel searching was blocking the UI – to the extent that the browser offered to kill the script for me. I fixed this by allowing other code to run between each recursive call to the main method.
 
 ```
-<pre class="prettyprint lang-typescript">
 window.setTimeout(() => this.processPixel(image, rowNumber, columnNumber), 0);
 ```
-
 This negatively impacted the duration of the script significantly enough to convince me to use scout-steps (I was once told that scouts alternately run 30 paces and walk 30 paces; getting a good trade off between speed and endurance).
 
 In the code below, I’m tight looping for 50 pixels before letting other code have a turn. Again, 50 is arbitrary, but arrived via experimentation.
 
 ```
-<pre class="prettyprint lang-typescript">
         if ((columnNumber + rowNumber) % 50 === 0) {
             // Let someone else have the UI for a while
             window.setTimeout(() => this.processPixel(image, rowNumber, columnNumber), 0);
@@ -58,7 +53,6 @@ In the code below, I’m tight looping for 50 pixels before letting other code h
             this.processPixel(image, rowNumber, columnNumber);
         }
 ```
-
 ### Speed
 
 Because I was interested in the relative allocation of pixels, I wondered whether I could resize the image down and get a similar result. At full size, the values came out +/- 0.8% compared to the labels on the test chart.

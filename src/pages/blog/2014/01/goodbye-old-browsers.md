@@ -26,7 +26,6 @@ The impact of this is that for most people, there is one less JavaScript file to
 <pre class="prettyprint lang-html">
 <script src="/cms/engine/scripts/html5.js"></script>
 ```
-
 This file has always annoyed me because it needs to load before the DOM because if it hasn’t run, some browsers don’t recognise HTML5 elements. This means that this script is responsible for slowing down the rendering of my pages.
 
 For older browsers, the worst case scenario is that the block elements in HTML5 are ignored for styling or treated as inline elements. It will look rubbish – but if you are searching my blog to find answers to a question, you’ll still find all the answers. Ultimately, you will still be able to access all of the content – it just won’t be as pretty.

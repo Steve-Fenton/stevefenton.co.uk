@@ -19,7 +19,6 @@ This is a surprisingly common problem in C#, where you need to take a `DateTime`
 DateTime expiryDateOnly =
     new DateTime(expiryDate.Year, expiryDate.Month, expiryDate.Day);
 ```
-
 ### .NET 5
 
 The solution in .NET 5 is to use the `Date` property of the `DateTime` object. This also returns a `DateTime`, like the original solution, but it has the time stripped.
@@ -29,7 +28,6 @@ The solution in .NET 5 is to use the `Date` property of the `DateTime` object. T
 DateTime expiryDateOnly =
     expiryDate.Date;
 ```
-
 Thank you Data Elemental for this solution.
 
 ### .NET 6
@@ -41,7 +39,6 @@ In .NET 6 we get an upgraded solution with some built in types. To solve our cur
 DateOnly expiryDateOnly =
     DateOnly.FromDateTime(expiryDate);
 ```
-
 These new types offer a similar benefit to typed identities (i.e. having a `ProductId` rather than an `int`). If you require a date-only date, you can’t be accidentally passed a date with a time.
 
 I’m looking forward to updating my date code to remove all the manual mapping to date-only dates!

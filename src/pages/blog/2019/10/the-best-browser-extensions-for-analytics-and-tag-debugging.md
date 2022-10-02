@@ -32,7 +32,6 @@ The [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google
   __/ |             __/ |                              __/ |
  |___/             |___/                              |___/
 ```
-
 You’ll see an entry for each command and data layer event that occurs on the page. It’s similar in raw information goodness to the [Adobe Analytics debugging trick](https://www.stevefenton.co.uk/2019/09/debugging-adobe-analytics/), but often this is the detailed view you need to understand your tracking.
 
 ### Tag Assistant

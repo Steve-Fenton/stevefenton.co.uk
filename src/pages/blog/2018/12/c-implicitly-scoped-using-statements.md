@@ -22,7 +22,6 @@ using (var connection = GetConnection())
     // Use the connection, it will be disposed of at the end
 }
 ```
-
 Can now be implicit:
 
 ```
@@ -31,7 +30,6 @@ using var connection = GetConnection();
 
 // Use the connection, it will be disposed of at the end
 ```
-
 This is especially nice if you are using a few disposable objects, because this always looked a bit odd:
 
 ```
@@ -42,7 +40,6 @@ using (var command = GetCommand(connection))
     // Use the connection, it will be disposed of at the end
 }
 ```
-
 So implicitly scoped using statements make things look more typical:
 
 ```
@@ -52,7 +49,6 @@ using var command = GetCommand(connection);
 
 // Use the connection, it will be disposed of at the end
 ```
-
 You can also use it thus;
 
 ```
@@ -61,5 +57,4 @@ using var command = GetCommand(using GetConnection());
 
 // Use the connection, it will be disposed of at the end
 ```
-
 You can still use explicit scope if you need to, but when you don’t need it, implicit scope is much more readable.

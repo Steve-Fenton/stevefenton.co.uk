@@ -23,7 +23,6 @@ For demonstration purposes, we’re going to intercept a very famous method. The
 <pre class="prettyprint lang-javascript">
 console.log('Test', 1);
 ```
-
 To replace the original, we’ll create a new `Proxy`. This requires the original object, and a handler that will be called in its place. The proxy pretty much always looks the same – and object with a `get` function.
 
 The `obj` parameter is the original object. That means you can supply original values back should you want to, for example if you need to pass back values from the original object. The `prop` parameter is the name of the property that has been requested. This will typically be a string, but remember it can also be a symbol. As I know the `log` method name will be a string, I can check for it with a conditional statement.
@@ -47,7 +46,6 @@ const handler = {
 const oldConsole = console;
 console = new Proxy(oldConsole, handler);
 ```
-
 We have also cheekily replaced the original `console` with the proxy here. That means all exiting calls will now be routed to the handler and instead of logging to the console, it now alerts when you call: `console.log('Test', 1);`.
 
 <small>[Filter image from MaxPixel](https://www.maxpixel.net/Filter-Background-Espresso-Espresso-Machine-Coffee-175301) [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)</small>

@@ -25,7 +25,6 @@ Because TypeScript has a structural type system, every type is really just a sha
 Here is an example using a class traditionally, and as an interface.
 
 ```
-<pre class="prettyprint lang-typescript">
 class Customer {
     constructor(public id: number, public name: string) {
 
@@ -56,7 +55,6 @@ logCustomer(new VipCustomer(2, 'Marion', 5000));
 logCustomer(new RewardCustomer());
 logCustomer({ id: 3, name: 'Tuck' });
 ```
-
 This example demonstrates that a function that must be passed a “Customer Shape” will take any compatible structure. We are not in a nominal language that *must* be passed `Customer` or an explicit sub-class.
 
 You’ll also see that by using the `implements` keyword, we don’t inherit from the `Customer` class but instead must implement the members as it if were an interface.
@@ -64,12 +62,10 @@ You’ll also see that by using the `implements` keyword, we don’t inherit fro
 In the same way, you can create an interface from a class, like this:
 
 ```
-<pre class="prettyprint lang-typescript">
 interface NamedEntity extends Customer {
 
 }
 ```
-
 The `NamedEntity` interface gets all of the members of the `Customer` class. That’s currently the id and the name.
 
 The flexibility of using classes as interfaces seems great, but there are some major architectural concerns to bear in mind.
@@ -99,7 +95,6 @@ Now imagine your class-as-an-interface has trickled out into five or six locatio
 Here is an updated `Customer` class from the original examples in this article.
 
 ```
-<pre class="prettyprint lang-typescript">
 class Customer {
     constructor(public id: number, public name: string) {
 
@@ -110,7 +105,6 @@ class Customer {
     }
 }
 ```
-
 This breaks `RewardCustomer` and two of the calls to the `logCustomer` function – and in all three cases, the `greet` method is not needed.
 
 ### Painful privates
@@ -118,7 +112,6 @@ This breaks `RewardCustomer` and two of the calls to the `logCustomer` function 
 Are you still thinking about using classes as interfaces? Well, consider a case where you want a private member on your `Customer` class.
 
 ```
-<pre class="prettyprint lang-typescript">
 class Customer {
     constructor(public id: number, public name: string) {
 
@@ -129,11 +122,9 @@ class Customer {
     }
 }
 ```
-
 We have a similar problem to when we added a public member, except things are a lot worse. You actually cannot create any matching types to `Customer` any more, because it has a private member. For example, you can’t fix `RewardCustomer` by adding the method:
 
 ```
-<pre class="prettyprint lang-typescript">
 class RewardCustomer implements Customer {
     public id: number;
     public name: string;
@@ -143,7 +134,6 @@ class RewardCustomer implements Customer {
     }
 }
 ```
-
 If you try this, you’ll be told that:
 
 > Class ‘RewardCustomer’ incorrectly implements interface ‘Customer’. Types have separate declarations of a private property ‘encapsulatedMethod’.
@@ -157,7 +147,6 @@ You can see that the end result of this problem will be that the `private` acces
 It sounds obvious, then – perhaps a truism – that when you need an interface, a strong contender ought to be an interface. Here is the whole lot with an interface thrown in at the start that actually does the job of a real interface. It sits in the stable/abstract space, describes just a small set of members, and results in everything working.
 
 ```
-<pre class="prettyprint lang-typescript">
 class NamedEntity {
     public id: number;
     public name: string;
@@ -201,7 +190,6 @@ logCustomer(new VipCustomer(2, 'Marion', 5000));
 logCustomer(new RewardCustomer());
 logCustomer({ id: 3, name: 'Tuck' });
 ```
-
 One particular element to zoom in on here is the `logCustomer` function. It depends on the `NamedEntity` interface and uses all of its members. This means the function can be called from the widest range of types. Compared to the situation with the class-as-an-interface, where the function depends on an increasing number of members that it doesn’t actually use – and hopefully the benefits become clear.
 
 ### Summary

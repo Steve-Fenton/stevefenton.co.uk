@@ -22,29 +22,24 @@ Let’s use this example, which takes any object and converts each of the proper
 The result of this function is that if you have:
 
 ```
-<pre class="prettyprint lang-typescript">
 const objA = {
     A: 1,
     B: 2,
     C: 3
 }
 ```
-
 It will give you:
 
 ```
-<pre class="prettyprint lang-typescript">
 const objB = {
     A: '1',
     B: '2',
     C: '3'
 }
 ```
-
 Here is the fully working example:
 
 ```
-<pre class="prettyprint lang-typescript">
 function convertPropertiesToString<T>(obj: T): {[P in keyof T]: string } {
     let stringValues: {[P in keyof T]: string } = {};
 
@@ -63,7 +58,6 @@ const objA = {
 
 const objB = convertPropertiesToString(objA);
 ```
-
 ### Compiler warning
 
 The type used in this function, `{[P in keyof T]: string }`, essentially says “whatever properties exist on the input type will exist on the output type, but the properties will each contain a string”. But when we create the `stringValues` variable it doesn’t actually have any of the properties yet; in fact, you can’t guarantee it matches the type of `{[P in keyof T]: string }` until the for-loop is complete.
@@ -71,7 +65,6 @@ The type used in this function, `{[P in keyof T]: string }`, essentially says �
 The compiler tells you this, so it is tempting to assert the type instead, like this (the difference is pretty subtle, so I have done a before and after that shows the *type annotation* moving across the the right of the equals sign and becoming a *type assertion*):
 
 ```
-<pre class="prettyprint lang-typescript">
     // Before
     let stringValues: {[P in keyof T]: string } = {};
 
@@ -81,7 +74,6 @@ The compiler tells you this, so it is tempting to assert the type instead, like 
     // Alternate After
     let stringValues: {[P in keyof T]: string } = {} as any;
 ```
-
 Note: all three examples in the code block above are wrong, because they aren’t honest.
 
 ### Use types honestly
@@ -89,7 +81,6 @@ Note: all three examples in the code block above are wrong, because they aren’
 While this solves the compiler warning, it isn’t honest code. The type of `stringValues` is actually `{}` to start with, and within each iteration of the loop it grows closer to the target type. In other words, the type changes dynamically during this function. So honest code would admit that `stringValues` is the dynamic type, `any`. Like this:
 
 ```
-<pre class="prettyprint lang-typescript">
 function convertPropertiesToString<T>(obj: T): {[P in keyof T]: string } {
     let stringValues: any = {};
 
@@ -100,7 +91,6 @@ function convertPropertiesToString<T>(obj: T): {[P in keyof T]: string } {
     return stringValues;
 }
 ```
-
 ### Conclusion
 
 My making TypeScript types honest, the code is actually more readable and maintainable. In particular, we don’t need to repeat the return type in a type annotation or type assertion. This example is trivial, but there are more complex examples of diving into dynamic code to do cool stuff where the honesty would be even more important.

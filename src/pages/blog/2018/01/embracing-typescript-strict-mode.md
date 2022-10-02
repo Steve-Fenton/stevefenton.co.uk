@@ -24,12 +24,10 @@ Note: I have generalised some of my thoughts about TypeScript types under the ph
 Let’s look at a real example. This is perfectly valid, error-free TypeScript code; until we switch on strict mode.
 
 ```
-<pre class="prettyprint lang-typescript">
 const elem = document.getElementById('test');
 
 elem.innerHTML = 'Hello World';
 ```
-
 With strict mode enabled, we are warned that `elem` *could* be null. The type in chancy mode is `HTMLElement`, but in strict mode it is `HTMLElement | null`. In actual fact, any query for a DOM element could be null. So TypeScript can highlight all of the instances in our web application that touch a potentially null DOM element… eliminating this exception from the browser console.
 
 ### Don’t assert
@@ -37,13 +35,11 @@ With strict mode enabled, we are warned that `elem` *could* be null. The type in
 As you can see from this example, we now have an error – but the error is also correct. If you have chosen strict mode, you ought to avoid defeating the helpful warning using a type assertion. Although this will make the code compile (by over-ruling the compiler), it won’t make the code work.
 
 ```
-<pre class="prettyprint lang-typescript">
 // The way of the error!
 const elem = <HTMLElement> document.getElementById('test');
 
 elem.innerHTML = 'Hello World';
 ```
-
 You might also be tempted to use a type assertion to narrow the type from `HTMLElement` to a specific kind of element, such as `HTMLInputElement`. There is more on that below, but the answer is still “don’t assert”.
 
 ### Type guard
@@ -51,7 +47,6 @@ You might also be tempted to use a type assertion to narrow the type from `HTMLE
 A better fix would be to use a simple type guard, which you can also use to take action if the element doesn’t exist:
 
 ```
-<pre class="prettyprint lang-typescript">
 const elem = document.getElementById('test');
 
 if (elem) {
@@ -60,7 +55,6 @@ if (elem) {
     // maybe you need to create an element, or log to your instrumentation
 }
 ```
-
 Inside of the if-statement, the compiler knows that `elem` definitely isn’t null, so the warning is gone.
 
 ### Element types
@@ -68,7 +62,6 @@ Inside of the if-statement, the compiler knows that `elem` definitely isn’t nu
 This also leads on to a similar common case, which is that many DOM queries give you a plain element, when you want a more specific one. For that, you can introduce a custom type guard, which will narrow the type from `HTMLElement | null` to the specific element of your choice. The example below demonstrates how to do this for the `HTMLInputElement`.
 
 ```
-<pre class="prettyprint lang-typescript">
 function isInputElement(elem: HTMLElement | null): elem is HTMLInputElement {
   if (!elem) {
     // null
@@ -78,11 +71,9 @@ function isInputElement(elem: HTMLElement | null): elem is HTMLInputElement {
   return (elem.tagName === 'INPUT')
 }
 ```
-
 We can now update our original example to narrow using this custom type guard.
 
 ```
-<pre class="prettyprint lang-typescript">
 const elem = document.getElementById('test');
 
 if (isInputElement(elem)) {

@@ -22,7 +22,6 @@ if (false) {
     console.log("I'm never gonna happen.");
 }
 ```
-
 This feature had been avoided for some time, as mentioned in the [2.6 release note](https://blogs.msdn.microsoft.com/typescript/2017/10/31/announcing-typescript-2-6/):
 
 > “Historically, we’ve avoided error suppression within TypeScript because most cases where users have asked for it could be solved through more accurate declaration files or using a type assertion to any.”

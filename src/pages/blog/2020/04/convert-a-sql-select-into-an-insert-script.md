@@ -67,7 +67,6 @@ SELECT @queryToGenerateScript = 'SELECT ''' +
 
 EXECUTE (@queryToGenerateScript)
 ```
-
 Result (it doesn’t come out looking “pretty”, but I made it readable here by adding whitespace).
 
 ```
@@ -111,5 +110,4 @@ VALUES(
     '1.1.1.1'
 )
 ```
-
 There are some limitations. This script isn’t going to check your column types, so everything is gonna be a string. SQL usually does alright with this, but you might find some loss of precision in datetime fields. It also doesn’t append the additional code to set identity insert on. I might add this later.

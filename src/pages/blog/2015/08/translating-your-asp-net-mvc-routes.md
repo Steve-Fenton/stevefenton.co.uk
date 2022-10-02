@@ -30,7 +30,6 @@ Everything is better in MVC if you use attribute routing. I saw a presentation o
 [Route("MyController/MyAction", Name = "MyControllerMyActionRoute")]
 public string MyAction() //...
 ```
-
 In the example above, we have a basic route “MyController/MyAction” and I have also given it a name (which is optional, but more on that later).
 
 When you are using attribute routing, you normally add the following line to your RouteConfig.cs RegisterRoutes method.
@@ -38,7 +37,6 @@ When you are using attribute routing, you normally add the following line to you
 ```
 <pre class="prettyprint lang-csharp">routes.MapMvcAttributeRoutes(Localization.LocalizationDirectRouteProvider);
 ```
-
 We will be adding some code after this line in a moment.
 
 ### Prepare for translations
@@ -75,7 +73,6 @@ routes.Localization(configuration =>
 
 CultureSensitiveHttpModule.GetCultureFromHttpContextDelegate = Localization.DetectCultureFromBrowserUserLanguages(acceptedCultures, en);
 ```
-
 ### Add translations
 
 The translations are supplied via the static method “AddRoutesTranslation” below. I have supplied examples for both a named route and for a non-named route (I have supplied the same example in both – you would never add the same route twice like this, but it makes it easier to compare the two styles).
@@ -106,7 +103,6 @@ namespace MyApplication
     }
 }
 ```
-
 You need to repeat this for each route, in each language. From a code organisation perspective you could split it so that you group by route, with each language configured – or you could split it by language. The choice is yours and each has its plus points. Storing the routes in a database or file would keep the code minimal and give you an easy format to pass for translation if you aren’t doing them within the team.
 
 Not only does the RouteLocalization project make your URLs translatable, it will also mean all your calls to the standard HTML helpers (like Url.Action) will get translated too. It could hardly be simpler.
@@ -118,5 +114,4 @@ Additional Note… if you want to get the culture from somewhere other than the 
 System.Threading.Thread.CurrentThread.CurrentUICulture = cultureInfo;
 System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(cultureInfo.Name);
 ```
-
 This allows you to get the culture from some other place, like the querystring. It needs to happen early on in your pipeline… I have used it in the Global.asax Application\_AcquireRequestState method.

@@ -24,5 +24,4 @@ The recommended method for doing this is to use zlib.output\_compression – and
 <pre class="prettyprint lang-php">
 ini_set('zlib.output_compression', 'On');
 ```
-
 On The Mag, this reduced page size from 30kb to 6kb and on this website it reduced the page size from 7kb to 1.9kb – that’s a massive reduction in the amount of data being sent across the wire and will reduce your bandwidth consumption and page load times.

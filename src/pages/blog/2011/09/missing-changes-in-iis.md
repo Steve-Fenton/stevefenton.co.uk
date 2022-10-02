@@ -41,7 +41,6 @@ Another option is to ask IIS to save the configuration, which forces changes to 
 <pre class="prettyprint lang-powershell">
 cscript.exe %SYSTEMROOT%\system32\iiscnfg.vbs /save
 ```
-
 ### Option 3 – Perform an IISRESET with NOFORCE
 
 If you must perform an IISRESET, use the noforce option (solution courtesy of Steve Bond). This gives everything a fair chance to shut down gracefully and doesn’t force the restart if something won’t shut down within the 60 second limit.

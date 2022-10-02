@@ -32,14 +32,12 @@ result = _provider.NotifyChange(
     out errors
 );
 ```
-
 In order to set up a mock in NMock2, you would normally do something like this:
 
 ```
 <pre class="prettyprint lang-csharp">
 Expect.Once.On(provider).Method("NotifyChange").Will(Return.Value(true));
 ```
-
 But in our example, we need the out-parameter to be set, otherwise we’ll get an error. To get your mock to do this, follow this example:
 
 ```
@@ -47,5 +45,4 @@ But in our example, we need the out-parameter to be set, otherwise we’ll get a
 Expect.Once.On(provider).Method("NotifyChange")
     .Will(new SetNamedParameterAction("Errors", errors), Return.Value(true));
 ```
-
 If you get a “no such parameter” message, check that you are passing in the parameter as declared on the method, not the name of the variable you are passing into the method (commonly, the method requires a parameter named “Errors” and you pass in “errors”, so you’ll need to use “Errrors”).

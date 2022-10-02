@@ -41,11 +41,9 @@ During a debug run, the memory and CPU used by the application is low/stable.
 Because the data is created from scratch during the process, [SQL index fragmentation](https://www.stevefenton.co.uk/2018/05/sql-server-index-fragmentation/) will always be zero.
 
 ```
-
 DatabaseName    TableName           IndexName    IndexType          AverageFragmentationPercent
 WebLogs         [dbo].[LogEntry]    cci          CLUSTERED INDEX    0
 ```
-
 ### Running SQL Queries Over IIS log files
 
 Now the data has been imported, you can just run plain-old, super-quick, lovely SQL queries to see what’s going on.
@@ -68,7 +66,6 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
-
 As the date and time are split between different columns, you can query them independently… i.e. you can look across the 4pm to 5pm time without choosing a date to see early-evening trends across multiple dates, and you can use “date =” to select a single day (which you can’t do when there is a time component to the date).
 
 ### Column names

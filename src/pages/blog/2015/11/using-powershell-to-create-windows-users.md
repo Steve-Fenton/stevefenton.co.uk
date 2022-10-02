@@ -45,7 +45,6 @@ Foreach ($user in $users) {
     }
 }
 ```
-
 And in case you are interested, this is the full script for setting up replication users and allowing them access to the replication folder.
 
 ```

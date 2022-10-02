@@ -24,7 +24,6 @@ For example, you can positionally allocate values to variable names using the fo
 // 'Steve 152'
 alert(name + ' ' + iq);
 ```
-
 The first element ends up in the name variable, the second is ignored (I left it blank as an example) and the third is allocated to the iq variable.
 
 You can also do this with objects, instead of working with positions, you can work with the names, thus:
@@ -34,7 +33,6 @@ You can also do this with objects, instead of working with positions, you can wo
 // 'Fenton 152'
 alert(lastName + ' ' + iq);
 ```
-
 When you use destructuring, you don’t get an error when something doesn’t exist – the variable just ends up with an undefined value, for example in this case where the object doesn’t contain a property named “modesty”.
 
 ```
@@ -42,5 +40,4 @@ When you use destructuring, you don’t get an error when something doesn’t ex
 // 'Fenton undefined'
 alert(lastName + ' ' + modesty);
 ```
-
 Incidentally, I decided *not* to form a band based on this example, even though Steve 152 would have obviously been the best band ever.

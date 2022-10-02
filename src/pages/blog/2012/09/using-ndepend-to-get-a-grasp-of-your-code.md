@@ -35,7 +35,6 @@ warnif count > 0 from t in JustMyCode.Types where
 select new { t, t.NbLinesOfCode,
     t.NbILInstructions, t.Methods, t.Fields }
 ```
-
 To:
 
 ```
@@ -47,7 +46,6 @@ warnif count > 0 from t in JustMyCode.Types where
 select new { t, t.NbLinesOfCode,
     t.NbILInstructions, t.Methods, t.Fields }
 ```
-
 As you update the CQLinq statements, it indicates how many failures will result, which means you can adjust it and see what the impact will be.
 
 And the best bit is that you can integrate NDepend into your build process using the NDepend console, which means you can fail your build if someone violates a critical rule.

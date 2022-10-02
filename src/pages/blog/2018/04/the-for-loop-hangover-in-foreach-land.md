@@ -22,7 +22,6 @@ for (let i = 0; i < shoes.length; i++) {
     // Your actual code here
 }
 ```
-
 This was preferable to referencing the janky `shoes[i]` within the loop, when “shoe” is a better name.
 
 However, most languages now support for-each loops, even if it is in some strange way like `for (... of ...)`.
@@ -35,7 +34,6 @@ foreach(var shoe in shoes) {
     // Your actual code here
 }
 ```
-
 But you can tell the programmers who have been around since before for-each, because they sometimes do this:
 
 ```
@@ -46,5 +44,4 @@ foreach(var shoe in shoes) {
     // Your actual code here
 }
 ```
-
 They have, possibly out of habit, assigned the item to a variable inside the loop. This is a bad thing, because one of the two variables that you have created to represent a shoe won’t be named “shoe”. That means you have achieved the opposite of what this technique originally intended; give the variable a better name. Now it can happen either way around, but no matter which one you name badly you end up with a badly named variable. So the next time you write a for-each loop, don’t rename the variable with an additional assignment.

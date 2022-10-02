@@ -26,7 +26,6 @@ using static System.Console;
 
 WriteLine("Hey, I didn't write a class or method here!");
 ```
-
 The concept behind this is to simplify that first-write experience to remove the cruft and focus everything on *your* code.
 
 Check back for some more [C# 9 articles](https://www.stevefenton.co.uk/tag/c-sharp/) coming soon!

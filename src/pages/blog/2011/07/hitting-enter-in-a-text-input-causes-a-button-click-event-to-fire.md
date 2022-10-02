@@ -26,7 +26,6 @@ The simple rule for this is that forms are designed to be used by keyboard users
      <input type="submit" value="Search"></p>
 </form>
 ```
-
 This works in almost all browsers. Type in some stuff and hit enter and off it goes. You may notice that in one particular old browser (come on people, upgrade to the latest version) that this doesn’t actually allow you to hit enter. If you need to support this browser, you can use this fix…
 
 ```
@@ -37,7 +36,6 @@ This works in almost all browsers. Type in some stuff and hit enter and off it g
      <input type="submit" value="Search"></p>
 </form>
 ```
-
 The browser in question will only behave like all the others if there are more than one input on the form, so you need to have a hidden fake field to trick it into behaving normally.
 
 But what about the other issue of strange events being fired when you hit enter? Well, to be honest, you have probably JavaScripted yourself into a corner on this one – but don’t worry, I will show you how to solve your issue…
@@ -51,7 +49,6 @@ Here is an example of a form that only works if you have JavaScript enabled…
     <button onclick="doAjaxSearch();">Search</button></p>
 </form>
 ```
-
 Naughty. This only works with JavaScript in full flight. However, in most browsers, hitting the enter key in the search box will cause the onclick event to fire on the button and everything looks reasonably normal.
 
 That is, until one day you add more stuff to the same form…
@@ -65,7 +62,6 @@ That is, until one day you add more stuff to the same form…
     <button onclick="doAjaxSearch();">Search</button></p>
 </form>
 ```
-
 You normally only really see this in ASP.NET applications, because the entire page is wrapped in a form, but you could technically create this scenario just by being a terrible web developer. What happens when you hit enter now is that the browser chooses *the first button in the form* and fires the click event!
 
 In most cases, you would solve this issue by having a single purpose for each form, rather than cramming in many uses. In ASP.NET you can either change the order of things, or add a dummy button right at the top that does nothing. Remember though, you are doing something fundamentally wrong if everything needs JavaScript to even work.
@@ -80,7 +76,6 @@ In most cases, you would solve this issue by having a single purpose for each fo
     <button onclick="doAjaxSearch();">Search</button></p>
 </form>
 ```
-
 The other downside to the dummy button is that, while it stops the wrong button from being included in the enter-key event, it means that the right button is also excluded – so you need to make sure things still happen when people use a keyboard.
 
 Recommendation?! Don’t work in this way!

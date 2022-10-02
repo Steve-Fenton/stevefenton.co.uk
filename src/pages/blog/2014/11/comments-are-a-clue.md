@@ -25,7 +25,6 @@ function check(s) {
     return typeof s === 'string';
 }
 ```
-
 If you are using a smart IDE, this comment will give you important clues about what the “check” method does and what the parameter “s” is.
 
 Although… if the method was renamed, perhaps we wouldn’t need a clue about what it does…
@@ -39,7 +38,6 @@ function isStringType(s) {
     return typeof s === 'string';
 }
 ```
-
 And if we rename the parameter, we no longer need a clue about what is expected…
 
 ```
@@ -48,5 +46,4 @@ function isStringType(objectToCheck) {
     return typeof objectToCheck === 'string';
 }
 ```
-
 So if your reason for using JSDoc is that it helps people to use your code, consider making your code more helpful instead.

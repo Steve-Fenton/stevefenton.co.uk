@@ -49,7 +49,6 @@ static void Main(string[] args)
     Console.ReadLine();
 }
 ```
-
 So what do you do when the message is null? It could be for a whole bunch of reasons – so how do you narrow it down.
 
 The answer is [Fiddler](http://fiddler2.com/). Open Fiddler, re-run the application and before you know if you’ve got your problem right in front of you. In my case it was a 407 – Proxy Authentication Required, but it might be something else in your case.

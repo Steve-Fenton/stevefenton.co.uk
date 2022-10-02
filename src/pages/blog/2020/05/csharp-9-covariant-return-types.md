@@ -31,7 +31,6 @@ public override Literature GetLiterature(...)
     return new Book();
 }
 ```
-
 Well, now you can return the narrower type.
 
 ```
@@ -48,7 +47,6 @@ public override Book GetLiterature(...)
     return new Book();
 }
 ```
-
 The Book has to be a kind of Literature, but it allows the more specific type to be returned, rather than pretending we don’t know as much as we do.
 
 This will actually save you having to reach for generics for this common case.

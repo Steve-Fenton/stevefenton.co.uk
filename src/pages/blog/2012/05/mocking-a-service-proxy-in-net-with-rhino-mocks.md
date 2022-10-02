@@ -40,7 +40,6 @@ namespace Fenton.Example
     }
 }
 ```
-
 First of all, here is an example of the kind of thing we want to test. This example has just the basic structure to demonstrate what we are trying to test – in real life the service proxy call could just be a part of a larger method.
 
 So here is how we can test this method. The example appears verbose because many of the items set up in the test would normally be done in a SetUp method and the explanatory comments would also be absent in real life.

@@ -22,14 +22,12 @@ elem.innerHTML = elem.innerHTML + '<a href="https://www.example.com">Visit Examp
 
 elem.innerHTML += '<a href="https://www.example.com">Visit Example Dot Com</a>';
 ```
-
 You can avoid many of the downsides to this approach using `insertAdjacentHTML`. Here’s a quick example that is equivalant to the previous operation, but without serialization or potential runiation.
 
 ```
 <pre class="prettyprint lang-js">
 elem.insertAdjacentHTML('beforeend', '<a href="https://www.example.com">Visit Example Dot Com</a>');
 ```
-
 That first parameter needs a little explanation. It just allows you to place your new HTML in one of four locations:
 
 <dl><dt>beforebegin</dt><dd>Immediately before the element</dd><dt>afterbegin</dt><dd>Immediately inside the element</dd><dt>beforeend</dt><dd>Immediately before the closing tag of the element</dd><dt>afterend</dt><dd>Immediately after the closing tag of the element</dd></dl>So, if we take this HTML:
@@ -40,7 +38,6 @@ That first parameter needs a little explanation. It just allows you to place you
     <div>Existing Element Content</div>
 </div>
 ```
-
 And we run all of the possible variations, as shown below:
 
 ```
@@ -55,7 +52,6 @@ elem.insertAdjacentHTML('beforeend', '<div>Before End</div>');
 
 elem.insertAdjacentHTML('afterend', '<div>After End</div>');
 ```
-
 We end up with the following HTML:
 
 ```

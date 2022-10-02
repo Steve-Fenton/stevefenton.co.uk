@@ -27,7 +27,6 @@ var str = '52';
 var num = parseInt(str, 10);
 alert(typeof num + ' ' + num);
 ```
-
 In the above chunk of code, you end up with “number 52” being chucked into the alert dialog. Yay. Now here is the slacker parsing version, which can be used instead of parseInt or parseFloat if you have a string containing a valid number.
 
 ```
@@ -36,7 +35,6 @@ var str = '52';
 var num = +str;
 alert(typeof num + ' ' + num);
 ```
-
 In this example, we just use the + operator. JavaScript will juggle the type to work with the operator and you’ll end up with a number, just like if you used parseInt. Well, not exactly like that… The + operator doesn’t care whether we are after an integer or a float, it just knows we need a number. The + operator also fails for strings that aren’t proper floats, like ’52.A65′. This can sometimes be a good thing as parseFloat results in “number 52”, which also isn’t what we want.
 
 | str | parseInt | parseFloat | + |
@@ -55,7 +53,6 @@ var num = 1;
 var bool = num === 1;
 alert(typeof bool + ' ' + bool);
 ```
-
 So in the above example we end up with “boolean true”. But if we bear in mind the rules of *truthy* and *falsey* we can double-bang our way using the slacker parsing version.
 
 ```
@@ -64,7 +61,6 @@ var num = 1;
 var bool = !!num;
 alert(typeof bool + ' ' + bool);
 ```
-
 The double bang (!!) basically means “NOT NOT”, which converts the value to a boolean and keeps it from being inverted.
 
 A useful variation of this is rather obtuse but entirely fun BANG! BANG! WIGGLE!, which Robert pointed out to me. This can be used to coerce the result of an indexOf call into a boolean:

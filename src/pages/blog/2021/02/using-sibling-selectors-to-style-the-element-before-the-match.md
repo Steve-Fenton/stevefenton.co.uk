@@ -24,7 +24,6 @@ Let’s demonstrate by doing it the wrong way around. If we were to add the “i
         background-color: Aqua;
     }
 ```
-
 ```
 <pre class="prettyprint lang-html">
 <a href="./index.html" class="logo-header"><span class="logo-part">Web</span>Project</a>
@@ -54,7 +53,6 @@ Let’s demonstrate by doing it the wrong way around. If we were to add the “i
     </svg>
 </button>
 ```
-
 To do this “the right way around”, the button would need to be before the anchor – so if that’s an option you can switch them around and use
 
 ```
@@ -63,7 +61,6 @@ To do this “the right way around”, the button would need to be before the an
         background-color: Aqua;
     }
 ```
-
 If not, you can wrap each pair in an enclosing element, such as a ‘div’ element wrapping the anchor and the button. If you set the “is-open” class on that div, you can easily have CSS selectors to do what you want.
 
 ```
@@ -72,7 +69,6 @@ If not, you can wrap each pair in an enclosing element, such as a ‘div’ elem
         background-color: Aqua;
     }
 ```
-
 ```
 <pre class="prettyprint lang-html">
 <div>

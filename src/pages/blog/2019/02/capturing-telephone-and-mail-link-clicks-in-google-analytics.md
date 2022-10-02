@@ -44,5 +44,4 @@ $(document).on('click', '[href*="tel:"], [href*="mailto:"]', function(e) {
     }, 500);
 });
 ```
-
 This should send your mail and call events for you to enjoy!

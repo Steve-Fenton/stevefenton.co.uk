@@ -19,7 +19,6 @@ TypeScript is great – but it is different to other languages. It is worth spen
 One difference that I really like is automatic assignment of constructor parameters to the relevant property. So here is an example of some TypeScript code that I am seeing quite a lot.
 
 ```
-<pre class="prettyprint lang-typescript">
 class Person {
     private firstName: string;
     private lastName: string;
@@ -30,23 +29,19 @@ class Person {
     }
 }
 ```
-
 This might well be how you do it in other languages, but it isn’t how you handle TypeScript constructor parameters… unless you really like typing the same thing quite a lot.
 
 In particular we have four lines of code in the first attempt that you just don’t need in a TypeScript program, because the compiler can generate them for us. This is the logically identical equivalent of the Person class, written in *proper* TypeScript:
 
 ```
-<pre class="prettyprint lang-typescript">
 class Person {
     constructor(private firstName: string, private lastName: string) {
     }
 }
 ```
-
 The design time and compile time tooling and the resulting JavaScript output are all identical, but you need to write less code. You can [take a look at this on the TypeScript Playground](https://www.typescriptlang.org/play/#src=class%20Person%20{%0Aconstructor(private%20firstName%3A%20string%2C%20private%20lastName%3A%20string)%20{%0A}%0A}). Here is the JavaScript output for either example:
 
 ```
-<pre class="prettyprint lang-typescript">
 var Person = (function () {
     function Person(firstName, lastName) {
         this.firstName = firstName;
@@ -55,5 +50,4 @@ var Person = (function () {
     return Person;
 })();
 ```
-
 This works for any access modifier you add to TypeScript constructor parameters, so you can use this trick for public, protected, and private members that are being passed in as arguments.

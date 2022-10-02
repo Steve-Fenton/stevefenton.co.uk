@@ -31,14 +31,11 @@ document.querySelectorAll('.myClass').onclick(function () {
     alert(this.innerHTML);
 });
 ```
-
 In TypeScript, you’ll get compiler warnings if you just try to add directly to built-in objects, so you’ll need to extend the TypeScript definitions with the new information. This is really simple to do because in TypeScript, interfaces are open.
 
 ```
-<pre class="prettyprint lang-typescript">
 interface NodeList {
     onclick: (handler: Function) => void;
 }
 ```
-
 This simple type definition extends the NodeList interface that found in the standard TypeScript library with the extra function we want to add. Our existing JavaScript can now be used error-free in our TypeScript program.

@@ -36,7 +36,6 @@ Now you have made your life easier, you can install coffee for node.js with the 
 <pre class="prettyprint lang-powershell">
 npm install -g coffee-script
 ```
-
 Take a note of the path that the command outputs, and add an environment variable for coffee too – “coffee” with a value of the path you noted from the above command.
 
 Write Some Code
@@ -48,5 +47,4 @@ You can now write some CoffeeScript. When you need to compile it into JavaScript
 cd c:\path\to\your\project\
 coffee --output js/ --compile src/
 ```
-
 Where your CoffeeScript files are in the “src” folder and you want your JavaScript files in your “js” folder.

@@ -29,7 +29,6 @@ $my_arguments = array(
     'meta_value' => '0'
 );
 ```
-
 The important bit here, which will cause you pain, is that there is a `$custom_page_size`.
 
 This may appear to work, especially if you aren’t testing your edges. The problem occurs when the number of posts divided by the default page size is less than the number of posts divided by your custom page size.
@@ -48,7 +47,6 @@ posts / default page size = 3 pages
 
 posts / custom page size = 4 pages
 ```
-
 Everything will work on pages 1, 2, and 3. When you reach page 4 though, you’ll get a 404 Not Found error page.
 
 This is because WordPress has worked out that page 4 can’t exist based on the number of posts and the default page size.
@@ -68,7 +66,6 @@ function custom_page_sizes($query) {
 }
 add_action('pre_get_posts', 'custom_page_sizes');
 ```
-
 This allows you to use the default `$posts_per_page` variable in your custom queries, and the number will be the one you defined in the `pre_get_posts` hook.
 
 ```

@@ -19,7 +19,6 @@ TypeScript still has the ability to surprise and impress me and I just stumbled 
 This one sounds a bit odd at first, but actually it makes sense when you sit down and think about it. In TypeScript, an interface can extend a class. Just like this…
 
 ```
-<pre class="prettyprint lang-typescript">
 class Fenton {
     public height = 'Tall';
 
@@ -44,5 +43,4 @@ class FentonLike implements IFenton {
     }
 }
 ```
-
 What happens under the covers is the TypeScript compiler works out the type signature for the class and adds the signature to the interface (without any implementation). When you implement the interface, you need to implement the methods and properties explicitly declared in the interface and also the methods and properties extracted from the original class.

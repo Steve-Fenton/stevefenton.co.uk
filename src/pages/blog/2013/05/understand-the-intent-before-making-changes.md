@@ -26,7 +26,6 @@ Here is a quick example…
 <pre class="prettyprint lang-csharp">
 DeleteCustomer(customer.ProductId);
 ```
-
 If both ProductId and CustomerId are integers, the compiler will allow this mistake. If the CustomerId was 1, and the ProductId was 2, we are in danger or deleting the wrong customer – and this could be a very tricky bug to un-pick (imagine it was an operation less obvious than delete – you could get some very strange behaviour in your system!)
 
 So the idea behind the ClientId and ProductId objects is that the compiler can tell you that you can’t pass a ProductId argument because the method expects a parameter of type ClientId. Cracking.
@@ -43,7 +42,6 @@ public class ClientId : Int32Identity
     }
 }
 ```
-
 This is a very simple class that just wraps an Int32 in an object, so we can get type-checking.
 
 A few weeks later, someone writes the following line of code and it makes them think that an improvement could be made…
@@ -52,7 +50,6 @@ A few weeks later, someone writes the following line of code and it makes them t
 <pre class="prettyprint lang-csharp">
 myCustomer.Id = 1; // error
 ```
-
 “Wouldn’t it be nice if I *could* write this line of code!” they might say. And off they go to add an implicit operator to the ClientId class. I slightly blame Jon Skeet for this, because every time someone reads his excellent “C# in Depth” book (which I heartily recommend) they get a bit over-excited about operators and extension methods.
 
 So we end up with the following class:
@@ -72,7 +69,6 @@ public class ClientId : Int32Identity
     }
 }
 ```
-
 This does indeed mean we can directly assign the integer to the CustomerId, but it also ruins the entire intent of the code, because now we can pass any integer wherever a ClientId object is required and it will get converted implicitly.
 
 So really, if the operator is to be added at all, it should be an explicit operator, so the programmer can see the intent of the design – which is “be careful to use the correct id”.

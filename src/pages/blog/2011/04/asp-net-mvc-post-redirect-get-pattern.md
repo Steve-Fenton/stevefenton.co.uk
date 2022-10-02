@@ -70,7 +70,6 @@ public ActionResults Create(ProductModel model) {
     return View(model);
 }
 ```
-
 In this example, if the ModelState is valid, we save and issue the redirect. The browser interprets the redirect and sends a GET to the address we specify and we’re safe from a page-refresh. If the ModelState is not valid, we simply re-display the view and let MVC show the validation messages. We are intrinsically safe from a refresh of the failed form submission, because it will simply fail validation once again and display the view.
 
 ### The Odd Implementations
@@ -98,7 +97,6 @@ public ActionResult Edit(EditModel model) {
     return View(model);
 }
 ```
-
 Secondly, you do *NOT* need to perform a redirect unless you have actually stored some data. Some people like the fact that you can avoid ever seeing the “Are you sure you want to re-submit” warning that browsers issue when you refresh a POST-ed page. The PRG pattern definitely does not require you to perform a redirect for all POSTs, just for a POST that has changed the state of the data.
 
 If you perform a redirect after a POST where the form is invalid, you have to shift the model and ModelState somewhere the GET action can get to it and you have to add meaningless logic to the GET action to check to see if it needs to display a message. This is absurd when you get all of this for free by simply re-displaying the view. On top of this, the mechanism for a redirect is not efficient. You send an address to the browser in your response and the browser makes a second request to GET the page form the address you supplied.

@@ -52,7 +52,6 @@ The current version for manifest files if v3. They just contain the wiring to de
      ]
 }
 ```
-
 The file points to the other two files, `icon-128.png` and `worker.js`.
 
 #### Worker
@@ -72,7 +71,6 @@ chrome.action.onClicked.addListener((tab) => {
     });
 });
 ```
-
 ### Testing
 
 Open up the extensions manager in [Chrome](chrome://extensions) or [Edge](edge://extensions/) and enable developer mode.

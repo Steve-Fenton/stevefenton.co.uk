@@ -56,7 +56,6 @@ My tsconfig file is shown below…
     }
 }
 ```
-
 In my app.ts file, I decided to use a little ECMAScript 6 goodness (although I am compiling down to ES5, I can still do this). The “let” keyword isn’t available in ECMAScript 5, but TypeScript will transpile it into valid ES5 for me.
 
 ```
@@ -68,7 +67,6 @@ for (let x = 0; x < 10; x++) {
 
 console.log("Let is: " + x);
 ```
-
 To build the project, you can hit CTRL + SHIFT + B. The first time you do this you’ll be prompted to add a build task. If you accept the prompt it will all be done automatically for you. The tasks are defined in a new file called tasks.json.
 
 My TypeScript task is shown below. You need to ensure that your PATH variable is set to “C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\TypeScript\\\\1.5\\\\” (or whatever the latest version is when you read this).
@@ -89,7 +87,6 @@ I have also specified the name of my TypeScript file, app.ts (the default is Hel
     "problemMatcher": "$tsc"
 }
 ```
-
 Now when I hit CTRL + SHIFT + B again, it will actually generate the JavaScript file. The output is shown below – notice how the TypeScript compiler has converted my let keywords to plain var keywords – but also renamed the variable names to avoid the scope clash. Clever.
 
 If it fails to generate this file, check the bottom-left of VSCode to see if there are errors or warnings, which it picks up using the problem matcher in the TypeScript task.
@@ -103,5 +100,4 @@ for (var x_1 = 0; x_1 < 10; x_1++) {
 
 console.log("Let is: " + x);
 ```
-
 So that is the quick start for TypeScript in VSCode. Enjoy.

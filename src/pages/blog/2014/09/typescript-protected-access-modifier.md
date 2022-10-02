@@ -23,7 +23,6 @@ The highly anticipated arrival of the protected access modifier is near. The pro
 When you override a private or protected member, you have to apply the same access level.
 
 ```
-<pre class="prettyprint lang-typescript">
 class MyClass {
     private privateProperty: string;
     protected protectedProperty: string;
@@ -38,11 +37,9 @@ class MySubClass extends MyClass {
     }
 }
 ```
-
 You can also access the protected property in the following situation.
 
 ```
-<pre class="prettyprint lang-typescript">
 class MyClass {
     private privateProperty: string;
     protected protectedProperty: string;
@@ -60,7 +57,6 @@ class MySubClass extends MyClass {
     }
 }
 ```
-
 Interesting note: In the above example, the static method on MySubClass accepts arguments of type MyClass and MySubClass – it is able to access the protected property on the instance of MySubClass (but not on MyClass).
 
 Both private and protected members affect type matching in TypeScript: Private members only ever match themselves (i.e. the same private member from the same class). Protected members match themselves and overridden versions of themselves on sub-classes.

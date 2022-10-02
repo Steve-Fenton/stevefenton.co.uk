@@ -36,7 +36,6 @@ public void DefaultRouteExpectControllerOnly()
     Assert.AreEqual("Like", routeData.Values["action"]);
 }
 ```
-
 In this example, the only thing you need a test double for is HTTP Context – which allows you to pass in a pretend request address. You then use your real routing rules to get the route data and make sure it has been mapped as you expect.
 
 This test actually covers the default routing rule, which is an important test because this may represent the most URLs in your application – you’ll want to be confident you haven’t accidentally replaced this with another route when you create your custom routes later.

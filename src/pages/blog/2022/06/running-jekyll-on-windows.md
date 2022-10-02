@@ -33,7 +33,6 @@ The Ruby installer should prompt you to run the following command at the end of 
 <pre class="prettyprint lang-bash">
 ridk install
 ```
-
 ### Install Jekyll
 
 Once you have Python and Ruby installed, you can install the Ruby Gems for Jekyll
@@ -42,7 +41,6 @@ Once you have Python and Ruby installed, you can install the Ruby Gems for Jekyl
 <pre class="prettyprint lang-bash">
 gem install jekyll bundler webrick
 ```
-
 If you used the wrong Ruby installer, you might not have all the dev tools and gem installation will error, so go back and check your Ruby installer was the DevTools version.
 
 Check everything is up and running using:
@@ -51,7 +49,6 @@ Check everything is up and running using:
 <pre class="prettyprint lang-bash">
 jekyll -v
 ```
-
 ### Run the site
 
 The following commands should be run in the folder containing your Jekyll site.
@@ -62,7 +59,6 @@ Make sure all the packages are installed:
 <pre class="prettyprint lang-bash">
 npm install
 ```
-
 If you get any errors, check the message to see if you need Python (see above), or if one of your packages needs something else specific.
 
 Then run the site using:
@@ -71,7 +67,6 @@ Then run the site using:
 <pre class="prettyprint lang-bash">
 jekyll serve
 ```
-
 The command will output the address of the server, which you can open in your browser:
 
 ```

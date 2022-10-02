@@ -26,5 +26,4 @@ AbsoluteUri: http://www.example.com/
 Referer: &lt;a href="http://phishing-site-address.com/">Windows FAQ&lt;/a>
 ```
 ```
-
 If you are using a good monitoring service, they won’t display this input as a hyperlink – but beware of visiting pages that appear in your HTTP logs or event logs like this.

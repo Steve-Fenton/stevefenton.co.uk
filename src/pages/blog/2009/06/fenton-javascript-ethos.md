@@ -54,7 +54,6 @@ Remember when you used to do this..?
     </font>
 </p>
 ```
-
 I think we all agreed that this was nasty, especially when the marketing department decided to change the typeface on the whole site and a million font tags had to be changed. The next day, they decided to change the colour!
 
 So we all moved to this…
@@ -62,7 +61,6 @@ So we all moved to this…
 ```
 <pre class="prettyprint lang-html"><p class="hello">Hello!</p>
 ```
-
 With a separate .css file that contained the style…
 
 ```
@@ -73,7 +71,6 @@ With a separate .css file that contained the style…
     font-weight: bold;
 }
 ```
-
 Much better! The main reason this works is because it makes it easier to change the style of the website. The other important reason, which is less obvious, is that HTML is supposed to semantically describe parts of your page. A H1 tag should be used to tell people that the text is the main heading on the page, not to make it big and bold and tags like the font tag and bold tag don’t actually add any meaning or describe what the content is about.
 
 So apply the same to your JavaScript and life will become much better!
@@ -83,25 +80,21 @@ We used to do this…
 ```
 <pre class="prettyprint lang-html"><a href="javascript: alert('Hello World!');">Alert</a>
 ```
-
 Or this…
 
 ```
 <pre class="prettyprint lang-html"><a href="#" onclick="alert('Hello World!');">Alert</a>
 ```
-
 Or this…
 
 ```
 <pre class="prettyprint lang-html"><a href="javascript: void(0);" onclick="alert('Hello World!');">Alert</a>
 ```
-
 But now we do this…
 
 ```
 <pre class="prettyprint lang-html"><a href="a_real_page.html" id="alert">Alert</a>
 ```
-
 And then we do with JavaScript what we’ve been doing with CSS since we got our adult teeth…
 
 ```
@@ -112,7 +105,6 @@ And then we do with JavaScript what we’ve been doing with CSS since we got our
 
 document.getElementById("alert").onclick = myFunction;
 ```
-
 The “return false” bit is quite important, as it tells the browser that you’ve done something clever and that the actual link doesn’t need to be followed. If JavaScript is disabled, the link will be followed – so everyone sees something happen, which means we have abided by rule number 1.
 
 ### Rule Number 3
@@ -151,7 +143,6 @@ There is a basic example below that demonstrates how to “namespace” your Jav
 MyNamespace.sayHello("Steve");
 MyNamespace.sayGoodbye("Steve");
 ```
-
 And even better… you can use modules to keep absolutely everything out of the global scope in all the modern browsers.
 
 ### And then…

@@ -20,7 +20,6 @@ I [wrote about bit flags a while ago](https://www.stevefenton.co.uk/publications
     Then = 4
 }
 ```
-
 These can then be combined and tested using bitwise operations.
 
 ```
@@ -30,7 +29,6 @@ var isGiven = (example & StepType.Given) == StepType.Given; // false
 
 var isWhen = (example & StepType.When) == StepType.When; // true
 ```
-
 Well, if you can’t be bothered with multiplication, you can simplify your life using a left shift along with simple sequential numbers. The example below is equivalent to the original example (and is taken from the [TypeSpec BDD framework for TypeScript](https://github.com/Steve-Fenton/TypeSpec)).
 
 ```

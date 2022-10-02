@@ -26,7 +26,6 @@ tags:
 export const b = 2;
 ```
 ```
-
  Our second file is called `app.ts` and is similarly small:
 
  ```
@@ -34,7 +33,6 @@ export const b = 2;
 import { b } from './mod.js'; console.log(b);
 ```
 ```
-
  Now, if we simply reference a JavaScript file from our HTML page, the contents are treated as inline, which means things start to creep into the global scope if we haven’t thought about it. When it comes to modules, though, we just have to use the module type in our script tag. You can do this using `type="module"` on the script tag, thus:
 
  ```
@@ -46,7 +44,6 @@ alert(b);
 &lt;/script>
 ```
 ```
-
 If you run this full example, the “app” module will load the “mod” module and then log the value within “b” to the console. The alert, though, fails, because there is no “b” in the global scope.
 
 This shows how the code in the “app” module is executed without being in, or adding to, the global scope.

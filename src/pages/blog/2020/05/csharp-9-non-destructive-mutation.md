@@ -30,7 +30,6 @@ Book book = new Book {
 
 Book anotherBook = book with { Title = "The Bravo of Venice" };
 ```
-
 By creating the second book with the `with` keyword, we can choose to change one or more properties. The original book isn’t changed, we still have that. We also have our new book. That’s non-destructive mutation in C# 9 in a nutshell.
 
 Now, the `with` keyword will create a shallow copy, going field by field and assigning the properties. That means reference type properties *will* end up being shared state by default. This matches what you would expect if you have used structs in C#. However, you can implement your own copy constructor (it just needs to be a constructor that takes an argument of the same type, a *Book* in our example). So, you can deep-copy if that’s what you need to do.

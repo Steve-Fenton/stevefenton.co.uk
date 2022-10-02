@@ -85,7 +85,6 @@ Catch
     Write-Output $_.Exception | format-list -force
 }
 ```
-
 This script will dynamically obtain the base addresses of your team collection and will get the work items related to the build, and then update the “Integration Build” value.
 
 ### Build variables

@@ -22,7 +22,6 @@ This output is from a query using ‘fontWeight’ – the script has found both
 <pre class="prettyprint">08:42:32.443 100 : #LI(16),#myElem3,#BUTTON(18),#SPAN(20),#myElem4,#LI(22),#BUTTON(24)...
 08:42:32.445 400 : #myElem1,#myElem2,#SPAN(5),#SPAN(244),#SPAN(249),#SPAN(255),#sm-14882713376453093-73,#SPAN(262),#SPAN(263)...
 ```
-
 The example below crushes the dictionary down to display in the console, but you can use the dictionary in full, the key is the CSS attribute value – with each element appearing as an item in the array against the key.
 
 ```

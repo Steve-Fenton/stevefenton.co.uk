@@ -34,7 +34,6 @@ So here is my mark-up before I added microdata:
     </footer>
 </article>
 ```
-
 So let’s start adding some attributes. The first attribute is “itemscope”. You add this to the element that contains the item. In my case, I have an “article” element for each book on my recommended reading list, so by adding the “itemscope” attribute to the article element I’m saying “each article is an item”.
 
 ```
@@ -42,7 +41,6 @@ So let’s start adding some attributes. The first attribute is “itemscope”.
     ...
 </article>
 ```
-
 The second attribute is “itemtype”. This describes the type of the item – and you stick it on the same element as your “itemscope” attribute. In my case, I’m using the “Book” type, but there are many, many types to choose from on [schema.org](http://schema.org/). By adding this attribute to the article, we are now saying “each article describes a book”.
 
 ```
@@ -51,7 +49,6 @@ The second attribute is “itemtype”. This describes the type of the item – 
     ...
 </article>
 ```
-
 Now we have defined the kind of thing we are describing, we can pick out the bits of data that are within the article. I have picked out the book’s “name”, the “author” and the “url” of the book.
 
 ```
@@ -67,5 +64,4 @@ Now we have defined the kind of thing we are describing, we can pick out the bit
     </footer>
 </article>
 ```
-
 Before you crack on, though, you might want to also [read my article on RDFa Lite](https://www.stevefenton.co.uk/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/).

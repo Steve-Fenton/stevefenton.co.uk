@@ -49,5 +49,4 @@ MyNamespace.sayHello('Steve');
 MyNamespace.sayGoodbye('John');
 MyNamespace.publicFunction();
 ```
-
 Obviously, in this example it’s all a bit basic, but if you had JavaScript functions that you’d like to group together, this is a great way to do it – not a genuine name-space, but some distance towards organising your code.

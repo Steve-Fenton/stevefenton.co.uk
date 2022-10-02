@@ -36,5 +36,4 @@ BEGIN
         ReplicaStates.role_desc
 END
 ```
-
 The primary server for each availability group will be listed with a replica role of `PRIMARY`.

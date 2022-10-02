@@ -33,7 +33,6 @@ GROUP BY
 ORDER BY
     Total DESC
 ```
-
 And this log parser studio query will get you the top URLs for that host:
 
 ```
@@ -53,7 +52,6 @@ GROUP BY
 ORDER BY
     Total DESC
 ```
-
 ### Web Log Importer
 
 If you are using [Web Log Importer](https://www.stevefenton.co.uk/tag/web-log-importer/), you can get the same information using the following query for host names:
@@ -70,7 +68,6 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
-
 And the following query to get top URLs by host:
 
 ```
@@ -90,5 +87,4 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
-
 Note: to use sc\_bytes you have to have enabled it in your IIS logs. Web Log Importer won’t create columns for fields that are not present in your log files.

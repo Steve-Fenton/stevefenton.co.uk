@@ -39,7 +39,6 @@ class ExampleSearchClass
 
 $exampleSearchClass = new ExampleSearchClass();
 ```
-
 There is a dependency on a SearchProvider class to perform a search, and it is created in the constructor. The problem with this is that we cannot substitute the SearchProvider either for a different one, or with a fake one when we are testing our class.
 
 The simplest first step is to use construction injection to accept the dependency.
@@ -61,7 +60,6 @@ class ExampleSearchClass
 
 $exampleSearchClass = new ExampleSearchClass(new SearchProvider());
 ```
-
 This solves the initial problem, but now all of the code that creates an instance of ExampleSearchClass also needs to know about the SearchProvider. If you only ever substitute this in your tests, you have really infected all your code base with a bit of knowledge that it really doesn’t need. In some languages you can create multiple constructors, one that accepts the dependency and one that creates the default if one isn’t supplied. PHP doesn’t allow for multiple constructors, but there are some ways around this problem.
 
 ### The Null By Default Parameter
@@ -89,7 +87,6 @@ class ExampleSearchClass
 
 $exampleSearchClass = new ExampleSearchClass();
 ```
-
 In this example, we simply allow the parameter to be omitted and use a default instead. This means that your code doesn’t need to know about the dependency unless it needs something other than the default to be used. This is very similar to the multiple overloaded constructor design used in other languages.
 
 ### The Factory Pattern
@@ -125,7 +122,6 @@ $exampleSearchClassFactory = new ExampleSearchClassFactory();
 
 $exampleSearchClass = $exampleSearchClassFactory->GetExampleSearchClass();
 ```
-
 This is a useful pattern because if you need to add an extra dependency to the ExampleSearchClass in the future, you only need to change code in one place, the ExampleSearchClassFactory. In your tests, you can either skip the factory and create an ExampleSearchClass with fake dependencies or you can create a fake factory that returns a fake ExampleSearchClass.
 
 ### Faux Overloaded Constructor
@@ -170,7 +166,6 @@ $exampleSearchClass = new ExampleSearchClass();
 
 $exampleSearchClass = new ExampleSearchClass(new SearchProvider());
 ```
-
 The actual constructor checks the number of arguments and then calls into the constructor that accepts that number of arguments. Obviously this is reasonably volatile and your preferred IDE is unlikely to supply great hints for the constructor signature. With this in mind, I would recommend the Abstract Factory as the pattern is tried and tested!
 
 ### More Options
@@ -205,5 +200,4 @@ class ExampleSearchClass
 
 $exampleSearchClass = ExampleSearchClass::getInstance();
 ```
-
 If you aren’t ready to fully implement the Factory Pattern, this is a good way of isolating the rest of your code form changes to the constructor and you could always change this static method to call the factory later.

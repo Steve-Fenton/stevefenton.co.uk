@@ -34,7 +34,6 @@ IExecutableQuery _myMockExecutableQuery = mockery.NewMock>();
 // This is a mock of an IValue
 NhJump.Persistence.Batching.IValue myMockValue = mockery.NewMock>();
 ```
-
 Stub the call on the IRepository (ById, ByTitle, All etc).
 
 ```
@@ -43,7 +42,6 @@ Stub.On(myMockRepository).Method("ById")
     .With(1)
     .Will(Return.Value(myMockExecutableQuery));
 ```
-
 Stub the call to PrepareQuery (under the hood)
 
 ```
@@ -52,7 +50,6 @@ Stub.On(myMockRepository).Method("PrepareQuery")
     .WithAnyArguments()
     .Will(Return.Value(myMockExecutableQuery));
 ```
-
 Stub the call to Enumerate (under the hood).
 
 ```
@@ -61,7 +58,6 @@ var myReturnValue = new List { myDomainObject };
 Stub.On(myMockExecutableQuery).Method("Enumerate")
     .Will(Return.Value(myReturnValue));
 ```
-
 You may find you also need to Stub other under-the-hood framework stuff, such as…
 
 ```
@@ -69,12 +65,10 @@ You may find you also need to Stub other under-the-hood framework stuff, such as
 Stub.On(myMockExecutableQuery).Method("Unique")
     .Will(Return.Value(myMockValue));
 ```
-
 And as you often get an IValue back from the repository, you’ll need to mock it like this:
 
 ```
 <pre class="prettyprint lang-csharp">
 Stub.On(myMockValue).GetProperty("Value").Will(Return.Value(myDomainObject));
 ```
-
 If you have some tips and tricks that make this even easier, please shout and I’ll update the examples.

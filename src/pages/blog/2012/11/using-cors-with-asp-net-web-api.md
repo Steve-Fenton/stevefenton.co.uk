@@ -112,7 +112,6 @@ namespace YourApplication.MessageHandlers
     }
 }
 ```
-
 App\_Start/HandlerConfig
 
 ```
@@ -132,7 +131,6 @@ namespace YourApplication
     }
 }
 ```
-
 Global.asax.cs
 
 ```
@@ -161,7 +159,6 @@ namespace YourApplication
     }
 }
 ```
-
 ### JavaScript Changes
 
 The essence of making things work in JavaScript is to ensure you set an “X-Requested-With” header. If you are using jQuery, this is built into the jQuery.ajax component. If you are rolling your own AJAX code, you need to use:
@@ -170,14 +167,12 @@ The essence of making things work in JavaScript is to ensure you set an “X-Req
 <pre class="prettyprint lang-javascript">
 xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest"];
 ```
-
 If you are using jQuery, you’ll need to ask it nicely to do this for you:
 
 ```
 <pre class="prettyprint lang-javascript">
 jQuery.support.cors = true;
 ```
-
 ### SSL
 
 If your ASP.NET Web API is delivered over SSL, the page calling will need to be SSL too if you want it to work in all browsers, so if the service address is HTTPS, the calling page needs to be HTTPS.
@@ -190,14 +185,12 @@ If you want to allow cookies, you need to add a special header.
 <pre class="prettyprint lang-csharp">
 response.Headers.Add("Access-Control-Allow-Credentials", "true");
 ```
-
 In JavaScript, you can set the withCredentials flag to true:
 
 ```
 <pre class="prettyprint lang-javascript">
 myXmlHttpRequest.withCredentials = true;
 ```
-
 ### Config File
 
 You may come across a situation where the initial OPTIONS request never gets handled by your .NET application. The request might get a 200 OK response, but with the wrong headers to allow your cross-origin request to proceed. If you don’t get the 200 response, check that IIS allows the OPTIONS verb – but if you get the 200, but it isn’t hitting your code, you might need to add the OPTIONSVerbHandler line to the handlers section of your web.config file:
@@ -209,7 +202,6 @@ You may come across a situation where the initial OPTIONS request never gets han
   <!-- ... -->
 </handlers>
 ```
-
 ### Summary
 
 And that’s all there is to it (okay, there was quite a bit of code to copy and paste, but the principle of it all is very simple). Kudos to the guys who made things so configurable in ASP.NET MVC / ASP.NET Web API!

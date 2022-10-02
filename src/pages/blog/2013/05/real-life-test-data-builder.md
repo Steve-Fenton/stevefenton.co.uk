@@ -45,7 +45,6 @@ public void After()
     target.Persist(user);
 }
 ```
-
 A few notes. When I was creating the test data by hand, I had to supply stuff I really don’t care about for my test – stuff that doesn’t affect the outcome. That is a saving you would get from either a Test Mother or a Test Data Builder – the Test Data Builder starts to pay off when your next test needs a slightly different looking object.
 
 This was already a simple test – I have some tests where the Test Data Builder will save many more lines of code and that is where I will get the real benefits, but from a readability point of view this is much better.
@@ -85,5 +84,4 @@ public class TestUserBuilder
     }
 }
 ```
-
 In this example, I am simply updating properties on some object, but you can also store up the required values in order to build an immutable object, for example.

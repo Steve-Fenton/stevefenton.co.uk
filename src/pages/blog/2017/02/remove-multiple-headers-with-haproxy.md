@@ -20,7 +20,6 @@ This problem is easily fixed with HAProxy by removing a header on your backendâ€
 ```
 <pre class="prettyprint">rspidel Server
 ```
-
 You can also remove multiple headers using the below syntax.
 
 ```

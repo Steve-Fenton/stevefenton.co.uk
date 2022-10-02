@@ -24,7 +24,6 @@ TypeTwo result = typeOneInput.Select(t => new TypeTwo
     Title = t.Name
 });
 ```
-
 Because `typeOneInput` is a single `TypeOne` instance, not an enumerable collection of them; you’ll find the standard Linq `Select` isn’t available.
 
 ### Linq style mapping extension method
@@ -41,7 +40,6 @@ public static class MapExtensions
     }
 }
 ```
-
 ### Using the mapper
 
 You can now map things whenever you like!
@@ -54,7 +52,6 @@ TypeTwo result = typeOneInput.Map(t => new TypeTwo
     Title = t.Name
 });
 ```
-
 ### Full Linqyness
 
 James Curran wrote to me to point out that if we name the mapping method `Select`, rather than `Map`, you get some additional Linq style goodness.
@@ -68,7 +65,6 @@ TypeTwo result = from t in typeOneInput
         Title = t.Name
 };
 ```
-
 Thanks James!
 
 As an aside… read this if you’re wondering [why you can’t comment on posts](https://www.stevefenton.co.uk/2011/09/blog-comments/) (from 2011).

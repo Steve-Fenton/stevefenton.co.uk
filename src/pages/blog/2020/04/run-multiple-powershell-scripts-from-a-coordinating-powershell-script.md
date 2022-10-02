@@ -30,7 +30,6 @@ $katyleDestination = "C:\Temp\Katelyn\Domains.txt"
 
 ."./Copy-Urls-For-Katelyn.ps1"
 ```
-
 You’ll see that I’ve popped all the changeable stuff at the top of the file, then I make dot-sourcing calls out to each file, which brings them into scope – thus allowing them to use the variables I declared.
 
 The files I call out to can then take care of a single thing, like [copying excel data to a CSV](https://www.stevefenton.co.uk/2020/04/copy-excel-to-csv-with-powershell/), or [extracting data from a single column in Excel](https://www.stevefenton.co.uk/2020/04/extract-an-excel-column-to-a-text-file-with-powershell/). These sub-files won’t need to change because I’ve pulled all the “changeable bits” up into my master file.

@@ -25,14 +25,12 @@ If you need to add an auto property in Visual Studio, you are probably aware of 
 <pre class="prettyprint lang-csharp">
 public string MyProperty { get; set; }
 ```
-
 You just type:
 
 ```
 <pre class="prettyprint lang-csharp">
 prop
 ```
-
 And hit your tab key a couple of times. You need to type in the bits it can’t guess – but it is quicker than hand-cranking the stuff that is always the same.
 
 Similar short-cuts exist for tons of things and it is worth learning a few if you want to avoid nodding off and head-butting your keyboard.
@@ -79,7 +77,6 @@ Here is the entire file, I’ll explain straight after.
                 ] ]>
             </codesnippets>
 ```
-
 Title,Description and Author are reasonably self-explanatory.
 
 Shortcut contains the thing you need to type to access the snippet. I have used “method”, but you could have “me” or “mth” or whatever is obvious to you.
@@ -99,12 +96,10 @@ The snippet itself is defined in two stages. The first part are the Declarations
         </Literal>
 </Declarations>
 ```
-
 The second part is the code, which in our case contains placeholders for the declarations we just created. Just surround the ID with dollars in the code-block.
 
 ```
 <pre class="prettyprint lang-csharp">```
-
         <![CDATA[
                 public $type$ $name$()
                 {
@@ -114,7 +109,6 @@ The second part is the code, which in our case contains placeholders for the dec
 
 ```
 ```
-
 Save the file and it is ready to import!
 
 In Visual Studio, go to `Tools > Code Snippet Manager`. In this dialog you’ll see all the snippets organised neatly into various groups.

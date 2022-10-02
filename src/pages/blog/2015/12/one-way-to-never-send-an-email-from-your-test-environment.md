@@ -25,7 +25,6 @@ You can install the service using PowerShell:
 <pre class="prettyprint lang-powershell">
 New-Service -Name "SmtpStub" -BinaryPathName "C:\SmtpStub\Fenton.SmtpService.exe"
 ```
-
 You can check it is running on port 25 using `Get-NetTCPConnection`. If it doesn’t show, don’t forget to start the service (it will start automatically with the machine, but as we’ve just installed it it will be stopped).
 
 ```

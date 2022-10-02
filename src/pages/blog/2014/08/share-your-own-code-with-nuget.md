@@ -54,7 +54,6 @@ REM If you see this in Visual Studio's Error List window, check the Output windo
 ECHO Creating NuGet package in Post-Build event...
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '$(ProjectDir)PowerShell\NuGet\CreateNuGetPackage.ps1' -ProjectFilePath '$(ProjectPath)' -OutputDirectory '$(TargetDir)' -BuildConfiguration '$(ConfigurationName)' -BuildPlatform '$(PlatformName)'"
 ```
-
 he package will be saved in your bin folder (with the version number in your AssemblyInfo file), for example it will be called:
 
 NorthWind.Logging.0.1.0.4.nupkg

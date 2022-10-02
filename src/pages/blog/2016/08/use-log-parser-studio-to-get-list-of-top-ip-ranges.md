@@ -30,7 +30,6 @@ WHERE
 GROUP BY ip-range
 ORDER BY COUNT(ip-range) DESC
 ```
-
 To get the first three octets of the **X-Forwarded-For** IP address ([see how to add the X-Forwarded-For address to your log file](https://www.stevefenton.co.uk/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/)), and the count of hits use:
 
 ```
@@ -44,7 +43,6 @@ WHERE
 GROUP BY ip-range
 ORDER BY COUNT(ip-range) DESC
 ```
-
 ### Web Log Importer
 
 If you are using [Web Log Importer](https://www.stevefenton.co.uk/tag/web-log-importer/), you can get the same information using the following query:
@@ -63,7 +61,6 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
-
 ### Digging deeper
 
 You can then obtain more detailed lists of IP addresses using this query – just update the ip-range in the WHERE-clause based on what you find in the above queries:
@@ -82,7 +79,6 @@ AND
 GROUP BY c-ip, ip-range
 ORDER BY COUNT(c-ip) DESC
 ```
-
 And once again, for X-Forwarded-For IP addresses:
 
 ```

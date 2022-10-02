@@ -64,7 +64,6 @@ function MarkFileASCopyToOutputDirectory($item)
 #Now mark everything in the a directory as "Copy if newer"
 MarkDirectoryAsCopyToOutputRecursive($project.ProjectItems.Item("Licenses"))
 ```
-
 This marks everything in the “Licenses” folder as “Copy if newer”.
 
 And this script is added to the package by specifying it in the nuspec file:
@@ -91,7 +90,6 @@ And this script is added to the package by specifying it in the nuspec file:
   </files>
 </package>
 ```
-
 In particular, you’ll notice that I’m adding all PowerShell scripts to the “Tools” directory in the package – this is important as it won’t run unless it is in this folder.
 
 Now you simply add this NuGet package to any software that your are distributing and it will ensure all of your licenses are dropped in a “Licenses” folder alongside the software. If you start using new software, you just add the license to the NuGet package project.

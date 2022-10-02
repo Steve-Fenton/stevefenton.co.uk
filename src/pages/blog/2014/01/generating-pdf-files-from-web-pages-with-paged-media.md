@@ -39,7 +39,6 @@ public interface IPdfConverter
     byte[] ConvertUrlToPdf(string url);
 }
 ```
-
 ### Wrapper Class
 
 Next up, a wrapper for Prince:
@@ -67,7 +66,6 @@ Next up, a wrapper for Prince:
     }
 }
 ```
-
 ### Using Prince To Convert HTML To PDF
 
 And now you are ready to rock. Here is a sample MVC controller that converts a supplied URL to PDF and streams back the result (obviously you wouldn’t just accept any URL in the world, but for the purposes of the example it seemed pointless to show code that generates a URL). I have hard-coded a bunch of stuff you wouldn’t in the real world, like file names and such.
@@ -105,7 +103,6 @@ public class PdfController : Controller
     }
 }
 ```
-
 ### Summary
 
 This is a pretty straightforward converter to use. It was definitely “as easy” if not easier than the other libraries I tried. Obviously, I would have loved to have found a free library that did everything that Prince does – but nothing came close in respect of the CSS Paged Media support. Not only does it handle the page breaks and continuation instructions well, it managed to beat all the browsers when it came to the headers and footers.

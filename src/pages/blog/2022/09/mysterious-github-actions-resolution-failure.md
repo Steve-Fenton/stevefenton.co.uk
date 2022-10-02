@@ -21,7 +21,6 @@ This error came from resolving an import through VITE, but it could happen just 
 <pre class="prettyprint">
 [vite]: Rollup failed to resolve import ...
 ```
-
 The answer was really simple. I found a file named `language.astro` where all my other files were capitalised. This irritated me, to I changed it to `Language.astro`. I also updated all the imports to refer to the correct casing.
 
 Locally, everything was named `Language.astro` and it all built fine. However, on committing the code, GitHub still listed the file as `language.astro` as renaming it from language-&gt;**Language** doesn’t update the casing.

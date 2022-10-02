@@ -69,7 +69,6 @@ The good news is ECMAScript 6 has generators, which allow a more LINQ-like imple
     };
 }());
 ```
-
 This extends the array prototype – if you find that distasteful you could easily wrap it and access it via an object, rather than directly extending the native array.
 
 ### Where
@@ -96,7 +95,6 @@ while(true) {
     console.log(currentItem.value);
 };
 ```
-
 ### Select
 
 Here is a full example using “select”.
@@ -115,7 +113,6 @@ var strings = nums.select(function(num) { return num.toString(); }).toList();
 // Logs: ["1", "2", "3", "4", "5", "6"]
 console.log(strings);
 ```
-
 ### Summary
 
 Adding LINQ style expressions to JavaScript without also deferring the evaluation isn’t really providing a true equivalent. In the examples above, adding items to the “num” array after the LINQ expression means that item will be included in the evaluation:
@@ -140,5 +137,4 @@ while(true) {
     console.log(currentItem.value);
 };
 ```
-
 Now that is a bit more like it! Note, though, that if you want to be able to keep running the generator, you’ll need to write a bit more code (in the code above, once you have reached the end, you can’t repeat the process).

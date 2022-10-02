@@ -61,7 +61,6 @@ For example, if you have 99% uptime on each of these three services, your uptime
 
 99.9% x 99.9% x 99.9% = 99.7%
 ```
-
 ### SLAs vs business impact
 
 And finally, giving out an SLA of 99.999% uptime does not mean that there will be 99.999% uptime. Typically it means that when there is 98.999% uptime the customer gets back 1% of their invoice for that billing period. In other words, you can give a 100% uptime SLA on a 99% available application as long as you can absorb a 1% rebate. Incidentally, this is how some companies can give out a 200% uptime guarantee – they simply give you back twice as much as you paid for the period of downtime.

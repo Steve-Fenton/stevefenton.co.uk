@@ -35,7 +35,6 @@ Stacking Context is actually really useful once you know it exists, but can be a
     C
 </div>
 ```
-
 A has a z-index of 100, so it is on top of C, which has a z-index of 90 *and is in the same Stacking Context*.
 
 B is on top of A and C, because it has a z-index of 2, but is in the Stacking Context of A, so think of it as A + 2, or 100 + 2.

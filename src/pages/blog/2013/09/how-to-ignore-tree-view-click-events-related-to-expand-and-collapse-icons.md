@@ -44,7 +44,6 @@ private void Tree_NodeMouseClick(object sender, System.Windows.Forms.TreeNodeMou
     // ...
 }
 ```
-
 If you know a more graceful way, [I’d love to hear it](/Content/Contact/)!
 
 ### hit.Location

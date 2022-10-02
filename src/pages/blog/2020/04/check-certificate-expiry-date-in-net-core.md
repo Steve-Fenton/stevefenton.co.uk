@@ -33,7 +33,6 @@ await httpClient.SendAsync(new HttpRequestMessage(HttpMethod.Head, url));
             
 Assert.IsTrue(notAfter > DateTime.UtcNow.AddDays(60));
 ```
-
 This code only depends on:
 
 ```

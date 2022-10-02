@@ -34,7 +34,6 @@ The example below enables PHPLint (in a not-very-sophisticated way) – but the 
     }
 }
 ```
-
 The most interesting part is the custom problem matcher. You specify a regular expression to parse the output text (the example above is actually far too basic) – you can then map each of the matches to a property, such as:
 
 - file

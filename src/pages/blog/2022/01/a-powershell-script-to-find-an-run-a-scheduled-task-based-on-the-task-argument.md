@@ -45,7 +45,6 @@ if ($found) {
     Write-Warning 'No task found on this server for #{TaskArgument}'
 }
 ```
-
 ### PowerShell stuff used
 
 Breaking this down into it’s parts, we perform the following:

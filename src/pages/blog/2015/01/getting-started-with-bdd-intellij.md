@@ -64,7 +64,6 @@ To download everything you need automatically, open your “pom.xml” file and 
     </repository>
 </repositories>
 ```
-
 ```
 <pre class="prettyprint lang-xml"><dependencies>
     <dependency>
@@ -87,7 +86,6 @@ To download everything you need automatically, open your “pom.xml” file and 
     </dependency>
 </dependencies>
 ```
-
 Maven will happily add all your external dependencies and you may see more than you asked for, because it will automatically grap any additional dependencies that the packages need.
 
 ### Quick Clean Up
@@ -111,7 +109,6 @@ import org.junit.runner.RunWith;
 )
 public class CukesRunner {}
 ```
-
 This wires up Cucumber to JUnit and tells it to find the feature files in the “src/test/resources” folder.
 
 ### Cucumber for Java Plugin
@@ -137,7 +134,6 @@ Feature: Fizz Buzz Game
 
     I want to enter a play and see the correct answer
 ```
-
 ```
 Scenario: Get answers based on played numbers
 
@@ -147,7 +143,6 @@ Scenario: Get answers based on played numbers
 
     Then I should be told the correct answer is "1"
 ```
-
 Now right-click on CukesRunner and select “Run ‘CukesRunner'”. Cucumber will output the following useful message:
 
 ```
@@ -168,7 +163,6 @@ public void I_should_be_told_the_correct_answer_is(String arg1) throws Throwable
     throw new PendingException();
 }
 ```
-
 Simply add this suggested code to a new Java class called “ExampleSteps”. IntelliJ will prompt you to add the following import statements:
 
 ```
@@ -177,7 +171,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 ```
-
 If you run the tests again, you’ll see that the output has changed to show the tests are ignored, because there is no implementation for the tests yet.
 
 ### Complete Example
@@ -198,7 +191,6 @@ import org.junit.runner.RunWith;
 )
 public class CukesRunner {}
 ```
-
 Example.feature
 
 ```
@@ -212,7 +204,6 @@ Scenario: Get answers based on played numbers
     When the number 1 is played
     Then I should be told the correct answer is "1"
 ```
-
 ExampleSteps.java
 
 ```
@@ -239,7 +230,6 @@ public class ExampleSteps {
     }
 }
 ```
-
 Example.java
 
 ```
@@ -250,7 +240,6 @@ public class Example {
     }
 }
 ```
-
 Test Results
 
 ![Test Results](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/intellij-test-results.jpg)

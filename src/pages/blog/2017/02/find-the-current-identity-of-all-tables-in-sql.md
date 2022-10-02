@@ -31,7 +31,6 @@ WHERE
 AND
     TABLE_TYPE = 'BASE TABLE'
 ```
-
 The “Id” column shows the current value.
 
 Thanks to Chris Bailiss for the improvement suggestions, which are included in the above script.

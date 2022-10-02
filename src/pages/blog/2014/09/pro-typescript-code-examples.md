@@ -27,7 +27,6 @@ All of the examples were written using Visual Studio (premium edition) with Upda
 <pre class="prettyprint lang-powershell">
 tsc -v
 ```
-
 The version running on my machine currently is 1.0.3.0. Again, if you have any problems with the examples, check your TypeScript compiler version as there have been breaking changes between versions.
 
 If you have any problems with any of the code examples, you can get an answer in one of the following ways…

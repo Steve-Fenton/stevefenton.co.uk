@@ -25,7 +25,6 @@ You first create a rule to match a host name (all requests to www.example.com wi
 ```
 <pre class="prettyprint">csw-rule "rule-name-1" header "host" equals "WWW.EXAMPLE.COM" case-insensitive
 ```
-
 Then you create a policy for forward matching requests to a server id (if the request matches the rule named “rule-name-1” forward the request to server id 2):
 
 ```
@@ -33,7 +32,6 @@ Then you create a policy for forward matching requests to a server id (if the re
 match "rule-name-1" forward 2
 default forward 1
 ```
-
 The server id is specified against the real server configuration, and identifies a port on a server:
 
 ```

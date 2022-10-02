@@ -39,7 +39,6 @@ that is on the Cloudflare network. Cloudflare is currently unable
 to resolve your requested domain (www.moneysupermarket.co.uk).
 There are two potential causes of this...
 ```
-
 A quick search led me to the `.com` domain. So I started afresh there. I did a quick Who Is check to confirm that Money Supermarket own both domains… so maybe they need to check their configuration.
 
 Other than this slight domain name issue, the website was comparable to Compare the Market in terms of ease. Although I didn’t have a remembered quote to start from, it didn’t take long to check the details in.

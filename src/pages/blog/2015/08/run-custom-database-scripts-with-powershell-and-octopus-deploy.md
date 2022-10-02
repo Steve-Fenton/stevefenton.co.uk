@@ -35,14 +35,12 @@ You can test that you have everything you need by running the following PowerShe
 ```
 <pre class="prettyprint lang-powershell">Import-Module sqlps
 ```
-
 If you have any trouble with this, you can check and try the full path (using “110” in your path for 2012 and “120” for 2014 etc).
 
 ```
 <pre class="prettyprint lang-powershell">
 Import-Module "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\SQLPS\sqlps"
 ```
-
 You will get a warning, which is aimed at the module developer. You can ignore this – and when we call this from Octopus we will specifically ask for it to be ignored so it doesn’t stop the deployment.
 
 > WARNING: The names of some imported commands from the module ‘sqlps’ include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.
@@ -54,7 +52,6 @@ Here is a basic script to run a SQL query:
 Import-Module sqlps
 Invoke-Sqlcmd -ServerInstance "." -Database MyDb -Username usr1 -Password pwd -Query "SELECT GETUTCDATE() AS Example"
 ```
-
 And you can also run a SQL script file:
 
 ```
@@ -62,7 +59,6 @@ And you can also run a SQL script file:
 Import-Module sqlps
 Invoke-Sqlcmd -ServerInstance "." -Database MyDb -Username usr1 -Password pwd  -InputFile "C:\SQL\Script.sql"
 ```
-
 ### The Octopus Version
 
 Now we can add a PowerShell step to the deployment process to run our custom SQL script.

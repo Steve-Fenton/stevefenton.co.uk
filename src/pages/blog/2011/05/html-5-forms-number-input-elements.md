@@ -23,7 +23,6 @@ The number input type is designed to accept numeric input and provides an uppy-d
 ```
 <pre class="prettyprint lang-html"><input type="number" name="number" min="10" max="60" step="10">
 ```
-
 #### Min
 
 The lowest allowed number.
@@ -47,7 +46,6 @@ With a range input, you should specify a value that will be equivalent to 100% o
 ```
 <pre class="prettyprint lang-html"><input type="range" name="range" step="10" value="100">
 ```
-
 ### Next Episode!
 
 Well, I’ve covered lots of the new HTML 5 forms stuff, but in next article I will give [a handy summary](https://www.stevefenton.co.uk/2011/05/HTML-5-Forms-Summary/) and talk a bit about browser support and backwards compatibility.

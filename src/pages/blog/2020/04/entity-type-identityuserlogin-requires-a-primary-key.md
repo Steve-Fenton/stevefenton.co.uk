@@ -39,7 +39,6 @@ Here’s an example with the problem…
         }
     }
 ```
-
 You can fix your code by adding the call to the parent’s `OnModelCreating`.
 
 ```
@@ -58,5 +57,4 @@ You can fix your code by adding the call to the parent’s `OnModelCreating`.
         }
     }
 ```
-
 Now the identity set up will work.

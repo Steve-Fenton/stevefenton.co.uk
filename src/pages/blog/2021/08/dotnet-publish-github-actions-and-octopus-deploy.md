@@ -65,7 +65,6 @@ jobs:
     - name: 🥅 Test
       run: dotnet test --no-restore --verbosity normal
 ```
-
 ### GithHub Actions – calling dotnet publish
 
 Let’s add a step at the end of this process to use our existing publishing profile to create the “distribution artefacts” that we will deploy in a later step.
@@ -77,7 +76,6 @@ The name can be anything you like, so just add something descriptive like “Pub
    - name: 🥅 Publish WWW
       run: dotnet publish $GITHUB_WORKSPACE/Fenton.Website/Fenton.Website.csproj --configuration FolderProfile-winx64 --output $GITHUB_WORKSPACE/distwww --no-restore
 ```
-
 In the above command, the `--configuration` flag is the name we gave our publishing profile. If you have multiple target platforms, you can add a step for each different profile name you need to publish. The `--output` flag sets where the output of the publish process should go. We will need this later when we package and publish the artefacts to Octopus Deploy. You’ll notice the `--no-restore` flag is there, as we have done that once at the start of the whole build process.
 
 ### GitHub Actions – Package and Publish to Octopus Deploy
@@ -105,7 +103,6 @@ We can now write steps to download the Octopus CLI, package our stuff, and publi
     - name: 🐙 WWW Push
       run: octo push --package="$GITHUB_WORKSPACE/distoctopus/Website.${{ github.run_number }}.zip" --server="${{ secrets.OCTOPUS_SERVER }}" --apiKey="${{ secrets.OCTOPUS_APIKEY }}"
 ```
-
 The first step uses the community action written by Octopus Deploy to install the latest version of the Octopus CLI. You can also specify a specific version of the CLI if you need to.
 
 We then run `octo pack` to grab the contents of the “distwww” folder (that we created in the DotNet Publish step earlier) and place it in a package in the “distoctopus” folder. We use the `github.run_number` to version the package. Your version strategy could be more complex than this! This step is neat because you don’t need to manage a whole NuGet package with associated package specs. It’s just a zip file of things you want to deploy.
@@ -116,7 +113,6 @@ After this, we run `octo push` to send the package to the server. You can see he
 <pre class="prettyprint lang-bash">
 Run octo push --package="$GITHUB_WORKSPACE/distoctopus/Website.88.zip" --server="***" --apiKey="***"
 ```
-
 If you run all these steps, the result is a package in Octopus Deploy that is ready to release.
 
 ### Appendix one – Complete GitHub Action sample
@@ -159,7 +155,6 @@ jobs:
     - name: 🐙 WWW Push
       run: octo push --package="$GITHUB_WORKSPACE/distoctopus/Website.${{ github.run_number }}.zip" --server="${{ secrets.OCTOPUS_SERVER }}" --apiKey="${{ secrets.OCTOPUS_APIKEY }}"
 ```
-
 ### Appendix 2 – GitHub Actions screen
 
 The below is the output for my whole production example – you’ll see that I’m actually packaging two components rather just a single website component.

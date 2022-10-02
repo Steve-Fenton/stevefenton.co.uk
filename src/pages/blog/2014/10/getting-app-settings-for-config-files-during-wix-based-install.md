@@ -68,7 +68,6 @@ Dialog sequence:
   </Fragment>
 </Wix>
 ```
-
 **app.config**
 
 Or indeed web.config… you need to add your app setting just like normal. No tokens are needed for this method, so you can leave your default values in. The default values will be replaced when the installer runs.
@@ -79,7 +78,6 @@ Or indeed web.config… you need to add your app setting just like normal. No to
     <add key="TcpPort" value="25" />
 </appSettings>
 ```
-
 **MyProduct.wxs**
 
 I’m using the WiX util library, so you need to add the XML namespace to your documents (shown as “xmlns:util” below…):
@@ -89,14 +87,12 @@ I’m using the WiX util library, so you need to add the XML namespace to your d
     xmlns="http://schemas.microsoft.com/wix/2006/wi"
     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
 ```
-
 In the product element… add a property element. The Id must be all UPPERCASE – this is secret code for “this property is public”.
 
 ```
 <pre class="prettyprint lang-xml">
 <Property Id="TCPPORT" Value="25"/>
 ```
-
 In your component element… use the XmlFIle element from the util library to take the property and jam it into the app.config (works for web.config too). Special note – the XPath really does need to be escaped as shown because WiX uses \[ and \] to delimit property tokens, so you need to:
 
 - Replace \[ with \[\\\[\]
@@ -113,7 +109,6 @@ In your component element… use the XmlFIle element from the util library to ta
     ElementPath="/configuration/appSettings/add[\[]@key='TcpPort'[\] ]/@value"
     Value="[TCPPORT]" />
 ```
-
 **SettingsDlg.wxs**
 
 In your UI dialog (in a separate file named “SettingsDlg.wxs” in my case) … you need to add a label and an edit box to allow the user to input the data as part of the installation process. The Property attribute links the edit box to the property set up above. The Text property takes the current value of the Property and shows it, so the user can choose to leave your default value if they wish (thus making your installer 1,000 times more user friendly).
@@ -128,7 +123,6 @@ In your UI dialog (in a separate file named “SettingsDlg.wxs” in my case) �
     Id="SettingTcpPort" Property="TCPPORT" Text="[TCPPORT]" Type="Edit"
     X="130" Y="10" Height="18" Width="80" />
 ```
-
 Here is the entire SettingsDlg.wxs file for reference:
 
 ```
@@ -155,7 +149,6 @@ Here is the entire SettingsDlg.wxs file for reference:
   </Fragment>
 </Wix>
 ```
-
 **UILoc\_en-us.wxl**
 
 You’ll notice that the label’s Text attribute has the value “!(loc.SettingsDlg\_TcpPortLabel)”. You could just put your text in there, for example “TCP Port”, but I am localizing the installer. If you are localizing the installer too, you’ll need to add the following entry in each language file (UILoc\_en-us.wxl, UILoc\_fr-fr.wxl and so on):
@@ -164,7 +157,6 @@ You’ll notice that the label’s Text attribute has the value “!(loc.Setting
 <pre class="prettyprint lang-xml">
 <String Id="SettingsDlg_TcpPortLabel">TCP Port</String>
 ```
-
 And here is the whole UILoc\_en-us.wxl file for reference:
 
 ```

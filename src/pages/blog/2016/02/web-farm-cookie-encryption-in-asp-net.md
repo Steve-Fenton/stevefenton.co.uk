@@ -25,7 +25,6 @@ So we need to generate a machine key to share amongst all these machines. Here i
 using System.Text;
 using System.Security.Cryptography;
 ```
-
 ```
 <pre class="prettyprint lang-csharp">private static string GetKey(int keyLength)
 {
@@ -46,7 +45,6 @@ using System.Security.Cryptography;
     return result;
 }
 ```
-
 Using the above method, you can generate an SHA1 key and an AES key to use as your shared machine key. Here is a simple console app that does just that:
 
 ```
@@ -62,7 +60,6 @@ Using the above method, you can generate an SHA1 key and an AES key to use as yo
     Console.ReadLine();
 }
 ```
-
 You can then pop these two keys in your web.config file, in the spaces indicated in this code snippet.
 
 ```
@@ -75,7 +72,6 @@ You can then pop these two keys in your web.config file, in the spaces indicated
     <!-- ... -->
 </system.web>
 ```
-
 If you are using this for values stored long-term, make doubly sure that you have these backed up somewhere safe, otherwise you won’t be able to decrypt your data later on if you lose your keys.
 
 The final piece of the puzzle is a couple of wrapper methods that expose the MachineKey Protect and Unprotect methods to use with strings.

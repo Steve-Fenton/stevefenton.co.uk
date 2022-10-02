@@ -26,7 +26,6 @@ They have used attribute styles rather than CSS on their body tag. Check out the
 <pre class="prettyprint lang-html">
 <body bgcolor=#ffffff text=#000000 link=#0000cc vlink=#551a8b alink=#ff0000>
 ```
-
 On top of this, the body tag (and the html tag) are never closed.
 
 ### External CSS and Scripts
@@ -54,7 +53,6 @@ amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;
 amp;amp;amp;amp;amp;amp;amp;
 </body></html>
 ```
-
 This is a list of all of the double-quotes, script type attributes, missing closing tags and escaped ampersand characters that won’t be found on the Google home page – it’s quite a few characters and it doesn’t include the characters they saved by giving their elements id attributes like “gtb” instead of “taskbar”.
 
 The other thing that this doesn’t include is the number of web requests. If each of the scripts and the stylesheet were external, there would have been 7 more web requests queued waiting to download.

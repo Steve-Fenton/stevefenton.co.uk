@@ -42,7 +42,6 @@ You add the Merge element to a DirectoryRef element in your WiX project. The exa
            Language="0"/>
 </DirectoryRef>
 ```
-
 ### 3. Feature MergeRef Element
 
 The feature element includes the merge module in your install (and in this case hides it from any feature list you present in the installation UI – it wouldn’t be good if it were to be de-selected!) Again, the nesting is Product &gt; Feature &gt; MergeRef.
@@ -57,7 +56,6 @@ The feature element includes the merge module in your install (and in this case 
     <MergeRef Id="VCRedist"/>
 </Feature>
 ```
-
 ### Notes
 
 If you install the C++ redistributable manually, it will appear under Programs and Features (because you used an installer and can therefore uninstall it easily). This is not a good method of checking that your installer has correctly installed the C++ redistributable dependency, because it is actually a part of your installer and won’t be listed separately. You’ll notice this because your program will run fine even though it looks like C++ redistributable is not installed if you view the installed program list.

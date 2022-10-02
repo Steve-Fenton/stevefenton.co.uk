@@ -46,7 +46,6 @@ gulp.task('test', function () {
     return gulp.src('./').pipe(jest());
 });
 ```
-
 Once you have a Gulp task file, you can open the Visual Studio Task Runner Explorer window. Use `CTRL` + `ALT` + `Backspace` to open the Task Runner Explorer if you need to.
 
 You’ll see the task show up as shown below:
@@ -59,7 +58,6 @@ To make things really sweet, you will probably want to run your tests every time
 <pre class="prettyprint lang-javascript">
 /// <binding AfterBuild='test' />
 ```
-
 If you have multiple tasks to run on build, it is typical to wrap them together in a default task.
 
 And that’s about it. Your tests can now be run within Visual Studio, and automatically each time you build your solution. Neat.
@@ -120,7 +118,6 @@ So normally for tsUnit, you have a web page to display your results and you incl
 </body>
 </html>
 ```
-
 So how do we run the tests in Visual Studio instead?
 
 #### JavaScript Helper Class
@@ -195,7 +192,6 @@ namespace MyApp.Tests
     }
 }
 ```
-
 Just put this class somewhere your test project can get hold of.
 
 #### Reference Your Scripts
@@ -250,7 +246,6 @@ namespace MyApp.Tests
     }
 }
 ```
-
 If the test fails, you’ll get reasonable information about the failure in your Visual Studio test window.
 
 </body></html>

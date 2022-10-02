@@ -33,7 +33,6 @@ And here it is. This is exactly the kind of line that will cause exactly this ki
 <pre class="prettyprint lang-javascript">
 console.log("Some message for the console.");
 ```
-
 So what’s the gotcha with this line of code? When you open Firebug, there *is* a console. When you close Firebug, there *isn’t*. You can perform a couple of fixes for this…
 
 You can detect whether the console feature exists.
@@ -44,7 +43,6 @@ if (typeof console !== 'undefined') {
     console.log("Some message for the console.");
 }
 ```
-
 You can even implement your own “silent console” – this example does nothing, but you could write to an HTML element when “log” is called.
 
 ```

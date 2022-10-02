@@ -41,7 +41,6 @@ SELECT
  ORDER BY
     IPS.avg_fragmentation_in_percent DESC
 ```
-
 ### Fixing fragmented indexes
 
 If you have too much fragmentation (more than 30%), you can fix it by running:
@@ -50,21 +49,18 @@ If you have too much fragmentation (more than 30%), you can fix it by running:
 <pre class="prettyprint lang-sql">
 ALTER INDEX ALL ON dbo.MyTableName REBUILD WITH (ONLINE=ON)
 ```
-
 Certain data types prevent you using `ONLINE=ON` (like big text fields). In these cases, you can’t do it with this option enabled, so you have to use:
 
 ```
 <pre class="prettyprint lang-sql">
 ALTER INDEX ALL ON dbo.MyTableName REBUILD
 ```
-
 If you have index with less than 30% fragmentation, you can reorganise them by running:
 
 ```
 <pre class="prettyprint lang-sql">
 ALTER INDEX [PK_MyTableName] ON dbo.MyTableName REORGANIZE;
 ```
-
 You can also fix them all by pulling the table names into a cursor and running it for each one, as shown below. Note that there is a `MinPercentage` parameter that you can use to set the level at which you want to rebuild and index. You can use this to reduce the number of indexes you rebuild. Use a higher number if you are running this for the first time, and lower it for subsequent runs. Ideally, you shouldn’t have more than 10% fragmentation on any index.
 
 ```
@@ -119,7 +115,6 @@ END
 CLOSE TableCursor
 DEALLOCATE TableCursor
 ```
-
 ### Results
 
 Before running the script to fix fragmentation:
@@ -135,7 +130,6 @@ Total Size  45.73765625
 Used Size   15.30108398
 Free Size   30.43657227
 ```
-
 After running the script to fix fragmentation:
 
 ```
@@ -149,7 +143,6 @@ Total Size  16.76264648  (-28.97500977)
 Used Size   15.22998047  (-0.07110351)
 Free Size   1.532666016  (-28.90390625)
 ```
-
 The key here is that the database has dropped to 35% of its original size – just from defragging the indexes. There are still some badly fragmented indexes, but the average fragmentation is massively improved. For best results, rebuild your indexes as part of a healthy maintenance plan.
 
 ### Maintenance plan

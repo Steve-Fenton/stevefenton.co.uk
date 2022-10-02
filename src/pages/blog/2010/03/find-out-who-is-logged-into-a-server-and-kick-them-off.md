@@ -19,11 +19,9 @@ Well, shout no longer as you can find out who’s logged onto a machine by runni
 ```
 <pre class="prettyprint lang-powershell">query session /server:YOURSERVERNAME
 ```
-
 And if you find out that someone has logged in and then left the country, you can kick them off too – the above command will tell you each user’s session id and you can use this to boot them off the box. In this example, the session id is 1.
 
 ```
 <pre class="prettyprint lang-powershell">rwinsta /server:YOURSERVERNAME 1
 ```
-
 There – problem solved!

@@ -23,7 +23,6 @@ Once you install the [REST Client Extension](https://marketplace.visualstudio.co
 <pre class="prettyprint">
 GET https://www.example.com/ HTTP 1.1
 ```
-
 The extension will add a “Send Request” option above the request. When you click this, it will send the request and show you the response in another editor pane.
 
 ![VSCode REST Client](https://www.stevefenton.co.uk/wp-content/uploads/2020/03/vscode-rest-client-1024x672.jpg)
@@ -64,7 +63,6 @@ grant_type=password
 GET https://www.example.com/api/cosmicdust/episodes?limit={{pageSize}}&page=1 HTTP/1.1
 Authorization: Bearer {{token}}
 ```
-
 We start off creating some variables for the values that will change frequently. That way they are at the top of the file and we won’t accidentally ruin a request with a bad edit.
 
 Then we name our login request, using `# @name login`.

@@ -30,7 +30,6 @@ This is just a little script I needed to use to increase text size conditionally
     $(document).ajaxComplete(minFontSize);
 })();
 ```
-
 Before Image
 
 ![Text Size Before](https://www.stevefenton.co.uk/wp-content/uploads/2020/02/text-size-before.jpg)

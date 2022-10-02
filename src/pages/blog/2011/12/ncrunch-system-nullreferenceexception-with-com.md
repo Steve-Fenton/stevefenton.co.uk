@@ -33,7 +33,6 @@ If you are using [NCrunch awesomeness in Visual Studio](https://www.stevefenton.
  at nCrunch.Compiler.RemoteBuildRunner.#=qfsCVCP9z8p8itsPjdEucb21b3UdedVHBi8gsF76Ddpw=(ComponentBuildParameters #=qmkOUo_qPadDv2Jh_RvEeFw==, String #=qeQVxsYosAYGxzPuSRqwCgvxMKp_7oVPJk1lA2naHni0=, BuildOutput #=qRILTPHYyuGtBH_NyMhcqkQ==, String #=qp67sU93pGbLGBgppbDFZXbOOMHNfqroD4Dqku1U_cUI=)
  at nCrunch.Compiler.RemoteBuildRunner.Build(ComponentBuildParameters parameters)
 ```
-
 Don’t panic – there is a work around for this. Open NCrunch configuration and find the project that fails with this error and change the setting “InstrumentAssembly” to false. It is the NCrunch instrumentation that has a problem, so this will allow the project to build and for the tests to run.
 
 ![NCrunch](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/NCrunchInstrumentationSetting.jpg)

@@ -22,7 +22,6 @@ interface JQuery<TElement = HTMLElement> extends Iterable<TElement> {
     //...
 }
 ```
-
 If you are looking for the short version, it is simply this; `JQuery<TElement = HTMLElement>` should be `JQuery<TElement = Element>`.
 
 ### Why is the current definition wrong?
@@ -37,7 +36,6 @@ const path = document.getElementsByTagName('path');
 // accessKey, accessKeyLabel, autocapitalize, dir, and 16 more.
 const htmlElement: HTMLElement = path[0];
 ```
-
 An `SVGPathElement` doth not an `HTMLElement` make. In fact, both of these are sub-classes of `Element`
 
 [![Element Class Hierarchy](https://www.stevefenton.co.uk/wp-content/uploads/2020/04/element-class-hierarchy-400x227.jpg)](https://www.stevefenton.co.uk/2020/04/jquery-and-typescript-we-have-a-big-problem-with-jquery-d-ts/element-class-hierarchy/)
@@ -55,7 +53,6 @@ This means that the following line of code should…
 <pre class="prettyprint lang-ts">
 const svgPathElement: JQuery<HTMLElement> = $('path');
 ```
-
 ### So, why don’t we just fix it?
 
 There are many, many cases where code works because it complies with the fundamental assumption.

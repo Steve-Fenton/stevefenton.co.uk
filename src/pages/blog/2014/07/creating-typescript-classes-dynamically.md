@@ -29,7 +29,6 @@ Here is an example the class and method that creates instances:
     }
 }
 ```
-
 And you can call it like so:
 
 ```
@@ -45,7 +44,6 @@ var example = InstanceLoader.getInstance<NamedThing>(window, 'Example');
 
 alert(example.name);
 ```
-
 Now you can create any class that implements the NamedThing interface (explicitly or implicitly) dynamically at runtime. The interface simply helps you with type checking and auto-completion – so you only need an interface that describes the properties you expect to exist on the returned object.
 
 If you need to pass constructor arguments, you can do that too:

@@ -29,7 +29,6 @@ Let’s no constrain the image to a square:
 <pre class="prettyprint lang-html">
 <img src="web-operations-monitoring.jpg" style="object-fit: cover" width="400" height="400" id="cover-image" />
 ```
-
 We now have a 400px by 400px version of the image, cropped automatically by the web browser. But in Internet Explorer, it looks a little funny…
 
 ![Broken object-fit: cover in Internet Explorer](https://www.stevefenton.co.uk/wp-content/uploads/2019/09/object-fit-internet-explorer.jpg)
@@ -51,7 +50,6 @@ function objectFit(image) {
     }
 }
 ```
-
 You can call this whenever you have an image element, so you could write a wrapper that gets all images with an `object-fit` style (or based on a class, or whatever)… and pass them through the function. In our case, let’s just apply it to our single image:
 
 ```
@@ -59,7 +57,6 @@ You can call this whenever you have an image element, so you could write a wrapp
 var elem = document.getElementById('cover-image')
 objectFit(elem);
 ```
-
 If the browser supports “objectFit”, nothing happens; the image will already look just as you expect. For Internet Explorer, them shim will step in and fix the stretchyness.
 
 ![Internet Explorer with working object-fit: cover](https://www.stevefenton.co.uk/wp-content/uploads/2019/09/object-fit-internet-explorer-with-shim.jpg)

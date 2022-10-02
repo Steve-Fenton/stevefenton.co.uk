@@ -27,10 +27,8 @@ There is nothing worse than spending hours on something then discovering it has 
 Your first step with any definition is this:
 
 ```
-<pre class="prettyprint lang-typescript">
 declare var amazingToolkit: any;
 ```
-
 This doesn’t give you any type checking, but it instantly lets you use it however you like. This is the universal sink unblocker of TypeScript. If you need to use some JavaScript and don’t have time to define it, this is where you start. You can back-fill the definition later on and the compiler will start to warn you if anything you are using doesn’t match up.
 
 ### Step 3 – Options
@@ -38,15 +36,12 @@ This doesn’t give you any type checking, but it instantly lets you use it howe
 I normally recommend that you define the stuff you use first. The full definition for the JavaScript can wait in line behind the sub-set you need to use right now. So let’s imagine we have the following two calls in TypeScript that we want to add static typing to:
 
 ```
-<pre class="prettyprint lang-typescript">
 amazingToolkit.AmazingClass.amazingProperty = true;
 amazingToolkit.AmazingClass.run(1, 'Hello');
 ```
-
 There are a few options for specifying a definition. The first is to use the declare keyword. When you prefix a module or class with “declare”, you can put together the type information without any implementation, like this:
 
 ```
-<pre class="prettyprint lang-typescript">
 declare module AmazingToolKit {
     export class AmazingClass {
         static amazingProperty: bool;
@@ -54,11 +49,9 @@ declare module AmazingToolKit {
     }
 }
 ```
-
 The second option is to use an interface to describe the type information:
 
 ```
-<pre class="prettyprint lang-typescript">
 interface AmazingToolKit {
     AmazingClass: {
         amazingProperty: bool;
@@ -66,18 +59,15 @@ interface AmazingToolKit {
     };
 }
 ```
-
 From a type checking point of view, these are identical – so when would you use each one?
 
 Using the declare keyword with modules and classes means that your TypeScript code can extend the code in the JavaScript file. For example:
 
 ```
-<pre class="prettyprint lang-typescript">
 declare class MyClass extends AmazingToolKit.AmazingClass {
    
 }
 ```
-
 So this is only appropriate if there is a prototype to extend in the first place – if in doubt, the interface style definitions are the way to go as any TypeScript code would have to implement the whole interface.
 
 ### Step 4 – Complex
@@ -89,14 +79,11 @@ There are some interesting real-life cases where you need to create more complex
 You have some JavaScript that let’s you chain your calls…
 
 ```
-<pre class="prettyprint lang-typescript">
 amazing.up().down().left().right().right();
 ```
-
 All you need to do is return the interface from each call…
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Amazing {
     up() : Amazing;
     down() : Amazing;
@@ -106,21 +93,17 @@ interface Amazing {
 
 declare var amazing: Amazing;
 ```
-
 #### Nested
 
 You have some JavaScript that has nested functions…
 
 ```
-<pre class="prettyprint lang-typescript">
 amazing.move(15, 23);
 amazing.move.up(23);
 ```
-
 You just need to create an interface for the “move” component (you can also do this in-line in the Amazing interface, but it is just not as readable), like this – note the anonymous function at the top of the interface, which is our “move(15, 23)” call…
 
 ```
-<pre class="prettyprint lang-typescript">
 interface AmazingMove {
     (x: number, y: number) : void;
     up(distance: number) : void;
@@ -135,13 +118,11 @@ interface Amazing {
 
 declare var amazing: Amazing;
 ```
-
 #### Array of functions
 
 One question that crops up a lot is how to define a function that requires you to pass an argument that is an array of functions…
 
 ```
-<pre class="prettyprint lang-typescript">
 var funcs = [
     function (x) { alert(x); },
     function (x) { console.log(x); }
@@ -149,18 +130,15 @@ var funcs = [
 
 amazing.callAll(funcs);
 ```
-
 This is how you would define it…
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Amazing {
     callAll(funcs: { (x: string) : void; }[]): void;
 }
 
 declare var amazing: Amazing;
 ```
-
 This can be simplified by looking at the inner function definition “(x: string) : void;”, which is simple wrapped in curly braces “{ (x: string) : void; }” and then given the array literal tail “{ (x: string) : void; }\[\]”.
 
 #### Others
@@ -174,7 +152,6 @@ If the JavaScript library has “private” members, should you model them in yo
 If the member is private thanks to a closure that hides it from the outside world, don’t add it to the definition. For example, the “update” function in the following code example:
 
 ```
-<pre class="prettyprint lang-typescript">
 var Example = (function () {
     var update = function() {
         alert('Private');
@@ -189,11 +166,9 @@ var Example = (function () {
     return Example;
 })();
 ```
-
 If the member has been added to the prototype of the object, add it to the definition so you know not to create a member with the same name on a sub-class. For example, the “update” function in the following variation of the code example:
 
 ```
-<pre class="prettyprint lang-typescript">
 var Example = (function () {
     function Example() {
     }
@@ -208,7 +183,6 @@ var Example = (function () {
     return Example;
 })();
 ```
-
 ### Step 6 – Definitely Typed
 
 That feeling you get when you find a definition already written – you can cause that feeling for other people by submitting your definition to Boris Yankov’s [Definitely Typed GitHub project](https://github.com/borisyankov/DefinitelyTyped).

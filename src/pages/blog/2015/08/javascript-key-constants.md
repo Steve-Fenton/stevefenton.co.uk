@@ -135,7 +135,6 @@ var SPECIAL_KEY = {
     SCROLL_LOCK: 145
 };
 ```
-
 The keys constants are “character keys” – letters, numbers, and other printable characters. The special keys are tabs, enter keys, function keys (you won’t get these if the browser handles them first), and other non-printable characters. I have put “SPACE” in both because I can imagine people thinking “that’s a special key” – even though it is printable. The value is only defined once though. Re-use that pattern if you need to do this.
 
 You use them as simply as…
@@ -143,7 +142,6 @@ You use them as simply as…
 ```
 <pre class="prettyprint lang-js">if (event.which === KEY.SEMI_COLON) //...
 ```
-
 If you want the compact version… it is here:
 
 ```

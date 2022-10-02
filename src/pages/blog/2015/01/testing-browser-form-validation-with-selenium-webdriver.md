@@ -35,7 +35,6 @@ So let’s assume you have a simple form, like this:
     </fieldset>
 </form>
 ```
-
 The browser will prevent submission in the following circumstances:
 
 - The name is not entered
@@ -51,5 +50,4 @@ Luckily it is pretty simple. You can get a collection of invalid elements using 
 [FindsBy(How = How.CssSelector, Using = "input:invalid")]
 public IList<IWebElement> InvalidInputElements { get; set; }
 ```
-
 Now I can check that I have the correct number of invalid elements after I attempt to submit the form and I have access to each one if I need it.

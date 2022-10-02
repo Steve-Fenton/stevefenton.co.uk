@@ -28,7 +28,6 @@ You can grab Fitnesse from the [official Fitnesse website](http://fitnesse.org/F
 <pre class="prettyprint lang-powershell">
 "C:\Program Files (x86)\Java\jre7\bin\java" -jar fitnesse-standalone.jar -p 8080
 ```
-
 I’m using port 8080 in this example because the default port (80) is already taken. When you run the command, you’ll get a little Fitnesse window that you need to leave open while you want to access the wiki.
 
 You can now browse to `http://localhost:8080` to see the default home page.
@@ -63,7 +62,6 @@ namespace Acceptance.Tests
     }
 }
 ```
-
 Build this project – the DLLs from your build will need to end up somewhere that your test server can get to.
 
 ### Write the Acceptance Test
@@ -81,7 +79,6 @@ If you go to `http://localhost:8080/MyAcceptanceTests` Fitnesse will create your
 |Hello      |World       |Hello World |
 |Steve      |Fenton      |Steve Fenton|
 ```
-
 The important bits here are…
 
 - path – where your .NET DLLs can be found

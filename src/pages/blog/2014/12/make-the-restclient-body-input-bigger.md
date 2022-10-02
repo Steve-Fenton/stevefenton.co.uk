@@ -32,7 +32,6 @@ Update! Some time after this post, Stylish changed hands and got banned by multi
   }
 }
 ```
-
 You could do this without Stylish by creating a userContent.css file and placing it in the appropriate location.
 
 Now I have an appropriately sized content box for my REST testing!

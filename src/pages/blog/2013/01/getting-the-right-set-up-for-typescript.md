@@ -42,7 +42,6 @@ Here is an example file, the most important bit being `"strict": true`. Most que
     }
   }
 ```
-
 ### Modules
 
 The more I use TypeScript, the more I see value in modules (rather than namespaces). My original working method was to use namespaces for small stuff, and modules for big stuff. The thing is though, at some point your small stuff will turn into bigger stuff. When you have to make a call about how big stuff is going to get, you start predicting the future. When you predict the future, you get it wrong. You also have to use modules to be effective when running on the server, so you then have to take this into account too.

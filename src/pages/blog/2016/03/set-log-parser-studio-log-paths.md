@@ -29,7 +29,6 @@ The file will look like this:
   </LPLogFile>
 </ArrayOfLPLogFile>
 ```
-
 All you need to do is add an “LPLogFile” for each folder… I generated the list of several hundred folders with a script…
 
 ```
@@ -166,5 +165,4 @@ All you need to do is add an “LPLogFile” for each folder… I generated the 
   <!-- You get the idea ... -->
 </ArrayOfLPLogFile>
 ```
-
 Save this file and re-start Log Parser Studio and you’ll see that your log file paths now contain all of the folders you added.

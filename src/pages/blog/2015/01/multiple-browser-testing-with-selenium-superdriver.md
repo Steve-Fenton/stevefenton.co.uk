@@ -26,7 +26,6 @@ Here is a typical line of code instantiating a driver:
 <pre class="prettyprint lang-csharp">
 IWebDriver driver = new FirefoxDriver();
 ```
-
 And here is an equivalent line of code that instantiates a SuperWebDriver that will run three different browsers simultaneously.
 
 ```
@@ -37,7 +36,6 @@ IWebDriver driver = new SuperWebDriver(
     new InternetExplorerDriver()
 );
 ```
-
 The SuperWebDriver acts just like any other driver. When you issue a command, it is forwarded to all of the drivers that are wrapped in the SuperWebDriver.
 
 SuperWebDriver uses deep-wrapping. For example, calling FindElement on a driver normally returns a single IWebElement. SuperWebDriver also sends back a single IWebElement, but this is implemented in a SuperWebElement wrapper that holds references to the web elements for each browser.

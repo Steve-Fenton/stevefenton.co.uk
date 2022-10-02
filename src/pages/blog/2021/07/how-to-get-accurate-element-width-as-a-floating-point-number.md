@@ -19,7 +19,6 @@ If you find you are getting the wrong answer for element sizes, you are probably
 <pre class="prettyprint lang-javascript">
     const width = elem.clientWidth; // 580
 ```
-
 When you do this, an element that is `580.484` pixels wide is going come back with `580`. Accurate, but not precise.
 
 When you need those extra digits, you need to use `getBoundingClientRect` to get precision:
@@ -28,7 +27,6 @@ When you need those extra digits, you need to use `getBoundingClientRect` to get
 <pre class="prettyprint lang-javascript">
 const width = elem.getBoundingClientRect().width; // 580.484
 ```
-
 ### Why do those 0.484 pixels matter?
 
 Some background. This is needed because I’ve seen this question asked online and the answers say “why would you need this” or “there’s something wrong if you care about that level of precision”. As you may know, I *do* care about precision.

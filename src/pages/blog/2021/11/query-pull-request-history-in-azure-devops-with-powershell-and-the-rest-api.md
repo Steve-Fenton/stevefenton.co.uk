@@ -31,7 +31,6 @@ $FullUri = $OrgUri + '_apis/git/repositories/?api-version=6.1-preview'
 
 (Invoke-RestMethod -Uri $FullUri -Method get -Headers $AzureDevOpsAuthenicationHeader).value | ConvertTo-Json | Write-Host
 ```
-
 ### Get your pull requests
 
 We’ll assume we found the repository ID and it was `a00a0000-00aa-000a-a0aa-000aa0a00000`. We can now query the pull requests using the below script. In the example I have set the `searchCriteria.status` query parameter to look only at “completed” pull requests. I am also using the `$top` query parameter to grab the last 500 pull requests. You can use both `$skip` and `$top` to effectively page through results, for example: `&$skip=100&$top=50`.
@@ -56,5 +55,4 @@ $FullUri = $OrgUri + '_apis/git/repositories/' + $RepositoryId + '/pullrequests/
 
 (Invoke-RestMethod -Uri $FullUri -Method get -Headers $AzureDevOpsAuthenicationHeader).value | ConvertTo-csv -NoTypeInformation -Delimiter "`t" | Out-File C:\Temp\PRs.csv
 ```
-
 The result of this script is a CSV file with all of the pull request data.

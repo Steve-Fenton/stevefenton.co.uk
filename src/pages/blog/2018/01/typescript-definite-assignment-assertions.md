@@ -18,7 +18,6 @@ tags:
 The new feature is related to the following improved compile-time check. In the example below, I forgot to assign a value to the `wordsPerMinute` property. This can happen when you forget to add a default value, or when you forget to initialize it in the constructor, or (as below) when you forget to map a parameter to the property (remember, [you *don’t* need to manually map constructor parameters](https://www.stevefenton.co.uk/2013/04/stop-manually-assigning-typescript-constructor-parameters/)!).
 
 ```
-<pre class="prettyprint lang-typescript">
 class ArticleMeta {
     private wordsPerMinute: number;
     private secondsPerImage: number;
@@ -28,7 +27,6 @@ class ArticleMeta {
     }
 }
 ```
-
 Whatever the reason, if you compile using the `strict` flag (I keep telling you to use it), you’ll get the following error, known as a definite assignment error because there is no definite assignment:
 
 > app.ts(2,13): error TS2564: Property ‘wordsPerMinute’ has no initializer and is not definitely assigned in the constructor.
@@ -40,7 +38,6 @@ The correct fix is probably to assign `this.wordsPerMinute = wordsPerMinute` in 
 When you need to allow a property with no definite assignment, you can use the *definite assignment assertion*. This is a very grand name for adding a bang (!) to the property name.
 
 ```
-<pre class="prettyprint lang-typescript">
 class ArticleMeta {
     private wordsPerMinute!: number;
     private secondsPerImage: number;
@@ -50,7 +47,6 @@ class ArticleMeta {
     }
 }
 ```
-
 This will only work in TypeScript 2.7 and newer.
 
 ### Usage

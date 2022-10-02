@@ -29,7 +29,6 @@ public void RunSomething(object myParam)
     // Code I want to read
 }
 ```
-
 The more parameters a method has, the further you have to scroll to get to the code you want to read. This is the driver behind the parameter null checking feature.
 
 Parameter null checking provides a syntax for achieving the same checks without writing all the code. You just add `!!` to the end of the parameter name.
@@ -41,7 +40,6 @@ public void RunSomething(object myParam!!)
     // Code I want to read
 }
 ```
-
 Now the code I want to read is right at the top of the method. Hooray. Algorithmically, I save `(4 lines <em>x</em> parameters) - (2 characters <em>x</em> parameters)` across my whole codebase. That’s approximately a *gazelle-ian* lines of code.
 
 Under the hood, it doesn’t generate exactly the same code you might have written yourself, it generates a more performant version. This interests me, so here’s what the compiler turns the code into…
@@ -55,7 +53,6 @@ public void RunSomething(object myParam)
     // Code I want to read
 }
 ```
-
 The `PrivateImplementationDetails` alluded to in the above output is below. You could implement a version of this in your own codebase right now if you really wanted to.
 
 ```
@@ -77,7 +74,6 @@ internal sealed class <PrivateImplementationDetails>
     }
 }
 ```
-
 ### Why?!
 
 If you followed the discussion, you will have found many questions or comments relate to the choice of adding two exclamation marks to the parameter name. This can be broken down into the following component questions:
@@ -106,7 +102,6 @@ public void RunSomething(object myParam)
     // Code that doesn't need to use myParam
 }
 ```
-
 Why does the `!!` go on the parameter *name* not the parameter *type*? Because this isn’t type information; it’s a modification of the behaviour in response to the value.
 
 With this little insight into the choice of syntax, we can understand a bit more how it fits into the language. It might not be perfect, but it does make sense.

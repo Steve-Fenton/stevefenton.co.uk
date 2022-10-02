@@ -29,7 +29,6 @@ EndProject
 ...
 ...
 ```
-
 You’ll see lots of information in here, but you are specifically interested in these projects.
 
 Let’s assume that ProjectNameB is actually our UI and everything else is a class library. This is a safe bet to use as a whole team default start-up project. All we need to do is move it up the list so it appears first in the solution file… like this:
@@ -46,5 +45,4 @@ EndProject
 ...
 ...
 ```
-
 Unless your .suo file says differently (but remember, we deleted that in Step 1) ProjectNameB is now the default start-up project. This doesn’t affect how anything is displayed in the solution.

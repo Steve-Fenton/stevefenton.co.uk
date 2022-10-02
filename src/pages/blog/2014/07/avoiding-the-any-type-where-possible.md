@@ -40,7 +40,6 @@ So what if you do want to use a dynamic type… should you just use *any*? Here 
 var y: any = "a";
 x = y;
 ```
-
 You can see the absolute nightmare that you can cause with this trick. The variable x has the number type, but now contains a string value. If you use this for an addition, you’ll end up with a concatenation and you’re essentially back in JavaScriptLand. In real life, the offending lines of code could be a long ways apart and it would take you a while to unstick yourself from this tar-pit.
 
 Do you still want to be so slapdash with the *any* type! (This question is rhetorical – I know that you probably already got the point about avoiding this type so I apologise for over-stressing it).

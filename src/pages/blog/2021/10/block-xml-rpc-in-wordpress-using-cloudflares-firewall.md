@@ -22,7 +22,6 @@ order deny,allow
 deny from all
 </Files>
 ```
-
 You should also set up a Cloudflare firewall rule like this:
 
 1. Rule Name: Block XML RPC (xmlrpc.php)

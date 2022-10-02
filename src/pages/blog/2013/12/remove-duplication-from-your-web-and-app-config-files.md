@@ -40,7 +40,6 @@ Start by creating a file in the root of your solution called “ConnectionString
          connectionString="Data Source=DBSERVER;Initial Catalog=SecretDataStore;integrated security=sspi"/>
 </connectionStrings>
 ```
-
 You can pop all your connection strings in this file.
 
 To use connection strings in your app, you need to do something slightly different depending on whether it is a cool and progressive web app or not.
@@ -62,7 +61,6 @@ In your web.config file, replace the entire connectionStrings config section wit
 ```
 <pre class="prettyprint lang-xml"><connectionStrings configSource="bin\ConnectionString.config"/>
 ```
-
 Whether you run in debug mode or in real life, the ConnectionString.config file will be picked up from the bin directory. You can now just edit the shared file to change all of your web projects in one hit.
 
 ### Adding Shared Config to Other Projects
@@ -84,7 +82,6 @@ In your app.config file, replace the entire connectionStrings config section wit
 ```
 <pre class="prettyprint lang-xml"><connectionStrings configSource="ConnectionString.config"/>
 ```
-
 Note that we are saying that the ConnectionString.config file will always be in the root directory – this isn’t actually true when you are running the project in Visual Studio, so in order to make it true we need to copy the file.
 
 To copy the file:
@@ -98,7 +95,6 @@ To copy the file:
 del /f /q "$(TargetDir)..\..\ConnectionString.config"
 xcopy /f "$(TargetDir)\ConnectionString.config" "$(TargetDir)..\..\"
 ```
-
 This will ensure the shared file will always be available in the same directory as the app.config file when running the project in Visual Studio (when you actually deploy the app / service it will be there by default).
 
 So now you have a single file to change for all your projects.

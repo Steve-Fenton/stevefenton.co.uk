@@ -34,7 +34,6 @@ So here is my mark-up before I added RDFa Lite:
     </footer>
 </article>
 ```
-
 So let’s start adding some attributes. The first attribute is the vocab. This tells people where the schema is defined.
 
 ```
@@ -43,7 +42,6 @@ So let’s start adding some attributes. The first attribute is the vocab. This 
     ...
 </article>
 ```
-
 The second attribute is “typeof”. This describes the type of the item – and you stick it on the same element as your “vocab” attribute. In my case, I’m using the “Book” type, but there are many, many types to choose from on schema.org. By adding this attribute to the article, we are now saying “each article describes a book”.
 
 ```
@@ -52,7 +50,6 @@ The second attribute is “typeof”. This describes the type of the item – an
     ...
 </article>
 ```
-
 Now we have defined the kind of thing we are describing, we can pick out the bits of data that are within the article. I have picked out the book’s “name”, the “author” and the “url” of the book.
 
 ```
@@ -68,7 +65,6 @@ Now we have defined the kind of thing we are describing, we can pick out the bit
     </footer>
 </article>
 ```
-
 And we’re done. This example is hardly any different to the microdata example. Only time will tell which specification will gain the wider adoption, but I suppose everyone is going to have to end up supporting both, which is kind of ridiculous!
 
 ### Additional notes

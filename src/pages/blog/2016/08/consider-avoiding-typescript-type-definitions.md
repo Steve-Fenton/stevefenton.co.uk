@@ -31,7 +31,6 @@ There are other ways of handling these external libraries. Firstly, you can simp
 ```
 <pre class="prettyprint lang-typescript">declare var $: any;
 ```
-
 You can take this a step further, and isolate them from your application (in the case of some frameworks, this will be next-to-impossible, but in many cases you can simply put the external library behind your own TypeScript class and use that class to expose the parts you need. You get full “proper” TypeScript goodness when calling this class, and within the class you can decide how much type information will make economic sense (for example, none).
 
 So maybe you don’t need to find type definitions for every external library you use… maybe you can do without it. You should at least consider it before downloading your next type definition.

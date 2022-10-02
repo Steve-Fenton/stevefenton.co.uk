@@ -39,7 +39,6 @@ public class User {
     public int UserRoleId { get; set; }
 }
 ```
-
 So imagine you allow users to update their name and email address on some kind of profile editing page – tempting to just re-use this domain object right? So you use a User object as your view model and the job is done. On the view you spit out inputs for first name, last name and email address and live happily ever after. Except you don’t.
 
 One of the handy things ASP.NET MVC does for you is automatically map the HTTP POST to the parameter on the action in your controller, which so far looks like this…
@@ -49,7 +48,6 @@ One of the handy things ASP.NET MVC does for you is automatically map the HTTP P
 public ActionResult Edit(User model) {
     //...
 ```
-
 So in this happy-path example you get the following automatic mapping…
 
 | POST | User |
@@ -77,7 +75,6 @@ public class UserEditModel {
     public string LastName { get; set; }
 }
 ```
-
 And we accept this in our controller…
 
 ```
@@ -99,7 +96,6 @@ public ActionResult Edit(UserEditModel model) {
     return RedirectToAction("Details", new { id = user.UserId });
 }
 ```
-
 We protect ourselves by getting the user from the logged in user details and only mapping across the three fields we want them to be able to update. Great stuff.
 
 As a bonus, having view models that only include the specific data that should be displayed / updated means you can take advantage of scaffolding to generate views without needing to manually remove stuff.
@@ -118,7 +114,6 @@ Unless you are hand-cranking all your validation, it is likely that you are usin
 [StringLength(50)]
 public string FirstName { get; set; }
 ```
-
 Needless to say, the validation you impose on your UI is not the same as the validation you may impose elsewhere and these attributes in particular do not belong on your domain object. Indeed, the validation on the FirstName property on the user registration page may be entirely different from the validation on the edit user profile page.
 
 ### Sources

@@ -32,7 +32,6 @@ function Example
     );
 }
 ```
-
 The second example is an extreme example just to demonstrate the point. In most cases, the formatting comes down to a couple of choices. Some people prefer to put their curly braces on a new line, other like the opening curly brace to be on the same line as the function (for example). On other occasions, people add new lines to make things more readable, like when a function accepts a lot of arguments or when instantiating a new array.
 
 So here is an example of when this can all fall apart. The first example works… the second doesn’t. Can you spot the difference?
@@ -55,7 +54,6 @@ var MyNamespace = (function() {
 
 MyNamespace.SayHello("Steve");
 ```
-
 Broken example:
 
 ```
@@ -75,7 +73,6 @@ var MyNamespace = (function() {
 
 MyNamespace.SayHello("Steve");
 ```
-
 The eagle-eyed among you will have noticed there is only one tiny change – the curly brace after the “return” keyword is on a new line. This actually causes an “invalid label” error in JavaScript. If you like your curly-braces on a new line, you are very likely to encounter this issue!
 
 So if you ever get the “invalid label” error, check your curly braces and move them onto the same line as the return statement.

@@ -22,7 +22,6 @@ I was asked today to explain the “this” keyword in JavaScript, so here is a 
 <pre class="prettyprint lang-html">
 <p onclick="alert(this.id);" id="example">Click On Me</p>
 ```
-
 `this` is a great way of getting the HTML element that started off an event. In the little snippet above, `this` is the paragraph. When you call `this.id`, you get the id of the paragraph, i.e. “example”.
 
 ### Slightly More Complicated `this` Example
@@ -36,7 +35,6 @@ I was asked today to explain the “this” keyword in JavaScript, so here is a 
     };
 </script>
 ```
-
 This example works in exactly the same way as before, so you don’t have to put your events on the HTML element to use `this`. In this example we bind the event using JavaScript and everything directly inside of our function will magically understand that `this` refers to the paragraph you click on.
 
 If you bind the same event handler to lots of HTML elements, `this` will always be whichever one got clicked on – really handy!

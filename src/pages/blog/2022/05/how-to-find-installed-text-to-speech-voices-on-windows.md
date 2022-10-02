@@ -21,7 +21,6 @@ Add-Type -AssemblyName System.speech
 $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $synth.GetInstalledVoices() | foreach { $_.VoiceInfo.Name }
 ```
-
 Running these three lines of PowerShell will give you a list such as this:
 
 ```
@@ -29,5 +28,4 @@ Running these three lines of PowerShell will give you a list such as this:
 Microsoft Hazel Desktop
 Microsoft Zira Desktop
 ```
-
 Enter the full name, such as “Microsoft Zira Desktop”, in the settings for the VSCode Speech plugin settings. You should set this under user preferences, not workspace settings – as speed and voice is going to be a personal choice for your colleagues.

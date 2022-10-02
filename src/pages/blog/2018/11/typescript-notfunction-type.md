@@ -18,21 +18,16 @@ I have been working out how to create a TypeScript NotFunction type for a while,
 The type works by taking all possible types and converting the type to `never` if it extends the `Function` type.
 
 ```
-<pre class="prettyprint lang-typescript">
 type NotFunction<T> = T extends Function ? never : T;
 ```
-
 You can use this type to enforce “anything except functions” as shown below:
 
 ```
-<pre class="prettyprint lang-typescript">
 const x: NotFunction<typeof myVariable> = myVariable;
 ```
-
 Here is a full working example:
 
 ```
-<pre class="prettyprint lang-typescript">
 type NotFunction<T> = T extends Function ? never : T;
 
 const aFunction = (input: string) => input;
@@ -46,11 +41,9 @@ const x: NotFunction<typeof aFunction> = aFunction;
 const y: NotFunction<typeof anObject> = anObject;
 const z: NotFunction<typeof aString> = aString;
 ```
-
 You also get compiler assistance if you accidentally use a different type on the left-hand and right-hand side of the expression (which is possible due to having to repeat yourself):
 
 ```
-<pre class="prettyprint lang-typescript">
 // Error: string and function aren't assignable
 const x: NotFunction<typeof aString> aFunction;
 ```

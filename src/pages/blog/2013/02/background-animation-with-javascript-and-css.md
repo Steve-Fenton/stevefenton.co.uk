@@ -34,7 +34,6 @@ I want my script to be able to plug in to any website without causing name clash
 
 }());
 ```
-
 Anything I put inside of this immediately invoked function expression will be restricted in scope to just this function. This means I can safely name things as I like without accidentally adding them into the global scope where they would be available all over the place and might interfere with other scripts. Here’s an example of this in action…
 
 ```
@@ -45,7 +44,6 @@ Anything I put inside of this immediately invoked function expression will be re
 
 alert(example); // undefined
 ```
-
 Only code inside the block can see the example variable, so as far as the alert is concerned (which is outside the block) it doesn’t exist.
 
 ### Adding the HTML
@@ -63,7 +61,6 @@ I want to add two elements to my page. When the user scrolls up or down, I will 
     document.body.appendChild(lowerElement);
 }());
 ```
-
 This drops two new elements on the page, but they aren’t yet styled – so now I need to add the styles to the elements.
 
 ### Adding the CSS
@@ -78,7 +75,6 @@ var applyStyles = function (element, styles) {
     }
 };
 ```
-
 This function takes an element and an array of key-value pairs representing styles and applies them all. We can define a bunch of styles and pass them all in. I want to stick the elements underneath all the content, stick them to the top of the window and apply the background image.
 
 ```
@@ -96,7 +92,6 @@ styles = [
 
 applyStyles(upperElement, styles);
 ```
-
 ### The Story So Far
 
 So here is the full script so far. If we run this, we end up with the additional background images on our page.
@@ -134,7 +129,6 @@ So here is the full script so far. If we run this, we end up with the additional
     document.body.appendChild(lowerElement);
 }());
 ```
-
 ### Scroll Event
 
 Now I want to move our elements when the page is scrolled. To do this, I’ll listen to the scroll event on the window. The scrollHandler is the function that will be called each time the page is scrolled and we add this event listener to the scroll event. Inside the scrollHandler function, I just move the upper element by the distance scrolled and the lower element by half the distance scrolled.
@@ -153,7 +147,6 @@ if (window.addEventListener) {
     window.attachEvent('onscroll', scrollHandler);
 }
 ```
-
 In some browsers, this would actually be enough – the scroll event would be called a great many times and the background would smoothly slide while we were scrolling. Not all browsers work this way, though and things will look jerky and unpolished. I’ll fix that next.
 
 ### CSS Animation
@@ -166,7 +159,6 @@ All I need to do is add a transition to my list of styles.
 <pre class="prettyprint lang-javascript">
 ['transition', 'background ' + time + 's ease 0s']
 ```
-
 Some browsers only have experimental support for transitions, so I will add prefixed versions for all the browsers to make sure it works in as many as possible.
 
 ```
@@ -177,7 +169,6 @@ Some browsers only have experimental support for transitions, so I will add pref
 ['OTransition', 'background ' + time + 's ease 0s'],
 ['transition', 'background ' + time + 's ease 0s']
 ```
-
 I have kept the number of seconds for the animation in a variable, so I only ever need to change it in one place. Here is the complete script so far.
 
 ```
@@ -230,7 +221,6 @@ I have kept the number of seconds for the animation in a variable, so I only eve
     }
 }());
 ```
-
 We now have a smooth 5 second animation that looks really nice. You might think we are all finished – but there is still a bit of polishing to do to make this animation great.
 
 ### Flip the Background
@@ -249,7 +239,6 @@ styles = [
 
 applyStyles(lowerElement, styles);
 ```
-
 To keep things working as I want, I need to flip the backgroundPosition for the lower element when I want to move it. Here is the final script:
 
 ```
@@ -312,7 +301,6 @@ To keep things working as I want, I need to flip the backgroundPosition for the 
     }
 }());
 ```
-
 ### Summary
 
 So I have created a simple chunk of stand-alone JavaScript, used CSS to do all the heavy lifting and got a really cool effect that is pretty easy to customise. I have used all of the vendor-prefixes for the CSS3 features that may only have experimental support and I’ve done a bit of polishing to make it look better than the unpolished version.

@@ -42,7 +42,6 @@ This is all about page breaks, either forcing them in or asking for content to b
     }
 }
 ```
-
 You can set “page-break-before”, “page-break-after” and “page-break-inside” and you’ll most likely want to use either “always” to force the page-break or “avoid” to ask for your content to be kept on a single page (if that is possible).
 
 With “page-break-before” you are asking for the element to stick to its predecessor, and with “page-break-after” you are asking the following element to stick with the selected one.
@@ -67,7 +66,6 @@ Working with pages opens up a lot of opportunities, but one simple one is to set
     margin-top: 10cm;
 }
 ```
-
 In this example, we use “:left” and “:right” to set a wider margin on the inner-edge of the page. We also use the “:first” selector to nudge the title further down the page on the front page.
 
 ### Content
@@ -89,7 +87,6 @@ The possibilities for content and many and varied, but an almost certain use for
     }
 }
 ```
-
 ### But Why?
 
 Okay, so just as we stop printing stuff we invent something to help us printing stuff. Is this just crazy?

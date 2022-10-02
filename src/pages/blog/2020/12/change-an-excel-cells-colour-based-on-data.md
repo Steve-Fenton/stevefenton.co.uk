@@ -31,7 +31,6 @@ Private Sub Worksheet_Change(ByVal Target As Range)
    End With
 End Sub
 ```
-
 Important notes… because I want to leave a gap after the RGB cells before I fill a cell, my offsets are -4 (red), -3 (green), and -2 (blue). If you were filling the cell directly after the RGB values, you’d use -3, -2, -1 because this is basically how far away from the coloured cell the values can be found.
 
 You need to specify the cell range containing the RGB colour value (in my case `E:G`) and the cell you want to paint (for me `I`).

@@ -25,37 +25,31 @@ These selectors are great for general CSS rules. They will apply to all elements
 ```
 <pre class="prettyprint lang-css">*
 ```
-
 Everything. This applies to every element on the entire web page.
 
 ```
 <pre class="prettyprint lang-css">div
 ```
-
 All div elements.
 
 ```
 <pre class="prettyprint lang-css">div *
 ```
-
 All elements inside any div element.
 
 ```
 <pre class="prettyprint lang-css">div p
 ```
-
 All p elements inside all div elements.
 
 ```
 <pre class="prettyprint lang-css">div > p
 ```
-
 All p elements that are direct children of any div element.
 
 ```
 <pre class="prettyprint lang-css">div + p
 ```
-
 All p elements that are directly after a div element.
 
 ### Class and id selectors
@@ -65,19 +59,16 @@ These selectors are useful when you want to do something a bit more specific to 
 ```
 <pre class="prettyprint lang-css">.classname
 ```
-
 Gets all elements with the specified class name. In this example all elements with class=”classname”.
 
 ```
 <pre class="prettyprint lang-css">div.classname
 ```
-
 Gets all div elements with the specified class name.
 
 ```
 <pre class="prettyprint lang-css">#myid
 ```
-
 Gets the element (there should be only one) with the specified id. In this example, the element with id=”myid”.
 
 Note: You probably never need to specify div#myid to specifically select a div element with an id of “myid” as id attributes must be unique in an HTML document. If you have the same id on different elements in different documents… well maybe look into BEM!!!
@@ -89,19 +80,16 @@ These selectors are useful if you want to get hold of an element of group of ele
 ```
 <pre class="prettyprint lang-css">a[rel]
 ```
-
 Gets all a elements that have a rel attribute, no matter what the value of the rel attribute is.
 
 ```
 <pre class="prettyprint lang-css">a[rel='example']
 ```
-
 Gets all a elements with a rel tag that have the value “example”.
 
 ```
 <pre class="prettyprint lang-css">a[rel|='exam']
 ```
-
 Gets all a elements that have a rel attribute that begins with “exam”. So you would get both of the elements in the previous example.
 
 ### Nesting your selections
@@ -120,7 +108,6 @@ Here is the HTML.
     </ul>
 </div>
 ```
-
 And the CSS:
 
 ```
@@ -138,7 +125,6 @@ And the CSS:
     /* Some rules */
 }
 ```
-
 Multiple selectors
 
 You will also find that you need to apply the same style to many items, so it is worth getting to know the differences between various groups of selectors. You can continue to chain these rules if you wish.
@@ -146,25 +132,21 @@ You will also find that you need to apply the same style to many items, so it is
 ```
 <pre class="prettyprint lang-css">div p
 ```
-
 By placing a space between the selectors, you get all p elements that are inside of a div element. The space denotes “descendants”. They don’t have to be direct children, but anywhere inside of the element.
 
 ```
 <pre class="prettyprint lang-css">div > p
 ```
-
 By placing a “greater than” sign between the selectors you get all p elements that are direct children of a div element.
 
 ```
 <pre class="prettyprint lang-css">div + p
 ```
-
 By placing a “plus” sign between the selectors, you get all p elements that directly follow a div element.
 
 ```
 <pre class="prettyprint lang-css">div, p
 ```
-
 By placing a comma between the selectors you get all p elements AND all div elements.
 
 You can chain any of these rules to make a very specific selector, and you can mix them together too. Like this.
@@ -172,7 +154,6 @@ You can chain any of these rules to make a very specific selector, and you can m
 ```
 <pre class="prettyprint lang-css">div > p ul
 ```
-
 This rule would get all ul elements that are anywhere inside a p element that is a direct child of a div element.
 
 In practice, keep your rules reasonably simple as it will make it easier to work out why something has suddenly turned blue and bold later on!

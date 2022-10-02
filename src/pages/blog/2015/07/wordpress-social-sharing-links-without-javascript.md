@@ -35,7 +35,6 @@ Here is my replacement for social sharing buttons. To avoid JavaScript, you esse
 	</ul>	
 </div>
 ```
-
 I have popped CSS classes on each link so the text can be replaced with an icon using a bit of CSS and Genericons.
 
 This eliminated 7 HTTP requests from my website compared to the plugin I was using.

@@ -25,7 +25,6 @@ There may be some minor differences between “A.Fake&lt;T&gt;”, “MockReposi
 <pre class="prettyprint lang-csharp">
 mock.Setup(m => m.DoSomething()).Returns("Value");
 ```
-
 This is specifically the Moq version, but asides from the two words that precede the lambda – this is what you’ll find almost everywhere. You may remember being warned to “beware yellow snow” when using ASP.NET templating, well in this case you get a sea of “((m =&gt; m))” or “(() =&gt; )” emoticons.
 
 Here is the full Moq version for use when comparing with NSubstitute later. I wrote versions of this same simple scenario in something like eight mock frameworks.
@@ -41,14 +40,12 @@ language.Buzz = "Buzz";
 
 _target = new Game(language);
 ```
-
 Enter NSubstitute and its neat use of extension methods.
 
 ```
 <pre class="prettyprint lang-csharp">
 language.DoSomething().Returns("Value");
 ```
-
 I prefer this syntax. A lot.
 
 Here is the complete NSubstitute version.

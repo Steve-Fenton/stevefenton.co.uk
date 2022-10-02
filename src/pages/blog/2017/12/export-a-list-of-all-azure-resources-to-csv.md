@@ -19,7 +19,6 @@ There’s a two-step process for exporting the data, the first step is to login 
 <pre class="prettyprint lang-ps">
 Login-AzureRmAccount
 ```
-
 ### Get Azure resources
 
 And the second step is to get the resources and pipe them into a CSV in the location of your choice:
@@ -28,5 +27,4 @@ And the second step is to get the resources and pipe them into a CSV in the loca
 <pre class="prettyprint lang-ps">
 Get-AzureRmResource | Export-CSV C:\temp\azure-resources.csv
 ```
-
 This gives you a big list of everything you have, including names, types, resource groups, locations.

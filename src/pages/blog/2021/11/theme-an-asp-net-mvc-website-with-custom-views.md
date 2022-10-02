@@ -46,7 +46,6 @@ public void Application_Start(object sender, EventArgs e)
     //... more configuration!
 }
 ```
-
 To implement a custom view engine, we create a class that inherits from `RazorViewEngine` and overrides the methods `FindPartialView` and `FindView`. Almost all the code in each of these methods will end up doing the same thing, so we’ll create a private method that does all the work.
 
 ```
@@ -72,7 +71,6 @@ public class CustomViewEngine
         // Custom View implementation
     }
 ```
-
 Because there is a subtle difference between the underlying `CreatePartialView` and `CreateView` method calls that we need to make after we decide which locations to search, we need to wrap these to pass into our shared method.
 
 Some key points are explained after this full example…
@@ -175,7 +173,6 @@ public class CustomViewEngine
     }
 }
 ```
-
 ### Key points
 
 One incredibly important part of this example is the `keyPath` as this must contain enough information to make it unique. For example, if the `partialSet` variable was not included in this key, you would end up with the first request “winning the cache” and subsequent requests could use the wrong view.

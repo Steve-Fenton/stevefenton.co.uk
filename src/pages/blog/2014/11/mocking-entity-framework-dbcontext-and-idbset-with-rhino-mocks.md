@@ -34,7 +34,6 @@ private static IDbSet<T> GetDbSetTestDouble<T>(IList<T> data) where T : class
     return dbSet;
 }
 ```
-
 This method takes a list of items and creates the mock of the IDbSet that will allow the list of items to be used just like normal.
 
 Here is an example method that creates a mock DbContext, with the help of this first method.
@@ -56,7 +55,6 @@ private static ICustomerDataContext CreateCustomerDataContextTestDouble()
     return dataContextTestDouble;
 }
 ```
-
 I have used a “Customer” type here for illustration. Hopefully you can see how this would work for pretty much anything.
 
 If you wanted to get really funky, you can even use this along with Unity to have the mocked data context supplied to your classes… normally you would simply pass the mock into the constructor of the class you are testing, but in my case I was using WebAPI.Testing to call code via a headless browser, rather than constructing the controller in a Web API project directly.

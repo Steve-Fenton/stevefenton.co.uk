@@ -21,7 +21,6 @@ SomeMethod(() => MyFactory.GetInformation().ForCustomer(CustomerId));
 
 SomeMethod(() => MyFactory.GetInformation().ForCustomer(CustomerId).ToList());
 ```
-
 In the end, I created a couple of extension methods to help. One converts an expression into a MethodCallExpression (if that is a valid conversion), which is a type that has arguments. The second recursively searches for the arguments.
 
 ```
@@ -67,7 +66,6 @@ In the end, I created a couple of extension methods to help. One converts an exp
     }
 }
 ```
-
 And you call it like this…
 
 ```

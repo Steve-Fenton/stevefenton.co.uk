@@ -27,7 +27,6 @@ Exception Info: System.DllNotFoundException
    at System.Windows.Input.PenThreadPool.GetPenThreadForPenContextHelper(System.Windows.Input.PenContext)
    ...
 ```
-
 So the Server Manager error and the SQL Management Studio both appear to come from the same area within the world of WPF’s pen/touch/tablet space.
 
 ### The fix

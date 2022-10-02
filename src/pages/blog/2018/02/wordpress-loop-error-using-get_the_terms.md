@@ -22,7 +22,6 @@ foreach($terms as $term) {
     echo $term->name ;
 }
 ```
-
 This code is a perfectly standard function call and loop that you’ll find in many themes, but it is missing an important check. The amended code, with the check added, is shown below.
 
 ```
@@ -35,5 +34,4 @@ if ($terms && !is_wp_error($terms)) {
     }
 }
 ```
-
 By checking that we successfully obtained the terms before attempting to loop over them, we can now survive that errant post with missing taxonomical information.

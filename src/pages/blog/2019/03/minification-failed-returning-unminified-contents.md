@@ -24,7 +24,6 @@ Has you ASP.NET applicaiton reported that minification failed? If you are using 
 (List of problems here)
  */
 ```
-
 It can happen for JavaScript or CSS, but it means minifier has found something confusing and can’t understand the file in order to shrink it.
 
 The most common cause of this in CSS is a compiler that emits the `@charset` declaration at the top of the CSS file. The minifier doesn’t seem to understand this declaration.
@@ -54,7 +53,6 @@ public static void RegisterBundles(BundleCollection bundles)
     bundles.Add(bundle);
 }
 ```
-
 Assuming that our problem is with “c.min.js” and that this script doesn’t depend on the two earlier scripts, we can simply move it out of the script bundle like this:
 
 ```
@@ -76,7 +74,6 @@ public static void RegisterBundles(BundleCollection bundles)
     bundles.Add(bundle);
 }
 ```
-
 The important note here is that our pre-minified bundle uses a `new Bundle` rather than a `new ScriptBundle`. Unlike script bundles, plain bundles aren’t minified.
 
 You have to reference both bundles on your page, but because minification now works, your overall script size is smaller. My fixed bundles were overall 30% smaller, your mileage may vary.

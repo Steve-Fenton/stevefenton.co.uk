@@ -17,14 +17,12 @@ The traditional embed of a YouTube video looks like this…
 <pre class="prettyprint lang-html">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VOWnhMxJMMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 ```
-
 The HTML to use instead is a plain link. The link points to the standard watch page, so if something goes wrong, it all still works (the user ends up on YouTube, where they can see the video).
 
 ```
 <pre class="prettyprint lang-html">
 <a href="https://www.youtube.com/watch?v=VOWnhMxJMMk">Watch Jimmy Eat World - Something Loud</a>
 ```
-
 A script then turns this into a video thumbnail served by YouTube’s image server, and when the user clicks it loads in the video for the user to enjoy without leaving the website. The “click-play” class can be used to style things up… I think it makes sense to stick the text over the top of the thumbnail so it’s obvious what to do / what will happen.
 
 See it in action at the bottom of this [Jimmy Eat World article](https://www.phonotonal.com/2022/06/jimmy-eat-world-something-loud/).
@@ -63,5 +61,4 @@ function clickHandler (event) {
 
 document.addEventListener('click', clickHandler);
 ```
-
 The main difference to the original is loading a smaller thumbnail image size and using lazy loading on the image.

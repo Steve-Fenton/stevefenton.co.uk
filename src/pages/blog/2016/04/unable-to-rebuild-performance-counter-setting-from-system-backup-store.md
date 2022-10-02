@@ -17,7 +17,6 @@ I was attempting to rebuild performance counters on a Windows Server 2012 machin
 ```
 <pre class="prettyprint lang-powershell">lodctr /r
 ```
-
 But kept getting the error:
 
 > Error: Unable to rebuild performance counter setting from system backup store, error code is 5PS
@@ -30,7 +29,6 @@ If you still have a problem, you may need to re-install .NET with the version re
 <pre class="prettyprint lang-bash">C:\Windows\system32>c:\Windows\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.
 exe -i
 ```
-
 Then re-try the lodctr command – and you should see:
 
 > Info: Successfully rebuilt performance counter setting from system backup store

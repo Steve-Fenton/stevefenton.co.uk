@@ -32,7 +32,6 @@ Get-ChildItem -Recurse -Filter "*.xml" | % {
 Write-Host "---------------------"
 Write-Host Total $total.ToString("n0")
 ```
-
 This outputs a list of files with the count per file, with a total at the end of the list.
 
 For example, running `.\xml-element-counter.ps1` will output:
@@ -55,5 +54,4 @@ For example, running `.\xml-element-counter.ps1` will output:
 ---------------------
 Total 13,560
 ```
-
 So there were 13,560 elements found in all those XML files.

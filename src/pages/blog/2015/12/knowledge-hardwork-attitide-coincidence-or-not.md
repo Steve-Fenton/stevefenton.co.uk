@@ -31,7 +31,6 @@ The real question is, where did the % come from here? The value of all the lette
 Here’s a program that you can use to find the values quickly, with additional contributions from [Morteza Rahmani](https://www.linkedin.com/in/ppx1400/):
 
 ```
-<pre class="prettyprint lang-typescript">
 var map = 'abcdefghijklmnopqrstuvwxyz';
 
 function getValue(word) {
@@ -62,5 +61,4 @@ console.log(getValueAsPercent('Knowledge'));
 console.log(getValueAsPercent('Hardwork'));
 console.log(getValueAsPercent('Attitude'));
 ```
-
 If you want a phrase that gives you 100% (although I’m at a loss to understand why you would need one), you need look no further than: “Dull Motivational Quotes Suck”.

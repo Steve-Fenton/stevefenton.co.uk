@@ -35,7 +35,6 @@ The set up for this example is shown below (this is the result of a `tree /F` co
 └───theme
         style.css
 ```
-
 ### What should happen
 
 We want all of the markdown files in the `test` folder to be combined into a single PDF output file.
@@ -52,21 +51,18 @@ We’re going to install “md-to-pdf” using NPM. This is the workhorse that�
 <pre class="prettyprint lang-bash">
 npm install -g md-to-pdf
 ```
-
 We want to put the output in a folder, so we’d better create it before we start.
 
 ```
 <pre class="prettyprint lang-bash">
 mkdir -p _output
 ```
-
 We are then going to slip into the folder with all the markdown files. Embedded images work if we’re running in the right folder. I called the folder “test”, but you might want to call it “content” or something specific to the content.
 
 ```
 <pre class="prettyprint lang-bash">
 cd test
 ```
-
 We’re going to do several things in one big hit in the next command.
 
 - `for f in *.md` for each file with a “.md” extension
@@ -81,7 +77,6 @@ Here it is as it will appear in the action:
 <pre class="prettyprint lang-bash">
 for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "../theme/style.css" > ../_output/blue-paper.pdf
 ```
-
 That’s all the important commands detailed, let’s look at it all put together.
 
 ### The full action
@@ -123,7 +118,6 @@ jobs:
           name: output
           path: _output
 ```
-
 [![](https://www.stevefenton.co.uk/wp-content/uploads/2022/04/github-action-complete-1024x417.jpg)](https://www.stevefenton.co.uk/2022/04/converting-markdown-files-to-pdf-in-github-actions/github-action-complete/)
 
 ### Page options

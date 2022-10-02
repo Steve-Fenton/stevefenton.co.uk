@@ -23,7 +23,6 @@ There was one thing, though, that I didn’t like about PHP classes. If I wanted
 include_once 'classes/Customer.php';
 $Customer = new Customer();
 ```
-
 Or it meant adding all the classes to the top of the master PHP file… like this:
 
 ```
@@ -31,7 +30,6 @@ Or it meant adding all the classes to the top of the master PHP file… like thi
 include_once 'classes/Customer.php';
 include_once 'classes/Product.php';
 ```
-
 When you have 50 classes and you include them all, but only use 2 or 3 depending on the particular request, this seems very wrong. Also, adding “include\_once” statements everywhere you instantiate a class seems rather nasty too.
 
 The solution to this is simple. Don’t include any of your classes. Just instantiate them at will… for example, wouldn’t it be great if you could just do this:
@@ -41,7 +39,6 @@ The solution to this is simple. Don’t include any of your classes. Just instan
 $Customer = new Customer();
 $Product = new Product();
 ```
-
 Well you can! All you need to do is add an auto load method to your main PHP file. This will detect when an unknown class is instantiated and will dynamically load it for you.
 
 ```
@@ -51,7 +48,6 @@ function __autoload($class_name) {
     include_once $ClassFile;
 }
 ```
-
 For this to work you need to ensure:
 
 1. All of your classes are in the same directory

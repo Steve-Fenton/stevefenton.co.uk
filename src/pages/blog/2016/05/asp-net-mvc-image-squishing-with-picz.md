@@ -36,7 +36,6 @@ Install the Picz package from NuGet.
 ```
 <pre class="prettyprint lang-powershell">PM> Install-Package Fenton.Picz
 ```
-
 ### Config
 
 Add configuration for the lifetime of the images in the disk cache (to save yourself a whole lot of CPU).
@@ -45,7 +44,6 @@ Add configuration for the lifetime of the images in the disk cache (to save your
 <pre class="prettyprint lang-xml"><add key="PiczCacheDurationHours" value="48" />
 <add key="PiczCachePath" value="E:\Temp\ImageCache\" />
 ```
-
 ### Controller
 
 Add a controller to send image requests to Picz… this code does everything you need:
@@ -68,7 +66,6 @@ public class PiczController : Controller
     }
 }
 ```
-
 ### Use it!
 
 You can now make any image tag responsive by replacing:
@@ -78,7 +75,6 @@ You can now make any image tag responsive by replacing:
     src="~/Content/landscape-mountains-nature-lake.jpeg"
     alt="Mountain Reflection" />
 ```
-
 With the very similar Html Helper that Picz supplies:
 
 ```
@@ -87,5 +83,4 @@ With the very similar Html Helper that Picz supplies:
      "100vw",
      new { alt = "Mountain Reflection" })
 ```
-
 Picz will create your image tag with a responsive source set, and take care of supplying and caching the images at the appropriate sizes.

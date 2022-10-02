@@ -16,7 +16,6 @@ This one has cropped up a couple of times and I’m interested in this kind of p
 The short answer to this is that TypeScript *will* catch this problem if you do things my way. Let’s use the following working example to play with.
 
 ```
-<pre class="prettyprint lang-typescript">
 function go(isWorking: boolean): Promise<string> {
     return new Promise((resolve, reject) => {
         window.setTimeout(() => {
@@ -37,11 +36,9 @@ go(false)
     .then((val) => console.log(val))
     .catch((err) => console.log(err));
 ```
-
 Let’s start by recreating the error people have been reporting. Let’s switch the resolve and reject parameters:
 
 ```
-<pre class="prettyprint lang-typescript">
     return new Promise((reject, resolve) => {
         window.setTimeout(() => {
             if (isWorking) {
@@ -52,7 +49,6 @@ Let’s start by recreating the error people have been reporting. Let’s switch
         }, 200);
     });
 ```
-
 Immediately, TypeScript warns us that the argument of type ‘Error’ isn’t either a ‘string’ or a ‘PromiseLike<string>‘. Or in exact terms…</string>
 
 ```
@@ -61,7 +57,6 @@ Argument of type 'Error' is not assignable to parameter of type 'string | Promis
   Type 'Error' is not assignable to type 'PromiseLike<string>'.
     Property 'then' is missing in type 'Error'.
 ```
-
 ![Promise Resolve/Reject Error](https://www.stevefenton.co.uk/wp-content/uploads/2017/11/promise-resolve-reject-error.png)
 
 So how do we end up not being told about this problem by the compiler?
@@ -71,10 +66,8 @@ So how do we end up not being told about this problem by the compiler?
 The first way to end up in a sticky puddle is to leave-off the return type annotation on the function that returns a promise.
 
 ```
-<pre class="prettyprint lang-typescript">
 function go(isWorking: boolean) { // <-- no return type
 ```
-
 The return type is now inferred, and it lands on `Promise`. Basically, it now thinks you are *trying* to return a promise that resolves with your error object. Oops. The inference is correct, but it is based on the mix-up.
 
 The fix is to add return type annotations to your functions and methods.
@@ -86,14 +79,12 @@ The second way to end up bathed in problems is to use string error reasons. Yes,
 If you use the same type of rejection reason as the promise will return, the types are all compatible and the compiler can’t help you. The most common case would be `Promise<string></string>` getting mixed up with a rejection string. Don’t be fooled into just thinking this is a string problem, because it would happen whenever the reject and resolve types match in this way.
 
 ```
-<pre class="prettyprint lang-typescript">
 if (isWorking) {
     resolve('a string'); // <-- a string
 } else {
     reject('It Broke'); //  <-- also a string
 }
 ```
-
 The fix is to use rejection types based on the `Error` object.
 
 ### TypeScript Promises

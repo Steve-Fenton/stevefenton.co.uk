@@ -33,5 +33,4 @@ The simple version of this is shown below, but you might want to convert this in
             return Json(new { id = id }, JsonRequestBehavior.DenyGet);
         }
 ```
-
 By adding this, you should find your sessions last as per before you added polling.

@@ -48,7 +48,6 @@ warnif count > 0 from t in JustMyCode.Types where
    
 select t
 ```
-
 As you can see, there are already several exclusions built in to this rule – it doesn’t include types that implement an interface, have sub-classes or have a base class. So it should be simple enough to add in a new rule to this section to deal with our unit tests.
 
 So here is the rule I’ve come up with. I want to exclude my tests, which are conveniently all strictly named “\*Tests”. I could add this rule to the “JustMyCode” rule, but I actually want my tests included in many of the default rules.
@@ -58,7 +57,6 @@ So here is the rule I’ve come up with. I want to exclude my tests, which are c
 // --> or test classes
 (t.IsClass && !t.NameLike("Tests")) &&
 ```
-
 And straight away, the results pane in Visual Studio removes the unit tests, so I can tell that it works (obviously, I need to test more thoroughly than that as it may have just stopped everything from matching – but you get the gist).
 
 Here is the new complete rule:
@@ -89,5 +87,4 @@ warnif count > 0 from t in JustMyCode.Types where
    
 select t
 ```
-
 If you change your actual source code, remember to build it and re-run the analysis to get up-to-date results in the Queries and Rules Edit pane in Visual Studio.

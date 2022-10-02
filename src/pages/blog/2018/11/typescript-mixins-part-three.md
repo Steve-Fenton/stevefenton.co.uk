@@ -54,5 +54,4 @@ superhero.fly();
 console.log(HorseFlyWoman.stickyHands);
 console.log(HorseFlyWoman.altitude);
 ```
-
 Not only does this work at runtime, all of the types are perfectly combined. This is very useful if you need to include static properties in your TypeScript Mixins.

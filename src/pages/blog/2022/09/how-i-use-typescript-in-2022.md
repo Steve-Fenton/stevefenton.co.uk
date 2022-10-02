@@ -43,7 +43,6 @@ function getQuerySelector(container) {
     return selector;
 }
 ```
-
 When you have architected many small isolated things, this is a great set-up as you couldn’t be any closer to the code. I’m not annotating everything, just function signatures. The TypeScript compiler is *really good* at inferring types for variables, especially when each file is (pretty much) self-contained.
 
 ### Summary

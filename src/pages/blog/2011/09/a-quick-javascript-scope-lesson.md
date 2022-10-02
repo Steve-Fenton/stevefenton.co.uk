@@ -30,7 +30,6 @@ var myObject = function () {
 alert("A: " + scope);
 myObject();
 ```
-
 ### Lesson 2 – Objects With Properties
 
 The reason we called our function “myObject” is because we use functions as objects in JavaScript. In this updated example we have our global variable called “scope”, our local variable called “scope” and we also set “this.scope”, which is a property on “myObject”.
@@ -49,7 +48,6 @@ var x = new myObject();
 alert("A: " + scope);
 alert("C: " + x.scope);
 ```
-
 So if you want to have a “private” variable for your object that can only be accessed by the object, use the “var” keyword to define a local variable that can only be accessed within the scope of the function. If you want a public property, use the “this” keyword to add it as a property of your function that can be accessed publicly.
 
 ### Lesson 3 – Block Scope

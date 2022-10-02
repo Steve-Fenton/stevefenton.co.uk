@@ -36,14 +36,12 @@ main() {
   greeter.greet("Steve Fenton esq");
 }
 ```
-
 My notes on this example are that we can easily create a class, use typed variables, such as “String” and use “var” where the type would be overly redundant, i.e. I could have used:
 
 ```
 <pre class="prettyprint lang-dart">
 Greeter greeter = new Greeter();
 ```
-
 Long term, Dart could well be “JavaScript without the gotchas”, but in any case I’m looking forward to trying it out!
 
 If you want to have a go, [get started by following the interactive Dart tutorials](https://www.dartlang.org/guides/get-started).

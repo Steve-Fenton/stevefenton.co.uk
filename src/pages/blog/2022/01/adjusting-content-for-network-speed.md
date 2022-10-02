@@ -31,7 +31,6 @@ Here’s an example:
     "type": "downlink"
 }
 ```
-
 To get this, we just need to use the `getConnectionSpeed` function, defined below:
 
 ```
@@ -86,7 +85,6 @@ function getConnectionSpeed() {
   return result;
 };
 ```
-
 And here is how you might use it…
 
 ```
@@ -104,5 +102,4 @@ if (navigator.connection) {
     navigator.connection.addEventListener('change', onConnectionChange);
 }
 ```
-
 You can check current browser support on [Can I Use… netinfo](https://caniuse.com/netinfo). Partial support is currently listed for Chrome and Edge, but the items used in the above function *are* supported (and the code itself works through a list to find a supported property).

@@ -36,7 +36,6 @@ BEGIN
     RAISERROR('Deleted %I64d', 0, 1, @total) WITH NOWAIT
 END
 ```
-
 You can tweak the number of rows per transaction if you want to. The error messages are just informational and let you know how many rows you have binned in total.
 
 The RAISERROR call is used because it flushes the output immediately. Using PRINT doesn’t give you the feedback you need in this case (you’d need a GO statement in there to make it flush and that would ruin everything).

@@ -24,12 +24,10 @@ If you want to ditch all branches except your mainline, you can run the PowerShe
 <pre class="prettyprint lang-powershell">
 git branch | %{ $_.Trim() } | ?{ $_ -ne 'trunk' -and $_.Substring(0,1) -ne '*' } | %{ git branch -D $_ }
 ```
-
 If your main branch is not called “trunk”, you just need to update your copy to use the correct name, for example the outdated “master” naming convention is shown below:
 
 ```
 <pre class="prettyprint lang-powershell">
 git branch | %{ $_.Trim() } | ?{ $_ -ne 'master' -and $_.Substring(0,1) -ne '*' } | %{ git branch -D $_ }
 ```
-
 For every branch that is removed, you’ll see the message “Deleted branch *branchname* (was xxxxxxxx).”

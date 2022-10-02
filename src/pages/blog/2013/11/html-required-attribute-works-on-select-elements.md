@@ -31,7 +31,6 @@ The great news is that you can combine the HTML 5 “required” attribute with 
     <button>Submit</button>
 </form>
 ```
-
 If you are living it long-hand, use the following:
 
 ```

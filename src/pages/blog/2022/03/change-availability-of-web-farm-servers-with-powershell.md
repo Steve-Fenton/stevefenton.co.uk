@@ -29,7 +29,6 @@ Set-WebConfiguration -PSPath 'MACHINE/WEBROOT/APPHOST' `
         @{ address = '192.168.236.125'; enabled = $true }
     )
 ```
-
 You need to provide the complete list of servers each time, with just the `enabled` flag updated. So, to put the first server back into balance and remove the second one, it just needs to be changed to:
 
 ```
@@ -46,7 +45,6 @@ Set-WebConfiguration -PSPath 'MACHINE/WEBROOT/APPHOST' `
         @{ address = '192.168.236.125'; enabled = $true }
     )
 ```
-
 And we can put everything back in balance with:
 
 ```

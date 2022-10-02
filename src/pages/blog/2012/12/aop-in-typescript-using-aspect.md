@@ -52,14 +52,12 @@ The “error” fold lets you execute some code if the original code throws an e
 You take advantage of code folds by registering a function to be executed on particular method call. In the example below, you ask Aspect to raise an alert if ModuleName.ClassName.methodName raises an error at any point, on any instance of ModuleName.ClassName.
 
 ```
-<pre class="prettyprint lang-typescript">
 Aspect.Weaver.error(
     ModuleName.ClassName,
     'methodName',
     function () { alert('Error!'); }
 );
 ```
-
 ### Example
 
 For this example, I am going to write a really simple module that can be used to play with AOP. The Boxes module contains some code that lets us add and remove boxes to to an HTML page. When you instantiate a BoxManager, you tell it where on the page you want boxes to be added, then you simply call addBox or removeBox to add and remove div elements.
@@ -67,7 +65,6 @@ For this example, I am going to write a really simple module that can be used to
 *Boxes.ts*
 
 ```
-<pre class="prettyprint lang-typescript">
 module Boxes {
     export class BoxManager {
         private container: HTMLElement;
@@ -96,17 +93,14 @@ module Boxes {
     }
 }
 ```
-
 You might call this code like this:
 
 *app.ts*
 
 ```
-<pre class="prettyprint lang-typescript">
 var boxManager = new Boxes.BoxManager('example');
 var box = boxManager.addBox('box', 'A new box!');
 ```
-
 So let’s look at some AOP for the Boxes module!
 
 ### Audit
@@ -122,7 +116,6 @@ I am then adding the handler to the “afterAll” fold of the addBox and remove
 *Audit.ts*
 
 ```
-<pre class="prettyprint lang-typescript">
 (function() {
     var handler = (e: Aspect.WeaveEvent, a: any[]) => {
         var args = a.join(',');
@@ -144,7 +137,6 @@ I am then adding the handler to the “afterAll” fold of the addBox and remove
     );
 } ());
 ```
-
 Now after the methods on the boxManager is called the console will get a message about the call. I could use this to count the number of times the method is called, log the usage to the server, display a graph – whatever I want really.
 
 The important point here is that I can add in auditing without changing the original module and without changing the calling code. It is completely invisible to both. This also means I can switch it off and on in a single place, for example if I only wanted to run auditing while testing, I could exclude it when I put the program live – all without changing the original module or any calling code.
@@ -182,5 +174,4 @@ The important point here is that I can add in auditing without changing the orig
 </body>
 </html>
 ```
-
 </body></html>

@@ -36,7 +36,6 @@ public Cat Add(Cat newCat)
     //...
 }
 ```
-
 You will see this kind of pattern often – you want to add a cat, so you create a new Cat object and pass it to the Add method. This is a really simple demonstration of the problem.
 
 When I create a new cat to pass to the Add method, I am presented with three fields I can set: CatId, Breed and Name. Really, I don’t need (and shouldn’t) set the CatId.
@@ -66,7 +65,6 @@ public Cat Add(CatDetails newCat)
     //...
 }
 ```
-
 We can now accept some new cat details, which don’t even include any of the things we don’t want. We also re-use this details object on our full cat implementation – so we haven’t duplicated anything. When we want to add “eye colour”, we know we want to add that to CatDetails.
 
 You should definitely be doing this for your public APIs, especially if you auto-generate your documentation.

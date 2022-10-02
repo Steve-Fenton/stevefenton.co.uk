@@ -38,7 +38,6 @@ if($taskExists) {
     Write-Host 'The task exists!'
 }
 ```
-
 ### Stopping and deleting the task
 
 We can use our `$taskExists` condition to run our stop and delete commands. For this we will use these two commands:
@@ -61,7 +60,6 @@ if($taskExists) {
     Unregister-ScheduledTask -TaskName $taskName -Confirm:$false
 }
 ```
-
 ### Creating the task
 
 Creating the task is a little more involved, because we want to set lots of information. Most commonly, we need a user, a trigger, and an action.
@@ -84,7 +82,6 @@ Register-ScheduledTask `
     -Trigger $trigger `
     -RunLevel Highest -Force
 ```
-
 This gives us a pretty boilerplate task that starts when the system starts and *does something* (calls an executable in our case). You can adjust the trigger to use a schedule by changing `-AtStartup` to a time-based schedule such as `-Daily -At 12:00` to run each day at lunch or something more complex, like `-Weekly -WeeksInterval 1 -DaysOfWeek Sunday -At 6am`, which almost reads like a sentence.
 
 ### Update task settings
@@ -98,7 +95,6 @@ $task = Get-ScheduledTask -TaskName $taskName
 $task.Settings.ExecutionTimeLimit = 'PT0H'
 Set-ScheduledTask $task
 ```
-
 ### Start the task
 
 The final step is to kick the task off. For a time-based schedule we could just wait until the schedule fires, but for our startup-based task we would be waiting until the machine restarted. It makes sense to kick it off straight away.
@@ -110,7 +106,6 @@ We can use `Start-ScheduledTask` to run the task.
 $taskName = 'Example'
 Start-ScheduledTask -TaskName $taskName
 ```
-
 ### Summary
 
 I’ve made each of the code samples stand-alone, but you can combine them all by removing all but the first task name variable: `$taskName = 'Example'`.

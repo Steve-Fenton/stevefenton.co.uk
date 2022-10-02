@@ -21,7 +21,6 @@ Most JavaScript developers are very familiar with the Immediately Invoked Functi
     console.log(x);
 }());
 ```
-
 In this expression, we create a function that wraps all the enclosed code in its scope, and at the end we execute the function with the parentheses.
 
 If you aren’t super-careful though, you may end up implementing the Never Invoked Function Expression pattern (NIFE):
@@ -32,7 +31,6 @@ If you aren’t super-careful though, you may end up implementing the Never Invo
     console.log(x);
 });
 ```
-
 In this example, the ommission of the fantastically important parentheses `()` on the final line of code means the enclosed code will never ever run.
 
 This is one of the most common errors in IIFE usage, and results in a deluge of questions such as “why does my JavaScript not execute”.

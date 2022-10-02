@@ -23,7 +23,6 @@ The error suggested that the rewrite rule was working, but it was reporting the 
 RewriteEngine on
 RewriteRule ^Site/([^/.]+)/?$ site.php?page=$1 [L,NC,QSA]
 ```
-
 Which as I mentioned worked fine (and is indeed correct) – but suddenly resulted in a 404 error message:
 
 /Site/About-Us/  

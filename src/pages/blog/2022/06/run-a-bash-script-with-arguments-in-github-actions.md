@@ -29,7 +29,6 @@ jobs:
       - name: Call a Bash Script
         run:  bash ${GITHUB_WORKSPACE}/scripts/example.sh my-folder-name
 ```
-
 ### Using the argument value
 
 Within the script file (`example.sh`) you can use the argument using the parameter flag based on its position, for example `$1`…
@@ -38,14 +37,12 @@ Within the script file (`example.sh`) you can use the argument using the paramet
 <pre class="prettyprint lang-bash">
 rsync -av --exclude=*.md --exclude=*.txt "$1/" _output
 ```
-
 This is essentially the same as calling:
 
 ```
 <pre class="prettyprint lang-bash">
 rsync -av --exclude=*.md --exclude=*.txt my-folder-name/ _output
 ```
-
 ### Summary
 
 Run the bash script from an action using `run:  bash ${GITHUB_WORKSPACE}/scripts/example.sh my-folder-name` and use `$1` to use the argument you passed.

@@ -34,7 +34,6 @@ using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 ```
-
 That’s a lot of usings. This is a clue the class does too much. Let’s organise them visually (temporarily) and work out how we might push them into other places. Perhaps like this:
 
 ```
@@ -59,7 +58,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 ```
-
 ### C# 10 Global Usings
 
 C# 10 is going to get a really neat new feature called *global usings*. It will allow you to remove a lot of repetition from your classes by declaring a using statement that applies everywhere.
@@ -75,7 +73,6 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text.RegularExpressions;
 ```
-
 This prevents repetition of pretty obvious using statements, but it doesn’t prevent us using “local” using statements as a trigger for a clean up. Our starting point is just simpler:
 
 ```
@@ -87,7 +84,6 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Net.Http;
 ```
-
 ### Project file Global Usings
 
 You can set up global usings in your project file with a bit of configuration, here’s an example:
@@ -101,7 +97,6 @@ You can set up global usings in your project file with a bit of configuration, h
     <Using Include="System.Text.RegularExpressions" />
 </ItemGroup>
 ```
-
 ### Implicit Usings
 
 There is an implicit set of global usings that will automatically included in new projects, but which you can also opt-in to for existing projects.
@@ -110,7 +105,6 @@ There is an implicit set of global usings that will automatically included in ne
 <pre class="prettyprint lang-xml">
 <ImplicitUsings>enable</ImplicitUsings>
 ```
-
 This will basically add all of the following global usings to your project. The inclusion of `System.IO` and `System.Net.Http` will make it harder to spot these common code clues, so use with caution.
 
 ```
@@ -123,7 +117,6 @@ global using System.Net.Http;
 global using System.Threading;
 global using System.Threading.Tasks;
 ```
-
 The list above does differ by project type as common dependencies for specific project types will be pulled in – in most cases this is a good thing.
 
 ### Summary

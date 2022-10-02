@@ -25,7 +25,6 @@ To hide any files (not just JavaScript files) you add the following to your sett
     }
 }
 ```
-
 If you hit File -&gt; Preferences -&gt; Workspace Settings it will open this file for you (and create it if it doesn’t yet exist).
 
 You can adjust the rule to hide anything you like and you can add as many exclusions as you like.

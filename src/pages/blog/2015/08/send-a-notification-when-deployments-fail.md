@@ -22,7 +22,6 @@ The key parts of this email are the subject:
 ```
 <pre class="prettyprint lang-plain_text">FAILURE! #{Octopus.Project.Name} - #{Octopus.Release.Number}
 ```
-
 The body:
 
 ```
@@ -34,7 +33,6 @@ Error details:
 
 #{Octopus.Deployment.ErrorDetail}
 ```
-
 And the Run Condition:
 
 ```

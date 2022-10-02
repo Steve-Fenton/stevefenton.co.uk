@@ -47,14 +47,12 @@ foreach (var info in checkinfo)
     Console.WriteLine("HTTP: Checked {0} after waiting {1}: {2}", info.Url, GetSinceText(info), result.Success);
 }
 ```
-
 Each of the test utilities has a similar method, which in this case comes from an interface.
 
 ```
 <pre class="prettyprint lang-csharp">
 Task<AggregateCheckResult> Check(CheckInfo check, AggregateCheckResult result);
 ```
-
 ### Resolving the leak
 
 Before we introduce a pipeline, let’s push all those checks down into the respective method. When we call `uptimeCheck.Check` it can easily decide if there is an allowance and whether it should run. In other words, if we always call it and it decides whether or not to run, we no longer need to take care of that decision. There are other ways to shave that yak.
@@ -82,7 +80,6 @@ foreach (var info in checkinfo)
     Console.WriteLine("HTTP: Checked {0} after waiting {1}: {2}", info.Url, GetSinceText(info), result.Success);
 }
 ```
-
 ### Let async be async
 
 The next thing I don’t link about this code is all that `.Result` shenanigans. Isn’t this supposed to be async? If we could use the `Task` all the way through, we wouldn’t need to keep pulling the result out.
@@ -95,7 +92,6 @@ So, let’s update the interface to return a task, and to accept the same task t
 <pre class="prettyprint lang-csharp">
 Task<AggregateCheckResult> Check(Task<AggregateCheckResult> result, CheckInfo check);
 ```
-
 We can now crush all the checks into the pipeline, passing in the additional parameter as shown below. This gives us a partial pipeline, because there are still lines afterwards that save the result and write a message. Side note… I decided to rename `info` to `check` in this step too.
 
 ```
@@ -118,7 +114,6 @@ foreach (var check in checkinfo)
     Console.WriteLine("HTTP: Checked {0} after waiting {1}: {2}", check.Url, GetSinceText(check), result.Success);
 }
 ```
-
 These other methods just need to be subjected to a similar treatment. We don’t have to change the original method signature, we can create a new method with a suitable signature that calls the existing one (rather than trigger a mass change throughout the application).
 
 As long as there is a method that accepts the type that came out of the last step, we can continue to chain our pipeline.
@@ -142,7 +137,6 @@ foreach (var check in checkinfo)
         .Result;
 }
 ```
-
 We have now replaced all our code with a neat pipeline.
 
 There is more work to do, but you can hopefully see the progression from a kind of procedural method towards a more pipeline-based method. The next step might be to bring that loop into the pipeline, or challenge that final remaining `.Result` by making this whole method async.
@@ -173,7 +167,6 @@ public static class PipelineExtensions
     }
 }
 ```
-
 You may also find this basic test class useful in understanding the pipeline extensions.
 
 ```
@@ -210,7 +203,6 @@ public class PipelineTests
     }
 }
 ```
-
 ### Feedback welcome
 
 This is a real-life example, so it’s not perfect. Real life never is, but we have Stoicism to help us with that. However, if something isn’t clear or you feel I’ve enraged you with something bad I’ve done, I’m happy to improve on this example. You can find current ways to get in touch on my [contact page](https://www.stevefenton.co.uk/contact/).

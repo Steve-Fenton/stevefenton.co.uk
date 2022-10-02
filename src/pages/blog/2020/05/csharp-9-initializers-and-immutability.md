@@ -25,7 +25,6 @@ public class Book {
     public string Title { get; set; }
 }
 ```
-
 You can initilize this object, but also change it’s state afterwards:
 
 ```
@@ -38,7 +37,6 @@ Book book = new Book {
 // Oh no - we don't want to allow this
 book.Title = "The Bravo of Venice";
 ```
-
 To prevent any mutation *after* the initialization, we just switch in `init` for `get`.
 
 ```
@@ -48,5 +46,4 @@ public class Book {
     public string Title { get; init; }
 }
 ```
-
 We can now use the object initializer, but we can’t change the state afterwards. Hooray!

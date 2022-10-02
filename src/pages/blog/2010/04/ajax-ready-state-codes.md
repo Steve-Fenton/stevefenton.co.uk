@@ -22,7 +22,6 @@ request.onreadystatechange = function () {
     alert("readyState: " + request.readyState);
 };
 ```
-
 0\. Uninitialized
 
 1\. Set up, but not sent

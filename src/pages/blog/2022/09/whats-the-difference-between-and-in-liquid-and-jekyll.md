@@ -49,7 +49,6 @@ layout: null
 {% endfor %}
 </urlset>
 ```
-
 This results in a gappy output file!
 
 ```
@@ -78,7 +77,6 @@ This results in a gappy output file!
 
 </urlset>
 ```
-
 But this can be solved using the whitespace stripping syntax, in this case, just stripping left-hand whitespace in a few location:
 
 ```
@@ -100,7 +98,6 @@ But this can be solved using the whitespace stripping syntax, in this case, just
 </urlset>
 
 ```
-
 This results in a tidy output file:
 
 ```

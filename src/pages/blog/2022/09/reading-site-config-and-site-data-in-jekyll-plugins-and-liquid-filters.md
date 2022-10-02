@@ -39,7 +39,6 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-
 ### Adding Jekyll configuration
 
 There’s two parts to this, when we reference the configuration, it loads it. We don’t want to do that every time, so we ought to remember it as it doesn’t change during the site generation. We’ll get the configuration using `Jekyll.configuration({})` and read the `language` entry…
@@ -68,7 +67,6 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-
 ### Adding Jekyll site data
 
 The site is provided within the context, so we can get it from `@context.registers[:site]` (thanks to [Michael Currin for his Jekyll Cheat Sheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/)). Once we have it, we can use it *almost* as we would from within a Liquid tag on the page. The only difference is instead of `site.data.name...` we must use `site.data['name']`.
@@ -98,7 +96,6 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-
 ### Language plugin
 
 Here’s a more complete language plugin based on the above. It falls back to English if an entry isn’t found.
@@ -109,7 +106,6 @@ Here’s a more complete language plugin based on the above. It falls back to En
 <pre class="prettyprint lang-yaml">
 language: en #en, fr, fr-be, etc
 ```
-
 **\_data/language.yaml**
 
 ```
@@ -125,7 +121,6 @@ skiplinks:
     en: Skip to footer
     fr-be: Aller au pied de page
 ```
-
 You simply add entries for any languages you need to support, and apologies for my translation skills in the above example.
 
 **\_plugins/liquid\_language.rb**
@@ -173,7 +168,6 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
-
 **Usage**
 
 ```

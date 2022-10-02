@@ -20,7 +20,6 @@ I was answering a question on a popular coding forum and it once again highlight
 ```
 <pre class="prettyprint lang-html"><a id="image1" href="#"><img src="image.png"></a>
 ```
-
 And there was a bit of JavaScript adding an onclick event to the anchor tag.
 
 An innocent looking example. An anchor tag containing an image tag. What could be wrong with such a tiny example?
@@ -32,7 +31,6 @@ In this example, what does the anchor tag do? Nothing. It is just being used to 
 ```
 <pre class="prettyprint lang-html"><img src="image.png" id="image1">
 ```
-
 The anchor tag isn’t a magical tag that offers up the ability to add an onclick event handler. Any element in your HTML document can have this event added.
 
 ### Progressive enhancement
@@ -50,5 +48,4 @@ For example, if you were going to show a larger version of the image, like in a 
 ```
 <pre class="prettyprint lang-html"><a id="image1" href="largeimage.png"><img scr="image.png"></a>
 ```
-
 And then override this default behaviour if JavaScript is enabled and working. That way, the web page works all the time for everyone. Without JavaScript, the large image is opened in the browser. With JavaScript, you could overlay the large image on the page or even animate it on and off the page (whatever you like!)

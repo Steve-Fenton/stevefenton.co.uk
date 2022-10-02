@@ -26,14 +26,12 @@ The following regular expression can be placed in the “Search Exp” field in 
 <pre class="prettyprint lang-regex">
 (?:http:\/\/?|https:\/\/?)(www\.example\.com\/.*?)"
 ```
-
 You could also completly ignore the http / https part (for example if you were using scheme-relative links that start “//”):
 
 ```
 <pre class="prettyprint lang-regex">
 (www\.example\.com\/.*?)"
 ```
-
 And you could make further adjustements if you didn’t care about the “www” subdomain in particular, or if you wanted to check some other subdomain.
 
 ### Find all non-HTTPS resources
@@ -44,7 +42,6 @@ Here’s a practical example… find all non-HTTPS resources (images, links, scr
 <pre class="prettyprint lang-regex">
 (?:http:\/\/?)(www\.example\.com\/.*?)"
 ```
-
 This will tell you the full address of each resource that is being requested over HTTP on the website – so you can update the references to HTTPS and avoid a redirect for each one.
 
 ### Highly flexible

@@ -48,7 +48,6 @@ Installing Visual Studio Code is as simple as the following command… you even 
 <pre class="prettyprint">
 winget install vscode
 ```
-
 [![Command Window with winget install vscode](https://www.stevefenton.co.uk/wp-content/uploads/2020/05/winget-install-400x68.jpg)](https://www.stevefenton.co.uk/2020/05/a-glance-at-powertoys-and-winget/winget-install/)
 
 Create yourself a file with the “stuff your team all uses” and check it into your source control system so you can all keep it up to date. That way, your new folks can be up and running in no time!

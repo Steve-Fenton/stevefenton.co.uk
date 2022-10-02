@@ -25,13 +25,11 @@ Basarat illustrates the problem when he describes this feature…
 If you are using <abbr title="Asynchronous Module Definitions">AMD</abbr> in TypeScript you may come across a situation where you depend on a module being loaded even though you don’t directly use the module. Even if you add an import, the compiler cleverly removes unnecessary modules. For example…
 
 ```
-<pre class="prettyprint lang-typescript">
 import ko = require('./knockout');
 import Other = require('./other');
 
 var x = new Other();
 ```
-
 Results in the following JavaScript:
 
 ```
@@ -39,25 +37,20 @@ Results in the following JavaScript:
     var x = new Other();
 });
 ```
-
 Oh no! Knockout has gone missing. Changing the statement to a reference comment doesn’t help either:
 
 ```
-<pre class="prettyprint lang-typescript">
 ///<reference path="./knockoutd.d.ts" />
 ```
-
 So you end up going on the fiddle, like this:
 
 ```
-<pre class="prettyprint lang-typescript">
 import ko = require('./knockout');
 import Other = require('./other');
 
 var meh = ko; // scuzzy fix
 var x = new Other();
 ```
-
 Which gets the expected output, but with a bit of code noise:
 
 ```
@@ -67,19 +60,16 @@ define(["require", "exports", './knockout', './other'], function(require, export
     var x = new Other();
 });
 ```
-
 ### Noiseless Solution
 
 So this is where the badly documented but rather useful feature comes in.
 
 ```
-<pre class="prettyprint lang-typescript">
 ///<amd-dependency path="./knockout" />
 import Other = require('./other');
 
 var x = new Other();
 ```
-
 This results in the required output:
 
 ```
@@ -88,5 +78,4 @@ define(["require", "exports", './other', "./knockout"], function(require, export
     var x = new Other();
 });
 ```
-
 So go ahead and use this at your own risk – it isn’t in the current specification so there are no guarantees it will remain in the compiler. Don’t say I didn’t warn you.

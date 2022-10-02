@@ -23,7 +23,6 @@ If you are using Selenium WebDriver to automate your browser testing, you will a
 <pre class="prettyprint lang-csharp">
 IWebElement nameInput = driver.FindElement(By.Id("name"));
 ```
-
 If you are using this to grab elements all over the place, you will have found that it comes with a number of problems, for example when the method of finding an element changes, you need to track down all of the instances of the FindElement call and update them. Nasty.
 
 Many people have realised that you can ease this using the Page Object Model pattern, which is strongly recommended by the Selenium project. By keeping these FindElement calls wrapped in a class that represents a page, it is much easier to keep things up to date (as you only need to look in one place to fix things).
@@ -35,7 +34,6 @@ Here is a way of taking things a step further. Rather than writing a call to Fin
 [FindsBy(How = How.Id, Using = "name")]
 private IWebElement nameInput { get; set; }
 ```
-
 To make this work, you need to pass the Page Object through the InitElements static method:
 
 ```
@@ -43,7 +41,6 @@ To make this work, you need to pass the Page Object through the InitElements sta
 var pageObject = new HomePage(Driver);
 PageFactory.InitElements(Driver, pageObject);
 ```
-
 Not only does this make your Page Objects tidier, it will also fix a common cause of stale element handles – sometimes caused by running the find just once in a constructor (for example).
 
 ### Comparison
@@ -105,7 +102,6 @@ public class ExamplePage
     }
 }
 ```
-
 After:
 
 ```

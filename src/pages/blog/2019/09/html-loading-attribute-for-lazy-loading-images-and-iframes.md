@@ -22,7 +22,6 @@ You can use the new HTML loading attribute to take advantage of browser-native l
 <pre class="prettyprint lang-html">
 <img src="defer.png" loading="lazy" alt="An Awesome Image" width="500" height="400">
 ```
-
 You could implement this now, and adjust your custom lazy-loading to take over if native lazy loading isn’t available. That way, more and more of the work will end up being done by the browser. This will mostly involve using the “\[loading=lazy\]” selector to grab the images, rather than using whatever custom class you’re using now.
 
 You can feature-detect images to see if lazy loading is natively supported.
@@ -35,7 +34,6 @@ if ('loading' in HTMLImageElement.prototype) {
     // You put your fallback version here...
 }
 ```
-
 If you are thinking of introducing lazy loading using the new attribute, adding it has no negative consequence to existing browsers… they will just load the image as they always have done.
 
 The native version will be able to take into account the connection, as well as the scroll, in order to determine when to start fetching the image. That means it can start sooner on a slower connection. This in itself will beat all of the custom scripts we’ve written to do this.
@@ -63,7 +61,6 @@ if ('loading' in HTMLImageElement.prototype) {
 }
 </script>
 ```
-
 ### Eager loading for lightweight browsing mode
 
 There are plans for a lightweight browsing mode that will lazy load all the things by default. If you need an image to load in all cases, you need to specify the HTML loading attribute once again, but with a value of `eager`.
@@ -72,7 +69,6 @@ There are plans for a lightweight browsing mode that will lazy load all the thin
 <pre class="prettyprint lang-html">
 <img src="eager.png" loading="eager" alt="An Awesome Image" width="500" height="400">
 ```
-
 ### HTML loading attribute best practices
 
 You should consider adding this attribute to your website. It’s going to make a significant user-visible positive impact in many, many cases.

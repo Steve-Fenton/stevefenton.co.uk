@@ -45,7 +45,6 @@ a {
     color: var(link);
 }
 ```
-
 It’s a bit more verbose old-school, and this size will increase proportionally to how crazy you’ve been when adding colour declarations.
 
 ```
@@ -70,5 +69,4 @@ a {
     }
 }
 ```
-
 Credit to Kev for sharing dark mode and CSS variables with me.

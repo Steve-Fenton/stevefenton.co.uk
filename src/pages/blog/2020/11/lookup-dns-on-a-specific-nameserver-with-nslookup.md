@@ -29,7 +29,6 @@ Non-authoritative answer:
 stevefenton.co.uk       nameserver = dane.ns.cloudflare.com
 stevefenton.co.uk       nameserver = amy.ns.cloudflare.com
 ```
-
 ### Check each nameserver with NSLOOKUP
 
 This is how you look up records from a specific name server. It uses the syntax `nslookup [host-name] [nameserver]`. You can supply the name of the nameserver: `nslookup www.stevefenton.co.uk amy.ns.cloudflare.com`, or its IP address: `nslookup www.stevefenton.co.uk 2a06:98c1:50::ac40:2065`.
@@ -45,7 +44,6 @@ Addresses:  104.31.65.119
           104.31.64.119
           172.67.196.210
 ```
-
 Repeat this for each nameserver and keep an eye out for any that are giving out bad answers.
 
 ### NSLOOKUP tips
@@ -59,7 +57,6 @@ Simple DNS Check
 nslookup [host-name]
 nslookup www.example.com
 ```
-
 Specific Record Type Check
 
 ```
@@ -67,7 +64,6 @@ Specific Record Type Check
 nslookup -querytype=[record-type] [host-name]
 nslookup -querytype=mx example.com
 ```
-
 Nameserver Lookup
 
 ```
@@ -75,7 +71,6 @@ Nameserver Lookup
 nslookup -querytype=ns [host-name]
 nslookup -querytype=ns example.com
 ```
-
 DNS Check Against Specific Nameserver
 
 ```

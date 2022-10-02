@@ -30,7 +30,6 @@ This used to be a real bore with either graphical backgrounds with fixed divisio
     border-radius: 1em;
 }
 ```
-
 This example just puts a simple rounded edge on all four corners. If you really want, you can target specific corners too, like this:
 
 ```
@@ -44,7 +43,6 @@ This example just puts a simple rounded edge on all four corners. If you really 
     border-top-right-radius: 15px;
 }
 ```
-
 In these examples, there are specific rules supported by Firefox and Webkit-based browsers, along with the standard CSS 3 declaration.
 
 ### Gradient Backgrounds
@@ -59,7 +57,6 @@ This is another great example of using CSS3 to give a page depth, with no real p
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(Gray), to(Silver));
 }
 ```
-
 In this example, we use a background-color as a fall-back if the gradients don’t work. There are separate rules for Firefox and Webkit just like the rounded corners.
 
 These are the two easiest ways to spice up your website without ruining things for certain browsers.

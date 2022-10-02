@@ -26,7 +26,6 @@ This isn’t really magic and it doesn’t have to be called ˀ. This is just a 
 The object we’re dealing with is shown below, followed by two functions that can be used to chain.
 
 ```
-<pre class="prettyprint lang-typescript">
 interface MyObj {
     items: {
         data: string;
@@ -39,27 +38,21 @@ const myObj: MyObj = { items: [{ data: 'Data String' }] };
 // Call without optional chaining
 const result = myObj.items[0].data;
 ```
-
 The first function, which we’ll call `ˀ` for now, allows you to interlace your statement with calls to this optional chaining mechanism.
 
 ```
-<pre class="prettyprint lang-typescript">
 function ˀ<T>(obj: T, d: T = {} as T) : T {
     return (obj == null) ? d : obj;
 }
 ```
-
 This would be used as shown below:
 
 ```
-<pre class="prettyprint lang-typescript">
 const result = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 ```
-
 The second option is to borrow the “try” pattern that is common in .NET:
 
 ```
-<pre class="prettyprint lang-typescript">
 function tryˀ<T>(exp: () => T, d: T) {
     try {
         let val = exp();
@@ -70,14 +63,11 @@ function tryˀ<T>(exp: () => T, d: T) {
     return d;
 }
 ```
-
 This would be used as shown below:
 
 ```
-<pre class="prettyprint lang-typescript">
 const result = tryˀ(() => myObj.items[0].data, 'Default');
 ```
-
 The first function is a bit messier to use, the second function isn’t strictly the same as optional chaining (but it’s close).
 
 ### Examples
@@ -87,7 +77,6 @@ Here are some examples of optional chaining in action using both of these functi
 Happy path – everything is there:
 
 ```
-<pre class="prettyprint lang-typescript">
 const myObj: MyObj = { items: [{ data: 'Data String' }] };
 
 // Data String
@@ -95,11 +84,9 @@ const result1 = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 // Data String
 const result2 = tryˀ(() => myObj.items[0].data, 'Default');
 ```
-
 No elements in the items array:
 
 ```
-<pre class="prettyprint lang-typescript">
 const myObj: MyObj = { items: [] }
 
 // Default
@@ -107,11 +94,9 @@ const result1 = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 // Default
 const result2 = tryˀ(() => myObj.items[0].data, 'Default');
 ```
-
 No items member:
 
 ```
-<pre class="prettyprint lang-typescript">
 const myObj: MyObj = <MyObj>{};
 
 // Default
@@ -119,11 +104,9 @@ const result1 = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 // Default
 const result2 = tryˀ(() => myObj.items[0].data, 'Default');
 ```
-
 Undefined object:
 
 ```
-<pre class="prettyprint lang-typescript">
 let myObj: MyObj;
 
 // Default
@@ -131,7 +114,6 @@ const result1 = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 // Default
 const result2 = tryˀ(() => myObj.items[0].data, 'Default');
 ```
-
 ### Summary
 
 This trick works in TypeScript and JavaScript. All you need to do is use whichever of the two options you prefer. When the feature lands for real you can easily find all places where you need to swap out the temporary chaining function.

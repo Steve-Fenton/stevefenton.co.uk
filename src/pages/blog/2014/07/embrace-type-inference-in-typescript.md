@@ -25,7 +25,6 @@ If you are pushed for time, simply commit this phrase to memory and let it swim 
 Here is a typical example of a program with a bunch of types…
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Person {
     name: string;
     address: string;
@@ -54,7 +53,6 @@ showName(staff.stageManager);
 showName(staff.lighting);
 showName(staff.sound);
 ```
-
 This is exactly what you’d do in a nominal type system – have a bunch of named types and then *decorate all the things* with those types. In some cases, you’ll still want to do this in TypeScript… but let’s take a second to think about our program.
 
 There is only one true type constraint in this program – the showName function relies on the object having a “name” property. This is the only place we need to specify a contract in our program. If we re-think our type annotations, we can decide to…
@@ -66,7 +64,6 @@ There is only one true type constraint in this program – the showName function
 Our code now looks like this:
 
 ```
-<pre class="prettyprint lang-typescript">
 const staff = {
     stageManager: { name: 'Dan', address: '1 Street Lane', telephone: '0898 007' },
     lighting: { name: 'Divya', address: '1 Crescent Road', telephone: '0898 008' },
@@ -83,7 +80,6 @@ showName(staff.stageManager);
 showName(staff.lighting);
 showName(staff.sound);
 ```
-
 Do we no longer have any types in the program? Actually, we have all the same types that we had before, except instead of hand-writing the interfaces and annotations, TypeScript is doing it all for us – except for the requirement that a person argument must have a name property that is a string. (Side note: the function now depends on a single property, rather than accidentally depending on all of the properties of `Person` as it did before. This is a good thing!)
 
 If we were to remove the “name” property from one of the staff, we’d get a type error when calling the `showName` function. If we were to add additional properties to the lighting staff member, they would instantly be available (they wouldn’t if we were using an interface that didn’t have the additional property).

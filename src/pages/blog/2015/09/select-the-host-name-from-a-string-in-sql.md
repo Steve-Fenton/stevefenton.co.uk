@@ -27,7 +27,6 @@ If you have a table containing web addresses and you need to get hold of the hos
 		END
 	) AS 'HostName'
 ```
-
 You can use this against a variable (as per the examples on this web page) or you can run it against a table just as easily. Just pop the column name in the script instead of @WebAddress.
 
 For all of the following examples:
@@ -47,7 +46,6 @@ SET @WebAddress = 'https://www.stevefenton.co.uk/?y=2015&m=09&t=get-argument-val
 SET @WebAddress = 'https://www.stevefenton.co.uk?y=2015&m=09&t=get-argument-values-from-linq-expression'
 /* Host name script */
 ```
-
 The result will be:
 
 ```

@@ -29,7 +29,6 @@ To use the CSV Data Set Config node, you’ll need some data. Here is an example
 36,fr,123.30
 52,en-us,213.20
 ```
-
 The first row contains the column titles, then each row is a set of data. It is important to note that if you are using standard CSV format you need to make sure you don’t add spaces.
 
 Now you can add your CSV Data Set Config element.

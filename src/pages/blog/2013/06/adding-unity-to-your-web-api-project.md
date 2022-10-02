@@ -29,7 +29,6 @@ To get going, you will need to add the following line to the Application\_Start 
 <pre class="prettyprint lang-csharp">
 Bootstrapper.Initialise();
 ```
-
 Everything else has been done for you, so once you have added this line, you can start registering types inside of the Bootstrapper class and depend on them in your API controllers. This leads us to the next “duh” moment.
 
 ### API Controllers
@@ -49,7 +48,6 @@ public static void Initialise()
         new Unity.WebApi.UnityDependencyResolver(container);
 }
 ```
-
 After:
 
 ```
@@ -62,7 +60,6 @@ public static void Initialise()
         new Unity.WebApi.UnityDependencyResolver(container);
 }
 ```
-
 You will need to have the following using statements:
 
 ```
@@ -73,5 +70,4 @@ using DomainExample.Repository;
 using Microsoft.Practices.Unity;
 using Unity.Mvc4;
 ```
-
 All of the other references and config changes will be done for you – but you can now register one list of types to re-use in all your controllers.

@@ -35,5 +35,4 @@ UPDATE `terms` SET name = TRIM(
     )
 );
 ```
-
 If someone knows a better way, I’d love to hear it!

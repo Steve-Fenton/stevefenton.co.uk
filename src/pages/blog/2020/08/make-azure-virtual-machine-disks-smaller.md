@@ -103,21 +103,18 @@ Stop SQL Server
 <pre class="prettyprint">
 > net stop MSSQLSERVER
 ```
-
 Copy the data disk
 
 ```
 <pre class="prettyprint">
 > robocopy F:\ J:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
 ```
-
 Copy the log disk
 
 ```
 <pre class="prettyprint">
 > robocopy G:\ K:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
 ```
-
 We can now head back to the Azure portal to stop the VM once again.
 
 ### Remove old disks from the VM
@@ -136,7 +133,6 @@ Now we start another remote desktop session on the Virtual Machine and stop SQL 
 <pre class="prettyprint">
 net stop MSSQLSERVER
 ```
-
 We can now return to Computer Management &gt; Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
 
 [![Change Drive Letter](https://www.stevefenton.co.uk/wp-content/uploads/2020/08/change-drive-letter-and-paths-1024x445.jpg)](https://www.stevefenton.co.uk/2020/08/make-azure-virtual-machine-disks-smaller/change-drive-letter-and-paths/)
@@ -153,7 +149,6 @@ Repeat this for each disk, then re-start SQL Server.
 <pre class="prettyprint">
 net start MSSQLSERVER
 ```
-
 You can now check your database is up and running before deleting the old disks entirely in the Azure Portal.
 
 The disks will still be listed in your resource list, but are “Unattached”.

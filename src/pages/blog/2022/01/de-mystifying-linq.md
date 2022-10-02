@@ -34,7 +34,6 @@ IEnumerable<Computer> computers = new List<Computer>
     new Computer { Id = 10, Name = "Computer 10", Power = "Low" },
 };
 ```
-
 ### Count
 
 There is a useful Linq method that gives us a count. We’re going to create equivalents called `MyCount` that will do a plain count, and a count that takes a predicate (which will filter the items to be counted).
@@ -55,7 +54,6 @@ public void CountWithPredicateTests()
     Assert.AreEqual(3, computers.MyCount(computer => computer.Name.Contains("calculator", System.StringComparison.InvariantCultureIgnoreCase)));
 }
 ```
-
 When you can’t go and change code because it belongs to someone else, like the base class library or a third party, we can use extension methods to extend the behaviour of the external code. Neat. Extension methods have to be written within a public, static, and non-generic class. For example:
 
 ```
@@ -64,7 +62,6 @@ public static class EnumerableExtensions
 {
 }
 ```
-
 The methods inside the class *can* be generic, which is absolutely fundamental here is we want our extension methods to work on lots of types, including ones we haven’t yet created.
 
 The first argument in the extension method should be the `IEnumerable` we are going to operate over.
@@ -103,7 +100,6 @@ public static class EnumerableExtensions
     }
 }
 ```
-
 And that is our count implementation done. There is a bit more on the implications of the concept of count shortly…
 
 ### Where
@@ -120,7 +116,6 @@ public void WhereTests()
     Assert.AreEqual(4, result.MyCount());
 }
 ```
-
 We can implement this using a very short extension method:
 
 ```
@@ -136,7 +131,6 @@ public static IEnumerable<T> MyWhere<T>(this IEnumerable<T> items, Func<T, bool>
     }
 }
 ```
-
 There are a couple of interesting parts here. The predicate has a type of `Func<T, bool>`. This just means it will take in a `T` (a computer) and return a `bool` (whether it matches our criteria).
 
 We then call this filtering function using `predicate.Invoke(item)`, passing in the current item to be checked.
@@ -151,7 +145,6 @@ Predicates can sometimes be a bit overwhelming. Even this simple example is a bi
 <pre class="prettyprint lang-csharp">
 Assert.AreEqual(3, computers.MyCount(computer => computer.Name.Contains("calculator", System.StringComparison.InvariantCultureIgnoreCase)));
 ```
-
 We can make things more readable by moving the actual predicate into a simple method that returns true or false.
 
 ```
@@ -161,7 +154,6 @@ private bool IsCalculator(Computer computer)
     return computer.Name.Contains("calculator", System.StringComparison.InvariantCultureIgnoreCase);
 }
 ```
-
 This method gives the concept a name and can be re-used (for example to get a count, and later to filter).
 
 Our test code is now more readable.
@@ -170,7 +162,6 @@ Our test code is now more readable.
 <pre class="prettyprint lang-csharp">
 Assert.AreEqual(3, computers.MyCount(IsCalculator));
 ```
-
 We can also make sure things remaining readable if we chain the calls, but using new lines…
 
 ```
@@ -180,7 +171,6 @@ IEnumerable<SuperComputer> validSuperComputers = computers
     .MyMap(computer => new SuperComputer(computer))
     .MyWhere(supercomputer => supercomputer.IsValid);
 ```
-
 Having one item per lines makes it read like an ordered pipeline.
 
 ### One at a time

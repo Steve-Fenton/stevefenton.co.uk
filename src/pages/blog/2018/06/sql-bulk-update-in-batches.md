@@ -44,7 +44,6 @@ BEGIN
     COMMIT TRAN
 END
 ```
-
 The output in the messages window will show you how you are getting on:
 
 ```
@@ -56,7 +55,6 @@ COUNT 267000
 COUNT 268000
 COUNT 269000
 ```
-
 ### Countdown
 
 If you prefer a countdown to zero, you might prefer this version.
@@ -81,7 +79,6 @@ BEGIN
     COMMIT TRAN
 END
 ```
-
 ```
 <pre class="prettyprint">
 ...
@@ -91,5 +88,4 @@ COUNT 4200
 COUNT 4100
 COUNT 4000
 ```
-
 <small>Photo: [“a pile of RAM” by Blake Patterson](https://www.flickr.com/photos/blakespot/6173837649). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)</small>

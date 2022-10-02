@@ -36,7 +36,6 @@ h2 {
     }
 }
 ```
-
 The “h2” rule places the content of the h2 element into a variable named “title”. You don’t have to call it “title”, you can use whatever name you like.
 
 The “@page” rule then uses the “title” variable to put the content into the top-left header.
@@ -54,5 +53,4 @@ h2 {
     }
 }
 ```
-
 The principle is the same, but we have specified the pseudo “:left” selector to only apply the title to left-side pages.

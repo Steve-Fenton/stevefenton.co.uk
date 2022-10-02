@@ -23,8 +23,6 @@ So if you want to check for null and undefined without writing the full `(x === 
 Here’s the proof. First the code…
 
 ```
-<pre class="prettyprint lang-typescript">
-
 function check(x, name) {
     if (!x) {
         console.log(name, '(!x)')
@@ -52,7 +50,6 @@ check(null, 'null');
 let un;
 check(un, 'undefined');
 ```
-
 … and then the output!
 
 ```

@@ -23,7 +23,6 @@ _context.Checks
 
 await _context.SaveChangesAsync();
 ```
-
 Please be careful here, as there is a method called `ExecuteSqlRaw` that could end up allowing Bobby Tables to trash your database. The method you are looking for is `ExecuteSqlInterpolatedAsync`, which will automatically convert an interpolated string into a parameterised query.
 
 ```
@@ -31,7 +30,6 @@ Please be careful here, as there is a method called `ExecuteSqlRaw` that could e
 await _context.Database
     .ExecuteSqlInterpolatedAsync($"DELETE FROM Checks WHERE OrganisationId = {model.OrganisationId}");
 ```
-
 In cases where your Entity Framework version was problematic or slow, this will run at the speed of `DELETE`. In my case, that’s about 30 seconds faster (as the Entity Framework one was taking 30 seconds).
 
 You can also retrieve your items using a custom SQL statement, in cases where you need to get them from a view, or do something outside of the norm. The example below is overly simple, but you’ll see the idea. When you want your proper entities back, you run the SQL from the `DBSet` level, rather than on `_context.Database`.
@@ -41,5 +39,4 @@ You can also retrieve your items using a custom SQL statement, in cases where yo
 _context.Checks
     .FromSqlInterpolated($"SELECT * FROM Checks WHERE Organisation = {model.OrganisationId}");
 ```
-
 The interpolated SQL methods are super useful and are a neat shortcut for setting up a command, adding command text, adding parameters, and all that ADO ephemera.

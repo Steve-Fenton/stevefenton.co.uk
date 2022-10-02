@@ -28,7 +28,6 @@ Here is the obvious version. You are querying all your Customers. Each customer 
 var awesomeCustomers = customers
     .Where(c => c.Books.Contains(theHumansAreDead));
 ```
-
 Oops! Contains can’t be used here… and the error almost makes sense. We can fix this using:
 
 ```
@@ -36,7 +35,6 @@ Oops! Contains can’t be used here… and the error almost makes sense. We can 
 var awesomeCustomers = customers
     .Where(c => c.Books.Any(b => b.Id == theHumansAreDead.Id));
 ```
-
 ### The Less Obvious One
 
 The less obvious version is generated with the below code.
@@ -46,7 +44,6 @@ The less obvious version is generated with the below code.
 var awesomeCustomers = customers
     .Where(c => c.Id.Equals(myId));
 ```
-
 There is nothing much to connect the dots here, but the problem is caused by the use of Equals, rather than == in the Where expression. You can solve this using:
 
 ```
@@ -54,5 +51,4 @@ There is nothing much to connect the dots here, but the problem is caused by the
 var awesomeCustomers = customers
     .Where(c => c.Id == myId);
 ```
-
 This may surprise some polyglot programmers because some languages require the use of Equals, rather than == in order to perform a value check rather than a reference check. In C# you are safe to use == on value types where both items are the same type ([the Equals method is recommended for reference types](http://blogs.msdn.com/b/csharpfaq/archive/2004/03/29/when-should-i-use-and-when-should-i-use-equals.aspx))

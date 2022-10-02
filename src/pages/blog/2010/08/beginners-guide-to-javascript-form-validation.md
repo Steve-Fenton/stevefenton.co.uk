@@ -31,7 +31,6 @@ Let’s start with a simple form, such as this:
     <p><input type="submit" value="Submit"></p>
 </form>
 ```
-
 So let’s start by adding a validation function to the page.
 
 ```
@@ -48,7 +47,6 @@ function Validate(form) {
 }
 </script>
 ```
-
 This isn’t much of a validation sample, but here are the really important bits.
 
 1. We have added an onsubmit event to the form. Note that we don’t just call the validate function, we return its value to the onsubmit event. This means if we return true from the Validate function, the form will submit and if we return false, it won’t submit.
@@ -69,7 +67,6 @@ function Validate(form) {
     return true;
 }
 ```
-
 And that’s all you need to know to make validation work.
 
 Here are some improvements on this simple example that make the experience a bit slicker.
@@ -89,7 +86,6 @@ function Validate(form) {
     return true;
 }
 ```
-
 ### Improvement 2: Don’t mess up your HTML
 
 I don’t like having JavaScript attributes in my HTML, it makes things messy. So rather than putting the onsubmit attribute on the form, add the event handler like this.
@@ -116,7 +112,6 @@ document.getElementById("myForm").onsubmit = function () {
 };
 </script>
 ```
-
 ### Improvement 3: Supply some feedback without using an alert
 
 It is nice to tell people exactly what they have done wrong without popping up a nasty alert box. Here is an example of adding a message to the form, which could contain details of every failed validation point. By adding errors to a message, we can test 10 rules and tell the user about all of them, rather than fail on the first error without telling them about the next error they may encounter.
@@ -148,7 +143,6 @@ document.getElementById("myForm").onsubmit = function () {
 };
 </script>
 ```
-
 ### Summary
 
 This is just a beginners guide to validation. I strongly recommend that you start with the last example on this page, which has a nicer way of telling the user what the errors are, highlights the problem fields and prevents the form submission until all validation passes.

@@ -40,7 +40,6 @@ private static HttpConfiguration GetConfiguration()
     return config;
 }
 ```
-
 Here is the Web API Config to show the extracted GetConfig method:
 
 ```
@@ -63,7 +62,6 @@ Here is the Web API Config to show the extracted GetConfig method:
     }
 }
 ```
-
 Here is the UnityConfig to show the extracted CreateResolver method:
 
 ```
@@ -84,5 +82,4 @@ Here is the UnityConfig to show the extracted CreateResolver method:
     }
 }
 ```
-
 I hope this helps if you come across this situation – I couldn’t find any advice on this topic.

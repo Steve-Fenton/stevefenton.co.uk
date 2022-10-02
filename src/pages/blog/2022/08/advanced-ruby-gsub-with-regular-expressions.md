@@ -27,7 +27,6 @@ Some content to be shown in a hint box.
 
 :::
 ```
-
 By the time the text is handed to me, it’s already been mostly processed by Jekyll’s Markdown parser, so what we’re dealing with is something like:
 
 ```
@@ -38,7 +37,6 @@ By the time the text is handed to me, it’s already been mostly processed by Je
 
 <p>:::</p>
 ```
-
 However, what we really want is for the `:::` syntax to trigger a container with a class called “hint” (or whatever text has been added by the author), like this:
 
 ```
@@ -49,7 +47,6 @@ However, what we really want is for the `:::` syntax to trigger a container with
 
 </div>
 ```
-
 ### Jekyll hooks
 
 We’re running inside a Jekyll hook, so there is a file named `custom_html.rb` inside my `_plugins` directory with a simple hook defined…
@@ -60,7 +57,6 @@ Jekyll::Hooks.register :pages, :post_convert do |item|
     # Do something with the item
 end
 ```
-
 This is where `item` comes from in the examples below and I’ll leave out the hook-specific code to keep the examples short.
 
 ### gsub basics
@@ -80,7 +76,6 @@ content = content.gsub(':::', '<div>')
 
 puts content
 ```
-
 Basic `gsub` usage looks for the first string, and replaces it with the second one.
 
 You can see from the output that this replaces the `:::` strings, but this isn’t enough to solve our requirement just yet.
@@ -93,7 +88,6 @@ You can see from the output that this replaces the `:::` strings, but this isn�
 
 <p><div></p>
 ```
-
 Our problems are:
 
 - We can’t tell the difference between opening and closing tags if we just use ‘:::’
@@ -123,7 +117,6 @@ content = content
 
 puts content
 ```
-
 The key part of the regular expression is that `[a-z]+` part, which explains that we expect to find some extra text on the opening tag that isn’t there on the closing tag.
 
 Here’s the output.
@@ -145,7 +138,6 @@ content = content
 
 puts content
 ```
-
 Our output is now valid HTML, but our class name is still missing. We’ll tackle that next.
 
 ### Using a match from the regular expression in the output
@@ -175,7 +167,6 @@ content = content
 
 puts content
 ```
-
 Our output is now exactly what we want. We’re converting a markdown block into an HTML block with the appropriate class name.
 
 ```
@@ -186,7 +177,6 @@ Our output is now exactly what we want. We’re converting a markdown block into
 
 </div>
 ```
-
 ### The key parts
 
 To summarise, here’s the line of code with important bits called out:
@@ -199,7 +189,6 @@ content
 #                ^ brackets create the capture group
 #                                             ^ \1 uses the first match in the output
 ```
-
 ### The final solution
 
 Having made it *work*, it’s time to make it *right*. Before I started, I hadn’t used `gsub` or Jekyll hooks. Now I’ve learned a bit, I want to clean things up.

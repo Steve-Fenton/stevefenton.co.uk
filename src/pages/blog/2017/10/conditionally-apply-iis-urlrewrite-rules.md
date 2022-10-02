@@ -26,7 +26,6 @@ For example, the following rule redirects all “.aspx” pages in the root of t
     &lt;/rule>
 ```
 ```
-
 In this rule, the name is preserved, but the extension is dropped, so “/home.aspx” would be redirected to “/home”.
 
 ### Except…
@@ -46,7 +45,6 @@ Here is a simple negation that says “if the file name starts with *api* then d
     &lt;/rule>
 ```
 ```
-
  A more realistic example would be the below rule, which allows certain sub-folders to be excluded when using URLRewrite rules to perform some action.
 
  ```
@@ -60,7 +58,6 @@ Here is a simple negation that says “if the file name starts with *api* then d
     &lt;/rule>
 ```
 ```
-
 In this case, the whole “api” folder is ignored.
 
 ### Summary

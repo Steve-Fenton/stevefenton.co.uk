@@ -20,7 +20,6 @@ All you need to do is generate a new thumprint using tentacle.exe. You can do th
 <pre class="prettyprint lang-powershell">cd "c:\Program Files\Octopus Deploy\Tentacle"
 .\tentacle.exe new-certificate
 ```
-
 This command will output a message saying “A new certificate has been generated and installed”, and will tell you the thumbprint. You can verify this change by opening the Tentacle Manager to see the new thumbprint.
 
 Restart the tentacle to ensure it is using the new thumbprint before you pair it with your Octopus Server.

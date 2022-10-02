@@ -29,7 +29,6 @@ First of all, here are the two valid ways you can mark up your form with a label
     <option value="Tuesday">Tuesday</option>
 </select>
 ```
-
 And secondly, by wrapping the form element with the label.
 
 ```
@@ -41,7 +40,6 @@ And secondly, by wrapping the form element with the label.
     </select>
 </label>
 ```
-
 To get the text, you need to take into account both of these methods, in this example we demonstrate how to do this, while also demonstrating the next problem.
 
 ```
@@ -56,7 +54,6 @@ if (labelText === "") {
     $("#" + myId).parents("label").text();
 }
 ```
-
 We have successfully obtained the right element in this example, but if the label is wrapping the form element in our example, instead of getting “Select a day” we end up getting “Select a day Monday Tuesday”, because `jQuery.text()` brings back the text from the selected element and all of its descendants.
 
 So here is how you get the text from just the parent element while excluding all of the child element text.
@@ -73,5 +70,4 @@ if (labelText === "") {
     $("#" + myId).parents("label").clone().children().remove().end().text();
 }
 ```
-
 So we still get hold of the label in the same way, but then we clone it, remove all child elements from the cloned version and get the text from the cloned version, which no longer has any children.

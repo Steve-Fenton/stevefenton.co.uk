@@ -24,7 +24,6 @@ namespace Fenton.Sample.UI
     }
 }
 ```
-
 …and here is how we declare namespaces with namespace declarations (no curly braces, no nesting, just a semi-colon):
 
 ```
@@ -36,5 +35,4 @@ public class Example
 
 }
 ```
-
 Less nesting, happy days.

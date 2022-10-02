@@ -27,7 +27,6 @@ if (myName!= 0)
     query = query.Where(t => t.Name.Equals(myName));
 }
 ```
-
 I have been using the following extension methods to clean up this act, it conditionally adds the filter only if a value has been supplied (note: in my case 0 always means nothing was selected…).
 
 ```
@@ -66,14 +65,12 @@ public static IQueryable<T> AddFilterIfValue<T>(this IQueryable<T> query, string
     return query;
 }
 ```
-
 You call it like this…
 
 ```
 <pre class="prettyprint lang-csharp">
 query = query.AddFilterIfValue(myNumber, t => t.Number.Equals(myNumber));
 ```
-
 And it can be chained, so you can do it like this…
 
 ```
@@ -82,7 +79,6 @@ query = query
     .AddFilterIfValue(myNumber, t => t.Number.Equals(myNumber))
     .AddFilterIfValue(myName, t => t.Name.Equals(myName));
 ```
-
 Additional note: don’t forget to use the returned value, i.e. this won’t work because you forgot to assign the returned query to a variable…
 
 ```

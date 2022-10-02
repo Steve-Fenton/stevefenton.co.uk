@@ -25,20 +25,15 @@ So if you want to have really tight type information in your program, this is a 
 Here is a quick example of a bit of code you’ll be warned about:
 
 ```
-<pre class="prettyprint lang-typescript">
 var myClass;
 ```
-
 And you could fix it either by explicitly setting the type of any…
 
 ```
-<pre class="prettyprint lang-typescript">
 var myClass: any;
 ```
-
 Or even better, by giving it a type if one is appropriate…
 
 ```
-<pre class="prettyprint lang-typescript">
 var myClass: MyClass;
 ```

@@ -22,19 +22,16 @@ PowerShell. The variable is automatically available in PowerShell. It is called 
 ```
 <pre class="prettyprint lang-powershell">$ImportantVariable
 ```
-
 Visual Studio Database Project. When you add the variable to your Visual Studio Database Project, call it something sensible like:
 
 ```
 <pre class="prettyprint lang-sql">$(ImportantVariable)
 ```
-
 You can use this anywhere in your script, even inside of strings…
 
 ```
 <pre class="prettyprint lang-sql">SET @example = N'The value is $(ImportantVariable)'
 ```
-
 You’ll get a build error until you go to the project properties, SQLCMD Variables tab and add the variable to the list. You can associate a default value to it here too.
 
 DacPac Deploy. All that is left is to pass the variable from PowerShell into the DacPac deployment. You can do this via a variables dictionary in the DacPac options (Microsoft.SqlServer.Dac.DacDeployOptions).
@@ -42,7 +39,6 @@ DacPac Deploy. All that is left is to pass the variable from PowerShell into the
 ```
 <pre class="prettyprint lang-powershell">$options.SqlCommandVariableValues.Add("ImportantVariable", $ImportantVariable)
 ```
-
 So to recap, you’ll need to:
 
 1. Add the variable to the Octopus Deploy project

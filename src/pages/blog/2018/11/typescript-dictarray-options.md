@@ -18,18 +18,15 @@ This is one of those cases where a question keeps cropping up, so lots of people
 What’s a Dictarrary? It’s a dictionary that’s also an array. You know… one of these:
 
 ```
-<pre class="prettyprint lang-typescript">
 const dictarray = [];
 dictarray[0] = 'My string';
 dictarray['key'] = 'My other string';
 
 console.log(dictarray[0], dictarray['key']);
 ```
-
 You see, it’s both an array with index numbers, and a dictionary of key/value pairs. But how do you create a type that represents this Dictarray? The following doesn’t work (and is the example that keeps cropping up… “why doesn’t TypeScript like my Dictarray interface?”
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Dictarray extends Array<string> {
     [index: number]: string;
     // Error - because of conflicts
@@ -42,13 +39,11 @@ dictarray['key'] = 'My other string';
 
 console.log(dictarray[0], dictarray['key']);
 ```
-
 The error is actually quite sensible. If you have an array type it contains members like `forEach` that doesn’t conform to your string keyed types: `[key: string] : string;`
 
 Despite this, using the type kinda works, as shown in this example….
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Dictarray extends Array<string> {
     [index: number]: string;
     // Error - because an array contains keyed members that conflict with this
@@ -73,26 +68,22 @@ const b = dictarray['key'];
 
 console.log(dictarray[0], dictarray['key']);
 ```
-
 All the type checking and inference above works. It errors when I try to assign numbers. It infers the correct type when I pull things out.
 
 I’m tempted to supress the error using a [TypeScript Error Supression Comment](https://www.stevefenton.co.uk/2017/11/dont-use-typescript-error-suppression-comments/):
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Dictarray extends Array<string> {
     [index: number]: string;
     // @ts-ignore: I'm creating a Dictarray!
     [key: string] : string;
 }
 ```
-
 If you are absolutely determined to create a Dictarray, this is probably the simplest way to do it. It might get knocked about by future versions of TypeScript, but it works today.
 
 Alternatively, you could keep your stuff separate. Do you really need it all stuffed together so tightly?
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Dictarray {
     items: string[],
     dictionary: { [key: string]: string; }
@@ -108,7 +99,6 @@ dictarray.dictionary['key'] = 'My other string';
 
 console.log(dictarray.items[0], dictarray.dictionary['key']);
 ```
-
 For those wot must… here is the actual Dictarray interface and example use!
 
 ```
@@ -120,5 +110,4 @@ For those wot must… here is the actual Dictarray interface and example use!
 
 const dictarray = [] as Dictarray<string>;
 ```
-
 So you can solve the problem in a couple of different ways. Choose wisely.

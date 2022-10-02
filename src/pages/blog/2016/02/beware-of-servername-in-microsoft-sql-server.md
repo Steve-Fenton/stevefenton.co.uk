@@ -18,7 +18,6 @@ For example, if you are running on a named instance, you’ll get the following 
 ```
 <pre class="prettyprint lang-sql">SELECT @@SERVERNAME -- "YOUR-SERVER\INSTANCE"
 ```
-
 So when you want the machine name, ask for it specifically and don’t rely on your SQL Server and machine having the same name:
 
 ```

@@ -37,14 +37,12 @@ The default build number format is:
 <pre class="prettyprint lang-plain_text">
 $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)
 ```
-
 This results in a build number of “BUILD\_NIGHTLY-20121201.0”. I am using my own custom build number format:
 
 ```
 <pre class="prettyprint lang-plain_text">
 $(TeamProject)-1.0.0$(Rev:.r)
 ```
-
 This results in “ProjectName-1.0.0.0”. When we come to use this build number, we won’t want “ProjectName-“, so we’ll just take the rest. You can invent whatever numbering scheme you like, but in this specific case the first three numbers a hard-coded. That is because sales and marketing wanted control over the major and minor version and the third number was used for patches. For example:
 
 - 1.1.\*.\* is a marketing decision
@@ -83,7 +81,6 @@ echo [assembly: AssemblyVersion("%version%")] >> %outfile%
 echo [assembly: AssemblyFileVersion("%version%")] >> %outfile%
 %tfstool% checkin %outfile% /comment:"***NO_CI*** Assembly Info Increment" /noprompt
 ```
-
 You can remove the three lines containing the text “%tfstool%” if you don’t want to version the file. Here is a breakdown of what the file does.
 
 **Check Out File**
@@ -92,7 +89,6 @@ You can remove the three lines containing the text “%tfstool%” if you don’
 <pre class="prettyprint lang-powershell">
 %tfstool% checkout %outfile%
 ```
-
 **Make File Writable**
 
 If you aren’t checking out the file, you’ll need to make it writable.
@@ -101,7 +97,6 @@ If you aren’t checking out the file, you’ll need to make it writable.
 <pre class="prettyprint lang-powershell">
 attrib -r %outfile%
 ```
-
 **Echo File Contents**
 
 The batch file uses &gt; to write over a file and &gt;&gt; to append to a file.
@@ -110,7 +105,6 @@ The batch file uses &gt; to write over a file and &gt;&gt; to append to a file.
 <pre class="prettyprint lang-powershell">
 echo Some line >> %outfile%
 ```
-
 **Check In File**
 
 On check-in, we specify the exact file to check in, add a comment that prevents CI builds from being triggered and ask for no prompts.
@@ -119,7 +113,6 @@ On check-in, we specify the exact file to check in, add a comment that prevents 
 <pre class="prettyprint lang-powershell">
 %tfstool% checkin %outfile% /comment:"***NO_CI*** Assembly Info Increment" /noprompt
 ```
-
 ### InvokeProcess Task
 
 To make the magic happen, we need to call the batch file from the build definition. TFS has an InvokeProcess task that is ideal for this. You’ll need to open up the build process definition XAML file to do this. I added the InvokeProcess activity in the “Run On Agent” step that you’ll find in the default template, just after “Initialize Workspace” activity.
@@ -134,7 +127,6 @@ The arguments property contains the string that you would pass in the command li
 <pre class="prettyprint lang-plain_text">
 LabelName.Replace("ProjectName-", "") + " " + SourcesDirectory + "\Main\Source\AssemblyInfoShared.cs"
 ```
-
 **FileName**
 
 Again we use the TFS properties to get the build directory so we can pass in the full path to the shared Assembly Info file.
@@ -143,7 +135,6 @@ Again we use the TFS properties to get the build directory so we can pass in the
 <pre class="prettyprint lang-plain_text">
 SourcesDirectory + "\Path\AssemblyVersion.bat"
 ```
-
 You can also drag a WriteBuildMessage and WriteBuildWarning activity onto the InvokeProcess activity to push happy and sad messages into the build log.
 
 And that’s it. A SharedAssemblyInfo.cs file, a batch file and an InvokeProcess activity are all you need to auto-increment your build numbers.

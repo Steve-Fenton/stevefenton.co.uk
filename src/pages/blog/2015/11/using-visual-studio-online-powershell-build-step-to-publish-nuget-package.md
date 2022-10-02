@@ -64,7 +64,6 @@ Write-Output "Pushing package to NuGet " $packagePath
 $pushCommand =  $LocalPath + "\nuget push $packagePath -Source " + $FeedUrl + " -ApiKey " + $SourceName + " "
 Invoke-Expression -Command $pushCommand
 ```
-
 The idea behind this script is that it slots in nicely after a NuGet Packager step (with default values – if you specify a Package Folder in this build step, you’ll need to adjust the path used in this PowerShell step).
 
 The script uses the build environment variables `$ENV:BUILD_REPOSITORY_LOCALPATH` and `$ENV:BUILD_BUILDNUMBER` to get the information it needs about the package location.
@@ -74,5 +73,4 @@ To use the script, pass the arguments in the PowerShell Build Step:
 ```
 <pre class="prettyprint lang-powershell">-SourceName "example" -FeedUrl "https://example.pkgs.visualstudio.com/DefaultCollection/_packaging/example/nuget/v3/index.json" -PackageName "Example.Networking" -Username "steve.fenton" -Password "secret-magic-word"
 ```
-
 The feed url is displayed on the package configuration screen along with the other information you need in the above script (the information used to add the package source and publish the package).

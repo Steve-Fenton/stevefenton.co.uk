@@ -34,5 +34,4 @@ return Environment.GetEnvironmentVariable("NCrunch") == "1" ?
     ConfigurationManager.AppSettings["ncrunchConnectionString"] :
     ConfigurationManager.AppSettings["dbConnectionString"];
 ```
-
 These may seem like simple things, but knowing them now will save you a bit of time when you get started with NCrunch. I can’t over-state just how excellent this extension is, especially for TDD teams.

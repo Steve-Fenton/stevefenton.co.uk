@@ -33,11 +33,9 @@ All you need to do is adjust the list of boring columns.
     });
 }());
 ```
-
 Once you are done, jam it into one unholy line of code, with “javascript:” at the start and use it as the URL for a bookmark in your browser.
 
 ```
 <pre class="prettyprint lang-js">javascript:(function() { var boringColumns = [['New Issue', 'Ice Box', 'For Review', 'For Specification']; var lists = $('.list-wrapper'); $.each(lists, function(ix, list) { var text = $('h2.list-header-name', list).text(); if ($.inArray(text, boringColumns) > -1) { list.style.display = 'none'; } }); }());
 ```
-
 The script uses jQuery… because that is what is available on the page.

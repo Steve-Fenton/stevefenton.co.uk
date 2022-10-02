@@ -33,7 +33,6 @@ services.ConfigureApplicationCookie(options =>
     // etc :)
 });
 ```
-
 Your first step in changing the paths is to add them to your configuration, like below:
 
 ```
@@ -51,14 +50,12 @@ services.ConfigureApplicationCookie(options =>
     // etc :)
 });
 ```
-
 If you have this exact code, you’ll find that your custom login, logout, and access denied pages are ignored. That’s because the default UI is winning! The main thing to remember when you want to set custom pages for .NET Core Identity is that you have to *not* ask for the default UI. So remove this line from Startup.cs:
 
 ```
 <pre class="prettyprint lang-csharp">
 .AddDefaultUI(UIFramework.Bootstrap4)
 ```
-
 You should now find your custom login, logout, and access denied pages are respected.
 
 ```

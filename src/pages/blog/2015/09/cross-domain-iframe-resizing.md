@@ -28,13 +28,11 @@ On your host page, you need the following:
     iFrameResize();
 </script>
 ```
-
 And in the page hosted in the iframe you need:
 
 ```
 <pre class="prettyprint lang-html"><script src="iframeResizer.contentWindow.min.js"></script>
 ```
-
 You can also narrow down the scope of the integration by specifying the iframe and limiting the domains:
 
 ```
@@ -43,7 +41,6 @@ You can also narrow down the scope of the integration by specifying the iframe a
     iFrameResize({}, '#myid');
 </script>
 ```
-
 And in the page hosted in the iframe you need:
 
 ```

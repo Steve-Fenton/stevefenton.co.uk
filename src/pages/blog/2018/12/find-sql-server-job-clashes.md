@@ -41,7 +41,6 @@ ORDER BY
     SCHED.next_run_date,
     SCHED.next_run_time
 ```
-
 This will group the jobs by next run time and let you know how many are starting at once. It discards jobs without a next run time and only shows times where more than one job will start. This will allow you to consider replacing your 5, 10, 15, 30, 60 minute schedules with something else, for example a primes-based schedule using 7, 11, 17, 29, and 61 minute intervals.
 
 For example, imagine you have the following jobs set up:

@@ -24,12 +24,10 @@ All you have to do to fix this is go and update your \_ViewImports.cshtml file t
 <pre class="prettyprint">
 @inject Microsoft.ApplicationInsights....
 ```
-
 Once you remove these, you’ll probably get a second layer of issues, from the stuff in your views that depended on this injection.
 
 ```
 <pre class="prettyprint">
 @Html.Raw(JavaScriptSnippet.FullScript)
 ```
-
 Once you’ve chased through the list, you’ll find it’s easy to resolve – the hard bit is knowing you have to start in the \_ViewImports.cshtml file.

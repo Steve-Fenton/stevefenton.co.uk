@@ -27,7 +27,6 @@ If you head to the folder:
     </YourFeedName>
   </packageSourceCredentials>
 ```
-
 You can also secure this by adding the credentials via NuGet.exe – in which case the password will be encrypted.
 
 ```

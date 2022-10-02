@@ -78,7 +78,6 @@ class CountingMachine {
     }  
 }
 ```
-
 How much do we really need these? Isn’t it better to name things well in the first place so the code ultimately documents itself?
 
 ```
@@ -103,7 +102,6 @@ class CountingMachine {
     }  
 }
 ```
-
 Do we need to be told what “getTotal” or “addNumber” does? Do we need a description for the running total now that we have named it after what it does?
 
 Ultimately, PHP Doc comments are noise. They make the page hard to read and impossible to love. I remember people getting excited about the same stuff in other languages (Java, C#) but ultimately the lesson was learned and the comments were dropped.

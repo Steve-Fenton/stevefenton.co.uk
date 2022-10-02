@@ -34,7 +34,6 @@ Enter the HTML5 “autofocus” attribute. This leaves the implementation to the
 <pre class="prettyprint lang-html">
 <input type="text" name="autofocus" autofocus><span id="mce_marker" data-mce-type="bookmark">​</span>
 ```
-
 You can of course use autofocus=”autofocus” if you are a fan of XML.
 
 #### Placeholder
@@ -47,7 +46,6 @@ Here is how you use it:
 <pre class="prettyprint lang-html">
 <input type="text" name="firstname" placeholder="Enter your first name">
 ```
-
 #### Required
 
 Yet again, this is a simple promotion from JavaScript to actual HTML. If you want a mandatory field, this will make the field required before you can submit the form.
@@ -56,7 +54,6 @@ Yet again, this is a simple promotion from JavaScript to actual HTML. If you wan
 <pre class="prettyprint lang-html">
 <input type="text" name="required" required>
 ```
-
 And again, required=”required” for XML fans.
 
 #### Pattern
@@ -67,7 +64,6 @@ This one takes the required attribute even further, allowing you to use a JavaSc
 <pre class="prettyprint lang-html">
 <input type="text" name="pattern" pattern="[A-Za-z]" required>
 ```
-
 Bear in mind that the message displayed by browsers may not be very descriptive, so you’ll need to make sure your label is clear as my tests have shown messages with no text and messages with “Please match the required expression”, which aren’t much help to your users.
 
 #### Next Episode!

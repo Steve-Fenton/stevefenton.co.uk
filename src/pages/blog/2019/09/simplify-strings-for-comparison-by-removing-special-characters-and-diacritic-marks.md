@@ -20,7 +20,6 @@ function normalise(term) {
     term.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
  }
 ```
-
 You can see the impact using this sample from a couple of languages:
 
 ```
@@ -32,7 +31,6 @@ for (let s of strings) {
     console.log(simple);
 }
 ```
-
 The output is:
 
 1. example

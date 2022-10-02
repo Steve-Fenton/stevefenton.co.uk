@@ -21,7 +21,6 @@ This can be solved rather clumsily by using CSS word-wrap:
 ```
 <pre class="prettyprint lang-css">word-wrap: break-word;
 ```
-
 This will split whole words as needed to make things fit, but it loses a lot of readability, which would make these tiles less useful.
 
 A much better way to split the words would be if they would break on whole words, i.e. “Customer”, “Entitlement”, “Repository”. But of course, they aren’t whole words – because there are no spaces.
@@ -31,20 +30,17 @@ So the solution is to insert soft-hyphens:
 ```
 <pre class="prettyprint lang-html">Customer&shy;Entitlement&shy;Repository.cs
 ```
-
 Soft hyphens only appear when they are needed, so when there is enough room, you’ll see:
 
 ```
 CustomerEntitlementRepository.cs
 ```
-
 And when there isn’t enough room, you’ll see a variation such as:
 
 ```
 CustomerEntitlement-
 Repository.cs
 ```
-
 To insert these soft hyphens automatically with C#, you can use this regular expression:
 
 ```

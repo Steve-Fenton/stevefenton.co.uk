@@ -24,7 +24,6 @@ JSON.stringify(event.detail);
 {"name":"Eifel Tower","dimensions":{"height":357.5,"width":124.9}}
 */
 ```
-
 But there are actually two other parameters on stringify: `JSON.stringify(value, replacer, space)`. That last one is the interesting one here, as it allows you to specify the indentation for a pretty output.
 
 ```
@@ -41,5 +40,4 @@ JSON.stringify(event.detail, null, 4);
 }
 */
 ```
-
 Now we have the same output, but formatted with new lines and indentation.

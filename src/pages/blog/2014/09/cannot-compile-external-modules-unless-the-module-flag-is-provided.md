@@ -30,7 +30,6 @@ If you see this when using the TypeScript compiler on the command line, you can 
 <pre class="prettyprint lang-powershell">
 tsc --module amd app.ts
 ```
-
 You can specify either AMD or CommonJS module styles and the compiler will generate the appropriate code for importing modules.
 
 ### Visual Studio 2013
@@ -54,7 +53,6 @@ You can also inject these properties directly into the project file if you find 
     <TypeScriptModuleKind>amd</TypeScriptModuleKind>
 </PropertyGroup>
 ```
-
 ### Works For Me… Breaks On The Build Server
 
 It is possible to still encounter the error even after doing all of this (in fact, it is highly likely if you pasted into the project file…) the reason for this is that you can have different settings for Debug and Release mode… so go back to the project properties and use the drop down at the top of the TypeScript Build properties tab to check both Debug and Release settings have the module kind set correctly.

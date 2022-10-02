@@ -26,7 +26,6 @@ date: 2022-07-20
 sitemap: true
 ---
 ```
-
 This means we can just list relevant pages in a `sitemap.xml` file, like this. It’s just a basic example with the minimal required fields.
 
 ```

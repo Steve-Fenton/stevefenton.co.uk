@@ -30,5 +30,4 @@ export const get = () => {
     };
 };
 ```
-
 When you save this file and navigate to `/search.json` in your browser, you’ll see the JSON response, `[1, 2, 3, 4]`.

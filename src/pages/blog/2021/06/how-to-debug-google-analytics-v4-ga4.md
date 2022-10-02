@@ -32,7 +32,6 @@ Switch on the debug tools for the whole property by adjusting your analytics con
 <pre class="prettyprint lang-javascript">
   gtag('config', 'G-AAAAAAAAAA', {'debug_mode': true});
 ```
-
 Alternatively, you can set this flag on specific events, using the same `debug_mode` flag in your event data:
 
 ```
@@ -42,7 +41,6 @@ Alternatively, you can set this flag on specific events, using the same `debug_m
     'debug_mode': true
   });
 ```
-
 ### Correlating the session
 
 Often, you need to pick your session out of several debug sessions that will appear on the DebugView page.

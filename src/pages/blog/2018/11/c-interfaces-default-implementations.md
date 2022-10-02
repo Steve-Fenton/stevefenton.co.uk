@@ -30,7 +30,6 @@ So, if you have a Human class, you can mix it up with some super power mixins or
 I’ll get back to C# in just a second, but here’s the TypeScript code version of the previous statement.
 
  ```
-<pre class="prettyprint lang-typescript">
 type Constructor<T = {}> = new (...args: any[]) => T;
 
 function DoesWhateverASpiderCan<TBase extends Constructor>(Base: TBase) {
@@ -59,7 +58,6 @@ const SpiderMan = DoesWhateverASpiderCan(Human);
 const peter = new SpiderMan('Peter');
 peter.swing();
 ```
-
 Now TypeScript has mixins, so you can extend a class in a stateful way. C# has default implementations on interfaces, which is traits. Traits are stateless. This is a constraint, but it may also make your life easier. Now, the preview of C# 8.0 isn’t available at the time of writing, so the following C# equivalent of Spiderman might not compile, but it gives a general idea of what’s coming.
 
  ```
@@ -91,5 +89,4 @@ var spiderMan = new Spiderman();
 spiderMan.swing();
 ```
 ```
-
 The `Spiderman` class inherits from `Human`, and *implements* the `IDoWhateverASpiderCan` interface; except it doesn’t have to implement anything because the interface has the default implementation. That means the methods on the interface can be shared between many classes. It also means you can implement many default implementations from many different interfaces, thus smooshing together the behaviour of as many radioactive creatures as you like.

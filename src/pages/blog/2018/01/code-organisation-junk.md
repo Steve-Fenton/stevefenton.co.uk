@@ -48,7 +48,6 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 ```
-
 In the above example, we could group these dependencies quite quickly and easily:
 
 ```
@@ -82,7 +81,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 ```
-
 Group 1 and Group 7 are probably natural dependencies that belong here… but every other grouping is an opportunity to break up this class. For example, it is a very common practice to distance yourself from things like persistence, which means Azure Storage dependencies, HTTP dependencies, Database dependencies, and file system dependencies can all be replaced with something less concrete.
 
 To demonstrate that you can’t just make a rule up about this stuff, let’s quickly look at the `System.IO` dependency. It turns out that we are using `Path.Combine`, but there is no file system interaction. Perhaps we could leave that one in here for now as there are bigger fish to fry.

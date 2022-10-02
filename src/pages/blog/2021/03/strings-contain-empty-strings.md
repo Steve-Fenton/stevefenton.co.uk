@@ -18,7 +18,6 @@ This is just one of those philosophical moments in programming where one small d
 // True
 bool isMatch = "some string".Contains(string.Empty);
 ```
-
 A more realistic example is below, imagine you have a config file with some value, and the value isn’t set for some environment… every comparison made will match.
 
 ```

@@ -34,7 +34,6 @@ You can now use your alternate credentials to update your config file.
 <add key="TfsUsername" value="[The user name you created]"/>
 <add key="TfsPassword" value="[The password you created]"/>
 ```
-
 ### Step Three – Done
 
 And that is how simple it all is. You can now track your builds on Visual Studio Online.

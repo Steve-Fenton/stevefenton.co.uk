@@ -46,13 +46,11 @@ export class CustomTestReporter extends TestReporter {
     }
 }
 ```
-
 To use the custom test reporter, pass it in when you instantiate the SpecRunner.
 
 ```
 <pre class="prettyprint lang-typescript">var runner = new SpecRunner(new CustomTestReporter());
 ```
-
 The result of this custom test reporter is shown below:
 
 ![TypeSpec Browser Ouput](https://www.stevefenton.co.uk/wp-content/uploads/2015/11/typespec-browser-output.png)

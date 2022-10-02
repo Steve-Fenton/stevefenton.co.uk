@@ -32,7 +32,6 @@ The following command will list all accounts with access to the private key.
 <pre class="prettyprint lang-powershell">
 WinHttpCertCfg.exe -l -c LOCAL_MACHINE\MY -s "IssuedToName"
 ```
-
 ### Grant access to “Network Service”
 
 The following command will grant permission for Network Service to access the private key of the certificate. Even though you’ll see the user with a space, be careful not to place a space inbetween Network and Service.
@@ -41,5 +40,4 @@ The following command will grant permission for Network Service to access the pr
 <pre class="prettyprint lang-powershell">
 WinHttpCertCfg.exe -g -c LOCAL_MACHINE\MY -s "IssuedToName" -a "NetworkService"
 ```
-
 There are some additional notes on [WinHttpCertCfg usage on MSDN](http://msdn.microsoft.com/en-us/library/aa384088%28v=vs.85%29.aspx).

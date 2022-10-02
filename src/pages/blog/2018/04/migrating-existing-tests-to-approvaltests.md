@@ -39,7 +39,6 @@ public void TestTheFirstVerse()
         "98 bottles of beer on the wall.\n");
 }
 ```
-
 ### Add ApprovalTests
 
 To use ApprovalTests, you need to install the `ApprovalTests` package from NuGet (other flavours are available for your favourite language). It also pulls in a couple of dependencies.
@@ -59,7 +58,6 @@ public void TestTheFirstVerse()
         "98 bottles of beer on the wall.\n");
 }
 ```
-
 This attribute does nothing and your tests still pass! We can now introduce a verification call to ApprovalTests. This is where we see a difference to many other test workflows. When you first write a verification and run the test, it will fail. When it does this, it creates two files on the file system and opens them for comparison. You can choose to approve the text and save the result, at which point the test will go green. All future tests will be run against your approved gold copy.
 
 In the test below, I have added the call to `Approvals.Verify`. Note that I have left my existing assertion in place. I won’t remove that until I have seen the verification fail, approved the text, and seen both the new verification and the old test go green together. This will ensure that the new approval is a good analog for the old one before I delete it.
@@ -81,7 +79,6 @@ public void TestTheFirstVerse()
         "98 bottles of beer on the wall.\n");
 }
 ```
-
 Running this for the first time opens up the diff tool.
 
 ![Test Verification Failure Diff Tool](https://www.stevefenton.co.uk/wp-content/uploads/2018/04/approvaltests-first-diff.png)
@@ -107,7 +104,6 @@ public void TestTheFirstVerse()
     Approvals.Verify(new Bottles().Verse(99));
 }
 ```
-
 The gold copy is stored in a simple text file, so you can commit it to source control and track the versions just like your source code. You’ll see it if you enable all files in the solution explorer and can add it to the solution. The file is named to match the test it belongs to.
 
 ![Gold Copy Text File](https://www.stevefenton.co.uk/wp-content/uploads/2018/04/gold-copy-test-file.png)

@@ -25,7 +25,6 @@ div ~ p {
 }
 ```
 ```
-
 This CSS translated into English says:
 
 > If there are is a paragraph next to another paragraph inside a division, make the text red
@@ -42,7 +41,6 @@ Here is an example HTML snippet that shows where the CSS sibling selector will a
     &lt;/div>
 ```
 ```
-
 ![CSS Sibling Selector](https://www.stevefenton.co.uk/wp-content/uploads/2017/10/css-sibling-selector.png)
 
 ### Doesn’t traverse up

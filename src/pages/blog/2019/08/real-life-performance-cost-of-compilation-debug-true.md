@@ -20,7 +20,6 @@ There is a little setting in your ASP.NET Web.config file that sets compilation 
     <compilation debug="true" targetFramework="4.5.2" />
     <!-- ... -->
 ```
-
 This is necessary for debugging, but also costly.
 
 That’s why your default Web.Release.config transform removes it:
@@ -31,7 +30,6 @@ That’s why your default Web.Release.config transform removes it:
     <compilation xdt:Transform="RemoveAttributes(debug)" />
     <!-- ... -->
 ```
-
 If, for some reason, your config transform doesn’t run, you’ll find that you are hit squarely on the performance mid-section. Let’s take a real-life example, and also give some credit to [Dave](https://www.dave-beaumont.co.uk/), who basically did all the hard work and didn’t object to me getting all the kudos. Thanks Dave.
 
 Here are some results from a sample of requests, where half were taken with `compilation debug="true"` and half were taken with `compilation debug="false"`.

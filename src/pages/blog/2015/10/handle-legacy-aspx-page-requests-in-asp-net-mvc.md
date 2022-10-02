@@ -26,7 +26,6 @@ By default, these requests won’t be passed to your application so you won’t 
 	</handlers>
 </system.webServer>
 ```
-
 Once you have updated the Web.config, you can create a route to pass these requests to an action:
 
 ```
@@ -41,7 +40,6 @@ Once you have updated the Web.config, you can create a route to pass these reque
     );
 }
 ```
-
 And within your controller you can do whatever you like with the request, for example redirect it to the new address, or display content, or whatever you like.
 
 ```

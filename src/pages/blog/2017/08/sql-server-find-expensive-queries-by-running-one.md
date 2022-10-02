@@ -59,5 +59,4 @@ ORDER BY
     -- My favourite: runs often, takes quite some time...
     QUERYSTATS.execution_count * (QUERYSTATS.total_worker_time / QUERYSTATS.execution_count) DESC
 ```
-
 The ordering I have left “commented-in” is my personal favourite. Your mileage may vary.

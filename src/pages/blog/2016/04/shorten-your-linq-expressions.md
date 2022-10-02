@@ -23,7 +23,6 @@ var result = someEnumerable.Where(e => e.IsCondition).SingleOrDefault();
 
 var result = someEnumerable.Where(e => e.IsCondition).Count();
 ```
-
 Can you spot it? I call it the *Redundant “Where” Anti-Pattern*… All of these could be expressed as:
 
 ```
@@ -33,5 +32,4 @@ var result = someEnumerable.SingleOrDefault(e => e.IsCondition);
 
 var result = someEnumerable.Count(e => e.IsCondition);
 ```
-
 Note how the tractor is pulling one less trailer!

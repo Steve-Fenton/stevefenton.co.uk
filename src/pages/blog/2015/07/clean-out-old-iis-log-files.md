@@ -40,14 +40,12 @@ For Each currentFolders in iisFolder.SubFolders
     Next
 Next
 ```
-
 You can call this from the command line using the following command:
 
 ```
 <pre class="prettyprint lang-powershell">
 cscript.exe CleanIISLogs.vbs
 ```
-
 You can also automate this process using Task Scheduler. For the action, enter the following information (assuming you have saved the VBScript file as “E:\\IIS-Logs-Cleaner\\CleanIISLogs.vbs”):
 
 - Action: Start a program

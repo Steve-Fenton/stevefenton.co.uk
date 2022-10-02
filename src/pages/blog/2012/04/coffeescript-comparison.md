@@ -39,7 +39,6 @@ var SampleTest = (function () {
 
 Enhance.discoverTests(SampleTest).runTests();
 ```
-
 ### CoffeeScript Version
 
 When you rewrite this in CoffeeScript, it actually looks quite nice.
@@ -56,7 +55,6 @@ class SampleTest
 
 Enhance.discoverTests(SampleTest).runTests()
 ```
-
 ### The Compiled Output
 
 One command later, we have a JavaScript file that looks like this:
@@ -90,5 +88,4 @@ One command later, we have a JavaScript file that looks like this:
   Enhance.discoverTests(SampleTest).runTests();
 }).call(this);
 ```
-
 And that isn’t a million miles away from the original – but with the benefit of a (subjectively) tidier file to work with – it was 14 lines of JavaScript and 9 lines of CoffeeScript, with less chuff around the edges and with a clever compiler that knows what Douglas Crockford thinks we should be doing.

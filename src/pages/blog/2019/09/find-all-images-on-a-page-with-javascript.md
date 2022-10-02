@@ -28,14 +28,12 @@ Here’s the JavaScript version to find all images:
 <pre class="prettyprint lang-js">
 Array.prototype.map.call(document.images, function (i) { console.log('image', i.src); });
 ```
-
 And this is the scriptlet version to find all images from your favourites toolbar:
 
 ```
 <pre class="prettyprint lang-js">
 javascript:{Array.prototype.map.call(document.images, function (i) { console.log('image', i.src); });}; void(0);
 ```
-
 ### Find all insecure images
 
 Here’s the JavaScript version to find all insecure images:
@@ -44,7 +42,6 @@ Here’s the JavaScript version to find all insecure images:
 <pre class="prettyprint lang-js">
 Array.prototype.map.call(document.images, function (i) { if (i.src.indexOf('http:') > -1) console.log('image', i.src); });
 ```
-
 And this is the scriptlet version to find all insecure images from your favourites toolbar:
 
 ```

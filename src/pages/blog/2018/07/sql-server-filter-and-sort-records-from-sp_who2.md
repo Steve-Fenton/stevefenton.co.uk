@@ -51,7 +51,6 @@ GO
 DROP TABLE #spootoo
 GO
 ```
-
 If you are looking at blocking, in particular, you might find it useful to grab both a filtered view and the whole lot:
 
 ```
@@ -94,5 +93,4 @@ FROM #spootoo
 DROP TABLE #spootoo
 GO
 ```
-
 By selecting both result sets from the temporary table, you’ll be looking at the same point in time. This prevents confusion that might be caused if you made a second call to `sp_who2`.

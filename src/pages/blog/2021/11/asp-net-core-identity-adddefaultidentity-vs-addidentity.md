@@ -30,7 +30,6 @@ services
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 ```
-
 With this code you get the tables, the roles, and the built in pages.
 
 ### AddIdentity

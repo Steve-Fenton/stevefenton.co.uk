@@ -23,7 +23,6 @@ If you have an object in your code, and that object has some kind of measurement
         ) {}
 }
 ```
-
 But this will almost certainly lead to some issues… for example, you store your values as centimeters but then find that you need to display millimeters in some territories and inches in others. “That’s easily fixed” you might say… “I can times the value by 10 to get mm, and by 0.393701 to get inches!”.
 
 Of course you *can* do this… but then you start to find the number 0.393701 all over the place in your code… and then you add “search by size” and discover that you are converting back and forth all over the shop when trying to find a desk between 100 somethings and 150 somethings.
@@ -55,7 +54,6 @@ class Length {
     }
 }
 ```
-
 Once you have started to hide away all the details in this class, life becomes much easier… this class can handle all comparisons and even provide a simple API for creating itself in different units:
 
 ```
@@ -102,7 +100,6 @@ Once you have started to hide away all the details in this class, life becomes m
     }
 }
 ```
-
 In some languages, you can even override operators for equals, greater than, and less than, which would allow comparison using the normal ==, operators. Another feature of some languages is that you can hide the constructor, meaning you can only create a length using the static methods, making your code very explicit and confusion free.
 
 In the examples above I have used the smallest unit as the storage unit, but you could use any unit with sufficient granularity, even one that isn’t exposed.

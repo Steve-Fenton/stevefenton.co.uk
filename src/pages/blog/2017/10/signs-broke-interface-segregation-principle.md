@@ -39,7 +39,6 @@ class JetPrinter : IPrinter {
     }
 }
 ```
-
 ### ISP violation
 
 Can you see the violation? Because the `IPrinter` interface has too many members, classes that implement the interface start throwing exceptions for the members that they don’t support. This is a classic signpost for ISP problems.

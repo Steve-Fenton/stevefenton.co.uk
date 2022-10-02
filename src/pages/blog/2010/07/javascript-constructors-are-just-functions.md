@@ -34,7 +34,6 @@ var a = AddTwoNumbers(3, 5);
 // Use it as a constructor
 var b = new AddTwoNumbers(3, 5);
 ```
-
 In this example, a will be equal to 8, but b will be a new object instance of “AddTwoNumbers”.
 
 Obviously this is entirely useless behaviour. You should probably never write a dual function/constructor as it is no use to anyone, but the important thing to take away from this example is that a function is only ever a constructor when you call it with the “new” keyword.

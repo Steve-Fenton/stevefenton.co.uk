@@ -24,7 +24,6 @@ Basically, the controller says what fields to update like this:
 <pre class="prettyprint lang-csharp">
 currentItem.MapField(nameof(currentItem.Title), replacement);
 ```
-
 It doesn’t matter how many fields I have on my type, I’m only sending back the title to the database.
 
 To see how it all works, I’m going to use my `Entity` base class, and an `Organisation` type that extends `Entity`
@@ -36,7 +35,6 @@ Let’s follow the code down from my controller. The base class actually does th
     public class Organisation
         : Entity
 ```
-
 And my `Entity` class has a method that works for any kinds of entity.
 
 ```
@@ -59,7 +57,6 @@ And my `Entity` class has a method that works for any kinds of entity.
         }
     }
 ```
-
 In the full version, when I land in the `property.SetValue` condition, I also update some base class stuff as it’s a neat place to say “something really changed”. I also happen to do some other manipulations, such as sanitising user input. You might find this a useful place to do things like trimming user input, or running it through allow lists.
 
 If you don’t like inheriting from an `Entity` class you could delegate this off, or write an extension method, or whatever floats your boat.

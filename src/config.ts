@@ -1,9 +1,9 @@
 export const SITE = {
 	url: 'https://www.stevefenton.co.uk',
-	title: 'Astro Accelerator',
-	description: 'An Astro quick start project.',
+	title: 'Steve Fenton',
+	description: 'My website, tech blog, and other information.',
 	defaultLanguage: 'en',
-	themeColor: '#222255',
+	themeColor: '#336699',
 	owner: 'Steve Fenton',
 	default: {
 		lang: 'en',

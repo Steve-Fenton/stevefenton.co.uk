@@ -27,7 +27,6 @@ Scenario: Binding Test
     Then the second line should be bound
     And the third line should not be bound
 ```
-
 The specification says it all – I have defined a step for the second line:
 
 > And this line accepts “a string” in
@@ -46,7 +45,6 @@ public void GivenThisLineAcceptsIn(string p0)
     ScenarioContext.Current.Pending();
 }
 ```
-
 ![SpecFlow Before](https://www.stevefenton.co.uk/wp-content/uploads/2015/07/specflow-before.png)
 
 As you can see, the third line is not purple because it is actually matched to the step definition for the second line (you can tell this because the silver text includes the whole middle chunk of the specification).
@@ -61,7 +59,6 @@ public void GivenThisLineAcceptsIn(string p0)
     ScenarioContext.Current.Pending();
 }
 ```
-
 As you can see, the RegEx has been changed from the default: `(.*)`
 
 To the more specific quote-inclusive: `([^\""]*)`

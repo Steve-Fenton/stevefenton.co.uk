@@ -24,7 +24,6 @@ If you are using IIS, you’ll just set up the certificates using inetmgr, but b
 <pre class="prettyprint lang-powershell">
 netsh http add sslcert ipport=127.0.0.1:8000 certhash=c20ed305ea705cc4e36b317af6ce35dc03cfb83d appid={c9670020-5288-47ea-70b3-5a13da258012} clientcertnegotiation=enable
 ```
-
 This will register the certificate against the URI and application.
 
 “ipport” is the IP address and port number you are hosting the WCF service under.
@@ -37,7 +36,6 @@ This will register the certificate against the URI and application.
 <pre class="prettyprint lang-csharp">
 [assembly: Guid("c9670020-5288-47ea-70b3-5a13da258012")]
 ```
-
 “clientcertnegotiation” allows you to enable negotiation, which is disabled by default.
 
 You can find information of all of the parameters on the [Microsoft Technet article on netsh](https://technet.microsoft.com/en-us/library/cc725882(v=ws.10).aspx#BKMK_2). Please let me know when this link dies, as all Microsoft links seem to do!

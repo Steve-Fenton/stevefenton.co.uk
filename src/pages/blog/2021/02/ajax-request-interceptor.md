@@ -23,7 +23,6 @@ document.body.addEventListener('AjaxDetected', function (e) {
     console.log(e.detail.method, e.detail.url, e.detail.data);
 }, false);
 ```
-
 This event is raised by code that inserts it’s own interceptor functions *before* the original `XMLHttpRequest` functions for `open` and `send`.
 
 ```

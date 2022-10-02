@@ -33,7 +33,6 @@ GROUP BY
 ORDER BY
     count(c-ip) DESC
 ```
-
 Just change the date as you need.
 
 ### Web Log Importer

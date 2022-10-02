@@ -27,7 +27,6 @@ If you ever get this error, you will be pleased about the typeof support in Type
 Before (Errors with “Type reference cannot refer to container ‘MyModule'”):
 
 ```
-<pre class="prettyprint lang-typescript">
 module MyModule {
     export function helloWorld() {
         alert('Hello World');
@@ -36,11 +35,9 @@ module MyModule {
 
 var mod: MyModule = MyModule;
 ```
-
 After (Works thanks to typeof):
 
 ```
-<pre class="prettyprint lang-typescript">
 module MyModule {
     export function helloWorld() {
         alert('Hello World');
@@ -49,13 +46,11 @@ module MyModule {
 
 var mod: typeof MyModule = MyModule;
 ```
-
 ### ‘this’ Cannot Be Referenced In Initializers In A Class Body
 
 Well. They can now! The following example, which gives the error message “‘this’ Cannot Be Referenced In Initializers In A Class Body” in previous versions, simply works in TypeScript 0.9.1 and above. Funky.
 
 ```
-<pre class="prettyprint lang-typescript">
 class ListenForClicks {
     constructor(public message: string) { }
     helloWorld = () => alert(this.message);
@@ -64,7 +59,6 @@ class ListenForClicks {
 var listener = new ListenForClicks('Hello World');
 document.onclick = listener.helloWorld;
 ```
-
 ### You Missed One
 
 There are a couple of situations in TypeScript where you can catch yourself out and accidentally create a dynamic variable where you actually want it typed. You can find these situations using the [no implicit any compiler flag, which I talked about in July](https://www.stevefenton.co.uk/2013/07/TypeScript-No-Implicit-Any-Compiler-Flag/).
@@ -73,7 +67,6 @@ There are a couple of situations in TypeScript where you can catch yourself out 
 <pre class="prettyprint lang-powershell">
 tsc --noImplicitAny app.ts
 ```
-
 This will error whenever TypeScript has to decide that a variable is of the dynamic “any” type – so you can either make it explicit or give it a narrower definition.
 
 Why do this? If you are using TypeScript for its static typing, this points out any parts of your program that are essentially “accidentally type free”.

@@ -33,7 +33,6 @@ var example = function () {
     };
 };
 ```
-
 The variable, myVariable, really belongs to the example function. JavaScript is functionally-scoped, which means you cannot access myVariable outside of the example function. The nested function, though, is inside of the example function – so it can use myVariable.
 
 When this code runs, a closure is created in order to store the “referencing environment” (which contains myVariable) along with the function so you can safely use it.
@@ -51,7 +50,6 @@ var example = function () {
 };
 var returnedFunction = example();
 ```
-
 This is where the closure starts to earn some serious respect. When you use returnedFunction(), it has the referencing environment that contains myVariable and its value (which is still 4 in this case).
 
 Now consider a prototype-based instance that returns functions that have the instance data available… and you can see what a powerful and useful feature this is.

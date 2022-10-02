@@ -36,7 +36,6 @@ internal abstract class ContractsForIRepository<T, TId> : IRepository<T, TId> wh
 {
     //...
 ```
-
 ### Project Problem
 
 It is also highly likely that you’ve forgotten to set up Code Contracts against your project in Visual Studio!

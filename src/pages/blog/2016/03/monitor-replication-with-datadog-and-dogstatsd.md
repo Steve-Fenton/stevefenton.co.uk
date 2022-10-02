@@ -29,7 +29,6 @@ DogStatsd runs on port 8125 by default, although you can change this if you woul
 
 dogstatsd_port : 8125
 ```
-
 It is best to run DataDog locally (pointing at a development organisation) to develop against the DogStatsd API.
 
 Next, start up a Windows Service project and add the [C# client library for DogStatsd using NuGet](https://www.nuget.org/packages/DogStatsD-CSharp-Client/), which is [also available on GitHub](https://github.com/DataDog/dogstatsd-csharp-client).
@@ -46,7 +45,6 @@ Everything in this library is static, so you need to make sure you configure it 
 
 DogStatsd.Configure(dogstatsdConfig);
 ```
-
 Now we can run the replication monitoring stored procedure to get hold of the interesting numbers. The query to run is:
 
 ```
@@ -54,7 +52,6 @@ Now we can run the replication monitoring stored procedure to get hold of the in
 
 EXEC sp_replmonitorhelppublication
 ```
-
 The information I am interested in here includes…
 
 - The number of subscribers
@@ -67,7 +64,6 @@ I will turn each of these values into a “gauge”. The gauge metric type keeps
 ```
 <pre class="prettyprint lang-csharp">DogStatsd.Gauge("somename.here", 1);
 ```
-
 So here is the code for sending the stats to DogStatsd, which is called using a timer in the Windows Service.
 
 ```
@@ -120,7 +116,6 @@ using (SqlCommand command = new SqlCommand(query, connection))
     }
 }
 ```
-
 In this code, if I get no stats back it means replication has been accidentally switched off – or “disaster”. I am setting the subscribers to zero and the status to 6 (error) in this case. In all other cases, I’m reporting back the numbers for the subscription.
 
 I am using a couple of hard-coded values and a some little helper methods in the example above for brevity, the helper methods are shown below for completeness – but you can do better than this in production code!
@@ -151,5 +146,4 @@ private DateTime GetDateFromReader(IDataReader reader, string key)
     return reader.GetDateTime(ordinal);
 }
 ```
-
 I can add monitors in DataDog to catch when the replication status goes above 4, or when warnings go above zero, or if the number of subscribers drops, or if the distribution sync time goes outside of 60 seconds.

@@ -17,12 +17,10 @@ tags:
 You may remember that back in January 2013 I penned an article about [what Generics might look like in TypeScript](https://www.stevefenton.co.uk/2013/01/An-Early-Vision-Of-TypeScript-Generics/) when they were added. The great news is that it was pretty much spot on, so to get the skinny on [TypeScript Generics in the 0.9 alpha release, just read the article from January](https://www.stevefenton.co.uk/2013/01/An-Early-Vision-Of-TypeScript-Generics/). The brief version is that you can use a generic type and add a type constraint using familiar C#-style syntax:
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Repository<T extends Entity> {
     getById(id: number): T;
 }
 ```
-
 The differences to bear in mind are that…
 
 1. The type doesn’t have to explicitly implement or extend “Entity” in the above example. TypeScript will be happy with a compatible type (one with the requisite properties and methods)
@@ -31,11 +29,9 @@ The differences to bear in mind are that…
 If you want to use an expression that looks a bit like generics, you need to add some parenthesis to help the compiler out… although you probably just need to have a word with yourself and just put one expression per line!
 
 ```
-<pre class="prettyprint lang-typescript">
 (something < x), y > (z) // expression
 something < x, y > (z) // generic
 ```
-
 Enough about the awesomeness of generics in TypeScript. What else is incoming in TypeScript 0.9.x that you should worry about?
 
 ### Arrays Are Generic
@@ -43,11 +39,9 @@ Enough about the awesomeness of generics in TypeScript. What else is incoming in
 Okay, so I couldn’t stop talking about generics just yet, because the “Array” type is now generic. This means you could now (if you wanted) use the generic type parameter with the array type, which is analogous to the old way of marking up and array – here they both are.
 
 ```
-<pre class="prettyprint lang-typescript">
 var a: number[]; // you can still use this
 var x: Array<number>; // this just shows off generics
 ```
-
 ### Bool Type Deprecated
 
 The “bool” type is obsolete and the “boolean” type is now the correct one to use. This won’t break in 0.9.x if the preview is anything to go by – but it will eventually be removed, so it is time to update your TypeScript files.
@@ -67,7 +61,6 @@ You will also have to specify the return types explicitly on overloads. Don’t 
 The 0.9.x compiler requires static methods to be fully qualified. Previous compilers allowed you to drop out the class name if you called the static method from inside the same class. You will need to add the class name in from now on.
 
 ```
-<pre class="prettyprint lang-typescript">
 class Example {
     static staticMethod() {
        
@@ -79,7 +72,6 @@ class Example {
     }
 }
 ```
-
 ### Declare Needed In Definition Files
 
 Originally, you didn’t need to use the “declare” keyword in definition files. The contents of a definition file was treated implicitly as if it had this keyword. From 0.9.0 you’ll need to add the “declare” keyword in definition files just like you do in normal TypeScript files.

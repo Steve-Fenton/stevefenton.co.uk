@@ -21,7 +21,6 @@ Here are some useful regular expressions that can improve your SpecFlow step def
 ```
 <pre class="prettyprint lang-csharp">[Given(@"this line accepts ""([^\""]*)"" in")]
 ```
-
 Each RegEx in the list is superior to the standard (.\*) expression, which often causes accidental matching between similar steps.
 
 If you have any useful regular expressions you want to add, please let me know and I’ll credit you here.
@@ -47,7 +46,6 @@ Examples:
         | Steve | 10       | Satisfactory |
         | Steve | 20       | Awesome      |
 ```
-
 With the Steps:
 
 ```

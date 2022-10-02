@@ -20,7 +20,6 @@ There are multiple problems in the articles I am reading in my feeds.
 The main problem is that the people comparing TypeScript with *all the languages* is that they have often barely scratched the surface. Here is a common example, pulled from a comparison with Babel…
 
 ```
-<pre class="prettyprint lang-typescript">
 class Article {
     name: string;
 
@@ -29,17 +28,14 @@ class Article {
     }
 }
 ```
-
 This is not how you do things if you are a TypeScript programmer. If a colleague sent a pull request with this code, I’d be pairing up and making some changes. This is how your TypeScript code should look (i.e. [stop manually mapping parameters to properties](https://www.stevefenton.co.uk/2013/04/stop-manually-assigning-typescript-constructor-parameters/)):
 
 ```
-<pre class="prettyprint lang-typescript">
 class Article {
     constructor(public name: string) {
     }
 }
 ```
-
 This updated code immediately resolves commonly cited problems with TypeScript… because the verbosity of the type annotations and property mapping in the constructor are all gone. Compared to other languages, the updated version is vastly more attractive… so either the comparisons are either naïve, or show some form of bias.
 
 Similarly, there are examples littered with unnecessary type annotations. The TypeScript compiler is *super awesome at inferring types*, so your starting point for type annotations should be to:

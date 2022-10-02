@@ -36,35 +36,28 @@ For the purposes of the example, all the scripts are in the root folder of my pr
 So jQuery isn’t really analogous to a TypeScript module. If it was, you could actually just load it up using TypeScript’s import syntax.
 
 ```
-<pre class="prettyprint lang-typescript">
 import * as $ from 'jquery';
 ```
-
 If it was that easy though, you wouldn’t be here. So let’s see what you really have to do. It isn’t actually too tricky.
 
 First of all, you need to reference the type definitions. This will bring you static typing for RequireJS and jQuery.
 
 ```
-<pre class="prettyprint lang-typescript">
 ///<reference path="require.d.ts" />
 ///<reference path="jquery.d.ts" />
 ```
-
 And then you load jQuery and supply the function to execute on success.
 
 ```
-<pre class="prettyprint lang-typescript">
 require(['jquery'], function ($) {
     $(document).ready(() => {
         alert('Your code executes after jQuery has been loaded.');
     });
 });
 ```
-
 So your whole file looks like this (app.ts):
 
 ```
-<pre class="prettyprint lang-typescript">
 ///<reference path="require.d.ts" />
 ///<reference path="jquery.d.ts" />
 require(['jquery'], function ($) {
@@ -73,12 +66,10 @@ require(['jquery'], function ($) {
     });
 });
 ```
-
 Now all you need to do is add a single JavaScript file to your HTML page and RequireJS takes care of loading everything up. Remember, our code is in ‘app.ts’, so we want to load ‘app.js’ – you don’t need to put the extension in the data-main attribute:
 
 ```
 <pre class="prettyprint lang-html">
 <script data-main="app" src="require.js"></script>
 ```
-
 And that is all there is to it. No need to load multiple scripts or combine files and no need to try and force jQuery to be like a module.

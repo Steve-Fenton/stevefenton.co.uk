@@ -20,7 +20,6 @@ What does this mean… let’s use a simple HTML element to show what it can do�
 <div id="test">
 </div>
 ```
-
 We are going to use two flavours of the `@supports` rule, and there will be three outcomes.
 
 - When the browser supports `aspect-ratio` you’ll see “yes”
@@ -41,7 +40,6 @@ We are going to use two flavours of the `@supports` rule, and there will be thre
   }
 }
 ```
-
 In this example you can see the positive test for `@supports` and the negative test for `@supports not`, which sounds Shakespearian! “Supports not the cause; your enemy doth thwart your plans.”
 
 At the time of writing, 97% of all users have a working `@supports` rule. At this point, any browser that doesn’t support this is an abandoned browser.

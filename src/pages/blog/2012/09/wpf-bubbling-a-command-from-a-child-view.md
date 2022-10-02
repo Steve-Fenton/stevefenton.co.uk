@@ -49,7 +49,6 @@ public class ChildControlBase : UserControl
     }
 }
 ```
-
 I have used “MyCustom” as the event name, in real life you would name this specifically after the intention of the event, for example “MajorIncidentAlert”.
 
 In each child control that will *raise* the event, we inherit from our ChildControlBase, rather than directly from UserControl.
@@ -60,14 +59,12 @@ So in our XAML, we change:
 <pre class="prettyprint lang-xml">
 <UserControl ...
 ```
-
 To:
 
 ```
 <pre class="prettyprint lang-xml">
 <MyNamespace:ChildControlBase ...
 ```
-
 And in our code-behind, we can raise the event from anywhere we like. In this example, I am raising the event when a particular button is clicked, but you can raise the event at any point.
 
 ```
@@ -87,7 +84,6 @@ public partial class ChildControl
     }
 }
 ```
-
 The last piece of the puzzle is to *handle* the event. It is worth remembering that the event can be handled by the child control and still be bubbled up to the parent window – this pattern doesn’t just allow you to raise an event to the parent, it can be handled multiple times as it bubbles up through the tree and each handler can do something different and specific.
 
 In the XAML for the parent window, we need to tell it that it can expect the event:
@@ -100,7 +96,6 @@ In the XAML for the parent window, we need to tell it that it can expect the eve
         Title="MainWindow" Height="350" Width="525"
         MyNamespace:ChildControlBase.MyCustom="HandleChildEvent">
 ```
-
 The last line in this example is the important bit – it tells the window to listen out for a “MyCustom” event and when it gets one, send it our “HandleChildEvent” event handler. Our code behind looks like this:
 
 ```
@@ -120,7 +115,6 @@ public partial class MainWindow
     }
 }
 ```
-
 The HandleChildEvent method can take whatever action is necessary for the event, in the context of the parent window.
 
 If we don’t want the event to continue bubbling up through the tree, we simply use e.Handled = true. I have put this in as an example, but as we are on the parent window, the event has nowhere further to bubble up to. This is a mechanism you could use to stop the event from propagating if you decide to fully handle it elsewhere.

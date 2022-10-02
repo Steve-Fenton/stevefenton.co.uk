@@ -32,7 +32,6 @@ var stub = new StubIMyInterface()
 
 var target = new ClassToTest(stub);
 ```
-
 ### Shims
 
 When you can’t refactor the code but need to test it, you can use a shim.
@@ -51,5 +50,4 @@ using (ShimsContext.Create())
     var result = target.MethodToTest();
 }
 ```
-
 Without the context, the shim would apply to everything in this app domain, for the rest of time, which would be a problem.

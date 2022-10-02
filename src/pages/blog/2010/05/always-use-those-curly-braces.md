@@ -28,7 +28,6 @@ To illustrate, let’s look at the *wrong* way of doing things. I’ll pop the e
 if (something == 10)
     alert("Something equals 10");
 ```
-
 In this example, if the variable “something” is equal to 10, an alert will pop up to tell you so. If it doesn’t equal 10, no alert will pop up. This is all well and good until the code is modified. For example, there is a requirement to reset something to 0 when it gets to 10. This leads to the following common error:
 
 ```
@@ -37,7 +36,6 @@ if (something == 10)
     alert("Something equals 10");
     something = 0;
 ```
-
 In this example, the alert will only pop up if something equals 10, but the line of code to reset something to 0 will happen every single time, no matter what the value of something is. All of this can be avoided by using curly braces in the first place – it seems like such a trivial and obvious problem, yet I keep on encountering this error, either in code or in questions asked on various help forums.
 
 ```
@@ -46,7 +44,6 @@ if (something == 10) {
     alert("Something equals 10");
 }
 ```
-
 This example leaves us in no doubt whatsoever about what is included in the if statement and what isn’t. It doesn’t matter that it is a one liner – this is the most readable and maintainable state for the code to be in.
 
 ### More Than Just Curly Braces
@@ -60,7 +57,6 @@ if (something == 10) {
     something = 0;
 }
 ```
-
 ### Helps Refactoring
 
 One additional benefit of having a rigorous style for all of your if-statements, and other code structures, is that it make your refactoring job easier. This is especially true if you are applying the [Flocking Rules](https://www.sandimetz.com/99bottles/) to refactoring, as I am. When you are looking for duplication, it is easier to spot it when the duplication has the same geography.
@@ -81,7 +77,6 @@ if (something > 9 && something < 11) {
 if (something == 10) console.log('Something was 10');
 else console.log('Not ten');
 ```
-
 And again with some discipline, giving us good geography:
 
 ```
@@ -101,7 +96,6 @@ if (something == 10) {
     console.log('Not ten');
 }
 ```
-
 Ideally, where the if-statement uses the same condition, it should be obvious that it is the same. When you are looking for duplication, it helps if the duplication has the colour and the shape of other instances – just like Dave Grohl envisaged when he wrote the album of the same name, maybe.
 
 So go beyond the simple “always use those curly braces” and aim for a level of uniformity that will let you ace your refactoring too.

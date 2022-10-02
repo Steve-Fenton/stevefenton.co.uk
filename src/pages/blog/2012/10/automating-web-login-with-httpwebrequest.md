@@ -27,7 +27,6 @@ If you get an HTTP 407 telling you that your proxy says no, you’ll need to add
     <defaultProxy useDefaultCredentials="true"/>
 </system.net>
 ```
-
 ### Where are my cookies?
 
 When you perform a login, the request – response flow is normally like this.
@@ -45,7 +44,6 @@ You can stop the request from automatically following the redirection and get ho
 <pre class="prettyprint lang-csharp">
 httpWebRequest.AllowAutoRedirect = false;
 ```
-
 ### Keeping hold of cookies
 
 Once you get the response, you’ll need to squirrel the cookies away in a cookie container and then add that cookie container to the subsequent requests, so your login cookies get passed to the server.

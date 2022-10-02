@@ -24,7 +24,6 @@ string example = @"
 
 Console.WriteLine(example);
 ```
-
 The output for this program is:
 
 ```
@@ -33,7 +32,6 @@ The output for this program is:
 >    This is an "example" of a multi-line string, but I still have to escape all the "quotes".
 >
 ```
-
 ### Enabling the preview feature
 
 At the time of writing, this is a preview feature. To try this out for yourself you need to have Visual Studio 17.2.0 or higher, and have preview language enabled:
@@ -42,7 +40,6 @@ At the time of writing, this is a preview feature. To try this out for yourself 
 <pre class="prettyprint lang-xml">
 <LangVersion>preview</LangVersion>
 ```
-
 While this is in preview, you shouldn’t use it for your day job, just to explore in preparation for general and supported availability.
 
 I am using a “&gt;” in the output examples to help visualise white-space treatment, as there are some features that allow you to control this.
@@ -57,14 +54,12 @@ string example = """
     This is an "example" of a raw literal string, and I don't have to escape all the "quotes".
 """;
 ```
-
 We still get the same output, but we don’t need to escape anything, *and it has no leading or trailing line breaks*.
 
 ```
 <pre class="prettyprint">
 >    This is an "example" of a raw literal string, and I don't have to escape all the "quotes".
 ```
-
 The string will continue until those three closing quotes – and there’s a bit of smart magic available here because if your string needs to contain three quotes in a row, you can change the start and end sections to have more quotes. Basically, you can add as many quotes as you need to ensure that your content won’t contain the closing set of quotes. You just need to make sure the number of quotes at the end matches the number of quotes at the start.
 
 ```
@@ -73,7 +68,6 @@ string example = """""""""""""""""""""""""
     This is an "example" of a raw literal string, and I don't have to escape all the "quotes", even if I have three in a row, such as """.
 """"""""""""""""""""""""";
 ```
-
 ### Indentation
 
 There is one other special feature baked into raw string literals. By indenting the closing quotes, you can unindent the contents of the string. As you can see in the above example, our output contains the four spaces that result from indenting the string for readability in the code. However, if we also indent the closing quotes, the additional indentation within the string gets stripped out:
@@ -84,14 +78,12 @@ string example = """
     This is an "example" of a raw literal string, and I don't have to escape all the "quotes".
     """;
 ```
-
 Our output now has no extraneous indentation.
 
 ```
 <pre class="prettyprint">
 >This is an "example" of a raw literal string, and I don't have to escape all the "quotes".
 ```
-
 This is particularly useful if your string contains useful indentation, as that will remain in the output; just the unnecessary additional indentation from your code file is removed.
 
 Here’s an example using <abbr title="Octopus Configuration Language">OCL</abbr> which is a variant of <abbr title="Hashicorp Configuration Language">HCL</abbr>.
@@ -112,7 +104,6 @@ string example = """
     }
     """;
 ```
-
 All the meaningful indentation remains, but the additional four spaces (in this case) have been removed.
 
 ```
@@ -129,7 +120,6 @@ All the meaningful indentation remains, but the additional four spaces (in this 
 >    }
 >}
 ```
-
 Important note: You get to choose how much indentation to remove with your placement of the quotes, so if you want the whole block moved out by four spaces, just move the closing quote block four spaces left! The compiler will warn you when the closing quote is indented more than the “least indented line”.
 
 [![Indentation Warning](https://www.stevefenton.co.uk/wp-content/uploads/2022/02/indentation-warning.jpg)](https://www.stevefenton.co.uk/?attachment_id=12748)
@@ -148,14 +138,12 @@ string example = $"""
     This is an "example" of a raw literal string with a token: {tokenValue}, and I don't have to escape all the "quotes".
     """;
 ```
-
 As you expect, this outputs:
 
 ```
 <pre class="prettyprint">
 >This is an "example" of a raw literal string with a token: (my value), and I don't have to escape all the "quotes".
 ```
-
 ### Summary
 
 When this feature moves into general availability, you are likely to have a whole bunch of string literals that your can improve thanks to the two key parts of this feature:
@@ -223,7 +211,6 @@ Console.WriteLine($"{++counter}>>{example}<<");
 
 Console.ReadKey();
 ```
-
 <details><summary>Example output</summary>```
 <pre class="prettyprint">
 1>>
@@ -245,5 +232,4 @@ Console.ReadKey();
         }
 }<<
 ```
-
 </details>

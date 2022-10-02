@@ -27,7 +27,6 @@ So first up, here is a simple transition of the background-color property, with 
 -webkit-transition: background-color 500ms linear;
 transition: background-color 500ms linear;
 ```
-
 It is really simple and they all work in practically the same way. You tell it the property to transition, the duration and the easing and the browser just takes care of it all.
 
 So *when* would the browser do stuff? Here is a more complete example to show it all off:
@@ -48,7 +47,6 @@ a:hover {
     color: White;
 }
 ```
-
 In this example, when the user hovers on a link, instead of the link instantly transforming between orange-on-white to white-on-orange, it will fade gracefully.
 
 This is great, but we have a gracefully fading background and a horrible instant-change on the text. Worry not – multiple transitions are also possible, just add multiple rules using a comma in between each. Like this:
@@ -69,7 +67,6 @@ a:hover {
     color: White;
 }
 ```
-
 Now we have nice transitions on both background-color and color.
 
 If you liked this article, please consider replaying me by adding this simple change to your CSS files – as it helps keyboard-based users to navigate around your website…
@@ -90,5 +87,4 @@ a:hover, a:focus {
     color: White;
 }
 ```
-
 The a:focus will now highlight the current link when people use the tab-key to move around your website and you will have made the world a better place! Thank you!

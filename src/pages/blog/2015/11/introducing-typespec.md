@@ -22,13 +22,11 @@ You can grab it from NuGet:
 ```
 <pre class="prettyprint lang-cmd">PM> Install-Package TypeSpec 
 ```
-
 You can grap it from NPM:
 
 ```
 <pre class="prettyprint lang-cmd">npm install typespec-bdd
 ```
-
 If you are familiar with BDD from frameworks such as SpecFlow, Cucumber, or similar – you’ll find a familiar set of tools that you can apply straight to TypeScript.
 
 - Features, Scenarios, and Scenario Outlines
@@ -60,11 +58,9 @@ Examples:
     | 8        | 3        | 11    |
     | 9        | 8        | 17    |
 ```
-
 And here is the full set of steps that covers this feature (and quite a few others). You should be able to spot a few features in here, from the test context that allows you to share data between test classes, to the simple expressions used to match conditions in the test, to the assertions that ship with TypeSpec.
 
 ```
-<pre class="prettyprint lang-typescript">
 import { Assert, given, when, then } from './TypeSpec/TypeSpec';
 
 export interface CalculatorTestContext {
@@ -94,13 +90,11 @@ export class CalculatorSteps {
 	}
 }
 ```
-
 The context is entirely dynamic, but by supplying an interface for it, you can get the compiler to catch mistakes for you.
 
 The decorators allow your step definitions to be automatically collected. This means you can run your tests by simply pointing out where the specifications are located (you can pass in as many specification files as you like).
 
 ```
-<pre class="prettyprint lang-typescript">
 import { AutoRunner } from './Scripts/TypeSpec/TypeSpec';
 
 import './CalculatorSteps';
@@ -109,5 +103,4 @@ AutoRunner.run(
     '/Specifications/Basic.txt'
 );
 ```
-
 Grab TypeSpec from NuGet or NPM or check out [TypeSpec on GitHub](https://github.com/Steve-Fenton/TypeSpec), fork it, use it, raise issues (preferably with acceptance criteria in Given-When-Then syntax).

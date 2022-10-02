@@ -29,7 +29,6 @@ To tell MSBuild that NCover is going to get a piece of the action, we use the fo
 <UsingTask TaskName="NCover.MSBuildTasks.NCover" 
            AssemblyFile="$(NCoverPath)\Build Task Plugins\NCover.MSBuildTasks.dll"/>
 ```
-
 We also need to set up some some properties that we will use throughout the MSBuild project. You probably already have properties, so just add these to your existing list.
 
 If you are using a 64bit version of Windows, you will need to specify the path to NUnit using “Program Files (x86)” rather than simply “Program Files”. NCover comes in a 64 bit flavour, so just use “Program Files” for NCover.
@@ -46,7 +45,6 @@ If you are using a 64bit version of Windows, you will need to specify the path t
     <NCoverOutputPath>C:\Inetpub\wwwroot\NCover</NCoverOutputPath>
 </PropertyGroup>
 ```
-
 The next step is to get all projects from the solution file and then extract from that collection a list of test projects. In this example, all test projects end with the word “Test”, so you can use a regular expression to extract test projects from the wider list of projects.
 
 ```
@@ -79,7 +77,6 @@ The next step is to get all projects from the solution file and then extract fro
     <Message Text="Got the full paths to the following projects @(AllProjects)" />
 </Target>
 ```
-
 We then use the Unit Test Projects in a target that builds all unit tests. This also outputs some Unit Test Assemblies, which we need for NCover. It is assumed that you also have a step called “BuildProjects”, which builds everything except the unit tests – nothing specific needs to be added to that step, so it isn’t included here.
 
 ```
@@ -94,7 +91,6 @@ We then use the Unit Test Projects in a target that builds all unit tests. This 
     </MSBuild>
 </Target>
 ```
-
 And finally, we generate the code coverage analysis by passing the Unit Test Assemblies that were generated in the Build Unit Tests stage to NCover.
 
 ```
@@ -111,7 +107,6 @@ And finally, we generate the code coverage analysis by passing the Unit Test Ass
     />
 </Target>
 ```
-
 The end result is that you can browse “http://buildmachine/CoverageReports/” where “buildmachine” is the relevant machine name, and you’ll get the full NCover summary and detail in HTML format.
 
 ### Notes on errors

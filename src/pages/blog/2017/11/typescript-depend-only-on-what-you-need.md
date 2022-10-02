@@ -21,16 +21,13 @@ So, let’s take a look at the problem we are dealing with. The code below conta
 ### The problem function
 
 ```
-<pre class="prettyprint lang-typescript">
 function cellCount(battery: Battery) {
     return (!battery.cells) ? 0 : battery.cells.length;
 }
 ```
-
 Maybe this isn’t enough information to detect the problem… let’s have full disclosure and add some information to help reveal the problem. Here is how `Battery` is defined in this program:
 
 ```
-<pre class="prettyprint lang-typescript">
 interface Battery {
     kind: 'primary' | 'secondary';
     cellType: CellType;
@@ -38,7 +35,6 @@ interface Battery {
     terminals: Terminals;
 }
 ```
-
 Now the problem becomes a little clearer. The function requires a `Battery` to be passed, but it only really depends on the `cell` property. Everything else in `Battery`, and in `CellType`, and in `Cell` is baggage that is only accidentally a dependency.
 
 ### Depend on less
@@ -46,12 +42,10 @@ Now the problem becomes a little clearer. The function requires a `Battery` to b
 Without breaking up the `Battery` interface (for now), we can depend on far less by simply requiring an object with the property `cells`, and where the `cells` property is an array. (You could go *all the way* by requiring only the `length` property on `cells` using `{ cells: { length: number } }`, but that borders on dogmatic).
 
 ```
-<pre class="prettyprint lang-typescript">
 function cellCount(battery: { cells: any[] }) {
     return (!battery.cells) ? 0 : battery.cells.length;
 }
 ```
-
 This allows *callers* to pass a wider variety of types, for example a structure that differs slightly from the original `Battery` type. Our original method does not care at all whether the argument passed has a `terminals` member. It doesn’t matter if we now call it with types that don’t have `terminals`. It also means our function is unlikely to start depending on other properties just because they are there.
 
 It is healthy to be very accepting of wide types as inputs, just as it is healthy to return very specific types. This can be expressed in the follow terms; accept the most general type as an input, and return the most specific type you reasonably can (and prefer abstract types over concrete types).

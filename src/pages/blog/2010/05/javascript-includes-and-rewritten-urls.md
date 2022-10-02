@@ -28,7 +28,6 @@ You have referenced a script as you normally might, like this.
 <pre class="prettyprint lang-html">
 <script src="Scripts/MyScript.js"></script>
 ```
-
 On your average web page, this works just fine. The problem is, this same script reference could appear on “www.stevefenton.co.uk” or it could appear on “www.stevefenton.co.uk/MyController/” or even “www.stevefenton.co.uk/MyController/MyAction/”. In this last case, the browser would be looking for the script located at “www.stevefenton.co.uk/MyController/MyAction/Scripts/MyScript.js” and it isn’t there.
 
 This is a really easy problem to solve, using a quick and sly bit of “Url.Content”, as demonstrated below.
@@ -37,12 +36,10 @@ This is a really easy problem to solve, using a quick and sly bit of “Url.Cont
 <pre class="prettyprint lang-html">
 <script src="<%= Url.Content("~/Scripts/MyScript.js") %>"></script>
 ```
-
 Please note! There is also an even easier fix… take note of the leading slash, which advises the browser that the path is relative to the root of the website.
 
 ```
 <pre class="prettyprint lang-html">
 <script src="/Scripts/MyScript.js"></script>
 ```
-
 The only time `Url.Content` beats this simple fix is if your deployments are not always to the root of a website.
