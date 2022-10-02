@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: Browser Extension: Link Reporter
+title: 'Browser Extension: Link Reporter'
 navMenu: false
 pubDate: 2022-03-07T16:13:36+00:00
 authors:
