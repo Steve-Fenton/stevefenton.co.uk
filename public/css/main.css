@@ -380,11 +380,11 @@ main {
     box-shadow: var(--box-shadow);
     max-width: calc(var(--grid-max-width) - var(--navigation-width) - var(--grid-gap));
     width: calc(var(--grid-width) - var(--navigation-width) - var(--grid-gap));
+    background-color: var(--aft-paper);
 }
 
 main > article {
     padding: 1rem;
-    background-color: var(--aft-paper);
 }
 
 main h1 {
