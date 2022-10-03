@@ -151,6 +151,10 @@ p {
     margin: var(--paragraph-margin) 0;
 }
 
+small {
+    font-size: 0.8em;
+}
+
 strong {
     font-weight: bold;
 }
@@ -267,6 +271,7 @@ nav.skip-links a:focus {
     text-transform: uppercase;
     margin: 0 30px;
     display: block;
+    font-family: var(--heading-font);
 }
 
 .site-header .navigation-icon {
