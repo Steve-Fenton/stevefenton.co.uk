@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Three Pillars of conference value'
+navMenu: false
 pubDate: 2017-07-25T06:00:14+01:00
 authors:
     - steve-fenton
@@ -21,7 +21,7 @@ From the perspective of an organisation, there are three pillars you need to ben
 
 Here is a quick summary of the interaction of these pillars.
 
-![Conference Pillars](/img/2017/07/conference-pillars-1.png)
+:img{src="/img/2017/07/conference-pillars-1.png" alt="Conference Pillars" loading="lazy"}
 
 The matrix visualises the impact of your organisation’s investment in people; just because you drop your employees into the “Stagnating” zone doesn’t mean that they aren’t developing their own skills. The object of stagnation is your organisation, not necessarily the people.
 

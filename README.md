@@ -11,5 +11,3 @@ Review the documentation at [astro.stevefenton.co.uk](https://astro.stevefenton.
 - 2014
 - 2015
 - 2016
-- 2017
-- 2018

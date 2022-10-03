@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Get a list of gaps in a sequence in SQL Server'
+navMenu: false
 pubDate: 2017-02-22T10:50:28+00:00
 authors:
     - steve-fenton
@@ -19,8 +19,8 @@ I am using this to find gaps in id numbers in a table.
 
 The list is inclusive, so all of the ids presented are “IN THE GAP” and ids that DO exist NEVER appear in the list. It also shows the number of ids “IN THE GAP”.
 
-```
-<pre class="prettyprint lang-sql">-- Uses a number of common table expressions to obtain gaps in a sequence
+```sql
+-- Uses a number of common table expressions to obtain gaps in a sequence
 -- There are only two changes you need to make, annotated in the first CTE
 -- 1. The column containing the sequence
 -- 2. The table containing the column

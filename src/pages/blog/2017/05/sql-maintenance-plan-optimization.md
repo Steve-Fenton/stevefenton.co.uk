@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'SQL maintenance plan optimization'
+navMenu: false
 pubDate: 2017-05-30T14:10:41+01:00
 authors:
     - steve-fenton
@@ -23,8 +23,8 @@ The maintenance plan after the fixes is:
 
 You can trade some speed for disk by making the cleanup task run less often. You can also run the “Rebuild Index” step less frequently. However, this plan reduced run times by more than five times.
 
-### Setting Up the Plan
+## Setting Up the Plan
 
-SQL -&gt; Management -&gt; Maintenance Plans -&gt; Maintenance Plan Wizard
+SQL > Management > Maintenance Plans > Maintenance Plan Wizard
 
-![Maintenance Plan](/img/2017/05/maintenance-plan.png)
+:img{src="/img/2017/05/maintenance-plan.png" alt="Maintenance Plan" loading="lazy"}

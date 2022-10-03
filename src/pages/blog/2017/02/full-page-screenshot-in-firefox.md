@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Full page screenshot in Firefox'
+navMenu: false
 pubDate: 2017-02-01T06:00:32+00:00
 authors:
     - steve-fenton
@@ -16,12 +16,12 @@ If you are pasting multiple screenshots of a web page into a single view, you sh
 
 You can enable it in the developer tools, which are available behind the F12 button:
 
-![](/img/2017/01/screenshot-settings.png)
+:img{src="/img/2017/01/screenshot-settings.png" alt="Screenshot settings"}
 
 This adds a camera icon to the developer tools:
 
-![](/img/2017/01/screenshot-icon.png)
+:img{src="/img/2017/01/screenshot-icon.png" alt="Screenshot icon" loading="lazy"}
 
 And when you press it, you get the whole page in one go in your downloads folder:
 
-![](/img/2017/01/screenshot-fullpage.png)
+:img{src="/img/2017/01/screenshot-fullpage.png" alt="Full page screenshot" loading="lazy"}

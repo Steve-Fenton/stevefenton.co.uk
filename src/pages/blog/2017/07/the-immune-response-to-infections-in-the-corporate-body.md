@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The immune response to infections in the corporate body'
+navMenu: false
 pubDate: 2017-07-18T09:39:37+01:00
 authors:
     - steve-fenton
@@ -21,4 +21,4 @@ So there is an implicit rule in all policies that says:
 
 > Don’t do anything that will trigger the immune response.
 
-So avoid triggering the “casual -&gt; business casual” immune response by choosing outfits well. Avoid triggering the “flexible hours -&gt; fixed hours” immune response by ensuring that your team has sufficient cover during normal business hours. Avoid triggering the “home and office -&gt; office” immune response by ensuring that you don’t all abandon the office on the same day. Avoid triggering the “automomous team -&gt; command and control” immune response by showing discipline and professionalism in your work.
+So avoid triggering the “casual > business casual” immune response by choosing outfits well. Avoid triggering the “flexible hours > fixed hours” immune response by ensuring that your team has sufficient cover during normal business hours. Avoid triggering the “home and office > office” immune response by ensuring that you don’t all abandon the office on the same day. Avoid triggering the “automomous team > command and control” immune response by showing discipline and professionalism in your work.

@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Don't worry about The Cargo Cult
+navMenu: false
 pubDate: 2017-06-08T08:27:49+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"9668a1d78ea0";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/9668a1d78ea0";}'
-image: /wp-content/uploads/2017/06/green-island-1944.jpg
+bannerImage:
+    src: /i/x/2017/06/green-island-1944.jpg
+    alt: Green Island, 1944
 categories:
     - Process
 tags:
@@ -15,9 +15,9 @@ tags:
     - Holocracy
 ---
 
-![Green Island, 1944](/wp-content/uploads/2017/06/green-island-1944.jpg)
-
 One of the most famous tales in [Surely You’re Joking Mr Feynman](https://www.amazon.co.uk/Surely-Youre-Joking-Feynman-Adventures/dp/009917331X) must be the story of the Cargo Cult. The story concerns a group of people who, due to a war, had an airbase planted nearby. They saw all of the airplanes arriving with lots of amazing stuff on board, so when the airbase was later abandoned they set up an immitation airbase with a fake runway with fires lit along it and a wooden control tower with a man sat in it wearing pretend headphones made out of wood, with bamboo canes for antennas. They thought if they immitated what people at an airbase did, it would result in airplanes landing full of amazing stuff.
+
+:img{src="/img/2017/06/green-island-1944.jpg" alt="Green Island, 1944" loading="lazy"}
 
 This cargo cult metaphor is very common when it comes to companies who want to “do agile”. These companies might be under pressure from agile competitors, so they rush to adopt all of the motions they see in agile organisations – without actually ever being agile. You will find that all the same roles, procedures, and bureuacracy that was present before the organisation donned the coconut headphones, but evidence of the benefits you would expect from increased agility are absent.
 

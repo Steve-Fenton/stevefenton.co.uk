@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: 'Pie charts: The quick version'
 navMenu: false
-title: 'Pie charts &#8211; The quick version'
 pubDate: 2017-05-09T08:24:48+01:00
 authors:
     - steve-fenton
@@ -14,15 +14,15 @@ tags:
 
 This pie chart example is based on an [article posted yesterday on the Google Testing Blog](https://testing.googleblog.com/2017/05/oss-fuzz-five-months-later-and.html), a very interesting article but with one mistake.
 
-### No
+## No
 
-![Google Testing Pie](/img/2017/05/google-testing-pie.png)
+:img{src="/img/2017/05/google-testing-pie.png" alt="Google Testing Pie"}
 
-### Yes
+## Yes
 
-![Google Testing Bars](/img/2017/05/google-testing-bars.png)
+:img{src="/img/2017/05/google-testing-bars.png" alt="Google Testing Bars" loading="lazy"}
 
-### Notes
+## Notes
 
 1. I have had to estimate the true values of the three items with no value label
 2. The most likely question the chart will be answering is “what are the most common bugs?”

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Signs you broke the Interface Segregation Principle'
+navMenu: false
 pubDate: 2017-10-12T09:15:49+01:00
 authors:
     - steve-fenton
@@ -20,8 +20,7 @@ I have written quite a lot about how to follow SOLID principles, but one thing t
 
 And here is a hint that tells you you aren’t following the principle, although the example is written in C#, it applies equally to other OOP languages.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 class JetPrinter : IPrinter {
     public void Print(Document document)
     {
@@ -39,7 +38,8 @@ class JetPrinter : IPrinter {
     }
 }
 ```
-### ISP violation
+
+## ISP violation
 
 Can you see the violation? Because the `IPrinter` interface has too many members, classes that implement the interface start throwing exceptions for the members that they don’t support. This is a classic signpost for ISP problems.
 

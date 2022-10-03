@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
+title: 'The Mythical Man Month: Over-watering'
 navMenu: false
-title: 'The Mythical Man Month &#8211; Over-watering'
 pubDate: 2017-04-27T09:30:12+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"551f8c32606a";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/551f8c32606a";}'
 categories:
     - Process
 tags:
@@ -35,7 +33,7 @@ The much repeated phrase, from the same book, is:
 
 But I think this over-simplifies the charts Fred uses to describe different kinds of task and what the payoff of adding people is (at the start of the work <abbr title="'A-PULP-MILL' adding people to a late project makes it later">APLPMIL</abbr>). I prefer to think of growing plants…
 
-### Over-watering
+## Over-watering
 
 If you want to grow an average plant, you need to determine the right amount of water. Both too little and too much water will cause you problems. You will need to find out the right kind of amount to get the best result. If you simply keep adding water to try and produce a flower sooner, you will find that some additional water over the right amount makes no difference – and that adding even more will actually have the opposite effect.
 

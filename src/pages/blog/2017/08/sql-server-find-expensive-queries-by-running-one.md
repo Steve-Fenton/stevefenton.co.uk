@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'SQL Server: Find expensive queries by running one'
+navMenu: false
 pubDate: 2017-08-07T16:10:08+01:00
 authors:
     - steve-fenton
@@ -18,8 +18,8 @@ You can adjust the query purposefully by changing the ordering, based on what yo
 
 There are also other stats available, just look inside the QUERYSTATS alias in SQL Management Studio for some auto-completion.
 
-```
-<pre class="prettyprint lang-sql">SELECT TOP 10
+```sql
+SELECT TOP 10
     SUBSTRING(
         SQLTEXT.TEXT,
         (QUERYSTATS.statement_start_offset / 2) + 1,
@@ -59,4 +59,5 @@ ORDER BY
     -- My favourite: runs often, takes quite some time...
     QUERYSTATS.execution_count * (QUERYSTATS.total_worker_time / QUERYSTATS.execution_count) DESC
 ```
+
 The ordering I have left “commented-in” is my personal favourite. Your mileage may vary.

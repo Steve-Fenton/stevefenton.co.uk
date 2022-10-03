@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Installing a usable Paint.Net application'
+navMenu: false
 pubDate: 2017-01-21T06:00:28+00:00
 authors:
     - steve-fenton

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Visual Studio Code Extension: Preview on Web Server'
+navMenu: false
 pubDate: 2017-12-03T19:26:31+00:00
 authors:
     - steve-fenton

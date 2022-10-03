@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Configure Azure Auto-Healing for your Azure Web Sites'
+navMenu: false
 pubDate: 2017-10-31T09:39:35+00:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"fe8efecc139c";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/fe8efecc139c";}'
 categories:
     - Automation
 tags:
@@ -32,8 +30,7 @@ The official line on AutoHeal is…
 
 You can enable auto-healing based on a number of factors – and it is as simple as adding a little configuration to your application:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <system.webServer>
     <monitoring>
         <triggers>
@@ -43,12 +40,12 @@ You can enable auto-healing based on a number of factors – and it is as simple
     </monitoring>
 </system.webServer>
 ```
-### Invalid child element
+
+## Invalid child element
 
 The `monitoring` element is only really applicable once your application is on Azure, so you may see the error `'system.webServer' has invalid child element 'monitoring'.` when you are working locally on this configuration. A common method for this is to add the configuration as a transformation in a separate file:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
     <system.webServer>
@@ -61,7 +58,8 @@ The `monitoring` element is only really applicable once your application is on A
     </system.webServer>
 </configuration>
 ```
-### Auto-healing triggers
+
+## Auto-healing triggers
 
 You can trigger auto-healing in a number of different scenarios, based on:
 
@@ -74,8 +72,7 @@ TO implement this effectively, you’ll need to understand what normal looks lik
 
 Here are the standard examples for you to take a look at…
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <system.webServer>
     <monitoring>
         <triggers>
@@ -99,15 +96,16 @@ Here are the standard examples for you to take a look at…
     </monitoring>
 </system.webServer>
 ```
-### <del>Kudu</del>
+
+## <del>Kudu</del>
 
 <del>You can also set up auto-healing in Kudu, by navigating to Kudu -&gt; Tools -&gt; Support, selecting the application you want to configure, and opening the Mitigate tab:</del>
 
-### <del>Diagnostic Tools</del>
+## <del>Diagnostic Tools</del>
 
 <del>The auto-heal options have now moved into the main Azure portal. Navigate to the app service and select “Diagnose and solve problems”. This will bring up several options, but auto-heal is found under Diagnostic Tools &gt; Auto Healing. The new UI features a wizard for setting up the auto-healing conditions. It also allows you to see the configuration in one view, so you don’t need to skip between the trigger and action tabs.</del>
 
-### Diagnose and solve problems
+## Diagnose and solve problems
 
 AutoHeal keeps on moving around, but Sebastian Inones has tipped me off to its latest location, which is still within Diagnostic Tools, but organised slightly differently due to the expansion of the available tools…
 
@@ -117,9 +115,9 @@ AutoHeal keeps on moving around, but Sebastian Inones has tipped me off to its l
 4. From the button groups, pick AutoHeal from the Proactive Tools group
 5. You’ll now have an open “Mitigation” tab with several AutoHeal options
 
-![Azure App Service Diagnostic Tools](/img/2017/10/azure-app-service-diagnostic-tools.jpg)
+:img{src="/img/2017/10/azure-app-service-diagnostic-tools.jpg" alt="Azure App Service Diagnostic Tools" loading="lazy"}
 
-![AutoHeal Link in Diagnostic Tools](/img/2017/10/azure-app-service-diagnostic-tools-auto-heal-link.jpg)
+:img{src="/img/2017/10/azure-app-service-diagnostic-tools-auto-heal-link.jpg" alt="AutoHeal Link in Diagnostic Tools" loading="lazy"}
 
 The mitigation tab lets you recover from unexpected behavior. You set a trigger (request count, slow requests, memory limit) and pair it with an action (restart the process, log an event). The pairing will keep the lights on for you while you investigate the route cause of your instability. It’s a kind of really good sticking plaster for an ill-behaved application.
 
@@ -127,7 +125,7 @@ By default, proactive AutoHeal will be enabled for your App Service. It will wat
 
 The most important part of AutoHeal is checking whether you have a problem that you need to resolve… and that’s where the AutoHeal history comes in. You can check the history of interventions in this view.
 
-![Azure AutoHeal History](/img/2017/10/azure-autoheal-history.jpg)
+:img{src="/img/2017/10/azure-autoheal-history.jpg" alt="Azure AutoHeal History" loading="lazy"}
 
 AutoHeal shouldn’t be used as a permanent replacement for working code!
 

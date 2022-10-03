@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Object Orientation isn't just objects
+navMenu: false
 pubDate: 2017-01-21T12:56:30+00:00
 authors:
     - steve-fenton

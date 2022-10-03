@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Monitor Matrix'
+navMenu: false
 pubDate: 2017-12-04T05:00:06+00:00
 authors:
     - steve-fenton
@@ -13,7 +13,7 @@ tags:
     - Operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)This is the last in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this final bite-size chunk, I’m going to talk about the Monitor Matrix.
+This is the last in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this final bite-size chunk, I’m going to talk about the Monitor Matrix.
 
 Selecting monitors has a gradual evolution. You start off monitoring the things that everyone starts monitoring. You keep an eye on very general things like CPU, Memory, and Disk Space. Over time, though, you create a small but powerful view that works for your application.
 
@@ -34,8 +34,8 @@ And here are the various kinds:
 - Software: your application
 - Experience: business metrics, user transactions
 
-### Monitor Matrix
+## Monitor Matrix
 
-You can overlay these two concepts into a monitor matrix. Each of the slots on the matrix has super-powers to find various kinds of problem. If they can find the same root cause, each will do so at different speeds – and you will be able to find circumstances where each one can be the leading indicator when something has broken. Picking the earliest indicator
+You can overlay these two concepts into a monitor matrix. Each of the slots on the matrix has super-powers to find various kinds of problem. If they can find the same root cause, each will do so at different speeds – and you will be able to find circumstances where each one can be the leading indicator when something has broken. Picking the earliest indicator.
 
-![Monitor Matrix](/img/2017/11/monitor-matrix.png)
+:img{src="/img/2017/11/monitor-matrix.png" alt="Monitor Matrix" loading="lazy"}

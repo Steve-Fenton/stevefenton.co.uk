@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: 'Continuous Delivery and JavaScript bundling'
 navMenu: false
-title: 'Continuous delivery and JavaScript bundling'
 pubDate: 2017-10-12T06:00:39+01:00
 authors:
     - steve-fenton
@@ -18,13 +18,13 @@ A common practice people use with bundling is using cache-busting URLs, for exam
 
 This technique works reasonably well if you have a bundle that is reasonably small, and gets updated infrequently. But what happens if you release three times a day, and almost every release has a change *somewhere* in a script file that means the bundle gets updated? It means your users are constantly downloading your new bundle. If you have a large bundle file, your frequent users will perceive a speed issue, or a flash of un-styled content, or a slow asynchronous component (or whatever else you are doing with your JavaScript)… and they’ll see this several times a day.
 
-### Enter modules
+## Enter modules
 
 So here is an excellent benefit to using modules instead of bundling.
 
 When you load modules individually, each one can be cached independently. When your release contains a change to one of your modules, only that one module will need to be re-downloaded – everything else will be lighting fast because it is cached. If your large program is divided into one hundred modules, the cache-busting will result in 1% of the program needing to be downloaded to get the update, which is a 99% improvement compared to bundling.
 
-### Multiple requests
+## Multiple requests
 
 One of the objections to using a module loader is this:
 
@@ -32,10 +32,10 @@ One of the objections to using a module loader is this:
 
 There are a couple of answers to this statement. If you really care about speed you should be using HTTP/2, which allows low-latency content delivery. This eliminates the queue argument for modern web browsers. You also need to bear in mind that while you may be optimizing actual measured speed with a bundle, you are likely to be creating a sub-optimal perceived loading time (i.e. if you load the “fundamental visual modules” early, the user will feel like everything is “done” while you are still downloading tangential modules. You can also conditionally load modules so they are only downloaded if, and when, they are needed. You may be surprised at how few modules you need to load to show your users a working web application, and how much faster the perceived loading time is than downloading a massive bundle.
 
-### Conclusion
+## Conclusion
 
 We can summarise all of this into four simple quadrants:
 
-![Bundling vs Modules Quadrants](/img/2017/10/bundling-or-modules-quadrants.png)
+:img{src="/img/2017/10/bundling-or-modules-quadrants.png" alt="Bundling vs Modules Quadrants" loading="lazy"}
 
 So if your program is either on the larger side, or gets deployed frequently, you’re likely to find modules are a better long-term strategy. This is especially the case as your program will get bigger over time, and your team are likely to deploy more often too.

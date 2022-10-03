@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Election 2017 boundaries'
+navMenu: false
 pubDate: 2017-06-10T19:48:01+01:00
 authors:
     - steve-fenton
@@ -15,7 +15,7 @@ I don’t “do politics” and I apologise that this is political – but not i
 
 Did you ever wonder how important the boundaries are in a general election in the UK? What would happen if every vote counted? Here is a quick summary.
 
-![Election 2017 Actual vs Proportational](/img/2017/06/election-2017.png)
+:img{src="/img/2017/06/election-2017.png" alt="Election 2017 Actual vs Proportational" loading="lazy"}
 
 This chart shows the parties, excluding “Other”, “Ind”, and parties getting less than 100,000 votes in total.
 

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Three Fs of event log monitoring'
+navMenu: false
 pubDate: 2017-11-06T05:00:07+00:00
 authors:
     - steve-fenton
@@ -14,13 +14,11 @@ tags:
     - Operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)
-
 This is one of a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this article, I’m going to talk about the Three Fs of event log monitoring.
 
 When you first start collecting event logs, it is likely that you will be inundated with a large volume of irrelevant logs. Don’t worry though, because the Three Fs are your path to event log joy.
 
-### The Three Fs
+## The Three Fs
 
 Just pick the most frequently occurring event in your combined log and decide which of these three actions to take:
 
@@ -52,12 +50,12 @@ Let’s face it, there are some errors that are just never going away. For some 
 
 So in the case of some event log entries, you may simply need to ignore them. The life-changing magical way to do this is to thank the event log for the service it has provided, then add a rule that will ensure you never see it again.
 
-### Next steps
+## Next steps
 
 If you can’t apply the Three Fs to your error, perhaps it is just being put in the wrong place. For example, if you have an error being logged to ops tools that only an end-user can fix, how can you get the message to the end-user so it can be resolved? Find an automated way to route the information to the right person. For example, if a user linked a web page to an external website, and the external website no longer exists – it is better to give the web editors a view over this issue than it is to log it to your ops tools.
 
-### Perfect conclusion
+## Perfect conclusion
 
 The perfect outcome of the Three Fs would be that you eventually end up with no event logs, ever. This may not actually be achievable, but you want to end up as close to ideal as you can. Just keep running the Three Fs on your most noisome event log entries until you get things under control.
 
-[![The Three Fs of Event Log Monitoring](/img/2017/11/Three-Fs.png)](/2017/11/the-three-fs-of-event-log-monitoring/three-fs/)
+:img{src="/img/2017/11/Three-Fs.png" alt="The Three Fs of Event Log Monitoring" loading="lazy"}

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Stop mixing TypeScript modules and namespaces'
+navMenu: false
 pubDate: 2017-08-22T12:05:15+01:00
 authors:
     - steve-fenton
@@ -19,7 +19,7 @@ So my update is simply this:
 
 Let’s back this up with a bit more information.
 
-### Namespaces
+## Namespaces
 
 Namespaces are used to:
 
@@ -29,7 +29,7 @@ Namespaces are used to:
 
 Namespace on their own are okay. They replace “lots of things” in the global scope with “one thing per namespace” and if you organise your namespaces well, you’ll actually have “one thing only” in the global scope.
 
-### Modules + namespaces?
+## Modules + namespaces?
 
 But what about namespaces with modules?
 
@@ -39,6 +39,6 @@ But what about namespaces with modules?
 
 Mixing modules and namespaces makes it harder for consumers of your code to find things. It has no benefit over using modules without namespaces. Don’t mix modules and namespaces. Thinking of modules simply as files is understandable as other languages work this way; but TypeScript is long past the “trying to be like C#/Java” phase and is now a language in its own right, with its own patterns. Don’t try to make TypeScript work like your programs written in other languages.
 
-### Summary
+## Summary
 
 So after more than two years, my advice remains the same. Stop trying to mix modules and namesapces… and prefer modules to namespaces when you are writing a program.

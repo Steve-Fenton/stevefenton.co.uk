@@ -13,7 +13,7 @@ tags:
     - Operations
 ---
 
-[![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)This is the next in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this instalment, I’m going to talk about the Alerting Principles.
+This is the next in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this instalment, I’m going to talk about the Alerting Principles.
 
 When it comes to monitoring alerting is an area you will want to get right. There is a natural tension between two undesirable extremes. You don’t want to be interrupted in the middle of the night when there is no problem. But you don’t want to be sat at your desk blissfully unaware that your application has ceased to exist.
 

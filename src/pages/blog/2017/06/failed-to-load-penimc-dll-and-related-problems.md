@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Failed to load penimc.dll and related problems'
+navMenu: false
 pubDate: 2017-06-20T10:13:25+01:00
 authors:
     - steve-fenton
@@ -17,7 +17,6 @@ Following on from a series of recent Windows Updates, a couple of our servers ha
 The details of the Server Manager error were in the event log:
 
 ```
-<pre class="prettyprint">
 Application: ServerManager.exe
 Framework Version: v4.0.30319
 Description: The process was terminated due to an unhandled exception.
@@ -27,9 +26,10 @@ Exception Info: System.DllNotFoundException
    at System.Windows.Input.PenThreadPool.GetPenThreadForPenContextHelper(System.Windows.Input.PenContext)
    ...
 ```
+
 So the Server Manager error and the SQL Management Studio both appear to come from the same area within the world of WPF’s pen/touch/tablet space.
 
-### The fix
+## The fix
 
 Disclaimer: this may not be the only cause of this issue and you should only perform the steps below if you are willing to take on full responsibility for doing so. This is simply what worked in our specific case.
 

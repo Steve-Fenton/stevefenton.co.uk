@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Look past your role'
+navMenu: false
 pubDate: 2017-08-12T08:07:48+01:00
 authors:
     - steve-fenton

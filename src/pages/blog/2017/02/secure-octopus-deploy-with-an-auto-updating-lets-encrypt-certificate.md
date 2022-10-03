@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Secure Octopus Deploy with an auto-updating Let's Encrypt certificate
+navMenu: false
 pubDate: 2017-02-15T06:00:14+00:00
 authors:
     - steve-fenton
@@ -21,7 +21,7 @@ One solution is to use IIS as a proxy server, put it in front of Octopus Deploy,
 
 Here are the steps you need to set this up. It takes less than 30 minutes.
 
-### IIS
+## IIS
 
 Add the IIS Role to your server, including:
 
@@ -35,11 +35,11 @@ Restart IIS, either via IIS Manager or by running `iisreset`
 
 Add a new website to your IIS sites called “octoproxy”.
 
-### URL rewrite
+## URL rewrite
 
 Open up the URL Rewrite feature in IIS Manager:
 
-![](/img/2017/02/rewrite-icon.png)
+:img{src="/img/2017/02/rewrite-icon.png" alt="URL rewrite icon" loading="lazy"}
 
 There are three rules to set up, and the order is important (and you can re-order them at any time to ensure they are in the order shown below):
 
@@ -47,7 +47,7 @@ There are three rules to set up, and the order is important (and you can re-orde
 - A rule to redirect HTTP traffic to HTTPS
 - A reverse proxy to rewrite requests to the local Octopus Web Portal
 
-![](/img/2017/02/url-rewrite.png)
+:img{src="/img/2017/02/url-rewrite.png" alt="URL rewrite" loading="lazy"}
 
 Rule 1: Add a new blank rule…
 
@@ -99,11 +99,11 @@ And add the following action to this rule:
 - Append Query String: Yes
 - Stop Processing: Yes
 
-### Octopus
+## Octopus
 
 In Octopus Manager, click “Change Bindings” and remove all bindings except http://localhost:8080/ (you may need to add this binding if it does not exist).
 
-### Let’s Encrypt
+## Let’s Encrypt
 
 [Grab the latest zip from the release page of Lone Coder’s “LetsEncrypt-Win-Simple” project](https://github.com/Lone-Coder/letsencrypt-win-simple/wiki) and put it somewhere permanant on the server. This is the simplest Let’s Encrypt client, others are available.
 
@@ -111,6 +111,6 @@ Run “letsencrypt.exe” as Administrator and follow the prompts. You’ll be a
 
 It automatically obtains a certificate, adds HTTPS bindings, and sets up a schedule to renew the certicate.
 
-### Summary
+## Summary
 
 You now have a certificate from Let’s Encrypt pointing at a :443 binding for your “octoproxy” website, which rewrites requests to the local instance of the Octopus Web Portal. If you check out Task Scheduler, you’ll see the automated renewal for the certiciate. If someone visits your Octopus Web Portal on HTTP, they will be redirected to HTTPS.

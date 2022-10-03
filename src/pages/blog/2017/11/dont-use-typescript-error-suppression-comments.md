@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Don't use TypeScript error suppression comments
+navMenu: false
 pubDate: 2017-11-01T08:21:49+00:00
 authors:
     - steve-fenton
@@ -15,13 +15,13 @@ TypeScript 2.6 has just been released, but please don’t use the new TypeScript
 
 Error suppression comments use the syntax shown below. They ask the compiler to look away while you steal a biscuit.
 
-```
-<pre class="prettyprint lang-javascript">
+```typescript
 if (false) {
     // @ts-ignore: Unreachable code error
     console.log("I'm never gonna happen.");
 }
 ```
+
 This feature had been avoided for some time, as mentioned in the [2.6 release note](https://blogs.msdn.microsoft.com/typescript/2017/10/31/announcing-typescript-2-6/):
 
 > “Historically, we’ve avoided error suppression within TypeScript because most cases where users have asked for it could be solved through more accurate declaration files or using a type assertion to any.”

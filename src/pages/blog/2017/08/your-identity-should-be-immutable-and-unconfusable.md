@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Your identity should be immutable and unconfusable'
+navMenu: false
 pubDate: 2017-08-23T10:53:22+01:00
 authors:
     - steve-fenton
@@ -23,11 +23,11 @@ Your identity should be immutable, because you will accumulate lots of threads b
 
 Your identity should be unconfusable, because you don’t want to leak data, or accumulate subtle identity confusion bugs. For example, if you use simple numeric identities and you ask for… getOrders(customer.customsId) – you may well get back some orders if the custom**s**Id matches some other custom**er**Id. For example, if the customer has a customsId of 5, and there is a customer in the system with a customerId of 5.
 
-### Immutable
+## Immutable
 
 This requirement is easy to satisfy. Once you have an identity for something, don’t change it. Don’t include anything in the identity that can change. Never allow it to be changed.
 
-### Unconfusable
+## Unconfusable
 
 This requirement is a little harder, but easiest if you think about it early.
 
@@ -37,6 +37,6 @@ You don’t have to do it this way. Another method is to use a single sequence t
 
 A variation on this theme is to generate an Entity that is a composite of a number and a type, for example a CustomsId of 001-5 (001 reprenting Customs and 5 being the fifth record), and a CustomerId of 002-5 (002 being the Customer concept and 5 being the fifth record). These entities are not necessesarily numeric. Once again, this ensures the values cannot be confused – but won’t give you a compile-time check. This style can assist trouble-shooting as you may be more likely to realise that “this entity is from the CUSTOMS table!”.
 
-### So what?
+## So what?
 
 Having an immutable and unconfusable entity is one of the paths to programming happiness. The accidental substitution of an entity during retrieval is bad enough; but if you substitute an entity during writing you’ll have a huge data integrity problem too.
