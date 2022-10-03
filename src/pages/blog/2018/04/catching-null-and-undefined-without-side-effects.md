@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Catching null and undefined without side effects'
+navMenu: false
 pubDate: 2018-04-03T21:35:09+01:00
 authors:
     - steve-fenton
@@ -22,7 +22,7 @@ So if you want to check for null and undefined without writing the full `(x === 
 
 Here’s the proof. First the code…
 
-```
+```typescript
 function check(x, name) {
     if (!x) {
         console.log(name, '(!x)')
@@ -50,10 +50,10 @@ check(null, 'null');
 let un;
 check(un, 'undefined');
 ```
+
 … and then the output!
 
 ```
-<pre class="prettyprint">
 Number 0 (!x)
 
 Empty string '' (!x)

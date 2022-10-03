@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Pie chart conversion'
+navMenu: false
 pubDate: 2018-01-22T08:50:32+00:00
 authors:
     - steve-fenton
@@ -18,28 +18,28 @@ I could see that the answer to all three questions was overwhelmingly “no” �
 
 Normally, you’d head to the value labels, or an associated table in order to get the numbers for a pie chart (if you have to look up the numbers, the chart isn’t working) – but as you can see, there are no values.
 
-![COTI ICO Pie Chart](/img/2018/01/pie-coti-ico.jpg)
+:img{src="/img/2018/01/pie-coti-ico.jpg" alt="COTI ICO Pie Chart" loading="lazy"}
 
-![Sense ICO Pie Chart](/img/2018/01/pie-sense-ico.jpg)
+:img{src="/img/2018/01/pie-sense-ico.jpg" alt="Sense ICO Pie Chart" loading="lazy"}
 
-![ShipChain ICO Pie Chart](/img/2018/01/pie-shipchain-ico.jpg)
+:img{src="/img/2018/01/pie-shipchain-ico.jpg" alt="ShipChain ICO Pie Chart" loading="lazy"}
 
 To find out what I wanted to know – the comparative desire to invest in these different options – I needed to work out the values. For this reason, [I wrote a utility in TypeScript to analyse the image and divide it between the different colour segments](/2018/01/typescript-pixel-counter/).
 
 Here is the result…
 
-### Comparable equivalent
+## Comparable equivalent
 
 To show the same data as the pie chart, we would include all the answers, both positive and negative, here is the version based on the image analysis of the pie chart.
 
-![ICO Comparable Chart](/img/2018/01/ico-column-chart-comparable.png)
+:img{src="/img/2018/01/ico-column-chart-comparable.png" alt="ICO Comparable Chart" loading="lazy"}
 
-### Most sensible version
+## Most sensible version
 
 To show the information clearly, we can dispense with the negative responses and show only the positive responses. The differences between the three options are now immediately apparent.
 
-![ICO Column Chart](/img/2018/01/ico-column-chart.png)
+:img{src="/img/2018/01/ico-column-chart.png" alt="ICO Column Chart" loading="lazy"}
 
-### Summary
+## Summary
 
 As usual, pie charts are hard to compare with other pie charts. Comparing in a single dimension, such as the height of a column, is far easier. The pie charts answer a single question; “were there more positive, or more negative responses?” The column chart can answer that question, and also the comparative questions, such as which of the three options had the most positive response.

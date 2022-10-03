@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Test and learn with Google Optimize multivariate testing'
+navMenu: false
 pubDate: 2018-02-05T08:50:21+00:00
 authors:
     - steve-fenton
@@ -17,17 +17,17 @@ I started writing this article and realised it was going to be epic, so I’ve t
 
 I’m not going to cover the nuts-and-bolts process of adding the scripts to your website as the Google Optimize website covers this in detail and supplied you with both the scripts and the detailed instructions. Please don’t feel guilty about adding to my bounce rate if you aren’t looking for more theoretical advice about how to run good experiments.
 
-### Basic concepts of variate testing
+## Basic concepts of variate testing
 
 Before we look at Google Optimize, we had better clarify some terms that you are going to stumble across when you start using a test and learn cycle to refine your website. You’ll hear terms such as split testing, A/B testing, and multivariate testing, so here are some quick definitions.
 
-#### Univariate testing
+### Univariate testing
 
 Also known as “A/B Testing”, or “A/B/n Testing”, or “Split Testing”.  
 The concept of univariate testing is to “change one thing”. Typically, this means changing a single item to determine its relationship to a goal. In some cases, this is taken to mean changing only one page.  
 An example would be changing the size of the “Buy Now” button to see if increases sales.
 
-#### Multivariate testing
+### Multivariate testing
 
 Although only changing one thing at a time seems more scientific, you might be falling victim of inappropriate reductionism. Often, the relationship between items is more important than the individual items themselves. Multivariate tested “changes many things”, for example several pages that form part of a user journey, or several items within a page.
 
@@ -37,7 +37,7 @@ Multivariate testing could involve changing the “Buy Now” button to be green
 Another example of multivariate testing is where you will change elements on different pages as part of a larger user journey. In this case, you’ll need the tool to track the session to co-ordinate the combination across pages. There is usually a special multivariate mode for this kind of test.  
 Now we have the definitions nailed (and a hint at how the tools might confuse the definitions for practical purposes), let’s look at some other theoretical concepts for variate testing.
 
-#### Noise
+### Noise
 
 If you have ever attempted to weigh your cat, you may have discovered that cats don’t like standing on weighing scales. More accurately, they will happily sleep on the scales, if you aren’t trying to weight them; but as soon as you try to assert that they should stay on them their innate personality disorder will cause them to want to be anywhere else. A good solution to this problem is to weight yourself first, then weight yourself while holding the cat. You can then calculate the weight of the cat by subtracting the first number from the second.
 
@@ -45,7 +45,7 @@ You need to perform a similar trick with your variate testing, because you need 
 
 You may need to repeat this balancing experiment periodically to track the levels of background noise over time.
 
-#### Goal and hypothesis
+### Goal and hypothesis
 
 There are two things you need to be clear on before you run an experiment that contains a change.
 
@@ -56,7 +56,7 @@ If you want to do this bit well, read up on [Impact Mapping](https://www.impactm
 
 The goal can last much longer than a single experiment, so you may need to run several experiments before you achieve your goal. The hypothesis is around for just one experiment. It states, in a falsifiable way, exactly what you expect the outcome to be. Write a confident statement here, because it doesn’t matter if you are wrong; in fact, an ideal hypothesis has an equal chance of being right or wrong as this maximises learning. If you find most of your experiments “come out as you predicted”, you aren’t learning very much; you are just confirming what you already knew.
 
-#### False dichotomies
+### False dichotomies
 
 No matter what kind of testing you are doing, it works better if you have more than two variations.  
 Here’s an example, using the hypothesis that a larger “Buy Now” button will result in more sales.
@@ -83,17 +83,17 @@ So, use more variations to discover these distributions and if the 60px button w
 
 So whatever variable you pick, test it across a range that includes numbers you also expect to fail above and below your “theoretical winner”.
 
-#### Patience
+### Patience
 
 When you run an experiment, you need to collect a lot of data. If you end the experiment too soon the results will be highly volatile. Individual personality plays too much of a factor in the outcome unless you can generate a large sample, so the hardest part will be letting the experiment run a little longer before you call it.
 
 Be patient and collect enough samples to say with confidence that the result is representative of your whole user base. If you don’t have high traffic, run the experiment even longer.
 
-#### Decisiveness
+### Decisiveness
 
 To create a natural tension against the previous principle of patience, you may find that an experiment runs on and on, never quite seeming to find a winner. Don’t keep it running indefinitely, bin it. You have learned something very valuable – your change is not an important factor in achieving your goals. Pick a completely new hypothesis and go change something else.
 
-### Google Optimize
+## Google Optimize
 
 Now it’s time to roll up our sleeves and get started. You can follow along on the [Google Optimize](https://optimize.google.com/) website.
 
@@ -104,7 +104,7 @@ When it comes to using the visual designer, you’ll need to be using the Chrome
 When you create an experiment, you will have an opportunity to choose an objective (reduced bounce rate, custom goals, conversions, et al) and you’ll also be able to target the pages and the visitors that will be part of the experiment.  
 Let’s map our theories to the different parts of the Google Optimize tool.
 
-#### Create an experiment
+### Create an experiment
 
 When you create a new experiment, you can choose from “A/B testing” and “Multivariate testing”. As described about, “A/B testing” satisfied both univariate and multivariate testing of a single page. If you want to perform multivariate testing across multiple pages in a user journey, choose the “Multivariate testing” option.
 
@@ -116,21 +116,21 @@ The targeting section allows you to perform experiments based on many different 
 
 The variants section allows you to create and name each version of the page you are testing. This is where you create a reasonably number of differences to capture not just a binary “A or B” outcome, but a distribution that shows you where the edges are. You can then open these variants to edit your page in the visual designer, which works in Chrome and uses a special extension to show your web page with editing controls overlaid.
 
-#### Reports
+### Reports
 
 Reporting is a whole primary tab in Google Optimize, and they have done a grand job of it. The report is divided into an overview of experiment sessions over time, an improvement overview, and a strong summary of how the variations stack up against each other.  
 The simple way to determine a winner is using the percentage probabilities, but there are also a few charts that help illustrate just how different the variations are.
 
 The screen shot below shows that baseline and the first variation are not significantly better, but the second variation is significantly outperforming both. It is 77% likely to be better than the baseline. The exact number that counts as “a strong outcome” differs based on the number of variations. For a false dichotomy test, 77% wouldn’t be so strong, but with three variations it is pretty good.
 
-![Google Optimize Inline Charts](/img/2018/02/google-optimize-inline-charts.png)
+:img{src="/img/2018/02/google-optimize-inline-charts.png" alt="Google Optimize Inline Charts" loading="lazy"}
 
 The strange looking charts show a line for the middle 95th, a thicker bar for the middle 50th, and a circle for the median. You can hover to see the details and the numbers are also plotted over time on the chart below the table. Each row compares the variation with the baseline.
 
-![Google Optimize Inline Charts Hover](/img/2018/02/google-optimize-inline-charts-hover.png)
+:img{src="/img/2018/02/google-optimize-inline-charts-hover.png" alt="Google Optimize Inline Charts Hover" loading="lazy"}
 
 What is also interesting in this picture is that it hints that we might have found the “left hand side” of a bell curve, so perhaps we should attempt an experiment that would complete that picture.
 
-### Summary
+## Summary
 
 A good variate test starts with a strong hypothesis, this is the element that will make the biggest impact on how you learn. All of the sage advice you have picked up on setting good goals, and all of the wisdom of plan-do-check-act (and the many reinventions of it) has a part to play here. Enjoy the confidence you can have in your decision making when you have data to back it up.

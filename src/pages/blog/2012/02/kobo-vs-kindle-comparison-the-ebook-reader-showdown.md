@@ -62,12 +62,12 @@ So despite the Kobo being expandable by quite a few extra gigabytes, both device
 
 Amazon has one mighty book store and the chances are you already have an account on Amazon too. The Kobo book store has a lot of books, but when searching for specific books that I want to purchase I found that they weren’t available on the Kobo or were much more expensive than I could buy them for elsewhere. With the Kindle, almost all the searches resulted in finding the book at a competitive price.
 
-For example, today “The Clean Coder” by Uncle Bob was £18.71 in the Kobo bookstore and £16.18 on Amazon and “Round Ireland With A Fridge” by Tony Hawks was £5.49 in the Kobo bookstore and £4.94 on Amazon. All books were selected by browsing the paperbacks on my shelf.
+For example, today “The Clean Coder” by Robert Martin was £18.71 in the Kobo bookstore and £16.18 on Amazon and “Round Ireland With A Fridge” by Tony Hawks was £5.49 in the Kobo bookstore and £4.94 on Amazon. All books were selected by browsing the paperbacks on my shelf.
 
 | Book | Kobo | Amazon |
 |---|---|---|
 | Total | £44.20 | £38.50 |
-| The Clean Coder (Uncle Bob) | £18.71 | £16.18 |
+| The Clean Coder (Robert Martin) | £18.71 | £16.18 |
 | Round Ireland With A Fridge (Tony Hawks) | £5.49 | £4.94 |
 | Join Me (Danny Wallace) | £5.49 | £4.94 |
 | Don’t Make Me Think (Steve Krug) | £14.51 | £13.44 |

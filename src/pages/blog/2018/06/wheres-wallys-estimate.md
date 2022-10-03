@@ -1,22 +1,22 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Where's Wally's estimate?
+navMenu: false
 pubDate: 2018-06-17T21:19:07+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"350e40de71f1";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/350e40de71f1";}'
-image: /wp-content/uploads/2018/06/wheres-wally-world-record-dublin.jpg
+bannerImage:
+    src: /i/x/2018/06/wheres-wally-world-record-dublin.jpg
+    alt: Where's Wally world record attempt in Dublin
 categories:
     - Process
 ---
 
-![Where'ss Wally - World Recordin Dublin](/wp-content/uploads/2018/06/wheres-wally-world-record-dublin.jpg)
-
 This is a balancing post to follow on from work I have done in several teams on estimates. Firstly, I’d like to confirm that in some teams, I have eliminated estimates; and in others I have improved the discipline of estimates. Both are valid approaches in different situations. What I never do is leave dysfunctional estimation in place.
 
-### Dysfunctional estimation
+:img{src="/img/2018/06/wheres-wally-world-record-dublin.jpg" alt="Where's Wally world record attempt in Dublin"}
+
+## Dysfunctional estimation
 
 What is dysfunctional estimation? There are a few different kinds, but good examples include:
 
@@ -29,7 +29,7 @@ The first step in a functioning relationship between all parties involved is to 
 
 With this contextual information in mind, let’s explore some common challenges with estimates, with the help of [Martin Handford’s](http://www.walker.co.uk/contributors/Martin-Handford-1497.aspx) famous character, Wally (or Waldo if you’re on the other side of the Atlantic).
 
-### Where’s my estimate?
+## Where’s my estimate?
 
 Here are some questions that will help you to understand estimates a bit better. I’m not going to attempt to explain everything in Steve McConnel’s *Software Estimation: Demystifying the Black Art* or Mike Cohn’s *Agile Estimating and Planning*. However, you can attempt to answer these questions using the techniques in those two books.
 
@@ -47,7 +47,7 @@ How does this affect the left-hand and right-hand side of the range? If you orig
 
 When you estimate the batch, what factors affect the overall range?
 
-### Bonus question
+## Bonus question
 
 Here is a bonus question that helps to illustrate the fundamental problem with estimates for testing. Imagine you are testing a Wally book. There are some basic rules that the books follow, such as “Wally appears one time in every picture”.
 

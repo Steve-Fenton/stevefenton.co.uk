@@ -44,7 +44,7 @@ The process we designed is a subject for another time, but it is thanks to the f
 - Gojko Adzic (Impact Mapping, Bridging the Communication Gap)
 - Woody Zuill (#NoEstimates)
 - Neil Killick (#NoEstimates)
-- Uncle Bob (Clean Code, Clean Coder, Agile PPP)
+- Robert Martin (Clean Code, Clean Coder, Agile PPP)
 - Tonianne DeMaria Barry and Jim Benson (Personal Kanban)
 - Jim Benson (Personal Kanban, Beyond Agile, Why Plans Fail)
 - Joanne Ho (Beyond Agile)

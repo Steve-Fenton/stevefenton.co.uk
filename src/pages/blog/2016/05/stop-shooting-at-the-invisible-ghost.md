@@ -15,7 +15,7 @@ tags:
 
 So says the title page of [Clean Code](https://www.amazon.co.uk/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) – before even a foreword or introduction.
 
-If you are object-oriented programmer you will have heard of Uncle Bob’s book, Clean Code. If you have read Clean Code, you’ll know that there are lots of signs of a poor design that you can attack in order to improve your code; to make is cleaner. If you are an object-oriented programmer who hasn’t read this book, you should probably read it so you can have an opinion on it. Clean Code is the starting point for discussions on what good code looks like in curly-braced object-oriented languages. (It is not the final word, though.)
+If you are object-oriented programmer you will have heard of Robert Martin’s book, Clean Code. If you have read Clean Code, you’ll know that there are lots of signs of a poor design that you can attack in order to improve your code; to make is cleaner. If you are an object-oriented programmer who hasn’t read this book, you should probably read it so you can have an opinion on it. Clean Code is the starting point for discussions on what good code looks like in curly-braced object-oriented languages. (It is not the final word, though.)
 
 So on the understanding that we all have a similar idea of what clean code looks like, let’s talk about shooting at invisible ghosts.
 

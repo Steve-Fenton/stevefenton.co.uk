@@ -18,6 +18,6 @@ This idea had been in my mind since I first learned to use JavaScript back in th
 
 So my unique selling point was to include a chapter on Object Orientation in TypeScript, including practical applications of the [SOLID principles](http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) and some examples of [design patterns](http://www.amazon.co.uk/Design-patterns-elements-reusable-object-oriented/dp/0201633612).
 
-The biggest compliment I have received for this effort is that every subsequent book (to date) on TypeScript has included a chapter titled “Object-Oriented Programming with TypeScript” – and most have sections covering Uncle Bob’s SOLID principles; which means the TypeScript community is well set-up to create maintainable applications.
+The biggest compliment I have received for this effort is that every subsequent book (to date) on TypeScript has included a chapter titled “Object-Oriented Programming with TypeScript” – and most have sections covering Robert Martin’s SOLID principles; which means the TypeScript community is well set-up to create maintainable applications.
 
 Long may this pairing of “code + code design” in programming books continue, because the syntax is far less than half of the story.

@@ -14,7 +14,7 @@ tags:
     - Refactoring
 ---
 
-After watching Uncle Bob playing a symphony of refactoring across his keyboard at Dev South Coast last night, I decided there was one short-cut I didn’t have and couldn’t live without: Widen Selection.
+After watching Robert Martin playing a symphony of refactoring across his keyboard at Dev South Coast last night, I decided there was one short-cut I didn’t have and couldn’t live without: Widen Selection.
 
 Widen selection, also known as expand selection, allows you to move your current selection outwards to the next lexical block. This is a really handy short-cut for refactoring as you can quickly grab a chunk of code before leaning on the extract-method refactoring to strip it out. This is the fastest way to [extract ’til you drop](https://sites.google.com/site/unclebobconsultingllc/home/articles/one-thing-extract-till-you-drop).
 

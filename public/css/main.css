@@ -217,6 +217,7 @@ nav.skip-links a:focus {
     background-color: var(--aft-breadcrumb);
     color: var(--fore-breadcrumb);
     padding: 0 1em;
+    text-align: center;
 }
 
 .site-breadcrumbs li {
@@ -235,12 +236,6 @@ nav.skip-links a:focus {
 .site-breadcrumbs a[aria-current] {
     color: var(--fore);
     text-decoration: none;
-}
-
-@media (max-width: 860px) {
-  .site-breadcrumbs ol {
-    text-align: center;
-  }
 }
 
 /* Header */

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Configure allowed IP addresses with Azure SQL Firewall'
+navMenu: false
 pubDate: 2018-02-07T11:48:47+00:00
 authors:
     - steve-fenton
@@ -13,7 +13,7 @@ tags:
 
 If you need to allow connections from a specific IP address to your Azure SQL database, you can do this using the Azure SQL firewall.
 
-![Azure SQL Firewall](/img/2018/02/azure-sql-firewall.png)
+:img{src="/img/2018/02/azure-sql-firewall.png" alt="Azure SQL Firewall"}
 
 The rule is set up at the SQL server level, so if you have the SQL database open in the Azure portal, navigate up a level to the server (the link under “Server name” in the overview will do this).
 

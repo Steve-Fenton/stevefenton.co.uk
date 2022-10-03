@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Getting started with Cypress and TypeScript'
+navMenu: false
 pubDate: 2018-06-07T07:00:17+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";N;s:10:"author_url";N;s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";N;s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";N;}'
-image: /wp-content/uploads/2018/06/cypress-tree.jpg
+bannerImage:
+    src: /i/x/2018/06/cypress-tree.jpg
+    alt: A cypress tree
 categories:
     - Programming
 tags:
@@ -16,16 +16,15 @@ tags:
     - TypeScript
 ---
 
-![Cypress Tree](/wp-content/uploads/2018/06/cypress-tree.jpg)
-
 Cypress is a front-end testing utility that allows you to write UI tests using Mocha and Chai. It has auto-waits, time-travel (look back at snapshots from within test runs), and automatic discovery of tests. This blog provides a quick start for getting started with Cypress and TypeScript.
+
+:img{src="/img/2018/06/cypress-tree.jpg" alt="Cypress Tree"}
 
 ### Cypress NPM packages
 
 Your `package.json` file will need the following minimal development dependencies.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 {
     "name": "test",
     "dependencies": {},
@@ -35,24 +34,24 @@ Your `package.json` file will need the following minimal development dependencie
     }
 }
 ```
+
 Run an `npm install` and then check that the UI works okay by running `npx cypress open`. Leave it running as you continue as it will auto-load changes and you can run your tests as you go.
 
-### Running Cypress
+## Running Cypress
 
 You can run Cypress with the open command:
 
-```
-<pre class="prettyprint">
+```bash
 npx cypress open
 ```
+
 If you leave it running while you’re writing tests, it will update as files change. You can also run a test suite and leave it open to see the tests automatically re-run when you change them.
 
-### Code location and TS Config
+## Code location and TS Config
 
 I am putting my TypeScript files in the root of the test app, with component object models in a sub folder. I am moving these into the Cypress folder `./cypress/integration` during compilation. You could use a task runner to do that instead if you wanted to. Here is the `tsconfig.json` to support this.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 {
     "compilerOptions": {
         "outDir": "./cypress/integration",
@@ -76,7 +75,8 @@ I am putting my TypeScript files in the root of the test app, with component obj
     ]
 }
 ```
-### First test
+
+## First test
 
 I won’t patronise you with a “true equals true” assertion. We’ll just put together an entire test. Tests use Mocha and Chai, so anyone who has used these (or Jasmine, or Jest)… will know exactly how to write their tests. Anyone who has used Selenium will know to use classes to represent components. You’ll hear this referred to as Page Object Models; but actually you should represent components, or widgets, rather than whole pages.
 
@@ -88,7 +88,7 @@ You’ll see call to `cy`, which is the global Cypress variable. You will also n
 
 `./pages/home.ts`
 
-```
+```typescript
 import { Search } from './search';
 
 export class Home {
@@ -102,9 +102,10 @@ export class Home {
     }
 }
 ```
+
 `./pages/search.ts`
 
-```
+```typescript
 import { Result } from "./result";
 
 export class Search {
@@ -117,9 +118,10 @@ export class Search {
     }
 }
 ```
+
 `./pages/result.ts`
 
-```
+```typescript
 export class Result {
     count() {
         return 6;
@@ -131,13 +133,14 @@ export class Result {
     }
 }
 ```
-### Cypress specification
+
+## Cypress specification
 
 You can use these component object models from a specification file.
 
 `./specification.ts`
 
-```
+```typescript
 import { Home } from './pages/home';
 
 describe('Site Search', () => {
@@ -150,26 +153,28 @@ describe('Site Search', () => {
     });
 });
 ```
+
 Hopefully you’ll notice that the specification itself knows nothing about Cypress, or the DOM, or element selectors.
 
 As soon as the compiler outputs the JavaScript files for this application, the UI will pick them up and list them.
 
-![Cypress UI](/img/2018/06/cypress-ui.png)
+:img{src="/img/2018/06/cypress-ui.png" alt="Cypress UI" loading="lazy"}
 
 You can then click on it and it will run.
 
-![Cypress Runner](/img/2018/06/cypress-runner.png)
+:img{src="/img/2018/06/cypress-runner.png" alt="Cypress Runner" loading="lazy"}
 
 You can click on the steps displayed on the left-hand side of the runner (which is within whichever browser you selected) and it will show you the state of the system under test at that time.
 
-### Assertions
+## Assertions
 
 The most comment assertions will be against elements, which look like this…
 
-```
+```typescript
 cy.get('#myElementId').should('contain', 'Expected Text');
 ```
-### Summary
+
+## Summary
 
 Cypress is a neat tool for running front-end tests, but you need to lean on all the knowledge that has come from tools such as Selenium to ensure you organise your code in a nice way. Front-end tests tend to be harder to maintain, so good design is needed to minimize this overhead. The familiarity of the tool to anyone who has used JavaScript testing frameworks, and other front-end test frameworks makes it easy to use, and it has some nice features such as the time-travel utility.
 

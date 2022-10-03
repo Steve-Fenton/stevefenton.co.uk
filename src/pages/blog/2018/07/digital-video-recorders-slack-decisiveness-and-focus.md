@@ -1,20 +1,20 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Digital video recorders, slack, decisiveness, and focus'
+navMenu: false
 pubDate: 2018-07-29T19:03:29+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"2854d5a8eb49";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/2854d5a8eb49";}'
-image: /wp-content/uploads/2018/07/hard-disk.jpg
+bannerImage:
+    src: /i/x/2018/07/hard-disk.jpg
+    alt: A hard disk
 categories:
     - Process
 ---
 
-<figure class="wp-block-image">
+For those reading this in the future, digital video recorders (DVRs) were quite prevalent in 2018. They allow you to record programs that are being broadcast and watch them later. Before DVRs there were other ways to record programs that involved writing them to magnetic tape based on a timer. Before that you just had to organise your life around the broadcast schedule, or miss stuff.
 
-![Hard Disk](/img/2018/07/hard-disk.jpg)</figure>For those reading this in the future, digital video recorders (DVRs) were quite prevalent in 2018. They allow you to record programs that are being broadcast and watch them later. Before DVRs there were other ways to record programs that involved writing them to magnetic tape based on a timer. Before that you just had to organise your life around the broadcast schedule, or miss stuff.
+:img{src="/img/2018/07/hard-disk.jpg" alt="A hard disk"}
 
 A typical 1080p video at sixty frames per second will use up 200 megabytes per minute. Many common DVRs that are given out with entertainment packages have two terabytes on board. This means they can easily run out of space. When this happens, you miss stuff that you had planned to record.
 

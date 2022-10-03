@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'SQL Availability Groups: Find the primary server'
+navMenu: false
 pubDate: 2018-07-06T17:10:49+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"6f741835ad3a";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/6f741835ad3a";}'
 categories:
     - Programming
 tags:
@@ -15,8 +13,7 @@ tags:
 
 Here is a quick SQL script that will get back information on SQL availability groups, including the role of each server. This can help you find the primary server in an availability group.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 IF SERVERPROPERTY ('IsHadrEnabled') = 1
 BEGIN
     SELECT
@@ -36,4 +33,5 @@ BEGIN
         ReplicaStates.role_desc
 END
 ```
+
 The primary server for each availability group will be listed with a replica role of `PRIMARY`.

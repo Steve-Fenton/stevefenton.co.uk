@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Find SQL Server job clashes'
+navMenu: false
 pubDate: 2018-12-27T20:00:43+00:00
 authors:
     - steve-fenton
@@ -13,12 +13,11 @@ tags:
 
 If you are working on an older application that has a lot of logic inside of the SQL database in jobs, procedures, and functions – you may find that your job schedules cause a repeating wave of SQL compilation peaks. If you suspect jobs may be the cause, you can use a query to find SQL server job clashes.
 
-![Repeating Wave of Peaks](/img/2018/12/five-minute-query-spike.png)
+:img{src="/img/2018/12/five-minute-query-spike.png" alt="Repeating Wave of Peaks"}
 
 The query just looks into the job schedules to inspect the next run time to tell you *at the current moment* what the next clashes will be.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT 
     SCHED.next_run_date AS NextRunDate,
     SCHED.next_run_time AS NextRunTime,
@@ -41,6 +40,7 @@ ORDER BY
     SCHED.next_run_date,
     SCHED.next_run_time
 ```
+
 This will group the jobs by next run time and let you know how many are starting at once. It discards jobs without a next run time and only shows times where more than one job will start. This will allow you to consider replacing your 5, 10, 15, 30, 60 minute schedules with something else, for example a primes-based schedule using 7, 11, 17, 29, and 61 minute intervals.
 
 For example, imagine you have the following jobs set up:
@@ -51,11 +51,11 @@ For example, imagine you have the following jobs set up:
 
 You will have clashed with up to three concurrent jobs and on many time slots before your lunch.
 
-![Round Number Scheduling of Jobs](/img/2018/12/jobs-round-number-scheduling.png)
+:img{src="/img/2018/12/jobs-round-number-scheduling.png" alt="Round Number Scheduling of Jobs" loading="lazy"}
 
 If you change the interval to 7, 17, and 11 minutes respectively you get only three clashes, and of only two concurrent jobs. Quite an improvement.
 
-![Jobs With Prime Number Intervals](/img/2018/12/jobs-prime-number-interval.png)
+:img{src="/img/2018/12/jobs-prime-number-interval.png" alt="Jobs With Prime Number Intervals" loading="lazy"}
 
 If you need to go further in reducing clashes, you can calculate the start times to be aligned to the scale. This means you lose additional clashes caused by the round-number start times:
 
@@ -63,7 +63,7 @@ If you need to go further in reducing clashes, you can calculate the start times
 - 10:34 every seventeen minutes
 - 11:06 every eleven minutes
 
-![Jobs With Prime Number Schedule and Interval](/img/2018/12/jobs-prime-number-schedule-and-interval.png)
+:img{src="/img/2018/12/jobs-prime-number-schedule-and-interval.png" alt="Jobs With Prime Number Schedule and Interval" loading="lazy"}
 
 If you are still having trouble, reduce the frequency by increasing the interval (rather than getting even more complicated with numbers!)
 

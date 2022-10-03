@@ -32,7 +32,7 @@ Each day, everyone has to re-estimate the time remaining on the task they are wo
 
 *2. An assumption that the estimates are accurate because they are in hours*
 
-As soon as you start talking in hours, you’d better be handing out ranges based on certainty. Read Uncle Bob’s “The Clean Coder” for more on this. TFS doesn’t allow a range, so people will start using the numbers. In the worst cases, individual performance will be based on these numbers. The metric will be gamed.
+As soon as you start talking in hours, you’d better be handing out ranges based on certainty. Read Robert Martin’s “The Clean Coder” for more on this. TFS doesn’t allow a range, so people will start using the numbers. In the worst cases, individual performance will be based on these numbers. The metric will be gamed.
 
 *3. Allows the burn-down to be groomed by decreasing the time remaining on a partly done task*
 
