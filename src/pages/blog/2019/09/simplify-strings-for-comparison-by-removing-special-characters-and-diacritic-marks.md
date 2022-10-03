@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Simplify strings for comparison by removing special characters and diacritic marks'
+navMenu: false
 pubDate: 2019-09-13T16:30:49+01:00
 authors:
     - steve-fenton
@@ -13,17 +13,16 @@ tags:
 
 This is the JavaScript edition, but I also have a [C# method to remove special characters diacritic marks](/2020/03/removing-special-characters-and-diacritic-marks-in-c/). I was working on a search system that needed to simplify the strings for comparison. It needed to compare the text regardless of special characters (diacritic marks) or casing. The following function breaks the special characters into their component parts, before removing the “special” parts and lower-casing the whole thing.
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 function normalise(term) {
     // Simplifies diacritic characters, accents, and casing
     term.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
  }
 ```
+
 You can see the impact using this sample from a couple of languages:
 
-```
-<pre class="prettypring lang-js">
+```javascript
 const strings = ['example', 'façade', 'résumé', 'černá', 'piñata'];
 
 for (let s of strings) {
@@ -31,6 +30,7 @@ for (let s of strings) {
     console.log(simple);
 }
 ```
+
 The output is:
 
 1. example

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Tech is only as bad as the non-tech analog'
+navMenu: false
 pubDate: 2019-08-28T07:50:16+01:00
 authors:
     - steve-fenton
@@ -15,7 +15,7 @@ I had an interesting discussion with a very smart woman I know about tech. In pa
 
 This is deep stuff, so let’s use some examples to explore the thought process.
 
-### Chronological order
+## Chronological order
 
 It’s a massive over-simplification (but a useful one) to imagine that when the World Wide Web became available (tech), some bright spark said “I’m selling books in my store here on the high street, I could also sell them on the World Wide Web”. This chronological version of events is a great example of a positive non-technical story (buying a book) remaining a positive technical story (buying a book online). In an ideal world, the two would co-exist as part of an omni-channel experience… I can walk around a real store and breathe in the literature, before making some random purchase based on a hand-written recommendation from a store employee; and I can also go online and order something rare that would otherwise be hard to find.
 
@@ -23,7 +23,7 @@ So, a positive offline experience translates into a positive online experience.
 
 It’s easy when you do it in this order.
 
-### Working backwards
+## Working backwards
 
 It’s a little harder in reverse, but I believe we need to gain some intellect in identifying the non-tech analog of any activity we find ourselves doing with technology.
 
@@ -35,6 +35,6 @@ Similarly, mobile games come in different flavours. Some are just a bit of fun t
 
 People have a choice. They can leave the album unfinished, or they can pay a premium to complete it. This negative non-tech activity is a good analog for many mobile games.
 
-### Considered activity
+## Considered activity
 
 So, when you engage with technology to undertake an activity, you might find it useful to generate a number of non-tech examples of the same activity to probe whether you are generating, or consuming, trash. The technology itself is just another way to do the same things we were doing in the 1980s. What was bad in the eighties is typically still bad now. Often more so.

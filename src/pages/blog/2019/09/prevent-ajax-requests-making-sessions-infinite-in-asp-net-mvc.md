@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Prevent AJAX requests making sessions infinite in ASP.NET MVC'
+navMenu: false
 pubDate: 2019-09-04T09:40:31+01:00
 authors:
     - steve-fenton
@@ -22,8 +22,7 @@ There’s a few ways to solve this, but perhaps the simplest is to ensure that y
 
 The simple version of this is shown below, but you might want to convert this into an Attribute to decorate your methods… the first line of code in this method will prevent the cookie being transmitted back with the AJAX response.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
         [HttpPost]
         public JsonResult SomePolledMethod(int id)
         {
@@ -33,4 +32,5 @@ The simple version of this is shown below, but you might want to convert this in
             return Json(new { id = id }, JsonRequestBehavior.DenyGet);
         }
 ```
+
 By adding this, you should find your sessions last as per before you added polling.

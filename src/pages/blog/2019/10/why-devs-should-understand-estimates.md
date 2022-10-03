@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Why devs (should) understand estimates'
+navMenu: false
 pubDate: 2019-10-24T13:30:11+01:00
 authors:
     - steve-fenton
@@ -20,13 +20,13 @@ Yes, this is a sub-post! A reaction to a post titled “Why Devs (Should) Like E
 
 There are two tools I use in respect of estimates: One is the [phase precision premise](/2019/03/the-phase-precision-premise/), which identifies some broad classifications that apply to software development that should affect your decision on whether to estimate. The second is [a simple decision flowchart for estimation / not estimating](/2015/09/noestimates-in-practice/), which helps you decide whether the underlying need can be solved in a different way. This post builds on this and offers a critique of the “Why Devs (Should) Like Estimates” article.
 
-### Why now?
+## Why now?
 
 Having stayed away from this debate for a long time, the publication of the article on a website that has a massive influence with developers (the Stack Overflow Blog), has made it impossible to ignore. A great many people will take it for granted that the information is accurate, complete, and correct. It is important to draw attention to areas that you, dear reader, must look at in more depth before you eat the poisoned apple that has been placed in your hands.
 
 In particular, I don’t want Yaakov Ellis to take any of this critique personally. In fact, the advice might work perfectly well within Stack HQ. The problems arise, as I’ve mentioned before, when local success is misinterpreted as general practice. In other words, I have worked on teams that never needed to provide estimates, but my general advice is not “don’t ever provide estimates”.
 
-### Brick by boring brick
+## Brick by boring brick
 
 Let’s take some quotes and nitpick them, hopefully constructively.
 
@@ -78,14 +78,14 @@ I won’t pull out the many quotes from the article about refusing to estimate u
 
 In fact, the granularity of your estimate should be adjusted to ensure you don’t give a false sense of precision. If you told me a task would take between 132 and 141 hours, you are suggesting you know more than you really do. It is better to say it will take between 5 and 6 days, which is materially the same information. If it really does take 132 hours, the 5-6 days estimate is accurate. If it really does take 141 hours, the 5-6 days estimate is accurate.
 
-### And there’s more
+## And there’s more
 
 A more general problem I have with the article in general is that it seems highly skewed to project-thinking. Perhaps for those of use using a data-driven insights-based approach where we take small steps and validate our direction often, this kind of “ensure the spec and estimate are updated regularly” thinking simply doesn’t apply. It seems to be more closely married to a Waterfall approach, where things are “nailed down” too early and the feedback loop is too late. This is not my world. Even if it were, the advice does not align to some very well researched advice that is available from the authors I mention below.
 
-### Good advice on estimation
+## Good advice on estimation
 
 Steve McConnell wrote the definitive guide to estimation in [Software Estimation: Demystifying the Black Art](https://wordery.com/software-estimation-steve-mcconnell-9780735605350) (Microsoft Press). This book is backed by a great deal of well researched information from industry sources. It debunks the aforementioned article in great detail, despite being written more than a decade earlier. Mike Cohn has also written a book I refer to often, [Agile Estimating and Planning](https://wordery.com/agile-estimating-and-planning-mike-cohn-9780131479418), which brings solid estimation advice to iterative software development.
 
-![Software Estimation Books](/img/2019/10/software-estimation-books.jpg)
+:img{src="/img/2019/10/software-estimation-books.jpg" alt="Software Estimation Books" loading="lazy"}
 
 Remember, you don’t always have to estimate. The [Phase Precision Premise](/2019/03/the-phase-precision-premise/) and the [Estimation Decision Flowchart](/2015/09/noestimates-in-practice/) may lead you to alternatives. When you *do* need to estimate, Steve and Mike have got you covered.

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Budgets not Estimates'
+navMenu: false
 pubDate: 2019-11-30T19:53:30+00:00
 authors:
     - steve-fenton
@@ -17,32 +17,32 @@ This is an early view over a process we are experimenting with in my organisatio
 
 There are lots of different terms for how people plan software, but very often it involves someone turning up with a fully formed idea and asking how much it would cost to implement it. It might be called a requirement, a specification, a user story, a feature… it has many names, but it means “a single idea that I want executed”.
 
-![Traditional](/img/2019/11/traditional.jpg)
+:img{src="/img/2019/11/traditional.jpg" alt="Traditional" loading="lazy"}
 
 Most of the components of this planning are reasonable enough, but just occur in the wrong order. No amount of “Start With Why” posters seems to materially improve this situation. There are also all of the well reported dysfunctions around estimates, even though the estimates themselves are innocent enough when handled by responsible folks. We need to resolve these two issues. What two issues?
 
 1. The problem of planning against a single pre-defined option, when a set of options is more powerful
 2. The problems around estimation that we’ve been talking about for a few years now
 
-### Problem budget
+## Problem budget
 
 Our experimental solution to this planning issue is *problem budgets*. You define a problem. You work out how much you want to invest in an attempt to solve the problem. You work on generating a set of options that you think might solve the problem within the budget. You select an option and work on it until the initial budget is gone.
 
-![Budget Not Estimate](/img/2019/11/budget.jpg)
+:img{src="/img/2019/11/budget.jpg" alt="Budget Not Estimate" loading="lazy"}
 
 For example, the easy case of… “Thirty-percent of users drop out when they get to the payment screen, how much money is a solution to this problem worth?” (Not every problem is as easy to quantify.)
 
-### Example
+## Example
 
 So, how does it work?
 
-#### Start With Why!
+### Start With Why!
 
 You need to focus on the problem you need to solve. Approaching this process with a fixed idea of the solution is a sure way to fail. Look at the problem, find out what a solution to the problem is worth, and decide how much of that you want to risk on an experiment. You’ll collect data as you go that will help you understand your probably success rate (how many times your first idea works, how many times your second idea works, and so on).
 
 So, for example, “it’s kinda hard to update the website navigation”. You now have a problem to solve. Work on the problem until it is crystal clear. Use established techniques to dig below the surface to make sure you on the bedrock-problem, not some loose gravel layer above it.
 
-#### What’s it worth?
+### What’s it worth?
 
 With a clear idea of the problem, you now work out what it would be worth to fix the problem. This is the money you will draw from to run experiments. You don’t just allocate the whole value to a big bet (you might do this sometimes, but if you’re doing it every time you need to rethink your attitude to risk). Wherever possible, consider allocating the budget in blocks that allow experiments that provide either success, or significant learning that can be fed back through the process.
 
@@ -50,7 +50,7 @@ With a clear idea of the problem, you now work out what it would be worth to fix
 
 Great! Now we have a clear problem, and a budget for our first experiment.
 
-#### Option generation
+### Option generation
 
 There are different ways to approach the next part, but all involve assembling a cross-functional team who are going to spend the budget. Now you run a session to generate options. You might start without the budget constraint and introduce it as a method of eliminating options that seem too expensive. You might begin with the budget and see what options come out of it. You can try different methods at this stage.
 
@@ -60,13 +60,13 @@ In some teams, you might want to undertake this process in two or three short se
 
 When the experiment is selected, the session can be capped-off with example generation, accompanied by any decomposition or slicing that is required to maintain the laser-sharp focus of the problem/budget.
 
-#### Make it happen
+### Make it happen
 
 Now the team can get to work solving the problem. There are some important notes at this stage.
 
 When the budget is used up, the work stops by default. This is explained well in [Shape Up](https://basecamp.com/shapeup) (published by Basecamp). The budget owner might decide to add further funding as an exception, but this doesn’t happen by default as it does in many software development endeavours. If the problem isn’t worth additional developer-weeks, it’s better that we stop and learn from what happened, rather than let the sunk-cost fallacy slowly bleed our annual budget on problems that aren’t valuable enough. Large projects kill companies by budget extensions, so we’re stopping any experiment from being big enough to crush us.
 
-#### Measure
+### Measure
 
 In respect of the original problem, we need to know if we solved it. Even if we completed our work “on time and on budget”, the users might still struggle to update this darned website navigation. That’s what our [DITE cycle](/2019/09/the-dite-cycle-data-insight-theory-experiment/) is for.
 
@@ -76,11 +76,11 @@ If you decide to allocate a second-round of funding to a “first option”, you
 
 We always want to have one eye on sunk-cost fallacy; and we always want to acknowledge that dysfunctions can creep in from all angles. Although we often highlight management dysfunctions around estimates in the upper branches of an organisation, there are also non-management dysfunctions relating to non-disclosure of information that grow insipidly about the roots, sometimes as a result.
 
-### Benefits of stop-dead funding
+## Benefits of stop-dead funding
 
 However you run this, you need a mechanism that stops funding an idea that has gone out of control. Here’s a simple ten-Euro version of the principle.
 
-![Pivot vs Persevere](/img/2019/11/pivot-vs-persevere.jpg)
+:img{src="/img/2019/11/pivot-vs-persevere.jpg" alt="Pivot vs Persevere" loading="lazy"}
 
 Scenario one is the most common mistake in software development; despite being offered the lesson that the idea is not going to work within the budget, the work continues until it is complete. It might cost 2x, 3x, 4x the original budget, but nobody stops spending the money because each time they review progress, they have become more bought-in to making things happen at all costs. You might eventually solve the original problem, but you’ve ignored every opportunity to learn along the way.
 

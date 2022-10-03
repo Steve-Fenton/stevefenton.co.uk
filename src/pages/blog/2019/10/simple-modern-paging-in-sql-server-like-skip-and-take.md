@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: 'Simple modern paging in SQL Server: Like Skip and Take'
 navMenu: false
-title: 'Simple modern paging in SQL Server &#8211; Like Skip and Take'
 pubDate: 2019-10-02T08:08:20+01:00
 authors:
     - steve-fenton
@@ -15,8 +15,7 @@ If you have been developing SQL Server databases for a while, you may remember p
 
 For those who have used Linq in C#, you will have come across the “Skip(n)” and “Take(n)” methods. In SQL Server, you have “OFFSET n” and “FETCH NEXT n ONLY”. This has been available since SQL Server 2012, but I still sometimes find the old TOP N FROM (TOP (PAGE \* N)) trick.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT ExampleColumn
 FROM ExampleTable
 WHERE ExampleKey = '9BA32ABE-B0CB-4D24-4951-08D741A88769'

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Disable swipe navigation in Chrome and Edge (Chromium edition)'
+navMenu: false
 pubDate: 2019-10-23T13:08:49+01:00
 authors:
     - steve-fenton
@@ -20,15 +20,19 @@ You will find the settings on the flags page, which has a slightly different add
 
 Chrome
 
-`chrome://flags/#overscroll-history-navigation`
+```
+chrome://flags/#overscroll-history-navigation
+```
 
 Edge
 
-`edge://flags/#overscroll-history-navigation`
+```
+edge://flags/#overscroll-history-navigation
+```
 
 Within the settings page, you’ll find an item titled “Overscroll history navigation”, which you can disable.
 
-![Overscroll Navigation History](/img/2019/10/overscroll-navigation-history.jpg)
+:img{src="/img/2019/10/overscroll-navigation-history.jpg" alt="Overscroll Navigation History" loading="lazy"}
 
 You might also spot other settings that can be a pain in terms of accidental activation, such as pull-to-refresh.
 

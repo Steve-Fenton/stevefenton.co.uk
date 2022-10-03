@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Easily collect audit history on SQL Server tables'
+navMenu: false
 pubDate: 2019-09-26T07:50:22+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ A big thanks to Dave Beaumont for the code review for the samples in this articl
 
 For the purposes of the example, we’ll use the following table definition. It’s just a Tenant table. Each Tenant record has an Id, Title, Updated date and time (UTC), and an author.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 CREATE TABLE [dbo].[tblTenant] (
     -- Fields you want in your table
     [TenantId] UNIQUEIDENTIFIER NOT NULL DEFAULT (newid()),
@@ -30,11 +29,12 @@ CREATE TABLE [dbo].[tblTenant] (
 )
 GO
 ```
-### Optional but sensible columns
+
+## Optional but sensible columns
 
 You should already have columns on your table that contain the data you would look for in the audit history. For example, the user who made the change is almost always needed. So, although you won’t be forced to add this data it’s up to you to ensure the history row is useful when you finally need to use it.
 
-### Mandatory start and end time columns
+## Mandatory start and end time columns
 
 We can have our history table generated for us, but there is one condition… you have to have two columns that are used for the history information.
 
@@ -42,16 +42,15 @@ In the example below, we have added SysStartTime, SysEndTime, and linked them to
 
 Here’s the addition…
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 [SysStartTime] DATETIME2 GENERATED ALWAYS AS ROW START NOT NULL, 
 [SysEndTime] DATETIME2 GENERATED ALWAYS AS ROW END NOT NULL,
 PERIOD FOR SYSTEM_TIME (SysStartTime, SysEndTime),
 ```
+
 And where it fits into our script so far…
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 CREATE TABLE [dbo].[tblTenant] (
     -- Fields you want in your table
     [TenantId] UNIQUEIDENTIFIER NOT NULL DEFAULT (newid()),
@@ -67,20 +66,20 @@ CREATE TABLE [dbo].[tblTenant] (
 )
 GO
 ```
-### Automatic history table
+
+## Automatic history table
 
 Now you have the right columns, you can ask SQL Server to add an automatic *temporal version history table*. Sounds cool, and can be done using one additional line in your table definition. The only part to change is the name of the table. I call all my temporal history tables “tblHistoryOf…” – followed by the table name. So in our case “tblHistoryOfTenant”. You’ll thank yourself for using this convention later on as it makes it super-clear which tables are “data” and which tables are “history”.
 
 The additional line is…
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.tblHistoryOfTenant));
 ```
+
 And it fits into your tables script here…
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 CREATE TABLE [dbo].[tblTenant] (
     -- Fields you want in your table
     [TenantId] UNIQUEIDENTIFIER NOT NULL DEFAULT (newid()),
@@ -98,24 +97,24 @@ CREATE TABLE [dbo].[tblTenant] (
 WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.tblHistoryOfTenant));
 GO
 ```
+
 You will see your table get a new icon, and a nested temporal history table with the audit history:
 
-![Temporal Audit History Table Icon and Nested Table](/img/2019/09/temporal-audit-history-sql-server.jpg)
+:img{src="/img/2019/09/temporal-audit-history-sql-server.jpg" alt="Temporal Audit History Table Icon and Nested Table" loading="lazy"}
 
-### Entity Framework
+## Entity Framework
 
 As of EF Core 6.0 you can have these temporal tables configured for you, by asking the model builder to set it up.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 modelBuilder
     .Entity<Tenant>()
     .ToTable("Tenant", b => b.IsTemporal());
 ```
+
 When using EF Core to do this, you’ll get a `TenantHistory` table with automatic `PeriodStart` and `PeriodEnd` columns. You can override these defaults if you need to:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 modelBuilder
     .Entity<Tenant>()
     .ToTable("Tenant", b => b.IsTemporal(
@@ -124,4 +123,5 @@ modelBuilder
         b.UseHistoryTable("HistoryOfTenant");
     ));
 ```
+
 Neat!

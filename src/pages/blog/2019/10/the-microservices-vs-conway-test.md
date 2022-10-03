@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Microservices vs Conway Test'
+navMenu: false
 pubDate: 2019-10-26T17:00:54+01:00
 authors:
     - steve-fenton
@@ -16,7 +16,7 @@ tags:
 
 Following on from my article on [Mescoservices](/2015/05/Mescoservice-Architecture/) back in 2015, this article expands on an idea I had last month on how monoliths, mescoservices, and microservices fit into organisation design. The microservices vs Conway test encodes a common piece of advice into a first-draft formula for testing your architecture against your organisation.
 
-### Microservice advice
+## Microservice advice
 
 Microservices offer several benefits, and also some cost. In return for increased complexity, you get to mix different technology and scale up the number of autonomous teams working across the platform. A simple way to look at this is to imagine a successful team working on a monolith who need to either broaden the scope of their application or divide the work between themselves and another team. If they can find a seam that allows them to divide the monolith, each team can work autonomously on each of the two new parts that have been created.
 
@@ -26,12 +26,13 @@ This is just one example of the *Inverse Conway Manoeuvre*. Whereas Conway’s L
 
 So, it’s pretty common for people to give advice that includes organisation design, and warnings about the complexity trade-off when microservices crop up.
 
-### Microservices vs Conway Test
+## Microservices vs Conway Test
 
 If we use the letter *m* to represent the number *active* microservices you have, and *t* to represent the number of teams you have, we can use the following test to determine how well your architecture fits into our organisation by testing the resulting complexity, which we’ll call *c*.
 
-<math><mi>c</mi><mo>=</mo> (<mi>m</mi><mo>–</mo><mi>t</mi>)<msup><mn>²</mn></msup>  
-</math>(This doesn’t just apply to microservices, but to service-oriented architectures or other component-based designs.)
+<math><mi>c</mi><mo>=</mo> (<mi>m</mi><mo>–</mo><mi>t</mi>)<msup><mn>²</mn></msup></math>
+
+(This doesn’t just apply to microservices, but to service-oriented architectures or other component-based designs.)
 
 If things go well, complexity will scale near-linearly. When this is the case, the calculated complexity will be zero. If you have too many active services compared to teams, or too many teams compared to active services, current wisdom says that things will be more complex than they need to be. Negative numbers indicate the complexity of multiple teams tripping over each other as part of the deployment pipeline, for example multiple teams attempting to service a monolith. Positive numbers represent complexity that is being introduced without benefit.
 
@@ -43,19 +44,19 @@ The relationships can be described with the following examples.
 
 The relationship for a single team is shown below. Complexity increases as more active services are managed by a single team. The more you hope to escape Conway’s Law, the more the complexity hurts.
 
-![Complexity increases as more services are added to a single team](/img/2019/10/complexity-for-single-team.jpg)
+:img{src="/img/2019/10/complexity-for-single-team.jpg" alt="Complexity increases as more services are added to a single team" loading="lazy"}
 
 The relationship for a larger number of teams is illustrated below. Where we have five teams, we can survive give-or-take two either way. But if there are too-few services, or too-many services we increase the otherwise manageable complexity.
 
-![For five teams, complexity increases beyond a manageable level when there are too many, or too few services.](/img/2019/10/complexity-for-five-teams.jpg)
+:img{src="/img/2019/10/complexity-for-five-teams.jpg" alt="For five teams, complexity increases beyond a manageable level when there are too many, or too few services" loading="lazy"}
 
 The complexity curve follows the assertion that the further you deviate from the team-per-service organisation design, the more complex things will become; no matter whether it is too many teams for the number of services, or vice versa.
 
-![Complexity is symmetrical based on deviation from balanced team and service numbers.](/img/2019/10/complexity-curve.jpg)
+:img{src="/img/2019/10/complexity-curve.jpg" alt="Complexity is symmetrical based on deviation from balanced team and service numbers" loading="lazy"}
 
 Comparing these figures to real-world examples, I would propose that single-digit complexity is likely to be necessary.
 
-### Why does this work in both directions?
+## Why does this work in both directions?
 
 It is reasonable to look at this test and think… “I understand that having more teams than services will have people tripping over each other, but why does it matter that you have more services than teams?”
 
@@ -67,14 +68,14 @@ You *can* have more services than teams, just like you *can* have fewer. The cor
 
 If you have more services than teams, you need to be using some other complexity limiting techniques to ensure they don’t drown in service maintenance and administration.
 
-### Other complexity limiting techniques
+## Other complexity limiting techniques
 
 I’ll add more examples as they emerge, but Monzo (who have more microservices than most organisations) undertook an exercise to limit the connections. By making connections explicit, they prevented a situation wherein any service could talk to any other. This massively reduces the total complexity. For example, if you have 100 services all able to talk to the others, you have the classic `(n x (n – 1)) ÷ 2` problem (4,950), but if you review and limit connections to a maximum of five dependencies, you limit the connections to just 500. If you review and limit connections, you can understand how much complexity a team has based on the exact number of connections a team must manage.
 
 Another technique is to assess fixed contracts vs fluid contracts. If you have a service whose public interface is fixed, it is a dormant dependency that adds little complexity compared to a fluid contract that may require consumers to respond to changes.
 
-### Summary
+## Summary
 
-![Complexity: Microservices vs Conway Test](/img/2019/10/complexity.jpg)
+:img{src="/img/2019/10/complexity.jpg" alt="Complexity: Microservices vs Conway Test" loading="lazy"}
 
 Having been careful to consider Conway’s law, I have avoided designing teams and architecture in isolation of each other. I believe this is the only way to ensure the design of both is successful. If you don’t balance the design on both sides (the technology on one side and the people on the other), the complexity is damaging to both.

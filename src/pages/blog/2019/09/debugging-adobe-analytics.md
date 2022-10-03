@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Debugging Adobe Analytics'
+navMenu: false
 pubDate: 2019-09-21T13:43:13+01:00
 authors:
     - steve-fenton
@@ -19,10 +19,11 @@ Let’s get straight down to business! Open your browser tools and select the co
 
 Paste in the below code…
 
-```
+```html
 <pre class="prettyprint lang-js">
 _satellite.setDebug(true);
 ```
+
 Now refresh the page… you can now basically hear every thought Adobe Analytics is having during the page load and as the user interacts with the page. For example:
 
 `SATELLITE: detected click on INPUT`

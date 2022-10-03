@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Make HAProxy strip spaces from a request header'
+navMenu: false
 pubDate: 2019-11-19T16:14:53+00:00
 authors:
     - steve-fenton
@@ -16,17 +16,17 @@ There is some shared code out in the wild that browser extensions are using to m
 The issue is with the following request header, which you might see in your logs as `Referer: http://+www.example.com`:
 
 ```
-<pre class="prettyprint">
 Referer: http:// www.example.com
 ```
+
 That space between the scheme and host name causes the problem.
 
-### Strip Spaces from request headers
+## Strip spaces from request headers
 
 The following rule goes in your HAProxy backend, and replaces the Referer header with the same values stripped of spaces.
 
 ```
-<pre class="prettyprint">
 http-request set-header Referer %[req.hdr(Referer),regsub(' ','',g)]
 ```
+
 A similar rule could be used for other request headers if necessary.

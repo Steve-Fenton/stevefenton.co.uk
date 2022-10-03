@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Find all images on a page with JavaScript'
+navMenu: false
 pubDate: 2019-09-04T11:01:03+01:00
 authors:
     - steve-fenton
@@ -20,31 +20,30 @@ It’s easy to fix, because you can just add the “s” to “http”… `https
 
 If you need to find all insecure images on a page, you can do it by pasting the following JavaScript snippets into the browser tools “Console” tab, or adding the equivalent scriptlet to your favourites bar.
 
-### Find all images
+## Find all images
 
 Here’s the JavaScript version to find all images:
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 Array.prototype.map.call(document.images, function (i) { console.log('image', i.src); });
 ```
+
 And this is the scriptlet version to find all images from your favourites toolbar:
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 javascript:{Array.prototype.map.call(document.images, function (i) { console.log('image', i.src); });}; void(0);
 ```
-### Find all insecure images
+
+## Find all insecure images
 
 Here’s the JavaScript version to find all insecure images:
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 Array.prototype.map.call(document.images, function (i) { if (i.src.indexOf('http:') > -1) console.log('image', i.src); });
 ```
+
 And this is the scriptlet version to find all insecure images from your favourites toolbar:
 
-```
-<pre class="prettyprint lang-js">
+```javascript
 javascript:{Array.prototype.map.call(document.images, function (i) { if (i.src.indexOf('http:') > -1) console.log('image', i.src); });}; void(0);
 ```

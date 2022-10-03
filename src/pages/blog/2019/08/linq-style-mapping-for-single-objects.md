@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Linq style mapping for single objects'
+navMenu: false
 pubDate: 2019-08-25T14:19:27+01:00
 authors:
     - steve-fenton
@@ -16,22 +16,21 @@ Linq is not just the go-to .NET library for handling IEnumerable data sources, i
 
 When you have a class full of Linq and you find yourself wanting to simply map a single object to something else, you’ll find yourself writing the following linqesque expression, which doesn’t exist in Linq.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 TypeTwo result = typeOneInput.Select(t => new TypeTwo
 {
     Id = t.Identity.ToGuid(),
     Title = t.Name
 });
 ```
+
 Because `typeOneInput` is a single `TypeOne` instance, not an enumerable collection of them; you’ll find the standard Linq `Select` isn’t available.
 
-### Linq style mapping extension method
+## Linq style mapping extension method
 
 For simple mapping cases, you can write your own extension method to allow it, though. In this case, we’ll call it `Map` rather than `Select`.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public static class MapExtensions
 {
     public static T Map<TIn, T>(this TIn input, Func<TIn, T> mapper)
@@ -40,24 +39,24 @@ public static class MapExtensions
     }
 }
 ```
-### Using the mapper
+
+## Using the mapper
 
 You can now map things whenever you like!
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 TypeTwo result = typeOneInput.Map(t => new TypeTwo
 {
     Id = t.Identity.ToGuid(),
     Title = t.Name
 });
 ```
-### Full Linqyness
+
+## Full Linqyness
 
 James Curran wrote to me to point out that if we name the mapping method `Select`, rather than `Map`, you get some additional Linq style goodness.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 TypeTwo result = from t in typeOneInput
                  select new TypeTwo
 {
@@ -65,6 +64,7 @@ TypeTwo result = from t in typeOneInput
         Title = t.Name
 };
 ```
+
 Thanks James!
 
 As an aside… read this if you’re wondering [why you can’t comment on posts](/2011/09/blog-comments/) (from 2011).
