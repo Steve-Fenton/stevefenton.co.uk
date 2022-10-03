@@ -8,7 +8,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - adobe
+    - Adobe
 ---
 
 Adobe Analytics makes it super-easy to add segements, with a visual designer that will help you build the logic. As well as traditional and/or logical tests, you can use time based “then” tests to create segments where things happen in a specific order. For example, you might be interested in visitors who arrive from a UTM campaign and within a week checkout.

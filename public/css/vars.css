@@ -20,24 +20,25 @@
 :root {
     --fore: #222;
     --fore-headings: #111;
-    --aft: #EFEFEF;
+    --aft: #F5F5F8;
+    --aft-paper: #FEFEFE;
 
     --fore-link: #336699;
     --fore-link-alt: #3366CC;
-    --aft-link-alt: #E3E3E6;
+    --aft-link-alt: #E6E6EC;
 
     --fore-head: #EFEFEF;
     --aft-head: #225;
     --fore-link-head: #EFEFEF;
 
     --fore-breadcrumb: #333;
-    --aft-breadcrumb: #E3E3E6;
+    --aft-breadcrumb: #F3F3F9;
 
     --link-head: #EFEFEF;
     --link-alt-head: #EFEFEF;
 
     --fore-block: #333;
-    --aft-block: #E3E3E6;
+    --aft-block: #F3F3F9;
     --icon-block: #FE117D;
 
     --fore-table-head: #FDFDFE;

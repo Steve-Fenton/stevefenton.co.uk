@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - books
+    - Books
 ---
 
 My collection of thoughts on software test automation, [The Humans are Dead](/publications/the-humans-are-dead/), is currently in the Top 25 in Amazon.com’s “Programming” category.

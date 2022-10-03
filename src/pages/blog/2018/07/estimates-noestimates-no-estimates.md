@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/07/mechanical-calculator.jpg
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
     - estimates
     - estimation
 ---

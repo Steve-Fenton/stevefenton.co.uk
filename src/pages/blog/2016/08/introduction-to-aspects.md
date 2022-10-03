@@ -11,7 +11,7 @@ categories:
     - Process
     - Programming
 tags:
-    - aspects
+    - Aspects
 ---
 
 Aspects are a mixture of management theory, software craftsmanship, communities of practice, apprenticeships, and the [software foreman model](/2014/02/surgical-team-vs-foreman-metaphors/).

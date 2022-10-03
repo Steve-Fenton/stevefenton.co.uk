@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 At Microsoft Build 2020, an interesting new “see less boilerplate” feature from C# 9 was demonstrated.

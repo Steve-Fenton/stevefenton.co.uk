@@ -10,7 +10,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - bdd
+    - BDD
     - cucumber
     - java
     - junit

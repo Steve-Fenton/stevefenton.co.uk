@@ -9,7 +9,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - bdd
+    - BDD
     - specflow
 ---
 

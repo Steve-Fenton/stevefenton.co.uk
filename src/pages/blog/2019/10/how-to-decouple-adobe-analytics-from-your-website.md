@@ -8,7 +8,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - adobe
+    - Adobe
     - dtm
 ---
 

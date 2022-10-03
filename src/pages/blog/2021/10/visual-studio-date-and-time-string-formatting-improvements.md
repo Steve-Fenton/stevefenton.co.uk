@@ -9,7 +9,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 Either this is new, or it has been a long time since I last had to write a date out. Either way, I wanted to share the improvements I found had been made to Visual Studio when you decide to `.ToString` a date/time in your code.

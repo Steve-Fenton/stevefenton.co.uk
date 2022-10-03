@@ -10,7 +10,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - 'c#'
+    - 'csharp'
     - entityframework
     - tdd
 ---

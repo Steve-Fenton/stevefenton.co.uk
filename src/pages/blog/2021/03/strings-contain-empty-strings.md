@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 This is just one of those philosophical moments in programming where one small details can have a big impact. In C# / .NET you will find that when you ask if a string contains an empty string (`string.Empty`), the answer is yes. This may seem logically surprising so it is worth bearing in mind should you be comparing strings.

@@ -9,7 +9,7 @@ categories:
     - Analytics
     - Programming
 tags:
-    - adobe
+    - Adobe
     - javascript
 ---
 

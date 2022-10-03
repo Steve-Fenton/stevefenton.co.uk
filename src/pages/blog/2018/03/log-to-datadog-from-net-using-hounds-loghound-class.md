@@ -12,7 +12,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
     - logs
     - monitoring
 ---

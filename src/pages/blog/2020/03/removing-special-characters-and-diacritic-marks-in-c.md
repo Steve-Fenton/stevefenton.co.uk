@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 I did this trick in [JavaScript to remove diacritic marks](/2019/09/simplify-strings-for-comparison-by-removing-special-characters-and-diacritic-marks/) a while back and the need to perform a similar transformation in C# came up this week.

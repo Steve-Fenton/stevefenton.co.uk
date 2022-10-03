@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - advertising
+    - Advertising
 ---
 
 Firstly, the list of the sampling issues with this experiment would mean a near-infinite scrollbar. The intention here is not to say that “this is what *you* will experience”. The purpose of this article is to show that annoying adverts make more money than subtle advertising; but that you should test how much more and consider whether it is worth the cold hard cash.

@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Programming
 tags:
-    - 'api testing'
+    - 'API Testing'
     - rest
     - restclient
     - testing

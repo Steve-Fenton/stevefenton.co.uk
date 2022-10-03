@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - backup
-    - bash
+    - 'Backup'
+    - Bash
     - deployments
     - powershell
     - sql

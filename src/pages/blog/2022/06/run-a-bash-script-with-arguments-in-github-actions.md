@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - actions
-    - bash
+    - Actions
+    - Bash
     - github
 ---
 

@@ -10,8 +10,8 @@ categories:
     - Programming
 tags:
     - .net
-    - asp.net
-    - azure
+    - ASP.NET
+    - Azure
     - github
     - octopus
 ---

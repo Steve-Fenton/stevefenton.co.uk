@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 This is a little gold nugget that is coming in C# 8 – implicitly scoped using statements.

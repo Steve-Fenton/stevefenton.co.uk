@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - ajax
-    - asp.net
-    - 'c#'
+    - Ajax
+    - ASP.NET
+    - 'csharp'
     - mvc
 ---
 

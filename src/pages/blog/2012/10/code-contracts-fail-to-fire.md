@@ -13,7 +13,7 @@ categories:
 tags:
     - .net
     - aop
-    - 'c#'
+    - 'csharp'
 ---
 
 If you are using Code Contracts in .NET and you find that they aren’t running, there are a few simple checks to perform to work out why those clever little definitions aren’t working.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - brocade
+    - Brocade
     - 'load balancing'
 ---
 

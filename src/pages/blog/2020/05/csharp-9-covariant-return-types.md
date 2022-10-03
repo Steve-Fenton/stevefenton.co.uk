@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 Just a quick note on a neat feature in C# 9 that will allow sub-classes to return a covariant return type… what?! Okay, it allows you to return a more specific, or narrower type.

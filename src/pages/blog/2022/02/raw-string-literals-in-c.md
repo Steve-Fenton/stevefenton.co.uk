@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/02/raw-string-literals.jpg
 categories:
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 New in C# 11, there is a feature that I think will become highly popular. That feature is *raw string literals*. There have been a few different modifiers for string literals before now that work in various scenarios such as changing `"c:\\temp"` to `@"c:\temp"` or using template literals with a `$`. However, in all these cases you still have to escape things (quotes in particular).

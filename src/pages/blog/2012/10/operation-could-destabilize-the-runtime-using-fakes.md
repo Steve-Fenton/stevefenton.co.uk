@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 A while ago I wrote about [Fakes, Stubs and Shims in Visual Studio](/2012/07/Fakes-Stubs-And-Shims-In-Visual-Studio-2012/) and I have been chewing my own dog food by using them, rather than a mocking framework in my recent work.

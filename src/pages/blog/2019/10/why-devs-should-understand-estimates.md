@@ -10,7 +10,7 @@ categories:
     - Process
     - Programming
 tags:
-    - '#noestimates'
+    - 'noestimates'
     - estimates
 ---
 

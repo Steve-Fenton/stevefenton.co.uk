@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/06/original-concept.png
 categories:
     - Process
 tags:
-    - agile
+    - Agile
     - devops
     - operations
 ---

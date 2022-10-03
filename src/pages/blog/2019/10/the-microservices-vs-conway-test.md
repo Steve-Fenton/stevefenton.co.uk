@@ -9,7 +9,7 @@ image: /wp-content/uploads/2019/10/complexity.jpg
 categories:
     - Programming
 tags:
-    - architecture
+    - Architecture
     - complexity
     - conway
 ---

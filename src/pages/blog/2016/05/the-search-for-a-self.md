@@ -9,8 +9,8 @@ categories:
     - Programming
     - Psychology
 tags:
-    - anthropomorphic
-    - brain
+    - Anthropomorphic
+    - Brain
     - rattomorphic
     - reason
 ---

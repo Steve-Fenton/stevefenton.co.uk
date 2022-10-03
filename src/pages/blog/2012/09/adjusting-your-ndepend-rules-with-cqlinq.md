@@ -13,7 +13,7 @@ categories:
     - 'Visual Studio'
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - 'code analysis'
     - cqlinq
     - ndepend

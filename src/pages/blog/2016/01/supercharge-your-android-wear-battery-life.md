@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - android
+    - Android
     - wearable
 ---
 

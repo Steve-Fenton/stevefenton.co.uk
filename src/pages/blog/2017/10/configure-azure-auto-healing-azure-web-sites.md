@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Automation
 tags:
-    - azure
+    - Azure
     - monitoring
     - operations
 ---

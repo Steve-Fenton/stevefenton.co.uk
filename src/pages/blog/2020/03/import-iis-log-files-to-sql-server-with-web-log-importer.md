@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - core
     - iis
     - 'web log importer'

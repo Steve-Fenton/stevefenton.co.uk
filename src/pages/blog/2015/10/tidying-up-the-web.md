@@ -9,7 +9,7 @@ categories:
     - Opinion
     - Psychology
 tags:
-    - attention
+    - Attention
     - presence
     - 'social media'
 ---

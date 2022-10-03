@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
     - typescript
 ---
 

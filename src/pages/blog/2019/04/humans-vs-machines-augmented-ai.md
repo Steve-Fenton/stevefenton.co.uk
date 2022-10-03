@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - 'artificial intelligence'
-    - 'augmented intelligence'
+    - 'Artificial Intelligence'
+    - 'Augmented Intelligence'
     - 'machine learning'
 ---
 

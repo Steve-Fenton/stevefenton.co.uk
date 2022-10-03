@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - asp.net
-    - bundling
+    - ASP.NET
+    - Bundling
     - css
     - javascript
     - mvc

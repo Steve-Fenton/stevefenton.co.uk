@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 Visual Studio 2012 has a really cool new feature called Fakes. It gives you two things for free, it gives you stubs and shims with minimal code needed to use them.

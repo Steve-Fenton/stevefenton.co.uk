@@ -8,7 +8,7 @@ authors:
 categories:
     - Azure
 tags:
-    - 'azure app service'
+    - 'Azure App Service'
     - 'logic apps'
 ---
 

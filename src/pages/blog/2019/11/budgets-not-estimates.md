@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
     - estimates
     - estimation
 ---

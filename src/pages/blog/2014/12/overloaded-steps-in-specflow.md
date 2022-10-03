@@ -10,7 +10,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - gherkin
     - regex
     - specflow

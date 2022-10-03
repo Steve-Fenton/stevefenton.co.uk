@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - selenium
     - testing
     - webdriver

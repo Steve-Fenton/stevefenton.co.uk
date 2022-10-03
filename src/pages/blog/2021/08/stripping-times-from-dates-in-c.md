@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
 ---
 
 This is a surprisingly common problem in C#, where you need to take a `DateTime` and strip off the “time” bit to leave you with a representation of a day. Currently, you can do it by creating a new `DateTime` and passing only the parts you want to keep, like year, month, and day.

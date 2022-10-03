@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - android
+    - Android
     - html
     - ios
     - javascript

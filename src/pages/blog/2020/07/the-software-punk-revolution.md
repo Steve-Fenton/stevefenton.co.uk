@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Programming
 tags:
-    - architecture
+    - Architecture
     - development
     - 'software punk revolution'
 ---

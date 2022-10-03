@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - builds
-    - 'c#'
+    - Builds
+    - 'csharp'
     - msbuild
 ---
 

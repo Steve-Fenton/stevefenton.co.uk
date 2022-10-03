@@ -9,7 +9,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - bdd
+    - BDD
     - typescript
     - typespec
 ---

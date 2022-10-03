@@ -9,7 +9,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
     - datadog
     - monitoring
 ---

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Opinion
 tags:
-    - books
+    - Books
     - economics
 ---
 

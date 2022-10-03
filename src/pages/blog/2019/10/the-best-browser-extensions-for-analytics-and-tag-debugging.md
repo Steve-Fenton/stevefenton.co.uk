@@ -10,7 +10,7 @@ categories:
     - Analytics
     - Browsers
 tags:
-    - adobe
+    - Adobe
     - debugging
     - google
 ---

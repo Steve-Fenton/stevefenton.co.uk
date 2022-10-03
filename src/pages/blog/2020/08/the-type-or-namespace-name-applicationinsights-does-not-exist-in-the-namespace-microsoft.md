@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - asp.net
-    - 'c#'
+    - ASP.NET
+    - 'csharp'
     - mvc
 ---
 

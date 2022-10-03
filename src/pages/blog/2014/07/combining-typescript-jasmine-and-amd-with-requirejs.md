@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - amd
+    - AMD
     - jasmine
     - requirejs
     - typescript

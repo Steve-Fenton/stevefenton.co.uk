@@ -8,7 +8,7 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - 'c#'
+    - 'csharp'
     - mvc
     - razor
 ---

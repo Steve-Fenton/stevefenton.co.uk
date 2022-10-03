@@ -9,7 +9,7 @@ categories:
     - Opinion
     - Programming
 tags:
-    - approval
+    - Approval
     - decisions
 ---
 

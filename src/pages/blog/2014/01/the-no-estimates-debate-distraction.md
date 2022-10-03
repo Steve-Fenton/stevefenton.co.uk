@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
     - estimates
     - estimation
 ---

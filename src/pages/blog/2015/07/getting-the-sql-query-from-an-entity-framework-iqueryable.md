@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - entityframework
     - linq
 ---

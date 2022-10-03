@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/10/continuous-improvement.png
 categories:
     - Process
 tags:
-    - agile
+    - Agile
 ---
 
 <figure class="wp-block-image">

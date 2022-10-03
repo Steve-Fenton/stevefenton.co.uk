@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - agile
+    - Agile
 ---
 
 This question is rather fascinating, in part because of the misunderstandings that have arisen in respect of the famous George Miller paper about the magical number seven (plus or minus two). [Some people apply the findings of Miller to team size, and they are wrong to do so](/2015/06/the-magical-number-of-misunderstandings/). So, what is the optimal number of members for an agile team?

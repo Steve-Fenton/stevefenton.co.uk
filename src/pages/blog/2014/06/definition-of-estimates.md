@@ -12,7 +12,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
 ---
 
 One of the sticky points in the #NoEstimates debate is the lack of agreement over the definition of *estimates*. This causes logical fallacies to gush forth, flooding the thriving field of debate with its unsanitary waters.

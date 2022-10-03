@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
 ---
 
 The great thing about a straw man is that it burns easily. With this in mind, let’s light up a few #NoEstimates straw men and watch the embers float into the night sky.

@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - audits
-    - 'azure devops'
+    - Audits
+    - 'Azure DevOps'
 ---
 
 Azure DevOps (previous Visual Studio Team Services, Visual Studio Online, and Team Foundation Server) has many great features. We talk about the features all the time; source control, continuous integration, release management, task boards, reports! One of my favourite features is how it helps us to pass audits.

@@ -9,7 +9,7 @@ categories:
     - Programming
     - Visual Studio
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 It is pretty common to clean up a project or solution to move the class files into a better organised folder structure. When you do this, the namespaces often end up reflecting their old location, not the better new location you moved them to. The task of manually updating the namespace and then fixing all of the callers to update using statements was a bit of a pain.

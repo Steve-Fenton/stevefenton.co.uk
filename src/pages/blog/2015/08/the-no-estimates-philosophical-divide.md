@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
 ---
 
 > The key arguments on #NoEstimates reflect a split between social responsibility and corporate responsibility. They are not mutually exclusive.

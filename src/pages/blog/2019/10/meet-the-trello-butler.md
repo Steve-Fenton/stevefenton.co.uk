@@ -9,7 +9,7 @@ image: /wp-content/uploads/2019/10/trello-butler-workflow-automation.jpg
 categories:
     - Automation
 tags:
-    - butler
+    - Butler
     - trello
 ---
 

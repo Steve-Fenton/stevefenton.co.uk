@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Process
 tags:
-    - '#noestimates'
+    - 'noestimates'
     - 'product management'
 ---
 

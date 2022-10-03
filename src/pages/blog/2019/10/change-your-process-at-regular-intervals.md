@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - agile
+    - Agile
     - lean
 ---
 

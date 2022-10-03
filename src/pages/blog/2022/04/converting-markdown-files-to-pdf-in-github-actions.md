@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/04/github-action-complete.jpg
 categories:
     - Programming
 tags:
-    - actions
+    - Actions
     - github
 ---
 

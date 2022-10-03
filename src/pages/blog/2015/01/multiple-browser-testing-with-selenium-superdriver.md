@@ -11,7 +11,7 @@ categories:
     - Browsers
 tags:
     - .net
-    - 'c#'
+    - 'csharp'
     - selenium
     - webdriver
 ---

@@ -10,7 +10,7 @@ bannerImage:
 categories:
     - Process
 tags:
-    - bizops
+    - BizOps
     - dite
 ---
 

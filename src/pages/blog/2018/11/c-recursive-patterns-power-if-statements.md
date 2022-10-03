@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - 'c#'
+    - 'csharp'
 ---
 
 One of the new features in C# 8.0 is Recursive Patterns, or *Power If Statements*. The easiest way to explain this new feature is to unpack the example from the [Building C# 8.0 article](https://blogs.msdn.microsoft.com/dotnet/2018/11/12/building-c-8-0/).

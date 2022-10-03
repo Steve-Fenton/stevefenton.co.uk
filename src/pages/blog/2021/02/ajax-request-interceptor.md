@@ -9,7 +9,7 @@ image: /wp-content/uploads/2021/02/angel-interceptor.jpg
 categories:
     - Programming
 tags:
-    - ajax
+    - Ajax
     - javascript
 ---
 
