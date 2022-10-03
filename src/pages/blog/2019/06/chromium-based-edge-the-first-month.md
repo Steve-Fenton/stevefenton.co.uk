@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Chromium-based Edge: The first month'
+navMenu: false
 pubDate: 2019-06-01T15:58:39+01:00
 authors:
     - steve-fenton
@@ -15,7 +15,7 @@ tags:
 
 Full disclosure. I’m about to discuss Microsoft browsers and I’m a Microsoft MVP. More importantly, I’ve been using web browsers since before either Firefox or Chrome existed, and for ten years I haven’t used a Microsoft browser as my default. So, read on and let’s talk about browsers!
 
-### Browser history
+## Browser history
 
 If I go back a few years, maybe a couple more, and another ten… my development set-up consisted of Microsoft Frontpage and Internet Explorer 5. At the time, this was a killer set up. The most common problem at the time was people trying to use new websites that used frames… but they didn’t work in Internet Explorer 4. Thank goodness we don’t have problems like that these days.
 
@@ -25,7 +25,7 @@ Seriously.
 
 The reason everyone thinks IE6 was bad was because they were looking at it ten years too late to be impressed. They didn’t appreciate how it transformed The Web. At that’s kinda the problem. Internet Explorer as a browser seemed to get stuck in 2001 and over the course of eighteen years the brand not only lost that sheen of brilliance, it became actively hated. A sad end to what, in 2001, was the greatest browser in the world.
 
-### False starts
+## False starts
 
 In acknowledgement of this fall from grace, Microsoft have re-launched Internet Explorer a couple of time, then launched its successor, Edge. Over the course of many attempts, they never seemed to land it. They had some great features throughout that flurry of reinventions. At one point we all gathered around the new version of Internet Explorer to test out its claims about having the fastest rendering available. We tested it against all the current browsers at the time and it was true… it was blazing fast. When we returned to our desks, though, we opened up Firefox and got on with our jobs.
 
@@ -35,7 +35,7 @@ This is essentially why each Microsoft browser release has been set to my defaul
 
 Except for this developer-build of Microsoft Edge running Chromium.
 
-### In-Chredge-able
+## In-Chredge-able
 
 It’s been a month now and I’m using all day long. At work and at home. It’s become my default, sync’d across devices, de-facto browser… even on my phone. I just like it. I can delve into the developer tools and pick apart web pages just like I can elsewhere. I can sync my bookmarks across devices. Every website I visit just works. It’s such a good browser, I don’t even know I’m using it.
 

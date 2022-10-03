@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Use PowerShell to count the number of elements in XML files'
+navMenu: false
 pubDate: 2019-03-12T07:30:24+00:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ The element I’m looking for is in the `$element_xpath` variable. The example b
 
 xml-element-counter.ps1
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 $element_xpath = "//picture"
 
 $total = 0
@@ -32,12 +31,12 @@ Get-ChildItem -Recurse -Filter "*.xml" | % {
 Write-Host "---------------------"
 Write-Host Total $total.ToString("n0")
 ```
+
 This outputs a list of files with the count per file, with a total at the end of the list.
 
 For example, running `.\xml-element-counter.ps1` will output:
 
-```
-<pre class="prettyprint">
+```powershell
 320 elements in a.xml
 111 elements in b.xml
 0 elements in c.xml
@@ -54,4 +53,5 @@ For example, running `.\xml-element-counter.ps1` will output:
 ---------------------
 Total 13,560
 ```
+
 So there were 13,560 elements found in all those XML files.

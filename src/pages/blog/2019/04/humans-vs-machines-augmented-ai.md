@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Humans vs Machines: Augmented AI'
+navMenu: false
 pubDate: 2019-04-29T21:10:46+01:00
 authors:
     - steve-fenton
@@ -25,18 +25,16 @@ The human does less grind, the machine gets to leverage intelligence it doesn’
 
 If you imagine a Venn diagram showing what humans and machines are good at, it probably intersects a fair bit; so there is stuff in the middle. It will be easy to select tasks at the edges and harder in the middle; but the middle is less important.
 
-![Augmented Intelligence](/img/2019/04/augmented-ai.jpg)
+:img{src="/img/2019/04/augmented-ai.jpg" alt="Augmented Intelligence" loading="lazy"}
 
 So, just as we found in testing that “following defined steps and ticking off an expected outcome” is great machine space and “thinking creatively to explore limitations” is great human space, so we will find for AI.
 
 I’m working through some real numbers from a case study and I can support this opinion with the following comparison of accuracy.
 
-Machine Only: 92%
+- Machine Only: 92%
+- Human Only: 96%
+- Augmented Intelligence: 99.5%
 
-Human Only: 96%
-
-Augmented Intelligence: 99.5%
-
-As I’m stating in an additional essay for *The Humans are Dead*:
+As I’m saying in an additional essay for *The Humans are Dead*:
 
 > In other words, when interpreting 1,000,000 samples, the cost of mis-applying humans to routine tasks is 35,000 mistakes and the cost of mis-applying machines to eccentric tasks is 75,000 mistakes.

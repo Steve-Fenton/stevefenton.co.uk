@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Behind the BizOps buzz: Metric MLA'
+navMenu: false
 pubDate: 2019-04-02T07:50:21+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2019/04/conversions-per-week.jpg
+bannerImage:
+    src: /i/x/2019/04/conversions-per-week.jpg
+    alt: Percentage change over time
 categories:
     - Analytics
 tags:
@@ -16,9 +18,9 @@ We all know that BizOps is gaining momemntum and that we need to think about how
 
 I’m not going to talk much about scientific method or experiment design here. When you are ready for those you’ll find plenty of sources of that information. What I want to present is a few stages that I have found useful in setting up DevOps dashboards, monitoring, and alerting that I found were useful once again when setting up business-focussed dashboards, monitoring, and alerting. In other words – there are some principles that are well developed for technical decision making that apply equally to business decision making.
 
-![Conversions Per Week](/img/2019/04/conversions-per-week.jpg)
+:img{src="/img/2019/04/conversions-per-week.jpg" alt="Conversions Per Week" loading="lazy"}
 
-### Data
+## Data
 
 This applies to digital and physical products, but I’ll use a simple website example. Imagine you have a brochure site that you intended to use to convince potential customers that you have an awesome product – and you want to generate telephone calls into your sales team.
 
@@ -28,11 +30,11 @@ You’ll need to follow the three steps below to get yourself some BizOps data:
 - **Accuracy**: how accuracte will it be?
 - **Lifetime**: how long should you measure it?
 
-### Metric
+## Metric
 
 We know that we want to measure how many phone calls we get, but that’s probably not enough. Usually we’ll want to compare it to something, such as unique visitors, so we can eliminate some of the noise created by ebbs and flow in traffic and so we can isolate the effects of improvements to the website verses advertising. So we’ll need to make sure we are collecting, for example, phone call clicks *and* unique visitors.
 
-### Lifetime
+## Lifetime
 
 It can be tempting, once you start collecting data, to collect it forever. While this is valid in some cases, it can be damaging in others. Metrics tend to be a proxy for something the organisation values. For example, it can be hard to track how much your website is impacting your financial performance – so you take a metric like “contact form submissions” and you measure those. The assumption is “the more contact form submissions we get, the more likely we are to be making money”. This tends to evolve along the following lines:
 
@@ -48,7 +50,7 @@ Another consideration that should encourage you to retrire metrics is this. You 
 
 The metrics to keep are those that best represent your success as an organisation. When you track a proxy metric, you should set up a regular cycle to review and retire metrics before they cause damage.
 
-### Accuracy
+## Accuracy
 
 Now we come to accuracy. There are some trade-offs to be made here. If we show the phone number in a large clickable header, we will measure some clicks – but we’ll also be obvlious to other interactions. Many users will read the number from their screen and type it into their phone. That means you are accidentally segmenting your metric to “users on a device with click-to-call capability, who realise the link is clickable, and prefer to click to dial”. It is possible that this segment of users is indicative of all users. You might not be any more or less likely to call based on being outside of this segment. However, it is highly likely that there is a big difference to be found here. Let’s look at two versions on a case study…
 
@@ -62,6 +64,6 @@ This is all down to accuracy. Displaying the standard phone number as a clickabl
 
 Importantly, once you set a level of accuracy you need to maintain it. For example, if you track telephone number conversions using a low-accuracy method – you can’t later compare a high-accuracy method against it. You’d be comparing “3% when we could only track click interactions” with “6% when we can track every dial”, which looks like an improvement in results when it is, in fact, only an improvement in tracking. If you change the accuracy, you should create a new name for the metric to avoid bad comparisons. For example, “TelephoneClicks” vs “ActualTelephoneCalls” in this case.
 
-### Summary
+## Summary
 
 When you are choosing your BizOps metrics, you need to make sure the numbers will be a good proxy for the real change you want to see. In all of the above examples we have assumed telephone calls is a good proxy for the success of Gubbintech. It may not be. In fact, more telephone calls might be a bad thing as it could increase the cost to service a customer. The question is whether we can get our hands on a better metric, such as actual sales volumes and values. It is important to consider the accuracy when you create the metric, but also if you change how you collect it. Create a new name for a metric if you significantly alter its scope or accuracy. Finally, don’t keep recording metrics that no longer represent the aspirations of your organisation or when a more suitable metric has supplanted it.

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Capturing telephone and mail link clicks in Google Analytics'
+navMenu: false
 pubDate: 2019-02-20T12:31:54+00:00
 authors:
     - steve-fenton
@@ -16,8 +16,7 @@ There are a great many posts on the subject of capturing events for telephone or
 
 I’m using jQuery in this example, because that’s what is in use on the website I’m working with. jQuery has an event handling mechanism that already knows how to deal with async content – it’s just people don’t seem to use it. In place of `$('selector').click`, you just use the `$(document).on('click', 'selector'` event binding.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 $(document).on('click', '[href*="tel:"], [href*="mailto:"]', function(e) {
     e.preventDefault();
     var href = $(this).attr('href');
@@ -44,4 +43,5 @@ $(document).on('click', '[href*="tel:"], [href*="mailto:"]', function(e) {
     }, 500);
 });
 ```
+
 This should send your mail and call events for you to enjoy!

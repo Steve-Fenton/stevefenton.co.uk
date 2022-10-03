@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: '5 DbUp tips from Paul Stovell'
+navMenu: false
 pubDate: 2019-02-20T22:17:03+00:00
 authors:
     - steve-fenton
@@ -16,7 +16,7 @@ tags:
 
 I tuned into the [Octopus Deploy](https://octopus.com/) and [Clear Measure](https://www.clear-measure.com/) live stream on [safe, automated, and drama-free database deployments](https://youtu.be/RAl8rIj9MB8) and there was a flurry of really useful [DbUp](https://dbup.readthedocs.io/en/latest/) tips from Paul Stovell that I wanted to share.
 
-### Use a sequential naming scheme
+## Use a sequential naming scheme
 
 Use a numbered naming scheme to ensure scripts are sequential on the file system. It creates an understandable order for the scripts that will be used by DbUp. Your naming convention should add a meaningful name to the numbering; this helps humans – but also solves any branching/merging issues you might hit. If people create “Script001” in two branches, it’s okay to end up with:
 
@@ -28,13 +28,13 @@ Jeffrey Palermo suggested using a timestamp as the number, which means you don�
 - 20190220203000-AddCustomerTable.sql
 - 20190220203012-AddProductTitleTagIndex.sql
 
-### All scripts should be idempotent
+## All scripts should be idempotent
 
 Who doesn’t like an opportunity to roll out those architectural happy words “idempotency” or “indirection”. Well, your database scripts will be run once by DbUp because it keeps a track of the scripts in a tracking table. However, your scripts should still be idempotent.
 
 This just means you ought to wrap a little “if my column doesn’t exist, add my column” checks to your scripts.
 
-### Never change or delete a script
+## Never change or delete a script
 
 Don’t change a script! If DbUp has run a script, it won’t run it again, which means your change won’t make it into a mature environment. Even worse – if you run DbUp against an empty database you’ll end up with something different to your mature environments. Yikes! If you change your mind about a script, write another to roll the database forward into the desired state.
 
@@ -51,17 +51,17 @@ Now each folder just has a months-worth of changes.
 
 Important note! Don’t go back and add/change the folder structure. Moving a script into a new folder basically tells DbUp to run it again because it looks like a new script.
 
-### Use DbUp everywhere
+## Use DbUp everywhere
 
 When you are using DbUp, you should use it to create your database everywhere. Don’t have multiple ways to do it. When a developer wants a local database they should use DbUp. Your test environment should use DbUp. Your live environment… well – you get the idea.
 
-### Don’t accept suggestions into production
+## Don’t accept suggestions into production
 
 SQL Management Studio, the Database Tuning Wizard, and even Azure SQL will suggest changes to your database. It is tempting to accept these hits and suggestions, but resist! Take the scripts that these tools generate and put them into DbUp.
 
 If you accept these suggestions without putting them through DbUp, you’ll end up with strange differences, perhaps a slow test environment that is missing an index that you only have in production.
 
-### Summary
+## Summary
 
 So that’s a strong list of suggestions from someone who knows quite a lot about both DbUp and deployments in general!
 

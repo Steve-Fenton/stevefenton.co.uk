@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: Analytics are lossy and that's okay
+navMenu: false
 pubDate: 2019-06-12T07:50:13+01:00
 authors:
     - steve-fenton
@@ -11,7 +11,7 @@ categories:
 
 This is the latest in my flurry of articles on [analytics](/category/analytics/), which have all come from various questions and misconceptions about what analytics are, what they are for, and how they work. Today, I’m going to explain that analytics are lossy, what that means, and why it’s okay. Let’s define what we mean by “lossy”.
 
-### Lossy
+## Lossy
 
 The term lossy comes from the world of compression. When you compress an image of a cat using lossy-compression, it will lose some fidelity. You can still tell it’s a cat, it’s just not as perfect as it once was. You can also compress your feline pictures using lossless compression, which means you preserve the fidelity. So, lossy just means it loses some detail.
 
@@ -19,9 +19,9 @@ Analytics is lossy. There are a whole host of reasons the transmission of analyt
 
 Importantly, many of the factors that will prevent your analytics from making it into your monthly report are outside of your control. Breath deeply. There is no analytics platform that will give you guaranteed delivery of analytics data, and you wouldn’t want to use any platform that did… because the provider misunderstands the purpose of analytics.
 
-![Analytics are Lossy](/img/2019/06/analytics-are-lossy.jpg)
+:img{src="/img/2019/06/analytics-are-lossy.jpg" alt="Analytics are Lossy" loading="lazy"}
 
-### Lossy analytics in practice
+## Lossy analytics in practice
 
 Let’s take an example of a contact form on your website. When someone submits the form, you want to guarantee that the message reaches its destination, so you ensure the message is placed on a reliable queue before you confirm receipt to the user. The user will wait for 1,000 milliseconds to get this confirmation because they also want to guarantee the message will be delivered. There is an overhead in terms of architecture, cost, and time in this process.
 
@@ -35,7 +35,7 @@ So, a better option is to add an event to the “success” of the form submissi
 
 If you collect analytics across multiple platforms, you’ll find that their numbers don’t match… but, once again, the trends will align. This isn’t the only reason the numbers won’t match, because things like “unique visitor” and “visit” are all counted in subtly unique ways by each provider anyway.
 
-### Big numbers
+## Big numbers
 
 When you analyse your conversion rate across hundreds-of-thousands of visits, it doesn’t matter if a visit isn’t counted occasionally, or a conversion isn’t counted occasionally. The exact number at any single point in time is unimportant, you want to see the trends over longer periods of time. Let’s throw together a quick metaphor.
 

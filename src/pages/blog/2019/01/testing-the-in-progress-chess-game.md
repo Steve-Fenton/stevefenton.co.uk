@@ -1,11 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Testing the in-progress Chess game'
+navMenu: false
 pubDate: 2019-01-27T18:29:46+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2015/07/self-organising-pawn.jpg
+bannerImage:
+    src: /i/x/2015/07/self-organising-pawn.jpg
+    alt: An angry looking chess pawn
 categories:
     - Process
 tags:
@@ -14,7 +16,7 @@ tags:
 
 Last October, I was asked why releases of a legacy system were so hit and miss. There were a couple of reasons for the flaky releases, which I have summarised below. When you judge the quality of the metaphors, please bear in mind that these were invented off-the-cuff.
 
-### Configuration
+## Configuration
 
 The first reason releases were unreliable was configuration. The software was in use by a large number of organisations who had never conformed to a recommended way of using the system. To win customers, a succession of configurable rules and toggles had been introduced from simple enable/disable flags to dynamic module loading (with many “this value will be used in conditional statements throughout the system” items in between).
 
@@ -26,9 +28,9 @@ Generating the number of combinations would have allowed me to be technically co
 
 By exploring this thought exercise, it soon became apparent that we had created a system that could rival atoms in the universe, just like possible chess games. When your system is ultimately configurable, you can’t expect to test every combination using humans. You can’t expect to test every known customer configuration with humans. You can potentially solve it with automation, but a preferable solution is to start converging on a smaller number of in-use configurations.
 
-![](/img/2015/07/self-organising-pawn.jpg)
+:img{src="/img/2015/07/self-organising-pawn.jpg" alt="An angry looking self-organising chess pawn" loading="lazy"}
 
-### Work in process and release frequency
+## Work in process and release frequency
 
 The second reason the releases were rather touch-and-go was the usual reason. Too much work was being done in parallel. Too much work was being collected together into large releases. Too little attention was being paid to integration. The result was a long period of preparation for the release, with one programmer being assigned the laborious task of merging all of the branches that had sprung up since the last release. Another programmer was given the unenviable task of converting myriad database scripts into a correctly-ordered and reversible release script.
 
@@ -36,7 +38,7 @@ We reduced the amount of risk in each release by lowering the work-in-process li
 
 If you want more detail on the changes, maybe you haven’t read Accelerate by Nicole Forsgren with Jez Humble and Gene Kim. I recommend this book as it correlates specific practices with organisational success. You can then source more detailed books on any of the practices you aren’t familiar with. Some of them are [listed in my section on great books](/about-me/recommended-reading/).
 
-### Stupid metaphors
+## Stupid metaphors
 
 So, my chess metaphor probably contains quite a few holes; but it worked. Why do I always reach for some comparable real-world example rather than just presenting the facts?
 
