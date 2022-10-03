@@ -3,7 +3,7 @@ export const SITE = {
 	title: 'Steve Fenton',
 	description: 'My website, tech blog, and other information.',
 	defaultLanguage: 'en',
-	themeColor: '#336699',
+	themeColor: '#222255',
 	owner: 'Steve Fenton',
 	default: {
 		lang: 'en',
@@ -67,6 +67,8 @@ export type Frontmatter = {
 	keywords: string;
 	description: string;
 	pubDate: Date;
+	categories?: string[];
+	tags?: string[];
 	id?: string;
 	authors?: string[];
 	navTitle?: string;

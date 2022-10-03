@@ -24,10 +24,11 @@
 
     --fore-link: #336699;
     --fore-link-alt: #3366CC;
-    --aft-link-alt: unset;
+    --aft-link-alt: #E3E3E6;
 
     --fore-head: #EFEFEF;
     --aft-head: #225;
+    --fore-link-head: #EFEFEF;
 
     --fore-breadcrumb: #333;
     --aft-breadcrumb: #E3E3E6;
@@ -57,6 +58,7 @@
     --paragraph-margin: 1.2rem;
 
     --box-shadow: 0 12px 24px -12px rgb(0 0 0 / 50%);
+    --box-shadow-slight: 0 6px 12px -6px rgb(0 0 0 / 40%);
 
     --navigation-width: 300px;
     --grid-gap: 1rem;

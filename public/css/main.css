@@ -33,6 +33,7 @@ a, summary {
     color: var(--fore-link);
     text-decoration: underline;
     cursor: pointer;
+    border-radius: var(--block-radius);
 }
 
 a:hover,
@@ -219,7 +220,7 @@ nav.skip-links a:focus {
 }
 
 .site-breadcrumbs li {
-    display: inline-block;
+    display: inline;
     padding: 0.2em;
 }
 
@@ -363,7 +364,7 @@ nav.site-nav h2 {
     max-width: var(--grid-max-width);
     width: var(--grid-width);
     margin: var(--block-gap) auto var(--block-gap) auto;
-    min-height: 75vh;
+    min-height: calc(100vh - 280px);
 }
 
 @media (max-width: 860px) {
@@ -567,6 +568,33 @@ form.site-search button {
     display: block;
 }
 
+.post-taxonomy ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.post-taxonomy li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.post-taxonomy a {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background-color: var(--aft-head);
+    color: var(--fore-link-head);
+    border-radius: var(--block-radius);
+    box-shadow: var(--box-shadow-slight);
+}
+
+.post-taxonomy a:hover,
+.post-taxonomy a:focus {
+    background-color: var(--fore-link-alt);
+    color: var(--aft-link-alt);
+    box-shadow: var(--box-shadow);
+}
+
 /* Authors */
 
 .author-image {
@@ -620,11 +648,20 @@ pre.astro-code code {
     width: 100%;
 }
 
+.inset {
+    margin: 1rem auto;
+    width: 66%;
+}
+
 /* Animation */
 
 @media (prefers-reduced-motion: no-preference) {
     body, html {
         scroll-behavior: smooth;
+    }
+
+    a {
+        transition: all 200ms ease-in-out;
     }
 
     .post-list .list-item, main img, main blockquote, main .note {
