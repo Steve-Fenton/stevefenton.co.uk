@@ -9,7 +9,7 @@ categories:
     - Opinion
 tags:
     - Android
-    - wearable
+    - Wearable
 ---
 
 ![Android Wear Battery Life](/img/2016/01/android-wear-battery-status.png)

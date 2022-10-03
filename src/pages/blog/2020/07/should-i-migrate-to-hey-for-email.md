@@ -8,8 +8,8 @@ authors:
 categories:
     - Opinion
 tags:
-    - email
-    - hey
+    - Email
+    - Hey
 ---
 
 Having signed up the wait list for [Hey](https://hey.com/), I received my invite and subsequently undertook a two-week trial. What happened next has changed how I interact with email forever. Although I may be repeating information that is already out there, I’m going to focus on a small number of features that let you change your relationship with email.

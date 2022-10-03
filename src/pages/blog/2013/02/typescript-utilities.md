@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 One thing I have found when using TypeScript is that it is a great deal easier to re-use scripts across many projects. Even though I wrote the famous “idiomatic JavaScript” previously, one thing that just wasn’t clear was dependencies.

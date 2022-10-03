@@ -11,7 +11,7 @@ categories:
     - Browsers
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 There is a rather neat addition to the console in Chrome that lets you log an array of objects using the new console.table method. You can simply pass some data, or you can pass a list of columns you are interested in – like this:

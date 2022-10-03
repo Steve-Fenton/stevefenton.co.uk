@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - AMD
-    - typescript
+    - TypeScript
 ---
 
 This TypeScript feature doesn’t have much official text surrounding it, but it does (currently) work (and to be honest is so useful it would be a shame if were to be removed).

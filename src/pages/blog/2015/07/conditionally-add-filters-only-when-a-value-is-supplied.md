@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 If you are converting a series of optional filters in a UI into an IQueryable, you’ll find yourself writing a lot of if-statements to only add a filter if a value is supplied.

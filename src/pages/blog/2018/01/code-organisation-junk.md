@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - java
-    - typescript
+    - C-Sharp
+    - Java
+    - TypeScript
 ---
 
 Code organisation feels like hard work at times; but there are some mental tricks you can apply to help break the inertia. This article contains a couple of ideas that will help you get moving when you don’t know where to start. I’m not going to go through the steps you need to take to refactor your code, I’m only going to share some tricks I use to decide what needs to move.

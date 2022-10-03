@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - data
-    - sql
+    - Data
+    - SQL
 ---
 
 Sometimes you want to generate an INSERT script from existing data, perhaps with one or two values tweaked. It’s a pain to hand-crank the INSERT when you can see exactly what you want using a SELECT statement. It’s also a bit long-winded to use SQL import/export wizards or other tools. Sometimes, you just want to convert a SQL SELECT into an INSERT script. Here’s how.

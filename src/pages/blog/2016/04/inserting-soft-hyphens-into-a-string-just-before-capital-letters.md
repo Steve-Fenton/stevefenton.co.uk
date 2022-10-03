@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - regex
+    - C-Sharp
+    - RegEx
 ---
 
 I am currently working on a open source project that involves the display of lots of .NET file names within flexible tiles (the tiles are sized based on the display). It is a pretty common scenario to have reasonably long file names that won’t fit nicely on a tile.

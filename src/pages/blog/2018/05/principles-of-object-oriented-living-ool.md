@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/05/principles-of-light-and-colour.jpg
 categories:
     - Opinion
 tags:
-    - OOL
+    - OOP
 ---
 
 ![Principles of Light and Colour](/wp-content/uploads/2018/05/principles-of-light-and-colour.jpg)

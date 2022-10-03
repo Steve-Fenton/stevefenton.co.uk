@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 This pie chart example is based on an [article posted yesterday on the Google Testing Blog](https://testing.googleblog.com/2017/05/oss-fuzz-five-months-later-and.html), a very interesting article but with one mistake.

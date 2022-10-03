@@ -9,7 +9,7 @@ guid: 'https://www.stevefenton.co.uk/?p=11606'
 categories:
     - Process
 tags:
-    - cranked
+    - Cranked
 ---
 
 *Archived from the Cranked Alliance website*

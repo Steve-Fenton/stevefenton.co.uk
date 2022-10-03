@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - javascript
+    - JavaScript
 ---
 
 This is a note-to-future-self as I just threw together a little script to test images on a web page. Specifically, it highlights:

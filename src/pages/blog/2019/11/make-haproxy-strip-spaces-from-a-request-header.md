@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - haproxy
+    - HAProxy
 ---
 
 There is some shared code out in the wild that browser extensions are using to make requests, which might cause problems if you parse the Referer header in your website.

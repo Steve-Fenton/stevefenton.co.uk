@@ -8,7 +8,7 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - 'half-donut chart'
+    - 'Half-Donut Chart'
 ---
 
 It was recently hinted to me that half-donut charts are a better alternative to pie charts. As I really dislike pie charts, I sat down for a while and thought really hard about this. Having approached this chart from a few different perspectives (it seems very attractive when achiving 50% is important) I have realised that these are still just pie charts. The shape of the chart offers no benefit other than implying where the half-way mark is.

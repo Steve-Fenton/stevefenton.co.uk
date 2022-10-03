@@ -9,7 +9,7 @@ categories:
     - Browsers
     - Programming
 tags:
-    - extensions
+    - Extensions
 ---
 
 Once upon a time we used to write *scriptlets*, or *bookmarklets*, that would run a little script on a page. That’s all old-school now and the new way to do many different kinds of *thing* is to write a browser extension. I’ve never done this before, so I spent five dollars to create a developer account and converted my [Octodash bookmarklet](/2016/05/highlight-versions-on-octopus-deploy-dashboard/) to be a proper extension (it highlights software version numbers on an Octopus Deploy dashboard).

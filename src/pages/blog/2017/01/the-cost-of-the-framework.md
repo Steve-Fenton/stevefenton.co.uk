@@ -9,8 +9,8 @@ categories:
     - Opinion
     - Programming
 tags:
-    - framework
-    - toolkit
+    - Frameworks
+    - Toolkit
 ---
 
 Frameworks and toolkits are great, because you get to do something complex in a very simple way – and that saves time. I use them – a lot. But I also understand the cost.

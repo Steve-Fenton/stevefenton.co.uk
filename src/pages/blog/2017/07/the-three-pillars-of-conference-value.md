@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - conference
+    - Conference
 ---
 
 The development of your career is, of course, entirely up to you. You need to go out and learn things that are valuable in the marketplace whatever you intend to do in the next few years. The alternative is to give up learning and rust away to nothing.

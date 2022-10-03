@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 We are using live monitoring of our website pages, and of our website components, to find performance problems in our application. This means we know why our web application is slow as soon as anything breaches a threshold. Very often, we find something that is draining too much CPU from our servers.

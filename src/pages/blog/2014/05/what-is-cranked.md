@@ -10,7 +10,7 @@ image: /wp-content/uploads/2021/07/crank-mechanism.png
 categories:
     - Process
 tags:
-    - cranked
+    - Cranked
 ---
 
 *Article archived here from the Cranked Alliance website.*

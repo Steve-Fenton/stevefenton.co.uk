@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - types
+    - Types
 ---
 
 The key difference between *type coercion* and *type conversion* is that type coercion is always *implicit*, whereas type conversion can be either implicit or explicit.

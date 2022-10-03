@@ -8,7 +8,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - 'google analytics'
+    - 'Google Analytics'
 ---
 
 There are a couple of settings you can use in Google Analytics to help your users keep their data private. One of the issues currently affecting Google Analytics is the transfer of data to the US, where there are laws that permit state actors access to the information in ways that are not legal in respect of EU citizens. A recent court case in Austria made the headlines because the data being transferred was sufficient to identify an individual.

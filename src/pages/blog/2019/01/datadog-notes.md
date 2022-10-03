@@ -8,9 +8,9 @@ authors:
 categories:
     - Automation
 tags:
-    - datadog
-    - devops
-    - monitoring
+    - Datadog
+    - DevOps
+    - Monitoring
 ---
 
 When you think about Datadog, you are very often thinking about charts. Which visualisations will bring forth insights from your metrics. What actionable information can you present on your wallboards. What you might not be thinking about is the humble subject of Datadog notes.

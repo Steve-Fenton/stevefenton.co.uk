@@ -14,8 +14,8 @@ categories:
     - Process
 tags:
     - 'noestimates'
-    - estimates
-    - estimation
+    - Estimates
+    - Estimation
 ---
 
 The #NoEstimates debate seems unavoidable, but I’m worried that we’re all being distracted by it. [Neil Killick has written some quality articles on #NoEstimates](http://neilkillick.com/2013/01/31/noestimates-part-1-doing-scrum-without-estimates/) and I thoroughly recommend that you read them as there are some interesting thoughts on removing estimates, ditching velocity and delivering some actual value.

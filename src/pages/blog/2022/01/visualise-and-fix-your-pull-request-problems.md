@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'pull requests'
+    - 'Pull Requests'
 ---
 
 I have re-written this so many times, it has reached the stage where I just need to bluntly provide the information with less storytelling than I might like.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - devops
-    - xp
+    - DevOps
+    - XP
 ---
 
 I created this Extreme Programming practices diagram to try and represented Kent Beck’s hand-sketched diagram as honestly as possible with a bit more structure. Hopefully this is a useful version that can help you visualise all the interactions between practices that were observed by Kent, which he wrote about in Extreme Programming Explained (definitely worth a read).

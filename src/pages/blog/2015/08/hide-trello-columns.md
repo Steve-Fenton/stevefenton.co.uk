@@ -10,9 +10,9 @@ medium_post:
 categories:
     - Process
 tags:
-    - javascript
-    - jquery
-    - trello
+    - JavaScript
+    - jQuery
+    - Trello
 ---
 
 If you have seen the average Trello board that has evolved over any length of time, you will have noticed they can suffer a little from column explosion.

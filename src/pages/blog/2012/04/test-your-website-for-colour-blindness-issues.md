@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - usability
+    - Usability
 ---
 
 Color Oracle is a cool tool for Windows, Mac and Linux that simulates colour-blindness. It means you can actually test your designs for various visual impairments to make sure that your colour scheme doesn’t leave certain information invisible to anyone. You simply run Color Oracle and select one of the simulations to see an instant preview of how your design will look based on the particular impairment.

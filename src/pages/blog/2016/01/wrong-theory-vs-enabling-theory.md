@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - philosophy
+    - Philosophy
 ---
 
 Whenever we talk about an “old theory” that has been displaced by a newer theory, we often mock those who held the “old theory” because of how wrong they were. We laugh at the geocentric theorists, and we laugh at the heliocentric theorists that displaced the geocentric theorists. We cleverly know that neither the Earth, nor the Sun are the centre of the universe.

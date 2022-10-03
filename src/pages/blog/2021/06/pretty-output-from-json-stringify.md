@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 We all like to log stuff out sometimes and it would be nice if it were as readable as possible when we do. If you are using `JSON.stringify` to drop out some values and are tired of getting a long line of text, here’s a simple way to get pretty printed output without adding any external libraries to prettify it.

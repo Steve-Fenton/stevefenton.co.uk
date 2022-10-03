@@ -10,8 +10,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - javascript
-    - octopus
+    - JavaScript
+    - Octopus
 ---
 
 Some time ago, I wrote a JavaScript bookmarklet that you could use to highlight version numbers in your Octopus Deploy dashboard. This makes it easier to compare versions across your environments.

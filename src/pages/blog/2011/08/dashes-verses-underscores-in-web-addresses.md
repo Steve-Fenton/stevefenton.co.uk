@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Google have confirmed that they treat dashes (-) and underscores (\_) differently when they index your website in preparation of people searching for your awesome content. The difference is subtle, but important. Let’s explore it with a simple example. The example is:

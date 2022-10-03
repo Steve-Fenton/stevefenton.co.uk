@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Continuing my thread of HTML5 form goodies, this article concentrates on some new input elements. In particular, we are going to look at email, web address, search and colour inputs.

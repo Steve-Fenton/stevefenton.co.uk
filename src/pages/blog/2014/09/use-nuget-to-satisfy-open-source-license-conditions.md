@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - nuget
+    - Nuget
 ---
 
 If you haven’t started grabbing useful stuff via NuGet, you’re missing out. It is rare these days to find a .NET project that doesn’t have a bunch of NuGet packages to provide useful features such as JSON parsing or JavaScript frameworks or some other productivity enhancing library. And it is all mostly free and open-source!

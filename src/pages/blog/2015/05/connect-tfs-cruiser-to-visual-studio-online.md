@@ -10,7 +10,7 @@ categories:
     - Automation
     - 'Visual Studio'
 tags:
-    - vsonline
+    - 'Azure DevOps'
 ---
 
 If you have used TFS Cruiser for your on-prem instance of TFS, you may wonder how to adjust it to work with Visual Studio Team Services. It is a pretty simple three-step process.

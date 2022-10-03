@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This is one of those cases where a question keeps cropping up, so lots of people are trying to do something that the TypeScript Compiler doesn’t like very much. Yes, it’s time to talk about the TypeScript Dictarray!

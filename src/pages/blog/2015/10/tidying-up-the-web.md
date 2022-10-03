@@ -10,8 +10,8 @@ categories:
     - Psychology
 tags:
     - Attention
-    - presence
-    - 'social media'
+    - Presence
+    - 'Social Media'
 ---
 
 It is time to tidy up The Web.

@@ -13,7 +13,7 @@ categories:
 tags:
     - .net
     - aop
-    - 'csharp'
+    - C-Sharp
 ---
 
 I’m not going to talk to much about this one, I’m just going to show you an example because in the case of Code Contracts, the actual code speaks for itself.

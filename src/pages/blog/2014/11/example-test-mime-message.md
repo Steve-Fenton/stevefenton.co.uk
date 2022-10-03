@@ -10,8 +10,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - mime
-    - smtp
+    - MIME
+    - SMTP
 ---
 
 If you have ever performed exploratory testing of an SMTP server, you’ll have gotten bored of typing out MIME messages when sending data. If so, you’ll enjoy pasting this example message instead:

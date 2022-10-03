@@ -9,10 +9,10 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
-    - 'web log importer'
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
+    - 'Web Log Importer'
 ---
 
 I am working on an application that accepts request for many different domain names, and sends back different content for each one. This means there is one log file for multiple logical sites, because they all run within the same instance of the web application.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 You rarely come across them in 2021, but there is such a thing as a non-generic `IEnumerable`. They exist in `System.Collections` rather than `System.Collections.Generic`. Since .NET 2 pretty much everyone is full-on using generics as they are the best thing since curly-braces… but occasionally you find one and even more rarely you need to count it.

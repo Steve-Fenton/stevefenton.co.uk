@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 Pipelines are an interesting way to implement your code to prevent complex inter-relationships between components. Having used pipelines on some simple synchronous code, I wanted to see what happens when you try it with async code.

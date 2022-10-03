@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - frameworks
+    - Frameworks
 ---
 
 As part of my ongoing [punk software thought process](/2020/07/the-software-punk-revolution/), I found myself thinking about frameworks. The conclusion of these thoughts was, I suppose, inevitable if you work backwords. What I realised was that *most frameworks solve easy problems*. When you think about frameworks in this way, it becomes clear that though it may take some additional hours in practice, most teams would benefit from writing their own framework to solve these easy problems. They will know their own solution infinitely better than grabbing some external framework, which are full of scenarios that don’t apply and are splattered with opinions that may or may not be valuable to the team.

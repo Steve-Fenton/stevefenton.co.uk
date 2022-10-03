@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - Architecture
-    - development
-    - 'software punk revolution'
+    - Development
+    - 'Software Punk Revolution'
 ---
 
 Let’s be honest. Our planet is churning out supercodemonsters at an alarming rate. These pinnacles of virtuosity are idols to the false gods of development ego. The pattern has always been there, but in the past it was misdirected enthusiasm. On day one you’d learn how to extend prototypes in JavaScript. On day two, everything you needed to do in code seemed to be solved by extending prototypes in JavaScript.

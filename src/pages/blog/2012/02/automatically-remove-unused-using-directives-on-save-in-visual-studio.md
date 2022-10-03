@@ -12,7 +12,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 I like to keep my using directives tidy when I’m using Visual Studio. If you let them accumulate, they add noise to your code, slow down static analysis and they all need to be optimised out when you compile.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Whilst [answering a question on Stack Overflow](http://stackoverflow.com/q/25762823/75525) I realised that TypeScript enumerations may well catch a few people out. In particular, this:

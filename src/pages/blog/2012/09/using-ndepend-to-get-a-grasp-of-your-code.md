@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
+    - C-Sharp
+    - 'Code Analysis'
     - cqlinq
-    - ndepend
+    - NDepend
 ---
 
 Whenever I land in a new team and get given a big chunk of source code to familiarise myself with, I like to crack open NDepend and run a full report. In particular, a quick browse through the Dependency Graph and a brief glance at the Abstractness Verses Instability Graph can tell you a lot about the style the code base has.

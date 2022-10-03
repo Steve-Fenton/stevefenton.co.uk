@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Opinion
 tags:
-    - data
+    - Data
 ---
 
 The UK Government provides public datasets that can be used by the media or the public. One such dataset contains [information collected for the Coronavirus pandemic](https://coronavirus.data.gov.uk/) and its impact on people living and working in the UK. The problem with this dataset, though, is that we weren’t able to record the data until *after* the pandemic had got into full swing. Some examples of factors that defeat those trying to understand the data are below…

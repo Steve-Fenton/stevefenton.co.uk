@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - crawler
-    - katelyn
+    - Crawler
+    - Katelyn
 ---
 
 You can use the [Katelyn Crawler](https://github.com/Steve-Fenton/Katelyn/wiki/Katelyn-UI) to crawl a website looking for references to a particular domain. I have an example below, which will report back not just each instance of the domain, but the actual full URL that was found, but don’t limit your imagination.

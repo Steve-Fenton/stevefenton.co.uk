@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Programming
 tags:
-    - mixins
-    - traits
+    - Mixins
+    - Traits
 ---
 
 Here is a quick disambiguation between Traits vs Mixins for programmers.

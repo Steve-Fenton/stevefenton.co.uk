@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - http
-    - rest
+    - HTTP
+    - ReST
 ---
 
 If you are integrating with an API that requires authorization and you get a HTTP 403 “Forbidden” response, your first instinct may be to start investigating your credentials and authorization methods. Before you do that, though, there is a simpler cause to eliminate from your inquiry.

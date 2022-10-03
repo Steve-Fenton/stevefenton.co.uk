@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - javascript
+    - C-Sharp
+    - JavaScript
 ---
 
 If you are a curly-braces programmer of a certain vintage, you will have done this a great deal in the past.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - typescript
+    - TypeScript
 ---
 
 When Web Essentials dropped TypeScript support to avoid clashing with TypeScript extension improvements, the big feature that people missed was side-by-side editing of TypeScript files, so they could see the JavaScript as they went along.

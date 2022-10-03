@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - kanban
+    - Kanban
 ---
 
 This is a brief report into how the methodologies I use in my day job as a programmer have affected the way I perform household duties. I used to do a lot of housework when I lived on my own and before I actually started writing software for a living and while performing some chores today I realised the profound effect a decade of programming has had on my way of undertaking non-software tasks.

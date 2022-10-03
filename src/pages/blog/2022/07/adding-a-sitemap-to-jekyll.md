@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
+    - Jekyll
 ---
 
 You don’t really need a plugin to add a sitemap to your Jekyll site. You can use this basic template and extend as required.

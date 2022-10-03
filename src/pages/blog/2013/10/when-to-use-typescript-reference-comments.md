@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 It wasn’t that long ago that [I proclaimed the demise of TypeScript reference comments](/2013/08/Say-Goodbye-To-TypeScript-Reference-Comments/), but actually there may be some good reasons to keep hold of your “references.ts” file for a little bit longer.

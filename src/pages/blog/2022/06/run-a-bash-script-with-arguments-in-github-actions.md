@@ -10,7 +10,7 @@ categories:
 tags:
     - Actions
     - Bash
-    - github
+    - GitHub
 ---
 
 This is just a quick not on how to run a bash script with parameters in GitHub actions, and how to use the passed argument in the script.

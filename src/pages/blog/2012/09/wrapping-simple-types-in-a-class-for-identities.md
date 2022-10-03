@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - ddd
+    - C-Sharp
+    - DDD
 ---
 
 This is something I discovered when looking through some code I inherited from someone and I had to investigate it to work out why it existed. You may have already come across something similar, in which case you will know the answer to this question: Which of these is better?

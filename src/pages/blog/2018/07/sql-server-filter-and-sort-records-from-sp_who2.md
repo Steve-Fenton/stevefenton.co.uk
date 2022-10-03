@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 Sometimes you need to filter and sort the records you get from `sp_who2`. You can’t do this directly, but you can use a temporary table to do it.

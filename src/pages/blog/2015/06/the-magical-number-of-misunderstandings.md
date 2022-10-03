@@ -12,7 +12,7 @@ categories:
     - Process
     - Psychology
 tags:
-    - teams
+    - Teams
 ---
 
 I am seeing the magical number seven, plus or minus two, being misapplied to team sizes with increasing regularity. The frequent use of George Miller’s famous paper is often accompanied by a common misunderstanding. Lots of people are saying; “Your team should be between 5 and 9 people”, or “Teams should contain 7 people, plus or minus 2”.

@@ -11,9 +11,9 @@ categories:
     - Programming
 tags:
     - AMD
-    - jasmine
-    - requirejs
-    - typescript
+    - Jasmine
+    - RequireJS
+    - TypeScript
 ---
 
 So TypeScript, Jasmine and RequireJS walk into a bar and the barman says “No specs found”. This isn’t funny. Especially when you are trying to get your tests running!

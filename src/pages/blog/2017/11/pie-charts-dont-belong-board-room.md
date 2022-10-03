@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I have been writing about pie charts since [2009 when I wrote how pie charts are bad](/2009/04/pie-charts-are-bad/) and I haven’t stopped [writing about pie charts](/category/pie-charts/) since then. Rather than a critique of some random pie chart I have seen, or been sent, or been linked to by the Chicago Tribune – I wanted to talk about how pie charts don’t belong in the board room.

@@ -11,8 +11,8 @@ categories:
     - Process
     - Programming
 tags:
-    - cranked
-    - performance
+    - Cranked
+    - Performance
 ---
 
 The phrase “performance is a feature” is not new. If you get it, leave now and go read something new. I am certain nothing I’m about to type is novel.

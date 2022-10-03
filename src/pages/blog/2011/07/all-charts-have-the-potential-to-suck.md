@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I have been known to [give pie charts a bad time](/2009/04/pie-charts-are-bad/) because in a vast majority of cases, they are the wrong choice for displaying the kinds of data they are used for. It isn’t just pie charts that are utterly rubbish though. Any chart has the potential to suck in many ways.

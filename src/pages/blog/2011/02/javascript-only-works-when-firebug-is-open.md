@@ -12,7 +12,7 @@ categories:
     - Browsers
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 **Please Note**: If you are using a modern browser you’ll notice that the console is *always* present – so you’ll never see this problem again! As far as I’m aware, no browser still has a “Heisenberg Console”.

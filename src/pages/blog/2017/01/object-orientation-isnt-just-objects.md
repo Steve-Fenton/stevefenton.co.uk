@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - ood
+    - OOP
 ---
 
 When dealing with object-oriented design, it is all too easy to fixate on the objects themselves. In a way, the objects are highly visible and very tangible.

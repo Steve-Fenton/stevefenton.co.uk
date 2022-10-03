@@ -11,9 +11,9 @@ categories:
     - Browsers
 tags:
     - .net
-    - 'csharp'
-    - selenium
-    - webdriver
+    - C-Sharp
+    - Selenium
+    - WebDriver
 ---
 
 If you have undertaken any amount of testing with Selenium WebDriver you will have come across the desire to run your suite of tests against multiple browsers simultaneously.

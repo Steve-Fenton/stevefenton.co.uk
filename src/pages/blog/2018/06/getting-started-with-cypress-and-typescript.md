@@ -11,9 +11,9 @@ image: /wp-content/uploads/2018/06/cypress-tree.jpg
 categories:
     - Programming
 tags:
-    - cypress
-    - testing
-    - typescript
+    - Cypress
+    - Testing
+    - TypeScript
 ---
 
 ![Cypress Tree](/wp-content/uploads/2018/06/cypress-tree.jpg)

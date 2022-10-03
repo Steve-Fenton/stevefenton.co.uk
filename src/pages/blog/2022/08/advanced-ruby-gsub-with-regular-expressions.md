@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
-    - regex
-    - ruby
+    - Jekyll
+    - RegEx
+    - Ruby
 ---
 
 This post is *really* about the Ruby language `gsub` string method. It does contain a tiny bit of Jekyll hooks, but they are important to me and perhaps not to you. If you just want to know how to extract a match in `gsub` and use it in the output, scroll down to the bottom for the “final revelation”.

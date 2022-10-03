@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 I get asked this a lot. Seriously. Do I need to validate my <abbr title="Hyper-Text Markup Language">HTML</abbr> (or <abbr title="Extensible Hyper-Text Markup Language">XHTML</abbr>).

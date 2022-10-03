@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - firefoxos
-    - javascript
+    - FirefoxOS
+    - JavaScript
 ---
 
 Following up on my post about [Using The Light Sensor API In Firefox](/2012/05/Using-The-Light-Sensor-API-In-Firefox/) and with all the same caveats (new feature, just in one browser so far, specification may change), I thought I would also note down the Proximity Sensor API in Firefox.

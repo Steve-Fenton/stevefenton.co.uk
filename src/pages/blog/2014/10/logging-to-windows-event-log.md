@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 This article is really just one of those snippets of code that you get bored or re-writing again and again! So I have left it here for my future self.

@@ -11,9 +11,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - regex
-    - specflow
+    - C-Sharp
+    - RegEx
+    - SpecFlow
 ---
 
 Here are some useful regular expressions that can improve your SpecFlow step definitions. All of the examples are ready to drop-in to a C# string, so they are pre-escaped for your pleasure (for example, the useful RegEx (\[^\\”\]\*) is listed as “”(\[^\\””\]\*)”” so you can use it in a definition like this:

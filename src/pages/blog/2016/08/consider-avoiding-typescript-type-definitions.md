@@ -9,7 +9,7 @@ categories:
     - Opinion
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Firstly, when you need a type definition for a JavaScript library that you want full type information for, there is [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped). But before you grab a type definition, let’s stop and think for a minute.

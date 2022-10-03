@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Here are some rather tasty TypeScript resources that you should have in your tool-belt when you are raging the TypeScript code.

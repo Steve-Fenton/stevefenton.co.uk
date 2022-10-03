@@ -11,9 +11,9 @@ medium_post:
 categories:
     - Programming
 tags:
-    - css
-    - restclient
-    - stylish
+    - CSS
+    - RestClient
+    - Stylish
 ---
 
 [RESTClient](https://addons.mozilla.org/en-US/firefox/addon/restclient/?src=stevefenton.co.uk) is a useful Firefox extension for sending HTTP REST messages to a service. As well as a useful and simple interface for sending requests, it also lets you store requests to re-use again later. If you are writing REST services, it is a useful tool to have lying around.

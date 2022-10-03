@@ -9,7 +9,7 @@ authors:
 categories:
     - Browsers
 tags:
-    - firefox
+    - Firefox
 ---
 
 I switch my browser proxy settings all the time. I’m always capturing traffic in JMeter or intercepting using Burp Suite or using some other tool that requires an adjustment, so I’m in my browser settings tweaking it back and forward constantly.

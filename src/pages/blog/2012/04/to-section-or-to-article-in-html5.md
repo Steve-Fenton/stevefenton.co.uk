@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 A friend of mine recently pointed out that the many explanations of section and article elements in HTML5 leave a lot of questions unanswered and it makes it hard to choose the correct element that has the best semantic representation of the content.

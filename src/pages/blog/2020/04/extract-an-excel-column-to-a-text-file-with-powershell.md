@@ -9,8 +9,8 @@ categories:
     - Office
     - Programming
 tags:
-    - excel
-    - powershell
+    - Excel
+    - PowerShell
 ---
 
 Having opened up the same Excel spreadsheet to copy out a list of domain names into a text file for my test automation tools to consume for the third time, I wrote a PowerShell script to do it for me. Yes, it’s the same spreadsheet I mentioned before, it is full of interesting data and is super useful for pumping into a ton of different kinds of test automation that I wrote. I would hazard a guess that my test automation is equivalent to two people checking stuff full time.

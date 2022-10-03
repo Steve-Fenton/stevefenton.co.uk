@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Process
 tags:
-    - complexity
+    - Complexity
 ---
 
 Last October, I was asked why releases of a legacy system were so hit and miss. There were a couple of reasons for the flaky releases, which I have summarised below. When you judge the quality of the metaphors, please bear in mind that these were invented off-the-cuff.

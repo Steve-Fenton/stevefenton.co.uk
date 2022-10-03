@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - ddd
+    - DDD
 ---
 
 ![Domain Driven Design](/img/2015/07/domain-driven-design.jpg)I have just finished reading Scott Millett’s comprehensive volume [*Patterns, Principles, and Practices of Domain-Driven Design*](http://www.wrox.com/WileyCDA/WroxTitle/Patterns-Principles-and-Practices-of-Domain-Driven-Design.productCd-1118714709.html), which Scott kindly arranged to send to me. This is a subject I have been talking about non-stop for the past six months with my good friend Adam Watson – and this book thoroughly covers the topics that we have been talking about.

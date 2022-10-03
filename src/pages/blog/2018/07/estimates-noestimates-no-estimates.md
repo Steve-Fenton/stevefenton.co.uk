@@ -12,8 +12,8 @@ categories:
     - Process
 tags:
     - 'noestimates'
-    - estimates
-    - estimation
+    - Estimates
+    - Estimation
 ---
 
 ![Mechanical Calculator](/wp-content/uploads/2018/07/mechanical-calculator.jpg)  

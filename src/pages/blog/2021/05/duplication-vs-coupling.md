@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - coupling
-    - dry
-    - duplication
+    - Coupling
+    - DRY
+    - Duplication
 ---
 
 There is a generally understood principle of programming that says *if you remove duplication, you introduce coupling*. For example, you have two classes that have similar code, so you create a function that they both call. Now the two classes are coupled to the function. You make one thing better, but something else gets worse. That’s a pain.

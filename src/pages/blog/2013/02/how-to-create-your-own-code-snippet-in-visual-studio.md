@@ -13,7 +13,7 @@ categories:
     - 'Visual Studio'
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
     - xml
 ---
 

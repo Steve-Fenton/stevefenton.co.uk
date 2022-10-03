@@ -10,8 +10,8 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - nuget
-    - powershell
+    - Nuget
+    - PowerShell
 ---
 
 Update! As of February 2016, you can now use the ready-made vNext NuGet Publisher step to do this and it is even easier.

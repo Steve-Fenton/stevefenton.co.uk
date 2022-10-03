@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript still has the ability to surprise and impress me and I just stumbled upon a feature that has done both. You can try this for yourself using TypeScript 0.9, but if you are using TypeScript 0.8 you won’t be able to use this yet.

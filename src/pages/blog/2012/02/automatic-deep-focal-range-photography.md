@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Opinion
 tags:
-    - photography
+    - Photography
 ---
 
 If you own a digital SLR camera, you have probably heard of High Dynamic Range photography, which is where you combine several photographs taken with different apertures to create a single picture with high detail in all of the light and dark areas.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The highly anticipated arrival of the protected access modifier is near. The protected keyword is similar to the implementation of protected in Java and C# – but as always, there are some interesting details – because TypeScript is structural, not nominal.

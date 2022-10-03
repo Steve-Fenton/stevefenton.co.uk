@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
-    - linq
+    - JavaScript
+    - Linq
 ---
 
 There have been a few attempts to create versions of .NET’s LINQ extensions to JavaScript and TypeScript, but most of them involve operating on an array and returning an array. To be clear, it involves evaluating the result of the expression immediately and giving back the whole result immediately.

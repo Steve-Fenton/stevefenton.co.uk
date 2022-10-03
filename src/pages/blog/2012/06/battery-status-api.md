@@ -12,8 +12,8 @@ categories:
     - Browsers
     - Programming
 tags:
-    - firefoxos
-    - javascript
+    - FirefoxOS
+    - JavaScript
 ---
 
 The [battery status API](https://www.w3.org/TR/battery-status/) is quite a special one. While on a basic level you can use it to get information on how long a battery has left, it is what you do with the information that makes it cool.

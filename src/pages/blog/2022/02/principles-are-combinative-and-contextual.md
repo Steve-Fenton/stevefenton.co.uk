@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - laws
-    - principles
-    - rules
+    - Laws
+    - Principles
+    - Rules
 ---
 
 In software development, we love principles, laws, and rules. Commonly, a set of abstract instructions that can be merged into a cute acronym will get reasonable traction. [SOLID](http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod), [CUPID](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/), [YAGNI](https://www.martinfowler.com/bliki/Yagni.html), and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) have all lasted well thanks to the memorable letters that make up their names. There are also some great laws and rules that are memorable because of the metaphor, such as [Flocking Rules](https://sandimetz.com/99bottles) and [Yak Shaving](http://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html).

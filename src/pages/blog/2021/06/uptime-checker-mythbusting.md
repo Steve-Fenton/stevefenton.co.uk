@@ -8,9 +8,9 @@ authors:
 categories:
     - Automation
 tags:
-    - devops
-    - operations
-    - uptime
+    - DevOps
+    - Operations
+    - Uptime
 ---
 
 Whether you use Pingdom, UpDn, Datadog, or some other platform to test if your website is up and running, you will need to keep in mind some common traps that are waiting to ensnare the unsuspecting.

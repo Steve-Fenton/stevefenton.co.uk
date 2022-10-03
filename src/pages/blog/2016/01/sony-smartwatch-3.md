@@ -9,8 +9,8 @@ categories:
     - Opinion
 tags:
     - Android
-    - smartwatch
-    - wearable
+    - SmartWatch
+    - Wearable
 ---
 
 ![Sony SmartWatch 3 Watch Faces](/img/2016/01/sony-smartwatch3-watch-faces.png)

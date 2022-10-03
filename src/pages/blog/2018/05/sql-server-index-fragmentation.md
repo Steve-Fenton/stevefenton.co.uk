@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/05/fragments.jpg
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 ![Shattering Glass Containing Buttons](/wp-content/uploads/2018/05/fragments.jpg)

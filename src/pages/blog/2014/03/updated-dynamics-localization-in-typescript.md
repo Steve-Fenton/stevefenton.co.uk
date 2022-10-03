@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - dynamics
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 ようこそ to my little blog post on localization in Dynamics, with a better example written in TypeScript (although you could just nick the compiled JavaScript if you aren’t using TypeScript).

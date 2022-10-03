@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - wix
+    - WIX
 ---
 
 If you are installing something with a dependency that needs a C++ redistributable, your best bet is to make sure your installer supplies that dependency.

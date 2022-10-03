@@ -10,7 +10,7 @@ bannerImage:
 categories:
     - Azure
 tags:
-    - 'cost management'
+    - 'Cost Management'
 ---
 
 I’m in the process of writing a little test app that I’d like to run on Azure to keep an eye on a suite of 1,000 websites. It’s a .NET Core app that replaces a test pack written with JMeter that has been manually “push-button” executed in the past. It means the tests can run continuously with alarms if there’s an issue. Removing manual work is worth some money, but there’s no reason to spend more than you have to, so let’s look at a week of gentle optimisation of costs.

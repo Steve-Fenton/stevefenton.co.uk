@@ -11,9 +11,9 @@ categories:
 tags:
     - 'Backup'
     - Bash
-    - deployments
-    - powershell
-    - sql
+    - Deployments
+    - PowerShell
+    - SQL
 ---
 
 This is not our preferred method of deployment, but we have some batch-file based deployments still in active use (most of our deployments are executed via Octopus Deploy, but some of the concepts below are re-usable there too). One of the tasks we perform during a deployment is a database backup prior to schema changes.

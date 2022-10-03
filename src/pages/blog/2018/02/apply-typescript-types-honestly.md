@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript is optionally statically typed, which means you can still write dynamically typed expressions within your TypeScript programs. If you drop into a block of dynamic code, and then want to come back out into statically typed code – you’ll need to introduce the types, and are responsible for the correctness of the type you introduce. If you try to do this too early, you can cause your future self confusion – but not if you apply TypeScript types honestly.

@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/03/flocking-rules.jpg
 categories:
     - Programming
 tags:
-    - ood
+    - OOP
 ---
 
 ![A Flock of Starlings](/img/2018/03/flocking-rules.jpg)

@@ -9,8 +9,8 @@ image: /wp-content/uploads/2022/02/PXL_20220215_1233074962.jpg
 categories:
     - Opinion
 tags:
-    - headset
-    - meetings
+    - Headset
+    - Meetings
 ---
 
 This month I joined Octopus Deploy, and one of the things everyone takes seriously is having quality online conversations. It makes sense that everyone should have a good experience during meetings in a remote-first company.

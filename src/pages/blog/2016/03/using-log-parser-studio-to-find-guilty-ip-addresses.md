@@ -9,10 +9,10 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
-    - 'web log importer'
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
+    - 'Web Log Importer'
 ---
 
 If you are getting hammered by a robot, you’ll probably want to find out the IP Address of the robot to see if it is a friendly one, or just someone playing with Kali Linux in a far off land.

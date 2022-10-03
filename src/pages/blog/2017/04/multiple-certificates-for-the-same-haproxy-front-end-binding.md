@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - certificates
-    - haproxy
-    - tls
+    - HAProxy
+    - TLS
 ---
 
 We have a smart website that allows a single mutli-tenant application to server requests for thousands of different domains. The content is keyed from the host name, so you only see the content for the website you are visiting. The volume is handled by a pair of HAProxy servers that sit over a web farm.

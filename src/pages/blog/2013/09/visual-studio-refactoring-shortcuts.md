@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - refactoring
+    - Refactoring
 ---
 
 After watching Uncle Bob playing a symphony of refactoring across his keyboard at Dev South Coast last night, I decided there was one short-cut I didn’t have and couldn’t live without: Widen Selection.

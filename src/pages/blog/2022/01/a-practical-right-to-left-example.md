@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/01/task-board.jpg
 categories:
     - Process
 tags:
-    - kanban
+    - Kanban
 ---
 
 The phrase ‘right-to-left’ is pretty well embedded in software development teams. There are some great works on Kanban and flow that discuss it in detail. Mike Burrows has a great book that is even called ‘Right to Left’. This article doesn’t replace or repeat all that good stuff, it’s just an example of right-to-left based on an anonymised screenshot of a task board that I have in front of me at this moment. I’m going to try and describe what arcs across my brain when I open up this map of the work.

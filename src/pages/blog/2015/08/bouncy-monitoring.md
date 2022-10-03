@@ -8,7 +8,7 @@ authors:
 categories:
     - Windows
 tags:
-    - monitoring
+    - Monitoring
 ---
 
 Bouncy monitoring can sometimes be down to real events occurring in your system, but when it looks as regular as the image below – it probably isn’t!

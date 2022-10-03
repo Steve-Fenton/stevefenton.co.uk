@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - smtp
-    - testing
+    - C-Sharp
+    - SMTP
+    - Testing
 ---
 
 If you have software that generates emails, you’ll want to test it without risking sending an email to a real address. Of course, your test environment is full of fake accounts with safe email addresses and you know that you should avoid cutesy test data because it leads to trouble – but there will always be a risk if you hook up a real SMTP server to your test environment (for example, that usability testing you run where a non-software-professional gets to type in whatever they like).

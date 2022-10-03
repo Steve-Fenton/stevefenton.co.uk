@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - technology
+    - Technology
 ---
 
 I had an interesting discussion with a very smart woman I know about tech. In particular, we talked about whether technology is inherently good, or bad. Our conclusion was that tech is only as bad as the non-tech analog for the activity you are engaging in.

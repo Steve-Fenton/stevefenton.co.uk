@@ -8,10 +8,10 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - ood
-    - php
-    - typescript
+    - C-Sharp
+    - OOP
+    - PHP
+    - TypeScript
 ---
 
 I have written quite a lot about how to follow SOLID principles, but one thing that can be useful is examples of where a principle is not being followed. What does your code look like when it wants to tell you something? Here are the signs that you broke the Interface Segregation Principle (ISP). Here is the principle:

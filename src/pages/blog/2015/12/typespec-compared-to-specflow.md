@@ -10,8 +10,8 @@ categories:
     - Programming
 tags:
     - BDD
-    - typescript
-    - typespec
+    - TypeScript
+    - TypeSpec
 ---
 
 Updated: It is no longer mandatory to enclose parameters with quotes – which makes things even more similar between C#/SpecFlow and TypeScript/TypeSpec. On with the original article…

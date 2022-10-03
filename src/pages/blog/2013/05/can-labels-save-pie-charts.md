@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I recently received this interesting question through the contact form. I always relish an opportunity to challenge my assumptions and opinions on pie charts – even though I appear to be a bit of a zealot. One day, I may even be convinced that I am wrong. Here’s the question:

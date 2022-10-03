@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - estimates
+    - Estimates
 ---
 
 If you read my recent note on [Estimating With Time And Relative Sizes](/2013/05/Estimating-With-Time-And-Relative-Sizes/) you might be interested in this method of generating relative sizes.

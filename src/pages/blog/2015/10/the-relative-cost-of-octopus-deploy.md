@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - octopus
+    - Octopus
 ---
 
 [![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)One of the best things about Octopus Deploy is the simplicity of the pricing. These numbers were correct at the time of writing, but the exact numbers aren’t the interesting bit – it is the relative cost.

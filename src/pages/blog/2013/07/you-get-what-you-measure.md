@@ -14,7 +14,7 @@ categories:
     - Process
     - Programming
 tags:
-    - metrics
+    - Metrics
 ---
 
 This is a phrase that should pop into your head whenever you are thinking about introducing a metric to a team. *You get what you measure*. It really is that simple.

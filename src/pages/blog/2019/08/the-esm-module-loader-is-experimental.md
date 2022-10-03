@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - node
-    - typescript
+    - Node
+    - TypeScript
 ---
 
 If you fire up a new TypeScript app and whack it into Node, you might come across the following error about *The ESM Module Loader is Experimental*.

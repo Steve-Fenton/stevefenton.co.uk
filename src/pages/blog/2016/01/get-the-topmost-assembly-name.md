@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 This is just a useful snippet that will get you the top most assembly name. Especially useful if you have code in a NuGet package that will be consumed by some other library… and eventually by an application.

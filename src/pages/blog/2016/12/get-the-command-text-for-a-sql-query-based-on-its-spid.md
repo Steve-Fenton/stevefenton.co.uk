@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 A lot of SQL troubleshooting starts like this:

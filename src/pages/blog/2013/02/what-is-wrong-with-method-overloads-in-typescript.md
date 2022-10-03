@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The only thing wrong with method overloads in TypeScript is that people are confused by their experience with overloads in other languages. In almost all cases, you simply don’t need to use an overload. The main case for using an overload is *when writing a type definition for an existing JavaScript library* – but even then you can probably avoid them.

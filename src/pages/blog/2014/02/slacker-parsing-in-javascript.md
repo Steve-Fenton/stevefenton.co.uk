@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 This is a really quick introduction to *Slacker Parsing* in JavaScript. Slacker Parsing involves the use of operators rather than conversion methods to change the type of a variable.

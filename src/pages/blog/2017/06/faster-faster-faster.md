@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - optimization
-    - process
+    - Optimization
+    - Process
 ---
 
 ![Road Wings](/wp-content/uploads/2017/06/road-wings.jpg)

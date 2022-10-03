@@ -11,9 +11,9 @@ categories:
     - Programming
 tags:
     - BDD
-    - cucumber
-    - java
-    - junit
+    - Cucumber
+    - Java
+    - JUnit
 ---
 
 Here is a quick step-by-step example of how to get started with BDD in IntelliJ. You can also follow these examples if you are using other IDEs, but some of the automatic good stuff may not happen (like auto-downloading plugins to help you edit the feature files and prompting you to import new Mavan dependencies).

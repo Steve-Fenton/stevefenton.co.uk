@@ -10,8 +10,8 @@ categories:
     - Programming
 tags:
     - BDD
-    - typescript
-    - typespec
+    - TypeScript
+    - TypeSpec
 ---
 
 In TypeSpec, events are raised during a test run that can be intercepted by a test reporter.

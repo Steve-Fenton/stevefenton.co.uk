@@ -8,8 +8,8 @@ authors:
 categories:
     - Windows
 tags:
-    - 'group policy'
-    - rdp
+    - 'Group Policy'
+    - RDP
 ---
 
 In older versions of Windows, you could set disconnected Remote Desktop Connections to timeout after a set period using the Remote Desktop Session Host Configuration.

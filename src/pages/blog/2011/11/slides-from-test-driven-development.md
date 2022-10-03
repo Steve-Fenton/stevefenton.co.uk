@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - tdd
+    - TDD
 ---
 
 Here is a brief overview and some of the slides from my Test Driven Development (TDD) talk on Thursday. The theme of the talk was to to discuss TDD in a non-zealous manner. This meant discussing both the costs and the benefits as well as referencing real studies as well as anecdotal evidence.

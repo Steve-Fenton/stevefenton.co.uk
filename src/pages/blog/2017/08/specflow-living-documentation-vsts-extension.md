@@ -10,7 +10,7 @@ categories:
     - 'Visual Studio'
 tags:
     - BDD
-    - specflow
+    - SpecFlow
 ---
 
 SpecFlow is the defacto <abbr title="Behaviour-Driven Development">BDD</abbr> tool for .NET programmers – and if you are using both SpecFlow and Visual Studio Team Services then this article is for you.

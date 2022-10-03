@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - php
+    - PHP
 ---
 
 While working on the Swift Point Content Mangement System project I had the chance to delve deep into the fantastic world of PHP. One aspect of PHP we worked a lot on was optimisation. This went to low level details, such as the difference between single and double quotes, right through to making you web pages fast to load for your users.

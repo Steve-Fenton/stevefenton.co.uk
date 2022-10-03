@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 HTML5 is now just around the corner. I have already [tested HTML 5 on a myriad of browsers](/2009/07/HTML-5-Browser-Test/) and with a tiny JavaScript and CSS fix, it works in every major player – so if you are a web developer you need to start thinking about your HTML in a subtly different way.

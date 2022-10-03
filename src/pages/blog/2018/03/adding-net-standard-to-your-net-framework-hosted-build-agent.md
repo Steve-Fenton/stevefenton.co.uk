@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - Builds
-    - 'csharp'
+    - C-Sharp
     - msbuild
 ---
 

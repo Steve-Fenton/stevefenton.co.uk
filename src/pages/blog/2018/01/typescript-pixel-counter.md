@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - images
-    - typescript
+    - Images
+    - TypeScript
 ---
 
 In the process of writing an article on Pie Charts, I was faced with a situation where I needed to programmatically count the pixels on the pie chart in order to reverse-engineer the original values. To do this, I wrote a quick utility in TypeScript to do the following:

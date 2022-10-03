@@ -8,7 +8,7 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - productivity
+    - Productivity
 ---
 
 I find myself in the midst of one of those rote programming jobs that feels very tedious. Despite this, I am harnessing the opportunity of busy hands, idle mind to find a few handy tricks to speed things up.

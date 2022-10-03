@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Update! Here are the results of a full test using a mark-up only HTML5 video demo from Bruce Lawson.

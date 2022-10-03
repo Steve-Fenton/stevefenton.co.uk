@@ -8,7 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - haproxy;sql
+    - HAProxy
+    - SQL
 ---
 
 In case you are told it isn’t possible, I can confirm that it is in fact possible to load balance requests to databases using HAProxy. Here are the specifics.

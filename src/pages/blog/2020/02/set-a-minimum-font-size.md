@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 This is just a little script I needed to use to increase text size conditionally. It only increases text below a minimum size and leaves everything else. Please also see a more recent post on [CSS Clamp](/2020/04/css-clamp-the-goldilocks-of-css-math-functions/)!

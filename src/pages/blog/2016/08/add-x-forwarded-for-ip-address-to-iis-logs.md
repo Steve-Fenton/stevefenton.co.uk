@@ -8,8 +8,8 @@ authors:
 categories:
     - Windows
 tags:
-    - iis
-    - logs
+    - IIS
+    - Logs
 ---
 
 If you are using a load balancer, the chances are your IIS Logs are full of entries with the IP address of your load balancer, rather than the IP address of your end user.

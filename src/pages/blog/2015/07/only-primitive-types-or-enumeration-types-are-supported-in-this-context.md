@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 This error popped up and I’m sure that it is vague enough to catch me out again in the future.

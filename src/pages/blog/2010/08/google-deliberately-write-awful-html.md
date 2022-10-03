@@ -11,9 +11,9 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
-    - javascript
+    - CSS
+    - HTML
+    - JavaScript
 ---
 
 Have you had a look at the [Google Search Page](https://www.google.co.uk/) recently? Probably! What you might not have noticed is that (at the time of writing) Google have stuffed their home page full of what most web developers would call “awful HTML”. Here are some examples, although you can “view source” on Google to see the full extent of it for yourselves.

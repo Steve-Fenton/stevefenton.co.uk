@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 When it comes to consuming existing JavaScript code in TypeScript, you have a few options at your disposal. You can include JavaScript files in your compilation. You can shift the code into a `.ts` file and fix it up. If these are not an option, you may want to write a TypeScript definition for the JavaScript code.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - photography
+    - Photography
 ---
 
 I was very excited about the Yashica Y35 digiFILM Camera, which successfully funded through [Kickstarter](https://www.kickstarter.com/projects/1940283777/expect-the-unexpected-digifilmtm-camera-by-yashica) in November 2017. My last film camera before switching to a Nikon D40 was a Yashica T4 that I was given by my great-uncle. I used that camera constantly to take random pictures of rusty fire-escapes, of decaying graffiti, and of bands I was writing about for [The Mag](https://en.wikipedia.org/wiki/The_Mag_(music_magazine)) (until I hooked up with the awesome [Mark Holloway](http://www.hollowayphotography.co.uk/), which took me on adventures with The Mag, DV8 Magazine, and Spill Magazine).

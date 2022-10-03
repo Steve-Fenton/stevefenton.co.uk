@@ -12,9 +12,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
-    - ndepend
+    - C-Sharp
+    - 'Code Analysis'
+    - NDepend
 ---
 
 NDepend is a code-quality tool that integrates with Visual Studio (2008 and 2010… and probably older versions too if you happen work in a museum).

@@ -10,7 +10,7 @@ bannerImage:
 categories:
     - Opinion
 tags:
-    - 'office storage'
+    - 'Office Storage'
 ---
 
 *Half-human, half-bird; the sirens lured hapless sailors to their destruction*. Your window could be doing the same to you in your new <abbr title="Working From Home">WFH</abbr> set up.

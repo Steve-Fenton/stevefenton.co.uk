@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Update! People are still asking me about this, so I have updated my advice… to this: [Stop Mixing TypeScript Modules and Namespaces](/2017/08/stop-mixing-typescript-modules-and-namespaces/).

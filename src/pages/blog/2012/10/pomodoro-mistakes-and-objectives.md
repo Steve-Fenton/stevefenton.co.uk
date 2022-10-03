@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - pomodoro
+    - Pomodoro
 ---
 
 I love [Pomodoro technique®](/2011/10/The-Pomodoro-Technique/) – it’s like a personal version of Agile. Not only do I love it, but I have used it to great effect and [shared with others how to use it](/2012/03/Pomodoro-Technique-In-25-Minutes/).

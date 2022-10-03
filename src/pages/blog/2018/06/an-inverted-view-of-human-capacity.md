@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/05/bathroom-dispenser-kitchen-86000.jpg
 categories:
     - Process
 tags:
-    - people
+    - People
 ---
 
 ![Soap Dispenser](/wp-content/uploads/2018/05/bathroom-dispenser-kitchen-86000.jpg)

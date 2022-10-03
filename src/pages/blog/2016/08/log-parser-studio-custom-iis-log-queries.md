@@ -9,9 +9,9 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
 ---
 
 If you want to add my set of Log Parser Studio custom queries to your LPS library, follow these instructions…

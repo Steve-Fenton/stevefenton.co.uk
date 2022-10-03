@@ -8,7 +8,7 @@ authors:
 categories:
     - CMS
 tags:
-    - kentico
+    - Kentico
 ---
 
 There are times when you want to limit a user’s access to a single page, or a specific sub-tree of pages within a Kentico website. This article quickly describes how to set up page specific permissions in Kentico using roles, and page level security.

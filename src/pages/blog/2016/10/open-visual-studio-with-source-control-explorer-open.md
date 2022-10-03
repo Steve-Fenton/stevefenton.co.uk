@@ -9,7 +9,7 @@ categories:
     - 'Visual Studio'
 tags:
     - .net
-    - ide
+    - IDE
 ---
 
 If you find yourself constantly opening Source Control Explorer, you may want to use this handy shortcut to opening Visual Studio with the Source Control Explorer open, instead of the Start Page.

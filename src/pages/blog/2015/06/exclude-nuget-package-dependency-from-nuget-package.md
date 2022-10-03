@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - nuget
+    - Nuget
 ---
 
 I have been using the [Create New NuGet Package](/2014/08/Share-Your-Own-Code-With-NuGet/) utility for auto-generating NuGet packages for some time. You add this as a NuGet package to your project and It Just Works™. It uses your assembly information to generate the metadata so you don’t even need a nuspec file.

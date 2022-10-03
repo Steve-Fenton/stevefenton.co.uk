@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Astro
-    - javascript
+    - JavaScript
 ---
 
 There are some cases in [Astro](https://astro.build) where you need to return a non-HTML response. For example, and XML or JSON file.

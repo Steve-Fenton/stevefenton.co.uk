@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I was working on an issue where I needed to get data from about twenty instances of a database. The schema was very similar across all the databases, but each database was on a virtual machine on the network and had it’s own data. This is a legacy application that at some point in the past had a strategy of “an install per customer”. After manually getting data from each of these databases once, the next time I needed the data, I decided it was time to apply some automation. I wrote a very basic .NET 6 app, called MultiQuery, that takes in a query configuration and aggregates the data from all databases into a single CSV output file.

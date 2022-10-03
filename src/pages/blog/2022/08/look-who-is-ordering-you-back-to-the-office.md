@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - wfh
+    - WFH
 ---
 
 This week, Malcolm Gladwell joined the ranks of people yelling at workers to *get back to work*. Like many of the people arguing for a return to office work, they tell us they don't believe it's possible to do good work unless you are under management observation.

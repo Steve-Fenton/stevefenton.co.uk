@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - github
-    - 'open source'
+    - GitHub
+    - 'Open Source'
 ---
 
 I received the following issue on GitHub:

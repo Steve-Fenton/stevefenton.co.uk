@@ -12,7 +12,7 @@ categories:
     - Opinion
 tags:
     - Books
-    - economics
+    - Economics
 ---
 
 Independent authors can rock! I own books from independent authors and although you are taking a little chance (unless you know their work or get a recommendation) it can be well worth it. But then this popped up in my social feed!

@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - productivity
+    - Productivity
 ---
 
 The full title of this article should really be “Increase Productivity by Quantifying Simple Tasks; Protect Complex Task Productivity by *Not* Quantifying It”. This is the result of a study by Aruna Ranganathan, co-authored by Alan Benson, that studied workers in a garment factory and I’ve added my opinion because sometimes I’m a narcissist like that.

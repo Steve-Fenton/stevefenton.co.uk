@@ -11,8 +11,8 @@ image: /wp-content/uploads/2018/05/waterfall.jpeg
 categories:
     - Process
 tags:
-    - documentation
-    - waterfall
+    - Documentation
+    - Waterfall
 ---
 
 ![Waterfall](/wp-content/uploads/2018/05/waterfall-1024x683.jpeg)

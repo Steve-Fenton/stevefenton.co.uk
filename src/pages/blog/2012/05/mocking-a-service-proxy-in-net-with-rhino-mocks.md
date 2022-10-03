@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - rhino
+    - C-Sharp
+    - Rhino
 ---
 
 If you are calling a service via a service proxy, how do you mock the service call and ensure it was called with the correct parameters? Here is an example using Rhino Mocks to capture the call via the proxy and then test that it is the correct call.

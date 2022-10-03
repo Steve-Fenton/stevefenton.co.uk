@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 This is going to be a quick one, as I’m writing this down so future me doesn’t have to set fire to several hours of debugging. I’ll explain more background after I give you the answer.

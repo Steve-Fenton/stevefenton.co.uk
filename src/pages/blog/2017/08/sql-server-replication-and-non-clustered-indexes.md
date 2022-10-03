@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - indexes
-    - replication
-    - sql
+    - Indexes
+    - Replication
+    - SQL
 ---
 
 If you want non-clustered indexes to be copied to your replication slaves (you probably do) you simply adjust the setting that you’ll find here…

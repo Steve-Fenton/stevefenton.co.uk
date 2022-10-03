@@ -10,10 +10,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - gherkin
-    - regex
-    - specflow
+    - C-Sharp
+    - Gherkin
+    - RegEx
+    - SpecFlow
 ---
 
 This can be a pretty common situation in SpecFlow, thanks to the trusty default RegEx that SpecFlow uses:

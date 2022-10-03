@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - ddd
+    - C-Sharp
+    - DDD
 ---
 
 (Quick note… I didn’t know there was a good name for this when I wrote this article, but for more general reading on this check out Chesterton’s Fence.) There is a clever pattern in domain-driven-design whereby you create an object to represent identifiers in your model. For example, if you have a Client object, you replace the numeric id with an object called ClientId.

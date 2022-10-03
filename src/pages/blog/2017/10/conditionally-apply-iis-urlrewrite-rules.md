@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - routing
+    - Routing
 ---
 
 If you are using the IIS URLRewrite module to fix up your request URLs, you may well come across the need to conditionally apply rules.

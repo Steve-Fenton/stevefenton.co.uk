@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - mixins
-    - typescript
+    - Mixins
+    - TypeScript
 ---
 
 [For the most up-to-date information on TypeScript mixins, view TypeScript Mixins Part Two](/2017/08/typescript-mixins-part-two/)! <del>Before you start looking for Part Two, I’d like to declare that it doesn’t exist – and may never exist. The reason I’ve named this Part One is because I think that the Mixins feature in TypeScript will mature and grow and this article will eventually be out of date.</del>

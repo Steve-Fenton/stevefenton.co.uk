@@ -8,7 +8,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - personality
+    - Personality
 ---
 
 There is a general pop-psychology perception that people have a personality type. This has been embedded into the collective mindset over the years thanks to companies using psychometric testing, DISC models, Myers-Briggs types, and Belbin tests to categorise and *manage* these different personality types. I have been subjected to many of these tests over the years and each one reinforces the common misconception that I’m a Plant/Shaper, ENFP, Dominant, outgoing extrovert. But I’m not.

@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - iis
+    - C-Sharp
+    - IIS
     - wcf
 ---
 

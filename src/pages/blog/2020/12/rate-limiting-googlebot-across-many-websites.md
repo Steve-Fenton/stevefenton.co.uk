@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'rate limiting'
-    - 'web crawlers'
+    - 'Rate Limiting'
+    - 'Web Crawlers'
 ---
 
 Googlebot is one of the good guys. It will check your robots.txt file and respect any crawl delays you’ve asked it to use. However, if you run hundreds or thousands of websites across your infrastructure you can encounter waves of Googlebot traffic due to it coincidentally selecting many of your websites to crawl at the same time. While each website gets a small volume of traffic, your total traffic can spike massively.

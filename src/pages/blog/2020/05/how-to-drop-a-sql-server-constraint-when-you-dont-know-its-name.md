@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you are looking after a database that has been haphazardly maintained in the past, you might come across inconsistent naming of things such as constraints. When you come to delete the existing one, it might be tricky if it doesn’t have the same name across environments.

@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - iis
-    - tls
+    - IIS
+    - TLS
 ---
 
 TL;DR – the TLS SNI extention allows you to pick the right certificate if you have multiple secure host names on the same IP address and port, this is supported by all major browsers and by IIS8, and HAProxy (amongst others). Some of the below information is now a little dated – you shouldn’t really be running websites on IIS6 any more!

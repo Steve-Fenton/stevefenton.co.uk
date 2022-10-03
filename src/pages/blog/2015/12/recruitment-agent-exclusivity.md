@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - recruitment
+    - Recruitment
 ---
 
 I have been using a single recruitment agent exclusively for finding talented new people. As you’ll know if you’ve ever been involved in recruitment, once your name is associated with hiring, you’ll get several phone calls a day from agents hoping to work with you to fill your roles. They do this mainly for the love of finding people the job they want, but they also get paid handsomly for their services.

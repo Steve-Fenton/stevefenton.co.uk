@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript is great – but it is different to other languages. It is worth spending a little time learning the differences, especially when it comes to the differences between JavaScript and TypeScript and the differences between C#, Java, and TypeScript.

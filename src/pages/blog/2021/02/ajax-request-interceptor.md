@@ -10,7 +10,7 @@ categories:
     - Programming
 tags:
     - Ajax
-    - javascript
+    - JavaScript
 ---
 
 This is a little funky script to intercept AJAX requests and raise a simple custom event for everything else in your app to listen to.

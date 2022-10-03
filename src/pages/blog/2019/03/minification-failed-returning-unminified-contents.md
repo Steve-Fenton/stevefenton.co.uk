@@ -11,9 +11,9 @@ tags:
     - .net
     - ASP.NET
     - Bundling
-    - css
-    - javascript
-    - mvc
+    - CSS
+    - JavaScript
+    - MVC
 ---
 
 Has you ASP.NET applicaiton reported that minification failed? If you are using bundles in application, you might come across this exception comment at the top of your larger-than-expected bundle file.

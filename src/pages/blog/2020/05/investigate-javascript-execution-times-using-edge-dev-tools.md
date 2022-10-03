@@ -8,9 +8,9 @@ authors:
 categories:
     - Browsers
 tags:
-    - edge
-    - javascript
-    - performance
+    - Edge
+    - JavaScript
+    - Performance
 ---
 
 This is a quick exploration of how to use Edge Dev Tools to investigate JavaScript execution time issues. We’ll quickly run a performance profile and identify what part of the JavaScript is the “most responsible” for any performance issues. The idea is to show just the quickest way to find the source of an issue, rather than to go into detail about all the amazing graphs, tools, and options available.

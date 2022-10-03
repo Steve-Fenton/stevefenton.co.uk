@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
-    - liquid
+    - Jekyll
+    - Liquid
 ---
 
 If you are looking at Jekyll templates, you may be wondering what the difference is between `{%- -%}` and `{% %}` template blocks.

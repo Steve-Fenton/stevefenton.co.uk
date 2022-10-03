@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'laws of nature'
+    - Laws
 ---
 
 There are two basic types of natural laws, or laws of nature. Universal and probabilistic. Universal laws of nature state the when you find one thing, you will always find some other specific thing or things. Probabilistic laws of nature say that things are commonly found together.

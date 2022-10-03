@@ -11,8 +11,8 @@ categories:
     - Programming
     - Windows
 tags:
-    - operations
-    - phishing
+    - Operations
+    - Phishing
 ---
 
 n an error log or HTTP log phising attack, a deliberately bad request is generated with a fake referer string.

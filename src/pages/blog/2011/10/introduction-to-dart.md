@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - dart
+    - Dart
 ---
 
 [Dart](https://www.dartlang.org/) is a new language designed to run in your browser or on a server. It is comparable to JavaScript, but has many features that will make it more structured. Imagine JavaScript, but with classes and interfaces.

@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
+    - C-Sharp
+    - 'Code Analysis'
     - cql
-    - ndepend
+    - NDepend
 ---
 
 I have been talking a fair bit recently about code quality tools such as Resharper and NDepend. In this article, I will explain how to use one of the features of NDepend to improve your code quality.

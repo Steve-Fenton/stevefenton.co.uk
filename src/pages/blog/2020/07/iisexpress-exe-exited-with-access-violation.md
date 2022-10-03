@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - 'csharp'
-    - core
-    - mvc
+    - C-Sharp
+    - Core
+    - MVC
 ---
 
 I was happily typing away at some ASP.NET Core controllers and views, calling a view component to render out some paging links, when this happened…

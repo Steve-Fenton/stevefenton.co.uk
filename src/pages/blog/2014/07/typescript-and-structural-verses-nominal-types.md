@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This blog is the result of my thought process over a proposed feature for TypeScript that would bring some nominal types to TypeScript (see [GitHub](https://github.com/Microsoft/TypeScript/issues/202)).

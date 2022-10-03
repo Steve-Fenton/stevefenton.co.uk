@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - entityframework
-    - linq
+    - C-Sharp
+    - 'Entity Framework'
+    - Linq
 ---
 
 If you have ever wanted to look inside an IQueryable in Entity Framework to see what query will be run, you’ll know that it is properly squirrelled away in there. On the whole, that’s a good thing because you shouldn’t care about it. Despite this, there are sometimes occasions where “never” doesn’t mean “never”. I am currently testing that an extension method I created works nicely with Entity Framework – all of the tests on a basic IQueryable work, but I can’t certify this extension method until I check what the query looks like…

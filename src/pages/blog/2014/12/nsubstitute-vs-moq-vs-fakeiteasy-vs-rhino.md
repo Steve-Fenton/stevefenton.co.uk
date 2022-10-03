@@ -10,11 +10,11 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - fakeiteasy
-    - moq
-    - nsubstitute
-    - rhino
+    - C-Sharp
+    - FakeItEasy
+    - Moq
+    - NSubstitute
+    - Rhino
 ---
 
 The long and short of this article is that I tried out a whole load of mocking frameworks and decided I liked NSubstitute the best. This is currently a reasonably simple decision, because on the whole, Moq, FakeItEasy, Rhino, JustMock and many others besides are all essentially syntactical best friends.

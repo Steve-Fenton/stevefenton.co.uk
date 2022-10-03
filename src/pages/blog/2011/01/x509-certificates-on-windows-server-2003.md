@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - iis
+    - IIS
 ---
 
 This issue originally came up some time between 2004 and 2006 while I was working on a web portal for fund and share trading – but recently popped up its head again, which made me decide to write down the answer properly in case other people stumble across this issue with certificates and private keys.

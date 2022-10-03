@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - pomodoro
+    - Pomodoro
 ---
 
 ![Pomodoro Charts](/img/2015/07/pomodoro_chart.jpg)Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, from 22nd March 2012, which was delivered within the time limit, including questions.

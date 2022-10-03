@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 If you are working with TypeScript, you may well stumble across this concept (thanks to its colossal but understandable name clash). So to avoid confusion, here is a quick overview of TS\* (AKA Safer TypeScript).

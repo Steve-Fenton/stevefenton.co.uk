@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 This post started as a scratch pad as I was looking at helping a colleague implement WEBP images with a JPG fallback for older browsers. They had an issue in modern browsers because the fallback image was being loaded in all cases. Here’s a code example and demo:

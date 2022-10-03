@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - ddd
+    - DDD
 ---
 
 [Microservices](http://martinfowler.com/articles/microservices.html) are getting a lot of attention at the moment. For some they are the solution to the problem of monolithic software, to others they represent unnecessary complexity? Enter Mescoservices!

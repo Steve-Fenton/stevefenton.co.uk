@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Process
 tags:
-    - 'cycle time'
+    - 'Cycle Time'
 ---
 
 Whenever I implement cycle-time as a metric, I have to explain that there is a slightly disheartening early phase to the collection of this information.

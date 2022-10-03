@@ -9,10 +9,10 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
-    - 'web log importer'
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
+    - 'Web Log Importer'
 ---
 
 If you want to find out which user agents are used to visit your site, you can use the below query. You can use this to find out about browsers, and honest-ish robots (i.e. ones that identify themselves via the user agent).

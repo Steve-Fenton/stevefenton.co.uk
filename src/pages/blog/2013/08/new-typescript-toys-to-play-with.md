@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I feel guilty already for trivialising the immense effort the TypeScript team are putting into the language in the childish title of this post. I don’t mean it that way – TypeScript is awesome, but today it got even more awesome.

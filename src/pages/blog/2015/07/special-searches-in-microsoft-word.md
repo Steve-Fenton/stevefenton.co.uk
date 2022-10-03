@@ -9,7 +9,7 @@ authors:
 categories:
     - Windows
 tags:
-    - word
+    - Word
 ---
 
 When converting a wonderful print-layout book to an ebook format in Word, you need to ditch a lot of stuff that isn’t needed for ebooks. Page breaks, section breaks, and index entries all need to go.

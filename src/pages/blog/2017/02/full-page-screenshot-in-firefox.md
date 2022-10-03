@@ -8,8 +8,8 @@ authors:
 categories:
     - Browsers
 tags:
-    - firefox
-    - screenshot
+    - Firefox
+    - Screenshot
 ---
 
 If you are pasting multiple screenshots of a web page into a single view, you should stop that and use the Firefox “Full Page Screenshot” feature.

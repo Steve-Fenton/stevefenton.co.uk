@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 If you are using the HTML required attribute, you may need to adjust how you are writing select elements to make it work correctly. It is a very common pattern to start your HTML select element with an option that prompts the user to select from the list, for example “Please select…” or “Select your country…” or something similar.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 There is a problem I have wrestled with a couple of times, which was frustrating to solve… but can now be easily solved using `clamp`, which is currently in an Editors Draft of the CSS Values and Units Module Level 4 specification. It is sat alongside similar mathmatical CSS nuggets, such as `min` and `max` and behaves like a shorthand for a combination of the two (`clamp(a, b, c)` is equivalent to `max(a, min(b, c))`, but a little easier to read).

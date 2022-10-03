@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 The latest in what is threatening to become a series of insidious examples of pie charts in a real special pie chart. This one was spotted by Mr R Lambert of Winchester.

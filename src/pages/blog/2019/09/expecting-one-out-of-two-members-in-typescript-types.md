@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 We’re going to use a simple restaurant set-menu example to explore TypeScript types. By the end of this thought-process, we’re going to be able to require one out of two members that are present on a type.

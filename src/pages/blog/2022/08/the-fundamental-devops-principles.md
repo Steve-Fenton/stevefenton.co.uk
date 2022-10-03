@@ -8,8 +8,8 @@ authors:
 categories:
     - Process
 tags:
-    - 'continuous delivery'
-    - devops
+    - 'Continuous Delivery'
+    - DevOps
 ---
 
 Over the course of the past couple of months, I have been writing a great deal about DevOps and Continuous Delivery. This isn’t my first rodeo, as they say, as I’ve worked on teams that have been using Continuous Delivery (and before that, Lean, Agile, and adaptive techniques such as Extreme Programming).

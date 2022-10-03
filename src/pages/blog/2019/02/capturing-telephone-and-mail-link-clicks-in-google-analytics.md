@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - google
-    - javascript
+    - Google
+    - JavaScript
 ---
 
 There are a great many posts on the subject of capturing events for telephone or email clicks in Google Analytics. Of the examples I found, none handled asynchronous content. That means there is the potential for them to fail to capture clicks if the links are loaded after the initial document ready event in the loading lifecycle.

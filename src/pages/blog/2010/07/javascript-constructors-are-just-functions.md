@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 I was recently asked a question about JavaScript constructors, which highlighted to me that this statement isn’t as well known as it ought to be:

@@ -11,7 +11,7 @@ amp_status:
 categories:
     - Process
 tags:
-    - cranked
+    - Cranked
 ---
 
 *Archived from the Cranked Alliance website.*

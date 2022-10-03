@@ -9,8 +9,8 @@ authors:
 categories:
     - Programming
 tags:
-    - iis
-    - vbscript
+    - IIS
+    - VBScript
 ---
 
 IIS log files are a blessing and a curse. When you are investigating something on your server, they are great. At all other times they are just eating your disk space.

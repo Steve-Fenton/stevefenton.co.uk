@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Opinion
 tags:
-    - people
+    - People
 ---
 
 There is an emerging theme of videos and articles aimed at millennials, telling them that they need to stay in jobs longer and learn “grit and perseverance”.

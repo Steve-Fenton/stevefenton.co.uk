@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Following on from my [articles on HTML5 Forms](/2011/05/HTML-5-Forms-Summary/), I have been busy trying things out in various browsers, old and new.

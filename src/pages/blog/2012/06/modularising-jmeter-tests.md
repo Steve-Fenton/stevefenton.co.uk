@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 JMeter is an awesome tool for writing load tests, but it isn’t obvious how you would break your tests into re-usable chunks. For example, if you are testing multiple scenarios that all require a login, it is a bit annoying to have a copy of the nodes required to log in and check the sign in worked in each test. It would be much better to have a login component that you could just re-use in all your tests. The great news is that you can re-use your JMeter stuff by creating modules.

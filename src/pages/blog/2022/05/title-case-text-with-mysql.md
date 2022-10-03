@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - mysql
+    - MySql
 ---
 
 I needed to update a WordPress taxonomy on a site with thousands of categories and tags. This is not a task for a human, so I created a bit of a gnarly SQL script to update the MySql table.

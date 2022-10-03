@@ -11,7 +11,7 @@ image: /wp-content/uploads/2015/01/clock.jpg
 categories:
     - Programming
 tags:
-    - productivity
+    - Productivity
 ---
 
 Disambiguation: I’m sticking closely to the term “10x programmer” here. Others have used titles such as “[Rockstar Programmer](/2015/08/the-rockstar-programmer-stereotype/)“, but I think this muddies the water on the discussion as it is a poor metaphor.

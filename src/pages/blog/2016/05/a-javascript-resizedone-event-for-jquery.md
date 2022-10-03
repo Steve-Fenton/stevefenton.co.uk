@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 If you have ever handled a resize event in JavaScript, you will have noticed that when a user manually resizes their browser window by dragging the edges… you get a lot of events. This is because the resize event fires constantly as the user resizes the window.

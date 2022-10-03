@@ -10,8 +10,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - monitoring
-    - operations
+    - Monitoring
+    - Operations
 ---
 
 [![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)

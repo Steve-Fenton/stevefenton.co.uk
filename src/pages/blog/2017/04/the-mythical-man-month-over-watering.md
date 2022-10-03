@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - economics
-    - productivity
+    - Economics
+    - Productivity
 ---
 
 Just 16 pages into Fred Brooks’ essential reading, The Mythical Man Month, Fred gets down to business to explain that:

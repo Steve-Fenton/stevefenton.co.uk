@@ -10,8 +10,8 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - vs2013
-    - wix
+    - 'Visual Studio'
+    - WIX
 ---
 
 This bug is a gateway to a whole load of [yak shaving](/Content/Blog/Date/201408/Blog/The-Many-Manifestations-of-Yak-Shaving/). You open a layer diagram in Visual Studio 2013, drag an item from your solution explorer (like you have done a hundred times before) and \*bang\* Visual Studio crashes. You retry and get exactly the same result.

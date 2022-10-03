@@ -12,9 +12,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
-    - ndepend
+    - C-Sharp
+    - 'Code Analysis'
+    - NDepend
 ---
 
 I’ve talked a couple of times about NDepend recently, in the article [NDepend For Beginners](/2010/10/NDepend-For-Beginners/).

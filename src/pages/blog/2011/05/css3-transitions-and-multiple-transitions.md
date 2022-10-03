@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 CSS3 transitions have been with us for a little while now thanks to some browser-vendors adding custom transition support. The reason I’m shouting about it now is because it is actually pretty widely supported and it is now getting a point of maturity that means you can actually use it with reasonable confidence.

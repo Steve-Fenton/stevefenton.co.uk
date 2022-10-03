@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - optimization
-    - sql
+    - Optimization
+    - SQL
 ---
 
 I have found that Activity Monitor can have a habit of bugging out on you when you try to get recent expensive queries. If you also get this, you may want to try the following query instead.

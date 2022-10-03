@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This is actually quite a rework of my original ideas, because I have worked with TypeScript for a long time now and can happily add the benefit of hindsight to my view of what makes a great TypeScript set up. This isn’t the one true way, but I have found that the following set up rocks the TypeScript…

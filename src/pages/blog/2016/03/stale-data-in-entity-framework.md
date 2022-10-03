@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - entityframework
+    - C-Sharp
+    - 'Entity Framework'
 ---
 
 There is a subtle bug that you can encounter when using Entity Framework on a database where updates can happen out of band. For example, the situation I discovered this issue involves a replicated SQL database, with Entity Framework running in “read only” mode against the replication subscriber databases. The data is changed in the database by replication, so Entity Framework doesn’t know when they occur.

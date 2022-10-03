@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - kanban
-    - 'mainstream effect'
+    - Kanban
+    - 'Mainstream Effect'
 ---
 
 Kanban boards are now becoming so popular that they are subject to the [mainstream effect](/2016/01/the-mainstream-effect/). This means that it is worth thinking about some of the common problems.

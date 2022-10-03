@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - github
+    - GitHub
 ---
 
 This error came from resolving an import through VITE, but it could happen just as easily for any file reference / import when you have working imports locally that fail when you run GitHub Actions. It’s worth keeping this information somewhere in your brain for later as I had to guess my way to the answer.

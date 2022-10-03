@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 In a previous life, I used FILESTREAM to store images for product listings in a multi-tenant SaaS platform running about 1,000 websites. The sites listed “in stock” items along with a bunch of images showing pictures of the item to show all the features and any wear and tear. At the time we were running a private infrastructure across a bunch of virtual machines in a few different places – the whole platform has since gone cloud-native and doesn’t use FILESTREAM now.

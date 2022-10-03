@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - ux
+    - UX
 ---
 
 When you have a tough design choice to make, it is common for the ideas to be bounced around within an informal committee. This causes a premature convergent stage in the design, where each committee member adds to the shopping list of requirements, or to the banned list of what cannot be done. Good user experience doesn’t come from a committee and it certainly doesn’t come from narrowing choices before a divergent phase has been used to generate more options.

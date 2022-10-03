@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I am working on a database with a really big table. In total it contains something in the region of 50GB of data. This was a rare occasion where we wanted to re-generate the data in this table and wanted to completely clear down the table in a master database that has seven subscribers.

@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - aop
-    - typescript
+    - TypeScript
 ---
 
 Update! I am actually using decorators for this kind of thing these days. Original article below.

@@ -10,8 +10,7 @@ medium_post:
 categories:
     - 'Visual Studio'
 tags:
-    - tfs
-    - vsts
+    - Azure DevOps
 ---
 
 TL;DR: This is caused by adding a parent/child relationship between two cards.

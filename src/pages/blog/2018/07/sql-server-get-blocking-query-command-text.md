@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you have a blocking query, you probably follow a set of manual steps a bit like this…

@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - vsts
+    - 'Azure DevOps'
 ---
 
 This article explains how using TFS for Agile can result in some really bad behaviours. This is not an attack on TFS; I believe it can be used effectively at all stages of the Agile process and feels more joined up than using one tool to manage a backlog, another to track bugs, yet another to perform and record tests, something else for version control and so on.

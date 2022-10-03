@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I have been working out how to create a TypeScript NotFunction type for a while, in response to a Stack Overflow question. With the arrival of conditional types, I think there may be a way. It’s not perfect – but it does work.

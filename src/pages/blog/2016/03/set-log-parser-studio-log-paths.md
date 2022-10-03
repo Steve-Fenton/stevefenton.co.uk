@@ -9,9 +9,9 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
 ---
 
 Log parser studio has a handy UI for adding log file paths, but if you have a shared hosting server with loads of IIS sites, each logging to a different directory – you’ll want to automate the list of log file paths.

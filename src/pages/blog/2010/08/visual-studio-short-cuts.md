@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - productivity
+    - Productivity
 ---
 
 This week I was lucky enough to attend Guathon 2010 in Covent Garden, London and as I found out so much amazing information, I’m chopping it into small pieces and putting it up here for those who missed out. In this article I’m going to divulge a few of the awesome Visual Studio short-cuts that Scott Guthrie shared with a packed Screen 2 at the Odeon. Please note, some of these will only work in Visual Studio 2010!

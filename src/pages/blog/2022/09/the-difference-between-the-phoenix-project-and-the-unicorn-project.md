@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - devops
+    - DevOps
 ---
 
 This is a short post to explain the difference between The Phoenix Project and The Unicorn Project. Funnily enough, there are more similarities than differences (though it’s a key difference).

@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 Having helped a lot of programmers to take their first steps with ASP.NET MVC, I can safely say that the most common rookie error is to re-use your domain model in your view model.

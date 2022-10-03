@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 When you first encounter TypeScript (or JavaScript) destructuring it looks a little bit magic, especially in object destructuring where it looks like you are doing everything in a mirror (the names go on the right!). If you find destructuring a little confusing – strap yourselves in and we’ll rush our way to an example of deep destructuring.

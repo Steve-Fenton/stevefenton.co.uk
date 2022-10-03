@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you need to find gaps in a sequence (for example, gaps in an ID column, or in a sort order column, etc) you can use the below query.

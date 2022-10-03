@@ -11,9 +11,9 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
-    - javascript
+    - CSS
+    - HTML
+    - JavaScript
 ---
 
 Creating a cool background effect on your web page is really easy and thanks to the innovation of the CSS working group, you can now create really smooth animations using JavaScript to handle events and CSS to do the heavy lifting.

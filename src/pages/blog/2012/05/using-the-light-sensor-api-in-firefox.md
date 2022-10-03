@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - firefoxos
-    - javascript
+    - FirefoxOS
+    - JavaScript
 ---
 
 As of Firefox 14 (or 15 if it doesn’t make it in time) you can start using the experimental light-sensor API. This allows you to get the current ambient light in lux, which measures luminous flux per unit area.

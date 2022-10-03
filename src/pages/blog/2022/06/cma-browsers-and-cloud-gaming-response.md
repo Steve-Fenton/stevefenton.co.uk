@@ -8,7 +8,7 @@ authors:
 categories:
     - Browsers
 tags:
-    - cma
+    - CMA
 ---
 
 The Web is an amazing open platform, but a few times in the history of The Web we have faced challenges keeping it in great shape. When Microsoft had a browser monopoly with Internet Explorer, they were required not only to allow competing browsers but to actively prompt users to select from competitor browsers.

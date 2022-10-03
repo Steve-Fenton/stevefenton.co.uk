@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 One of the common practices I have seen from people using JMeter is that of putting lots of listeners in their performance tests. There are a few good reasons to avoid this practice.

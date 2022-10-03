@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - ARR
-    - iis
+    - IIS
     - load balancing
 ---
 

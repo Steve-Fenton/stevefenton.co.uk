@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 Unlike my recent article on [Global Using Statement and Code Clues](/2021/08/global-using-statements-and-code-clues/), the new namespace declarations have no trade offs and you should just auto-fix them in your whole project and move on with your life. Here’s how we do namespace before namespace declarations:

@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 This is something I don’t seen done a lot in real life, so I thought I’d write briefly about it. This topic gets a lot of talk, but not much action and in reality I think schedule pressures are the most likely reason for this refactoring (and most others) never actually get considered.

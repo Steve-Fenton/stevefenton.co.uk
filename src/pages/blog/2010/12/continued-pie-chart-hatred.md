@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 You might have heard me mention that pie charts are bad and should never be used and you may have read my article explaining [why you should never use pie charts](/2009/04/pie-charts-are-bad/). Well, every now and then a really good example pops up to illustrate exactly why you shouldn’t waste time on those little circular devils, and here is just such an example.

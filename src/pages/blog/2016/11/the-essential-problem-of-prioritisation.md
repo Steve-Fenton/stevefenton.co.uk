@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - prioritisation
-    - wsjf
+    - Prioritisation
+    - WSJF
 ---
 
 One of the messages I frequently find myself communicating is that *most work sits in a queue much longer than it sits on a desk being worked on*. When coaching people about the dangers of date-based commitments I like to point out that they will blast straight past the date by simply waiting to start the work. The amount of time a job takes is irrelevant when you fail in your commitment due to the work not being started.

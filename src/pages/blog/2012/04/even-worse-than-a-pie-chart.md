@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 ![Hideous Pie Chart](/img/2015/07/hideous_pie_chart.jpg)How long has it been since I last spotted a rubbish pie chart. Okay, I admit it – it was last month. It is actually quite easy to spot them because [actually all pie charts are awful](/2009/04/pie-charts-are-bad/).

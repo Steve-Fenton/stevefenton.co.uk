@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you attempt to create a user in SQL Server and get the following error:

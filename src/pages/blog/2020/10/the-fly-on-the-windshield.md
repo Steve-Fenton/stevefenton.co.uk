@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Opinion
 tags:
-    - work
+    - Work
 ---
 
 Every organisation has to deal with this problem. It has been described in many different ways, including the famous [quaductionism](/2017/10/quaductionism-clarity-via-reductionism/) of “Urgent vs Important” to the simplicity of phrases like “firefighting”. Yes, it’s all those tasks that people seem to want now, which are stopping you from doing the real work.

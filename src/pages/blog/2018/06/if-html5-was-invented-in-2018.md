@@ -11,8 +11,8 @@ image: /wp-content/uploads/2018/06/Screenshot_2018-06-01-22-13-36.jpg
 categories:
     - Programming
 tags:
-    - html
-    - 'random thought'
+    - HTML
+    - 'Random Thought'
 ---
 
 ![Thinking Cat](/wp-content/uploads/2018/06/Screenshot_2018-06-01-22-13-36.jpg)

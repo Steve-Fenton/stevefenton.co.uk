@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - 'noestimates'
-    - estimates
+    - Estimates
 ---
 
 Yes, this is a sub-post! A reaction to a post titled “Why Devs (Should) Like Estimates”. I try not to get involved in industry conversations about estimation (or, indeed, #NoEstimates) as it can get very dicey at a general level in ways that simply don’t occur for a specific team or organisation. I’ll briefly qualify this before I continue with why devs *should* understand estimates. When you sit down with the people who are spending money in the hope of some return (business), and the people able to take that money and generate something more valuable than the cash itself (technical), you can usually resolve the questions of whether estimates are needed, what form they will take, and how they will be used. It’s rarely a difficult conversation because when you know the purpose of an estimate, you can select a method that matches the need. This is very important, so I’ll do a dramatic inverse pull-quote…

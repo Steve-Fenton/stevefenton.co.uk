@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - replication
-    - snapshot
-    - sql
+    - Replication
+    - Snapshot
+    - SQL
 ---
 
 If you have read the documentation, you will have found that in modern versions of SQL Server you can run schema changes (with a small number of exceptions) and have them replicated out to subscribers. This applies to multiple kinds of replication, but this article is about transactional replication in particular.

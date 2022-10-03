@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I have talked before about [highly dynamic instantiation of classes in TypeScript](/2014/07/creating-typescript-classes-dynamically/), for example when you know it’s name – but a common question that keeps coming up is:

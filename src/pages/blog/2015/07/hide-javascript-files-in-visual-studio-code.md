@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - typescript
-    - vscode
+    - TypeScript
+    - VSCode
 ---
 
 I have an updated version of this post available here: [Exclude Files from Visual Studio Code’s File Explorer](/2018/02/exclude-files-visual-studio-code-file-explorer/), with updates based on some very nice UI changes that make this just a little bit easier than it was in 2015 when I wrote this.

@@ -8,10 +8,10 @@ authors:
 categories:
     - Programming
 tags:
-    - firefoxos
-    - javascript
-    - sensor
-    - typescript
+    - FirefoxOS
+    - JavaScript
+    - Sensor
+    - TypeScript
 ---
 
 Rather sadly, the FirefoxOS project got binned, which removed the momentum of the device sensor APIs that Mozilla was the big sponsor of.

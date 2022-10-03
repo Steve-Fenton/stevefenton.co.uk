@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - java
-    - php
-    - typescript
+    - C-Sharp
+    - Java
+    - PHP
+    - TypeScript
     - vb
 ---
 

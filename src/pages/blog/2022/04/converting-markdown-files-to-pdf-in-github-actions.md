@@ -10,7 +10,7 @@ categories:
     - Programming
 tags:
     - Actions
-    - github
+    - GitHub
 ---
 
 I needed to take a bunch of markdown files and convert them into a PDF, with all images present and correct, and using a CSS-based stylesheet. Behind the scenes, this is usually done using an intermediate HTML step. My attempts to solve this issue took me down a few different paths, so I thought I’d share the eventual solution to save myself time in the future.

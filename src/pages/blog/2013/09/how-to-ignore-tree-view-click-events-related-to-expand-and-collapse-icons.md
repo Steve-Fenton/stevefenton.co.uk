@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 The official documentation for the System.Windows.Forms.TreeView NodeMouseClick event reliably confirms that:

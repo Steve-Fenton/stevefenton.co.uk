@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 It seems like every time someone shows off their ASP.NET MVC application to me I have to make the same observation about their models, so I’ve decided to put the explanation online to save myself a great deal of repetition.

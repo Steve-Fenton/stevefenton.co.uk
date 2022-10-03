@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - javascript
-    - jmeter
+    - JavaScript
+    - JMeter
 ---
 
 There are many reasons for manipulating variables in JMeter, especially when you are loading data from a [CSV data set](/2014/03/really-useful-jmeter-csv-data-set-config/) config element. You might want to trim a JMeter variable, or grab just a substring.

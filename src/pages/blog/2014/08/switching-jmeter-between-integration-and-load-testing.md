@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 We have been re-using our JMeter integration tests as load tests, which has been a great way of discovering various slow-downs in our REST APIs (in particular, we found that a large backup process slowing down our network significantly at 1am each morning).

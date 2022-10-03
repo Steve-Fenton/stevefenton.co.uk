@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - tdd
+    - TDD
 ---
 
 I promised to write up the details of this after writing the following Tweet while listening to Ian Cooper talk on “TDD: Where did it all go wrong?” at DevSouthCoast in April.

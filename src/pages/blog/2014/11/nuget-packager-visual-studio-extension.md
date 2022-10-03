@@ -11,7 +11,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - nuget
+    - Nuget
 ---
 
 This is a quick article that describes how to use the ace [NuGet Packager](https://visualstudiogallery.msdn.microsoft.com/daf5c6db-386b-4994-bdd7-b6cd52f11b72) Visual Studio Extension.

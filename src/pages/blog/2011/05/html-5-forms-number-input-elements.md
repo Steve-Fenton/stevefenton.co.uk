@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 I have been looking in detail at HTML 5 forms and in particular at some of the new attributes, special input types and [date-related input types](/2011/05/HTML-5-Forms-Date-Input-Elements/). In this post I’m going to look at some numeric input types in HTML 5.

@@ -12,7 +12,7 @@ categories:
     - Automation
 tags:
     - csv
-    - jmeter
+    - JMeter
 ---
 
 I wrote an article recently about the [parameterized Controller plugin](http://www.stevefenton.co.uk/Content/Blog/Date/201403/Blog/Really-Useful-JMeter-Plugins-Parameterized-Controller/) for JMeter. Today I’m going to present an even more flexible way to run different sets of data through the same test.

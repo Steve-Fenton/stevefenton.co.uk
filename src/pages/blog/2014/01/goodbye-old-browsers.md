@@ -11,9 +11,9 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
-    - javascript
+    - CSS
+    - HTML
+    - JavaScript
 ---
 
 I am officially ditching the [HTML5 shim for old browsers](/Content/Blog/Date/200907/Blog/HTML-5-Browser-Test/) and here is why.

@@ -9,9 +9,9 @@ categories:
     - Automation
     - Programming
 tags:
-    - octopus
-    - powershell
-    - sql
+    - Octopus
+    - PowerShell
+    - SQL
 ---
 
 We are using [model-based deployments using Visual Studio database projects and Octopus Deploy](/2015/06/packaging-visual-studio-database-project-with-octopack/). One of the things you can’t do when performing DacPac deployments is include a pre-deployment scrip to disable replication prior to running the deployment (although you can re-enable it in a post-deployment script).

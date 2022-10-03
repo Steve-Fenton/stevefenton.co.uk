@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 I don’t talk about jQuery very much because I avoid it wherever possible. However, I was working on some custom inputs that needed to respond to a number of events, including specific keys on the keyboard. To achieve this, I wrote a little jQuery extension called “bindactions” that allows you to get it all in one simple hit, with defaults to make the enter key and space bar active (and all other keys ignored).

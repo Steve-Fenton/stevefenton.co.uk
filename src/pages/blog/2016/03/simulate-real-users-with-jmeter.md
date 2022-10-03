@@ -8,9 +8,9 @@ authors:
 categories:
     - Automation
 tags:
-    - jmeter
-    - 'load testing'
-    - 'performance testing'
+    - JMeter
+    - 'Load Testing'
+    - 'Performance Testing'
 ---
 
 If you are setting up a JMeter test to simulate user load on your website or web application, you’ll need to follow these steps to make your tests as realistic as possible.

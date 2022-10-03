@@ -11,9 +11,9 @@ bannerImage:
 categories:
     - Programming
 tags:
-    - ddd
-    - economics
-    - ethics
+    - DDD
+    - Economics
+    - Ethics
 ---
 
 One of the consitent truths I have found in every development team I have worked with is that there is more work that can possibly be done. A great deal more. For the forseeable future, this will always be the case. I can come up with an innovative new idea by chance one Sunday afternoon. It’s sometimes a flash of inspiration. Maybe two or three minutes and the idea is created. If I choose to implement the idea, it is an initial investment of hundreds of hours followed by a regular trickle of sustaining maintenance on the idea until I decide to let it go. Ideation is often a billion times faster than implementation.

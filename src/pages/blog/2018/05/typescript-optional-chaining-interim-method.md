@@ -11,8 +11,8 @@ image: /wp-content/uploads/2018/05/optional-chaining.jpg
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 ![Broken Chain with Rusty Link](/wp-content/uploads/2018/05/optional-chaining.jpg)

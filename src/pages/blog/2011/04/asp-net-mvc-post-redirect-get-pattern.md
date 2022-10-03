@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
     - patterns
 ---
 

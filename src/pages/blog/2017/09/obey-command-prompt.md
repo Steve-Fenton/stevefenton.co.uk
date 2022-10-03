@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'command prompt'
-    - productivity
+    - 'Command Prompt'
+    - Productivity
 ---
 
 I don’t know how this is possible, but you can be programming computers since all they were was a command prompt… and some young whipper-snapper can still surprise you with an awesome productivity trick.

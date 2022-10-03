@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - testing
+    - Testing
 ---
 
 This article talks about what I like to call the “Four Ss” of performance testing. They don’t actually all begin with “S” – but if reading, writing, and arithmetic can be described as the “Three Rs”, I’m not going to constrain myself either.

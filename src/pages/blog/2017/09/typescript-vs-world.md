@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This is the shortest note possible to warn you about the “TypeScript vs Babel”, “TypeScript vs JavaScript”, “TypeScript vs… pretty much everything in the world” articles out there.

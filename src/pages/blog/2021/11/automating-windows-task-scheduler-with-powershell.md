@@ -9,7 +9,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - powershell
+    - PowerShell
 ---
 
 If you are dealing with Windows Task Scheduler, you will almost certainly benefit from being able to automate tasks using PowerShell. Here are some useful tricks to get you started. We’ll use a scenario where we want to re-create a Task Schedule automatically, which will involve:

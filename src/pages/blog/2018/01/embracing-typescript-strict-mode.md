@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript has had the `strict` compiler option for a while now. It enables several more stringent checks, including two of my favourites: `noImplicitAny` and `strictNullChecks`. My summary of strict mode would be this…

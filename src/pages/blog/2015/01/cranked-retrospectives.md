@@ -11,7 +11,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - cranked
+    - Cranked
 ---
 
 There was a glorious moment in 2014 where I worked on a team that really started pushing the boundaries of agile and lean software development. We wrote about it in a book titled [Cranked: a lean and agile software development method](http://www.amazon.co.uk/Cranked-Martin-Milsom/dp/1291918795/). The team achieved this by throwing out the worn-out retrospective routine that is so common in agile teams.

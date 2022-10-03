@@ -11,8 +11,8 @@ categories:
 tags:
     - Anthropomorphic
     - Brain
-    - rattomorphic
-    - reason
+    - Rattomorphic
+    - Reason
 ---
 
 Most humans have a feeling that we have a certain amount of self-direction. The thought that we are simply a combination of DNA passed to us from our ancestors (nature) with a sprinkle of experiences (nurture), which combine to give us predictable responses to stimulation seems alien.

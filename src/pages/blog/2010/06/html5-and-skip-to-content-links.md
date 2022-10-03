@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 If you’ve done web development with any focus on accessibility, you will have found yourself creating “skip to” links on your web page. You may have noticed that I have these very links on this website and wondered what they are! The two links, “skip to navigation” and “skip to content” are of little use to most users, who probably don’t even need to scroll down the page to find what they are after. However, for users with impaired vision, they are incredibly useful.

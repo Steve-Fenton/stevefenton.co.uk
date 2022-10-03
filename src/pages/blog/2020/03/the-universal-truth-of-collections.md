@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'product management'
+    - 'Product Management'
 ---
 
 The BBC has been running a series called *Secrets of the Museum*, which features a behind the scenes look at the Victoria and Albert Museum in London. The longer I watched this fascinating show, the more it revealed one of the universal truths of humanity; it’s propensity to collect things and it’s inability to limit such collections to a sustainable size.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 As the JavaScript and TypeScript communities move towards module loading in greater numbers, the topic of bundling came up in conversation. Bundling has that deceptive sparkling aura of “best practice” around it that means people can think you should *just use bundling* as a default practice. I am hoping to disrupt this thinking, particularly for teams using continuous delivery / continuous deployment / continuous all the things.

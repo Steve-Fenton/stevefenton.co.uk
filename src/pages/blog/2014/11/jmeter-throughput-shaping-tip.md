@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 Here is a quick tip about JMeter’s throughput shaping capability, when using the jp@gc Throughput Shaping Timer.

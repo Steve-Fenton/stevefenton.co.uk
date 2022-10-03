@@ -12,9 +12,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - html
-    - javascript
+    - C-Sharp
+    - HTML
+    - JavaScript
 ---
 
 ![Cruise Control Radiator](/img/2015/07/cctray_radiator.jpg)I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.

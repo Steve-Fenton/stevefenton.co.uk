@@ -9,7 +9,7 @@ categories:
     - Automation
     - CMS
 tags:
-    - kentico
+    - Kentico
 ---
 
 I found this problem while investigating a marketing automation issue in Kentico. The problem reported was that the standard abandoned basket feature wasn’t sending the configured email. I must admit, my first checks were to ensure the SMTP configuration was correct – and that the scheduled task within Kentico was running. The actual fix was much simpler.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 When I originally discovered that [TypeScript interfaces can extend classes](/2013/06/TypeScript-Interfaces-Can-Extend-Classes/), I thought it was novel – but lacking in real-world usages.

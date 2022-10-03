@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 This is a quick guide to the modern method of getting a 100% high chunk of content without a lot of fuss. This technique also works for creating a 100% chunk of content, with more content being appended after the fold.

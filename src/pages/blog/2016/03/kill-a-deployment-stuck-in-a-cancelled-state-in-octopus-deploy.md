@@ -9,9 +9,9 @@ categories:
     - Automation
     - Programming
 tags:
-    - deployments
-    - octopus
-    - sql
+    - Deployments
+    - Octopus
+    - SQL
 ---
 
 This very rarely happens in Octopus Deploy, but if something catastrophic happens you may find it useful. I discovered this when the SQL Database server that has the OctopusDeploy database on was switched off during a deployment.

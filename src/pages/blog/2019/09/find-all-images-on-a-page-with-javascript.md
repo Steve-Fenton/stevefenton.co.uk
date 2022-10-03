@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - https
-    - javascript
+    - HTTP
+    - JavaScript
 ---
 
 One of the most common issues I see in content-managed websites is the presence of a fully-qualified image address that isn’t secure when the website itself is. When this happens, you’ll need to find all images that aren’t secure and fix them.

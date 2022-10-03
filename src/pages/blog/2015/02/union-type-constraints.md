@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 When you use a union type in TypeScript, the union type is eligible to be used as a generic type constraint. Let’s look at an example.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - powershell
+    - PowerShell
 ---
 
 I needed to get a history of completed pull requests from Azure DevOps and the simplest way to do this was to call the Azure DevOps REST API from a PowerShell script. The examples below assume you have already created a Personal Access Token, which you can get from the User Settings menu in Azure DevOps.

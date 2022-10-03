@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 Last month, some eagle-eyed folk spotted a change in the C# 11 pipeline. This triggered a [fair bit of discussion](https://github.com/dotnet/runtime/pull/64720) about the new feature. In this post I’ll dig a bit into the decision and explain a bit more about the feature.

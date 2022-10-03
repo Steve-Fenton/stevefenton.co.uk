@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - powershell
+    - PowerShell
 ---
 
 This is the second old-school post this week. Hey, I’m clearing the decks of some odd stuff that I had to do. Today, it’s uploading all files in a folder (but not sub-folders) to FTP, if they have been updated in the past 24 hours.

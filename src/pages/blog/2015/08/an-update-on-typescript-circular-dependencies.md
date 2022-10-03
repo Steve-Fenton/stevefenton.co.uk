@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The discussion on circular dependencies when loading AMD modules has come up many times. The answer has always been that you have to refactor your program to remove the circular dependency as there is no way you can expect the module loader to solve this problem for you.

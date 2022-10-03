@@ -10,8 +10,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - tsunit
-    - typescript
+    - TSUnit
+    - TypeScript
 ---
 
 Users of tsUnit who want to get stuck into some TypeScript 1.3 goodness will be pleased to hear that tsUnit 1.6.0 is now available on NuGet.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 One of the most inspiring sections of Tech Days in London today was the introduction to HTML 5 form elements, part of [Bruce Lawson’s](http://www.brucelawson.co.uk/) presentation. Bruce introduced many of the new form elements and also touched on the new attributes you can use in conjunction with the new types.

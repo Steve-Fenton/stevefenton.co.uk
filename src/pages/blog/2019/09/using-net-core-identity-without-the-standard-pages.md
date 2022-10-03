@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - core
-    - identity
+    - Core
+    - Identity
 ---
 
 This is a quick article about using .NET Core Identity without the standard pages. It was almost titled “why does .NET Core Identity ignore my LoginPath that I set in options?”.

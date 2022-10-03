@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 Despite all of the technological advances of the past 100 years, people still print web pages for many reasons. They might need to take some information into a meeting, find it easier to work off of printed instructions or even just want to frame an excellent blog article that has inspired them and put it on the wall next to their desk.

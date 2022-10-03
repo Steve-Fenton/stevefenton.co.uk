@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 ![Duck of Vaucanson](/img/2017/10/Duck_of_Vaucanson.jpg)We’ve all read JavaScript: The Good Parts, and there is plenty of wisdom in Douglas Crockford’s landmark work. His reminder that eval is evil has echoed through the JavaScript community and saved many people from a total mess.

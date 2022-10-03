@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Browsers
 tags:
-    - firefox
+    - Firefox
 ---
 
 If you haven’t checked out the native Firefox Developer Tools in a while, it is time to take another look – even if you are an avid Firebug fan. The native tools are nothing short of brilliant.

@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 We have a multi-tenant website that allows a single app to be deployed to a web farm to manage requests for ~1,000 different websites. Content and themes are looked up based on the host name. Traditionally, we used a component list to customise the HTML served for each theme, where you could set specific components for things such as navigation and apply the theme to that custom component. Recently we pivoted towards an alternative mechanism that allows themes to use a custom folder with HTML views.

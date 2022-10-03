@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - nginx
+    - Nginx
 ---
 
 I was looking at a problem with a website that was sending a 0kb download to some mobile users instead of a web page. It turned out that it was only Samsung Galaxy users.

@@ -11,7 +11,7 @@ categories:
     - Process
     - 'Visual Studio'
 tags:
-    - 'task boards'
+    - 'Task Boards'
 ---
 
 Visual Studio Team Services recently got custom states for work items. The simplest way to use this new feature is to create a custom state for each column on your Kanban board (previously, tasks had to be “Committed” all the way through the board).

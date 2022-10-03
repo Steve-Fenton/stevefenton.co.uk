@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 This article simply promotes the use of the statement `if (x == null)` when you want to check if a value is either `null` or `undefined`. I keep on having to explain this point, because catching null or undefined without side effects is important.

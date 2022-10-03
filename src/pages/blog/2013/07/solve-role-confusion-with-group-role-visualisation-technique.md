@@ -14,7 +14,7 @@ categories:
     - Process
 tags:
     - leadership
-    - roles
+    - Roles
 ---
 
 I talk to a lot of teams and role confusion is common. If you haven’t come across role confusion (lucky you) or have, but didn’t know it had a name (unlucky you), Role Confusion is where people aren’t sure where responsibility lies because there is a lack of clarity or context. You can tell when there is role confusion because people start tripping over each other. People get upset that someone is making decisions that they thought they would be involved in. Power struggles, subterfuge and mutiny start chipping away at morale.

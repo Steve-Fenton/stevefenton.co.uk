@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This is a super quick one. Be super-careful about how you name your custom type guards to stop consumers falling into a trap. Basically, the name you give a custom type guard *and* the return type you specify form a kind of promise that you have to be able to keep. Take this example:

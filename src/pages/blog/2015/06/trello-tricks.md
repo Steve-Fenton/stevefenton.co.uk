@@ -11,7 +11,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - trello
+    - Trello
 ---
 
 Useful terms:

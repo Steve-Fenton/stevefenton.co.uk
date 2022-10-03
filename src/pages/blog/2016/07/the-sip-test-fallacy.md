@@ -12,8 +12,8 @@ categories:
     - Programming
     - Psychology
 tags:
-    - strategic
-    - tactical
+    - Strategic
+    - Tactical
 ---
 
 Why do people buy an expensive brand even though a much cheaper alternative beats the brand in a taste test?

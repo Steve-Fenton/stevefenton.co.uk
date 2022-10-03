@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
-    - python
-    - ruby
+    - Jekyll
+    - Python
+    - Ruby
 ---
 
 There are three parts to this quick start on running Jekyll on Windows. This assumes you pulled an existing Jekyll repo and want to run it locally. If you want to create something new, there’s a command for that, which you can run at the end of the install process before you serve the site `jekyll new sitename`

@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
     - wcf
 ---
 

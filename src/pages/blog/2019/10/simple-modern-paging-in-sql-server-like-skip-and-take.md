@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you have been developing SQL Server databases for a while, you may remember performing *neat tricks* to implement paging. If you haven’t found it yet, there is a simple modern way to do paging in SQL Server that doesn’t require any tricks.

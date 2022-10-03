@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/02/queue.jpg
 categories:
     - Process
 tags:
-    - queues
+    - Queues
 ---
 
 ![Queues](/img/2018/02/queue.jpg)

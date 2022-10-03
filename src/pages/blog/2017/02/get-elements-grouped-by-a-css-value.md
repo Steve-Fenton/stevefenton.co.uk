@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - css
-    - javascript
+    - CSS
+    - JavaScript
 ---
 
 The following script allows you to group all elements on a web page by a particular CSS value. So for example, if you specify ‘fontFamily’, you’ll get a list of font families used on the website, and a list of all elements using each one.

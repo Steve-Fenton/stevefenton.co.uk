@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - optimization
-    - sql
+    - Optimization
+    - SQL
 ---
 
 When I was working on SQL 2000 databases back in the day, the ordering of your joins and where clauses could make an insane difference to query performance. I was working on a reconciliation system that grew by a million records a month – so a simple re-order of a where clause would blast a five-minute query into a sub-second query.

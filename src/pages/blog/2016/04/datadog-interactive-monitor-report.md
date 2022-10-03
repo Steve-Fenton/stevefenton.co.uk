@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - datadog
-    - monitoring
+    - Datadog
+    - Monitoring
 ---
 
 There are two competing fundamental needs for web operations… reducing false alarms, and ensuring you never miss a real incident!

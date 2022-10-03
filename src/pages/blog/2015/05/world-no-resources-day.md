@@ -9,7 +9,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - teams
+    - Teams
 ---
 
 Today (1st May) is World No Resources Day, a day intended to promote humanity in the workplace.

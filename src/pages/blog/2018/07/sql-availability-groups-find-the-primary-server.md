@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 Here is a quick SQL script that will get back information on SQL availability groups, including the role of each server. This can help you find the primary server in an availability group.

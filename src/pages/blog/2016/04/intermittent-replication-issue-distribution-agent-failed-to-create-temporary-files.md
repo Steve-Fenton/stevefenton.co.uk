@@ -10,9 +10,9 @@ categories:
     - Programming
     - Windows
 tags:
-    - powershell
-    - replication
-    - sql
+    - PowerShell
+    - Replication
+    - SQL
 ---
 
 This will seem like a strange issue, because everything will work perfectly well for a period of time – but then it will all go wrong and you’ll get an error such as:

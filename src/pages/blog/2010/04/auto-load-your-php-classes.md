@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - php
+    - PHP
 ---
 
 In PHP you can create classes to organise your code and represent objects that you want to pass around. This has long been a feature of other languages and was a fundamentally important step forward for PHP.

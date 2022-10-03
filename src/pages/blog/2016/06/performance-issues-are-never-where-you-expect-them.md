@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - performance
-    - 'performance testing'
+    - Performance
+    - 'Performance Testing'
 ---
 
 Donald Knuth has become one of my go-to quotes recently\* in respect of optimisation…

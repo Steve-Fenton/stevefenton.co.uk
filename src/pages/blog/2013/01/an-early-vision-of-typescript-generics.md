@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Probably the most highly anticipated features of TypeScript is generics. They were a massive hit when they arrived in C# and there is no reason to suspect they will be any less popular with TypeScript programmers.

@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 There is often a bit of confusion surrounding the CSS sibling selector, or `~` as it is known to its friends.

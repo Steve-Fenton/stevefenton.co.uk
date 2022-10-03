@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 If you are hand-cranking an AJAX request, you’ll be looking for a Ready State of 4 and a Status of 200. But what other Ready State Codes are there and what do they mean?

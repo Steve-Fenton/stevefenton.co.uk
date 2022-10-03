@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Brocade
-    - 'load balancing'
+    - 'Load Balancing'
 ---
 
 I’m a long time user of HAProxy, but I’m currently working on getting Brocade set up to do similar work in our Sydney data centre.

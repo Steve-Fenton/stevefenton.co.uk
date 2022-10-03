@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 You didn’t know the “no implicit any” flag existed in TypeScript 0.8, so you won’t have noticed its disappearance from TypeScript 0.9 – but you might love it when it comes back in TypeScript 0.9.1…

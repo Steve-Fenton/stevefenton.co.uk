@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - wix
+    - WIX
 ---
 
 WiX is great – but sometimes complex. Most of the complexity comes from needed to adjust things in many places to make a single thing work. For that reason, I feel the need to document the many steps required to do the following:

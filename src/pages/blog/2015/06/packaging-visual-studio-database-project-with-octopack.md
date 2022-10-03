@@ -9,9 +9,9 @@ authors:
 categories:
     - Automation
 tags:
-    - octopus
-    - powershell
-    - sql
+    - Octopus
+    - PowerShell
+    - SQL
 ---
 
 [![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)The prevalent method of packaging databases for Octopus Deploy is to use update scripts, along with a tool such as DbUp or ReadyRoll to perform the upgrade and manage which scripts have been run on each environment.

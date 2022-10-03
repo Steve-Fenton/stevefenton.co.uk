@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - Astro
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 When you have blogs, articles, news, or similar collections of posts in Astro, you can generate paged lists of these items automatically. The mechanism to do this involves two key components.

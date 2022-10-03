@@ -9,10 +9,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - images
-    - mvc
-    - responsive
+    - C-Sharp
+    - Images
+    - MVC
+    - Responsive
 ---
 
 Responsive images have been around for a while and have wide browser support as well as a strong fallback story for older browsers. The one thing holding us back from using them is the manual workflow…

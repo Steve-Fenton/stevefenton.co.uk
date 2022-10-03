@@ -8,7 +8,7 @@ authors:
 categories:
     - Browsers
 tags:
-    - edge
+    - Edge
 ---
 
 There is a cool new feature in Microsoft Edge that pastes links with rich formatting. If you copy a link from the page or from the address bar, it will paste in a rich format, so instead of seeing `https://www.example.com/` you’ll see `Example Website (example.com)` and it will already be linked to your selected destination. You can choose to “Paste as Plain Text” in applications that give you that option.

@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 If you are going to use a pie chart ([please don’t use a pie chart](/2009/04/pie-charts-are-bad/)) then you need to know the rules of the pie chart. I actually don’t think anyone ever needs to use a pie chart, they are <del>very nearly</del> always the wrong chart for the data you want to display and despite the fact that you now think that your chart is in the small percentage of charts that would work as a pie chart you are actually wrong and should think about perhaps using a column chart, or a pie chart or a line graph. Not as sexy as a pie chart, but much better for displaying data.

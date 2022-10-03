@@ -11,8 +11,8 @@ authors:
 categories:
     - Pie Charts
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 Since 1801, pie charts having been displaying information and statistics about all kinds of things. From population to profit, market share to margins and, presumably, the most popular pastry-encased dinners. Pie charts are as popular in the statistics world as their namesakes are in the culinary world. Despite this popularity, there are some convincing reasons to avoid using them altogether. Essentially, pie charts are bad *at drawing insights from data*.

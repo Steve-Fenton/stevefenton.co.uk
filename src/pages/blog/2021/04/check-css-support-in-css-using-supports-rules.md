@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 For many years, [Can I Use?](https://caniuse.com/mdn-css_properties_aspect-ratio) has been the go-to place to find out whether a browser supports a certain feature, like CSS aspect-ratio. However, what do you do when you need to add some additional styling if the browser doesn’t support a feature? Well, in an almost paradoxical way – you can use the `@supports` rule, erm, [if your browser supports it](https://caniuse.com/css-featurequeries).

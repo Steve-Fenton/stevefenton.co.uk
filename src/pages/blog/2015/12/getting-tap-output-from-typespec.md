@@ -10,8 +10,8 @@ categories:
     - Programming
 tags:
     - BDD
-    - typescript
-    - typespec
+    - TypeScript
+    - TypeSpec
 ---
 
 If you want to get your TypeSpec test output in TAP (Test Anything Protocol) format, there is a built-in test reporter that will do this for you.

@@ -9,10 +9,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - core
-    - entityframework
-    - identity
+    - C-Sharp
+    - Core
+    - 'Entity Framework'
+    - Identity
 ---
 
 You will usually come across this problem in .net Core Entity Framework when you first override the `OnModelCreating` method in your `DbContext`.

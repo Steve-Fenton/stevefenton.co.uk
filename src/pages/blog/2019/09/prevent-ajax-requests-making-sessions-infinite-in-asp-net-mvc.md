@@ -10,8 +10,8 @@ categories:
 tags:
     - Ajax
     - ASP.NET
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 If you are terminating inactive sessions in your ASP.NET MVC application and you add an AJAX polling call, the chances are you’ll make your sessions last forever thanks to the AJAX request bringing down an updated session cookie.

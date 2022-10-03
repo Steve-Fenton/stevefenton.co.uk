@@ -12,8 +12,8 @@ categories:
     - 'Pie Charts'
     - Programming
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 Percentages can be absolutely brilliant. They can remove a ton of distractions and questions and give you a strong indication of some numbers. For example, it is handy to know that 30% of your visitors are browsing using Internet Explorer and 4% are using Opera. This is probably easier to grasp as a percentage rather than being presented with a series of big numbers against each browser.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
     - xml
 ---
 

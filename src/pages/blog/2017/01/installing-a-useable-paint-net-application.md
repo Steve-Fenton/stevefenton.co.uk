@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - drawing
-    - graphics
+    - Drawing
+    - Graphics
     - paint.net
 ---
 

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 This post is a summary of the De-mystifying Linq session I ran on 24th January. The examples below were just on-the-spot examples created during the talk… The `System.Linq` namespace can seem a bit like magic, but it can be useful to demystify it by showing that it is actually just some C# code that we could write. In other words, the idea is absolute genius, but there is nothing in the implementation to scare us as we could write something similar. In this exercise, we’re going to write our own `Count` and `Where` implementations to show just how easy things can be.

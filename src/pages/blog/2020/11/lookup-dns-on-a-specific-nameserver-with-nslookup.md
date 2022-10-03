@@ -8,8 +8,8 @@ authors:
 categories:
     - Windows
 tags:
-    - dns
-    - nameservers
+    - DNS
+    - Nameservers
     - nslookup
 ---
 

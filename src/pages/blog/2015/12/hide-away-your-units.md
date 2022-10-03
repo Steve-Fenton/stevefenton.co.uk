@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - ood
-    - typescript
+    - OOP
+    - TypeScript
 ---
 
 If you have an object in your code, and that object has some kind of measurement, you might well have done this:

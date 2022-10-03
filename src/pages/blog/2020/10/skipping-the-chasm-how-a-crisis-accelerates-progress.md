@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - remote
+    - Remote
 ---
 
 Full credit to Geoffrey Moore, whose seminal *Crossing the Chasm* keeps proving to be a useful book thirty years after it was written. Credit also to Hans Baumhardt who introduced me to the book and who critically shaped my thinking about work and life. What I hope do, now that the credits are over, is explain how we are all currently being affected by a crisis in a positive way.

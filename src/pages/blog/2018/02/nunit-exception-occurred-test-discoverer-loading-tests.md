@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - nunit
+    - C-Sharp
+    - NUnit
 ---
 
 If you are using NUnit 3+ with the handy test adapter that shows the tests in the Visual Studio Test Explorer, you might come across an issue loading the tests:

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - mixins
-    - typescript
+    - Mixins
+    - TypeScript
 ---
 
 I had a feeling I would be writing this article when I first penned [TypeScript Mixins Part One](/2014/02/typescript-mixins-part-one/) back in 2014. For simplicity, I have used exactly the same program in this updated example, so you should find it easier to compare the simple mixins from the olden times, with the real mixins in this verison.

@@ -8,7 +8,7 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - vscode
+    - VSCode
 ---
 
 This isn’t actually another source of ignition for the endless flame war.

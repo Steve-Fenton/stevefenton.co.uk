@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 It is pretty well known these days that fiddling with `innerHTML` is terribly inefficient. It triggers serialization, and it can result in invalid markup. Nevertheless, you’ll still find this being done in many applications.

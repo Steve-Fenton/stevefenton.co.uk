@@ -12,8 +12,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - productivity
-    - programming
+    - Productivity
 ---
 
 I have been writing C# code in Visual Studio since 2003. One of the big attractions of C# is the tooling. Visual Studio is awesome. Over the years I have worked in lots of IDEs and editors, but my go-to tools are Visual Studio and Visual Studio Code. I don’t know who writes these tools, but they know what they are doing. For the past six years I have been using Visual Studio without *the famous extension[\*](#famous-extension)*. That means I have seen the continuous improvements to Visual Studio’s own auto-completion (IntelliSense) and refactoring tools. This week, though, we saw the release of a big leap in improvements; IntelliCode.

@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - metrics
+    - Metrics
 ---
 
 The long standing question of metrics, measurement and performance in Agile teams has people in quite a muddle. This is one of the most common themes of questioning on the forums and boards. People want to use velocity as a measure, or record detailed numbers about who did what tasks.

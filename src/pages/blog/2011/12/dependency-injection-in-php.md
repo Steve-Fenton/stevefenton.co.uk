@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - php
+    - PHP
 ---
 
 Dependency Injection solves the problem of dependencies in complex applications. Because we want to re-use our code rather than duplicate it in many places, we end up with more dependencies in our code, but Dependency Injection can ease the pain of dependencies and also make your code easier to test.

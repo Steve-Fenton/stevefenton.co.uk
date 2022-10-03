@@ -9,7 +9,7 @@ image: /wp-content/uploads/2020/07/process-quadrants-of-intent.jpg
 categories:
     - Process
 tags:
-    - 'software punk revolution'
+    - 'Software Punk Revolution'
 ---
 
 Process interests me. Refining and improving a process to make work more joyful and productive matters to me. But, what has become clear over the past thirty years is that in software development, process *just doesn’t matter*. Seriously. It doesn’t. It might just be because I’m becoming a [software punk revolutionary](/2020/07/the-software-punk-revolution/), but I suspect not.

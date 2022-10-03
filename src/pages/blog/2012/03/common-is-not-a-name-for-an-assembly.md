@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - java
+    - C-Sharp
+    - Java
 ---
 
 On almost every occasion where a developer is introduced to an existing code-base, they are given a tour of the application that includes am assembly or name-space called “Common”. Now, it isn’t necessarily called “Common” specifically, although more often than not it is, it can also be found under such names as “Core”, “Shared” and heaven forbid “ClassLibrary1”. On some occasions, you may even find you have more than one of these, for example you may have both “Shared” and “Common”, or you find that every sub-domain in your name-space contains a “Core”.

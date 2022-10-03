@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 Before we get started, [Ewald Hofman has an excellent blog post on how to write your own custom activities](http://www.ewaldhofman.nl/post/2010/05/13/Customize-Team-Build-2010-e28093-Part-5-Increase-AssemblyVersion.aspx) to do the same thing, which is actually quite a lot more graceful than using a batch file. If you are confused about which approach to take, use Ewald’s way of doing this. I suppose you could call this article “Automatically Updating Your AssemblyInfo *The Wrong Way*“.

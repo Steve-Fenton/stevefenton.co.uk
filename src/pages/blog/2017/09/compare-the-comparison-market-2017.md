@@ -8,8 +8,8 @@ authors:
 categories:
     - Opinion
 tags:
-    - comparison
-    - insurance
+    - Comparison
+    - Insurance
 ---
 
 So, I occasionally share my car insurance comparison shenanigans and it’s renewal time once again.

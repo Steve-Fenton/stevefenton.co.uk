@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - mvc
-    - routing
+    - MVC
+    - Routing
 ---
 
 If you have a public web application that you are upgrading from Web Forms to ASP.NET MVC, you may find yourself wanting to capture requests to the now obsolete .aspx addresses.

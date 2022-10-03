@@ -8,10 +8,10 @@ authors:
 categories:
     - Programming
 tags:
-    - data
-    - dbup
-    - deployments
-    - sql
+    - Data
+    - DbUp
+    - Deployments
+    - SQL
 ---
 
 I tuned into the [Octopus Deploy](https://octopus.com/) and [Clear Measure](https://www.clear-measure.com/) live stream on [safe, automated, and drama-free database deployments](https://youtu.be/RAl8rIj9MB8) and there was a flurry of really useful [DbUp](https://dbup.readthedocs.io/en/latest/) tips from Paul Stovell that I wanted to share.

@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - 'csharp'
-    - core
+    - C-Sharp
+    - Core
 ---
 
 The short version on the difference between `AddDefaultIdentity` and `AddIdentity` is the *default* part adds in all the built-in controllers and views for logging in, recovering accounts, and password resets but doesn’t add roles. You can, though, add roles to `AddDefaultIdentity` to get *all the things*.

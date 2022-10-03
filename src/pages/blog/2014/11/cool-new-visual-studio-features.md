@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - vs2015
+    - 'Visual Studio'
 ---
 
 Visual Studio had a big day today with the launch of the free Visual Studio Community edition (a full featured IDE that is free for non-enterprise use – i.e. some commercial use seems acceptable so read the fine print) and some announcements about Visual Studio 2015. Here are my highlights about Visual Studio 2015 in particular.

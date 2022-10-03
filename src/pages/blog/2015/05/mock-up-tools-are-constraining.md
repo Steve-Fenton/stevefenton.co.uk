@@ -9,8 +9,8 @@ authors:
 categories:
     - Windows
 tags:
-    - 'mock up'
-    - wireframe
+    - 'Mock Up'
+    - Wireframe
 ---
 
 There are lots of great mock up tools out there. Many have hand-drawn components ready for you to drag onto a wobbly scribbled-screen. In about 30 seconds you can mock up a screen with all of the usual controls that you would expect to find; check-boxes, inputs, buttons, drop-downs, links… and herein lies the problem.

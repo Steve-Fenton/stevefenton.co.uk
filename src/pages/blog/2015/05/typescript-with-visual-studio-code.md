@@ -9,8 +9,8 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - typescript
-    - vscode
+    - TypeScript
+    - VSCode
 ---
 
 Visual Studio Code is a new lightweight cross-platform editor that supports a whole bunch of languages, not least – TypeScript.

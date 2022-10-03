@@ -8,9 +8,9 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - 'csharp'
-    - mvc
-    - razor
+    - C-Sharp
+    - MVC
+    - Razor
 ---
 
 I had an annoying issue in Visual Studio 2015 whereby the views lost all intellisense. Errors such as “The name model does not exist” and lack of assitance with HTML Helper methods were accompanied by red squiggly lines.

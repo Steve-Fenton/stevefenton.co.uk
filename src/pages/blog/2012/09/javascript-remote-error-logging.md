@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 If you have written an application, you’ll know how useful error and exception logging can be. When a user detects a problem, the logs can often explain how it happened better than the user and very often you can find problems before anyone realises something has gone wrong.

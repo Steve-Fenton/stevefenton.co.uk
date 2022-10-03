@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 If you are running JMeter tests against software running on a computer or server, the chances are you’ll be manually matching your JMeter results with a graph of CPU or Memory Usage from the server.

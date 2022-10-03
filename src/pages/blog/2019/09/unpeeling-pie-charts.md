@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 For those of you still keen on using [pie charts](/category/pie-charts/), let’s embrace those big blobs of colour and do something cool with them. We’re going to unpeel a bunch of them. So, what’s the use of unpeeling pie charts – and how do we do it?

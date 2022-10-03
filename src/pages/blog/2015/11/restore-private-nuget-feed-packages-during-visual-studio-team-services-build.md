@@ -10,8 +10,8 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - nuget
-    - powershell
+    - Nuget
+    - PowerShell
 ---
 
 Update! As of February 2016, you should be able to use the standard “NuGet Installer” vNext build task.

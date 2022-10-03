@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - conference
-    - nanoconference
+    - Conference
+    - Nanoconference
 ---
 
 A *nanoconference* is a gathering limited by the current global human population. The smallest size for a nanoconference is one-billionth of the global human population, and the maximum size is ten-times this number. So, for example, based on a population of seven billion the conference can be attended by 7-70 people.

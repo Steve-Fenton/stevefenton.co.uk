@@ -9,8 +9,8 @@ categories:
     - Office
     - Programming
 tags:
-    - excel
-    - powershell
+    - Excel
+    - PowerShell
 ---
 
 Having opened up the same Excel spreadsheet to save the data as a CSV for the third time, I wrote a PowerShell script to do it for me.

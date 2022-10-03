@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - iterative
+    - Iterative
 ---
 
 Perhaps because of the full-tilt charge of Lean Startup, the idea of an iterative development is strongly linked to the idea of delivering something early, getting feedback on it, and using that learning to guide the next move. This is an important one because delivering in increments without this iterative cycle means you are just following a fixed plan rather than improving the plan as you go.

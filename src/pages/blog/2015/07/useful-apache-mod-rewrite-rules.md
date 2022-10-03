@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Apache
-    - php
+    - PHP
 ---
 
 I recently migrated my website to a different platform. I anticipated that this would require some redirection rules to send people to the correct content on the new website, but I failed to anticipate that number of links to legacy files (like some jQuery plugins and their static HTML example pages). As a result, I have been furiously created mod\_rewrite rules to try to help people find all of the content they are looking for. I thought these real-life examples would be useful to some people.

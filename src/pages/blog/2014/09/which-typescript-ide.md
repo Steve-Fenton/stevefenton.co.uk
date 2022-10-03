@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The question of which TypeScript IDE to use comes up reasonably often, so here is a quick run down of my three favourites as of now! You may well prefer another IDE and I’d love to hear about it.

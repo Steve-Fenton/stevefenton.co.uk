@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - powershell
+    - PowerShell
 ---
 
 Having put together some individual scripts that ripped data out of an Excel spreadsheet, I decided to co-ordinate them with a co-ordinating PowerShell script that would contain my variables and call out to neat little scripts to do work. PowerShell gets tricky to read when it gets big, so I prefer to have a couple of smaller files doing specific things.

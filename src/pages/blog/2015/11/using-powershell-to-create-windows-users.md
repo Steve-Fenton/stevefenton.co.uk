@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - octopus
-    - powershell
+    - Octopus
+    - PowerShell
 ---
 
 Due to replication needing a few Windows users scattered about the place, I needed to write a PowerShell script to create the users as part of the Octopus Deploy automated deployment.

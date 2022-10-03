@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - html
-    - javascript
-    - mvc
+    - C-Sharp
+    - HTML
+    - JavaScript
+    - MVC
 ---
 
 I recently answered a question on a forum about JavaScript includes in ASP.NET MVC and as the question came up again today, I thought I’d share the answer with the world.

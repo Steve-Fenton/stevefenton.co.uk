@@ -11,9 +11,9 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
-    - javascript
+    - CSS
+    - HTML
+    - JavaScript
 ---
 
 My early spring-clean has been going on for a while. I have been gradually deleting things to make the site go faster. As usual, if you don’t keep a close watch on things they start to bloat. My site had reached a whopping 400kb for an empty-cache first-load and spanned far too many network requests including some third-party ones.

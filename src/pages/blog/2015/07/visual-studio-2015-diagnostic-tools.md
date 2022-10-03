@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - 'diagnostic tools'
-    - vs2015
+    - 'Diagnostic Tools'
+    - 'Visual Studio'
 ---
 
 Before I get going on this… bear in mind that all of the screen shots below are from Visual Studio Professional (not Enterprise). One of the big changes in Visual Studio 2015 is that the Professional edition is now awesome. The only significant features you’ll miss are code coverage and architecture tools.

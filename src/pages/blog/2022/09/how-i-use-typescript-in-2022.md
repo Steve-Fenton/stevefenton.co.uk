@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 I feel I need to write a disclaimer at the start of this article, which goes something like this. This is about how I am using TypeScript right now. I’m definitely not telling you how you should use it. Some context about the kind of stuff I’m writing will be useful to see if we’re doing similar stuff and this approach might work for you. Basically, I’ve survived for several years despite abandoning all frameworks for HTML, CSS, and JavaScript using a careful front-end architecture powered by really well thought-out HTML that is strong enough to survive theme-ing without changes.

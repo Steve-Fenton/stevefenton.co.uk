@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - pomodoro
+    - Pomodoro
 ---
 
 This week I have been using [The Pomodoro Technique®](https://francescocirillo.com/pages/pomodoro-technique) for real, in a real work environment that typically has plenty of distractions. I thought I would share what I have learned from the experience.

@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - ood
+    - C-Sharp
+    - OOP
 ---
 
 I had a great discussion with a friend on the kind of things that can act as early indicators of poor code design in object oriented programming and I was surprised at how different our views were on this topic.

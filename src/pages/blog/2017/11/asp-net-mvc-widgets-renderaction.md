@@ -11,8 +11,8 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 This is a useful pattern that I have successfully employed a couple of times with ASP.NET MVC applications; creating Widgets with RenderAction.

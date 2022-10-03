@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 My [views on pie charts](/2009/04/pie-charts-are-bad/) are well known, but that isn’t to say that all other charts are good. The problem with pie charts is that they make it hard to understand information, but with many other charts, the problem is how people use sneaky tricks to deceive you.

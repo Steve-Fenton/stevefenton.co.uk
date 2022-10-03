@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 If you have chosen to use TypeScript, it is almost certain that one of the features you are after is type-safety. [Basarat](http://www.basarat.com/) is constantly finding bugs in open source JavaScript projects that would have been caught early by the TypeScript compiler and I have seen similar compiler warnings popping up at design time when pairing that would have otherwise been runtime issues in need of debugging.

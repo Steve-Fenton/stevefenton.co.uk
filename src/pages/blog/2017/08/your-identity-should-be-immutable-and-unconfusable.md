@@ -8,13 +8,13 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - ddd
-    - entity
-    - javascript
-    - php
-    - sql
-    - typescript
+    - C-Sharp
+    - DDD
+    - Entity
+    - JavaScript
+    - PHP
+    - SQL
+    - TypeScript
 ---
 
 There are lots of ways to make an identity immutable and unconfusable. I’ll show just a couple, but first the principle behind it.

@@ -11,7 +11,7 @@ categories:
     - Programming
 tags:
     - npm
-    - typescript
+    - TypeScript
 ---
 
 This is a really quick run through of publishing a simple NPM package, based on my experience of publishing [tsUnit](https://github.com/Steve-Fenton/tsUnit) to NPM. Because tsUnit is a single file, this provides a great opportunity to see how to publish a package without the distraction of a complicated package – we just want to make our file available.

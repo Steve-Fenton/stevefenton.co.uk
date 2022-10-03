@@ -11,8 +11,8 @@ categories:
     - Automation
 tags:
     - Azure
-    - monitoring
-    - operations
+    - Monitoring
+    - Operations
 ---
 
 While there a whole host of great ideas you can apply to [monitoring and alerting](/publications/web-ops-dashboards-monitoring-and-alerting/), one of the key reasons you spend time crafting your operations story is to avoid being interrupted during family time. So the AutoHeal feature for Azure Web Sites is your family-friendly helper that will take care of minor issues without human intervention.

@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Psychology
 tags:
-    - 'moral hazard'
+    - 'Moral Hazard'
 ---
 
 Although the term was coined for economics, and insurance in particular, *moral hazard* is a useful lens to view your work, your organisation, and your interactions with other people. If you are making decisions that result in some other team or individual “feeling the pain”, you are in dangerous territory. So, what is moral hazard?

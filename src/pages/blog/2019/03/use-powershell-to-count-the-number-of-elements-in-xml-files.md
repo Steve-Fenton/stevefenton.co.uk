@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - powershell
+    - PowerShell
 ---
 
 I needed to know how many pictures were being sent in a collection of XML documents, so I wrote a PowerShell script to count the number of picture elements.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Opinion
 tags:
-    - motivation
-    - typescript
+    - Motivation
+    - TypeScript
 ---
 
 You have almost certainly seen this often-regurgitated “motivational” quote. It goes like this (and is often pictured on an erasable board to make it look more like it has gushed forth from a beautiful mind)…

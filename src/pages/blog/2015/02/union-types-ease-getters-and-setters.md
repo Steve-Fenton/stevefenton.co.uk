@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 A classic problem in TypeScript was the constraint on getters and setters that said they had to return the same type. This is normally a useful constraint, because it makes no sense to call a property with a number, but get back a string when you access it – but there are some cases where you do want to break the constraint.

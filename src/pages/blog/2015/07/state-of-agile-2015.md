@@ -10,9 +10,9 @@ medium_post:
 categories:
     - Process
 tags:
-    - kanban
-    - scrum
-    - xp
+    - Kanban
+    - Scrum
+    - XP
 ---
 
 This is a brief comment on the state of agile software development in 2015.

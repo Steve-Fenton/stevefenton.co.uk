@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Browsers
 tags:
-    - firefox
+    - Firefox
 ---
 
 This is yet another article in praise of a Firefox developer tools feature. Last week I was [getting excited about the 3D mode](/Content/Blog/Date/201406/Blog/Firefox-3D-Mode/), but today I’m equally uncontrollable over the responsive mode.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - edge
-    - vscode
+    - Edge
+    - VSCode
 ---
 
 There’s a really neat extension for <abbr title="Visual Studio">VS</abbr> Code that allows you to run Microsoft Edge browser tools. You can use this in conjunction with your own project, or even as stand-alone. It uses browser automation behind the scenes, so it does depend on you having Microsoft Edge installed on your machine.

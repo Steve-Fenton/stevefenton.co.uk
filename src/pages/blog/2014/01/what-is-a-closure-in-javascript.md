@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 If you want to sound like an expert in JavaScript, you only need a couple of phrases to hand. Using [scope](http://www.stevefenton.co.uk/Content/Blog/Date/201109/Blog/A-Quick-JavaScript-Scope-Lesson/), closure, [protoype and revealing modules](http://www.stevefenton.co.uk/Content/Blog/Date/201312/Blog/JavaScript-Prototype-Vs-Revealing-Module-Pattern/) will get you a long way without any need to prove you know what you are talking about. Largely, this is due to either a lack of understanding of these terms, or misunderstandings about them.

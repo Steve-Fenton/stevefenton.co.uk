@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 When you want to limit text on your web page, you really want to show an ellipsis to let people know you’ve truncated the display. This is especially true in cases where the cut-off decided by the browser might cause confusion, alarm, or blushing. Consider the text “Get offers on shoes”, which could be displayed as “Get off”. It would be more gentle to say “Get off…”. You get the idea.

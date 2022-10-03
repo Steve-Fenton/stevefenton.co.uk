@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
-    - javascript
+    - HTML
+    - JavaScript
 ---
 
 I was answering a question on a popular coding forum and it once again highlighted the age old problem of terribly bad JavaScript. This was the HTML code in question:

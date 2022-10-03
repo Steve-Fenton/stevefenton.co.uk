@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 These notes will help you to easily collect an audit history on SQL Server tables. There are lots of ways to do this, including options that let you specify the exact table schema you want to use to track the history of changes, but this option is a neat way to get some robust tracking of all changes made to your data.

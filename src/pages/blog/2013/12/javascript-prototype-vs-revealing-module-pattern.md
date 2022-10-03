@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 I have been a little deceptive in this title – because although the question is often phrased as “what’s the difference between prototype vs revealing module pattern”, the correct comparison would be “prototype vs closures”. So I’ll deal with that first and then discuss revealing modules afterwards.

@@ -9,7 +9,7 @@ categories:
     - Programming
     - Windows
 tags:
-    - powershell
+    - PowerShell
 ---
 
 I was attempting to rebuild performance counters on a Windows Server 2012 machine, using the following command in PowerShell (with elevated rights):

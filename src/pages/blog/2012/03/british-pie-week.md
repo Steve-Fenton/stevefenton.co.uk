@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 From 5th to 11th March 2012, it’s British Pie Week. While I am a keen supporter of British Pies, especially the Apply Pie my Wife makes, this week serves as a timely reminder on how data is the worst ingredient for a pie. On the same day that British Pie Week launched, I happened upon a link that took me to the following break-down of [Android platform version distribution](https://developer.android.com/about/dashboards/index.html) as at February 1st 2012.

@@ -11,9 +11,9 @@ bannerImage:
 categories:
     - Process
 tags:
-    - 'getting things done'
-    - 'personal kanban'
-    - 'pomodoro technique'
+    - 'Getting Things Done'
+    - 'Personal Kanban'
+    - Pomodoro
 ---
 
 If we were honest with ourselves about the number of hours we might have left to live and the amount of stuff we would like to get done, we’d have to admit that it isn’t all going to get done. Even based on our more optimistic estimates of longevity, it’s not going to get done; and we don’t really know what the Universe has planned for us. Without some kind of personal productivity process we end up not really getting as much done as we’d like.

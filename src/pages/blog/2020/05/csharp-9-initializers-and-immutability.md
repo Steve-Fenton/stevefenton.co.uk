@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 There is currently a compromise in C# that means you can enable object initialization with getters and setters, or you can prevent external code mutating state by hiding the setter… but not both.

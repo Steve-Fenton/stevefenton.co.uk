@@ -8,7 +8,7 @@ authors:
 categories:
     - Browsers
 tags:
-    - firefox
+    - Firefox
 ---
 
 If you’re developing a website and you’re wondering how Firefox caches the files, here’s a run down of the behaviour. I’ve spend some time researching this for a project I’m working on and the information is surprising, but very useful.

@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - cookies
-    - encryption
+    - C-Sharp
+    - Cookies
+    - Encryption
 ---
 
 If you want to secure a cookie, you need look no further than the System.Web.Security MachineKey class. Using this class, you can protect and unprotect text quite simply. If you are running without load-balancing, you can skip to the wrapper methods at the bottom of the article, which give you methods for protecting and unprotecting strings.

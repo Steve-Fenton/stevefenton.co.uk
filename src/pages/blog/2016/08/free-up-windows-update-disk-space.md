@@ -8,8 +8,8 @@ authors:
 categories:
     - Windows
 tags:
-    - 'disk space'
-    - updates
+    - 'Disk Space'
+    - Updates
 ---
 
 If you are regularly updating your servers, you may notice that after re-starting the disk space is not actually given back (i.e. the temporary files downloaded for the update remain).

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - ood
-    - typescript
+    - OOP
+    - TypeScript
 ---
 
 This is a problem that is not unique to TypeScript, although it is perhaps easier to solve in TypeScript than in many other languages. It all comes down to one of the fundamental and fractal units of architecture… depend only on what you need.

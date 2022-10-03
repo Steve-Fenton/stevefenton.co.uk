@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - deployments
-    - octopus
+    - Deployments
+    - Octopus
 ---
 
 Octopus Deploy has a very smart system of variable management that allows you to scope variables to machines, environments, steps, roles – and to store variables in projects and in shared library sets. It is so flexible, you *could* make your life very miserably if you don’t make things as manageable as possible.

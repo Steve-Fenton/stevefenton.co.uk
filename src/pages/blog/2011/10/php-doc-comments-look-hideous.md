@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - php
+    - PHP
 ---
 
 I’m currently contributing to an open source framework, written in PHP. I really want to be a good boy and do everything by the book, but I am really struggling with PHP Doc comments.

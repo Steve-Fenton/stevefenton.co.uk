@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - Bundling
-    - modules
-    - typescript
+    - Modules
+    - TypeScript
 ---
 
 [![Pro TypeScript](/img/2015/07/pro-typescript.jpg)](/publications/pro-typescript/)TypeScript has immediate and first class support for two mechanisms of code delivery. You can merge the whole application into a single output file, or you can take advantage of modules and load them asynchronously on demand.

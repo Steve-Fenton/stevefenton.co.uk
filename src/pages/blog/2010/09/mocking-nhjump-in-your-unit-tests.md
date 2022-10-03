@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
     - nhibernate
     - nhjump
     - nmock

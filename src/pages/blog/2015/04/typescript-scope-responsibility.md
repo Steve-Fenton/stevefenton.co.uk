@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I wrote about this originally in Pro TypeScript, but the question seems pretty common, so I am repeating it here with greater emphasis.

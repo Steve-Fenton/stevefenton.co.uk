@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - 'social media'
+    - 'Social Media'
 ---
 
 This is likely to be the final part in a series that includes posts on [tidying up the web](/2015/10/tidying-up-the-web/), and [the problem with social media conversations](/2015/10/social-media-conversations/), and [annoying social media techniques](/2013/02/5-annoying-social-media-techniques/) (an article that would have grown into an epic if I were to update it with all the latest tricks)… my main reason for writing it is because quite a lot of people are contacting me to tell me that my Twitter account has gone, so I wanted to assure everyone that it is deliberate!

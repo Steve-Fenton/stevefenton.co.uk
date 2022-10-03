@@ -11,8 +11,8 @@ categories:
     - Process
     - 'Visual Studio'
 tags:
-    - reports
-    - 'work items'
+    - Reports
+    - 'Work Items'
 ---
 
 UPDATE: Derrick Fu, the VSTS Program Manager has sent a quick update and it looks like this one is on the radar for the VSTS team:

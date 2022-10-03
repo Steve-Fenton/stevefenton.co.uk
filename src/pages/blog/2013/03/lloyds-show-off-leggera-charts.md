@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I haven’t mentioned pie charts for a while, but Lloyds Bank have plastered this advert everywhere with their CD-shaped pie chart (also known as Leggera Charts). It is worth pointing out how rubbish it is.

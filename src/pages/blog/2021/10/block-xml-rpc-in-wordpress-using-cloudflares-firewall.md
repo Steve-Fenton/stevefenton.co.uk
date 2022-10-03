@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - wordpress
+    - WordPress
 ---
 
 There is a long-standing brute-force issue with the WordPress `/xmlrpc.php` file. You can (and probably should) switch this off in your website using an `.htaccess` rule. This stops the requests, but uses up your server resources to check and reject them. If you have Cloudflare, you can stop them at the firewall, which means your web server doesn’t even get hit for the request.

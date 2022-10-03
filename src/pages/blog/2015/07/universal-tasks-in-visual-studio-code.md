@@ -8,9 +8,9 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - less
-    - php
-    - vscode
+    - LESS
+    - PHP
+    - VSCode
 ---
 
 This is a little trick that allows you to do pretty much whatever you like in a Visual Studio Code task. If you can put it in a batch file, you can do with VSCode.

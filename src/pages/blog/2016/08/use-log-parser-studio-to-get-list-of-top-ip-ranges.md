@@ -9,10 +9,10 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
-    - 'web log importer'
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
+    - 'Web Log Importer'
 ---
 
 If you are getting suspicious traffic, it often comes from a range of IP addresses. The below queries get the count using the first three octets of an IP address, so for “192.168.0.1” it will return “192.168.0” and a count of all traffic for the 192.168.0.1/24 range (192.168.0.1 – 192.168.0.255).

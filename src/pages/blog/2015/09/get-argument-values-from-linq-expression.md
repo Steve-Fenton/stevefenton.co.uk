@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 If you even find yourself unpacking an expression in C#, you might find this useful. I found myself in need of obtaining a list of argument values from within an Expression<func>&gt; expression that sometimes had chained method calls. For example, I needed to be able to get the arguments from all of the following…</func>

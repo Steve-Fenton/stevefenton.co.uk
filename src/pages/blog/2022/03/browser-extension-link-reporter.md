@@ -8,8 +8,8 @@ authors:
 categories:
     - Browsers
 tags:
-    - chrome
-    - edge
+    - Chrome
+    - Edge
 ---
 
 I needed to grab a report that listed all hyperlinks on a web page, so I wrote a browser extension to do it for me.

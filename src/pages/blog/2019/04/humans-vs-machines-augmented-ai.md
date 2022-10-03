@@ -10,7 +10,7 @@ categories:
 tags:
     - 'Artificial Intelligence'
     - 'Augmented Intelligence'
-    - 'machine learning'
+    - 'Machine Learning'
 ---
 
 I recently attended an event in Manchester, organised by BJSS and Microsoft, on the subject of <abbr title="Aritificial Intelligence">AI</abbr> and <abbr title="Machine Learning">ML</abbr>. The schedule was jam packed with interesting insights and useful case studies that got my head buzzing. Having had some time to reflect on everything I absorbed on the day, I have realised that we are back into familiar territory with these technologies, which makes available a decade of debate that is directly relevant.

@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/04/web-select-table.jpg
 categories:
     - Browsers
 tags:
-    - edge
+    - Edge
 ---
 
 This is a pretty neat feature coming to Microsoft Edge. You hit <kbd>CTRL + SHIFT + W</kbd> and it brings up a little rectangle that you can position over some content you want to copy. If you’ve ever fought with a browser when trying to select text, but missed something like the first character – this feature solves that problem.

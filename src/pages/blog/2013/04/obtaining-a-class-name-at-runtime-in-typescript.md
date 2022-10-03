@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 A common question that crops up from time to time on TypeScript forums is how to check the type of a class at runtime using TypeScript.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I was asked about how to test a query without all of the clever caching that SQL performs, this is how you do it… but read on for important information.

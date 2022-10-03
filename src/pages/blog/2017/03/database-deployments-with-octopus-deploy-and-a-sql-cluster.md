@@ -8,9 +8,9 @@ authors:
 categories:
     - Automation
 tags:
-    - deployments
-    - octopus
-    - sql
+    - Deployments
+    - Octopus
+    - SQL
 ---
 
 So you have a SQL Cluster and you want to run a database upgrade using Octopus Deploy… where do you start?

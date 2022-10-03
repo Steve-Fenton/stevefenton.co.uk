@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - chunked
-    - http
+    - HTTP
 ---
 
 I had an ASP.NET site hosted on IIS and I was getting a 404 response whenever I added a “Transfer-Encoding: chunked” HTTP header. The point of using chunked encoding on a request is that if you want to upload a large file you can do it in pieces and show a reasonable progress bar (rather than just a spinner). It is really only useful if you are sending large files – it makes the overall request larger.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - roles
+    - Roles
 ---
 
 I get annoyed by articles that generalise by role or job title. The inane “developers are better than programmers”, or “software engineers vs software developers”, or even “software developers can’t lead your test automation efforts”.

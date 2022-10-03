@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 It seems like a new solution to the problem of JavaScript is being invented every couple of months at the moment. We saw CoffeeScript giving us shortened scripts, Dart fail to replace JavaScript entirely and now Microsoft have waded into the same space with TypeScript.

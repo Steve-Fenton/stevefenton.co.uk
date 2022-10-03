@@ -10,8 +10,8 @@ medium_post:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - typescript
+    - C-Sharp
+    - TypeScript
 ---
 
 The C# 8.0 announcement included a note on default implementations of interface members. If you’ve been programming for long enough, this might make you a little nervous at first thanks to the hangovers of multiple inheritance. Before you chuck out this idea, though, let’s look at it from a different perspective.

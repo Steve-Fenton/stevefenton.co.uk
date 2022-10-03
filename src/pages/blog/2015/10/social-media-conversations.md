@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - 'social media'
+    - 'Social Media'
 ---
 
 I have been busy extricating myself from social media over the past few months. I have deleted several accounts and limited others. In all cases, I have ditched the mobile applications. This led me to think, *what was I looking for on social media*?

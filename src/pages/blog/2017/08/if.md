@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'clean code'
+    - 'Clean Code'
 ---
 
 IF you can keep your curly braces when all about you  

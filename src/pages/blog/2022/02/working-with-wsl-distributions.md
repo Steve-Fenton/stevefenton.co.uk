@@ -8,9 +8,9 @@ authors:
 categories:
     - Windows
 tags:
-    - linux
-    - powershell
-    - wsl
+    - Linux
+    - PowerShell
+    - WSL
 ---
 
 Today I made my first contact with Windows Subsystem for Linux (WSL). <abbr title="Windows Subsystem for Linux">WSL</abbr> lets you run Linux on the command line without having to dual-boot, with lots of built-in help that makes things work across your network and file system.

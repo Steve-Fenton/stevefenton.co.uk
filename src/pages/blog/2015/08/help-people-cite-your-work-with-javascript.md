@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 This is a little script that helps people to cite your work by placing the URL on the clipboard along with the text they are <del>stealing</del> referencing. It works by cloning the selection into a hidden element just before the copy-to-clipboard, and then reverting the selection just after. The example below is for modern browsers so if you want to support older browsers you would need to polyfill the addEventListener call as Internet Explorers passim used attachEvent.

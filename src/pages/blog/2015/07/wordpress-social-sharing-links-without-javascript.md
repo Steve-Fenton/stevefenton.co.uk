@@ -9,8 +9,8 @@ categories:
     - CMS
     - Programming
 tags:
-    - php
-    - wordpress
+    - PHP
+    - WordPress
 ---
 
 If you, like me, find yourself staring at the network traffic spewing out of your website you will have noticed the JavaScript problem. No matter what plugin you use, it seems to require three or four JavaScript files. Want to show a picture of a cat on your website? You’ll need jQuery, React, and Meteor.

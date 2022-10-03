@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 [![Pro TypeScript](/img/2015/07/pro-typescript.jpg)](/publications/pro-typescript/)I covered this in detail in Pro TypeScript, but the question comes up often, so here is a quick refresher on how private members affect type matching in TypeScript’s structural type system. class CustomerId { constructor(private id: number) {} getId() { return this.id; } } class ProductId { constructor(private id: number) {} getId() { return this.id; } }

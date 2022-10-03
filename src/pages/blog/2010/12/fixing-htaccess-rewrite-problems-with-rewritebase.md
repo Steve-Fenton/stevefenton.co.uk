@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - php
+    - PHP
 ---
 
 I recently encountered an issue on an otherwise perfectly functioning .htaccess file, which contained mod\_rewrite rules. The rules had been working for several years (since 2008 to be precise) but some patch or change on the web server suddenly caused all pages except for the home page to be unavailable.

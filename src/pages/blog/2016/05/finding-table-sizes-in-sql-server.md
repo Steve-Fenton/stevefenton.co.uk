@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 As your database grows, you’ll start becoming highly interested in finding out where your data is. This SQL script grabs a list of tables, with their size (total and used) along with a quick calculation of an average size per row.

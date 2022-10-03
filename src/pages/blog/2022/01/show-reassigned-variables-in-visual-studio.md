@@ -10,7 +10,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 There is a really neat new feature in Visual Studio 2022, which is off by default. So, I thought I’d tell you about it to encourage you to switch it on. The feature will highlight variables that get reassigned by underlining them in the editor.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 CSS3 is going to bring some awesome new stuff that will combine excellently with HTML5 to give us an absolutely smashing Internet experience. Thing is, it isn’t here quite yet. Despite this, I just can’t wait for all the new features that HTML5 and CSS3 are going to bring. That’s why I [converted this website to HTML 5 last year and tested it in loads of browsers](/2009/07/HTML-5-Browser-Test/).

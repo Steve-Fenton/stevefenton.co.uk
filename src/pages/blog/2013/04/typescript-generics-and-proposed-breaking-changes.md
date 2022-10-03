@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 You may remember that back in January 2013 I penned an article about [what Generics might look like in TypeScript](/2013/01/An-Early-Vision-Of-TypeScript-Generics/) when they were added. The great news is that it was pretty much spot on, so to get the skinny on [TypeScript Generics in the 0.9 alpha release, just read the article from January](/2013/01/An-Early-Vision-Of-TypeScript-Generics/). The brief version is that you can use a generic type and add a type constraint using familiar C#-style syntax:

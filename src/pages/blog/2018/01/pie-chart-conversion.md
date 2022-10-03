@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I know that I have a bit of a routine. It goes a bit like this… stumble across a pie chart, show how the information would be better handled by a simple column chart, repeat. Well this week I stumbled across the pie charts below, which answer the question “would you invest in this initial coin offering”. The survey containing these three questions was asked after a workshop, so the respondents can reasonably be expected to be the same people.

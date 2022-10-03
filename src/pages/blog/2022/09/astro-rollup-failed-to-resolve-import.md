@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Astro
-    - typescript
+    - TypeScript
 ---
 
 This is short reminder to my future self about an error I found in Astro, which defied explanation. This ran find on a local `npm run build`, but inside of GitHub actions it failed.

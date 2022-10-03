@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/06/a-pile-of-ram.jpg
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 ![A Pile of RAM](/wp-content/uploads/2018/06/a-pile-of-ram.jpg)

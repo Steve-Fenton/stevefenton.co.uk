@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - git
-    - powershell
+    - Git
+    - PowerShell
 ---
 
 If you’re a bit like me, you like to keep your desk clear. The same goes for all those pesky git branches you accumulate over time. Whether you are using Visual Studio, VSCode, or some other editor, it would be nice if you could burn it all down except for trunk.

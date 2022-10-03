@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 For some reason, people are starting to believe that we have hit a watershed in web development whereby we no longer need to worry about whether people have JavaScript or not. There is a growing assumption that ten years ago some people couldn’t run JavaScript, but now everybody can.

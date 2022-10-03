@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 I was wondering whether we could be about to witness the death of the immediately invoked function expression (IIFE)? You know, we have been using IIFEs for a long time now to provide some scope for our stuff, because we don’t want to pollute the global scope, but there are two features that are now “common JavaScript” that are going to probably kill off this pattern.

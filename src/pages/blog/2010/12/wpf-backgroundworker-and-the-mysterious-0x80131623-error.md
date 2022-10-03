@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
     - wpf
 ---
 

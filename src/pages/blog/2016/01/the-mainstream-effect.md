@@ -9,7 +9,7 @@ categories:
     - Opinion
     - Psychology
 tags:
-    - 'mainstream effect'
+    - 'Mainstream Effect'
 ---
 
 The *mainstream effect* describes a level of popularity that a given technique may gain, which causes the general knowledge of it to become dangerously superficial.

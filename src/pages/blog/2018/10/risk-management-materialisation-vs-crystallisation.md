@@ -11,7 +11,7 @@ image: /wp-content/uploads/2018/10/sohnee-joiners-arms.jpg
 categories:
     - Process
 tags:
-    - 'risk management'
+    - 'Risk Management'
 ---
 
 ![Sohnee at The Joiners Arms](/wp-content/uploads/2018/10/sohnee-joiners-arms.jpg)

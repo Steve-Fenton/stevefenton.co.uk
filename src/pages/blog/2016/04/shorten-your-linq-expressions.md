@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 There is an interesting style of Linq expression that I am seeing a lot in code, including open source projects. It isn’t a big deal, but it damages readability.

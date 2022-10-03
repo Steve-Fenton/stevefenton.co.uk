@@ -8,7 +8,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - data
+    - Data
 ---
 
 When you start collecting data at scale, you need to decide when to invest in keeping “all the datas” and when to keep only a sample. When it comes to sampling, you need to ensure that the parts you discard and the parts that you keep are a truly representative sample. That means you need to discard at random to ensure that what you keep “looks like” the total data when scaled up.

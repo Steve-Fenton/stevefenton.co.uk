@@ -8,7 +8,7 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - nuget
+    - Nuget
 ---
 
 With the imminent arrival of Visual Studio Online Package Manager, which lets us host NuGet (and other) packages on our Visual Studio Online account, it is almost certain that you are going to lose the plot when managing NuGet packages in Visual Studio and keep getting prompted for your account details (especially as the “Remember Credentials” tick box is just there to upset you).

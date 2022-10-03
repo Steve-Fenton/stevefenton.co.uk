@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - core
+    - C-Sharp
+    - Core
 ---
 
 I needed to check the certificate expiry date in an NUnit test. The below snippet can be used to check any certificate properties, using a custom certificate validation callback. All you need to do is read the properties you are interested in within the callback so you can check them afterwards.

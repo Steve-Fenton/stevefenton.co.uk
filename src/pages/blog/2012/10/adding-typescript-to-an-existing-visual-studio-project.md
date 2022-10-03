@@ -12,7 +12,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Quick Update! As of 2017, the best way of adding TypeScript to any project (in any development environment) is to add a `.tsconfig` file – if you add one to a Visual Studio project, it will override the project settings anyway. You can do lots more with a `.tsconfig` file and it works with task runners too. Right, here’s the long answer that applied back in 2012.

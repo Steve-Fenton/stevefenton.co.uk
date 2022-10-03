@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - saml
+    - SAML
 ---
 
 <abbr title="Security Assertion Markup Language">SAML</abbr> is a mechanism authenticating users and authorising them for a service in cases where the identify provider is external to the service. There are three parties involved:

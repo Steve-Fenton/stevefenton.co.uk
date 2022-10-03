@@ -12,7 +12,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - nuget
+    - Nuget
 ---
 
 Update: you can also use the [NuGet Package Visual Studio Extension](/Content/Blog/Date/201411/Blog/NuGet-Packager-Visual-Studio-Extension/) – it works similarly to the New-NuGet Package code described in this article, but keeps all of the NuGet stuff in a separate project (which is supplied as a project template type of NuGet Package). On release build, it will publish to your preferred NuGet repository. For class libraries, I actually prefer the “it just works” style described in this article.

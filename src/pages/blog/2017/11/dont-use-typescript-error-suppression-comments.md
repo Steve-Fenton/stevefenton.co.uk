@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript 2.6 has just been released, but please don’t use the new TypeScript error suppression comments *in your TypeScript code*.

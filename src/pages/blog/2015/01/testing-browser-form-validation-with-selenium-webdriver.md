@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - selenium
-    - testing
-    - webdriver
+    - C-Sharp
+    - Selenium
+    - Testing
+    - WebDriver
 ---
 
 No sensible person is using JavaScript to perform simple form validation any more. If an input element is required, you just add a required flag. If you need to validate minimum and maximum values, there are attributes for that. If you need to check a complex pattern, you can supply an attribute for that. Essentially, you can get really good quality validation by using the correct HTML elements with the correct HTML attributes.

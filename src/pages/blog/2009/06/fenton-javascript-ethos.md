@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 When JavaScript was first created (hurriedly) by Brendan Eich, the idea was to allow people to add a bit of interaction to a web page. Since its inception, JavaScript has grown into a massive part of the Internet and, like all technologies, it has sometimes been used in a bad way.

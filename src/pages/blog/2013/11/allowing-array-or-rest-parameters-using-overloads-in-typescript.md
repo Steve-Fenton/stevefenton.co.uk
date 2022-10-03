@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I was busy working on a TypeScript class and needed a method that could take either an array, or a number of arguments using a rest parameter.

@@ -11,8 +11,8 @@ image: /wp-content/uploads/2017/06/green-island-1944.jpg
 categories:
     - Process
 tags:
-    - change
-    - holocracy
+    - Change
+    - Holocracy
 ---
 
 ![Green Island, 1944](/wp-content/uploads/2017/06/green-island-1944.jpg)

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 The special variable @@SERVERNAME crops up quite often on forums as the answer to the question “How do I get the name of the machine I am running on”. This is problematic, because this variable actually return the name of the SQL Server *instance*, which is not necessarily the same thing.

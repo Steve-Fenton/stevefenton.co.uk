@@ -9,8 +9,8 @@ authors:
 categories:
     - Programming
 tags:
-    - tsunit
-    - typescript
+    - TSUnit
+    - TypeScript
 ---
 
 Updated! When I first started writing TypeScript for distribution as a package, I had a problem trying to distribute a single package for use in web applications, and on Node. The early versions of tsUnit (a unit-testing framework) were compiled and packaged separately for these two environments, with a hacky fix to append a line of code to the Node version that wasn’t required for the web version.

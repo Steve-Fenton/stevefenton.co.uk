@@ -9,8 +9,8 @@ categories:
     - CMS
     - Programming
 tags:
-    - php
-    - wordpress
+    - PHP
+    - WordPress
 ---
 
 WordPress normally takes care of queries for you. When it doesn’t, your next port of call is normally `WP_Query`. After that, you head into nuts-and-bolts mode with a completely custom query using `get_posts`. When you start taking control over queries, you may hit this common problem with page size.

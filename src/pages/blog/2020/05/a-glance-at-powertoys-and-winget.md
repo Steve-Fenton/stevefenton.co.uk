@@ -12,8 +12,8 @@ categories:
     - Programming
     - Windows
 tags:
-    - powertoys
-    - winget
+    - 'Power Toys'
+    - WinGet
 ---
 
 PowerToys and WinGet are exciting previews for Windows Users. If you are a civilian, you’ll be getting these in general release soon, but for technical folks might want to try things out early. Or now!

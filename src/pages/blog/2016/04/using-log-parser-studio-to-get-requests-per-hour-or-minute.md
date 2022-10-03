@@ -9,10 +9,10 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
-    - 'web log importer'
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
+    - 'Web Log Importer'
 ---
 
 After a load test of some web servers, I needed to have a look through the IIS logs to find out how many requests per minute were being generated on a specific web farm server.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 If you just upgraded to TypeScript 0.9.5 (if you haven’t done so, do it now!) you will notice that your TypeScript files no longer have all the JavaScript files and source maps nested underneath. So what happened to them?

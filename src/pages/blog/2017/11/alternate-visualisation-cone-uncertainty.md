@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - estimates
-    - estimation
+    - Estimates
+    - Estimation
 ---
 
 The cone of uncertainty is a software model that provides pre-baked multipliers to convert a single-point “most likely” estimate into a range, based on the broad stage of a well-managed sequential software development project. That isn’t to say it can’t also be applied to iterative software development – depending on the details of the method being used you may find you are creating a mini cone of uncertainty for each iteration, or you are working on a sub-set of the cone in each iteration.

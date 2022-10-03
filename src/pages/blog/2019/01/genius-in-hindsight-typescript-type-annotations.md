@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - dart
-    - typescript
+    - Dart
+    - TypeScript
 ---
 
 When TypeScript first landed in public view in October 2012, the type annotations looked a bit funky. If you were a student of type theory, they would have been familiar; but most programmers wouldn’t have seen a type annotation like this before:

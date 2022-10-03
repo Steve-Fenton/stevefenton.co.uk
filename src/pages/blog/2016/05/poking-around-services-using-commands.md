@@ -9,8 +9,8 @@ categories:
     - Programming
     - Windows
 tags:
-    - powershell
-    - services
+    - PowerShell
+    - Services
 ---
 
 Important Note! These commands for Windows Services work if you run **Command Prompt** as **Administrator**.

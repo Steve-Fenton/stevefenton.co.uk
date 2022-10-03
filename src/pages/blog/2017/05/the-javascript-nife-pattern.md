@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - iife
-    - javascript
-    - nife
+    - IIFE
+    - JavaScript
+    - NIFE
 ---
 
 Most JavaScript developers are very familiar with the Immediately Invoked Function Expression (IIFE):

@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/03/markdown-all-in-one.jpg
 categories:
     - Programming
 tags:
-    - vscode
+    - VSCode
 ---
 
 Despite coding and writing in Visual Studio Code, the set-ups for these two activities are quite different. I’m using this post to track my writing-mode set-up and I expect to revisit it later.

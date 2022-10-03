@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
-    - ndepend
+    - C-Sharp
+    - 'Code Analysis'
+    - NDepend
 ---
 
 One of the constant battles in software development is predicting where problems are in your code. There are lots of ways to cut up your codebase in order to predict where problems are likely to occur; I have been experimenting with some reports over check-in history in Visual Studio Team Services to find files with high churn, or that are coupled to other files on check-in, or are changed by lots of different people.

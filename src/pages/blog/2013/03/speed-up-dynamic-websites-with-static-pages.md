@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - optimization
-    - performance
+    - Optimization
+    - Performance
 ---
 
 I have stuck with my trusty content management system for years, but the weight of content combined with the number of visitors has been causing page speeds to suffer a little recently. Average page load times have been landing in the 3 to 4 second mark, which sucks.

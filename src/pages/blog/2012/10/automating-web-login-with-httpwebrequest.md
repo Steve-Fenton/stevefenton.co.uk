@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 If you have used an HttpWebRequest to grab a page you’ll find that it is reasonably easy to do – but if you use it to perform an automated login to a website, there are a couple of things you may trip up on.

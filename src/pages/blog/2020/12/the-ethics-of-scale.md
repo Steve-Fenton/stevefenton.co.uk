@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - ethics
-    - scale
+    - Ethics
+    - Scale
 ---
 
 One of the tenets of automation is that while you can produce stuff faster, your mistakes will happen at the same speed. You might replace manually updating 100 files with a process that updates them all in the blink of an eye… but what if it updates more files than you intended. In developer terms, it’s a `DELETE FROM` with a missing `WHERE` clause. Errors happen at the speed of automation. But what about scale? Why does this become an ethical issue?

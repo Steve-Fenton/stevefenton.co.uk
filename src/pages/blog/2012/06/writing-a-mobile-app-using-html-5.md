@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - Android
-    - html
+    - HTML
     - ios
-    - javascript
-    - php
+    - JavaScript
+    - PHP
 ---
 
 ![iPhone App](/img/2015/07/iphone-app.png)Everyone is keen on writing apps these days. For an organisation, apps are the buzz. For consumers, apps are the convenience. The only problem is that writing apps that target every operating system (and then every version of an operating system that has a wide distribution between versions) can be quite a task.

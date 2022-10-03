@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Automation
 tags:
-    - jmeter
+    - JMeter
 ---
 
 There are lots of really useful JMeter Plugins out there but some of them are really, really useful and if you don’t know they exist you might think some things are too difficult or even impossible.

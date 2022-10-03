@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 You will probably be well aware by now that I think that [pie charts are the worst way to display your data](/2009/04/pie-charts-are-bad/). As well as that article, I have occasionally found the need to talk about [how much I dislike pie charts](/2010/12/Continued-Pie-Chart-Hatred/) – and this is just such an occasion.

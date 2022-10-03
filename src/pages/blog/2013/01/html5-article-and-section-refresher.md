@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Despite being among the earliest of HTML5 elements, article and section elements still crop up in questions when I’m talking to people about HTML5. I think the reason people ask is because they imagine that these elements are more restrictive than they really are.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - people
+    - People
 ---
 
 ![Circles](/img/2016/08/circles.jpg)

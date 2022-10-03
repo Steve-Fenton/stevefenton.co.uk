@@ -11,8 +11,8 @@ banneImage:
 categories:
     - Programming
 tags:
-    - excel
-    - vba
+    - Excel
+    - VBA
 ---
 
 This might be a bit niche, but I needed to collect <abbr title="red, green, blue">RGB</abbr> values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!

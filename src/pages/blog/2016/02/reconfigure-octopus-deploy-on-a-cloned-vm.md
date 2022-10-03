@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - octopus
-    - powershell
+    - Octopus
+    - PowerShell
 ---
 
 [![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)If you clone a VM that has an existing Octopus Deploy tentacle running, you’ll find that you’ll have a problem with a thumbprint clash.

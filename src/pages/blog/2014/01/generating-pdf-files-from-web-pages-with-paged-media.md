@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - css
+    - C-Sharp
+    - CSS
     - pagedmedia
     - pdf
 ---

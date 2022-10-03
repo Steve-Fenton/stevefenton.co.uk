@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 There is an experimental specification on the W3C for a `navigator.connection` [Network Information API](https://wicg.github.io/netinfo/) that provides a rough indication of connection speeds, which you can use to adjust your content. Like many of the modern API proposals, there is concern over it’s use in browser fingerprinting – but hopefully a course-grained version of this will survive in the long run – even if it just provides orders of magnitude indication of speed.

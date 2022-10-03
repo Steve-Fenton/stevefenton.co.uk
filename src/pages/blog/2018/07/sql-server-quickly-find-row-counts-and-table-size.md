@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I have a [script I use to find table sizes in SQL server](/2016/05/finding-table-sizes-in-sql-server/). Sometimes, though, I need to find the rough table size of a massive table without the need for absolute precision.

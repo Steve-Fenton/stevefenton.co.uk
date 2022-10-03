@@ -10,9 +10,9 @@ categories:
     - Programming
     - Psychology
 tags:
-    - pedagogy
-    - resource
-    - testing
+    - Pedagogy
+    - Resource
+    - Testing
 ---
 
 I don’t know if other industries experience this, but in software development it appears to be getting increasingly common.

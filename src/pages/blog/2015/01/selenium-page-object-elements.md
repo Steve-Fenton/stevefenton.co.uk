@@ -11,10 +11,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - selenium
-    - testing
-    - webdriver
+    - C-Sharp
+    - Selenium
+    - Testing
+    - WebDriver
 ---
 
 If you are using Selenium WebDriver to automate your browser testing, you will almost certainly have come across a variation of the following code. In fact, in many cases you will have found this kind of thing scattered all over the place.

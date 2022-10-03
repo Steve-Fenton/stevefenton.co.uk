@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 n case you’ve missed it, I’ve been talking about the new HTML 5 forms goodies. You can catch up by checking out the demo and these handy articles on the specific topics I’ve covered.

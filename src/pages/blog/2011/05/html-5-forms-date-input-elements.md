@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 The third section of my over-excited journey into HTML5 forms deals specifically with date-related input elements. You may have already heard that there is a date-picker input type, but there is more on offer than just a boring old date-picker. We have lots of different date inputs and we also have some attributes to help make them behave exactly as we want.

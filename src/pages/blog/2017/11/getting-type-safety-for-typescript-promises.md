@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This one has cropped up a couple of times and I’m interested in this kind of problem. The problem goes like this. All your promises will either resolve or reject, but due to the alliteration people sometimes use `(reject, resolve)` when they should be using `(resolve, reject)`. It is a simple mistake to make… but I’m interested in it because I want to know why TypeScript didn’t catch the mistake.

@@ -12,7 +12,7 @@ categories:
     - Programming
 tags:
     - aop
-    - typescript
+    - TypeScript
 ---
 
 For this example, I am using the [jquery.aop plugin](http://code.google.com/p/jquery-aop/wiki/Reference) to weave aspects into the TypeScript program. Other Aspect-Oriented Programming frameworks are available for JavaScript – but this is the one I have used in JavaScript and is a good example of bringing a JavaScript framework into TypeScript. I will create a follow up to discuss using Aspect later!

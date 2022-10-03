@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
-    - javascript
+    - HTML
+    - JavaScript
 ---
 
 Update! You may want to [check out some native HTML validation attributes](/2011/05/HTML-5-Form-Elements-New-Attributes/) that are way better than JavaScript validation!

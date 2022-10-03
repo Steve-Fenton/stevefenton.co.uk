@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - 'Visual Studio'
 tags:
-    - testing
+    - Testing
 ---
 
 Visual Studio 2012 has loads of new features aimed at integrating popular options that were previously supplied by third party extensions. Using a third party extension is a great way to get your hands on a missing feature, but if you have ever installed a number of extensions, you’ll notice the slow down you can get inside of Visual Studio.

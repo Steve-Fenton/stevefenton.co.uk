@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 So I was busy refining my use of JavaScript immediate functions in order to use them like a namespace for functions and properties and I stumbled across one of the few cases where formatting matters in JavaScript.

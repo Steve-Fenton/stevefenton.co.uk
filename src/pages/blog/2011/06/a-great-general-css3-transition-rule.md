@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 As a follow up to my article on [CSS3 Multiple Transitions](/2011/05/CSS3-Transitions-And-Multiple-Transitions/), I thought I would supply a really simple code sample that you can use to unleash the funk of CSS3 on your website.

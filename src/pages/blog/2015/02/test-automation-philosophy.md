@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - testing
+    - Testing
 ---
 
 I have written previously about my general [automation philosophy](/2015/02/automation-philosophy/). The automation philosophy represents what I believe to be a universal truth of any automation if viewed from a human perspective. This article applies this truth specifically to software testing.

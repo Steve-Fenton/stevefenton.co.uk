@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - octopus
-    - powershell
+    - Octopus
+    - PowerShell
 ---
 
 There are two reasons you might want to add this step to your Octopus Deploy project. The first is to perform a basic check that your newly deployed website or API is working and the second is to warm it up (although there are built-in IIS utilities for this too).

@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 I received a message from Kester Takayama, which was a well written note in defence of the pie chart. Kester correctly notes that adding the third-place party to the first-place or second-place party doesn’t in itself create a government because they still may not have an overall majority. He also correctly pointed out that while the column chart made it easier to compare the “Conservative plus Liberal Democrat” and “Labour plus Liberal Democrat” values, it doesn’t greatly help to compare “Coalition versus all others”, which is the number that really matters.

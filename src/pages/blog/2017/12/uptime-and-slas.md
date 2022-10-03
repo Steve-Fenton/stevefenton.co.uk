@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - monitoring
-    - operations
+    - Monitoring
+    - Operations
 ---
 
 [![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.

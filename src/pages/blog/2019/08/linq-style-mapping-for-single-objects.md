@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
-    - linq
+    - C-Sharp
+    - Linq
 ---
 
 Linq is not just the go-to .NET library for handling IEnumerable data sources, it’s the inspiration for many successful and unsucessful attempts to reproduce the style in other languages.

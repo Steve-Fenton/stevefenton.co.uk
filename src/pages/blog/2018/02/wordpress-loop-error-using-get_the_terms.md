@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - php
-    - wordpress
+    - PHP
+    - WordPress
 ---
 
 If you get this WordPress Loop Error… “Warning: Invalid argument supplied for foreach() in \[filepath\].php on line \[number\]” when you try to loop over terms found using the WordPress function `get_the_terms`, you may find this information useful. It happens when you have a post that hasn’t been linked to any terms… but it *caused* by the lack of defensive code demonstrated below:

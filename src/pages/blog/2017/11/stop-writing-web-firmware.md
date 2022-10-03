@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 ![Firmware](/img/2017/11/firmware.jpg)This has been a problem for a long time. It was a problem with jQuery, it was a problem with AngularJS, it is a problem right now with Angular, Aurelia, Vue, and React. None of these frameworks are at fault, but there is a huge industry-wide issue with people writing all of their code inside of the framework. Please… stop writing web firmware!

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 A long time ago I wrote that you should [Stop Mixing TypeScript Internal and External Modules](/2015/05/stop-mixing-typescript-internal-and-external-modules/). Well it is time to update my information on this point… because they are now called namespaces, and modules.

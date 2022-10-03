@@ -11,7 +11,7 @@ bannerImage:
 categories:
     - Analytics
 tags:
-    - 'google analytics'
+    - 'Google Analytics'
 ---
 
 Sometimes you need to see what’s going on under the hood of your analytics tracking. Google Analytics v4 (GA4) provides a simple way to debug your configuration either at the property level, or per-event.

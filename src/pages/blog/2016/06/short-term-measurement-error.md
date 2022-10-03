@@ -11,9 +11,9 @@ categories:
     - Process
     - Psychology
 tags:
-    - metrics
-    - motivation
-    - rewards
+    - Metrics
+    - Motivation
+    - Rewards
 ---
 
 ![Short Term Measure Error](/img/2016/06/short-term-mistake.jpg)

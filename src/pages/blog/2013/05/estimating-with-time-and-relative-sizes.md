@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - estimates
+    - Estimates
 ---
 
 If you are estimating work, the chances are that you are on a gradual philosophical journey that starts with time-based estimates. Estimating how many hours, days, weeks and months a task will take is what I like to call “novice estimating”. Almost everyone knows how long these units of measurement are, which makes them very easy to use when you start estimating.

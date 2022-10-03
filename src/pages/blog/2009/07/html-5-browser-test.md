@@ -9,7 +9,7 @@ categories:
     - Browsers
     - Programming
 tags:
-    - html
+    - HTML
 ---
 
 Revised, July 2014 – Please [see my update on dropping the HTML5 shim](/2014/01/Goodbye-Old-Browsers/).

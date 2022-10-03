@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - mysql
+    - MySql
 ---
 
 It is often useful to have a column that indicated the last update date of a record on a table. It is also useful to update this column automatically, rather than having to rely on the application updating the value.

@@ -10,7 +10,7 @@ categories:
     - Automation
 tags:
     - Butler
-    - trello
+    - Trello
 ---
 
 Most of my time is spent in technical-land, where we use tools such as Azure DevOps to manage the flow of work. There is, though, another side to our business and they love Trello. For at least part of my day, I’m looking at colourful lists of *stuff* that the business are pushing around in their Trello boards. There are often updates to the software, but only today did something appear that made me think… that’s cool. Meet the Trello Butler!

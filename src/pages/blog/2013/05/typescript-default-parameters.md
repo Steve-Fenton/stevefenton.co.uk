@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Working with TypeScript isn’t the same as working with JavaScript or C# or Java or any other language that TypeScript has drawn inspiration from. This is a good and a bad thing. From a bad point of view, it means you have to learn some new tricks no matter what your background is, on the plus side you might find some funk that you couldn’t do elsewhere.

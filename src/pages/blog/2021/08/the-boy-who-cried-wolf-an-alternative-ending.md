@@ -10,8 +10,8 @@ bannerImage:
 categories:
     - Opinion
 tags:
-    - monitoring
-    - psychology
+    - Monitoring
+    - Psychology
 ---
 
 As ancient fables go, The Boy Who Cried Wolf is certainly one of the big ones. For those who haven’t yet heard it, well done! Teachers love to tell this story in an attempt to instruct students on morals, though this is misguided as the story may *increase* a child’s propensity to lie (NurtureShock: New Thinking about Children). But anyway, the abridged version goes like this…

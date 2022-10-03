@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - BDD
-    - typescript
-    - typespec
+    - TypeScript
+    - TypeSpec
 ---
 
 ![TypeSpec Browser Ouput](/img/2015/11/typespec-browser-output.png)Having completed the [MVP roadmap](https://github.com/Steve-Fenton/TypeSpec/issues?q=milestone%3Av0.5), [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) is now available to use.

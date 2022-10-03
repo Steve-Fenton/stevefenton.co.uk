@@ -12,7 +12,7 @@ image: /wp-content/uploads/2021/07/reading-list.png
 categories:
     - Process
 tags:
-    - cranked
+    - Cranked
 ---
 
 *Archived from the Cranked Alliance website.*

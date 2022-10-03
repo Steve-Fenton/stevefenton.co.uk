@@ -8,8 +8,8 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - html
-    - vscode
+    - HTML
+    - VSCode
 ---
 
 This is just a nod to the handy little Visual Studio Code Extension: [Preview on Web Server](https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server).

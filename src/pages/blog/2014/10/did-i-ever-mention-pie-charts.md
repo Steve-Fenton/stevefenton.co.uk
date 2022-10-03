@@ -9,8 +9,8 @@ authors:
 categories:
     - 'Pie Charts'
 tags:
-    - data
-    - visualisation
+    - Data
+    - Visualisation
 ---
 
 It has been a while hasn’t it. However, it is sometimes a good thing to remind ourselves of why pie charts are best avoided. This particular example came from a great blog post. The chart describes version adoption for a particular piece of software.

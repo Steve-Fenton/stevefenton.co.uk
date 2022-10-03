@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 I recently came across a problem while obtaining the text from an HTML label element, based on the fact that I knew the form element that related to the label. This came about because there are two valid ways to use a label. The first way is to use the “for” attribute on the label to tell the page the id of the form element the label relates to, the second is to wrap the entire form element with the label element.

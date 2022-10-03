@@ -8,8 +8,8 @@ authors:
 categories:
     - Automation
 tags:
-    - iis
-    - octopus
+    - IIS
+    - Octopus
 ---
 
 This is one of the few hitches you may come across when deploying to IIS from Octopus Deploy:

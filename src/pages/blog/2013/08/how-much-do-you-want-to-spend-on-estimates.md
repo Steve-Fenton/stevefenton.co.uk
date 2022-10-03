@@ -14,8 +14,8 @@ categories:
     - Process
 tags:
     - 'noestimates'
-    - estimates
-    - estimation
+    - Estimates
+    - Estimation
 ---
 
 So the Royal Baby® had everyone running sweepstakes on baby weight and gender and there was a ton of guessing. Weight guesses ranged from six pounds eleven ounces to eight pounds four ounces with many kinds of logic being explained about why the numbers were selected. There were some incredibly convincing statements about how the weight estimates were linked to Kate’s bump dimensions and plenty of anecdotal evidence where people with similar bump dimensions produced babies of certain weights.

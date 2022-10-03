@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
-    - javascript
+    - HTML
+    - JavaScript
 ---
 
 So after a long night of testing the async and defer attributes the result is entirely disappointing. So first up, what are they and what are they for?

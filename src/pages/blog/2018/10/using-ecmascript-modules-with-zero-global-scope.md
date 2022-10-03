@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
  I had a question from Bruce about ECMAScript modules following on from my post on [not mixing namespaces and modules in TypeScript](/2017/08/stop-mixing-typescript-modules-and-namespaces/). The question was:

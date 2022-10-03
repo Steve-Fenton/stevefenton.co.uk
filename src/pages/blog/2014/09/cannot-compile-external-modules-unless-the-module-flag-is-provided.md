@@ -11,7 +11,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - typescript
+    - TypeScript
 ---
 
 This is quite a common error when using TypeScript in Visual Studio and there is a little history surrounding this error message:

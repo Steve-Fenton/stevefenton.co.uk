@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 I was asked today to explain the “this” keyword in JavaScript, so here is a quick explanation of how it works…

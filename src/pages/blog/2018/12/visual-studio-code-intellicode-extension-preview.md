@@ -13,7 +13,7 @@ categories:
     - Programming
     - 'Visual Studio'
 tags:
-    - typescript
+    - TypeScript
 ---
 
 IntelliCode brings AI-assisted power-ups to your auto-completion. It has been in preview within Visual Studio for some time (you can [read about Visual Studio IntelliCode here](/2018/05/visual-studio-intellicode/)) – but it has now landed in Visual Studio Code, which is exceptionally handy if you’re a TypeScript programmer like me.

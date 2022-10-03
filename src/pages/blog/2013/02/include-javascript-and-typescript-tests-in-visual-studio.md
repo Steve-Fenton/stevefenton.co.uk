@@ -12,9 +12,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - javascript
-    - typescript
+    - C-Sharp
+    - JavaScript
+    - TypeScript
 ---
 
 Four years on from the original article, I thought I’d update this article to reflect a few important changes about running TypeScript or JavaScript tests in Visual Studio. Firstly, let’s summarise the things that changed since 2013.

@@ -9,8 +9,8 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - json
-    - vscode
+    - JSON
+    - VSCode
 ---
 
 Visual Studio Code as a whole bunch of keyboard short-cuts, but it is inevitable that you will want to customise them. Luckily, it is quite easy to do.

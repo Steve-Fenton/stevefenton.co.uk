@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 TypeScript index signatures are not type checked (as you would expect). This problem was spotted by Clint Kennedy and having taken a thorough look into it… he’s right.

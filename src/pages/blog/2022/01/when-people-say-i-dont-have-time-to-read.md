@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - reading
+    - Reading
 ---
 
 If you read more than twelve books a year, you will undoubtedly have had someone remark on it. “I don’t know where you find the time,” they say. “I don’t have time to read.” Of course, as the stoics keep telling us; our time is incredibly limited and all we can do is make good choices about how we use it. To illustrate the point, let’s look at the dreaded “average person”. I’ve never met this person, statistically almost everyone is *not* this average person. However, they are a useful way of finding out some middle-numbers we can use for an illustration.

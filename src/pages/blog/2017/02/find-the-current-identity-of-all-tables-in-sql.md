@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you ever need to get a list of all your tables and their current identity value (i.e. you want to know `CHECKIDENT NORESEED` for all your things) you can run this query. It returns the identity and associated information for all your tables.

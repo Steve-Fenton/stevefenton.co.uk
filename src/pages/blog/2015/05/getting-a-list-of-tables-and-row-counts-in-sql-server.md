@@ -9,7 +9,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I found myself needing to grab a list of all tables and their associated row counts from a SQL Server database. This can be done using a pretty simply query, but I suspect that sharing the query will save somebody some time in the future (possibly me).

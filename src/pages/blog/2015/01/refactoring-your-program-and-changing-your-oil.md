@@ -12,7 +12,7 @@ categories:
     - Process
     - Programming
 tags:
-    - refactoring
+    - Refactoring
 ---
 
 Technical teams are often guilty of asking the customer to make a technical decision. As Kent Beck said in respect of Extreme Programming; technical people should make the technical decisions and business people should make the business decisions. Very often, people think that this is a territorial statement that says “stay away from my decision”, but it is actually a statement of responsibility. You are being paid as a technical specialist – make the call.

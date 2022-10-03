@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
-    - javascript
+    - HTML
+    - JavaScript
 ---
 
 So you have a textbox, followed by a button to kick off the search, but if you press the enter key when you are typing in the text box, some other button fires an event. What’s going on?

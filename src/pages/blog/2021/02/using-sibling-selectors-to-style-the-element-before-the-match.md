@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 The original question for the below answer was wanting to hide a link when a button that’s next to the link has a “selected” class. This is interesting because this requires a sibling selector, but sibling selectors in CSS are a bit funky… with a sibling selector, the target element is always *subsequent*. That means it’s always the right-hand argument.

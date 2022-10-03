@@ -10,7 +10,7 @@ categories:
     - Programming
 tags:
     - Approval
-    - decisions
+    - Decisions
 ---
 
 Choosing tools and technology can be a formal process that locks you into your choices, or a chaotic process where nobody knows what the choices are.

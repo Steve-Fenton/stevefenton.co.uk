@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - iis
+    - IIS
 ---
 
 Have you ever made a change in <abbr title="Internet Information Services">IIS</abbr> manager, performed an IIS reset and then discovered that your change has gone missing? If so, this article will be of use to you.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Windows
 tags:
-    - monitoring
+    - Monitoring
 ---
 
 We are monitoring a number of live servers, which we have grouped by role. This let’s use spot outlying servers pretty easily. The below graph shows the free CPU on one group of servers, with one obvious outlier.

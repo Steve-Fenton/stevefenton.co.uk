@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The question of how you could dynamically create a TypeScript class at runtime has come up a few times. It isn’t possible to lean too heavily on the type information in your program, because it is all erased during compilation – so you have to use a JavaScript method to do it.

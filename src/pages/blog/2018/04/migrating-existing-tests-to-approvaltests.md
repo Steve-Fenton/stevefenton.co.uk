@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - tdd
-    - testing
+    - C-Sharp
+    - TDD
+    - Testing
 ---
 
 This is a short article to describe how I migrated a bunch of existing verbose tests to ApprovalTests. All of the examples in this article are based on my [Shameless Green in C#](https://github.com/Steve-Fenton/BottlesOfBeer) library, which will be familiar to reader’s of [99 Bottles of OOP](https://www.sandimetz.com/99bottles/).

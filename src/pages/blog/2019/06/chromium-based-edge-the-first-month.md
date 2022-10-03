@@ -8,9 +8,9 @@ authors:
 categories:
     - Browsers
 tags:
-    - chromium
-    - edge
-    - 'internet explorer'
+    - Chromium
+    - Edge
+    - 'Internet Explorer'
 ---
 
 Full disclosure. I’m about to discuss Microsoft browsers and I’m a Microsoft MVP. More importantly, I’ve been using web browsers since before either Firefox or Chrome existed, and for ten years I haven’t used a Microsoft browser as my default. So, read on and let’s talk about browsers!

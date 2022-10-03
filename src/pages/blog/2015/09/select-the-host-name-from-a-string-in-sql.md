@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 If you have a table containing web addresses and you need to get hold of the host name, this script may come in handy:

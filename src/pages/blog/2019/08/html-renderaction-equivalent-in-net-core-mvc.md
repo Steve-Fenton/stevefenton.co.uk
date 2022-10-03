@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - core
-    - mvc
+    - C-Sharp
+    - Core
+    - MVC
 ---
 
 If you were a fan of [ASP.NET MVC Widgets](/2017/11/asp-net-mvc-widgets-renderaction/) using `Html.RenderAction`, you might be a bit stunned that `RenderAction` is nowhere to be found in .NET Core. Don’t worry, though, because there is a `Html.RenderAction` equivalent in .NET Core MVC and it’s called View Components.

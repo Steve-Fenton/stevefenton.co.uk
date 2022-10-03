@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - lean
+    - Lean
 ---
 
 Today I walked up and down quite a long hotel corridor a few times and observed an interesting process for cleaning. Without going into details, the result of all the effort was a line of partially cleaned rooms.

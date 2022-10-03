@@ -13,10 +13,10 @@ categories:
     - 'Visual Studio'
 tags:
     - .net
-    - 'csharp'
-    - 'code analysis'
+    - C-Sharp
+    - 'Code Analysis'
     - cqlinq
-    - ndepend
+    - NDepend
 ---
 
 Having picked up the basics of the new CQLinq definitions in NDepend 4, I decided to start customising some rules to wipe out some false positives being reported in the code base. I think this will be a common scenario, so I’m going to share the exact change, but you’ll find this useful if you want to make any customisation to your rules.

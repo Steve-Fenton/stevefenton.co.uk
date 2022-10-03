@@ -8,9 +8,9 @@ authors:
 categories:
     - Automation
 tags:
-    - multivariate
-    - testing
-    - univariate
+    - Multivariate
+    - Testing
+    - Univariate
 ---
 
 I started writing this article and realised it was going to be epic, so I’ve tried to break it into sections to make it easier to read. You can skip past sections that you feel you are already comfortable with.

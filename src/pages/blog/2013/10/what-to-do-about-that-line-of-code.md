@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - 'clean code'
+    - 'Clean Code'
 ---
 
 Every programmer is going to one day find a bit of code that they don’t like. There are many immediate reactions, such as swearing, laughing or pasting the code into an email to the Daily WTF – but what should you do once you’ve regained your composure? Not everyone can write clean code yet, so how do you get them on boad?

@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Mapped types are an advanced type in TypeScript that lets you create a variation of another existing type. The basic example of a mapped type is demonstrated with the `Readonly` type below. This type takes whatever type is passed as a type argument, and returns a similar type, with each member being readonly.

@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 Destructuring in JavaScript (coming is ES6 / Harmony (attempt 2)) allows you to break apart stuff, for example you can destructure an array into plain variables.

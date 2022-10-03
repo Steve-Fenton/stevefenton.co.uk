@@ -12,8 +12,8 @@ tags:
     - .net
     - ASP.NET
     - Azure
-    - github
-    - octopus
+    - GitHub
+    - Octopus
 ---
 
 This was the first time I needed to create an end-to-end process with GitHub Actions and Octopus Deploy. Here’s how I did it. The set up is a .NET (Core 3.1 currently) website that has an existing Publishing Profile that I have been using to create the artefacts as I’ve been testing different hosting scenarios. Now I know where this app is going, I need to create a proper pipeline to build, test, and deploy it to Azure.

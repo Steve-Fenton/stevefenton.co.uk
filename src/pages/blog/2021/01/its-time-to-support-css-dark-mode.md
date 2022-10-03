@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 We have now reached the tipping point with dark mode on The World Wide Web. Support has reached the point of broadness that means users who are browsing on their mobile phones are going to notice what you are doing to their eyes if you don’t support it.

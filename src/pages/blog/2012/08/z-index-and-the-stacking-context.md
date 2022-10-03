@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 If you are using CSS z-index to stack elements on a web page, you will probably have come across what looks like very strange behaviour. You have an element with a z-index of 2, but it is on top of an element that has a much higher z-index, for example 100.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - octopus
-    - sql
+    - Octopus
+    - SQL
 ---
 
 We are [using Octopus Deploy to perform model-driven deployments](/2015/06/packaging-visual-studio-database-project-with-octopack/) to our SQL Server databases based on the DacPac created in a Visual Studio Database project. One of the post-deployment scripts was hanging indefinitely:

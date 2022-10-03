@@ -9,8 +9,8 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 There are a ton of ways to localize your ASP.NET MVC application when it comes to the text your display on the page. When it comes to the URLs, though, it is not uncommon to see a site in one language with routes in another. It seems a real shame to see a website in French, with URLs in English.

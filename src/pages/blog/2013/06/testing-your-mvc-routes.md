@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 Everyone knows that is much easier to test a controller in MVC than it was to test “code behind” in Web Forms, but it is really easy to forget that routing rules are a rather important chunk of your logic. If the routing isn’t right, everything else fails. So you ought to be testing your MVC routes.

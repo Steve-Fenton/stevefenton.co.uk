@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 I happened be using the worlds most popular browser (sic) and I noticed a strange appearance on Google…

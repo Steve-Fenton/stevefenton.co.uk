@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'csharp'
+    - C-Sharp
 ---
 
 When you accept a view model in your .NET Core MVC application, you can request that only certain fields are bound, like this `[Bind("Title")]`. Neat. But when you want to apply the changes to your domain object, you often want to do a similar thing and only update certain fields (and only if they really changed). I use the following code to avoid checking each individual field, to make my controller super obvious.

@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - monitoring
-    - operations
+    - Monitoring
+    - Operations
 ---
 
 [![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)](/publications/web-ops-dashboards-monitoring-and-alerting/)This is the next in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this instalment, I’m going to talk about the Alerting Principles.

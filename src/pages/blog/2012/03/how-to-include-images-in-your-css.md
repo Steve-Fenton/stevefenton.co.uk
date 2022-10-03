@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 When I created [Cruiser, a CruiseControl.NET Wall-board](/2012/02/cruiser-cruise-control-information-radiator/) I wanted to make it as easy as possible for people to use. I didn’t want to force people to download a zip archive and extract files into specific locations. I wanted people to be able to drop a single file onto their build server and get instant results.

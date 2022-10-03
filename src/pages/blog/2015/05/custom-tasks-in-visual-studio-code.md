@@ -9,9 +9,9 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - php
-    - python
-    - vscode
+    - PHP
+    - Python
+    - VSCode
 ---
 
 I was asked how to create a custom task in Visual Studio Code. It comes with a bunch of built-in tasks that you can add to the tasks.json file – but what if you need something else…

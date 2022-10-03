@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 There have been quite a few questions recently that suggest people aren’t getting the idea behind TypeScript – which is that it is JavaScript with static types. Specifying types is optional, but consistent types are not (i.e. if the compiler can infer the type, you can’t change the type later on).

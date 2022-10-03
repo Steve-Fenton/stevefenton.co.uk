@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - ASP.NET
-    - performance
+    - Performance
 ---
 
 There is a little setting in your ASP.NET Web.config file that sets compilation debug to true. If you debug your application locally, this gets set for you if it hasn’t been set already…

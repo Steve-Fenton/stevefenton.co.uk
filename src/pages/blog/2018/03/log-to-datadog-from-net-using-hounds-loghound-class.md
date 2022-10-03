@@ -12,9 +12,9 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'csharp'
-    - logs
-    - monitoring
+    - C-Sharp
+    - Logs
+    - Monitoring
 ---
 
 If you are using Datadog, you know you can log to Datadog using the Windows event log, or by calling the DogStatsD interface on your local agent. When you are running in a non-machine context, such as an Azure App Service, it is likely you won’t be running an agent; so how do you log to Datadog? Using the Hound NuGet package, which provides a `LogHound` class that logs straight to Datadog.

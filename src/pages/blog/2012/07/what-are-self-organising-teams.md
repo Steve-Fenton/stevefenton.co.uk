@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - teams
+    - Teams
 ---
 
 ![Self-Organising Pawn](/img/2015/07/self-organising-pawn.jpg)If you have a background in a “traditional” software development methodology, such as Waterfall, you probably won’t have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.

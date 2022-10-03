@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 This is just a quick article to demonstrate a quick bit of JavaScript namespacing.

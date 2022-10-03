@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 I’m not picking on jQuery in particular here. I chose it because it is no doubt the biggest and most widely used example of a JavaScript library. So when I mention jQuery here, be in no doubt that this applies to Prototype, Mootools, and any other framework that makes your JavaScript easier to write.

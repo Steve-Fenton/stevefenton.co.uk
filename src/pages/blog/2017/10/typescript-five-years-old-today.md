@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Five years ago today ([1st October 2012](https://blogs.msdn.microsoft.com/somasegar/2012/10/01/typescript-javascript-development-at-application-scale/)), Microsoft publicly announced the TypeScript programming language. I was overjoyed, as I had been looking at Coffescript and Dart, but TypeScript looked different.

@@ -12,7 +12,7 @@ categories:
     - Automation
     - Process
 tags:
-    - testing
+    - Testing
 ---
 
 You can hardly spend five minutes talking about test automation without someone bringing up the [testing pyramid](http://martinfowler.com/bliki/TestPyramid.html). The testing pyramid was devised by Mike Cohn and it is a good foundation for thinking of test automation. Here is the original version.

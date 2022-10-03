@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - codeless
+    - Codeless
 ---
 
 This thought is the product of many years of experience of different code-free solutions to problems usually solved with programming. I thought it might end up being an anti-codeless rant when the thought first occurred to me, but it is actually a argument in favour of *design*. Hence the change of title to “codeless does not equal designless”. And yes, I know that *designless* isn’t a real word.

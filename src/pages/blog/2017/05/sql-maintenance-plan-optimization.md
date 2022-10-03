@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 I was investigating a number of maintenance plans that were taking serveral hours to complete and I noticed some optimizations that could be made to the plans without actually affecting the behaviour very much.

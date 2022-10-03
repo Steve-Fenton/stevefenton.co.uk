@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - html
-    - javascript
+    - HTML
+    - JavaScript
 ---
 
 Here is another JavaScript question I was asked yesterday, which was catching out a developer using XHTML and an external JavaScript file. Users of XHTML will be highly familiar with the use of the “short tag” (this isn’t when you sell a load of tags you don’t yet have, speculating that the value of the tags will go down!) A short tag is an empty element that you close using a slash-finale, such as this:

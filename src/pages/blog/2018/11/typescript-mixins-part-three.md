@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Don’t worry, the mechanism for creating TypeScript mixins hasn’t changed, but I just wanted to demonstrate that the technique described in [TypeScript Mixins Part Two](/2017/08/typescript-mixins-part-two/) is valid for use with static properties.

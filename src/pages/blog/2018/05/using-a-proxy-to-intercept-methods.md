@@ -11,8 +11,8 @@ image: /wp-content/uploads/2018/05/esspresso-filter.jpg
 categories:
     - Programming
 tags:
-    - javascript
-    - typescript
+    - JavaScript
+    - TypeScript
 ---
 
 ![Espresso Filter](/img/2018/05/esspresso-filter.jpg)This is just a short note on how to use an ECMAScript Proxy to intercept methods. There are plenty of examples that intercept properties, but examples with methods seem absent currently.

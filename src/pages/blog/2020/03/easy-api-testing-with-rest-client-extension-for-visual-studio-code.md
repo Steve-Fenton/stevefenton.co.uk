@@ -12,9 +12,9 @@ categories:
     - Programming
 tags:
     - 'API Testing'
-    - rest
-    - restclient
-    - testing
+    - ReST
+    - RestClient
+    - Testing
 ---
 
 Visual Studio Code is becoming my go-to tool for automating stuff. It’s lightweight, it’s a joy to use, and it seems to be able to do pretty much everything ever thanks to a vibrant plugin marketplace. If you test APIs, you might be using an API testing tool of some kind, such as Postman. With Visual Studio Code, though, you can do some really nice API testing with simple text files using the REST Client extension.

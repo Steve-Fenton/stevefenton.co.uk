@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - css
+    - CSS
 ---
 
 It has been said about CSS that you can learn it in a day, but it takes years to master. Actually, it isn’t that hard to master if you have the right information to hand. Today I’m just going to dump a load of information on CSS selectors, which is the most common CSS question I get asked.

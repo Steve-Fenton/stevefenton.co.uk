@@ -13,7 +13,7 @@ medium_post:
 categories:
     - Process
 tags:
-    - metrics
+    - Metrics
 ---
 
 So you have a team with a velocity of 85 points per Sprint and you decide they could do more. So you set them a stretch target of 100 points for the next Sprint. What happens next?

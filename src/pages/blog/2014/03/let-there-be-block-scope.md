@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 As we all know, JavaScript is functionally scoped. No matter where you declare a variable within a function, it is hoisted to the top of that function and can be accessed anywhere inside of the function.

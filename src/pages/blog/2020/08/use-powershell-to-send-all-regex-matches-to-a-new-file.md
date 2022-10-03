@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - powershell
-    - regex
+    - PowerShell
+    - RegEx
 ---
 
 Yesterday I had to look at a list of stuff on a third-party website and match it up to a list of stuff we control. It took quite a bit of time and some Excel shenanigans to complete the task and as I know it’s going to crop up again, I decided to employ PowerShell to do it in the future.

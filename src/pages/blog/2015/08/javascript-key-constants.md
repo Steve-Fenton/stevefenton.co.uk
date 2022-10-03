@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
+    - JavaScript
 ---
 
 If you are fed up of looking up JavaScript key mappings every time you want to deal with a keyboard press, and each time you read someone else’s keyboard event handler… and every time you revisit a keyboard event handler that you wrote a while back – here is a set of constants you can use instead. If you are using any kind of reasonable text editor or IDE, you’ll get auto-completion as well as improved readability:

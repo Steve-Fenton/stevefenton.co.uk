@@ -10,8 +10,8 @@ categories:
     - 'Visual Studio'
 tags:
     - Builds
-    - powershell
-    - vsts
+    - PowerShell
+    - 'Azure DevOps'
 ---
 
 In the days of XAML Builds in TFS, the build would rather handily update the work item with the appropriate “Integration Build” value… so you knew which release would include your fix. Happy days.

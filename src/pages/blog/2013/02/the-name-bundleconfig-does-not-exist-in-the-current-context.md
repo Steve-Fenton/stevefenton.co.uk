@@ -12,8 +12,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - mvc
+    - C-Sharp
+    - MVC
 ---
 
 Given that there are currently no results on The Web that give a good answer to the following error, I thought I’d help out and supply the information.

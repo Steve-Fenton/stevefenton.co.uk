@@ -11,8 +11,8 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - nunit
+    - C-Sharp
+    - NUnit
 ---
 
 I discovered these features after a tip off from [Jason Gorman](http://codemanship.co.uk/). The CombinatorialAttribute and PairwiseAttribute in NUnit. Test Analysts will already be very familiar with combinatorial testing and pairwise testing as they are fundamental test planning techniques.

@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - octopus
-    - powershell
+    - Octopus
+    - PowerShell
 ---
 
 This is a pretty specific example about finding and running a task in Task Scheduler based on the task’s action argument (the argument passed to the action executed when the task runs). However, the same script could be adjusted to filter the task based on other properties.

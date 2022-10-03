@@ -9,8 +9,8 @@ image: /wp-content/uploads/2022/03/copilot-fibbonaci.jpg
 categories:
     - Visual Studio
 tags:
-    - copilot
-    - github
+    - Copilot
+    - GitHub
 ---
 
 Although you have to [join a waitlist](https://copilot.github.com/), there is a technical preview of GitHub Copilot integrated as a [Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).

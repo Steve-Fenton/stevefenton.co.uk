@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 The [Definitely Typed](http://definitelytyped.org/) project is nothing short of heroic, all those type definitions that have been created for free by the community, co-ordinated by people from the community – it it a genuinely monumental effort. If you need to consume a JavaScript library from your TypeScript application, you’ll be glad that this project exists because if you had to [create those definitions yourself](/2013/01/complex-typescript-definitions-made-easy/) it would consume a goodly portion of your day.

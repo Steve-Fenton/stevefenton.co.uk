@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
-    - kramdown
-    - markdown
+    - Jekyll
+    - Kramdown
+    - Markdown
 ---
 
 If you are using kramdown (the default markdown parser in Jekyll) there are some neat features that aren’t available in standard markdown. One of these features is *inline attribute lists*, or [IALs](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).

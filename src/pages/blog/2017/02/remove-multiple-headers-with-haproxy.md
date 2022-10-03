@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - haproxy
+    - HAProxy
 ---
 
 ![](/img/2017/02/too-much-information.png)

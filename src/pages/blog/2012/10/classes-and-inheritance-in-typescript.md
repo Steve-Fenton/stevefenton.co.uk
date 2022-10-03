@@ -11,7 +11,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Yesterday I wrote [a very brief introduction to TypeScript](/2012/10/TypeScript-Adds-Static-Typing-To-JavaScript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.

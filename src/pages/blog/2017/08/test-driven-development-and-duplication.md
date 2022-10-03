@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - ood
-    - tdd
+    - OOP
+    - TDD
 ---
 
 I have run a good number of test-driven development coding dojos (and behaviour-driven development ones), and participated in plenty of them too. The most common errors I have found can be classified as:

@@ -8,9 +8,9 @@ authors:
 categories:
     - Programming
 tags:
-    - jekyll
-    - liquid
-    - ruby
+    - Jekyll
+    - Liquid
+    - Ruby
 ---
 
 It seems like I’m working a great deal in Jekyll, Ruby, and Liquid at the moment. Here’s the solution to a little problem I had. I needed to access the Jekyll configuration and site data from within a plugin that added a Liquid filter.

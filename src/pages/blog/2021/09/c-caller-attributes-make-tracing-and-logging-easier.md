@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
 ---
 
 If you wanted to include information about your source code in a trace message, there would be quite a lot of prep work to do before you could actually write a message out. Let’s use the below `WriteTrace` example to show what this does to your application.

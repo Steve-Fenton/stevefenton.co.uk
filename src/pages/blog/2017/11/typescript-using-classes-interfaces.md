@@ -8,8 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - ood
-    - typescript
+    - OOP
+    - TypeScript
 ---
 
 The practice of using classes as interfaces in TypeScript is most commonly promoted in the [Angular style guide](https://angular.io/guide/styleguide#interfaces), which says (emphasis mine):

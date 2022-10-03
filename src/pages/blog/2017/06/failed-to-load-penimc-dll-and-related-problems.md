@@ -9,7 +9,7 @@ categories:
     - Windows
 tags:
     - .net
-    - 'windows server'
+    - 'Windows Server'
 ---
 
 Following on from a series of recent Windows Updates, a couple of our servers had a problem running Server Manager (“Server Manager has stopped working”) and SQL Management Studio (“Failed to Load penimc.dll”).

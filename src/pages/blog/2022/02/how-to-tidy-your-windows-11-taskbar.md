@@ -9,7 +9,7 @@ image: /wp-content/uploads/2022/02/example-taskbar-sketch.jpg
 categories:
     - Windows
 tags:
-    - taskbar
+    - Taskbar
 ---
 
 The Windows 11 Taskbar has pretty good defaults, with all the icons pulled to the centre and the expected behaviour of managing all the windows, including groups. However, there is one particular setting that I find really useful when I’m using multiple display screens.

@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 It is pretty common to want to hydrate a class from a JSON value obtained in a service. If you just parse the JSON you get the properties, but not the behaviours that you expect. As this is a reasonably common problem to solve, it is worthing doing it just once.

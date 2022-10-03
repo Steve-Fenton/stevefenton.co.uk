@@ -9,9 +9,9 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
-    - json
-    - mvc
+    - C-Sharp
+    - JSON
+    - MVC
 ---
 
 Once ASP.NET MVC has done all of the hard work of validating a model for you, you may find yourself wanting to squash the ModelState values into a string or JSON object. Because of the hierarchy, it might not be obvious at first glance how to do this, so your best bet would be to write it down on your blog so you can remember:

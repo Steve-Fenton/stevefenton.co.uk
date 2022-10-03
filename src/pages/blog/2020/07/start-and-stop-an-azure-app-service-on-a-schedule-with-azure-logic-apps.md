@@ -9,7 +9,7 @@ categories:
     - Azure
 tags:
     - 'Azure App Service'
-    - 'logic apps'
+    - 'Logic Apps'
 ---
 
 Although starting and stopping a web app doesn’t in itself save you a great deal of cash, in situations where you have Web Jobs running and a serverless database, you can effectively run a “business hours” app at a lower cost if you stop it outside of business hours.

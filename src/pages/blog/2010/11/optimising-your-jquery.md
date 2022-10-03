@@ -11,8 +11,8 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - javascript
-    - jquery
+    - JavaScript
+    - jQuery
 ---
 
 jQuery is taking the JavaScript world by storm, but because it makes life so easy, it also makes it easy to forget about the amount of work you are asking the browser to do.

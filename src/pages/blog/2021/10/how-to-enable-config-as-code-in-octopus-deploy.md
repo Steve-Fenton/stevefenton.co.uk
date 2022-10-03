@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - octopus
+    - Octopus
 ---
 
 Config-as-code is a new feature that has just been released in the early-access program at Octopus Deploy. This feature allows you to store your deployment process in version control, using Git to manage your deployment code in the same way you manage your application code.

@@ -9,9 +9,9 @@ image: /wp-content/uploads/2021/03/colour-map.png
 categories:
     - Programming
 tags:
-    - 'here maps'
-    - html
-    - javascript
+    - 'HERE Maps'
+    - HTML
+    - JavaScript
 ---
 
 As my grandma used to say, “there’s only one thing worse than a scroll-linked positioning effect and that’s not being able to scroll at all”. So, with this in mind I have written a temporary fix for the issue in the latest version of HERE Maps that prevents users from scrolling past the map with their mousewheel. No solution was available on [this Stack Overflow question](https://stackoverflow.com/q/63615994/75525) as of the date of writing.

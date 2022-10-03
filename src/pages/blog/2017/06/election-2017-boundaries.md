@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - election
+    - Election
 ---
 
 I don’t “do politics” and I apologise that this is political – but not in the sense that I am interested in promoting the interests of any particular political party. I just want to highlight the flavour of democracy in the UK.

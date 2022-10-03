@@ -9,8 +9,8 @@ categories:
     - Browsers
     - Programming
 tags:
-    - css
-    - html
+    - CSS
+    - HTML
 ---
 
 **Revised, July 2014.** I have no idea what became of this product – I think it got rolled into a premium version of the Expression suite, but can’t find any references to it. However, the original article is below…

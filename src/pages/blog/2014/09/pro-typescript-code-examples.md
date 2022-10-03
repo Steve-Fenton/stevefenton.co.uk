@@ -10,7 +10,7 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 Since my book Pro TypeScript was released this week, I’ve had a ton of feedback from readers. I really appreciate all the feedback, whether it is on social media, via my contact form or through reviews – so keep it coming please.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - productivity
+    - Productivity
 ---
 
 Justin Etzine had a thought about *Engineer’s Lunch Law*, which he described in the following terms.

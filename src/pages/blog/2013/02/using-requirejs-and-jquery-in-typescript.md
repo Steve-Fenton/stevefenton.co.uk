@@ -11,9 +11,9 @@ interface_sidebarlayout:
 categories:
     - Programming
 tags:
-    - jquery
-    - requirejs
-    - typescript
+    - jQuery
+    - RequireJS
+    - TypeScript
 ---
 
 A common question I have come across on various TypeScript communities is how to use RequireJS to load jQuery. Of course, you could substitute “jQuery” here for pretty much anything.

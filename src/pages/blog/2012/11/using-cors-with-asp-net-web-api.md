@@ -12,10 +12,10 @@ categories:
     - Programming
 tags:
     - .net
-    - 'csharp'
+    - C-Sharp
     - cors
-    - javascript
-    - mvc
+    - JavaScript
+    - MVC
     - web-api
 ---
 

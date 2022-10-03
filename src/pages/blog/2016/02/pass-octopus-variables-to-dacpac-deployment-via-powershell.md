@@ -9,8 +9,8 @@ categories:
     - Automation
     - Programming
 tags:
-    - octopus
-    - sql
+    - Octopus
+    - SQL
 ---
 
 [![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)This is the process for sending a variable from Octopus Deploy, all the way down to a SQL script that is hidden inside a DacPac, which is being called from PowerShell, which is being executed by Octopus Deploy. I have covered the end-to-end process of [how to package and deploy your Visual Studio database project using Octopus Deploy](/2015/06/packaging-visual-studio-database-project-with-octopack/) previously.

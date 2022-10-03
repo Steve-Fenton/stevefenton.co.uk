@@ -10,7 +10,7 @@ medium_post:
 categories:
     - Programming
 tags:
-    - sql
+    - SQL
 ---
 
 The following query will get you the database size and log file size for all databases on a SQL Server instance.

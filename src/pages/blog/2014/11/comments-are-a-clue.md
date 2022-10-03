@@ -9,8 +9,8 @@ authors:
 categories:
     - Programming
 tags:
-    - javascript
-    - jsdoc
+    - JavaScript
+    - JSDoc
 ---
 
 JSDoc comments, like many comments in software, can be a great clue for those who want to refactor their program. Take this common example, variations of which can be found easily online:

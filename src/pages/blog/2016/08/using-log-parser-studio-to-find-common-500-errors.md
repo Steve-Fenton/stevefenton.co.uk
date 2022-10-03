@@ -9,9 +9,9 @@ categories:
     - Programming
     - Windows
 tags:
-    - iis
-    - 'log parser studio'
-    - logs
+    - IIS
+    - 'Log Parser Studio'
+    - Logs
 ---
 
 The following Log Parser Studio query will find common erroring URLs. You could adapt this to find common addresses for other status codes too.

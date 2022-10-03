@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - scrum
+    - Scrum
 ---
 
 After reading a discussion about whether having a *dedicated* Scrum Master is an effective way of running a team, I got to thinking about what I have experienced in the real world. This is an empirical point I’m about to make; I’ve worked with a good number of organisations, but not enough to get to the point of thinking my sample is representative of all organisations. I’ve worked entirely in the UK and there has been a big bias during the hook-ups (i.e. I’m very clear that I’m looking for the right culture, I want the organisation to be aligned to Theory-Y rather than Theory-X, and they are usually interested in Agile or Lean).

@@ -11,8 +11,8 @@ medium_post:
 categories:
     - Process
 tags:
-    - scrum
-    - sdlc
+    - Scrum
+    - SDLC
 ---
 
 There are an increasing number of articles appearing about how a software development method that has gained significant traction may be dangerous… “Scrum didn’t work for us” or “Lean Start Up nearly killed us” – or many other dramatic examples.

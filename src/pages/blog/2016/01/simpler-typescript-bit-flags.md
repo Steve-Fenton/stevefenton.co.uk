@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - typescript
+    - TypeScript
 ---
 
 I [wrote about bit flags a while ago](/publications/pro-typescript/), demonstrating that you can use an enum in TypeScript along with “powers of two” to create flags:
