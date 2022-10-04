@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Use Log Parser Studio to get a list of top IP ranges'
+navMenu: false
 pubDate: 2016-08-12T06:00:08+01:00
 authors:
     - steve-fenton
@@ -19,8 +19,8 @@ If you are getting suspicious traffic, it often comes from a range of IP address
 
 To get the first three octets of the **IP address**, and the count of hits use:
 
-```
-<pre class="prettyprint lang-sql">SELECT
+```sql
+SELECT
     EXTRACT_PREFIX(c-ip, 2, '.') as ip-range,
     COUNT(ip-range) as requestcount
 FROM
@@ -30,10 +30,11 @@ WHERE
 GROUP BY ip-range
 ORDER BY COUNT(ip-range) DESC
 ```
+
 To get the first three octets of the **X-Forwarded-For** IP address ([see how to add the X-Forwarded-For address to your log file](/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/)), and the count of hits use:
 
-```
-<pre class="prettyprint lang-sql">SELECT
+```sql
+SELECT
     EXTRACT_PREFIX(X-Forwarded-For, 2, '.') as ip-range,
     COUNT(ip-range) as requestcount
 FROM
@@ -43,12 +44,12 @@ WHERE
 GROUP BY ip-range
 ORDER BY COUNT(ip-range) DESC
 ```
-### Web Log Importer
+
+## Web Log Importer
 
 If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     LEFT([X_Forwarded_For], LEN([X_Forwarded_For]) - CHARINDEX('.',REVERSE ([X_Forwarded_For]))) AS IpRange,
     COUNT(1) AS RequestCount
@@ -61,12 +62,13 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
-### Digging deeper
+
+## Digging deeper
 
 You can then obtain more detailed lists of IP addresses using this query – just update the ip-range in the WHERE-clause based on what you find in the above queries:
 
-```
-<pre class="prettyprint lang-sql">SELECT
+```sql
+SELECT
     c-ip,
     EXTRACT_PREFIX(c-ip, 2, '.') as ip-range,
     COUNT(c-ip) as requestcount
@@ -79,10 +81,11 @@ AND
 GROUP BY c-ip, ip-range
 ORDER BY COUNT(c-ip) DESC
 ```
+
 And once again, for X-Forwarded-For IP addresses:
 
-```
-<pre class="prettyprint lang-sql">SELECT
+```sql
+SELECT
     X-Forwarded-For,
     EXTRACT_PREFIX(X-Forwarded-For, 2, '.') as ip-range,
     COUNT(X-Forwarded-For) as requestcount

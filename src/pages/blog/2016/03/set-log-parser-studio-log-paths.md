@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Set Log Parser Studio log paths'
+navMenu: false
 pubDate: 2016-03-29T13:46:05+01:00
 authors:
     - steve-fenton
@@ -16,12 +16,16 @@ tags:
 
 Log parser studio has a handy UI for adding log file paths, but if you have a shared hosting server with loads of IIS sites, each logging to a different directory – you’ll want to automate the list of log file paths.
 
-Go and find the file named “LPSFolders.tmp”, usually found in “C:\\Users\\USER-NAME\\AppData\\Roaming\\ExLPT\\Log Parser Studio\\”.
+Go and find the file named `LPSFolders.tmp`, usually found in:
+
+```
+C:\\Users\\USER-NAME\\AppData\\Roaming\\ExLPT\\Log Parser Studio\\
+```
 
 The file will look like this:
 
-```
-<pre class="prettyprint lang-xml"><?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLPLogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LPLogFile>
     <Filename>E:\IIS-Logs\W3SVC1\*.log</Filename>
@@ -29,10 +33,11 @@ The file will look like this:
   </LPLogFile>
 </ArrayOfLPLogFile>
 ```
-All you need to do is add an “LPLogFile” for each folder… I generated the list of several hundred folders with a script…
 
-```
-<pre class="prettyprint lang-xml"><?xml version="1.0" encoding="utf-8"?>
+All you need to do is add an `LPLogFile` for each folder… I generated the list of several hundred folders with a script…
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLPLogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LPLogFile>
     <Filename>E:\IIS-Logs\W3SVC1\*.log</Filename>
@@ -165,4 +170,5 @@ All you need to do is add an “LPLogFile” for each folder… I generated the 
   <!-- You get the idea ... -->
 </ArrayOfLPLogFile>
 ```
+
 Save this file and re-start Log Parser Studio and you’ll see that your log file paths now contain all of the folders you added.

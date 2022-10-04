@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: 'Intermittent replication issue: Distribution agent failed to create temporary files'
 navMenu: false
-title: 'Intermittent replication issue &#8211; Distribution agent failed to create temporary files'
 pubDate: 2016-04-20T06:00:12+01:00
 authors:
     - steve-fenton
@@ -28,9 +28,7 @@ The fix for this is to grant write permissions to the folder to the distribution
 
 If you are scripting your permissions, here is the PowerShell…
 
-```
-<pre class="prettyprint lang-powershell">
-
+```powershell
 # Special permission for repl_distribution_user
 $accessControlList = Get-Acl "C:\Program Files\Microsoft SQL Server\110\COM"
 $accessRule = New-Object system.security.accesscontrol.filesystemaccessrule("repl_distribution_user", "FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")

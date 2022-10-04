@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Introduction to Aspects'
+navMenu: false
 pubDate: 2016-08-05T06:00:45+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"9702d773a714";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/9702d773a714";}'
 categories:
     - Process
     - Programming
@@ -38,13 +36,13 @@ So Aspects are a way to manage the transition and further development of communi
 - Develop a role by combining aspects from programming, operations, deployment, and other areas that are valuable to the business.
 - Participate in an equitable and clear method of divesting control.
 
-### Community of Practice
+## Community of Practice
 
 The idea of Aspects starts with a community of practice. The idea of a community of practice was devised by cognitive anthropologists Jean Lave and Etienne Wenger, who describe both naturally forming communities of interest as well as those created with the specific goal of generating learning opportunities (Lave &amp; Wenger, *Situated Learning*, 1991).
 
 The Community of Practice is the widest band of classification in Aspects, and includes all individuals who are interested in a subject, whether it a part of their job role or not.
 
-### Aspect
+## Aspect
 
 An Aspect represents a group with a commitment to the subject. By signing up to an Aspect, an individual obtains a clear pathway from their first tentative steps as a novice, through to mastery of the subject. When an apprentice steps forward, they will get a clear pathway and mentors to help them gain the skills they desire, and that the organisation needs.
 
@@ -52,7 +50,7 @@ An Aspect is an area for individuals to learn. It allows them to develop their p
 
 There are four stages from Apprentice to Expert to Foreman to Master. These are described in detail below.
 
-### Mastery
+## Mastery
 
 Mastery is a tangible level of expertise in a specific Aspect. It is recognised amongst peers and represents a way to earn greater autonomy.
 

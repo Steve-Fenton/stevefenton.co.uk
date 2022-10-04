@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Beware of @@SERVERNAME in Microsoft SQL Server'
+navMenu: false
 pubDate: 2016-02-23T12:10:30+00:00
 authors:
     - steve-fenton
@@ -15,11 +15,12 @@ The special variable @@SERVERNAME crops up quite often on forums as the answer t
 
 For example, if you are running on a named instance, you’ll get the following result…
 
+```sql
+SELECT @@SERVERNAME -- "YOUR-SERVER\INSTANCE"
 ```
-<pre class="prettyprint lang-sql">SELECT @@SERVERNAME -- "YOUR-SERVER\INSTANCE"
-```
+
 So when you want the machine name, ask for it specifically and don’t rely on your SQL Server and machine having the same name:
 
-```
-<pre class="prettyprint lang-sql">SELECT SERVERPROPERTY('MACHINENAME') -- "YOUR-SERVER"
+```sql
+SELECT SERVERPROPERTY('MACHINENAME') -- "YOUR-SERVER"
 ```

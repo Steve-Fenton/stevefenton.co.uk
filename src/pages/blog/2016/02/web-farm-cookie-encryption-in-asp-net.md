@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Web farm cookie encryption in ASP.NET'
+navMenu: false
 pubDate: 2016-02-24T10:56:23+00:00
 authors:
     - steve-fenton
@@ -20,13 +20,12 @@ The problem is, the machine key is likely to be different on each of your machin
 
 So we need to generate a machine key to share amongst all these machines. Here is a little method that does this using the RNGCryptServiceProvider…
 
-```
-<pre class="prettyprint lang-csharp">using System;
+```csharp
+using System;
 using System.Text;
 using System.Security.Cryptography;
-```
-```
-<pre class="prettyprint lang-csharp">private static string GetKey(int keyLength)
+
+private static string GetKey(int keyLength)
 {
     var buffer = new byte[keyLength / 2];
     using (var cryptoService = new RNGCryptoServiceProvider())
@@ -45,10 +44,11 @@ using System.Security.Cryptography;
     return result;
 }
 ```
+
 Using the above method, you can generate an SHA1 key and an AES key to use as your shared machine key. Here is a simple console app that does just that:
 
-```
-<pre class="prettyprint lang-csharp">static void Main()
+```csharp
+static void Main()
 {
     var sha1Key = GetKey(128);
     var aesKey = GetKey(64);
@@ -60,10 +60,11 @@ Using the above method, you can generate an SHA1 key and an AES key to use as yo
     Console.ReadLine();
 }
 ```
+
 You can then pop these two keys in your web.config file, in the spaces indicated in this code snippet.
 
-```
-<pre class="prettyprint lang-xml"><system.web>
+```xml
+<system.web>
     <machineKey
       validationKey="SHA1-KEY-GOES-HERE"
       decryptionKey="AES-KEY-GOES-HERE"
@@ -72,12 +73,13 @@ You can then pop these two keys in your web.config file, in the spaces indicated
     <!-- ... -->
 </system.web>
 ```
+
 If you are using this for values stored long-term, make doubly sure that you have these backed up somewhere safe, otherwise you won’t be able to decrypt your data later on if you lose your keys.
 
 The final piece of the puzzle is a couple of wrapper methods that expose the MachineKey Protect and Unprotect methods to use with strings.
 
-```
-<pre class="prettyprint lang-csharp">private static string Protect(string text, string purpose)
+```csharp
+private static string Protect(string text, string purpose)
 {
     if (string.IsNullOrEmpty(text))
     {

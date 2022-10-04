@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'DataDog Interactive Monitor Report'
+navMenu: false
 pubDate: 2016-04-12T06:00:23+01:00
 authors:
     - steve-fenton
@@ -20,6 +20,6 @@ You can find your latest report by logging into your account and visiting: <http
 
 The report shows you how the triggered monitors stack up week-by-week over the past six months, and allows you look for patterns that might help you reduce the number of alerts you receive.
 
-![DataDog Monitor Trends](/img/2016/04/datadog-monitor-tends.png)
+:img{src="/img/2016/04/datadog-monitor-tends.png" alt="DataDog Monitor Trends" loading="lazy"}
 
 The report is fully interactive and you can click to view single weeks, or specific servers, or specific alerts – and all the graphs on the page update.

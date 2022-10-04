@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Open Visual Studio with Source Control Explorer open'
+navMenu: false
 pubDate: 2016-10-11T15:12:28+01:00
 authors:
     - steve-fenton
@@ -16,12 +16,14 @@ If you find yourself constantly opening Source Control Explorer, you may want to
 
 Open the properties for your Visual Studio shortcut and change this:
 
+```bash
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
 ```
-<pre class="prettyprint lang-bash">"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
-```
+
 And change it by adding the command flag shown below:
 
+```bash
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" /Command View.TfsSourceControlExplorer
 ```
-<pre class="prettyprint lang-bash">"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" /Command View.TfsSourceControlExplorer
-```
+
 Now when you open Visual Studio you’ll be able to get straight to work.

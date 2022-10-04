@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Find code hotspots with NDepend'
+navMenu: false
 pubDate: 2016-04-24T19:56:54+01:00
 authors:
     - steve-fenton
@@ -22,7 +22,7 @@ So why, when I have so many analysers am I turning to NDepend?
 
 Simple: NDepend is the big boss man of analysers. It has a huge range of reports and rules to help find and fix problems in your code. This huge range of tools can be overwhelming – so here is a good place to start.
 
-![NDepend 6 Most Complex Method](/img/2016/04/ndepend-6-most-complex-method.png)
+:img{src="/img/2016/04/ndepend-6-most-complex-method.png" alt="NDepend 6 Most Complex Method" loading="lazy"}
 
 There is a menu in NDepend titled “METRIC”, with four fantastic options:
 

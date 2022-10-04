@@ -18,8 +18,8 @@ If an update occurs while you are holding a DB context, Entity Framework will co
 
 Here is an example of the problem, with all but the important code shaved out of the example:
 
-```
-<pre class="prettyprint lang-csharp">public class ProblemQueryProvider
+```csharp
+public class ProblemQueryProvider
 {
     private DataContext _dataContext;
 
@@ -36,12 +36,13 @@ Here is an example of the problem, with all but the important code shaved out of
     // ...
 }
 ```
+
 The problem here is that once you call GetProblems, if you keep hold of the ProblemQueryProvider, you are likely to get stale data when you next call GetProblems. This is because you are holding onto the context, and the context isn’t aware of the changes being made due to replication (this is not unique to replication, any out of band change will do).
 
 The solution is to not be so greedy with your context, as per the below example:
 
-```
-<pre class="prettyprint lang-csharp">public class ProblemQueryProvider
+```csharp
+public class ProblemQueryProvider
 {
     private string _nameOrConnectionString;
 
@@ -59,4 +60,5 @@ The solution is to not be so greedy with your context, as per the below example:
     // ...
 }
 ```
+
 You can decide to keep your data context a little longer than this, but the longer you keep it the more chance you will encounter a problem with out of band updates.

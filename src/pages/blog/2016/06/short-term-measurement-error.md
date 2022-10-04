@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Short-term measurement error'
+navMenu: false
 pubDate: 2016-06-01T18:44:03+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"2d072e0e00ea";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/2d072e0e00ea";}'
 categories:
     - Process
     - Psychology
@@ -16,9 +14,9 @@ tags:
     - Rewards
 ---
 
-![Short Term Measure Error](/img/2016/06/short-term-mistake.jpg)
-
 This is a [counter warning to my article on magical numbers](https://www.linkedin.com/pulse/metrics-find-your-magical-number-steve-fenton). Magical Numbers are a useful abstraction – a way of measuring less without learning less. Without finding these numbers, you end up investing too much in collecting detailed measurements that make the real story hard to fathom, but Magical Numbers allow you to collect less, but find out more (because the link between the number and the outcome is clear).
+
+:img{src="/img/2016/06/short-term-mistake.jpg" alt="Short Term Measure Error"}
 
 So what could go wrong? The most prevalent problem I see in business is mistaking a short term measure for a long term improvement.
 

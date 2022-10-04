@@ -17,8 +17,8 @@ I have a DbUp console application that needed to be executed with PowerShell (in
 
 To solve this, you can use Start-Process with a few flags in order to get the output written into your PowerShell window, and to wait for completion before getting the exit code:
 
-```
-<pre class="prettyprint lang-powershell">$databaseProcess = Start-Process Database.exe -PassThru -Wait -NoNewWindow
+```powershell
+$databaseProcess = Start-Process Database.exe -PassThru -Wait -NoNewWindow
 
 exit $databaseProcess.ExitCode
 ```

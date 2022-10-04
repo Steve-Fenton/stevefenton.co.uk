@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Mind first, language second'
+navMenu: false
 pubDate: 2016-01-31T19:04:43+00:00
 authors:
     - steve-fenton
@@ -19,7 +19,7 @@ I don’t know if other industries experience this, but in software development 
 
 Pick a word or phrase, perform an in-depth critique of the word explaining why it shouldn’t be used, and attempt to coin a new phrase (over which you can be the creater and arbiter of all the things).
 
-The motivation behind this, I’m sure, is mostly honourable. We all understand that the words we use affect the way we think. I am an enthusiastic bandwagon-jumper when it comes to referring to humans as “resources”. I think using the word “resource” when you mean “person” causes flawed thinking, because most resources are not comparable to people and you’d expect them to be treated differently on the balance sheet.
+The motivation behind this, I’m sure, is mostly honourable. We all understand that the words we use affect the way we think. I am an enthusiastic supporter as referring to humans as something other than “resources”. I think using the word “resource” when you mean “person” causes flawed thinking, because most resources are not comparable to people and you’d expect them to be treated differently on the balance sheet.
 
 Despite this, I actually understand that making some luddite manager use the word “person” in place of the word “resource” does not unlock their ability to value people differently and see different kinds of potential in the people around them. They will say “people”, but the superclass that “people” belongs to is the same one that “staplers” belongs to.
 

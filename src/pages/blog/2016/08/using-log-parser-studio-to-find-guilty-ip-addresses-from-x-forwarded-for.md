@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Log Parser Studio to find guilty IP addresses from X-Forwarded-For'
+navMenu: false
 pubDate: 2016-08-08T16:57:58+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,7 @@ tags:
 
 You may have seen how to find guilty IP addresses in my post [Using Log Parser Studio to Find Guilty IP Addresses](/2016/03/using-log-parser-studio-to-find-guilty-ip-addresses/), but if you have [enabled the logging of X-Forwarded-For IP addresses in IIS](/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/) you may want to use this updated version, which gets the top offending IP addresses based on the X-Forwarded-For header:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     X-Forwarded-For,
     count(X-Forwarded-For) as requestcount
@@ -31,14 +30,14 @@ GROUP BY
 ORDER BY
     count(X-Forwarded-For) DESC
 ```
+
 Don’t forget to change the date when you run this query.
 
-### Web Log Importer
+## Web Log Importer
 
 If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     [X_Forwarded_For],
     COUNT(1) AS RequestCount

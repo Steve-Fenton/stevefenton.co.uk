@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Octopus Deploy: Deployments are code'
+navMenu: false
 pubDate: 2016-02-17T07:00:11+00:00
 authors:
     - steve-fenton
@@ -11,7 +11,7 @@ tags:
     - Octopus
 ---
 
-[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)In the professional software development community, we use a disciplined approach to releasing our software. This is why many of us use tools such as Octopus Deploy to manage releases and deployments.
+In the professional software development community, we use a disciplined approach to releasing our software. This is why many of us use tools such as Octopus Deploy to manage releases and deployments.
 
 Because this post is specifically about Octopus Deploy, I will assume that you understand why a code change should flow through a continuous delivery pipeline that ensures the code change results in an application that compiles, passes the automated tests, deploys to an early environment (we call our “Edge”), flows through all of the pre-production environments (whether they are automated test environments, exploratory test environments, pre-production environments, or something else)… and lands safely on the live server in an uneventful fashion.
 

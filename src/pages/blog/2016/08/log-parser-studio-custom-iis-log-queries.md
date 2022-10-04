@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Log Parser Studio custom IIS log queries'
+navMenu: false
 pubDate: 2016-08-09T06:00:58+01:00
 authors:
     - steve-fenton
@@ -25,8 +25,8 @@ Many of these queries are adapted from the standard versions, and others will be
 - Use a load balancer and use X-Forwarded-For
 - Run multiple hosts from a single IIS website
 
-```
-<pre class="prettyprint lang-xml"><?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLPQuery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LPQuery>
     <QueryName>CUSTOM: List of User Agents</QueryName>

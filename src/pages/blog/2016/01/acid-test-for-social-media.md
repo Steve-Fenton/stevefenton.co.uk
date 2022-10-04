@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Acid test for social media'
+navMenu: false
 pubDate: 2016-01-01T00:00:46+00:00
 authors:
     - steve-fenton
@@ -15,7 +15,7 @@ This is likely to be the final part in a series that includes posts on [tidying 
 
 So as a few people have noticed, I have been gradually deleting all of my social media accounts over the past eight months. I originally deleted Facebook, then Twitter, and then all of the others (including Google+).
 
-> Keep before your eyes the swift onset of oblivion, and the abysses of eternity before us and behind; mark how hollow are the echoes of applause, how fickle and undiscerning the judgements of professed admirers, and how puny the arena of human fame. – Marcus Aurelius
+> Keep before your eyes the swift onset of oblivion, and the abysses of eternity before us and behind; mark how hollow are the echoes of applause, how fickle and undiscerning the judgements of professed admirers, and how puny the arena of human fame. <cite>Marcus Aurelius</cite>
 
 Here’s the acid test I used to make my decisions. It has two simple parts.
 

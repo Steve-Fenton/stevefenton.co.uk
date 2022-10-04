@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
+title: 'The Poirot Effect: Overstating the case'
 navMenu: false
-title: 'The Poirot Effect &#8211; Overstating the case'
 pubDate: 2016-04-22T19:41:30+01:00
 authors:
     - steve-fenton

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Update work items with build number during vNext builds'
+navMenu: false
 pubDate: 2016-10-13T12:23:49+01:00
 authors:
     - steve-fenton
@@ -22,7 +22,7 @@ The good news is, we can handle this in vNext builds using the [Team Services RE
 
 Here’s how…
 
-### Security
+## Security
 
 You can generate a special token to use for this – so you don’t need to use your actual account.
 
@@ -35,14 +35,13 @@ You can generate a special token to use for this – so you don’t need to use 
 
 You’ll use this token to talk to the REST API.
 
-### PowerShell script
+## PowerShell script
 
 You can either add the following PowerShell script into your code repository, on use the inline option to add it directly to the build task.
 
 NOTE: If your work items are not in the same collection as your code and build, you can still follow along using [this alternate PowerShell script](#alternate-powershell-script).
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 param(
     $Username,
     $Password
@@ -85,36 +84,36 @@ Catch
     Write-Output $_.Exception | format-list -force
 }
 ```
+
 This script will dynamically obtain the base addresses of your team collection and will get the work items related to the build, and then update the “Integration Build” value.
 
-### Build variables
+## Build variables
 
 Edit your vNext build and choose the “Variables” section.
 
 Add a variable named “VstsUsername” with your username and a variable named “VstsPassword” with your newly minted token.
 
-![vNext Build Variables](/img/2016/10/vnext-build-variables.png)
+:img{src="/img/2016/10/vnext-build-variables.png" alt="vNext Build Variables" loading="lazy"}
 
-### PowerShell build step
+## PowerShell build step
 
 Now you can add a PowerShell build step to your vNext build, calling the PowerShell script and passing the VSTS Username and Password.
 
-![vNext PowerShell Step](/img/2016/10/vnext-powershell-step.png)
+:img{src="/img/2016/10/vnext-powershell-step.png" alt="vNext PowerShell Step" loading="lazy"}
 
-### Magic
+## Magic
 
 The next time a build triggers for a changeset that has associated work items, those work items will be updated with the build number…
 
-![vNext Automatic Build Number](/img/2016/10/vnext-automatic-build-number.png)
+:img{src="/img/2016/10/vnext-automatic-build-number.png" alt="vNext Automatic Build Number" loading="lazy"}
 
 You can make that visible on your board, it appears in the work item details, and you can also use it in your queries and reports.
 
-#### Code and Work Items in Different Collections
+## Code and Work Items in Different Collections
 
 This slightly more looping example will traverse collections to update the work item even when the code and build are in another collections – as long as they are part of the same account.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 param(
     $Username,
     $Password

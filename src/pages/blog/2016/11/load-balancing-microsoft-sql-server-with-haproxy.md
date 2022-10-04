@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Load balancing Microsoft SQL Server with HAProxy'
+navMenu: false
 pubDate: 2016-11-04T13:03:17+00:00
 authors:
     - steve-fenton
@@ -19,7 +19,7 @@ First, the databases in question are SQL 2012 Web Edition databases. They get po
 Here is the entire HAProxy config for a basic database load balancing listener, taking connections from a list of approved addresses and distributing them to three servers, depending on whether they appear to be up.
 
 ```
-<pre class="prettyprint">listen sql-db
+listen sql-db
     bind *:1433
     mode tcp
     balance leastconn
@@ -30,6 +30,7 @@ Here is the entire HAProxy config for a basic database load balancing listener, 
     server DB-2 4.4.4.2:1433 check port 1433 inter 1000
     server DB-3 4.4.4.3:1433 check port 1433 inter 1000
 ```
+
 You can get more advanced here – you could perform more advanced checks using SQL to make sure you have more than just a connection to a port – but you get the idea.
 
 What does this cost?

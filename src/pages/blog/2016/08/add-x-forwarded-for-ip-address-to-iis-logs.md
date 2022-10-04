@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Add X-Forwarded-For IP address to IIS logs'
+navMenu: false
 pubDate: 2016-08-08T16:52:55+01:00
 authors:
     - steve-fenton
@@ -30,7 +30,7 @@ Add a new field:
 - Source Type: Request Header
 - Source: X-Forwarded-For
 
-![Log X-Forwarded-For in IIS logs.](/img/2016/08/iis-log-custom-fields.png)
+:img{src="/img/2016/08/iis-log-custom-fields.png" alt="Log X-Forwarded-For in IIS logs" loading="lazy"}
 
 Don’t forget to hit “Apply” in the Logging module screen.
 

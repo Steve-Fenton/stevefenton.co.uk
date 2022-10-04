@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Octopus Deploy package upload order matters'
+navMenu: false
 pubDate: 2016-02-03T06:00:24+00:00
 authors:
     - steve-fenton
@@ -31,6 +31,6 @@ So you should guarantee to upload these packages in the same order (easily done 
 3. Package C v2.0 Uploaded
 4. Release triggered (A v2.0, B v2.0, C v2.0)
 
-### Alternative solutions
+## Alternative solutions
 
 The obvious alternative is to look at your unit of deployment. Perhaps these three packages should actually be three deployments? Or maybe they should be one package.

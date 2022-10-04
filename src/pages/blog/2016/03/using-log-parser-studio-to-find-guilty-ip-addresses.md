@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Log Parser Studio to find guilty IP addresses'
+navMenu: false
 pubDate: 2016-03-30T06:00:20+01:00
 authors:
     - steve-fenton
@@ -19,8 +19,7 @@ If you are getting hammered by a robot, you’ll probably want to find out the I
 
 The following Log Parser Studio query will get you a list of your top offenders:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     c-ip,
     count(c-ip) as requestcount
@@ -33,14 +32,14 @@ GROUP BY
 ORDER BY
     count(c-ip) DESC
 ```
+
 Just change the date as you need.
 
-### Web Log Importer
+## Web Log Importer
 
 If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT
     [c_ip],
     COUNT(1)

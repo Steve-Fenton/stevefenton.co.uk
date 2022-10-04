@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Script SQL Server backup with batch files and PowerShell'
+navMenu: false
 pubDate: 2016-06-15T15:51:59+01:00
 authors:
     - steve-fenton
@@ -20,17 +20,18 @@ This is not our preferred method of deployment, but we have some batch-file base
 
 The batch file for this is shown below. It simply calls the PowerShell script, bypassing the normal execution policy (so you don’t have to set the global execution policy to be more permissive).
 
-```
-<pre class="prettyprint">echo Backup Database Starting
+```powershell
+echo Backup Database Starting
 explorer "E:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Backup"
 powershell.exe -ExecutionPolicy Bypass -file "E:\Deployments\db-backup.ps1"
 echo Backup Database Done
 pause
 ```
+
 The contents of “db-backup.ps1” are shown below. There is a simple SQL Script to execute the backup, which is executed by importing the SQLPS module and using the “Invoke-Sqlcmd” cmdlet. (You may need to [install the tools to run sql scripts using PowerShell on your server](/2015/08/run-custom-database-scripts-with-powershell-and-octopus-deploy/#running-sql-with-powershell)).
 
-```
-<pre class="prettyprint lang-powershell">Import-Module "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\SQLPS\sqlps"
+```powershell
+Import-Module "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\SQLPS\sqlps"
 
 $script = @"
 DECLARE @script nvarchar(max), @sprint nvarchar(3), @timestamp nvarchar(10), @backuppath nvarchar(250 )

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Filling-in the care gap'
+navMenu: false
 pubDate: 2016-08-20T05:00:39+01:00
 authors:
     - steve-fenton
@@ -11,7 +11,7 @@ tags:
     - People
 ---
 
-![Circles](/img/2016/08/circles.jpg)
+:img{src="/img/2016/08/circles.jpg" alt="Circles"}
 
 We all care quite a lot for the people we are close to.
 

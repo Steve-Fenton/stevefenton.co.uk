@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Performance issues are never where you expect them'
+navMenu: false
 pubDate: 2016-06-28T18:18:21+01:00
 authors:
     - steve-fenton

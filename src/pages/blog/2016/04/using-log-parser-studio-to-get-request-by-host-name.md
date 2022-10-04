@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Log Parser Studio to get request by host name'
+navMenu: false
 pubDate: 2016-04-19T06:00:21+01:00
 authors:
     - steve-fenton
@@ -21,8 +21,7 @@ To make diagnostics easier, I have enabled the “cs-host” column in IIS to lo
 
 The following log parser studio query will get you the number of requests for a given host name in log parser studio:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     cs-host, 
     COUNT(*) AS Total
@@ -33,10 +32,10 @@ GROUP BY
 ORDER BY
     Total DESC
 ```
+
 And this log parser studio query will get you the top URLs for that host:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     cs-uri-stem, 
     COUNT(*) AS Total, 
@@ -52,12 +51,12 @@ GROUP BY
 ORDER BY
     Total DESC
 ```
-### Web Log Importer
+
+## Web Log Importer
 
 If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query for host names:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     [cs_host], 
     COUNT(1) AS Total
@@ -68,10 +67,10 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
+
 And the following query to get top URLs by host:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     [cs_uri_stem], 
     COUNT(1) AS Total, 
@@ -87,4 +86,5 @@ GROUP BY
 ORDER BY
     COUNT(1) DESC
 ```
+
 Note: to use sc\_bytes you have to have enabled it in your IIS logs. Web Log Importer won’t create columns for fields that are not present in your log files.

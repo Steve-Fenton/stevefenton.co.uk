@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Log Parser Studio to find common 500 errors'
+navMenu: false
 pubDate: 2016-08-25T19:15:17+01:00
 authors:
     - steve-fenton
@@ -16,8 +16,7 @@ tags:
 
 The following Log Parser Studio query will find common erroring URLs. You could adapt this to find common addresses for other status codes too.
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     cs-uri-stem, 
     COUNT(*) AS Total, 
@@ -34,12 +33,12 @@ GROUP BY
 ORDER BY
     Total DESC
 ```
-### Web Log Importer
+
+## Web Log Importer
 
 If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
 
-```
-<pre class="prettyprint lang-sql">
+```sql
 SELECT TOP 20
     cs_uri_stem, 
     COUNT(1) AS Total, 

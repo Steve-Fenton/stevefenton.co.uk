@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Inserting soft hyphens into a string just before capital letters'
+navMenu: false
 pubDate: 2016-04-08T06:00:08+01:00
 authors:
     - steve-fenton
@@ -18,31 +18,35 @@ For example, CustomerEntitlementRepository.cs needs a pretty big tile.
 
 This can be solved rather clumsily by using CSS word-wrap:
 
+```css
+word-wrap: break-word;
 ```
-<pre class="prettyprint lang-css">word-wrap: break-word;
-```
+
 This will split whole words as needed to make things fit, but it loses a lot of readability, which would make these tiles less useful.
 
 A much better way to split the words would be if they would break on whole words, i.e. “Customer”, “Entitlement”, “Repository”. But of course, they aren’t whole words – because there are no spaces.
 
 So the solution is to insert soft-hyphens:
 
+```css
+Customer&shy;Entitlement&shy;Repository.cs
 ```
-<pre class="prettyprint lang-html">Customer&shy;Entitlement&shy;Repository.cs
-```
+
 Soft hyphens only appear when they are needed, so when there is enough room, you’ll see:
 
 ```
 CustomerEntitlementRepository.cs
 ```
+
 And when there isn’t enough room, you’ll see a variation such as:
 
 ```
 CustomerEntitlement-
 Repository.cs
 ```
+
 To insert these soft hyphens automatically with C#, you can use this regular expression:
 
-```
-<pre class="prettyprint lang-csharp">Regex.Replace(fileName, @"((?<=\p{Ll})\p{Lu})|((?!\A)\p{Lu}(?>\p{Ll}))", "&shy;$0");
+```csharp
+Regex.Replace(fileName, @"((?<=\p{Ll})\p{Lu})|((?!\A)\p{Lu}(?>\p{Ll}))", "&shy;$0");
 ```

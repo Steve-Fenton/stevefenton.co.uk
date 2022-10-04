@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'ASP.NET MVC image squishing with Picz'
+navMenu: false
 pubDate: 2016-05-12T07:00:20+01:00
 authors:
     - steve-fenton
@@ -29,27 +29,29 @@ There are two ways to use Picz. The first is the simple case, which I’ll expla
 
 So here are the steps you need to take to switch from normal images to responsive images.
 
-### NuGet
+## NuGet
 
 Install the Picz package from NuGet.
 
+```powershell
+PM> Install-Package Fenton.Picz
 ```
-<pre class="prettyprint lang-powershell">PM> Install-Package Fenton.Picz
-```
-### Config
+
+## Config
 
 Add configuration for the lifetime of the images in the disk cache (to save yourself a whole lot of CPU).
 
-```
-<pre class="prettyprint lang-xml"><add key="PiczCacheDurationHours" value="48" />
+```xml
+<add key="PiczCacheDurationHours" value="48" />
 <add key="PiczCachePath" value="E:\Temp\ImageCache\" />
 ```
-### Controller
+
+## Controller
 
 Add a controller to send image requests to Picz… this code does everything you need:
 
-```
-<pre class="prettyprint lang-csharp">using Fenton.Picz.Engine;
+```csharp
+using Fenton.Picz.Engine;
 using System;
 using System.Web.Mvc;
 
@@ -66,21 +68,24 @@ public class PiczController : Controller
     }
 }
 ```
-### Use it!
+
+## Use it!
 
 You can now make any image tag responsive by replacing:
 
-```
-<pre class="prettyprint lang-razor"><img 
+```html
+<img 
     src="~/Content/landscape-mountains-nature-lake.jpeg"
     alt="Mountain Reflection" />
 ```
+
 With the very similar Html Helper that Picz supplies:
 
-```
-<pre class="prettyprint lang-razor">@Html.Picz(
+```csharp
+@Html.Picz(
      "~/Content/landscape-mountains-nature-lake.jpeg",
      "100vw",
      new { alt = "Mountain Reflection" })
 ```
+
 Picz will create your image tag with a responsive source set, and take care of supplying and caching the images at the appropriate sizes.
