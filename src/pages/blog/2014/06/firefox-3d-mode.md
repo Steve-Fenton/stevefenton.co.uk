@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Firefox 3D mode'
+navMenu: false
 pubDate: 2014-06-27T21:50:22+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=332'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
 tags:
@@ -18,7 +15,7 @@ If you haven’t checked out the native Firefox Developer Tools in a while, it i
 
 The feature I’m going to highlight briefly is the 3D view. Once you get over the childish excitement of the 3D rotatable funk, you’ll notice that it does actually serve a purpose.
 
-![Firefox 3D View](/img/2015/07/firefox-3d-view.jpg)
+:img{src="/img/2015/07/firefox-3d-view.jpg" alt="Firefox 3D View"}
 
 If you have trouble finding this option, it is because it isn’t switched on by default – so head to the Settings page (tiny cog on the left of the developer tools header) and tick the “3D View” feature. This will cause a little wire box icon to appear near the right-hand side of the developer tools header.
 
@@ -26,4 +23,4 @@ When you hit the icon, the page will be rendered in 3D, where the contour-style 
 
 Oh yeah – it looks cool too!
 
-Next week… [Firefox Developer Tools Responsive Design Mode](/Content/Blog/Date/201406/Blog/Firefox-Responsive-Mode/)!
+Next week… [Firefox Developer Tools Responsive Design Mode](/blog/201406/firefox-responsive-mode/)!

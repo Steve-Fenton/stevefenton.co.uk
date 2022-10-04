@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Pro TypeScript code examples'
+navMenu: false
 pubDate: 2014-09-03T21:11:16+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -23,10 +21,10 @@ The more involved examples can be edited in any IDE that supports TypeScript, su
 
 All of the examples were written using Visual Studio (premium edition) with Update 2. If you have any problems, make sure you have the update. You can check your TypeScript version using the command:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 tsc -v
 ```
+
 The version running on my machine currently is 1.0.3.0. Again, if you have any problems with the examples, check your TypeScript compiler version as there have been breaking changes between versions.
 
 If you have any problems with any of the code examples, you can get an answer in one of the following ways…

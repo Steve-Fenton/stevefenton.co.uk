@@ -1,14 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Cranked reading list'
+navMenu: false
 pubDate: 2014-07-21T12:13:13+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=11612'
-amp_status:
-    - enabled
-image: /wp-content/uploads/2021/07/reading-list.png
+bannerImage:
+    src: /i/x/2021/07/reading-list.png
+    alt: Reading list
 categories:
     - Process
 tags:
@@ -21,4 +20,4 @@ If you have read our book on Cranked and want to read further on the specific to
 
 The reading list works from the centre outwards, and you can work out along each node to find out more about the particular subject you are most interest in. The first-tier of books can form a recommended reading list for your team.
 
-[![Cranked - Reading List](/img/2021/07/reading-list.png)](/2014/07/cranked-reading-list/reading-list/)
+:img{src="/img/2021/07/reading-list.png" alt="Cranked - Reading List"}

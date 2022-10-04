@@ -35,11 +35,12 @@ There are some cases where the *any* type is needed. It is a useful transitional
 
 So what if you do want to use a dynamic type… should you just use *any*? Here is an example Mario found in an article by Dave Fancher ([TypeScript: Bringing Sanity to JavaScript](http://davefancher.com/2014/07/11/typescript-bringing-sanity-to-javascript/)), which highlights the hazards of any:
 
-```
-<pre class="prettyprint lang-typescript">var x: number = 10;
+```typescript
+var x: number = 10;
 var y: any = "a";
 x = y;
 ```
+
 You can see the absolute nightmare that you can cause with this trick. The variable x has the number type, but now contains a string value. If you use this for an addition, you’ll end up with a concatenation and you’re essentially back in JavaScriptLand. In real life, the offending lines of code could be a long ways apart and it would take you a while to unstick yourself from this tar-pit.
 
 Do you still want to be so slapdash with the *any* type! (This question is rhetorical – I know that you probably already got the point about avoiding this type so I apologise for over-stressing it).
@@ -51,8 +52,8 @@ So what can you do if you genuinely want a dynamically assignable type, but that
 
 So if you accidentally use the type thinking it is a number, you get a compiler warning – but if “you know better than the compiler” (which is usually what the any type is used for) then you can convert it to a specified type and use it – after all, you are the boss.
 
-```
-<pre class="prettyprint lang-typescript">class External {
+```typescript
+class External {
     constructor(private value: any){
     }
     convertTo<T>() {

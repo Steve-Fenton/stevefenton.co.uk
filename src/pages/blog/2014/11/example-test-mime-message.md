@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Example test MIME message'
+navMenu: false
 pubDate: 2014-11-21T20:03:15+00:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,8 +14,7 @@ tags:
 
 If you have ever performed exploratory testing of an SMTP server, you’ll have gotten bored of typing out MIME messages when sending data. If so, you’ll enjoy pasting this example message instead:
 
-```
-<pre class="prettyprint lang-plain_text">
+```mime
 MIME-Version: 1.0
 To: <sender@example.com>
 From: <recipient@example.com>

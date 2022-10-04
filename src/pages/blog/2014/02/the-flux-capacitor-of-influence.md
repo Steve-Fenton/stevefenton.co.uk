@@ -1,18 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Flux Capacitor of influence'
+navMenu: false
 pubDate: 2014-02-05T23:07:40+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=413'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 ---
 
-![Flux Capacitor](/img/2015/07/flux-capacitor.jpg)I wrote a while back about [the flux capacitor of control](http://www.stevefenton.co.uk/Content/Blog/Date/201208/Blog/The-Flux-Capacitor-Of-Control/), which essentially is a technique you can use to spend your energy on fruitful pursuits. I realise now that this technique is one small step on a longer journey and I wanted to expand on the original ideas with what I have learned so far.
+:img{src="/img/2015/07/flux-capacitor.jpg" alt="Flux Capacitor"}
+
+I wrote a while back about [the flux capacitor of control](http://www.stevefenton.co.uk/Content/Blog/Date/201208/Blog/The-Flux-Capacitor-Of-Control/), which essentially is a technique you can use to spend your energy on fruitful pursuits. I realise now that this technique is one small step on a longer journey and I wanted to expand on the original ideas with what I have learned so far.
 
 So a brief run through of the original idea…
 

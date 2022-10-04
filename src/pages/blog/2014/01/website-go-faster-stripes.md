@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Website go faster stripes'
+navMenu: false
 pubDate: 2014-01-06T23:25:05+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=436'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -18,7 +15,7 @@ tags:
 
 My early spring-clean has been going on for a while. I have been gradually deleting things to make the site go faster. As usual, if you don’t keep a close watch on things they start to bloat. My site had reached a whopping 400kb for an empty-cache first-load and spanned far too many network requests including some third-party ones.
 
-### Optimising What?
+## Optimising What?
 
 It is important to understand what you are trying to optimise. Although I wanted the first-hit to be reasonable, I was actually really keen on making subsequent pages utterly tiny more than I was worried about the first hit.
 
@@ -26,7 +23,7 @@ So I wanted to get the first-hit close to the 100kb mark and subsequent hits as 
 
 So here are the steps I used to reduce the crazy on my site.
 
-### Big Files
+## Big Files
 
 I loaded my site with an empty cache and ordered each network request by size. The two biggest files were background images (I was using a parallax background with two images).
 
@@ -36,17 +33,17 @@ I already have file-zipping enabled, so if a browser can accept a gzip compresse
 
 This helped a great deal with the first-hit.
 
-### Number of Requests
+## Number of Requests
 
 My next stop was to look at the number of requests. Were there any requests that weren’t needed? Some of the requests could be combined by crushing all the CSS files into one file and all of the JavaScript into another. (I have about 6 stylesheets all built with LESS that get combined and minified).
 
-This left a couple of third party things being loaded – [so I just ditched them](/Content/Blog/Date/201401/Blog/Your-Visit-Is-Not-Being-Tracked/). They weren’t worth the requests or sizes.
+This left a couple of third party things being loaded – [so I just ditched them](/blog/2014/01/your-visit-is-not-being-tracked/). They weren’t worth the requests or sizes.
 
-I also [dropped the old-browser support for HTML5](/Content/Blog/Date/201401/Blog/Goodbye-Old-Browsers/). This file had to be kept separate because it had to be loaded in the head of the document, so it was a whole request and had to be parsed before the page rendered.
+I also [dropped the old-browser support for HTML5](/blog/2014/01/goodbye-old-browsers/). This file had to be kept separate because it had to be loaded in the head of the document, so it was a whole request and had to be parsed before the page rendered.
 
 This also helped the first-hit.
 
-### Managed Content
+## Managed Content
 
 To make subsequent hits better, I had to look at the HTML. This is the bit that is going to be different on each page.
 
@@ -56,27 +53,27 @@ If you hit a page that is based on dynamic data, and nobody else has looked at t
 
 This was a big opportunity for a speed boost – so the second mechanism is for dynamic pages that have been recently viewed by other people. In these cases a very small amount of server-side code checks the cache and delivers the existing page if it isn’t too old. This takes between 1.5 and 4 seconds.
 
-For pages that aren’t subject to much change, the [output from the content management system is saved as a static HTML page](/Content/Blog/Date/201303/Blog/Speed-Up-Dynamic-Websites-With-Static-Pages/). This means no server-side code needs to run at all and the page. This can take up to 1.2 seconds if your cache is empty.
+For pages that aren’t subject to much change, the [output from the content management system is saved as a static HTML page](/blog/2013/03/speed-up-dynamic-websites-with-static-pages/). This means no server-side code needs to run at all and the page. This can take up to 1.2 seconds if your cache is empty.
 
 Once you’ve visited a page and no longer need all the CSS, JavaScript and images, the static pages take around 200 milliseconds. So while the first page may take about a second, each page you visit afterwards is taking about one fifth of that time.
 
 This really makes a difference if you are using a mobile with a poor signal – perhaps you’ll now get the page before your train enters that tunnel!
 
-### Going Further
+## Going Further
 
 There are still opportunities to make things even faster – but it gets to the point where you need to compromise over things. I could compress the background image more (it is typically the largest file that gets loaded at about 30kb) – but it would look a lot worse and it gets cached once you’ve hit the first page.
 
 I could also go further with the static pages and get clever with the mechanism to re-create them, so the more dynamic pages could be added to the list of pages that can be made into static files – this would only benefit a small number of pages so it might not pay back on the time investment.
 
-### Summary of Timings
+## Summary of Timings
 
-| Server Cache | Client Cache | Time (s) |
-|---|---|---|
-| None | None\* | 2.3 |
-| Cached | None\* | 1.7 |
-| Static | None\* | 1.1 |
-| **Static** | **Yes (but not this page)** | **0.2** |
-| Static | Yes | 0.0 |
+| Server Cache | Client Cache                | Time (s) |
+|--------------|-----------------------------|----------|
+| None         | None\*                      | 2.3      |
+| Cached       | None\*                      | 1.7      |
+| Static       | None\*                      | 1.1      |
+| **Static**   | **Yes (but not this page)** | **0.2**  |
+| Static       | Yes                         | 0.0      |
 
 \* None means that the time includes all the CSS, JavaScript and images.
 

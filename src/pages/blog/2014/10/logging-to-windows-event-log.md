@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Logging to Windows Event Log'
+navMenu: false
 pubDate: 2014-10-15T20:37:57+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,8 +14,7 @@ tags:
 
 This article is really just one of those snippets of code that you get bored or re-writing again and again! So I have left it here for my future self.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 var eventLog = new System.Diagnostics.EventLog();
 eventLog.Source = "My Awesome Windows Service";
 eventLog.Log = "Application";

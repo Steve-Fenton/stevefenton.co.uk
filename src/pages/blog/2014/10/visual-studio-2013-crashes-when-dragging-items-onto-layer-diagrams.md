@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Visual Studio 2013 crashes when dragging items onto layer diagrams'
+navMenu: false
 pubDate: 2014-10-10T20:41:59+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - 'Visual Studio'
 tags:
@@ -14,9 +12,9 @@ tags:
     - WIX
 ---
 
-This bug is a gateway to a whole load of [yak shaving](/Content/Blog/Date/201408/Blog/The-Many-Manifestations-of-Yak-Shaving/). You open a layer diagram in Visual Studio 2013, drag an item from your solution explorer (like you have done a hundred times before) and \*bang\* Visual Studio crashes. You retry and get exactly the same result.
+This bug is a gateway to a whole load of [yak shaving](/blog/2014/08/the-many-manifestations-of-yak-shaving/). You open a layer diagram in Visual Studio 2013, drag an item from your solution explorer (like you have done a hundred times before) and \*bang\* Visual Studio crashes. You retry and get exactly the same result.
 
-![Visual Studio Crash](/img/2015/07/VisualStudioCrash.png)
+:img{src="/img/2015/07/VisualStudioCrash.png" alt="Visual Studio Crash"}
 
 This may not be the answer for everyone, but it was the answer for me – and I suspect will be the answer for a number of people in the future who would like to avoid the elongated process I undertook to discover it.
 

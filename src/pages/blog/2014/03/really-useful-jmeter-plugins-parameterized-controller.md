@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Really useful JMeter plugins: Parameterized controller'
+navMenu: false
 pubDate: 2014-03-10T22:36:33+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=379'
-interface_sidebarlayout:
-    - default
 categories:
     - Automation
 tags:
@@ -18,13 +15,13 @@ There are lots of really useful JMeter Plugins out there but some of them are re
 
 Here are just a couple of scenarios you may find yourself in, which are included along with a bunch of others in the [“Extras with Libs” set of plugins on JMeter-Plugins](http://jmeter-plugins.org/downloads/all/).
 
-### Calling a Module With Arguments
+## Calling a Module With Arguments
 
-I’m a big fan of [using modules in JMeter](http://www.stevefenton.co.uk/Content/Blog/Date/201206/Blog/Modularising-JMeter-Tests/), because I hate repeating myself. Sometimes, though, you want to call your “module” with different arguments. Assuming you’ve used a simple controller to represent a module you may have found this largely impossible.
+I’m a big fan of [using modules in JMeter](/blog/2012/06/modularising-jmeter-tests/), because I hate repeating myself. Sometimes, though, you want to call your “module” with different arguments. Assuming you’ve used a simple controller to represent a module you may have found this largely impossible.
 
 The good news is that the extras set contains a parameterized Controller. You can add one of these for each scenario and then nest the module controller inside of the parameterized Controller. You can then reference the user defined variables you set up in your parameterized controller just like you do the ones you set up at the Test Plan level.
 
-![Parameterized Controller](/img/2015/07/jmeter-param-controller.png)
+:img{src="/img/2015/07/jmeter-param-controller.png" alt="Parameterized Controller" loading="lazy"}
 
 Remember, you can copy/paste the parameterized controller and change the values. This isn’t repeating yourself because all of the repetition is squirrelled away in your simple controller.
 

@@ -1,23 +1,19 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The testing spotlights'
+navMenu: false
 pubDate: 2014-02-03T23:09:34+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=416'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 ---
 
 There are lots of different ways to test software at many different stages in the software development cycle, but as we all know, there is no panacea. There isn’t even room for a discussion about which one method is the most effective – because any individual class of testing is utterly inadequate.
 
-![Spotlight](/img/2015/07/spotlight.png)  
-[Image by Mateusz Stachowski](http://www.sxc.hu/profile/Mattox)
+:img{src="/img/2015/07/spotlight.png" alt="Spotlight"}
 
-### Defect Detection
+## Defect Detection
 
 To look at some common examples of defect detection rates:
 
@@ -31,7 +27,7 @@ Think of each class of testing as a spotlight that you can shine into a dark roo
 
 It is the combination of a range of techniques that results in the highest rates of defect-detection.
 
-### Cost of Detection
+## Cost of Detection
 
 Another consideration is the cost of finding defects. Any test that you can automate will give a good return on investment because the more times you run the test, the more likely it will find a defect. Each time it finds a defect, the cost of writing the test is further divided.
 
@@ -41,6 +37,8 @@ Surprisingly, though, if you want to detect a serious proportion of defects at l
 
 Remember though, you need to combine many methods to get the highest detection rates (the combination should definitely include these high-detection, low-cost methods though).
 
-### Further Reading
+## Further Reading
 
 The statistics and quotes in this article can be found in the massive and awesome [Code Complete by Steve McConnell](http://www.amazon.co.uk/Code-Complete-Practical-Handbook-Construction/dp/0735619670). The hard data in Steve’s book is priceless and it is well researched, with useful citations and plenty of additional resources listed.
+
+<small>[Image by Mateusz Stachowski](http://www.sxc.hu/profile/Mattox)</small>

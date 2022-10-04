@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Overloaded steps in SpecFlow'
+navMenu: false
 pubDate: 2014-12-10T19:40:04+00:00
 authors:
     - steve-fenton
-
 categories:
     - Programming
 tags:
@@ -18,8 +17,7 @@ tags:
 
 This can be a pretty common situation in SpecFlow, thanks to the trusty default RegEx that SpecFlow uses:
 
-```
-<pre class="prettyprint lang-gherkin">
+```gherkin
 Scenario: Binding Test
     Given I have defined a step for the second line of this specification, but not the third
     And this line accepts "a string" in
@@ -27,6 +25,7 @@ Scenario: Binding Test
     Then the second line should be bound
     And the third line should not be bound
 ```
+
 The specification says it all – I have defined a step for the second line:
 
 > And this line accepts “a string” in
@@ -37,28 +36,28 @@ But I haven’t defined a step for the third line:
 
 However, thanks to the following step definition, both lines happily get matched.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Given(@"this line accepts ""(.*)"" in")]
 public void GivenThisLineAcceptsIn(string p0)
 {
     ScenarioContext.Current.Pending();
 }
 ```
-![SpecFlow Before](/img/2015/07/specflow-before.png)
+
+:img{src="/img/2015/07/specflow-before.png" alt="SpecFlow Before" loading="lazy"}
 
 As you can see, the third line is not purple because it is actually matched to the step definition for the second line (you can tell this because the silver text includes the whole middle chunk of the specification).
 
 This is easily fixed using a slightly adjusted RegEx in the method attribute:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Given(@"this line accepts ""([^\""]*)"" in")]
 public void GivenThisLineAcceptsIn(string p0)
 {
     ScenarioContext.Current.Pending();
 }
 ```
+
 As you can see, the RegEx has been changed from the default: `(.*)`
 
 To the more specific quote-inclusive: `([^\""]*)`
@@ -67,7 +66,7 @@ You might also want to note that there is a double-quote after the \\ – this i
 
 The result of this is the expected behaviour:
 
-![SpecFlow After](/img/2015/07/specflow-after.png)
+:img{src="/img/2015/07/specflow-after.png" alt="SpecFlow After" loading="lazy"}
 
 For single quotes, you could use `([^\']*)`
 

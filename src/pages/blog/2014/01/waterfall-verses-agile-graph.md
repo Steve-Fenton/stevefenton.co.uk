@@ -1,22 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Waterfall vs Agile graph'
+navMenu: false
 pubDate: 2014-01-31T23:13:25+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=422'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"77a95fd56a51";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/77a95fd56a51";}'
 categories:
     - Process
 ---
 
 I rather flippantly posted this waterfall vs agile graph online this week, along with the equally flippant comment: “Are we still discussing it? Waterfall loses to Agile even based on Waterfall-style metrics”.
 
-![Waterfall vs Agile](/img/2015/07/waterfall-vs-agile.jpg)
+:img{src="/img/2015/07/waterfall-vs-agile.jpg" alt="Waterfall vs Agile" loading="lazy"}
 
 So I thought I had been at least acknowledge that this was rather off-hand and also provide The Longer Version™.
 

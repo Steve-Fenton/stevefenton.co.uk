@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Creating TypeScript classes dynamically'
+navMenu: false
 pubDate: 2014-07-11T21:41:44+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=320'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,8 @@ Despite needing to use JavaScript, you can make your life easier by making the c
 
 Here is an example the class and method that creates instances:
 
-```
-<pre class="prettyprint lang-typescript">class InstanceLoader {
+```typescript
+class InstanceLoader {
     static getInstance<T>(context: Object, name: string, ...args: any[]) : T {
         var instance = Object.create(context[name].prototype);
         instance.constructor.apply(instance, args);
@@ -29,10 +26,11 @@ Here is an example the class and method that creates instances:
     }
 }
 ```
+
 And you can call it like so:
 
-```
-<pre class="prettyprint lang-typescript">interface NamedThing {
+```typescript
+interface NamedThing {
     name: string;
 }
 
@@ -44,12 +42,13 @@ var example = InstanceLoader.getInstance<NamedThing>(window, 'Example');
 
 alert(example.name);
 ```
+
 Now you can create any class that implements the NamedThing interface (explicitly or implicitly) dynamically at runtime. The interface simply helps you with type checking and auto-completion – so you only need an interface that describes the properties you expect to exist on the returned object.
 
 If you need to pass constructor arguments, you can do that too:
 
-```
-<pre class="prettyprint lang-typescript">interface NamedThing {
+```typescript
+interface NamedThing {
         moreInput: string;
 }
 

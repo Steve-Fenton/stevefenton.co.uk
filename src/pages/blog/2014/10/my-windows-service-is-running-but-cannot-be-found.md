@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'My Windows Service is running but cannot be found'
+navMenu: false
 pubDate: 2014-10-17T20:33:58+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -26,29 +24,29 @@ So a friend ran a port-scanner against my machine and it didn’t find anything 
 
 This caused me to run netstat:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 netstat -an | find "25"
 ```
+
 And the output showed that port 25 had an IPv6 address, not an IPv4 address.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 TCP    [xx99::999x:xxx9:9999:99xx%4]:25  [::]:0                 LISTENING
 ```
+
 As is the way in co-located teams, no sooner had I spoken this finding out loud – a solution was offered up.
 
 And the solution was to replace this code:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 var endpoint = new IPEndPoint(Dns.GetHostAddresses(Dns.GetHostName()).First(), listeningPort);
 _tcpListener = new TcpListener(endpoint);
 ```
+
 With this call to TcpListener.Create:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 _tcpListener = TcpListener.Create(listeningPort);
 ```
+
 Re-running netstat shows the service is now visible under both IPv4 and IPv6.

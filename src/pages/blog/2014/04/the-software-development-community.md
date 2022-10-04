@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The software development community'
+navMenu: false
 pubDate: 2014-04-28T22:21:32+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=364'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 ---

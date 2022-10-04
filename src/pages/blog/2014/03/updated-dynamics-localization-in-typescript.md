@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Updated Dynamics localization in TypeScript'
+navMenu: false
 pubDate: 2014-03-26T22:24:42+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=369'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,8 @@ tags:
 
 I was shown an [example supplied on MSDN for localization of messages](http://msdn.microsoft.com/en-us/library/hh670609.aspx) in JavaScript and my first thought was that is looked a little leaky. Here is the original example:
 
-```
-<pre class="prettyprint lang-typescript">var userLcid = 1033;
+```typescript
+var userLcid = 1033;
 var localizedStrings = {
    ErrorMessage: {
       _1033: "There was an error completing this action. Please try again.",
@@ -39,14 +36,15 @@ var localizedStrings = {
 var LocalizedErrorMessage = localizedStrings.ErrorMessage["_" + userLcid];
 var LocalizedWelcomeMessage = localizedStrings.Welcome["_" + userLcid];
 ```
+
 I didn’t like how you have to keep passing in the userLcid variable and I didn’t like the additions of the underscore a bunch of times and I didn’t like how the internal data structure gradually infects the whole application.
 
-### TypeScript
+## TypeScript
 
 It looked like a good case for a module and a couple of classes to hide all of those details away. Here is my TypeScript version of this example.
 
-```
-<pre class="prettyprint lang-typescript">module Localization {
+```typescript
+module Localization {
     class LocalizedData {
         static ErrorMessageData = {
             _1033: "There was an error completing this action. Please try again."
@@ -82,14 +80,15 @@ var localizedStrings = new Localization.LocalizedStrings(userLcid);
 var welcome = localizedStrings.welcome;
 var error = localizedStrings.errorMessage;
 ```
+
 Now the data structures are all hidden away and the usage of the strings doesn’t require the constant passing of the userLcid. The module hides the LocalizedData class entirely and represents the chunk of code that will change for the same reason, for example if a new language becomes supported you only change the LocalizedData class. If you add a new string, both the data and LocalizedStrings class needs to be changed.
 
-### Compiled JavaScript
+## Compiled JavaScript
 
 If you aren’t using TypeScript, you can use the compiled JavaScript instead.
 
-```
-<pre class="prettyprint lang-javascript">var Localization;
+```javascript
+var Localization;
 (function (Localization) {
     var LocalizedData = (function () {
         function LocalizedData() {

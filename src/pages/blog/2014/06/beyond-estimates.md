@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Beyond estimates'
+navMenu: false
 pubDate: 2014-06-18T21:52:44+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=337'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"77a0ae064d8f";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/77a0ae064d8f";}'
 categories:
     - Process
 tags:
@@ -20,7 +15,7 @@ In order to stop the flow of people who are so keen to tell me what my opinion i
 
 This is my *current* position, as of today. I may change my mind if sufficient evidence is presented to sway me (be it qualitative or quantitative in nature).
 
-There are [many kinds of estimates](/2014/06/Definition-of-Estimates/) in use, including:
+There are [many kinds of estimates](/blog/2014/06/definition-of-estimates/) in use, including:
 
 - Guesses
 - Carefully judged predictions

@@ -1,14 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Definition of estimates'
+navMenu: false
 pubDate: 2014-06-16T21:53:57+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"5eb3f354fb01";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/5eb3f354fb01";}'
 categories:
     - Process
 tags:
@@ -19,7 +15,7 @@ One of the sticky points in the #NoEstimates debate is the lack of agreement ove
 
 So let’s see if we can agree what estimates are, before we decide how we go *beyond estimates*.
 
-### Dictionary Definitions of an “Estimate”
+## Dictionary definitions of an “estimate”
 
 There are three definitions for *estimate* as a noun. I believe the one we are using within the realms of software development is:
 
@@ -31,15 +27,15 @@ And sometimes we mean:
 
 So you are likely to find people estimating all of the following:
 
-- <span>The likely value of delivering the work</span>
-- <span>How long work may take</span>
-- <span>How much effort may be needed</span>
-- <span>The cost of the work</span>
+- The likely value of delivering the work
+- How long work may take
+- How much effort may be needed
+- The cost of the work
+- The risk involved in the work
 
-### Guess
+## Guess
 
-11. <span>The risk involved in the work</span>
-![Estimates vs Guess Diagram](/img/2015/07/estimate-guess.png)
+:img{src="/img/2015/07/estimate-guess.png" alt="Estimates vs Guess Diagram" loading="lazy"}
 
 Some people have referred to estimates as guesses. This isn’t entirely incorrect as *guess* is a subset of *estimate*. An estimate that has been created without sufficient information that would ensure it is *reasonable* is indeed a guess. So all guesses are estimates, but importantly; not all estimates are guesses.
 
@@ -53,7 +49,7 @@ The debate may well cover this relationship in great detail and this seems reaso
 
 One point that I hope needs no debate is that if you are spending any length of time generating an estimate, it must surely provide an amount of value that justifies its cost – otherwise it is not a wise investment.
 
-### The Debate
+## The debate
 
 Now we have a premise for our debate. [I will update it](/contact/) if anyone sees a flaw in these definitions.
 

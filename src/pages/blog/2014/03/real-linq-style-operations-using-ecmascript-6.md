@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Real Linq-style operations using ECMAScript 6'
+navMenu: false
 pubDate: 2014-03-21T22:27:58+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=371'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -19,12 +16,12 @@ There have been a few attempts to create versions of .NET’s LINQ extensions to
 
 This isn’t really analogous for LINQ, which actually returns an enumerable that hasn’t yet been evaluated.
 
-### LINQ Style Using Generators
+## LINQ Style Using Generators
 
 The good news is ECMAScript 6 has generators, which allow a more LINQ-like implementation. Here is an example of “where” and “select” using ECMAScript 6.
 
-```
-<pre class="prettyprint lang-javascript">(function () {
+```javascript
+(function () {
     function toList() {
         var list = [];
         while(true) {
@@ -69,14 +66,15 @@ The good news is ECMAScript 6 has generators, which allow a more LINQ-like imple
     };
 }());
 ```
+
 This extends the array prototype – if you find that distasteful you could easily wrap it and access it via an object, rather than directly extending the native array.
 
-### Where
+## Where
 
 Here is a full example using “where”.
 
-```
-<pre class="prettyprint lang-javascript">var nums = [1, 2, 3, 4, 5, 6];
+```javascript
+var nums = [1, 2, 3, 4, 5, 6];
 
 // Example 1: where
 function isEqualPredicate(num) {
@@ -95,12 +93,13 @@ while(true) {
     console.log(currentItem.value);
 };
 ```
-### Select
+
+## Select
 
 Here is a full example using “select”.
 
-```
-<pre class="prettyprint lang-javascript">var nums = [1, 2, 3, 4, 5, 6];
+```javascript
+var nums = [1, 2, 3, 4, 5, 6];
 
 // Example 2: select
 function toStringConverter(num) {
@@ -113,12 +112,13 @@ var strings = nums.select(function(num) { return num.toString(); }).toList();
 // Logs: ["1", "2", "3", "4", "5", "6"]
 console.log(strings);
 ```
-### Summary
+
+## Summary
 
 Adding LINQ style expressions to JavaScript without also deferring the evaluation isn’t really providing a true equivalent. In the examples above, adding items to the “num” array after the LINQ expression means that item will be included in the evaluation:
 
-```
-<pre class="prettyprint lang-javascript">function isEqualPredicate(num) {
+```javascript
+function isEqualPredicate(num) {
     return num % 2 === 0;
 }
 
@@ -137,4 +137,5 @@ while(true) {
     console.log(currentItem.value);
 };
 ```
+
 Now that is a bit more like it! Note, though, that if you want to be able to keep running the generator, you’ll need to write a bit more code (in the code above, once you have reached the end, you can’t repeat the process).

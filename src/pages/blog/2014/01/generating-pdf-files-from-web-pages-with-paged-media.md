@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Generating PDF files from web pages with paged media'
+navMenu: false
 pubDate: 2014-01-17T23:20:18+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=432'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -24,27 +21,28 @@ Having reviewed a very long list of free and paid HTML to PDF conversion tools I
 
 So here is some example code for using it from .NET (although you can use whatever language suits you).
 
-### Before You Code
+## Before You Code
 
 Before you get started, you either need to install Prince on each machine – or make it a dependency. I made it a dependency and ensure that the Prince engine files end up in the bin folder.
 
-### IPdfConverter Interface
+## IPdfConverter Interface
 
 First, I created an interface for PDF conversion. This allowed me to keep switching out the implementations for the various programs I was testing.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public interface IPdfConverter
 {
     byte[] ConvertUrlToPdf(string url);
 }
 ```
-### Wrapper Class
+
+## Wrapper Class
 
 Next up, a wrapper for Prince:
 
-```
-<pre class="prettyprint lang-csharp">public class PrincePdfConverter : IPdfConverter
+```csharp
+public class PrincePdfConverter
+           : IPdfConverter
 {
     private readonly string baseUrl;
     private readonly string runnerPath;
@@ -66,13 +64,14 @@ Next up, a wrapper for Prince:
     }
 }
 ```
-### Using Prince To Convert HTML To PDF
+
+## Using Prince To Convert HTML To PDF
 
 And now you are ready to rock. Here is a sample MVC controller that converts a supplied URL to PDF and streams back the result (obviously you wouldn’t just accept any URL in the world, but for the purposes of the example it seemed pointless to show code that generates a URL). I have hard-coded a bunch of stuff you wouldn’t in the real world, like file names and such.
 
-```
-<pre class="prettyprint lang-csharp">
-public class PdfController : Controller
+```csharp
+public class PdfController
+           : Controller
 {
     private const string PRINCE_RUNNER_PATH = "~/bin/prince/bin/prince.exe";
     public void Index(string url)
@@ -103,7 +102,8 @@ public class PdfController : Controller
     }
 }
 ```
-### Summary
+
+## Summary
 
 This is a pretty straightforward converter to use. It was definitely “as easy” if not easier than the other libraries I tried. Obviously, I would have loved to have found a free library that did everything that Prince does – but nothing came close in respect of the CSS Paged Media support. Not only does it handle the page breaks and continuation instructions well, it managed to beat all the browsers when it came to the headers and footers.
 

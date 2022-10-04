@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: '#NoEstimates anger'
+navMenu: false
 pubDate: 2014-05-28T22:12:55+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=351'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"a12ccb2d5d89";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/a12ccb2d5d89";}'
 categories:
     - Process
 tags:
@@ -32,7 +27,7 @@ You don’t get to a situation of #NoEstimates by using this kind of language. W
 
 On day one, in a low trust environment people want assurance. To give them this assurance, start delivering early and often. This will build trust.
 
-> \#NoEstimates posits that we can tell the CFO, “staff my dev team for *n* months, &amp; we’ll deliver something. You’ll love it, trust me.” Bzzzzt.
+> \#NoEstimates posits that we can tell the CFO, “staff my dev team for *n* months, & we’ll deliver something. You’ll love it, trust me.” Bzzzzt.
 
 Again, although I suspect this is another straw man argument, I’ll cover it. If you said to a customer “fund me for two weeks and I’ll give you a release containing the first couple of features, then you can opt to continue funding or end the contract”, would that appeal more or less than “here is an estimate that says I can complete the project in six months, give me the money and I’ll send you a CD in six months”.
 

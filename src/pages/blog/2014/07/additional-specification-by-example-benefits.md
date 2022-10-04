@@ -1,20 +1,15 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Additional specification by example benefits'
+navMenu: false
 pubDate: 2014-07-02T21:45:56+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=326'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"14508f6df76b";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/14508f6df76b";}'
 categories:
     - Process
 ---
 
-We have been using Specification by Example for some time (as a part of our [Cranked process](http://crankedalliance.org/)). There are some immediate obvious benefits to using Specification by Example that are well known such as: Improved communication between business and technical people, elimination of vague and ambiguous requirements, laser-guided features based on executable versions of the examples, less time consuming, more accurate and many more.
+We have been using Specification by Example for some time (as a part of our [Cranked process](/blog/category/cranked/)). There are some immediate obvious benefits to using Specification by Example that are well known such as: Improved communication between business and technical people, elimination of vague and ambiguous requirements, laser-guided features based on executable versions of the examples, less time consuming, more accurate and many more.
 
 Essentially, many of the problems teams are having with planning meetings and the many variations of planning meetings can be solved using a specification workshop that focusses on examples to communicate what is needed.
 

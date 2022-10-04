@@ -1,19 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Making errors visible in Visual Studio'
+navMenu: false
 pubDate: 2014-09-10T20:58:36+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - 'Visual Studio'
 ---
 
 There are lots of ways of making errors pop out in Visual Studio and I use all of them! I even added a new one today. Here is my current display, followed by some info on how to get each element.
 
-![Visual Studio with Errors](/img/2015/07/visual-studio-with-errors.png)
+:img{src="/img/2015/07/visual-studio-with-errors.png" alt="Visual Studio with Errors"}
 
 There are three parts to this display:
 
@@ -25,6 +23,6 @@ You get the red-squiggle for free, but depending on your screen size, it is some
 
 The other handy helper, once your attention has been obtained, is the preview scrollbar. The scrollbar shows a zoomed out version of your code with highlights where you have errors (it also highlights other things like breakpoints). You can hover over the scrollbar preview to see a zoomed in version of the code at the hover location, or click to scroll to the code.
 
-You can enable this feature (and adjust its size) in Tools &gt; Options &gt; Text Editor &gt; All Languages &gt; Scroll Bars &gt; Show Preview Tooltip – Source Overview – as per the below screenshot.
+You can enable this feature (and adjust its size) in Tools > Options > Text Editor > All Languages > Scroll Bars > Show Preview Tooltip – Source Overview – as per the below screenshot.
 
-![Scrollbar Preview Options](/img/2015/07/scrollbar-preview-options.png)
+:img{src="/img/2015/07/scrollbar-preview-options.png" alt="Scrollbar Preview Options" loading="lazy"}

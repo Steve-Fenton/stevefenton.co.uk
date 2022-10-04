@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Unity with WebAPI Testing'
+navMenu: false
 pubDate: 2014-05-05T22:17:16+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=359'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -25,8 +22,8 @@ When we added in Unity to take care of our dependencies, it broke our tests. We 
 
 To make the following code example possible, you need to extract the pertinent parts of the configuration in your ASP.NET Web API project into methods that your test code can see (i.e. a public method, or by using “InternalsVisibleTo”). You can then use these methods as normal within the ASP.NET Web API project – and also re-use them in your WebAPI.Testing tests:
 
-```
-<pre class="prettyprint lang-csharp">[Given(@"a call to the service")]
+```csharp
+[Given(@"a call to the service")]
 public void GivenACallToTheService()
 {
     var config = GetConfiguration();
@@ -40,10 +37,11 @@ private static HttpConfiguration GetConfiguration()
     return config;
 }
 ```
+
 Here is the Web API Config to show the extracted GetConfig method:
 
-```
-<pre class="prettyprint lang-csharp">public static class WebApiConfig
+```csharp
+public static class WebApiConfig
 {
     public static void Register(HttpConfiguration config)
     {
@@ -62,10 +60,11 @@ Here is the Web API Config to show the extracted GetConfig method:
     }
 }
 ```
+
 Here is the UnityConfig to show the extracted CreateResolver method:
 
-```
-<pre class="prettyprint lang-csharp">public static class UnityConfig
+```csharp
+public static class UnityConfig
 {
     public static void RegisterComponents()
     {
@@ -82,4 +81,5 @@ Here is the UnityConfig to show the extracted CreateResolver method:
     }
 }
 ```
+
 I hope this helps if you come across this situation – I couldn’t find any advice on this topic.

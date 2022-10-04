@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Really useful JMeter plugins: PerfMon metrics'
+navMenu: false
 pubDate: 2014-12-24T18:37:07+00:00
 authors:
     - steve-fenton
-
 categories:
     - Automation
 tags:
@@ -22,7 +21,7 @@ You start the PerfMon Agent by opening the “startAgent.bat” (or “startAgen
 
 Once the PerfMon Agent is running, you can collect data using the PerMon Metrics Collector plugin.
 
-![JMeter Perfmon Listener](/img/2015/07/jmeter-perfmon-listener.png)
+:img{src="/img/2015/07/jmeter-perfmon-listener.png" alt="JMeter Perfmon Listener" loading="lazy"}
 
 You can use “Add Row” to create lines on the graph, using a row per server/metric. In the example above, I’m collecting the CPU data from localhost and the Memory data from localhost.
 

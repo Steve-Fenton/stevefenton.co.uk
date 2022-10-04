@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JMeter throughput shaping tip'
+navMenu: false
 pubDate: 2014-11-19T20:04:50+00:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Automation
 tags:

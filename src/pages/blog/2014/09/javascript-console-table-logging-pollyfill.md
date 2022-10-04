@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JavaScript console table logging polyfill'
+navMenu: false
 pubDate: 2014-09-01T21:13:44+01:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
     - Programming
@@ -16,8 +14,7 @@ tags:
 
 There is a rather neat addition to the console in Chrome that lets you log an array of objects using the new console.table method. You can simply pass some data, or you can pass a list of columns you are interested in – like this:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var items = [
     { name: 'Martin', occupation: 'Street Fighter' },
     { name: 'Divya', occupation: 'Destroyer' },
@@ -30,12 +27,12 @@ console.table(items);
 // Or, you can specify columns (for example to reduce the table size)
 console.table(items, ['name', 'occupation', 'title']);
 ```
+
 Of course, this doesn’t work anywhere else – but you can use this hastily written pollyfill to get support everywhere else… the table isn’t as pretty, only handles specifically arrays of objects and you can’t sort it in the console, but it works while you’re waiting for browsers to decide it is a great idea.
 
-![Console Table](/img/2015/07/console-table.png)
+:img{src="/img/2015/07/console-table.png" alt="Console Table" loading="lazy"}
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 (function() {
     if (!console.table) {
         function getColumnHeadings(data, cols) {
