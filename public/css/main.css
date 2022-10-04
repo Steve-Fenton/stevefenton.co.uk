@@ -275,24 +275,26 @@ nav.skip-links a:focus {
 }
 
 .site-header .navigation-icon {
-    display: none;
-    position: fixed;
     top: 10px;
     left: 10px;
-    stroke: var(--link-head);
 }
 
 .site-header .search-icon {
-    position: fixed;
     top: 10px;
     right: 10px;
+}
+
+.site-header .navigation-icon,
+.site-header .search-icon {
+    position: fixed;
     stroke: var(--link-head);
 }
 
-@media (max-width: 860px) {
-  .site-header .navigation-icon {
-    display: block;
-  }
+.site-header .navigation-icon:hover,
+.site-header .navigation-icon:focus,
+.site-header .search-icon:hover,
+.site-header .search-icon:focus {
+    stroke: var(--link-alt-head);
 }
 
 /* Navigation */
@@ -459,8 +461,32 @@ main ul ol, main ul ul, main ol ol, main ol ul {
     overflow-y: auto;
 }
 
-.overlay a, .overlay summary {
+.overlay > * {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.overlay .site-nav {
+    font-size: 1.4em;
+}
+
+.overlay .site-nav ul {
+    border-top: 1px solid var(--fore-link);
+}
+
+.overlay .site-nav li {
     border-bottom: 1px solid var(--fore-link);
+}
+
+.overlay .site-nav a, 
+.overlay .site-nav li.has-children summary span {
+    text-decoration: none;
+}
+
+@media (max-width: 860px) {
+    .overlay .site-nav {
+        font-size: 1em;
+    }
 }
 
 /* Site Search */

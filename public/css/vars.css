@@ -70,12 +70,12 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --fore: #CCC;
-        --fore-headings: #CCE;
+        --fore-headings: #CDE;
         --aft: #333;
         --aft-paper: #222;
     
-        --fore-link: #abb9ef;
-        --fore-link-alt: #abb9ef;
+        --fore-link: #6699CC;
+        --fore-link-alt: #99CCFF;
         --aft-link-alt: #232323;
         
         --fore-head: #CCC;
@@ -84,12 +84,12 @@
         --fore-breadcrumb: #CCC;
         --aft-breadcrumb: #2C2C2C;
 
-        --link-head: #abb9ef;
-        --link-alt-head: #6580ed;
+        --link-head: #6699CC;
+        --link-alt-head: #99CCFF;
 
         --fore-block: #CCC;
         --aft-block: #111;
-        --icon-block: #abb9ef;
+        --icon-block: #FE117D;
 
         --fore-table-head: #CCC;
         --aft-table-head: #222; 

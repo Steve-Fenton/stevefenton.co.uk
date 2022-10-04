@@ -1,6 +1,6 @@
 ---
 import type { Frontmatter } from '@config';
-import Default from '@layouts/Default.astro';
+import ThemeLayout from '@layouts/Default.astro';
 
 // Properties
 type Props = {
@@ -10,6 +10,6 @@ type Props = {
 const { frontmatter, headings } = Astro.props as Props;
 
 ---
-<Default frontmatter={ frontmatter } headings={ headings }>
+<ThemeLayout frontmatter={ frontmatter } headings={ headings }>
     <slot />
-</Default>
+</ThemeLayout>
