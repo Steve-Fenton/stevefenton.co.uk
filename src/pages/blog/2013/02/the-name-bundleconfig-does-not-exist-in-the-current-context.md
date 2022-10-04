@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The name BundleConfig does not exist in the current context'
+navMenu: false
 pubDate: 2013-02-18T22:01:11+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=651'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -24,18 +21,17 @@ The error is…
 
 Usually this means you have the following line of code in your Global.asax.cs file, perhaps in an ASP.NET MVC project.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 BundleConfig.RegisterBundles(BundleTable.Bundles);
 ```
+
 There are two possible reasons for this error.
 
-### Namespace
+## Namespace
 
 The most obvious and easy to fix error will be that when you added your App\_Start/BundleConfig class, Visual Studio put in the namespace YourApp/App\_Start namespace. All of the other App\_Start classes will be in the YourApp namespace. So go edit:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 namespace YourApp.App_Start
 {
     public class BundleConfig
@@ -44,10 +40,10 @@ namespace YourApp.App_Start
         {
             //...
 ```
+
 And change it to:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 namespace YourApp
 {
     public class BundleConfig
@@ -56,7 +52,8 @@ namespace YourApp
         {
             //...
 ```
-### Optimization Package
+
+## Optimization Package
 
 The second most obvious reason will be that you don’t have the System.Web.Optimization assembly.
 

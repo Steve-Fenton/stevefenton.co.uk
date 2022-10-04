@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Mind your language'
+navMenu: false
 pubDate: 2013-12-01T10:00:55+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=481'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 tags:
@@ -26,7 +23,7 @@ In programming, design patterns were created to represent entire designs in one 
 
 So whatever domain you are working within, discovering and understanding the notations and language that represent important concepts will lead to more effective communication, more effective thought and better decision making.
 
-### References
+## References
 
 [Toward a Theory of Instruction](https://www.amazon.co.uk/Toward-Theory-Instruction-Belknap-Press/dp/0674897013) – Jerome S Bruner (1966)
 

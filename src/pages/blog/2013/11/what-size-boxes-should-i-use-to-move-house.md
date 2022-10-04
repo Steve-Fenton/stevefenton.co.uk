@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'What size boxes should I use to move house?'
+navMenu: false
 pubDate: 2013-11-01T10:13:59+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=489'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 ---
@@ -18,7 +15,7 @@ So I was sat in front of Amazon comparing boxes. What a Saturday night that was.
 
 So I have run the experiments, talked to the experts and come up with a reasonable guideline for choosing the right boxes.
 
-### Your Main Box
+## Your Main Box
 
 For your main boxes, you want to get double-wall strong cardboard boxes that are 18″ x 12″ x 12″. (46cm x 30cm x 30cm). This is a reasonably small size, but it will suit the most things. Books, kitchen-ware, gadgets, laptops, printers, consoles, folders, toys, games, clothes, *stuff* – it will all fit in there without generating a heavy box or a half-filled box. This is an important tip from the experts…
 

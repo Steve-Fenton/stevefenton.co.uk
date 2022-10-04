@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The tree view that killed the program'
+navMenu: false
 pubDate: 2013-07-27T11:39:44+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=534'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 ---
@@ -20,7 +17,7 @@ Here are some of the pain points along with the fixes I found to work. The stand
 
 This is really just an example that contains some problems and some specific ideas that happened to solve these problems. I’m sharing this because while their are websites dedicated to bad code, the reality of programming is that we have to fix it and the more stories we share about how we did that the better. Maybe you’ll come across similar problems and solve them in different ways – please share them too.
 
-### Load The World
+## Load The World
 
 The program loaded pretty much the whole database into memory to display the tree view. It only displays the various names, but it loaded objects that are far too big and then attached them to the nodes on the tree view. While this could be viewed as a mechanism that avoids round-trips to the database, it makes even a mighty machine baulk. In addition, when you select an item from the tree-view it has to go and get the record from the database anyway, because it may have changed. We’re also talking about loading 20,000 objects, most of which will never come into view because their nodes won’t be expanded.
 
@@ -28,13 +25,13 @@ On top of the problems of getting this much data into memory, the database was u
 
 To solve this, small round-trips are made to load a small amount of data on demand. This is faster even if you expand a lot of nodes. If a node is collapsed, the data is discarded. A dummy node was used to ensure the expand option was available.
 
-### Un-background Process
+## Un-background Process
 
 When some nodes were expanded, the program loaded up a bunch of threads to do some work in the background. A lot of work. Too much work for anything else to happen at the same time. This was causing a lot of “not responding” notices, white-screens-of-patience and occasional crashes.
 
 The first stage of the fix for this was to only run the process when the user required it, rather than assuming they wanted it to run whenever a tree-node was expanded. The next stages are to move this process from a “view time” process to a “save time” process so it can happen once on save, rather than 1,000 times (or more) when people are viewing the data.
 
-### Need More Input
+## Need More Input
 
 Depending on the item selected in the tree-view, different options would be available in various toolbars and boxes. The mechanism used to determine the available options involved various database look-ups and logic flows in a mega-method that determined whether each of some 50 options should be enabled or not.
 
@@ -42,7 +39,7 @@ To solve this issue, the mega-method was re-written using a test-first approach 
 
 To allow the correct buttons to be presented without data access, a small set of meta-data was attached to tree-nodes that depended on this information to determine the available options. Unlike the original problem where the entire database was represented in the tree view and attached to the tree view, only visible items were represented and only a sub-set of data was attached. This was probably the hardest judgement call to make as the original problematic design gave us all a distaste for attaching data to the tree view, but it is important to realise that the implementation was wrong and a correct implementation is not necessarily wrong.
 
-### User Experience
+## User Experience
 
 In order to really make things work (and therefore provide an acceptable user experience) we asked users to accept some changes to how things worked.
 
@@ -54,7 +51,7 @@ We needed to simplify some of the logic to determine whether a button should be 
 
 At this stage in the process, we are asking the users to take a leap of faith – we are new to them and to their program and the trust needs to be built over time.
 
-### Result
+## Result
 
 This is still a work in progress at the time of writing, but here are some indications of the differences made by these changes.
 

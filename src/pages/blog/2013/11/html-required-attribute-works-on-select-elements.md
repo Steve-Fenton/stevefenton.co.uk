@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML required attribute works on select elements'
+navMenu: false
 pubDate: 2013-11-20T10:05:00+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=485'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,7 @@ This pattern requires a quick bit of validation to ensure that the user has sele
 
 The great news is that you can combine the HTML 5 “required” attribute with an empty value on the first option to get browser-validated input. Here is an example of the technique in action – zero JavaScript required and no hassle at all – the important bits are the “required” attribute on the select element and the empty value on the first option.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <form method="post" action="">
     <select required>
         <option value="">Please select</option>
@@ -31,9 +27,9 @@ The great news is that you can combine the HTML 5 “required” attribute with 
     <button>Submit</button>
 </form>
 ```
+
 If you are living it long-hand, use the following:
 
-```
-<pre class="prettyprint lang-html">
+```html
 <select required="required">
 ```

@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Standardisation is the enemy of success'
+navMenu: false
 pubDate: 2013-08-19T11:17:37+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=520'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"1d07b307a547";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/1d07b307a547";}'
 categories:
     - Process
 ---
@@ -30,7 +25,7 @@ The answer to all these questions is because we know that standardisation is the
 
 The process should flex to suit the people, not the other way around. If one team finds that Fibonacci numbers ain’t working, they should be able to use something else. If one team finds that a three-week sprint works better than a four-week sprint, that’s fine too.
 
-It is when we try to standardise that we ruin all of the good work that Agile has done and standardisation is just command and control – and we recognise that[ command and control is not Agile](/2013/04/Command-And-Control-In-Agile-Teams/).
+It is when we try to standardise that we ruin all of the good work that Agile has done and standardisation is just command and control – and we recognise that[ command and control is not Agile](/blog/2013/04/command-and-control-in-agile-teams/).
 
 If a team is being effective, you have what you want. If they aren’t, you bring it to the retrospective and they will work out how to change what they are doing to make it effective – and you’ll give them the time they need to experiment and adjust their process in order to become great.
 

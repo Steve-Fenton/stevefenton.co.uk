@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to create your own code snippet in Visual Studio'
+navMenu: false
 pubDate: 2013-02-03T22:20:50+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=663'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - 'Visual Studio'
@@ -21,23 +18,23 @@ I’m using Visual Studio 2012, but this works just as well in any sensibly mode
 
 If you need to add an auto property in Visual Studio, you are probably aware of the “prop” snippet. Instead of typing:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public string MyProperty { get; set; }
 ```
+
 You just type:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 prop
 ```
+
 And hit your tab key a couple of times. You need to type in the bits it can’t guess – but it is quicker than hand-cranking the stuff that is always the same.
 
 Similar short-cuts exist for tons of things and it is worth learning a few if you want to avoid nodding off and head-butting your keyboard.
 
 But what if you want to write your own short-cuts? Enter the snippet!
 
-### Writing a Custom Snippet
+## Writing a Custom Snippet
 
 For this example, I’m going to show you a snippet that generates an outline for a method. It is a little simplistic, but shows you how to make parts of the snippet user-editable.
 
@@ -45,8 +42,8 @@ Start off by creating a file named “method.snippet”. This will be an XML fil
 
 Here is the entire file, I’ll explain straight after.
 
-```
-<pre class="prettyprint lang-xml"><codesnippets xmlns="http://schemas.microsoft.com/VisualStudio/CodeSnippet">
+```xml
+<codesnippets xmlns="http://schemas.microsoft.com/VisualStudio/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
           <Title>method</Title>
@@ -74,41 +71,43 @@ Here is the entire file, I’ll explain straight after.
                     {
                         throw new NotImplementedException();
                     }
-                ] ]>
-            </codesnippets>
+                ]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</codesnippets>
 ```
-Title,Description and Author are reasonably self-explanatory.
+
+Title, Description, and Author are reasonably self-explanatory.
 
 Shortcut contains the thing you need to type to access the snippet. I have used “method”, but you could have “me” or “mth” or whatever is obvious to you.
 
 The snippet itself is defined in two stages. The first part are the Declarations – this contains any things we want the programmer to be able to edit when the code is generated. They will be able to tab between the things you define here and overwrite them easily. In this case, it is “type” and “name”, along with some default values.
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <Declarations>
-        <Literal>
-                <ID>type</ID>
-                <Default>void</Default>
-        </Literal>
-        <Literal>
-                <ID>name</ID>
-                <Default>methodName</Default>
-        </Literal>
+    <Literal>
+        <ID>type</ID>
+        <Default>void</Default>
+    </Literal>
+    <Literal>
+        <ID>name</ID>
+        <Default>methodName</Default>
+    </Literal>
 </Declarations>
 ```
+
 The second part is the code, which in our case contains placeholders for the declarations we just created. Just surround the ID with dollars in the code-block.
 
+```csharp
+<![CDATA[
+        public $type$ $name$()
+        {
+                throw new NotImplementedException();
+        }
+]]>
 ```
-<pre class="prettyprint lang-csharp">```
-        <![CDATA[
-                public $type$ $name$()
-                {
-                        throw new NotImplementedException();
-                }
-        ]]>
 
-```
-```
 Save the file and it is ready to import!
 
 In Visual Studio, go to `Tools > Code Snippet Manager`. In this dialog you’ll see all the snippets organised neatly into various groups.

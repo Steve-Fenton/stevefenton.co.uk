@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Drawing on Carl Rogers for Agile'
+navMenu: false
 pubDate: 2013-05-17T14:23:06+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=586'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"bce5d8b6157b";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/bce5d8b6157b";}'
 categories:
     - Process
 ---
@@ -18,7 +13,7 @@ You could say humorously that coaching a team on Agile principles and practices 
 
 In particular, I am reading a book by Carl Rogers titled On Becoming A Person, in which he describes some “Significant Learnings” from his long and distinguished career in psychology and as a therapist. Much of what Rogers describes as true to his role as a therapist can be transferred to the role of coach.
 
-> “In my relationships with persons I have found that it does not help, in the long run, to act as though I were something I am not.”
+> In my relationships with persons I have found that it does not help, in the long run, to act as though I were something I am not.
 
 This simple but powerful statement works on many levels. It means that it doesn’t help to pretend you have answers when you don’t. It means that you don’t pretend to be calm when you are angry or assured when you are frightened. This doesn’t mean acting like a child and showing off your emotions by knocking over chairs and storming out of meetings (although this is sometimes necessary) – it means being honest with yourself about your own emotions and the limits of your knowledge and experience. It is okay to not have the answers – just admit it – don’t make up an answer on the spot that might be interpreted as the correct way of doing things when it is just a wild guess.
 

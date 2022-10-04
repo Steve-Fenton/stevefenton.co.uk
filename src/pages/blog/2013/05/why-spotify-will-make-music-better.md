@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Why Spotify will make music better'
+navMenu: false
 pubDate: 2013-05-08T14:43:34+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=594'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 tags:

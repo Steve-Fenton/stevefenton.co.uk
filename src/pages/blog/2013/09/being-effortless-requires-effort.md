@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Being effortless requires effort'
+navMenu: false
 pubDate: 2013-09-16T10:54:08+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=510'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Psychology
@@ -15,7 +12,9 @@ categories:
 
 You know that moment when something clicks. You have struggled with it for ages and expended effort on it, but then suddenly it is easy? That click is the moment that your system 1 process has been given enough examples to automatically form a set of information to make the task feel effortless.
 
-System 1? This system comes from [dual-process theory (video)](https://www.youtube.com/watch?v=KyM3d4gQGhM), which divides your thinking into two parts. System 1 is fast, usually effortless and feels like intuition. If you meet someone with a moustache, your system 1 process will automatically hand you back a snapshot of information for you to use to judge the situation. Maybe you’ll think of this person as a circus strongman – if that is something you have seen enough times to associate strength and moustaches. System 1 isn’t a simple process by any means and it can be materially affected by things you might think are logically unconnected – but it will attempt to serve up microwave-meal-for-one answers that you can use to respond to events.
+System 1? This system comes from dual process theory, which divides your thinking into two parts. System 1 is fast, usually effortless and feels like intuition. If you meet someone with a moustache, your system 1 process will automatically hand you back a snapshot of information for you to use to judge the situation. Maybe you’ll think of this person as a circus strongman – if that is something you have seen enough times to associate strength and moustaches. System 1 isn’t a simple process by any means and it can be materially affected by things you might think are logically unconnected – but it will attempt to serve up microwave-meal-for-one answers that you can use to respond to events.
+
+[Watch a dual-process theory video](https://www.youtube.com/watch?v=KyM3d4gQGhM)
 
 This system 1 process is found wherever you find a brain.
 

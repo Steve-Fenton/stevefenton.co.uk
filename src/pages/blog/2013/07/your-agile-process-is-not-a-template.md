@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Your Agile process is not a template'
+navMenu: false
 pubDate: 2013-07-05T11:57:51+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=549'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"7b64c1f81a02";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/7b64c1f81a02";}'
 categories:
     - Process
 ---
@@ -26,7 +21,7 @@ In any of these cases, they are doing it wrong.
 
 Here is a paraphrased version of a “success story” that shows this problem in action ([original story on Leanblitz](http://leanblitz.net/2013/06/use-of-lean-in-home-theater-installations/)): One of several teams were allowed to experiment with their process to see if they could make it better. The result of this experiment was that customer satisfaction went up, profits went up and waste went down.
 
-> “…the owner was happy. He was so happy, in fact, that he instituted our ideas into the other \[teams\] – a sharing of a best practice.”
+> …the owner was happy. He was so happy, in fact, that he instituted our ideas into the other \[teams\] – a sharing of a best practice.
 
 Oh dear. The whistling noise this one makes as it misses the point is almost deafening. That isn’t to say the company is doing it all wrong, they are just missing the point a bit.
 

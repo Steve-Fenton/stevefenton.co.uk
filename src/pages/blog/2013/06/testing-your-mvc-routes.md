@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Testing your MVC routes'
+navMenu: false
 pubDate: 2013-06-21T12:03:34+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=560'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,8 +19,7 @@ If you are using only the default route, you may not have tripped over routing i
 
 Testing your routes is ridiculously easy, so there really is no reason to avoid it. Here is an example test.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [TestMethod]
 public void DefaultRouteExpectControllerOnly()
 {
@@ -36,6 +32,7 @@ public void DefaultRouteExpectControllerOnly()
     Assert.AreEqual("Like", routeData.Values["action"]);
 }
 ```
+
 In this example, the only thing you need a test double for is HTTP Context – which allows you to pass in a pretend request address. You then use your real routing rules to get the route data and make sure it has been mapped as you expect.
 
 This test actually covers the default routing rule, which is an important test because this may represent the most URLs in your application – you’ll want to be confident you haven’t accidentally replaced this with another route when you create your custom routes later.

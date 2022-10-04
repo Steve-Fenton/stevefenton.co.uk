@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'An early vision of TypeScript generics'
+navMenu: false
 pubDate: 2013-01-21T22:33:30+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=671'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,7 +17,7 @@ So how will generics in TypeScript look and behave? Here is an imaginary example
 
 So let’s imagine we have this pre-generic code – a repository that gives us some data, either a Name or a Product…
 
-```
+```typescript
 interface Entity {
     id: number;
 }
@@ -56,11 +53,12 @@ class ProductRepository implements Repository {
 var repository = new NameRepository();
 var name = <Name> repository.getById(1);
 ```
+
 We don’t have generics, so we have to convert our general “Entity” into our specific “Name”, or drop the shared interface and use only specific repositories, or use the any type or otherwise fiddle about.
 
 With generics, we could use…
 
-```
+```typescript
 interface Entity {
     id: number;
 }
@@ -96,7 +94,8 @@ class ProductRepository implements Repository<Product> {
 var repository = new NameRepository();
 var name = repository.getById(1);
 ```
-So our repository requires the generic type &lt;T&gt; to be a class that implements the Entity interface (although you still use the “extends” keyword when defining a type constraint), so you can’t just pass any type argument you like.
+
+So our repository requires the generic type <> to be a class that implements the Entity interface (although you still use the “extends” keyword when defining a type constraint), so you can’t just pass any type argument you like.
 
 The implementations of Repository tell the Repository interface the type they operate on, which means they can now return their specific type, not the interface. Our name variable doesn’t need a cast, it will be of type Name, because that is what a NameRepository returns.
 

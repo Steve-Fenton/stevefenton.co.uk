@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'My unit testing epiphany'
+navMenu: false
 pubDate: 2013-05-01T14:51:34+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=602'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,7 +13,7 @@ tags:
 
 I promised to write up the details of this after writing the following Tweet while listening to Ian Cooper talk on “TDD: Where did it all go wrong?” at DevSouthCoast in April.
 
-> “I have had an epiphany at @DevSouthCoast – I’m embarrassed about some TDD techniques I have been using. NO MORE!”
+> I have had an epiphany at @DevSouthCoast – I’m embarrassed about some TDD techniques I have been using. NO MORE!
 
 So what was it that caused such a flash-of-light realisation? What was I doing so wrong? Here’s the story, with all the credit going to Ian Cooper who opened my eyes to this issue.
 
@@ -62,4 +59,4 @@ Oddly though, this wasn’t how I was doing it during daylight hours. I think th
 
 If you have been doing things the way I did don’t feel guilty about it, because much of the literature is misleading. Let’s all just do it better from now.
 
-This article generated lots of great discussion. You can read more in [My Unit Testing Epiphany Continued!](/2013/05/My-Unit-Testing-Epiphany-Continued/)
+This article generated lots of great discussion. You can read more in [My Unit Testing Epiphany Continued!](/blog/2013/05/my-unit-testing-epiphany-continued/)

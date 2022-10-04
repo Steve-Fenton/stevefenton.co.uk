@@ -1,20 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Harnessing the positive side of the Dunning Kruger Effect'
+navMenu: false
 pubDate: 2013-01-11T22:36:28+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=675'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 tags:
     - 'Dunning-Kruger Effect'
 ---
 
-I jotted an article recently about [The Dreyfus Model and The Dunning Kruger Effect](/2012/12/The-Dreyfus-Model-Mistake-In-Software-Development/). In that article I spoke about how The Dreyfus Model is being mistakenly applied to the role of “programmer” rather than to each individual skill. This time round, I’m going to talk about harnessing the positive powers of The Dunning Kruger Effect.
+I jotted an article recently about [The Dreyfus Model and The Dunning Kruger Effect](/blog/2012/12/the-dreyfus-model-mistake-in-software-development/). In that article I spoke about how The Dreyfus Model is being mistakenly applied to the role of “programmer” rather than to each individual skill. This time round, I’m going to talk about harnessing the positive powers of The Dunning Kruger Effect.
 
 If you have heard of it, The Dunning Kruger effect describes how unskilled people can grossly over-estimate their ability. You probably know a programmer who thinks he is the golden coder, but who is actually a total chump who has no idea what he’s doing. It is very easy to over-estimate your ability if you don’t really understand just how complex the subject is.
 

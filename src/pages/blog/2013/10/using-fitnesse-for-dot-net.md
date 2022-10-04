@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Fitnesse for .NET'
+navMenu: false
 pubDate: 2013-10-21T10:43:36+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=497'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,33 +17,32 @@ Fitnesse is a stand-alone wiki for describing and running your acceptance tests.
 
 Here is a quick set up guide for getting started with Fitnesse with a C# program.
 
-### Download Fitnesse
+## Download Fitnesse
 
 You can grab Fitnesse from the [official Fitnesse website](http://fitnesse.org/FitNesseDownload). Pop the fitnesse-standalone.jar file on your test server in the folder you want to run from, then run the following command (in this case, I’m running it from C:\\Fitnesse).
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 "C:\Program Files (x86)\Java\jre7\bin\java" -jar fitnesse-standalone.jar -p 8080
 ```
+
 I’m using port 8080 in this example because the default port (80) is already taken. When you run the command, you’ll get a little Fitnesse window that you need to leave open while you want to access the wiki.
 
 You can now browse to `http://localhost:8080` to see the default home page.
 
-### Download FitSharp
+## Download FitSharp
 
 You can grab FitSharp from the [FitSharp GitHub page](https://github.com/jediwhale/fitsharp/downloads). At the time of writing, FitSharp is targeting .NET 4 – so I downloaded the source and switched all the projects to 4.5 so it would be able to load all of my 4.5 assemblies.
 
 I placed all of my FitSharp dlls in `C:\Fitnesse\Fitsharp` so I wouldn’t lose them.
 
-### Write Your C# Code
+## Write Your C# Code
 
 To test my installation, I wrote a quick acceptance test that concatenates two strings (with a space in the middle) and returns the result. You will need to reference two of the DLLs from your FitSharp folder – so place them somewhere sensible:
 
 - fit.dll
 - fitsharp.dll
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using fit;
 
 namespace Acceptance.Tests
@@ -62,14 +58,14 @@ namespace Acceptance.Tests
     }
 }
 ```
+
 Build this project – the DLLs from your build will need to end up somewhere that your test server can get to.
 
-### Write the Acceptance Test
+## Write the Acceptance Test
 
 If you go to `http://localhost:8080/MyAcceptanceTests` Fitnesse will create your new page for you to add tests to. In this page, you will need to add the following:
 
 ```
-<pre class="prettyprint lang-plain_text">
 !contents -R2 -g -p -f -h
 !path C:\Source\AcceptanceTests\bin\Debug\AcceptanceTests.dll
 !define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer %p}

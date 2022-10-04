@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Visual Studio refactoring shortcuts'
+navMenu: false
 pubDate: 2013-09-12T10:55:14+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=512'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Visual Studio'
 tags:

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Windows 8 revisited'
+navMenu: false
 pubDate: 2013-12-27T09:30:52+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=458'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 tags:
@@ -15,7 +12,9 @@ tags:
     - windows
 ---
 
-![Asus Transformer T100TA](/img/2015/07/asus-transformer-t100ta.jpg)When I upgraded my main laptop to Windows 8 when the special offer was on just over a year ago, many of my friends were quite surprised. As usual with a Windows release, the general perception was that it was rubbish. I actually got along fine with it – I didn’t even miss the start menu.
+:img{src="/img/2015/07/asus-transformer-t100ta.jpg" alt="Asus Transformer T100TA"}
+
+When I upgraded my main laptop to Windows 8 when the special offer was on just over a year ago, many of my friends were quite surprised. As usual with a Windows release, the general perception was that it was rubbish. I actually got along fine with it – I didn’t even miss the start menu.
 
 When my computer exploded and went to get a new hard disk, it came back with Windows 7 on because that was what the recovery disk had. I didn’t lose any files because they were all backed up online (I recommend you do this!) Because I was busy at the time I didn’t want to sit and wait for the Windows 8 download and install again… and then I just forgot to do it… and then it was a few months down the road and it just never happened.
 

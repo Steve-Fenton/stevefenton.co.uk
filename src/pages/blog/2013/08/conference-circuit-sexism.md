@@ -1,19 +1,16 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Conference circuit sexism'
+navMenu: false
 pubDate: 2013-08-02T11:36:40+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=530'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Psychology
 ---
 
-Following on from [my Journey Through Sexism](/2013/02/A-Journey-Through-Sexism/) and after yet another technology-industry-gender-incident, I formed a theory and decided to put it to the test.
+Following on from [my Journey Through Sexism](/blog/2013/02/a-journey-through-sexism/) and after yet another technology-industry-gender-incident, I formed a theory and decided to put it to the test.
 
 Here is my theory.
 
@@ -38,7 +35,7 @@ What I actually discovered from this data is that *in almost all cases, the obje
 
 Of the Tweets that primarily praised the speaker, *only two Tweets* praised characteristics that could not be categorised as relevant to the topic. In both cases, the Tweet was written by a male about a female speaker. In one case, the speaker’s looks were complimented and in the other, the comments were related to a photograph included in the Tweet of the speaker preparing for their talk. All other cases where the speaker was praised, they were praised for presentation ability, story-telling ability or deep knowledge of their topic.
 
-### So what does this tell us?
+## So what does this tell us?
 
 The research suggests that the normal way to compliment a talk at a conference is to talk about how good the talk itself was, how dynamic or interesting or most commonly, how awesome or how great the talk was. This is the most common type of compliment no matter what the gender of either party is.
 
@@ -46,7 +43,7 @@ It is less common to directly praise the ability of the speaker without directin
 
 It is uncommon to compliment the looks of a speaker and there were no incidents of male-to-male or female-to-male Tweets in this respect at all.
 
-### Is this surprising?
+## Is this surprising?
 
 Not really. It is 2013 after all. The good news is that most people have made it past the “gender-barrier” and can rate a talk without referring to their attraction to the speaker. If you are still complimenting speakers on their looks rather than on their talk, topic or skill you probably need to realise that this isn’t a common way to praise a speaker and if they have worked particularly hard to present well, or have researched a topic in great detail I’m sure they would rather be complimented on these areas.
 

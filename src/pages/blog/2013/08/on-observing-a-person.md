@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'On Observing a Person'
+navMenu: false
 pubDate: 2013-08-05T11:35:46+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=528'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 ---

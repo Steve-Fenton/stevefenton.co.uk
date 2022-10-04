@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Context. Autonomy. Trust.'
+navMenu: false
 pubDate: 2013-10-11T10:45:38+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=499'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"f63c8cf57597";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/f63c8cf57597";}'
 categories:
     - Process
 ---
@@ -22,4 +17,4 @@ Bad context includes statements like “*it must be web-based*“. You haven’t
 
 Don’t be the driver stood looking at your car telling the mechanic how to fix it. Trust them to find the fault and then call you to discuss the cost of fixing it. Yes – you decide whether it is even worth fixing and if it is, which of the cost options you are happy with.
 
-This is all about trusting people to do their job. Without this, no professional will tolerate the working environment. [Know your roles](/2013/07/Solve-Role-Confusion-With-Group-Role-Visualisation-Technique/) and trust the people to do it right and coach them when they make mistakes.
+This is all about trusting people to do their job. Without this, no professional will tolerate the working environment. [Know your roles](/blog/2013/07/solve-role-confusion-with-group-role-visualisation-technique/) and trust the people to do it right and coach them when they make mistakes.

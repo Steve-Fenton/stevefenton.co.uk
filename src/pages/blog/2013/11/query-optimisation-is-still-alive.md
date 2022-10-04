@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Query optimisation is still alive'
+navMenu: false
 pubDate: 2013-11-29T10:02:00+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=483'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

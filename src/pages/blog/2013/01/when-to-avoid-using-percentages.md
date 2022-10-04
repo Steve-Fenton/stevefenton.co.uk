@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'When to avoid using percentages'
+navMenu: false
 pubDate: 2013-01-05T22:37:12+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=677'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Pie Charts'
     - Programming
@@ -24,6 +21,6 @@ For example, only 2% of web users in the US have JavaScript disabled or unavaila
 
 Sometimes you need to get back to the real numbers to really understand a problem.
 
-### Note on Numbers
+## Note on Numbers
 
 This is 2% of the estimated 108,096,800 people in the US with Internet access.

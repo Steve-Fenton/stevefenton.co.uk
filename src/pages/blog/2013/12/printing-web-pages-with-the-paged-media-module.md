@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Printing web pages with the Paged Media module'
+navMenu: false
 pubDate: 2013-12-02T09:58:37+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=479'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -23,12 +20,11 @@ A quick aside on browser support – as of today it is pretty limited in all bro
 
 So let’s deal with the fundamental bits in turn.
 
-### Page Fragmentation
+## Page Fragmentation
 
 This is all about page breaks, either forcing them in or asking for content to be immune from them. To take control of page breaks, target an element and use one of the page-break style rules to force or inhibit breaks:
 
-```
-<pre class="prettyprint lang-css">
+```css
 @media print {
     .on-new-page {
         display: block;
@@ -42,16 +38,16 @@ This is all about page breaks, either forcing them in or asking for content to b
     }
 }
 ```
+
 You can set “page-break-before”, “page-break-after” and “page-break-inside” and you’ll most likely want to use either “always” to force the page-break or “avoid” to ask for your content to be kept on a single page (if that is possible).
 
 With “page-break-before” you are asking for the element to stick to its predecessor, and with “page-break-after” you are asking the following element to stick with the selected one.
 
-### The Page
+## The Page
 
 Working with pages opens up a lot of opportunities, but one simple one is to set your margins. This can be handy for duplex-printing where you don’t want to print too close to the binding (be it stables, comb-binder or some other grip or clip). This is why it is possible to select left-side and right-side facing pages individually using pseudo-selectors.
 
-```
-<pre class="prettyprint lang-css">
+```css
 @page {
     margin: 2.54cm;
     size: portrait;
@@ -66,14 +62,14 @@ Working with pages opens up a lot of opportunities, but one simple one is to set
     margin-top: 10cm;
 }
 ```
+
 In this example, we use “:left” and “:right” to set a wider margin on the inner-edge of the page. We also use the “:first” selector to nudge the title further down the page on the front page.
 
-### Content
+## Content
 
 The possibilities for content and many and varied, but an almost certain use for content is to drop page numbers onto your paper. Here is an updated version of the previous example with the page count added to the outside-edge of each page.
 
-```
-<pre class="prettyprint lang-css">
+```css
 @page :left {
     margin-right: 3.18cm;
     @bottom-left {
@@ -87,7 +83,8 @@ The possibilities for content and many and varied, but an almost certain use for
     }
 }
 ```
-### But Why?
+
+## But Why?
 
 Okay, so just as we stop printing stuff we invent something to help us printing stuff. Is this just crazy?
 

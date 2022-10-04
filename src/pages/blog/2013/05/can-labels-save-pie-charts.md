@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Can labels save pie charts?'
+navMenu: false
 pubDate: 2013-05-06T14:44:28+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=597'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Pie Charts'
 tags:
@@ -17,7 +14,7 @@ tags:
 
 I recently received this interesting question through the contact form. I always relish an opportunity to challenge my assumptions and opinions on pie charts – even though I appear to be a bit of a zealot. One day, I may even be convinced that I am wrong. Here’s the question:
 
-> “It seems to me that the telling difference isn’t the shape of the chart isn’t the problem, but the lack of labels on the pie chart. Compare a pie chart with percentages labelled with a column chart without percentages and wouldn’t you have similar problems?”
+> It seems to me that the telling difference isn’t the shape of the chart isn’t the problem, but the lack of labels on the pie chart. Compare a pie chart with percentages labelled with a column chart without percentages and wouldn’t you have similar problems?
 
 Good question. Here is my take on answering the question…
 

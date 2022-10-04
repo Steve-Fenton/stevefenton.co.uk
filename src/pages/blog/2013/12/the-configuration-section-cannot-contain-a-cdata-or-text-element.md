@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The configuration section cannot contain a CDATA or text element'
+navMenu: false
 pubDate: 2013-12-13T09:38:44+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=466'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,8 +19,7 @@ The most likely cause for this error message is that a rogue key-press has made 
 
 For example:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <appSettings>
@@ -31,4 +27,5 @@ For example:
   </appSettings>
 </configuration>
 ```
+
 In this example, someone meant to press “CTRL + S” to save the file, but missed the CTRL key, so the “s” is a hanging piece of text that makes the config file invalid.

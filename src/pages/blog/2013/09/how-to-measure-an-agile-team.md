@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to measure an Agile team'
+navMenu: false
 pubDate: 2013-09-04T10:56:06+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=514'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"bc7ccbd8ffac";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/bc7ccbd8ffac";}'
 categories:
     - Process
 tags:
@@ -20,13 +15,13 @@ The long standing question of metrics, measurement and performance in Agile team
 
 The answer to this question is to throw out all this stuff. It takes up a load of time and tells you nothing.
 
-I have [said this before](/2013/07/You-Get-What-You-Measure/), but I have tested it in action and I can say that I genuinely know when a Sprint is going to be a success based on how joyous the team is. Smiles, jokes, playfulness – these all indicate that things are going to go well. I also believe these signals are evident well before your burn-down chart tells you the story.
+I have [said this before](/blog/2013/07/you-get-what-you-measure/), but I have tested it in action and I can say that I genuinely know when a Sprint is going to be a success based on how joyous the team is. Smiles, jokes, playfulness – these all indicate that things are going to go well. I also believe these signals are evident well before your burn-down chart tells you the story.
 
 It really is this simple. If your team look a bit deflated, or are unusually quiet or aren’t having some fun – you’re going to miss your Sprint.
 
 So watch out for unhappy people and find out what it will take to make them enjoy the work again. This is how you’ll develop a team that can crush features.
 
-### Chicken and Egg
+## Chicken and Egg
 
 Does a happy team give you a successful Sprint, or does a successful Sprint give you a happy team?
 

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'RDFa vs Microdata for SEO'
+navMenu: false
 pubDate: 2013-10-09T10:46:56+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=501'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -25,6 +22,6 @@ So I did the homework and found out the answer. Google supports both RDFa and Mi
 
 So don’t base your decision on RDFa verses Microdata on Google support – it happily uses both (as it should as Google want to give search users the best possible results).
 
-You can see examples of [how to add Microdata](/2012/11/How-To-Add-Microdata-To-Your-Website/) and [how to add RDFa](/2012/11/How-To-Add-RDFa-Lite-To-Your-Website/) in my previous blogs – they are both easy to use and you can use the same schemas for them both too.
+You can see examples of [how to add Microdata](/blog/2012/11/how-to-add-microdata-to-your-website/) and [how to add RDFa](/blog.2012/11/how-to-add-rdfa-lite-to-your-website/) in my previous blogs – they are both easy to use and you can use the same schemas for them both too.
 
 My recommendation (as of today) would be to use RDFa as the specification is more mature and less at risk in terms of changes or indeed being dropped entirely. If the Microdata specification ends up in “W3C recommendation” state, it will become personal preference (perhaps depending on what other search engines implement, given Google allows both).

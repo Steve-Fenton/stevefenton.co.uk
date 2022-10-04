@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to manipulate people with psychology'
+navMenu: false
 pubDate: 2013-01-29T22:24:33+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=665'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 ---
@@ -16,7 +13,7 @@ Strangely, even though I have only a casual background in Psychology (I recently
 
 So this leads me onto a question that I have been asked twice in my life and that disturbs me greatly.
 
-> “How do you convince people to do what you want?”
+> How do you convince people to do what you want?
 
 I got this question in two different forms. One was more along the lines of “why do people listen to your ideas, but not mine?” and the other was a slightly more disturbing “how do I manipulate people to do what I want?”.
 

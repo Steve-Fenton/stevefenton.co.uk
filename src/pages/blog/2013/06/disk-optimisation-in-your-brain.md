@@ -1,18 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Disk optimisation in your brain'
+navMenu: false
 pubDate: 2013-06-03T12:13:32+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=575'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 ---
 
-![Socrates](/img/2015/07/socrates.jpg)I wrote a while ago about how [context switching comes at a high price](/2012/06/Context-Switching-Comes-At-The-Price-Of-Delivery/), and I used a comparison to computers to explain the problems. Brace yourselves, because I’m going to do it again – partly inspired by some of the chapters I read in CLR via C# by Jeffrey Richter and Why Plans Fail by Jim Benson.
+:img{src="/img/2015/07/socrates.jpg" alt="Socrates"}
+
+I wrote a while ago about how [context switching comes at a high price](/blog/2012/06/context-switching-comes-at-the-price-of-delivery/), and I used a comparison to computers to explain the problems. Brace yourselves, because I’m going to do it again – partly inspired by some of the chapters I read in *CLR via C#* by Jeffrey Richter and *Why Plans Fail* by Jim Benson.
 
 So your brain consists of short-term memory, medium-term memory and long-term memory. Short-term memory is a fixed allocation of bytes that acts like RAM. You get to store a certain amount in short-term memory, but when you overflow the allocation, it cycles round and starts over-writing the older parts.
 

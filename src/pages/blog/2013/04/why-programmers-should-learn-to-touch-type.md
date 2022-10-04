@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Why programmers should learn to touch type'
+navMenu: false
 pubDate: 2013-04-02T15:17:00+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=622'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Psychology

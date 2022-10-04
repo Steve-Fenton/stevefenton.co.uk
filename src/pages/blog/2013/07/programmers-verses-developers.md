@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Programmers vs Developers'
+navMenu: false
 pubDate: 2013-07-24T11:42:41+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=538'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 ---
@@ -16,7 +13,7 @@ I have noticed this trend emerging, whereby people in the software industry star
 
 Here’s an example:
 
-> “A programmer is someone who doesn’t write unit tests. A developer does”
+> A programmer is someone who doesn’t write unit tests. A developer does.
 
 What rubbish!
 
@@ -28,14 +25,14 @@ So don’t rush to update your CV just yet if you’ve called yourself a program
 
 Now let’s handle a couple of other apparently confusing terms.
 
-### Designer
+## Designer
 
 This is someone who “plans the form, look, or workings of something before its being made or built”. This word is not interchangeable with the word “developer”. A “web designer” and a “web developer” are indeed two very different things, although an individual may have both sets of skills.
 
-### Engineer
+## Engineer
 
 This officially means “a person who designs, builds, or maintains engines, machines, or public works”, but has been acquired by the software industry thanks to a style of building software that is based on engineering principles. If you aren’t working based on engineering principles you should probably avoid this word – at least until you have read Pete McBreen’s book, Software Craftsmanship.
 
-### Guru
+## Guru
 
-Or Ninja. etc. These terms have been borrowed from various places to be used in smoke-pumping factories the world over. Essentially, this is the hip way of making the point that you are looking for a “proper expert” in something. Whenever you use one of these phrases, please read up on the original meaning and think about the connotations of the name. I would cringe at being called an Agile-Guru, because I’m not religious about Agile, I am pragmatic about it, for example. I’d happily be called a [Rockstar Programmer](/2015/08/the-rockstar-programmer-stereotype/) though.
+Or Ninja. etc. These terms have been borrowed from various places to be used in smoke-pumping factories the world over. Essentially, this is the hip way of making the point that you are looking for a “proper expert” in something. Whenever you use one of these phrases, please read up on the original meaning and think about the connotations of the name. I would cringe at being called an Agile-Guru, because I’m not religious about Agile, I am pragmatic about it, for example. I’d happily be called a [Rockstar Programmer](/blog/2015/08/the-rockstar-programmer-stereotype/) though.

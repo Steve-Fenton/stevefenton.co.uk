@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Programmer Anarchy opinion piece'
+navMenu: false
 pubDate: 2013-05-27T12:15:39+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=578'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"d6c22b442a72";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/d6c22b442a72";}'
 categories:
     - Process
 tags:
@@ -26,19 +21,19 @@ So what is Programmer Anarchy all about? It is based on Agile principles and XP 
 
 Is this a replacement for Scrum or Kanban or XP or any other method? Nope. This is another option. In my opinion this isn’t post-agile, it is another option within the realms of agile.
 
-I take no issue with the concept here – but the sales pitch is all wrong. The naming is going to scare people off – it shouldn’t, but it will – and many of the descriptions that start with “unlike in Agile…” should actually start with “unlike in Scrum…”, for example. Also, the number of logical-fallacies used to undermine other methodologies seems to account for far-too-high a proportion of the marketing material – for example, talking about how estimating in Agile suffers from problems such as the individual doing the task ignores the fact that the problem has been solved via [relative sizing](/2013/05/Estimating-With-Time-And-Relative-Sizes/) (amongst other techniques). There was even a solution to this issue in Extreme Programming Explained, published in 2001.
+I take no issue with the concept here – but the sales pitch is all wrong. The naming is going to scare people off – it shouldn’t, but it will – and many of the descriptions that start with “unlike in Agile…” should actually start with “unlike in Scrum…”, for example. Also, the number of logical-fallacies used to undermine other methodologies seems to account for far-too-high a proportion of the marketing material – for example, talking about how estimating in Agile suffers from problems such as the individual doing the task ignores the fact that the problem has been solved via [relative sizing](/blog/2013/05/estimating-with-time-and-relative-sizes/) (amongst other techniques). There was even a solution to this issue in Extreme Programming Explained, published in 2001.
 
 So the developer-lead aspect of Programmer Anarchy reminds me a lot of what happens when a self-organising Agile team matures – and you would probably need to team to be a highly functional Agile team for Programmer Anarchy to work.
 
 So here is a quick breakdown of elements of the method that are either existing in Agile, discarded (but perhaps shouldn’t be) and new to Programmer Anarchy.
 
-### Existing
+## Existing
 
 - Reduced roles
 - Safe environment (failure allowed)
 - Self-organising teams
 
-### Discarded
+## Discarded
 
 Many practices are discarded, but in some cases this could end up destructive. I think the reason for their removal lacks either sound reasoning or sufficient context. In most cases the removal was liked to an assumption, but I think the general population will misunderstand these assumptions, or falsely believe unsound assumptions to be true or otherwise lack the understanding of the context.
 
@@ -52,7 +47,7 @@ Continuous integration actually survives under the “continuous deployment” m
 
 Management is discarded because all the decisions are made by programmers.
 
-### Summary
+## Summary
 
 I’m sure all of this will work itself out (except maybe the name, that could well stick, which means you’ll have to achieve the method without telling people what it is called). This method will work given the right team inside the right organisation and this will prove to be the major limitation. We are very much talking about another process to add to the tool-box that will be useful in the right context – and the boundaries are not well known yet.
 

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Why you still have an unused Pluralsight free trial card'
+navMenu: false
 pubDate: 2013-04-12T15:15:29+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=619'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Psychology
@@ -28,7 +25,7 @@ An “ideal month” is one where you can essentially sit in your pyjamas full t
 
 So here is my solution. It is really easy and requires very little practice to master. Step one; you take a permanent marker pen, cross out the words “Monthly Subscription” on the front of the card and write “1 Free Video”. Step two; you have to believe in your trick.
 
-![Pluralsight Card](/img/2015/07/pluralsight-card.jpg)
+:img{src="/img/2015/07/pluralsight-card.jpg" alt="Pluralsight Card" loading="lazy"}
 
 Limited Edition “1 Free Video” Pluralsight free trial Card!
 

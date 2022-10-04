@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML5 article and section refresher'
+navMenu: false
 pubDate: 2013-01-13T22:35:36+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=673'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -26,6 +23,7 @@ The section element works in two ways. You can use it group things together and 
 
 Imagine a page full of reviews. You might use section elements to group the “music” reviews together and the “film” reviews together. Each section would have multiple reviews. This is an example of grouping many things using a section.
 
+```
 - section (Music reviews) 
     - article (Troublegum review)
     - article (Infernal Love review)
@@ -34,14 +32,17 @@ Imagine a page full of reviews. You might use section elements to group the “m
     - article (Yes Man review)
     - article (Mr Deeds review)
     - article (Elf review)
+```
 
 The flip-side use of a section would be to divide a single article into several chapters.
 
+```
 - article (Academic Brilliance) 
     - section (Introduction)
     - section (Chapter 1 – brilliant stuff)
     - section (Chapter 2 – more excellence)
     - section (Epilogue)
+```
 
 Usually, in both of these cases, each article and each section would have a heading element that contained the text in brackets.
 
@@ -49,10 +50,11 @@ Of course, if you had a really substantial page, you might combine both of these
 
 Part of understanding how to use these elements to ignore the word “article” and instead think “stand alone” and the other part is to think of “section” also as “group”.
 
-### Quick Example
+## Quick Example
 
 So here is an example HTML5 page outline…
 
+```
 - body 
     - header
     - nav
@@ -64,6 +66,7 @@ So here is an example HTML5 page outline…
             - footer
     - aside
     - footer
+```
 
 In this example…
 

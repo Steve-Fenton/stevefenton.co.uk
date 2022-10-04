@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Twilio SendSmsMessage returns null'
+navMenu: false
 pubDate: 2013-12-09T09:45:51+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=470'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,7 +13,9 @@ tags:
     - twilio
 ---
 
-[![Twilio Message](/img/2015/07/twilio.jpg)Sending your first Twilio text message](https://www.twilio.com/docs/api/rest/sending-messages) is actually pretty simple! The sign up process takes around 105 seconds from start to finish and there are helper-libraries and code samples for pretty much all the popular languages you’re likely to be using.
+:img{src="/img/2015/07/twilio.jpg" alt="Twilio Message"}
+
+Sending your first Twilio text message](https://www.twilio.com/docs/api/rest/sending-messages) is actually pretty simple! The sign up process takes around 105 seconds from start to finish and there are helper-libraries and code samples for pretty much all the popular languages you’re likely to be using.
 
 There is only one issue I came across while using the official .NET Twilio library (available via NuGet) that had insufficient information while I was attempting to send my first message and I thought I’d share as information out there is pretty sketchy.
 
@@ -26,8 +25,7 @@ The problem is when the response is null.
 
 Here is my entire test console application, which uses “System” and “Twilio”…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 static void Main(string[] args)
 {
     // https://www.twilio.com/docs/api/rest/sending-messages
@@ -49,6 +47,7 @@ static void Main(string[] args)
     Console.ReadLine();
 }
 ```
+
 So what do you do when the message is null? It could be for a whole bunch of reasons – so how do you narrow it down.
 
 The answer is [Fiddler](http://fiddler2.com/). Open Fiddler, re-run the application and before you know if you’ve got your problem right in front of you. In my case it was a 407 – Proxy Authentication Required, but it might be something else in your case.

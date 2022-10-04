@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'A journey through sexism'
+navMenu: false
 pubDate: 2013-02-13T22:08:20+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=655'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 ---
@@ -42,6 +39,6 @@ In the context of the society I currently live in, I can understand why gender a
 
 I don’t know how to solve the problem in the programming community – but I know that I can make changes personally to avoid using generalisations and to challenge them whenever I hear them. On the high-level map of change, this is a tiny ripple in a great big lake – but if enough of us change our own behaviour, perhaps that will be enough to make a massive impact.
 
-So listen out for statements that incorrectly assert that something is true for a large group – whether it is something you are about to say or something that another person is saying out loud! Try substituting the name of the group in the statement to see if it sounds ridiculous – it very often will. If you are at a conference and enjoy a talk, the speaker hasn’t “*done well for a woman*” or “*been fun for a guy in a suit*“, the individual has done well, or has been entertaining and that is nothing to do with how you decide to cut and categorize people.
+So listen out for statements that incorrectly assert that something is true for a large group – whether it is something you are about to say or something that another person is saying out loud! Try substituting the name of the group in the statement to see if it sounds ridiculous – it very often will. If you are at a conference and enjoy a talk, the speaker hasn’t “*done well for a woman*” or “*been fun for a guy in a suit*”, the individual has done well, or has been entertaining and that is nothing to do with how you decide to cut and categorize people.
 
 Just because many people use the same categories doesn’t mean they should exist, it just means the problem is bigger than you thought.

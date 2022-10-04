@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Web Essentials style side-by-side editing of TypeScript files'
+navMenu: false
 pubDate: 2013-12-16T09:34:16+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=461'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Visual Studio'
 tags:
@@ -22,12 +19,12 @@ To start off, open your TypeScript file in Visual Studio – then show your hidd
 
 Then grab the tab-header and drag it to sit alongside the TypeScript file using the hover-target panel that opens when you are dragging.
 
-![Side by Side TypeScript](/img/2015/07/ts-side-by-side.png)
+:img{src="/img/2015/07/ts-side-by-side.png" alt="Side by Side TypeScript" loading="lazy"}
 
 When you let go over the side-by-side docking option, you’ll have the TypeScript and JavaScript files both running and when you save the TypeScript file, the JavaScript will magically update… almost. There is just one thing you’ll want to adjust.
 
-![Side by Side TypeScript Result](/img/2015/07/ts-side-by-side-result.png)
+:img{src="/img/2015/07/ts-side-by-side-result.png" alt="Side by Side TypeScript Result" loading="lazy"}
 
 When the JavaScript file changes, Visual Studio will helpfully pop up a message telling you it has changed and asking if you want to re-load the file. Of course you want to re-load the file – so head to Tools &gt; Options &gt; Environment &gt; Documents and select the “Auto-load changes, if saved” option.
 
-![Auto-Load Changes](/img/2015/07/ts-auto-load-changes.png)
+:img{src="/img/2015/07/ts-auto-load-changes.png" alt="Auto-Load Changes" loading="lazy"}

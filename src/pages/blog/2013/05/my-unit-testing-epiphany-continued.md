@@ -1,20 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'My unit testing epiphany continued'
+navMenu: false
 pubDate: 2013-05-13T14:30:28+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=590'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
     - TDD
 ---
 
-I had some great feedback on [my unit testing epiphany](/2013/05/My-Unit-Testing-Epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.
+I had some great feedback on [my unit testing epiphany](/blog/2013/05/my-unit-testing-epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.
 
 So here are some questions I got and my thoughts on them, with the over-arching caveat that I am currently in the process of actually putting my implementation where my mouth is – so I don’t have data with any longevity to back this up, only my own experience with <abbr title="Test Driven Development">TDD</abbr>.
 
@@ -40,22 +37,22 @@ This is the great irony of over-isolation. It actually makes you *more* dependan
 
 Nick Lanng says:
 
-> “The thing that convinced me is per-class unit tests mock all dependencies. If the behaviour of that dependency changes then everything that mocks it will be incorrect but still pass the tests.”
+> The thing that convinced me is per-class unit tests mock all dependencies. If the behaviour of that dependency changes then everything that mocks it will be incorrect but still pass the tests.
 
 So my summary is this; although this isn’t what we were all taught to do and even though it isn’t what those books say (I have read at least four that all say it) – be prepared to be dazzled by the same flash of inspiration as I. The way they are telling us to do it doesn’t work. It makes our tests painful to maintain. It is the reason anti-TDD-ists have so much fire-power amongst their peers. If we change how we’re doing this, it will be better.
 
-### Credits
+## Credits
 
 All of this came from an awesome talk by Ian Cooper. They are my words, but they are inspired by Ian’s concise and awesome explanation. I entered the room a cynic (I believe I commented to friend that I was looking forward to the talk titled “TDD: Where did it all go wrong?” because it didn’t realise it had gone wrong!) I left the room educated.
 
 Ian also credited much of the intention of all of this to Kent Beck. Ian’s view was that this is actually not a new way of doing things, but a way that more closely matches what Kent intended. I can’t speak on behalf of Kent or indeed Ian – but it resonates with what I have been reading in Kent’s books.
 
-### The New Glossary
+## The New Glossary
 
 Here is a glossary of terms, how I viewed them before my epiphany and how I now understand them.
 
-| Term | Before | Now |
-|---|---|---|
-| Unit | A class file | A collection of classes, but nothing that crosses a port |
-| Integration | A test that relies on something else being there | A test that crosses over a port |
-| Isolation | Replacing every dependency a class has with a test-double | Replacing dependencies at the port |
+| Term        | Before                                                    | Now                                                      |
+|-------------|-----------------------------------------------------------|----------------------------------------------------------|
+| Unit        | A class file                                              | A collection of classes, but nothing that crosses a port |
+| Integration | A test that relies on something else being there          | A test that crosses over a port                          |
+| Isolation   | Replacing every dependency a class has with a test-double | Replacing dependencies at the port                       |

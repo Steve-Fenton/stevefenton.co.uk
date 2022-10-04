@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Request and response class splitting'
+navMenu: false
 pubDate: 2013-09-27T10:52:09+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=508'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,7 @@ This is something I don’t seen done a lot in real life, so I thought I’d wri
 
 I’m talking about encapsulation – and this word may well make you cease reading immediately. Yes, putting data and methods together in one place is encapsulation and we know all about that. Yet I still see the following code all over the place.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public class Cat
 {
     public int CatId;
@@ -36,6 +32,7 @@ public Cat Add(Cat newCat)
     //...
 }
 ```
+
 You will see this kind of pattern often – you want to add a cat, so you create a new Cat object and pass it to the Add method. This is a really simple demonstration of the problem.
 
 When I create a new cat to pass to the Add method, I am presented with three fields I can set: CatId, Breed and Name. Really, I don’t need (and shouldn’t) set the CatId.
@@ -44,8 +41,7 @@ Of course, I’m not just talking about identifiers – there are often many bit
 
 A better course of action is to split out the cat details so they can be used without the unnecessary data:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public class CatDetails
 {
     public FelineBreed Breed;
@@ -65,6 +61,7 @@ public Cat Add(CatDetails newCat)
     //...
 }
 ```
+
 We can now accept some new cat details, which don’t even include any of the things we don’t want. We also re-use this details object on our full cat implementation – so we haven’t duplicated anything. When we want to add “eye colour”, we know we want to add that to CatDetails.
 
 You should definitely be doing this for your public APIs, especially if you auto-generate your documentation.

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'What to do about that line of code'
+navMenu: false
 pubDate: 2013-10-28T10:37:45+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=491'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
