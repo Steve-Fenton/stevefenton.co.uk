@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Combinatorial and pairwise testing with NUnit'
+navMenu: false
 pubDate: 2015-04-11T00:29:28+01:00
 authors:
     - steve-fenton
-
 categories:
     - Automation
     - Programming
@@ -47,8 +46,7 @@ You have a method that accepts two arguments, *a* and *b*, which are an int and 
 
 Or you could just pass in the possible inputs and let NUnit work it all out for you:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Test, Combinatorial]
 public void ExampleTest(
     [Values(1, 2, 3, 4)] int a,
@@ -57,12 +55,12 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b);
 }
 ```
+
 The above code will generate all possible combinations of the inputs.
 
 But what about pairwise testing? To show this off, we need more than two inputs (because with two inputs pairwise and combinatorial are the same). With three inputs we can start to see the problem of combinatorial explosion (when the number of combinations starts to get out of hand).
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Test, Combinatorial]
 public void ExampleTest(
     [Values(1, 2, 3, 4)] int a,
@@ -72,10 +70,10 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b + " " + c);
 }
 ```
+
 This results in 36 possible combinations, but if we switch to pairwise, we get just 12 combinations:
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Test, Pairwise]
 public void ExampleTest(
     [Values(1, 2, 3, 4)] int a,
@@ -85,6 +83,7 @@ public void ExampleTest(
     Console.WriteLine(a + " " + b + " " + c);
 }
 ```
+
 It is worth reading up on the pros and cons of pairwise testing, but given that the computer is doing the hard work and assuming your tests are blazingly fast, you may find combinatorial testing sufficient in cases where you decide to use it.
 
 Here is a quick example that is a little more realistic – we’re going to make dinner. This example was taken from a training course written by James Skilton – he uses it to demonstrate combinatorial vs pairwise testing… and told me:
@@ -93,8 +92,7 @@ Here is a quick example that is a little more realistic – we’re going to mak
 
 The result of a combinatorial test is 26,244 tests (this took almost a minute to run in NUnit on top of generating the combinations). Using the pairwise approach instead resulted in 87 tests, which ran in under one second after generation of the tests).
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [Test, Pairwise]
 public void CombinatorialTest(
     [Values("Black Olives", "Scallions", "Chilli", "Mushrooms", "Jalapenos", "Pickles", "Bacon", "Lettuce", "Onion")] string topping,

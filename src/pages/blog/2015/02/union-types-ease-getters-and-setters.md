@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Union types ease TypeScript getters and setters'
+navMenu: false
 pubDate: 2015-02-08T16:13:40+00:00
 authors:
     - steve-fenton
-
 categories:
     - Programming
 tags:
@@ -16,7 +15,7 @@ A classic problem in TypeScript was the constraint on getters and setters that s
 
 The great big example of this at the moment is promises, but you can use this technique whenever you have a good reason to accept and return different types.
 
-```
+```typescript
 interface Example<T> {
     value: T;
 }
@@ -33,9 +32,10 @@ class MyClass {
     }
 }
 ```
+
 In the above example, the compiler warns you that the getter and setter are not compatible. However, you can fix that using a union type, as shown below.
 
-```
+```typescript
 interface Example<T> {
     value: T;
 }
@@ -54,9 +54,10 @@ class MyClass {
     }
 }
 ```
+
 You can further improve on this example by introducing a type check on the setter to make sure you have been passed a string. I have shown an example of throwing an argument exception (commented out) or simply using the value as in this case it is the type we need.
 
-```
+```typescript
 interface Example<T> {
     value: T;
 }
@@ -81,4 +82,5 @@ class MyClass {
     }
 }
 ```
-Not quite perfect… this code solves the getter/setter problem, but it will mean you have to introduce type checks or type assertions if you need to guarantee you have a specific type from the union type. This is why the compiler was updated to automatically type arguments inside of a guard clause (which the last example shows, because inside the if/else statement the value parameter is typed string and Example&lt;string&gt;.
+
+Not quite perfect… this code solves the getter/setter problem, but it will mean you have to introduce type checks or type assertions if you need to guarantee you have a specific type from the union type. This is why the compiler was updated to automatically type arguments inside of a guard clause (which the last example shows, because inside the if/else statement the value parameter is typed string and `Example<string>`.

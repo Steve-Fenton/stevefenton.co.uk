@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The facts about the 10x Programmer'
+navMenu: false
 pubDate: 2015-01-11T16:45:49+00:00
 authors:
     - steve-fenton
@@ -24,7 +24,7 @@ In one example (Coding Wars 1984), it was the difference between completing a mi
 
 So a 10x programmer is simply one who is more productive than a vast majority of their peers.
 
-### What a 10x Programmer Is Not
+## What a 10x Programmer Is Not
 
 A 10x-er is not a personality archetype. People have a tendency to link extreme personality types with the 10x programmer. This is a mistake, especially when they then reverse the link: “Susan was an introvert and she was a 10x-er. Gary is an introvert, so he must also be a 10x-er”. If you think that all eccentric people are geniuses, go back and check your argument for logical fallacies.
 
@@ -32,7 +32,7 @@ Similarly, 10x-ers are not destructive within a team. Whilst some people have li
 
 A 10x-er is not necessarily an experienced programmer. Once you have a couple of years under your belt you are just as likely to be a 10x-er as someone with ten years experience.
 
-### The Bombshell
+## The Bombshell
 
 The bombshell really comes when you zoom out from the individual results.
 

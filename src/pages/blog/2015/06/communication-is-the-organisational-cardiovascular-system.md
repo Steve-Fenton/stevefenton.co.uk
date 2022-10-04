@@ -1,20 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Communication is the organisational cardiovascular system'
+navMenu: false
 pubDate: 2015-06-06T23:41:29+01:00
 authors:
     - steve-fenton
-
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"89b14d8ea6ec";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/89b14d8ea6ec";}'
 categories:
     - Process
 tags:
     - Communication
 ---
 
-![Web Sticky Notes](/img/2015/07/webstickynotes_full.jpg)I read a statement that said communication is oxygen to a company. I could see the intention of the metaphor, but I don’t think it was quite right. Communication is more like the cardiovascular system of the organisation.
+I read a statement that said communication is oxygen to a company. I could see the intention of the metaphor, but I don’t think it was quite right. Communication is more like the cardiovascular system of the organisation.
 
 Here are my reasons for this adjustment.
 

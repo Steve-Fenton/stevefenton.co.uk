@@ -1,16 +1,15 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Test automation myths'
+navMenu: false
 pubDate: 2015-04-25T00:20:46+01:00
 authors:
     - steve-fenton
-
 categories:
     - Automation
 ---
 
-[![The Humans Are Dead](/img/2015/07/the-humans-are-dead.jpg)](/publications/the-humans-are-dead/)When I originally wrote this article, I didn’t realise that my thoughts would coalesce into the short collection of essays that I have now published under the title, The Humans Are Dead.
+When I originally wrote this article, I didn’t realise that my thoughts would coalesce into the short collection of essays that I have now published under the title, [The Humans Are Dead](/publications/the-humans-are-dead/).
 
 I have actually expanded and refined my original ideas, so I have found it necessary to re-draft the following article to allow it to catch up to where my mind has wandered
 

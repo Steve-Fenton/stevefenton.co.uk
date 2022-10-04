@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Magical Number Of Misunderstandings'
+navMenu: false
 pubDate: 2015-06-02T23:44:02+01:00
 authors:
     - steve-fenton
-
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"8c9409de27ed";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/8c9409de27ed";}'
 categories:
     - Process
     - Psychology
@@ -19,11 +16,11 @@ I am seeing the magical number seven, plus or minus two, being misapplied to tea
 
 Let’s deal with these two problems in turn.
 
-### Five is not the Minimum
+## Five is not the Minimum
 
 There is no concept of a lower-limit in Millers magical number seven. The range of five to nine is used to describe the maximum number of chunks people can hold within their short-term memory. Using the lower value as a minimum team size is a logical error. Applying it back to the original paper, it would suggest that if you encoded a message in less than five chunks, you wouldn’t be able to hold it in your short term memory. That would be ridiculous.
 
-### Memory is not People
+## Memory is not People
 
 While Miller’s paper is titled The *Magical* Number Seven… it isn’t really magic. The number seven will not solve your problems, isn’t lucky, and may not supply you with the right team size. Applying a number from a study on memory as a limit to the size of a team is a strange thing to do. I can fit six eggs in a normal egg box, so does that mean my car should have six wheels? These things are not related.
 
@@ -37,7 +34,7 @@ Let’s first get the number seven (plus or minus two) off of the table as a “
 
 What about a lower limit? An individual working alone can be quite effective in solving some problems. One study published in the Journal of Personality and Social Psychology found that groups of three to five can consistently outperform the best individuals working alone. So it is likely that the minimum team size should be greater than one.
 
-### More Numbers
+## More Numbers
 
 There are three famous graphs relating to team size based on data collected by [QSM Inc](http://www.qsm.com/). They have a wonderful amount of data about projects of many sizes, teams of many sizes, and some indication of productivity, project duration, and total effort.
 
@@ -47,6 +44,6 @@ For productivity and total effort categories, smaller is better. The smallest te
 
 When it comes to schedule, the teams of 3 to 5 and the teams of 5 to 7 marginally outperform the team of 1.5 to 3 people. Once again, going higher than 7 causes problems – problems often attributed to the increasing number of communication lines needed to keep things running smoothly. Beware though… if you want to save a couple of months, one seriously savvy person making strong decisions about features will give you a bigger boost than adding three or four developers. This is important, because you might be tempted to hit the team size of 3 to 5 to get a good score across all three vectors; good productivity, good total effort, good time-line. Before you do this, consider the smaller team size, with a good bit of product management thrown in to ensure the right things are selected for development.
 
-### How Many?
+## How Many?
 
 So it is probably best, *in general*, to have teams sized between two and five people. I say “in general” because it depends. It depends on the task at hand and it depends on the people and their skills. Very often, though, if you do have a team within this range, they will sub-divide into temporary smaller teams to solve actual problems if the work is not easily split between so many people.

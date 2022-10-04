@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Exclude NuGet package dependency from a NuGet package'
+navMenu: false
 pubDate: 2015-06-23T18:26:09+01:00
 authors:
     - steve-fenton
@@ -18,8 +18,7 @@ The one thing you will want to ensure is that the “Create New…” package it
 
 To prevent this, you just need to add the development dependency attribute in your packages.config file:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <packages>
 <package

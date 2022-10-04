@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Quick proxy settings switcher'
+navMenu: false
 pubDate: 2015-04-18T00:28:20+01:00
 authors:
     - steve-fenton
@@ -18,6 +18,6 @@ I switch my browser proxy settings all the time. I’m always capturing traffic 
 
 Quick tips – enable “Show in context menu” in the preferences window, which can be found by going to:
 
-Tools &gt; Proxy Selector &gt; Manage Proxies
+Tools > Proxy Selector > Manage Proxies
 
 This is also where you’ll add your settings for the JMeter proxy, the Burp Suite proxy and so on.

@@ -1,18 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Leaving the key in the lock'
+navMenu: false
 pubDate: 2015-02-28T16:04:02+00:00
 authors:
     - steve-fenton
-
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"bb574ad037ea";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/bb574ad037ea";}'
 categories:
     - Process
 ---
 
-![Key](/img/2015/07/image.jpg)There is a false dichotomy that is often presented in the face of allowing teams to self-organise in an organisation that is transitioning from their traditional command and control patterns.
+:img{src="/img/2015/07/image.jpg" alt="Key"}
+
+There is a false dichotomy that is often presented in the face of allowing teams to self-organise in an organisation that is transitioning from their traditional command and control patterns.
 
 The deadlock occurs when the organisation’s management wants to give autonomy to a team, but doesn’t yet trust that the team can perform to the current controlled standard. The outcome is usually a consensus of “the team can have the responsibility for doing it, but the management will retain the authority”. This is one case where compromise is the worst possible outcome. You cannot place authority and responsibility with different people if you want to get good results.
 

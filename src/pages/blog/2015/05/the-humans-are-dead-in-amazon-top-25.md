@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Humans Are Dead in Amazon Top 25'
+navMenu: false
 pubDate: 2015-05-30T23:45:51+01:00
 authors:
     - steve-fenton
@@ -24,4 +24,4 @@ and
 
 - [Amazon USA](http://www.amazon.com/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)
 
-![The Humans Are Dead - Amazon Chart](/img/2015/07/amazon.png)
+:img{src="/img/2015/07/amazon.png" alt="The Humans Are Dead - Amazon Chart" loading="lazy"}

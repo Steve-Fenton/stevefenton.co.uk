@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'World No Resources Day'
+navMenu: false
 pubDate: 2015-05-01T00:19:01+01:00
 authors:
     - steve-fenton
@@ -18,7 +18,7 @@ On the [official World No Resources Day website](http://worldnoresourcesday.com/
 
 > *“…please be careful not to use the word “resource” at work when referring to people. If you catch someone else doing this, please call them out.” – [WorldNoResourcesDay ](http://worldnoresourcesday.com/)(Neil Killick)*
 
-### The Resource Mistake
+## The Resource Mistake
 
 This is a cause that is close to my heart – and I’m happy to promote this event. The term *resources* is a broad term that refers to a source of supply that an organisation consumes in order to obtain a benefit. For example, a company comes across a forest…
 
@@ -35,7 +35,7 @@ This is where the term “resources” is a problem. The word itself may not be 
 
 And this is why it starts with just one word, on one day. Let’s create workplaces where humans can thrive.
 
-### Resource As A Trigger
+## Resource As A Trigger
 
 Can we change things by getting people to substitute a word?
 

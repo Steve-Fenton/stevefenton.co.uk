@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Patterns, principles, and practices of Domain Driven Design'
+navMenu: false
 pubDate: 2015-05-23T23:53:07+01:00
 authors:
     - steve-fenton

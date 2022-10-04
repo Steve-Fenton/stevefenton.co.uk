@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Automation Philosophy'
+navMenu: false
 pubDate: 2015-02-14T16:11:17+00:00
 authors:
     - steve-fenton
-
 categories:
     - Automation
 ---
@@ -18,13 +17,13 @@ Routine work is well defined. It can be processed using written procedure or che
 
 Eccentric work is irregular, uncommon or highly variable. It may require novel solutions on a regular basis. It needs a level of thinking to be solved efficiently.
 
-![Definitely Routine to Definitely Eccentric](/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png)
+:img{src="/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png" alt="Definitely Routine to Definitely Eccentric" loading="lazy"}
 
-### Isolation vs Collaboration
+## Isolation vs Collaboration
 
 Routine work can be performed in isolation. It isn’t very stimulating work, so it is often too little to keep even one human brain occupied. Eccentric work, however, benefits from collaboration. Two or more people working on the problem will be more likely to create a wide range of possible solutions. Two or more people working together will create a more novel solution.
 
-### What to Automate
+## What to Automate
 
 It is hopefully not too surprising to discover that these two categories can be easily applied to the decision on automation.
 
@@ -36,7 +35,7 @@ Eccentric work is a perfect candidate for human collaboration because it require
 
 The line between routine and eccentric may move over time. It is not inconceivable that incredible machine intelligence may be put to use to solve problems. This would make it possible to efficiently automate some tasks that are currently too difficult to instruct a computer to work on. This is the one aspect of this philosophy that requires great judgement and that will change in the foreseeable future.
 
-### Highly Effective
+## Highly Effective
 
 So why is this automation philosophy so effective? Because it creates a positive spiral. If you automate routine work, you free human effort from the mundane and allow it to work on the eccentric. This means you do more than save the time it was taking to perform work manually, you actually increase the organisation’s intellectual potential.
 

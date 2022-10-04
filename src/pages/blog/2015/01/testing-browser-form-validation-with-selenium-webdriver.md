@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Testing browser form validation with Selenium WebDriver'
+navMenu: false
 pubDate: 2015-01-10T16:47:31+00:00
 authors:
     - steve-fenton
@@ -22,8 +22,7 @@ No sensible person is using JavaScript to perform simple form validation any mor
 
 So let’s assume you have a simple form, like this:
 
-```
-<pre class="prettyprint lang-html">
+```html
 <form id="example">
     <fieldset>
         <legend>Example Form</legend>
@@ -35,6 +34,7 @@ So let’s assume you have a simple form, like this:
     </fieldset>
 </form>
 ```
+
 The browser will prevent submission in the following circumstances:
 
 - The name is not entered
@@ -45,9 +45,9 @@ So how do you test these HTML form validation items with Selenium WebDriver?
 
 Luckily it is pretty simple. You can get a collection of invalid elements using the “:invalid” CSS pseudo class. I have the following property in my Page Object base class (as you can have these elements on any page at all).
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [FindsBy(How = How.CssSelector, Using = "input:invalid")]
 public IList<IWebElement> InvalidInputElements { get; set; }
 ```
+
 Now I can check that I have the correct number of invalid elements after I attempt to submit the form and I have access to each one if I need it.

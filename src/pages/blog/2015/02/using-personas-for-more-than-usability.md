@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using personas for more than usability'
+navMenu: false
 pubDate: 2015-02-22T16:06:42+00:00
 authors:
     - steve-fenton
-
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"bfa66bc6864d";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/bfa66bc6864d";}'
 categories:
     - Process
 ---
@@ -18,7 +15,7 @@ From the list of [benefits of personas](http://www.getelastic.com/personas-101-w
 
 > “*\[They\] serve as a reference tool that can be used from strategy through to implementation.*“
 
-### Communication Tool
+## Communication Tool
 
 At an abstract level, personas are a communication tool. Instead of describing a user as “a user with permissions to access call history, client notes and payment history and who works in the customer services team and specialises in the car rental business area”, you wrap that all up into a biography for a user who you call *Sam Rental*.
 
@@ -26,7 +23,7 @@ Now you can have conversations with people about *Sam Rental* and you all know t
 
 You can use Sam to discuss business needs, test out ideas, create strategies, think through marketing campaigns and test software you create to interact with Sam. Of course, you’ll need more than Sam, you’ll want to create a number of personas – and this can get hard to manage.
 
-### Meaningful Names
+## Meaningful Names
 
 To ease the creation of personas, you can use a naming convention that bakes in more meaning. The use of *Sam Rental* hinted at this possibility. The surname “Rental” was selected to highlight that this persona was working in the Car Rental team. You don’t have to be this literal, but by using a name that provides clues about the persona you can reduce the cognitive overhead of leaning what all the names mean.
 
@@ -34,24 +31,24 @@ You will also want to avoid baking-in every difference between personas within t
 
 If you can find the important differences and creatively inject them into the name, the personas will be a better communication tool.
 
-### Combinations
+## Combinations
 
 You can create even better names using combinations, for example; we can use the first name to highlight the user’s role and the surname to reflect the area of expertise. Here is a quick list (that is particularly basic, but should give you the idea).
 
 First Names
 
-| Name | Description |
-|---|---|
-| Sam | A customer services user with the default set of permissions who can access basic screens. |
-| Steph | A finance team user with elevated permissions to access payment screens. |
-| Len | A high net worth customer. |
-| Chris | A customer with a tight budget. |
+| Name  | Description                                                                                |
+|-------|--------------------------------------------------------------------------------------------|
+| Sam   | A customer services user with the default set of permissions who can access basic screens. |
+| Steph | A finance team user with elevated permissions to access payment screens.                   |
+| Len   | A high net worth customer.                                                                 |
+| Chris | A customer with a tight budget.                                                            |
 
 Last Names
 
-| Name | Description |
-|---|---|
-| Rental | A person with an interest in car rental. |
+| Name     | Description                                  |
+|----------|----------------------------------------------|
+| Rental   | A person with an interest in car rental.     |
 | Outright | A person with an interest in car purchasing. |
 
 I can generate a whole bunch of personas using these first name and last name combinations. *Len Outright* who wants to buy an expensive car, who will probably chat to *Sam Outright* to do so – while *Chris Rental* speaks to *Steph Rental* about his late payment for the car he rented.
