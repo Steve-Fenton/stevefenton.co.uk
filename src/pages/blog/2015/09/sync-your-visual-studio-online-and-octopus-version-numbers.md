@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Sync your Visual Studio Online and Octopus Deploy version numbers'
+navMenu: false
 pubDate: 2015-09-17T16:55:53+01:00
 authors:
     - steve-fenton
@@ -17,7 +17,7 @@ Once the packages are built, the packages are uploaded to the Octopus Deploy lib
 
 If you want to avoid some confusion, you’ll want the Octopus release version number and your Visual Studio Online version number to match. Here is how you can make that happen.
 
-![Sync Visual Studio and Octopus Version Numbers](/img/2015/09/sync-version-numbers.png)
+:img{src="/img/2015/09/sync-version-numbers.png" alt="Sync Visual Studio and Octopus Version Numbers" loading="lazy"}
 
 This screen can be found under the project settings tab.
 

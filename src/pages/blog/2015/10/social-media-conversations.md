@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Social media conversations'
+navMenu: false
 pubDate: 2015-10-14T07:00:31+01:00
 authors:
     - steve-fenton

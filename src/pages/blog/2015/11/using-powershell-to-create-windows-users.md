@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using PowerShell to create Windows users'
+navMenu: false
 pubDate: 2015-11-27T06:30:58+00:00
 authors:
     - steve-fenton
@@ -17,8 +17,8 @@ Due to replication needing a few Windows users scattered about the place, I need
 
 For completeness, I have added some users to this script, but you can use “Sensitive” variables in Octopus Deploy to hide away important information such as passwords.
 
-```
-<pre class="prettyprint lang-powershell">$computer = [ADSI]"WinNT://$Env:COMPUTERNAME,Computer"
+```powershell
+$computer = [ADSI]"WinNT://$Env:COMPUTERNAME,Computer"
 
 $users = @(
     [pscustomobject]@{  Name="repl_distribution";   Description="Replication Distribution User";	Password="!" },
@@ -45,10 +45,11 @@ Foreach ($user in $users) {
     }
 }
 ```
+
 And in case you are interested, this is the full script for setting up replication users and allowing them access to the replication folder.
 
-```
-<pre class="prettyprint lang-powershell">Write-Host "Replication Set-Up Started."
+```powershell
+Write-Host "Replication Set-Up Started."
 
 $computer = [ADSI]"WinNT://$Env:COMPUTERNAME,Computer"
 

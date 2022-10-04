@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Conditionally add filters only when a value is supplied'
+navMenu: false
 pubDate: 2015-07-25T07:30:26+01:00
 authors:
     - steve-fenton
@@ -15,8 +15,7 @@ tags:
 
 If you are converting a series of optional filters in a UI into an IQueryable, you’ll find yourself writing a lot of if-statements to only add a filter if a value is supplied.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 if (myNumber!= 0)
 {
     query = query.Where(t => t.Number.Equals(myNumber));
@@ -27,10 +26,10 @@ if (myName!= 0)
     query = query.Where(t => t.Name.Equals(myName));
 }
 ```
+
 I have been using the following extension methods to clean up this act, it conditionally adds the filter only if a value has been supplied (note: in my case 0 always means nothing was selected…).
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 /// <summary>
 /// Conditionally adds a Where expression IF the property has a non-zero value
 /// </summary>
@@ -65,24 +64,24 @@ public static IQueryable<T> AddFilterIfValue<T>(this IQueryable<T> query, string
     return query;
 }
 ```
+
 You call it like this…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 query = query.AddFilterIfValue(myNumber, t => t.Number.Equals(myNumber));
 ```
+
 And it can be chained, so you can do it like this…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 query = query
     .AddFilterIfValue(myNumber, t => t.Number.Equals(myNumber))
     .AddFilterIfValue(myName, t => t.Name.Equals(myName));
 ```
+
 Additional note: don’t forget to use the returned value, i.e. this won’t work because you forgot to assign the returned query to a variable…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 query
     .AddFilterIfValue(myNumber, t => t.Number.Equals(myNumber))
     .AddFilterIfValue(myName, t => t.Name.Equals(myName));

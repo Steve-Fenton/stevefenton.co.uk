@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Bind multiple actions with conditional keys for keyboard events'
+navMenu: false
 pubDate: 2015-08-14T07:30:17+01:00
 authors:
     - steve-fenton
@@ -16,8 +16,8 @@ I don’t talk about jQuery very much because I avoid it wherever possible. Howe
 
 Here is the full script:
 
-```
-<pre class="prettyprint lang-js">(function ($) {
+```js
+(function ($) {
     $.fn.bindactions = function (callback, options) {
         var settings = $.extend({
             events: "click touchstart keydown",
@@ -56,17 +56,19 @@ Here is the full script:
     };
 })(jQuery);
 ```
+
 And you call it like this if you want the defaults:
 
-```
-<pre class="prettyprint lang-js">$('#example').bindactions(function () {
+```javascript
+$('#example').bindactions(function () {
    alert('Yes'); 
 });
 ```
+
 And like this if you want to specify something…
 
-```
-<pre class="prettyprint lang-js">$('#example').bindactions(function () { alert('Yes'); }, {
+```javascript
+$('#example').bindactions(function () { alert('Yes'); }, {
     keys: [13]
 });
 ```

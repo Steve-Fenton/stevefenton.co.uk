@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The relative cost of Octopus Deploy'
+navMenu: false
 pubDate: 2015-10-25T13:47:58+00:00
 authors:
     - steve-fenton
@@ -11,7 +11,7 @@ tags:
     - Octopus
 ---
 
-[![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)](/publications/exploring-octopus-deploy/)One of the best things about Octopus Deploy is the simplicity of the pricing. These numbers were correct at the time of writing, but the exact numbers aren’t the interesting bit – it is the relative cost.
+One of the best things about Octopus Deploy is the simplicity of the pricing. These numbers were correct at the time of writing, but the exact numbers aren’t the interesting bit – it is the relative cost.
 
 Obviously, the community edition is free and covers you up to five of everything (projects, machines, users). But unlike some other free-to-start offerings (you know who you are) there is no sudden and painful ramp up into the paid edition.
 
@@ -19,10 +19,12 @@ To get 20 of everything, the cost is $700. Relative to the cost of getting a con
 
 Here is the full table…
 
-<summary>Relative cost of Octopus Deploy vs a Deployment Contractor</summary>| Octopus Deploy License | Cost for One Year | As Contractor Days |
-|---|---|---|
-| Professional (20 of everything) | $700 | 2 days |
-| Team (60 of everything) | $2,000 | 5 days |
-| Enterprise (Unlimited of everything) | $5,000 | 12 days |
+Relative cost of Octopus Deploy vs a Deployment Contractor
+
+| Octopus Deploy License               | Cost for One Year | As Contractor Days |
+|--------------------------------------|-------------------|--------------------|
+| Professional (20 of everything)      | $700              | 2 days             |
+| Team (60 of everything)              | $2,000            | 5 days             |
+| Enterprise (Unlimited of everything) | $5,000            | 12 days            |
 
 That is actually not a lot of money… you’d be hard pressed to write a better deployment automation if you paid for that number of days!

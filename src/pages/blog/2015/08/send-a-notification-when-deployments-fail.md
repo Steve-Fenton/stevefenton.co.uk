@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Send a notification when deployments fail'
+navMenu: false
 pubDate: 2015-08-03T07:30:41+01:00
 authors:
     - steve-fenton
@@ -15,17 +15,18 @@ If you are using Octopus Deploy as part of a continuous delivery pipeline, youâ€
 
 Here is a simple email notification step that tells you when a deployment fails, including a reasonable amount of information about the failure.
 
-![Octopus Deploy Failed Deployment Email](/img/2015/07/failed-deployment-email.png)
+:img{src="/img/2015/07/failed-deployment-email.png" alt="Octopus Deploy Failed Deployment Email"}
 
 The key parts of this email are the subject:
 
 ```
-<pre class="prettyprint lang-plain_text">FAILURE! #{Octopus.Project.Name} - #{Octopus.Release.Number}
+FAILURE! #{Octopus.Project.Name} - #{Octopus.Release.Number}
 ```
+
 The body:
 
 ```
-<pre class="prettyprint lang-plain_text">The following release has been created but FAILED TO DEPLOY to the #{Octopus.Environment.Name} environment:
+The following release has been created but FAILED TO DEPLOY to the #{Octopus.Environment.Name} environment:
 
 #{Octopus.Project.Name} - #{Octopus.Release.Number}
 
@@ -33,8 +34,9 @@ Error details:
 
 #{Octopus.Deployment.ErrorDetail}
 ```
+
 And the Run Condition:
 
 ```
-<pre class="prettyprint lang-plain_text">Failure: only run when a previous step failed
+Failure: only run when a previous step failed
 ```

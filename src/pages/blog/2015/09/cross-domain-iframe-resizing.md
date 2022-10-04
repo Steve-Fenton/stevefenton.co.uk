@@ -12,7 +12,9 @@ tags:
     - JavaScript
 ---
 
-![iframe Resize](/img/2015/09/iframe-resize1.png)If you have ever integrated third party components on your website, you will have found a dazzling variety of integration methods, from JavaScript snippets, to iframes, to server-side APIs. Many of the integrations seek to inject content onto your page, but I sincerely advise against this. You don’t need to spend long reading the [OWASP Top Ten Application Security Risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) to see that allowing people to place content on your website is a recipe for disaster.
+:img{src="/img/2015/09/iframe-resize1.png" alt="iframe Resize"}
+
+If you have ever integrated third party components on your website, you will have found a dazzling variety of integration methods, from JavaScript snippets, to iframes, to server-side APIs. Many of the integrations seek to inject content onto your page, but I sincerely advise against this. You don’t need to spend long reading the [OWASP Top Ten Application Security Risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) to see that allowing people to place content on your website is a recipe for disaster.
 
 So despite its falling out of favour, the humble iframe is one of the more secure ways you can give over a portion of your website to a third party without inadvertently handing them the keys to the castle.
 
@@ -22,29 +24,32 @@ The script is made up of two components, one to run on your website and one to r
 
 On your host page, you need the following:
 
-```
-<pre class="prettyprint lang-html"><script src="iframeresizer.min.js"></script>
+```html
+<script src="iframeresizer.min.js"></script>
 <script>
     iFrameResize();
 </script>
 ```
+
 And in the page hosted in the iframe you need:
 
+```html
+<script src="iframeResizer.contentWindow.min.js"></script>
 ```
-<pre class="prettyprint lang-html"><script src="iframeResizer.contentWindow.min.js"></script>
-```
+
 You can also narrow down the scope of the integration by specifying the iframe and limiting the domains:
 
-```
-<pre class="prettyprint lang-html"><script src="iframeresizer.min.js"></script>
+```html
+<script src="iframeresizer.min.js"></script>
 <script>
     iFrameResize({}, '#myid');
 </script>
 ```
+
 And in the page hosted in the iframe you need:
 
-```
-<pre class="prettyprint lang-html"><script>
+```html
+<script>
     window.iFrameResizer = {
         targetOrigin: 'http://www.example.com'
     }

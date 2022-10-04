@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The NoEstimates philosophical divide'
+navMenu: false
 pubDate: 2015-08-11T17:30:26+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"a358902a613a";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/a358902a613a";}'
 categories:
     - Process
 tags:
@@ -23,7 +21,9 @@ There are two main points of controversy. The first is that [nobody can sensibly
 
 Disclaimer: it is unlikely that I have done justice to the full breadth of the arguments in that paragraph, but trust me – the long version gets painful!
 
-I am interested in the second of these two areas. The two opposing sides of this argument seem to me to represent Corporate Responsibility on the one hand (cost, profit, professionalism, etc) and Social Responsibility on the other (humane working, avoiding death-marches, etc). These two areas are not mutually exclusive. In many cases, social responsibility is a massive enabler for the goals of corporate responsibility. If you are working in a way that destroys the joy of work, crushes motivation, and causes high turn-over rates – that isn’t just socially destructive – it affects your corporate goals because everything will take longer and cost more. *If* you are using estimates in a destructive way, you can’t claim professionalism or corporate responsibility. (For clarity, the *if* is important here because I’m not claiming estimates are always destructive – you can’t be too careful when it comes to #NoEstimates, so I am making a rare exception in emphasising the emphasis).
+I am interested in the second of these two areas. The two opposing sides of this argument seem to me to represent Corporate Responsibility on the one hand (cost, profit, professionalism, etc) and Social Responsibility on the other (humane working, avoiding death-marches, etc). These two areas are not mutually exclusive. In many cases, social responsibility is a massive enabler for the goals of corporate responsibility.
+
+If you are working in a way that destroys the joy of work, crushes motivation, and causes high turn-over rates – that isn’t just socially destructive – it affects your corporate goals because everything will take longer and cost more. *If* you are using estimates in a destructive way, you can’t claim professionalism or corporate responsibility. (For clarity, the *if* is important here because I’m not claiming estimates are always destructive – you can’t be too careful when it comes to #NoEstimates, so I am making a rare exception in emphasising the emphasis).
 
 So the crux of the issue, within your organisation, is that you need to:
 

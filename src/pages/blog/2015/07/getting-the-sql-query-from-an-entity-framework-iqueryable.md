@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Getting the SQL query from an Entity Framework IQueryable'
+navMenu: false
 pubDate: 2015-07-24T07:30:57+01:00
 authors:
     - steve-fenton
@@ -18,8 +18,7 @@ If you have ever wanted to look inside an IQueryable in Entity Framework to see 
 
 So are a pair of extension methods that allow you to turn an IQueryable into its SQL query. ToTraceQuery inlines all of the parameters, whereas ToTraceString tacks them on the end (as it a more true representation of what is under the hood). Don’t get too carried away verifying strings within the query though as it may change.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using System;
 using System.Data.Entity.Core.Objects;
 using System.Linq;

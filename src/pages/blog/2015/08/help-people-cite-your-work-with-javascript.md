@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Help people cite your work with JavaScript'
+navMenu: false
 pubDate: 2015-08-12T07:30:26+01:00
 authors:
     - steve-fenton
@@ -15,8 +15,8 @@ This is a little script that helps people to cite your work by placing the URL o
 
 The end result is the selected content, followed by “- Source: http://www.example.com/etc/here”.
 
-```
-<pre class="prettyprint lang-js">(function () {
+```javascript
+(function () {
     function createSelectionCloneElement() {
         var container = document.createElement('div');
         container.innerHTML = "";

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Get argument values from Linq expressions'
+navMenu: false
 pubDate: 2015-09-08T08:00:39+01:00
 authors:
     - steve-fenton
@@ -14,17 +14,18 @@ tags:
 
 If you even find yourself unpacking an expression in C#, you might find this useful. I found myself in need of obtaining a list of argument values from within an Expression<func>&gt; expression that sometimes had chained method calls. For example, I needed to be able to get the arguments from all of the following…</func>
 
-```
-<pre class="prettyprint lang-csharp">SomeMethod(() => getInformation.ForCustomer(CustomerId));
+```csharp
+SomeMethod(() => getInformation.ForCustomer(CustomerId));
 
 SomeMethod(() => MyFactory.GetInformation().ForCustomer(CustomerId));
 
 SomeMethod(() => MyFactory.GetInformation().ForCustomer(CustomerId).ToList());
 ```
+
 In the end, I created a couple of extension methods to help. One converts an expression into a MethodCallExpression (if that is a valid conversion), which is a type that has arguments. The second recursively searches for the arguments.
 
-```
-<pre class="prettyprint lang-csharp">public static class ExpressionExtensions
+```csharp
+public static class ExpressionExtensions
 {
     public static string GetMethodName<T>(this Expression<Func<T>> expression)
     {
@@ -66,8 +67,9 @@ In the end, I created a couple of extension methods to help. One converts an exp
     }
 }
 ```
+
 And you call it like this…
 
-```
-<pre class="prettyprint lang-csharp">ReadOnlyCollection<Expression> arguments = expression.GetInnerArguments();
+```csharp
+ReadOnlyCollection<Expression> arguments = expression.GetInnerArguments();
 ```

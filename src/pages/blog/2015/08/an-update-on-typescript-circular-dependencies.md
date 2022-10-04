@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'An update on TypeScript circular dependencies'
+navMenu: false
 pubDate: 2015-08-05T07:30:39+01:00
 authors:
     - steve-fenton

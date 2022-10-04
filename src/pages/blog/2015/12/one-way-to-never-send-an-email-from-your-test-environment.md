@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'One way to never send an email from your test environment'
+navMenu: false
 pubDate: 2015-12-16T22:00:20+00:00
 authors:
     - steve-fenton
@@ -21,13 +21,12 @@ The SMTP Stub application can either discard every email it receives, or you can
 
 You can install the service using PowerShell:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 New-Service -Name "SmtpStub" -BinaryPathName "C:\SmtpStub\Fenton.SmtpService.exe"
 ```
+
 You can check it is running on port 25 using `Get-NetTCPConnection`. If it doesn’t show, don’t forget to start the service (it will start automatically with the machine, but as we’ve just installed it it will be stopped).
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 Get-NetTCPConnection -LocalPort 25
 ```

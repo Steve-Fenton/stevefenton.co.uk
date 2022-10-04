@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'WordPress social sharing links without JavaScript'
+navMenu: false
 pubDate: 2015-07-11T20:56:19+01:00
 authors:
     - steve-fenton
@@ -19,8 +19,8 @@ So one-by-one I’m eliminating them by updating my custom theme.
 
 Here is my replacement for social sharing buttons. To avoid JavaScript, you essentially need to give up the counters that show how many times something has been shared, but if you miss the self-validation just ask and I’ll tell you that you are brilliant.
 
-```
-<pre class="prettyprint lang-php"><div class="social-sharing">
+```php
+<div class="social-sharing">
 	<?php
 		$link = urlencode(get_permalink());
 	?>
@@ -35,6 +35,7 @@ Here is my replacement for social sharing buttons. To avoid JavaScript, you esse
 	</ul>	
 </div>
 ```
+
 I have popped CSS classes on each link so the text can be replaced with an icon using a bit of CSS and Genericons.
 
 This eliminated 7 HTTP requests from my website compared to the plugin I was using.

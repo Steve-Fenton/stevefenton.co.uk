@@ -1,12 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: '#NoEstimates in practice'
+navMenu: false
 pubDate: 2015-09-10T07:00:13+01:00
 authors:
     - steve-fenton
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"fbd6acc31aaa";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/fbd6acc31aaa";}'
 categories:
     - Process
 tags:
@@ -17,13 +15,13 @@ tags:
 
 A fader is a control you can use to vary the volume of sound, the intensity of light, or the gain on a video or audio signal. We have all seen giant sound desks in expensive studios with arrays of motorised faders controlling the mix of a recording. The important thing to remember is that the correct location for a fader can be almost anywhere along its length. It depends on the circumstances; not just the instrument, but also the song, the moment within the song, and all of the other instruments. Occasionally the correct place will be “min” or “max”, but usually you’ll find the fader elsewhere.
 
-### Estimates
+## Estimates
 
 Of course, this isn’t about faders. It’s about Estimates (and of course, #NoEstimates). Each of these is like a position on the fader. Providing an estimate every time one is requested is “max”. Never providing an estimate under any circumstance is “min”. Whether your estimation fader should be at “min” or “max” or somewhere in between depends on the circumstances.
 
 Let’s look at it the pragmatic way with a basic flowchart.
 
-[![No Estimates Framework for Thinking](/img/2015/09/When-To-Estimate-Flowchart.png)](/img/2015/09/When-To-Estimate-Flowchart.png)
+:img{src="/img/2015/09/When-To-Estimate-Flowchart.png" alt="No Estimates Framework for Thinking" loading="lazy"}
 
 This flowchart essentially boils down to the following:
 
@@ -33,7 +31,7 @@ Important side-note… this statement steals a great deal of sentiment from [Woo
 
 When someone thinks an estimate is needed, you follow the flow chart through…
 
-### Underlying need
+## Underlying need
 
 Before you can make an informed decision about whether to estimate, or what form the estimate should take; you need to understand the underlying need that resulted in an estimate being requested. You can’t estimate without this knowledge, and you can’t think about alternatives without it either.
 
@@ -43,19 +41,19 @@ You should really know the fundamental need for anything you do. That’s why yo
 
 If you get told to paint the house white and simply follow instructions, you’ll never know that the person who asked you to paint the house thought it might make the house cooler during summer. You could have suggested they switch off the heaters, which would have been faster, cheaper, and more effective in achieving the goal of a cooler house.
 
-### Explore alternatives
+## Explore alternatives
 
 Once you know *why* an estimate is being requested, you can explore alternatives. If you need ideas, you can talk to [Woody Zuill](http://zuill.us/WoodyZuill/category/noestimates/) or [Neil Killick](https://neilkillick.wordpress.com/category/noestimates/).
 
 There is a series of dysfunctions that can manifest themselves in how an organisation behaves around estimates. If you can use the opportunity to explore alternatives, you’ll make the organisation healthier no matter whether you end up estimating or not.
 
-### Health
+## Health
 
 Because the health of your relationships and your organisation is so important, you should consider the impact of the alternative on health; just as you should consider the impact of estimating on health. If you find a way to achieve a need without an estimate, but it causes more damage than an estimate you may have become too dogmatic about avoiding estimates. If you demand an estimate when there is a healthier alternative, you may have become too dogmatic about using estimates.
 
 There are no healthy absolutes. Don’t make me repeat the fader metaphor.
 
-### Estimates
+## Estimates
 
 If you decide an estimate is the answer, then remember to do it right. If you are giving out off-the-cuff single-point estimates based solely on judgement, you’re doing it wrong. There are lots of different methods for estimation that are more or less appropriate at different times. On top of this, there are a whole bunch of factors that you might want to check in with to ensure you haven’t missed something.
 
@@ -65,11 +63,11 @@ The following books will assist with these issues. You’ll be hard pressed to f
 
 [Software Estimation: Demystifying the Black Art](https://www.amazon.co.uk/Software-Estimation-Demystifying-Black-Art/dp/0735605351/)
 
-### No Estimates
+## No Estimates
 
 If you discover another way to meet the need and it is healthier than estimating, use it and share it. When you have explored alternatives and found a suitable one, make sure it makes it into your playbook so you everyone knows it is available and when it is appropriate to use it.
 
-### Influential factors
+## Influential factors
 
 There are two factors that I think are highly influential in the decision making process. Estimation categories, and trust.
 
@@ -85,7 +83,7 @@ The second factor is trust. If you are operating within a low-trust environment 
 
 It can be useful when introducing these ideas to do both the estimate and the alternative. This shows a willingness to provide an estimate (i.e. you aren’t trying to shirk responsibility or hard work), and also allows the alternative to be compared. For example, maybe you’d make a different decision based on the alternative.
 
-### Context
+## Context
 
 There are a lot of strong opinions out there on the subject of estimation. No matter how loudly these people shout, none of them are responsible for your job – or for the success of your organisation. You really need to fine tune your approach based on your own context, but hopefully I have highlighted the important factors in this article.
 

@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using Visual Studio Online PowerShell build steps to publish NuGet packages'
+navMenu: false
 pubDate: 2015-11-18T07:00:45+00:00
 authors:
     - steve-fenton
@@ -16,13 +16,13 @@ tags:
 
 Update! As of February 2016, you can now use the ready-made vNext NuGet Publisher step to do this and it is even easier.
 
-### The new way
+## The new way
 
-Add a new vNext build step using “Add build step…” -&gt; Package -&gt; NuGet Publisher. Select “Internal NuGet Feed” and paste in your feed url – job done. With internal feeds you don’t need to set up a service endpoint.
+Add a new vNext build step using “Add build step…” > Package > NuGet Publisher. Select “Internal NuGet Feed” and paste in your feed url – job done. With internal feeds you don’t need to set up a service endpoint.
 
 One word of caution though, the default “Path/Pattern to nupkg” will cause all packages to be uploaded to your private feed (i.e. everything in the /packages/ folder for your solution). You can use a more specific pattern to limit this, for example: `**\YourOrganisation.*.nupkg`
 
-### The old way
+## The old way
 
 One of the forthcoming features in Visual Studio <del datetime="2015-11-19T16:28:32+00:00">Online</del> Team Services is package management. This will begin with NuGet packages, but will eventually work with many other kinds of package. By integrating a package server with Visual Studio Online it will be a breeze to create packages as part of the build and publish them to the package server – and also to restore the packages from the package server as part of the build.
 
@@ -34,8 +34,7 @@ There are already build steps in private preview for:
 
 I am currently having issues with the NuGet Publish build step and wrote the following PowerShell script to plug the hole while I wait for the issues to be resolved.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 [CmdletBinding()]
 param(
 	[Parameter(Mandatory)][string] $SourceName,		# The name to be used to store credentials
@@ -64,13 +63,15 @@ Write-Output "Pushing package to NuGet " $packagePath
 $pushCommand =  $LocalPath + "\nuget push $packagePath -Source " + $FeedUrl + " -ApiKey " + $SourceName + " "
 Invoke-Expression -Command $pushCommand
 ```
+
 The idea behind this script is that it slots in nicely after a NuGet Packager step (with default values – if you specify a Package Folder in this build step, you’ll need to adjust the path used in this PowerShell step).
 
 The script uses the build environment variables `$ENV:BUILD_REPOSITORY_LOCALPATH` and `$ENV:BUILD_BUILDNUMBER` to get the information it needs about the package location.
 
 To use the script, pass the arguments in the PowerShell Build Step:
 
+```powershell
+-SourceName "example" -FeedUrl "https://example.pkgs.visualstudio.com/DefaultCollection/_packaging/example/nuget/v3/index.json" -PackageName "Example.Networking" -Username "steve.fenton" -Password "secret-magic-word"
 ```
-<pre class="prettyprint lang-powershell">-SourceName "example" -FeedUrl "https://example.pkgs.visualstudio.com/DefaultCollection/_packaging/example/nuget/v3/index.json" -PackageName "Example.Networking" -Username "steve.fenton" -Password "secret-magic-word"
-```
+
 The feed url is displayed on the package configuration screen along with the other information you need in the above script (the information used to add the package source and publish the package).

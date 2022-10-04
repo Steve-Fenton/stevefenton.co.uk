@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Gamification is either infantile or manipulative'
+navMenu: false
 pubDate: 2015-09-19T11:00:08+01:00
 authors:
     - steve-fenton
@@ -11,7 +11,9 @@ tags:
     - Gamification
 ---
 
-![Gamification - image by Kenny Louie](/img/2015/09/gamification.jpg)I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a “cool software company” that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
+:img{src="/img/2015/09/gamification.jpg" alt="Gamification - image by Kenny Louie"}
+
+I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a “cool software company” that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
 
 > Gamification – the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
 
@@ -29,4 +31,4 @@ As a software developer (i.e. anyone involved in delivering software), I expect 
 
 Don’t let the games become the reason you write software.
 
-Image: [Kenny Louie](https://www.flickr.com/photos/kwl/)
+<small>Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)</small>

@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Clean out old IIS log files'
+navMenu: false
 pubDate: 2015-07-07T21:00:34+01:00
 authors:
     - steve-fenton
-
 categories:
     - Programming
 tags:
@@ -19,8 +18,7 @@ What is needed is a way to bin-off the old log files to keep the disk clear.
 
 Here is a quick VBScript file that does the job:
 
-```
-<pre class="prettyprint lang-vbscript">
+```vb
 iisFolderPath = "E:\IIS-Logs"
 maxAgeInDays = 90
 
@@ -40,13 +38,14 @@ For Each currentFolders in iisFolder.SubFolders
     Next
 Next
 ```
+
 You can call this from the command line using the following command:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 cscript.exe CleanIISLogs.vbs
 ```
-You can also automate this process using Task Scheduler. For the action, enter the following information (assuming you have saved the VBScript file as “E:\\IIS-Logs-Cleaner\\CleanIISLogs.vbs”):
+
+You can also automate this process using Task Scheduler. For the action, enter the following information (assuming you have saved the VBScript file as “E:\IIS-Logs-Cleaner\CleanIISLogs.vbs”):
 
 - Action: Start a program
 - Program/script: C:\\Windows\\System32\\CScript.exe

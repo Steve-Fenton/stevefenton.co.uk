@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Restore private NuGet feed packages during Visual Studio Team Services builds'
+navMenu: false
 pubDate: 2015-11-20T06:30:32+00:00
 authors:
     - steve-fenton
@@ -16,12 +16,12 @@ tags:
 
 Update! As of February 2016, you should be able to use the standard “NuGet Installer” vNext build task.
 
-### The new way
+## The new way
 
 Add the Nuget Installer build task, which can be found under “Add build step” -&gt; “Package”. You will need to supply a NuGet.config file with the address of your custom feed:
 
-```
-<pre class="prettyprint lang-xml"><?xml version="1.0" encoding="utf-8"?>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageRestore>
     <add key="enabled" value="True" />
@@ -37,14 +37,14 @@ Add the Nuget Installer build task, which can be found under “Add build step�
   </activePackageSource>
 </configuration>
 ```
+
 Simply supply the path to the solution and the path to this NuGet.config file to the vNext build task and it will do everything without neededing the PowerShell script I wrote below.
 
-### The old way
+## The old way
 
 If you need to restore packages from a private NuGet feed during your Visual Studio Team Services build, you can use this script as part of a PowerShell Build Step.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 [CmdletBinding()]
 param(
 	[Parameter(Mandatory)][string] $SourceName,	# The name to be used to store credentials
@@ -73,8 +73,9 @@ Foreach ($path in $projectPaths) {
 	Invoke-Expression -Command $installCommand
 }
 ```
+
 The script is entirely controlled via the list of paramters, which you can supply in the “arguments” field in the PowerShell Build Step:
 
-```
-<pre class="prettyprint lang-powershell">-SourceName "example" -FeedUrl "https://example.pkgs.visualstudio.com/DefaultCollection/_packaging/example/nuget/v3/index.json" -ProjectFolders "\Networking\,\Networking.Tests\" -Username "steve.fenton" -Password "secret-magic-word"
+```powershell
+-SourceName "example" -FeedUrl "https://example.pkgs.visualstudio.com/DefaultCollection/_packaging/example/nuget/v3/index.json" -ProjectFolders "\Networking\,\Networking.Tests\" -Username "steve.fenton" -Password "secret-magic-word"
 ```

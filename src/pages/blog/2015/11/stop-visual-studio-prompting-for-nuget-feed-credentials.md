@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Stop Visual Studio prompting for NuGet feed credentials'
+navMenu: false
 pubDate: 2015-11-19T06:00:40+00:00
 authors:
     - steve-fenton
@@ -15,20 +15,23 @@ With the imminent arrival of Visual Studio Online Package Manager, which lets us
 
 If you head to the folder:
 
-`C:\Users\­bob.example\­AppData\­Roaming\­NuGet`
+```
+C:\Users\­bob.example\­AppData\­Roaming\­NuGet
+```
 
 …you can add the following to the NuGet.config file.
 
+```xml
+<packageSourceCredentials>
+  <YourFeedName>
+    <add key="Username" value="yourfeedname.pkgs.visualstudio.com\bob.example" />
+    <add key="ClearTextPassword" value="secret" />
+  </YourFeedName>
+</packageSourceCredentials>
 ```
-<pre class="prettyprint lang-xml">  <packageSourceCredentials>
-    <YourFeedName>
-      <add key="Username" value="yourfeedname.pkgs.visualstudio.com\bob.example" />
-      <add key="ClearTextPassword" value="secret" />
-    </YourFeedName>
-  </packageSourceCredentials>
-```
+
 You can also secure this by adding the credentials via NuGet.exe – in which case the password will be encrypted.
 
-```
-<pre class="prettyprint lang-cmd">Nuget.exe Sources Add -Name YourFeedName -UserName yourfeedname.pkgs.visualstudio.com\bob.example -Password secret
+```bash
+Nuget.exe Sources Add -Name YourFeedName -UserName yourfeedname.pkgs.visualstudio.com\bob.example -Password secret
 ```

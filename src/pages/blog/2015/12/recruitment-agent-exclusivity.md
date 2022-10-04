@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Recruitment agent exclusivity'
+navMenu: false
 pubDate: 2015-12-15T11:27:52+00:00
 authors:
     - steve-fenton
@@ -24,13 +24,13 @@ Of course, when I explain our exclusive relationship to prospecting agents, they
 
 This is how it would work if using a single agent was equivalent to having all my eggs in one basket (E is the potential employer, the As are agents, the Cs are candidates):
 
-![Limited Candidates](/img/2015/12/limited-candidates.jpg)
+:img{src="/img/2015/12/limited-candidates.jpg" alt="Limited Candidates" loading="lazy"}
 
 In that example, I’d only have access to a third of candidates who were interested in working with me.
 
 But that isn’t the case. No candidate ever signs up for exclusivity with an agent, and all of the relevant job boards are open to all the agents – so if I choose any agent, I get visibility to all of the candidates… just like when you are buying and selling a house (no agent has exclusive access to RightMove!) So really, things look a lot more like this:
 
-![All Candidates](/img/2015/12/all-candidates.jpg)
+:img{src="/img/2015/12/all-candidates.jpg" alt="All Candidates" loading="lazy"}
 
 So there is no benefit for me or the candidates in sending the job out via multiple agencies. If anything, the duplicated listings in job searches are annoying/confusing and the co-ordination effort makes the whole process much harder.
 

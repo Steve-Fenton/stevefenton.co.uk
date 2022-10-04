@@ -1,11 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Special searches in Microsoft Word'
+navMenu: false
 pubDate: 2015-07-01T23:34:15+01:00
 authors:
     - steve-fenton
-
 categories:
     - Windows
 tags:
@@ -20,9 +19,9 @@ You can test these out using the “Find” option (CTRL + F) and then use them 
 
 So how do you find them in the first place? Step one is to show paragraph marks (CTRL + SHIFT + 8). Step two is to use the search term from the table below.
 
-| Item | Special Search |
-|---|---|
-| Section break | ^b |
-| Index Entry | ^d XE |
-| Manual line break | ^l |
-| Manual page break | ^m |
+| Item              | Special Search |
+|-------------------|----------------|
+| Section break     | ^b             |
+| Index Entry       | ^d XE          |
+| Manual line break | ^l             |
+| Manual page break | ^m             |

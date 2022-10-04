@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Dynamically creating TypeScript classes based on a type argument'
+navMenu: false
 pubDate: 2015-12-31T07:56:12+00:00
 authors:
     - steve-fenton
@@ -17,8 +17,8 @@ I have talked before about [highly dynamic instantiation of classes in TypeScrip
 
 For example, people want to do this (this code won’t compile):
 
-```
-<pre class="prettyprint lang-typescript">class ExampleOne {
+```typescript
+class ExampleOne {
     hi() {
         alert('Hi');
     }
@@ -36,14 +36,16 @@ class Creator<T> {
 var creator = new Creator<ExampleOne>();
 
 var example = creator.getNew();
+
 example.hi();
 ```
+
 There are two reasons you can’t do this. A type argument is not a constructor, and type erasure removes it before runtime. As an aside, one of the values behind the TypeScript compiler that I liked the most back in October 2012 was how little it changed the code. If you were to target the latest version of the ECMAScript specification during compilation, all it would do is erase types. Transformations and additions solely served the purpose of keeping things working for older implementations of ECMAScript.
 
 So you have to pass a constructor, but you can still use type arguments to provide type information, as per the below updated example.
 
-```
-<pre class="prettyprint lang-typescript">class ExampleOne {
+```typescript
+class ExampleOne {
     hi() {
         alert('Hi');
     }

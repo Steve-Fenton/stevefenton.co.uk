@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to fix broken IntelliSense in Visual Studio razor views'
+navMenu: false
 pubDate: 2015-11-09T15:21:25+00:00
 authors:
     - steve-fenton
@@ -19,6 +19,8 @@ Most of the advice for fixing this is based on the assumption that the views are
 
 The issue is likely to be a bad component model cache. You can resolve it by deleting the cache files located in:
 
-`C:\Users\your.name.here\AppData\Local\Microsoft\VisualStudio\14.0\ComponentModelCache`
+```
+C:\Users\your.name.here\AppData\Local\Microsoft\VisualStudio\14.0\ComponentModelCache
+```
 
 The files will be recreated when you next launch Visual Studio, and they should now be error-free.

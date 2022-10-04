@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Programming books should go beyond syntax'
+navMenu: false
 pubDate: 2015-10-27T07:31:21+00:00
 authors:
     - steve-fenton
@@ -12,7 +12,7 @@ tags:
     - TypeScript
 ---
 
-[![Pro TypeScript](/img/2015/07/pro-typescript.jpg)](/publications/pro-typescript/)When I was invited to write [Pro TypeScript](/publications/pro-typescript/) for Apress, the pitch I prepared with my ace Editor, Gwenan, included a unique selling point. That USP was to go beyond the normal syntactical lessons of how to write various expressions using the programming language and talk in reasonable detail about how to apply some design to the code.
+When I was invited to write [Pro TypeScript](/publications/pro-typescript/) for Apress, the pitch I prepared with my ace Editor, Gwenan, included a unique selling point. That USP was to go beyond the normal syntactical lessons of how to write various expressions using the programming language and talk in reasonable detail about how to apply some design to the code.
 
 This idea had been in my mind since I first learned to use JavaScript back in the last century. The books I read were excellent at teaching the code – but not a single one supplied any advice on how to make my code easier to maintain. As a result, my first program was hideous. If only these books provided patterns and practices appropriate to the language as well as some syntax.
 

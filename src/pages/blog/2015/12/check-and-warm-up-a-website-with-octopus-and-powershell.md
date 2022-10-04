@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Check and warm up a website with Octopus Deploy and PowerShell'
+navMenu: false
 pubDate: 2015-12-02T06:00:59+00:00
 authors:
     - steve-fenton
@@ -17,8 +17,8 @@ There are two reasons you might want to add this step to your Octopus Deploy pro
 
 I have defined a variable in my Octopus Deploy project called TestUrl, which stores the appropriate address to test for each website (in many cases, this may be per-environment, but in my case I have specific URLs for each machine in a web farm… I want to know the machine I just deployed to is working, not just *a* machine in the farm is working!)
 
-```
-<pre class="prettyprint lang-powershell">Write-Output "Starting"
+```powershell
+Write-Output "Starting"
 
 $MaxAttempts = 5
 
@@ -69,6 +69,7 @@ If (![string]::IsNullOrWhiteSpace($TestUrl)) {
 
 Write-Output "Done"
 ```
+
 I have placed this script in an Execute Script step at the end of the deployment, and the deployment will be marked as “failed” if the website cannot be reached.
 
 You can extend the call to [Invoke-WebRequest to include certificates, credentials, and even data](https://technet.microsoft.com/en-us/library/hh849901.aspx).

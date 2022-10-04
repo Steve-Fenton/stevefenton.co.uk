@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Custom output from TypeSpec'
+navMenu: false
 pubDate: 2015-12-08T06:00:56+00:00
 authors:
     - steve-fenton
@@ -20,8 +20,8 @@ TypeSpec has a built-in test reporter that logs a whole bunch of information to 
 
 The example custom test reporter below places the output into an HTML page, logs informational items to the console, and raises an alert when the run has completed. You can extend the TestReporter class and override as many of the four methods as you like.
 
-```
-<pre class="prettyprint lang-typescript">import {TestReporter} from './TypeSpec/TypeSpec';
+```typescript
+import {TestReporter} from './TypeSpec/TypeSpec';
 
 export class CustomTestReporter extends TestReporter {
     summary(featureTitle: string, scenarioTitle: string, isSuccess: boolean) {
@@ -46,11 +46,13 @@ export class CustomTestReporter extends TestReporter {
     }
 }
 ```
+
 To use the custom test reporter, pass it in when you instantiate the SpecRunner.
 
+```typescript
+var runner = new SpecRunner(new CustomTestReporter());
 ```
-<pre class="prettyprint lang-typescript">var runner = new SpecRunner(new CustomTestReporter());
-```
+
 The result of this custom test reporter is shown below:
 
-![TypeSpec Browser Ouput](/img/2015/11/typespec-browser-output.png)
+:img{src="/img/2015/11/typespec-browser-output.png" alt="TypeSpec Browser Ouput" loading="lazy"}

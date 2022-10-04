@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Handle legacy .aspx page requests in ASP.NET MVC'
+navMenu: false
 pubDate: 2015-10-05T19:00:26+01:00
 authors:
     - steve-fenton
@@ -17,8 +17,8 @@ If you have a public web application that you are upgrading from Web Forms to AS
 
 By default, these requests won’t be passed to your application so you won’t be able to catch them using a route. So to get hold of them in your application you’ll need to make a change to your Web.config file to ensure .aspx requests are sent to your application:
 
-```
-<pre class="prettyprint lang-xml"><!-- ... -->
+```xml
+<!-- ... -->
 <system.webServer>
 	<handlers>
 	  <!-- ... -->
@@ -26,10 +26,11 @@ By default, these requests won’t be passed to your application so you won’t 
 	</handlers>
 </system.webServer>
 ```
+
 Once you have updated the Web.config, you can create a route to pass these requests to an action:
 
-```
-<pre class="prettyprint lang-csharp">public static void RegisterRoutes(RouteCollection routes)
+```csharp
+public static void RegisterRoutes(RouteCollection routes)
 {
     // ...
 
@@ -40,10 +41,11 @@ Once you have updated the Web.config, you can create a route to pass these reque
     );
 }
 ```
+
 And within your controller you can do whatever you like with the request, for example redirect it to the new address, or display content, or whatever you like.
 
-```
-<pre class="prettyprint lang-csharp">public class LegacyRedirectionController : Controller
+```csharp
+public class LegacyRedirectionController : Controller
 {
     public ActionResult Aspx(string permalink)
     {
