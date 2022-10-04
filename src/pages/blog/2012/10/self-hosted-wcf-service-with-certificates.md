@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Self-hosted WCF service with certificates'
+navMenu: false
 pubDate: 2012-10-09T23:33:06+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=716'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,10 +17,10 @@ If you are self-hosting a WCF service, exposed via HTTP and requiring certificat
 
 If you are using IIS, you’ll just set up the certificates using inetmgr, but because you are self-hosting, you’ll need to run a command such as this:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 netsh http add sslcert ipport=127.0.0.1:8000 certhash=c20ed305ea705cc4e36b317af6ce35dc03cfb83d appid={c9670020-5288-47ea-70b3-5a13da258012} clientcertnegotiation=enable
 ```
+
 This will register the certificate against the URI and application.
 
 “ipport” is the IP address and port number you are hosting the WCF service under.
@@ -32,10 +29,10 @@ This will register the certificate against the URI and application.
 
 “appid” is the GUID from your AssemblyInfo file in your WCF host project.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [assembly: Guid("c9670020-5288-47ea-70b3-5a13da258012")]
 ```
+
 “clientcertnegotiation” allows you to enable negotiation, which is disabled by default.
 
 You can find information of all of the parameters on the [Microsoft Technet article on netsh](https://technet.microsoft.com/en-us/library/cc725882(v=ws.10).aspx#BKMK_2). Please let me know when this link dies, as all Microsoft links seem to do!

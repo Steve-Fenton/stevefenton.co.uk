@@ -1,26 +1,21 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Pomodoro mistakes and objectives'
+navMenu: false
 pubDate: 2012-10-17T23:29:29+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=712'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"55ebd4fb4611";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/55ebd4fb4611";}'
 categories:
     - Process
 tags:
     - Pomodoro
 ---
 
-I love [Pomodoro technique®](/2011/10/The-Pomodoro-Technique/) – it’s like a personal version of Agile. Not only do I love it, but I have used it to great effect and [shared with others how to use it](/2012/03/Pomodoro-Technique-In-25-Minutes/).
+I love [Pomodoro technique®](/blog/2011/10/the-pomodoro-technique/) – it’s like a personal version of Agile. Not only do I love it, but I have used it to great effect and [shared with others how to use it](/blog/2012/03/pomodoro-technique-in-25-minutes/).
 
 When I first started using it, I made a few Pomodoro mistakes and as they are sometimes the best way to learn I thought I’d share them with you. I’m also going to talk about the objectives of Pomodoro Technique.
 
-### Pomodoro Mistakes
+## Pomodoro Mistakes
 
 The biggest mistake I made when I first tried Pomodoro technique I was pair-programming with a good friend and colleague. The mistake we made is that we ran a 25 minute Pomodoro, took a note of anyone who wanted to interrupt us and at the end of the 25 minutes, once the timer rang, we spent five minutes clearing down all the interruptions. This was a big mistake and it isn’t how Pomodoro Technique is supposed to work. We still got many of the benefits of the technique – we had great focus and delivered lots of great work – but we were in for a burn-out. Because we hadn’t followed the advice correctly, we had squandered our five minute break doing work. We went desk-to-desk to speak to all the people that we had postponed during our 25 minute chunk of work.
 
@@ -30,7 +25,7 @@ The second mistake we made was that we cleared our list of people who needed us 
 
 The great news is that we spotted this at the time and adjusted our application of Pomodoro Technique to eliminate the Pomodoro mistakes. When you do it wrong it can be effective – but if you do it right it is much more so.
 
-### Pomodoro Objectives
+## Pomodoro Objectives
 
 The most obvious objective of Pomodoro Technique is reduction of interruptions. Digging deeper, the habit of negotiating interruptions has benefits even when you aren’t actively engaging in Pomodoro Technique. Reacting to a request by talking about importance and deadlines is a good reflex to train. Once you become skilled in this art, you will be amazed to see how fast people can be lured away from their desks before they have asked how quickly something needs to be looked at. Imagine if the Accident and Emergency department reacted to interruptions in the same way people do at work – the doctor is mid-way through treating a major injury when she gets called away to look at a twisted ankle. Despite how mad this sounds, people are drawn away from working on important features to deal with trivial interruptions.
 
@@ -38,6 +33,6 @@ Another objective of Pomodoro is to give you a unit of measurement to estimate t
 
 There are tasks and objectives in Pomodoro Technique that take time, but this time is gifted to you by the technique itself. I regularly scheduled a Pomodoro that I used for analysing the information I had recorded, drawing charts (by hand) and writing down what I could do better. I would plan slight changes to how I used the technique and how I would measure if it was better or worse as a result. By doing this in a Pomodoro, I could focus on the task of improving how I used the technique without interruptions.
 
-### Summary
+## Summary
 
 If you get stressed out by interruptions, or find that you aren’t completing your important tasks in a timely manner, it is time to utilise Pomodoro Technique.

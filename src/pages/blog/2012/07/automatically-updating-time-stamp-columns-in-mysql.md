@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Automatically updating time stamp columns in MySql'
+navMenu: false
 pubDate: 2012-07-23T15:34:41+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=768'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -18,16 +15,15 @@ It is often useful to have a column that indicated the last update date of a rec
 
 There is a really simple way to do this in MySql, using a column defined like this:
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 LastUpdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ```
+
 You can see this in action in the following example.
 
 Firstly, let’s create a table that includes our LastUpdate column.
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 CREATE TABLE t1 (
     a VARCHAR(50),
     b VARCHAR(50),
@@ -35,30 +31,31 @@ CREATE TABLE t1 (
     LastUpdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 ```
+
 And we’ll add a row to the table.
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 INSERT INTO t1 (a, b, c) VALUES ('a', 'b', 'c');
 ```
+
 We haven’t specified a value for LastUpdate in our query, so it will use the default value, which is CURRENT\_TIMESTAMP. We can see this by looking at the row.
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 SELECT * FROM t1;
 ```
+
 Now let’s update any column except our LastUpdate column and see what happens.
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 UPDATE t1 SET a = 'd' WHERE a = 'a';
 ```
+
 If we look again at our row, we’ll see the LastUpdate has been moved on.
 
-```
-<pre class="prettyprint lang-mysql">
+```sql
 SELECT * FROM t1;
 ```
+
 The only downside is that you can’t have two columns for this information. My preference would be to have a “Created” column with a default value of CURRENT\_TIMESTAMP and a “LastUpdated” column with an ON UPDATE CURRENT\_TIMESTAMP value, but according to the [MySql documentation](http://dev.mysql.com/doc/refman/5.0/en/timestamp-initialization.html):
 
 > It is not possible to have the current timestamp be the default value for one column and the auto-update value for another column.

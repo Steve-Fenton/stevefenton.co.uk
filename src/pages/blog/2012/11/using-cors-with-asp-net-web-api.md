@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using CORS with ASP NET Web API'
+navMenu: false
 pubDate: 2012-11-01T23:14:02+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=704'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -23,7 +20,7 @@ If you are writing an ASP.NET Web API and you want to call it from a JavaScript 
 
 I’m going to divide things into two sections. Stuff you need to do in ASP.NET Web API on the server and stuff you need to do in JavaScript in your client.
 
-### ASP.NET Web API
+## ASP.NET Web API
 
 There are just a couple of things to add to your ASP.NET Web API project to enable CORS requests.
 
@@ -36,14 +33,13 @@ There are just a couple of things to add to your ASP.NET Web API project to enab
 4. Web.Config  
     You may need to adjust your config file to allow the CORS OPTIONS request.
 
-#### Code
+## Code
 
 All of the code for these three changes is listed below.
 
 CorsMessageHandler.cs
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -112,10 +108,10 @@ namespace YourApplication.MessageHandlers
     }
 }
 ```
+
 App\_Start/HandlerConfig
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using System.Collections.ObjectModel;
 using System.Net.Http;
 using YourApplication.MessageHandlers;
@@ -131,10 +127,10 @@ namespace YourApplication
     }
 }
 ```
+
 Global.asax.cs
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 using System.Diagnostics.CodeAnalysis;
 using System.Web;
 using System.Web.Http;
@@ -159,49 +155,50 @@ namespace YourApplication
     }
 }
 ```
-### JavaScript Changes
+
+## JavaScript Changes
 
 The essence of making things work in JavaScript is to ensure you set an “X-Requested-With” header. If you are using jQuery, this is built into the jQuery.ajax component. If you are rolling your own AJAX code, you need to use:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest"];
 ```
+
 If you are using jQuery, you’ll need to ask it nicely to do this for you:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 jQuery.support.cors = true;
 ```
-### SSL
+
+## SSL
 
 If your ASP.NET Web API is delivered over SSL, the page calling will need to be SSL too if you want it to work in all browsers, so if the service address is HTTPS, the calling page needs to be HTTPS.
 
-### I Want Cookies
+## I Want Cookies
 
 If you want to allow cookies, you need to add a special header.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 response.Headers.Add("Access-Control-Allow-Credentials", "true");
 ```
+
 In JavaScript, you can set the withCredentials flag to true:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 myXmlHttpRequest.withCredentials = true;
 ```
-### Config File
+
+## Config File
 
 You may come across a situation where the initial OPTIONS request never gets handled by your .NET application. The request might get a 200 OK response, but with the wrong headers to allow your cross-origin request to proceed. If you don’t get the 200 response, check that IIS allows the OPTIONS verb – but if you get the 200, but it isn’t hitting your code, you might need to add the OPTIONSVerbHandler line to the handlers section of your web.config file:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <handlers>
   <remove name="OPTIONSVerbHandler"/>
   <!-- ... -->
 </handlers>
 ```
-### Summary
+
+## Summary
 
 And that’s all there is to it (okay, there was quite a bit of code to copy and paste, but the principle of it all is very simple). Kudos to the guys who made things so configurable in ASP.NET MVC / ASP.NET Web API!

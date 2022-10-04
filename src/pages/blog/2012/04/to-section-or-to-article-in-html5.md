@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'To section or to article in HTML5'
+navMenu: false
 pubDate: 2012-04-05T16:26:06+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=821'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -18,7 +15,7 @@ A friend of mine recently pointed out that the many explanations of section and 
 
 My understanding is based on a brief online conversation with the mighty [Bruce Lawson](http://www.brucelawson.co.uk/), author of [Introducing HTML5](https://www.amazon.co.uk/Introducing-HTML-Voices-That-Matter/dp/0321687299/brucelawson-21), who said:
 
-> “A section can contain many articles and an article can contain many sections.”
+> A section can contain many articles and an article can contain many sections.
 
 This is a great explanation because it shows the strong relationship between these two elements.
 

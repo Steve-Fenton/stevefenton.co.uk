@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to add RDFa Lite to your website'
+navMenu: false
 pubDate: 2012-11-29T22:44:53+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=687'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -15,14 +12,13 @@ tags:
     - rdfa
 ---
 
-This is really the second half of my [article on microdata](/2012/11/How-To-Add-Microdata-To-Your-Website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.
+This is really the second half of my [article on microdata](/blog/2012/11/how-to-add-microdata-to-your-website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.
 
 So this article follows the same process as my microdata article, but adds “RDFa Data-Tome” attributes rather than microdata attributes.
 
 So here is my mark-up before I added RDFa Lite:
 
-```
-<pre class="prettyprint lang-html">
+```html
 <article>
     <header>
         <h3><cite>Introducing HTML 5 (Voices That Matter)</cite></h3>
@@ -34,26 +30,26 @@ So here is my mark-up before I added RDFa Lite:
     </footer>
 </article>
 ```
+
 So let’s start adding some attributes. The first attribute is the vocab. This tells people where the schema is defined.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <article vocab="http://schema.org/">
     ...
 </article>
 ```
+
 The second attribute is “typeof”. This describes the type of the item – and you stick it on the same element as your “vocab” attribute. In my case, I’m using the “Book” type, but there are many, many types to choose from on schema.org. By adding this attribute to the article, we are now saying “each article describes a book”.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <article vocab="http://schema.org/" typeof="Book">
     ...
 </article>
 ```
+
 Now we have defined the kind of thing we are describing, we can pick out the bits of data that are within the article. I have picked out the book’s “name”, the “author” and the “url” of the book.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <article vocab="http://schema.org/" typeof="Book">
     <header>
         <h3><cite property="name">Introducing HTML 5 (Voices That Matter)</cite></h3>
@@ -65,9 +61,10 @@ Now we have defined the kind of thing we are describing, we can pick out the bit
     </footer>
 </article>
 ```
+
 And we’re done. This example is hardly any different to the microdata example. Only time will tell which specification will gain the wider adoption, but I suppose everyone is going to have to end up supporting both, which is kind of ridiculous!
 
-### Additional notes
+## Additional notes
 
 Bear in mind that the types are case sensitive, so use “Book” not “book”. You can check this by adding the vocab and typeof attributes and pasting them into a browser – in this case “http://schema.org/Book”.
 

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML async and defer attributes'
+navMenu: false
 pubDate: 2012-03-08T16:36:17+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=831'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

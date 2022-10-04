@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Battery status API'
+navMenu: false
 pubDate: 2012-06-26T15:55:13+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=785'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
     - Programming
@@ -25,8 +22,7 @@ The light sensor API and proximity sensor API are easy to use, but neither are a
 
 The example below checks for navigator.battery (the likely standardised version) as well as the experimental navigator.mozBattery, which is of course an experimental feature in Firefox.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var batteryInfo  = null;
 if (navigator.battery) {
     batteryInfo = navigator.battery;

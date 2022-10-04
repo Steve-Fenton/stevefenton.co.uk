@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using the light sensor API in Firefox'
+navMenu: false
 pubDate: 2012-05-05T16:12:45+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=804'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -21,8 +18,7 @@ The caveats for all this are that the device must have a sensor that can detect 
 
 The API is really simple, you just need to add an event listener to the “devicelight” event and your function will be called with the current lux.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var lightFeatureCallback = function (lux) {
     alert(lux.value);
 };

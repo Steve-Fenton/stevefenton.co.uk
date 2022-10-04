@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Mocking a service proxy in .NET with Rhino Mocks'
+navMenu: false
 pubDate: 2012-05-10T16:12:30+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=802'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -17,8 +14,7 @@ tags:
 
 If you are calling a service via a service proxy, how do you mock the service call and ensure it was called with the correct parameters? Here is an example using Rhino Mocks to capture the call via the proxy and then test that it is the correct call.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 namespace Fenton.Example
 {
     public class ExampleClass
@@ -40,12 +36,12 @@ namespace Fenton.Example
     }
 }
 ```
+
 First of all, here is an example of the kind of thing we want to test. This example has just the basic structure to demonstrate what we are trying to test – in real life the service proxy call could just be a part of a larger method.
 
 So here is how we can test this method. The example appears verbose because many of the items set up in the test would normally be done in a SetUp method and the explanatory comments would also be absent in real life.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 namespace Fenton.ExampleTests
 {
     [TestFixture]

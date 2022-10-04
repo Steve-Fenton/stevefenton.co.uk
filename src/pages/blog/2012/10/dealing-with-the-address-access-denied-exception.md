@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Dealing with the address access denied exception'
+navMenu: false
 pubDate: 2012-10-05T23:35:28+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=718'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

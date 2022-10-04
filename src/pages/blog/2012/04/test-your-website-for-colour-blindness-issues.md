@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Test your website for colour blindness issues'
+navMenu: false
 pubDate: 2012-04-29T16:16:00+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=808'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

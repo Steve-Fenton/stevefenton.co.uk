@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Get your MVC models right'
+navMenu: false
 pubDate: 2012-04-13T16:23:31+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=817'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,13 +19,14 @@ As we all know, the Model in ASP.NET MVC is how information travels from the Con
 
 But what is inside this view? This is what I see more often than I like:
 
-```
-<pre class="prettyprint lang-csharp">public class HomeModel
+```csharp
+public class HomeModel
     public Person Customer { get; set; }
     public Company Employer { get; set; }
     public Product FeaturedProduct { get; set; }
 }
 ```
+
 Please pay particular attention to the presence of the domain objects in this model. They shouldn’t be there. Here are some reasons why.
 
 Your Model should be concerned with one thing. Getting the information to the View that it requires to render correctly. This means your Model should be a reflection of exactly what the View needs. It should contain nothing more and nothing less. When you jam a domain object into your Model, you are passing information that the View doesn’t need, but also that it probably shouldn’t even know about. If you add new properties to the domain objects, they will all be passed to the View also.

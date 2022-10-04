@@ -1,15 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Context switching comes at the price of delivery'
+navMenu: false
 pubDate: 2012-06-10T16:05:51+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=795'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"df4d244af257";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/df4d244af257";}'
 categories:
     - Process
     - Psychology
@@ -19,31 +14,35 @@ If you are a programmer, you will know that context switching is the process of 
 
 For example, if you ask a computer to perform the same three tasks but in one case you ask it to do them sequentially and the in the second case you ask it to switch between them, you will see the following wastage taking place.
 
+```
 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | **1** | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **2** | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | **3** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+```
 
-| Task | Completed In (Seconds) |
-|---|---|
-| Task 1 | 10 |
-| Task 2 | 20 |
-| Task 3 | 30 |
+| Task   | Completed In (Seconds) |
+|--------|------------------------|
+| Task 1 | 10                     |
+| Task 2 | 20                     |
+| Task 3 | 30                     |
 
 Sequentially, you get the first response in 10 seconds, the second response in 20 seconds and the third response in 30 seconds.
 
+```
 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | 1 | 2 | 3 | **1** | **2** | **3** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+```
 
-| Task | Completed In (Seconds) |
-|---|---|
-| Task 1 | 28 |
-| Task 2 | 29 |
-| Task 3 | 30 |
+| Task   | Completed In (Seconds) |
+|--------|------------------------|
+| Task 1 | 28                     |
+| Task 2 | 29                     |
+| Task 3 | 30                     |
 
 With context switching you get the first response in 28 seconds, the second response in 29 seconds and the third response in 30 seconds.
 
 Of course, this is actually not quite right, because the process of context switching involves storing the state of the task you are switching away from and loading the state of the task you are switching to – which costs more time – quite often more time than the task itself if the task runs for any length of time.
 
-### People
+## People
 
 This article isn’t about computers though; it’s about people.
 
@@ -67,7 +66,7 @@ So bearing this in mind, imagine how much more damaging it is each time the ques
 
 I think that it is sad that interruptions aren’t taken seriously and very often people would rather reduce a work in progress limit than accept that interruptions are the greater cause of context switches in an agile team.
 
-### Solutions
+## Solutions
 
 Ideally, any request for work should make its way to developers via the product owners in an agile team. Whether it is a bug or a feature or a request for a custom data dip – it is all work that should be known to the product owner and prioritised against the other work. Any work that gets to the developers without the product owners knowing hurts productivity because this work will tend to gravitate towards the same people, rather than be distributed and prioritised with a view of the bigger picture. It also means that the product owner is working with an incomplete set of data.
 
@@ -77,7 +76,7 @@ When using this method, The Disturbed also needs to be autonomous – the person
 
 The Disturbed is a sub-product-ownership role, so it comes with some of the same responsibilities and judgement calls. It shouldn’t fall solely to the Scrum-master role to do this job because it needs to be a different person in each iteration.
 
-### Summary
+## Summary
 
 The problem of interruptions can only be solved if it is taken seriously. There needs to be general acknowledgement that the cost of a 10 minute interruption is much greater than 10 minutes, potentially measured in hours if it comes at the wrong time or if the problem pinballs between many developers on its way to the correct place.
 

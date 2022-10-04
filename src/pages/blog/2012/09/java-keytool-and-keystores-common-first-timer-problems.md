@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Java keytool and keystores: Common first-timer problems'
+navMenu: false
 pubDate: 2012-09-13T00:04:16+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=740'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -35,7 +32,7 @@ Sometimes this means you have forgotten to specify the alias when adding a certi
 
 Browse the the file specified in the error message and give yourself permission to modify it – by default on Windows 7, SYSTEM has full access, but you will be read only.
 
-### Additional Problems
+## Additional Problems
 
 As if that wasn’t enough, here are other pit-falls I found.
 

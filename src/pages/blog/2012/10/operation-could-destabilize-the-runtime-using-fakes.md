@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Operation could destabilize the runtime using fakes'
+navMenu: false
 pubDate: 2012-10-23T23:24:30+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=708'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -15,7 +12,7 @@ tags:
     - C-Sharp
 ---
 
-A while ago I wrote about [Fakes, Stubs and Shims in Visual Studio](/2012/07/Fakes-Stubs-And-Shims-In-Visual-Studio-2012/) and I have been chewing my own dog food by using them, rather than a mocking framework in my recent work.
+A while ago I wrote about [Fakes, Stubs and Shims in Visual Studio](/blog/2012/07/fakes-stubs-and-shims-in-visual-studio-2012/) and I have been chewing my own dog food by using them, rather than a mocking framework in my recent work.
 
 When faking your own classes and interfaces, there isn’t much to talk about in this respect – things do seem to just work. The problems arise when you need to fake certain system classes, at which point you get the rather serious message:
 
@@ -26,6 +23,6 @@ I received this error when using a fakes assembly to stub an HttpControllerConte
 
 There is actually [an issue raised on Microsoft Connect](https://connect.microsoft.com/VisualStudio/feedback/details/740778/verificationexception-when-faking-mvc4-and-instantiating-controller-in-unit-test7) for this error message. The only slight hitch is that it has been deferred. So I opted to remove the fakes from my test.
 
-Removing the calls to the StubHttpControllerContext and StubHttpActionDescriptor is not enough! You will still get errors. You will need to completely remove the fakes and potentially restart visual studio to clear the issues!
+Removing the calls to the `StubHttpControllerContext` and `StubHttpActionDescriptor` is not enough! You will still get errors. You will need to completely remove the fakes and potentially restart visual studio to clear the issues!
 
 In my case, I had to substitute the fakes for Rhino Mocks while I await for a fix or a work-around!

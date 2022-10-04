@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Apps! Apps! Apps!'
+navMenu: false
 pubDate: 2012-08-07T15:32:23+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=765'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 ---
@@ -18,4 +15,4 @@ Instead of writing a grand history of devices and the growth in form-factors and
 
 I’m not saying that no apps should be written, but if you have a website full of content, why spread yourself thin trying to maintain a ton of apps that display that content when you could put that effort into an awesome website instead.
 
-![Apps Apps Apps](/img/2015/07/AppsAppsApps.jpg)
+:img{src="/img/2015/07/AppsAppsApps.jpg" alt="Apps Apps Apps"}

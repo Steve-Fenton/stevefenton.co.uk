@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Convert a certificate from JKS format to PFX format'
+navMenu: false
 pubDate: 2012-09-24T23:54:20+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=734'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -24,14 +21,14 @@ For those who like that classic little black number (command prompt), you’re g
 
 First of all, we are going to be using Java via the command line, so we’ll hop into the right folder:
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 cd "c:\Program Files\Java\jre6\bin"
 ```
+
 And now we can do the good stuff – this command converts a .jks with a password into a .pfx with the same password. If you omit the passwords, you’ll be asked to get interactive and type them in.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 keytool -importkeystore -srckeystore "C:\certs\test.jks" -srcstoretype JKS -srcstorepass SomePassword -destkeystore "C:\certs\test.pfx" -deststoretype PKCS12 -deststorepass SomePassword
 ```
-Once you run this, you should get a .pfx file in the location you specified – so it is over to winhttpcertcfg to add the certificate into your machine key store (for [Windows Server 2003 onwards, don’t forget to give permission to Network Service](/2011/01/X509-Certificates-On-Windows-Server-2003/)!). If goes without saying that you might see some funky messages, but [you can probably find an answer to the common problems here](/2012/09/Java-Keytool-And-Keystores-Common-First-Timer-Problems/).
+
+Once you run this, you should get a .pfx file in the location you specified – so it is over to winhttpcertcfg to add the certificate into your machine key store (for [Windows Server 2003 onwards, don’t forget to give permission to Network Service](/blog/2011/01/x509-certificates-on-windows-server-2003/)!). If goes without saying that you might see some funky messages, but [you can probably find an answer to the common problems here](/blog/2012/09/java-keytool-and-keystores-common-first-timer-problems/).

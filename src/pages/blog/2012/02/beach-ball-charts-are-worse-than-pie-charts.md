@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Beach ball charts are worse than pie charts'
+navMenu: false
 pubDate: 2012-02-17T16:53:59+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=855'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Pie Charts'
 tags:
@@ -15,7 +12,9 @@ tags:
     - Visualisation
 ---
 
-![Beach Ball Charts](/img/2015/07/beachballchart.jpg)It seems to me that the tide is now turning against the pie chart. Most of the discussions I discover these days are via track-backs to my website where someone has cited one of my opinion pieces in a discussion about how pie charts are pretty much always the wrong way to display your data.
+:img{src="/img/2015/07/beachballchart.jpg" alt="Beach Ball Charts"}
+
+It seems to me that the tide is now turning against the pie chart. Most of the discussions I discover these days are via track-backs to my website where someone has cited one of my opinion pieces in a discussion about how pie charts are pretty much always the wrong way to display your data.
 
 Obviously, if you are trying to deliberately make data hard to read in order to hide some nasty numbers, or if you work in an old-school marketing team – you are still going to love pie charts. Who doesn’t like pies right?
 

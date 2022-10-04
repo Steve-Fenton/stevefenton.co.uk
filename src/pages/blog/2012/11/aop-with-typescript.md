@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'AOP with TypeScript'
+navMenu: false
 pubDate: 2012-11-14T23:04:49+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=696'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -19,7 +16,7 @@ For this example, I am using the [jquery.aop plugin](http://code.google.com/p/jq
 
 As with any JavaScript library, to get the full benefit of TypeScript you will need a definition file, so here is my definition of jquery.aop:
 
-```
+```typescript
 declare class Advice {
     unweave(): void;
 }
@@ -42,11 +39,12 @@ interface JQueryStatic {
     aop: Aop;
 }
 ```
+
 The Advice class represents the function that is returned by calls to the AOP framework. The PointCut interface is used to define the pointCut parameter expected by all of the set-up functions in jquery.aop and the JQueryStatic interface extends the definitions found in the jquery.d.ts definition.
 
 So now we are ready to encapsulate our cross cutting concerns, with all the type checking power of TypeScript. Here is an example where we add a simple visible alert to a TypeScript class.
 
-```
+```typescript
 /// <reference path="jquery.d.ts" />
 /// <reference path="aop.d.ts" />
 class ExampleClass {
@@ -68,6 +66,7 @@ jQuery.aop.after(
 var example = new ExampleClass();
 example.exampleMethod();
 ```
+
 Without AOP, calling exampleMethod on an instance of ExampleClass would result in an alert containing the text “Hello” – but without changing the ExampleClass definition we can hook into code points to add our additional logic. In our case, we add more annoying alerts, one before and one after.
 
 In the real world, the AOP code would most likely live in a separate file based on the cross-cutting concern it was adding.

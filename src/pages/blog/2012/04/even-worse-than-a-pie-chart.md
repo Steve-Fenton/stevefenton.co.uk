@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Even worse than a pie chart'
+navMenu: false
 pubDate: 2012-04-19T16:21:36+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=814'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Pie Charts'
 tags:
@@ -15,7 +12,9 @@ tags:
     - Visualisation
 ---
 
-![Hideous Pie Chart](/img/2015/07/hideous_pie_chart.jpg)How long has it been since I last spotted a rubbish pie chart. Okay, I admit it – it was last month. It is actually quite easy to spot them because [actually all pie charts are awful](/2009/04/pie-charts-are-bad/).
+:img{src="/img/2015/07/hideous_pie_chart.jpg" alt="Hideous Pie Chart"}
+
+How long has it been since I last spotted a rubbish pie chart. Okay, I admit it – it was last month. It is actually quite easy to spot them because [actually all pie charts are awful](/blog/2009/04/pie-charts-are-bad/).
 
 So why is this one so bad? Simple. A two-dimensional pie chart has been proven to be hard for humans to accurately compare. We are pretty good at judging simple shapes, like rectangles – but a triangle with a curved side is just a lot harder to judge. When you tilt a pie chart, it makes it even harder because the segments near the top are made smaller by the perspective.
 

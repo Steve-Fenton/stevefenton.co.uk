@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Tidy desk. Tidy mind!'
+navMenu: false
 pubDate: 2012-01-28T17:01:00+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=865'
-interface_sidebarlayout:
-    - default
 categories:
     - Psychology
 ---
@@ -18,4 +15,4 @@ All that is left are a couple of monitors, some headphones a keyboard and a mous
 
 Take a look and revel in the tidiness!
 
-![My Desk](/img/2015/07/desk.jpg)
+:img{src="/img/2015/07/desk.jpg" alt="My Desk" loading="lazy"}

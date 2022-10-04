@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'The Dreyfus Model mistake in software development'
+navMenu: false
 pubDate: 2012-12-03T22:40:58+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=683'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Psychology
@@ -19,7 +16,7 @@ I have recently been reading in more detail about The Dreyfus Model, which was o
 
 Before I explain the mistake, here is a quick refresher to provide some background.
 
-### The Dreyfus Model Quickly
+## The Dreyfus Model Quickly
 
 The Dreyfus Model was proposed in 1980 by Stuart and Hubert Dreyfus. It describes how you transition through a possible five-stages of competence: Novice, Advanced Beginner, Competent, Proficient and Expert.
 
@@ -27,7 +24,7 @@ The full model is described under the title:
 
 [“A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition”](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
 
-### The Dunning-Kruger Effect Quickly
+## The Dunning-Kruger Effect Quickly
 
 Also known as second-order incompetence, The Dunning\_Kruger effect was proposed in 1999 by David Dunning and Justin Kruger. It describes how unskilled individuals can mistakenly believe they have above-average abilities. It also describes how actual competence can weaken self-confidence.
 
@@ -35,7 +32,7 @@ The full theory is described under the title:
 
 “Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”
 
-### So what is the big mistake?
+## So what is the big mistake?
 
 When we apply these two studies to software development, we tend to do it as a whole. This is the mistake. I believe that The Dreyfus Model applies on a per-skill basis. You can be a novice at relational data-stores, but competent at restful services. You have a different level of competence for each technology or practice or principle that you apply to software development.
 

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Response to pie chart comment'
+navMenu: false
 pubDate: 2012-09-06T00:08:56+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=744'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Pie Charts'
 tags:
@@ -21,11 +18,11 @@ The only part of Kester’s message that I don’t agree with is that a pie char
 
 Here is a comparison of the pie chart verses the column chart for coalition option 1, Conservative and Liberal Democrats (C + LD).
 
-![Coalition Pie vs Chart A](/img/2015/07/coalition_11.png)
+:img{src="/img/2015/07/coalition_11.png" alt="Coalition Pie vs Chart A" loading="lazy"}
 
 And here is a comparison of the pie chart verses the column chart for coalition option 2, Labour and Liberal Democrats (L + LD).
 
-![Coalition Pie vs Chart B](/img/2015/07/coalition_21.png)
+:img{src="/img/2015/07/coalition_21.png" alt="Coalition Pie vs Chart B" loading="lazy"}
 
 Be honest about how long it takes to see whether the coalition is a majority government in either case using the pie chart instead of the column chart!
 

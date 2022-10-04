@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Code contracts fail to fire'
+navMenu: false
 pubDate: 2012-10-09T23:30:50+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=714'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,12 +17,11 @@ If you are using Code Contracts in .NET and you find that they aren’t running,
 
 If you have used Code Contracts a couple of times, these are the most likely reasons the Code Contracts aren’t doing anything when you call a method that you think is being checked.
 
-### Attribute Problem
+## Attribute Problem
 
 It is highly likely that you’ve forgotten to add both of the required attributes – one to the interface and one to the contract definition.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 [ContractClass(typeof(ContractsForIRepository<,>))]
 public interface IRepository<T, in TId> where T : IEntity
 {
@@ -36,16 +32,17 @@ internal abstract class ContractsForIRepository<T, TId> : IRepository<T, TId> wh
 {
     //...
 ```
-### Project Problem
+
+## Project Problem
 
 It is also highly likely that you’ve forgotten to set up Code Contracts against your project in Visual Studio!
 
-If you go to Project &gt; Properties and select the Code Contracts tab, you may have forgotten to switch them on! Here are the settings I generally use – everything not mentioned is not ticked!
+If you go to Project > Properties and select the Code Contracts tab, you may have forgotten to switch them on! Here are the settings I generally use – everything not mentioned is not ticked!
 
 - Assembly Mode: Standard Contract Requires
-- Runtime Checking &gt; Perform Runtime Checking: Full
-- Static Checking &gt; Perform Static Contract Checking: Yes
-- Static Checking &gt; Check in Background: Yes
-- Static Checking &gt; Show squiggles: Yes
-- Static Checking &gt; Cache Results: Yes
-- Static Checking &gt; Suggest Requires: Yes
+- Runtime Checking > Perform Runtime Checking: Full
+- Static Checking > Perform Static Contract Checking: Yes
+- Static Checking > Check in Background: Yes
+- Static Checking > Show squiggles: Yes
+- Static Checking > Cache Results: Yes
+- Static Checking > Suggest Requires: Yes

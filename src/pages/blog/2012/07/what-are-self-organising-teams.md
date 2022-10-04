@@ -1,22 +1,19 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'What are self-organising teams?'
+navMenu: false
 pubDate: 2012-07-02T15:46:28+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=774'
-interface_sidebarlayout:
-    - default
-medium_post:
-    - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:75:"https://cdn-images-1.medium.com/fit/c/400/400/1*eXkhfEuF41g5W_xnc_ydLA.jpeg";s:10:"author_url";s:38:"https://medium.com/@steve.fenton.co.uk";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"947ab4dcfb69";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:5:"draft";s:3:"url";s:51:"https://medium.com/@steve.fenton.co.uk/947ab4dcfb69";}'
 categories:
     - Process
 tags:
     - Teams
 ---
 
-![Self-Organising Pawn](/img/2015/07/self-organising-pawn.jpg)If you have a background in a “traditional” software development methodology, such as Waterfall, you probably won’t have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.
+:img{src="/img/2015/07/self-organising-pawn.jpg" alt="Self-Organising Pawn"}
+
+If you have a background in a “traditional” software development methodology, such as Waterfall, you probably won’t have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.
 
 The self-organising team in software development is borrowed from a principle in lean car manufacturing. Rather than have 5 wheel guys putting on wheels under the supervision of a clipboard-wielding whip-cracker, whose job is to tell the 5 wheel guys how they could do their job faster and better – you just make sure your wheel guys are experts and tell them to work out the best process for putting on wheels. This all stems from the concept that if you employ experts to do a job, they actually want to do the right thing and as they have amazing knowledge in their subject area, they will come up with the best method for delivering quality in good time. The person holding the clipboard can throw it away, stop managing the low level details and instead allow their gaze to take in the “bigger picture”.
 

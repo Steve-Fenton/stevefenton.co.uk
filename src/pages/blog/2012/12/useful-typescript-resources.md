@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Useful TypeScript resources'
+navMenu: false
 pubDate: 2012-12-09T22:40:06+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=681'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JavaScript remote error logging'
+navMenu: false
 pubDate: 2012-09-07T00:06:46+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=742'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,8 +19,7 @@ Here is a contrived full example, which shows errors be forwarded using an AJAX 
 
 How you handle the request on the server is entirely up to you. You can use whatever technology you are already using to forward the event to your existing event log. You should also consider validating each error being sent, in case someone spots the error logging mechanism and starts using it as an attack vector by flooding you with error reports, or submitting error reports that contain injection attacks!
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var ErrorHandling = (function() {
   var existingErrorHandler = window.onerror;
   var remoteLoggingUrl = 'http://localhost/logging/';

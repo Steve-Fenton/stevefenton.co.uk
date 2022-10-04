@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using NDepend to get a grasp of your code'
+navMenu: false
 pubDate: 2012-09-04T00:11:39+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=748'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -27,7 +24,6 @@ Of course, once you’ve got a handle on exactly what you are dealing with, the 
 Once you have reigned in the codebase, I recommend revisiting the rules to make them more strict. Rather than 500 lines of code defining a method that is too big, why not reduce this number. Instead of 8 parameters being too many for a method, why not reduce it. It takes about 10 seconds to edit a rule written in CQLinq from:
 
 ```
-<pre class="prettyprint lang-plain_text">
 warnif count > 0 from t in JustMyCode.Types where
    t.NbLinesOfCode > 500 ||
    t.NbILInstructions > 3000
@@ -35,10 +31,10 @@ warnif count > 0 from t in JustMyCode.Types where
 select new { t, t.NbLinesOfCode,
     t.NbILInstructions, t.Methods, t.Fields }
 ```
+
 To:
 
 ```
-<pre class="prettyprint lang-plain_text">
 warnif count > 0 from t in JustMyCode.Types where
    t.NbLinesOfCode > 250 ||
    t.NbILInstructions > 1500
@@ -46,6 +42,7 @@ warnif count > 0 from t in JustMyCode.Types where
 select new { t, t.NbLinesOfCode,
     t.NbILInstructions, t.Methods, t.Fields }
 ```
+
 As you update the CQLinq statements, it indicates how many failures will result, which means you can adjust it and see what the impact will be.
 
 And the best bit is that you can integrate NDepend into your build process using the NDepend console, which means you can fail your build if someone violates a critical rule.

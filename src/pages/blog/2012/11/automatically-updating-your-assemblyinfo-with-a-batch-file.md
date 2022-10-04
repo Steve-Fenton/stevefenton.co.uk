@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Automatically updating your AssemblyInfo with a batch file'
+navMenu: false
 pubDate: 2012-11-20T23:00:50+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=691'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -29,35 +26,34 @@ I am using Visual Studio 2012 and TFS 2012, but things should be similar in Visu
 
 Lastly, although my examples do some specific things, please generalise them and adapt them to your specific scenario. Use your own agreen build number formats and decide what properties belong in the shared files.
 
-### Build Number Format
+## Build Number Format
 
 The default build number format is:
 
 ```
-<pre class="prettyprint lang-plain_text">
 $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)
 ```
+
 This results in a build number of “BUILD\_NIGHTLY-20121201.0”. I am using my own custom build number format:
 
 ```
-<pre class="prettyprint lang-plain_text">
 $(TeamProject)-1.0.0$(Rev:.r)
 ```
+
 This results in “ProjectName-1.0.0.0”. When we come to use this build number, we won’t want “ProjectName-“, so we’ll just take the rest. You can invent whatever numbering scheme you like, but in this specific case the first three numbers a hard-coded. That is because sales and marketing wanted control over the major and minor version and the third number was used for patches. For example:
 
-- 1.1.\*.\* is a marketing decision
-- 2.0.\*.\* is a big marketing decision
-- \*.\*.1.\* is a patch
-- \*.\*.\*.243 is an automatic number that increases with each build
+- `1.1.\*.\*` is a marketing decision
+- `2.0.\*.\*` is a big marketing decision
+- `\*.\*.1.\*` is a patch
+- `\*.\*.\*.243` is an automatic number that increases with each build
 
-### Batch File
+## Batch File
 
 The batch file replaces the entire contents of the shared Assembly Info file every time the build runs. It also deals with source control. Whether you need to version this shared file will depend on your individual and unique situation. Generally speaking it is better if you don’t have to version it, but in my specific case, there was a need for developers to pull the latest and create DLLs that were the correct version to drop onto their test environments, so it was easier if they didn’t have to check and edit this file manually.
 
 The file accepts two parameters. The version number and the file path. This allows TFS to pass this information when it executes the batch file. I also parameterised the path to the TF source control command line (which you only need if you want to check-out and check-in the file) and the current year, for the copyright message. The batch file can also be executed manually, so it prompts for the arguments if they haven’t been supplied.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 set version=%~1
 set outfile=%~2
 set tfstool="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\tf"
@@ -81,39 +77,40 @@ echo [assembly: AssemblyVersion("%version%")] >> %outfile%
 echo [assembly: AssemblyFileVersion("%version%")] >> %outfile%
 %tfstool% checkin %outfile% /comment:"***NO_CI*** Assembly Info Increment" /noprompt
 ```
+
 You can remove the three lines containing the text “%tfstool%” if you don’t want to version the file. Here is a breakdown of what the file does.
 
 **Check Out File**
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 %tfstool% checkout %outfile%
 ```
+
 **Make File Writable**
 
 If you aren’t checking out the file, you’ll need to make it writable.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 attrib -r %outfile%
 ```
+
 **Echo File Contents**
 
 The batch file uses &gt; to write over a file and &gt;&gt; to append to a file.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 echo Some line >> %outfile%
 ```
+
 **Check In File**
 
 On check-in, we specify the exact file to check in, add a comment that prevents CI builds from being triggered and ask for no prompts.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 %tfstool% checkin %outfile% /comment:"***NO_CI*** Assembly Info Increment" /noprompt
 ```
-### InvokeProcess Task
+
+## InvokeProcess Task
 
 To make the magic happen, we need to call the batch file from the build definition. TFS has an InvokeProcess task that is ideal for this. You’ll need to open up the build process definition XAML file to do this. I added the InvokeProcess activity in the “Run On Agent” step that you’ll find in the default template, just after “Initialize Workspace” activity.
 
@@ -124,22 +121,22 @@ You’ll need to set a couple of properties on the InvokeProcess task.
 The arguments property contains the string that you would pass in the command line to call the batch file. We create the string using some TFS built-in properties that tell us where the build directory is and to remove the project name from the version number.
 
 ```
-<pre class="prettyprint lang-plain_text">
 LabelName.Replace("ProjectName-", "") + " " + SourcesDirectory + "\Main\Source\AssemblyInfoShared.cs"
 ```
+
 **FileName**
 
 Again we use the TFS properties to get the build directory so we can pass in the full path to the shared Assembly Info file.
 
 ```
-<pre class="prettyprint lang-plain_text">
 SourcesDirectory + "\Path\AssemblyVersion.bat"
 ```
+
 You can also drag a WriteBuildMessage and WriteBuildWarning activity onto the InvokeProcess activity to push happy and sad messages into the build log.
 
 And that’s it. A SharedAssemblyInfo.cs file, a batch file and an InvokeProcess activity are all you need to auto-increment your build numbers.
 
-### Troubleshooting…
+## Troubleshooting…
 
 In later versions of TFS, you’ll need to get the SourcesDirectory and LabelName in a slightly different way…
 
@@ -152,6 +149,6 @@ The GetEnvironmentVariables activity has the following properties:
 - Name (the name of the variable to capture), use WellKnownEnvironmentVariables.BuildNumber and WellKnownEnvironmentVariables.SourcesDirectory
 - Result (the name of the variable to store the value in), use buildNumber and sourcesDirectory
 
-### Warning
+## Warning
 
 In my example I change both AssemblyVersion and AssemblyFileVersion. If you change the AssemblyVersion, you may make your assemblied incompatible with code that is using a fixed version. You can opt to just change the AssemblyFileVersion automatically and move the AssemblyVersion into a concious decision (i.e. manually update the batch file when you want to change it, or leave it out of the shared file so it can be set in each project).

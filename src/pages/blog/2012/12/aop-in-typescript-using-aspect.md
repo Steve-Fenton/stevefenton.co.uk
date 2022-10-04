@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'AOP in TypeScript using Aspect'
+navMenu: false
 pubDate: 2012-12-01T22:41:47+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=685'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -15,11 +12,11 @@ tags:
     - TypeScript
 ---
 
-Update! I am actually using decorators for this kind of thing these days. Original article below.
+**Update**! I am actually using decorators for this kind of thing these days. Original article below.
 
 I recently wrote about using an existing JavaScript AOP framework with TypeScript, but in this article I’m going to talk about using Aspect, an AOP framework written for, and in, TypeScript.
 
-### Why?
+## Why?
 
 Aspect is small, completely stand alone and really easy to use. It is 2kb minified and you only need to learn four operations that all have identical signatures!
 
@@ -29,7 +26,7 @@ If you aren’t sure if something is a candidate for AOP, try to imagine what wo
 
 For example, if I added Auditing using AOP and I switched off all Auditing, the code would carry on working regardless – just without Auditing. This is a good candidate. If I wanted to change how a calculation worked without editing the original code, I might be tempted to perform a transformation using AOP, but if I switched it off, the code would work differently and it would be a disaster.
 
-### Code Folds
+## Code Folds
 
 AOP adds extra behaviour to a fold in your code. These folds are points in the execution of the code that you can insert additional code to be run. Aspect currently has four extension points that let you use some natural folds in your TypeScript code.
 
@@ -51,20 +48,21 @@ The “error” fold lets you execute some code if the original code throws an e
 
 You take advantage of code folds by registering a function to be executed on particular method call. In the example below, you ask Aspect to raise an alert if ModuleName.ClassName.methodName raises an error at any point, on any instance of ModuleName.ClassName.
 
-```
+```typescript
 Aspect.Weaver.error(
     ModuleName.ClassName,
     'methodName',
     function () { alert('Error!'); }
 );
 ```
-### Example
+
+## Example
 
 For this example, I am going to write a really simple module that can be used to play with AOP. The Boxes module contains some code that lets us add and remove boxes to to an HTML page. When you instantiate a BoxManager, you tell it where on the page you want boxes to be added, then you simply call addBox or removeBox to add and remove div elements.
 
 *Boxes.ts*
 
-```
+```typescript
 module Boxes {
     export class BoxManager {
         private container: HTMLElement;
@@ -93,17 +91,19 @@ module Boxes {
     }
 }
 ```
+
 You might call this code like this:
 
 *app.ts*
 
-```
+```typescript
 var boxManager = new Boxes.BoxManager('example');
 var box = boxManager.addBox('box', 'A new box!');
 ```
+
 So let’s look at some AOP for the Boxes module!
 
-### Audit
+## Audit
 
 What if we wanted to audit or monitor the number of times boxes were added and removed? We could add code to the BoxManager class that calls some function to do this – but then our BoxManager starts getting bloated with code that deals with concerns that don’t really belong to a module that should have the single purpose of dealing with Boxes.
 
@@ -115,7 +115,7 @@ I am then adding the handler to the “afterAll” fold of the addBox and remove
 
 *Audit.ts*
 
-```
+```typescript
 (function() {
     var handler = (e: Aspect.WeaveEvent, a: any[]) => {
         var args = a.join(',');
@@ -137,13 +137,12 @@ I am then adding the handler to the “afterAll” fold of the addBox and remove
     );
 } ());
 ```
+
 Now after the methods on the boxManager is called the console will get a message about the call. I could use this to count the number of times the method is called, log the usage to the server, display a graph – whatever I want really.
 
 The important point here is that I can add in auditing without changing the original module and without changing the calling code. It is completely invisible to both. This also means I can switch it off and on in a single place, for example if I only wanted to run auditing while testing, I could exclude it when I put the program live – all without changing the original module or any calling code.
 
-```
-<pre class="prettyprint lang-html">
-
+```html
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -174,4 +173,3 @@ The important point here is that I can add in auditing without changing the orig
 </body>
 </html>
 ```
-</body></html>

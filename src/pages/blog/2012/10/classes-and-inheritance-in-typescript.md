@@ -1,26 +1,23 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Classes and inheritance in TypeScript'
+navMenu: false
 pubDate: 2012-10-02T23:46:15+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=728'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
     - TypeScript
 ---
 
-Yesterday I wrote [a very brief introduction to TypeScript](/2012/10/TypeScript-Adds-Static-Typing-To-JavaScript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
+Yesterday I wrote [a very brief introduction to TypeScript](/blog/2012/10/typescript-adds-static-typing-to-javascript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
 
 The two topics for conversation today are classes and inheritance – topics that you’ll be familiar with if you are using a first class object oriented language, or one that supports it if you happen to have used those features.
 
 Let’s look at an example of a class – a very contrived Car object!
 
-```
+```typescript
 class Car {
     private engineSizeCC: number;
     
@@ -33,9 +30,10 @@ class Car {
     }
 }
 ```
+
 And we can easily inherit from this general Car object…
 
-```
+```typescript
 class CorporateCar extends Car {
     milesBeforeRefuel(gallonsInTank: number) {
         var realMiles = super.milesBeforeRefuel(gallonsInTank);
@@ -44,11 +42,12 @@ class CorporateCar extends Car {
     }
 }
 ```
+
 This example demonstrates declaring a class, adding a private variable, adding public variables, adding types, adding default values, inheriting from a class and overriding a method – all in just a few lines of code.
 
 We can call the code like this:
 
-```
+```typescript
 var myCar = new Car(1.6, 45);
 var salesmansCar = new CorporateCar(1.6, 45);
 
@@ -57,14 +56,14 @@ document.write(
     "We pretend that the salesman has " + salesmansCar.milesBeforeRefuel(10) + " left."
 );
 ```
+
 And we get the output “I have 450 left,We pretend that the salesman has 360 left”.
 
 Like CoffeeScript, this will chuck out a smattering of JavaScript that is a bit harder to read than our short-hand but does the right job of containing our scope.
 
 The generated script is below so you can see what the plain JavaScript looks like for this whole example:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var __extends = this.__extends || function (d, b) {
     function __() { this.constructor = d; }
     __.prototype = b.prototype;

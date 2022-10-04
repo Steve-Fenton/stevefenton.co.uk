@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Automatic deep focal range photography'
+navMenu: false
 pubDate: 2012-02-16T16:55:53+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=858'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 tags:
@@ -26,6 +23,6 @@ So here is a suggestion that came up in conversation with a friend: Automatic De
 
 This would allow the best of several shots to be selected, for example in portrait photography you could select the shot with best focus on the eye – but could also be used to combine several shallow depth-of-field shots to highlight detail. If you have ever taken a photo of a hoverfly, you’ll know that you have to choose between focus on the eyes or focus on the wings.
 
-![Fly](/img/2015/07/fly.jpg)
+:img{src="/img/2015/07/fly.jpg" alt="Fly" loading="lazy"}
 
 By having a selection of shots with different focal lengths not only could you choose the best one, you could combine them to get the perfect depth of field by taking the area of focus from several shots and merging them together. Ideally, you would get the camera to do this automatically, but even having the shots taken in sequence with the focal length adjustment taking place for you would mean you can work on the set of images later on.
