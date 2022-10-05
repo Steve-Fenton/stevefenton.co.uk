@@ -1,11 +1,10 @@
 ---
-layout: src/layouts/Default.astro
+layout: src/layouts/Redirect.astro
 title: Blog
 paged: true
 navOrder: 2000
 navSearch: false
 navSitemap: false
 pubDate: 2022-10-02
-keywords: steve fenton,blog
-description: Steve Fenton's blog.
+redirect: /blog/1/
 ---
