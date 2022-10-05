@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Dashes vs underscores in web addresses'
+navMenu: false
 pubDate: 2011-08-28T17:53:22+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=912'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -24,4 +21,4 @@ So the dash acts as a separator, whereas the underscore is a joiner.
 
 What does this mean for your website? Probably not too much! Google is actually quite clever at indexing content, so the difference this makes to your website is marginal – but if you are writing a new website you should opt for dashes rather than underscores, not just because Google advise it – but also because it is more readable for your visitors, which is the most important quality of a web address.
 
-You can watch the [YouTube film from Google Webmaster Help](https://www.youtube.com/watch?v=AQcSFsQyct8) for more details.
+[Watch the YouTube video from Google Webmaster Help](https://www.youtube.com/watch?v=AQcSFsQyct8)

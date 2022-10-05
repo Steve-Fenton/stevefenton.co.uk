@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Using NCover with MSBuild to get reports and trends'
+navMenu: false
 pubDate: 2011-05-17T19:19:03+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=951'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,12 +13,11 @@ tags:
     - ncover
 ---
 
-A while ago I wrote an article about [how to get HTML Reports generated automatically by NCover as part of an MSBuild task](/2011/02/Adding-An-NCover-Target-To-MSBuild-To-Get-Code-Coverage/). In this article, I extend the example in order to get trend reporting.
+A while ago I wrote an article about [how to get HTML Reports generated automatically by NCover as part of an MSBuild task](//blog/2011/02/adding-an-ncover-target-to-msbuild-to-get-code-coverage/). In this article, I extend the example in order to get trend reporting.
 
 In order to get trend reporting, you must specify a CoverageFile in your NCover task, and also an AppendTrendTo file, which will either create or update a trend file. Here is our NCover task after we have added these two properties:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <NCover
         ToolPath="$(NCoverPath)\"
         TestRunnerArgs="@(UnitTestAssemblies, ' ')"
@@ -33,24 +29,26 @@ In order to get trend reporting, you must specify a CoverageFile in your NCover 
         AppendTrendTo="$(NCoverOutputPath)\Trends\NCover.trend"
     />
 ```
+
 The trend file is generated using the coverage file, so you have to generate the coverage file in order to get trend reports, even if you are most interested in the HTML reports.
 
 Now you need to add an NCoverReporting task to do the rest. To do this, you will first need to add a UsingTask statement to your MSBuild script:
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <UsingTask TaskName="NCover.MSBuildTasks.NCoverReporting" 
            AssemblyFile="$(NCoverPath)\Build Task Plugins\NCover.MSBuildTasks.dll" />
 ```
+
 And then the NCoverReporting task itself:
 
-```
-<pre class="prettyprint lang-xml"><NCoverReporting ToolPath="$(NCoverPath)\"
+```xml
+<NCoverReporting ToolPath="$(NCoverPath)\"
         CoverageDataPaths="$(NCoverOutputPath)\Trends\Coverage.xml"
         CoverageTrendPath="$(NCoverOutputPath)\Trends\NCover.trend"
         OutputReport="$(NCoverOutputPath)\Trends\"
     />
 ```
+
 You should now have a Coverage.xml file and an NCover.trend file stored in the location of your choice.
 
 Follow these instructions to view the trends…
@@ -65,8 +63,7 @@ Important note – when you first add trends, the graph will only have a single 
 
 Here is the complete example, which shows how it all slots together.
 
-```
-<pre class="prettyprint lang-xml">
+```xml
 <UsingTask TaskName="NCover.MSBuildTasks.NCover" AssemblyFile="$(NCoverPath)\Build Task Plugins\NCover.MSBuildTasks.dll"/>
 <UsingTask TaskName="NCover.MSBuildTasks.NCoverReporting" AssemblyFile="$(NCoverPath)\Build Task Plugins\NCover.MSBuildTasks.dll" />
 <ItemGroup>

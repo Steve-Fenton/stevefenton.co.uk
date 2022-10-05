@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML5 video in real life'
+navMenu: false
 pubDate: 2011-06-16T18:06:37+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=928'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,13 +13,13 @@ tags:
 
 Update! Here are the results of a full test using a mark-up only HTML5 video demo from Bruce Lawson.
 
-| Browser | Version | Plays | Format | Total Loads |
-|---|---|---|---|---|
-| Safari | 5.0.5 (7533.21.1) | Yes | turkish.mp4\* | 1 full |
-| Firefox | 4.0.1 | Yes | turkish.ogg | 1 full 3 partial |
-| Opera | 11.11.2109 | Yes | turkish.webm | 1 full |
-| IE | 9.0.8112.16421 | Yes | turkish.mp4 | 1 full 1 partial |
-| Chrome | 12.0.742.100 | Yes | turkish.mp4\* | 1 full 1 partail |
+| Browser | Version           | Plays | Format        | Total Loads      |
+|---------|-------------------|-------|---------------|------------------|
+| Safari  | 5.0.5 (7533.21.1) | Yes   | turkish.mp4\* | 1 full           |
+| Firefox | 4.0.1             | Yes   | turkish.ogg   | 1 full 3 partial |
+| Opera   | 11.11.2109        | Yes   | turkish.webm  | 1 full           |
+| IE      | 9.0.8112.16421    | Yes   | turkish.mp4   | 1 full 1 partial |
+| Chrome  | 12.0.742.100      | Yes   | turkish.mp4\* | 1 full 1 partail |
 
 Tested using the Bruce Lawson: HTML5 Video Embed Fall-back.
 
@@ -52,22 +49,22 @@ I’m sure this is just an implementation detail. I can live without pseudo-stre
 
 Note on implementations, with the smoothest at the top and the sketchiest at the bottom. I tried to use the same page to perform all of these tests… I started on the [HTML5 Video](http://html5video.org/) home page, which has a video slapped right at the top and I used a The Daily Motion HTML5 Video page as fall-back in browsers that wouldn’t play on that page.
 
-### Opera
+## Opera
 
 Opera v11.11 behaved itself perfectly. One download no matter what you do with the seek bar.
 
-### Chrome
+## Chrome
 
 Chrome 12.0.742.100 displays this rather nasty bug of downloading every time you use the seek bar.
 
-### Firefox
+## Firefox
 
 Firefox 4.0.1 displayed this rather nasty bug of downloading every time you use the seek bar.
 
-### Internet Explorer
+## Internet Explorer
 
 Internet Explorer 9.0.8112.16421 was a bit hard to test as I couldn’t actually get anything to play, despite the content being served as an MP4 with the correct content type. When I got a working video on a different site, it played, but skipping left me with a black screen.
 
-### Safari
+## Safari
 
 Safari 5.0.5 (7533.21.1) loaded a Flash movie, which was supplied as a fall-back for non-HTML5 browsers.

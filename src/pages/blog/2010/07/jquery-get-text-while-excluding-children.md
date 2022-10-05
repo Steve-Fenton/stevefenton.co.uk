@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'jQuery Get Text While Excluding Children'
+navMenu: false
 pubDate: 2010-07-05T21:06:23+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1020'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -21,18 +18,17 @@ The problem I had was that when the latter of these two methods is used, I need 
 
 First of all, here are the two valid ways you can mark up your form with a label. Firstly, using the “for”attribute.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <label for="mySelectList">Select a day</label>
 <select name="mySelectList" id="mySelectList">
     <option value="Monday">Monday</option>
     <option value="Tuesday">Tuesday</option>
 </select>
 ```
+
 And secondly, by wrapping the form element with the label.
 
-```
-<pre class="prettyprint lang-html">
+```html
 <label>Select a day
     <select name="mySelectList" id="mySelectList">
         <option value="Monday">Monday</option>
@@ -40,10 +36,10 @@ And secondly, by wrapping the form element with the label.
     </select>
 </label>
 ```
+
 To get the text, you need to take into account both of these methods, in this example we demonstrate how to do this, while also demonstrating the next problem.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var myId = "mySelectList";
 
 // Get the label text based on the "for" attribute
@@ -54,12 +50,12 @@ if (labelText === "") {
     $("#" + myId).parents("label").text();
 }
 ```
+
 We have successfully obtained the right element in this example, but if the label is wrapping the form element in our example, instead of getting “Select a day” we end up getting “Select a day Monday Tuesday”, because `jQuery.text()` brings back the text from the selected element and all of its descendants.
 
 So here is how you get the text from just the parent element while excluding all of the child element text.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var myId = "mySelectList";
 
 // Get the label text based on the "for" attribute
@@ -70,4 +66,5 @@ if (labelText === "") {
     $("#" + myId).parents("label").clone().children().remove().end().text();
 }
 ```
+
 So we still get hold of the label in the same way, but then we clone it, remove all child elements from the cloned version and get the text from the cloned version, which no longer has any children.

@@ -31,3 +31,5 @@ posts with no tags
 
 medium_post:
 guid:
+
+whitelist / white-list -> allow list

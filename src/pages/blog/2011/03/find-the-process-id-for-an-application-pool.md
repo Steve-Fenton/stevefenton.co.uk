@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Find the process Id for an application pool'
+navMenu: false
 pubDate: 2011-03-24T19:44:39+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=969'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,7 @@ The great news is, you can find out the information really easily using command 
 
 Here is the contents of my batch file, in case you need to do the same.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 cd c:\WINDOWS\system32\
 iisapp.vbs
 pause

@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'NCrunch system NullReferenceException with COM'
+navMenu: false
 pubDate: 2011-12-09T17:12:20+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=877'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -16,10 +13,9 @@ tags:
     - ncrunch
 ---
 
-If you are using [NCrunch awesomeness in Visual Studio](/2011/12/Some-Handy-NCrunch-Tips/), you may come across this slight bug. It is most likely to appear if you reference a COM component in your project:
+If you are using [NCrunch awesomeness in Visual Studio](/blog/2011/12/some-handy-ncrunch-tips/), you may come across this slight bug. It is most likely to appear if you reference a COM component in your project:
 
 ```
-<pre class="prettyprint">
 (0): System.NullReferenceException: Object reference not set to an instance of an object.
  at Mono.Cecil.Cil.CodeReader.MoveTo(Int32 rva)
  at Mono.Cecil.Cil.CodeReader.ReadMethodBody()
@@ -33,6 +29,7 @@ If you are using [NCrunch awesomeness in Visual Studio](/2011/12/Some-Handy-NCru
  at nCrunch.Compiler.RemoteBuildRunner.#=qfsCVCP9z8p8itsPjdEucb21b3UdedVHBi8gsF76Ddpw=(ComponentBuildParameters #=qmkOUo_qPadDv2Jh_RvEeFw==, String #=qeQVxsYosAYGxzPuSRqwCgvxMKp_7oVPJk1lA2naHni0=, BuildOutput #=qRILTPHYyuGtBH_NyMhcqkQ==, String #=qp67sU93pGbLGBgppbDFZXbOOMHNfqroD4Dqku1U_cUI=)
  at nCrunch.Compiler.RemoteBuildRunner.Build(ComponentBuildParameters parameters)
 ```
+
 Don’t panic – there is a work around for this. Open NCrunch configuration and find the project that fails with this error and change the setting “InstrumentAssembly” to false. It is the NCrunch instrumentation that has a problem, so this will allow the project to build and for the tests to run.
 
-![NCrunch](/img/2015/07/NCrunchInstrumentationSetting.jpg)
+:img{src="/img/2015/07/NCrunchInstrumentationSetting.jpg" alt="NCrunch" loading="lazy"}

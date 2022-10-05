@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Introduction to Dart'
+navMenu: false
 pubDate: 2011-10-15T17:36:44+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=892'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,8 +19,7 @@ I won’t dive into why you might use any of these in preference to any other at
 
 So let’s pitch up with a nice Hello World example in Dart, based on the Dart tutorials.
 
-```
-<pre class="prettyprint lang-dart">
+```dart
 class Greeter {
   String prefix = 'Hello,';
   greet(name) {
@@ -36,12 +32,13 @@ main() {
   greeter.greet("Steve Fenton esq");
 }
 ```
+
 My notes on this example are that we can easily create a class, use typed variables, such as “String” and use “var” where the type would be overly redundant, i.e. I could have used:
 
-```
-<pre class="prettyprint lang-dart">
+```dart
 Greeter greeter = new Greeter();
 ```
+
 Long term, Dart could well be “JavaScript without the gotchas”, but in any case I’m looking forward to trying it out!
 
 If you want to have a go, [get started by following the interactive Dart tutorials](https://www.dartlang.org/guides/get-started).

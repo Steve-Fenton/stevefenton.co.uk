@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Firefox About URI Schema'
+navMenu: false
 pubDate: 2010-04-15T21:47:22+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1047'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
 ---
@@ -18,34 +15,34 @@ Here is a list of some common examples, all of these work in Firefox (tested in 
 
 To use any of these, simply type them into the address bar.
 
-### about:
+## about:
 
 General information about Firefox (version, copyright, license)
 
-### about:blank
+## about:blank
 
 A blank page
 
-### about:cache
+## about:cache
 
 Detailed information about the contents, size and location of the memory, disk and offline caches.
 
-### about:config
+## about:config
 
 Detailed lists of configuration options, including many that aren’t available in the settings pages.
 
-### about:license
+## about:license
 
 Details of the license.
 
-### about:logo
+## about:logo
 
 The Firefox logo.
 
-### about:mozilla
+## about:mozilla
 
 An enigmatic quote.
 
-### about:plugins
+## about:plugins
 
 A list of plugins with their MIME type, version and state.

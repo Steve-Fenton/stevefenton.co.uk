@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JavaScript only works when Firebug is open'
+navMenu: false
 pubDate: 2011-02-16T19:46:07+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=971'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
     - Programming
@@ -29,24 +26,23 @@ The less dramatic amongst us will look for a tangible reason for the problem.
 
 And here it is. This is exactly the kind of line that will cause exactly this kind of behaviour:
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 console.log("Some message for the console.");
 ```
+
 So what’s the gotcha with this line of code? When you open Firebug, there *is* a console. When you close Firebug, there *isn’t*. You can perform a couple of fixes for this…
 
 You can detect whether the console feature exists.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 if (typeof console !== 'undefined') {
     console.log("Some message for the console.");
 }
 ```
+
 You can even implement your own “silent console” – this example does nothing, but you could write to an HTML element when “log” is called.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 if (typeof console === 'undefined') {
     var console = {};
     console.log = function() {};

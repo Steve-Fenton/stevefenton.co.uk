@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JavaScript and Noisy HTML'
+navMenu: false
 pubDate: 2010-02-10T22:06:45+00:00
 authors:
     - steve-fenton
@@ -17,23 +17,25 @@ tags:
 
 I was answering a question on a popular coding forum and it once again highlighted the age old problem of terribly bad JavaScript. This was the HTML code in question:
 
+```html
+<a id="image1" href="#"><img src="image.png"></a>
 ```
-<pre class="prettyprint lang-html"><a id="image1" href="#"><img src="image.png"></a>
-```
+
 And there was a bit of JavaScript adding an onclick event to the anchor tag.
 
 An innocent looking example. An anchor tag containing an image tag. What could be wrong with such a tiny example?
 
-### Noisy HTML
+## Noisy HTML
 
 In this example, what does the anchor tag do? Nothing. It is just being used to “hold” the JavaScript event. This is HTML noise (which comes in many flavours). You could do exactly the same with this HTML:
 
+```html
+<img src="image.png" id="image1">
 ```
-<pre class="prettyprint lang-html"><img src="image.png" id="image1">
-```
+
 The anchor tag isn’t a magical tag that offers up the ability to add an onclick event handler. Any element in your HTML document can have this event added.
 
-### Progressive enhancement
+## Progressive enhancement
 
 Of course, the noise issue is secondary to another issue with this example: What happens if the user or device doesn’t use JavaScript – or an error occurs somewhere in your JavaScript that prevents any further execution of your code?
 
@@ -45,7 +47,8 @@ This is where the anchor tag could actually come in handy.
 
 For example, if you were going to show a larger version of the image, like in a photo gallery, you should actually have:
 
+```html
+<a id="image1" href="largeimage.png"><img scr="image.png"></a>
 ```
-<pre class="prettyprint lang-html"><a id="image1" href="largeimage.png"><img scr="image.png"></a>
-```
+
 And then override this default behaviour if JavaScript is enabled and working. That way, the web page works all the time for everyone. Without JavaScript, the large image is opened in the browser. With JavaScript, you could overlay the large image on the page or even animate it on and off the page (whatever you like!)

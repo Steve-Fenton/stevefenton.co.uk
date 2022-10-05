@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Search Titles Only with Windows Search'
+navMenu: false
 pubDate: 2010-03-09T22:03:14+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1053'
-interface_sidebarlayout:
-    - default
 categories:
     - Windows
 ---
@@ -38,15 +35,15 @@ Get all documents where I am the author: `author: "Steve Fenton"`
 
 Notice that in this last example I’ve put quotes around the search term – that’s because I want exact matches. You can use the following to adjust your search behaviour:
 
-### Quotes
+## Quotes
 
 Put quotes around a phrase to get an exact match: `author: "Steve Fenton"`
 
-### AND
+## AND
 
 Use AND to get matches that contain BOTH terms (this will give results for “Steve Fenton” and also for “Steve M Fenton”, which you wouldn’t get for a quoted search): `author: Steve AND Fenton`
 
-### OR
+## OR
 
 Use OR to find results with either term (this will find results for “Steve Smith” and for “Bob Fenton”, for example). `author: Steve OR Fenton`
 

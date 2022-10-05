@@ -1,20 +1,17 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML5 Page Layout'
+navMenu: false
 pubDate: 2010-07-03T21:10:02+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1022'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
     - HTML
 ---
 
-HTML5 is now just around the corner. I have already [tested HTML 5 on a myriad of browsers](/2009/07/HTML-5-Browser-Test/) and with a tiny JavaScript and CSS fix, it works in every major player – so if you are a web developer you need to start thinking about your HTML in a subtly different way.
+HTML5 is now just around the corner. I have already [tested HTML 5 on a myriad of browsers](/blog/2009/07/html-5-browser-test/) and with a tiny JavaScript and CSS fix, it works in every major player – so if you are a web developer you need to start thinking about your HTML in a subtly different way.
 
 The big change is that in HTML 5, you can use specific and meaningful containers instead of generic and meaningless div-tags. So instead of having a div for your header, a div for your menu and a div for your content, you can use the header, nav and article tags to really describe your web page.
 
@@ -22,9 +19,7 @@ Below is a really simple example of an HTML 5 page with semantic tags that help 
 
 This example was last updated on 16/08/2011 with changes to the use of the section element.
 
-```
-<pre class="prettyprint lang-html">
-
+```html
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -102,4 +97,3 @@ This example was last updated on 16/08/2011 with changes to the use of the secti
     </body>
 </html>
 ```
-</body></html>

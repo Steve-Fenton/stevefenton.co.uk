@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Blog comments'
+navMenu: false
 pubDate: 2011-09-27T17:42:38+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=900'
-interface_sidebarlayout:
-    - default
 categories:
     - Opinion
 ---
@@ -42,15 +39,15 @@ The life-cycle of comments is along these lines…
 
 And the counter clocks up the following stats:
 
-| Type of Comment | Count |
-|---|---|
-| Total | 223 |
-| Spam | 114 |
-| Inane Spam | 75 |
-| Compliments | 11 |
-| <span style="font-weight: bold;">Genuine Comments</span> | <span style="font-weight: bold;">9</span> |
-| Inane Comments | 8 |
-| Localised Questions | 6 |
+| Type of Comment      | Count |
+|----------------------|-------|
+| Total                | 223   |
+| Spam                 | 114   |
+| Inane Spam           | 75    |
+| Compliments          | 11    |
+| **Genuine Comments** | **9** |
+| Inane Comments       | 8     |
+| Localised Questions  | 6     |
 
 That is a little over 4% of comments being worth reading. Terrible.
 

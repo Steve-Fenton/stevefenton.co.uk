@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Improving Your Code with NDepend and CQL'
+navMenu: false
 pubDate: 2010-11-22T20:13:43+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=995'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -25,7 +22,6 @@ On of my favourite features of NDepend is the suite of “code query language”
 Before…
 
 ```
-<pre class="prettyprint lang-plain_text">
 // <Name>Static fields should be prefixed with a 'm_'</Name>
 WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !NameLike "^m_" AND
@@ -35,10 +31,10 @@ WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !IsSpecialName AND
   !IsEventDelegateObject
 ```
+
 After…
 
 ```
-<pre class="prettyprint lang-plain_text">
 // <Name>Static fields should be prefixed with a '_'</Name>
 WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !NameLike "^_" AND
@@ -48,6 +44,7 @@ WARN IF Count > 0 IN SELECT TOP 10 FIELDS WHERE
   !IsSpecialName AND
   !IsEventDelegateObject
 ```
+
 As you can see, I’ve changed the rule for static fields from m\_ to simply \_ as that is the coding standard I am currently adhering to.
 
 Not only was this edit incredibly easy – I could do it from within Visual Studio as NDepend runs inside of my development environment.

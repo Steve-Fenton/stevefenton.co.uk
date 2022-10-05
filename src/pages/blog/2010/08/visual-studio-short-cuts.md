@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Visual Studio Short Cuts'
+navMenu: false
 pubDate: 2010-08-14T20:52:39+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1009'
-interface_sidebarlayout:
-    - default
 categories:
     - 'Visual Studio'
 tags:
@@ -27,22 +24,22 @@ Here’s an obvious one to start. If you perform a search or bring up a task lis
 
 A lot of people know that one, so here’s something a bit more obscure. You can hold down ALT while you make a selection with your mouse to “box-select” an area. This allows you to select a box of text across multiple lines, without selecting entire lines. For example, you could just select all of the “private” declarations in this code block…
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 private int Id { get; set; }
 private string Title { get; set; }
 private string FirstName { get; set; }
 private string LastName { get; set; }
 ```
+
 Once you have elected them, you can over-type them, for example with “public”, so you end up with this.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 public int Id { get; set; }
 public string Title { get; set; }
 public string FirstName { get; set; }
 public string LastName { get; set; }
 ```
+
 My favourite short-cut in Visual Studio is `CTRL` + `K` followed by `CTRL` + `D`, this formats the entire document according to my configured layout rules are tidies up all the nasty formatting left behind by other developers.
 
 [MSDN has a full list](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?WT.mc_id=DT-MVP-5002938), it is massive!

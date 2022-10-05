@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'JavaScript Namespacing'
+navMenu: false
 pubDate: 2010-02-03T22:11:14+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=1059'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,8 +17,7 @@ Why would you do this? Well, this allows you to put functions and variables insi
 
 If you’re interested, here’s how you do it.
 
-```
-<pre class="prettyprint lang-javascript">
+```javascript
 var MyNamespace = (function() {
     var myPrivateVariable = 'Private Variable';
    
@@ -49,4 +45,5 @@ MyNamespace.sayHello('Steve');
 MyNamespace.sayGoodbye('John');
 MyNamespace.publicFunction();
 ```
+
 Obviously, in this example it’s all a bit basic, but if you had JavaScript functions that you’d like to group together, this is a great way to do it – not a genuine name-space, but some distance towards organising your code.

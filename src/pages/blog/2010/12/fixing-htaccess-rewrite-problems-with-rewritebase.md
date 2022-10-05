@@ -18,15 +18,17 @@ I recently encountered an issue on an otherwise perfectly functioning .htaccess 
 
 The error suggested that the rewrite rule was working, but it was reporting the actual PHP page as being missing. Here is an example of the rule:
 
-```
-<pre class="prettyprint lang-apache_conf">
+```apache_conf
 RewriteEngine on
 RewriteRule ^Site/([^/.]+)/?$ site.php?page=$1 [L,NC,QSA]
 ```
+
 Which as I mentioned worked fine (and is indeed correct) – but suddenly resulted in a 404 error message:
 
+```
 /Site/About-Us/  
 404: Page not found site/root/site.php
+```
 
 From the error message, I could determine that the URL `/Site/About-Us/` was being correctly redirected to the `site.php` page, which suggested that it was the `site.php` page that was missing. A quick check told me that it was still there – so it was back to the error message for a second look.
 
@@ -34,8 +36,7 @@ The clue is actually in the error message. If this was a genuine problem, I woul
 
 The net outcome of the issue is that by specifying the `RewriteBase` address as simply, “/”, the problem goes away and everything runs happily once again.
 
-```
-<pre class="prettyprint lang-apache_conf">
+```apache_conf
 RewriteEngine on
 RewriteBase /
 RewriteRule ^Site/([^/.]+)/?$ site.php?page=$1 [L,NC,QSA]

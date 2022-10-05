@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'HTML5 forms summary'
+navMenu: false
 pubDate: 2011-05-23T19:07:50+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=941'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -20,10 +17,10 @@ I have divided the information into attributes, special input types, date-relate
 
 Note: the demo works differently in different browsers, this is part of the demo really as you can see the backwards-compatible rendering. Use any really up-to-date browser if you want to see all the cool widgets.
 
-- [HTML 5 Forms – New Attributes](/2011/05/HTML-5-Form-Elements-New-Attributes/)
-- [HTML 5 Forms – Special Input Types](/2011/05/HTML-5-Forms-Special-Input-Elements/)
-- [HTML 5 Forms – Date And Time Input Types](/2011/05/HTML-5-Forms-Date-Input-Elements/)
-- [HTML 5 Forms – Numeric Input Types](/2011/05/HTML-5-Forms-Number-Input-Elements/)
+- [HTML 5 Forms – New Attributes](/blog/2011/05/html-5-form-elements-new-attributes/)
+- [HTML 5 Forms – Special Input Types](/blog/2011/05/html-5-forms-special-input-elements/)
+- [HTML 5 Forms – Date And Time Input Types](/blog/2011/05/html-5-forms-date-input-elements/)
+- [HTML 5 Forms – Numeric Input Types](/blog/2011/05/html-5-forms-number-input-elements/)
 
 So now we deal with the question everyone asks about HTML 5. Can I use it yet?
 

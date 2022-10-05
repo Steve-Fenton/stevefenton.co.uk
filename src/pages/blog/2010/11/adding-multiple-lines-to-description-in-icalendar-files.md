@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Adding Multiple Lines to Descriptions in ICalendar Files'
+navMenu: false
 pubDate: 2010-11-17T20:15:43+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=997'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -21,13 +18,13 @@ One issue I came across while trying to generate iCal files for event informatio
 There is a quick fix though, which will get your iCal file back up and running without simply removing all of the formatting. Firstly, change the key from DESCRIPTION to:
 
 ```
-<pre class="prettyprint lang-plain_text">
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:
 ```
+
 Then replace all of the line breaks with “=0D=0A”. Like this…
 
 ```
-<pre class="prettyprint lang-plain_text">
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:This is the first line.=0D=0AThe Second line.=0D=0AThe third line.
 ```
+
 This will be interpreted as containing line breaks when the iCal is imported. Job done!

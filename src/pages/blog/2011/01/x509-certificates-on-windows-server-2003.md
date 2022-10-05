@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'X509 certificates on Windows Server 2003'
+navMenu: false
 pubDate: 2011-01-14T19:59:16+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=979'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -24,20 +21,20 @@ The good news is that if you like a bit of command line prompt-age, you can down
 
 The tool is rather snappily titled the Windows HTTP Services Certificate Configuration Tool (WinHttpCertCfg.exe) and it can be [downloaded from the Microsoft Downloads Site](http://www.microsoft.com/downloads/en/details.aspx?familyid=c42e27ac-3409-40e9-8667-c748e422833f&displaylang=en).
 
-### View certificate permissions
+## View certificate permissions
 
 The following command will list all accounts with access to the private key.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 WinHttpCertCfg.exe -l -c LOCAL_MACHINE\MY -s "IssuedToName"
 ```
-### Grant access to “Network Service”
+
+## Grant access to “Network Service”
 
 The following command will grant permission for Network Service to access the private key of the certificate. Even though you’ll see the user with a space, be careful not to place a space inbetween Network and Service.
 
-```
-<pre class="prettyprint lang-powershell">
+```powershell
 WinHttpCertCfg.exe -g -c LOCAL_MACHINE\MY -s "IssuedToName" -a "NetworkService"
 ```
+
 There are some additional notes on [WinHttpCertCfg usage on MSDN](http://msdn.microsoft.com/en-us/library/aa384088%28v=vs.85%29.aspx).

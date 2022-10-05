@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'PHP doc comments look hideous'
+navMenu: false
 pubDate: 2011-10-24T17:26:21+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=888'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,8 +19,7 @@ The official documentation demonstrates how you can mark up and example file. It
 
 There are lots of examples online of doc blocks, but in order to make doc blocks look useful, you have to write a bad example. Such as…
 
-```
-<pre class="prettyprint lang-php">
+```php
 /**
  * An instance of this class represents a counting machine
  *
@@ -78,10 +74,10 @@ class CountingMachine {
     }  
 }
 ```
+
 How much do we really need these? Isn’t it better to name things well in the first place so the code ultimately documents itself?
 
-```
-<pre class="prettyprint lang-php">
+```php
 class CountingMachine {  
     /** @var int $_running_total */  
     private $_running_total;  
@@ -102,6 +98,7 @@ class CountingMachine {
     }  
 }
 ```
+
 Do we need to be told what “getTotal” or “addNumber” does? Do we need a description for the running total now that we have named it after what it does?
 
 Ultimately, PHP Doc comments are noise. They make the page hard to read and impossible to love. I remember people getting excited about the same stuff in other languages (Java, C#) but ultimately the lesson was learned and the comments were dropped.

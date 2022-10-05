@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'WPF BackgroundWorker and the mysterious 0x80131623 error'
+navMenu: false
 pubDate: 2010-12-30T20:05:47+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=988'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -22,20 +19,19 @@ This is actually one of my favourite features of WPF – using additional thread
 
 You may find that you get this error every time you run your UI, but you may also find it only happens occasionally. Here are the things you need to check before you go back to running everything on the UI thread.
 
-### Never Cross The Threads
+## Never Cross The Threads
 
 If you need to get something off of the UI to use in the BackgroundWorker, you need to send it as an argument. You can’t go and grab it while you are in the asynchronous process. You may find that this does sometimes work – but it will be unpredictable depending on whether anything on the UI thread is also accessing the item.
 
-### Watch Out For Event Handlers
+## Watch Out For Event Handlers
 
 When you send something back to the UI, make sure you use the Dispatcher. Be aware that the instruction may fire off an event that you have set up. For example, if you trigger your BackgroundWorker from the text-changed event of a TextBox, and you use the Dispatcher to send text back to the TextBox, it will trigger the text-changed event and you’ll just keep going around and around.
 
-### Simple Example
+## Simple Example
 
 Here is a simple example of setting up and using a BackgroundWorker and Dispatcher, including passing an argument.
 
-```
-<pre class="prettyprint lang-csharp">
+```csharp
 private BackgroundWorker _worker;
 
 public Designer()
@@ -52,6 +48,7 @@ private void Setup()
 }
 
 private void Button1_Click(object sender, RoutedEventArgs e)
+{
     var text = TextBox1.Text;
     // Pass in the text as the argument
     _worker.RunWorkerAsync(text);

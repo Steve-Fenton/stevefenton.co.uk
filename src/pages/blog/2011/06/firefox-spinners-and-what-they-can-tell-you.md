@@ -1,22 +1,19 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Firefox spinners and what they can tell you'
+navMenu: false
 pubDate: 2011-06-15T18:08:02+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=930'
-interface_sidebarlayout:
-    - default
 categories:
     - Browsers
 ---
 
-Update! In Firefox Quantum, the spinners were updated to Cylon-eyes. The TL;DR is that there are still two spinning states:
+**Update**! In Firefox Quantum, the spinners were updated to Cylon-eyes. The TL;DR is that there are still two spinning states:
 
-1. ![Firefox Quantum Grey Cylon](/img/2011/06/firefox-quantum-grey-cylon.png)  
+1. :img{src="/img/2011/06/firefox-quantum-grey-cylon.png" alt="Firefox Quantum Grey Cylon"}
     Grey Cylon (equivalent to the old anti-clockwise grey spinner)… waiting for response
-2. ![Firefox Quantum Blue Cylon](/img/2011/06/firefox-quantum-blue-cylon.png)  
+2. :img{src="/img/2011/06/firefox-quantum-blue-cylon.png" alt="Firefox Quantum Blue Cylon"}
     Blue Cylon (quivalent to the old clockwise green spinner)… receiving the response
 
 The original article on spinners is below.
@@ -25,7 +22,7 @@ If you are an avid Firefox user, you have probably noticed that when a page is l
 
 Well, the difference is actually quite interesting. It is actually interesting enough for a bright green post-it note of knowledge.
 
-![Firefox Loading](/img/2015/07/firefoxloading.jpg)
+:img{src="/img/2015/07/firefoxloading.jpg" alt="Firefox Loading" loading="lazy"}
 
 When you click, the anti-clockwise grey spinner starts. This continues while your request is travelling down thousands of miles of cable all the way to the web server. It carries on while the web server processes your request (for example, while it is getting stuff from a database and converting it into a web page).
 

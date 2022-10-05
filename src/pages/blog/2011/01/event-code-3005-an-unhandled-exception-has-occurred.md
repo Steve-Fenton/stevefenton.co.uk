@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Event code 3005: An unhandled exception has occurred'
+navMenu: false
 pubDate: 2011-01-18T19:57:45+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=977'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -17,7 +14,7 @@ tags:
     - wcf
 ---
 
-If you have come across this rather vague message (`Event Code 3005: An Unhandled Exception has Occurred`), you will have spotted that there are very few resources that give any reasonable answers on the root cause of the issue – that’s probably why you are here, so I will do my best to help.
+If you have come across this rather vague message ("Event Code 3005: An Unhandled Exception has Occurred"), you will have spotted that there are very few resources that give any reasonable answers on the root cause of the issue – that’s probably why you are here, so I will do my best to help.
 
 For starters, your error message will look a bit like this:
 
