@@ -564,11 +564,25 @@ form.site-search button {
 
 .post-list .list-item-content {
     padding: 1rem;
+    display: grid;
+    grid-template-rows: auto 50px;
+    grid-gap: 1rem;
+}
+
+.post-list .list-item-content .post-meta {
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: left;
 }
 
 .post-list .list-item-content h2,
 .post-list .list-item-content h3 {
     margin: 0.5rem 0;
+}
+
+.post-list .list-item-content h2 a,
+.post-list .list-item-content h3 a {
+    text-decoration: none;
 }
 
 .post-list .list-item[data-image='true'] .list-item-image {
@@ -617,6 +631,8 @@ form.site-search button {
 .post-meta .author-image {
     max-width: 50px;
     margin-right: 1rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .post-meta > .author-info {

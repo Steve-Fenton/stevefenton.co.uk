@@ -6,6 +6,9 @@ import { attributeMarkdown } from './src/plugins/custom-markdown.mjs';
 export default defineConfig({
     site: 'https://www.stevefenton.co.uk',
     markdown: {
+        shikiConfig: {
+            theme: 'nord'
+        },
         remarkPlugins: [
             remarkDirective,
             attributeMarkdown
