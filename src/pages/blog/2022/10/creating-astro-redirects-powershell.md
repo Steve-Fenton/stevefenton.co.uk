@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 navMenu: false
 title: 'Creating lots of Astro redirects with PowerShell'
-pubDate: 2022-10-02T11:05:05+01:00
+pubDate: 2022-10-04
 bannerImage:
   src: /img/2022/10/astro.png
   alt: The Astro rocket logo
