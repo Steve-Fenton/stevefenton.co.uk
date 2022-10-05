@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Creating lots of Astro redirects with PowerShell'
+title: 'Welcome to my Astro site'
 pubDate: 2022-10-05
 bannerImage:
   src: /img/2022/10/astro-accelerator.png
