@@ -6,7 +6,7 @@ pubDate: 2019-04-02T07:50:21+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/04/conversions-per-week.jpg
+    src: /img/2019/04/conversions-per-week.jpg
     alt: Percentage change over time
 categories:
     - Analytics

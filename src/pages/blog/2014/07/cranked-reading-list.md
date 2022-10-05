@@ -6,7 +6,7 @@ pubDate: 2014-07-21T12:13:13+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/07/reading-list.png
+    src: /img/2021/07/reading-list.png
     alt: Reading list
 categories:
     - Process

@@ -6,7 +6,7 @@ pubDate: 2018-02-02T09:50:29+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/02/queue.jpg
+    src: /img/2018/02/queue.jpg
     alt: A long queue
 categories:
     - Process

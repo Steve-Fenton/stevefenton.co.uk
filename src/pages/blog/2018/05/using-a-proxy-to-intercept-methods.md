@@ -6,7 +6,7 @@ pubDate: 2018-05-21T07:00:17+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/esspresso-filter.jpg
+    src: /img/2018/05/esspresso-filter.jpg
     alt: Espresso filter
 categories:
     - Programming

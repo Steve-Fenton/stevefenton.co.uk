@@ -20,33 +20,34 @@
 :root {
     --fore: #222;
     --fore-headings: #111;
-    --aft: #F5F5F8;
-    --aft-paper: #FEFEFE;
+    --aft: #f5f5f8;
+    --aft-paper: #fefefe;
+    --aft-image: #fefefe;
 
     --fore-link: #336699;
     --fore-link-alt: #3366CC;
-    --aft-link-alt: #E6E6EC;
+    --aft-link-alt: #e6e6eC;
 
-    --fore-head: #EFEFEF;
+    --fore-head: #efefef;
     --aft-head: #225;
-    --fore-link-head: #EFEFEF;
+    --fore-link-head: #efefef;
 
     --fore-breadcrumb: #333;
-    --aft-breadcrumb: #F3F3F9;
+    --aft-breadcrumb: #f3f3f9;
 
-    --link-head: #EFEFEF;
-    --link-alt-head: #EFEFEF;
+    --link-head: #efefef;
+    --link-alt-head: #efefef;
 
     --fore-block: #333;
-    --aft-block: #F3F3F9;
-    --icon-block: #FE117D;
+    --aft-block: #f3f3f9;
+    --icon-block: #fe117D;
 
-    --fore-table-head: #FDFDFE;
+    --fore-table-head: #fdfdfe;
     --aft-table-head: #2F3141;
     --fore-table-row-odd: #333;
-    --aft-table-row-odd: #FDFDFE;
+    --aft-table-row-odd: #fdfdfe;
     --fore-table-row-even: #333;
-    --aft-table-row-even: #F3F5FF;
+    --aft-table-row-even: #f3f5ff;
 
     --heading-font: 'akzidenz-cnd', sans-serif;
     --content-font: 'akzidenz', sans-serif;
@@ -73,6 +74,7 @@
         --fore-headings: #CDE;
         --aft: #333;
         --aft-paper: #222;
+        --aft-image: #DDD;
     
         --fore-link: #6699CC;
         --fore-link-alt: #99CCFF;

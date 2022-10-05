@@ -6,7 +6,7 @@ pubDate: 2022-02-28T20:00:38+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/02/load-balancing-with-arr.png
+    src: /img/2022/02/load-balancing-with-arr.png
     alt: Traffic routed between servers using application request routing
 categories:
     - Programming

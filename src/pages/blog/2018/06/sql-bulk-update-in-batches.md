@@ -6,7 +6,7 @@ pubDate: 2018-06-29T17:12:18+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/06/a-pile-of-ram.jpg
+    src: /img/2018/06/a-pile-of-ram.jpg
     alt: A pile of RAM chips
 categories:
     - Programming

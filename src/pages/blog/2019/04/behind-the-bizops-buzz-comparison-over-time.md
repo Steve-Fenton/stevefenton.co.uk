@@ -6,7 +6,7 @@ pubDate: 2019-04-04T07:30:54+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/04/conversion-rate-chart.jpg
+    src: /img/2019/04/conversion-rate-chart.jpg
     alt: Percentage change over time
 categories:
     - Analytics

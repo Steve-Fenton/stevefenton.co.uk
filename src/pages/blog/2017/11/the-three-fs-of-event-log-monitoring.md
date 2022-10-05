@@ -6,7 +6,7 @@ pubDate: 2017-11-06T05:00:07+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2017/11/Three-Fs.png
+    src: /img/2017/11/Three-Fs.png
     alt: The three Fs of event log monitoring
 categories:
     - Automation

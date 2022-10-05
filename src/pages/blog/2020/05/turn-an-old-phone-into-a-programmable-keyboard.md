@@ -6,7 +6,7 @@ pubDate: 2020-05-25T21:41:08+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/05/touch-portal-mobile-app.jpg
+    src: /img/2020/05/touch-portal-mobile-app.jpg
     alt: The user interface of touch portal
 categories:
     - Programming

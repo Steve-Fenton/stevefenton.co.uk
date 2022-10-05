@@ -6,7 +6,7 @@ pubDate: 2022-04-04T19:46:35+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/04/web-select-table.jpg
+    src: /img/2022/04/web-select-table.jpg
     alt: Web select grabbing a table
 categories:
     - Browsers

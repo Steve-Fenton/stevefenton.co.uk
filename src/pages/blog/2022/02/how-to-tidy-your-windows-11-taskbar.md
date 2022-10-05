@@ -6,7 +6,7 @@ pubDate: 2022-02-16T19:00:19+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/02/example-taskbar-sketch.jpg
+    src: /img/2022/02/example-taskbar-sketch.jpg
     alt: Example taskbar (sketch)
 categories:
     - Windows

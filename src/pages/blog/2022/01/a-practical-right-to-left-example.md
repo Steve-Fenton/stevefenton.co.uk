@@ -6,7 +6,7 @@ pubDate: 2022-01-28T09:05:26+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/01/task-board.jpg
+    src: /img/2022/01/task-board.jpg
     alt: Task board
 categories:
     - Process

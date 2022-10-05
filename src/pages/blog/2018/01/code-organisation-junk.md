@@ -6,7 +6,7 @@ pubDate: 2018-01-05T06:00:45+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/01/junk-drawer.jpg
+    src: /img/2018/01/junk-drawer.jpg
     alt: A drawer full of junk
 categories:
     - Programming

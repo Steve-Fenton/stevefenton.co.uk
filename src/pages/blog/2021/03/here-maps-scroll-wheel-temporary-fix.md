@@ -6,7 +6,7 @@ pubDate: 2021-03-08T16:00:38+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/03/colour-map.png
+    src: /img/2021/03/colour-map.png
     alt: Colour map
 categories:
     - Programming

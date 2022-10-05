@@ -132,6 +132,7 @@ hr {
 
 img {
     max-width: 100%;
+    background-color: var(--aft-image);
 }
 
 img.resp-img {
@@ -548,19 +549,42 @@ form.site-search button {
     margin-bottom: 1.5rem;
 }
 
+.post-list .list-item[data-image='true'] > article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .post-list .list-item-content {
     padding: 1rem;
 }
 
-.post-list .list-item-content h2 {
+.post-list .list-item-content h2,
+.post-list .list-item-content h3 {
     margin: 0.5rem 0;
 }
 
-.post-list .list-item img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
+.post-list .list-item[data-image='true'] .list-item-image {
+    background-color: var(--icon-block);
+    padding: 1.5rem;
 }
+
+.post-list .list-item-image img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 680px) {
+    /* Special Case - We let it be two-column until later */
+    .post-list .list-item[data-image='true'] > article {
+        display: unset;
+        grid-template-columns: unset;
+    }
+}
+
+/* Paging */
 
 .post-paging {
     margin-top: 2rem;

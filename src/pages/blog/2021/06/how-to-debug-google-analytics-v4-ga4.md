@@ -6,8 +6,8 @@ pubDate: 2021-06-14T08:22:03+01:00
 authors:
     - steve-fenton
 bannerImage:
-  src: /i/x/2021/06/google-analytics-debug-view.jpg
-  alt: Debug view in Google Analytics
+    src: /img/2021/06/google-analytics-debug-view.jpg
+    alt: Debug view in Google Analytics
 categories:
     - Analytics
 tags:

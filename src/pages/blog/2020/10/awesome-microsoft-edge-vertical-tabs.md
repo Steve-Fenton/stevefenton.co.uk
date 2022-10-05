@@ -6,7 +6,7 @@ pubDate: 2020-10-27T16:35:47+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/10/vertical-tabs.jpg
+    src: /img/2020/10/vertical-tabs.jpg
     alt: Vertical tabs in Microsoft Edge
 categories:
     - Browsers

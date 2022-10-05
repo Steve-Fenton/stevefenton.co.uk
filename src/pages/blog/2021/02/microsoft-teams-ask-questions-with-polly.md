@@ -6,7 +6,7 @@ pubDate: 2021-02-17T17:12:34+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/02/teams-polly.jpg
+    src: /img/2021/02/teams-polly.jpg
     alt: Polly polls for Teams
 categories:
     - Office

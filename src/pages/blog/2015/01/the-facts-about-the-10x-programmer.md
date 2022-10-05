@@ -6,7 +6,7 @@ pubDate: 2015-01-11T16:45:49+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2015/01/clock.jpg
+    src: /img/2015/01/clock.jpg
     alt: Clock
 categories:
     - Programming

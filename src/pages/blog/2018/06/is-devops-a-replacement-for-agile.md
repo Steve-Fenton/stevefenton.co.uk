@@ -6,7 +6,7 @@ pubDate: 2018-06-21T07:00:03+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/06/original-concept.png
+    src: /img/2018/06/original-concept.png
     alt: Original concept
 categories:
     - Process

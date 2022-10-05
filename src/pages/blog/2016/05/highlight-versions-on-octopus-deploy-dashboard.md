@@ -6,7 +6,7 @@ pubDate: 2016-05-18T18:03:44+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2016/05/octodash-pastel.jpg
+    src: /img/2016/05/octodash-pastel.jpg
     alt: Octodash highlights versions in the Octopus dashboard
 categories:
     - Automation

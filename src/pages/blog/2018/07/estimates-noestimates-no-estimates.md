@@ -6,7 +6,7 @@ pubDate: 2018-07-14T12:06:16+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/07/mechanical-calculator.jpg
+    src: /img/2018/07/mechanical-calculator.jpg
     alt: A mechanical calculator
 categories:
     - Process

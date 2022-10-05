@@ -6,7 +6,7 @@ pubDate: 2022-02-17T20:00:41+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/02/raw-string-literals.jpg
+    src: /img/2022/02/raw-string-literals.jpg
     alt: Raw string literals
 categories:
     - Programming

@@ -6,7 +6,7 @@ pubDate: 2018-05-17T07:00:36+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/optional-chaining.jpg
+    src: /img/2018/05/optional-chaining.jpg
     alt: A broken chain with rusty links
 categories:
     - Programming

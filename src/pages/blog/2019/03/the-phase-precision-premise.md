@@ -6,7 +6,7 @@ pubDate: 2019-03-04T19:25:16+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/03/payback-chart.jpg
+    src: /img/2019/03/payback-chart.jpg
     alt: A chart detailing payback periods
 categories:
     - Process

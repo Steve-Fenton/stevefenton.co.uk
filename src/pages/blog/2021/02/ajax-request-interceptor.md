@@ -6,7 +6,7 @@ pubDate: 2021-02-02T11:06:44+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/02/angel-interceptor.jpg
+    src: /img/2021/02/angel-interceptor.jpg
     alt: Angel interceptor
 categories:
     - Programming

@@ -6,7 +6,7 @@ pubDate: 2021-09-25T07:00:36+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/10/the-productivity-workbook.jpg
+    src: /img/2021/10/the-productivity-workbook.jpg
     alt: The Productivity Workbook
 categories:
     - Process

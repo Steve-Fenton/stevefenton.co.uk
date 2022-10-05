@@ -6,7 +6,7 @@ pubDate: 2020-07-05T19:30:53+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/07/sex-pistols.jpg
+    src: /img/2020/07/sex-pistols.jpg
     alt: The Sex Pistols performing live
 categories:
     - Programming

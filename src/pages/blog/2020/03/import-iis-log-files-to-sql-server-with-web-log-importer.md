@@ -6,7 +6,7 @@ pubDate: 2020-03-10T16:52:01+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/03/importing-containers.jpg
+    src: /img/2020/03/importing-containers.jpg
     alt: A literal version of importing, containers at a port
 categories:
     - Programming

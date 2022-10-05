@@ -6,7 +6,7 @@ pubDate: 2019-03-01T07:00:03+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/02/sample-users-session.png
+    src: /img/2019/02/sample-users-session.png
     alt: Two Visitors, both visit in January and one visits again in Febrary
 categories:
     - Analytics

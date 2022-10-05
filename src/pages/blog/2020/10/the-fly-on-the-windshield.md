@@ -6,7 +6,7 @@ pubDate: 2020-10-07T07:05:43+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/uploads/2015/07/fly.jpg
+    src: /img/uploads/2015/07/fly.jpg
     alt: A macro shot of a fly
 categories:
     - Opinion

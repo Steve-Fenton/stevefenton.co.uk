@@ -6,7 +6,7 @@ pubDate: 2020-04-05T08:21:58+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/04/MVIMG_20200316_191453-1.jpg
+    src: /img/2020/04/MVIMG_20200316_191453-1.jpg
 categories:
     - Opinion
 tags:

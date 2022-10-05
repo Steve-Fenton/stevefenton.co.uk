@@ -6,7 +6,7 @@ pubDate: 2020-05-19T21:22:37+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/05/powertoys-run-shell-command.jpg
+    src: /img/2020/05/powertoys-run-shell-command.jpg
     alt: The Power Toys run shell command
 categories:
     - Programming

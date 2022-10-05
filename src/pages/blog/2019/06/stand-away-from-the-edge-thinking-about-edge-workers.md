@@ -6,7 +6,7 @@ pubDate: 2019-06-24T12:27:14+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/06/mind-the-gap.jpg
+    src: /img/2019/06/mind-the-gap.jpg
     alt: A mind the gap sign spray painted on a train station platform edge
 categories:
     - Programming

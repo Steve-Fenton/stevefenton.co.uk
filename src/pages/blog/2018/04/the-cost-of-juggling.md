@@ -6,7 +6,7 @@ pubDate: 2018-04-20T20:14:13+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/04/rubiks-cube-times-graph.png
+    src: /img/2018/04/rubiks-cube-times-graph.png
     alt: Rubik's cube times graph
 categories:
     - Process

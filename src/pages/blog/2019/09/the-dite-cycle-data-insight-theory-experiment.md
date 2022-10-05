@@ -6,7 +6,7 @@ pubDate: 2019-09-02T07:50:53+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/08/dite-cycle.jpg
+    src: /img/2019/08/dite-cycle.jpg
 categories:
     - Process
 tags:

@@ -6,7 +6,7 @@ pubDate: 2018-03-19T08:50:09+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/03/hound.png
+    src: /img/2018/03/hound.png
     alt: Hound
 categories:
     - Automation

@@ -6,7 +6,7 @@ pubDate: 2021-09-20T15:48:38+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/09/teams-praise-feature.png
+    src: /img/2021/09/teams-praise-feature.png
 categories:
     - Process
 tags:

@@ -6,7 +6,7 @@ pubDate: 2018-06-07T07:00:17+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/06/cypress-tree.jpg
+    src: /img/2018/06/cypress-tree.jpg
     alt: A cypress tree
 categories:
     - Programming

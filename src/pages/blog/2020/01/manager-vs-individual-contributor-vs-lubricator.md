@@ -6,7 +6,7 @@ pubDate: 2020-01-31T08:02:04+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/01/manager-vs-individual-contributor.jpg
+    src: /img/2020/01/manager-vs-individual-contributor.jpg
     alt: Manager vs individual contributor
 categories:
     - Process

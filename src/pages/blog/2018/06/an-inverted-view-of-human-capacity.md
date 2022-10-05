@@ -6,7 +6,7 @@ pubDate: 2018-06-01T07:00:19+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/bathroom-dispenser-kitchen-86000.jpg
+    src: /img/2018/05/bathroom-dispenser-kitchen-86000.jpg
     alt: Soap dispenser
 categories:
     - Process

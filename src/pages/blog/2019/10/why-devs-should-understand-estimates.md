@@ -6,7 +6,7 @@ pubDate: 2019-10-24T13:30:11+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/10/software-estimation-books.jpg
+    src: /img/2019/10/software-estimation-books.jpg
     alt: Software estimation books
 categories:
     - Process

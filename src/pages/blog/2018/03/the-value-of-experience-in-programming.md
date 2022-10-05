@@ -6,7 +6,7 @@ pubDate: 2018-03-28T13:38:59+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/03/time-cost.png
+    src: /img/2018/03/time-cost.png
     alt: Time vs cost
 categories:
     - Programming

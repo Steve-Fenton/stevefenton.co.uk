@@ -6,7 +6,7 @@ pubDate: 2018-05-09T07:15:04+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/intellicode-with-real-code.png
+    src: /img/2018/05/intellicode-with-real-code.png
     alt: Visual Studio Intellicode
 categories:
     - Programming

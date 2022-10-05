@@ -6,7 +6,7 @@ pubDate: 2020-03-16T19:02:17+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/03/vscode-rest-client.jpg
+    src: /img/2020/03/vscode-rest-client.jpg
     alt: The REST Client extension
 categories:
     - Programming

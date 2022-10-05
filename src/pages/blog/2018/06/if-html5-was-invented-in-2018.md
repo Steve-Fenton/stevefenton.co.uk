@@ -6,7 +6,7 @@ pubDate: 2018-06-01T22:19:17+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/06/Screenshot_2018-06-01-22-13-36.jpg
+    src: /img/2018/06/Screenshot_2018-06-01-22-13-36.jpg
 categories:
     - Programming
 tags:

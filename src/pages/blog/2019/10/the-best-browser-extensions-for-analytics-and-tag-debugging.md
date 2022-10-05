@@ -6,7 +6,7 @@ pubDate: 2019-10-16T14:53:51+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/10/tag-assistant-by-google.jpg
+    src: /img/2019/10/tag-assistant-by-google.jpg
     alt: Google tag assistant
 categories:
     - Analytics

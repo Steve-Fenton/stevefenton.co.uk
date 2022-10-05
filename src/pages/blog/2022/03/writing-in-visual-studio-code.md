@@ -6,7 +6,7 @@ pubDate: 2022-03-23T13:51:28+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/03/markdown-all-in-one.jpg
+    src: /img/2022/03/markdown-all-in-one.jpg
     alt: Markdown all in one
 categories:
     - Programming

@@ -6,7 +6,7 @@ pubDate: 2021-04-23T08:57:57+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/04/greg-davies-inbetweeners.jpg
+    src: /img/2021/04/greg-davies-inbetweeners.jpg
     alt: Greg Davies in the Inbetweeners
 categories:
     - Programming

@@ -6,7 +6,7 @@ pubDate: 2017-06-08T08:27:49+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2017/06/green-island-1944.jpg
+    src: /img/2017/06/green-island-1944.jpg
     alt: Green Island, 1944
 categories:
     - Process

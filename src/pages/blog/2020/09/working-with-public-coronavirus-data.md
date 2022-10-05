@@ -6,7 +6,7 @@ pubDate: 2020-09-21T10:14:50+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/09/prediction-vs-recorded-cases.png
+    src: /img/2020/09/prediction-vs-recorded-cases.png
     alt: Prediction vs recorded cases
 categories:
     - Opinion

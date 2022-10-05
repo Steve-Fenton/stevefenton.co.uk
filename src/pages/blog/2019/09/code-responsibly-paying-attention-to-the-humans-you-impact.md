@@ -6,7 +6,7 @@ pubDate: 2019-09-13T08:21:42+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/09/code-responsibly.jpg
+    src: /img/2019/09/code-responsibly.jpg
     alt: Code responsibly
 categories:
     - Programming

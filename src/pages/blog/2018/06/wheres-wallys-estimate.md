@@ -6,7 +6,7 @@ pubDate: 2018-06-17T21:19:07+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/06/wheres-wally-world-record-dublin.jpg
+    src: /img/2018/06/wheres-wally-world-record-dublin.jpg
     alt: Where's Wally world record attempt in Dublin
 categories:
     - Process

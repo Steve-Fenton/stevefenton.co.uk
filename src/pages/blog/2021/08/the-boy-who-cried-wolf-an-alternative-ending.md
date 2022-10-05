@@ -6,7 +6,7 @@ pubDate: 2021-08-07T07:12:51+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/08/Boycriedwolfbarlow.jpg
+    src: /img/2021/08/Boycriedwolfbarlow.jpg
 categories:
     - Opinion
 tags:

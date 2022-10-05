@@ -6,7 +6,7 @@ pubDate: 2019-10-16T08:56:03+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/10/trello-butler-workflow-automation.jpg
+    src: /img/2019/10/trello-butler-workflow-automation.jpg
 categories:
     - Automation
 tags:

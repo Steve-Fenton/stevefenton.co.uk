@@ -6,7 +6,7 @@ pubDate: 2018-05-18T07:00:52+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/fragments.jpg
+    src: /img/2018/05/fragments.jpg
     alt: Shattering glass containing buttons
 categories:
     - Programming

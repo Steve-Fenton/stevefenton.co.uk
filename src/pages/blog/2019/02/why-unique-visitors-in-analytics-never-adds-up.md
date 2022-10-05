@@ -6,7 +6,7 @@ pubDate: 2019-02-26T17:33:19+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/02/unique-visit-tracking.png
+    src: /img/2019/02/unique-visit-tracking.png
     alt: A flow chart showing two users, one who visists on consecutive months
 categories:
     - Analytics

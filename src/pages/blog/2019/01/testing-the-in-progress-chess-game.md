@@ -6,7 +6,7 @@ pubDate: 2019-01-27T18:29:46+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2015/07/self-organising-pawn.jpg
+    src: /img/2015/07/self-organising-pawn.jpg
     alt: An angry looking chess pawn
 categories:
     - Process

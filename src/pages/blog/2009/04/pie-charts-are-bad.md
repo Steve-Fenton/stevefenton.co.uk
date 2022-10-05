@@ -4,7 +4,7 @@ title: Pie charts are bad
 navMenu: false
 pubDate: 2009-04-17T01:42:58+01:00
 bannerImage:
-    src: /i/x/2015/07/pie004.png
+    src: /img/2015/07/pie004.png
     alt: A pie chart
 authors:
     - steve-fenton

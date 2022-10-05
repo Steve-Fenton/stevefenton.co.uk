@@ -6,7 +6,7 @@ pubDate: 2020-07-28T20:00:24+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/07/flat-comparison.jpg
+    src: /img/2020/07/flat-comparison.jpg
 categories:
     - Azure
 tags:

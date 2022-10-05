@@ -6,7 +6,7 @@ pubDate: 2018-03-13T08:58:58+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/03/flocking-rules.jpg
+    src: /img/2018/03/flocking-rules.jpg
     alt: A flock of starlings creating a murmation
 categories:
     - Programming

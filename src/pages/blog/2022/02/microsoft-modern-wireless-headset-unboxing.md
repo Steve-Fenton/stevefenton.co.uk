@@ -6,7 +6,7 @@ pubDate: 2022-02-15T20:00:27+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/02/PXL_20220215_1233074962.jpg
+    src: /img/2022/02/PXL_20220215_1233074962.jpg
     alt: Modern wireless headset
 categories:
     - Opinion

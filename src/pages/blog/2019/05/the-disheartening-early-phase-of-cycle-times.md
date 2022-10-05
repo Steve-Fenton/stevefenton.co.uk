@@ -6,7 +6,7 @@ pubDate: 2019-05-14T21:00:41+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/05/early-cycle-time.jpg
+    src: /img/2019/05/early-cycle-time.jpg
     alt: Early cycle time graph
 categories:
     - Process

@@ -6,7 +6,7 @@ pubDate: 2018-05-24T07:00:34+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/waterfall.jpeg
+    src: /img/2018/05/waterfall.jpeg
     alt: Waterfall
 categories:
     - Process

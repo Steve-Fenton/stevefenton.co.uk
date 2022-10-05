@@ -6,7 +6,7 @@ pubDate: 2014-05-06T12:02:28+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/07/crank-mechanism.png
+    src: /img/2021/07/crank-mechanism.png
     alt: A crank mechanism
 categories:
     - Process

@@ -6,7 +6,7 @@ pubDate: 2022-01-04T13:16:00+00:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2022/01/reassigned-variable.jpg
+    src: /img/2022/01/reassigned-variable.jpg
     alt: Reassigned variable
 categories:
     - Programming

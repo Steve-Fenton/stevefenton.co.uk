@@ -6,7 +6,7 @@ pubDate: 2018-07-29T19:03:29+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/07/hard-disk.jpg
+    src: /img/2018/07/hard-disk.jpg
     alt: A hard disk
 categories:
     - Process

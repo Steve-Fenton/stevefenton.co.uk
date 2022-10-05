@@ -6,7 +6,7 @@ pubDate: 2018-05-03T08:50:35+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/full-ui.png
+    src: /img/2018/05/full-ui.png
     alt: Cluttered user interface
 categories:
     - Opinion

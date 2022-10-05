@@ -6,7 +6,7 @@ pubDate: 2018-05-23T07:00:02+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2018/05/principles-of-light-and-colour.jpg
+    src: /img/2018/05/principles-of-light-and-colour.jpg
     alt: Principles of light and colour
 categories:
     - Opinion

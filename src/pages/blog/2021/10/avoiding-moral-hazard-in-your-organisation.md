@@ -6,7 +6,7 @@ pubDate: 2021-10-07T10:13:04+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2020/01/dangerous-zone.jpg
+    src: /img/2020/01/dangerous-zone.jpg
     alt: Dangerous zone sign
 categories:
     - Psychology

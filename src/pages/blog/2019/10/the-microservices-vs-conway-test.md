@@ -6,7 +6,7 @@ pubDate: 2019-10-26T17:00:54+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2019/10/complexity.jpg
+    src: /img/2019/10/complexity.jpg
     alt: Complexity
 categories:
     - Programming

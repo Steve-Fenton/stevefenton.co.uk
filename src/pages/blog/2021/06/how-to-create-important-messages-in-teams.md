@@ -6,7 +6,7 @@ pubDate: 2021-06-11T11:56:35+01:00
 authors:
     - steve-fenton
 bannerImage:
-    src: /i/x/2021/06/important-message-example.jpg
+    src: /img/2021/06/important-message-example.jpg
     alt: An important message is highlighted in Teams
 categories:
     - Other
