@@ -19,8 +19,8 @@ The `nslookup` command is really easy to use. You just type `nslookup [host-name
 
 Let’s look up the nameservers for our website. We’ll usually get back multiple answers. Two or three is pretty common. We can use `nslookup -querytype=ns [root domain]` to do this.
 
-```bash
-C:\>nslookup -querytype=ns stevefenton.co.uk
+```cmd
+nslookup -querytype=ns stevefenton.co.uk
 Server:  UnKnown
 Address:  1.1.1.1
 
@@ -33,8 +33,8 @@ stevefenton.co.uk       nameserver = amy.ns.cloudflare.com
 
 This is how you look up records from a specific name server. It uses the syntax `nslookup [host-name] [nameserver]`. You can supply the name of the nameserver: `nslookup www.stevefenton.co.uk amy.ns.cloudflare.com`, or its IP address: `nslookup www.stevefenton.co.uk 2a06:98c1:50::ac40:2065`.
 
-```bash
-C:\>nslookup www.stevefenton.co.uk amy.ns.cloudflare.com
+```cmd
+nslookup www.stevefenton.co.uk amy.ns.cloudflare.com
 Server:  amy.ns.cloudflare.com
 Address:  2a06:98c1:50::ac40:2065
 
@@ -52,28 +52,28 @@ And finally, some quick `nslookup` tips.
 
 Simple DNS Check
 
-```bash
+```cmd
 nslookup [host-name]
 nslookup www.example.com
 ```
 
 Specific Record Type Check
 
-```bash
+```cmd
 nslookup -querytype=[record-type] [host-name]
 nslookup -querytype=mx example.com
 ```
 
 Nameserver Lookup
 
-```bash
+```cmd
 nslookup -querytype=ns [host-name]
 nslookup -querytype=ns example.com
 ```
 
 DNS Check Against Specific Nameserver
 
-```bash
+```cmd
 nslookup [host-name] [nameserver]
 nslookup www.example.com a.iana-servers.net
 ```

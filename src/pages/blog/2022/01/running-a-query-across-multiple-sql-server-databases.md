@@ -39,8 +39,8 @@ The input file goes in `c:\Temp\mq\input.json` and the `output.csv` gets written
 
 Then you just run the app using:
 
-```bash
-c:\...\MultiQuery> mq c
+```cmd
+mq c
 ```
 
 The only argument to pass to `mq` is the drive letter, in the above example it’s `c`.

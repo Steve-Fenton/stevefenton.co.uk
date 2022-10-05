@@ -99,20 +99,20 @@ We now have replacement drives available, but they are empty. We have to move al
 
 Stop SQL Server
 
-```bash
-> net stop MSSQLSERVER
+```cmd
+net stop MSSQLSERVER
 ```
 
 Copy the data disk
 
-```bash
-> robocopy F:\ J:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
+```cmd
+robocopy F:\ J:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
 ```
 
 Copy the log disk
 
-```bash
-> robocopy G:\ K:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
+```cmd
+robocopy G:\ K:\ *.* /j /e /sec /Xd "System Volume Information" "$RECYCLE.BIN" /Xo
 ```
 
 We can now head back to the Azure portal to stop the VM once again.
@@ -129,7 +129,7 @@ Now we start the VM once again.
 
 Now we start another remote desktop session on the Virtual Machine and stop SQL server
 
-```bash
+```cmd
 net stop MSSQLSERVER
 ```
 
@@ -145,7 +145,7 @@ In “Assign the following drive letter” carefully choose the correct letter, 
 
 Repeat this for each disk, then re-start SQL Server.
 
-```bash
+```cmd
 net start MSSQLSERVER
 ```
 

@@ -14,7 +14,7 @@ tags:
 
 If you have ever performed exploratory testing of an SMTP server, you’ll have gotten bored of typing out MIME messages when sending data. If so, you’ll enjoy pasting this example message instead:
 
-```mime
+```
 MIME-Version: 1.0
 To: <sender@example.com>
 From: <recipient@example.com>

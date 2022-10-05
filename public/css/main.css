@@ -22,6 +22,8 @@ html {
 
 body {
     background-color: var(--aft);
+    background: linear-gradient(0deg, var(--aft-block) 0%, var(--aft) 100%);
+    background-attachment: fixed;
     color: var(--fore);
     font-size: 17px;
     line-height: 1.8em;
@@ -37,13 +39,17 @@ a, summary {
 }
 
 a:hover,
-a:focus,
-summary:hover,
-summary:focus {
+a:focus {
+    color: var(--fore-link-alt);
+}
+
+nav a:hover,
+nav a:focus,
+nav summary:hover,
+nav summary:focus {
     color: var(--fore-link-alt);
     background-color: var(--aft-link-alt);
 }
-
 :focus {
     outline: 2px dashed var(--fore-link-alt);
     border-radius: 5px;
@@ -97,6 +103,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.5em 0 0.6em 0;
     color: var(--fore-headings);
     line-height: 1em;
+    letter-spacing: -0.03em;
+    text-align: center;
 }
 
 h1 {
@@ -268,7 +276,7 @@ nav.skip-links a:focus {
 }
 
 .site-header .site-title {
-    letter-spacing: -1px;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     margin: 0 30px;
     display: block;

@@ -46,7 +46,7 @@ There is a [super-cool early preview of WinGet available](https://github.com/mic
 
 Installing Visual Studio Code is as simple as the following command… you even get a visual progress bar. Neat.
 
-```bash
+```cmd
 winget install vscode
 ```
 

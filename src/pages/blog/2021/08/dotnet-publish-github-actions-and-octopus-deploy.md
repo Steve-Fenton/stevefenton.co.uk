@@ -111,7 +111,7 @@ We then run `octo pack` to grab the contents of the “distwww” folder (that w
 
 After this, we run `octo push` to send the package to the server. You can see here that being precise with all the paths makes it easier to correlate all these files we are creating as we progress through the build pipeline. We use `secrets.OCTOPUS_SERVER` and `secrets.OCTOPUS_APIKEY` to get the information we need for this step. Not only are secrets kept nice and safe in the GitHub UI, they are blanked-out of the logging statements that GitHub Actions write:
 
-```bash
+```cmd
 Run octo push --package="$GITHUB_WORKSPACE/distoctopus/Website.88.zip" --server="***" --apiKey="***"
 ```
 

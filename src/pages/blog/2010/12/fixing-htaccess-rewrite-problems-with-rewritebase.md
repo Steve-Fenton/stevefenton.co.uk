@@ -15,7 +15,7 @@ I recently encountered an issue on an otherwise perfectly functioning .htaccess 
 
 The error suggested that the rewrite rule was working, but it was reporting the actual PHP page as being missing. Here is an example of the rule:
 
-```apache_conf
+```apache
 RewriteEngine on
 RewriteRule ^Site/([^/.]+)/?$ site.php?page=$1 [L,NC,QSA]
 ```
@@ -33,7 +33,7 @@ The clue is actually in the error message. If this was a genuine problem, I woul
 
 The net outcome of the issue is that by specifying the `RewriteBase` address as simply, “/”, the problem goes away and everything runs happily once again.
 
-```apache_conf
+```apache
 RewriteEngine on
 RewriteBase /
 RewriteRule ^Site/([^/.]+)/?$ site.php?page=$1 [L,NC,QSA]

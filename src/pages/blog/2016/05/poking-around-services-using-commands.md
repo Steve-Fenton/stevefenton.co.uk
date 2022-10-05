@@ -17,7 +17,7 @@ Important Note! These commands for Windows Services work if you run **Command Pr
 
 ## List all services
 
-```bash
+```cmd
 SC QUERY state=all > "C:\Temp\Services.txt"
 ```
 
@@ -27,13 +27,13 @@ This will drop a text file (because you’re likely to have more information tha
 
 Start a service…
 
-```bash
+```cmd
 SC START YourServiceName
 ```
 
 Stop a service…
 
-```bash
+```cmd
 SC STOP YourServiceName
 ```
 
@@ -41,6 +41,6 @@ SC STOP YourServiceName
 
 This deletes the service…
 
-```bash
+```cmd
 SC DELETE YourServiceName
 ```

@@ -20,7 +20,7 @@ For example, if you set it up with sequential numbers starting from one, you wou
 
 To use the CSV Data Set Config node, you’ll need some data. Here is an example of some data. For example in *ApiCrawler\_Scripts.csv*:
 
-```csv
+```
 Age,Language,Cash
 24,en-gb,200.34
 36,fr,123.30

@@ -22,13 +22,13 @@ You could search for any HTTP references that should be HTTPS, or all links to a
 
 The following regular expression can be placed in the “Search Exp” field in Katelyn UI, and will find all fully qualified references to www.example.com. The matches will be output as errors and will include the full URL that was found, for example “At 1356 – https://www.example.com/images/photo.jpg”. The results are organised by the page they were found on, making it super easy to find the reference.
 
-```regex
+```
 (?:http:\/\/?|https:\/\/?)(www\.example\.com\/.*?)"
 ```
 
 You could also completly ignore the http / https part (for example if you were using scheme-relative links that start “//”):
 
-```regex
+```
 (www\.example\.com\/.*?)"
 ```
 
@@ -38,7 +38,7 @@ And you could make further adjustements if you didn’t care about the “www”
 
 Here’s a practical example… find all non-HTTPS resources (images, links, scripts, CSS) using the following:
 
-```regex
+```
 (?:http:\/\/?)(www\.example\.com\/.*?)"
 ```
 

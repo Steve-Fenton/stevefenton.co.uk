@@ -40,7 +40,7 @@ Enhance.discoverTests(SampleTest).runTests();
 
 When you rewrite this in CoffeeScript, it actually looks quite nice.
 
-```cofeescript
+```coffee
 class SampleTest
   this.addTwoNumbersWith2and3Expect5 = ->
     result = Sample.addTwoNumbers(2, 3)

@@ -41,7 +41,7 @@ Run an `npm install` and then check that the UI works okay by running `npx cypre
 
 You can run Cypress with the open command:
 
-```bash
+```cmd
 npx cypress open
 ```
 

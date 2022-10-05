@@ -57,7 +57,7 @@ public class ApplicationDbContext
 
 To create the first migration file, run the `dotnet ef migrations add` command, and name the migration “InitialCreate”:
 
-```bash
+```cmd
 dotnet ef migrations add InitialCreate
 ```
 
@@ -65,7 +65,7 @@ You will find some new files in your project, named using a date-stamp and the n
 
 To apply all migrations and get the database into the up-to-date state, run:
 
-```bash
+```cmd
 PM> dotnet ef database update
 Done.
 ```
@@ -74,14 +74,14 @@ Done.
 
 Each time you have changes you want to push into the database, you run the `ef migrations add` command with an appropriate name. In the example below, the “Container” table is going to be added…
 
-```bash
+```cmd
 PM> dotnet ef migrations add AddContainers
 Done. To undo this action, use 'ef migrations remove'
 ```
 
 And you make it happen using the same command as before:
 
-```bash
+```cmd
 PM> dotnet ef database update
 Done.
 ```
@@ -92,7 +92,7 @@ The common pattern is `ef migrations add [name]` -> `ef database update`.
 
 If you made a mistake in adding a migration, you can remove it using this command:
 
-```bash
+```cmd
 PM> dotnet ef migrations remove
 Removing migration '20200328212010_AddContainers'.
 Reverting model snapshot.
@@ -103,7 +103,7 @@ Done.
 
 Starting from EF Core 6, you can bundle your migrations into an executable that you can run to upgrade your database.
 
-```bash
+```cmd
 PM> dotnet ef migrations bundle
 Build started...
 Build succeeded.
@@ -115,7 +115,7 @@ This will generate an `efbundle.exe` file that can be deployed and run to perfor
 
 You can add to the same bundle over time using the `--force` option and you can change the connection using the `--connection` option.
 
-```bash
+```cmd
 PM> dotnet ef migrations bundle --force --connection "Data Source=.;Database=ExampleDatabase"
 ```
 
@@ -133,18 +133,18 @@ When this happens, you just need to add the following to your .csproj file:
 
 Or you can just install the tool globally:
 
-```bash
+```cmd
 dotnet tool install --global dotnet-ef
 ```
 
 To update the tool, use the following command, passing the appropriate version (you’ll be told the version when you get warned you are out of date).
 
-```bash
+```cmd
 dotnet tool update --global --version 3.1.5 dotnet-ef
 ```
 
 If the tool can’t work out which project to use, you can give it a hint. All the commands accept the `--project` parameter.
 
-```bash
+```cmd
 dotnet ef migrations add InitialCreate --project Fenton.MigrationExample
 ```

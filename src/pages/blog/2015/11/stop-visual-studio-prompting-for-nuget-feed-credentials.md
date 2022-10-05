@@ -32,6 +32,6 @@ C:\Users\­bob.example\­AppData\­Roaming\­NuGet
 
 You can also secure this by adding the credentials via NuGet.exe – in which case the password will be encrypted.
 
-```bash
+```cmd
 Nuget.exe Sources Add -Name YourFeedName -UserName yourfeedname.pkgs.visualstudio.com\bob.example -Password secret
 ```
