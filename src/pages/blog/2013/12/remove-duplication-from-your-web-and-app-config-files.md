@@ -55,9 +55,10 @@ To use the shared file:
 
 In your web.config file, replace the entire connectionStrings config section with a link to the shared file:
 
+```xml
+<connectionStrings configSource="bin\ConnectionString.config"/>
 ```
-<pre class="prettyprint lang-xml"><connectionStrings configSource="bin\ConnectionString.config"/>
-```
+
 Whether you run in debug mode or in real life, the ConnectionString.config file will be picked up from the bin directory. You can now just edit the shared file to change all of your web projects in one hit.
 
 ## Adding Shared Config to Other Projects

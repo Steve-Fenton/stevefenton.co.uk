@@ -14,7 +14,7 @@ description:
 
 > …in the end, it’s not about what we do, it’s about **who we are** when we do it…
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" loading="lazy" src="https://www.youtube-nocookie.com/embed/LkIe4wYR1f8" style="min-width: 100%" width="560"></iframe>
+[Church of Roswell - Rocketeer](https://www.youtube.com/watch?v=LkIe4wYR1f8)
 
 :::div{.simple-grid}
 ![It Doesn't Have to be Crazy at Work](/img/2020/10/idhtbcaw.jpg)

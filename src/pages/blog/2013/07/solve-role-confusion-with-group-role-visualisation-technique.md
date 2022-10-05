@@ -36,7 +36,7 @@ Here is how you run a group role visualisation session.
 
 Group role visualisation is a “whole team” activity. You simply cannot do this without involving everyone whose name will end up next to a role.
 
-[If you can’t do it as a team, you’re all fired](https://youtu.be/pGFGD5pj03M).
+[If you can’t do it as a team, you’re all fired](https://www.youtube.com/watch?v=pGFGD5pj03M)
 
 ### Name the roles
 

@@ -14,7 +14,9 @@ tags:
     - SQL
 ---
 
-I tuned into the [Octopus Deploy](https://octopus.com/) and [Clear Measure](https://www.clear-measure.com/) live stream on [safe, automated, and drama-free database deployments](https://youtu.be/RAl8rIj9MB8) and there was a flurry of really useful [DbUp](https://dbup.readthedocs.io/en/latest/) tips from Paul Stovell that I wanted to share.
+I tuned into the [Octopus Deploy](https://octopus.com/) and [Clear Measure](https://www.clear-measure.com/) live stream on safe, automated, and drama-free database deployments and there was a flurry of really useful [DbUp](https://dbup.readthedocs.io/en/latest/) tips from Paul Stovell that I wanted to share.
+
+[Watch the recording](https://www.youtube.com/watch?v=RAl8rIj9MB8)
 
 ## Use a sequential naming scheme
 

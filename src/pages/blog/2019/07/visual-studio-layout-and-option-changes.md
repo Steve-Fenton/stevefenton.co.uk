@@ -11,7 +11,7 @@ tags:
     - Productivity
 ---
 
-Inspired by the [short video by Mads Kristensen](https://www.youtube.com/watch?v=M2HViJ2zVOE&feature=youtu.be) (part of a series conceived by Microsoft’s [Misty Madonna](https://twitter.com/mistymadonna))… I was inspired to update my Visual Studio layout for the first time in over ten years. What?! Ten years? Yes, for ten years I have installed Visual Studio, selected “Dark Theme”, and used it without adjustments. This was the result of the previous era of customising fonts, colours, layouts, and short-cut keys thinking I was the boss.
+Inspired by the short video by Mads Kristensen (part of a series conceived by Microsoft’s [Misty Madonna](https://twitter.com/mistymadonna))… I was inspired to update my Visual Studio layout for the first time in over ten years. What?! Ten years? Yes, for ten years I have installed Visual Studio, selected “Dark Theme”, and used it without adjustments. This was the result of the previous era of customising fonts, colours, layouts, and short-cut keys thinking I was the boss.
 
 I still think that your tweaks should be minimal and focussed. If you’re going to pair/mob/riot program with other people the UI needs to look somewhat familiar. So, what did Mads do that caught my attention?
 
@@ -61,4 +61,4 @@ Don’t do this if you depend on this remembered state as a mental reminder of w
 
 I think Mads knows what he’s talking about (duh, yeah). I’ve tried all of the ideas he shared and they have all stuck. Watch the video below for a six-minute run-through of these tweaks and for a couple of interesting extension recommendations.
 
-[Visual Studio with Mads](https://www.youtube.com/watch?v=M2HViJ2zVOE&feature=youtu.be)
+[Visual Studio with Mads](https://www.youtube.com/watch?v=M2HViJ2zVOE)

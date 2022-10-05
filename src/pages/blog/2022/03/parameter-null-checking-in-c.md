@@ -83,7 +83,9 @@ To summarise the main theme of the questions, the choices that people didn’t u
 - Why did they choose `!!`
 - Why does the `!!` go on the parameter *name* not the parameter *type*?
 
-The answers to both questions came from Jared Parsons, who joined the [Languages and Runtime Community Stand-up in February](https://youtu.be/Fz4hViH5bGc) to discuss this topic.
+The answers to both questions came from Jared Parsons, who joined the Languages and Runtime Community Stand-up to discuss this topic.
+
+[Watch the Languages and Runtime Community Stand-up from February](https://www.youtube.com/watch?v=Fz4hViH5bGc)
 
 Why was `!!` chosen? There is a chance that this feature might be made available inside methods – not just for the parameters. The syntax choice had to allow for this possible future development. The single exclamation mark syntax `!` already exists within method bodies since C’# 8. This is the null suppression operator (or *unary postfix `!` operator* to its friends). This operator forgives nulls, so the so the use of the double `!!` for holding a grudge against nulls falls into line with this concept without clashing with the existing feature. `myParam!` forgives and `myParam!!` would want revenge (or, throw an exception).
 

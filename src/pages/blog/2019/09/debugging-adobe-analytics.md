@@ -19,8 +19,7 @@ Let’s get straight down to business! Open your browser tools and select the co
 
 Paste in the below code…
 
-```html
-<pre class="prettyprint lang-js">
+```javascript
 _satellite.setDebug(true);
 ```
 

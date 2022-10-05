@@ -22,6 +22,7 @@ The HTML to use instead is a plain link. The link points to the standard watch p
 ```html
 <a href="https://www.youtube.com/watch?v=VOWnhMxJMMk">Watch Jimmy Eat World - Something Loud</a>
 ```
+
 A script then turns this into a video thumbnail served by YouTube’s image server, and when the user clicks it loads in the video for the user to enjoy without leaving the website. The “click-play” class can be used to style things up… I think it makes sense to stick the text over the top of the thumbnail so it’s obvious what to do / what will happen.
 
 See it in action at the bottom of this [Jimmy Eat World article](https://www.phonotonal.com/2022/06/jimmy-eat-world-something-loud/).

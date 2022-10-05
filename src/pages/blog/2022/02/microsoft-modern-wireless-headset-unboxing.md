@@ -45,7 +45,9 @@ The headset supports Bluetooth and comes with a tiny USB dongle that you can jus
 
 ## Audio quality
 
-The audio quality is great in call and when listening to music. There’s good clarity throughout the tonal ranges, as tested using [The Dead Love’s ‘Summer’](https://youtu.be/_c45icLGUfc). Everything is crisp and clean, with enough punch to make listening to music a joy.
+The audio quality is great in call and when listening to music. There’s good clarity throughout the tonal ranges, as tested using The Dead Love’s ‘Summer’. Everything is crisp and clean, with enough punch to make listening to music a joy.
+
+[Watch the Dead Love - Summer](https://www.youtube.com/watch?v=_c45icLGUfc)
 
 On calls, the speaker comes through loud and clear, especially when it’s someone from the community team, as they all use incredible condenser microphones that make them sound like radio DJs or voice-over artists.
 

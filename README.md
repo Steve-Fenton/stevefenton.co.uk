@@ -8,8 +8,6 @@ Look out for...
 
 blockquotes with quote > " (and smart quotes)
 
-<pre
-
 youtube videos youtube and youtu.be - make sure they will work with YT embed script
 
 posts with no tags

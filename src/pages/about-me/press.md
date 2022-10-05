@@ -13,7 +13,8 @@ I have been enjoying some coverage in various magazines and blogs and will be sh
 
 August 2021  
 [Basarat Ali Syed](https://basarat.com/) – Microsoft MVP, Cypress Ambassador, author, open-sourcer, and more – gave me a very kind mention in his Microsoft MVP Primer video.  
-[Watch Bas’s YouTube video MVP Primer.](https://youtu.be/LM5GP0g9Z48).
+
+[Watch Bas’s YouTube video MVP Primer.](https://www.youtube.com/watch?v=LM5GP0g9Z48).
 
 ## CSS Tricks – Map Interactivity Issues
 
