@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2020-08-05T06:00:10+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/08/web-notification.jpg
+bannerImage:
+    src: /i/x/2020/08/web-notification.jpg
+    alt: Web notifications
 categories:
     - Programming
 tags:

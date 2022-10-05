@@ -11,7 +11,7 @@ tags:
     - HTML
 ---
 
-n case you’ve missed it, I’ve been talking about the new HTML 5 forms goodies. You can catch up by checking out the demo and these handy articles on the specific topics I’ve covered.
+In case you’ve missed it, I’ve been talking about the new HTML 5 forms goodies. You can catch up by checking out the demo and these handy articles on the specific topics I’ve covered.
 
 I have divided the information into attributes, special input types, date-related input types and numeric input types – but don’t be put off as there isn’t a great deal to learn.
 

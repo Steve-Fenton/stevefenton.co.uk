@@ -23,4 +23,4 @@ When you hit the icon, the page will be rendered in 3D, where the contour-style 
 
 Oh yeah – it looks cool too!
 
-Next week… [Firefox Developer Tools Responsive Design Mode](/blog/201406/firefox-responsive-mode/)!
+Next week… [Firefox Developer Tools Responsive Design Mode](/blog/2014/06/firefox-responsive-mode/)!

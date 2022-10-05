@@ -18,7 +18,7 @@ Risk Management was first made interesting for me by Tom DeMarco and Timothy Lis
 
 To answer this question we need to build a story from the beginning!
 
-:img{src="/wp-content/uploads/2018/10/sohnee-joiners-arms.jpg" alt="The rock band Sohnee playing at the Joiners in Southampton"}
+:img{src="/img/2018/10/sohnee-joiners-arms.jpg" alt="The rock band Sohnee playing at the Joiners in Southampton"}
 
 ## Risk
 

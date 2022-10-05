@@ -25,7 +25,7 @@ Here is my problem. I actually enjoy software development. I like solving proble
 
 Attempting to make a game out of everything is an infantile and simplistic way of trying to inject enjoyment into something that, when done right, is incredibly satisfying. Software development is full of difficult work from which immense satisfaction can be found. Rather than trying to turn it into a game, try turning it into a profession. Doing things the “software craftsmanship” way is hard, but ultimately more satisfying than turning it into a game. The dark side of gamification is when it is used as a mechanism to manipulate people, or to disguise poor working conditions (for example, lack of autonomy).
 
-> “I actually think that the agile community’s obsession with Lego and other games/toys is one of the reasons the ideas aren’t taken seriously.” – [Neil Killick](http://neilkillick.com/)
+> I actually think that the agile community’s obsession with Lego and other games/toys is one of the reasons the ideas aren’t taken seriously. <cite>[Neil Killick](http://neilkillick.com/)</cite>
 
 As a software developer (i.e. anyone involved in delivering software), I expect you would enjoy your job more if it could be performed under the right conditions. Self-actualisation is better when it is fuelled by genuine personal achievement and a sense of growth. As someone working with software developers it is better to get software written by people who are motivated by creating software, rather than simulated achievement.
 

@@ -33,7 +33,7 @@ As soon as you start talking in hours, you’d better be handing out ranges base
 
 Each team member is looking at a screen that shows the burn-down chart and their tasks. The temptation at the end of each day is to reduce the hours remaining to whatever makes the burn-down chart look correct. This means problems won’t be visible early on, because they are being disguised, consciously or subconsciously, by people typing in the numbers they believe are expected of them. If your burndown chart isn’t telling you about problems early, it is entirely worthless.
 
-### Solution
+## Solution
 
 Just put a 1 against every task. This turns the task binary – it is either done, or it isn’t – there is no middle ground. Your burn-down chart will actually work perfectly well. It will tell you how many tasks you have left each day and if you aren’t trending along the ideal line, you’ll know straight away.
 

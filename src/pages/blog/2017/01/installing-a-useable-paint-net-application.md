@@ -23,4 +23,4 @@ So here is the minimal install for Paint.Net…
 2. [Download Simon’s ace Paint.Net extensions](http://forums.getpaint.net/index.php?/topic/10056-editable-text-v10-stable/)
 3. Copy the files from the folders in Simon’s zip file into the folder with the same name in Paint.Net
 
-Due to the nature of extensions, you’ll find editable text under “Effects -&gt; Tools -&gt; Editable Text”. If you want to change text, select the layer and open “Effects -&gt; Tools -&gt; Editable Text” again to edit it.
+Due to the nature of extensions, you’ll find editable text under “Effects -> Tools -> Editable Text”. If you want to change text, select the layer and open “Effects -> Tools -> Editable Text” again to edit it.

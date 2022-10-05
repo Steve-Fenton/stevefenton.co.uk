@@ -20,7 +20,7 @@ If you are using [NCrunch awesomeness in Visual Studio](/blog/2011/12/some-handy
  at Mono.Cecil.Cil.CodeReader.MoveTo(Int32 rva)
  at Mono.Cecil.Cil.CodeReader.ReadMethodBody()
  at Mono.Cecil.Cil.CodeReader.ReadMethodBody(MethodDefinition method)
- at Mono.Cecil.MethodDefinition.&lt;get_Body&gt;b__2(MethodDefinition method, MetadataReader reader)
+ at Mono.Cecil.MethodDefinition.<get_Body&b__2(MethodDefinition method, MetadataReader reader)
  at Mono.Cecil.ModuleDefinition.Read[TItem,TRet](TItem item, Func`3 read)
  at Mono.Cecil.MethodDefinition.get_Body()
  at nCrunch.Compiler.ILManipulator.#=qVgZeh_Xo4G8OazbHXUj$HZZ4k875wM5nD3bVlbELkuc=(Collection`1 #=qK_nsQKpybmFcinz5j6S1wg==)

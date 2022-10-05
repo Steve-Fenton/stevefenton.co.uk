@@ -27,7 +27,7 @@ If you have multiple deployment projects in the same repository, you can put the
 
 At the time of writing, this feature preview is rolling out to Octopus Cloud customers. If you don’t see the configuration setting described below, check back in a few days to see if it has arrived. It will be made available to Octopus Server at a later date.
 
-From the dashboard in Octopus Deploy, navigate to **Configuration -&gt; Features** to see if you have the Early Access settings group.
+From the dashboard in Octopus Deploy, navigate to **Configuration -> Features** to see if you have the Early Access settings group.
 
 Expand Configuration as Code and select Enabled. Then hit SAVE to store the change.
 
@@ -48,11 +48,11 @@ The URL of your GitHub repository can be found in the Code tab, using the drop-d
 
 :img{src="/img/2021/10/github-repository-url.png" alt="Obtain your GitHub repository URL from the Code tab in GitHub" loading="lazy"}
 
-You can obtain a new personal access token from **Profile -&gt; Settings -&gt; Developer settings -&gt; Personal access tokens**.
+You can obtain a new personal access token from **Profile -> Settings -> Developer settings -> Personal access tokens**.
 
 Click “Generate new token” and put in a descriptive name for the token in the Note field. For example “Octopus Deploy config-as-code Access”. The token will need to be assigned the repo permissions and the admin:repo\_hook read and write permissions. Once you generate the token, complete the next steps before you leave this page as it won’t be displayed again.
 
-Go back to Octopus Deploy and open your deployment project. Navigate to **Settings -&gt; Version Control**.
+Go back to Octopus Deploy and open your deployment project. Navigate to **Settings -> Version Control**.
 
 Paste in your repository URL, and enter your GitHub username and personal access token in the Authentication section. If your primary branch has a different name, for example “trunk” rather than “main”, adjust the Default Branch Name.
 
@@ -82,7 +82,7 @@ The full webinar is available on YouTube.
 
 :img{src="/img/2021/10/initial-octopus-deploy-commit.png" alt="A new dot-octopus folder in the GitHub repository" loading="lazy"}
 
-You can read about [configuration-as-code in the Octopus Deploy docs](https://octopus.com/docs/projects/version-control) and watch the webinar below, which also has a rich Q&amp;A section at the end.
+You can read about [configuration-as-code in the Octopus Deploy docs](https://octopus.com/docs/projects/version-control) and watch the webinar below, which also has a rich Q&A section at the end.
 
 There are also some [recommended config-as-code strategies](https://octopus.com/blog/config-as-code-strategies).
 

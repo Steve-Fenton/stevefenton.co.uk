@@ -9,7 +9,7 @@ description:
 
 [![Steve Fenton - The Productivity Workbook](/img/2021/10/the-productivity-workbook.jpg)](/publications/the-productivity-workbook/the-productivity-workbook/)
 
-### Book overview
+## Book overview
 
 The Productivity Workbook contains templated daily planner sheets to track The Pomodoro Technique each day for three months, with space to track tasks and sessions. There are handy prompts to remind you how to run your sessions and take breaks.
 
@@ -19,7 +19,7 @@ By combining Getting Things Done, Personal Kanban, and The Pomodoro Technique, y
 
 The introduction contains a refresher to help you combine the three productivity techniques and a short guide to using the workbook.
 
-### Free downloads
+## Free downloads
 
 In a break from tradition, I have made the book available under the [Creative Commons Non-Commercial, No-Derivatives License (CC BY-NC-ND)](https://www.creativecommons.org/licenses/by-nc-nd/4.0/) and there are some download files available below if you want to print your own worksheets or full books including the introduction, notes pages, and organisation into weeks. It’s best to print on reasonable quality stock as you’ll be writing in it. The cover isn’t available to download here, as the license for the excellent cover art is limited-run, so I can’t distribute it – feel free to get creative with your own covers!
 

@@ -15,7 +15,7 @@ tags:
 
 UPDATE: Derrick Fu, the VSTS Program Manager has sent a quick update and it looks like this one is on the radar for the VSTS team:
 
-> “This is a known issue when transitioning from a custom state to Closed. We have plans to address this with our next iteration of states customization. You can [keep tabs on progress here](https://blogs.msdn.microsoft.com/visualstudioalm/2016/06/18/vsts-process-customization-futures-june-2016/).”
+> This is a known issue when transitioning from a custom state to Closed. We have plans to address this with our next iteration of states customization. You can [keep tabs on progress here](https://blogs.msdn.microsoft.com/visualstudioalm/2016/06/18/vsts-process-customization-futures-june-2016/).
 
 When the <abbr title="Visual Studio Team Services, formerly Visual Studio Online">VSTS</abbr> team announced custom work item states, I was delighted.
 

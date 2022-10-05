@@ -15,7 +15,7 @@ tags:
 
 When you don’t want to script out your own database, Entity Framework Core has your back. When you change your database context or the models it uses, you can use a couple of commands to create and update your database to keep it in sync with your model. These examples run in the Package Manager console (and if you have trouble running them, check the end of this post).
 
-Your package manager console can be found in Visual Studio using Tools -&gt; NuGet Package Manager -&gt; Package Manager Console.
+Your package manager console can be found in Visual Studio using Tools -> NuGet Package Manager -> Package Manager Console.
 
 :img{src="/img/2020/03/tools-nuget-package-manager-console.jpg" alt="Package Manager Location"}
 
@@ -86,7 +86,7 @@ PM> dotnet ef database update
 Done.
 ```
 
-The common pattern is `ef migrations add [name]` -&gt; `ef database update`.
+The common pattern is `ef migrations add [name]` -> `ef database update`.
 
 ## Undo! Removing a migration
 

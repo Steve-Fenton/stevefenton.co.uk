@@ -88,7 +88,7 @@ To publish to Octopus Deploy, we need the server address and an API key. If you 
 
 :img{src="/img/2021/08/octopus-api-key.jpg" alt="Octopus Deploy API Keys" loading="lazy"}
 
-With this information to hand, head over to **GitHub &gt; Settings &gt; Secrets** to add these two items to your list of secrets. I’ve called them “OCTOPUS\_SERVER” and “OCTOPUS\_APIKEY” and lots of other people have also named them like this, so let’s call this a convention that will make it easier to re-use our GitHub action definitions.
+With this information to hand, head over to **GitHub > Settings > Secrets** to add these two items to your list of secrets. I’ve called them “OCTOPUS\_SERVER” and “OCTOPUS\_APIKEY” and lots of other people have also named them like this, so let’s call this a convention that will make it easier to re-use our GitHub action definitions.
 
 :img{src="/img/2021/08/github-actions-secrets.jpg" alt="GitHub Actions Secrets" loading="lazy"}
 

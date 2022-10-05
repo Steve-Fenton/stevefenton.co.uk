@@ -14,7 +14,7 @@ Explore the features of this innovative open source language in depth, from work
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
-### What’s New in The Second Edition
+## What’s New in The Second Edition
 
 You know how busy the TypeScript team and wider community have been making TypeScript awesome – there’s a lot of changes. I have fully updated the book with all of the changes, and completely re-written a couple of the chapters (hey, Node/Express went and changed things too!)
 
@@ -29,13 +29,13 @@ The second edition can be found under ISBN 978-1-4842-3249-1 for the ebook and I
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
-### Praise for the Second Edition
+## Praise for the Second Edition
 
 > I highly recommend this book if you want to explore TypeScript or need a TypeScript reference. (Amazon Customer)
 
 > I really like this book. The examples are clear and written well. Highly recommend reading this book to get a soild understanding of TypeScript before moving into Angular development. (Amazon Customer)
 
-### Praise for the First Edition
+## Praise for the First Edition
 
 > This is perhaps one of the best books for beginners and experts alike. If you’re brand new to TypeScript you will learn everything you need by reading Pro TypeScript. The author Steve Fenton does an excellent job of explaining the fundamentals and how TS compiles down into JavaScript.
 > 
@@ -52,27 +52,27 @@ The second edition can be found under ISBN 978-1-4842-3249-1 for the ebook and I
 > I have read way more programming books than I can remember. This is one of the best!!  
 > It may seem a little heady at first (ch2) , but it is on the money and very practical if you are going to get to a professional level (no pun intended) with TypeScript. The writer is very clear, very articulate and thorough (nothing left out) without making you feel like you are soaking up stuff you can’t use. – (Amazon Customer)
 
-### Questions and Comments
+## Questions and Comments
 
 I’m a real person sat at the other end of the cable. I try to respond to as many messages as I can, but I’m not Ringo Starr. [Please contact me if you have questions or comments](/contact/).
 
-### Where to Buy Pro TypeScript
+## Where to Buy Pro TypeScript
 
 Here are the places you can buy Pro TypeScript, [please let me know](/contact/) if you have other locations for me to add.
 
-#### International
+### International
 
 [Google Play](https://play.google.com/store/books/details/Steve_Fenton_Pro_TypeScript?id=ZEtADwAAQBAJ).
 
-#### USA
+### USA
 
 [Apress US](https://www.apress.com/us/book/9781484232484)
 
-#### Canada
+### Canada
 
 [Amazon](https://www.amazon.ca/Pro-TypeScript-Application-Scale-JavaScript-Development-ebook/dp/B077R9WMWJ/).
 
-#### UK
+### UK
 
 [Apress UK](https://www.apress.com/gb/book/9781484232484)
 

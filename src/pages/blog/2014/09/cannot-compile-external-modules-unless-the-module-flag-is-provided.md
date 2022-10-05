@@ -14,7 +14,7 @@ tags:
 
 This is quite a common error when using TypeScript in Visual Studio and there is a little history surrounding this error message:
 
-> “Build: Cannot compile external modules unless the ‘–module’ flag is provided.”
+> Build: Cannot compile external modules unless the ‘–module’ flag is provided.
 
 This article describes how to fix this error in several scenarios:
 
@@ -32,7 +32,7 @@ You can specify either AMD or CommonJS module styles and the compiler will gener
 
 ## Visual Studio 2013
 
-The history here is that there were a bunch of settings added to Tools &gt; Options in Visual Studio 2012 – but that meant the settings applied globally, which isn’t desirable.
+The history here is that there were a bunch of settings added to Tools > Options in Visual Studio 2012 – but that meant the settings applied globally, which isn’t desirable.
 
 To solve this, the settings were moved to project-level. Yay.
 
@@ -51,7 +51,7 @@ You can also inject these properties directly into the project file if you find 
 </PropertyGroup>
 ```
 
-### Works for me… Breaks on the build server
+## Works for me… Breaks on the build server
 
 It is possible to still encounter the error even after doing all of this (in fact, it is highly likely if you pasted into the project file…) the reason for this is that you can have different settings for Debug and Release mode… so go back to the project properties and use the drop down at the top of the TypeScript Build properties tab to check both Debug and Release settings have the module kind set correctly.
 

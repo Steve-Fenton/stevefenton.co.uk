@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2021-02-17T17:12:34+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/02/teams-polly.jpg
+bannerImage:
+    src: /i/x/2021/02/teams-polly.jpg
+    alt: Polly polls for Teams
 categories:
     - Office
 tags:
@@ -36,7 +38,7 @@ There are lots of configuration options in Polly’s authoring view, which can b
 
 ## Using Polly in different set-Ups
 
-If you are running a user group, or online conference style session, you’ll want a facilitator’s assistance in posting polls at appropriate times. Speaking while configuring a poll is a distraction that will throw you off beat. You usually need this second person anyway to run co-ordination tasks like admitting people from the Teams lobby, managing the chat and being the voice of attendees during Q&amp;A sections, and managing the mute button when someone’s background noise eats the audio.
+If you are running a user group, or online conference style session, you’ll want a facilitator’s assistance in posting polls at appropriate times. Speaking while configuring a poll is a distraction that will throw you off beat. You usually need this second person anyway to run co-ordination tasks like admitting people from the Teams lobby, managing the chat and being the voice of attendees during Q&A sections, and managing the mute button when someone’s background noise eats the audio.
 
 In less formal meet ups, you can probably tell people about the poll as you author it without getting too snarled up.
 

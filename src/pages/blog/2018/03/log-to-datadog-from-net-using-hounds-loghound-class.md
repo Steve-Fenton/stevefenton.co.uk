@@ -33,7 +33,7 @@ The icon for Hound is taken from the album cover of *Park it Where You Like*, by
 PM> Install-Package Hound -Version 0.1.2
 ```
 
-Second, store your Datadog API key somewhere as you’ll need that. I create a custom key so I can control access. You can add a separate key on the Datadog portal in Integrations -&gt; API -&gt; API Keys -&gt; New API Key. You only need an API key and not an application key for Hound.
+Second, store your Datadog API key somewhere as you’ll need that. I create a custom key so I can control access. You can add a separate key on the Datadog portal in Integrations -> API -> API Keys -> New API Key. You only need an API key and not an application key for Hound.
 
 :img{src="/img/2018/03/datadog-new-api-key.png" alt="Datadog New API Key Screen" loading="lazy"}
 

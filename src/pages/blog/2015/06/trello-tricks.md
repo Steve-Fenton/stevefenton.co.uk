@@ -46,7 +46,7 @@ So @steve #mytag is:open is all my open cards with the mytag label.
 
 If you have a frequent search, you can save it to avoid having to type it again.
 
-You can also filter a board by label, click on Menu -&gt; Filter Cards -&gt; “label name”.
+You can also filter a board by label, click on Menu -> Filter Cards -> “label name”.
 
 ## Card Titles
 

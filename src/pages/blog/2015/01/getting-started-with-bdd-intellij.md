@@ -116,7 +116,7 @@ This wires up Cucumber to JUnit and tells it to find the feature files in the �
 
 ## Cucumber for Java Plugin
 
-To get the best out of IntelliJ when working with Cucumber, download the Cucumber for Java plugin. You can do this by opening “File” &gt; “Settings” and searching for “Cucumber” in the plugins search box.
+To get the best out of IntelliJ when working with Cucumber, download the Cucumber for Java plugin. You can do this by opening “File” > “Settings” and searching for “Cucumber” in the plugins search box.
 
 :img{src="/img/2015/07/intellij-cucumber-for-java.jpg" alt="Cucumber for Java" loading="lazy"}
 
@@ -262,20 +262,20 @@ Here is the summary for IntelliJ users…
 3. Add source folder, “src/test/resources”
 4. Delete the App.java and AppTests.java files
 5. Add the CukesRunner class in the example above
-6. Settings -&gt; Plugins -&gt; Search for “Cucumber for Java” and install
+6. Settings -> Plugins -> Search for “Cucumber for Java” and install
 7. Add the feature file and step class from the example above
 
 ## Eclipse Users Summary
 
 All of the above steps are roughly translatable to Eclipse. I used Eclipse Luna to recreate this project and the following steps are a guide to what I changed…
 
-1. File -&gt; New -&gt; Project 
-    - Maven -&gt; Maven Project 
+1. File -> New -> Project 
+    - Maven -> Maven Project 
         - Select “maven-archetype-quickstart”
 2. Add the pom.xml repository and dependencies listed in the IntelliJ example above
 3. Add source folder, “src/test/resources”
 4. Delete the App.java and AppTests.java files
 5. Add the CukesRunner class in the example above
-6. Help -&gt; Install New Software 
+6. Help -> Install New Software 
     - Enter the following URL into the “Work with” field: http://cucumber.github.com/cucumber-eclipse/update-site
 7. Add the feature file and step class from the example above

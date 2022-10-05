@@ -20,7 +20,7 @@ This is why I asked “[why do we \[measure|estimate|rush|optimize|…\] only th
 
 So prioritisation is important…
 
-> “The problem with any prioritization decision is \[the\] decision to service one job and delay another” – Don Reinertsen
+> The problem with any prioritization decision is \[the\] decision to service one job and delay another. <cite>Don Reinertsen</cite>
 
 Or as summarised in [Focused Objective’s “Better Backlog Pioritisation”](https://raw.githubusercontent.com/FocusedObjective/FocusedObjective.Resources/master/Canvas%20and%20Forms/Better%20Backlog%20Prioritization.pdf) (written by Martin Burns, Don Reinertsen, Chris Matts, Joshua Arnold, Tony Grout, and Troy Magennis in 2016:
 

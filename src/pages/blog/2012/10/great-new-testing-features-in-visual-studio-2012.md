@@ -19,7 +19,7 @@ What I’m really enjoying currently are related to the new testing features ins
 
 Code coverage is a really useful metric when you are working on legacy code. Your new code doesn’t need to be measured, because you’re rolling strict test-driven design!
 
-So to get a handle on the legacy code, code coverage is useful – and it is built into Visual Studio under “TEST” &gt; “Analyze Code Coverage”. Once the tests have run, you can view the results and drill-down into the assembly you are interested in.
+So to get a handle on the legacy code, code coverage is useful – and it is built into Visual Studio under “TEST” > “Analyze Code Coverage”. Once the tests have run, you can view the results and drill-down into the assembly you are interested in.
 
 :img{src="/img/2015/07/get-code-coverage.png" alt="Get Code Coverage" loading="lazy"}
 
@@ -29,6 +29,6 @@ If you want to see the code highlighted in Visual Studio to indicate whether eac
 
 ## Run Tests On Build
 
-This feature will either speed up your existing cycle of building and testing, or it will enforce a test run where you don’t currently perform one but should. All you have to do is hit “TEST” &gt; “Test Settings” &gt; “Run Tests After Build” and each time you perform a build, the tests will fire automatically. Visual Studio is also clever enough to recognise whether you need to perform another test run, so if you build multiple times without changing anything, it won’t repeat the tests.
+This feature will either speed up your existing cycle of building and testing, or it will enforce a test run where you don’t currently perform one but should. All you have to do is hit “TEST” > “Test Settings” > “Run Tests After Build” and each time you perform a build, the tests will fire automatically. Visual Studio is also clever enough to recognise whether you need to perform another test run, so if you build multiple times without changing anything, it won’t repeat the tests.
 
 :img{src="/img/2015/07/run-tests-on-build.png" alt="Run Tests on Build" loading="lazy"}

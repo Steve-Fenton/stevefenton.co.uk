@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-02-15T20:00:27+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/02/PXL_20220215_1233074962.jpg
+bannerImage:
+    src: /i/x/2022/02/PXL_20220215_1233074962.jpg
+    alt: Modern wireless headset
 categories:
     - Opinion
 tags:

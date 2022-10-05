@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2020-07-08T19:03:25+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2020/07/process-quadrants-of-intent.jpg
+bannerImage:
+    src: /i/x/2020/07/process-quadrants-of-intent.jpg
+    alt: Process quadrants of intent
 categories:
     - Process
 tags:

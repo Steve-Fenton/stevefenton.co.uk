@@ -5,9 +5,6 @@ navMenu: false
 pubDate: 2013-02-09T22:09:30+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=657'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
     - Windows

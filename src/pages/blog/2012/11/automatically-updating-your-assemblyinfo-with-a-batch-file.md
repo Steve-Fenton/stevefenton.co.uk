@@ -96,7 +96,7 @@ attrib -r %outfile%
 
 **Echo File Contents**
 
-The batch file uses &gt; to write over a file and &gt;&gt; to append to a file.
+The batch file uses `>` to write over a file and `>>` to append to a file.
 
 ```powershell
 echo Some line >> %outfile%

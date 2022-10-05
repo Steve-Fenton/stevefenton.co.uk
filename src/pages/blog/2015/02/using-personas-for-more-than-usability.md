@@ -13,7 +13,7 @@ Personas have been around for a while in the usability arena – so long that I�
 
 From the list of [benefits of personas](http://www.getelastic.com/personas-101-what-are-they-and-why-should-i-care/), I would like to focus on one key item that can help you to apply personas to a wider set of problems.
 
-> “*\[They\] serve as a reference tool that can be used from strategy through to implementation.*“
+> \[They\] serve as a reference tool that can be used from strategy through to implementation.
 
 ## Communication Tool
 

@@ -21,10 +21,10 @@ Here is a quick run-down of the steps to use the extension…
 
 1. Get a [trial license key from SpecFlow to try this out, or buy a license](http://specflow.org/plus/)
 2. [Add the SpecFlow+LivingDoc VSTS Extension](https://marketplace.visualstudio.com/items?itemName=techtalk.techtalk-specflow-plus&utm_source=fenton)
-3. Go to a build that has feature files and add the “Utilities -&gt; SpecFlow+ build step”. Choose the project file that contains feature files.
+3. Go to a build that has feature files and add the “Utilities -> SpecFlow+ build step”. Choose the project file that contains feature files.
 4. Run the build
 
-When the build is complete, the searchable feature files are made available in the “Test” link in the main menu, so head to “Test -&gt; SpecFlow+” to see the results.
+When the build is complete, the searchable feature files are made available in the “Test” link in the main menu, so head to “Test -> SpecFlow+” to see the results.
 
 **Note!** The first time you open up this screen and choose a feature, you’ll see a prompt to add a license key. Look for the text “evaluation” in the top right corner and click it to enter the license details.
 

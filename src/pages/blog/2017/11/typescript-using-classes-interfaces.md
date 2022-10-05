@@ -90,7 +90,7 @@ The class-as-an-interface will contain all of the members of the class. That’s
 
 Let’s look at this way, the ISP states:
 
-> “…no client should be forced to depend on methods it does not use…”
+> …no client should be forced to depend on methods it does not use…
 
 Now imagine your class-as-an-interface has trickled out into five or six locations and you add a new method to the original class. Now you get errors because the method is missing. Functions that previously accepted an object will now reject it – because it is missing a member that the function doesn’t even need. This is not SOLID code.
 

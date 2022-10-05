@@ -17,7 +17,7 @@ Most people in software development would be able to create a list of pros and c
 
 What we concluded was that there was likely to be a strong relationship between regularly delivering quality releases, building trust with the business or customer, and a drop in demand for estimates.
 
-> Frequent Quality Releases -&gt; Trust -&gt; NoEstimates
+> Frequent Quality Releases -> Trust -> NoEstimates
 
 When I posted this conclusion on social media, it caused some strong reactions. Possibly because #NoEstimates just triggers some people, which is fine. It just hope to restore some balance in the discussion; because both sides have their merits and I would be nice if we all got to present them so you can make your own mind up (rather than simply being told by trolls).
 

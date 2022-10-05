@@ -20,7 +20,7 @@ The hope is that the referer string will be displayed in your cool web-based log
  ```
 Exception type: MyCustomException
 AbsoluteUri: http://www.example.com/
-Referer: &lt;a href="http://phishing-site-address.com/">Windows FAQ&lt;/a>
+Referer: <a href="http://phishing-site-address.com/">Windows FAQ</a>
 ```
 
 If you are using a good monitoring service, they won’t display this input as a hyperlink – but beware of visiting pages that appear in your HTTP logs or event logs like this.

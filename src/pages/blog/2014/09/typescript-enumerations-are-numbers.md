@@ -13,7 +13,7 @@ tags:
 
 Whilst [answering a question on Stack Overflow](http://stackoverflow.com/q/25762823/75525) I realised that TypeScript enumerations may well catch a few people out. In particular, this:
 
-> “…Enum types are assignable to the Number primitive type, and vice versa, but different enum types are not assignable to each other…” – TypeScript Language Specification, 3.2.7
+> …Enum types are assignable to the Number primitive type, and vice versa, but different enum types are not assignable to each other… <cite>TypeScript Language Specification, 3.2.7</cite>
 
 This means that you can use any arbitrary number in place of an enum, which means you might choose a number that doesn’t actually exist. For example:
 

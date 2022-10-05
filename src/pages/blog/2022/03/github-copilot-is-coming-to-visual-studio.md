@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-03-29T18:48:24+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/03/copilot-fibbonaci.jpg
+bannerImage:
+    src: /i/x/2022/03/copilot-fibbonaci.jpg
+    alt: Copilot Fibbonaci example
 categories:
     - Visual Studio
 tags:

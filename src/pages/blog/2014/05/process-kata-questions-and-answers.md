@@ -23,7 +23,7 @@ One of the key outcomes of the process kata is an adjustment to any part of the 
 
 In a word; no.
 
-To simulate the real world issues we are likely to face we would be predicting the unpredictable. The kata is not the only opportunity to reflect and tune; the process will be changed frequently if real life breaks it or finds it wanting. A kata is just practice – an opportunity to become proficient when there is no consequence to failure. It would have been reckless to start our process on real work without having spent some time practising it.&lt;
+To simulate the real world issues we are likely to face we would be predicting the unpredictable. The kata is not the only opportunity to reflect and tune; the process will be changed frequently if real life breaks it or finds it wanting. A kata is just practice – an opportunity to become proficient when there is no consequence to failure. It would have been reckless to start our process on real work without having spent some time practising it.
 
 The process kata is a limited test of the process. The process itself should include a method for reflecting on the process and adjusting it to improve it.
 

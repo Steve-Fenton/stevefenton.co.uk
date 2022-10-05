@@ -54,7 +54,7 @@ You should now have a Coverage.xml file and an NCover.trend file stored in the l
 Follow these instructions to view the trends…
 
 - Open NCover Explorer
-- Click on “Coverage File” &gt; “Open” and browse to Coverage.xml
+- Click on “Coverage File” > “Open” and browse to Coverage.xml
 - Once you have loaded Coverage.xml, you can load the trend information
 - Click on “Load Trends” and browse to NCover.trend
 - Click on “Trends And Statistics” to view reports

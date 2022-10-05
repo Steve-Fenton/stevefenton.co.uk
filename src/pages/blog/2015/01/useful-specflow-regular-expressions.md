@@ -5,8 +5,6 @@ navMenu: false
 pubDate: 2015-01-31T16:22:01+00:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

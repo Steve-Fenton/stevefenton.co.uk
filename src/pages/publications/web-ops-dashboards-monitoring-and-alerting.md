@@ -12,7 +12,7 @@ description:
 
 If you are wondering which metrics are important, confused about the kind of chart you should add to your dashboards, or want to discover how to find and fix incidents before your customers even know there is a problem; this book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with, and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
 
-### Free Content
+## Free Content
 
 [Uptime and SLAs](/2017/12/uptime-and-slas/)
 
@@ -26,7 +26,7 @@ If you are wondering which metrics are important, confused about the kind of cha
 
 [Monitor Matrix](/2017/12/the-monitor-matrix/)
 
-### About the Book
+## About the Book
 
 The book covers the following web operations monitoring fundamentals, using examples in Datadog:
 

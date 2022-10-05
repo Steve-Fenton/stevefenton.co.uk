@@ -123,7 +123,7 @@ const result1 = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 const result2 = tryˀ(() => myObj.items[0].data, 'Default');
 ```
 
-### Summary
+## Summary
 
 This trick works in TypeScript and JavaScript. All you need to do is use whichever of the two options you prefer. When the feature lands for real you can easily find all places where you need to swap out the temporary chaining function.
 

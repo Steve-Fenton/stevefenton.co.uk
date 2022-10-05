@@ -20,7 +20,7 @@ So I wrote an answer that I thought covered all the points and supplied examples
 
 The person asking the original question didn’t feel that I had answered the question, but not only that they decided to get snarky about it
 
-> “It’s amazing how you verbosely managed to repeat all the same stuff I already said in my question without adding any value, let along answering it. Downvoted.”
+> It’s amazing how you verbosely managed to repeat all the same stuff I already said in my question without adding any value, let along answering it. Downvoted.
 
 A year or two ago I would have been upset by this. I would probably have responded in kind and the flame wars would have started. The thing is, I no longer take this stuff personally. I probably *did* misunderstand the question entirely and haven’t helped at all. I understand that this probably frustrated the person asking the question.
 
@@ -30,4 +30,4 @@ When someone gives you an answer that you think may be wrong, it is your respons
 
 So my response was a little different than it would have been. Rather than being defensive, snarky or rude – I simply apologised and guided them to improve the question.
 
-> “I’m sorry about that. Could you highlight to me the part of your question I haven’t answered?”
+> I’m sorry about that. Could you highlight to me the part of your question I haven’t answered?

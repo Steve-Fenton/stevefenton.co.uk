@@ -15,7 +15,7 @@ The original definition of Yak Shaving covered the common experience of finding 
 
 [Zed Shaw](http://www.cio.com/article/2437037/developer/you-used-ruby-to-write-what--.html) provides this excellent example:
 
-> “If you ever wanted to mail a letter, but couldn’t find a stamp, and had to drive your car to get the stamp, but also needed to refill the tank with gas, which then let you get to the post office where you could buy a stamp to mail your letter…”
+> If you ever wanted to mail a letter, but couldn’t find a stamp, and had to drive your car to get the stamp, but also needed to refill the tank with gas, which then let you get to the post office where you could buy a stamp to mail your letter…
 
 This is *classic Yak Shaving*. You need to do X, but have to complete Y first, but you need to do Z in order to unblock Y and so on…
 

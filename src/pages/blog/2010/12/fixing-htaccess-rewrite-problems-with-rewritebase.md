@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Fixing .htaccess rewrite problems with RewriteBase'
+navMenu: false
 pubDate: 2010-12-06T20:07:52+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=990'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

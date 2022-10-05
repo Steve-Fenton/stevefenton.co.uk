@@ -33,7 +33,7 @@ Another consideration is the cost of finding defects. Any test that you can auto
 
 Surprisingly, though, if you want to detect a serious proportion of defects at low cost, you should be looking at pair-programming, and code reviews (both formal and informal).
 
-> “…collaborative development practices in their various forms have been shown to find a higher percentage of errors than testing does, and they cost less than half as much per error found as testing does.” – McConnell (2004)
+> …collaborative development practices in their various forms have been shown to find a higher percentage of errors than testing does, and they cost less than half as much per error found as testing does. <cite>McConnell (2004)</cite>
 
 Remember though, you need to combine many methods to get the highest detection rates (the combination should definitely include these high-detection, low-cost methods though).
 

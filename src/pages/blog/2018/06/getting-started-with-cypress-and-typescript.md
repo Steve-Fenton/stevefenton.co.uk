@@ -20,7 +20,7 @@ Cypress is a front-end testing utility that allows you to write UI tests using M
 
 :img{src="/img/2018/06/cypress-tree.jpg" alt="Cypress Tree"}
 
-### Cypress NPM packages
+## Cypress NPM packages
 
 Your `package.json` file will need the following minimal development dependencies.
 

@@ -17,7 +17,7 @@ Frameworks and toolkits are great, because you get to do something complex in a 
 
 Let’s approach it from the stock answer everyone gets when they say “I’m trying to write something that does *x* but I can’t work out how to do *y*“:
 
-> “Why would you write your own *X* when you could just use *X-Framework*?!!”
+> Why would you write your own *X* when you could just use *X-Framework*?!!
 
 Actually, there is a really good reason to write one. The people that wrote the framework leaned things that the people who use the framework won’t learn by using it. If you write a unit testing framework, you learn things about language, design, and runtimes that people who *use* unit testing frameworks might never learn. If you write your own logging framework, you learn things about storage, consistency, and aggregation that people who use logging frameworks might never learn.
 

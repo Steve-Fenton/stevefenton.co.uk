@@ -17,7 +17,7 @@ If you are interested in performance, the most performant selector is the id-sel
 
 ## Element selectors
 
-These selectors are great for general CSS rules. They will apply to all elements that match a rule. In these examples I have used division “&lt;div&gt;” and paragraph “&lt;p&gt;” tags, but you can apply these rules to any type of element.
+These selectors are great for general CSS rules. They will apply to all elements that match a rule. In these examples I have used division `<div>` and paragraph `<p>` tags, but you can apply these rules to any type of element.
 
 ```css
 *
@@ -81,7 +81,7 @@ Note: You probably never need to specify div#myid to specifically select a div e
 
 ## Attribute selectors
 
-These selectors are useful if you want to get hold of an element of group of elements that don’t have any other distinguishing feature, but you might want to consider adding a class name somewhere instead. In these examples I use an anchor tag “&lt;a&gt;” to demonstrate the features.
+These selectors are useful if you want to get hold of an element of group of elements that don’t have any other distinguishing feature, but you might want to consider adding a class name somewhere instead. In these examples I use an anchor tag `<a>` to demonstrate the features.
 
 ```css
 a[rel]

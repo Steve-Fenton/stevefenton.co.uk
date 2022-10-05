@@ -15,7 +15,7 @@ If you haven’t started grabbing useful stuff via NuGet, you’re missing out. 
 
 The only problem is, many of the licenses for these NuGet packages contain the all important clause:
 
-> “The above copyright notice and this permission notice *shall be included* in all copies or substantial portions of the Software.”
+> The above copyright notice and this permission notice *shall be included* in all copies or substantial portions of the Software.
 
 So you have to include the copyright notice and sometimes the license notice when you distribute software that includes the software… but you probably aren’t doing this because the license itself is rarely included in the NuGet package – and when it is included, it isn’t set to copy to your output directory to help you to comply with the terms of the license.
 

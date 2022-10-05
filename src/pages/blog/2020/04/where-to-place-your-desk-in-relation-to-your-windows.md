@@ -15,7 +15,7 @@ tags:
 
 *Half-human, half-bird; the sirens lured hapless sailors to their destruction*. Your window could be doing the same to you in your new <abbr title="Working From Home">WFH</abbr> set up.
 
-Over the years I have been responsible for several office redesigns. The most common trigger for me to wade in and start moving furniture is the location of desks in relation to windows. When the *furniture police* (see Peopleware, DeMarco &amp; Tim Lister) first chuck desks into an office, they are normally just trying to fit in as many as they can. People can also become distracted by constraints that could easily be resolved, such as power socket positions and network ports; and these may well have been installed by prior generations of misguided facilities personnel. The result of this is desks with bad lighting.
+Over the years I have been responsible for several office redesigns. The most common trigger for me to wade in and start moving furniture is the location of desks in relation to windows. When the *furniture police* (see Peopleware, Tom DeMarco and Tim Lister) first chuck desks into an office, they are normally just trying to fit in as many as they can. People can also become distracted by constraints that could easily be resolved, such as power socket positions and network ports; and these may well have been installed by prior generations of misguided facilities personnel. The result of this is desks with bad lighting.
 
 *Bad lighting* is a classic Goldilocks scenario. You don’t want too little, you don’t want too much. You need to get just the right amount. Additionally, you need to be careful about which direction the light is coming from.
 

@@ -33,4 +33,4 @@ My personal machine-action is using the F12 key to “Go To Definition”, so I 
 }]
 ```
 
-You can add as many customisations as you like – and you can use File -&gt; Preferences -&gt; Keyboard Shortcuts to view the defaults (and this will also create your custom file in the correct location if you don’t have one there).
+You can add as many customisations as you like – and you can use File -> Preferences -> Keyboard Shortcuts to view the defaults (and this will also create your custom file in the correct location if you don’t have one there).

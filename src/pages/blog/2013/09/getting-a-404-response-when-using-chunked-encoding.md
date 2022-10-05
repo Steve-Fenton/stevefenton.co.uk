@@ -25,7 +25,7 @@ But a 404 error seemed odd – it didn’t even feature the “x-powered-by: asp
 
 A quick look at the documentation revealed that:
 
-> “UrlScan v3.1 failures result in 404 errors and not 500 errors. Searching for 404 errors in your W3SVC log will include failures due to UrlScan blocking.”
+> UrlScan v3.1 failures result in 404 errors and not 500 errors. Searching for 404 errors in your W3SVC log will include failures due to UrlScan blocking.
 
 And a check on the server confirmed that the extension was indeed installed (you can find it in a directory along the lines of… `C:\Windows\System32\inetsrv\URLScan`
 

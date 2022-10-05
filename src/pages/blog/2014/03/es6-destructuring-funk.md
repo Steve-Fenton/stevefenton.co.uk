@@ -5,9 +5,6 @@ title: 'ES6 destructuring funk'
 pubDate: 2014-03-17T22:30:39+00:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=374'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

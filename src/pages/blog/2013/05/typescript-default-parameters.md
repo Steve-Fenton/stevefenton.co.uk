@@ -28,7 +28,7 @@ findLastIndex(predicate: (T) => boolean, index: number = this.length): number {
 }
 ```
 
-You can ignore most of what you see here, it is taken from a TypeScript implementation of List&lt;T&gt;. The important bit is the second parameter, which has a default value of this.length. This is not a compile-time constant, but it is allowed in TypeScript. You could in fact use any of the following (and more along these same lines):
+You can ignore most of what you see here, it is taken from a TypeScript implementation of `List<T>`. The important bit is the second parameter, which has a default value of this.length. This is not a compile-time constant, but it is allowed in TypeScript. You could in fact use any of the following (and more along these same lines):
 
 - `(index: number = this.length)`
 - `(index: number = this.someMethod())`

@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2021-02-02T11:06:44+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/02/angel-interceptor.jpg
+bannerImage:
+    src: /i/x/2021/02/angel-interceptor.jpg
+    alt: Angel interceptor
 categories:
     - Programming
 tags:

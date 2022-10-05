@@ -77,7 +77,7 @@ Now we can restart the VM.
 
 ## Initialise disks in Disk Management
 
-Open up a session on the Virtual Machine and go to Start &gt; Computer Management and run it as an administrator.
+Open up a session on the Virtual Machine and go to Start > Computer Management and run it as an administrator.
 
 :img{src="/img/2020/08/run-computer-management-as-administrator.jpg" alt="Open Computer Management" loading="lazy"}
 
@@ -133,7 +133,7 @@ Now we start another remote desktop session on the Virtual Machine and stop SQL 
 net stop MSSQLSERVER
 ```
 
-We can now return to Computer Management &gt; Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
+We can now return to Computer Management > Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
 
 :img{src="/img/2020/08/change-drive-letter-and-paths.jpg" alt="Change Drive Letter" loading="lazy"}
 

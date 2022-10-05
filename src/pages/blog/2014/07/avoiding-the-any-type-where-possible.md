@@ -1,13 +1,10 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Avoiding the any type where possible'
+navMenu: false
 pubDate: 2014-07-14T21:39:08+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=318'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:
@@ -31,7 +28,7 @@ I have recommended the following style of TypeScript programming before, but I�
 
 There are some cases where the *any* type is needed. It is a useful transitional type for external code (you’ll see it is in fact my recommended first stage for creating a type definition). It is also useful for truly dynamic code and it can be used as a last-resort for squeezing a type assertion next to a type the compiler disagrees with. These cases, though, are rare. Most uses of any are incorrect and will…
 
-> “*…inject bugs like hell in your code; you are bypassing the type system.*” – [Mario Pastorelli](https://twitter.com/mapastr).
+> *…inject bugs like hell in your code; you are bypassing the type system.* <cite>[Mario Pastorelli](https://twitter.com/mapastr)</cite>
 
 So what if you do want to use a dynamic type… should you just use *any*? Here is an example Mario found in an article by Dave Fancher ([TypeScript: Bringing Sanity to JavaScript](http://davefancher.com/2014/07/11/typescript-bringing-sanity-to-javascript/)), which highlights the hazards of any:
 

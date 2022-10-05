@@ -49,7 +49,7 @@ You’ll see the task show up as shown below:
 
 :img{src="/img/2013/02/javascript-tests-gulp-visual-studio.png" alt="JavaScript Tests in Visual Studio with Gulp" loading="lazy"}
 
-To make things really sweet, you will probably want to run your tests every time you build. Just right click on the “test” task in Task Runner Explorer and select “Bindings” -&gt; “After Build”. This just adds the following comment to the top of your Gulp file, which Visual Studio uses to hook into the tasks:
+To make things really sweet, you will probably want to run your tests every time you build. Just right click on the “test” task in Task Runner Explorer and select “Bindings” > “After Build”. This just adds the following comment to the top of your Gulp file, which Visual Studio uses to hook into the tasks:
 
 ```javascript
 /// <binding AfterBuild='test' />
@@ -192,7 +192,7 @@ Just put this class somewhere your test project can get hold of.
 
 ### Reference Your Scripts
 
-In my test project, I created a folder named “ReferencedScripts” and referenced the scripts from the project being tested (add existing item &gt; add as link). Set the file to copy to the output folder.
+In my test project, I created a folder named “ReferencedScripts” and referenced the scripts from the project being tested (add existing item > add as link). Set the file to copy to the output folder.
 
 In my case, I’m referencing the following:
 

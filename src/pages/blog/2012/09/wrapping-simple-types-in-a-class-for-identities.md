@@ -5,9 +5,6 @@ navMenu: false
 pubDate: 2012-09-04T00:14:08+01:00
 authors:
     - steve-fenton
-guid: 'https://www.stevefenton.co.uk/?p=750'
-interface_sidebarlayout:
-    - default
 categories:
     - Programming
 tags:

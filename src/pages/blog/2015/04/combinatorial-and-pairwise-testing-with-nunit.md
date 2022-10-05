@@ -88,7 +88,7 @@ It is worth reading up on the pros and cons of pairwise testing, but given that 
 
 Here is a quick example that is a little more realistic – we’re going to make dinner. This example was taken from a training course written by James Skilton – he uses it to demonstrate combinatorial vs pairwise testing… and told me:
 
-> “Pairwise testing is a risk-based replacement for exhaustive testing, as it is not often practical, cost-effective, or realistic when compared to the risk model of the required solution”.
+> Pairwise testing is a risk-based replacement for exhaustive testing, as it is not often practical, cost-effective, or realistic when compared to the risk model of the required solution.
 
 The result of a combinatorial test is 26,244 tests (this took almost a minute to run in NUnit on top of generating the combinations). Using the pairwise approach instead resulted in 87 tests, which ran in under one second after generation of the tests).
 

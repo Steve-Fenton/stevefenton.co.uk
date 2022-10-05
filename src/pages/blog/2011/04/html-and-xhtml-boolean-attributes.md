@@ -43,6 +43,6 @@ This rule remains in HTML 5, where the following variations are allowed…
 <input type="text" name="example5" disabled>
 ```
 
-> “If the attribute is present, its value must either be the empty string or a value that is a case-insensitive match for the attribute’s canonical name, with no leading or trailing white-space.”
+> If the attribute is present, its value must either be the empty string or a value that is a case-insensitive match for the attribute’s canonical name, with no leading or trailing white-space.
 
 Personally, I think we should all stick to the simple minimised form (example 5). It works in all browsers, it doesn’t pretend to be XHTML and it doesn’t imply that the value of the attribute is useful. If the value of the attribute was true / false, it would make sense – but it isn’t and it doesn’t.

@@ -42,7 +42,7 @@ This updated code immediately resolves commonly cited problems with TypeScript�
 
 Similarly, there are examples littered with unnecessary type annotations. The TypeScript compiler is *super awesome at inferring types*, so your starting point for type annotations should be to:
 
-> “Switch on the *noImplicitAny* flag and only add types where the compiler prompts you!” – Steve Fenton, twice per day since October 2012\*.
+> Switch on the *noImplicitAny* flag and only add types where the compiler prompts you! <cite>Steve Fenton, twice per day since October 2012\*</cite>
 
 You know… [just embrace type inference in TypeScript because: IT’S AWESOME!](/2014/07/embrace-type-inference-in-typescript/)
 

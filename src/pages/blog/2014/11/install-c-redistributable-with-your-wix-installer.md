@@ -5,8 +5,6 @@ navMenu: false
 pubDate: 2014-11-03T20:22:24+00:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
 categories:
     - Automation
 tags:
@@ -33,7 +31,7 @@ In this case, it is the 2010 version, but there are version for older and newer 
 
 ## 2. DirectoryRef Merge Element
 
-You add the Merge element to a DirectoryRef element in your WiX project. The example below is nested as Product &gt; DirectoryRef &gt; Merge.
+You add the Merge element to a DirectoryRef element in your WiX project. The example below is nested as Product > DirectoryRef > Merge.
 
 ```xml
 <DirectoryRef Id="TARGETDIR">
@@ -46,7 +44,7 @@ You add the Merge element to a DirectoryRef element in your WiX project. The exa
 
 ## 3. Feature MergeRef Element
 
-The feature element includes the merge module in your install (and in this case hides it from any feature list you present in the installation UI – it wouldn’t be good if it were to be de-selected!) Again, the nesting is Product &gt; Feature &gt; MergeRef.
+The feature element includes the merge module in your install (and in this case hides it from any feature list you present in the installation UI – it wouldn’t be good if it were to be de-selected!) Again, the nesting is Product > Feature > MergeRef.
 
 ```xml
 <Feature Id="VCRedist" 

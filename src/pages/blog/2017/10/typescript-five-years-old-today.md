@@ -13,7 +13,7 @@ tags:
 
 Five years ago today ([1st October 2012](https://blogs.msdn.microsoft.com/somasegar/2012/10/01/typescript-javascript-development-at-application-scale/)), Microsoft publicly announced the TypeScript programming language. I was overjoyed, as I had been looking at Coffescript and Dart, but TypeScript looked different.
 
-> “…TypeScript reviews appeared positive, with developer Steve Fenton calling it a ‘great new take on the JavaScript problem’, and ‘the first that doesn’t assume that JavaScript is a problem in the first place’. He said TypeScript ‘just adds some syntactic sugar that makes the development experience more productive’.”
+> …TypeScript reviews appeared positive, with developer Steve Fenton calling it a ‘great new take on the JavaScript problem’, and ‘the first that doesn’t assume that JavaScript is a problem in the first place’. He said TypeScript ‘just adds some syntactic sugar that makes the development experience more productive’.
 
 My enthusiasm for the language has grown as it has matured. Being able to see the thought process under-the-hood of the language design has helped me to better understand programming languages in general. You’d be hard-pressed to find a smarter team working on any programming language. On top of this, it has the backing of Microsoft, the seal-of-approval of Google’s Angular team, and the transparency of a true open-source approach.
 

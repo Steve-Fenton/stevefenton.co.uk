@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-02-17T20:00:41+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/02/raw-string-literals.jpg
+bannerImage:
+    src: /i/x/2022/02/raw-string-literals.jpg
+    alt: Raw string literals
 categories:
     - Programming
 tags:
@@ -43,7 +45,7 @@ While this is in preview, you shouldn’t use it for your day job, just to explo
 
 I am using a “>” in the output examples to help visualise white-space treatment, as there are some features that allow you to control this.
 
-### Using a raw string literal
+## Using a raw string literal
 
 We can update this example with C# 11 to use raw string literals. We just start the string with *at least* three quotes:
 
@@ -154,7 +156,7 @@ Remember you can use more than 3 quotes if your string contains a series of thre
 
 ## Appendix A – Example console code
 
-The below example can be pasted into a simple .NET 6 console application to demonstrate the different handling of strings as described above. Sometimes just running some code can answer a lot of questions. The output is numbered and wrapped in &gt;&gt; and <summary>Example code</summary>
+The below example can be pasted into a simple .NET 6 console application to demonstrate the different handling of strings as described above. Sometimes just running some code can answer a lot of questions. The output is numbered and wrapped in `>>` and `<<`.
 
 ```csharp
 string example;

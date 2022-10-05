@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-03-23T13:51:28+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/03/markdown-all-in-one.jpg
+bannerImage:
+    src: /i/x/2022/03/markdown-all-in-one.jpg
+    alt: Markdown all in one
 categories:
     - Programming
 tags:

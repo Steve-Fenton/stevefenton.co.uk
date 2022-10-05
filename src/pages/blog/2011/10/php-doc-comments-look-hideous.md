@@ -23,7 +23,7 @@ There are lots of examples online of doc blocks, but in order to make doc blocks
 /**
  * An instance of this class represents a counting machine
  *
- * &lt;code>
+ * <code>
  * require_once 'CountingMachine.php';
  *
  * $cm = new CountingMachine( 10 );
@@ -31,7 +31,7 @@ There are lots of examples online of doc blocks, but in order to make doc blocks
  * $cm->addNum( 20 );
  *
  * echo $cm->getTotal();
- * &lt;/code>
+ * </code>
  *
  * @author NAME REMOVED TO PROTECT THE INNOCENT
  */  

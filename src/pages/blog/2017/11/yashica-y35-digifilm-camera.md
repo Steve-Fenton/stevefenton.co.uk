@@ -24,7 +24,7 @@ I could do things with the Yashica that I never managed with other cameras. I’
 
 And this is why the Yashica Y35 digiFILM camera caught my eye…
 
-> “You like taking photos, and wishing the time still. But what I want is to capture the moment, and to remember the long-lasting feel.” – The Silence of Story
+> You like taking photos, and wishing the time still. But what I want is to capture the moment, and to remember the long-lasting feel. <cite>The Silence of Story</cite>
 
 :img{src="/img/2017/11/yashica-y35-digifilm.jpg" alt="Yashica Y35 digiFILM" loading="lazy"}
 

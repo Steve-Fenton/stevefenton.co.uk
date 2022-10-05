@@ -19,7 +19,7 @@ So I have run the experiments, talked to the experts and come up with a reasonab
 
 For your main boxes, you want to get double-wall strong cardboard boxes that are 18″ x 12″ x 12″. (46cm x 30cm x 30cm). This is a reasonably small size, but it will suit the most things. Books, kitchen-ware, gadgets, laptops, printers, consoles, folders, toys, games, clothes, *stuff* – it will all fit in there without generating a heavy box or a half-filled box. This is an important tip from the experts…
 
-> “Fill all of your boxes right up, because they’ll stack better.”
+> Fill all of your boxes right up, because they’ll stack better.
 
 To follow this rule, small boxes are better than big boxes.
 

@@ -13,7 +13,7 @@ tags:
 
 I wrote about this originally in Pro TypeScript, but the question seems pretty common, so I am repeating it here with greater emphasis.
 
-> “When you need to preserve the scope of a callback, prefer to preserve it when setting up the callback, not by adjusting the class itself.” – Me, just this second.
+> When you need to preserve the scope of a callback, prefer to preserve it when setting up the callback, not by adjusting the class itself. <cite>Steve Fenton, just this second</cite>
 
 Here is an example that demonstrates the problem. I have used a simple timeout, but this applies to events (like onclick).
 
@@ -119,4 +119,4 @@ document.body.onclick = function() {
 
 So to summarise, my recommendation is:
 
-> “When you need to preserve the scope of a callback, prefer to preserve it when setting up the callback, not by adjusting the class itself.”
+> When you need to preserve the scope of a callback, prefer to preserve it when setting up the callback, not by adjusting the class itself.

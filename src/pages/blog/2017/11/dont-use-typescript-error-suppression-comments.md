@@ -24,7 +24,7 @@ if (false) {
 
 This feature had been avoided for some time, as mentioned in the [2.6 release note](https://blogs.msdn.microsoft.com/typescript/2017/10/31/announcing-typescript-2-6/):
 
-> “Historically, we’ve avoided error suppression within TypeScript because most cases where users have asked for it could be solved through more accurate declaration files or using a type assertion to any.”
+> Historically, we’ve avoided error suppression within TypeScript because most cases where users have asked for it could be solved through more accurate declaration files or using a type assertion to any.
 
 Of course, the other way to avoid needing this feature is to fix the underlying problem the compiler has detected.
 

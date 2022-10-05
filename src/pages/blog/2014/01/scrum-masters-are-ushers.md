@@ -17,7 +17,7 @@ I am currently reading Scrum Mastery by Geoff Watts and the description Geoff gi
 
 The metaphor is that of an usher:
 
-> “Ushers assist visitors by formally showing the way in a large building or to their appropriate seats. This may coincide with a security role.” – [Wikipedia](http://en.wikipedia.org/wiki/Usher_%28occupation%29)
+> Ushers assist visitors by formally showing the way in a large building or to their appropriate seats. This may coincide with a security role. [Wikipedia](http://en.wikipedia.org/wiki/Usher_%28occupation%29)
 
 This is a good description of a Scrum Master. The vast majority of the role is helping others: giving people directions, showing them to their seats, answering questions, helping to reduce distractions. A much smaller part of the role is helping people to adhere to the social culture, which means largely sticking to the rules that the majority of the people present support: keeping reasonably quiet, staying off the stage and remaining seated – whatever is appropriate in the given circumstances.
 

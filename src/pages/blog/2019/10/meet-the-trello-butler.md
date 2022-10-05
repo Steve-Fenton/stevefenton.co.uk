@@ -5,7 +5,8 @@ navMenu: false
 pubDate: 2019-10-16T08:56:03+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2019/10/trello-butler-workflow-automation.jpg
+bannerImage:
+    src: /i/x/2019/10/trello-butler-workflow-automation.jpg
 categories:
     - Automation
 tags:

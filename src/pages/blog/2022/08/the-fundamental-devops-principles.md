@@ -80,7 +80,7 @@ These white papers can be downloaded for free from Octopus Deploy.
 - [How to map your deployment pipeline](https://octopus.com/whitepapers/lv-how-to-map-your-deployment-pipeline): In this white paper I discuss some practical steps you can take to start creating a deployment pipeline.
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops): In this white paper I discuss some of the principles and practices of good metric design and share some well-designed ways to measure Continuous Delivery and DevOps.
 
-### Further reading
+## Further reading
 
 - [Automation Philosophy](/2015/02/automation-philosophy/)
 - [Test Automation Philosophy](/2015/02/test-automation-philosophy/)

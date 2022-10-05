@@ -33,7 +33,7 @@ September 2017
 React DOM, the React newsletter, featured Pro TypeScript in their list of the best TypeScript books and tutorials. They said:
 
 > Pro TypeScript starts at the very basics of TypeScript, introducing TypeScript and all its major features. It starts with object oriented programming and compilers going through everything in between. This book covers everything you need to consider while building and running a TypeScript application. Pro TypeScript even goes into design patterns, best practices and adding automated testing to your TypeScript app.
-> 
+>
 > Pro TypeScript is a great book for both beginners and advanced TypeScript developers. This is a book that is very through and is ideal for those that have no prior experience or knowledge of TypeScript. Pro TypeScript is a practical guide to TypeScript that will take you closer to becoming a TypeScript Professional.
 
 ## What Pixel – Top Ten TypeScript Books
@@ -75,7 +75,7 @@ Henry Garner gives a quick mention to some of my opinions on pie charts in his C
 July 2015  
 Duncan P. Bradshaw has immortalized me in the zombie novel, Class Four: Those Who Survive. I am not one of those who survive!
 
-> “Class Four: Those Who Survive, is a total blast of a novel from beginning to end and, like its predecessor, is one of the better interpretations of the zombie apocalypse” – Ginger Nuts of Horror
+> Class Four: Those Who Survive, is a total blast of a novel from beginning to end and, like its predecessor, is one of the better interpretations of the zombie apocalypse <cite>Ginger Nuts of Horror</cite>
 
 [View Class Four on Amazon](https://www.amazon.co.uk/dp/B00ZPBVJD6/).
 
@@ -91,7 +91,7 @@ Manas Pathak mentions my take on pie charts in this introduction to data science
 March 2015  
 Natali Vlatko talks about #NoEstimates and mentions some of my thoughts on the subject (along with those of some of the #NoEstimates thought leaders).
 
-> “Fenton advises that to eventually work without estimates requires a building of trust that may not already exist, therefore you shouldn’t be aiming for #NoEstimates without it. He feels the anger that has been thrust upon the topic has come out of a misunderstanding of the framework, with people interpreting the phrase ‘some teams have found that they don’t need to use estimates’ as ‘YOU must stop using estimates’.”
+> Fenton advises that to eventually work without estimates requires a building of trust that may not already exist, therefore you shouldn’t be aiming for #NoEstimates without it. He feels the anger that has been thrust upon the topic has come out of a misunderstanding of the framework, with people interpreting the phrase ‘some teams have found that they don’t need to use estimates’ as ‘YOU must stop using estimates’.
 
 [Read the full article on JAXenter](http://jaxenter.com/role-estimates-software-development-115345.html).
 
@@ -100,7 +100,7 @@ Natali Vlatko talks about #NoEstimates and mentions some of my thoughts on the s
 January 2015  
 Rob Moore mentioned my Unit Testing Epiphany article in a post discussing Ian Cooper’s “TDD Where Did it all Go Wrong” talk.
 
-> “Ian suggests that the original TDD Flow outlined by Kent Beck has been lost in translation by most people. This is summed up nicely by Steve Fenton in his summary of Ian’s talk (highlight mine)…”
+> Ian suggests that the original TDD Flow outlined by Kent Beck has been lost in translation by most people. This is summed up nicely by Steve Fenton in his summary of Ian’s talk
 
 [Read the full article on Rob’s website](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/).
 
@@ -109,7 +109,7 @@ Rob Moore mentioned my Unit Testing Epiphany article in a post discussing Ian Co
 March 2014  
 Franky kindly recommended my InfoQ book, TypeScript for C# Programmers.
 
-> “Great book that in less than hundred pages, explains to me how to code in TypeScript. I feel so comfortable already I will add TypeScript in my next web project, and I will strongly recommend this book to everyone.”
+> Great book that in less than hundred pages, explains to me how to code in TypeScript. I feel so comfortable already I will add TypeScript in my next web project, and I will strongly recommend this book to everyone.
 
 [Read the article on Franky’s Notes](http://www.frankysnotes.com/2014/03/reading-notes-132.html)
 
@@ -118,7 +118,7 @@ Franky kindly recommended my InfoQ book, TypeScript for C# Programmers.
 February 2014  
 Ryan O’Neill reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 
-> “If you just want the summary, get the book, it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast. This book was my introduction to TypeScript and has enabled me to build a lot of tested JavaScript. If you are unsure if you need TypeScript then read on.”
+> If you just want the summary, get the book, it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast. This book was my introduction to TypeScript and has enabled me to build a lot of tested JavaScript. If you are unsure if you need TypeScript then read on.
 
 [Read the full review in Ryan’s article](https://web.archive.org/web/20160318141933/http://ryanoneill.com/typescript-succintly/).
 
@@ -127,7 +127,7 @@ Ryan O’Neill reviewed my free TypeScript Succinctly ebook, available from Sync
 August 2013  
 Microsoft gave a shout-out for my free TypeScript Succinctly ebook, available from Syncfusion.
 
-> “The e-book is specifically aimed at .NET developers, based on version 0.9 of Typescript.”
+> The e-book is specifically aimed at .NET developers, based on version 0.9 of Typescript.
 
 [Read the article on Microsoft.com](http://www.microsoft.com/germany/visualstudio/aktuell/news/show.aspx?id=msdn_de_49962)
 
@@ -136,7 +136,7 @@ Microsoft gave a shout-out for my free TypeScript Succinctly ebook, available fr
 August 2013  
 Corrado reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 
-> “The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it, it starts from what happens under the hood: how code is transformed into pure ECMAScript compatible JavaScript and vice versa to how to start writing some code in Visual Studio after installing the required extension.”
+> The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it, it starts from what happens under the hood: how code is transformed into pure ECMAScript compatible JavaScript and vice versa to how to start writing some code in Visual Studio after installing the required extension.
 
 [Read the article on Corrado’s Blog](http://codeworks.it/blog/?p=145)
 
@@ -145,7 +145,7 @@ Corrado reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 17th June 2013  
 Fokko Veegens kindly mentioned my articles on unit testing after speaking at SDN Conference.
 
-> “…During my talk at the SDN conference, I told about misconceptions regarding unit testing. Some people were looking at me with a frown when I told this. I would like to refer to the blog of Steve Fenton who wrote about this subject and I rate his post on this topic quite high.”
+> …During my talk at the SDN conference, I told about misconceptions regarding unit testing. Some people were looking at me with a frown when I told this. I would like to refer to the blog of Steve Fenton who wrote about this subject and I rate his post on this topic quite high.
 
 [Read the full article in Fokko’s View on ALM…](http://veegens.wordpress.com/2013/06/17/sdn-june-2013-conference-additional-links/).
 
@@ -154,7 +154,7 @@ Fokko Veegens kindly mentioned my articles on unit testing after speaking at SDN
 2nd October 2012  
 I was quoted in an article in .NET Magazine on the new TypeScript language:
 
-> “…Steve Fenton calling it a “great new take on the JavaScript problem”, and “the first that doesn’t assume that JavaScript is a problem in the first place”. He said TypeScript “just adds some syntactic sugar that makes the development experience more productive”.”
+> …Steve Fenton calling it a “great new take on the JavaScript problem”, and “the first that doesn’t assume that JavaScript is a problem in the first place”. He said TypeScript “just adds some syntactic sugar that makes the development experience more productive”.
 
 [Read the full article in .NET Magazine…](http://www.creativebloq.com/javascript/microsoft-unveils-typescript-10126055).
 

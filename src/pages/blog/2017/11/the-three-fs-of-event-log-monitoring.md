@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2017-11-06T05:00:07+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2017/11/Three-Fs.png
+bannerImage:
+    src: /i/x/2017/11/Three-Fs.png
+    alt: The three Fs of event log monitoring
 categories:
     - Automation
     - Programming

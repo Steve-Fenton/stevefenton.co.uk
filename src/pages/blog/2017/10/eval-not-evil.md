@@ -38,7 +38,7 @@ const functionQueue = [
     'myFunction2'
 ];
 
-for (let i = 0; i &lt; functionQueue.length; i++) {
+for (let i = 0; i < functionQueue.length; i++) {
     const func = functionQueue[i] + '()';
     eval(func);
 }
@@ -66,7 +66,7 @@ const functionQueue = [
     myFunction2
 ];
 
-for (let i = 0; i &lt; functionQueue.length; i++) {
+for (let i = 0; i < functionQueue.length; i++) {
     functionQueue[i]();
 }
 ```
@@ -102,7 +102,7 @@ function functionFactory(functionName) {
     return functionMap[functionName];
 }
 
-for (let i = 0; i &lt; functionQueue.length; i++) {
+for (let i = 0; i < functionQueue.length; i++) {
      functionFactory(functionQueue[i])();
 }
 ```

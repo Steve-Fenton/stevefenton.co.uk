@@ -25,7 +25,7 @@ Here are the steps you need to set this up. It takes less than 30 minutes.
 
 Add the IIS Role to your server, including:
 
-Application Development -&gt; WebSocket Protocol
+Application Development -> WebSocket Protocol
 
 Install the [URL Rewrite IIS Extension](https://www.iis.net/downloads/microsoft/url-rewrite)
 

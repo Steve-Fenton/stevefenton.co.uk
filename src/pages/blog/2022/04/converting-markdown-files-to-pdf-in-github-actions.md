@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-04-14T13:24:36+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/04/github-action-complete.jpg
+bannerImage:
+  src: /i/x/2022/04/github-action-complete.jpg
+  alt: GitHub actions
 categories:
     - Programming
 tags:

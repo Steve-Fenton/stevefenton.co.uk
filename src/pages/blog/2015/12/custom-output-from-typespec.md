@@ -33,7 +33,7 @@ export class CustomTestReporter extends TestReporter {
 
     error(featureTitle: string, condition: string, error: Error) {
         var div = document.createElement('div');
-        div.innerHTML = '<h2>' + featureTitle + '</h2><blockquote>' + this.escape(condition) + '</blockquote><pre class="bad">' + this.escape(error.message) + '&gt;/pre>';
+        div.innerHTML = '<h2>' + featureTitle + '</h2><blockquote>' + this.escape(condition) + '</blockquote><pre class="bad">' + this.escape(error.message) + '</pre>';
         document.getElementById('errors').appendChild(div);
     }
 

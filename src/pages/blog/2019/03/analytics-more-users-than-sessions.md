@@ -42,7 +42,7 @@ When you create a dashboard, you can filter the widgets to get the information y
 
 :img{src="/img/2019/02/widget-filter.png" alt="Widget Filter" loading="lazy"}
 
-For example, if you had a dashboard to view traffic for a particular browser, you might add the filter “Only show -&gt; Browser -&gt; Containing -&gt; Chrome”. When you do this, the number changes *but the title doesn’t change to indicate the filter!*. You can manually change the title, which helps, but you can forget to do that too. Here’s the dashboard with the browser filter applied to “Sessions” but not to “Users”.
+For example, if you had a dashboard to view traffic for a particular browser, you might add the filter “Only show -> Browser -> Containing -> Chrome”. When you do this, the number changes *but the title doesn’t change to indicate the filter!*. You can manually change the title, which helps, but you can forget to do that too. Here’s the dashboard with the browser filter applied to “Sessions” but not to “Users”.
 
 :img{src="/img/2019/02/dashboard002.png" alt="Confusing analytics dashboard" loading="lazy"}
 

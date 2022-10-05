@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-01-04T13:16:00+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/01/reassigned-variable.jpg
+bannerImage:
+    src: /i/x/2022/01/reassigned-variable.jpg
+    alt: Reassigned variable
 categories:
     - Programming
     - 'Visual Studio'
@@ -50,6 +52,6 @@ Here is a screenshot to show this in action, you’ll see the `notAfter` variabl
 
 ## How to enable this feature
 
-You can enable this feature in **Tools -&gt; Options** by navigating to **Text Editor -&gt; C# -&gt; Advanced** and selecting the option **Underline reassigned variables**.
+You can enable this feature in **Tools -> Options** by navigating to **Text Editor -> C# -> Advanced** and selecting the option **Underline reassigned variables**.
 
 :img{src="/img/2022/01/underline-reassignments.jpg" alt="Finding the underline reassigned variables option in the options dialog" loading="lazy"}

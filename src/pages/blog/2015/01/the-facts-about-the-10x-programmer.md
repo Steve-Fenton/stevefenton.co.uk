@@ -5,9 +5,9 @@ navMenu: false
 pubDate: 2015-01-11T16:45:49+00:00
 authors:
     - steve-fenton
-interface_sidebarlayout:
-    - default
-image: /wp-content/uploads/2015/01/clock.jpg
+bannerImage:
+    src: /i/x/2015/01/clock.jpg
+    alt: Clock
 categories:
     - Programming
 tags:

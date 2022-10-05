@@ -18,7 +18,7 @@ Update! As of February 2016, you should be able to use the standard “NuGet Ins
 
 ## The new way
 
-Add the Nuget Installer build task, which can be found under “Add build step” -&gt; “Package”. You will need to supply a NuGet.config file with the address of your custom feed:
+Add the Nuget Installer build task, which can be found under “Add build step” -> “Package”. You will need to supply a NuGet.config file with the address of your custom feed:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

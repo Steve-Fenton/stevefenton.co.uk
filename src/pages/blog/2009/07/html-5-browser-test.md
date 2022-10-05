@@ -57,6 +57,6 @@ In these cases, the website does display, but with limited graphical support and
 - Opera 7.54
 - Seamonkey 1.1.9
 
-### No support
+## No support
 
 No browsers were found that failed to display the content.

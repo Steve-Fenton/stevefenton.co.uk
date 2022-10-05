@@ -25,7 +25,7 @@ The DITE cycle sums up all of this into the following four stages, which repeat 
 
 The cycle is simple. You have some information. You realise something that the information might suggest. You formalise that realisation into a testable statement. You test it. The data that pops out of the end of your first cycle feeds straight back into the start of the next one. Boom.
 
-That’s the DITE cycle. Data -&gt; Insight -&gt; Theory -&gt; Experiment.
+That’s the DITE cycle. Data -> Insight -> Theory -> Experiment.
 
 :img{src="/img/2019/08/dite-cycle.jpg" alt="Data -> Insight -> Theory -> Experiment" loading="lazy"}
 

@@ -23,4 +23,4 @@ There is, however, a plethora of plugins that will give you this option.
 
 If you have ReSharper, you can use `CTRL` + `W` to widen the current selection and `CTRL` + `SHIFT` + `W` to narrow the selection.
 
-If you don’t have ReSharper, grap [Coderush Xpress from DevExpress](https://www.devexpress.com/Products/CodeRush/), which uses (by default…) `CTRL` + `ALT` + `=` to widen and `CTRL` + `ALT` + `-` to narrow. Of course, a quick trip into “Options &gt; Shortcuts &gt; Selection” and you can map this to match IntelliJ and ReSharper and you’ll never have to remember the difference.
+If you don’t have ReSharper, grap [Coderush Xpress from DevExpress](https://www.devexpress.com/Products/CodeRush/), which uses (by default…) `CTRL` + `ALT` + `=` to widen and `CTRL` + `ALT` + `-` to narrow. Of course, a quick trip into “Options > Shortcuts > Selection” and you can map this to match IntelliJ and ReSharper and you’ll never have to remember the difference.

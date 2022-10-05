@@ -16,7 +16,7 @@ This is a quick article that describes how to use the ace [NuGet Packager](https
 
 ## Step One
 
-Download *NuGet Packager using Tools &gt; Extensions and Updates &gt; Online* (search for “NuGet Packager”).
+Download *NuGet Packager using Tools > Extensions and Updates > Online* (search for “NuGet Packager”).
 
 ## Step Two
 

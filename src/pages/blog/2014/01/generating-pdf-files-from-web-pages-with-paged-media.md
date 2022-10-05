@@ -15,7 +15,7 @@ tags:
     - pdf
 ---
 
-Having recently starting [adding CSS Paged Media to web pages](http://www.stevefenton.co.uk/Content/Blog/Date/201312/Blog/Printing-Web-Pages-With-The-Paged-Media-Module/), and [generating dynamic headers from page content](http://www.stevefenton.co.uk/Content/Blog/Date/201312/Blog/Using-CSS-Paged-Media-To-Add-Dynamic-Headers/) – I had a need to push the results of this to PDF. The use-case was two-fold, one was to generate a whole batch of PDFs to “print later” and the other was for sending the content for review, safe in the knowledge it would print correctly.
+Having recently starting [adding CSS Paged Media to web pages](/blog/2013/12/printing-web-pages-with-the-paged-media-module/), and [generating dynamic headers from page content](/blog/date/2013/12/using-css-paged-media-to-add-dynamic-headers/) – I had a need to push the results of this to PDF. The use-case was two-fold, one was to generate a whole batch of PDFs to “print later” and the other was for sending the content for review, safe in the knowledge it would print correctly.
 
 Having reviewed a very long list of free and paid HTML to PDF conversion tools I found one that really nails the CSS Paged Media Module, HTML5, CSS and images all in one go: [Prince (Print with CSS)](http://www.princexml.com/) – it actually supports paged media better than all the current web browsers. Good job.
 

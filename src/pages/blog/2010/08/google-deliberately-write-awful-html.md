@@ -31,7 +31,7 @@ The most obvious problem in this respect is that there are no external styleshee
 
 ## Un-escaped Ampersands
 
-The ampersands in this document (&amp;) have not been escaped (&amp;amp;).
+The ampersands in this document (`&`) have not been escaped (`&amp;`).
 
 ### Why?
 

@@ -25,6 +25,6 @@ When you let go over the side-by-side docking option, you’ll have the TypeScri
 
 :img{src="/img/2015/07/ts-side-by-side-result.png" alt="Side by Side TypeScript Result" loading="lazy"}
 
-When the JavaScript file changes, Visual Studio will helpfully pop up a message telling you it has changed and asking if you want to re-load the file. Of course you want to re-load the file – so head to Tools &gt; Options &gt; Environment &gt; Documents and select the “Auto-load changes, if saved” option.
+When the JavaScript file changes, Visual Studio will helpfully pop up a message telling you it has changed and asking if you want to re-load the file. Of course you want to re-load the file – so head to Tools > Options > Environment > Documents and select the “Auto-load changes, if saved” option.
 
 :img{src="/img/2015/07/ts-auto-load-changes.png" alt="Auto-Load Changes" loading="lazy"}

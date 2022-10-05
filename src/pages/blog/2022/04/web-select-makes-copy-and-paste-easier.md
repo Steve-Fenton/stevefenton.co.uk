@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-04-04T19:46:35+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/04/web-select-table.jpg
+bannerImage:
+    src: /i/x/2022/04/web-select-table.jpg
+    alt: Web select grabbing a table
 categories:
     - Browsers
 tags:

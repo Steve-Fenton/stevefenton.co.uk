@@ -90,7 +90,7 @@ named class Duck {
 
 Now the Duck class (or any class or interface marked with the “named” keyword) would be nominal and would not be compatible with an identical structure. No need for a private member – this type is nominal.
 
-### A Bridge Too Far
+## A Bridge Too Far
 
 The keyword could also be used to create a nominal-style restriction locally to a method or type annotation, although this is a bridge too far and opens up a whole can or worms when it comes to whether the type is nominal when calling the method, when used inside the method, when used inside of a method called from this method and so on…
 

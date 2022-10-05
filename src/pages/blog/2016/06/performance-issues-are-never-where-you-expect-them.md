@@ -18,7 +18,7 @@ Donald Knuth has become one of my go-to quotes recently\* in respect of optimisa
 
 The problem with most optimisation ideas is that they are not driven by need. You may look at a routine and think it could be faster, but even if it is; the chances are the overall performance of your application will not be any different. Even worse is if the optimisation also impacts the clarity of the code. Even worse if the optimisation introduces a defect.
 
-So the pecking order is “Working” &gt; “Clear” and forget about performance… unless you can measure an actual performance problem.
+So the pecking order is “Working” > “Clear” and forget about performance… unless you can measure an actual performance problem.
 
 When you get into the habit of letting measurable performance characteristics drive your optimisation, you’ll soon find out that the fix is never in any of the places you *wanted* to optimise… and the optimisation is probably a lot less glamorous than you were hoping.
 

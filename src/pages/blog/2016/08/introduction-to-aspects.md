@@ -38,7 +38,7 @@ So Aspects are a way to manage the transition and further development of communi
 
 ## Community of Practice
 
-The idea of Aspects starts with a community of practice. The idea of a community of practice was devised by cognitive anthropologists Jean Lave and Etienne Wenger, who describe both naturally forming communities of interest as well as those created with the specific goal of generating learning opportunities (Lave &amp; Wenger, *Situated Learning*, 1991).
+The idea of Aspects starts with a community of practice. The idea of a community of practice was devised by cognitive anthropologists Jean Lave and Etienne Wenger, who describe both naturally forming communities of interest as well as those created with the specific goal of generating learning opportunities (Lave and Wenger, *Situated Learning*, 1991).
 
 The Community of Practice is the widest band of classification in Aspects, and includes all individuals who are interested in a subject, whether it a part of their job role or not.
 

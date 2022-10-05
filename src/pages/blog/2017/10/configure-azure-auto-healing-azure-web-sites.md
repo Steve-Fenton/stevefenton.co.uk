@@ -99,11 +99,11 @@ Here are the standard examples for you to take a look at…
 
 ## <del>Kudu</del>
 
-<del>You can also set up auto-healing in Kudu, by navigating to Kudu -&gt; Tools -&gt; Support, selecting the application you want to configure, and opening the Mitigate tab:</del>
+<del>You can also set up auto-healing in Kudu, by navigating to Kudu -> Tools -> Support, selecting the application you want to configure, and opening the Mitigate tab:</del>
 
 ## <del>Diagnostic Tools</del>
 
-<del>The auto-heal options have now moved into the main Azure portal. Navigate to the app service and select “Diagnose and solve problems”. This will bring up several options, but auto-heal is found under Diagnostic Tools &gt; Auto Healing. The new UI features a wizard for setting up the auto-healing conditions. It also allows you to see the configuration in one view, so you don’t need to skip between the trigger and action tabs.</del>
+<del>The auto-heal options have now moved into the main Azure portal. Navigate to the app service and select “Diagnose and solve problems”. This will bring up several options, but auto-heal is found under Diagnostic Tools > Auto Healing. The new UI features a wizard for setting up the auto-healing conditions. It also allows you to see the configuration in one view, so you don’t need to skip between the trigger and action tabs.</del>
 
 ## Diagnose and solve problems
 

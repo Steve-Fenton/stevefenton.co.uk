@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2021-03-08T16:00:38+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2021/03/colour-map.png
+bannerImage:
+    src: /i/x/2021/03/colour-map.png
+    alt: Colour map
 categories:
     - Programming
 tags:

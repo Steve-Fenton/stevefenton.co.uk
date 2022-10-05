@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2019-10-26T17:00:54+01:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2019/10/complexity.jpg
+bannerImage:
+    src: /i/x/2019/10/complexity.jpg
+    alt: Complexity
 categories:
     - Programming
 tags:

@@ -5,7 +5,9 @@ navMenu: false
 pubDate: 2022-01-28T09:05:26+00:00
 authors:
     - steve-fenton
-image: /wp-content/uploads/2022/01/task-board.jpg
+bannerImage:
+    src: /i/x/2022/01/task-board.jpg
+    alt: Task board
 categories:
     - Process
 tags:

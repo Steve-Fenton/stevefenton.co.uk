@@ -11,15 +11,15 @@ Here's some of the older books, which aren't generally available any more.
 
 ## TypeScript Succinctly
 
-> “…it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast” – [Ryan O’Neill](http://ryanoneill.com/typescript-succintly/)
+> …it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast <cite>[Ryan O’Neill](http://ryanoneill.com/typescript-succintly/)</cite>
 
 And…
 
-> “The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it.” – [Corrado](http://codeworks.it/blog/?p=145)
+> The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it. <cite>[Corrado](http://codeworks.it/blog/?p=145)</cite>
 
 ## The Reason Your Website Sucks
 
-> “I wouldn’t put myself in the category of web developer or designer I just run a couple of websites for myself and other people. I found this book very informative and easy to read, there is no technical jargon, just explanations of common problems and how to solve them. It mostly highlighted (apparently common) mistakes I’d made with my websites and allowed me to correct them. I’d recommend this book to anyone who owns a website, it doesn’t take too long to read so there really are no excuses.” – [Online Review (Amazon)](https://www.amazon.co.uk/review/R18KRLCLB771DJ/)
+> I wouldn’t put myself in the category of web developer or designer I just run a couple of websites for myself and other people. I found this book very informative and easy to read, there is no technical jargon, just explanations of common problems and how to solve them. It mostly highlighted (apparently common) mistakes I’d made with my websites and allowed me to correct them. I’d recommend this book to anyone who owns a website, it doesn’t take too long to read so there really are no excuses. <cite>[Online Review (Amazon)](https://www.amazon.co.uk/review/R18KRLCLB771DJ/)</cite>
 
 The Reason Your Website Sucks – Practical advice for website owners, has been published as a paperback and also as a digital download. Contains exclusive illustrations by artist Gill Gregory as well as a ton of useful information for website owners.
 
