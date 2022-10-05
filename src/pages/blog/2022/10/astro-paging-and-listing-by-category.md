@@ -3,6 +3,9 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Astro paging and listing by category'
 pubDate: 2022-10-02T11:05:05+01:00
+bannerImage:
+  src: /img/2022/10/astro.png
+  alt: The Astro rocket logo
 authors:
     - steve-fenton
 categories:
