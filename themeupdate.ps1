@@ -27,4 +27,5 @@ robocopy $srcComponents $destComponents
 robocopy $srcLayouts $destLayouts
 
 robocopy $srcUtils $destUtils *.astro
+robocopy $srcUtils $destUtils *.js
 

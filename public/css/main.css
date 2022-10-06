@@ -114,6 +114,8 @@ h1 {
     text-decoration-color: var(--icon-block);
     text-decoration-line: underline;
     text-decoration-thickness: 0.2em;
+    text-align: left;
+    max-width: 10em;
 }
 
 h2 {
@@ -586,16 +588,26 @@ form.site-search button {
 }
 
 .post-list .list-item[data-image='true'] .list-item-image {
-    background-color: var(--icon-block);
+    background-color: var(--aft-head);
     padding: 1.5rem;
 }
 
-.post-list .list-item-image img {
+.post-list .list-item .list-item-image img {
     width: 100%;
     min-height: 100%;
     object-fit: cover;
     filter: grayscale(1);
     box-shadow: var(--box-shadow);
+}
+
+.post-list .list-item:hover .list-item-image,
+.post-list .list-item:focus-within .list-item-image {
+    background-color: var(--icon-block);
+}
+
+.post-list .list-item:hover .list-item-image img,
+.post-list .list-item:focus-within .list-item-image img {
+    filter: grayscale(0);
 }
 
 @media (max-width: 680px) {
@@ -678,6 +690,7 @@ form.site-search button {
     color: var(--link-head);
     background-color: var(--aft-head);
     padding: 0.1em 0.7em;
+    text-decoration: none;
 }
 
 .post-taxonomy a:hover, 
@@ -798,5 +811,10 @@ pre.astro-code code {
     .post-list .list-item, main img, main blockquote, main .note {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
+    }
+
+    .post-list .list-item[data-image='true'] .list-item-image,
+    .post-list .list-item .list-item-image img {
+        transition: all 0.2s ease-in-out;
     }
 }
