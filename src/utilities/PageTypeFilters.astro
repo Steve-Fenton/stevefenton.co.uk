@@ -45,7 +45,6 @@ export const isSearch = (p: MarkdownInstance<Record<string, any>>) => {
 }
 
 export const sortByPubDate = (a: MarkdownInstance<Record<string, any>>, b: MarkdownInstance<Record<string, any>>) => {
-  console.log(a.frontmatter.title, a.frontmatter.pubDate);
   return b.frontmatter.pubDate.localeCompare(a.frontmatter.pubDate);
 }
 

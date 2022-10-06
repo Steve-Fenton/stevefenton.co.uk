@@ -8,11 +8,13 @@
 $location = Get-Location
 
 $src = '../astro-accelerator/'
-$srcC = $src + 'src/themes/accelerator/components'
-$srcL = $src + 'src/themes/accelerator/layouts'
+$srcComponents = $src + 'src/themes/accelerator/components'
+$srcLayouts = $src + 'src/themes/accelerator/layouts'
+$srcUtils = $src + 'src/utilities'
 
-$destC = './src/themes/accelerator/components'
-$destL= './src/themes/accelerator/layouts'
+$destComponents = './src/themes/accelerator/components'
+$destLayouts = './src/themes/accelerator/layouts'
+$destUtils = './src/utilities'
 
 cd $src
 
@@ -20,7 +22,9 @@ git pull
 
 cd $location
 
-robocopy $srcC $destC
+robocopy $srcComponents $destComponents
 
-robocopy $srcL $destL
+robocopy $srcLayouts $destLayouts
+
+robocopy $srcUtils $destUtils *.astro
 
