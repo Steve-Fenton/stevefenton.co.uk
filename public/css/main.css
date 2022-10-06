@@ -598,6 +598,7 @@ form.site-search button {
     object-fit: cover;
     filter: grayscale(1);
     box-shadow: var(--box-shadow);
+    transform: rotate(-3deg);
 }
 
 .post-list .list-item:hover .list-item-image,
@@ -608,6 +609,8 @@ form.site-search button {
 .post-list .list-item:hover .list-item-image img,
 .post-list .list-item:focus-within .list-item-image img {
     filter: grayscale(0);
+    transform: rotate(3deg);
+    scale: 1.2;
 }
 
 @media (max-width: 680px) {
