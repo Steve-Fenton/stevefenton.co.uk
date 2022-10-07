@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'How to RegEx replace in Visual Studio Code'
+navMenu: false
 pubDate: 2022-10-07
 keywords: regex,visual studio code,vscode,replace
 description: Find out how to perform a complex search and replace in Visual Studio Code using a RegEx.
 bannerImage:
-  src: /img/2022/10/preview-replacements.png
-  alt: Visual Studio Code providing a preview of RegEx replacements
+    src: /img/2022/10/preview-replacements.png
+    alt: Visual Studio Code providing a preview of RegEx replacements
 authors:
     - steve-fenton
 categories:
@@ -20,7 +20,7 @@ tags:
 
 A major benefit of keeping your content in markdown files is the ability to find and replace across all your content at once. This post covers an advanced use case for this, where you want to replace wrapping content while keeping the middle the same.
 
-To demonstrate how to use :abbr[RegEx]{title="Regular Expressions"} search and replace to do an advanced replacement, we're going to convert a markdown image into an HTML image wrapped in a containing element. This isn't what I used it for, but my use case was a little esoteric.
+To demonstrate how to use :abbr[RegEx]{title="Regular Expressions"} search and replace to do an advanced replacement, you're going to convert a markdown image into an HTML image wrapped in a containing element. This isn't what I used it for, but my use case was a little esoteric.
 
 Before
 
@@ -36,7 +36,7 @@ Desired result
 </div>
 ```
 
-The reason this is interesting is we need to replace some parts of the original content, but also preserve some of the content from the middle.
+The reason this is interesting is you need to replace some parts of the original content, but also preserve some of the content from the middle.
 
 The mental map of this is:
 
@@ -77,17 +77,17 @@ It's best to craft your search RegEx in Visual Studio Code's find-mode. Hit <kbd
 
 You need to enable the RegEx mode, which has the dot-star icon: `.*` on the search all box. It's highlighted in the above image.
 
-Now we need to write our RegEx, and Visual Studio Code will highlight matches as we type. We can experiment safely here.
+Now you need to write your RegEx, and Visual Studio Code will highlight matches as you type. You can experiment safely here.
 
 Start by typing `\n` into the search field. This just matches line breaks. Then add the markdown for the start of an image, so you have `\n![`.
 
-Here you'll get an error because `[` is a special RegEx character. That's find, we can escape it with a back-slash '\`.
+Here you'll get an error because `[` is a special RegEx character. That's fine, you can escape it with a back-slash '\`.
 
 Your search should now be `\n!\[`, which you can pronounce as "newline (`\n`), literal bang (`!`), escaped square bracket (`\[`)". It's always best to think of a RegEx in small parts.
 
-This matches the start, but the middle bit will change for each image. We'll need to match "any stuff" but also capture the value to use later. Our capture group will be `(.+?)` and we'll end it by closing our open square bracket `\]`.
+This matches the start, but the middle bit will change for each image. You'll need to match "any stuff" but also capture the value to use later. Our capture group will be `(.+?)` and you'll end it by closing your open square bracket `\]`.
 
-Your complete RegEx is taking shape. We now have:
+Your complete RegEx is taking shape. You now have:
 
 ```
 \n!\[(.+?)\]
@@ -100,9 +100,9 @@ And Visual Studio Code should be highlighting at least some of your images:
 :figcaption[An example of highlighting]
 :::
 
-This is working, so keep going. We've now got the start of the image, with the alt-text captured. You just need the rest, which is just a case of repeating what you did for the square brackets, but for normal parantheses. We need to match an escaped bracket `\(` then capture the contents with `(.+?)` until our closing bracket `\)`.
+This is working, so keep going. You've now got the start of the image, with the alt-text captured. You just need the rest, which is just a case of repeating what you did for the square brackets, but for normal parantheses. You need to match an escaped bracket `\(` then capture the contents with `(.+?)` until your closing bracket `\)`.
 
-Finally, because we want to only consider images on their own line, we need to make sure there's a line break next, using another `\n`.
+Finally, because you want to only consider images on their own line, you need to make sure there's a line break next, using another `\n`.
 
 Here's the final RegEx:
 
@@ -129,7 +129,7 @@ You should see the whole image highlighted, but not any inline images in your ma
 :figcaption[Highlighting for the complete example]
 :::
 
-Now we leave the safety of our search box and execute a replace, so have version control at the ready for those times when things go wrong.
+Now you must leave the safety of your search box and execute a replace, so have version control at the ready for those times when things go wrong.
 
 ## Pre-flight checks
 
@@ -157,7 +157,7 @@ As you want to wrap your image in a `div` element, use the following replacement
 \n<div class="image">\n<img src="$1" alt="$2" />\n</div>\n
 ```
 
-Before you hit the replace-all button, you can click through the find results to preview what the change looks like. Because the first thing we look for is a blank line, the list of changes looks a little empty, so I've highlighted where to click with a green box.
+Before you hit the replace-all button, you can click through the find results to preview what the change looks like. Because the first thing you look for is a blank line, the list of changes looks a little empty, so I've highlighted where to click with a green box.
 
 :::figure
 :img{src="/img/2022/10/preview-replacements.png" alt="Preview the replacements" loading="lazy"}

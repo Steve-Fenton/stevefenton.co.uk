@@ -1,21 +1,21 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Astro paging and listing by category'
-pubDate: 2022-10-02T11:05:05+01:00
+navMenu: false
+pubDate: 2022-10-02
 keywords: astro,static site generator,paging,listing
 description: Take a look at how Astro handles pages and lists.
 bannerImage:
   src: /img/2022/10/milky-way.png
   alt: The Astro rocket logo
 authors:
-    - steve-fenton
+  - steve-fenton
 categories:
-    - Programming
+  - Programming
 tags:
-    - Astro
-    - JavaScript
-    - TypeScript
+  - Astro
+  - JavaScript
+  - TypeScript
 ---
 
 When you have blogs, articles, news, or similar collections of posts in Astro, you can generate paged lists of these items automatically. The mechanism to do this involves two key components.
@@ -25,9 +25,9 @@ When you have blogs, articles, news, or similar collections of posts in Astro, y
 
 ## File path tokens
 
-Let’s call our collection “articles” for these examples. We don’t want one long list of articles, we want to provide pages of articles with the most recent ones first.
+Let’s call our collection “articles” for these examples. You don’t want one long list of articles, you want to provide pages of articles with the most recent ones first.
 
-We can create pages that will be found at the following addresses:
+You can create pages that will be found at the following addresses:
 
 ```
 /pages/articles/1/
@@ -90,7 +90,7 @@ In the above example, we filter and sort the posts we found with `Astro.glob`. I
 
 But what if we want to add category lists?
 
-We just need to do a little more work in our function.
+You just need to do a little more work in our function.
 
 The example below is broken into three chunks… get all the posts, then find a list of categories based on them, and then create a paginate instance for each category with a filtered list of posts.
 

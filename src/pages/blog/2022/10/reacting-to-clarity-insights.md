@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Reacting to Clarity insights'
+navMenu: false
 pubDate: 2022-10-08
 keywords: microsoft,clarity,insights,dead clicks
 description: See how you can improve your website by reacting to insights from Microsoft Clarity.
 bannerImage:
-  src: /img/2022/10/clarity-dead-clicks.png
-  alt: A chart on Microsoft Clarity showing dead clicks
+    src: /img/2022/10/clarity-dead-clicks.png
+    alt: A chart on Microsoft Clarity showing dead clicks
 authors:
     - steve-fenton
 categories:
@@ -81,7 +81,7 @@ Let's take a look at an example.
 
 ## Resolving a dead clicks issue
 
-Clarity suggested I had a problem with dead clicks. More than 30% of sessions had dead clicks, so I spent some time reviewing the replays to see what was going on.
+Clarity suggested I had a problem with dead clicks. More than 30% of sessions had dead clicks (I didn't screen shot this result quick enough, so the chart below is some time after the fix). I spent some time reviewing the replays to see what was going on.
 
 :::figure{.inset}
 :img{src="/img/2022/10/clarity-dead-clicks.png" alt="A chart on Microsoft Clarity showing dead clicks" loading="lazy"}
@@ -98,7 +98,7 @@ Here are some of the causes of dead clicks on my site.
 - Code blocks. Lots of people visit the site to find code or a command because that's the problem they are solving.
 
 :::note
-It is sometimes hard to make sense of what a user is doing. Their mouse is flying across the screen in seemingly random directions. However, this could be the result of their input device (we don't all use a mouse) or it might just represent their "I'm thinking" dance, like tapping fingers or wiggling your hand while you absorb the amazing content you found. Jigglers, wigglers, and alternate input devices... you are all welcome.
+It is sometimes hard to make sense of what a user is doing. Their mouse is flying across the screen in seemingly random directions. However, this could be the result of their input device (not everyone uses a mouse) or it might just represent their "I'm thinking" dance, like tapping fingers or wiggling your hand while you absorb the amazing content you found. Jigglers, wigglers, and alternate input devices... you are all welcome.
 :::
 
 This last item, code blocks, is telling me that users want to copy the code samples and commands that I've put on my website. Some do this by dragging to highlight code in the code blocks, expert users do a similar drag motion in the left margin (as this grabs entire lines at a time).
@@ -135,7 +135,7 @@ Here's some key points:
 
 Even in the time it took to write the article, the dead clicks metric was dropping. Just 24% when I took the screenshot and under 20% when I finished typing. The fix was working.
 
-Don't just collect data; do something with it. If you can detect small sources of friction on your website and remove them, you'll make The Web better. Rather than everyone being frustrated with this amazing planet-spanning source of information, we can bring back the joys of discovery.
+Don't just collect data; do something with it. If you can detect small sources of friction on your website and remove them, you'll make The Web better. Rather than everyone being frustrated with this amazing planet-spanning source of information, we can bring back the joy of discovering things online.
 
 Let's all spend one hour this week making something better!
 

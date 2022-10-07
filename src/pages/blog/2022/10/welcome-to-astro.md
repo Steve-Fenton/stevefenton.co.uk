@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Welcome to my Astro site'
+navMenu: false
 pubDate: 2022-10-05
 keywords: astro,static site generator,islands
 description: A quick overview of Astro, which I'm now using for my website.
 bannerImage:
-  src: /img/2022/10/astro-accelerator.png
-  alt: A screenshot from the Astro Accelerator
+    src: /img/2022/10/astro-accelerator.png
+    alt: A screenshot from the Astro Accelerator
 authors:
     - steve-fenton
 categories:

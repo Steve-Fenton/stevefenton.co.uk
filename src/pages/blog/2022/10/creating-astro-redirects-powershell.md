@@ -1,13 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-navMenu: false
 title: 'Creating lots of Astro redirects with PowerShell'
+navMenu: false
 pubDate: 2022-10-04
 keywords: astro,static site generator,redirects
 description: Find out how to generate lots of redirects in Astro using a PowerShell script.
 bannerImage:
-  src: /img/2022/10/astro.png
-  alt: The Astro rocket logo
+    src: /img/2022/10/astro.png
+    alt: The Astro rocket logo
 authors:
     - steve-fenton
 categories:
