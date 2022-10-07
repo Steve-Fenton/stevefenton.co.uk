@@ -3,6 +3,8 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'How to RegEx replace in Visual Studio Code'
 pubDate: 2022-10-07
+keywords: regex,visual studio code,vscode,replace
+description: Find out how to perform a complex search and replace in Visual Studio Code using a RegEx.
 bannerImage:
   src: /img/2022/10/preview-replacements.png
   alt: Visual Studio Code providing a preview of RegEx replacements
@@ -68,8 +70,9 @@ Now you're ready to go big on find and replace.
 
 It's best to craft your search RegEx in Visual Studio Code's find-mode. Hit <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> to open the "search all" box.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2022/10/vscode-search-all-mode.png" alt="Visual Studio Code search all box"}
+:figcaption[The search all box]
 :::
 
 You need to enable the RegEx mode, which has the dot-star icon: `.*` on the search all box. It's highlighted in the above image.
@@ -92,7 +95,10 @@ Your complete RegEx is taking shape. We now have:
 
 And Visual Studio Code should be highlighting at least some of your images:
 
+:::figure
 :img{src="/img/2022/10/vs-code-regex-highlighting.png" alt="Visual Studio Code RegEx highlighting" loading="lazy"}
+:figcaption[An example of highlighting]
+:::
 
 This is working, so keep going. We've now got the start of the image, with the alt-text captured. You just need the rest, which is just a case of repeating what you did for the square brackets, but for normal parantheses. We need to match an escaped bracket `\(` then capture the contents with `(.+?)` until our closing bracket `\)`.
 
@@ -118,7 +124,10 @@ Out loud, it's:
 
 You should see the whole image highlighted, but not any inline images in your markdown.
 
+:::figure
 :img{src="/img/2022/10/vscode-complete-regex-example.png" alt="Example of highlighting for the complete RegEx" loading="lazy"}
+:figcaption[Highlighting for the complete example]
+:::
 
 Now we leave the safety of our search box and execute a replace, so have version control at the ready for those times when things go wrong.
 
@@ -134,9 +143,7 @@ Check you have Visual Studio Code open on a folder where you want to replace eve
 
 The next limiting action you can take is to expand the additional options and limit replacements by file type. For example, you only want to do this against markdown files, so add `**/*.md` to this option.
 
-Finally, review the matches shown below your search and replace options as this is a good place to spot trouble breweing.
-
-:img{src="/img/2022/10/pre-flight-checks.png" alt="Pre-flight checks" loading="lazy"}
+Finally, review the matches listed in the panel as this is a good place to spot trouble breweing.
 
 ## Using capture groups in replace
 
@@ -152,7 +159,10 @@ As you want to wrap your image in a `div` element, use the following replacement
 
 Before you hit the replace-all button, you can click through the find results to preview what the change looks like. Because the first thing we look for is a blank line, the list of changes looks a little empty, so I've highlighted where to click with a green box.
 
+:::figure
 :img{src="/img/2022/10/preview-replacements.png" alt="Preview the replacements" loading="lazy"}
+:figcaption[Preview a replacement by selecting it]
+:::
 
 If things look as you expect, proceed with the change.
 
@@ -167,7 +177,7 @@ Remember:
 
 When you finish your review, you can commit your changes (or discard them if something went terribly wrong).
 
-## Summary
+## Summing up
 
 Although RegEx makes some people feel a bit sick and nervous, using a speak-aloud process of reading a RegEx makes it less scary.
 

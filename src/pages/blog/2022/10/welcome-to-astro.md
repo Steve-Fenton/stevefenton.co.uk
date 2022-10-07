@@ -3,6 +3,8 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Welcome to my Astro site'
 pubDate: 2022-10-05
+keywords: astro,static site generator,islands
+description: A quick overview of Astro, which I'm now using for my website.
 bannerImage:
   src: /img/2022/10/astro-accelerator.png
   alt: A screenshot from the Astro Accelerator
@@ -123,8 +125,9 @@ And that's Astro in a nutshell. It can be super simple, or you can add utilities
 
 If you want to kick start your fun with Astro, I have created an Astro Accelerator project, which is what I've used to jump start this website.
 
-:::div{.inset}
-:img{src="/img/2022/10/astro-accelerator.png" alt="A screenshot of the Astro Accelerator" loading="lazy"}
+:::figure{.inset}
+:img{src="/img/2022/10/astro-accelerator.png" alt="A screenshot of Astro Accelerator" loading="lazy"}
+:figcaption[Astro Accelerator]
 :::
 
 You can [see the Astro Accelerator in action](https://astro.stevefenton.co.uk/) or grab the [Astro Accelerator on GitHub](https://github.com/Steve-Fenton/astro-accelerator).

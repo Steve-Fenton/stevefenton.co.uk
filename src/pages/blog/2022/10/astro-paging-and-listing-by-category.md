@@ -3,8 +3,10 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Astro paging and listing by category'
 pubDate: 2022-10-02T11:05:05+01:00
+keywords: astro,static site generator,paging,listing
+description: Take a look at how Astro handles pages and lists.
 bannerImage:
-  src: /img/2022/10/astro.png
+  src: /img/2022/10/milky-way.png
   alt: The Astro rocket logo
 authors:
     - steve-fenton
@@ -126,7 +128,7 @@ export async function getStaticPaths({ paginate }: any) {
 }
 ```
 
-## Summary
+## Summing up
 
 The combination of file path tokens and the `getStaticPaths` function, with their shared params / tokens is what powers the generation of paged lists.
 

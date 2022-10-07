@@ -11,7 +11,9 @@ I’m not a business, I’m just a normal human. Just an innnocent human\*. Howe
 
 I don’t collect data for marketing purposes, although you can [buy my books](/publications/) if you choose to look at them and buy them.
 
-The tools provided for free by Google allow me to find errors on my pages and get a general idea of how the population of awesome web people use my website. Google have a [privacy policy](https://policies.google.com/privacy) that covers how they use your data. I personally never know who you are based on the aggregated data Google show me. I have configured Google to use anonymisation of IP addresses and turned off ad personalisation signals.
+I'm using Microsoft Clarity to collect insights about my site (but not my users). You can read [Microsoft'sprivacy statement](https://privacy.microsoft.com/en-GB/privacystatement) and you can opt out by selecting "Microsoft" on the [Digital Advertising Alliance website](https://optout.aboutads.info/?c=2&lang=EN).
+
+I'm currently migrating away from Google Analytics due to the EU court cases. Until this is complete, the tools provided for free by Google allow me to find errors on my pages and get a general idea of how the population of awesome web people use my website. Google have a [privacy policy](https://policies.google.com/privacy) that covers how they use your data. I personally never know who you are based on the aggregated data Google show me. I have configured Google to use anonymisation of IP addresses and turned off ad personalisation signals.
 
 ## Browser Extensions
 

@@ -3,6 +3,8 @@ layout: src/layouts/Default.astro
 navMenu: false
 title: 'Creating lots of Astro redirects with PowerShell'
 pubDate: 2022-10-04
+keywords: astro,static site generator,redirects
+description: Find out how to generate lots of redirects in Astro using a PowerShell script.
 bannerImage:
   src: /img/2022/10/astro.png
   alt: The Astro rocket logo
@@ -103,3 +105,9 @@ foreach($file in $files) {
 Amazingly, it took less than a second to update over 800 files.
 
 Your situation may differ, but some of this might be useful.
+
+## Summing up
+
+Even though Astro is a static site generator (with bells and whistles added on), you can redirect old or broken web requests to the correct place using meta redirects.
+
+When you need to redirect a lot of content, you can generate the redirects with a script.

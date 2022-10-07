@@ -4,15 +4,8 @@ Review the documentation at [astro.stevefenton.co.uk](https://astro.stevefenton.
 
 ## TODO
 
-Look out for...
+Posts with no tags 
 
-blockquotes with quote > " (and smart quotes)
+Retire GA
 
-youtube videos youtube and youtu.be - make sure they will work with YT embed script
-
-posts with no tags
-
-medium_post:
-guid:
-
-whitelist / white-list -> allow list
+Post cleansing (starting from most recent) has reached... 2022/10

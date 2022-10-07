@@ -19,7 +19,7 @@ I can see why people do it – it seems like the right thing to do when you have
 
 ## Indecent Exposure
 
-Aside: as of 2015, ASP.NET MVC allows you to white-list the fields you will accept back from the view using a comma-separated list of field names. I’m not a fan of this, as you’d need to update this string each time a field name was changed.
+Aside: as of 2015, ASP.NET MVC allows you to  allow list the fields you will accept back from the view using a comma-separated list of field names. I’m not a fan of this, as you’d need to update this string each time a field name was changed.
 
 The main reason to avoid this common mistake is that it accidentally exposes data for editing that you might not want changed. It’s practical example time.
 
