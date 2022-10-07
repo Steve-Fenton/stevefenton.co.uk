@@ -90,7 +90,7 @@ This matches the start, but the middle bit will change for each image. We'll nee
 
 Your complete RegEx is taking shape. We now have:
 
-```regex
+```
 \n!\[(.+?)\]
 ```
 
@@ -106,7 +106,7 @@ Finally, because we want to only consider images on their own line, we need to m
 
 Here's the final RegEx:
 
-```regex
+```
 \n!\[(.+?)\]\((.+?)\)\n
 ```
 
