@@ -21,7 +21,9 @@ The second part of *The Snap* is a more philosophical one. This is the realisati
 
 The study found (perhaps unsurprisingly) that ~80% of drivers believe they are safer *than average*, and more than 90% believe they are more skilled *than average*. If humans could predict their skill accurately, you would expect a normal distribution in the below chart. Instead, though, it is heavily skewed to the right-hand side.
 
+:::div{.inset}
 :img{src="/img/2020/08/Screenshot_20200829-111439.png" alt="The Dunning-Kruger Snap" loading="lazy"}
+:::
 
 So, the second half of the snap is realising that illusory superiority *and* The Dunning-Kruger Effect both apply to *you*. It’s the ultimate self-realisation. It will hopefully lead you to have more empathy for other people and prevent you from weaponising the concepts.
 

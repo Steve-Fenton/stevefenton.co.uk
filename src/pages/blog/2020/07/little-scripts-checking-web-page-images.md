@@ -117,6 +117,8 @@ checkAllImages();
 
 Here’s an example of it running against my home page:
 
+:::div{.inset}
 :img{src="/img/2020/07/check-images.jpg" alt="Result of Checking Images" loading="lazy"}
+:::
 
 Yikes! I need to go fix those images.

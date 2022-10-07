@@ -25,7 +25,9 @@ Hound is written in .NET standard 2.0, which makes it pretty portable. You can g
 
 First, install the NuGet package… there are lots of ways to do this these days, but I’ll show the package manager version here. Feel free to use a package explorer, or your preferred flavour of command. This is for version 0.1.2, which is current at the time of writing.
 
+:::div{.inset}
 :img{src="/img/2018/03/hound.png" alt="Hound NuGet Package" loading="lazy"}
+:::
 
 The icon for Hound is taken from the album cover of *Park it Where You Like*, by 90s band *dog!*
 
@@ -35,7 +37,9 @@ Install-Package Hound -Version 0.1.2
 
 Second, store your Datadog API key somewhere as you’ll need that. I create a custom key so I can control access. You can add a separate key on the Datadog portal in Integrations -> API -> API Keys -> New API Key. You only need an API key and not an application key for Hound.
 
+:::div{.inset}
 :img{src="/img/2018/03/datadog-new-api-key.png" alt="Datadog New API Key Screen" loading="lazy"}
+:::
 
 And finally, log your exception. The exception will be logged to Datadog via the API.
 

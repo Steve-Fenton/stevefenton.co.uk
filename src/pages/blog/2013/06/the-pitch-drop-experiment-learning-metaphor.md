@@ -11,7 +11,9 @@ tags:
     - leadership
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/pitch-drop.jpg" alt="Pitch Drop Experiment"}
+:::
 
 Professor John Mainstone has been spending a great deal of time watching a slowly forming droplet of pitch, in an experiment started by Professor Thomas Parnell in 1927 to study the substance. The pitch was actually given three years to settle before the study started in 1930, but in the following 83 years there were a whopping nine drops (including those drops that occurred inconveniently while Professor Mainstone was away). That is about one drop every nine years.
 

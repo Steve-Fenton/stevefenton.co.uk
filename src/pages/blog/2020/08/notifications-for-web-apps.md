@@ -78,6 +78,8 @@ function showNotification(title, message, link) {
 }
 ```
 
+:::div{.inset}
 :img{src="/img/2020/08/web-notification.jpg" alt="Web Notification" loading="lazy"}
+:::
 
 The notifications feature is [reasonably well supported](https://caniuse.com/#feat=notifications) on desktop and even has some support on mobile. In any case, you should be design robustly as if it’s not there in case either (a) you don’t have the user’s consent for notifications, or (b) they have disabled notifications at the operating system level (i.e. you can disable all notifications on Windows).

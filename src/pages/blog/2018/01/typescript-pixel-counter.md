@@ -82,7 +82,9 @@ The UI is pretty unrefined for the Pixel Counter – I gave it a progress bar (w
 
 Here is an example of the output.
 
+:::div{.inset}
 :img{src="/img/2018/01/output.png" alt="Pixel Counter Output" loading="lazy"}
+:::
 
 ## Enhancements
 

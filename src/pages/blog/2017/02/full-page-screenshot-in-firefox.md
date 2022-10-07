@@ -16,11 +16,15 @@ If you are pasting multiple screenshots of a web page into a single view, you sh
 
 You can enable it in the developer tools, which are available behind the F12 button:
 
+:::div{.inset}
 :img{src="/img/2017/01/screenshot-settings.png" alt="Screenshot settings"}
+:::
 
 This adds a camera icon to the developer tools:
 
+:::div{.inset}
 :img{src="/img/2017/01/screenshot-icon.png" alt="Screenshot icon" loading="lazy"}
+:::
 
 And when you press it, you get the whole page in one go in your downloads folder:
 

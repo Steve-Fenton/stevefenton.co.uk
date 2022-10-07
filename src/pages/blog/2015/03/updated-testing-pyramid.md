@@ -14,7 +14,9 @@ tags:
 
 You can hardly spend five minutes talking about test automation without someone bringing up the [testing pyramid](http://martinfowler.com/bliki/TestPyramid.html). The testing pyramid was devised by Mike Cohn and it is a good foundation for thinking of test automation. Here is the original version.
 
+:::div{.inset}
 :img{src="/img/2015/07/testing-pyramid-original.png" alt="Classic Testing Pyramid"}
+:::
 
 The pyramid says, do plenty of unit testing, quite a bit less at the service level, and just a smattering of UI tests. There is nothing utterly wrong with this, except people have become too devout.
 
@@ -22,7 +24,9 @@ So the pyramid needs to be updated for current times. The actual idea behind the
 
 Here is the updated testing pyramid, which stays true to the intent of the original but is stated just slightly more abstractly.
 
+:::div{.inset}
 :img{src="/img/2015/07/testing-pyramid.png" alt="Updated Testing Pyramid" loading="lazy"}
+:::
 
 The updated version prefers faster execution and malleability. The term malleable describes metal that can be hammered into shape without cracking – and this is exactly the kind of test automation you need. If your test automation isn’t malleable it will either inhibit changes to the application, require expensive rework, or just get binned.
 

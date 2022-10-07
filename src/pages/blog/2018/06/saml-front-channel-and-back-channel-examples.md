@@ -25,7 +25,9 @@ The basic mechanism is pretty simple; but it sometimes helps to overlay the sequ
 
 Front-channel SAML is performed in full view of the user agent. The UA follows instructions to perform an exchange of information. It is the user agent that passes the data between the other parties, as shown below:
 
+:::div{.inset}
 :img{src="/img/2018/06/SAML-front-channel-overview.png" alt="SAML Front Channel Overview" loading="lazy"}
+:::
 
 The two unspecified parts of this diagram are the exact mechanisms for:
 
@@ -36,7 +38,9 @@ The two mechanisms for communication are HTTP redirects, and form POSTs. The HTT
 
 Let’s re-paint the overview with some imaginary addresses:
 
+:::div{.inset}
 :img{src="/img/2018/06/SAML-front-channel-example.png" alt="SAML Front Channel Example" loading="lazy"}
+:::
 
 Although the contents of the SAML request and assertion form are omitted, this picture is a bit easier to follow.
 
@@ -46,11 +50,15 @@ The key difference with back-channel SAML is additional direct communication bet
 
 Because the back-channel can be secured, and because the assertion is not visible to the user agent, this makes things more secure.
 
+:::div{.inset}
 :img{src="/img/2018/06/SAML-back-channel-overview.png" alt="SAML Back Channel Overview" loading="lazy"}
+:::
 
 Let’s overlay the back-channel sequence with the sample addresses:
 
+:::div{.inset}
 :img{src="/img/2018/06/SAML-back-channel-example.png" alt="SAML Back Channel Example" loading="lazy"}
+:::
 
 ## Options
 

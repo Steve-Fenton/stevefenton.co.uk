@@ -38,7 +38,9 @@ const htmlElement: HTMLElement = path[0];
 
 An `SVGPathElement` doth not an `HTMLElement` make. In fact, both of these are sub-classes of `Element`.
 
+:::div{.inset}
 :img{src="/img/2020/04/element-class-hierarchy.jpg" alt="Element Class Hierarchy" loading="lazy"}
+:::
 
 Now, the jQuery documentation states that for `jQuery( selector [, context ] )` the function…
 

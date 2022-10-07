@@ -46,15 +46,21 @@ The relationships can be described with the following examples.
 
 The relationship for a single team is shown below. Complexity increases as more active services are managed by a single team. The more you hope to escape Conway’s Law, the more the complexity hurts.
 
+:::div{.inset}
 :img{src="/img/2019/10/complexity-for-single-team.jpg" alt="Complexity increases as more services are added to a single team" loading="lazy"}
+:::
 
 The relationship for a larger number of teams is illustrated below. Where we have five teams, we can survive give-or-take two either way. But if there are too-few services, or too-many services we increase the otherwise manageable complexity.
 
+:::div{.inset}
 :img{src="/img/2019/10/complexity-for-five-teams.jpg" alt="For five teams, complexity increases beyond a manageable level when there are too many, or too few services" loading="lazy"}
+:::
 
 The complexity curve follows the assertion that the further you deviate from the team-per-service organisation design, the more complex things will become; no matter whether it is too many teams for the number of services, or vice versa.
 
+:::div{.inset}
 :img{src="/img/2019/10/complexity-curve.jpg" alt="Complexity is symmetrical based on deviation from balanced team and service numbers" loading="lazy"}
+:::
 
 Comparing these figures to real-world examples, I would propose that single-digit complexity is likely to be necessary.
 
@@ -78,6 +84,8 @@ Another technique is to assess fixed contracts vs fluid contracts. If you have a
 
 ## Summary
 
+:::div{.inset}
 :img{src="/img/2019/10/complexity.jpg" alt="Complexity: Microservices vs Conway Test" loading="lazy"}
+:::
 
 Having been careful to consider Conway’s law, I have avoided designing teams and architecture in isolation of each other. I believe this is the only way to ensure the design of both is successful. If you don’t balance the design on both sides (the technology on one side and the people on the other), the complexity is damaging to both.

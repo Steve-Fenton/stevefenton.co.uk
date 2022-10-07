@@ -76,7 +76,9 @@ The flexibility of using classes as interfaces seems great, but there are some m
 
 I’m going to summarise quite a broad architectural concern here, there is a lot more to this than I can cover briefly. Your code can be charted on the “I/A” graph, where abstractness (A) is plotted against stability (I). The main sequence of your code should follow the diagonal line from the top left (highly abstract, highly stable) to the bottom right (highly concrete, highly unstable).
 
+:::div{.inset}
 :img{src="/img/2017/11/zone-of-pain-and-zone-of-uselessness.png" alt="Zone of Pain and Zone of Uselessness" loading="lazy"}
+:::
 
 This is because very stable code needs to be abstract in order to allow extension, and highly volatile code should be concrete so it is easy to change. Changes to the concrete classes does not usually result in changes to the abstractions. This is what makes interfaces less volatile than implementations.
 

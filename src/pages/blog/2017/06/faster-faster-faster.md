@@ -16,7 +16,9 @@ I was listening to someone talking about being agile and lean in software develo
 
 So when I’m hearing about how things have been made faster, faster, faster, and more efficient – I’m always hoping to hear just as much about discipline and practices that support the speed. The other troubling thought I had was that whenever the speed was mentioned, it was the software development that was being made faster and more efficient. We must also remember to see the whole, not just a part.
 
+:::div{.inset}
 :img{src="/img/2017/06/road-wings.jpg" alt="Road Wings" loading="lazy"}
+:::
 
 So let’s talk about washing clothes. Software development will be represented by the ironing. On day one, we look at the basket full of crumpled clothes and we say “we need to iron this faster”. Here are some of the suggestions:
 

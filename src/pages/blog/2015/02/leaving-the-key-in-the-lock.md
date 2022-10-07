@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/image.jpg" alt="Key"}
+:::
 
 There is a false dichotomy that is often presented in the face of allowing teams to self-organise in an organisation that is transitioning from their traditional command and control patterns.
 

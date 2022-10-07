@@ -17,7 +17,9 @@ tags:
 
 One of the most famous tales in [Surely You’re Joking Mr Feynman](https://www.amazon.co.uk/Surely-Youre-Joking-Feynman-Adventures/dp/009917331X) must be the story of the Cargo Cult. The story concerns a group of people who, due to a war, had an airbase planted nearby. They saw all of the airplanes arriving with lots of amazing stuff on board, so when the airbase was later abandoned they set up an immitation airbase with a fake runway with fires lit along it and a wooden control tower with a man sat in it wearing pretend headphones made out of wood, with bamboo canes for antennas. They thought if they immitated what people at an airbase did, it would result in airplanes landing full of amazing stuff.
 
+:::div{.inset}
 :img{src="/img/2017/06/green-island-1944.jpg" alt="Green Island, 1944" loading="lazy"}
+:::
 
 This cargo cult metaphor is very common when it comes to companies who want to “do agile”. These companies might be under pressure from agile competitors, so they rush to adopt all of the motions they see in agile organisations – without actually ever being agile. You will find that all the same roles, procedures, and bureuacracy that was present before the organisation donned the coconut headphones, but evidence of the benefits you would expect from increased agility are absent.
 

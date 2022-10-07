@@ -25,7 +25,9 @@ The human does less grind, the machine gets to leverage intelligence it doesn’
 
 If you imagine a Venn diagram showing what humans and machines are good at, it probably intersects a fair bit; so there is stuff in the middle. It will be easy to select tasks at the edges and harder in the middle; but the middle is less important.
 
+:::div{.inset}
 :img{src="/img/2019/04/augmented-ai.jpg" alt="Augmented Intelligence" loading="lazy"}
+:::
 
 So, just as we found in testing that “following defined steps and ticking off an expected outcome” is great machine space and “thinking creatively to explore limitations” is great human space, so we will find for AI.
 

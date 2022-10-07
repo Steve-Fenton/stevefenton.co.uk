@@ -11,7 +11,9 @@ tags:
     - HAProxy
 ---
 
+:::div{.inset}
 :img{src="/img/2017/02/too-much-information.png" alt="Too much information"}
+:::
 
 Do you ever wonder if your server is giving away too much information in the HTTP headers?
 

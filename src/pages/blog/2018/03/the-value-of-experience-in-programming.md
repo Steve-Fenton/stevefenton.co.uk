@@ -25,7 +25,9 @@ Effectively, the units of programming experience are not simply “years”. Joh
 
 Spoiler Alert! Programmers with more experience are seriously cheaper. Although it is tempting to set out with the goal of “only recruiting top talent”, there will be problems ahead if you choose this route. Have a look a professional sports to see what happens when you decide you’ll just buy the top performers from other teams. You’ll also find that your people have something missing in their lives; sharing their knowledge with the next generation. So even when I reveal just how much cheaper it is to get experienced programmers to write your software, anyone who goes out afterwards to enlist the top points scorers deserves everything they get.
 
+:::div{.inset}
 :img{src="/img/2018/03/time-cost.png" alt="Scatter plot of time vs cost" loading="lazy"}
+:::
 
 The numbers I’m about to share are averaged across a large number of features (a whole year’s worth), and quite a few people. I haven’t been able to factor in every possible variable. People pair-programmed across the experience boundaries I described and I’m certain the less experienced team members relied on the more experienced team members even when they weren’t officially allocated the work. On the more positive side of things, the work was divided into feature cards of largely similar size, and the tasks were pulled by the team members, not pushed by management. We can assume that people were largely selecting work they felt able to complete. This is also why I felt simply counting the number of feature cards would be sufficient, rather than relying on a subjective sizing exercise.
 
@@ -47,7 +49,9 @@ Cost Per Card Based on Experience:
 | Mid-Level        | £300          |
 | Senior           | £200          |
 
+:::div{.inset}
 :img{src="/img/2018/03/experience-financial-cost.png" alt="Cost Per Card" loading="lazy"}
+:::
 
 ## Time
 
@@ -61,7 +65,9 @@ Time to Deliver Based on Experience:
 | Mid-Level        | 53   |
 | Senior           | 25   |
 
+:::div{.inset}
 :img{src="/img/2018/03/experience-time.png" alt="Time to Deliver" loading="lazy"}
+:::
 
 ## Time and cost
 

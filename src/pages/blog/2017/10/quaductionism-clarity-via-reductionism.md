@@ -21,7 +21,9 @@ Perhaps the most famous example of quaductionism is the The Eisenhower Method, p
 
 … and in quaductionist terms:
 
+:::div{.inset}
 :img{src="/img/2017/10/quaductionism.jpg" alt="Quaductionism" loading="lazy"}
+:::
 
 - Top-Left: Urgent *and* Important
 - Top-Right: Important (but not urgent)

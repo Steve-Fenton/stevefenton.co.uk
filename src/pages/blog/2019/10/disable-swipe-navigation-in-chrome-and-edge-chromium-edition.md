@@ -32,7 +32,9 @@ edge://flags/#overscroll-history-navigation
 
 Within the settings page, you’ll find an item titled “Overscroll history navigation”, which you can disable.
 
+:::div{.inset}
 :img{src="/img/2019/10/overscroll-navigation-history.jpg" alt="Overscroll Navigation History" loading="lazy"}
+:::
 
 You might also spot other settings that can be a pain in terms of accidental activation, such as pull-to-refresh.
 

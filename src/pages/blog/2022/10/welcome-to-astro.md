@@ -123,7 +123,9 @@ And that's Astro in a nutshell. It can be super simple, or you can add utilities
 
 If you want to kick start your fun with Astro, I have created an Astro Accelerator project, which is what I've used to jump start this website.
 
+:::div{.inset}
 :img{src="/img/2022/10/astro-accelerator.png" alt="A screenshot of the Astro Accelerator" loading="lazy"}
+:::
 
 You can [see the Astro Accelerator in action](https://astro.stevefenton.co.uk/) or grab the [Astro Accelerator on GitHub](https://github.com/Steve-Fenton/astro-accelerator).
 

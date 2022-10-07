@@ -20,7 +20,9 @@ Over the first couple of days, your cycle time will look awesome, but then it ge
 
 By the end of day one, the longest cycle time you can collect is one day. By the end of day two, the longest cycle time you could collect has doubled, to two. The maximum possible cycle time you can record increases in this fashion every day. In the early days, it is highly likely that the next task to complete will be the one that took the longest ever. That means your cycle-time will keep increasing while you are in the phase marked with an “A” in the chart below.
 
+:::div{.inset}
 :img{src="/img/2019/05/early-cycle-time.jpg" alt="Early Phase of Cycle Time Data Collection" loading="lazy"}
+:::
 
 Don’t worry about the numbers when you are in Phase “A”. As you can see from the chart, becomes increasingly less likely that the next task to complete will be the longest ever and your line will level out. When this happens, you’ll know you’re in Phase “B”. The exact amount of time to transition is equal to your average cycle time… because until you reach it the line will just keep going up.
 

@@ -47,7 +47,9 @@ Rubik’s Cubes and Juggling:
 
 Or maybe a graph!
 
+:::div{.inset}
 :img{src="/img/2018/04/rubiks-cube-times-graph.png" alt="Rubik's Cube Times" loading="lazy"}
+:::
 
 We didn’t really need a table or a graph. What we needed was to simply acknowledge that you can solve three infuriating puzzle blobs sequentially faster than you can solve a single one when you’re juggling.
 
@@ -55,7 +57,9 @@ We didn’t really need a table or a graph. What we needed was to simply acknowl
 
 Let’s not forget that [there is more to life than flat out speed]\(/blog/2017/06/faster-faster-faster/). If you review the video footage, you’ll see that the juggled version doesn’t result in a cube that is neatly aligned. The juggled version is messy. It took longer… and it’s not such a great outcome as it would have been if it was done one-at-a-time.
 
+:::div{.inset}
 :img{src="/img/2018/04/que-jianyu.png" alt="Que Jianyu" loading="lazy"}
+:::
 
 Let me be fair here, I have solved one Rubik’s Cube… ever. If it was being timed, the stopwatch battery would have died before I solved it. But I had to solve it because my five-year-old daughter was devastated that it was muddled up. If I could routinely solve those tiresome six-sided devils, I would *still* be impressed that someone could do it while juggling. I’m not saying that I’m not impressed; I’m saying that it would be done better if it was done without all the juggling.
 

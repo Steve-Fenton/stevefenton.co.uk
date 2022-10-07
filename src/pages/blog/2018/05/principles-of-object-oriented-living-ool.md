@@ -16,7 +16,9 @@ tags:
 
 I thought I’d have a bit of fun applying Bob Martin’s [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) to life. Obviously, this is a metaphor that could be stretched too far; but here are the principles of object-oriented living. If you aren’t familiar with these principles as applied to programming, you probably ought to start with Bob Martin’s article linked above.
 
+:::div{.inset}
 :img{src="/img/2018/05/principles-of-light-and-colour.jpg" alt="Principles of Light and Colour" loading="lazy"}
+:::
 
 ## SRP
 

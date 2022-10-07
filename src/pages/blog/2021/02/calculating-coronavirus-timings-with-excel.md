@@ -21,7 +21,9 @@ Death occurs around 15 days after a positive test result, but only for around 2.
 
 We can visualise this by offsetting the dates on the relevant datasets, so we can see the shapes of the line graphs lining up, as shown below.
 
+:::div{.inset}
 :img{src="/img/2021/02/covid-offsets.jpg" alt="Coronavirus Offsets" loading="lazy"}
+:::
 
 All of the above analysis is based on data since 1st September 2020 (and 8 or 15 days before for the offset data).
 

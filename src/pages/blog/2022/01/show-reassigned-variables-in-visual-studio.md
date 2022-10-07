@@ -48,7 +48,9 @@ example2 = 20;
 
 Here is a screenshot to show this in action, you’ll see the `notAfter` variable is underlined, because it is reassigned. The other variables are not highlighted because they are never reassigned.
 
+:::div{.inset}
 :img{src="/img/2022/01/reassigned-variable.jpg" alt="Screenshot showing a variable underlined because it is reassigned" loading="lazy"}
+:::
 
 ## How to enable this feature
 

@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/mban1987h.jpg" alt="Accident Free Days"}
+:::
 
 No matter what process you are using based on the Agile manifesto and principles, there will always be external pressures to break your own rules.
 
@@ -31,7 +33,9 @@ But in times of crisis it is easy to forget these reminders and take in work wit
 
 So use this sign responsibly to encourage the focus on following your own process.
 
+:::div{.inset}
 :img{src="/img/2015/07/sprint-rules-200x300.gif" alt="Agile Days Since Last Accident" loading="lazy"}
+:::
 
 [Click for a larger version](/img/2015/07/sprint-rules-200x300.gif)
 

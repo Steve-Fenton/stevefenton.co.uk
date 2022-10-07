@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/playing-cards.jpg" alt="Playing Cards"}
+:::
 
 I rather enjoyed discovering a metaphor about quality, born out of the planning game itself!
 

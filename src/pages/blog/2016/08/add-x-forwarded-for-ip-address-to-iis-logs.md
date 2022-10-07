@@ -30,7 +30,9 @@ Add a new field:
 - Source Type: Request Header
 - Source: X-Forwarded-For
 
+:::div{.inset}
 :img{src="/img/2016/08/iis-log-custom-fields.png" alt="Log X-Forwarded-For in IIS logs" loading="lazy"}
+:::
 
 Don’t forget to hit “Apply” in the Logging module screen.
 

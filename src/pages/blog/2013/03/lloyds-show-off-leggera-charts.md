@@ -16,7 +16,9 @@ I haven’t mentioned pie charts for a while, but Lloyds Bank have plastered thi
 
 Even if it wasn’t [a true fact that pie charts are never the right chart to display your data](/blog/2009/04/pie-charts-are-bad/), they haven’t even followed [the rules that make pie charts readable](/blog/2011/10/a-great-example-of-a-terrible-pie-chart/).
 
+:::div{.inset}
 :img{src="/img/2015/07/lloyds-cd-chart1.jpg" alt="Lloyds Leggera Chart"}
+:::
 
 So they didn’t order the data from highest to lowest. They didn’t give any indication of values, they rely solely on colour to match the the labels to the segments and, let’s face it, this should just be a column chart.
 

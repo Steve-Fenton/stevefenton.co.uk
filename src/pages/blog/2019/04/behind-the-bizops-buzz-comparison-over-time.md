@@ -18,7 +18,9 @@ This is a quick note about checking trends over time, and why you probably ought
 
 Quite often you’ll find a dashboard with a comparison over time shown as a percentage, in either green (good) or red (bad) – or orange if you’re colourblind… these dashboard companies never seem to remember you.
 
+:::div{.inset}
 :img{src="/img/2019/04/change-over-time.jpg" alt="Percentage Change Over Time"}
+:::
 
 This number typically compares a recent time period with an older time period, for example “The past week” vs “The same week last year”. This is a useful number, but you have to be careful that you don’t miss a couple of scenarios.
 
@@ -30,7 +32,9 @@ And finally, you need an anchor. Rather than compare to a rolling window, work o
 
 Here is a mega-annotaged image that backs up the explanation.
 
+:::div{.inset}
 :img{src="/img/2019/04/conversion-rate-chart.jpg" alt="Conversion Rate Chart" loading="lazy"}
+:::
 
 If we look at the dark-blue line in this chart, there is some volatility on what might happen in a day. The anchor number of 3.8% allows us to understand the two ranges better. The first range starts with a spike and then falls by ten points, but that’s only 1.8 points compared to the anchor. The second range starts well below the anchor and rises by 2.2 points, but actually only ends up achieving equilibrium. The anchor is a point of reference that we can use to better understand our comparison.
 

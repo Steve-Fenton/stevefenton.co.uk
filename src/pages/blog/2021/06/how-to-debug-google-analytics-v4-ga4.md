@@ -20,11 +20,15 @@ Sometimes you need to see what’s going on under the hood of your analytics tra
 
 The DebugView can be found in your Google Analytics v4 property, at the bottom of the menu.
 
+:::div{.inset}
 :img{src="/img/2021/06/google-analytics-debug-view.jpg" alt="Google Analytics v4 Debug View"}
+:::
 
 One of the useful features is that when you choose an event, it will show you the value over time. For example, in the screenshot below the `ConsentLoaded` event shows the value for “HasIndicatedConsent” was `false` at 08:42, changed to `true` at 08:44, and has remained true for the subsequent two events.
 
+:::div{.inset}
 :img{src="/img/2021/06/event-values-over-time.jpg" alt="Event Values Over Time" loading="lazy"}
+:::
 
 ## Switching on debug mode
 

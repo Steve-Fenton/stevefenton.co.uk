@@ -30,7 +30,9 @@ Of course, things aren’t quite this simple, but I’ll get to that.
 
 So my basic plan was to receive a request, determine if a static HTML page existed using the server’s routing rules and either serve the existing static HTML file (which should be really quick) or run my server-side code, but save the output as a static HTML file.
 
+:::div{.inset}
 :img{src="/img/2015/07/dynamic-vs-static.png" alt="Dynamic vs Static Flow" loading="lazy"}
+:::
 
 As you can see from the diagram, the first request takes 3 seconds, but all subsequent requests take under 1 second. Perfect.
 

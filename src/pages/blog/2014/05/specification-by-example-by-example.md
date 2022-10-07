@@ -15,7 +15,9 @@ The requirement was absolutely clear. It read:
 
 > Please only put toilet tissue down the toilet.
 
+:::div{.inset}
 :img{src="/img/2015/07/specification-by-example-by-example.jpg" alt="Specification by Example"}
+:::
 
 The Original Requirement!
 

@@ -26,7 +26,9 @@ The essential problem is that we sometimes group code into units that are too bi
 
 You can usually detect this problem when you open up a code file to find something, and have to sift through a lot of other stuff to find it. A bit like finding your screwdriver in your junk drawer:
 
+:::div{.inset}
 :img{src="/img/2018/01/junk-drawer.jpg" alt="A drawer full of junk" loading="lazy"}
+:::
 
 ## Using junk / importing junk
 

@@ -21,11 +21,15 @@ Code coverage is a really useful metric when you are working on legacy code. You
 
 So to get a handle on the legacy code, code coverage is useful – and it is built into Visual Studio under “TEST” > “Analyze Code Coverage”. Once the tests have run, you can view the results and drill-down into the assembly you are interested in.
 
+:::div{.inset}
 :img{src="/img/2015/07/get-code-coverage.png" alt="Get Code Coverage" loading="lazy"}
+:::
 
 If you want to see the code highlighted in Visual Studio to indicate whether each line is covered or not, just by clicking on the “Show Code Coverage Colouring” icon in the Code Coverage Results panel. Depending on your theme, you will get a “good” colour and a “bad” colour, which in the default dark theme are blue-ish and staw-ish respectively. You do lose syntax highlighting on the lines to prevent these background colours making code hard to read, but you don’t need it switched on all the time.
 
+:::div{.inset}
 :img{src="/img/2015/07/vs2012-code-coverage.png" alt="Code Coverage" loading="lazy"}
+:::
 
 ## Run Tests On Build
 

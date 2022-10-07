@@ -19,7 +19,9 @@ Back in 1970, Winston Royce made a suggestion for the amount of documentation ne
 
 > In order to produce 5 million dollars of software I would estimate a 1,500 page specification is about right to achieve comparable control. – Winston Royce, 1970
 
+:::div{.inset}
 :img{src="/img/2018/05/waterfall-1024x683.jpeg" alt="Waterfall"}
+:::
 
 ## Documentation inflation
 

@@ -26,7 +26,9 @@ So, many problems might be caused by the availability heuristic. If you are feel
 
 But I’m not feeling generous. The following might offend musicians or music lovers. Don’t @ me.
 
+:::div{.inset}
 :img{src="/img/2020/07/sex-pistols.jpg" alt="The Sex Pistols playing live" loading="lazy"}
+:::
 
 ## Prog
 

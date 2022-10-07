@@ -18,7 +18,9 @@ description:
 
 :::div{.simple-grid}
 :img{src="/img/2020/10/idhtbcaw.jpg" alt="It Doesn't Have to be Crazy at Work" loading="lazy"}
+:::
 
+:::div{.inset}
 :img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 

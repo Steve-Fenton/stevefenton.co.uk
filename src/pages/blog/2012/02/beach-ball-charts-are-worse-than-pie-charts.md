@@ -12,7 +12,9 @@ tags:
     - Visualisation
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/beachballchart.jpg" alt="Beach Ball Charts"}
+:::
 
 It seems to me that the tide is now turning against the pie chart. Most of the discussions I discover these days are via track-backs to my website where someone has cited one of my opinion pieces in a discussion about how pie charts are pretty much always the wrong way to display your data.
 

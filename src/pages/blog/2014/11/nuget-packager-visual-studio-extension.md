@@ -24,7 +24,9 @@ Add a new project to your solution, ideally name it exactly as you want your pac
 
 Choose the NuGet Packager project type (just search for it in the new project dialog).
 
+:::div{.inset}
 :img{src="/img/2015/07/nuget-packager-project.png" alt="NuGet Packager Project" loading="lazy"}
+:::
 
 ## Step Three
 

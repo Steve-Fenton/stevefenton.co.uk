@@ -27,13 +27,17 @@ So here is the simple way to solve all of these problems.
 
 Add a single listener in each of the performance test plans that logs the data to a file. The summary report listener will be sufficient for our needs. Configure your listener as follows…
 
+:::div{.inset}
 :img{src="/img/2015/07/jmeter-logging-configuration.png" alt="JMeter Logging Configuration" loading="lazy"}
+:::
 
 The option highlighted in red “*Save Response Data (XML)*” is best avoided as you’ll end up with a massive file.
 
 Now create a second JMeter project and add all the listeners that you use regularly. In the example below, I have left all of the default names to show the ones I’m using a lot right now – but you can choose the ones that answer the questions you have on performance.
 
+:::div{.inset}
 :img{src="/img/2015/07/jmeter-listener-project.png" alt="JMeter Listener Project" loading="lazy"}
+:::
 
 Now you can run your performance tests (via the UI or command line) and it will generate a file containing the results. You can then open the file to display in the listeners in your listener project and see the results independently of the actual runs.
 

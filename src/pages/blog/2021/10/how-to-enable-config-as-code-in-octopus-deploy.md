@@ -31,7 +31,9 @@ From the dashboard in Octopus Deploy, navigate to **Configuration -> Features** 
 
 Expand Configuration as Code and select Enabled. Then hit SAVE to store the change.
 
+:::div{.inset}
 :img{src="/img/2021/10/octopus-deploy-config-as-code.png" alt="The Octopus Deploy configuration setting for Configuration-as-Code" loading="lazy"}
+:::
 
 When you navigate to a deployment project, you will now see a new setting called Version Control.
 
@@ -46,7 +48,9 @@ There are two things you need to obtain from GitHub before you set up the Git re
 
 The URL of your GitHub repository can be found in the Code tab, using the drop-down panel behind the green Code button.
 
+:::div{.inset}
 :img{src="/img/2021/10/github-repository-url.png" alt="Obtain your GitHub repository URL from the Code tab in GitHub" loading="lazy"}
+:::
 
 You can obtain a new personal access token from **Profile -> Settings -> Developer settings -> Personal access tokens**.
 
@@ -80,7 +84,9 @@ Keep an eye on the [Octopus Blog](https://octopus.com/blog) for general availabi
 
 The full webinar is available on YouTube.
 
+:::div{.inset}
 :img{src="/img/2021/10/initial-octopus-deploy-commit.png" alt="A new dot-octopus folder in the GitHub repository" loading="lazy"}
+:::
 
 You can read about [configuration-as-code in the Octopus Deploy docs](https://octopus.com/docs/projects/version-control) and watch the webinar below, which also has a rich Q&A section at the end.
 

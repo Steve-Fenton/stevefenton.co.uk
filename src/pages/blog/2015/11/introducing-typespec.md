@@ -13,7 +13,9 @@ tags:
     - TypeSpec
 ---
 
+:::div{.inset}
 :img{src="/img/2015/11/typespec-browser-output.png" alt="TypeSpec Browser Ouput"}
+:::
 
 Having completed the [MVP roadmap](https://github.com/Steve-Fenton/TypeSpec/issues?q=milestone%3Av0.5), [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) is now available to use.
 

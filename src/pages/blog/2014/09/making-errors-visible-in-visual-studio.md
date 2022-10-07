@@ -11,7 +11,9 @@ categories:
 
 There are lots of ways of making errors pop out in Visual Studio and I use all of them! I even added a new one today. Here is my current display, followed by some info on how to get each element.
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-with-errors.png" alt="Visual Studio with Errors"}
+:::
 
 There are three parts to this display:
 

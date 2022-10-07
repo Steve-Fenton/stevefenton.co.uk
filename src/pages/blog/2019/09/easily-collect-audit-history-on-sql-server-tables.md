@@ -100,7 +100,9 @@ GO
 
 You will see your table get a new icon, and a nested temporal history table with the audit history:
 
+:::div{.inset}
 :img{src="/img/2019/09/temporal-audit-history-sql-server.jpg" alt="Temporal Audit History Table Icon and Nested Table" loading="lazy"}
+:::
 
 ## Entity Framework
 

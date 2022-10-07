@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/scrum-usher.jpg" alt="Scrum Usher"}
+:::
 
 Metaphors are at the heart of agile. From describing processes to providing a system vision, drawing comparisons with familiar reference points can provide the light-bulb moment that makes you understand a concept.
 

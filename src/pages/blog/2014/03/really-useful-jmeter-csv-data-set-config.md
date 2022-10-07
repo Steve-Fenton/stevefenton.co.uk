@@ -31,7 +31,9 @@ The first row contains the column titles, then each row is a set of data. It is 
 
 Now you can add your CSV Data Set Config element.
 
+:::div{.inset}
 :img{src="/img/2015/07/jmeter-csv-data-set.png" alt="JMeter CSV Data Set" loading="lazy"}
+:::
 
 The filename is the path to the CSV file – in this case it is in the same folder as the JMX file. All of the other fields have been left at their default values – the “Recycle” option means if you loop many times and it runs out of rows it will jump to the top and carry on – you can opt to stop threads when the data runs out if this suits your purpose. Because the variable names are in the first line of the file, we leave the variable names field blank.
 

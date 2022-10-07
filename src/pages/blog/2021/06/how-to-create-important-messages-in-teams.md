@@ -18,10 +18,14 @@ Sometimes you have something super-important to communicate in Microsoft Teams, 
 
 All you need to do is use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>i</kbd> in the compose textarea. This will elevate your message to an important one.
 
+:::div{.inset}
 :img{src="/img/2021/06/microsoft-teams-important-message.jpg" alt="Microsoft Teams Important Message"}
+:::
 
 When you send the message, it gets the border style and an additional icon to make sure people know you have something important to say.
 
+:::div{.inset}
 :img{src="/img/2021/06/important-message-example.jpg" alt="Message marked as important in teams" loading="lazy"}
+:::
 
 I’m sure that none of you will abuse this feature!

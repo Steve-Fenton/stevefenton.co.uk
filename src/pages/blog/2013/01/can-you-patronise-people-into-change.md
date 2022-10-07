@@ -9,7 +9,9 @@ categories:
     - Psychology
 ---
 
+:::div{.inset}
 :img{src="/img/2013/01/who-moved-my-cheese.jpg" alt="Who Moved My Cheese"}
+:::
 
 There is a well known management book named ‘Who Moved My Cheese’ by Dr Spencer Johnson. This is a book that has sold in large numbers and has on countless occasions been used as some kind of patronising change-truncheon to force employees to embrace some organisational change.
 

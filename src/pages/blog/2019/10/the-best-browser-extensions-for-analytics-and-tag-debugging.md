@@ -42,7 +42,9 @@ You’ll see an entry for each command and data layer event that occurs on the p
 
 Notching things up a bit in terms of usability, [Tag Assistant by Google](https://get.google.com/tagassistant/) analyses your analytics and tags and displays information in a nice user interface, which also highlights problems and optimisations. You can drill into each tag to see more information, which is neatly organised for you.
 
+:::div{.inset}
 :img{src="/img/2019/10/tag-assistant-by-google.jpg" alt="The main screen of Tag Assistant by Google" loading="lazy"}
+:::
 
 When there is a problem, it is made obvious with colour coding and icons and although you’ll have to work out the exact source of the issue, the issue itself is typically very well described.
 
@@ -52,7 +54,9 @@ The [Omnibug Tag Debugger](https://chrome.google.com/webstore/detail/omnibug/bkn
 
 I have found this extension to be particularly useful for Google Analytics and Adobe Analytics, though it works across analytics providers.
 
+:::div{.inset}
 :img{src="/img/2019/10/omnibug.jpg" alt="Omnibug" loading="lazy"}
+:::
 
 Apologies for the incredibly data-scrubbed screenshot, but hopefully you get the idea.
 

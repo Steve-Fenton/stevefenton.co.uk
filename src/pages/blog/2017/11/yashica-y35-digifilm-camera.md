@@ -26,7 +26,9 @@ And this is why the Yashica Y35 digiFILM camera caught my eye…
 
 > You like taking photos, and wishing the time still. But what I want is to capture the moment, and to remember the long-lasting feel. <cite>The Silence of Story</cite>
 
+:::div{.inset}
 :img{src="/img/2017/11/yashica-y35-digifilm.jpg" alt="Yashica Y35 digiFILM" loading="lazy"}
+:::
 
 While this is a digital camera, with an f2.0 lens and a 1/2.5 inch CMOS sensor; this is much more like a 35mm film camera than you might first think. First off, you can’t preview your images. There is no screen on the back, and the screen that isn’t there doesn’t tilt or swing or otherwise help you to take a picture. There is a small viewfinder like I had on the Yashica T4. You take a picture now; you find out later.
 

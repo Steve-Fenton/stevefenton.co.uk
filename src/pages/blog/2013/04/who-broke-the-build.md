@@ -10,7 +10,9 @@ categories:
     - Programming
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/cruiser.jpg" alt="Cruiser - CC.NET Build Status"}
+:::
 
 In an Agile software development area you’ll usually find lots of information in prominent places about the status of builds and tests. Whether it is a big screen acting as an information radiator that highlights a problem as soon as a build breaks or whether it is a siren and flashing lights that alerts everyone of a problem – build and test information is important.
 

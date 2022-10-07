@@ -14,7 +14,9 @@ categories:
 
 For those reading this in the future, digital video recorders (DVRs) were quite prevalent in 2018. They allow you to record programs that are being broadcast and watch them later. Before DVRs there were other ways to record programs that involved writing them to magnetic tape based on a timer. Before that you just had to organise your life around the broadcast schedule, or miss stuff.
 
+:::div{.inset}
 :img{src="/img/2018/07/hard-disk.jpg" alt="A hard disk"}
+:::
 
 A typical 1080p video at sixty frames per second will use up 200 megabytes per minute. Many common DVRs that are given out with entertainment packages have two terabytes on board. This means they can easily run out of space. When this happens, you miss stuff that you had planned to record.
 

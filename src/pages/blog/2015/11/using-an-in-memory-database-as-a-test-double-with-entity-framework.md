@@ -15,7 +15,9 @@ tags:
     - TDD
 ---
 
+:::div{.inset}
 :img{src="/img/2015/11/brain-by-dierk-schaefer.jpg" alt="Brain by Dierk Schaefer"}
+:::
 
 If you are using Entity Framework and you want to test your application without the *real* database, the typical technique employed is to write a repository or query provider that you can substitute with a stub during the test. Sometimes, though, you are better off pushing things a couple of levels deeper. This is where an in-memory database can be really useful.
 

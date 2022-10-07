@@ -22,7 +22,9 @@ When agile methods went mainstream, the reports started flooding in about failed
 
 Here is how you go mainstream with a software development method.
 
+:::div{.inset}
 :img{src="/img/2015/07/image1.jpg" alt="Adoption vs Failure Incidents" loading="lazy"}
+:::
 
 Stage one. A team experiments and creates an evolving method that works really well for them. So far, 100% success rate.
 

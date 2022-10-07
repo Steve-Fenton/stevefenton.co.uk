@@ -12,7 +12,9 @@ This is an inline :abbr[I18n]{ title="Internationalization" } element
 
 ## Images
 
+:::div{.inset}
 :img{ src="/img/frankenstein.png" alt="Book cover" loading="lazy" }
+:::
 
 ## Block
 

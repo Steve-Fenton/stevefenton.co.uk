@@ -25,7 +25,9 @@ An “ideal month” is one where you can essentially sit in your pyjamas full t
 
 So here is my solution. It is really easy and requires very little practice to master. Step one; you take a permanent marker pen, cross out the words “Monthly Subscription” on the front of the card and write “1 Free Video”. Step two; you have to believe in your trick.
 
+:::div{.inset}
 :img{src="/img/2015/07/pluralsight-card.jpg" alt="Pluralsight Card" loading="lazy"}
+:::
 
 Limited Edition “1 Free Video” Pluralsight free trial Card!
 

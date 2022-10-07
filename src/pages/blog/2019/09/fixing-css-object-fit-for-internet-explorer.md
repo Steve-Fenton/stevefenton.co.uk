@@ -21,7 +21,9 @@ The only problem using `object-fit` is Internet Explorer. It doesn’t matter wh
 
 We have the following image, shown in it’s original size and aspect ratio. We’ll use this to check for stretchyness when we come to change the aspect ratio of the image shortly.
 
+:::div{.inset}
 :img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
+:::
 
 Let’s no constrain the image to a square:
 
@@ -31,7 +33,9 @@ Let’s no constrain the image to a square:
 
 We now have a 400px by 400px version of the image, cropped automatically by the web browser. But in Internet Explorer, it looks a little funny…
 
+:::div{.inset}
 :img{src="/img/2019/09/object-fit-internet-explorer.jpg" alt="Broken object-fit: cover in Internet Explorer" loading="lazy"}
+:::
 
 What’s happened here is that the whole image is being shown, squeezed brutally into our 400px square.
 
@@ -59,7 +63,9 @@ objectFit(elem);
 
 If the browser supports “objectFit”, nothing happens; the image will already look just as you expect. For Internet Explorer, them shim will step in and fix the stretchyness.
 
+:::div{.inset}
 :img{src="/img/2019/09/object-fit-internet-explorer-with-shim.jpg" alt="Internet Explorer with working object-fit: cover" loading="lazy"}
+:::
 
 ## Why not use background images everywhere
 

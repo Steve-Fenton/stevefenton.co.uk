@@ -47,7 +47,9 @@ Once you have a Gulp task file, you can open the Visual Studio Task Runner Explo
 
 You’ll see the task show up as shown below:
 
+:::div{.inset}
 :img{src="/img/2013/02/javascript-tests-gulp-visual-studio.png" alt="JavaScript Tests in Visual Studio with Gulp" loading="lazy"}
+:::
 
 To make things really sweet, you will probably want to run your tests every time you build. Just right click on the “test” task in Task Runner Explorer and select “Bindings” > “After Build”. This just adds the following comment to the top of your Gulp file, which Visual Studio uses to hook into the tasks:
 

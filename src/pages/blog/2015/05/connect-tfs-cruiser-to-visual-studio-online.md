@@ -21,7 +21,9 @@ You definitely don’t want to put your user name and password into the TFS Crui
 
 My Profile > Credentials > Add alternate credentials
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-online-my-profile.png" alt="Visual Studio Online - My Profile" loading="lazy"}
+:::
 
 ## Step Two – Config
 

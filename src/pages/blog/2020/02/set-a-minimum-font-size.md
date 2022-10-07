@@ -32,10 +32,14 @@ This is just a little script I needed to use to increase text size conditionally
 
 Before Image
 
+:::div{.inset}
 :img{src="/img/2020/02/text-size-before.jpg" alt="Text Size Before" loading="lazy"}
+:::
 
 After Image
 
+:::div{.inset}
 :img{src="/img/2020/02/text-size-after.jpg" alt="Text Size After" loading="lazy"}
+:::
 
 You can see that the span element is the same size before and after, but all the tiny text has been increased to the minimum size.

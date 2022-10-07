@@ -35,7 +35,9 @@ So you are likely to find people estimating all of the following:
 
 ## Guess
 
+:::div{.inset}
 :img{src="/img/2015/07/estimate-guess.png" alt="Estimates vs Guess Diagram" loading="lazy"}
+:::
 
 Some people have referred to estimates as guesses. This isn’t entirely incorrect as *guess* is a subset of *estimate*. An estimate that has been created without sufficient information that would ensure it is *reasonable* is indeed a guess. So all guesses are estimates, but importantly; not all estimates are guesses.
 

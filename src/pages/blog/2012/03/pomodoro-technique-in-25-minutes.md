@@ -11,7 +11,9 @@ tags:
     - Pomodoro
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts"}
+:::
 
 Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, from 22nd March 2012, which was delivered within the time limit, including questions.
 
@@ -74,4 +76,6 @@ Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, 
 
 For most people, keeping things low tech works best for Pomodoro and it certainly helps to start that way before you dive into an app as it will help you to use the app better. I record all of my Pomodoros and interruptions on a sheet of paper and draw my own charts by hand to see how I’m getting on.
 
+:::div{.inset}
 :img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts" loading="lazy"}
+:::

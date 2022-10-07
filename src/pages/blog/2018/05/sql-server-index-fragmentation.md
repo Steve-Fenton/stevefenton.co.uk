@@ -18,7 +18,9 @@ I was investigating an issue with am Azure SQL Server database that was much big
 
 There are a couple of nasty side effects to index fragmentation. It makes your indexes less efficient, but it can also result in a great deal of storage being used up unnecessarily.
 
+:::div{.inset}
 :img{src="/img/2018/05/fragments.jpg" alt="Shattering glass containing buttons"}
+:::
 
 ## Finding index fragmentation
 

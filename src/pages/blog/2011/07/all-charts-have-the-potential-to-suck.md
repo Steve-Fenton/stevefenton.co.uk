@@ -18,11 +18,15 @@ The problem with charts is that the people who make them forget why people are u
 
 Because of this, there are simple visual hints you can give on a chart that make it easier to read. In a chronological chart, we are almost certain to put time on the horizontal axis – to put it on the vertical axis would be crazy! But what if we aren’t dealing with time? What help can we give people. Here is a genuine example that I have re-created from information published recently on an excellent website. As usual, I mention no names – especially as the website is truly great.
 
+:::div{.inset}
 :img{src="/img/2015/07/unordered_chart.jpg" alt="Unordered Chart" loading="lazy"}
+:::
 
 As you can see, there has been a survey about where people work and lots of people have answered – the problem is that while you can tell that “at home” is the most popular answer, and “open office” the clear second, it gets harder and harder to rank the answers as you work your way through third, fourth, fifth and so on. With one very simple change, the whole chart is easier to judge.
 
+:::div{.inset}
 :img{src="/img/2015/07/ordered_chart.jpg" alt="Ordered Chart" loading="lazy"}
+:::
 
 All the hard work has been done for us in this chart. We can tell exactly what is going on and we can easily asses that if you add “open office” and “cubicle” together, that there are more office workers than home workers, even before we add the “office w/door” category.
 

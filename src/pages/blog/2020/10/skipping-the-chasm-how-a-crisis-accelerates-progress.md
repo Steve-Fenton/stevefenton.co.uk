@@ -19,7 +19,9 @@ By no means do I intend to side-line the terrible impact of the pandemic, which 
 
 In [Crossing the Chasm](https://wordery.com/crossing-the-chasm-3rd-edition-geoffrey-a-moore-9780062292988), Geoffrey Moore describes a process (aptly shown on the cover of the third edition) by which technology is adopted. Like all great ideas, it is more broadly applicable than you may realise. Anyway, the stages of the technology adoption lifecycle are…
 
+:::div{.inset}
 :img{src="/img/2020/10/crossing-the-chasm.jpg" alt="Crossing the Chasm Book Cover" loading="lazy"}
+:::
 
 1. Innovators
 2. Early Adopters

@@ -17,7 +17,9 @@ tags:
 
 There used to be a trend in software creation where users would ask software developers to “add a type drop down to the auto date section”; and the developer would just do it. The result of this obedient style of software development did not result in a clean UI. The screenshot below can be found with several others on [this review of Bulk Rename Utility](http://www.softpedia.com/reviews/windows/Bulk-Rename-Utility--82549.shtml). This is a highly organised user interface, but is very cluttered.
 
+:::div{.inset}
 :img{src="/img/2018/05/bulk-rename-utility-crowded-ui.png" alt="Cluttered UI"}
+:::
 
 ## Clean UI
 
@@ -25,19 +27,27 @@ Luckily, this doesn’t happen any more (okay, it probably does somewhere). Peop
 
 The full version of the user interface is shown below. It has nine *things* competing for visibility.
 
+:::div{.inset}
 :img{src="/img/2018/05/full-ui.png" alt="Full UI" loading="lazy"}
+:::
 
 The clean version of this UI is shown below. It has three things competing for visibility. That’s one third of the original number. This follows the newspaper pattern; the headlines are very clear and we don’t need to read on if we’re not interested.
 
+:::div{.inset}
 :img{src="/img/2018/05/clean-ui.png" alt="Clean UI" loading="lazy"}
+:::
 
 When we are interested in reading more, hovering or focussing on one of the headline boxes causes sub-headline items to appear. This is demonstrated below. The idea is that where the user is showing interest, you reveal more.
 
+:::div{.inset}
 :img{src="/img/2018/05/clean-ui-hover.png" alt="Clean UI Hover" loading="lazy"}
+:::
 
 You can follow this down to the next level by hovering over these sub-headline items, at which point they expand from icons to text plus icons. This helps to guide users as they don’t have to guess what the icons mean; but they will be more productive once they have learned the icons.
 
+:::div{.inset}
 :img{src="/img/2018/05/clean-ui-hover-subitem.png" alt="Clean UI Subitem Hover" loading="lazy"}
+:::
 
 ## Beware of surprises
 

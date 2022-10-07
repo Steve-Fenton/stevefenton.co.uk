@@ -13,7 +13,9 @@ tags:
 
 We are monitoring a number of live servers, which we have grouped by role. This let’s use spot outlying servers pretty easily. The below graph shows the free CPU on one group of servers, with one obvious outlier.
 
+:::div{.inset}
 :img{src="/img/2015/08/datadog-cpu-windows-update.png" alt="DataDog Free CPU Windows Update"}
+:::
 
 In our case, a quick glance at the box told us this wasn’t anything particularly suspicious – it was Windows Update. A quick adjustment to the settings brought it in line with our update policy and things returned to normal (as you can see on the right-hand side of the graph).
 

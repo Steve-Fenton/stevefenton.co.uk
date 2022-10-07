@@ -15,7 +15,9 @@ tags:
 
 The SmartWatch craze has proven to be short lived for many people, who after just a couple of weeks have been dropping their wearables into drawers and forgetting all about them. For this reason, I decided not to commit to purchase until I had tested the waters by borrowing a Samsung Galaxy Gear Watch for a while from a generous friend.
 
+:::div{.inset}
 :img{src="/img/2016/01/sony-smartwatch3-watch-faces.png" alt="Sony SmartWatch 3 Watch Faces"}
+:::
 
 There are lots of features splashed across the marketing materials for Smart Watches, and a great deal of fitness-related noise – but allow me to let you into a secret. There is only one compelling feature, and if this feature doesn’t appeal to you then you shouldn’t buy a Smart Watch.
 
@@ -39,7 +41,9 @@ I chose the Sony SmartWatch 3 for a very short list of reasons. The battery last
 
 The always-on feature is actually rather important, because it means the SmartWatch can be used… as a watch. You can glance down at your wrist and see the time without turning the screen on. To make this work, when the watch goes to sleep and turns the back-light off, the display simplifies – as per this screen shot:
 
+:::div{.inset}
 :img{src="/img/2016/01/sony-smartwatch3-always-on.png" alt="Sony SmartWatch 3 Always On" loading="lazy"}
+:::
 
 All of the gradients, colours, the second-hand, and other details are removed to reduce power consumption and make the face readable even with no lights on. The face still updates periodically, including subtle display of your current activity, be it the now-playing information for the music you are listening to, recent notification information, or the time remaining on your Pomodoro Timer.
 
@@ -47,6 +51,8 @@ As long as there is some ambient light, you can read the watch face easily enoug
 
 The following picture was taken in a typical coffee shop, and demonstrates the low-power always-on watch face.
 
+:::div{.inset}
 :img{src="/img/2016/01/sony-smartwatch3-transflective.jpg" alt="Sony SmartWatch 3 Transflective Display" loading="lazy"}
+:::
 
 So *if* the one compelling feature of Smart Watches appeals to you, you’d be hard pressed to find a better offering for this money. People are easily finding much worse for three or four times this money.

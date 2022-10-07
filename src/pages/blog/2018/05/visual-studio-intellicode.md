@@ -25,17 +25,23 @@ IntelliCode is the AI version of IntelliSense. Instead of showing auto-completio
 
 Here’s Visual Studio before IntelliCode:
 
+:::div{.inset}
 :img{src="/img/2018/05/before-intellicode-001.png" alt="Before IntelliCode" loading="lazy"}
+:::
 
 And here is the same thing with IntelliCode added:
 
+:::div{.inset}
 :img{src="/img/2018/05/with-intellicode-001.png" alt="With IntelliCode" loading="lazy"}
+:::
 
 You can see that the suggestions have been re-ordered, with more relevant suggestions at the top and marked with a star. These will change over time, becoming more relevant as the intelligence is trained.
 
 But does it work on real code? Here is an example from an open source project. The “correct” answer is now right near the top. You can see the old alphabetical suggestions in red that would have been shown before the intelligence was added.
 
+:::div{.inset}
 :img{src="/img/2018/05/intellicode-with-real-code.png" alt="IntelliCode with Real Code" loading="lazy"}
+:::
 
 ## Coding style rules
 
@@ -43,11 +49,15 @@ IntelliCode can also automatically infer your in-house coding style and generate
 
 Just add a new item to your project using the `editorconfig` template. Instead of getting a blank file, you get an inferred set of rules based on your existing code. You can still change it, but you don’t need to start from nothing.
 
+:::div{.inset}
 :img{src="/img/2018/05/editorconfig.png" alt="Editor config" loading="lazy"}
+:::
 
 You’ll now be warned about any style issues and be supplied with instant fixes with the lightbulb icon.
 
+:::div{.inset}
 :img{src="/img/2018/05/code-violations.png" alt="Code Violations" loading="lazy"}
+:::
 
 ## Summay
 

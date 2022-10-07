@@ -17,11 +17,15 @@ When you think about Datadog, you are very often thinking about charts. Which vi
 
 You can add notes to your dashboard using the *Edit Dashboard* screen, where notes has a prominent placement.
 
+:::div{.inset}
 :img{src="/img/2019/01/datadog-notes-toolbar.png" alt="Datadog Notes Toolbar"}
+:::
 
 The notes dashboard widget just lets you describe the information you are presenting. It works really well when placed right next to thing it explains, like this:
 
+:::div{.inset}
 :img{src="/img/2019/01/datadog-notes.png" alt="Datadog Notes" loading="lazy"}
+:::
 
 That grey box with text in is your note. It can help people understand the intent of a chart, or direct them to the action that the chart might prompt.
 

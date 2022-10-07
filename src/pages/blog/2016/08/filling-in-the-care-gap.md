@@ -11,7 +11,9 @@ tags:
     - People
 ---
 
+:::div{.inset}
 :img{src="/img/2016/08/circles.jpg" alt="Circles"}
+:::
 
 We all care quite a lot for the people we are close to.
 

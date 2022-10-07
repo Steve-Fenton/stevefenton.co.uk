@@ -16,11 +16,15 @@ This pie chart example is based on an [article posted yesterday on the Google Te
 
 ## No
 
+:::div{.inset}
 :img{src="/img/2017/05/google-testing-pie.png" alt="Google Testing Pie"}
+:::
 
 ## Yes
 
+:::div{.inset}
 :img{src="/img/2017/05/google-testing-bars.png" alt="Google Testing Bars" loading="lazy"}
+:::
 
 ## Notes
 

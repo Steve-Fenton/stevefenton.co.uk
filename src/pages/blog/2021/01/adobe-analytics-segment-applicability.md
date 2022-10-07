@@ -13,7 +13,9 @@ tags:
 
 Adobe Analytics makes it super-easy to add segements, with a visual designer that will help you build the logic. As well as traditional and/or logical tests, you can use time based “then” tests to create segments where things happen in a specific order. For example, you might be interested in visitors who arrive from a UTM campaign and within a week checkout.
 
+:::div{.inset}
 :img{src="/img/2021/01/simple-utm-then-checkout-segment.jpg" alt="Settings show: Include Visitor WHERE utm_source does not equal Unspecified THEN WITHIN 1 WEEKS Checkouts is greater than or equal to 1" loading="lazy"}
+:::
 
 This is all well and good, but the most subtle part of this rule also happens to be the most important. It’s the part that says “Include”. It makes quite a big difference whether you choose “Hit”, “Visit”, or “Visitor” because it changes where you can apply the segment later. For example, if you include “hit” and use the segement to analyse a visitor, you’re going to start seeing some results that won’t immediately make sense (they aren’t “wrong”, but they might mislead you).
 

@@ -19,15 +19,21 @@ Go to your Google Analytics account and choose the property with your nicely con
 
 Then open Admin > View > Goals
 
+:::div{.inset}
 :img{src="/img/2021/03/goal-view-001.jpg" alt="Goal View in Google Analytics" loading="lazy"}
+:::
 
 Either use the tick box to select all, or choose specific goals from the list. When you do this, a “Share” option appears in the toolbar.
 
+:::div{.inset}
 :img{src="/img/2021/03/goal-view-002.jpg" alt="Goal Sharing Link" loading="lazy"}
+:::
 
 Click on this share option and choose “Share template link”. This will create a shareable link that can be used to add goals to any other Google Analytics v3 view (by someone who has permissions to do so).
 
+:::div{.inset}
 :img{src="/img/2021/03/share-template-link.jpg" alt="Share Template Link" loading="lazy"}
+:::
 
 You’ll get a message containing a link that you need to copy and keep somewhere to re-use, like your favourites bar.
 

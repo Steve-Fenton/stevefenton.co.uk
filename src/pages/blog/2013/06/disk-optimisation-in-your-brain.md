@@ -9,7 +9,9 @@ categories:
     - Psychology
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/socrates.jpg" alt="Socrates"}
+:::
 
 I wrote a while ago about how [context switching comes at a high price](/blog/2012/06/context-switching-comes-at-the-price-of-delivery/), and I used a comparison to computers to explain the problems. Brace yourselves, because I’m going to do it again – partly inspired by some of the chapters I read in *CLR via C#* by Jeffrey Richter and *Why Plans Fail* by Jim Benson.
 

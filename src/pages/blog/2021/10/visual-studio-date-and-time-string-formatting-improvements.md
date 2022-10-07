@@ -24,7 +24,9 @@ This isn’t a tricky bit of code, but you have to remember that months are `M` 
 
 Visual Studio knows that you shouldn’t have to remember this stuff, so it now starts suggesting auto-complete entries *within your string literal*, as shown below.
 
+:::div{.inset}
 :img{src="/img/2021/10/autocomplete-date-formats.jpg" alt="Auto completion of date format strings" loading="lazy"}
+:::
 
 This is a big energy-saver as you no longer need to perform two or three feedback loops to refine your guessed-date-string.
 

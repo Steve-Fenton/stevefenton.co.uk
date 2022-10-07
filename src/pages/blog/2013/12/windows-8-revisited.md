@@ -12,7 +12,9 @@ tags:
     - windows
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/asus-transformer-t100ta.jpg" alt="Asus Transformer T100TA"}
+:::
 
 When I upgraded my main laptop to Windows 8 when the special offer was on just over a year ago, many of my friends were quite surprised. As usual with a Windows release, the general perception was that it was rubbish. I actually got along fine with it – I didn’t even miss the start menu.
 

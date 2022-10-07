@@ -23,6 +23,8 @@ So why are pie charts good for comedy? For exactly the same reasons they are bad
 
 If you were to use a proper chart, the answer would be apparent too quickly. It just wouldn’t be as funny. You can make jokes out of other charts, but pie charts are just naturals. Here is a great example from [Introvert Doodles](http://introvertdoodles.com/), titled “[Honestly Though](http://introvertdoodles.com/comic/honestly-though/)“:
 
+:::div{.inset}
 :img{src="/img/2018/01/introverted-doodles.jpg" alt="Introvert Doodles" loading="lazy"}
+:::
 
 The pie chart is the perfect choice for comedy; but for all the same reasons, it is bad for business.

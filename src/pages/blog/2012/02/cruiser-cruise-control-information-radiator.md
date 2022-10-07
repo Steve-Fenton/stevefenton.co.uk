@@ -14,7 +14,9 @@ tags:
     - JavaScript
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/cctray_radiator.jpg" alt="Cruise Control Radiator"}
+:::
 
 I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn’t have is a nice information radiator / visualisation for your team wall-board.
 
@@ -28,8 +30,12 @@ Feel free to use it, but please bear in mind that it is a work in progress. You 
 
 The display fills the available screen, so it works at virtually any size from a small window on your developer machine to a massive plasma screen on the wall in the dev room, normal browser features like zoom and full-screen work just fine.
 
+:::div{.inset}
 :img{src="/img/2015/07/cruiser.jpg" alt="Cruiser - CC.NET Build Status" loading="lazy"}
+:::
 
 And if you can’t wait to get back to the office to check your build status, you can check it whilst down the pub using your mobile phone.
 
+:::div{.inset}
 :img{src="/img/2015/07/cruiser_mobile.jpg" alt="Cruiser on Mobile" loading="lazy"}
+:::

@@ -13,13 +13,17 @@ Robert Martin posted yet another thought-provoking article titled [where is the 
 
 ## The Surgical Team
 
+:::div{.inset}
 :img{src="/img/2015/07/surgical-team.png" alt="Surgical Team" loading="lazy"}
+:::
 
 The Surgical Team was described in some detail in Fred Brooks’ classic book The Mythical Man Month.- although Brooks credits the idea to Harlan Mills. Starting on page 27, the description of the surgical team describes a team centred on a surgeon. The surgeon (AKA the *chief programmer*) makes all of the decisions and all of the cuts. He is assisted by a team that includes a co-pilot who is an aspiring surgeon (and replacement in the event of an incident involving a bus) and various helpers who deal with things for the surgeon to allow him to spend more time cutting things. This is shown in the organisation chart above.
 
 ## The Foreman
 
+:::div{.inset}
 :img{src="/img/2015/07/foreman.png" alt="Foreman" loading="lazy"}
+:::
 
 The Foreman seems subtly different to this model. The foreman is still the *chief programmer*, but instead of performing all of the tasks with support from a team of helpers the foreman performs a checking role enabling many other people to do the work and ensuring that it is done correctly. This is illustrated in the diagram above. In Robert Martin’s words:
 

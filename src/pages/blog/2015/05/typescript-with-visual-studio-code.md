@@ -19,21 +19,29 @@ Working in VSCode is a bit different to working in other editors and IDEs – so
 
 Once you have [downloaded and installed VSCode](http://code.visualstudio.com/), you can open it up to find the welcome screen looks like this…
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-code-typescript-001.png" alt="Visual Studio Code with TypeScript" loading="lazy"}
+:::
 
 Select “File”, then “Open Folder…” to choose where you are going to write your first TypeScript app in VSCode. You can open any folder, which will be treated as an *implicit project*. I’ll discuss *explicit projects* in a moment.
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-code-typescript-002.png" alt="Visual Studio Code - TypeScript" loading="lazy"}
+:::
 
 Once you have navigated to the appropriate folder, use the “Select Folder” button to choose it.
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-code-typescript-003.png" alt="Visual Studio Code - TypeScript" loading="lazy"}
+:::
 
 Your VSCode window will now look like this… and if you hover over your folder name (“Example” in my case), you’ll get icons for adding files, adding folders, refreshing the view, and collapsing the tree.
 
 Click on the “Add File” icon (the first one in the image below).
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-code-typescript-004.png" alt="Visual Studio Code - TypeScript" loading="lazy"}
+:::
 
 Add the following files:
 
@@ -42,7 +50,9 @@ Add the following files:
 
 The tsconfig.json file converts your folder into an *explicit project*. You can edit the tsconfig file to specify compiler options and pass in files to the compiler (so you don’t have to use reference comments, for example).
 
+:::div{.inset}
 :img{src="/img/2015/07/visual-studio-code-typescript-005.png" alt="Visual Studio Code - TypeScript" loading="lazy"}
+:::
 
 My tsconfig file is shown below…
 

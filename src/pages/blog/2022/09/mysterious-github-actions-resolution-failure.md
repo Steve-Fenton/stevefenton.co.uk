@@ -21,7 +21,9 @@ The answer was really simple. I found a file named `language.astro` where all my
 
 Locally, everything was named `Language.astro` and it all built fine. However, on committing the code, GitHub still listed the file as `language.astro` as renaming it from language->**Language** doesn’t update the casing.
 
+:::div{.inset}
 :img{src="/img/2022/09/suspect-file.png" alt="Suspect File is still shown with a lower case file name" loading="lazy"}
+:::
 *Hey, why is this still lower-case?!!*
 
 To make it rename, you have to significantly change the file name, for example language->Language**s** (and update all the references again). When you do this, it updates in GitHub and everything works.

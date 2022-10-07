@@ -11,7 +11,9 @@ categories:
 
 I rather flippantly posted this waterfall vs agile graph online this week, along with the equally flippant comment: “Are we still discussing it? Waterfall loses to Agile even based on Waterfall-style metrics”.
 
+:::div{.inset}
 :img{src="/img/2015/07/waterfall-vs-agile.jpg" alt="Waterfall vs Agile" loading="lazy"}
+:::
 
 So I thought I had been at least acknowledge that this was rather off-hand and also provide The Longer Version™.
 

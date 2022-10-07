@@ -32,7 +32,9 @@ The actual number of cases in March 2020 based on the predictive model is ~50,00
 
 The measurement I have selected is hospital admissions. This metric is not dependent on self-reporting or the availability of testing. We can theorise that there is a strong relationship between the number of cases and the number of patients admitted to hospital. Using the data from the public dataset, we can construct the following chart.
 
+:::div{.inset}
 :img{src="/img/2020/09/original-coronavirus-data.jpg" alt="Original Coronavirus Data" loading="lazy"}
+:::
 
 The main suspect area in this cart appears on the left-hand side, where the number of hospital admissions seems high compared to the number of cases. There is a secondary suspect area on the right, where the media reported that the availability of tests was limited.
 
@@ -40,15 +42,21 @@ The main suspect area in this cart appears on the left-hand side, where the numb
 
 If we take the data “in the middle”, where we know there was a testing system in place (but before the tests started to run out), we can create the following chart based on a relationship between hospital admissions and cases.
 
+:::div{.inset}
 :img{src="/img/2020/09/coronavirus-adjusted-cases-model.jpg" alt="Coronavirus Adjusted Model" loading="lazy"}
+:::
 
 The model suggests that the number of cases during the peak of the pandemic may have been in the region of 50,000 cases per day. This is significantly higher – in fact, so much higher we need to remain sceptical about the model. Let’s test the model on recent numbers.
 
+:::div{.inset}
 :img{src="/img/2020/09/coronavirus-predicted-numbers.jpg" alt="Model Prediction August/September" loading="lazy"}
+:::
 
 And now lets look at the reported numbers for the same period.
 
+:::div{.inset}
 :img{src="/img/2020/09/coronavirus-actual-numbers.jpg" alt="Coronavirus Reported Number August/September" loading="lazy"}
+:::
 
 The model isn’t too far out from the reported numbers. The reality is likely to be in the same zone – in all probability, higher than being reported of the past week by some fifteen to twenty-five percent.
 
@@ -66,16 +74,22 @@ And finally, please don’t walk away from this post thinking “oh well, that�
 
 Here is the hospital admissions data up to 29th December 2020. This is the data being used to refine the model and arrive and the prediction of cases being approximately 14x the number of admissions.
 
+:::div{.inset}
 :img{src="/img/2020/09/recorded-hospital-admissions.png" alt="Recorded Hospital Admissions" loading="lazy"}
+:::
 
 I have updated the model and predictions as of 29th December 2020 to fine tune the multiplier, which is settling neatly around the number of cases being 14x the number of hospital admissions. Or to put it another way, around 7% of cases result in hospitalisation. The distribution of actual hospitalisation rates per day shows a high concentration at 6% and 7%.
 
+:::div{.inset}
 :img{src="/img/2020/09/hospital-admission-percentage-of-cases-distribution.png" alt="Distribution of actual hospital admissions as a % of cases" loading="lazy"}
+:::
 
 Based on the 14x cases to admissions, we can see how this compares to the actual numbers. As you’d expect, hospital admissions are a lagging indicator, as people tend to become a case some days before they are admitted to hospital. The right-hand of this chart shows the recent numbers.
 
 We can then look back to the previous periods to predict how many cases there were during the first peak, even though it wasn’t possibly to measure the number of cases at the time. Perhaps we should call this “predicted vs recorded” as the recorded numbers are less likely to be the *actual* numbers than the predicted ones.
 
+:::div{.inset}
 :img{src="/img/2020/09/prediction-vs-recorded-cases.png" alt="Predicted Cases vs Recorded Cases Comparison" loading="lazy"}
+:::
 
 We can revisit this 14x multiplier with new data as it emerges to confirm, adjust, or destroy the model. It looks like the uppermost spike was around 50,000 cases per day.

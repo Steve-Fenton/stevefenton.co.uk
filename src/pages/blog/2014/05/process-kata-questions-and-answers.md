@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/process-kata-two.jpg" alt="Process Kata"}
+:::
 
 I wrote an article describing how [the team I work on used a kata to test out our new process](/blog/2014/04/process-kata/). I got some interesting questions and comments, so I thought I’d respond in more detail in this follow up.
 

@@ -22,7 +22,9 @@ At the Post Office in the UK, you used to enter the building and scan the room t
 
 So we know that the amateur Post Office customer is going to pick the middle queue, because it has fewer people. But the expert customer heads over to the queue with five people in it. Are they crazy? Of course not, they just have a good appreciation for variability.
 
+:::div{.inset}
 :img{src="/img/2018/02/queue.jpg" alt="A long queue" loading="lazy"}
+:::
 
 Parcels are easy. They are the predictable work of the Post Office. You drop the parcel on the scales, are given a few postage options, and pay some money. In the worst case, you have to fill in a small registered delivery slip.
 

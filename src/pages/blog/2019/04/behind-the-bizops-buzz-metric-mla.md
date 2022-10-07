@@ -18,7 +18,9 @@ We all know that BizOps is gaining momemntum and that we need to think about how
 
 I’m not going to talk much about scientific method or experiment design here. When you are ready for those you’ll find plenty of sources of that information. What I want to present is a few stages that I have found useful in setting up DevOps dashboards, monitoring, and alerting that I found were useful once again when setting up business-focussed dashboards, monitoring, and alerting. In other words – there are some principles that are well developed for technical decision making that apply equally to business decision making.
 
+:::div{.inset}
 :img{src="/img/2019/04/conversions-per-week.jpg" alt="Conversions Per Week" loading="lazy"}
+:::
 
 ## Data
 

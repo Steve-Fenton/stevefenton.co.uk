@@ -17,7 +17,9 @@ When you don’t want to script out your own database, Entity Framework Core has
 
 Your package manager console can be found in Visual Studio using Tools -> NuGet Package Manager -> Package Manager Console.
 
+:::div{.inset}
 :img{src="/img/2020/03/tools-nuget-package-manager-console.jpg" alt="Package Manager Location"}
+:::
 
 ## What will be included
 

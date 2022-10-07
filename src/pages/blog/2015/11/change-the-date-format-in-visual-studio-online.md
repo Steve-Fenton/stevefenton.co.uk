@@ -13,7 +13,9 @@ Visual Studio Team Services is rather good, but if you are using it outside of t
 
 The current fix is as follows:
 
+:::div{.inset}
 :img{src="/img/2015/11/visual-studio-online-date-format.png" alt="Visual Studio Online Date Format"}
+:::
 
 - Go to your name in the top-right of the screen, then select “My Profile” > “Preferences”
 - From the Language list, select an option that isn’t “Browser” (otherwise the date and time pattern are not editable).

@@ -25,7 +25,9 @@ The basic idea behind this in CSS is shown below. First, we limit the `height`, 
 
 In many cases, though, this simply doesn’t do what you expect.
 
+:::div{.inset}
 :img{src="/img/2021/11/no-ellipsis.jpg" alt="No ellipsis is shown" loading="lazy"}
+:::
 
 There are two common reasons for this.
 

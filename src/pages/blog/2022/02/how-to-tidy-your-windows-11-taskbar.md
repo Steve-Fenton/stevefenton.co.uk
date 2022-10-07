@@ -20,16 +20,22 @@ By default, the taskbar is duplicated on each screen, which is what we are all u
 
 There is a setting that you can enable to make the taskbar screen-specific. That means it only shows the apps that are open on the screen I’m looking at. It ungroups the same app where it is open once on each display and instead provides a one-click icon for the display-specific instance of the app. I know my left screen is my “research view” and my right-hand screen is my “writing view”, so I always pick the right browser icon with no need to select anything from a group.
 
+:::div{.inset}
 :img{src="/img/2022/02/example-taskbar-sketch.jpg" alt="Taskbar before and after sketch - different taskbars on each display" loading="lazy"}
+:::
 
 Here’s how you can switch it on and try it out for yourself.
 
 Right-click on the taskbar and select “Taskbar settings”.
 
+:::div{.inset}
 :img{src="/img/2022/02/taskbar-settings.jpg" alt="Taskbar settings option" loading="lazy"}
+:::
 
 Then look for the option under Taskbar behaviours titled “When using multiple displays, show my taskbar apps on…”. If you change this to “Taskbar where window is open” you will find you now have a taskbar per-display. That means when you click on the taskbar icon, you know which of your displays the item is going to open on. If you are using two instances of the same app, but on different displays, they will no longer be grouped and you now don’t need to expand the group and choose the correct instance.
 
+:::div{.inset}
 :img{src="/img/2022/02/taskbar-behaviours.jpg" alt="Taskbar behaviours settings" loading="lazy"}
+:::
 
 I hope you find this useful!

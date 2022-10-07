@@ -37,7 +37,9 @@ Here is an example HTML snippet that shows where the CSS sibling selector will a
     </div>
 ```
 
+:::div{.inset}
 :img{src="/img/2017/10/css-sibling-selector.png" alt="CSS Sibling Selector" loading="lazy"}
+:::
 
 ## Doesn’t traverse up
 

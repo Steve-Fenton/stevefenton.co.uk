@@ -20,7 +20,9 @@ The reason it doesn’t matter is this simple fact: Any process used with good i
 
 There are two general factors that affect intent. The team and the management. You can deploy [quaductionism]\(/blog/2017/10/quaductionism-clarity-via-reductionism/) to simplify this as shown below:
 
+:::div{.inset}
 :img{src="/img/2020/07/process-quadrants-of-intent.jpg" alt="Impact of intent on outcome" loading="lazy"}
+:::
 
 ## Team intent
 

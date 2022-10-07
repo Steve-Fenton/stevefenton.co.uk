@@ -16,7 +16,9 @@ tags:
 
 These are the three things I encourage people to look at when they aren’t getting what they need out of their software development process. Because I had started with these so many times, I sometimes imagine everyone knows all about them; but each time I start helping a software team turn things around I find that these techniques have yet to be applied.
 
+:::div{.inset}
 :img{src="/img/2018/10/continuous-improvement.png" alt="Three Ways to Improve Software Development"}
+:::
 
 ## Make Work Visible
 

@@ -23,11 +23,15 @@ My first guess for the Azure set up was a serverless SQL database for the data s
 
 The Azure Portal has a really neat area for cost management, which includes something called *Cost Analysis*. You’ll find that in the menu as shown below.
 
+:::div{.inset}
 :img{src="/img/2020/07/azure-cost-analysis.jpg" alt="Azure Cost Analysis Menu" loading="lazy"}
+:::
 
 This is the best place to start as it breaks down the cost per resource and provides a forecast of spending. This screen is able to provide reasonable forecasts after a couple of days of normal operation.
 
+:::div{.inset}
 :img{src="/img/2020/07/forecast.jpg" alt="Cost Forecast" loading="lazy"}
+:::
 
 My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app]\(/blog/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn’t required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
 
@@ -37,7 +41,9 @@ A quick aside… this article is not “using a small virtual machine is cheaper
 
 The next cost saving tool is [Park My Cloud](https://www.parkmycloud.com/). It works across a number of providers, including Azure, and provides a simple way to create schedules that automatically run. It also looks at your Virtual Machines and suggests right-sizing fixes too. For my purposes, using one of the standard schedules to power-down the machine out of hours removed around half the cost of the Virtual Machine.
 
+:::div{.inset}
 :img{src="/img/2020/07/park-my-cloud.jpg" alt="Park My Cloud Scheduling" loading="lazy"}
+:::
 
 Park My Cloud is like having an accountant for your cloud spend; they basically pay for themselves by saving you money.
 
@@ -45,10 +51,14 @@ Park My Cloud is like having an accountant for your cloud spend; they basically 
 
 The first chart shows the changing cost curve as different changes were applied.
 
+:::div{.inset}
 :img{src="/img/2020/07/chart-actual-spend.jpg" alt="Actual Spend Chart" loading="lazy"}
+:::
 
 Taking “today” as day zero, we can compare the long-term costs before and after the cost saving measures.
 
+:::div{.inset}
 :img{src="/img/2020/07/flat-comparison.jpg" alt="Comparison of Different Configurations" loading="lazy"}
+:::
 
 The result is, it costs 12x less after spending a few hours thinking about different ways to power the test app on Azure.

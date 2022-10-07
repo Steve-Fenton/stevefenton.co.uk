@@ -120,7 +120,9 @@ jobs:
           path: _output
 ```
 
+:::div{.inset}
 :img{src="/img/2022/04/github-action-complete.jpg" alt="Visual representation of the GitHub Action" loading="lazy"}
+:::
 
 ## Page options
 

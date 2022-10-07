@@ -14,7 +14,9 @@ tags:
 
 Googlebot is one of the good guys. It will check your robots.txt file and respect any crawl delays you’ve asked it to use. However, if you run hundreds or thousands of websites across your infrastructure you can encounter waves of Googlebot traffic due to it coincidentally selecting many of your websites to crawl at the same time. While each website gets a small volume of traffic, your total traffic can spike massively.
 
+:::div{.inset}
 :img{src="/img/2020/12/googlebot-traffic-waves.jpg" alt="Graph showing waves of Googlebot traffic" loading="lazy"}
+:::
 
 In the above graph, spikes of over 100k requests per hour were recorded from Googlebot in addition to all the normal website traffic. It looks like an attack, but it’s just coincidental concurrent crawls. If only there was a way to train Googlebot not to flood shared infrastucture when lots of websites run on it?
 

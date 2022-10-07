@@ -15,4 +15,6 @@ So I ended up buying everyone cakes. How on Earth did that happen? Sadly, it hap
 
 And just for the purposes of double checking… if you do paste this into a [byte counter](https://mothereff.in/byte-counter), watch out for any of the simple quotes and dashes being converted into curly special versions.
 
+:::div{.inset}
 :img{src="/img/2011/05/byte-counter.png" alt="Byte Counter" loading="lazy"}
+:::

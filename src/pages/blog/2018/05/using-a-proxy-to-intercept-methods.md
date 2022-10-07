@@ -15,7 +15,9 @@ tags:
     - TypeScript
 ---
 
+:::div{.inset}
 :img{src="/img/2018/05/esspresso-filter.jpg" alt="Espresso filter"}
+:::
 
 This is just a short note on how to use an ECMAScript Proxy to intercept methods. There are plenty of examples that intercept properties, but examples with methods seem absent currently.
 

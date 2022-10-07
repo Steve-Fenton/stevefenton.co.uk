@@ -36,4 +36,6 @@ A has a z-index of 100, so it is on top of C, which has a z-index of 90 *and is 
 
 B is on top of A and C, because it has a z-index of 2, but is in the Stacking Context of A, so think of it as A + 2, or 100 + 2.
 
+:::div{.inset}
 :img{src="/img/2015/07/stackingcontext.jpg" alt="Stacking Context" loading="lazy"}
+:::

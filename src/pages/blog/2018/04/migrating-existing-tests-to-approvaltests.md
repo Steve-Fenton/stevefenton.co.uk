@@ -81,15 +81,21 @@ public void TestTheFirstVerse()
 
 Running this for the first time opens up the diff tool.
 
+:::div{.inset}
 :img{src="/img/2018/04/approvaltests-first-diff.png" alt="Test Verification Failure Diff Tool" loading="lazy"}
+:::
 
 If the text is correct, I simply copy-right to move it into the gold copy and save the file. At this stage, the test window shows a failure:
 
+:::div{.inset}
 :img{src="/img/2018/04/test-window.png" alt="ApprovalTests Test Window Failure" loading="lazy"}
+:::
 
 But re-running the test now the gold copy is approved will turn it green.
 
+:::div{.inset}
 :img{src="/img/2018/04/green-test-window.png" alt="Test Window Pass" loading="lazy"}
+:::
 
 ## The final version of the test
 
@@ -106,7 +112,9 @@ public void TestTheFirstVerse()
 
 The gold copy is stored in a simple text file, so you can commit it to source control and track the versions just like your source code. You’ll see it if you enable all files in the solution explorer and can add it to the solution. The file is named to match the test it belongs to.
 
+:::div{.inset}
 :img{src="/img/2018/04/gold-copy-test-file.png" alt="Gold Copy Text File" loading="lazy"}
+:::
 
 By repeating this for each of the tests in the Bottles of Beer project, and effectively moving the text into separate gold copy files, the test file reduced from 400 lines of code to just over 60. Changes to the specified gold copies are now tracked separately to changes to the test code and they can be shared with a wider audience.
 

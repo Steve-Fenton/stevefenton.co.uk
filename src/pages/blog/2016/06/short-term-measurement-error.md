@@ -16,7 +16,9 @@ tags:
 
 This is a [counter warning to my article on magical numbers](https://www.linkedin.com/pulse/metrics-find-your-magical-number-steve-fenton). Magical Numbers are a useful abstraction – a way of measuring less without learning less. Without finding these numbers, you end up investing too much in collecting detailed measurements that make the real story hard to fathom, but Magical Numbers allow you to collect less, but find out more (because the link between the number and the outcome is clear).
 
+:::div{.inset}
 :img{src="/img/2016/06/short-term-mistake.jpg" alt="Short Term Measure Error"}
+:::
 
 So what could go wrong? The most prevalent problem I see in business is mistaking a short term measure for a long term improvement.
 

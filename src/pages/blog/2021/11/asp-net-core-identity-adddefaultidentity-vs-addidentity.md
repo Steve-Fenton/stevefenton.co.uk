@@ -15,7 +15,9 @@ tags:
 
 The short version on the difference between `AddDefaultIdentity` and `AddIdentity` is the *default* part adds in all the built-in controllers and views for logging in, recovering accounts, and password resets but doesn’t add roles. You can, though, add roles to `AddDefaultIdentity` to get *all the things*.
 
+:::div{.inset}
 :img{src="/img/2021/11/adddefaultidentity-vs-addidentity.jpg" alt="AddDefaultIdentity vs AddIdentity" loading="lazy"}
+:::
 
 ## AddDefaultIdentity
 

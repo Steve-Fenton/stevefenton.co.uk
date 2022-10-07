@@ -14,7 +14,9 @@ tags:
     - SQL
 ---
 
+:::div{.inset}
 :img{src="/img/2018/06/a-pile-of-ram.jpg" alt="A Pile of RAM" loading="lazy"}
+:::
 
 When you perform a SQL bulk update, you *can* just press go and wait. Most humans, though, get an increasing feeling of impending doom when the clock ticks up towards several hours with no visible progress.
 

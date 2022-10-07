@@ -31,6 +31,8 @@ Complex task. Writing an article. I open a blank text editor and start writing a
 
 Let’s drop them on a picture, with the measurement of “Words per Minute” in the middle, and its gravitational effect on the touch typing task and the article writing task…
 
+:::div{.inset}
 :img{src="/img/2020/10/complexity-gravity.jpg" alt="Measurement Complexity Creates a Gravitational Force" loading="lazy"}
+:::
 
 I suspect that it is, in theory, possible to reverse the gravitational pull by operating on the method of quantification (i.e. if I were to measure my article in a more refined manner). Over time as sophisticated measurement tools are made available, we might be able to push the quantification upwards and create a stronger pull that will work positively against more complex tasks. As my good friend Keith Drew also pointed out, we could operate to break up and simplify a task to bring it below the measurement line. In practice, though, it seems sensible to abandon the numbers game once a certain complexity threshold is reached.

@@ -14,7 +14,9 @@ tags:
 
 We’ve all read JavaScript: The Good Parts, and there is plenty of wisdom in Douglas Crockford’s landmark work. His reminder that eval is evil has echoed through the JavaScript community and saved many people from a total mess.
 
+:::div{.inset}
 :img{src="/img/2017/10/Duck_of_Vaucanson.jpg" alt="Duck of Vaucanson" loading="lazy"}
+:::
 
 However, as programmers we must remain thinking individuals who question received wisdom. You must resist inappropriate use of reductionism; the kind that tempts you to compress a chapter of intelligent monologue into a bullet-point rule. This is the kind of problem we had more than 15 years ago when we realised that “you shouldn’t use tables for layout”… which gets repeated back to us by novices as “you shouldn’t use tables!”.
 

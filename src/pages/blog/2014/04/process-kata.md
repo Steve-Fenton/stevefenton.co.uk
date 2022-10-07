@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/process-kata.jpg" alt="Process Kata" loading="lazy"}
+:::
 
 The team I work on has been performing coding katas for some time to improve our coding chops. It is a great way of practising test-first programming, it can test your program design skills and it helps you to gain familiarity with your tools.
 

@@ -25,13 +25,17 @@ One common argument in support of pie charts is the comparison of individual val
 
 In 2009, the British people selected their representatives to sit on the European parliament. The results are displayed in the pie chart shown below (Data: [BBC News 2009 European Election Result](http://news.bbc.co.uk/1/shared/bsp/hi/elections/euro/09/html/ukregion_999999.stm)).
 
+:::div{.inset}
 :img{src="/img/2015/07/pie001.png" alt="Nasty Euro Election Pie Chart" loading="lazy"}
+:::
 
 So, what is wrong with this pie chart? While it is reasonably clear that the Conservative Party got the single biggest chunk of the vote, it is really hard to tell the difference between the next three parties: UKIP, Labour, and the Liberal Democrats. This is a bit of a problem as this is the whole point of the chart should be to give us this kind of information. It is also quite hard to tell the difference between the next two parties, Green and BNP.
 
 Let’s re-arrange the data onto a column chart. This is usually a good choice for comparing values as readers only need to evaluate the height of each column.
 
+:::div{.inset}
 :img{src="/img/2015/07/column001.png" alt="Fantastic Euro Election Column Chart" loading="lazy"}
+:::
 
 The difference is clear. When comparing the portion of the total vote, the pie chart (which is the guaranteed choice of the newspapers) is rubbish when compared to the column chart.
 
@@ -41,15 +45,23 @@ To keep the comparison between these as fair as possible, I have very carefully 
 
 Using exactly the same statistical reference as the previous example, let’s look at size. No matter what anyone tells you, size does matter. So what happens when we change the size of our graphical statistical tools. Pie charts once again demonstrate a problem. When you make a pie chart bigger, nothing happens. A larger chart doesn’t reveal more information. It is just as useless as it was when it was tiny. Just look at this, what a waste of space.
 
+:::div{.inset}
 :img{src="/img/2015/07/pie002.png" alt="Shocking Tiny Pie" loading="lazy"}
+:::
 
+:::div{.inset}
 :img{src="/img/2015/07/pie003.png" alt="Awful Large Pie" loading="lazy"}
+:::
 
 Our trusty column chart, however, remains versatile. Enlarging the chart can make the differences between the items even clearer. In these examples, you can see the differences clearly enough in the small chart, but you can also see the enhanced impact of the big one beneath it.
 
+:::div{.inset}
 :img{src="/img/2015/07/column002.png" alt="Excellent Tiny Column Chart" loading="lazy"}
+:::
 
+:::div{.inset}
 :img{src="/img/2015/07/column003.png" alt="Stunning Huge Column Chart" loading="lazy"}
+:::
 
 Where clearly labelled and if it is useful for the specific analytics, it is also possible to display a column chart with a different vertical scale (for example a log scale) or from a non-zero starting point. A pie chart cannot be adapted in these ways.
 
@@ -63,13 +75,17 @@ The long and short of this electoral scenario is that you need to do a few sums.
 
 Could second-place party Labour team up with third-place Liberal Democrats to create a combined force with more seats in parliament than the Conservatives? Check out this pie chart and decide for yourselves. (Data: [BBC News 2010 General Election Result](http://news.bbc.co.uk/1/shared/election2010/results/))
 
+:::div{.inset}
 :img{src="/img/2015/07/pie004.png" alt="Disasterous UK Election Pie Chart" loading="lazy"}
+:::
 
 It is actually quite hard to tell. The lilac section verses the combined purple and yellow section – it isn’t very easy to tell which is bigger when it is displayed on a pie chart.
 
 If we return to our trusty column chart though, things are a little more obvious.
 
+:::div{.inset}
 :img{src="/img/2015/07/column004.png" alt="Brilliant UK Election Column Chart" loading="lazy"}
+:::
 
 Quite clearly, the Liberal Democrats were in a uniquely gifted situation. If they were to team up with Labour, the combined party would be bigger than the Conservative Party. Equally, if they teamed up with the Conservatives, they would be the outright winners. The Lib Dems were the king-makers of this general election.
 

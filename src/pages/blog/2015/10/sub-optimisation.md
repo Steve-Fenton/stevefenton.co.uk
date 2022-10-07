@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/09/why-do-we-dot-dot-dot.jpg" alt="Why do we only do this bit"}
+:::
 
 I have a notepad filled with post-its, drawings, and hand-written notes that I use to trigger my thought process in relation to software development and this is a picture from the page that gives me the most value each time I revisit it.
 

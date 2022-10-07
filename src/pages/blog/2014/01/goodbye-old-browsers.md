@@ -29,7 +29,9 @@ For older browsers, the worst case scenario is that the block elements in HTML5 
 
 ## Working Browsers
 
+:::div{.inset}
 :img{src="/img/2015/07/browser-test-rekonq.png" alt="Browser Test Rekonq" loading="lazy"}
+:::
 
 Here are just some of the browsers everything looks fine in (I have put the minimum version tested – I tested quite a lot of versions). This is not an exhaustive list.
 
@@ -49,7 +51,9 @@ Here are just some of the browsers everything looks fine in (I have put the mini
 
 ## Working Text Browsers
 
+:::div{.inset}
 :img{src="/img/2015/07/browser-test-lynx.png" alt="Browser Test Lynx" loading="lazy"}
+:::
 
 These browsers are fine too (but are text-browsers):
 
@@ -58,7 +62,9 @@ These browsers are fine too (but are text-browsers):
 
 ## Shonky Browsers
 
+:::div{.inset}
 :img{src="/img/2015/07/browser-test-konqueror.png" alt="Browser Test Konqueror" loading="lazy"}
+:::
 
 And these look shonky, but work:
 

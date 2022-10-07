@@ -31,7 +31,9 @@ You should also set up a Cloudflare firewall rule like this:
 
 Or, using the expression editor, enter `(http.request.uri.path contains "xmlrpc.php")`
 
+:::div{.inset}
 :img{src="/img/2021/10/block-xmlrpc-on-cloudflare.jpg" alt="Block XML RPC on WordPress using Cloudflare" loading="lazy"}
+:::
 
 Hit “DEPLOY” to set your rule live and then test it using the following:
 

@@ -14,7 +14,9 @@ tags:
 
 So you have a CSS theme written using LESS. A simple example would be like the example below… you’ve extracted your variables into a file named “variables.less” and you use an import to make those variables available to your main stylesheet. If you decide to change something important, you can do that in the variables file and you don’t need to touch your larger theme file – you just recompile.
 
+:::div{.inset}
 :img{src="/img/2016/07/less-typical.jpg" alt="LESS Example"}
+:::
 
 variables.less
 
@@ -39,7 +41,9 @@ But what if you wanted to generate two theme files based on different variables?
 
 So far, I have come up with the following solution. I’m open to better ideas.
 
+:::div{.inset}
 :img{src="/img/2016/07/less-composition.jpg" alt="LESS Composition" loading="lazy"}
+:::
 
 In this example, we introduce a base variables file, which is rather like an abstract base class. You can put shared variables in here – but you would leave some mixins empty to indicate that they need to be implemented in the “sub classes”.
 

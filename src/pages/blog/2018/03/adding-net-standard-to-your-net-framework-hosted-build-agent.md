@@ -24,7 +24,9 @@ I’m using Visual Studio 2017; things may be more complicated if you are using 
 
 The first change is pretty simple. You can reference .NET Standard libraries from a .NET Framework application that targets .NET Framework 4.6.1 or above. You can change this in Project Properties, Application, Target Framework.
 
+:::div{.inset}
 :img{src="/img/2018/03/target-framework.png" alt="Target Framework" loading="lazy"}
+:::
 
 At this point, you should be able to get everything working *on your machine*. Now let’s start work on the build agent!
 
@@ -36,7 +38,9 @@ At the “Process” level of the build definition, there is an Agent Queue, whi
 
 VSTS builds now have tasks divided into phases. If you click on the phase, you’ll find it has a section called Agent Selection, containing an Agent Queue selection. This needs to be set to “Hosted VS2017”.
 
+:::div{.inset}
 :img{src="/img/2018/03/agent-selection.png" alt="Agent Selection" loading="lazy"}
+:::
 
 You will also need to update your build tasks, so they ask for the correct Visual Studio version.
 

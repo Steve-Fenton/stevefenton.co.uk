@@ -36,6 +36,8 @@ There are a couple of answers to this statement. If you really care about speed 
 
 We can summarise all of this into four simple quadrants:
 
+:::div{.inset}
 :img{src="/img/2017/10/bundling-or-modules-quadrants.png" alt="Bundling vs Modules Quadrants" loading="lazy"}
+:::
 
 So if your program is either on the larger side, or gets deployed frequently, you’re likely to find modules are a better long-term strategy. This is especially the case as your program will get bigger over time, and your team are likely to deploy more often too.

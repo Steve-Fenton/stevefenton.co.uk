@@ -76,7 +76,9 @@ If we sum up the results (29 + 4) we get our weighted average, which is 33. That
 
 Here is diagram that shows all my workings for the above the numbers, feel free to try this out for yourself in Excel, a calculator, or even an abacus.
 
+:::div{.inset}
 :img{src="/img/2020/02/average-of-averages.jpg" alt="Average of Averages" loading="lazy"}
+:::
 
 ## Summary
 

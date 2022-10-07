@@ -9,7 +9,9 @@ categories:
     - Process
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/onions.jpg" alt="Sliced Onions"}
+:::
 
 I once worked in a company where one of the directors was heard to say:
 

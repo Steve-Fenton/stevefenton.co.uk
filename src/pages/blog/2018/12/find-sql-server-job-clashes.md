@@ -13,7 +13,9 @@ tags:
 
 If you are working on an older application that has a lot of logic inside of the SQL database in jobs, procedures, and functions – you may find that your job schedules cause a repeating wave of SQL compilation peaks. If you suspect jobs may be the cause, you can use a query to find SQL server job clashes.
 
+:::div{.inset}
 :img{src="/img/2018/12/five-minute-query-spike.png" alt="Repeating Wave of Peaks"}
+:::
 
 The query just looks into the job schedules to inspect the next run time to tell you *at the current moment* what the next clashes will be.
 
@@ -51,11 +53,15 @@ For example, imagine you have the following jobs set up:
 
 You will have clashed with up to three concurrent jobs and on many time slots before your lunch.
 
+:::div{.inset}
 :img{src="/img/2018/12/jobs-round-number-scheduling.png" alt="Round Number Scheduling of Jobs" loading="lazy"}
+:::
 
 If you change the interval to 7, 17, and 11 minutes respectively you get only three clashes, and of only two concurrent jobs. Quite an improvement.
 
+:::div{.inset}
 :img{src="/img/2018/12/jobs-prime-number-interval.png" alt="Jobs With Prime Number Intervals" loading="lazy"}
+:::
 
 If you need to go further in reducing clashes, you can calculate the start times to be aligned to the scale. This means you lose additional clashes caused by the round-number start times:
 
@@ -63,7 +69,9 @@ If you need to go further in reducing clashes, you can calculate the start times
 - 10:34 every seventeen minutes
 - 11:06 every eleven minutes
 
+:::div{.inset}
 :img{src="/img/2018/12/jobs-prime-number-schedule-and-interval.png" alt="Jobs With Prime Number Schedule and Interval" loading="lazy"}
+:::
 
 If you are still having trouble, reduce the frequency by increasing the interval (rather than getting even more complicated with numbers!)
 

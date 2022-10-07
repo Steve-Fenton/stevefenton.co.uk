@@ -15,4 +15,6 @@ Instead of writing a grand history of devices and the growth in form-factors and
 
 I’m not saying that no apps should be written, but if you have a website full of content, why spread yourself thin trying to maintain a ton of apps that display that content when you could put that effort into an awesome website instead.
 
+:::div{.inset}
 :img{src="/img/2015/07/AppsAppsApps.jpg" alt="Apps Apps Apps"}
+:::

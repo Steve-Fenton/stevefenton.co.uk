@@ -28,7 +28,9 @@ Generating the number of combinations would have allowed me to be technically co
 
 By exploring this thought exercise, it soon became apparent that we had created a system that could rival atoms in the universe, just like possible chess games. When your system is ultimately configurable, you can’t expect to test every combination using humans. You can’t expect to test every known customer configuration with humans. You can potentially solve it with automation, but a preferable solution is to start converging on a smaller number of in-use configurations.
 
+:::div{.inset}
 :img{src="/img/2015/07/self-organising-pawn.jpg" alt="An angry looking self-organising chess pawn" loading="lazy"}
+:::
 
 ## Work in process and release frequency
 

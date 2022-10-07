@@ -21,7 +21,9 @@ Of course, this isn’t about faders. It’s about Estimates (and of course, #No
 
 Let’s look at it the pragmatic way with a basic flowchart.
 
+:::div{.inset}
 :img{src="/img/2015/09/When-To-Estimate-Flowchart.png" alt="No Estimates Framework for Thinking" loading="lazy"}
+:::
 
 This flowchart essentially boils down to the following:
 

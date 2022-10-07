@@ -20,13 +20,17 @@ Microsoft Teams has a growing collection of apps that can be used to enhance you
 
 To install Polly, click on the triple-dot menu in any chat, search for “polly”, and select result for Polly in the list. It will install the app with a simple login with your Microsoft account.
 
+:::div{.inset}
 :img{src="/img/2021/02/getting-polly.jpg" alt="Getting Polly" loading="lazy"}
+:::
 
 ## Running a poll
 
 When you add a poll, it will pop up over the video for all the attendees, and display in the chat history. Depending on your configuration, the results will update in real time, or be displayed when you close the poll.
 
+:::div{.inset}
 :img{src="/img/2021/02/teams-polly.jpg" alt="Microsoft Teams and Polly" loading="lazy"}
+:::
 
 There are lots of configuration options in Polly’s authoring view, which can be opened from the parrot-icon, or the three-dot icon below the chat box. The important ones are…
 

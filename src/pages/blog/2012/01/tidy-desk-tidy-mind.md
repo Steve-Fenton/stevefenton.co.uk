@@ -15,4 +15,6 @@ All that is left are a couple of monitors, some headphones a keyboard and a mous
 
 Take a look and revel in the tidiness!
 
+:::div{.inset}
 :img{src="/img/2015/07/desk.jpg" alt="My Desk" loading="lazy"}
+:::

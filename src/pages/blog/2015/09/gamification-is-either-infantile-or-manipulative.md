@@ -11,7 +11,9 @@ tags:
     - Gamification
 ---
 
+:::div{.inset}
 :img{src="/img/2015/09/gamification.jpg" alt="Gamification - image by Kenny Louie"}
+:::
 
 I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a “cool software company” that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
 

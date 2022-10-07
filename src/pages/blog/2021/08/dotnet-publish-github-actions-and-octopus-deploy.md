@@ -86,11 +86,15 @@ There are some community actions available for these steps, but it’s also supe
 
 To publish to Octopus Deploy, we need the server address and an API key. If you sign-in to Octopus Deploy, the server address is just the URL with no path, i.e. `https://example.octopus.app`. You can generate an API key by going to your profile and selecting “API Keys”. I recommend creating keys for specific purposes, rather than sharing the same key everywhere.
 
+:::div{.inset}
 :img{src="/img/2021/08/octopus-api-key.jpg" alt="Octopus Deploy API Keys" loading="lazy"}
+:::
 
 With this information to hand, head over to **GitHub > Settings > Secrets** to add these two items to your list of secrets. I’ve called them “OCTOPUS\_SERVER” and “OCTOPUS\_APIKEY” and lots of other people have also named them like this, so let’s call this a convention that will make it easier to re-use our GitHub action definitions.
 
+:::div{.inset}
 :img{src="/img/2021/08/github-actions-secrets.jpg" alt="GitHub Actions Secrets" loading="lazy"}
+:::
 
 We can now write steps to download the Octopus CLI, package our stuff, and publish it to our Octopus Deploy server. That’s three things, so we will do it in three steps, thus:
 

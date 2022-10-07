@@ -31,7 +31,9 @@ This is why the grind of repeating a manual regression test should be the target
 
 While you claim that a repetitive test is too costly to automate, you are burning money manually testing it or losing money fixing the problem late in your process when it costs one hundred times more to fix ([NIST](http://www.nist.gov/) 2002). When you claim that test automation is too difficult to implement or too brittle to maintain, you forget that if you had the intellectual capital to spend on the problem, the people would find a way to make it less costly and less brittle. I often find that organisations are ready to drop an automated regression suite because it costs several days each month to maintain – despite the impact of the decision being that it takes two weeks of manual regression testing to replace the “brittle automation” (and once you identify areas that are brittle in test automation, you know where to make improvements).
 
+:::div{.inset}
 :img{src="/img/2015/07/Routine-Eccentric-vs-Easy-Hard.png" alt="Routine Eccentric, Easy Hard" loading="lazy"}
+:::
 
 The more you apply the automation philosophy I have described, the more capacity you will have to solve problems of cost and maintainability. As your ability to free up people to undertake knowledge work increases, you can even tackle areas that originally appeared to be eccentric work. For example, if you have no test automation, some forms of testing seem like eccentric work that must be done by a human – but later you discover you can create innovative tools to reduce the effort or even automate the testing. For example, testing that the design of a UI meets the corporate standards, colour schemes and themes seems like an impossible task for automation – but perhaps some aspects can in fact be automated.
 

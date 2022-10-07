@@ -38,4 +38,6 @@ And here are the various kinds:
 
 You can overlay these two concepts into a monitor matrix. Each of the slots on the matrix has super-powers to find various kinds of problem. If they can find the same root cause, each will do so at different speeds – and you will be able to find circumstances where each one can be the leading indicator when something has broken. Picking the earliest indicator.
 
+:::div{.inset}
 :img{src="/img/2017/11/monitor-matrix.png" alt="Monitor Matrix" loading="lazy"}
+:::

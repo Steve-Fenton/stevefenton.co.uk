@@ -18,7 +18,9 @@ tags:
 
 I have said a thing or two about estimates in the past; and it generally leads to no good. What I do sometimes need to do is clarify my perspective, because people don’t get it. As always, definitions are important – so I’m to clarify what I think of when I talk about estimates, #NoEstimates, and no estimates.
 
+:::div{.inset}
 :img{src="/img/2018/07/mechanical-calculator.jpg" alt="A mechanical calculator" loading="lazy"}
+:::
 
 ## Estimates
 
@@ -42,7 +44,9 @@ You don’t simply stop estimating. You need to acknowledge problems and work in
 
 The below diagram indicates that I don’t agree with blindly providing estimates simply because they are requested. It also illustrates that blindly denying the request is no better. The only path I’m interested in is one in which we find the need a solve it in the most appropriate way.
 
+:::div{.inset}
 :img{src="/img/2018/07/no-estimates-and-estimates.png" alt="Estimates vs No Estimates" loading="lazy"}
+:::
 
 If you would like to read more, I have a [flowchart that reflects the thought process of #NoEstimates in practice]\(/blog/2015/09/noestimates-in-practice/).
 

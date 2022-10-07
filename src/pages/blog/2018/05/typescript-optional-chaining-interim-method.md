@@ -17,7 +17,9 @@ tags:
 
 ECMAScript has an optional chaining proposal on the way (see [TC39 on GitHub](https://tc39.github.io/proposal-optional-chaining/)). It uses `?.` to chain together an expression in a way that forgives a breaking chain. For example, `myObj.items[0].data` can fail if `myObj` is null, or undefined, or doesn’t have an items member, or there are no entries in the items collection, or the first item doesn’t have a member named data! This will be adopted into TypeScript as soon as the syntax is agreed – but what do you do in the meantime when you want to use optional chaining in TypeScript?
 
+:::div{.inset}
 :img{src="/img/2018/05/optional-chaining.jpg" alt="A broken chain with rusty links"}
+:::
 
 ## Optional chaining magic ˀ
 

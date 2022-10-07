@@ -55,4 +55,6 @@ var runner = new SpecRunner(new CustomTestReporter());
 
 The result of this custom test reporter is shown below:
 
+:::div{.inset}
 :img{src="/img/2015/11/typespec-browser-output.png" alt="TypeSpec Browser Ouput" loading="lazy"}
+:::

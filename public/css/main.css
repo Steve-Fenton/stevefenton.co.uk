@@ -800,6 +800,18 @@ pre.astro-code code {
     width: 66%;
 }
 
+.inset-small {
+    margin: 1rem auto;
+    width: 66%;
+    max-width: 200px;
+}
+
+.inset-medium {
+    margin: 1rem auto;
+    width: 66%;
+    max-width: 400px;
+}
+
 /* Animation */
 
 @media (prefers-reduced-motion: no-preference) {

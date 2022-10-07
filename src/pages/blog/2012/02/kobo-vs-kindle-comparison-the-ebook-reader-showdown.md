@@ -9,7 +9,9 @@ categories:
     - Opinion
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_6.jpg" alt="Kindle vs Kobo"}
+:::
 
 On paper, there isn’t much to separate Kobo from Kindle, so the only real way to tell the difference is to get your hands on the real thing and see how they perform. I have done exactly that and pitched a Kobo Touch against a new Kindle in order to see if there is anything notable to pick out against these two lightweight e-book reading devices.
 
@@ -27,7 +29,9 @@ The Kindle comes in the new Amazon hassle-free packaging. Not only is this reall
 
 ## Form
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_4.jpg" alt="Kindle vs Kobo" loading="lazy"}
+:::
 
 Both the Kobo Touch and the Kindle are surprisingly similar in size, shape and weight. Any differences *on paper* are absolutely impossible to tell with the actual devices in your hands. The bevelled edges of the Kindle make it feel thinner than the Kobo, although if you turn both sideways on they appear to be around the same depth.
 
@@ -43,7 +47,9 @@ This is the first category where there is a notable difference between the two d
 
 ## Battery
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_2.jpg" alt="Kindle vs Kobo" loading="lazy"}
+:::
 
 Given the duration of your smart-phone’s battery these days, the battery life of both the Kobo and the Kindle are stunning. I tested both devices with the built-in wi-fi switched on, because this is pretty much how you will use either of the devices unless you have lots of discipline in respect of opening up the settings to switch it off when you don’t need it. I found that I needed to charge them up around once every few weeks, depending on how much reading I had found time for.
 
@@ -55,7 +61,9 @@ This is also one aspect of reading where the physical buttons of the non-touch d
 
 ## Storage
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_3.jpg" alt="Kindle vs Kobo" loading="lazy"}
+:::
 
 Both the Kobo and the Kindle offer more storage than you are likely to need. The Kobo has a slot for a memory card, which allows you extend the storage and any books you buy from Kobo are available to download via wi-fi.
 
@@ -81,7 +89,9 @@ This is another important consideration where the Kindle beats the Kobo.
 
 ## Buying From Other Stores
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_5.jpg" alt="Kindle vs Kobo" loading="lazy"}
+:::
 
 At first, both the Kobo and Kindle look quite similar when it comes to buying books from other stores. This is important to me because I buy specialist books, such as titles from [The Pragmatic Bookshelf](https://pragprog.com/).
 
@@ -97,7 +107,9 @@ The chances are that I will buy many books through the native book store, but fo
 
 ## Summary
 
+:::div{.inset}
 :img{src="/img/2015/07/kindle_vs_kobo_1.jpg" alt="Kindle vs Kobo" loading="lazy"}
+:::
 
 Where these two e-book readers are similar, they are very similar – but in all respects where there is a significant difference the Kindle comes out on top. If you want to have the most seamless reading experience there is no question that you should buy the Kindle.
 

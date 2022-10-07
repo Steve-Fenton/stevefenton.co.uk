@@ -22,7 +22,9 @@ If you are an avid Firefox user, you have probably noticed that when a page is l
 
 Well, the difference is actually quite interesting. It is actually interesting enough for a bright green post-it note of knowledge.
 
+:::div{.inset}
 :img{src="/img/2015/07/firefoxloading.jpg" alt="Firefox Loading" loading="lazy"}
+:::
 
 When you click, the anti-clockwise grey spinner starts. This continues while your request is travelling down thousands of miles of cable all the way to the web server. It carries on while the web server processes your request (for example, while it is getting stuff from a database and converting it into a web page).
 

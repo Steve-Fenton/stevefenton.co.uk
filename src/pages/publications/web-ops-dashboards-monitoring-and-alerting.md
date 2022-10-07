@@ -8,7 +8,9 @@ keywords:
 description: 
 ---
 
+:::div{.inset}
 :img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting"}
+:::
 
 This book is for anyone involved in software development who needs some practical tips to kick off their web operations monitoring journey.
 

@@ -15,7 +15,9 @@ tags:
     - PHP
 ---
 
+:::div{.inset}
 :img{src="/img/2015/07/iphone-app.png" alt="iPhone App"}
+:::
 
 Everyone is keen on writing apps these days. For an organisation, apps are the buzz. For consumers, apps are the convenience. The only problem is that writing apps that target every operating system (and then every version of an operating system that has a wide distribution between versions) can be quite a task.
 

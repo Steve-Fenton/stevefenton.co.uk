@@ -14,7 +14,9 @@ tags:
 
 I have been writing about pie charts since [2009 when I wrote how pie charts are bad]\(/blog/2009/04/pie-charts-are-bad/) and I haven’t stopped [writing about pie charts](/category/pie-charts/) since then. Rather than a critique of some random pie chart I have seen, or been sent, or been linked to by the Chicago Tribune – I wanted to talk about how pie charts don’t belong in the board room.
 
+:::div{.inset}
 :img{src="/img/2017/11/terrible-pie-chart.png" alt="Terrible Pie Chart" loading="lazy"}
+:::
 
 The data in question is not necessarily in the board room, it is basically the data people are using to make decisions. There are a lots of different things you might measure at a point in time, but no matter what that data is – it needs two important properties if you want it to lead to a good decision.
 

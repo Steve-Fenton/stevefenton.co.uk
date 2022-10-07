@@ -21,7 +21,9 @@ Copilot is an AI pair programming tool that suggests code based on a colossal tr
 
 You can also navigate the suggestions using <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>\]</kbd> for the next suggestion, or <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>\[</kbd> for the previous one – so you can see what other ideas your robot helper has.
 
+:::div{.inset}
 :img{src="/img/2022/03/copilot-fibbonaci.jpg" alt="Copilot example" loading="lazy"}
+:::
 
 You can read the [official announcement on GitHub](https://github.blog/2022-03-29-github-copilot-now-available-for-visual-studio-2022/).
 

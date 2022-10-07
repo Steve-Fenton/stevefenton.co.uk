@@ -14,7 +14,9 @@ tags:
 
 I needed to grab a report that listed all hyperlinks on a web page, so I wrote a browser extension to do it for me.
 
+:::div{.inset}
 :img{src="/img/2022/03/link-reporter-edge-extension.jpg" alt="Link reporter in the extension store"}
+:::
 
 Get [LinkReporter in the Edge store](https://microsoftedge.microsoft.com/addons/detail/linkreporter/fjcjpdljldimcgcinebaopphlnoegfng).
 
@@ -22,7 +24,9 @@ Grab [LinkReporter in the Chrome Store](https://chrome.google.com/webstore/detai
 
 ## How to use Link Reporter
 
+:::div{.inset}
 :img{src="/img/2022/03/using-link-reporter.jpg" alt="Click on the LinkReporter icon in the browser toolbar and the report will download" loading="lazy"}
+:::
 
 Once you’ve installed the extension:
 
@@ -30,7 +34,9 @@ Once you’ve installed the extension:
 2. Click the Link Reporter icon
 3. A CSV file will download into your usual folder, open it to see the report
 
+:::div{.inset}
 :img{src="/img/2022/03/example-report.png" alt="Example report from Link Reporter" loading="lazy"}
+:::
 
 The report contains the following information:
 

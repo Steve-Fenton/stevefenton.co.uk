@@ -13,7 +13,9 @@ When an organisation sets out on the long and treacherous journey of adopting so
 
 The facts of software test automation must be carefully separated from all these myths in order for adoption to be successful. I hope that this collection of short essays will assist the people who are interested in undertaking this daring endeavour. If this is you, I wish you the best of luck and hope to arm you with some much needed perspective on this great subject.
 
+:::div{.inset}
 :img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
+:::
 
 Buy online:
 

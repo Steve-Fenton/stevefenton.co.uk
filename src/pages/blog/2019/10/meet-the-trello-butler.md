@@ -16,7 +16,9 @@ tags:
 
 Most of my time is spent in technical-land, where we use tools such as Azure DevOps to manage the flow of work. There is, though, another side to our business and they love Trello. For at least part of my day, I’m looking at colourful lists of *stuff* that the business are pushing around in their Trello boards. There are often updates to the software, but only today did something appear that made me think… that’s cool. Meet the Trello Butler!
 
+:::div{.inset}
 :img{src="/img/2019/10/trello-butler.jpg" alt="Trello Butler"}
+:::
 
 Trello’s Butler is designed to collect little workflows that you perform repetitively and make them happen on a single push button. It’s easier with an example.
 
@@ -30,7 +32,9 @@ Let’s automate it!
 
 You can open Butler using the little push-bell icon.
 
+:::div{.inset}
 :img{src="/img/2019/10/butler-icon.jpg" alt="Butler Icon" loading="lazy"}
+:::
 
 We’re going to add a “Board Button” because this action applies the whole board. You can create “Card Buttons” that apply on a per-card basis to represent your common actions too. The configuration in our example will prepare you to create these too as they are just as easy to set up.
 
@@ -44,7 +48,9 @@ There are icons along the top of the rules that are used to group different kind
 
 To perform our ordering of lists, we’ll choose “Order”.
 
+:::div{.inset}
 :img{src="/img/2019/10/adding-butler-rules.jpg" alt="Adding Butler Rules" loading="lazy"}
+:::
 
 For each list, we’ll repeat these steps (it’s the last bit of repetition we’re going to do for a while… because Butler will be doing repetitive things in the future!)
 
@@ -57,7 +63,9 @@ Each time we hit “Add”, the rule moves up into our actions set and the panel
 
 Once we have all our lists and their ordering actions set up, we hit “Save” to add the button to the board. It will appear next to Butler.
 
+:::div{.inset}
 :img{src="/img/2019/10/butler-sort-lists-button.jpg" alt="Butler Sort Lists Button" loading="lazy"}
+:::
 
 Press the button and all the sorting will be taken care of for you.
 

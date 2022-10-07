@@ -14,7 +14,9 @@ categories:
 
 Whether you use Google Analytics, Adobe Analytics, or some other package to learn about your web traffic, you are likely to come across some odd looking numbers when you start cutting up your Unique Visitors. For example, when you look at your monthly reports and compare them to your annual report you’ll find that you have less unique visitors per year than you expected based on your month-on-month reporting. This article will explain why this is perfectly fine.
 
+:::div{.inset}
 :img{src="/img/2019/02/unique-visit-tracking.png" alt="Two Visitors, both visit in January and one visits again in Febrary"}
+:::
 
 ## The set up
 
@@ -45,10 +47,14 @@ A unique visitor is unique within the time period you are reporting on. When you
 
 Putting it visually, when you look at each month separately you see the below diagram, where Blue Dave appears twice:
 
+:::div{.inset}
 :img{src="/img/2019/02/separate-time-unique-visit-tracking.png" alt="Separate Months" loading="lazy"}
+:::
 
 But when you look at the combined time period, Blue Dave can only appear once:
 
+:::div{.inset}
 :img{src="/img/2019/02/aggregate-time-unique-visit-tracking.png" alt="Aggregate Time Period" loading="lazy"}
+:::
 
 This is the reason this statistic can feel like it has such an ephemeral quality; it’s because the wider you go, the less times you count Blue Dave. In theory, a really fanatical user like Blue Dave, who visits every week, could appear 52 times in your weekly reporting and just once in your annual reporting. If all your users were like this, your weekly report would have the same numbers in as your annual report. Amazing.

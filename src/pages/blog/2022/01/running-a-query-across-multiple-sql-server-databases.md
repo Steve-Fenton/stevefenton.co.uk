@@ -49,7 +49,9 @@ The only argument to pass to `mq` is the drive letter, in the above example itâ€
 
 The output file will have a column for each of the fields in the field list, plus an extra one to tell you the data source for each of the rows. Itâ€™s just a plain old CSV file.
 
+:::div{.inset}
 :img{src="/img/2022/01/temp-mq-folder.jpg" alt="The temp mq folder with an input and output file" loading="lazy"}
+:::
 
 ## Least privilege
 

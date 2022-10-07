@@ -25,10 +25,14 @@ This is caused by adding a parent/child relationship between two cards. When you
 
 Here are two cards before the parent/child relationship is added…
 
+:::div{.inset}
 :img{src="/img/2016/06/parent-child-cards-before.png" alt="Parent and Child Cards Before Linking" loading="lazy"}
+:::
 
 Now if we add the link as per the below screenshot we get a slight confusing behaviour. Initially both cards will still be there (because the board hasn’t refreshed – this happens even with auto-refresh on); but when we come back to the board later, the child will have gone.
 
+:::div{.inset}
 :img{src="/img/2016/06/parent-child-link.png" alt="Parent Child Link" loading="lazy"}
+:::
 
 One word of warning – you might expect the parent to re-appear on the board if it was in a different state to the child, or if the child was “done” but the parent wasn’t. It doesn’t. Only child items are shown on the board. If you want both cards to appear, they probably aren’t a parent/child relationship – so you might be better of using the “Related” link instead.

@@ -24,7 +24,9 @@ That means our average person can read thirty to sixty books a year just by exch
 
 ## Time to Read
 
+:::div{.inset}
 :img{src="/img/2022/01/time-to-read.png" alt="An infographic showing that giving up half your social time will gift you 30 books a year" loading="lazy"}
+:::
 
 [Click here to open a larger version](/img/2022/01/time-to-read.png)
 

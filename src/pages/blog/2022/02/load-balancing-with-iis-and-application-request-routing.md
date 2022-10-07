@@ -20,7 +20,9 @@ Application Request Routing (ARR) is a feature in <abbr title="Internet Informat
 
 In this article, a single-server web app will be updated to run on two web servers with an ARR server sitting in front of them to distribute the traffic.
 
+:::div{.inset}
 :img{src="/img/2022/02/load-balancing-with-arr.png" alt="Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers"}
+:::
 
 ## Installing ARR
 
@@ -28,7 +30,9 @@ If you have a server with IIS installed, you can [use the Web Platform Installer
 
 Once installed, you will have a new node in IIS Manager called **Server Farms**.
 
+:::div{.inset}
 :img{src="/img/2022/02/iis-manager-server-farms.jpg" alt="Server farms node in IIS Manager" loading="lazy"}
+:::
 
 ## Creating a server farm
 
@@ -64,7 +68,9 @@ IIS Manager has specific sections to configure and monitor your server farm.
 
 The example below shows a configuration where routing rules allow all “\*.jpg” files to be server from the load balancer, with all other requests forwarded to the web farm.
 
+:::div{.inset}
 :img{src="/img/2022/02/arr-selective-routing.png" alt="Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers" loading="lazy"}
+:::
 
 ## Summary
 

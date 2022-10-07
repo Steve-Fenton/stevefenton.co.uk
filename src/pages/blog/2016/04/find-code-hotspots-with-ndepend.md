@@ -22,7 +22,9 @@ So why, when I have so many analysers am I turning to NDepend?
 
 Simple: NDepend is the big boss man of analysers. It has a huge range of reports and rules to help find and fix problems in your code. This huge range of tools can be overwhelming – so here is a good place to start.
 
+:::div{.inset}
 :img{src="/img/2016/04/ndepend-6-most-complex-method.png" alt="NDepend 6 Most Complex Method" loading="lazy"}
+:::
 
 There is a menu in NDepend titled “METRIC”, with four fantastic options:
 

@@ -30,7 +30,9 @@ console.table(items, ['name', 'occupation', 'title']);
 
 Of course, this doesn’t work anywhere else – but you can use this hastily written pollyfill to get support everywhere else… the table isn’t as pretty, only handles specifically arrays of objects and you can’t sort it in the console, but it works while you’re waiting for browsers to decide it is a great idea.
 
+:::div{.inset}
 :img{src="/img/2015/07/console-table.png" alt="Console Table" loading="lazy"}
+:::
 
 ```javascript
 (function() {

@@ -115,7 +115,9 @@ AutoHeal keeps on moving around, but Sebastian Inones has tipped me off to its l
 4. From the button groups, pick AutoHeal from the Proactive Tools group
 5. You’ll now have an open “Mitigation” tab with several AutoHeal options
 
+:::div{.inset}
 :img{src="/img/2017/10/azure-app-service-diagnostic-tools.jpg" alt="Azure App Service Diagnostic Tools" loading="lazy"}
+:::
 
 :img{src="/img/2017/10/azure-app-service-diagnostic-tools-auto-heal-link.jpg" alt="AutoHeal Link in Diagnostic Tools" loading="lazy"}
 
@@ -125,7 +127,9 @@ By default, proactive AutoHeal will be enabled for your App Service. It will wat
 
 The most important part of AutoHeal is checking whether you have a problem that you need to resolve… and that’s where the AutoHeal history comes in. You can check the history of interventions in this view.
 
+:::div{.inset}
 :img{src="/img/2017/10/azure-autoheal-history.jpg" alt="Azure AutoHeal History" loading="lazy"}
+:::
 
 AutoHeal shouldn’t be used as a permanent replacement for working code!
 

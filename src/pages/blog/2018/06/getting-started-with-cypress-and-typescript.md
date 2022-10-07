@@ -18,7 +18,9 @@ tags:
 
 Cypress is a front-end testing utility that allows you to write UI tests using Mocha and Chai. It has auto-waits, time-travel (look back at snapshots from within test runs), and automatic discovery of tests. This blog provides a quick start for getting started with Cypress and TypeScript.
 
+:::div{.inset}
 :img{src="/img/2018/06/cypress-tree.jpg" alt="Cypress Tree"}
+:::
 
 ## Cypress NPM packages
 
@@ -158,11 +160,15 @@ Hopefully you’ll notice that the specification itself knows nothing about Cypr
 
 As soon as the compiler outputs the JavaScript files for this application, the UI will pick them up and list them.
 
+:::div{.inset}
 :img{src="/img/2018/06/cypress-ui.png" alt="Cypress UI" loading="lazy"}
+:::
 
 You can then click on it and it will run.
 
+:::div{.inset}
 :img{src="/img/2018/06/cypress-runner.png" alt="Cypress Runner" loading="lazy"}
+:::
 
 You can click on the steps displayed on the left-hand side of the runner (which is within whichever browser you selected) and it will show you the state of the system under test at that time.
 

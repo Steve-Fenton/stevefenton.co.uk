@@ -69,7 +69,9 @@ ZenHub used a little quote in their article “How to use GitHub for agile proje
 September 2015  
 Henry Garner gives a quick mention to some of my opinions on pie charts in his Clojure for Data Science book.  
 
+:::div{.inset-small}
 :img{src="/img/2015/07/clojure-for-data-science.png" alt="Clojure for Data Science" loading="lazy"}
+:::
 
 [View Clojure for Data Science on Amazon](https://www.amazon.co.uk/Clojure-Data-Science-Henry-Garner-ebook/dp/B00YSILGWG/).
 
@@ -87,7 +89,9 @@ Duncan P. Bradshaw has immortalized me in the zombie novel, Class Four: Those Wh
 May 2015  
 Manas Pathak mentions my take on pie charts in this introduction to data science and the R language.  
 
+:::div{.inset-small}
 :img{src="/img/2015/07/data-science.png" alt="Beginning Data Science with R" loading="lazy"}
+:::
 
 [View Beginning Data Science with R on Amazon](https://www.amazon.co.uk/Beginning-Data-Science-Manas-Pathak-ebook/dp/B00QRSSCIG/).
 

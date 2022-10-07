@@ -23,11 +23,12 @@ After the usual agonising research, I bought the *[Modern Wireless Headset](http
 
 :::div{.simple-grid}
 :img{src="/img/2022/02/PXL_20220215_1226220253.jpg" alt="Microsoft Modern Wireless Headset" loading="lazy"}
-
 :img{src="/img/2022/02/PXL_20220215_123805815.MP2_.jpg" alt="Microsoft Accessories App" loading="lazy"}
 :::
 
-:img{src="/img/2022/02/PXL_20220215_1233074962.jpg" alt="Microsoft Modern Wireless Headset and Surface Ergonomic Keyboard" loading="lazy"}
+:::div{.inset}
+:img{src="/img/2022/02/PXL_20220215_123805815.MP2_.jpg" alt="Microsoft Accessories App" loading="lazy"}
+:::
 
 ## Neat features
 

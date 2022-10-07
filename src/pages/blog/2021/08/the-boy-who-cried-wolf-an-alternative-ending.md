@@ -18,7 +18,9 @@ As ancient fables go, The Boy Who Cried Wolf is certainly one of the big ones. F
 
 “On the outskirts of a small village, a boy is looking after all the sheeps (sic). Several times, he sounds the alarm to call upon the villagers for help. ‘WOLF!’ he cries. The villagers rush to help the boy only to discover there is no wolf in sight. Later, they hear the boy shout ‘WOLF!’, but assuming this is another false alarm they ignore the call. The helpless boy is then killed by the wolf.”
 
+:::div{.inset}
 :img{src="/img/2021/08/Boycriedwolfbarlow.jpg" alt="The Boy Who Cried Wolf" loading="lazy"}
+:::
 
 The moral pushed by this story is that if you “cry wolf” (lie) too often, eventually everyone will assume whatever you say is a lie, even when you tell the truth.
 

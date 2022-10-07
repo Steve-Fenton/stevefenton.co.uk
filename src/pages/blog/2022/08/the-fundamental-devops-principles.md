@@ -30,7 +30,9 @@ For example, it seems like five minutes ago we were talking about the four DORA 
 
 It’s worth keeping up to date with changes to get insights that might sharpen your competitive edge further…
 
+:::div{.inset}
 :img{src="/img/2022/06/devops-structural-equation-model-1.png" alt="DevOps Structural Equation Model (SEM)" loading="lazy"}
+:::
 
 So, the first fundamental principle is that our new era of software delivery is about doing the best thing that we know of at the current time.
 
@@ -45,7 +47,9 @@ Software engineering can be divided into two types of tasks (remember my point a
 1. Complex and unpredictable work
 2. Predictable work
 
+:::div{.inset}
 :img{src="/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png" alt="A scale from predictable to complex work" loading="lazy"}
+:::
 
 The fundamental principle of DevOps is that **we reduce as much of the predictable work as possible to give us more time and energy to handle the complex and unpredictable stuff**.
 

@@ -17,7 +17,9 @@ This is an early view over a process we are experimenting with in my organisatio
 
 There are lots of different terms for how people plan software, but very often it involves someone turning up with a fully formed idea and asking how much it would cost to implement it. It might be called a requirement, a specification, a user story, a feature… it has many names, but it means “a single idea that I want executed”.
 
+:::div{.inset}
 :img{src="/img/2019/11/traditional.jpg" alt="Traditional" loading="lazy"}
+:::
 
 Most of the components of this planning are reasonable enough, but just occur in the wrong order. No amount of “Start With Why” posters seems to materially improve this situation. There are also all of the well reported dysfunctions around estimates, even though the estimates themselves are innocent enough when handled by responsible folks. We need to resolve these two issues. What two issues?
 
@@ -28,7 +30,9 @@ Most of the components of this planning are reasonable enough, but just occur in
 
 Our experimental solution to this planning issue is *problem budgets*. You define a problem. You work out how much you want to invest in an attempt to solve the problem. You work on generating a set of options that you think might solve the problem within the budget. You select an option and work on it until the initial budget is gone.
 
+:::div{.inset}
 :img{src="/img/2019/11/budget.jpg" alt="Budget Not Estimate" loading="lazy"}
+:::
 
 For example, the easy case of… “Thirty-percent of users drop out when they get to the payment screen, how much money is a solution to this problem worth?” (Not every problem is as easy to quantify.)
 
@@ -80,7 +84,9 @@ We always want to have one eye on sunk-cost fallacy; and we always want to ackno
 
 However you run this, you need a mechanism that stops funding an idea that has gone out of control. Here’s a simple ten-Euro version of the principle.
 
+:::div{.inset}
 :img{src="/img/2019/11/pivot-vs-persevere.jpg" alt="Pivot vs Persevere" loading="lazy"}
+:::
 
 Scenario one is the most common mistake in software development; despite being offered the lesson that the idea is not going to work within the budget, the work continues until it is complete. It might cost 2x, 3x, 4x the original budget, but nobody stops spending the money because each time they review progress, they have become more bought-in to making things happen at all costs. You might eventually solve the original problem, but you’ve ignored every opportunity to learn along the way.
 

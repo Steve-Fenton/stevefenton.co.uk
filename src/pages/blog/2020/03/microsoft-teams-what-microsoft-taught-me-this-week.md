@@ -36,7 +36,9 @@ Yeah, I know. Almost nothing in the world is as horrible as that little mirror-b
 
 You have probably seen the team ads with the chap joining nonchalantly from outside a hipster café. His team get distracted by balloons in the background, so he used the background-blur feature to reduce the distractions. The real reason this feature exists is because the reflective surfaces behind you will show embarrassing images of people who think they aren’t in front of the camera. Like the crew in this Sex and the City episode…
 
+:::div{.inset}
 :img{src="/img/2020/03/production-error.png" alt="Crew Visible in TV Reflection" loading="lazy"}
+:::
 
 You can easily toggle this on and off using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> from anywhere in the team window. (Kudos Lee Englestone).
 

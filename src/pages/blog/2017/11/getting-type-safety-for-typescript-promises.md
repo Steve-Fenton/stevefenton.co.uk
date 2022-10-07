@@ -59,7 +59,9 @@ Argument of type 'Error' is not assignable to parameter of type 'string | Promis
     Property 'then' is missing in type 'Error'.
 ```
 
+:::div{.inset}
 :img{src="/img/2017/11/promise-resolve-reject-error.png" alt="Promise Resolve/Reject Error" loading="lazy"}
+:::
 
 So how do we end up not being told about this problem by the compiler?
 

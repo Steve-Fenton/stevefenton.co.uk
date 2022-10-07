@@ -17,7 +17,9 @@ tags:
 
 When I worked on the technical side of software development, I talked a great deal about [\#NoEstimates](/tag/noestimates/). I’m now on the business side of software development (in charge of all products and data for a global <abbr title="Software as a Service">SaaS</abbr> provider). I thought it would be a good time to revisit estimates and put them in context using the Phase Precision Premise.
 
+:::div{.inset}
 :img{src="/img/2019/03/payback-chart.jpg" alt="A chart detailing payback periods"}
+:::
 
 ## TL;DR
 

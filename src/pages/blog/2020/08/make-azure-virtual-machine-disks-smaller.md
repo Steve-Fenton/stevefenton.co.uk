@@ -25,7 +25,9 @@ The problem is that you can’t reduce disk size in the Azure portal, compounded
 
 The chart below shows three zones. Zone A was using serverless SQL, which is super-easy to use but a bit pricey for the amount of reads and writes I was using. Zone B is when I switched to VMs, but accidentally added massive disks. Zone C is the cost saving when I made the disks “the right size”.
 
+:::div{.inset}
 :img{src="/img/2020/08/azure-cost-saving.png" alt="Azure Cost Tracking and Saving" loading="lazy"}
+:::
 
 ## Checklist
 
@@ -63,15 +65,21 @@ These steps can be repeated for each disk. You can only do this when the Virtual
 
 Navigate to “Disks” and add a new one. As all the existing disks are in use, you’ll be told there are no managed disks available; so just create a new one.
 
+:::div{.inset}
 :img{src="/img/2020/08/add-data-disk.jpg" alt="Add Data Disk" loading="lazy"}
+:::
 
 Pay attention on the next screen as this is where we choose the disk size and tier. The defaults look like what I have already, which explains why I ended up with massive disks. This is not a live platform, so let’s just have some 16 GiB standard SSDs.
 
+:::div{.inset}
 :img{src="/img/2020/08/create-managed-disk.jpg" alt="Create Managed Disk" loading="lazy"}
+:::
 
 Choose the tier first, then the size:
 
+:::div{.inset}
 :img{src="/img/2020/08/select-disk-size.jpg" alt="Select Disk Size" loading="lazy"}
+:::
 
 Now we can restart the VM.
 
@@ -79,19 +87,27 @@ Now we can restart the VM.
 
 Open up a session on the Virtual Machine and go to Start > Computer Management and run it as an administrator.
 
+:::div{.inset}
 :img{src="/img/2020/08/run-computer-management-as-administrator.jpg" alt="Open Computer Management" loading="lazy"}
+:::
 
 Then select the disk management section. It will prompt you to initialize the disks.
 
+:::div{.inset}
 :img{src="/img/2020/08/initialize-disks-in-disk-management.jpg" alt="Initialize Disks" loading="lazy"}
+:::
 
 The two disks will be listed with all 16 GB “Unallocated”, so we can right click and choose “New Simple Volume…” to complete the allocation wizard.
 
+:::div{.inset}
 :img{src="/img/2020/08/initialize-disks-new-simple-volume.jpg" alt="Start Allocation Wizard" loading="lazy"}
+:::
 
 During this process, make a note of the disk drive letters you assign as we will need these shortly.
 
+:::div{.inset}
 :img{src="/img/2020/08/initialize-disks-visible-disks.jpg" alt="Visible Disks" loading="lazy"}
+:::
 
 ## Copy data
 
@@ -135,11 +151,15 @@ net stop MSSQLSERVER
 
 We can now return to Computer Management > Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
 
+:::div{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths.jpg" alt="Change Drive Letter" loading="lazy"}
+:::
 
 Then select the “Change” button.
 
+:::div{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths-change.jpg" alt="Change Letter" loading="lazy"}
+:::
 
 In “Assign the following drive letter” carefully choose the correct letter, so SQL Server will find the data files and the log files in the correct place when we start it.
 

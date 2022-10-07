@@ -44,7 +44,9 @@ To drive home the point, here is a cone of uncertainty that also has blue expand
 
 Here is the cone with the overlays:
 
+:::div{.inset}
 :img{src="/img/2017/11/cone-of-uncertainty.jpg" alt="Cone of Uncertainty" loading="lazy"}
+:::
 
 A: Initial Concept  
 B: Approved Product Definition  
