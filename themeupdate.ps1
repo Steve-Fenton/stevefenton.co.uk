@@ -22,9 +22,35 @@ git pull
 
 cd $location
 
-robocopy $srcComponents $destComponents
+# Your own custom copies
 
+## Author list page
+
+$from = $src + 'src/pages/authors/[author]/'
+$to = './src/pages/authors/[author]/'
+robocopy $from $to '[page].astro'
+
+## Article list page -> Blog list pages
+$from = $src + 'src/pages/articles/'
+$to = './src/pages/blog/'
+robocopy $from $to '[page].astro'
+
+## Article category list page -> Blog category list page
+$from = $src + 'src/pages/articles/[category]/'
+$to = './src/pages/blog/[category]/'
+robocopy $from $to '[page].astro' /s
+
+## Article tag list pages -> Blog tag list page
+$from = $src + 'src/pages/articles/[tag]/'
+$to = './src/pages/blog/[tag]/'
+robocopy $from $to '[page].astro' /s
+
+# Standard copies
+
+robocopy $srcComponents $destComponents
 robocopy $srcLayouts $destLayouts
+
+# Aligns utils to the theme... these are shared between all accelerator themes
 
 robocopy $srcUtils $destUtils *.astro
 robocopy $srcUtils $destUtils *.js
