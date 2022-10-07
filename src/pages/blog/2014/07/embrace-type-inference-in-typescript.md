@@ -11,7 +11,7 @@ tags:
     - TypeScript
 ---
 
-TypeScript is structurally typed. I spend a good amount of time explaining this in [Pro TypeScript](/Content/Pro-TypeScript/) because it is incredibly important. It is, in fact, more important than the features that are getting all of the headlines. Modules, namespaces, classes, type annotations, generics, destructuring… these are all great language features; but the combination of a structural type system and powerful type inference is truly fabulous.
+TypeScript is structurally typed. I spend a good amount of time explaining this in [Pro TypeScript](/publications/pro-typescript/) because it is incredibly important. It is, in fact, more important than the features that are getting all of the headlines. Modules, namespaces, classes, type annotations, generics, destructuring… these are all great language features; but the combination of a structural type system and powerful type inference is truly fabulous.
 
 If you are pushed for time, simply commit this phrase to memory and let it swim around for a bit:
 
