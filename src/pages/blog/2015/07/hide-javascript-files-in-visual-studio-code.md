@@ -12,7 +12,7 @@ tags:
     - VSCode
 ---
 
-I have an updated version of this post available here: [Exclude Files from Visual Studio Code’s File Explorer](/2018/02/exclude-files-visual-studio-code-file-explorer/), with updates based on some very nice UI changes that make this just a little bit easier than it was in 2015 when I wrote this.
+I have an updated version of this post available here: [Exclude Files from Visual Studio Code’s File Explorer]\(/blog/2018/02/exclude-files-visual-studio-code-file-explorer/), with updates based on some very nice UI changes that make this just a little bit easier than it was in 2015 when I wrote this.
 
 The Visual Studio Code team are definitely listening to their users. Just a few weeks back, a request went in asking for the ability to hide files – like the JavaScript files in a TypeScript project. Having become accustomed to this in Visual Studio Pro, I up-voted this suggestion. It is already available.
 

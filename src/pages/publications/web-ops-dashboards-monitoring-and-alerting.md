@@ -8,23 +8,25 @@ keywords:
 description: 
 ---
 
-![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)This book is for anyone involved in software development who needs some practical tips to kick off their web operations monitoring journey.
+:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting"}
+
+This book is for anyone involved in software development who needs some practical tips to kick off their web operations monitoring journey.
 
 If you are wondering which metrics are important, confused about the kind of chart you should add to your dashboards, or want to discover how to find and fix incidents before your customers even know there is a problem; this book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with, and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
 
 ## Free Content
 
-[Uptime and SLAs](/2017/12/uptime-and-slas/)
+[Uptime and SLAs](/blog/2017/12/uptime-and-slas/)
 
-[Monitor Selection Principles](/2017/11/monitor-selection-principles/)
+[Monitor Selection Principles](/blog/2017/11/monitor-selection-principles/)
 
-[Alerting Principles](/2017/11/the-alerting-principles/)
+[Alerting Principles](/blog/2017/11/the-alerting-principles/)
 
-[The Three Fs of Event Log Monitoring](/2017/11/the-three-fs-of-event-log-monitoring/)
+[The Three Fs of Event Log Monitoring](/blog/2017/11/the-three-fs-of-event-log-monitoring/)
 
-[Incident Causation Principles](/2017/11/incident-causation-principles/)
+[Incident Causation Principles](/blog/2017/11/incident-causation-principles/)
 
-[Monitor Matrix](/2017/12/the-monitor-matrix/)
+[Monitor Matrix](/blog/2017/12/the-monitor-matrix/)
 
 ## About the Book
 

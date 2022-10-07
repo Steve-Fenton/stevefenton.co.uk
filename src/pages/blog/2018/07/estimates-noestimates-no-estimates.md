@@ -22,7 +22,7 @@ I have said a thing or two about estimates in the past; and it generally leads t
 
 ## Estimates
 
-I have covered this before in general terms in my [definition of estimates](/2014/06/definition-of-estimates/). However, when I talk about estimates at work, in my own job, I’m talking about a subset of the definition of estimates. For me, there are a number of techniques you can use to estimate professionally that range from relative sizing techniques, to projections based on past numbers, to complex models of estimation.
+I have covered this before in general terms in my [definition of estimates]\(/blog/2014/06/definition-of-estimates/). However, when I talk about estimates at work, in my own job, I’m talking about a subset of the definition of estimates. For me, there are a number of techniques you can use to estimate professionally that range from relative sizing techniques, to projections based on past numbers, to complex models of estimation.
 
 When I am asked for an estimate, I always start by looking for the underlying need. Different needs require different kinds of estimation – and sometimes they can be satisfied without estimation. In software development, people often ask to be scratched when their real need is the removal of a thread-worm. Is it any wonder the people being asked to do this unsavoury scratching job are looking for better ways to solve the problem?
 
@@ -44,6 +44,6 @@ The below diagram indicates that I don’t agree with blindly providing estimate
 
 :img{src="/img/2018/07/no-estimates-and-estimates.png" alt="Estimates vs No Estimates" loading="lazy"}
 
-If you would like to read more, I have a [flowchart that reflects the thought process of #NoEstimates in practice](/2015/09/noestimates-in-practice/).
+If you would like to read more, I have a [flowchart that reflects the thought process of #NoEstimates in practice]\(/blog/2015/09/noestimates-in-practice/).
 
 <small>Photo by [CEphoto, Uwe Aranas](https://commons.wikimedia.org/wiki/File:Mechanical-calculator-Brunsviga-15-01a.jpg)</small>

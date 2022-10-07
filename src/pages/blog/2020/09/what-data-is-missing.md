@@ -18,7 +18,7 @@ Common mistakes in this arena include…
 - Believing numbers are precise
 - Not considering excluded groups
 
-[Analytics are not precise (but that’s okay)](/2019/06/analytics-are-lossy-and-thats-okay/), because of loss due to many factors, one of which will be deliberate if you are sampling.
+[Analytics are not precise (but that’s okay)]\(/blog/2019/06/analytics-are-lossy-and-thats-okay/), because of loss due to many factors, one of which will be deliberate if you are sampling.
 
 Ignoring excluded groups is a more fatal error.
 

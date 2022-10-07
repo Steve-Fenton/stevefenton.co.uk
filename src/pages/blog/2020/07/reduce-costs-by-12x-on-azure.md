@@ -29,7 +29,7 @@ This is the best place to start as it breaks down the cost per resource and prov
 
 :img{src="/img/2020/07/forecast.jpg" alt="Cost Forecast" loading="lazy"}
 
-My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app](/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn’t required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
+My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app]\(/blog/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn’t required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
 
 A quick aside… this article is not “using a small virtual machine is cheaper than using a web job”! It depends on what you are doing. This article is “here are tools you can use to find what works for you”.
 

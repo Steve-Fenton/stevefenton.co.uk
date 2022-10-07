@@ -8,11 +8,11 @@ keywords:
 description: 
 ---
 
-![Pro TypeScript Second Edition](/img/2015/07/pro-typescript-second-edition.png)
-
 Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler. This fully revised and updated second edition of Steve Fenton’s popular book covers everything you need to discover this fascinating language and transform your experience of JavaScript development.
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
+
+:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
 
 ## What’s New in The Second Edition
 

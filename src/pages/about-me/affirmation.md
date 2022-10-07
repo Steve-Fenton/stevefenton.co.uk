@@ -17,9 +17,9 @@ description:
 [Church of Roswell - Rocketeer](https://www.youtube.com/watch?v=LkIe4wYR1f8)
 
 :::div{.simple-grid}
-![It Doesn't Have to be Crazy at Work](/img/2020/10/idhtbcaw.jpg)
+:img{src="/img/2020/10/idhtbcaw.jpg" alt="It Doesn't Have to be Crazy at Work" loading="lazy"}
 
-![The Manual](/img/2020/10/the-manual.jpg)
+:img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 
 ## Writing reminder

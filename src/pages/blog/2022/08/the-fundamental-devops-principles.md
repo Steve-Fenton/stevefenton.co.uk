@@ -55,7 +55,7 @@ The specific ways we reduce that routine work might change. We might identify mo
 
 ## Automation
 
-If this sounds familiar, it’s because it connects back to my [automation philosophy](/2015/02/automation-philosophy/). I used the terms “routine” and “eccentric” to describe the work and said that all the routine stuff should be automated. Anything truly “routine” *can* be automated, but there is an economic U-curve to surf. As technology advances, the economics will shift in favour of automation for even the most difficult routine stuff we handle right now.
+If this sounds familiar, it’s because it connects back to my [automation philosophy]\(/blog/2015/02/automation-philosophy/). I used the terms “routine” and “eccentric” to describe the work and said that all the routine stuff should be automated. Anything truly “routine” *can* be automated, but there is an economic U-curve to surf. As technology advances, the economics will shift in favour of automation for even the most difficult routine stuff we handle right now.
 
 The goal isn’t to just automate everything. Some things don’t need to be done at all, so don’t automated them, just stop doing them. In other cases, doing something more often makes it vastly less work.
 
@@ -82,5 +82,5 @@ These white papers can be downloaded for free from Octopus Deploy.
 
 ## Further reading
 
-- [Automation Philosophy](/2015/02/automation-philosophy/)
-- [Test Automation Philosophy](/2015/02/test-automation-philosophy/)
+- [Automation Philosophy]\(/blog/2015/02/automation-philosophy/)
+- [Test Automation Philosophy]\(/blog/2015/02/test-automation-philosophy/)

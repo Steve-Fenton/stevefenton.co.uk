@@ -44,7 +44,7 @@ Pull requests should be picked up immediately.
 
 When I discovered pull requests were the leading cause of delays in the process, I pulled data from Azure DevOps to analyse pull request wait times. What I found was a big surprise. Not only was the average wait time *way too long* (a median wait of 55 minutes), but there were also very different service levels being given to different team members. Some team members were consistently waiting 4x longer than others to have their work unblocked. Left unchecked, this would undoubtedly cause some team members to be viewed as slower than others, when in fact they are being made to wait longer.
 
-You can use the [Azure DevOps API to extract the data](/2021/11/query-pull-request-history-in-azure-devops-with-powershell-and-the-rest-api/) to perform this analysis.
+You can use the [Azure DevOps API to extract the data]\(/blog/2021/11/query-pull-request-history-in-azure-devops-with-powershell-and-the-rest-api/) to perform this analysis.
 
 ## Summary
 

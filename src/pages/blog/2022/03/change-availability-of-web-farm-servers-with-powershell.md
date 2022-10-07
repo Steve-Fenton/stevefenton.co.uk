@@ -13,7 +13,7 @@ tags:
     - PowerShell
 ---
 
-I’m running an [IIS site with ARR as a load balancer](/2022/02/load-balancing-with-iis-and-application-request-routing/). It’s pretty common to want to take a server out of balance or to put it back in using a script. The below script takes the first server out of balance by setting `enabled = $false`. The other servers are left in. You could make this more complex by making the script conditional rather than hard-coding the values.
+I’m running an [IIS site with ARR as a load balancer]\(/blog/2022/02/load-balancing-with-iis-and-application-request-routing/). It’s pretty common to want to take a server out of balance or to put it back in using a script. The below script takes the first server out of balance by setting `enabled = $false`. The other servers are left in. You could make this more complex by making the script conditional rather than hard-coding the values.
 
 ```powershell
 $serverFarm = 'Sample'

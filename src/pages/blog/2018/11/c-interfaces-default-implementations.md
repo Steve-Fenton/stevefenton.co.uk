@@ -14,11 +14,11 @@ tags:
 
 The C# 8.0 announcement included a note on default implementations of interface members. If you’ve been programming for long enough, this might make you a little nervous at first thanks to the hangovers of multiple inheritance. Before you chuck out this idea, though, let’s look at it from a different perspective.
 
-I’m going to talk quickly about *traits*. In programming traits are like mixins ([read more about traits vs mixins](/2018/11/traits-vs-mixins/) if you’re interested in this subject). If you haven’t heard of mixins, here’s a quick quote:
+I’m going to talk quickly about *traits*. In programming traits are like mixins ([read more about traits vs mixins]\(/blog/2018/11/traits-vs-mixins/) if you’re interested in this subject). If you haven’t heard of mixins, here’s a quick quote:
 
 > Mixins take their name from a customizable ice-cream dessert that was first available at Steve’s Ice Cream in Somerville, Massachusetts. The idea behind the mix-in dessert was that you choose an ice cream and add another product to flavor it, for example, a candy bar. The mix-in, or smoosh-in, ice-cream concept has gone global since its appearance on Steve Herrell’s menu back in 1973. <cite>Steve Fenton, Pro TypeScript (Second Edition). Apress. 2018.</cite>
 
-With both traits and mixins, the idea is that you extend the behaviour of a class using a shared implementation. Put another way, they let you take a normal class and give it super powers; just like in Stan Lee comic. That’s why all of my [examples of mixins in TypeScript](/2017/08/typescript-mixins-part-two/) are based around super heroes.
+With both traits and mixins, the idea is that you extend the behaviour of a class using a shared implementation. Put another way, they let you take a normal class and give it super powers; just like in Stan Lee comic. That’s why all of my [examples of mixins in TypeScript]\(/blog/2017/08/typescript-mixins-part-two/) are based around super heroes.
 
 So, if you have a Human class, you can mix it up with some super power mixins or traits. For example, if you had a spider-based mixin and you added it to a `Human` class, the `Human` class would gain the shared methods from the spidery mixin.
 

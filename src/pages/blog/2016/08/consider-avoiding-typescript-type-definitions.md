@@ -14,7 +14,7 @@ tags:
 
 Firstly, when you need a type definition for a JavaScript library that you want full type information for, there is [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped). But before you grab a type definition, let’s stop and think for a minute.
 
-TypeScript does indeed bring you lots of benefits in terms of type checking, and editor features such as auto-completion – and you need a type definition if you want to extend this to include external JavaScript libraries like jQuery, bearing in mind [I use “jQuery” here to refer to the library – and also to the effect](/2013/06/the-novice-view-of-jquery/)! But you don’t have to do this.
+TypeScript does indeed bring you lots of benefits in terms of type checking, and editor features such as auto-completion – and you need a type definition if you want to extend this to include external JavaScript libraries like jQuery, bearing in mind [I use “jQuery” here to refer to the library – and also to the effect]\(/blog/2013/06/the-novice-view-of-jquery/)! But you don’t have to do this.
 
 The general consensus with TypeScript is to get the type definition with a package manager like NPM and have your calling code all checked. But when there is a general consensus, it is usually worth questioning it (although I am reasonably cautious… I did once mention that you could write JavaScript without jQuery and you can get a lot of hate mail about this kind of thing… let’s not even mention [\#NoEstimates](/tag/noestimates/)).
 

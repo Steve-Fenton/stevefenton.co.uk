@@ -35,8 +35,6 @@ So use this sign responsibly to encourage the focus on following your own proces
 
 [Click for a larger version](/img/2015/07/sprint-rules-200x300.gif)
 
-Sign credit: Days Without Breaking Sprint Rules, by Steve Fenton [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/deed.en_US)
-
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US).
+Sign credit: Days Without Breaking Sprint Rules, by Steve Fenton. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US).
 
 Cartoon credit: [Cornered](http://cornered.co.nr/), © Mike Baldwin (107258/144419).

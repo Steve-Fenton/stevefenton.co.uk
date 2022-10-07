@@ -14,7 +14,7 @@ tags:
     - Productivity
 ---
 
-Disambiguation: I’m sticking closely to the term “10x programmer” here. Others have used titles such as “[Rockstar Programmer](/2015/08/the-rockstar-programmer-stereotype/)“, but I think this muddies the water on the discussion as it is a poor metaphor.
+Disambiguation: I’m sticking closely to the term “10x programmer” here. Others have used titles such as “[Rockstar Programmer]\(/blog/2015/08/the-rockstar-programmer-stereotype/)“, but I think this muddies the water on the discussion as it is a poor metaphor.
 
 So what is a 10x programmer? Quite simply, this describes the result of a *study of a study* that showed that the top performing individuals outperformed the worst performers by ten times.
 

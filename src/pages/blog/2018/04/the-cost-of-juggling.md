@@ -53,7 +53,7 @@ We didn’t really need a table or a graph. What we needed was to simply acknowl
 
 ## Not just speed
 
-Let’s not forget that [there is more to life than flat out speed](/2017/06/faster-faster-faster/). If you review the video footage, you’ll see that the juggled version doesn’t result in a cube that is neatly aligned. The juggled version is messy. It took longer… and it’s not such a great outcome as it would have been if it was done one-at-a-time.
+Let’s not forget that [there is more to life than flat out speed]\(/blog/2017/06/faster-faster-faster/). If you review the video footage, you’ll see that the juggled version doesn’t result in a cube that is neatly aligned. The juggled version is messy. It took longer… and it’s not such a great outcome as it would have been if it was done one-at-a-time.
 
 :img{src="/img/2018/04/que-jianyu.png" alt="Que Jianyu" loading="lazy"}
 

@@ -9,9 +9,9 @@ description:
 
 This book will teach you how to use the features of Octopus Deploy using an example application. The application is simple, but it has been designed to show the entire process of deployment automation. Once you have mastered the techniques used to deploy this example application and its database, you will be able to transfer what you have learned to your own complex software.
 
-<div class="wp-block-image"><figure class="aligncenter">
+:img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Cranked"}
 
-![](/img/2015/07/exploring-octopus-deploy.jpg)</figure></div>You will learn:
+You will learn:
 
 - How to package your applications and database
 - How to install Octopus Server and Tentacles

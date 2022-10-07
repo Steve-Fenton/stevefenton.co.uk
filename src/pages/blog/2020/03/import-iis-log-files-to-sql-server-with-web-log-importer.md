@@ -40,7 +40,7 @@ During a debug run, the memory and CPU used by the application is low/stable.
 
 :img{src="/img/2020/03/web-log-importer.jpg" alt="Web Log Importer Diagnostics" loading="lazy"}
 
-Because the data is created from scratch during the process, [SQL index fragmentation](/2018/05/sql-server-index-fragmentation/) will always be zero.
+Because the data is created from scratch during the process, [SQL index fragmentation]\(/blog/2018/05/sql-server-index-fragmentation/) will always be zero.
 
 ```
 DatabaseName    TableName           IndexName    IndexType          AverageFragmentationPercent

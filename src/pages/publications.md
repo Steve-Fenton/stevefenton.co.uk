@@ -14,7 +14,7 @@ Explore the features of this innovative open source language in depth, from work
 
 [Find out more about Pro TypeScript](/publications/pro-typescript/).
 
-![Pro TypeScript Second Edition](/img/2015/07/pro-typescript-second-edition.png)
+:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
 
 </article>
 
@@ -26,7 +26,7 @@ A rapid introduction to the important metrics, charts, and monitoring concepts n
 
 [Find out more about Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/).
 
-![Web Operations Dashboards, Monitoring, and Alerting](/img/2017/08/web-operations-monitoring.jpg)
+:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
 
 </article>
 
@@ -38,7 +38,7 @@ An introduction to Octopus Deploy that shows you how to package, publish, and de
 
 [Read more about Exploring Octopus Deploy](/publications/exploring-octopus-deploy/).
 
-![Exploring Octopus Deploy](/img/2015/07/exploring-octopus-deploy.jpg)
+:img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy, Monitoring, and Alerting" loading="lazy"}
 
 </article>
 
@@ -50,7 +50,7 @@ A short collection of thoughts on automation and, in particular, test automation
 
 [Find out more about The Humans are Dead](/publications/the-humans-are-dead/).
 
-![The Humans Are Dead](/img/2015/07/the-humans-are-dead.jpg)
+:img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
 
 </article>
 
@@ -62,7 +62,7 @@ An overview of how our team created a process that enabled us to write software 
 
 [Read more about Cranked](/publications/cranked/).
 
-![Cranked](/img/2015/07/cranked-book.jpg)
+:img{src="/img/2015/07/cranked-book.jpg" alt="Cranked" loading="lazy"}
 
 </article>
 

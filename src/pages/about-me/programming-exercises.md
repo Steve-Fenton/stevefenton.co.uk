@@ -22,7 +22,7 @@ There are two branches:
 
 The idea behind this exercise is to fix the code. It has many problems that will will flex your object-oriented programming skills. You can try this many times and find you end up with new solutions, each of which will have its merits.
 
-If you need a hint on some of the problems to solve, read about what `if` and `switch` may be telling you in [Alarm Bells in Object-Oriented Programming](/2013/03/alarm-bells-in-object-oriented-programming/), or in my version of Kipling’s [If…](/2017/08/if/). Maybe even experiment with [introducing a pipeline](/2021/10/introducing-an-async-pipeline-in-c/)?
+If you need a hint on some of the problems to solve, read about what `if` and `switch` may be telling you in [Alarm Bells in Object-Oriented Programming]\(/blog/2013/03/alarm-bells-in-object-oriented-programming/), or in my version of Kipling’s [If…]\(/blog/2017/08/if/). Maybe even experiment with [introducing a pipeline]\(/blog/2021/10/introducing-an-async-pipeline-in-c/)?
 
 ## 99 Bottles Kata
 
@@ -30,7 +30,7 @@ I created this as an accompaniment to [99 Bottles of OOP](https://www.sandimetz.
 
 [Bottles of Beer on GitHub](https://github.com/Steve-Fenton/BottlesOfBeer)
 
-Everything you need is in the master branch. The approval tests branch was one I created as part of an article I wrote on [Migrating to Approval Tests](/2018/04/migrating-existing-tests-to-approvaltests/).
+Everything you need is in the master branch. The approval tests branch was one I created as part of an article I wrote on [Migrating to Approval Tests]\(/blog/2018/04/migrating-existing-tests-to-approvaltests/).
 
 ## Tarnished Rose Kata
 

@@ -38,7 +38,7 @@ To find out, I asked The Internet via a poll and found out that things were most
 
 92.3% of respondents said that “on” was on the right.
 
-This might be enough to make you conclude your experiment and fix your decision. It’s well past the point of a majority… but is that enough? Not for me. I’m about to implement this control on a web estate that gets well-over eight million visitors a year. Accepting a 7.7% failure rate would mean over 600,000 people being confused. Small percentages on big numbers can matter a great deal, as we discovered when we thought about [making websites work without JavaScript](/2011/08/why-it-is-still-important-for-a-page-to-work-without-javascript/).
+This might be enough to make you conclude your experiment and fix your decision. It’s well past the point of a majority… but is that enough? Not for me. I’m about to implement this control on a web estate that gets well-over eight million visitors a year. Accepting a 7.7% failure rate would mean over 600,000 people being confused. Small percentages on big numbers can matter a great deal, as we discovered when we thought about [making websites work without JavaScript]\(/blog/2011/08/why-it-is-still-important-for-a-page-to-work-without-javascript/).
 
 To plan a course of action, we need to know how well a toggle switch performs relative to a checkbox; so I asked The Internet again.
 
@@ -58,7 +58,7 @@ Our solution was five-elements, a function, and a loop around a DOM query to add
 
 ## Visual stimulation
 
-Toggle switches tickle that same visual stimulation itch that causes so many people to use [pie charts, even though they are bad](/2009/04/pie-charts-are-bad/). As of 2020, I have a full three pages on the subject of [pie charts and similar visual stimulants](/category/pie-charts/) if you want to find out more about that issue.
+Toggle switches tickle that same visual stimulation itch that causes so many people to use [pie charts, even though they are bad]\(/blog/2009/04/pie-charts-are-bad/). As of 2020, I have a full three pages on the subject of [pie charts and similar visual stimulants](/category/pie-charts/) if you want to find out more about that issue.
 
 The question is, why do we need to make form elements more appealing? It doesn’t make them easier to understand or easier to use, so who exactly is the trend of toggles serving? Perhaps it is just another case of someone trying to copy something they found on their mobile phone.
 

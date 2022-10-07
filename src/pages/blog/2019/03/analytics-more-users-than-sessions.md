@@ -12,7 +12,7 @@ categories:
     - Analytics
 ---
 
-Analytics are super-useful but can get a bit tricky at times. For some reason, several of *those times* seem to have cropped up this week. So, following on from my article on [Why Unique Visitors in Analytics Never Adds Up](/2019/02/why-unique-visitors-in-analytics-never-adds-up/) – I now have one about how you can sometimes have more sessions that users.
+Analytics are super-useful but can get a bit tricky at times. For some reason, several of *those times* seem to have cropped up this week. So, following on from my article on [Why Unique Visitors in Analytics Never Adds Up]\(/blog/2019/02/why-unique-visitors-in-analytics-never-adds-up/) – I now have one about how you can sometimes have more sessions that users.
 
 For the purposes of this article, a user is a “Unique User”. We’re talking about Purple Jane, or Blue Dave. Try to think of a user as a human being; we don’t think of them in this way often enough. A session is a time when they visit the website to view one or more pages.
 

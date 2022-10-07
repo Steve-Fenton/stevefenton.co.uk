@@ -111,4 +111,4 @@ type AnimalWithNumericId = ReplaceProperty<Animal, { id: number }>;
 
 ## What the Map?!
 
-All the examples used a simple “type”, but mapped types work with types, interfaces, classes, or even inline types. [Beware of basing types on classes though; you can break the stable abstractions principle](/2017/11/typescript-using-classes-interfaces/).
+All the examples used a simple “type”, but mapped types work with types, interfaces, classes, or even inline types. [Beware of basing types on classes though; you can break the stable abstractions principle]\(/blog/2017/11/typescript-using-classes-interfaces/).

@@ -11,7 +11,7 @@ tags:
     - Agile
 ---
 
-This question is rather fascinating, in part because of the misunderstandings that have arisen in respect of the famous George Miller paper about the magical number seven (plus or minus two). [Some people apply the findings of Miller to team size, and they are wrong to do so](/2015/06/the-magical-number-of-misunderstandings/). So, what is the optimal number of members for an agile team?
+This question is rather fascinating, in part because of the misunderstandings that have arisen in respect of the famous George Miller paper about the magical number seven (plus or minus two). [Some people apply the findings of Miller to team size, and they are wrong to do so]\(/blog/2015/06/the-magical-number-of-misunderstandings/). So, what is the optimal number of members for an agile team?
 
 I’m going to use the term “developer” below in the general agile way, which means it’s anyone who is involved in delivering a product or feature. They might have business chops, testing skills, programming talent, operations knowledge, be a security guru, or some other skill that’s needed to get something to market. They are all developing a thing, so they are a developer.
 

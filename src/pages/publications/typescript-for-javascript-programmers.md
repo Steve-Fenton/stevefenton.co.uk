@@ -8,7 +8,9 @@ keywords:
 description: 
 ---
 
-![TypeScript for JavaScript Programmers](/img/2015/07/typescript.png)This was the first book ever published on the TypeScript programming language. If you are looking to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](/publications/pro-typescript/).
+:img{src="/img/2015/07/typescript.png" alt="TypeScript for JavaScript Programmers"}
+
+This was the first book ever published on the TypeScript programming language. If you are looking to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](/publications/pro-typescript/).
 
 > This book is the perfect introduction, covering classes, interfaces, enumerations, generics and more. I found it very a useful way to learn the language and easily followed the clear and concise code examples. Thoroughly recommended.
 

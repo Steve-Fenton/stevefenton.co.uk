@@ -12,7 +12,7 @@ tags:
     - C-Sharp
 ---
 
-For those who got excited about this one, C# 11 is where this is landing, with a slight change. Check out [C# parameter null checking](/2022/03/parameter-null-checking-in-c/) for more.
+For those who got excited about this one, C# 11 is where this is landing, with a slight change. Check out [C# parameter null checking]\(/blog/2022/03/parameter-null-checking-in-c/) for more.
 
 - - - - - -
 

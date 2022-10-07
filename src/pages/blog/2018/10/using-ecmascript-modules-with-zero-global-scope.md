@@ -11,7 +11,7 @@ tags:
     - TypeScript
 ---
 
- I had a question from Bruce about ECMAScript modules following on from my post on [not mixing namespaces and modules in TypeScript](/2017/08/stop-mixing-typescript-modules-and-namespaces/). The question was:
+ I had a question from Bruce about ECMAScript modules following on from my post on [not mixing namespaces and modules in TypeScript]\(/blog/2017/08/stop-mixing-typescript-modules-and-namespaces/). The question was:
 
 > How can a module create something that can be used in browser without creating a variable on the global scope?
 

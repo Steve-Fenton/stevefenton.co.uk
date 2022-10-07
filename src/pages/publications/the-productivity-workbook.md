@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-[![Steve Fenton - The Productivity Workbook](/img/2021/10/the-productivity-workbook.jpg)](/publications/the-productivity-workbook/the-productivity-workbook/)
+:img{src="/img/2021/10/the-productivity-workbook.jpg)" alt="Steve Fenton - The Productivity Workbook"}
 
 ## Book overview
 

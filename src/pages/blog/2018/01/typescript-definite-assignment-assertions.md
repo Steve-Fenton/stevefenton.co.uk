@@ -17,7 +17,7 @@ TypeScript never stops improving, although most changes over the past year have 
 
 ## No definite assignment
 
-The new feature is related to the following improved compile-time check. In the example below, I forgot to assign a value to the `wordsPerMinute` property. This can happen when you forget to add a default value, or when you forget to initialize it in the constructor, or (as below) when you forget to map a parameter to the property (remember, [you *don’t* need to manually map constructor parameters](/2013/04/stop-manually-assigning-typescript-constructor-parameters/)!).
+The new feature is related to the following improved compile-time check. In the example below, I forgot to assign a value to the `wordsPerMinute` property. This can happen when you forget to add a default value, or when you forget to initialize it in the constructor, or (as below) when you forget to map a parameter to the property (remember, [you *don’t* need to manually map constructor parameters]\(/blog/2013/04/stop-manually-assigning-typescript-constructor-parameters/)!).
 
 ```typescript
 class ArticleMeta {

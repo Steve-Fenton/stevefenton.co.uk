@@ -17,7 +17,7 @@ If you have a blocking query, you probably follow a set of manual steps a bit li
 2. Follow the “blocked by” SPIDs until you find a root-SPID (one that is blocking, but not blocked).
 3. Run `DBCC INPUTBUFFER` with the SPID to see what query is being run
 
-After doing this twice in the same day, I wrote a query that can perform all of these tasks in one step. This is a variation of the query to [filter and sort the sp\_who2 query](/2018/07/sql-server-filter-and-sort-records-from-sp_who2/). With this command, we narrow down the list to find blocking queries, looking in particular for those that are not blocked by another query (as these are more likely, but not necessarily, the problem ones). We then grab the command text for those queries using the `DBCC INPUTBUFFER` command.
+After doing this twice in the same day, I wrote a query that can perform all of these tasks in one step. This is a variation of the query to [filter and sort the sp\_who2 query]\(/blog/2018/07/sql-server-filter-and-sort-records-from-sp_who2/). With this command, we narrow down the list to find blocking queries, looking in particular for those that are not blocked by another query (as these are more likely, but not necessarily, the problem ones). We then grab the command text for those queries using the `DBCC INPUTBUFFER` command.
 
 This results in three output tables. Blocked queries, blocking queries, and input buffers for the blocking queries that may be the root cause of the blockage.
 

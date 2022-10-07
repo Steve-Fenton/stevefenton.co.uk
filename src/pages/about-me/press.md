@@ -19,7 +19,7 @@ August 2021
 ## CSS Tricks – Map Interactivity Issues
 
 March 2021  
-Chris Coyier delves a bit deeper into the usability issues that occur when you embed a map on your web page (I posted a method to [help users trapped in maps here](/2021/03/here-maps-scroll-wheel-temporary-fix/)).  
+Chris Coyier delves a bit deeper into the usability issues that occur when you embed a map on your web page (I posted a method to [help users trapped in maps here]\(/blog/2021/03/here-maps-scroll-wheel-temporary-fix/)).  
 [See Chris’ Article on CSS Tricks](https://css-tricks.com/maps-scroll-wheel-fix/).
 
 ## 2019 BIG Innovation Awards – Glasswall
@@ -68,7 +68,9 @@ ZenHub used a little quote in their article “How to use GitHub for agile proje
 
 September 2015  
 Henry Garner gives a quick mention to some of my opinions on pie charts in his Clojure for Data Science book.  
-![Clojure for Data Science](/img/2015/07/clojure-for-data-science.png)  
+
+:img{src="/img/2015/07/clojure-for-data-science.png" alt="Clojure for Data Science" loading="lazy"}
+
 [View Clojure for Data Science on Amazon](https://www.amazon.co.uk/Clojure-Data-Science-Henry-Garner-ebook/dp/B00YSILGWG/).
 
 ## Class Four: Those Who Survive
@@ -84,7 +86,9 @@ Duncan P. Bradshaw has immortalized me in the zombie novel, Class Four: Those Wh
 
 May 2015  
 Manas Pathak mentions my take on pie charts in this introduction to data science and the R language.  
-![Beginning Data Science with R](/img/2015/07/data-science.png)  
+
+:img{src="/img/2015/07/data-science.png" alt="Beginning Data Science with R" loading="lazy"}
+
 [View Beginning Data Science with R on Amazon](https://www.amazon.co.uk/Beginning-Data-Science-Manas-Pathak-ebook/dp/B00QRSSCIG/).
 
 ## JAXenter
@@ -168,7 +172,7 @@ Read the full article on [The NewVoiceMedia blog…](https://web.archive.org/web
 ## Chicago Tribune
 
 7th February 2012  
-I was honoured with a citation in the Chicago Tribune for my [thoughts on Pie Charts](/2009/04/pie-charts-are-bad/) in an article about an even more hideous variant, the beach-ball chart. You can read the full article on [The Chicago Tribune…](https://web.archive.org/web/20120210020254/http://blog.apps.chicagotribune.com/2012/02/07/style-and-substance-analyzing-a-beach-ball-chart/).
+I was honoured with a citation in the Chicago Tribune for my [thoughts on Pie Charts]\(/blog/2009/04/pie-charts-are-bad/) in an article about an even more hideous variant, the beach-ball chart. You can read the full article on [The Chicago Tribune…](https://web.archive.org/web/20120210020254/http://blog.apps.chicagotribune.com/2012/02/07/style-and-substance-analyzing-a-beach-ball-chart/).
 
 ## Maca is Rambling
 

@@ -11,7 +11,7 @@ tags:
     - TypeScript
 ---
 
-I have long held fast to a basic principle of [letting type inference do your work for you](/2014/07/embrace-type-inference-in-typescript/). That means not adding type annotations unless you have a good reason to. I thought I would supply a bit more information on where to put your TypeScript type annotations and when they add value rather than noise.
+I have long held fast to a basic principle of [letting type inference do your work for you]\(/blog/2014/07/embrace-type-inference-in-typescript/). That means not adding type annotations unless you have a good reason to. I thought I would supply a bit more information on where to put your TypeScript type annotations and when they add value rather than noise.
 
 The original two rules I used went like this…
 
@@ -59,7 +59,7 @@ const elem: { style: { border: string | null } } = getAnchor('link');
 elem.style.border = '1px solid aqua';
 ```
 
-You can read more about [depending only on what you need in TypeScript](/2017/11/typescript-depend-only-on-what-you-need/).
+You can read more about [depending only on what you need in TypeScript]\(/blog/2017/11/typescript-depend-only-on-what-you-need/).
 
 ## Choose where you want the error – Using type annotations
 
@@ -97,7 +97,7 @@ I prefer to eliminate things like `null` earlier in my code, and often this mean
 
 ## Do it with code – Avoiding type annotations
 
-Sometimes annotations and assertions are used in place of a defensive code. What happens is this… an assumption is made, the type makes the assumption invisible, later on something nasty happens. Here’s an example based on my article on [embracing the warnings the TypeScript compiler gives you in strict mode](/2018/01/embracing-typescript-strict-mode/).
+Sometimes annotations and assertions are used in place of a defensive code. What happens is this… an assumption is made, the type makes the assumption invisible, later on something nasty happens. Here’s an example based on my article on [embracing the warnings the TypeScript compiler gives you in strict mode]\(/blog/2018/01/embracing-typescript-strict-mode/).
 
 This is an example of doing it wrong… either with `const elem = <htmlelement> document.getElementById('test');</htmlelement>` or `const elem = document.getElementById('test') as HTMLElement;`:
 

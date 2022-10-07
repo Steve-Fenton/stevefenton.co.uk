@@ -14,7 +14,7 @@ tags:
     - Work
 ---
 
-Every organisation has to deal with this problem. It has been described in many different ways, including the famous [quaductionism](/2017/10/quaductionism-clarity-via-reductionism/) of “Urgent vs Important” to the simplicity of phrases like “firefighting”. Yes, it’s all those tasks that people seem to want now, which are stopping you from doing the real work.
+Every organisation has to deal with this problem. It has been described in many different ways, including the famous [quaductionism]\(/blog/2017/10/quaductionism-clarity-via-reductionism/) of “Urgent vs Important” to the simplicity of phrases like “firefighting”. Yes, it’s all those tasks that people seem to want now, which are stopping you from doing the real work.
 
 My analogy for this stuff is the fly on the windshield. You’re driving along and a big fly lands right in front of you on the glass. You *could* ignore it because it doesn’t stop you from driving safely. However, because it’s *right there* on your windshield, it looks bigger than the real obstacles that surround you. It’s proximity makes it seem more important than it is. Some people crash their cars because they are so intent on getting the fly off their windshield.
 
