@@ -11,13 +11,6 @@
     $location = Get-Location
 
     $src = '../astro-accelerator/'
-    $srcComponents = $src + 'src/themes/accelerator/components'
-    $srcLayouts = $src + 'src/themes/accelerator/layouts'
-    $srcUtils = $src + 'src/utilities'
-
-    $destComponents = './src/themes/accelerator/components'
-    $destLayouts = './src/themes/accelerator/layouts'
-    $destUtils = './src/utilities'
 
     cd $src
     git pull
@@ -59,11 +52,34 @@
 
 # Standard copies
 
+    $srcComponents = $src + 'src/themes/accelerator/components'
+    $destComponents = './src/themes/accelerator/components'
+
     robocopy $srcComponents $destComponents
+
+    $destLayouts = './src/themes/accelerator/layouts'
+    $srcLayouts = $src + 'src/themes/accelerator/layouts'
+
     robocopy $srcLayouts $destLayouts
 
 # Aligns utils to the theme... these are shared between all accelerator themes
 
+    $srcUtils = $src + 'src/utilities'
+    $destUtils = './src/utilities'
+
     robocopy $srcUtils $destUtils *.astro
     robocopy $srcUtils $destUtils *.js
+
+# Optional... JavaScript modules
+
+    $srcJS = $src + 'public/js/'
+    $destJS = './public/js/'
+
+    robocopy $srcJS $destJS *.js
+
+    $srcJS = $src + 'public/js/modules/'
+    $destJS = './public/js/modules/'
+
+    robocopy $srcJS $destJS *.js
+
 
