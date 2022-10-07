@@ -5,7 +5,7 @@ title: 'How to RegEx replace in Visual Studio Code'
 pubDate: 2022-10-07
 bannerImage:
   src: /img/2022/10/preview-replacements.png
-  alt: Visual Studio Code providing a preview of regex replacements
+  alt: Visual Studio Code providing a preview of RegEx replacements
 authors:
     - steve-fenton
 categories:
@@ -18,24 +18,20 @@ tags:
 
 A major benefit of keeping your content in markdown files is the ability to find and replace across all your content at once. This post covers an advanced use case for this, where you want to replace wrapping content while keeping the middle the same.
 
-To demonstrate how to use regex search and replace to do an advanced replacement, we're going to convert a markdown image into an HTML image wrapped in a containing element. This isn't what I used it for, but my use case was a little esoteric.
+To demonstrate how to use :abbr[RegEx]{title="Regular Expressions"} search and replace to do an advanced replacement, we're going to convert a markdown image into an HTML image wrapped in a containing element. This isn't what I used it for, but my use case was a little esoteric.
 
 Before
 
 ```markdown
-
 ![Alt text](/img/my-image.jpg)
-
 ```
 
 Desired result
 
 ```markdown
-
 <div class="image">
 <img src="Alt text" alt="/img/my-image.jpg" />
 </div>
-
 ```
 
 The reason this is interesting is we need to replace some parts of the original content, but also preserve some of the content from the middle.
@@ -47,7 +43,7 @@ The mental map of this is:
 - Turn the image into an HTML `img` tag, **and**
 - Add `</div>` *after* the image
 
-Yikes, this seems daunting, but with some version-control-backed regex confidence you can do this!
+Yikes, this seems daunting, but with some version-control-backed RegEx confidence you can do this!
 
 ## Before you start
 
@@ -68,7 +64,7 @@ So, make sure:
 
 Now you're ready to go big on find and replace.
 
-## Find
+## Using find to write a RegEx
 
 It's best to craft your search RegEx in Visual Studio Code's find-mode. Hit <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> to open the "search all" box.
 
@@ -96,9 +92,7 @@ Your complete RegEx is taking shape. We now have:
 
 And Visual Studio Code should be highlighting at least some of your images:
 
-:::div{.inset}
-:img{src="/img/2022/10/vs-code-regex-highlighting.png" alt="Visual Studio Code search all box" loading="lazy"}
-:::
+:img{src="/img/2022/10/vs-code-regex-highlighting.png" alt="Visual Studio Code RegEx highlighting" loading="lazy"}
 
 This is working, so keep going. We've now got the start of the image, with the alt-text captured. You just need the rest, which is just a case of repeating what you did for the square brackets, but for normal parantheses. We need to match an escaped bracket `\(` then capture the contents with `(.+?)` until our closing bracket `\)`.
 
@@ -124,15 +118,13 @@ Out loud, it's:
 
 You should see the whole image highlighted, but not any inline images in your markdown.
 
-:::div{.inset}
-:img{src="/img/2022/10/vscode-complete-regex-example.png" alt="Example of highlighting for the complte regex" loading="lazy"}
-:::
+:img{src="/img/2022/10/vscode-complete-regex-example.png" alt="Example of highlighting for the complete RegEx" loading="lazy"}
 
 Now we leave the safety of our search box and execute a replace, so have version control at the ready for those times when things go wrong.
 
 ## Pre-flight checks
 
-If you open up the find and replace box using <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>, you'll find the regex already populated, but now there's an additional box beneath.
+If you open up the find and replace box using <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>, you'll find the RegEx already populated, but now there's an additional box beneath.
 
 You are now in the danger zone and are going to start changing files, so here's a couple of tips.
 
@@ -144,15 +136,13 @@ The next limiting action you can take is to expand the additional options and li
 
 Finally, review the matches shown below your search and replace options as this is a good place to spot trouble breweing.
 
-:::div{.inset}
-:img{src="/img/2022/10/pre-flight-checks.png" alt="Example of highlighting for the complte regex" loading="lazy"}
-:::
+:img{src="/img/2022/10/pre-flight-checks.png" alt="Pre-flight checks" loading="lazy"}
 
-## Replace
+## Using capture groups in replace
 
 Now you can write your replacement, using some tokens to pull in the information you captures in the search. The tokens are numbered, so `$1` and `$2` contain the alt text and image source in this example.
 
-You will still need to use linebreaks in your replace field, but *you don't need to escape characters* as it's not a regex field.
+You will still need to use linebreaks in your replace field, but *you don't need to escape characters* as it's not a RegEx field.
 
 As you want to wrap your image in a `div` element, use the following replacement:
 
@@ -162,13 +152,11 @@ As you want to wrap your image in a `div` element, use the following replacement
 
 Before you hit the replace-all button, you can click through the find results to preview what the change looks like. Because the first thing we look for is a blank line, the list of changes looks a little empty, so I've highlighted where to click with a green box.
 
-:::div{.inset}
-:img{src="/img/2022/10/preview-replacements.png" alt="Example of highlighting for the complte regex" loading="lazy"}
-:::
+:img{src="/img/2022/10/preview-replacements.png" alt="Preview the replacements" loading="lazy"}
 
 If things look as you expect, proceed with the change.
 
-## Review
+## Review your changes
 
 Now you've replaced a whole load of content, it is worth opening the version control tab in Visual Studio Code and reviewing the changes. It is well worth checking things before you commit, so approach it like an audit.
 
@@ -181,9 +169,9 @@ When you finish your review, you can commit your changes (or discard them if som
 
 ## Summary
 
-Although regex makes some people feel a bit sick and nervous, using a speak-aloud process of reading a regex makes it less scary.
+Although RegEx makes some people feel a bit sick and nervous, using a speak-aloud process of reading a RegEx makes it less scary.
 
-Using a regex with capture groups and tokens, you can completely transform content in ways that you can't do with simple search and replace.
+Using a RegEx with capture groups and tokens, you can completely transform content in ways that you can't do with simple search and replace.
 
 Because automation amplifies actions, you can make something better *or* worse much faster with automation than you could manually. In my case, I fixed up more than five-hundred images using this technique (though I wasn't converting the image into an HTML `img` tag - that was just a way to show what is possible).
 

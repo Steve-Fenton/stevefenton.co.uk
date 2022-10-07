@@ -774,6 +774,26 @@ pre.astro-code code {
     background-color: unset;
 }
 
+.copy-container {
+    max-height: 0px;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.copy-button {
+    border-radius: 0.2rem;
+    stroke: var(--aft);
+    fill: var(--fore-link-alt);
+    background-color: transparent;
+}
+
+.copy-button:hover,
+.copy-button:focus {
+    fill: var(--fore-link);
+    transform: rotate(4deg);
+}
+
 /* Custom Divisions */
 
 .note {
@@ -828,6 +848,7 @@ pre.astro-code code {
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
 
+    .copy-button,
     .post-list .list-item[data-image='true'] .list-item-image,
     .post-list .list-item .list-item-image img {
         transition: all 0.2s ease-in-out;
