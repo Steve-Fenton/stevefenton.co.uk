@@ -9,6 +9,8 @@ Review the documentation at [astro.stevefenton.co.uk](https://astro.stevefenton.
 
 ## Post cleansing
 
+Banner image 16:9
+
 This task (starting from most recent) has reached... 2022/10
 
 layout: src/layouts/Default.astro
