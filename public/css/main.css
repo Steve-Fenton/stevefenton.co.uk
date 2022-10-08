@@ -883,14 +883,14 @@ pre.astro-code code {
         transition: all 200ms ease-in-out;
     }
 
-    .post-list .list-item, main img, main blockquote, main .note {
+    .copy-button,
+    .anim-show-parent img,
+    .anim-show-parent > * {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
 
-    .copy-button,
-    .post-list .list-item[data-image='true'] .list-item-image,
-    .post-list .list-item .list-item-image img {
-        transition: all 0.2s ease-in-out;
+    .post-list img {
+        transition: all 0.2s ease-in;
     }
 }
