@@ -639,6 +639,12 @@ form.site-search button {
 }
 
 @media (max-width: 680px) {
+    .post-list .list-item .list-item-image img {
+        filter: grayscale(calc(1 - var(--imgshown)));
+        scale: calc(1 + (0.2 * var(--imgshown)));
+        transform: rotate(3deg)
+    }
+    
     /* Special Case - We let it be two-column until later */
     .post-list .list-item[data-image='true'] > article {
         display: unset;
