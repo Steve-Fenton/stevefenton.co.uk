@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: 'Quaductionism &#8211; Clarity via reductionism'
+title: 'Quaductionism: Clarity via reductionism'
 navMenu: false
 pubDate: 2017-10-24T22:15:14+01:00
 authors:

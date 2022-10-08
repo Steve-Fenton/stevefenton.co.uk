@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: Microsoft Teams &#8211; Ask questions with Polly
+title: Microsoft Teams: Ask questions with Polly
 navMenu: false
 pubDate: 2021-02-17T17:12:34+00:00
 authors:
