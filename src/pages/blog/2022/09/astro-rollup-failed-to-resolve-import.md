@@ -12,7 +12,7 @@ tags:
     - TypeScript
 ---
 
-This is short reminder to my future self about an error I found in Astro, which defied explanation. This ran find on a local `npm run build`, but inside of GitHub actions it failed.
+This reminds my future self of an error I found in Astro, which defied explanation. This ran on a local `npm run build`, but failed on GitHub Actions.
 
 ```
 Rollup failed to resolve import "../components/Head/Head.astro"

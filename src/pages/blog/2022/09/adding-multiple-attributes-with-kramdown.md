@@ -13,11 +13,11 @@ tags:
     - Markdown
 ---
 
-If you are using kramdown (the default markdown parser in Jekyll) there are some neat features that aren’t available in standard markdown. One of these features is *inline attribute lists*, or [IALs](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).
+If you are using kramdown (the default markdown parser in Jekyll), there are some neat features that aren’t available in standard markdown. One of these features is *inline attribute lists*, or [IALs](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).
 
 ## Block element IALs
 
-Here’s a basic use of IAL for a paragraph. For any block element, you just add the IAL on the next line.
+Here’s a basic use of IAL for a paragraph. You just add the IAL on the following line for any block element.
 
 ```markdown
 This is a paragraph of text.
@@ -32,7 +32,7 @@ Output:
 
 ## Inline element IALs
 
-For inline elements, you can add the IAL right after the element. In this example you’ll see attributes are merged with any standard values.
+For inline elements, you can add the IAL right after the element. In this example, you’ll see attributes are merged with any standard values.
 
 ```markdown
 This is a paragraph of text with an *italic*{:class="subtle"} word.
@@ -77,4 +77,4 @@ Output:
 
 ## kramdown IALs
 
-Using kramdown means you get a healthy form of additional control. If you use IALs to add class names to elements, you can easily control your components. There is the slight risk of someone adding a `style` attribute… so watch out for that!
+Using kramdown means you get a healthy form of additional control. You can easily control your components using IALs to add class names to elements. There is the slight risk of someone adding a `style` attribute, so watch out for that!

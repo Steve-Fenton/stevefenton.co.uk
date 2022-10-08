@@ -18,14 +18,14 @@ tags:
   - TypeScript
 ---
 
-When you have blogs, articles, news, or similar collections of posts in Astro, you can generate paged lists of these items automatically. The mechanism to do this involves two key components.
+When you have blogs, articles, news, or other collections of posts in Astro, you can automatically generate listing pages for these items. The mechanism to do this involves two key components.
 
 - A file path that has one or more tokens
 - A `getStaticPaths` function that gives Astro the information needed to generate pages
 
 ## File path tokens
 
-Let’s call our collection “articles” for these examples. You don’t want one long list of articles, you want to provide pages of articles with the most recent ones first.
+Let’s call our collection “articles” for these examples. You don’t want one long list of articles; it's better to provide pages of articles with the most recent ones first.
 
 You can create pages that will be found at the following addresses:
 
@@ -35,19 +35,20 @@ You can create pages that will be found at the following addresses:
 /pages/articles/3/
 ```
 
-To do this, we create the following filein `/pages/articles/` with the name `[page].astro`.
+To do this, we create the following file in `/pages/articles/` with the name `[page].astro`.
 
-As you can see, we have used a token for `[page]`; this will be replaced with each page number.
+As you can see, we have used a token for `[page]`; this will be replaced with the page number.
 
 A more complex example would be to have paged lists *per category*. That is possible, too – you can use tokens anywhere in the file path.
 
-For our paged list by category, we’ll add another file within `/pages/articles/` but this time we'll use folders and file names to create `category/[category]/[page].astro`. The idea is to generate addresses for all the categories:
+For our paged list by category, we’ll add another file within `/pages/`articles/`, but this time we'll use folders and file names to create `category/[category]/[page].astro`. The idea is to generate addresses for each category:
 
 ```
-/pages/articles/category/typescript/1/
-/pages/articles/category/typescript/2/
-/pages/articles/category/javascript/1/
-/pages/articles/category/javascript/2/
+/blog/category/typescript/1/
+/blog/category/typescript/2/
+
+/blog/category/javascript/1/
+/blog/category/javascript/2/
 ```
 
 The only rule for tokens is that each one needs to have a param when we create the `getStaticPaths` function. Cue segueway jingle…
@@ -56,7 +57,7 @@ The only rule for tokens is that each one needs to have a param when we create t
 
 The basic structure of the `getStaticPaths` function is:
 
-1. You grab a list of posts that are relevant
+1. You grab a list of relevant posts
 2. You hand them over to `paginate`
 3. You return what `paginate` gives you
 
@@ -92,7 +93,7 @@ But what if we want to add category lists?
 
 You just need to do a little more work in our function.
 
-The example below is broken into three chunks… get all the posts, then find a list of categories based on them, and then create a paginate instance for each category with a filtered list of posts.
+The example below is broken into three chunks… get all the posts, find a list of categories based on them, and create a paginate instance for each category with the category name and a filtered list of posts.
 
 ```typescript
 export async function getStaticPaths({ paginate }: any) {
@@ -130,6 +131,6 @@ export async function getStaticPaths({ paginate }: any) {
 
 ## Summing up
 
-The combination of file path tokens and the `getStaticPaths` function, with their shared params / tokens is what powers the generation of paged lists.
+The combination of file path tokens and the `getStaticPaths` function, with their shared params and tokens, powers the generation of paged lists.
 
 You can see a working example in my [Astro Accelerator project on GitHub](https://github.com/Steve-Fenton/astro-accelerator/tree/main/src/pages/articles).

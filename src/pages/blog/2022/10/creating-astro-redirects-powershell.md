@@ -18,9 +18,9 @@ tags:
     - TypeScript
 ---
 
-Part of moving my website to Astro involved moving the address of all the blog posts from `/2022/10/title` to `/blog/2022/10/title`. Not wanting to leave lots of people stranded, I decided to set up redirects for all the posts to get people to the correct place.
+Moving my website to Astro involved changing the address of all the blog posts from `/2022/10/title` to `/blog/2022/10/title`. Not wanting to leave lots of people stranded, I set up redirects for all the posts to get people to the correct place.
 
-Astro generates static files, so I'm using a `Redirect.astro` layout, with a custom frontmatter value to do the redirect.
+Astro generates static files, so I'm using a `Redirect.astro` layout with a custom frontmatter value to do the redirect.
 
 ## Redirect.astro layout
 
@@ -47,7 +47,7 @@ const metaContent = `0; URL=${ destination }`;
 
 ## Redirect markdown pages
 
-Any markdown page can now signal a redirection using the `Redirect.astro` layout with a `redirect` address. The address can be relative, or fully qualified, so you redirect off-site if you need to.
+Any markdown page can now signal a redirection using the `Redirect.astro` layout with a `redirect` address. The address can be relative or fully qualified, so you redirect off-site if necessary.
 
 ```markdown
 ---
@@ -62,7 +62,7 @@ pubDate: 2022-09-17
 
 ## Automating redirect page creation
 
-I didn't want to sit and write over 800 markdown redirect files, so a little PowerShell trickery was needed to speed things up. The simplest way to do this was:
+I didn't want to sit and write over 800 markdown redirect files, so a bit of PowerShell trickery was needed to speed things up. The simplest way to do this was:
 
 1. Make a copy of all the posts in `src/pages/blog/` in a temporary directory
 2. Run the PowerShell script against the directory to replace their content with redirects

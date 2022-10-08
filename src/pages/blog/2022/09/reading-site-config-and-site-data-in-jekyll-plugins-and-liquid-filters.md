@@ -37,7 +37,7 @@ Liquid::Template.register_filter(Jekyll::Language)
 
 ## Adding Jekyll configuration
 
-There’s two parts to this, when we reference the configuration, it loads it. We don’t want to do that every time, so we ought to remember it as it doesn’t change during the site generation. We’ll get the configuration using `Jekyll.configuration({})` and read the `language` entry…
+There are two parts to this. When we reference the configuration, it loads it. We don’t want to do that every time, so we should remember it as it doesn’t change during the site generation. We’ll get the configuration using `Jekyll.configuration({})` and read the `language` entry…
 
 ```ruby
 require 'liquid'

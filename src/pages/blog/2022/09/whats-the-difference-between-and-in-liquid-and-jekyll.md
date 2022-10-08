@@ -12,15 +12,15 @@ tags:
     - Liquid
 ---
 
-If you are looking at Jekyll templates, you may be wondering what the difference is between `{%- -%}` and `{% %}` template blocks.
+If you are looking at Jekyll templates, you may wonder what the difference is between `{%- -%}` and `{% %}` template blocks.
 
-Luckily, the answer isn’t too difficult. The addition of dashes, such as `{%- -%}`, requests that white space surrounding the block is stripped.
+Luckily, the answer isn’t too tricky. Adding dashes, such as `{%- -%}`, requests that white space surrounding the block is stripped.
 
 You can use it for whitespace before the block: `{%- %}`.
 
 Or, for whitespace after the block: `{% -%}`.
 
-And of course, neither or both! Just put the dash at the end you would like to strip whitespace from. This lets you keep the output super clean, especially when you have multiple lines for readability.
+And, of course, neither or both! Just put the dash at the end you would like to strip whitespace from. This lets you keep the output super clean, especially when you have multiple lines for readability.
 
 Here’s some code to generate a simple XML sitemap:
 
