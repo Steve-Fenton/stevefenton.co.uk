@@ -18,7 +18,7 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 ## Post cleansing
 
-This task (starting from most recent) has reached... 2022/09/How to return non-HTML responses from Astro
+This task (starting from most recent) has reached... 2022/09/the-difference-between-the-phoenix-project-and-the-unicorn-project
 
 ### 1 Image
 

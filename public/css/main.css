@@ -555,11 +555,20 @@ form.site-search button {
 
 .site-search-results .result-text {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .site-search-results .result-path {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: var(--code-font);
+    color: var(--icon-block);
+    line-height: 1em;
+}
+
+.site-search-results mark {
+    background-color: var(--aft-block);
+    color: var(--fore-block);
+    outline: 1px dotted var(--aft-head);
 }
 
 @media (max-width: 860px) {
@@ -832,10 +841,11 @@ pre.astro-code code {
 .note {
     color: var(--fore-block);
     background-color: var(--aft-block);
-    font-size: 1.15rem;
     padding: 0.1px 1.2em;
     position: relative;
     box-shadow: var(--box-shadow);
+    margin: 1rem auto;
+    width: 66%;
 }
 
 .simple-grid {
@@ -887,7 +897,7 @@ pre.astro-code code {
 
     .copy-button,
     .anim-show-parent img,
-    .anim-show-parent > * {
+    .anim-show-parent > *:not(p, ul, li) {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
