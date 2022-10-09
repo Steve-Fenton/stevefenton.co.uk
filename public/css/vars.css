@@ -8,6 +8,7 @@
     font-weight: normal;
     font-style: normal;
     src: url("akzidenz-reg.woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +16,7 @@
     font-weight: normal;
     font-style: normal;
     src: url("akzidenz-cnd.woff");
+    font-display: swap;
 }
 
 :root {
