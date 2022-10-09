@@ -876,6 +876,7 @@ pre.astro-code code {
 }
 
 @media (max-width: 680px) {
+    .note,
     .inset,
     .inset-small,
     .inset-medium {

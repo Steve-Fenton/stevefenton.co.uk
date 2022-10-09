@@ -111,7 +111,6 @@ function search(s) {
         li.appendChild(path);
         li.appendChild(markers);
         li.dataset.score = (Math.round((needle.score/ total) * 100)).toString();
-        li.dataset.destination = needle.url;
 
         ol.appendChild(li);
     }
