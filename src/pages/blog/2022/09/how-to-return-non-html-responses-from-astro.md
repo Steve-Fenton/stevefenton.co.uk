@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: How to return non-HTML responses from Astro
 navMenu: false
-pubDate: 2022-09-19T18:18:25+01:00
+pubDate: 2022-09-19
 authors:
     - steve-fenton
 categories:

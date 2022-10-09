@@ -3,47 +3,64 @@ layout: src/layouts/Default.astro
 title: Adding multiple attributes with Kramdown
 navMenu: false
 pubDate: 2022-09-06
+keywords: kramdown,markdown,jekyll,attributes,attribute lists
+description: Find out how to add attributes to HTML in Jekyll using kramdown inline attribute lists.
+bannerImage:
+    src: /img/2022/09/html-with-attributes.png
+    alt: HTML elements with attributes added via markdown
 authors:
     - steve-fenton
 categories:
-    - Programming
+    - Content Management
 tags:
     - Jekyll
     - Kramdown
     - Markdown
 ---
 
-If you are using kramdown (the default markdown parser in Jekyll), there are some neat features that aren’t available in standard markdown. One of these features is *inline attribute lists*, or [IALs](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).
+Jekyll's default markdown parser is *kramdown*. One of the custom features of kramdown lets you add attributes to HTML elements using *inline attribute lists*, or [IALs](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists).
+
+Using an IAL, you can add attributes to block elements or inline elements.
 
 ## Block element IALs
 
-Here’s a basic use of IAL for a paragraph. You just add the IAL on the following line for any block element.
+To add attributes to block elements, add the IAL on the next line:
 
 ```markdown
 This is a paragraph of text.
 {:class="highlighted"}
 ```
 
-Output:
+The attributes will be added to the block element in the HTML output.
 
 ```html
-<p class="highlighted">This is a paragraph of text.</p>
+<p class="highlighted">
+    This is a paragraph of text.</p>
 ```
 
 ## Inline element IALs
 
-For inline elements, you can add the IAL right after the element. In this example, you’ll see attributes are merged with any standard values.
+For inline elements, you need to add the IAL on the right-hand side of the content.
 
 ```markdown
 This is a paragraph of text with an *italic*{:class="subtle"} word.
 {:class="highlighted"}
 ```
 
-Output:
+You can see the inline attribute is added to the `<em>` element, and the block attributes are added to the '<p>' element.
 
 ```html
-<p class="highlighted">This is a paragraph of text with an <em class="subtle">italic</em> word.</p>
+<p class="highlighted">This is a 
+  paragraph  of text with an 
+  <em class="subtle">italic</em> 
+  word.</p>
 ```
+
+:::aside{.note}
+## Attribute merging
+
+Any standard attributes added by the markdown parser are merged with the attributes you supply in your IAL.
+:::
 
 ## Short-hand IALs
 
@@ -57,12 +74,15 @@ This is a paragraph of text with an *italic*{:.subtle} word.
 Output:
 
 ```html
-<p id="para-one">This is a paragraph of text with an <em class="subtle">italic</em> word.</p>
+<p id="para-one">This is a 
+    paragraph of text with an 
+    <em class="subtle">italic</em> 
+    word.</p>
 ```
 
 ## Multiple attributes with IALs
 
-You can use long-hand or short-hand to add multiple attributes in kramdown. You can also mix them.
+You can use long-hand or short-hand notation to add multiple attributes in kramdown. You can also mix them.
 
 ```markdown
 This is a paragraph of text with an *italic*{:.subtle #italic-id} word.
@@ -72,7 +92,13 @@ This is a paragraph of text with an *italic*{:.subtle #italic-id} word.
 Output:
 
 ```html
-<p title="Title attribute" data-test="value" class="test-class">This is a paragraph of text with an <em class="subtle" id="italic-id">italic</em> word.</p>
+<p
+  title="Title attribute"
+  data-test="value"
+  class="test-class">This is a 
+  paragraph of text with an 
+  <em class="subtle" id="italic-id">italic</em>
+  word.</p>
 ```
 
 ## kramdown IALs

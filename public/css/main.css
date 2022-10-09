@@ -810,6 +810,8 @@ pre.astro-code code {
     margin: 0;
     width: 100%;
     text-align: right;
+    position: relative;
+    z-index: 1;
 }
 
 .copy-button {
@@ -830,7 +832,7 @@ pre.astro-code code {
 .note {
     color: var(--fore-block);
     background-color: var(--aft-block);
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     padding: 0.1px 1.2em;
     position: relative;
     box-shadow: var(--box-shadow);

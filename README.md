@@ -18,9 +18,13 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 ## Post cleansing
 
+This task (starting from most recent) has reached... 2022/09/How to return non-HTML responses from Astro
+
+### 1 Image
+
 Banner image 16:9
 
-This task (starting from most recent) has reached... 2022/10
+### 2 Frontmatter
 
 layout: src/layouts/Default.astro
 title: 
@@ -39,3 +43,5 @@ tags:
     - Jekyll
     - Kramdown
     - Markdown
+
+## 3 Light copy edit
