@@ -1,8 +1,13 @@
 ---
 layout: src/layouts/Default.astro
-title: Reading site.config and site.data in Jekyll Plugins and Liquid Filters
+title: Reading site.config and site.data in Jekyll plugins and Liquid filters
 navMenu: false
-pubDate: 2022-09-13T09:56:22+01:00
+pubDate: 2022-09-13
+keywords: jekyll,plugin,site.config,site.data,liquid filter
+description: Find out how to access Jekyll's configuration and site data from a plugin.
+bannerImage:
+    src: /img/topic/jekyll/jekyll-and-hyde-1931.png
+    alt: Promotional for Jekyll and Hyde (1931)
 authors:
     - steve-fenton
 categories:
@@ -13,9 +18,9 @@ tags:
     - Ruby
 ---
 
-It seems like I’m working a great deal in Jekyll, Ruby, and Liquid at the moment. Here’s the solution to a little problem I had. I needed to access the Jekyll configuration and site data from within a plugin that added a Liquid filter.
+This article explains how to access Jekyll's configuration and site data from a plugin. The plugin adds a Liquid filter, but this applies to other kinds of plugin, too.
 
-Here’s the shape of the plugin, which is pretty common:
+Here’s the shape of the plugin, which is pretty typical:
 
 ```ruby
 require 'liquid'
@@ -35,9 +40,11 @@ end
 Liquid::Template.register_filter(Jekyll::Language)
 ```
 
+We need to reference the configuration without loading it every time the plugin is used. The configuration doesn't change during site generation, so we can just get it once.
+
 ## Adding Jekyll configuration
 
-There are two parts to this. When we reference the configuration, it loads it. We don’t want to do that every time, so we should remember it as it doesn’t change during the site generation. We’ll get the configuration using `Jekyll.configuration({})` and read the `language` entry…
+The code below references the configuration using `Jekyll.configuration({})` and reads the `language` entry. It stores this in the `@@lang` module variable, so we only fetch the configuration if we don't already have the language.
 
 ```ruby
 require 'liquid'
@@ -62,6 +69,8 @@ end
 
 Liquid::Template.register_filter(Jekyll::Language)
 ```
+
+Getting hold of the configuration was easy enough. Now you can grab the site data.
 
 ## Adding Jekyll site data
 
