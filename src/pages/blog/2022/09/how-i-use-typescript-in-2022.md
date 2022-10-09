@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: How I use TypeScript in 2022
 navMenu: false
 pubDate: 2022-09-05
+modDate: 2022-10-08
 keywords: typescript
 description: An explanation of how I've been using TypeScript for the past few months.
 bannerImage:

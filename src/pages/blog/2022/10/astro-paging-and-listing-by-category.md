@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Astro paging and listing by category'
 navMenu: false
 pubDate: 2022-10-02
+modDate: 2022-10-08
 keywords: astro,static site generator,paging,listing
 description: Take a look at how Astro handles pages and lists.
 bannerImage:

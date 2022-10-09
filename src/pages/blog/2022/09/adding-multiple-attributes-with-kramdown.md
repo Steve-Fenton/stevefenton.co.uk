@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: Adding multiple attributes with Kramdown
 navMenu: false
 pubDate: 2022-09-06
+modDate: 2022-10-08
 keywords: kramdown,markdown,jekyll,attributes,attribute lists
 description: Find out how to add attributes to HTML in Jekyll using kramdown inline attribute lists.
 bannerImage:

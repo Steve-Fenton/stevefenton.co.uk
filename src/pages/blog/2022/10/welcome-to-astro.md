@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Welcome to my Astro site'
 navMenu: false
 pubDate: 2022-10-05
+modDate: 2022-10-08
 keywords: astro,static site generator,islands
 description: A quick overview of Astro, which I'm now using for my website.
 bannerImage:

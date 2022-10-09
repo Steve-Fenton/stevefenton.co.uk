@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Astro: Rollup failed to resolve import'
 navMenu: false
 pubDate: 2022-09-20
+modDate: 2022-10-08
 keywords: astro,components,import,failed to resolve
 description: Find out how to resolve a "rollup failed to resolve import" error in Astro.
 bannerImage:

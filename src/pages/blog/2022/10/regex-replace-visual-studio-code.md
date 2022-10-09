@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'How to RegEx replace in Visual Studio Code'
 navMenu: false
 pubDate: 2022-10-07
+modDate: 2022-10-08
 keywords: regex,visual studio code,vscode,replace
 description: Find out how to perform a complex search and replace in Visual Studio Code using a RegEx.
 bannerImage:

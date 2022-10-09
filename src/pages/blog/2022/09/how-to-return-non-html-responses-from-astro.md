@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: How to return non-HTML responses from Astro
 navMenu: false
 pubDate: 2022-09-19
+modDate: 2022-10-08
 keywords: astro,xml,json,sitemap,feed
 description: How to generate non-HTML output in Astro for sitemaps, feeds, and more
 bannerImage:
