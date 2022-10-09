@@ -13,9 +13,8 @@ authors:
 categories:
     - Programming
 tags:
-    - Visual Studio
-    - VSCode
-    - Regex
+    - Visual Studio Code
+    - Regular Expressions
 ---
 
 Markdown files are a great place for content when it comes to making large-scale updates. You can open your text editor and use the search and replace tool to fix lots of content quickly. This article shows you how to perform an advanced search and replace in Visual Studio Code using :abbr[RegEx]{title="Regular Expressions"}.

@@ -1,6 +1,15 @@
-# Astro Accelerator
+# Steve Fenton
 
-Review the documentation at [astro.stevefenton.co.uk](https://astro.stevefenton.co.uk/)
+This repo powers my [website](https://www.stevefenton.co.uk) with [Astro](https://astro.build)
+
+## Taxonomy
+
+Category-wise... it's all tech. Let's make it easy to find out what tech.
+
+- Analytics (platforms)
+- Programming (languages and patterns)
+- Content Management (CMS and related)
+- ...
 
 ## TODO
 

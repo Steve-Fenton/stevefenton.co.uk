@@ -11,10 +11,9 @@ bannerImage:
 authors:
   - steve-fenton
 categories:
-  - Programming
+  - Content Management
 tags:
   - Astro
-  - JavaScript
   - TypeScript
 ---
 
