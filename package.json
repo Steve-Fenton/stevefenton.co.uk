@@ -8,7 +8,8 @@
     "start": "node ./src/utilities/img.js && astro dev",
     "build": "astro build",
     "preview": "node ./src/utilities/img.js && astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "img": "node ./src/utilities/img.js"
   },
   "dependencies": {
     "astro": "^1.2.5",
