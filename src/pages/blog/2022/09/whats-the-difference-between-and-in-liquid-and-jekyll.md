@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: What's the difference between {%- and {% in Liquid and Jekyll
 navMenu: false
-pubDate: 2022-09-07T13:54:57+01:00
+pubDate: 2022-09-07
+modDate: 2022-10-08
+keywords: jekyll,liquid,template,{%,{%-
+description: Find out the difference between Liquid template blocks with dashes {%-, and those without {%.
+bannerImage:
+    src: /img/2022/09/water-droplet.png
+    alt: Water droplet by Jayashree Shankar
 authors:
     - steve-fenton
 categories:
@@ -20,7 +26,7 @@ You can use it for whitespace before the block: `{%- %}`.
 
 Or, for whitespace after the block: `{% -%}`.
 
-And, of course, neither or both! Just put the dash at the end you would like to strip whitespace from. This lets you keep the output super clean, especially when you have multiple lines for readability.
+And, of course, neither or both! Just put the dash on the side you want to strip whitespace from. This lets you keep the output super clean, especially when you have multiple lines for readability.
 
 Here’s some code to generate a simple XML sitemap:
 
@@ -73,7 +79,7 @@ This results in a gappy output file!
 </urlset>
 ```
 
-But this can be solved using the whitespace stripping syntax, in this case, just stripping left-hand whitespace in a few location:
+But this can be solved using the whitespace stripping syntax, in this case, just stripping left-hand whitespace in a few locations:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -116,3 +122,5 @@ This results in a tidy output file:
   </url>
 </urlset>
 ```
+
+<small>Liquid drop image by [Jayashree Shankar](https://www.flickr.com/photos/jayashree-shankar/) [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)</small>

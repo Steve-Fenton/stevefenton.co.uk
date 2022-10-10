@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: The difference between The Phoenix Project and The Unicorn Project
 navMenu: false
-pubDate: 2022-09-02T08:22:52+01:00
+pubDate: 2022-09-02
+modDate: 2022-10-08
+keywords: phoenix project,unicorn project,books, book comparison
+description: Find out the kye difference between DevOps books The Phoenix Project and The Unicorn Project.
+bannerImage:
+    src: /img/2022/09/phoenix-vs-unicorn.png
+    alt: Section of the cover of the Phoenix Project
 authors:
     - steve-fenton
 categories:
@@ -40,3 +46,8 @@ So, the key *difference* between the two books is the perspective. The Phoenix P
 In The Phoenix Project, we look at the needed management changes. This is based on techniques such as Theory of Constraints.
 
 In The Unicorn Project we see how the software delivery process has to change. This is based on DevOps practices.
+
+You can find both books on IT Revolution:
+
+- [The Phoenix Project](https://itrevolution.com/the-phoenix-project/)
+- [The Unicorn Project](https://itrevolution.com/the-unicorn-project/)
