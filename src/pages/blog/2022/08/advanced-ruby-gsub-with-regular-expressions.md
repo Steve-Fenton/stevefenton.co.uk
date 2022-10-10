@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: Advanced Ruby gsub with regular expressions
 navMenu: false
-pubDate: 2022-08-03T14:07:20+01:00
+pubDate: 2022-08-03
+modDate: 2022-10-08
+keywords: ruby,gsub,regex,regular expressions
+description: Find out how to use the Ruby gsub method through a step-by-step example.
+bannerImage:
+    src: /img/topic/ruby/ruby.png
+    alt: A Ruby programming language logo with motion blur.
 authors:
     - steve-fenton
 categories:
@@ -13,9 +19,9 @@ tags:
     - Ruby
 ---
 
-This post is *really* about the Ruby language `gsub` string method. It does contain a tiny bit of Jekyll hooks, but they are important to me and perhaps not to you. If you just want to know how to extract a match in `gsub` and use it in the output, scroll down to the bottom for the “final revelation”.
+This post is *really* about the Ruby language `gsub` string method. It does contain a tiny bit of Jekyll hooks, but they are relevant to me and perhaps not to you. If you just want to know how to extract a match in `gsub` and use it in the output, scroll down to the bottom for the “final revelation”.
 
-Let’s set the scene for the problem. I’m processing a custom Markdown block on a Jekyll site during a hook that fires after conversion, but before the result is written to disk.
+Let’s set the scene for the problem. I’m processing a custom Markdown block on a Jekyll site during a hook that fires after conversion but before the result is written to disk.
 
 The custom Markdown block looks like this:
 
@@ -61,7 +67,7 @@ This is where `item` comes from in the examples below and I’ll leave out the h
 
 ## gsub basics
 
-You can do a simple replace using strings and `gsub`, like this:
+You can do a simple replace operation using strings and `gsub`, like this:
 
 ```ruby
 content = "
@@ -76,7 +82,7 @@ content = content.gsub(':::', '<div>')
 puts content
 ```
 
-Basic `gsub` usage looks for the first string, and replaces it with the second one.
+Basic `gsub` usage looks for the first string and replaces it with the second one.
 
 You can see from the output that this replaces the `:::` strings, but this isn’t enough to solve our requirement just yet.
 
@@ -92,13 +98,13 @@ Our problems are:
 
 - We can’t tell the difference between opening and closing tags if we just use ‘:::’
 - We still have those pesky paragraph tags that shouldn’t be there
-- We are missing the class name and the text for it is now content
+- We are missing the class name, and the text for the class name is now content
 
 We can use our problem to explore some more advanced use cases for `gsub`.
 
 ## gsub with regular expressions
 
-We can tell the difference between a start and end tag using a regular expression. Don’t shudder, it’s not going to be that bad. The syntax for using a regular expression is shown below.
+We can tell the difference between a start and end tag using a regular expression. Don’t shudder! It’s not going to be that bad. The syntax for using a regular expression is shown below.
 
 We use one `gsub` to find the opening tag, including the surplus paragraphs, and one to find the closing tag, replacing them as appropriate.
 
@@ -136,9 +142,9 @@ Our output is now valid HTML, but our class name is still missing. We’ll tackl
 
 ## Using a match from the regular expression in the output
 
-We just need to fine tune our regular expression now to get hold of that class name, so we can use it in the output.
+We just need to fine-tune our regular expression now to get hold of that class name, so we can use it in the output.
 
-The first part of the change is to wrap parentheses around the text match, to say we want to capture the text that is found. To put it another way `[a-z]+` already finds the text we want, but `([a-z]+)` will keep hold of it for later use. Who knew brackets were so meaningful.
+The first part of the change is to wrap parentheses around the text match to say we want to capture the text that is found. To put it another way, `[a-z]+` already finds the text we want, but `([a-z]+)` will keep hold of it for later use. Who knew brackets were so meaningful.
 
 The second part of our update is to use the text we found in the output. The syntax for this is `\1`. Where you have multiple matchers, they are all numbered, so the next one is `\2` and so on.
 
@@ -173,7 +179,7 @@ Our output is now exactly what we want. We’re converting a markdown block into
 
 ## The key parts
 
-To summarise, here’s the line of code with important bits called out:
+To summarise, here’s the line of code with the important bits called out:
 
 ```ruby
 content
@@ -185,11 +191,11 @@ content
 
 ## The final solution
 
-Having made it *work*, it’s time to make it *right*. Before I started, I hadn’t used `gsub` or Jekyll hooks. Now I’ve learned a bit, I want to clean things up.
+Having made the concept *work*, it’s time to make it *right*. Before I started, I hadn’t used `gsub` or Jekyll hooks. Now I’ve learned a bit more, I want to clean things up.
 
 In particular, I don’t like that I’m fiddling with HTML. It feels like I’m too late to the party.
 
-However, there is another hook called `post_init` which fires *before* the markdown gets converted into HTML. If we drop in earlier, we can be tider.
+However, there is another hook called `post_init`, which fires *before* the markdown gets converted into HTML. If we drop in earlier, we can be tidier.
 
 Here’s the final solution. An additional item is (because you are running before markdown) to signal that you would like markdown processed within the HTML block you create. The `markdown="1"` signals to Kramdown that you want the markdown processed within the element.
 
