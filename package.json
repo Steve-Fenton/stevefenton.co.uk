@@ -12,11 +12,11 @@
     "img": "node ./src/utilities/img.js"
   },
   "dependencies": {
-    "astro": "^1.2.5",
+    "astro": "^1.4.7",
     "imagemin": "^8.0.1",
-    "imagemin-webp": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^7.0.0",
     "remark-directive": "^2.0.1"
   }
 }

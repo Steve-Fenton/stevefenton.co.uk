@@ -18,8 +18,8 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 ## Post cleansing
 
-This task (starting from most recent) has reached... 2022/08/
-Look who is ordering you back to the office
+This task (starting from most recent) has reached... 2022/07/
+Adding a sitemap to Jekyll
 
 ### 1 Image
 
