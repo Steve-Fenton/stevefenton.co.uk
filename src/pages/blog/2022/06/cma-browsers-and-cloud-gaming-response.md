@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: CMA Browsers and Cloud Gaming Response
 navMenu: false
-pubDate: 2022-06-23T19:23:37+01:00
+pubDate: 2022-06-23
+modDate: 2022-10-12
+keywords: cma,browsers,competition
+description: My response to the CMA browsers and cloud gaming competition consultation.
+bannerImage:
+    src: /img/topic/html/html.png
+    alt: The HTML 5 shield logo
 authors:
     - steve-fenton
 categories:
@@ -11,17 +17,17 @@ tags:
     - CMA
 ---
 
-The Web is an amazing open platform, but a few times in the history of The Web we have faced challenges keeping it in great shape. When Microsoft had a browser monopoly with Internet Explorer, they were required not only to allow competing browsers but to actively prompt users to select from competitor browsers.
+The Web is a unique open platform, but a few times in the history of The Web, we have faced challenges keeping it in great shape. When Microsoft had a browser monopoly with Internet Explorer, they were required to allow competing browsers and to actively prompted users to download competitor browsers.
 
-We then had the abandonment of the HTML standard in favour of XHTML 2, which was criticised for dropping rendering for pages with bad markup. The WHATWG stepped up to create a modern HTML standard, which we needed though it ended the traditional author-first driver for standards.
+We then faced the abandonment of the HTML standard in favour of XHTML 2, which was criticised for not rendering pages if there was any malformed HTML. The WHATWG stepped up to create a modern HTML standard. To save HTML, we sacrificed the traditional author-first driver for standards.
 
-We now have a situation where mobile device operating systems are abusing their position of control to prevent choice for users. Specifically, Apple currently requires all apps and browsers on their mobile devices to use WebKit. They also prevent competing browsers from accessing the APIs that Safari has access to.
+We now have a situation where mobile device operating systems are abusing their position of control and preventing choice for users. Specifically, Apple requires all apps and browsers on their mobile devices to use WebKit. They also prevent competing browsers from accessing some of the APIs that Safari has access to.
 
-This doesn’t just mean alternative browsers have an unfair disadvantage compared to Safari, it also prevents web apps competing against native apps. Underinvestment in WebKit is also increasing the burden on companies in making websites compatible across all browsers as Safari has gradually become “the new IE6” (you develop a web page that works in all modern browsers, then fix all the issues caused by Safari).
+This doesn’t just mean alternative browsers have an unfair disadvantage compared to Safari; it also prevents web apps from competing with native apps. Underinvestment in WebKit increases the burden on companies making websites, as they need to spend more effort and money to make them compatible across all browsers. Safari has become “the new IE6” (you develop a web page that works in all modern browsers, then fix all the issues you find with Safari).
 
-Any company who controls a significant share of user access to The Web should take an ethically sound position in competition. In some cases, regulators need to intervene when a company is so big it can no longer see our understand how it’s behaviour damages fair competition.
+Any company that controls a significant share of user access to The Web should take an ethically sound position in competition. In some cases, regulators need to intervene when a company is so big it can no longer see or understand how its behaviour damages fair competition.
 
-The [OWA](https://open-web-advocacy.org/) needs your help from UK based individuals and organisations now.
+The [OWA](https://open-web-advocacy.org/) needs help from UK-based individuals and organisations now.
 
 We all need to speak up now, not to force Apple to change its behaviour, but to get protection for The Web from any large company that finds itself in a similar position.
 
@@ -33,7 +39,7 @@ Send your response to the CMA mailbox <browsersandcloud@cma.gov.uk> before July 
 
 You can also encourage friends, co-workers, and even your company to submit a response.
 
-If you’re not sure where to start with your response to the CMA, here is my full submission. This might give you time ideas of where to start.
+If you’re unsure where to start with your response to the CMA, here is my full submission. This might give you time ideas of where to start.
 
 ## My response
 

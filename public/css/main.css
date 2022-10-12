@@ -111,7 +111,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--fore-headings);
     line-height: 1em;
     letter-spacing: -0.03em;
-    text-align: center;
 }
 
 h1 {
@@ -121,8 +120,11 @@ h1 {
     text-decoration-color: var(--icon-block);
     text-decoration-line: underline;
     text-decoration-thickness: 0.2em;
-    text-align: left;
     max-width: 10em;
+}
+
+main article h2, main article h3, main article h4, main article h5, main article h6 {
+    padding-left: 2rem;
 }
 
 h2 {
@@ -448,13 +450,11 @@ main ul ol, main ul ul, main ol ol, main ol ul {
 
 .page-toc {
     background-color: var(--aft-block);
-    padding: 0 1rem;
-    margin: 0 0 var(--block-gap) 0;
-    border-radius: var(--block-radius);
+    margin: -1rem -1rem 1rem -1rem;
 }
 
 .page-toc summary {
-    text-align: center;
+    padding: 0.5rem 1rem;
 }
 
 .page-toc ol {
@@ -466,6 +466,26 @@ main ul ol, main ul ul, main ol ol, main ol ul {
 .page-toc li a {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+.page-toc li.toc-lev-2 {
+    padding-left: 1rem;
+}
+
+.page-toc li.toc-lev-3 a {
+    padding-left: 2rem;
+}
+
+.page-toc li.toc-lev-4 a {
+    padding-left: 3rem;
+}
+
+.page-toc li.toc-lev-5 a {
+    padding-left: 4rem;
+}
+
+.page-toc li.toc-lev-6 a {
+    padding-left: 5rem;
 }
 
 /* Footer */
@@ -583,6 +603,10 @@ form.site-search button {
     margin: 0;
 }
 
+article + .post-list {
+    margin: 1rem;
+}
+
 .post-list .list-item {
     list-style: none;
     color: var(--fore-block);
@@ -681,6 +705,9 @@ form.site-search button {
 .post-meta {
     display: flex;
     align-items: center;
+    margin: 1rem -1rem;
+    padding: 1rem;
+    background-color: var(--aft-block);
 }
 
 .post-meta .author-image {
@@ -769,7 +796,6 @@ form.site-search button {
   }
   
   .yt-video .play-icon {
-    background-image: url(https://img.youtube.com/vi/VOWnhMxJMMk/0.jpg);
     background-position: center;
     background-size: cover;
     border-radius: var(--block-radius);

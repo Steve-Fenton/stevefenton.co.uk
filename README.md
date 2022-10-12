@@ -18,8 +18,8 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 ## Post cleansing
 
-This task (starting from most recent) has reached... 2022/07/
-Adding a sitemap to Jekyll
+This task (starting from most recent) has reached... 2022/06/
+CMA Browsers and Cloud Gaming Response
 
 ### 1 Image
 
@@ -31,7 +31,7 @@ layout: src/layouts/Default.astro
 title: 
 navMenu: false
 pubDate: 2022-09-06
-modDate: 2022-10-08
+modDate: 2022-10-12
 keywords: 
 description: 
 bannerImage:
