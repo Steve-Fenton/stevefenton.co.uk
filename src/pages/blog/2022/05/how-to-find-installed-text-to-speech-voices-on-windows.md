@@ -11,7 +11,7 @@ tags:
     - VSCode
 ---
 
-I’m using a Visual Studio Code extension that provides text-to-speech, which I use as part of [my VS Code writing set up]\(/blog/2022/03/writing-in-visual-studio-code/). It has a simple set of two options, speed (1.5x of course) and voice, which is a text field as different options exist on different operating systems.
+I’m using a Visual Studio Code extension that provides text-to-speech, which I use as part of [my VS Code writing set-up]\(/blog/2022/03/writing-in-visual-studio-code/). It has a simple set of two options, speed (1.5x of course) and voice, which is a text field as different options exist on different operating systems.
 
 As I’m using Windows 11 on a Surface Book 3, I can quickly find installed voices using a PowerShell script…
 
