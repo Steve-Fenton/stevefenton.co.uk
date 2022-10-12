@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: Upload all files in a folder to FTP
 navMenu: false
-pubDate: 2022-06-08T21:06:33+01:00
+pubDate: 2022-06-08
+modDate: 2022-10-12
+keywords: ftp,upload,powershell,script
+description: Find out hsow to upload files to FTP with a PowerShell script.
+bannerImage:
+    src: /img/2022/06/ftp.png
+    alt: A gradient with FTP written across it
 authors:
     - steve-fenton
 categories:
@@ -11,9 +17,9 @@ tags:
     - PowerShell
 ---
 
-This is the second old-school post this week. Hey, I’m clearing the decks of some odd stuff that I had to do. Today, it’s uploading all files in a folder (but not sub-folders) to FTP, if they have been updated in the past 24 hours.
+This is the second old-school post this week. Hey, I’m clearing the decks of some odd stuff I had to do. Today, it’s uploading all the files in a folder (but not sub-folders) to an FTP endpoint. The script only does this if the files have been updated in the past 24 hours.
 
-There’s not much to explain here. It’s a simple `System.Net.WebClient` doing the work, with a credential added for the username and password. The source folder is searched for non-directory entries using `Get-ChildItem` and passing into `Where-Object` to filter by last write time. Each match is moved up to the FTP folder with the same name.
+There’s not much to explain here. It’s a simple `System.Net.WebClient` doing the work, with a credential added for the username and password. The source folder is searched for non-directory entries using `Get-ChildItem` and passing them into `Where-Object` to filter by last write time. Each match is moved up to the FTP folder with the same name.
 
 ```powershell
 $source = '../src'
