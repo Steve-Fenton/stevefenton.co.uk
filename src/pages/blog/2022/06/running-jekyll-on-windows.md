@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: Running Jekyll on Windows
 navMenu: false
-pubDate: 2022-06-29T11:03:16+01:00
+pubDate: 2022-06-29
+modDate: 2022-10-12
+keywords: jekyll,windows
+description: Find out how to run Jekyll on a Windows machine.
+bannerImage:
+    src: /img/topic/jekyll/jekyll-and-hyde-1931.png
+    alt: Promotional for Jekyll and Hyde (1931)
 authors:
     - steve-fenton
 categories:
@@ -13,7 +19,7 @@ tags:
     - Ruby
 ---
 
-There are three parts to this quick start on running Jekyll on Windows. This assumes you pulled an existing Jekyll repo and want to run it locally. If you want to create something new, there’s a command for that, which you can run at the end of the install process before you serve the site `jekyll new sitename`
+If you want to run Jekyll on a Windows machine, there are just three steps you need to complete to get up and running:
 
 1. Install languages
 2. Install Jekyll
@@ -23,11 +29,11 @@ There are three parts to this quick start on running Jekyll on Windows. This ass
 
 To run Jekyll on Windows, you need to install the following:
 
-- Ruby with DevKit (required)
+- [Ruby with DevKit](https://rubyinstaller.org/downloads/)
 
-Note that Ruby should be installed with DevKit for Ruby Gems to install. The download is an EXE that installs Ruby.
+Note that Ruby needs to be installed with DevKit as this is required when you install Ruby Gems. The download for Windows is an EXE that installs Ruby.
 
-The Ruby installer should prompt you to run the following command at the end of the installation, but if not, run it manually and select option 3.
+The installer should prompt you to run the following command at the end of the installation, but if not, run it manually and select option 3.
 
 ```bash
 ridk install
@@ -35,15 +41,15 @@ ridk install
 
 ## Install Jekyll
 
-Once you have Python and Ruby installed, you can install the Ruby Gems for Jekyll
+Once you have Ruby installed, you can install the Ruby Gems for Jekyll
 
 ```bash
 gem install jekyll bundler webrick
 ```
 
-If you used the wrong Ruby installer, you might not have all the dev tools and gem installation will error, so go back and check your Ruby installer was the DevTools version.
+If you used the wrong Ruby installer, you might not have all the dev tools. If you get an error on `gem installation`, go back and check your Ruby installer was the DevTools version.
 
-Check everything is up and running using:
+Once the Gems are installed, you can check everything is ready by running a Jekyll version check:
 
 ```bash
 jekyll -v
@@ -51,15 +57,13 @@ jekyll -v
 
 ## Run the site
 
-The following commands should be run in the folder containing your Jekyll site.
+You'll need to install any dependencies to run an existing Jekyll site. If the site has a `package.json` file, run an `npm install` from the root folder of the Jekyll site:
 
 Make sure all the packages are installed:
 
 ```bash
 npm install
 ```
-
-If you get any errors, check the message to see if you need Python (see above), or if one of your packages needs something else specific.
 
 Then run the site using:
 
@@ -73,3 +77,5 @@ The command will output the address of the server, which you can open in your br
 Server address: http://127.0.0.1:4000/
 Server running... press ctrl-c to stop.
 ```
+
+Have fun with Jekyll!

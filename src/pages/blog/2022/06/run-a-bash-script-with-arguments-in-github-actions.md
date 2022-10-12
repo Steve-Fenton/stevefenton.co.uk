@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 title: Run a Bash Script with Arguments in GitHub Actions
 navMenu: false
-pubDate: 2022-06-14T11:46:47+01:00
+pubDate: 2022-06-14
+modDate: 2022-10-12
+keywords: github actions,bash script,arguments
+description: Find out how to run a bash script file with arguments in GitHub Actions.
+bannerImage:
+    src: /img/2022/06/github-actions.png
+    alt: A screenshot of the GitHub Actions user interface
 authors:
     - steve-fenton
 categories:
@@ -13,11 +19,13 @@ tags:
     - GitHub
 ---
 
-This is just a quick not on how to run a bash script with parameters in GitHub actions, and how to use the passed argument in the script.
+You can drop bash scripts directly into a GitHub Action workflow file, but sometimes this can be unwieldy. A better approach can be to call a `script.sh` file from the workflow.
+
+This article has an example to help you tidy up your Actions by calling external bash scripts passing arguments that make the scripts more re-usable.
 
 ## GitHub Action
 
-Here’s the jobs section of the GitHub action, but the last line is the interesting bit as this calls the script. The argument is simply added on the end.
+Here’s the jobs section of a GitHub action. The last line is the critical part as this calls the external script. The argument is simply added on the end, i.e. `bash [filename] argument`.
 
 ```yaml
 jobs:
@@ -31,7 +39,7 @@ jobs:
 
 ## Using the argument value
 
-Within the script file (`example.sh`) you can use the argument using the parameter flag based on its position, for example `$1`…
+Within the script file (`example.sh`) you can use the argument using the parameter flag based on its position, for example `$1` for the first argument.
 
 ```bash
 rsync -av --exclude=*.md --exclude=*.txt "$1/" _output
@@ -45,12 +53,12 @@ rsync -av --exclude=*.md --exclude=*.txt my-folder-name/ _output
 
 ## Summary
 
-Run the bash script from an action using:
+So, you can run bash scripts from a GitHub Action using:
 
 ```yaml
-run:  bash ${GITHUB_WORKSPACE}/scripts/example.sh my-folder-name
+run:  bash ${GITHUB_WORKSPACE}/[filename].sh [argument-value]
 ```
 
-Use `$1` to use the argument you passed.
+And you use `$1` to reference the argument value you passed.
 
-This makes it easy to re-use a script from multiple actions.
+This makes it easy to reuse a script from multiple Actions, or several times in one Action, with different values.
