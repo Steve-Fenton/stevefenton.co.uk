@@ -842,6 +842,8 @@ pre.astro-code code {
     background-color: unset;
 }
 
+/* Helper icons */
+
 .copy-container {
     max-height: 0px;
     margin: 0;
@@ -862,6 +864,43 @@ pre.astro-code code {
 .copy-button:focus {
     fill: var(--fore-link);
     transform: rotate(4deg);
+}
+
+.magnify-container {
+    max-height: 0px;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+    z-index: 1;
+    position: relative;
+    top: -1rem;
+}
+
+.magnify-icon {
+    border-radius: 0.2rem;
+    stroke: var(--fore-link-alt);
+    fill: var(--aft);
+    background-color: transparent;
+    opacity: 0;
+}
+
+figure:hover .magnify-icon,
+figure:focus .magnify-icon {
+    opacity: 1;
+}
+
+.magnify-icon:hover,
+.magnify-icon:focus,
+.magnify-icon:focus-within {
+    stroke: var(--fore-link);
+    transform: rotate(4deg);
+    opacity: 1;
+}
+
+@media (max-width: 860px) {
+    .magnify-icon {
+        opacity: 1;
+    }
 }
 
 /* Custom Divisions */

@@ -2,7 +2,13 @@
 layout: src/layouts/Default.astro
 navMenu: false
 title: Title case text with MySql
-pubDate: 2022-05-17T20:00:21+01:00
+pubDate: 2022-05-17
+modDate: 2022-10-13
+keywords: mysql,title case,script
+description: Find out how to title case a text field in MySql with a script.
+bannerImage:
+    src: /img/2022/05/dolphin.png
+    alt: A dolphin underwater
 authors:
     - steve-fenton
 categories:
@@ -11,11 +17,15 @@ tags:
     - MySql
 ---
 
-I needed to update a WordPress taxonomy on a site with thousands of categories and tags. This is not a task for a human, so I created a bit of a gnarly SQL script to update the MySql table.
+I needed to update a WordPress taxonomy on a site with thousands of categories and tags. This is not a task for a human, so I created a gnarly SQL script to update the MySql table.
 
-As you can see from the script, it has limitations! Specifically, if you need it to work on longer sentences, you’ll have to add more rows, as each row handles a “word” found in the text. For tags in WordPress, it is unlikely the edge of this would be tested, but if you were running it on titles it’s going to be a problem. Equally, it isn’t going to discriminate for words like “the”, which you may not want to title-case, such as “Back to the Future”. It’s going to give you “Back To The Future”, which is a bit awful.
+As you can see from the script, it has limitations! Specifically, if you need it to work on longer sentences, you’ll have to add more rows, as each row handles one word found in the text. For tags in WordPress, it is unlikely the edge of this would be tested, but if you were running it on titles, it’s will be a problem.
 
-For each word, it applies `UPPER` to the fist letter and `LOWER` to the rest, so it fixes things in both directions. For example “BACK TO THE FUTURE”, “back to the future”, and “bAcK tO tHe FuTuRe” will all become “Back To The Future”.
+Equally, it doesn't handle short words, like “the”, which you may not want to title-case, such as “Back to the Future”. It will give you “Back To The Future”, which is a bit awful.
+
+For each word, it applies `UPPER` to the fist letter and `LOWER` to the rest, so it fixes casing in both directions. For example, “BACK TO THE FUTURE”, “back to the future”, and “bAcK tO tHe FuTuRe” will all become “Back To The Future”.
+
+With all this in mind, here's the script:
 
 ```sql
 UPDATE `terms` SET name = TRIM(
@@ -36,3 +46,5 @@ UPDATE `terms` SET name = TRIM(
 ```
 
 If someone knows a better way, I’d love to hear it!
+
+<small>Dolphin picture by [Sheilapic](https://www.flickr.com/photos/53344659@N05/)</small>
