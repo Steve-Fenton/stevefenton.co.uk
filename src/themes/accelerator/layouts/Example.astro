@@ -6,7 +6,7 @@ import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
 import SkipLinks from '@components/SkipLinks.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
-import Navigation from '@components/Navigation.astro';
+import NavigationBar from '@components/NavigationBar.astro';
 import TableOfContents from '@components/TableOfContents.astro';
 import Authors from '@components/Authors.astro';
 import Taxonomy from '@components/Taxonomy.astro';
@@ -26,10 +26,9 @@ const textDirection = frontmatter.dir ?? SITE.default.dir;
     <body>
         <SkipLinks frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <Header frontmatter={ frontmatter } headings={ headings } lang={ lang } />
-        <Breadcrumbs frontmatter={ frontmatter } headings={ headings } lang={ lang } />
-        <div class="content-group">
-            <Navigation lang={ lang } />
-            <main id="site-main">
+        <NavigationBar lang={ lang } />
+        <div class="content-single">
+            <main id="site-main" class="content-single">
                 <article>
                     <TableOfContents frontmatter={ frontmatter } headings={ headings } lang={ lang } />
                     <header>
@@ -44,6 +43,7 @@ const textDirection = frontmatter.dir ?? SITE.default.dir;
                 </article>
             </main>
         </div>
+        <Breadcrumbs frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <Footer frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <script src="/js/main.js" type="module" async></script>
     </body>

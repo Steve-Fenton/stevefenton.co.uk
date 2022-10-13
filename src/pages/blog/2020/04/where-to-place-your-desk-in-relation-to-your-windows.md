@@ -27,4 +27,4 @@ Conversely, having your back to the window will cause problems with reflections 
 
 If you have unlimited scope to fix up your office, for example you’ve decided to build it, your ideal desk position would be one that allows you to view the door, while remaining at right-angles to your strong natural light source. In most home set-ups this will be hard to achieve, so work with your light source in the first instance and solve the door issue after that, for example by adding a mirror to your set up so you know when someone is approaching.
 
-In short, avoid putting your desk right in front of your window, even though it is the most tempting place to drop it. Don’t forget to check the [NHS advice on how to sit correctly](https://www.nhs.uk/live-well/healthy-body/how-to-sit-correctly/) too.
+In short, avoid putting your desk right in front of your window, even though it is the most tempting place to drop it. Don’t forget to check the [NHS Cambridge University Hospitals advice on seating ergonomics](https://www.cuh.nhs.uk/patient-information/seating-and-ergonomics/) too.

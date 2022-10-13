@@ -56,11 +56,13 @@
     --content-font: 'akzidenz', sans-serif;
     --code-font: Consolas, 'Courier New', Courier, monospace;
 
+    --paragraph-margin: 1.2rem;
+    --margin-size: 1rem;
+    --margin-size-negative: -1rem;
     --block-gap: 2rem;
     --block-radius: 0.3rem;
 
     --marker-size: 1.2rem;
-    --paragraph-margin: 1.2rem;
 
     --box-shadow: 0 12px 24px -12px rgb(0 0 0 / 50%);
     --box-shadow-slight: 0 6px 12px -6px rgb(0 0 0 / 40%);
