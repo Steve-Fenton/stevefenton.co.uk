@@ -40,14 +40,14 @@ The solution to this haphazard collection of information was Open Graph. A set o
 When you supply Open Graph data, this can be used to create social cards, like this example from Facebook.
 
 :::figure{.inset}
-:img{src="/2022/10/social-cards.png" alt="A Facebook social card with image, title, and description" loading="lazy"}
+:img{src="/img/2022/10/social-cards.png" alt="A Facebook social card with image, title, and description" loading="lazy"}
 :figcaption[A Facebook social card]
 :::
 
 For some social networks, there are more tags you have to add. For example, Twitter prefers to use its own `twitter:card` meta tags. There are some popular Open Graph debugging tools at the end of this post.
 
 :::figure{.inset}
-:img{src="/2022/10/twitter-card.png" alt="A Twitter social card with image, title, and description" loading="lazy"}
+:img{src="/img/2022/10/twitter-card.png" alt="A Twitter social card with image, title, and description" loading="lazy"}
 :figcaption[A Twitter social card]
 :::
 
@@ -81,7 +81,7 @@ Open Graph isn't just used by social media. Other tools, such as feed readers, n
 Here's an example from a music site, which usually pushes PNG images in Open Graph, but added a WEBP for the article "Yeah Yeah Yeahs - Cool It Down":
 
 :::figure{.inset}
-:img{src="/2022/10/feed-with-webp-missing.png" alt="The missing image is a WEBP" loading="lazy"}
+:img{src="/img/2022/10/feed-with-webp-missing.png" alt="The missing image is a WEBP" loading="lazy"}
 :figcaption[WEBP image is missing]
 :::
 
