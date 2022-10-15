@@ -3,11 +3,14 @@ layout: src/layouts/Default.astro
 title: Converting markdown files to PDF in GitHub actions
 navMenu: false
 pubDate: 2022-04-14T13:24:36+01:00
-authors:
-    - steve-fenton
+modDate: 2022-10-14
+keywords: github,actions,markdown to pdf
+description: Find out how to convert markdown files to PDF in GitHub Actions.
 bannerImage:
     src: /img/2022/04/github-action-complete.jpg
     alt: GitHub actions
+authors:
+    - steve-fenton
 categories:
     - Programming
 tags:
@@ -15,13 +18,13 @@ tags:
     - GitHub
 ---
 
-I needed to take a bunch of markdown files and convert them into a PDF, with all images present and correct, and using a CSS-based stylesheet. Behind the scenes, this is usually done using an intermediate HTML step. My attempts to solve this issue took me down a few different paths, so I thought I’d share the eventual solution to save myself time in the future.
+I needed to take a bunch of markdown files and convert them into a PDF. All the images had to be present and correct, and I needed to apply a CSS-based stylesheet. Behind the scenes, this is usually done using an intermediate HTML step. My attempts to solve this issue took me down a few different paths, so I thought I’d share the eventual solution to save myself time in the future.
 
-There are one or two actions in the marketplace that do this, but I didn’t find any hassle-free action that would do this in a simple repeatable way. As you’ll see from the example, the plan is to have a folder-per-output, so eventually there could be many actions firing for different changes (i.e. filtered by path for the “on push” trigger).
+One or two actions exist in the marketplace for this, but I didn’t find any hassle-free action that would do this in a simple, repeatable way. As you’ll see from the example, the plan is to have a folder-per-output, so eventually, there could be many actions firing for different changes (i.e. filtered by path for the “on push” trigger).
 
 ## Example set up
 
-The set up for this example is shown below (this is the result of a `tree /F` command).
+The setup for this example is shown below (this is the result of a `tree /F` command):
 
 ```
 ├───.github
@@ -39,33 +42,34 @@ The set up for this example is shown below (this is the result of a `tree /F` co
 
 ## What should happen
 
-We want all of the markdown files in the `test` folder to be combined into a single PDF output file.
-
-Additionally, it should be styled using the `style.css` stylesheet.
+- All markdown files in the `test` folder should be combined into a single PDF output file.
+- It should be styled using the `style.css` stylesheet.
 
 ## The commands to run
 
-This is all going to run on an Ubuntu machine supplied by GitHub when the action runs, so all the commands are geared towards that. Most can also be run on Windows using PowerShell, except one funky one that would need a rewrite to work in PowerShell.
+The GitHub Action will run on an Ubuntu worker, so the commands must work on Linux. Many of these commands also work on Windows, except one that you'd have to rewrite in PowerShell.
 
-We’re going to install “md-to-pdf” using NPM. This is the workhorse that’s doing the really difficult bit.
+The work will be done by `md-to-pdf`, so we'll install it with npm. This package is the workhorse that’s doing most of the work.
 
 ```bash
 npm install -g md-to-pdf
 ```
 
-We want to put the output in a folder, so we’d better create it before we start.
+You'll need an output folder, so a quick `mkdir` can create that at the start of the run.
 
 ```bash
 mkdir -p _output
 ```
 
-We are then going to slip into the folder with all the markdown files. Embedded images work if we’re running in the right folder. I called the folder “test”, but you might want to call it “content” or something specific to the content.
+Next, you'll need to navigate to the folder containing the markdown files. Embedded images work if you run from the correct folder. Otherwise the paths end up relative to the wrong root folder.
+
+The example file system above has all the markdown files in the `test` folder.
 
 ```bash
 cd test
 ```
 
-We’re going to do several things in one big hit in the next command.
+The next command combines several elements:
 
 - `for f in *.md` for each file with a “.md” extension
 - `do cat $f; echo; done` stitch them together with added line breaks (these line breaks are super important)
@@ -73,19 +77,19 @@ We’re going to do several things in one big hit in the next command.
 - ` md-to-pdf --stylesheet "../theme/style.css"` convert that text into a pdf, using our stylesheet
 - `> ../_output/result.pdf` save the result in a PDF called “result.pdf” in the “\_output” folder
 
-Here it is as it will appear in the action:
+Here it is as it will appear in the GitHub Action:
 
 ```bash
 for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "../theme/style.css" > ../_output/blue-paper.pdf
 ```
 
-That’s all the important commands detailed, let’s look at it all put together.
+That’s all the important commands detailed. Next you'll find the complete script.
 
 ## The full action
 
-The full action is below, you’ll see we are using the standard checkout step to grab the repo and the standard upload-artefact step to store the output.
+The full GitHub Action script is below. You’ll see we are using the standard checkout step to grab the repo and the standard upload-artefact step to store the output.
 
-There is also a little extra logging included to help you work out if you are in the right place, and the expected files are hanging around.
+A little extra logging is included to help you work out if you are in the right place and the expected files are hanging around.
 
 ```yaml
 name: convert
@@ -120,13 +124,14 @@ jobs:
           path: _output
 ```
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2022/04/github-action-complete.jpg" alt="Visual representation of the GitHub Action" loading="lazy"}
+:figcaption[The GitHub Action]
 :::
 
 ## Page options
 
-If you need to pass further page options, you can do so using the `--pdf-options` flag on the `md-to-pdf` command. It accepts a JSON string of key value pairs.
+If you need to pass further page options, you can use the `--pdf-options` flag on the `md-to-pdf` command. It accepts a JSON string of key-value pairs.
 
 ```bash
 md-to-pdf --stylesheet "../theme/style.css" --pdf-options '{ "format": "a4", "margin": "40mm 40mm", "printBackground": true, "preferCSSPageSize": true }

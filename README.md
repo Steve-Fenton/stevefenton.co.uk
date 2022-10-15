@@ -22,7 +22,7 @@ This task (starting from most recent) has reached...
 
 2022/04/
 
-Converting markdown files to PDF in GitHub actions
+Delete all local git branches except the main branch
 
 ### 1 Image
 
@@ -34,7 +34,7 @@ layout: src/layouts/Default.astro
 title: 
 navMenu: false
 pubDate: 2022-09-06
-modDate: 2022-10-13
+modDate: 2022-10-14
 keywords: 
 description: 
 bannerImage:
