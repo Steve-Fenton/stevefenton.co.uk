@@ -7,7 +7,7 @@ modDate: 2022-10-13
 keywords: mysql,title case,script
 description: Find out how to title case a text field in MySql with a script.
 bannerImage:
-    src: /i/x/2022/05/dolphin.png
+    src: /img/2022/05/dolphin.png
     alt: A dolphin underwater
 authors:
     - steve-fenton

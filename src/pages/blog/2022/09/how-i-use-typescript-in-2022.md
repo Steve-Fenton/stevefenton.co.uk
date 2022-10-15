@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: typescript
 description: An explanation of how I've been using TypeScript for the past few months.
 bannerImage:
-    src: /i/x/topic/typescript/for-csharp-banner.png
+    src: /img/topic/typescript/for-csharp-banner.png
     alt: Part of the cover for TypeScript for C# Programmers by Steve Fenton
 authors:
     - steve-fenton

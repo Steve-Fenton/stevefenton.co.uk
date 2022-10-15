@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: sql server,filestream
 description: Some thoughts on SQL Server FILESTREAM storage.
 bannerImage:
-    src: /i/x/topic/sql/sql-server.png
+    src: /img/topic/sql/sql-server.png
     alt: Microsoft SQL Server logo
 authors:
     - steve-fenton

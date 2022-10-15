@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: astro,static site generator,paging,listing
 description: Take a look at how Astro handles pages and lists.
 bannerImage:
-  src: /i/x/2022/10/milky-way.png
+  src: /img/2022/10/milky-way.png
   alt: The Astro rocket logo
 authors:
   - steve-fenton

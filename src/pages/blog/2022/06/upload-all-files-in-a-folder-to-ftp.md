@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: ftp,upload,powershell,script
 description: Find out hsow to upload files to FTP with a PowerShell script.
 bannerImage:
-    src: /i/x/2022/06/ftp.png
+    src: /img/2022/06/ftp.png
     alt: A gradient with FTP written across it
 authors:
     - steve-fenton

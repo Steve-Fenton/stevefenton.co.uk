@@ -6,7 +6,7 @@ pubDate: 2022-10-08
 keywords: webp,images,open graph
 description: Some examples of WEBP format images failing for Open Graph uses and what to do to fix it.
 bannerImage:
-    src: /i/x/2022/10/open-graph-webp.png
+    src: /img/2022/10/open-graph-webp.png
     alt: A Twitter card showing open graph images and data
 authors:
     - steve-fenton

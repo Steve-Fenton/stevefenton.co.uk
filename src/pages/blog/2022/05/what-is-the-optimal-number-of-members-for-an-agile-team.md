@@ -7,7 +7,7 @@ modDate: 2022-10-13
 keywords: agile,team,size,optimal
 description: Find out how to work out the optimal size for your agile team.
 bannerImage:
-    src: /i/x/topic/process/crank-mechanism.png
+    src: /img/topic/process/crank-mechanism.png
     alt: A crank mechanism whose reciprocal motion represents feedback loops
 authors:
     - steve-fenton

@@ -6,7 +6,7 @@ pubDate: 2022-10-08
 keywords: microsoft,clarity,insights,dead clicks
 description: See how you can improve your website by reacting to insights from Microsoft Clarity.
 bannerImage:
-    src: /i/x/2022/10/microsoft-clarity.png
+    src: /img/2022/10/microsoft-clarity.png
     alt: A chart on Microsoft Clarity showing dead clicks
 authors:
     - steve-fenton

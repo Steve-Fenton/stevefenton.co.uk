@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: phoenix project,unicorn project,books, book comparison
 description: Find out the kye difference between DevOps books The Phoenix Project and The Unicorn Project.
 bannerImage:
-    src: /i/x/2022/09/phoenix-vs-unicorn.png
+    src: /img/2022/09/phoenix-vs-unicorn.png
     alt: Section of the cover of the Phoenix Project
 authors:
     - steve-fenton

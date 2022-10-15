@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: ruby,gsub,regex,regular expressions
 description: Find out how to use the Ruby gsub method through a step-by-step example.
 bannerImage:
-    src: /i/x/topic/ruby/ruby.png
+    src: /img/topic/ruby/ruby.png
     alt: A Ruby programming language logo with motion blur.
 authors:
     - steve-fenton

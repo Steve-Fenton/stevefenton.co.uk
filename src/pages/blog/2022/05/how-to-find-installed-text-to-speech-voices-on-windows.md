@@ -7,7 +7,7 @@ modDate: 2022-10-13
 keywords: 
 description: 
 bannerImage:
-    src: /i/x/2022/05/text-to-speech.png
+    src: /img/2022/05/text-to-speech.png
     alt: PowerShell command window with text-to-speech commands
 authors:
     - steve-fenton

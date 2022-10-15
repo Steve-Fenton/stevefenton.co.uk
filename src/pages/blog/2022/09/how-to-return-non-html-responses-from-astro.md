@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: astro,xml,json,sitemap,feed
 description: How to generate non-HTML output in Astro for sitemaps, feeds, and more
 bannerImage:
-    src: /i/x/2022/09/xml-atom-feed.png
+    src: /img/2022/09/xml-atom-feed.png
     alt: Entries in an XML Atom feed
 authors:
     - steve-fenton

@@ -6,7 +6,7 @@ pubDate: 2022-09-13
 keywords: jekyll,plugin,site.config,site.data,liquid filter
 description: Find out how to access Jekyll's configuration and site data from a plugin.
 bannerImage:
-    src: /i/x/topic/jekyll/jekyll-and-hyde-1931.png
+    src: /img/topic/jekyll/jekyll-and-hyde-1931.png
     alt: Promotional for Jekyll and Hyde (1931)
 authors:
     - steve-fenton

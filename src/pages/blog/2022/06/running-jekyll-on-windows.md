@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: jekyll,windows
 description: Find out how to run Jekyll on a Windows machine.
 bannerImage:
-    src: /i/x/topic/jekyll/jekyll-and-hyde-1931.png
+    src: /img/topic/jekyll/jekyll-and-hyde-1931.png
     alt: Promotional for Jekyll and Hyde (1931)
 authors:
     - steve-fenton

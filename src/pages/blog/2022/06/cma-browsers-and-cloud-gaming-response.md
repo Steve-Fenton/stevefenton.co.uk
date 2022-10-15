@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: cma,browsers,competition
 description: My response to the CMA browsers and cloud gaming competition consultation.
 bannerImage:
-    src: /i/x/topic/html/html.png
+    src: /img/topic/html/html.png
     alt: The HTML 5 shield logo
 authors:
     - steve-fenton
