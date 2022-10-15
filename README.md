@@ -20,7 +20,7 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 This task (starting from most recent) has reached...
 
-2022/04/
+2022/03/
 
 Delete all local git branches except the main branch
 
@@ -34,7 +34,7 @@ layout: src/layouts/Default.astro
 title: 
 navMenu: false
 pubDate: 2022-09-06
-modDate: 2022-10-14
+modDate: 2022-10-15
 keywords: 
 description: 
 bannerImage:
