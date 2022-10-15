@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: devops,principles,automation
 description: An overview of the fundamental DevOps principles.
 bannerImage:
-    src: /img/2022/08/devops-structural-equation-model.png
+    src: /i/x/2022/08/devops-structural-equation-model.png
     alt: The classic DevOps Structural Equation Model
 authors:
     - steve-fenton

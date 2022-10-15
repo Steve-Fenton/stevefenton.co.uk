@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: jekyll,liquid,template,{%,{%-
 description: Find out the difference between Liquid template blocks with dashes {%-, and those without {%.
 bannerImage:
-    src: /img/2022/09/water-droplet.png
+    src: /i/x/2022/09/water-droplet.png
     alt: Water droplet by Jayashree Shankar
 authors:
     - steve-fenton

@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: astro,components,import,failed to resolve
 description: Find out how to resolve a "rollup failed to resolve import" error in Astro.
 bannerImage:
-  src: /img/2022/10/astro.png
+  src: /i/x/2022/10/astro.png
   alt: The Astro rocket logo
 authors:
     - steve-fenton

@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: defer,youtube,videos
 description: Find out how to defer third-party video, like YouTube, until users want to view it.
 bannerImage:
-    src: /img/2022/06/jimmy-eat-world.png
+    src: /i/x/2022/06/jimmy-eat-world.png
     alt: Ace rock band Jimmy Eat World sat in front of tour flight cases
 authors:
     - steve-fenton

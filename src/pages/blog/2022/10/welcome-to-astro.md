@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: astro,static site generator,islands
 description: A quick overview of Astro, which I'm now using for my website.
 bannerImage:
-    src: /img/2022/10/astro-accelerator.png
+    src: /i/x/2022/10/astro-accelerator.png
     alt: A screenshot from the Astro Accelerator
 authors:
     - steve-fenton

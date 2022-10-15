@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: github actions,bash script,arguments
 description: Find out how to run a bash script file with arguments in GitHub Actions.
 bannerImage:
-    src: /img/2022/06/github-actions.png
+    src: /i/x/2022/06/github-actions.png
     alt: A screenshot of the GitHub Actions user interface
 authors:
     - steve-fenton

@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: jekyll,sitemaps
 description: A simple sitemap for Jekyll without a plugin.
 bannerImage:
-    src: /img/topic/jekyll/jekyll-and-hyde-1931.png
+    src: /i/x/topic/jekyll/jekyll-and-hyde-1931.png
     alt: Promotional for Jekyll and Hyde (1931)
 authors:
     - steve-fenton

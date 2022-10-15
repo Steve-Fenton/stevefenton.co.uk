@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: extreme,programming,practices,devops
 description: Extreme Programming compared to DevOps research.
 bannerImage:
-    src: /img/topics/process/extreme-programming.png
+    src: /i/x/topics/process/extreme-programming.png
     alt: A section of the Extreme Programming practice diagram
 authors:
     - steve-fenton

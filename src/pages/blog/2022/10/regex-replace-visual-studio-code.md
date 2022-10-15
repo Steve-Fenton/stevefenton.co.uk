@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: regex,visual studio code,vscode,replace
 description: Find out how to perform a complex search and replace in Visual Studio Code using a RegEx.
 bannerImage:
-    src: /img/2022/10/vscode-regex.png
+    src: /i/x/2022/10/vscode-regex.png
     alt: Visual Studio Code providing a preview of RegEx replacements
 authors:
     - steve-fenton

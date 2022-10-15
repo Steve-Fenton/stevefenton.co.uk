@@ -7,7 +7,7 @@ modDate: 2022-10-14
 keywords: github,actions,markdown to pdf
 description: Find out how to convert markdown files to PDF in GitHub Actions.
 bannerImage:
-    src: /img/2022/04/github-action-complete.jpg
+    src: /i/x/2022/04/github-action-complete.jpg
     alt: GitHub actions
 authors:
     - steve-fenton

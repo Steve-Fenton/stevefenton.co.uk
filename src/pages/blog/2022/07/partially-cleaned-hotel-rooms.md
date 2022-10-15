@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: agile,constraints,process
 description: Why one clean hotel room is more valuable than many partially cleaned rooms.
 bannerImage:
-    src: /img/2022/07/hotel-rooms.png
+    src: /i/x/2022/07/hotel-rooms.png
     alt: A hotel corridor with laundry trollies.
 authors:
     - steve-fenton

@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: kramdown,markdown,jekyll,attributes,attribute lists
 description: Find out how to add attributes to HTML in Jekyll using kramdown inline attribute lists.
 bannerImage:
-    src: /img/2022/09/html-with-attributes.png
+    src: /i/x/2022/09/html-with-attributes.png
     alt: HTML elements with attributes added via markdown
 authors:
     - steve-fenton

@@ -7,7 +7,7 @@ modDate: 2022-10-08
 keywords: office,wfh,work from home,gladwell
 description: Who better to dispute Malcolm Gladwell's recent claim that we need to go back to the office than Malcolm Gladwell himself. 
 bannerImage:
-    src: /img/topic/office/desk-cat.png
+    src: /i/x/topic/office/desk-cat.png
     alt: My cat laying on the desk in my home office.
 authors:
     - steve-fenton
