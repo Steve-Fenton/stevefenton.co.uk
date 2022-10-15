@@ -175,6 +175,7 @@ img.resp-img {
 
 figure img {
     box-shadow: var(--box-shadow);
+    border-radius: var(--block-radius);
 }
 
 li::marker {
@@ -659,6 +660,7 @@ article + .post-list {
     filter: grayscale(1);
     box-shadow: var(--box-shadow);
     transform: rotate(-3deg);
+    border-radius: var(--block-radius);
 }
 
 .post-list .list-item:hover .list-item-image,
@@ -911,6 +913,7 @@ figure:focus .magnify-icon {
     padding: 0.1px 1.2em;
     position: relative;
     box-shadow: var(--box-shadow);
+    border-radius: var(--block-radius);
     margin: var(--margin-size) auto;
     width: 66%;
 }
