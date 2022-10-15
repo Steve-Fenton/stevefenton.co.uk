@@ -967,6 +967,7 @@ figure:focus .magnify-icon {
         transition: all 200ms ease-in-out;
     }
 
+    .magnify-icon,
     .copy-button,
     .anim-show-parent img,
     .anim-show-parent > *:not(p, ul, li) {
