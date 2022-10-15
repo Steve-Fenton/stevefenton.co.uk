@@ -11,9 +11,10 @@ bannerImage:
 authors:
     - steve-fenton
 categories:
-    - Analytics
+    - Programming
 tags:
-    - Clarity
+    - HTML
+    - Open Graph
 ---
 
 I currently use WEBP format images because they offer the best profile in the trade-off between image quality, file size, and browser support. Newer formats, like AVIF and JPEGXL, could perform better against this profile when browser support increases.
