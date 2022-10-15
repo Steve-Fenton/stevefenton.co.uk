@@ -20,9 +20,9 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 This task (starting from most recent) has reached...
 
-2022/03/
+2022/02/
 
-Delete all local git branches except the main branch
+How to create a browser extension
 
 ### 1 Image
 
