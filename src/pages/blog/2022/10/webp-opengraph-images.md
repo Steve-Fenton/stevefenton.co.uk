@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: 'Examples of WEBP format issues with Open Graph images'
 navMenu: false
-pubDate: 2022-10-08
+pubDate: 2022-10-15
 keywords: webp,images,open graph
 description: Some examples of WEBP format images failing for Open Graph uses and what to do to fix it.
 bannerImage:
