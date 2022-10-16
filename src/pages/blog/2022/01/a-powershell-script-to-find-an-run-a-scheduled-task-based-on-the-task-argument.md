@@ -1,8 +1,11 @@
 ---
 layout: src/layouts/Default.astro
-title: A PowerShell script to find an run a scheduled task based on the task argument
+title: A PowerShell script to find and run a scheduled task based on the task argument
 navMenu: false
-pubDate: 2022-01-19T12:43:52+00:00
+pubDate: 2022-01-19
+modDate: 2022-10-16
+keywords: powershell,scheduled,task,argument
+description: See how to use PowerShell to find and run a Task Scheduler task based on the task argument.
 authors:
     - steve-fenton
 categories:
@@ -12,9 +15,9 @@ tags:
     - PowerShell
 ---
 
-This is a pretty specific example about finding and running a task in Task Scheduler based on the task’s action argument (the argument passed to the action executed when the task runs). However, the same script could be adjusted to filter the task based on other properties.
+This is a pretty specific example. It uses PowerShell to find and run a task in Task Scheduler based on the task’s action argument (the argument passed to the action executed when the task runs). However, you could adjust the script to filter the task based on another property.
 
-This task is written as an Octopus Deploy runbook, so you’ll notice the variable `#{TaskArgument}` contains the name of the argument we are searching for. The script has been designed to run all tasks that match (as opposed to the first one, for example). If you aren’t running within Octopus Deploy, you can simply use the string for your filter, such as `'myargumentstring'`.
+This task is written as an [Octopus Deploy runbook](https://octopus.com/docs/runbooks), so you’ll notice the variable `#{TaskArgument}` contains the name of the argument we are searching for. The script has been designed to run all tasks that match (as opposed to only the first one). If you aren’t running within Octopus Deploy, you can use the string for your filter, such as `'myargumentstring'`.
 
 ```powershell
 $found = $False;
@@ -47,18 +50,18 @@ if ($found) {
 
 ## PowerShell stuff used
 
-Breaking this down into it’s parts, we perform the following:
+Breaking this down into its parts, you perform the following:
 
-`Get-ScheduledTask`: this is where we can get a list of tasks. In this case, we are only looking at tasks in the root (Task Scheduler allows you to organise tasks into “folders”). This gives us all matching tasks in the desired path. We pipe this ` | ` into…
+`Get-ScheduledTask`: this is where you can get a list of tasks. In this case, only look at tasks in the root (Task Scheduler allows you to organise tasks into “folders”). This gives us all matching tasks in the desired path. You then pipe (` | `) the result into…
 
-`ForEach-Object`: this is PowerShell 101, it allows us to loop through each of the matching tasks.
+`ForEach-Object`: this is PowerShell 101, which allows us to loop through each matching task.
 
-`$_.Actions.Arguments`: this is the property that contains the argument we set against the task action. We just want to find the tasks that have the argument we are interested in.
+`$_.Actions.Arguments`: this is the property that contains the argument set against the task action. You only want to find tasks with the specified argument.
 
-`$_.State`: here we check to make sure the task is ready – we don’t want to run it otherwise, for example if it is already running. If it isn’t ready we log the state for review.
+`$_.State`: here you check to ensure the task is ready – you don’t want to run it otherwise,. For example, it may already be running. If it isn’t ready we log the state for review.
 
 `Start-ScheduledTask`: if it is ready, we start the task using the task name.
 
 ## Summary
 
-This is mainly an interesting expansion of interacting with Task Scheduler with PowerShell, that expands upon the previous article on [automating Windows Task Scheduler with PowerShell]\(/blog/2021/11/automating-windows-task-scheduler-with-powershell/).
+This is mainly an interesting expansion of interacting with Task Scheduler with PowerShell, which expands upon the previous article on [automating Windows Task Scheduler with PowerShell](/blog/2021/11/automating-windows-task-scheduler-with-powershell/).

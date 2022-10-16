@@ -2,7 +2,10 @@
 layout: src/layouts/Default.astro
 title: Adjusting Content for Network Speed
 navMenu: false
-pubDate: 2022-01-10T09:49:33+00:00
+pubDate: 2022-01-10
+modDate: 2022-10-16
+keywords: network speed,navigator.connection
+description: Find out how to adjust content based on a user's network connection speed.
 authors:
     - steve-fenton
 categories:
@@ -11,9 +14,9 @@ tags:
     - JavaScript
 ---
 
-There is an experimental specification on the W3C for a `navigator.connection` [Network Information API](https://wicg.github.io/netinfo/) that provides a rough indication of connection speeds, which you can use to adjust your content. Like many of the modern API proposals, there is concern over it’s use in browser fingerprinting – but hopefully a course-grained version of this will survive in the long run – even if it just provides orders of magnitude indication of speed.
+There is an experimental specification on the W3C for a `navigator.connection` [Network Information API](https://wicg.github.io/netinfo/) that provides a rough indication of connection speeds, which you can use to adjust your content. Like many of the modern API proposals, there is concern over its use in browser fingerprinting – but hopefully, a course-grained version of this will survive in the long run – even if it just provides orders of magnitude indication of speed.
 
-I have created a function that you can use below to get some information about the connection speed, normalised to a useful summary.
+I have created a function you can use to get information about the connection speed, normalised to a helpful summary.
 
 The summary contains three items:
 

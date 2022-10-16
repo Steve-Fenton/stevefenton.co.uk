@@ -2,7 +2,10 @@
 layout: src/layouts/Default.astro
 title: De-mystifying Linq
 navMenu: false
-pubDate: 2022-01-24T13:53:36+00:00
+pubDate: 2022-01-24
+modDate: 2022-10-16
+keywords: linq
+description: Find out how Linq works so it can be less magical and you can use similar patterns in your own applications.
 authors:
     - steve-fenton
 categories:
@@ -12,11 +15,13 @@ tags:
     - Linq
 ---
 
-This post is a summary of the De-mystifying Linq session I ran on 24th January. The examples below were just on-the-spot examples created during the talk… The `System.Linq` namespace can seem a bit like magic, but it can be useful to demystify it by showing that it is actually just some C# code that we could write. In other words, the idea is absolute genius, but there is nothing in the implementation to scare us as we could write something similar. In this exercise, we’re going to write our own `Count` and `Where` implementations to show just how easy things can be.
+This post summarises the De-mystifying <abbr title="Language integrated queries">Linq</abbr> session I ran on 24th January. The examples were just on-the-spot code chunks I created during the talk. The concept was to write our own implementation of some Linq methods live during the talk.
+
+The `System.Linq` namespace can seem a bit like magic, but it can be useful to demystify it by showing that it is actually just some C# code that we could write ourselves. In other words, the idea is utter genius, but there is nothing in the implementation to scare us. We can easily write something similar. In this exercise, we’re going to write our own `Count` and `Where` implementations to show just how easy things can be.
 
 ## Test data
 
-We’re going to drive the process from tests. Any old `IEnumerable` will do for our tests, so we’ll just create a list of ten items to test.
+We’re going to drive the process from tests. Any old `IEnumerable` will do for our tests, so we’ll create a list of ten items to test.
 
 ```csharp
 IEnumerable<Computer> computers = new List<Computer>
@@ -36,7 +41,7 @@ IEnumerable<Computer> computers = new List<Computer>
 
 ## Count
 
-There is a useful Linq method that gives us a count. We’re going to create equivalents called `MyCount` that will do a plain count, and a count that takes a predicate (which will filter the items to be counted).
+There is a popular Linq method that gives us a count. We’re going to create equivalents called `MyCount` that will do a plain count, and a count that takes a predicate (which will filter the items to be counted).
 
 ```csharp
 [TestMethod]
@@ -54,7 +59,7 @@ public void CountWithPredicateTests()
 }
 ```
 
-When you can’t go and change code because it belongs to someone else, like the base class library or a third party, we can use extension methods to extend the behaviour of the external code. Neat. Extension methods have to be written within a public, static, and non-generic class. For example:
+When you can’t go and change code because it belongs to someone else, like the base class library or a third party, we can use extension methods to extend the behaviour of the external code. Neat. Extension methods must be written within a public, static, and non-generic class. For example:
 
 ```csharp
 public static class EnumerableExtensions
@@ -62,7 +67,7 @@ public static class EnumerableExtensions
 }
 ```
 
-The methods inside the class *can* be generic, which is absolutely fundamental here is we want our extension methods to work on lots of types, including ones we haven’t yet created.
+The methods inside the class *can* be generic, which is absolutely fundamental here as we want our extension methods to work on lots of types, including ones we haven’t yet created.
 
 The first argument in the extension method should be the `IEnumerable` we are going to operate over.
 
@@ -100,7 +105,7 @@ public static class EnumerableExtensions
 }
 ```
 
-And that is our count implementation done. There is a bit more on the implications of the concept of count shortly…
+And that is our count implementation done. There will be a bit more on the implications of the concept of count shortly…
 
 ## Where
 
@@ -116,7 +121,7 @@ public void WhereTests()
 }
 ```
 
-We can implement this using a very short extension method:
+We can implement this using a concise extension method:
 
 ```csharp
 public static IEnumerable<T> MyWhere<T>(this IEnumerable<T> items, Func<T, bool> predicate)
@@ -139,7 +144,7 @@ If it matches, we `yield return item`. The `yield` keyword is one of the best bi
 
 ## Readable predicates
 
-Predicates can sometimes be a bit overwhelming. Even this simple example is a bit of an eyefull.
+Predicates can sometimes be a bit overwhelming. Even this simple example is a bit of an eyeful.
 
 ```csharp
 Assert.AreEqual(3, computers.MyCount(computer => computer.Name.Contains("calculator", System.StringComparison.InvariantCultureIgnoreCase)));
@@ -154,7 +159,7 @@ private bool IsCalculator(Computer computer)
 }
 ```
 
-This method gives the concept a name and can be re-used (for example to get a count, and later to filter).
+This method gives the concept a name and can be re-used (for example, to get a count and later to filter).
 
 Our test code is now more readable.
 
@@ -162,7 +167,7 @@ Our test code is now more readable.
 Assert.AreEqual(3, computers.MyCount(IsCalculator));
 ```
 
-We can also make sure things remaining readable if we chain the calls, but using new lines…
+We can also make sure things remain readable if we chain the calls, by using new lines…
 
 ```csharp
 IEnumerable<SuperComputer> validSuperComputers = computers
@@ -171,22 +176,23 @@ IEnumerable<SuperComputer> validSuperComputers = computers
     .MyWhere(supercomputer => supercomputer.IsValid);
 ```
 
-Having one item per lines makes it read like an ordered pipeline.
+Having one item per line makes it read like an ordered pipeline.
 
 ## One at a time
 
-The ability to handle one at a time is my favourite part of Linq – especially as this applies across the whole enumerable pipeline. It means you could be iterating a massive dataset from a database, but your memory consumption is low and stable throughout the whole process because you deal with one record, which is available for garbage collection once you have moved onto the next item.
+The ability to handle one at a time is my favourite part of Linq – especially as this applies across the whole enumerable pipeline. It means you could be iterating a massive dataset from a database, but your memory consumption is low and stable throughout the whole process because you deal with one record, which is available for garbage collection once you have moved on to the next item.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2022/01/Linq.png" alt="Diagram shows previous item available for garbage collection, while current item is in memory and future items are not yet loaded into memory" loading="lazy"}
+:figcaption[Memory efficiency]
 :::
 
-There are a few cases where you might wreck the concept of handling one item at a time. The most common is calling `.ToList()` on an `IEnumerable` as this pulls all results into memory. Another is using `if (items.Count() > 0)` as this needs to iterate all the items to get you the count; you should use `if (items.Any())`, which will return true as soon as the first item is found (in the worst-case scenario it would take the same amount of time as a count would – but the best case scenario is that it returns on the first item… it just depends on the position of the first matching item in the collection).
+There are a few cases where you might wreck the concept of handling one item at a time. The most common is calling `.ToList()` on an `IEnumerable` as this pulls all results into memory. Another is using `if (items.Count() > 0)` as this needs to iterate all the items to get you the count. It is better to use `if (items.Any())`, which will return true as soon as the first item is found. In the worst-case scenario, it would take the same amount of time as a count – but the best-case scenario is that it returns on the first item. It depends on the position of the first matching item in the collection.
 
 Another one to watch out for is ordering. There are special cases here (like Entity Framework as it converts the ordering instruction into SQL, so the database does the work, not your app), but you can’t order the whole collection without looking at all the items. If ordering is unavoidable, you should place the ordering after the filtering, but before any paging (skip and take).
 
 ## Summary
 
-Linq is super-cool, but don’t fear it because it just a bunch of extension methods. The examples above show that they are simple in practice, though the *real* Linq extensions are undoubtedly better-written than these samples.
+Linq is super-cool, but don’t fear it because it is just a bunch of extension methods. The examples above show that they are simple in practice, though the *real* Linq extensions are undoubtedly better written than these samples.
 
-Understanding that we are just dealing with code blows out the mist of wonder and means we can think about Linq in the same way we think about other code.
+Understanding that we are just dealing with code blows out the mist of wonder and means we can think about Linq the same way we think about other code.
