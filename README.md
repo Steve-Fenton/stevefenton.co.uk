@@ -20,9 +20,7 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 This task (starting from most recent) has reached...
 
-2022/02/
-
-Microsoft Modern Wireless Headset unboxing
+2022 is done!
 
 ### 1 Image
 
