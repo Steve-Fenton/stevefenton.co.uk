@@ -730,6 +730,15 @@ article + .post-list {
     display: block;
 }
 
+.post-meta time[itemprop="datePublished"] {
+    display: inline-block;
+}
+
+.post-meta time[itemprop="dateModified"] {
+    font-style: italic;
+    display: block;
+}
+
 .post-taxonomy {
     padding: 1rem 0;
     margin: 1.5rem 0;
