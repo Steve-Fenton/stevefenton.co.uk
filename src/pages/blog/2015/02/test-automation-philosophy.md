@@ -12,7 +12,7 @@ tags:
     - Testing
 ---
 
-I have written previously about my general [automation philosophy]\(/blog/2015/02/automation-philosophy/). The automation philosophy represents what I believe to be a universal truth of any automation if viewed from a human perspective. This article applies this truth specifically to software testing.
+I have written previously about my general [automation philosophy](/blog/2015/02/automation-philosophy/). The automation philosophy represents what I believe to be a universal truth of any automation if viewed from a human perspective. This article applies this truth specifically to software testing.
 
 It is easy to see that software testing provides a full spectrum of work from routine to eccentric. Repetitive testing based on fixed scripts is an all-too-common example of routine work, whereas exploratory testing of new features provides an example of the more eccentric work found in software testing.
 

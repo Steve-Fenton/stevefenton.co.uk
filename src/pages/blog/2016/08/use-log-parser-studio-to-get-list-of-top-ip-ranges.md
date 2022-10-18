@@ -31,7 +31,7 @@ GROUP BY ip-range
 ORDER BY COUNT(ip-range) DESC
 ```
 
-To get the first three octets of the **X-Forwarded-For** IP address ([see how to add the X-Forwarded-For address to your log file]\(/blog/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/)), and the count of hits use:
+To get the first three octets of the **X-Forwarded-For** IP address ([see how to add the X-Forwarded-For address to your log file](/blog/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/)), and the count of hits use:
 
 ```sql
 SELECT

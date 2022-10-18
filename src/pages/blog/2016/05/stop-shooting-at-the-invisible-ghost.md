@@ -30,6 +30,6 @@ Up front design works great for abstract ideas, architectures, and general princ
 
 So say Jim Benson and Tonianne DeMaria Barry, authors of [Personal Kanban](https://www.personalkanban.com/).
 
-The only way to get a good low-level code design is [RED-GREEN-REFACTOR]\(/blog/2013/05/my-unit-testing-epiphany/), where you go from RED to GREEN *without any design at all*, then go from GREEN to nicely refactored code when you can see the duplication (or other gnarly stuff) that needs to be removed.
+The only way to get a good low-level code design is [RED-GREEN-REFACTOR](/blog/2013/05/my-unit-testing-epiphany/), where you go from RED to GREEN *without any design at all*, then go from GREEN to nicely refactored code when you can see the duplication (or other gnarly stuff) that needs to be removed.
 
 Trying to prevent duplication from occurring in the first place is actually close to impossible because it depends on you predicting where it will occur. Fixing duplication during refactoring is easier because you can see the real problem that needs to be solved, and you can solve it without also having to think about the original behaviour your code was trying to create.

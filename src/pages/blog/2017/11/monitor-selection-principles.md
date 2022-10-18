@@ -27,6 +27,6 @@ Here are the monitor selection principles, which will guide you to choose the ri
     1. Take urgent action to resolve a fault, or
     2. Move the alarm threshold up to make the alarm less likely to sound
 
-Every time an alarm sounds, you must choose either option a, or option b. There is no option c “ignore the alarm and don’t update the alerting”. Take a look at [the Alerting Principles]\(/blog/2017/11/the-alerting-principles/) for more on this subject.
+Every time an alarm sounds, you must choose either option a, or option b. There is no option c “ignore the alarm and don’t update the alerting”. Take a look at [the Alerting Principles](/blog/2017/11/the-alerting-principles/) for more on this subject.
 
 Once you have hit a good balance with your first monitor, you can use failure events and near-misses to guide your next monitor. Just repeat the pattern of picking a metric that seems related to a fault and adjusting the threshold to achieve the desired result.

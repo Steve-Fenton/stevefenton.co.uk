@@ -14,7 +14,7 @@ tags:
 
 **Update**! Since this article was published, it is *almost certain* that the keyword for record types will actually be `record` not `data` as it was in this early preview. I’ve updated code examples to reflect this.
 
-We have taken a quick look at [C# 9 Initializers and Immutability]\(/blog/2020/05/csharp-9-initializers-and-immutability/) and [C# 9 Non-Destructive Mutation]\(/blog/2020/05/csharp-9-non-destructive-mutation/). Let’s now look at the full transformation from an old class to a super character-light record type.
+We have taken a quick look at [C# 9 Initializers and Immutability](/blog/2020/05/csharp-9-initializers-and-immutability/) and [C# 9 Non-Destructive Mutation](/blog/2020/05/csharp-9-non-destructive-mutation/). Let’s now look at the full transformation from an old class to a super character-light record type.
 
 Our original record type is very much just a class with two auto-properties. It looks different to a normal class because we have the `data` keyword in there.
 

@@ -23,7 +23,7 @@ Let’s look at one of the first examples The Web gives us for a search on Half-
 
 Meh. This is a probably a bad example even of its kind. It doesn’t look like the 50% mark is terribly important, it’s just a comparison of four technologies (three are programming languages, the other is a mysterious stable-mate as it isn’t a programming language; it’s an operating system). Putting these thoughts aside, let’s re-make the chart without adding an additional visual dimension.
 
-I had to roll out the trusty [TypeScript pixel counter]\(/blog/2018/01/typescript-pixel-counter/) to reverse-engineer the relative size of the segments. The output is shown below…
+I had to roll out the trusty [TypeScript pixel counter](/blog/2018/01/typescript-pixel-counter/) to reverse-engineer the relative size of the segments. The output is shown below…
 
 :::div{.inset}
 :img{src="/img/2020/01/pixel-counter-half-donut.jpg" alt="Pixel Counter Output" loading="lazy"}

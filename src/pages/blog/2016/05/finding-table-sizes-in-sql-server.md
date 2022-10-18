@@ -15,7 +15,7 @@ As your database grows, you’ll start becoming highly interested in finding out
 
 Just point it at your database and run it to get some numbers out.
 
-Note: in one case that I used this query to find out why a database way 50 GB instead of 2 GB, it turned out to be [SQL Server Index Fragmentation]\(/blog/2018/05/sql-server-index-fragmentation/). You can solve it with another script, but you can also solve it long term with a [good SQL Server maintenance plan]\(/blog/2017/05/sql-maintenance-plan-optimization/).
+Note: in one case that I used this query to find out why a database way 50 GB instead of 2 GB, it turned out to be [SQL Server Index Fragmentation](/blog/2018/05/sql-server-index-fragmentation/). You can solve it with another script, but you can also solve it long term with a [good SQL Server maintenance plan](/blog/2017/05/sql-maintenance-plan-optimization/).
 
 ```sql
 SELECT 

@@ -87,7 +87,7 @@ See [The Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-techniq
 
 Shopping list…
 
-- [A timer]\(/blog/2019/04/sociable-pomodoro-timer/)
+- [A timer](/blog/2019/04/sociable-pomodoro-timer/)
 - Daily planner sheets
 
 Full disclosure: I didn’t like any of the available daily planners for The Pomodoro Technique, so I’m creating [my own workbook for this](/publications/the-productivity-workbook/), which will be available to buy or to download for free under a Creative Commons license. I’m not profiteering from this, I literally created this for me – what works for you may also be different to what is generally available.

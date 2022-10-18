@@ -80,4 +80,4 @@ Now we don’t even need to press a button to order the list when a card is adde
 
 ## Summary
 
-To truly appreciate what Butler can do, you’ll need to play with it a bit. Browse through the screens and options to get a flavour for the features and then [identify what you might be doing manually that a computer is better suited to doing]\(/blog/2015/02/automation-philosophy/).
+To truly appreciate what Butler can do, you’ll need to play with it a bit. Browse through the screens and options to get a flavour for the features and then [identify what you might be doing manually that a computer is better suited to doing](/blog/2015/02/automation-philosophy/).

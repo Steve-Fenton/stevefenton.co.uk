@@ -33,4 +33,4 @@ The following items are fixed when a release is created:
 - The entire deployment process
 - The deployment variables
 
-Addendum: Octopus Deploy will now literally treat your deployment as code, with the new [Configuration as Code feature]\(/blog/2021/10/how-to-enable-config-as-code-in-octopus-deploy/) (October 2021).
+Addendum: Octopus Deploy will now literally treat your deployment as code, with the new [Configuration as Code feature](/blog/2021/10/how-to-enable-config-as-code-in-octopus-deploy/) (October 2021).

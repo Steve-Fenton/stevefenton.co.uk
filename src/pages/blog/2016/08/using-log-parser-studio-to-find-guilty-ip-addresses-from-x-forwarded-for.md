@@ -15,7 +15,7 @@ tags:
     - 'Web Log Importer'
 ---
 
-You may have seen how to find guilty IP addresses in my post [Using Log Parser Studio to Find Guilty IP Addresses]\(/blog/2016/03/using-log-parser-studio-to-find-guilty-ip-addresses/), but if you have [enabled the logging of X-Forwarded-For IP addresses in IIS]\(/blog/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/) you may want to use this updated version, which gets the top offending IP addresses based on the X-Forwarded-For header:
+You may have seen how to find guilty IP addresses in my post [Using Log Parser Studio to Find Guilty IP Addresses](/blog/2016/03/using-log-parser-studio-to-find-guilty-ip-addresses/), but if you have [enabled the logging of X-Forwarded-For IP addresses in IIS](/blog/2016/08/add-x-forwarded-for-ip-address-to-iis-logs/) you may want to use this updated version, which gets the top offending IP addresses based on the X-Forwarded-For header:
 
 ```sql
 SELECT

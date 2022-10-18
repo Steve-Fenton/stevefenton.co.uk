@@ -26,7 +26,7 @@ The moral pushed by this story is that if you “cry wolf” (lie) too often, ev
 
 An alternative explanation is that the boy was anxious, having been told to look out for wolves. It is possible that in this state of high anxiety, he made mistakes. That old bush near the tree-line, given the right angle of light from the sun, might be mistaken for a wolf. Perhaps the moral of the story is that the boy needed a better mentor.
 
-In the operations monitoring world, this fable could be an illustration of the constant balancing act for alarms, as described in the [alerting principles]\(/blog/2017/11/the-alerting-principles/). If an alarm sounds regularly when there’s no service-impacting issue, it eventually becomes background noise and may be ignored when it eventually sounds during a critical issue. It’s the original story, with fewer *sheeps*.
+In the operations monitoring world, this fable could be an illustration of the constant balancing act for alarms, as described in the [alerting principles](/blog/2017/11/the-alerting-principles/). If an alarm sounds regularly when there’s no service-impacting issue, it eventually becomes background noise and may be ignored when it eventually sounds during a critical issue. It’s the original story, with fewer *sheeps*.
 
 However, the explanation I offer is simply this. The boy *did* see a wolf on each occasion he cried out. But, by the time the villagers arrived the wolf had been scared away by the noise of their approach. The final time, when the villagers didn’t respond, the wolf continued his approach and the boy was killed.
 

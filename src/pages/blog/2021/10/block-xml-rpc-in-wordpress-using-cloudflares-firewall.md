@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: Block XML RPC in WordPress using CloudFlare's firewall
 navMenu: false
-pubDate: 2021-10-25T09:28:59+01:00
+pubDate: 2021-10-25
+keywords: xml rpc,wordpress,cloudflare,firewall
+description: Find out how to block the WordPress XML RPC using CloudFlare's firewall.
 authors:
     - steve-fenton
 categories:
@@ -31,8 +33,9 @@ You should also set up a Cloudflare firewall rule like this:
 
 Or, using the expression editor, enter `(http.request.uri.path contains "xmlrpc.php")`
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/10/block-xmlrpc-on-cloudflare.jpg" alt="Block XML RPC on WordPress using Cloudflare" loading="lazy"}
+:figcaption[Blocking XML RPC]
 :::
 
 Hit “DEPLOY” to set your rule live and then test it using the following:

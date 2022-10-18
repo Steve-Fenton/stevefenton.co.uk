@@ -15,7 +15,7 @@ TypeScript has had the `strict` compiler option for a while now. It enables seve
 
 > If using TypeScript is better than using plain JavaScript because of the compiler warnings, why wouldn’t you want to turn the compiler warnings dial up to ten?
 
-Note: I have generalised some of my thoughts about TypeScript types under the phrase “honest code”. This article concerns honest code when working with DOM queries. I have another article that talks about [using TypeScript types honestly]\(/blog/2018/02/apply-typescript-types-honestly/).
+Note: I have generalised some of my thoughts about TypeScript types under the phrase “honest code”. This article concerns honest code when working with DOM queries. I have another article that talks about [using TypeScript types honestly](/blog/2018/02/apply-typescript-types-honestly/).
 
 ## Strict mode and DOM
 

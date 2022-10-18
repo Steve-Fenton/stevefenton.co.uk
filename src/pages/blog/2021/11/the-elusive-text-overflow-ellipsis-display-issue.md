@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: 'The elusive text-overflow: ellipsis display issue'
 navMenu: false
-pubDate: 2021-11-18T16:17:07+00:00
+pubDate: 2021-11-18
+keywords: css,text-overflow,ellipsis,not shown
+description: Solve the problem of CSS text-overflow not displaying an ellipsis.
 authors:
     - steve-fenton
 categories:
@@ -25,8 +27,9 @@ The basic idea behind this in CSS is shown below. First, we limit the `height`, 
 
 In many cases, though, this simply doesn’t do what you expect.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/11/no-ellipsis.jpg" alt="No ellipsis is shown" loading="lazy"}
+:figcaption[No ellipsis]
 :::
 
 There are two common reasons for this.
@@ -50,4 +53,7 @@ In most cases, this will solve the missing ellipsis problem.
 
 If the `white-space` fix doesn’t solve the problem, the second most likely issue is that an element inside your overflow element is causing your issue. You need to make sure you are targeting the element that contains the text to ensure the ellipsis sees the light of day. With the example above, moving the class to the inner-element will resolve this.
 
+:::figure{.inset}
 :img{src="/img/2021/11/with-ellipsis.jpg" alt="Ellipsis is shown" loading="lazy"}
+:figcaption[Text ends with an ellipsis]
+:::

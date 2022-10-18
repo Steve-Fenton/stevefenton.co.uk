@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: Theme an ASP.NET MVC website with custom views
 navMenu: false
-pubDate: 2021-11-22T17:07:03+00:00
+pubDate: 2021-11-22
+keywords: asp.net mvc,theme,custom views
+description: Find out how to theme an ASP.NET MVC website with sets of custom views in theme folders.
 authors:
     - steve-fenton
 categories:

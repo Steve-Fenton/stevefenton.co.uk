@@ -12,7 +12,7 @@ tags:
     - Aspects
 ---
 
-Aspects are a mixture of management theory, software craftsmanship, communities of practice, apprenticeships, and the [software foreman model]\(/blog/2014/02/surgical-team-vs-foreman-metaphors/).
+Aspects are a mixture of management theory, software craftsmanship, communities of practice, apprenticeships, and the [software foreman model](/blog/2014/02/surgical-team-vs-foreman-metaphors/).
 
 The essence of management is that it is based on fundamental assumptions about human behaviour. Douglas McGregor highlighted two of the most prominent assumptions back in the mid twentieth century and they still prevail today (Douglas McGregor, *The Human Side of Enterprise*, 1960). The assumption termed “Theory-X” says that people are motivated by rewards and punishments, and will not expend effort unless you can scare them into action, or tempt them with a bonus. “Theory-Y” conflicts with this view, saying that people are intrinsically motivated to do good work and do not need carrot-and-stick methods to perform well
 

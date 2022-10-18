@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: Introducing an async pipeline in C#
 navMenu: false
-pubDate: 2021-10-25T16:45:09+01:00
+pubDate: 2021-10-25
+keywords: async,pipeline,c#
+description: Find out how to implement an async pipeline in C#.
 authors:
     - steve-fenton
 categories:

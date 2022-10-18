@@ -17,7 +17,7 @@ tags:
     - Google
 ---
 
-Recently, I wrote about [debugging Adobe Analytics]\(/blog/2019/09/debugging-adobe-analytics/), which uses the most widely-available tools that we all have; browser developer tools. It is possible to debug and test a whole host of analytics and tag manager scenarios using the Console and Network tabs of browsers tools if you are willing to scry the query parameters of the network requests that are sent for script files and the tracking calls they make.
+Recently, I wrote about [debugging Adobe Analytics](/blog/2019/09/debugging-adobe-analytics/), which uses the most widely-available tools that we all have; browser developer tools. It is possible to debug and test a whole host of analytics and tag manager scenarios using the Console and Network tabs of browsers tools if you are willing to scry the query parameters of the network requests that are sent for script files and the tracking calls they make.
 
 When you want a bit more help than raw data, these are the best browser extensions for analytics and tag debugging… tools I have accumulated over time while working on data and analytics (many of these were recommended by my colleague and awesome Data Scientist, Ola Sofela).
 
@@ -36,7 +36,7 @@ The [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google
  |___/             |___/                              |___/
 ```
 
-You’ll see an entry for each command and data layer event that occurs on the page. It’s similar in raw information goodness to the [Adobe Analytics debugging trick]\(/blog/2019/09/debugging-adobe-analytics/), but often this is the detailed view you need to understand your tracking.
+You’ll see an entry for each command and data layer event that occurs on the page. It’s similar in raw information goodness to the [Adobe Analytics debugging trick](/blog/2019/09/debugging-adobe-analytics/), but often this is the detailed view you need to understand your tracking.
 
 ## Tag Assistant
 

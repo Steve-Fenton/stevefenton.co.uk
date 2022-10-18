@@ -13,7 +13,7 @@ tags:
     - SQL
 ---
 
-This is the process for sending a variable from Octopus Deploy, all the way down to a SQL script that is hidden inside a DacPac, which is being called from PowerShell, which is being executed by Octopus Deploy. I have covered the end-to-end process of [how to package and deploy your Visual Studio database project using Octopus Deploy]\(/blog/2015/06/packaging-visual-studio-database-project-with-octopack/) previously.
+This is the process for sending a variable from Octopus Deploy, all the way down to a SQL script that is hidden inside a DacPac, which is being called from PowerShell, which is being executed by Octopus Deploy. I have covered the end-to-end process of [how to package and deploy your Visual Studio database project using Octopus Deploy](/blog/2015/06/packaging-visual-studio-database-project-with-octopack/) previously.
 
 Octopus Variable. We will assume you have added a variable to your deployment project named “ImportantVariable”.
 

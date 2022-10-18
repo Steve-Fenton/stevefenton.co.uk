@@ -12,7 +12,7 @@ tags:
     - TypeScript
 ---
 
-I had a feeling I would be writing this article when I first penned [TypeScript Mixins Part One]\(/blog/2014/02/typescript-mixins-part-one/) back in 2014. For simplicity, I have used exactly the same program in this updated example, so you should find it easier to compare the simple mixins from the olden times, with the real mixins in this verison.
+I had a feeling I would be writing this article when I first penned [TypeScript Mixins Part One](/blog/2014/02/typescript-mixins-part-one/) back in 2014. For simplicity, I have used exactly the same program in this updated example, so you should find it easier to compare the simple mixins from the olden times, with the real mixins in this verison.
 
 There is no need for a mixin function in this version, as the mixins are defined as functions to start off with. What you do need to get started is a constructor type…
 

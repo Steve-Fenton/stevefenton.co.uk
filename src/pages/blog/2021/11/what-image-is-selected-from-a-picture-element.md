@@ -11,7 +11,7 @@ tags:
     - HTML
 ---
 
-This post started as a scratch pad as I was looking at helping a colleague implement WEBP images with a JPG fallback for older browsers. They had an issue in modern browsers because the fallback image was being loaded in all cases. Here’s a code example and demo:
+This post started as a scratch pad as I was looking at helping a colleague implement WEBP images with a JPG fallback for older browsers. They had an issue in modern browsers because the fallback image was loaded in all cases. Here’s a code example and demo:
 
 ```html
 <picture>
@@ -33,4 +33,4 @@ This turns out to be a pretty simple issue with the `src` attribute being the wr
 </picture>
 ```
 
-Now we see a WEBP where it is supported, or a PNG for slightly older browsers, or a JPG for very old browsers.
+Now we see a WEBP where it is supported, a PNG for slightly older browsers, or a JPG for ancient browsers.

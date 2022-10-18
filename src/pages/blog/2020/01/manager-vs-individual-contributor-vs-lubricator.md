@@ -20,7 +20,7 @@ You can’t have been following leadership literature for very long if you haven
 
 ## Mode management
 
-When you are both a manager *and* an individual contributor, you can only survive with strong mode-management. The first defence of mode-management is to ensure you aren’t doing things that your team should be doing. As a manager, leader, or bossy-boss, you first thought in respect of IC-work should be… “If I’m doing this… why can’t my team do it?”. Now go and make it possible for them to do it. The second defence of mode-management is that you have to know what you are trying to achieve and defend it. If you are being the IC for a morning; you make sure you get that big chunk of focus time to get stuff done (See [The Ultimate Productivity Suite]\(/blog/2021/09/the-ultimate-productivity-suite/)).
+When you are both a manager *and* an individual contributor, you can only survive with strong mode-management. The first defence of mode-management is to ensure you aren’t doing things that your team should be doing. As a manager, leader, or bossy-boss, you first thought in respect of IC-work should be… “If I’m doing this… why can’t my team do it?”. Now go and make it possible for them to do it. The second defence of mode-management is that you have to know what you are trying to achieve and defend it. If you are being the IC for a morning; you make sure you get that big chunk of focus time to get stuff done (See [The Ultimate Productivity Suite](/blog/2021/09/the-ultimate-productivity-suite/)).
 
 :::div{.inset}
 :img{src="/img/2020/01/mode-management.jpg" alt="Defending Work Modes" loading="lazy"}
@@ -40,7 +40,7 @@ There is another type of contributor that doesn’t fit the two modes above. The
 
 Can you service this kind of work alongside manager-mode, or alongside individual contributor mode? Not really… unless you have steely resolve and limitless energy.
 
-To survive a mixed-mode that includes lubricator work, you need to deploy intense [quaductionism]\(/blog/2017/10/quaductionism-clarity-via-reductionism/). Yes, everyone approaching a lubricator wants urgent attention, but it’s very often not important. You might be able to give them the fastest, easiest, more painless solution to their problem; but if you weren’t available they would very often sort it out for themselves in a slightly slower or more challenging way. They will become more robust to future challenges by figuring things out for themselves.
+To survive a mixed-mode that includes lubricator work, you need to deploy intense [quaductionism](/blog/2017/10/quaductionism-clarity-via-reductionism/). Yes, everyone approaching a lubricator wants urgent attention, but it’s very often not important. You might be able to give them the fastest, easiest, more painless solution to their problem; but if you weren’t available they would very often sort it out for themselves in a slightly slower or more challenging way. They will become more robust to future challenges by figuring things out for themselves.
 
 Yes, you may need to be prepared to annoy some people when you can’t solve *their* biggest problem immediately. However, *your* biggest problem may be orders of magnitude more critical to the organisation.
 
@@ -52,4 +52,4 @@ Important side-note: not everything that goes into a queue needs to come out. Ha
 
 Plan out your day. Know which mode you are in right now, and defend it.
 
-I use the [Ultimate Productivity Triumvirate]\(/blog/2021/09/the-ultimate-productivity-suite/) of Getting Things Done, Personal Kanban, and The Pomodoro Technique to help with this.
+I use the [Ultimate Productivity Triumvirate](/blog/2021/09/the-ultimate-productivity-suite/) of Getting Things Done, Personal Kanban, and The Pomodoro Technique to help with this.

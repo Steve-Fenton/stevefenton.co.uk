@@ -36,7 +36,7 @@ Or, you can install it from the [Octodash Edge Extension page](https://microsoft
 :img{src="/img/2016/05/octodash.png" alt="Octodash Listing" loading="lazy"}
 :::
 
-You can also find out more about [writing browser extensions]\(/blog/2022/02/how-to-create-a-browser-extension-for-edge-or-chrome/).
+You can also find out more about [writing browser extensions](/blog/2022/02/how-to-create-a-browser-extension-for-edge-or-chrome/).
 
 ## The original script
 

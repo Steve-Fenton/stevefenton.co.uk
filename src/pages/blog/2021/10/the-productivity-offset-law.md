@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: The Productivity Offset Law
 navMenu: false
-pubDate: 2021-10-22T08:00:20+01:00
+pubDate: 2021-10-22
+keywords: productivity,offset,justin etzine
+description: The productivity offset law kicks in when people can't be productive during normal business hours.
 authors:
     - steve-fenton
 categories:
@@ -21,14 +23,14 @@ Justin Etzine had a thought about *Engineer’s Lunch Law*, which he described i
 
 ## Etzine’s Law
 
-There is something about *Etzine’s Law* that resonates with many people. If you scroll through the replies, lots of people are shifting their work patterns to take advantage of hours that don’t get disrupted. Some are starting early, others are finishing late, and still more are moving their lunches.
+There is something about *Etzine’s Law* that resonates with many people. If you scroll through the replies, many people are shifting their work patterns to take advantage of hours that don’t get disrupted. Some start early, others finish late, and still more move their lunches.
 
 ## Generalising the law
 
-Bearing in mind all of these responses, I think we can generalise *Etzine’s Law* as as *The Productivity Offset Law*, which is:
+Bearing in mind all of these responses, I think we can generalise *Etzine’s Law* as *The Productivity Offset Law*, which is:
 
 > Where people cannot be productive during normal business hours, they will offset their hours to create periods of contiguous focus time.
 
-We don’t have to worry that “*all the offsetting will eventually mean we all take lunch at 11, so end up back where were*“. If everyone offsets to get focus time, they are unlikely to use that time to disrupt others. In a way we create swathes of space where all these people focussing are also leaving others alone to focus. However, one corollary to *The Productivity Offset Law* is likely to be *The Offset Alignment Error*, which occurs when people who need to disrupt you re-align their hours to yours to extend the immediacy of their need to interrupt you.
+We don’t have to worry that “*all the offsetting will eventually mean we all take lunch at 11, so end up back where were*“. If everyone offsets to get focus time, they are unlikely to use that time to disrupt others. In a way, we create swathes of space where all these people focusing are also leaving others alone to focus. However, one corollary to *The Productivity Offset Law* is likely to be *The Offset Alignment Error*, which occurs when people who need to disrupt you re-align their hours to yours to extend the immediacy of their need to interrupt you.
 
-If you are making use of offsets to stay productive, it is worth having a strategy for how you will provide availability outside of your offset to service the people who depend on you.
+If you are using offsets to stay productive, it is worth having a strategy for how you will provide availability outside your offset to service the people who depend on you.

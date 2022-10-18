@@ -14,7 +14,7 @@ tags:
     - SQL
 ---
 
-We are using [model-based deployments using Visual Studio database projects and Octopus Deploy]\(/blog/2015/06/packaging-visual-studio-database-project-with-octopack/). One of the things you can’t do when performing DacPac deployments is include a pre-deployment scrip to disable replication prior to running the deployment (although you can re-enable it in a post-deployment script).
+We are using [model-based deployments using Visual Studio database projects and Octopus Deploy](/blog/2015/06/packaging-visual-studio-database-project-with-octopack/). One of the things you can’t do when performing DacPac deployments is include a pre-deployment scrip to disable replication prior to running the deployment (although you can re-enable it in a post-deployment script).
 
 The solution is to change the “disable replication” script to a plain “copy always” script in Visual Studio (so it will be packaged by Octopack and deployed to the server) and then run it on the server using a PowerShell command prior to the DacPac deployment.
 

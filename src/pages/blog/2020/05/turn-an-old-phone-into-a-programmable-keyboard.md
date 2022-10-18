@@ -27,7 +27,7 @@ Touch Portal is freemium, so you can use two screens for free, and pay a small a
 :img{src="/img/2020/05/touch-portal.jpg" alt="Touch Portal Desktop App" loading="lazy"}
 :::
 
-Adding buttons is pretty simple. You can visually compose logic and actions using an interface no unlike MIT’s Scratch to do a variety of tasks. One of the key simple tasks is keyboard shortcuts. I have a collection of shortcut buttons in pages for Microsoft Teams and for Microsoft Visual Studio. They let me do things like mute and unmute myself with a bit button, so I don’t have to remember all the handy [Microsoft Teams Shortcut Keys]\(/blog/2020/03/microsoft-teams-what-microsoft-taught-me-this-week/). For Visual Studio I have a one-tap “Run Tests”, plus some common refactoring shortcuts.
+Adding buttons is pretty simple. You can visually compose logic and actions using an interface no unlike MIT’s Scratch to do a variety of tasks. One of the key simple tasks is keyboard shortcuts. I have a collection of shortcut buttons in pages for Microsoft Teams and for Microsoft Visual Studio. They let me do things like mute and unmute myself with a bit button, so I don’t have to remember all the handy [Microsoft Teams Shortcut Keys](/blog/2020/03/microsoft-teams-what-microsoft-taught-me-this-week/). For Visual Studio I have a one-tap “Run Tests”, plus some common refactoring shortcuts.
 
 :::div{.inset}
 :img{src="/img/2020/05/touch-portal-mobile-app.jpg" alt="Touch Portal Mobile App" loading="lazy"}

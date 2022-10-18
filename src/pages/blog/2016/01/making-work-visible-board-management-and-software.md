@@ -12,7 +12,7 @@ tags:
     - 'Mainstream Effect'
 ---
 
-Kanban boards are now becoming so popular that they are subject to the [mainstream effect]\(/blog/2016/01/the-mainstream-effect/). This means that it is worth thinking about some of the common problems.
+Kanban boards are now becoming so popular that they are subject to the [mainstream effect](/blog/2016/01/the-mainstream-effect/). This means that it is worth thinking about some of the common problems.
 
 First and foremost, both Lean Software Development and Kanban advocate starting from where you are. So the first role of a Kanban board is to help you understand where you are now by visualising the work in process, and by helping you to make the real process visible (not the process you think you have, or wish you had). Only when you can see the current situation can you start the work of improving it; a task that should never end.
 

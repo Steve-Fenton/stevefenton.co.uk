@@ -11,7 +11,7 @@ tags:
     - C-Sharp
 ---
 
-I wrote back in 2018 about [how you can use your `using` statements as a clue]\(/blog/2018/01/code-organisation-junk/) to how you might dismember a big class. This makes it easier to see the important parts as you remove things that you “kinda have to have” to make the important stuff work. The trick is pretty simple…
+I wrote back in 2018 about [how you can use your `using` statements as a clue](/blog/2018/01/code-organisation-junk/) to how you might dismember a big class. This makes it easier to see the important parts as you remove things that you “kinda have to have” to make the important stuff work. The trick is pretty simple…
 
 1. You open your class file
 2. You look at the using statements

@@ -29,7 +29,7 @@ When you’re ready, hit the stop button to complete the recording. Now the fun 
 
 ## The quickest way to find performance issues
 
-When a session has been recorded, you’ll be presented with some cool charts and visualisations. Ignore or of that for a minute and hit the “Bottom-Up” tab on the lower panel. It’s right above the summary [donut-chart]\(/blog/2009/04/pie-charts-are-bad/).
+When a session has been recorded, you’ll be presented with some cool charts and visualisations. Ignore or of that for a minute and hit the “Bottom-Up” tab on the lower panel. It’s right above the summary [donut-chart](/blog/2009/04/pie-charts-are-bad/).
 
 :::div{.inset}
 :img{src="/img/2020/05/edge-performance-profile.jpg" alt="Click on the Bottom-Up Tab on the lower panel" loading="lazy"}

@@ -13,7 +13,7 @@ tags:
     - JMeter
 ---
 
-There are many reasons for manipulating variables in JMeter, especially when you are loading data from a [CSV data set]\(/blog/2014/03/really-useful-jmeter-csv-data-set-config/) config element. You might want to trim a JMeter variable, or grab just a substring.
+There are many reasons for manipulating variables in JMeter, especially when you are loading data from a [CSV data set](/blog/2014/03/really-useful-jmeter-csv-data-set-config/) config element. You might want to trim a JMeter variable, or grab just a substring.
 
 In all of these cases, your existing knowledge of JavaScript can come to the rescue.
 

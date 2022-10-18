@@ -2,7 +2,9 @@
 layout: src/layouts/Default.astro
 title: A perspective on laws of software development
 navMenu: false
-pubDate: 2021-09-14T15:54:05+01:00
+pubDate: 2021-09-14
+keywords: software development,laws
+description: A foray into some laws of software development and whether they are probabilistic or universal.
 authors:
     - steve-fenton
 categories:
@@ -11,31 +13,31 @@ tags:
     - Laws
 ---
 
-There are two basic types of natural laws, or laws of nature. Universal and probabilistic. Universal laws of nature state the when you find one thing, you will always find some other specific thing or things. Probabilistic laws of nature say that things are commonly found together.
+There are two basic types of natural laws or *laws of nature*: Universal and probabilistic. Universal laws of nature state that when you find one thing, you will always find some other specific thing or things. Probabilistic laws of nature say that things are commonly found together.
 
-Some examples may help. If you drop a bird egg from five meters onto concrete, it will fall and smash. That’s a universal law. However, there is a probabilistic law that if you find a smashed wild bird egg on the ground and look up, you’ll see a nest. You won’t always, but it’s a common enough occurrence that you’d make use of this *law* if you were searching for nests.
+Some examples may help. If you drop a bird egg from five meters onto concrete, it will fall and break. That’s a universal law. However, there is a probabilistic law that if you find a smashed wild bird egg on the ground and look up, you’ll see a nest. You won’t always, but it’s a common enough occurrence that you’d make use of this *law* if you were searching for nests.
 
-These laws are so commonplace in our culture, it was almost inevitable that programmers would start seeing them in their daily tasks. When you find a law related to people, organisations, management, or programming – be super aware that they are likely to be probabilistic and that (as with everything that involves brains) there may be some advantage to be gained from flipping the law. Let’s start with the canonical example of a law and it’s associated paradox.
+These laws are so commonplace in our culture it was almost inevitable that programmers would start seeing them in their daily tasks. When you find a law related to people, organisations, management, or programming – be super aware that they are likely to be probabilistic and that (as with everything that involves brains) there may be some advantage to be gained from flipping the law. Let’s start with the canonical example of a law and its associated paradox.
 
 ## The Pareto Principle
 
-The Pareto Principle is a simple probabilistic law that says around 80% of the consequence comes from 20% of the cause (also known as the eighty-twenty rule). For example, you’ll find about 80% of the world’s income is earned by 20% of the world’s population.
+The Pareto Principle is a simple probabilistic law that says around 80% of the consequence comes from 20% of the cause (also known as the eighty-twenty rule). For example, about 80% of the world’s income is earned by 20% of the world’s population.
 
-While Joseph Juran developed this idea in 1896, based on Vilfredo Pareto’s study on land ownership; the idea has been found to be useful many times. For example, in 1989, a study on global GDP found that the richest 20% were earning 83% of income.
+While Joseph Juran developed this idea in 1896, based on Vilfredo Pareto’s study on land ownership, the idea has been found to be useful many times. For example, in 1989, a study on global GDP found that the richest 20% were earning 83% of income.
 
 Surely this can only ever be a super-useful rule? Hang on, because you need to beware…
 
 ### The Pareto Pardox
 
-This is the sharp handle that you hold when you wield this principle… because The Pareto Principle is so well known, people commonly stick with squeezing the 20%. Before long, the effort required to find “one more optimisation” in the 20% zone is way more than the effort to pick something out of the remaining 80%. You’ve simply fixed all the easy stuff, time to roll the sleeves up.
+This is the sharp handle you hold when you wield this principle… because The Pareto Principle is so well known, people commonly stick with squeezing the 20%. Before long, the effort required to find “one more optimisation” in the 20% zone is way more than the effort to pick something out of the remaining 80%. You’ve simply fixed all the easy stuff, time to roll the sleeves up.
 
-Imagine an orange juice company. They reckon 80% of the juice is going to drop out in the first squeeze, as long as they get the technique right. So they optimise that first squeeze and find that after a bit of trial and error, they do in fact get about 80% of the juice if they use both hands and a particular grip. Happy days. Economically, though, they can’t discard one fifth of all the juice in the oranges they buy; so they continue working on techniques to try and increase the amount of juice in the first squeeze. They spend months on it and achieve 82% of the juice in one hit.
+Imagine an orange juice company. They reckon 80% of the juice will drop out in the first squeeze as long as they get the technique right. So they optimise that first squeeze and find that after a bit of trial and error, they do get about 80% of the juice if they use both hands and a particular grip. Happy days. Economically, though, they can’t discard one-fifth of all the juice in the oranges they buy; so they continue working on techniques to try and increase the amount of juice in the first squeeze. They spend months on it and achieve 82% of the juice in one hit.
 
-Their competitor, who is aware of The Pareto Paradox, squeezes the orange twice. They get about 80% in the first squeeze and then with another two squeezes they are in the 90s somewhere. They optimised the first squeeze just like the other company, but then they abandoned attempts to further optimise the 20% and started looking at the other 80%. Long term, this company will work out the exact number of squeezes that balances time, effort, and juice. They also start selling the peel to a hipster company who make deck shoes out of them. Cracking.
+Their competitor, who is aware of The Pareto Paradox, squeezes the orange twice. They get about 80% in the first squeeze, and then with another two squeezes they are in the 90s somewhere. They optimised the first squeeze just like the other company, but then they abandoned attempts to further optimise the easy part and started looking at the more tricky 80%. Long term, this company will work out the exact number of squeezes that balances time, effort, and juice. They also start selling the peel to a hipster company who makes deck shoes out of them. Cracking.
 
 ### The Pareto summary
 
-It’s useful to know when a law is universal or probabilistic. It’s also useful to understand the blind spots that develop when you trust a law too far.
+It’s helpful to know when a law is universal or probabilistic. It’s also useful to understand the blind spots that develop when you trust a law too far.
 
 Thanks for reading. I’ve included below, for my own benefit, some things to bear in mind with other common laws that circulate in the industry.
 
@@ -43,7 +45,7 @@ Thanks for reading. I’ve included below, for my own benefit, some things to be
 
 ## Brooks’ Law
 
-The Mythical Man Month is a book that just doesn’t go out of date. (Except, perhaps, the chapter on Microfiche but modern alternatives could reasonably be substituted!) Brooks’ Law simply states that adding more people to a late project will make it later. This is usually exacerbated by starting a project before the right people are available to staff it, or believing you can run multiple projects concurrently without them having an effect on each other. (See “Why Limit WIP” by Jim Benson).
+The Mythical Man Month is a book that just doesn’t go out of date. (Except, perhaps, the chapter on Microfiche, but modern alternatives could reasonably be substituted!) Brooks’ Law simply states that adding more people to a late project will make it later. This is usually exacerbated by starting a project before the right people are available to staff it, or believing you can run multiple projects concurrently without them having an effect on each other. (See “Why Limit WIP” by Jim Benson).
 
 There isn’t so much an exception to this, but a “prevention of too broad an application”. There are often people who are close to a project, but not actively contributing to it. These inner-loop folks can become individual contributors and speed things up; you may defend Brooks’ Law by saying “they are already on the project…” kind of.
 
@@ -55,7 +57,7 @@ The design of your organisation will inevitably be reflected back to you in the 
 
 ## The Dreyfus Model composition problem
 
-The Dreyfus Model has great merit. In the model, you progress your skill through five stages: Novice, Advanced Beginner, Competent, Proficient, and Expert. The [Dreyfus Model Composition Problem]\(/blog/2012/12/the-dreyfus-model-mistake-in-software-development/) takes place when you believe the Dreyfus Model applies to “a software developer”. It doesn’t, it applies to any individual skill. You may be an *expert* in C#, but a *novice* at HTML, and a *competent* at CSS. (That last one is joke as nobody feels competent with CSS). Which leads neatly onto…
+The Dreyfus Model has great merit. In the model, you progress your skill through five stages: Novice, Advanced Beginner, Competent, Proficient, and Expert. The [Dreyfus Model Composition Problem](/blog/2012/12/the-dreyfus-model-mistake-in-software-development/) takes place when you believe the Dreyfus Model applies to “a software developer”. It doesn’t, it applies to any individual skill. You may be an *expert* in C#, but a *novice* at HTML, and a *competent* at CSS. (That last one is joke as nobody feels competent with CSS). Which leads neatly onto…
 
 ## The Dunning/Kruger Effect
 

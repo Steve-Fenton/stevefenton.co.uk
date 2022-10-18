@@ -1,7 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: Steve Fenton
-navTitle: Home
+title: Home
 navOrder: 0
 pubDate: 2022-10-02
 keywords: 

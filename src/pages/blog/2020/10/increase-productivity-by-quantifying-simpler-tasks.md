@@ -17,7 +17,7 @@ The full title of this article should really be “Increase Productivity by Quan
 > 
 > In contrast, those who perform complex tasks that require higher levels of artisanship believe quantification to be an imperfect measure of their on-the-job performance and are thus demotivated by such real-time scorekeeping. <cite>Deborah Lynn Blumburg – [Stanford Business](https://www.gsb.stanford.edu/insights/good-bad-measuring-worker-output-real-time)</cite>
 
-Please heed previous warnings on [gamification and funification]\(/blog/2015/09/gamification-is-either-infantile-or-manipulative/).
+Please heed previous warnings on [gamification and funification](/blog/2015/09/gamification-is-either-infantile-or-manipulative/).
 
 ## My view
 

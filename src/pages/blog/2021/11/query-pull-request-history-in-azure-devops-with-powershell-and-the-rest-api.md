@@ -2,19 +2,23 @@
 layout: src/layouts/Default.astro
 title: Query pull request history in Azure DevOps with PowerShell and the REST API
 navMenu: false
-pubDate: 2021-11-30T20:27:29+00:00
+pubDate: 2021-11-30
+keywords: pull request,history,azure devops,powershell
+description: Find out how to query pull request history in Azure DevOps using PowerShell to call the REST API.
 authors:
     - steve-fenton
 categories:
     - Programming
 tags:
     - PowerShell
+    - Azure DevOps
 ---
 
-I needed to get a history of completed pull requests from Azure DevOps and the simplest way to do this was to call the Azure DevOps REST API from a PowerShell script. The examples below assume you have already created a Personal Access Token, which you can get from the User Settings menu in Azure DevOps.
+I needed to get a history of completed pull requests from Azure DevOps. The simplest way to do this was to call the Azure DevOps REST API from a PowerShell script. The examples below assume you have already created a Personal Access Token, which you can get from the User Settings menu in Azure DevOps.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/11/personal-access-token.jpg" alt="Obtain a Personal Access Token from the User Settings / Personal access tokens menu"}
+:figcaption[Personal access tokens]
 :::
 
 ## Get your repository ID
@@ -35,7 +39,7 @@ $FullUri = $OrgUri + '_apis/git/repositories/?api-version=6.1-preview'
 
 ## Get your pull requests
 
-We’ll assume we found the repository ID and it was `a00a0000-00aa-000a-a0aa-000aa0a00000`. We can now query the pull requests using the below script. In the example I have set the `searchCriteria.status` query parameter to look only at “completed” pull requests. I am also using the `$top` query parameter to grab the last 500 pull requests. You can use both `$skip` and `$top` to effectively page through results, for example: `&$skip=100&$top=50`.
+We’ll assume we found the repository ID and it was `a00a0000-00aa-000a-a0aa-000aa0a00000`. We can now query the pull requests using the below script. In the example, I have set the `searchCriteria.status` query parameter to look only at “completed” pull requests. I am also using the `$top` query parameter to grab the last 500 pull requests. You can use both `$skip` and `$top` to effectively page through results, for example: `&$skip=100&$top=50`.
 
 You might see the below error, which can be solved by the PowerShell tip that follows…
 

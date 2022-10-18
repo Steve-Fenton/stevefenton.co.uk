@@ -16,7 +16,7 @@ One of the messages I frequently find myself communicating is that *most work si
 
 On top of this, while there are frequent surprises that turn a 2-3 day job into a 4-6 day job, there are much bigger surprises that will turn a 1-2 week delay starting the work into a 6-12 month delay in starting.
 
-This is why I asked “[why do we \[measure|estimate|rush|optimize|…\] only this]\(/blog/2015/10/sub-optimisation/)“… because so many organisations are myopic when it comes to work.
+This is why I asked “[why do we \[measure|estimate|rush|optimize|…\] only this](/blog/2015/10/sub-optimisation/)“… because so many organisations are myopic when it comes to work.
 
 So prioritisation is important…
 

@@ -26,4 +26,4 @@ Go figure! Let’s start the calls for sensible charts, like line charts, column
 
 - [Pie Charts Are Bad](/blog/2009/04/pie-charts-are-bad/)
 - [Continued Pie Chart Hatred](/blog/2010/12/continued-pie-chart-hatred/)
-- [The Pie Chart So Bad I Had To Censor It]\(/blog/2011/09/the-pie-chart-so-bad-i-had-to-censor-it/)
+- [The Pie Chart So Bad I Had To Censor It](/blog/2011/09/the-pie-chart-so-bad-i-had-to-censor-it/)

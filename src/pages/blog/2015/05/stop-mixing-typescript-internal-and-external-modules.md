@@ -12,7 +12,7 @@ tags:
     - TypeScript
 ---
 
-Update! People are still asking me about this, so I have updated my advice… to this: [Stop Mixing TypeScript Modules and Namespaces]\(/blog/2017/08/stop-mixing-typescript-modules-and-namespaces/).
+Update! People are still asking me about this, so I have updated my advice… to this: [Stop Mixing TypeScript Modules and Namespaces](/blog/2017/08/stop-mixing-typescript-modules-and-namespaces/).
 
 Update! To help reduce confusion, internal modules are being renamed to “namespaces”. I also advise just as strongly that you avoid mixing namespaces and modules! Thanks to Mike Brocchi for suggesting the update.
 

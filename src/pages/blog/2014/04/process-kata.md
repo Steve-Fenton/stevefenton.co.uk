@@ -34,7 +34,7 @@ A process kata is very similar to a coding kata; in fact, we used the bowling sc
 
 We spent half a day testing out the process and kept a list of elements we wanted to fine-tune. Most of the tuning was tool-related, where the tools were getting in the way or not producing the results we wanted. Of course, the value was much greater than the list of things to improve – we got all of the benefits of practice in an environment where total failure would have been perfectly acceptable.
 
-Interested? Read the [Process Kata Questions and Answers]\(/blog/2014/05/process-kata-questions-and-answers/) article.
+Interested? Read the [Process Kata Questions and Answers](/blog/2014/05/process-kata-questions-and-answers/) article.
 
 The process we designed is a subject for another time, but it is thanks to the following thought-leaders whose books, blogs, videos and Tweets have changed the way I think about software development, people and programming:
 

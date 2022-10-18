@@ -72,7 +72,7 @@ When the budget is used up, the work stops by default. This is explained well in
 
 ### Measure
 
-In respect of the original problem, we need to know if we solved it. Even if we completed our work “on time and on budget”, the users might still struggle to update this darned website navigation. That’s what our [DITE cycle]\(/blog/2019/09/the-dite-cycle-data-insight-theory-experiment/) is for.
+In respect of the original problem, we need to know if we solved it. Even if we completed our work “on time and on budget”, the users might still struggle to update this darned website navigation. That’s what our [DITE cycle](/blog/2019/09/the-dite-cycle-data-insight-theory-experiment/) is for.
 
 Additionally (and avoiding dysfunction wherever possible) we want to collect some data that will help us make better decisions. If you collect a binary result of each experiment where it finishes within the budget or not (regardless of being extended), you will find out how many times you succeed on “option 1”, “option 2”, “option 3”, and so on. This will generate a probability spread that will help you decide how much budget should be spent on that first attempt. You can also fine-tune your attitude to risk if you find you succeed more than eighty-percent of the time on the first option.
 

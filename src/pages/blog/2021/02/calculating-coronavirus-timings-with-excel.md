@@ -11,7 +11,7 @@ tags:
     - Data
 ---
 
-Following on from my [article on working with public coronavirus data]\(/blog/2020/09/working-with-public-coronavirus-data/) where I calculated the original peak in the UK to have been an estimated 50,000 cases per day (not the recorded 6,000 cases per day)… the most common follow up questions (aside from predictions on what will happen next) are about timings. What is the typical roadmap for a sufferer from confirmed case, to hospitalisation, to death.
+Following on from my [article on working with public coronavirus data](/blog/2020/09/working-with-public-coronavirus-data/) where I calculated the original peak in the UK to have been an estimated 50,000 cases per day (not the recorded 6,000 cases per day)… the most common follow up questions (aside from predictions on what will happen next) are about timings. What is the typical roadmap for a sufferer from confirmed case, to hospitalisation, to death.
 
 The simple answer to this, thanks to some simple Excel formulas and VLOOKUPs is:
 

@@ -92,5 +92,5 @@ These white papers can be downloaded for free from Octopus Deploy.
 
 ## Further reading
 
-- [Automation Philosophy]\(/blog/2015/02/automation-philosophy/)
-- [Test Automation Philosophy]\(/blog/2015/02/test-automation-philosophy/)
+- [Automation Philosophy](/blog/2015/02/automation-philosophy/)
+- [Test Automation Philosophy](/blog/2015/02/test-automation-philosophy/)

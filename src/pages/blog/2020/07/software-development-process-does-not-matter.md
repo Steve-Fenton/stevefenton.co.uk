@@ -14,11 +14,11 @@ tags:
     - 'Software Punk Revolution'
 ---
 
-Process interests me. Refining and improving a process to make work more joyful and productive matters to me. But, what has become clear over the past thirty years is that in software development, process *just doesn’t matter*. Seriously. It doesn’t. It might just be because I’m becoming a [software punk revolutionary]\(/blog/2020/07/the-software-punk-revolution/), but I suspect not.
+Process interests me. Refining and improving a process to make work more joyful and productive matters to me. But, what has become clear over the past thirty years is that in software development, process *just doesn’t matter*. Seriously. It doesn’t. It might just be because I’m becoming a [software punk revolutionary](/blog/2020/07/the-software-punk-revolution/), but I suspect not.
 
 The reason it doesn’t matter is this simple fact: Any process used with good intent works better than any process used with bad intent.
 
-There are two general factors that affect intent. The team and the management. You can deploy [quaductionism]\(/blog/2017/10/quaductionism-clarity-via-reductionism/) to simplify this as shown below:
+There are two general factors that affect intent. The team and the management. You can deploy [quaductionism](/blog/2017/10/quaductionism-clarity-via-reductionism/) to simplify this as shown below:
 
 :::div{.inset}
 :img{src="/img/2020/07/process-quadrants-of-intent.jpg" alt="Impact of intent on outcome" loading="lazy"}
