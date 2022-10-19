@@ -500,6 +500,10 @@ main ul ol, main ul ul, main ol ol, main ol ul {
     background-color: var(--aft-head);
 }
 
+.site-footer h2 {
+    color: var(--fore-head);
+}
+
 .site-footer a {
     color: var(--link-head);
     text-decoration: none;
@@ -791,6 +795,10 @@ article + .post-list {
 }
 
 /* Taxonomy */
+
+.taxonomy h2 {
+    margin: var(--paragraph-margin) auto;
+}
 
 .taxonomy ul {
     list-style: none;
