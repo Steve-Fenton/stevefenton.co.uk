@@ -503,6 +503,14 @@ main ul ol, main ul ul, main ol ol, main ol ul {
 .site-footer a {
     color: var(--link-head);
     text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+    background-color: var(--aft-link-alt);
+    color: var(--fore-link-alt);
 }
 
 /* Overlay (Mobile Navigation, Search) */
@@ -780,6 +788,13 @@ article + .post-list {
 .post-taxonomy a:focus {
     background-color: var(--fore-link-alt);
     color: var(--aft);
+}
+
+/* Taxonomy */
+
+.taxonomy ul {
+    list-style: none;
+    margin: var(--paragraph-margin) 0;
 }
 
 /* Authors */
