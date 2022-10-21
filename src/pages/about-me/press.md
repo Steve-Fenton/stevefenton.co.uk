@@ -69,8 +69,9 @@ ZenHub used a little quote in their article “How to use GitHub for agile proje
 September 2015  
 Henry Garner gives a quick mention to some of my opinions on pie charts in his Clojure for Data Science book.  
 
-:::div{.inset-small}
+:::figure{.inset-small}
 :img{src="/img/2015/07/clojure-for-data-science.png" alt="Clojure for Data Science" loading="lazy"}
+:figcaption[Clojure for Data Science]
 :::
 
 [View Clojure for Data Science on Amazon](https://www.amazon.co.uk/Clojure-Data-Science-Henry-Garner-ebook/dp/B00YSILGWG/).
@@ -78,7 +79,7 @@ Henry Garner gives a quick mention to some of my opinions on pie charts in his C
 ## Class Four: Those Who Survive
 
 July 2015  
-Duncan P. Bradshaw has immortalized me in the zombie novel, Class Four: Those Who Survive. I am not one of those who survive!
+Duncan P. Bradshaw has immortalised me in the zombie novel *Class Four: Those Who Survive*. I am not one of those who survive!
 
 > Class Four: Those Who Survive, is a total blast of a novel from beginning to end and, like its predecessor, is one of the better interpretations of the zombie apocalypse <cite>Ginger Nuts of Horror</cite>
 
@@ -89,8 +90,9 @@ Duncan P. Bradshaw has immortalized me in the zombie novel, Class Four: Those Wh
 May 2015  
 Manas Pathak mentions my take on pie charts in this introduction to data science and the R language.  
 
-:::div{.inset-small}
+:::figure{.inset-small}
 :img{src="/img/2015/07/data-science.png" alt="Beginning Data Science with R" loading="lazy"}
+:figcaption[Beginning Data Science with R]
 :::
 
 [View Beginning Data Science with R on Amazon](https://www.amazon.co.uk/Beginning-Data-Science-Manas-Pathak-ebook/dp/B00QRSSCIG/).
