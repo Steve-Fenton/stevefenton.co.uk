@@ -436,6 +436,10 @@ main ul ol, main ul ul, main ol ol, main ol ul {
     margin: 0 0 0 1.2rem;
 }
 
+.page-content > p:nth-child(1) {
+    font-size: 1.1em;
+}
+
 @media (max-width: 860px) {
     /* Content First on Small Screens */
     main {
