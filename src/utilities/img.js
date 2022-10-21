@@ -1,12 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import imagemin from 'imagemin';
 import { size } from '../plugins/image-size.mjs';
-import imageminWEBP from 'imagemin-webp';
-import imageminJPG from 'imagemin-jpegtran';
-import imageminPNG from 'imagemin-pngquant';
+import { ImagePool } from '@squoosh/lib';
+import { deepStrictEqual } from 'assert';
 
-const sizes = [400,700,1000];
 const workingDirectory = process.cwd();
 const imagePath = path.join('public', 'img');
 const outputPath = path.join('public', 'i');
@@ -16,10 +13,16 @@ console.log(imageDirectory);
 
 const filesToProcess = [];
 
-function getDestinationFolder(source, s) {
+function getDestinationFilePathless(source, s) {
     let destination = path.join(workingDirectory, outputPath, s.toString(), source);
-    destination = destination.replace(path.basename(destination), '');
+    destination = destination.replace(path.parse(destination).ext, '');
     return destination;
+}
+
+async function createDestinationFolder(destinationFile) {
+    const file = path.parse(destinationFile + '.txt');
+    console.log(file.dir);
+    await fs.promises.mkdir(file.dir, { recursive: true });
 }
 
 async function recurseFiles(directory) {
@@ -39,25 +42,24 @@ async function recurseFiles(directory) {
                 case '.webp':
                     const sourcePath = path.join(directory, file.name);
 
-                    const webP = sourcePath.replace(/.jpg|.jpeg|.png/, '.webp');
+                    const webP = sourcePath.replace(/.jpg$|.jpeg$|.png$/, '.webp');
                     const info = {
                         path: sourcePath,
                         webP: webP
                     };
-        
+
                     const fullPath = path.join(imageDirectory, info.path);
-                    const fullDestination = path.join(workingDirectory, outputPath, sizes[0].toString(), info.webP);
-        
+                    const fullDestination = path.join(workingDirectory, outputPath, 'x', info.path);
                     const modified = fs.statSync(fullPath).mtime;
-        
+
                     const destinationModified = fs.existsSync(fullDestination)
                         ? fs.statSync(fullDestination).mtime
                         : new Date(0);
-        
+
                     if (destinationModified < modified) {
                         filesToProcess.push(info);
                     }
-                break;
+                    break;
             }
         }
     }
@@ -67,20 +69,68 @@ await recurseFiles('');
 
 console.log(`Found ${filesToProcess.length} files to process`);
 
+async function processImage(imagePool, src, options) {
+    const file = await fs.promises.readFile(src);
+    const image = imagePool.ingestImage(file);
+    await image.encode(options);
+    return image;
+}
+
 for (const file of filesToProcess) {
     console.log(file.path);
     const source = path.join(imageDirectory, file.path);
+    const destination = getDestinationFilePathless(file.path, 'x');
+    await createDestinationFolder(destination);
 
-    await imagemin([source], {
-    	destination: getDestinationFolder(file.path, 'x'),
-    	plugins: [imageminJPG(), imageminPNG()]
-    });
+    const ext = path.parse(source).ext;
 
+    let image;
+    let rawEncodedImage;
+
+    // Create optimised fallback image
+    const imagePool = new ImagePool(1);
+    switch (ext) {
+        case '.png':
+            image = await processImage(imagePool, source, { oxipng: {} });
+            rawEncodedImage = (await image.encodedWith.oxipng).binary;
+            await fs.promises.writeFile(destination + '.png', rawEncodedImage);
+            break;
+        case '.jpg':
+        case '.jpeg':
+            image = await processImage(imagePool, source, { mozjpeg: {} });
+            rawEncodedImage = (await image.encodedWith.mozjpeg).binary;
+            await fs.promises.writeFile(destination + '.jpg', rawEncodedImage);
+            break;
+        case '.webp':
+            image = await processImage(imagePool, source, { webp: {} });
+            rawEncodedImage = (await image.encodedWith.webp).binary;
+            await fs.promises.writeFile(destination + '.webp', rawEncodedImage);
+            break;
+    }
+    await imagePool.close();
+
+    // Create resized images
     for (const key in size) {
-        await imagemin([source], {
-            destination: getDestinationFolder(file.path, size[key]),
-            plugins: [imageminWEBP({ quality: 90, resize: { width: size[key], height: 0 }})],
-        });
+        const imagePool = new ImagePool(1);
+        const resizeDestination = getDestinationFilePathless(file.path, size[key]);
+        await createDestinationFolder(resizeDestination);
+
+        const imgFile = await fs.promises.readFile(source);
+        const image = imagePool.ingestImage(imgFile);
+
+        const preprocessOptions = {
+            resize: {
+                width: size[key]
+            }
+        };
+
+        await image.preprocess(preprocessOptions);
+        await image.encode({ webp: {} });
+
+        rawEncodedImage = (await image.encodedWith.webp).binary;
+        await fs.promises.writeFile(resizeDestination + '.webp', rawEncodedImage);
+
+        await imagePool.close();
     }
 }
 

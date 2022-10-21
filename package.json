@@ -12,11 +12,8 @@
     "img": "node ./src/utilities/img.js"
   },
   "dependencies": {
+    "@squoosh/lib": "^0.4.0",
     "astro": "^1.5.0",
-    "imagemin": "^8.0.1",
-    "imagemin-jpegtran": "^7.0.0",
-    "imagemin-pngquant": "^9.0.2",
-    "imagemin-webp": "^7.0.0",
     "remark-directive": "^2.0.1"
   }
 }

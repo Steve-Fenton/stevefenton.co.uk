@@ -75,7 +75,7 @@ You can now make any image tag responsive by replacing:
 
 ```html
 <img 
-    src="~/Content/landscape-mountains-nature-lake.jpeg"
+    src="~/Content/landscape-mountains-nature-lake.jpg"
     alt="Mountain Reflection" />
 ```
 
@@ -83,7 +83,7 @@ With the very similar Html Helper that Picz supplies:
 
 ```csharp
 @Html.Picz(
-     "~/Content/landscape-mountains-nature-lake.jpeg",
+     "~/Content/landscape-mountains-nature-lake.jpg",
      "100vw",
      new { alt = "Mountain Reflection" })
 ```
