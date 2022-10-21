@@ -18,9 +18,7 @@ tags:
     - TypeScript
 ---
 
-If you are reading this, the migration worked, and I've moved my website to Astro.
-
-[Astro](https://astro.build/) is a static site generator built for the *islands architecture* era. It has drawn inspiration from the excellent stuff that emerged over the past decade to create a great way to build websites.
+If you are reading this, the migration worked, and I've moved my website to Astro. [Astro](https://astro.build/) is a static site generator built for the *islands architecture* era. It has drawn inspiration from the excellent stuff that emerged over the past decade to create a great way to build websites.
 
 ## A majestic archipelago
 

@@ -18,7 +18,7 @@ tags:
     - Regular Expressions
 ---
 
-Markdown files are a great place for content when it comes to making large-scale updates. You can open your text editor and use the search and replace tool to fix lots of content quickly. This article shows you how to perform an advanced search and replace in Visual Studio Code using :abbr[RegEx]{title="Regular Expressions"}.
+Markdown files are an excellent place for content when you need to make large-scale updates. You can open your text editor and use the search and replace tool to fix lots of content quickly. This article shows you how to perform an advanced search and replace in Visual Studio Code using :abbr[RegEx]{title="Regular Expressions"}.
 
 To demonstrate how to use RegEx search and replace to do an advanced replacement, you will convert a markdown image into an HTML image wrapped in a containing element. This isn't exactly what I used it for, but my use case was a little esoteric.
 
@@ -36,7 +36,7 @@ Desired result
 </div>
 ```
 
-This is interesting because you need to replace content from the start, the middle, and the end. You also need to preserve the content in the middle.
+This is interesting because you need to replace content at the start, middle, and end. You also need to preserve the content in the middle.
 
 The mental map of this is:
 

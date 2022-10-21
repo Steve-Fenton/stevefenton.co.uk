@@ -18,6 +18,8 @@ tags:
   - TypeScript
 ---
 
+Astro has a mechanism for generating paged lists of posts, but it differs from other static site generators. This article explains how it works.
+
 When you have blogs, articles, news, or other collections of posts in Astro, you can automatically generate listing pages for these items. The mechanism to do this involves two key components.
 
 - A file path that has one or more tokens

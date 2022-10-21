@@ -437,7 +437,7 @@ main ul ol, main ul ul, main ol ol, main ol ul {
 }
 
 .page-content > p:nth-child(1) {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 860px) {
