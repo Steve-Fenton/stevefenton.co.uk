@@ -18,8 +18,9 @@ Even if you were a fan of pie charts you would have to admit that there are mass
 
 Go figure! Let’s start the calls for sensible charts, like line charts, columns charts and bar charts. The pie nonsense needs to end!
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/insidious_pie_chart.jpg" alt="Insidious Pie Chart" loading="lazy"}
+:figcaption[Pie chart]
 :::
 
 ## Further Reading

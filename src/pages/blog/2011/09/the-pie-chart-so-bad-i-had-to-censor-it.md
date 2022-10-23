@@ -18,8 +18,9 @@ Today, I have an example of a bad pie chart. This is typical of the kind of char
 
 Note in particular the great placement of the values for the smaller chunks, but also the colour-coded labels, which use a purple colour that even a computer would struggle to differentiate for the second and fifth group.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/piechartdisgust.png" alt="Censored Pie Chart" loading="lazy"}
+:figcaption[Censored pie chart]
 :::
 
 ## Further Reading
