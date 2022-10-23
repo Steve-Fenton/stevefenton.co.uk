@@ -13,6 +13,12 @@ Category-wise... it's all tech. Let's make it easy to find out what tech.
 
 ## TODO
 
+/report/missing-banner/
+/report/missing-meta/
+/report/oldest-content/
+
+
+
 -- Posts with no tags
 -- Retire GA
 
