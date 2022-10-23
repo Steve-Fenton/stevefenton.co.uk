@@ -15,7 +15,7 @@ tags:
     - Linq
 ---
 
-This post summarises the De-mystifying <abbr title="Language integrated queries">Linq</abbr> session I ran on 24th January. The examples were just on-the-spot code chunks I created during the talk. The concept was to write our own implementation of some Linq methods live during the talk.
+This post summarises the De-mystifying :abbr[Linq]{title="Language integrated queries} session I ran on 24th January. The examples were just on-the-spot code chunks I created during the talk. The concept was to write our own implementation of some Linq methods live during the talk.
 
 The `System.Linq` namespace can seem a bit like magic, but it can be useful to demystify it by showing that it is actually just some C# code that we could write ourselves. In other words, the idea is utter genius, but there is nothing in the implementation to scare us. We can easily write something similar. In this exercise, we’re going to write our own `Count` and `Where` implementations to show just how easy things can be.
 

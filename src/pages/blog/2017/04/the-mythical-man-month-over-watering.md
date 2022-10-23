@@ -31,7 +31,7 @@ The much repeated phrase, from the same book, is:
 
 > Everyone knows it takes a woman nine months to have a baby. But you Americans think if you get nine women pregnant, you can have a baby in a month
 
-But I think this over-simplifies the charts Fred uses to describe different kinds of task and what the payoff of adding people is (at the start of the work <abbr title="'A-PULP-MILL' adding people to a late project makes it later">APLPMIL</abbr>). I prefer to think of growing plants…
+But I think this over-simplifies the charts Fred uses to describe different kinds of task and what the payoff of adding people is (at the start of the work :abbr[APLPMIL]{title="'A-PULP-MILL' adding people to a late project makes it later"}). I prefer to think of growing plants…
 
 ## Over-watering
 

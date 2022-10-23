@@ -90,7 +90,7 @@ Our output now has no extraneous indentation.
 
 This is particularly useful if your string contains meaningful indentation, as that will remain in the output; only unnecessary additional indentation from your code file is removed.
 
-Here’s an example using <abbr title="Octopus Configuration Language">OCL</abbr>, which is a variant of <abbr title="Hashicorp Configuration Language">HCL</abbr>.
+Here’s an example using :abbr[OCL]{title="Octopus Configuration Language"}, which is a variant of :abbr[HCL]{title="Hashicorp Configuration Language"}.
 
 ```csharp
 string example = """

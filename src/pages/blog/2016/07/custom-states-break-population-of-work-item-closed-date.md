@@ -17,7 +17,7 @@ UPDATE: Derrick Fu, the VSTS Program Manager has sent a quick update and it look
 
 > This is a known issue when transitioning from a custom state to Closed. We have plans to address this with our next iteration of states customization. You can [keep tabs on progress here](https://blogs.msdn.microsoft.com/visualstudioalm/2016/06/18/vsts-process-customization-futures-june-2016/).
 
-When the <abbr title="Visual Studio Team Services, formerly Visual Studio Online">VSTS</abbr> team announced custom work item states, I was delighted.
+When the Azure DevOps team announced custom work item states, I was delighted.
 
 Before this change, work was “New”, “Approved”, “Committed”, and “Done”. The problem with this set up is that it is based on a process where “Done” means “we’ve finished working on it… I suppose someone might release it”. This doesn’t match the process we are using, where “Done” means “Customers now have this feature”. When custom states arrived, this solved a major problem for us – visualising the state of the work in process. We could now have states that represented where the work really was, such as a “Deploying” state.
 

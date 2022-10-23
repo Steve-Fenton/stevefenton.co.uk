@@ -43,7 +43,7 @@ Get-Content $sourcePath |
     Out-File $outPath
 ```
 
-The regex happens to be looking for a particular pattern I’m interested in – you can <abbr title="Bring Your Own Regex">BYOR</abbr>.
+The regex happens to be looking for a particular pattern I’m interested in – you can :abbr[BYOR]{title="Bring Your Own Regex"}.
 
 ## Input / output
 

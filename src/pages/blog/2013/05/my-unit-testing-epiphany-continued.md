@@ -13,7 +13,7 @@ tags:
 
 I had some great feedback on [my unit testing epiphany](/blog/2013/05/my-unit-testing-epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.
 
-So here are some questions I got and my thoughts on them, with the over-arching caveat that I am currently in the process of actually putting my implementation where my mouth is – so I don’t have data with any longevity to back this up, only my own experience with <abbr title="Test Driven Development">TDD</abbr>.
+So here are some questions I got and my thoughts on them, with the over-arching caveat that I am currently in the process of actually putting my implementation where my mouth is – so I don’t have data with any longevity to back this up, only my own experience with :abbr[TDD]{title="Test Driven Development"}.
 
 > Isn’t what you’re describing ‘integration testing’?
 
@@ -21,7 +21,7 @@ Not under the new glossary! Integration testing is what you’re doing if your t
 
 Not quite. I’m talking about tests written by the programmer while raging the TDD, not the tests written “by the customer” (often not by the customer – but on their behalf). The programmer decides on the test that will drive the next bit of code and generates the tests they need. What I am talking about is unit-tests that are closer to acceptance tests than they used to be because they are describing things that are higher level than they would if they were testing an over-isolated class.
 
-If the term <abbr title="Behaviour Driven Development">BDD</abbr> hadn’t been appropriated by something different, this approach would probably bear that name – it isn’t what we now know as BDD, but it is more behavioural in style, because the tests describe what the program or module is intended to do, not what a low-level implementation is expected to do.
+If the term :abbr[BDD]{title="Behaviour Driven Development"} hadn’t been appropriated by something different, this approach would probably bear that name – it isn’t what we now know as BDD, but it is more behavioural in style, because the tests describe what the program or module is intended to do, not what a low-level implementation is expected to do.
 
 > What about those one-test-per-class tests?
 

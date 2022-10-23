@@ -17,7 +17,7 @@ I have run a good number of test-driven development coding dojos (and behaviour-
 - Trying to find abstractions too early
 - Drastic code changes under the banner of “refactoring”
 
-Both of these problems are solved by practising the discipline of <abbr title="Test-Driven Development">TDD</abbr> according to Kent Beck… and as rather excellently described by Sandi Metz and Katrina Owen in their book [99 Bottles of OOP](https://www.sandimetz.com/99bottles/). Other than Ian Cooper and Kent Beck, nobody else has had more of an impact on my TDD.
+Both of these problems are solved by practising the discipline of :abbr[TDD]{title="Test-Driven Development"} according to Kent Beck… and as rather excellently described by Sandi Metz and Katrina Owen in their book [99 Bottles of OOP](https://www.sandimetz.com/99bottles/). Other than Ian Cooper and Kent Beck, nobody else has had more of an impact on my TDD.
 
 One of the great techniques in the book is the set of Flocking Rules. They are based on the idea of tacit rules followed by migratory birds; a very simple set of rules that, when followed, can guide very complex behaviours. The Flocking Rules for object-oriented programming are:
 

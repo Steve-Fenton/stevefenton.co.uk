@@ -13,7 +13,7 @@ tags:
     - 'Machine Learning'
 ---
 
-I recently attended an event in Manchester, organised by BJSS and Microsoft, on the subject of <abbr title="Aritificial Intelligence">AI</abbr> and <abbr title="Machine Learning">ML</abbr>. The schedule was jam packed with interesting insights and useful case studies that got my head buzzing. Having had some time to reflect on everything I absorbed on the day, I have realised that we are back into familiar territory with these technologies, which makes available a decade of debate that is directly relevant.
+I recently attended an event in Manchester, organised by BJSS and Microsoft, on the subject of :abbr[AI]{title="Aritificial Intelligence"} and :abbr[ML]{title="Machine Learning"}. The schedule was jam packed with interesting insights and useful case studies that got my head buzzing. Having had some time to reflect on everything I absorbed on the day, I have realised that we are back into familiar territory with these technologies, which makes available a decade of debate that is directly relevant.
 
 Some time ago I wrote a couple of essays on automation, including test automation. My motivation for writing these was to ground executive excitement over the capabilities of automation and to be clear on the impact test automation would have on their business. As with all new technology, the C-Suite view is skewed by hyperbole… the machines can give us 100% test automation, we don’t need humans any more! This is why I borrowed the Flight of the Conchords song title when I published [The Humans are Dead](/publications/the-humans-are-dead/) (which became an Amazon Top 25 publication).
 

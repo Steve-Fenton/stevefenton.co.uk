@@ -11,7 +11,7 @@ tags:
     - HTML
 ---
 
-I get asked this a lot. Seriously. Do I need to validate my <abbr title="Hyper-Text Markup Language">HTML</abbr> (or <abbr title="Extensible Hyper-Text Markup Language">XHTML</abbr>).
+I get asked this a lot. Seriously. Do I need to validate my :abbr[HTML]{title="Hyper-Text Markup Language"} (or :abbr[XHTML]{title="Extensible Hyper-Text Markup Language"}).
 
 The answer is 100%, categorically yes. You should validate your HTML when you write a page. You should validate it each time you change you page. Sometimes you should validate it even when you haven’t changed your page. Valid HTML isn’t just something you need for special projects or for client’s that demand it – you need it for every page you write.
 

@@ -6,7 +6,7 @@ pubDate: 2020-12-21T08:30:41+00:00
 authors:
     - steve-fenton
 banneImage:
-    src: /i/x/2020/12/excel-rgb-cells-preview-background-color.jpg
+    src: /img/2020/12/excel-rgb-cells-preview-background-color.jpg
     alt: An Excel spreadsheet with cells coloured based on RGB cell values
 categories:
     - Programming
@@ -15,7 +15,7 @@ tags:
     - VBA
 ---
 
-This might be a bit niche, but I needed to collect <abbr title="red, green, blue">RGB</abbr> values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!
+This might be a bit niche, but I needed to collect :abbr[RGB]{title="red, green, blue"} values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!
 
 My set up is that I have Red, Green, and Blue in cells E, F, and G. I want to leave a gap and then fill cell I based on the input in those cells.
 

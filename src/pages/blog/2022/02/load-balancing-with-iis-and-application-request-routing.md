@@ -19,7 +19,7 @@ tags:
     - Load Balancing
 ---
 
-Application Request Routing (ARR) is a feature in <abbr title="Internet Information Services">IIS</abbr> that allows you to set up a web farm and load balance the requests. ARR sits within IIS Manager and provides load balancing, caching, and health monitoring features.
+Application Request Routing (ARR) is a feature in :abbr[IIS]{title="Internet Information Services"} that allows you to set up a web farm and load balance the requests. ARR sits within IIS Manager and provides load balancing, caching, and health monitoring features.
 
 In this article, a single-server web app will be updated to run on two web servers with an ARR server sitting in front of them to distribute the traffic.
 

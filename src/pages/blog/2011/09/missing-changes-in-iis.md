@@ -11,7 +11,7 @@ tags:
     - IIS
 ---
 
-Have you ever made a change in <abbr title="Internet Information Services">IIS</abbr> manager, performed an IIS reset and then discovered that your change has gone missing? If so, this article will be of use to you.
+Have you ever made a change in :abbr[IIS]{title="Internet Information Services"} manager, performed an IIS reset and then discovered that your change has gone missing? If so, this article will be of use to you.
 
 I was adding a wild card mapping in IIS for an isapi dll, and performing a quick IIS reset to rush things along, not realising that the IIS reset was actually causing my change to be lost!
 

@@ -34,7 +34,7 @@ Let’s take some quotes and nitpick them, hopefully constructively.
 
 > As a Principal Web Developer at Stack Overflow and a long time Tech Lead, I learnt that accurate estimates were essential in order for a company to be healthy and productive.
 
-This is a generalisation. Many healthy and productive companies do not require estimates, let alone accurate estimates. If you have experience with ten companies and the five <abbr title="healthy and productive">HAP</abbr> ones used estimates, while the five un-HAP ones didn’t, you have a correlation based on a limited sample. You now need to collect a larger sample and remove other factors to find out whether this correlation is causation. I propose the theory that a representative sample will show that accurate estimates are not strongly correlated to HAP organisations (and are not the cause of health or productivity).
+This is a generalisation. Many healthy and productive companies do not require estimates, let alone accurate estimates. If you have experience with ten companies and the five :abbr[HAP]{title="healthy and productive"} ones used estimates, while the five un-HAP ones didn’t, you have a correlation based on a limited sample. You now need to collect a larger sample and remove other factors to find out whether this correlation is causation. I propose the theory that a representative sample will show that accurate estimates are not strongly correlated to HAP organisations (and are not the cause of health or productivity).
 
 > An estimate helps to plan and coordinate product releases, synchronize work with other teams, ensure that resources \[and people\] are allocated properly to meet the needs of the product
 

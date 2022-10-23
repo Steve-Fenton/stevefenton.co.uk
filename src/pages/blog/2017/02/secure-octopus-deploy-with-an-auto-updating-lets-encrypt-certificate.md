@@ -81,7 +81,7 @@ And add the following condition to this rule:
 
 Rule 3: Add a new Reverse Proxy rule…
 
-Note! If you are prompted to enable <abbr title="Application Request Routing">ARR</abbr>, click “OK” as this is needed for the reverse proxy to work.
+Note! If you are prompted to enable :abbr[ARR]{title="Application Request Routing"}, click “OK” as this is needed for the reverse proxy to work.
 
 Enter the server name: http://localhost:8080/ and save the rule.
 

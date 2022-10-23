@@ -7,15 +7,14 @@ authors:
     - steve-fenton
 categories:
     - Programming
-    - 'Visual Studio'
 tags:
     - BDD
     - SpecFlow
 ---
 
-SpecFlow is the defacto <abbr title="Behaviour-Driven Development">BDD</abbr> tool for .NET programmers – and if you are using both SpecFlow and Visual Studio Team Services then this article is for you.
+SpecFlow is the defacto :abbr[BDD]{title="Behaviour-Driven Development"} tool for .NET programmers – and if you are using both SpecFlow and Azure DevOps then this article is for you.
 
-There is a new <abbr title="Visual Studio Team Services">VSTS</abbr> extension called [SpecFlow+LivingDoc](https://marketplace.visualstudio.com/items?itemName=techtalk.techtalk-specflow-plus&utm_source=fenton) that provides a simple build task that will generate documentation from your feature files.
+There is a new Azure DevOps extension called [SpecFlow+LivingDoc](https://marketplace.visualstudio.com/items?itemName=techtalk.techtalk-specflow-plus&utm_source=fenton) that provides a simple build task that will generate documentation from your feature files.
 
 Here is a quick run-down of the steps to use the extension…
 

@@ -9,7 +9,7 @@ categories:
     - Process
 ---
 
-Being a good leader means you need a <abbr title="Context, Autonomy, Trust">CAT</abbr>-friendly environment. If you want a team of professionals to do good work, you need to give them plenty of context. If they know what you want to achieve, why you want to do it and what the constraints are – you can leave them to do the right thing.
+Being a good leader means you need to nurtura a :abbr[CAT]{title="Context, Autonomy, Trust"}-friendly environment. If you want a team of professionals to do good work, you need to give them plenty of context. If they know what you want to achieve, why you want to do it and what the constraints are – you can leave them to do the right thing.
 
 Context is a vision. A sketch of the future. It isn’t an architecture or a design pattern or a specific technology or “an app” or “a website”. It is the answer to repeating the question “why?” a whole bunch of times until you find the real reason you are going to expend effort in making something.
 

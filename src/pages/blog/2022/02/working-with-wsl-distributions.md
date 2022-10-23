@@ -16,7 +16,7 @@ tags:
     - WSL
 ---
 
-Today I made my first contact with Windows Subsystem for Linux (WSL). <abbr title="Windows Subsystem for Linux">WSL</abbr> lets you run Linux on the command line without having to dual-boot, with lots of built-in help that makes things work across your network and file system.
+Today I made my first contact with Windows Subsystem for Linux (WSL). :abbr[WSL]{title="Windows Subsystem for Linux"} lets you run Linux on the command line without having to dual-boot, with lots of built-in help that makes things work across your network and file system.
 
 If you are new to WSL, I found it helpful to complete the [get started with WSL tutorial on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/?WT.mc_id=DT-MVP-5002938). There is also a [WSL documentation site](https://docs.microsoft.com/en-us/windows/wsl/?WT.mc_id=DT-MVP-5002938).
 

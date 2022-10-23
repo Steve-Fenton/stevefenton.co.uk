@@ -30,7 +30,7 @@ I work at a company with a <a href="https://handbook.octopus.com/life-octopus/tr
 When someone accuses people who work from home of *wearing pyjamas*, it makes it look like their only work-from-home experience is from Internet memes. Or, perhaps, this is what *they* would do if they worked from home. Even worse, they might think they are an exception; they wouldn't dream of wearing pyjamas, but they believe "workers" would.
 
 :::div{.note}
-WFH <abbr title="does not equal">≠</abbr> Pyjamas
+WFH :abbr[≠]{title="does not equal"} Pyjamas
 :::
 
 ## Sense of belonging
@@ -42,7 +42,7 @@ The reality here is that modern managers should be able to build a distributed t
 After so many managers scrambled into positions without any thought for the additional skills they need beyond being good at the work, there are already loads of teams sitting together in the same room with no sense of purpose or belonging. This problem is not unique to distributed teams. There are specific challenges to making the magic happen in a distributed team, but it has been done.
 
 :::div{.note}
-Office <abbr title="does not equal">≠</abbr> Purpose
+Office :abbr[≠]{title="does not equal"} Purpose
 :::
 
 ## Your best interest
