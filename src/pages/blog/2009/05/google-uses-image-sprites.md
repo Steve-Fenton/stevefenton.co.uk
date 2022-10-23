@@ -2,7 +2,8 @@
 layout: src/layouts/Default.astro
 title: Google uses image sprites
 navMenu: false
-pubDate: 2009-05-01T22:32:14+01:00
+pubDate: 2009-05-01
+modData: 2022-10-23
 authors:
     - steve-fenton
 categories:
@@ -12,20 +13,20 @@ tags:
     - HTML
 ---
 
-I happened be using the worlds most popular browser (sic) and I noticed a strange appearance on Google…
+When browsing Google today, I noticed a little smudge in the graphics. Curiosity led me to have a peek under the hood.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/google_a.jpg" alt="Google Smudge" loading="lazy"}
+:figcaption[A smudge on Google]
 :::
 
-If you look really closely, below the logo there are three strange lines.
+If you look closely at the logo, there are three strange lines beneath it. A swift investigation revealed the result, which is the use of sprites on web pages.
 
-I very quick investigation revealed the result, which is the use of sprites on web pages.
-
-A sprite is, essentially, all of the images needed on a web page all placed inside a single image file. This makes the page load faster as only one http object needs to be requested, queued and downloaded, rather than lots of smaller images (the latency of most images represents more waiting-time than the actual download itself).
+An image sprite is a single image that contains regions for each image used on the website. The idea behind a sprite is to load one image and position it carefully to show the different images captured within. With fewer requests, pages load faster because small images spend more time queuing than downloading.
 
 The single image is then manipulated with CSS to ensure that the right part of the image is shown in each location – except browsing Google in IE8 reveals the tops of three other zones in the sprite – the plus, minus and x icons:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/google_b.png" alt="Google Sprite" loading="lazy"}
+:figcaption[Google sprite]
 :::

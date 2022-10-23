@@ -13,20 +13,21 @@ tags:
     - 'Virtual Machine'
 ---
 
-Making a disk larger on Azure is a simple process in the Azure portal. You just stop the machine, edit the disk, enter a new size and hit “Save”. When you try to make a disk smaller, though, you’ll be told “new disk size should be greater than 1024 GiB. Disks can only be resized to a larger size”. Whoops… I created the VM with a pair of one terabyte disks and I’m using about 300MB on each one. Let’s make these Azure Virtual Machine disks smaller by replacing them with two new disks.
+Making a disk larger on Azure is a simple process in the Azure portal. You just stop the machine, edit the disk, enter a new size and hit “Save”. When you try to make a disk smaller, you’ll be told: “New disk size should be greater than 1024 GiB. Disks can only be resized to a larger size”. Whoops. I created the VM with a pair of one-terabyte disks, and I’m using about 300MB on each one. Let’s make these Azure Virtual Machine disks smaller by replacing them with two new disks.
 
-For illustrative purposes, we’ll follow my use-case, which is an Azure <abbr title="Virtual Machine">VM</abbr> that I set up to try out an idea. It is a VM with a SQL database, which is neat way to create a single machine to run a web app, command line app, and database for prototyping. In my case, I didn’t notice that I was adding 2x premium SSDs that were each 1,204 GiB. This is about £6.50 per day of storage. Yikes.
+For illustrative purposes, we’ll follow my use case, an Azure :abbr[VM]{title="Virtual Machine"} that I set up to try out an idea. It is a VM with a SQL database, which is neat way to create a single machine to run a web app, command line app, and database for prototyping. In my case, I didn’t notice that I was adding 2x premium SSDs that were each 1,204 GiB. This is about £6.50 per day of storage. Yikes.
 
-The problem is that you can’t reduce disk size in the Azure portal, compounded by a SQL server instance that is depending on those two disks.
+The problem is that you can’t reduce disk size in the Azure portal, compounded by a SQL server instance depending on those two disks.
 
-**Please note** that as this article contains stuff that can result in losing data, it comes with no warranty. You are responsible for your data so make sure you have a recovery scenario if something goes wrong. We are in territory where we *will* be deleting entire disks, so you need to make sure it’s the right ones and that if it all goes horribly wrong you can get your data back.
+**Please note** as this article contains stuff that can result in losing data, it comes with no warranty. You are responsible for your data. Make sure you have a recovery scenario if something goes wrong. We are in territory where we *will* be deleting entire disks. You need to ensure it’s the right ones. Make sure you have backups in case things go wrong.
 
 ## The Resulting Cost Saving
 
-The chart below shows three zones. Zone A was using serverless SQL, which is super-easy to use but a bit pricey for the amount of reads and writes I was using. Zone B is when I switched to VMs, but accidentally added massive disks. Zone C is the cost saving when I made the disks “the right size”.
+The chart below shows three zones. Zone A was using serverless SQL, which is super-easy to use but a bit pricey for the amount of reads and writes I was using. Zone B is when I switched to VMs but accidentally added massive disks. Zone C is the cost-saving when I made the disks “the right size”.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/azure-cost-saving.png" alt="Azure Cost Tracking and Saving" loading="lazy"}
+:figcaption[Azure cost tracking]
 :::
 
 ## Checklist
@@ -53,7 +54,7 @@ Here is a checklist of the steps, each of which is described below.
 
 ## Starting point
 
-We are starting with two disks. `F:\` contains SQL data and `G:\` contains SQL logs.
+We are starting with two disks. `F:\` contains SQL data, and `G:\`` contains SQL logs.
 
 We don’t want to lose all the data, so we start by backing up the database in case something goes horribly wrong. We can then stop the virtual machine using the Azure portal.
 
@@ -61,57 +62,64 @@ Our end goal is to have two much smaller disks (and probably just standard SSD r
 
 ## Add Two New Disks
 
-These steps can be repeated for each disk. You can only do this when the Virtual Machine is both “stopped” and “deallocated”. When you click “Stop” in the Azure portal, it will cycle through a number of states, so you need to wait for “Stopped (deallocated)” before you proceed.
+These steps can be repeated for each disk. You can only do this when the Virtual Machine is both “stopped” and “deallocated”. When you click “Stop” in the Azure portal, it will cycle through several states, so you need to wait for “Stopped (deallocated)” before you proceed.
 
-Navigate to “Disks” and add a new one. As all the existing disks are in use, you’ll be told there are no managed disks available; so just create a new one.
+Navigate to “Disks” and add a new one. As all the existing disks are in use, you’ll be told there are no managed disks available, so create a new one.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/add-data-disk.jpg" alt="Add Data Disk" loading="lazy"}
+:figcaption[Add data disk]
 :::
 
-Pay attention on the next screen as this is where we choose the disk size and tier. The defaults look like what I have already, which explains why I ended up with massive disks. This is not a live platform, so let’s just have some 16 GiB standard SSDs.
+Pay attention to the next screen, as this is where we choose the disk size and tier. The defaults look like what I have already, which explains why I ended up with massive disks. This is not a live platform, so let’s just have some 16 GiB standard SSDs.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/create-managed-disk.jpg" alt="Create Managed Disk" loading="lazy"}
+:figcaption[Create managed disk]
 :::
 
 Choose the tier first, then the size:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/select-disk-size.jpg" alt="Select Disk Size" loading="lazy"}
+:figcaption[Select disk size]
 :::
 
 Now we can restart the VM.
 
 ## Initialise disks in Disk Management
 
-Open up a session on the Virtual Machine and go to Start > Computer Management and run it as an administrator.
+Open up a session on the Virtual Machine and go to **Start > Computer Management** and run it as an administrator.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/run-computer-management-as-administrator.jpg" alt="Open Computer Management" loading="lazy"}
+:figcaption[Open computer management]
 :::
 
-Then select the disk management section. It will prompt you to initialize the disks.
+Then select the disk management section. It will prompt you to initialise the disks.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-in-disk-management.jpg" alt="Initialize Disks" loading="lazy"}
+:figcaption[Initialize disks]
 :::
 
-The two disks will be listed with all 16 GB “Unallocated”, so we can right click and choose “New Simple Volume…” to complete the allocation wizard.
+The two disks will be listed with all 16 GB “Unallocated”, so we can right-click and choose “New Simple Volume…” to complete the allocation wizard.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-new-simple-volume.jpg" alt="Start Allocation Wizard" loading="lazy"}
+:figcaption[Start allocation wizard]
 :::
 
-During this process, make a note of the disk drive letters you assign as we will need these shortly.
+During this process, note the disk drive letters you assign, as we will need these shortly.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-visible-disks.jpg" alt="Visible Disks" loading="lazy"}
+:figcaption[Visible disks]
 :::
 
 ## Copy data
 
-We now have replacement drives available, but they are empty. We have to move all the data from `F:\` to `J:\` and from `G:\` to `K:\`. We can do that by stopping SQL Server and running RoboCopy… all in a command terminal.
+We now have replacement drives available, but they are empty. We must move all the data from `F:\` to `J:\` and from `G:\` to `K:\`. We can do that by stopping SQL Server and running RoboCopy… all in a command terminal.
 
 Stop SQL Server
 
@@ -151,14 +159,16 @@ net stop MSSQLSERVER
 
 We can now return to Computer Management > Disk Management and give the new disks the old drive letters. Select the disk and choose “Change drive letter and paths”.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths.jpg" alt="Change Drive Letter" loading="lazy"}
+:figcaption[Change drive letter]
 :::
 
 Then select the “Change” button.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths-change.jpg" alt="Change Letter" loading="lazy"}
+:figcaption[Change letter]
 :::
 
 In “Assign the following drive letter” carefully choose the correct letter, so SQL Server will find the data files and the log files in the correct place when we start it.
@@ -171,4 +181,4 @@ net start MSSQLSERVER
 
 You can now check your database is up and running before deleting the old disks entirely in the Azure Portal.
 
-The disks will still be listed in your resource list, but are “Unattached”.
+The disks will still be listed in your resource list but are “Unattached”.

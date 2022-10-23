@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import { size } from '../plugins/image-size.mjs';
 import { ImagePool } from '@squoosh/lib';
-import { deepStrictEqual } from 'assert';
 
 const workingDirectory = process.cwd();
 const imagePath = path.join('public', 'img');
