@@ -7,7 +7,7 @@ modDate: 2022-10-12
 keywords: extreme,programming,practices,devops
 description: Extreme Programming compared to DevOps research.
 bannerImage:
-    src: /img/topics/process/extreme-programming.png
+    src: /img/topic/process/extreme-programming.png
     alt: A section of the Extreme Programming practice diagram
 authors:
     - steve-fenton
@@ -35,7 +35,7 @@ The diagram resembles the more recent DORA structural equation model (SEM). Whil
 
 The State of DevOps report is the best study available of the specific techniques and capabilities that amplify software delivery performance. It tracks the relationships between these capabilities right through to the success of the organisation. The structural equation model is part of this research.
 
-The model includes some of the practices and relationships found in the Extreme Programming practices two decades ago.
+The model includes some practices and relationships found in the Extreme Programming practices two decades ago.
 
 To explore this further, review the DevOps structural equation model and then read on to find a comparison.
 
@@ -74,7 +74,7 @@ The following are treated as the same in this XP and DevOps comparison - or clos
 
 - Continuous integration in XP is covered by both continuous integration and trunk-based development in DevOps
 - Testing in XP is part of continuous testing in DevOps
-- Short releases in XP comes under continuous delivery in DevOps
+- Short releases in XP come under continuous delivery in DevOps
 - Collective ownership in XP is part of continuous delivery in DevOps (it’s actually one of the continuous delivery principles)
 
 ## Confirmed practices and relationships
