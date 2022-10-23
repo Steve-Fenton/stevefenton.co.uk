@@ -18,7 +18,7 @@ tags:
     - XP
 ---
 
-Extreme Programming has been around for decades, so how does it stack up when you compare it to all the DevOps research produced by <abbr="DevOps Research and Assessment">DORA</abbr>? This article takes a fresh look at Extreme Programming practices to find out how they compare to DevOps.
+Extreme Programming has been around for decades, so how does it stack up when you compare it to all the DevOps research produced by :abbr[DORA]{title="DevOps Research and Assessment"}? This article takes a fresh look at Extreme Programming practices to find out how they compare to DevOps.
 
 ## Extreme Programming practices
 
