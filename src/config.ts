@@ -1,5 +1,6 @@
 export const SITE = {
 	url: 'https://www.stevefenton.co.uk',
+	subfolder: '',
 	feedUrl: '/blog/feed.xml',
 	title: 'Steve Fenton',
 	description: 'My website, tech blog, and other information.',
@@ -92,11 +93,11 @@ export type Frontmatter = {
 	navOrder?: number;
 	bannerImage?: { src: string; alt: string };
 	dir?: 'ltr' | 'rtl';
-	ogLocale?: string;
 	lang?: string;
 	paged?: boolean;
 	navSearch?: boolean;
 	navSitemap?: boolean;
 	navMenu?: boolean;
 	redirect?: string;
+	robots?: string;
 };
