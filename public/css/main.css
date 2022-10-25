@@ -631,8 +631,14 @@ article + .post-list {
     color: var(--fore-block);
     background-color: var(--aft-block);
     position: relative;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-unselected);
     margin-bottom: var(--block-gap);
+}
+
+.post-list .list-item:hover,
+.post-list .list-item:focus-within {
+    box-shadow: var(--box-shadow);
+    transform: var(--transform-selected);
 }
 
 .post-list .list-item[data-image='true'] > article {
@@ -1032,6 +1038,7 @@ figure:focus .magnify-icon {
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
 
+    .post-list .list-item,
     .post-list img {
         transition: all 0.2s ease-in;
     }
