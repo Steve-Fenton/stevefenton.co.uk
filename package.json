@@ -5,15 +5,14 @@
   "private": true,
   "scripts": {
     "dev": "node ./src/utilities/img.js && astro dev",
-    "start": "node ./src/utilities/img.js && astro dev",
     "build": "astro build",
-    "preview": "node ./src/utilities/img.js && astro preview",
+    "preview": "astro preview",
     "astro": "astro",
     "img": "node ./src/utilities/img.js"
   },
   "dependencies": {
     "@squoosh/lib": "^0.4.0",
-    "astro": "^1.5.0",
+    "astro": "^1.6.0",
     "remark-directive": "^2.0.1"
   }
 }
