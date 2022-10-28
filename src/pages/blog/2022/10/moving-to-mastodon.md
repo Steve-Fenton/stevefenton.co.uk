@@ -58,6 +58,7 @@ Asides from the functional differences, which are subtle, there's a much more si
 If you are looking for some tech Mastodon folks to follow so you don't start from empty, here are some suggestions.
 
 - [Steve Fenton (it me)](https://mastodon.social/@stevefenton) - DevOps and programming stuff
+- [Basarat Ali Syed](https://mastodon.social/@basarat) - TypeScript, Cypress, all-round genius
 - [Axel Rauschmayer](https://mastodon.social/@rauschma@fosstodon.org) - JavaScript, FOSS
 - [Chris Pitts](https://mastodon.social/@thirstybear) - software delivery, Agile, XP
 - [Nolan](https://mastodon.social/@nolan@toot.cafe) - web dev, JavaScript
