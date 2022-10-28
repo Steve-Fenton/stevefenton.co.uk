@@ -29,8 +29,7 @@
 # Note: The "to" folder should be relative:
 #   './src/pages/blog/'
 
-## Author list page
-
+    ## Author list page
     $from = $src + 'src/pages/authors/[author]/'
     $to = './src/pages/authors/[author]/'
     robocopy $from $to '[page].astro'
@@ -49,6 +48,11 @@
     $from = $src + 'src/pages/articles/tag/[tag]/'
     $to = './src/pages/blog/tag/[tag]/'
     robocopy $from $to '[page].astro' /s
+
+    ## Search data
+    $from = $src + 'src/pages/'
+    $to = './src/pages/'
+    robocopy $from $to 'search.json.ts'
 
 # Standard copies
 
