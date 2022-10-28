@@ -64,7 +64,7 @@ If you are looking for some tech Mastodon folks to follow so you don't start fro
 - [Martin Splitt](https://mastodon.social/@geekonaut) - OSS and open web
 - [Laura Kalbag](https://mastodon.social/@laura@mastodon.laurakalbag.com) - web, ethics, inclusivity, privacy, and dev
 
-Are you in my tech space and want to be added to this list... [submit a PR](https://github.com/Steve-Fenton/stevefenton.co.uk/blob/main/src/pages/2022/10/moving-to-mastodon.md).
+Are you in my tech space and want to be added to this list... [submit a PR](https://github.com/Steve-Fenton/stevefenton.co.uk/blob/main/src/pages/blog/2022/10/moving-to-mastodon.md).
 
 It's best to add too many people and filter it to curate your feed later.
 
