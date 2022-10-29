@@ -89,15 +89,19 @@ const imagePool = new ImagePool(1);
 const file = await fs.promises.readFile('/img/example.png');
 const image = imagePool.ingestImage(file);
 
-// Resize the image to 400px wide
-const options = {
-    resize: {
-        width: 400
-    }
-};
+// Get the decoded image info
+const info = await image.decoded;
 
-// Resize the image
-await image.preprocess(options);
+// Resize the image if it's larger than the target size
+if (info.width > size[key]) {
+    // Resize the image to 400px wide
+    const options = {
+        resize: {
+            width: 400
+        }
+    };
+    await image.preprocess(options);
+}
 
 // Encode as a WEBP
 await image.encode({ webp: {} });
