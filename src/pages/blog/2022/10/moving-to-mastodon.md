@@ -69,6 +69,8 @@ Are you in my tech space and want to be added to this list... [submit a PR](http
 
 It's best to add too many people and filter it to curate your feed later.
 
+You can find more people by searching topics in the [Fediverse Directory](https://fediverse.info/explore/people), for example people in [DevOps](https://fediverse.info/explore/topics/devops).    
+
 ## Conclusion
 
 Here's to a better future for social, where we can control our feed and hopefully begin a healthy conversation.
