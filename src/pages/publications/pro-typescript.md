@@ -12,8 +12,9 @@ Explore the features of this innovative open source language in depth, from work
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
-:::div{.inset}
+:::figure{.inset-medium}
 :img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
+:figcaption[Pro TypeScript]
 :::
 
 ## What’s New in The Second Edition

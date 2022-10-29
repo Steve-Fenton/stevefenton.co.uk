@@ -14,7 +14,7 @@ Explore the features of this innovative open source language in depth, from work
 
 [Find out more about Pro TypeScript](/publications/pro-typescript/).
 
-:figure{.inset-medium}
+:::figure{.inset-medium}
 :img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
 :figcaption[Pro TypeScript (Second Edition)]
 :::
