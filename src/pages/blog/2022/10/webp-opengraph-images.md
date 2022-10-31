@@ -42,14 +42,14 @@ When you supply Open Graph data, this can be used to create social cards, like t
 
 :::figure{.inset}
 :img{src="/img/2022/10/social-cards.png" alt="A Facebook social card with image, title, and description" loading="lazy"}
-:figcaption[A Facebook social card]
+::figcaption[A Facebook social card]
 :::
 
 For some social networks, there are more tags you have to add. For example, Twitter prefers to use its own `twitter:card` meta tags. There are some popular Open Graph debugging tools at the end of this post.
 
 :::figure{.inset}
 :img{src="/img/2022/10/twitter-card.png" alt="A Twitter social card with image, title, and description" loading="lazy"}
-:figcaption[A Twitter social card]
+::figcaption[A Twitter social card]
 :::
 
 ## WEBP images on The Web and social
@@ -83,7 +83,7 @@ Here's an example from a music site, which usually pushes PNG images in Open Gra
 
 :::figure{.inset}
 :img{src="/img/2022/10/feed-with-webp-missing.png" alt="The missing image is a WEBP" loading="lazy"}
-:figcaption[WEBP image is missing]
+::figcaption[WEBP image is missing]
 :::
 
 We know Open Graph images increase engagement on social, attracting more clicks, favourites, and shares than posts without images (source: [Buffer](https://buffer.com/resources/the-power-of-twitters-new-expanded-images-and-how-to-make-the-most-of-it/)). Why miss out on this in all the other places Open Graph is used?

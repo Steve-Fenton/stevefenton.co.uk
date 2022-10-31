@@ -27,7 +27,7 @@ The chart below shows three zones. Zone A was using serverless SQL, which is sup
 
 :::figure{.inset}
 :img{src="/img/2020/08/azure-cost-saving.png" alt="Azure Cost Tracking and Saving" loading="lazy"}
-:figcaption[Azure cost tracking]
+::figcaption[Azure cost tracking]
 :::
 
 ## Checklist
@@ -68,21 +68,21 @@ Navigate to “Disks” and add a new one. As all the existing disks are in use,
 
 :::figure{.inset}
 :img{src="/img/2020/08/add-data-disk.jpg" alt="Add Data Disk" loading="lazy"}
-:figcaption[Add data disk]
+::figcaption[Add data disk]
 :::
 
 Pay attention to the next screen, as this is where we choose the disk size and tier. The defaults look like what I have already, which explains why I ended up with massive disks. This is not a live platform, so let’s just have some 16 GiB standard SSDs.
 
 :::figure{.inset}
 :img{src="/img/2020/08/create-managed-disk.jpg" alt="Create Managed Disk" loading="lazy"}
-:figcaption[Create managed disk]
+::figcaption[Create managed disk]
 :::
 
 Choose the tier first, then the size:
 
 :::figure{.inset}
 :img{src="/img/2020/08/select-disk-size.jpg" alt="Select Disk Size" loading="lazy"}
-:figcaption[Select disk size]
+::figcaption[Select disk size]
 :::
 
 Now we can restart the VM.
@@ -93,28 +93,28 @@ Open up a session on the Virtual Machine and go to **Start > Computer Management
 
 :::figure{.inset}
 :img{src="/img/2020/08/run-computer-management-as-administrator.jpg" alt="Open Computer Management" loading="lazy"}
-:figcaption[Open computer management]
+::figcaption[Open computer management]
 :::
 
 Then select the disk management section. It will prompt you to initialise the disks.
 
 :::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-in-disk-management.jpg" alt="Initialize Disks" loading="lazy"}
-:figcaption[Initialize disks]
+::figcaption[Initialize disks]
 :::
 
 The two disks will be listed with all 16 GB “Unallocated”, so we can right-click and choose “New Simple Volume…” to complete the allocation wizard.
 
 :::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-new-simple-volume.jpg" alt="Start Allocation Wizard" loading="lazy"}
-:figcaption[Start allocation wizard]
+::figcaption[Start allocation wizard]
 :::
 
 During this process, note the disk drive letters you assign, as we will need these shortly.
 
 :::figure{.inset}
 :img{src="/img/2020/08/initialize-disks-visible-disks.jpg" alt="Visible Disks" loading="lazy"}
-:figcaption[Visible disks]
+::figcaption[Visible disks]
 :::
 
 ## Copy data
@@ -161,14 +161,14 @@ We can now return to Computer Management > Disk Management and give the new disk
 
 :::figure{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths.jpg" alt="Change Drive Letter" loading="lazy"}
-:figcaption[Change drive letter]
+::figcaption[Change drive letter]
 :::
 
 Then select the “Change” button.
 
 :::figure{.inset}
 :img{src="/img/2020/08/change-drive-letter-and-paths-change.jpg" alt="Change Letter" loading="lazy"}
-:figcaption[Change letter]
+::figcaption[Change letter]
 :::
 
 In “Assign the following drive letter” carefully choose the correct letter, so SQL Server will find the data files and the log files in the correct place when we start it.

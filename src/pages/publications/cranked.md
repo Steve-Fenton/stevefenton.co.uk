@@ -11,7 +11,7 @@ description:
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/cranked-book.jpg" alt="Cranked"}
-:figcaption[Cranked]
+::figcaption[Cranked]
 :::
 
 Cranked helps teams and organisations to effectively deliver software in a changeable or uncertain environment. This book will teach you all about the values, activities and practices that you need to know to delight your customers with your software product. With the techniques in this book you can:

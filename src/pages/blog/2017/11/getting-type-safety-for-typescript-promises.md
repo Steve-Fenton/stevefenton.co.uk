@@ -64,7 +64,7 @@ Argument of type 'Error' is not assignable to parameter of type 'string | Promis
 
 :::figure{.inset}
 :img{src="/img/2017/11/promise-resolve-reject-error.png" alt="Promise Resolve/Reject Error" loading="lazy"}
-:figcaption[TypeScript catches the incorrect parameter order]
+::figcaption[TypeScript catches the incorrect parameter order]
 :::
 
 So how do we end up not being told about this problem by the compiler?

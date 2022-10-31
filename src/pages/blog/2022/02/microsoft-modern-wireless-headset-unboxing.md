@@ -31,7 +31,7 @@ After the usual agonising research, I bought the [Modern Wireless Headset](https
 
 :::figure{.inset}
 :img{src="/img/2022/02/PXL_20220215_123805815.MP2_.jpg" alt="Microsoft Accessories app" loading="lazy"}
-:figcaption[Microsoft Accessories app]
+::figcaption[Microsoft Accessories app]
 :::
 
 ## Neat features

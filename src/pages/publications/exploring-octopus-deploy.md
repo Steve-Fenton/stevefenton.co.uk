@@ -11,7 +11,7 @@ This book will teach you how to use the features of Octopus Deploy using an exam
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
-:figcaption[Exploring Octopus Deploy]
+::figcaption[Exploring Octopus Deploy]
 :::
 
 You will learn:

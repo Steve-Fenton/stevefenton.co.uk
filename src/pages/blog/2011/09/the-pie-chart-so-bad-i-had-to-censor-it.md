@@ -20,7 +20,7 @@ Note in particular the great placement of the values for the smaller chunks, but
 
 :::figure{.inset}
 :img{src="/img/2015/07/piechartdisgust.png" alt="Censored Pie Chart" loading="lazy"}
-:figcaption[Censored pie chart]
+::figcaption[Censored pie chart]
 :::
 
 ## Further Reading

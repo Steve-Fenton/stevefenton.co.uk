@@ -35,7 +35,7 @@ Expand Configuration as Code and select Enabled. Then hit SAVE to store the chan
 
 :::figure{.inset}
 :img{src="/img/2021/10/octopus-deploy-config-as-code.png" alt="The Octopus Deploy configuration setting for Configuration-as-Code" loading="lazy"}
-:figcaption[Config as Code setting]
+::figcaption[Config as Code setting]
 :::
 
 When you navigate to a deployment project, you will see a new setting called Version Control.
@@ -53,7 +53,7 @@ The URL of your GitHub repository can be found in the Code tab, using the drop-d
 
 :::figure{.inset}
 :img{src="/img/2021/10/github-repository-url.png" alt="Obtain your GitHub repository URL from the Code tab in GitHub" loading="lazy"}
-:figcaption[GitHub repository URL]
+::figcaption[GitHub repository URL]
 :::
 
 You can obtain a new personal access token from **Profile -> Settings -> Developer settings -> Personal access tokens**.
@@ -90,7 +90,7 @@ The full webinar is available on YouTube.
 
 :::figure{.inset}
 :img{src="/img/2021/10/initial-octopus-deploy-commit.png" alt="A new dot-octopus folder in the GitHub repository" loading="lazy"}
-:figcaption[The Octopus folder in GitHub]
+::figcaption[The Octopus folder in GitHub]
 :::
 
 You can read about [configuration-as-code in the Octopus Deploy docs](https://octopus.com/docs/projects/version-control) and watch the webinar below, which also has a rich Q&A section at the end.

@@ -17,5 +17,5 @@ And just for the purposes of double checking… if you do paste this into a [byt
 
 :::figure{.inset}
 :img{src="/img/2011/05/byte-counter.png" alt="Byte Counter" loading="lazy"}
-:figcaption[Byte counter]
+::figcaption[Byte counter]
 :::

@@ -128,7 +128,7 @@ Important note: You get to choose how much indentation to remove with your place
 
 :::figure{.inset}
 :img{src="/img/2022/02/indentation-warning.jpg" alt="Indentation Warning" loading="lazy"}
-:figcaption[Indentation warning]
+::figcaption[Indentation warning]
 :::
 
 As you can see in the above example, the closing quote group is *more* indented than one of the lines in the string. This is an error condition, usually solved by moving the closing quote group to the left.

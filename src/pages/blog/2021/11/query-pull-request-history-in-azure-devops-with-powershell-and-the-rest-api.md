@@ -18,7 +18,7 @@ I needed to get a history of completed pull requests from Azure DevOps. The simp
 
 :::figure{.inset}
 :img{src="/img/2021/11/personal-access-token.jpg" alt="Obtain a Personal Access Token from the User Settings / Personal access tokens menu"}
-:figcaption[Personal access tokens]
+::figcaption[Personal access tokens]
 :::
 
 ## Get your repository ID

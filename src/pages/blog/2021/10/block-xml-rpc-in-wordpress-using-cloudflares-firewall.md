@@ -35,7 +35,7 @@ Or, using the expression editor, enter `(http.request.uri.path contains "xmlrpc.
 
 :::figure{.inset}
 :img{src="/img/2021/10/block-xmlrpc-on-cloudflare.jpg" alt="Block XML RPC on WordPress using Cloudflare" loading="lazy"}
-:figcaption[Blocking XML RPC]
+::figcaption[Blocking XML RPC]
 :::
 
 Hit “DEPLOY” to set your rule live and then test it using the following:

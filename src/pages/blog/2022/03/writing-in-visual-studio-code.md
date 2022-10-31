@@ -45,7 +45,7 @@ The all-in-one markdown extension provides editor support for `.md` files and a 
 
 :::figure{.inset}
 :img{src="/img/2022/03/markdown-all-in-one.jpg" alt="Markdown all-in-one with syntax highlighting and preview pane" loading="lazy"}
-:figcaption[Markdown editing]
+::figcaption[Markdown editing]
 :::
 
 You can also specify a stylesheet to be used to render the preview. This is best done as a **workspace** setting, so you can have different styles for different stuff. When you open a folder as a project, the path for this setting is relative to the top-level folder. Otherwise, you’ll need to use a full path.
@@ -54,7 +54,7 @@ Custom styles are merged with preview settings, so you may need to force some ov
 
 :::figure{.inset}
 :img{src="/img/2022/03/markdown-styles.jpg" alt="Markdown styles setting to add a stylesheet" loading="lazy"}
-:figcaption[Styled output window]
+::figcaption[Styled output window]
 :::
 
 ## Auto markdown TOC
@@ -63,7 +63,7 @@ The auto markdown TOC extension inserts and manages a table of contents in your 
 
 :::figure{.inset}
 :img{src="/img/2022/03/markdown-toc.jpg" alt="An automatically managed table of contents" loading="lazy"}
-:figcaption[Automatic table of contents]
+::figcaption[Automatic table of contents]
 :::
 
 ## Word count
@@ -103,7 +103,7 @@ This is a super-useful tool for editing when you want to hear the text rather th
 
 :::figure{.inset}
 :img{src="/img/2022/03/vscode-speech.jpg" alt="VSCode has an option to speak selection from the context menu" loading="lazy"}
-:figcaption[Speak selection]
+::figcaption[Speak selection]
 :::
 
 ## Grammarly

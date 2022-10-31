@@ -18,7 +18,7 @@ tags:
 
 :::figure
 :img{src="/img/2020/01/dangerous-zone.jpg" alt="Dangerous Zone"}
-:figcaption[Dangerous Zone]
+::figcaption[Dangerous Zone]
 :::
 
 Although the term was coined for economics and insurance, *moral hazard* is a helpful lens for viewing your work, organisation, and interactions. If you are making decisions that result in some other team or individual “feeling the pain”, you are in dangerous territory. So, what is moral hazard?

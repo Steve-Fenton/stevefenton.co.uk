@@ -25,7 +25,7 @@ In this article, a single-server web app will be updated to run on two web serve
 
 :::figure{.inset}
 :img{src="/img/2022/02/load-balancing-with-arr.png" alt="Before: DNS points at a single web server. After: DNS points to an ARR server, with in turn points to two web servers"}
-:figcaption[Load balancing]
+::figcaption[Load balancing]
 :::
 
 ## Installing ARR
@@ -36,7 +36,7 @@ Once installed, you will have a new node in IIS Manager called **Server Farms**.
 
 :::figure{.inset}
 :img{src="/img/2022/02/iis-manager-server-farms.jpg" alt="Server farms node in IIS Manager" loading="lazy"}
-:figcaption[Server farms]
+::figcaption[Server farms]
 :::
 
 ## Creating a server farm
@@ -75,7 +75,7 @@ The example below shows a configuration where routing rules allow all â€œ\*.jpgâ
 
 :::figure{.inset}
 :img{src="/img/2022/02/arr-selective-routing.png" alt="Shows requests for a .jpg file being server from the load balancer and other requests being load balanced to the web farm servers" loading="lazy"}
-:figcaption[Images served from the load balancer]
+::figcaption[Images served from the load balancer]
 :::
 
 ## Summary

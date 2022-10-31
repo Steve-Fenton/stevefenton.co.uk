@@ -20,7 +20,7 @@ Go figure! Let’s start the calls for sensible charts, like line charts, column
 
 :::figure{.inset}
 :img{src="/img/2015/07/insidious_pie_chart.jpg" alt="Insidious Pie Chart" loading="lazy"}
-:figcaption[Pie chart]
+::figcaption[Pie chart]
 :::
 
 ## Further Reading

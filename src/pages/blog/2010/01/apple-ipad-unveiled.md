@@ -13,7 +13,7 @@ The new Apple iPad has been revealed in a big ceremony with an impressive demo f
 
 :::figure{.inset}
 :img{src="/img/2015/07/ipada.jpg" alt="iPad"}
-:figcaption[Apple iPad]
+::figcaption[Apple iPad]
 :::
 
 The iPad is a roughly A4 sized touch-screen with web, game and book functionality (amongst lots of other things). Imagine a piece of thick A4 paper made of aluminium with a massive screen on one side and that’s exactly what’s on offer.
@@ -24,5 +24,5 @@ Here’s a mock-up of what the iPad might look like with this modification.
 
 :::figure{.inset}
 :img{src="/img/2015/07/ipadb.jpg" alt="iPad - Keyboard Edition" loading="lazy"}
-:figcaption[iPad with keyboard]
+::figcaption[iPad with keyboard]
 :::

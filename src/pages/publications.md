@@ -16,7 +16,7 @@ Explore the features of this innovative open source language in depth, from work
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
-:figcaption[Pro TypeScript (Second Edition)]
+::figcaption[Pro TypeScript (Second Edition)]
 :::
 
 </article>
@@ -31,7 +31,7 @@ A rapid introduction to the important metrics, charts, and monitoring concepts n
 
 :::figure{.inset-medium}
 :img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
-:figcaption[Web Operations dashboards, monitoring, and alerting]
+::figcaption[Web Operations dashboards, monitoring, and alerting]
 :::
 
 </article>
@@ -46,7 +46,7 @@ An introduction to Octopus Deploy that shows you how to package, publish, and de
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy, Monitoring, and Alerting" loading="lazy"}
-:figcaption[Exploring Octopus Deploy]
+::figcaption[Exploring Octopus Deploy]
 :::
 
 </article>
@@ -61,7 +61,7 @@ A short collection of thoughts on automation and, in particular, test automation
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
-:figcaption[The Humans are Dead]
+::figcaption[The Humans are Dead]
 :::
 
 </article>
@@ -76,7 +76,7 @@ An overview of how our team created a process that enabled us to write software 
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/cranked-book.jpg" alt="Cranked" loading="lazy"}
-:figcaption[Cranked]
+::figcaption[Cranked]
 :::
 
 </article>

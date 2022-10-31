@@ -21,7 +21,7 @@ Adobe Analytics makes it super-easy to add segments with a visual designer that 
 
 :::figure{.inset}
 :img{src="/img/2021/01/simple-utm-then-checkout-segment.jpg" alt="Settings show: Include Visitor WHERE utm_source does not equal Unspecified THEN WITHIN 1 WEEKS Checkouts is greater than or equal to 1"}
-:figcaption[UTM to checkout flow]
+::figcaption[UTM to checkout flow]
 :::
 
 This is all well and good, but the most subtle part of this rule also happens to be the most critical. It’s the part that says “Include”. It makes quite a big difference whether you choose “Hit”, “Visit”, or “Visitor” because it changes where you can apply the segment later. For example, if you include “hit” and use the segment to analyse a visitor, you’re going to start seeing some results that won’t immediately make sense (they aren’t “wrong”, but they can be misleading).
@@ -37,5 +37,5 @@ If the filter only makes sense for a specific conversion variable, name it after
 
 :::figure{.inset}
 :img{src="/img/2021/01/segment-vs-filter.jpg" alt="Segement (top left) vs filter (dropped under a column)" loading="lazy"}
-:figcaption[Showing locations (A) and (B)]
+::figcaption[Showing locations (A) and (B)]
 :::

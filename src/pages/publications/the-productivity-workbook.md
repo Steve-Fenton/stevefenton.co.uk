@@ -9,7 +9,7 @@ description:
 
 :::figure{.inset-medium}
 :img{src="/img/2022/10/productivity-workbook.png" alt="Steve Fenton - The Productivity Workbook"}
-:figcaption[Productivity Workbook]
+::figcaption[Productivity Workbook]
 :::
 
 ## Book overview

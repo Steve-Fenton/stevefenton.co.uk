@@ -184,7 +184,7 @@ The ability to handle one at a time is my favourite part of Linq – especially 
 
 :::figure{.inset}
 :img{src="/img/2022/01/Linq.png" alt="Diagram shows previous item available for garbage collection, while current item is in memory and future items are not yet loaded into memory" loading="lazy"}
-:figcaption[Memory efficiency]
+::figcaption[Memory efficiency]
 :::
 
 There are a few cases where you might wreck the concept of handling one item at a time. The most common is calling `.ToList()` on an `IEnumerable` as this pulls all results into memory. Another is using `if (items.Count() > 0)` as this needs to iterate all the items to get you the count. It is better to use `if (items.Any())`, which will return true as soon as the first item is found. In the worst-case scenario, it would take the same amount of time as a count – but the best-case scenario is that it returns on the first item. It depends on the position of the first matching item in the collection.

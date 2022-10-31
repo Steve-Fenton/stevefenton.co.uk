@@ -125,7 +125,7 @@ If you want to kickstart your fun with Astro, I have created an Astro Accelerato
 
 :::figure{.inset}
 :img{src="/img/2022/10/astro-accelerator.png" alt="A screenshot of Astro Accelerator" loading="lazy"}
-:figcaption[Astro Accelerator]
+::figcaption[Astro Accelerator]
 :::
 
 You can [see the Astro Accelerator in action](https://astro.stevefenton.co.uk/) or grab the [Astro Accelerator on GitHub](https://github.com/Steve-Fenton/astro-accelerator).

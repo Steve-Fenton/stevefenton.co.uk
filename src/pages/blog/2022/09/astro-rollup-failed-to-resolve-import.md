@@ -43,7 +43,7 @@ This will fail when the build runs in GitHub actions because the filename you ch
 
 :::figure{.inset}
 :img{src="/img/2022/09/suspect-file.png" alt="Suspect File is still shown with a lower case file name" loading="lazy"}
-:figcaption[Hey! Why is this still lower-case?]
+::figcaption[Hey! Why is this still lower-case?]
 :::
 
 You can fix this by performing a more substantial rename, for example, `language.astro` to `Language1.astro`.

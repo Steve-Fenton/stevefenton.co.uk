@@ -19,7 +19,7 @@ The short version on the difference between `AddDefaultIdentity` and `AddIdentit
 
 :::figure{.inset}
 :img{src="/img/2021/11/adddefaultidentity-vs-addidentity.jpg" alt="AddDefaultIdentity vs AddIdentity"}
-:figcaption[Identity comparison]
+::figcaption[Identity comparison]
 :::
 
 ## AddDefaultIdentity

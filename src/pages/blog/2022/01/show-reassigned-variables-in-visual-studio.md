@@ -53,7 +53,7 @@ Here is a screenshot to show this in action. You’ll see the `notAfter` variabl
 
 :::figure{.inset}
 :img{src="/img/2022/01/reassigned-variable.jpg" alt="Screenshot showing a variable underlined because it is reassigned" loading="lazy"}
-:figcaption[Reassigned variables are underlined]
+::figcaption[Reassigned variables are underlined]
 :::
 
 ## How to enable this feature
@@ -62,5 +62,5 @@ You can enable this feature in **Tools -> Options** by navigating to **Text Edit
 
 :::figure{.inset}
 :img{src="/img/2022/01/underline-reassignments.jpg" alt="Finding the underline reassigned variables option in the options dialog" loading="lazy"}
-:figcaption[The reassigned variables option]
+::figcaption[The reassigned variables option]
 :::

@@ -32,7 +32,7 @@ The more important features are the ones that help you improve your website. You
 
 :::figure{.inset}
 :img{src="/img/2022/10/clarity-scroll-map.png" alt="A scroll map of my website" loading="lazy"}
-:figcaption[Hot areas have been seen more than cold areas]
+::figcaption[Hot areas have been seen more than cold areas]
 :::
 
 ### Dead clicks
@@ -85,7 +85,7 @@ Clarity suggested I had a problem with dead clicks. More than 30% of sessions ha
 
 :::figure{.inset}
 :img{src="/img/2022/10/clarity-dead-clicks.png" alt="A chart on Microsoft Clarity showing dead clicks" loading="lazy"}
-:figcaption[High instances of dead clicks]
+::figcaption[High instances of dead clicks]
 :::
 
 Without Clarity, it's not uncommon to metaphorically gather around the campfire to tell stories about why something isn't working. You can avoid the narrative fallacy when you can watch what happened.

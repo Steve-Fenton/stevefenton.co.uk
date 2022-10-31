@@ -21,7 +21,7 @@ The phrase ‘right-to-left’ is pretty well embedded in software development t
 
 :::figure{.inset}
 :img{src="/img/2022/01/task-board.jpg" alt="A task board. From the left there are columns named new, development, pull requests, dev test, deployed to test, testing, ready to release"}
-:figcaption[A typical task board]
+::figcaption[A typical task board]
 :::
 
 ## Board description
@@ -54,7 +54,7 @@ If the cards ready for release are versions 1 and 2, and the card ready to test 
 
 :::fiure{.inset}
 :img{src="/img/2022/01/task-board-2.jpg" alt="The task board has been updated with the changes" loading="lazy"}
-:figcaption[Updated task board]
+::figcaption[Updated task board]
 :::
 
 Now we repeat the process. This time the right-most card is the one waiting to be tested. That’s the next thing to do (and as it moves to the right, you’ll notice that we continue to focus on this card until it is off the board. The right-most card will *always* be the right-most card now we are thinking right-to-left). So, we focus on getting the card tested, and then we focus on getting the card live.
@@ -63,7 +63,7 @@ Each time we do this, we not only finish the card closest to completion, but als
 
 :::figure{.inset}
 :img{src="/img/2022/01/task-board-3.jpg" alt="The updated task board shows the potential for work to flow" loading="lazy"}
-:figcaption[Updated task board]
+::figcaption[Updated task board]
 :::
 
 If we keep following this pattern, we naturally land on single-piece flow. It's just a way to prioritise “finishing” over “starting” work. If you are working on a stack-ranked list of options, this benefits your “most important card”, as no other work slows down the cycle time of the critical work. This benefit is repeated as each “most important card” gets pulled from the to-do list.

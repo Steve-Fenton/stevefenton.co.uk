@@ -27,5 +27,5 @@ You might also like to visit his friends:
 
 :::figure{.inset-small}
 :img{src="/img/2022/04/steve.jpg" alt="Mid-Era Steve" loading="lazy"}
-:figcaption[Mid-era Steve]
+::figcaption[Mid-era Steve]
 :::

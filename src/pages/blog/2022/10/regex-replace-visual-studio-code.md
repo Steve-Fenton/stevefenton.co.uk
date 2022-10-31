@@ -72,7 +72,7 @@ It's best to craft your search RegEx in Visual Studio Code's "find mode". Hit <k
 
 :::figure{.inset}
 :img{src="/img/2022/10/vscode-search-all-mode.png" alt="Visual Studio Code search all box"}
-:figcaption[The search all box]
+::figcaption[The search all box]
 :::
 
 You need to enable the RegEx mode, which has the dot-star icon: `.*` on the search all box. It's highlighted in the above image.
@@ -97,7 +97,7 @@ Visual Studio Code should highlight at least some of your images:
 
 :::figure
 :img{src="/img/2022/10/vs-code-regex-highlighting.png" alt="Visual Studio Code RegEx highlighting" loading="lazy"}
-:figcaption[An example of highlighting]
+::figcaption[An example of highlighting]
 :::
 
 This is working, so keep going. You've now got the start of the image, with the alt-text captured. Now you need the rest, which is just a case of repeating what you did for the square brackets, but for normal parentheses. You need to match an escaped bracket `\(` then capture the contents with `(.+?)` until your closing bracket `\)`.
@@ -126,7 +126,7 @@ You should see the whole image highlighted but not any inline images in your mar
 
 :::figure
 :img{src="/img/2022/10/vscode-complete-regex-example.png" alt="Example of highlighting for the complete RegEx" loading="lazy"}
-:figcaption[Highlighting for the complete example]
+::figcaption[Highlighting for the complete example]
 :::
 
 Now you must leave the safety of your search box and execute a replace operation, so have version control ready just in case things go wrong.
@@ -161,7 +161,7 @@ Before you hit the replace-all button, you can click through the find results to
 
 :::figure
 :img{src="/img/2022/10/preview-replacements.png" alt="Preview the replacements" loading="lazy"}
-:figcaption[Preview a replacement by selecting it]
+::figcaption[Preview a replacement by selecting it]
 :::
 
 If things look as you expect, proceed with the change.

@@ -10,7 +10,7 @@ description:
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/typescript-for-csharp-programmers.jpg" alt="TypeScript for C# Programmers"}
-:figcaption[TypeScript for C# Programmers]
+::figcaption[TypeScript for C# Programmers]
 :::
 
 This book is aimed at .Net programmers and explains key concepts as well as similarities and differences between TypeScript and C#. There is a quick start guide in the first chapter that introduces the syntax. The later chapters include deep dives into the type system, memory management, events and exceptions.

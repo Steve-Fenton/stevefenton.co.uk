@@ -28,7 +28,7 @@ Visual Studio knows that you shouldn’t have to remember this stuff, so it now 
 
 :::figure{.inset}
 :img{src="/img/2021/10/autocomplete-date-formats.jpg" alt="Auto completion of date format strings" loading="lazy"}
-:figcaption[Autocomplete date formats]
+::figcaption[Autocomplete date formats]
 :::
 
 This is a big energy-saver as you no longer need to perform two or three feedback loops to refine your guessed date string.

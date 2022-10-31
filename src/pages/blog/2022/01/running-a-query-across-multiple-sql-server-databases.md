@@ -58,7 +58,7 @@ The output file will have a column for each of the fields in the field list, plu
 
 :::figure{.inset}
 :img{src="/img/2022/01/temp-mq-folder.jpg" alt="The temp mq folder with an input and output file" loading="lazy"}
-:figcaption[The input and output files]
+::figcaption[The input and output files]
 :::
 
 ## Least privilege

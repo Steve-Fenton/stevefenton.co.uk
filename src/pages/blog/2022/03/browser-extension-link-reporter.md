@@ -19,7 +19,7 @@ I needed to grab a report of all hyperlinks on a web page, so I wrote a browser 
 
 :::figure{.inset}
 :img{src="/img/2022/03/link-reporter-edge-extension.jpg" alt="Link reporter in the extension store"}
-:figcaption[Link Reporter extension]
+::figcaption[Link Reporter extension]
 :::
 
 The extension is available for free in both Edge and Chrome marketplaces.
@@ -31,7 +31,7 @@ The extension is available for free in both Edge and Chrome marketplaces.
 
 :::figure{.inset}
 :img{src="/img/2022/03/using-link-reporter.jpg" alt="Click on the LinkReporter icon in the browser toolbar and the report will download" loading="lazy"}
-:figcaption[Link Reporter icon in the toolbar]
+::figcaption[Link Reporter icon in the toolbar]
 :::
 
 Once you’ve installed the extension:
@@ -42,7 +42,7 @@ Once you’ve installed the extension:
 
 :::figure{.inset}
 :img{src="/img/2022/03/example-report.png" alt="Example report from Link Reporter" loading="lazy"}
-:figcaption[CSV report]
+::figcaption[CSV report]
 :::
 
 The report contains the following information:

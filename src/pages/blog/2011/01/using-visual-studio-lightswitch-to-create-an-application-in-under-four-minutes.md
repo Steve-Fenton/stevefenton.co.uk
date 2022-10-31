@@ -15,7 +15,7 @@ Here is a screen shot of the application I created – it’s a simple email / p
 
 :::figure{.inset}
 :img{src="/img/2015/07/application.png" alt="LightSwitch Application"}
-:figcaption[Lightswitch app]
+::figcaption[Lightswitch app]
 :::
 
 Remember, the entire application took 3:20 to write from scratch – just look at this search screen. I’ve got my data persisted to a SQL Express database for free. I’ve got paged results for free, I’ve got a search box that searches multiple fields for free. I’ve got the option to export to excel for free. Also note that I’ve added a “Create New Contact” page and also a “Details” page (you click on the first name) to edit existing records. I did those inside of that 3:20 as well.
@@ -30,7 +30,7 @@ This is the first screen you get. You type in the fields that you want to use in
 
 :::figure{.inset}
 :img{src="/img/2015/07/data.png" alt="LightSwitch Data Set Up" loading="lazy"}
-:figcaption[Data set up]
+::figcaption[Data set up]
 :::
 
 ## Step 2 – Add a screen
@@ -39,7 +39,7 @@ From the view of the data model, you just hit the “Add Screen” button and se
 
 :::figure{.inset}
 :img{src="/img/2015/07/selecttemplate.png" alt="LightSwitch Add Screen" loading="lazy"}
-:figcaption[Add screen]
+::figcaption[Add screen]
 :::
 
 At this point, you are actually finished – although I repeated this step to add a “Create Contact” screen and a “Details” screen (which also lets you edit the record).
@@ -56,10 +56,10 @@ Here are a couple more screenshots that show some of the stuff you get for free 
 
 :::figure{.inset}
 :img{src="/img/2015/07/validation.png" alt="Validation" loading="lazy"}
-:figcaption[Validation]
+::figcaption[Validation]
 :::
 
 :::figure{.inset}
 :img{src="/img/2015/07/dirtydata.png" alt="Dirty Data" loading="lazy"}
-:figcaption[Dirty data]
+::figcaption[Dirty data]
 :::

@@ -25,14 +25,14 @@ There is a setting that you can enable to make the taskbar screen-specific. This
 
 :::figure{.inset}
 :img{src="/img/2022/02/example-taskbar-sketch.jpg" alt="Taskbar before and after sketch - different taskbars on each display" loading="lazy"}
-:figcaption[Taskbar before and after]
+::figcaption[Taskbar before and after]
 :::
 
 Here’s how you can switch it on and try it out yourself.
 
 :::figure{.inset}
 :img{src="/img/2022/02/taskbar-settings.jpg" alt="Taskbar settings option" loading="lazy"}
-:figcaption[Taskbar settings]
+::figcaption[Taskbar settings]
 :::
 
 Right-click on the taskbar and select “Taskbar settings”.
@@ -43,7 +43,7 @@ If you are using two instances of the same app, but on different displays, they 
 
 :::figure{.inset}
 :img{src="/img/2022/02/taskbar-behaviours.jpg" alt="Taskbar behaviours settings" loading="lazy"}
-:figcaption[Taskbar behaviours]
+::figcaption[Taskbar behaviours]
 :::
 
 I hope you find this useful.

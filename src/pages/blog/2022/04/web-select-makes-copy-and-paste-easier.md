@@ -21,14 +21,14 @@ This is a pretty neat feature coming to Microsoft Edge. If you hit <kbd>CTRL</kb
 
 :::figure{.inset}
 :img{src="/img/2022/04/web-select.jpg" alt="Web select shows a selection area on the web page"}
-:figcaption[Web select]
+::figcaption[Web select]
 :::
 
 The feature also lets you sub-select across multiple vertical containers, with only the stuff inside the rectangle making it onto your clipboard. In the below example, just the highlighted content gets ripped out onto the clipboard.
 
 :::figure{.inset}
 :img{src="/img/2022/04/web-select-vertical.jpg" alt="Parts of content being selected from two columns in a multi-column layout" loading="lazy"}
-:figcaption[Selecing across containers]
+::figcaption[Selecing across containers]
 :::
 
 The clipboard from this screenshot has been “emptied” below so you can see the result.
@@ -46,12 +46,12 @@ This is particularly brilliant for selecting content from tables:
 
 :::figure{.inset}
 :img{src="/img/2022/04/web-select-table.jpg" alt="Just selected cells from a table are selected" loading="lazy"}
-:figcaption[Selecting some table cells]
+::figcaption[Selecting some table cells]
 :::
 
 If you paste the selected content into a document, you'll see how useful this is:
 
 :::figure{.inset}
 :img{src="/img/2022/04/web-select-paste-in-word.jpg" alt="Web selected partial table pasted into Word" loading="lazy"}
-:figcaption[Partial table pasted]
+::figcaption[Partial table pasted]
 :::

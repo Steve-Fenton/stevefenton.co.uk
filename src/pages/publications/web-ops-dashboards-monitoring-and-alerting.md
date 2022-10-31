@@ -10,7 +10,7 @@ description:
 
 :::figure{.inset-medium}
 :img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting"}
-:figcaption[Web Operations Dashboards, Monitoring, and Alerting]
+::figcaption[Web Operations Dashboards, Monitoring, and Alerting]
 :::
 
 This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.

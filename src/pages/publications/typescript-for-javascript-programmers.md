@@ -10,7 +10,7 @@ description:
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/typescript.png" alt="TypeScript for JavaScript Programmers"}
-:figcaption[TypeScript for JavaScript Programmers]
+::figcaption[TypeScript for JavaScript Programmers]
 :::
 
 This was the first book ever published on the TypeScript programming language. If you want to learn TypeScript, my up-to-date book is [Pro TypeScript (Second Edition)](/publications/pro-typescript/).

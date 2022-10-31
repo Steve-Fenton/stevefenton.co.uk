@@ -26,7 +26,7 @@ You can also navigate the suggestions using <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <
 
 :::figure{.inset}
 :img{src="/img/2022/03/copilot-fibbonaci.jpg" alt="Copilot example" loading="lazy"}
-:figcaption[Github Copilot suggesting a Fibbonaci implementation]
+::figcaption[Github Copilot suggesting a Fibbonaci implementation]
 :::
 
 You can read the [official announcement on GitHub](https://github.blog/2022-03-29-github-copilot-now-available-for-visual-studio-2022/).

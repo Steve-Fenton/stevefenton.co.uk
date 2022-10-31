@@ -24,7 +24,7 @@ More detail on the results can be found below.
 
 :::figure{.inset}
 :img{src="/img/2015/07/html5_full.png" alt="An example of the working page" loading="lazy"}
-:figcaption[Example working page]
+::figcaption[Example working page]
 :::
 
 - Avant 11.7
@@ -46,7 +46,7 @@ More detail on the results can be found below.
 
 :::figure{.inset}
 :img{src="/img/2015/07/html5_partial.png" alt="A usable page that doesn't look perfect" loading="lazy"}
-:figcaption[Usable but imperfect page]
+::figcaption[Usable but imperfect page]
 :::
 
 In these cases, the website does display, but with limited graphical support and with a generally in-line style.

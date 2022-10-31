@@ -26,7 +26,7 @@ The diagram below is a recreation of Kent Beck’s hand-sketched list. It's as f
 
 :::figure{.inset}
 :img{src="/img/2022/06/xp-extreme-programming-practices-1.png" alt="Extreme Programming (XP) Practices"}
-:figcaption[Extreme Programming practices]
+::figcaption[Extreme Programming practices]
 :::
 
 The diagram resembles the more recent DORA structural equation model (SEM). While Kent Beck's set of practices was based on empirical observation, the structural equation model is research-backed. So, has the new model blown the old one out of the model?
@@ -41,7 +41,7 @@ To explore this further, review the DevOps structural equation model and then re
 
 :::figure{.inset}
 :img{src="/img/2022/06/devops-structural-equation-model-1.png" alt="DevOps Structural Equation Model (SEM)" loading="lazy"}
-:figcaption[The DevOps structual equation model]
+::figcaption[The DevOps structual equation model]
 :::
 
 ## The combined model
@@ -83,7 +83,7 @@ With the above classifications in mind, we can confirm many of the practices and
 
 :::figure{.inset}
 :img{src="/img/2022/06/xp-devops-1.png" alt="XP vs DevOps Structural Equation Model" loading="lazy"}
-:figcaption[XP vs DevOps model]
+::figcaption[XP vs DevOps model]
 :::
 
 Represented by solid coloured lines in the diagram, the following relationships are directionally confirmed:

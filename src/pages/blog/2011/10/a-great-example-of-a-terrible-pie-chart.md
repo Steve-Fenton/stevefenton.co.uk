@@ -18,7 +18,7 @@ So with this in mind, what are the rules of the pie chart, and just how many of 
 
 :::figure{.inset}
 :img{src="/img/2015/07/calvin_harris_got_love_for_this_chart.jpg" alt="This Pie Chart Was Born In The Eighties"}
-:figcaption[Pie chart]
+::figcaption[Pie chart]
 :::
 
 I would like to point out that I didn’t create this chart, it was displayed during a presentation and I took a hasty photo with my smart phone in order to share it with you. This is also the reason why I appear in the reflection on the display screen!
@@ -77,5 +77,5 @@ Let’s just imagine what things might have looked like if we had just used a mo
 
 :::figure{.inset}
 :img{src="/img/2015/07/same_thing_but_with_columns.jpg" alt="This Column Chart Provides Chronology" loading="lazy"}
-:figcaption[Column chart provides chronology]
+::figcaption[Column chart provides chronology]
 :::

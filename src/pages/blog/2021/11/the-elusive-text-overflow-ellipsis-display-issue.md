@@ -29,7 +29,7 @@ In many cases, though, this simply doesn’t do what you expect.
 
 :::figure{.inset}
 :img{src="/img/2021/11/no-ellipsis.jpg" alt="No ellipsis is shown" loading="lazy"}
-:figcaption[No ellipsis]
+::figcaption[No ellipsis]
 :::
 
 There are two common reasons for this.
@@ -55,5 +55,5 @@ If the `white-space` fix doesn’t solve the problem, the second most likely iss
 
 :::figure{.inset}
 :img{src="/img/2021/11/with-ellipsis.jpg" alt="Ellipsis is shown" loading="lazy"}
-:figcaption[Text ends with an ellipsis]
+::figcaption[Text ends with an ellipsis]
 :::

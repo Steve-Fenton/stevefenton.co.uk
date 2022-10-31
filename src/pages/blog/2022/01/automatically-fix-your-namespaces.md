@@ -23,14 +23,14 @@ Right-click on a project or solution and select **Sync namesapces**. All of the 
 
 :::figure{.inset}
 :img{src="/img/2022/01/sync-namespaces.jpg" alt="Sync namespaces" loading="lazy"}
-:figcaption[Sync namespaces]
+::figcaption[Sync namespaces]
 :::
 
 This is the kind of change you’ll be committing after running this tool.
 
 :::figure{.inset}
 :img{src="/img/2022/01/updated-namespace.jpg" alt="Updated namesapces" loading="lazy"}
-:figcaptionp[Updated namespaces]
+::figcaptionp[Updated namespaces]
 :::
 
 You may want to avoid using this feature on projects where you deliberately use namespaces that don’t match the folder structure or on MVC projects.

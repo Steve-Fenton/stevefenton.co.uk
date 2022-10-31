@@ -15,7 +15,7 @@ The facts of software test automation must be carefully separated from all these
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
-:figcaption[The Humans are Dead]
+::figcaption[The Humans are Dead]
 :::
 
 Buy online:

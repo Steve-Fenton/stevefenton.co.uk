@@ -126,7 +126,7 @@ jobs:
 
 :::figure{.inset}
 :img{src="/img/2022/04/github-action-complete.jpg" alt="Visual representation of the GitHub Action" loading="lazy"}
-:figcaption[The GitHub Action]
+::figcaption[The GitHub Action]
 :::
 
 ## Page options

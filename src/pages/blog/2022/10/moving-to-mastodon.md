@@ -41,7 +41,7 @@ Post action icons look familiar, but it's worth understanding how they work.
 
 :::figure
 :img{src="/img/2022/10/mastodon-icons.png" alt="Mastodon action icons" loading="lazy"}
-:figcaption[Mastodon's action icons]
+::figcaption[Mastodon's action icons]
 :::
 
 1. Reply (or reply to thread): Hit this to add a post to the thread.

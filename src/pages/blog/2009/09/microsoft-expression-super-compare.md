@@ -23,5 +23,5 @@ Here’s the overlay comparison for my website. You can see the blurs where the 
 
 :::figure{.inset}
 :img{src="/img/2015/07/expression_super_preview.jpg" alt="Expression Super Preview" loading="lazy"}
-:figcaption[Expression Super Preview]
+::figcaption[Expression Super Preview]
 :::

@@ -28,7 +28,7 @@ In 2009, the British people selected their representatives to sit on the Europea
 
 :::figure{.inset}
 :img{src="/img/2015/07/pie001.png" alt="Nasty Euro Election Pie Chart" loading="lazy"}
-:figcaption[Euro election pie chart]
+::figcaption[Euro election pie chart]
 :::
 
 So, what's wrong with this pie chart? While it's reasonably clear that the Conservative Party got the single biggest chunk of the vote, it is tough to tell the difference between the following three parties: UKIP, Labour, and the Liberal Democrats. This is a bit of a problem as the whole point of the chart should be to give us this kind of information. It is also hard to tell the difference between the next two parties: Green and BNP.
@@ -37,7 +37,7 @@ Let’s rearrange the data onto a column chart. This is usually a good choice fo
 
 :::figure{.inset}
 :img{src="/img/2015/07/column001.png" alt="Fantastic Euro Election Column Chart" loading="lazy"}
-:figcaption[Euro election columns chart]
+::figcaption[Euro election columns chart]
 :::
 
 The difference is clear. When comparing the portion of the total vote, the pie chart (the guaranteed choice of the newspapers) is rubbish compared to the column chart.
@@ -50,24 +50,24 @@ Let's look at size using the same data as the previous example. No matter what a
 
 :::figure{.inset-small}
 :img{src="/img/2015/07/pie002.png" alt="Shocking Tiny Pie" loading="lazy"}
-:figcaption[Tiny pie chart]
+::figcaption[Tiny pie chart]
 :::
 
 :::figure{.inset}
 :img{src="/img/2015/07/pie003.png" alt="Awful Large Pie" loading="lazy"}
-:figcaption[Large pie chart]
+::figcaption[Large pie chart]
 :::
 
 Our trusty column chart, however, remains versatile. Enlarging the chart can make the differences between the items even clearer. In these examples, you can see the differences clearly enough in the small chart, but you can also see the enhanced impact of the big one beneath it.
 
 :::figure{.inset-small}
 :img{src="/img/2015/07/column002.png" alt="Excellent Tiny Column Chart" loading="lazy"}
-:figcaption[Small column chart]
+::figcaption[Small column chart]
 :::
 
 :::figure{.inset}
 :img{src="/img/2015/07/column003.png" alt="Stunning Huge Column Chart" loading="lazy"}
-:figcaption[Large column chart]
+::figcaption[Large column chart]
 :::
 
 Where clearly labelled (and if it is useful for the specific analytics), it is also possible to display a column chart with a different vertical scale (for example, a log scale) or from a non-zero starting point (though this is rarely wise). A pie chart cannot be adapted in these ways.
@@ -84,7 +84,7 @@ Could second-place party Labour team up with third-place Liberal Democrats to cr
 
 :::figure{.inset}
 :img{src="/img/2015/07/pie004.png" alt="Disasterous UK Election Pie Chart" loading="lazy"}
-:figcaption[UK election pie chart]
+::figcaption[UK election pie chart]
 :::
 
 It is actually quite hard to tell. You have to compare the lilac section with the combined purple and yellow sections. It isn’t easy to tell which is bigger when displayed on a pie chart.
@@ -93,7 +93,7 @@ If we return to our trusty column chart, things are a little more obvious.
 
 :::figure{.inset}
 :img{src="/img/2015/07/column004.png" alt="Brilliant UK Election Column Chart" loading="lazy"}
-:figcaption[UK election column chart]
+::figcaption[UK election column chart]
 :::
 
 Now it's clear. The Liberal Democrats were in a uniquely gifted situation. If they were to team up with Labour, the combined party would be bigger than the Conservative Party. Equally, if they teamed up with the Conservatives, they would be the outright winners. The Lib Dems were the king-makers of this general election.
