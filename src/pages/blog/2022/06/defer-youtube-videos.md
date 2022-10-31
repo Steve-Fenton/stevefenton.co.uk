@@ -13,6 +13,9 @@ authors:
     - steve-fenton
 categories:
     - Programming
+tags:
+    - JavaScript
+    - HTML
 ---
 
 If you use third-party video on your website, you can defer loading the video until the user indicates they wish to view it. This lightens your page and avoids third-party requests unless the user interacts with the video content.

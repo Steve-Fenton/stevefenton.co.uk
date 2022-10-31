@@ -27,6 +27,11 @@ export const SITE = {
 		month: 'long',
 		day: 'numeric',
 	},
+	featureFlags: {
+		codeBlocks: ['copy'],
+		figures: ['enlarge'],
+		youTubeLinks: ['embed'],
+	},
 	images: {
 		contentSize: '(max-width: 860px) 100vw, 66vw',
 		listerSize: '(max-width: 860px) 90vw, 350px'
