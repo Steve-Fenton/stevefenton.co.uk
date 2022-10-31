@@ -40,13 +40,13 @@
     robocopy $from $to '[page].astro'
 
     ## Article category list page -> Blog category list page
-    $from = $src + 'src/pages/articles/category/[category]/'
-    $to = './src/pages/blog/category/[category]/'
+    $from = $src + 'src/pages/category/[category]/'
+    $to = './src/pages/category/[category]/'
     robocopy $from $to '[page].astro' /s
 
     ## Article tag list pages -> Blog tag list page
-    $from = $src + 'src/pages/articles/tag/[tag]/'
-    $to = './src/pages/blog/tag/[tag]/'
+    $from = $src + 'src/pages/tag/[tag]/'
+    $to = './src/pages/tag/[tag]/'
     robocopy $from $to '[page].astro' /s
 
     ## Search data
