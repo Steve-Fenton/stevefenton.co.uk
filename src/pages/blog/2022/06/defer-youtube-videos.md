@@ -27,7 +27,15 @@ This example is an adaptation of a great idea from [Go Make Things](https://goma
 The traditional embed of a YouTube video looks like this…
 
 ```html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VOWnhMxJMMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/VOWnhMxJMMk"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen="">
+</iframe>
 ```
 
 ## Deferring YouTube
