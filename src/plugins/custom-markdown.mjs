@@ -12,14 +12,18 @@ This is an inline :abbr[I18n]{ title="Internationalization" } element
 
 ## Images
 
-:::div{.inset}
 :img{ src="/img/frankenstein.png" alt="Book cover" loading="lazy" }
-:::
 
 ## Block
 
 :::div{.note}
 This is a custom div element with the class `note`
+:::
+
+## Combinations
+:::figure
+:img{ src="/img/frankenstein.png" alt="Book cover" loading="lazy" }
+:figcaption[The modern hardback edition of Frankenstein]
 :::
 
 */
@@ -34,14 +38,14 @@ export function getImageInfo(src, className, sizes) {
   let uri = src;
   uri = uri.replace(/.jpg|.jpeg|.png/, '.webp');
 
-  const imgFallback = src.replace(/^\/img\//, '/i/x/');
+  const imgFallback = src.replace(/\/img\//, '/i/x/');
 
   const imgSmall = getDestination(uri, size.small);
   const imgMedium = getDestination(uri, size.medium);
   const imgLarge = getDestination(uri, size.large);
 
   info.src = imgFallback;
-  info.srcset = `${imgSmall} ${size.small}w, ${imgMedium} ${size.medium}w, ${imgLarge}, ${size.large}w`;
+  info.srcset = `${imgSmall} ${size.small}w, ${imgMedium} ${size.medium}w, ${imgLarge} ${size.large}w`;
   info.sizes = sizes;
   info.class = (className ?? '' + ' resp-img').trim();
 

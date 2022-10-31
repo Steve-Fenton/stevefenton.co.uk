@@ -56,6 +56,11 @@
 
 # Standard copies
 
+    $srcPlugins = $src + 'src/plugins'
+    $destPlugins = './src/plugins'
+
+    robocopy $srcPlugins $destPlugins
+
     $srcComponents = $src + 'src/themes/accelerator/components'
     $destComponents = './src/themes/accelerator/components'
 
