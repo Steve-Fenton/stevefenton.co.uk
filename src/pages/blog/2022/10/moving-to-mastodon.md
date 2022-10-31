@@ -74,3 +74,8 @@ You can find more people by searching topics in the [Fediverse Directory](https:
 ## Conclusion
 
 Here's to a better future for social, where we can control our feed and hopefully begin a healthy conversation.
+
+You can find more useful tips below:
+
+- [Per Axbom: 10 quick Mastodon tips](https://axbom.com/mastodon-tips/)
+- [Dr. Axel Rauschmayer: Getting started with Mastodon](https://2ality.com/2022/10/mastodon-getting-started.html)
