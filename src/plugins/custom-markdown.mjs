@@ -29,7 +29,9 @@ This is a custom div element with the class `note`
 */
 
 export function getDestination(uri, s) {
-  return uri.replace(/^\/img\//, '/i/' + s.toString() + '/');
+  const fromRegEx = new RegExp('^' + SITE.subfolder + '/img/');
+  const replacement = SITE.subfolder + '/i/' + s.toString() + '/';
+  return uri.replace(fromRegEx, replacement);
 }
 
 export function getImageInfo(src, className, sizes) {
@@ -38,14 +40,14 @@ export function getImageInfo(src, className, sizes) {
   let uri = src;
   uri = uri.replace(/.jpg|.jpeg|.png/, '.webp');
 
-  const imgFallback = src.replace(/\/img\//, '/i/x/');
+  const imgFallback = getDestination(src, 'x');
 
   const imgSmall = getDestination(uri, size.small);
   const imgMedium = getDestination(uri, size.medium);
   const imgLarge = getDestination(uri, size.large);
 
   info.src = imgFallback;
-  info.srcset = `${imgSmall} ${size.small}w, ${imgMedium} ${size.medium}w, ${imgLarge} ${size.large}w`;
+  info.srcset = `${imgSmall} ${size.small}w, ${imgMedium} ${size.medium}w, ${imgLarge}`;
   info.sizes = sizes;
   info.class = (className ?? '' + ' resp-img').trim();
 
