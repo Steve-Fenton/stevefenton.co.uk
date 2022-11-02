@@ -56,7 +56,7 @@ In my case, I run the following to drop the file into my downloads file:
 npx license-checker --out ./public/downloads/licenses.csv --csv --onlyAllow "0BSD;BSD-2-Clause;BSD-3-Clause;CC-BY-4.0;ISC;MIT;Apache-2.0;UNLICENSED"
 ```
 
-[You can download the license CSV](/public/downloads/licenses.csv) to see all the dependencies and licenses from my static site generator, Astro.
+[You can download the license CSV](/downloads/licenses.csv) to see all the dependencies and licenses from my static site generator, Astro.
 
 ## Summary
 
