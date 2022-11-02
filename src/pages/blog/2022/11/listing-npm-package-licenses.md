@@ -38,7 +38,7 @@ This will generate a comma-separated file with an entry for each package, whethe
 
 ## Automatically check licenses
 
-If you run this as as part of your build process, you can fail the build if an unrecognised license appears in your dependencies. There's a flag to check this, which lets you pass a semi-colon-separated string of licenses:
+If you run this as part of your build process, you can fail the build if an unrecognised license appears in your dependencies. There's a flag to check this, which lets you pass a semi-colon-separated string of licenses:
 
 ```
 --onlyAllow "Apache-2.0;ISC;MIT" 
@@ -53,7 +53,7 @@ If there's a package with a license you don't allow, you'll get a warning:
 In my case, I run the following to drop the file into my downloads file:
 
 ```
-npx license-checker --out ./public/downloads/licenses.csv --csv
+npx license-checker --out ./public/downloads/licenses.csv --csv --onlyAllow "0BSD;BSD-2-Clause;BSD-3-Clause;CC-BY-4.0;ISC;MIT;Apache-2.0;UNLICENSED"
 ```
 
 [You can download the license CSV](/public/downloads/licenses.csv) to see all the dependencies and licenses from my static site generator, Astro.
