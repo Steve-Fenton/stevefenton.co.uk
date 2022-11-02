@@ -36,9 +36,21 @@ This will generate a comma-separated file with an entry for each package, whethe
 | @astrojs/compiler@0.23.5    | MIT        | https://github.com/withastro/compiler   |
 | @astrojs/compiler@0.29.5    | MIT        | https://github.com/withastro/compiler   |
 
-In my case, I run the following to drop the file into my downloads file:
+## Automatically check licenses
+
+If you run this as as part of your build process, you can fail the build if an unrecognised license appears in your dependencies. There's a flag to check this, which lets you pass a semi-colon-separated string of licenses:
+
+```
+--onlyAllow "Apache-2.0;ISC;MIT" 
+```
+
+If there's a package with a license you don't allow, you'll get a warning:
+
+> Package "caniuse-lite@1.0.30001427" is licensed under "CC-BY-4.0" which is not permitted by the --onlyAllow flag. Exiting.
 
 ## License checker on this website
+
+In my case, I run the following to drop the file into my downloads file:
 
 ```
 npx license-checker --out ./public/downloads/licenses.csv --csv
