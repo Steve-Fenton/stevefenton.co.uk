@@ -4,11 +4,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "node ./src/utilities/img.js && astro dev",
+    "img": "node --no-experimental-fetch ./src/utilities/img.js",
+    "dev": "node --no-experimental-fetch ./src/utilities/img.js && astro dev",
+    "test": "astro build && npx playwright test",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "img": "node ./src/utilities/img.js"
+    "astro": "astro"
   },
   "dependencies": {
     "@squoosh/lib": "^0.4.0",
