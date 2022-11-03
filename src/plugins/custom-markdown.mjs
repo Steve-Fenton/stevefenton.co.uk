@@ -1,7 +1,9 @@
 import { SITE } from '../config';
-import { h } from 'hastscript';
 import { visit } from 'unist-util-visit';
+import { h } from 'hastscript';
 import { size } from './image-size.mjs';
+import { fromSelector } from 'hast-util-from-selector'
+
 
 /* Based on https://github.com/remarkjs/remark-directive
 * Examples:
@@ -57,16 +59,14 @@ export function getImageInfo(src, className, sizes) {
 /** @type {import('unified').Plugin<[], import('mdast').Root>} */
 export function attributeMarkdown() {
   return (tree) => {
+
     visit(tree, (node) => {
-      if (
-        node.type === 'textDirective' ||
-        node.type === 'leafDirective' ||
-        node.type === 'containerDirective'
-      ) {
+      if (['textDirective', 'leafDirective', 'containerDirective'].includes(node.type)) {
         const data = node.data || (node.data = {});
         const hast = h(node.name, node.attributes);
 
         if (hast.properties.src) {
+          // Process the image
           const info = getImageInfo(hast.properties.src, hast.properties.class, SITE.images.contentSize);
 
           hast.properties.src = info.src;
@@ -78,6 +78,27 @@ export function attributeMarkdown() {
         data.hName = hast.tagName;
         data.hProperties = hast.properties;
       }
-    })
+    });
+  }
+}
+
+/** @type {import('unified').Plugin<[], import('mdast').Root>} */
+export function wrapTables() {
+  return (tree) => {
+    visit(tree, (node, i, parent) => {
+      if (node.type == 'table') {
+        // Create the wrapping element
+        const wrap = fromSelector('div');
+        const data = wrap.data || (wrap.data = {})
+        const props = data.hProperties || (data.hProperties = {})
+        props.className = 'table-wrap';
+
+        // Add the table to the wrapper
+        wrap.children = [node];
+
+        // Replace the table with the wrapper
+        parent.children[i] = wrap;
+      }
+    });
   }
 }

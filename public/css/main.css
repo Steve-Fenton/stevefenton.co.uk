@@ -198,6 +198,11 @@ strong {
     font-weight: bold;
 }
 
+.table-wrap {
+    max-width: 100%;
+    overflow: auto;
+}
+
 table {
     border-collapse: collapse;
     border: 0.5px solid var(--fore);
