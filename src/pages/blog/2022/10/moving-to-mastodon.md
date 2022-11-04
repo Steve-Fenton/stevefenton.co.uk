@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Moving to Mastodon'
 navMenu: false
 pubDate: 2022-10-28
+modDate: 2022-11-04
 keywords: twitter,mastodon,migration
 description: Find out how to migrate to Mastodon and how to navigate the subtle differences.
 bannerImage:
