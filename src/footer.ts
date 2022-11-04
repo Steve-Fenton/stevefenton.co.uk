@@ -9,31 +9,30 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 		ariaCurrent: false,
 		isOpen: false,
 		order: 1,
-		section: '',
 		children: [{
 			title: '🐘 Mastodon',
 			url: 'https://mastodon.social/@stevefenton',
 			ariaCurrent: false,
 			isOpen: false,
 			order: 1,
-			section: '',
-			children: []
+			children: [],
+			rel: 'me'
 		},{
 			title: '🐈 GitHub',
 			url: 'https://github.com/Steve-Fenton',
 			ariaCurrent: false,
 			isOpen: false,
 			order: 1,
-			section: '',
-			children: []
+			children: [],
+			rel: 'me'
 		},{
 			title: '🏢 LinkedIn',
 			url: 'https://www.linkedin.com/in/stevefenton/',
 			ariaCurrent: false,
 			isOpen: false,
 			order: 1,
-			section: '',
-			children: []
+			children: [],
+			rel: 'me'
 		}]
 }];
 
