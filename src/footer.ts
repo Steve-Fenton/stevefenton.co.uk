@@ -16,7 +16,6 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 			isOpen: false,
 			order: 1,
 			children: [],
-			rel: 'me'
 		},{
 			title: '🐈 GitHub',
 			url: 'https://github.com/Steve-Fenton',
@@ -24,7 +23,6 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 			isOpen: false,
 			order: 1,
 			children: [],
-			rel: 'me'
 		},{
 			title: '🏢 LinkedIn',
 			url: 'https://www.linkedin.com/in/stevefenton/',
@@ -32,7 +30,6 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 			isOpen: false,
 			order: 1,
 			children: [],
-			rel: 'me'
 		}]
 }];
 
