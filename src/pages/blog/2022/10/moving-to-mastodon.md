@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Moving to Mastodon'
 navMenu: false
 pubDate: 2022-10-28
-modDate: 2022-11-04
+modDate: 2022-11-05
 keywords: twitter,mastodon,migration
 description: Find out how to migrate to Mastodon and how to navigate the subtle differences.
 bannerImage:
@@ -34,7 +34,9 @@ The key benefits of Mastodon are:
 
 ## Join Mastodon
 
-To get started with Mastodon, you need to find a server related to a topic you are interested in (like "technology"). You might want to defer this decision and sign up to [mstdn.social](https://mstdn.social/) while you explore. You can migrate to another server later.
+To get started with Mastodon, you need to find a server related to a topic you are interested in (like "technology"). You might want to defer this decision and sign up to [mstdn.social](https://mstdn.social/) or [mastodon.cloud](https://mastodon.cloud/about) while you explore. You can migrate to another server, or set up your own, later.
+
+- [Join Mastodon](https://joinmastodon.org/)
 
 ## Key differences
 
@@ -83,3 +85,4 @@ You can find more useful tips below:
 
 - [Per Axbom: 10 quick Mastodon tips](https://axbom.com/mastodon-tips/)
 - [Dr. Axel Rauschmayer: Getting started with Mastodon](https://2ality.com/2022/10/mastodon-getting-started.html)
+- [How to make friends and verify requests](https://blog.joinmastodon.org/2018/07/how-to-make-friends-and-verify-requests/)
