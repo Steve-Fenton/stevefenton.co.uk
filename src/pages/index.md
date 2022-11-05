@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: Home
 navOrder: 0
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: steve fenton
+description: Steve Fenton's personal home page and blog.
 ---
 
 Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/) and writer. You can find out [more about Steve Fenton here](/about-me/).

@@ -4,8 +4,8 @@ title: TypeScript for C# Programmers
 navTitle: TypeScript (C# ed.)
 navOrder: 7000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: typescript,c#
+description: This free book is aimed at .Net programmers and explains key concepts as well as similarities and differences between TypeScript and C#.
 ---
 
 :::figure{.inset-medium}
@@ -13,7 +13,7 @@ description:
 ::figcaption[TypeScript for C# Programmers]
 :::
 
-This book is aimed at .Net programmers and explains key concepts as well as similarities and differences between TypeScript and C#. There is a quick start guide in the first chapter that introduces the syntax. The later chapters include deep dives into the type system, memory management, events and exceptions.
+This free book is aimed at .Net programmers and explains key concepts as well as similarities and differences between TypeScript and C#. There is a quick start guide in the first chapter that introduces the syntax. The later chapters include deep dives into the type system, memory management, events and exceptions.
 
 Free online:
 

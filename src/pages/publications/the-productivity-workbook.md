@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: The Productivity Workbook
 navOrder: 4000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: productivity,workbook,free,planner
+description: Download printable free planners from The Productivity Workbook and use Pomodoro Technique, Personal Kanban, and GTD to get productive.
 ---
 
 :::figure{.inset-medium}

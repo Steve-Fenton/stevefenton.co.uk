@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: programmer,events
+description: A list of my online and in-person events.
 ---
 
 I’ll update this page with any programmer events that I’m running, attending, or speaking at.

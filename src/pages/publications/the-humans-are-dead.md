@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: The Humans are Dead
 navOrder: 6000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: automation,testing,book
+description: Explores some of the common mistakes made by organisations when they adopt test automation.
 ---
 
 When an organisation sets out on the long and treacherous journey of adopting software test automation, it seems inevitable that they are doomed to repeat the mistakes that countless others have already made. It is hard to avoid the problems that congregate around this situation when adopting such a major new way of working, because it is unlikely that you already have the appropriate skills to hand. This problem is made worse by the myriad myths and legends of automation.
@@ -20,6 +20,6 @@ The facts of software test automation must be carefully separated from all these
 
 Buy online:
 
-[The Humans are Dead MOBI for Kindle (UK)](https://www.amazon.co.uk/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)
+[The Humans are Dead Kindle (UK)](https://www.amazon.co.uk/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)
 
-[The Humans are Dead MOBI for Kindle (US)](https://www.amazon.com/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)
+[The Humans are Dead Kindle (US)](https://www.amazon.com/Humans-are-Dead-Software-Automation-ebook/dp/B00WDKOAUQ/)

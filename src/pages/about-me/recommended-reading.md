@@ -3,11 +3,11 @@ layout: src/layouts/Default.astro
 title: Recommended Reading
 navOrder: 5000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: reading
+description: Some personal recommendations of books for people in the software industry.
 ---
 
-As of July 2020, I have re-aligned my reading list to [The Software Punk Revolution](/blog/2020/07/the-software-punk-revolution/). We need a fundamental shift and we need it now. These books contain the seeds that will grow in healthy ways inside your head.
+As of July 2020, I have re-aligned my reading list to [The Software Punk Revolution](/blog/2020/07/the-software-punk-revolution/). We need a fundamental shift, and we need it now. These books contain the seeds that will grow in healthy ways inside your head.
 
 <article itemscope="" itemtype="http://schema.org/Book">
 
@@ -30,7 +30,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">99 Bottles of OOP</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Sandi Metz</span></span> and <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Katrina Owen</span></span>  
-<span itemprop="description">Don’t be put off by the price, this book will level-up your programming skills. Great practical examples of test-first development and refactoring.</span>  
+<span itemprop="description">Don’t be put off by the price; this book will level up your programming skills. Great practical examples of test-first development and refactoring.</span>  
 [99 Bottles of OOP on Sandi Metz’ Website](https://www.sandimetz.com/99bottles/).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -38,7 +38,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Personal Kanban</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Tonianne DeMaria Barry</span></span> and <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Jim Benson</span></span>  
-<span itemprop="description">If you want an effective way of organising your life, which also scales well to teams and organisations; this is the book to read. You can also add other ideas to Personal Kanban, like the concepts from *Getting Things Done*, and it makes them work even better.</span>  
+<span itemprop="description">If you want an effective way of organising your life that also scales well to teams and organisations, this is the book to read. You can also add other ideas to Personal Kanban, like the concepts from *Getting Things Done*, and it makes them work even better.</span>  
 [Personal Kanban on Wordery](https://wordery.com/personal-kanban-tonianne-demaria-barry-9781453802267).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -46,7 +46,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Escaping the Build Trap</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Melissa Perri</span></span>  
-<span itemprop="description">If you are developing a software product, this is the field-guide to avoiding the damaging traps that (in my experience) every product company will encounter at some stage.</span>  
+<span itemprop="description">If you are developing a software product, this is the field guide to avoiding the damaging traps that (in my experience) every product company will encounter at some stage.</span>  
 [Escaping the Build Trap on Wordery](https://wordery.com/escaping-the-build-trap-melissa-perri-9781491973790).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -62,7 +62,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Why Plans Fail: Cognitive Bias, Decision Making, and Your Business</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Jim Benson</span></span>  
-<span itemprop="description">This is the best field-guide to how common thought-traps result in burning projects. This is a quick read, but the imapct is huge.</span>  
+<span itemprop="description">This is the best field guide to how common thought traps result in burning projects. This is a quick read, but the impact is huge.</span>  
 [Why Plans Fail on Wordery](https://wordery.com/why-plans-fail-jim-benson-9780989081221).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -70,7 +70,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Thinking, Fast and Slow</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Daniel Kahneman</span></span>  
-<span itemprop="description">After reading Pragmatic Thinking and Learning, you might want to go back and read the book that is likely to have inspired it. This is the more general picture about how your brain works.</span>  
+<span itemprop="description">After reading Pragmatic Thinking and Learning, you might want to go back and read the book that is likely to have inspired it. This is the more general picture of how your brain works.</span>  
 [Thinking, Fast and Slow on Wordery](https://wordery.com/thinking-fast-and-slow-daniel-kahneman-9780141033570).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -78,7 +78,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Code Complete</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Steve McConnell</span></span>  
-<span itemprop="description">This is a massive volume, but it’s worth the calories. An incredibly well researched piece of writing about almost all aspects of software development with analysis that keeps echoing through the ages. This is a fundamental read.</span>  
+<span itemprop="description">This is a massive volume, but it’s worth the calories. An incredibly well-researched piece of writing about almost all aspects of software development with analysis that keeps echoing through the ages. This is a fundamental read.</span>  
 [Code Complete on Wordery](https://wordery.com/code-complete-steve-mcconnell-9780735619678).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">
@@ -134,7 +134,7 @@ As of July 2020, I have re-aligned my reading list to [The Software Punk Revolut
 ## <cite itemprop="name">Good Strategy, Bad Strategy</cite>
 
 <span itemprop="author" itemscope="" itemtype="https://schema.org/Person"><span itemprop="name">Richard Rumelt</span></span>  
-<span itemprop="description">I can’t add a great deal more than the title does. This book is essential reading if you are working on a organisation, product, or team strategy.</span>  
+<span itemprop="description">I can’t add a great deal more than the title does. This book is essential reading if you are working on an organisation, product, or team strategy.</span>  
 [Good Strategy, Bad Strategy on Wordery](https://wordery.com/good-strategybad-strategy-richard-rumelt-9781781256176).
 
 </article><article itemscope="" itemtype="http://schema.org/Book">

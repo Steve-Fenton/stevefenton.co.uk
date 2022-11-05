@@ -4,11 +4,11 @@ title: Pro TypeScript - Second Edition
 navTitle: Pro TypeScript
 navOrder: 1000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: pro typescript,typescript,book,apress
+description: Explore the features of TypeScript, an innovative open-source language. Explains the type system and features.
 ---
 
-Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler. This fully revised and updated second edition of Steve Fenton’s popular book covers everything you need to discover this fascinating language and transform your experience of JavaScript development.
+Explore the features of this innovative open-source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler. This fully revised and updated second edition of Steve Fenton’s popular book covers everything you need to discover this fascinating language and transform your experience of JavaScript development.
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
@@ -19,7 +19,7 @@ Explore the features of this innovative open source language in depth, from work
 
 ## What’s New in The Second Edition
 
-You know how busy the TypeScript team and wider community have been making TypeScript awesome – there’s a lot of changes. I have fully updated the book with all of the changes, and completely re-written a couple of the chapters (hey, Node/Express went and changed things too!)
+You know how busy the TypeScript team and wider community have been making TypeScript awesome – there are many changes. I have fully updated the book with all the changes and completely re-written a couple of the chapters (hey, Node/Express changed things too!)
 
 - Coverage of major changes to modules, namespaces, and module loading
 - New guidance on how to use inference to reduce the effort of using TypeScript
@@ -28,7 +28,7 @@ You know how busy the TypeScript team and wider community have been making TypeS
 
 The first edition was published in 2014 under ISBN 978-1-4302-6790-4 for the ebook and ISBN 978-1-4302-6791-1 for the softcover.
 
-The second edition can be found under ISBN 978-1-4842-3249-1 for the ebook and ISBN 978-1-4842-3248-4 for the softcover. Please make sure you are getting the second edition as a lot changed in three years.
+The second edition can be found under ISBN 978-1-4842-3249-1 for the ebook and ISBN 978-1-4842-3248-4 for the softcover. Please ensure you get the second edition as a lot changed in three years because the language was so new when the first edition published. Things are more stable now.
 
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
@@ -61,28 +61,4 @@ I’m a real person sat at the other end of the cable. I try to respond to as ma
 
 ## Where to Buy Pro TypeScript
 
-Here are the places you can buy Pro TypeScript, [please let me know](/contact/) if you have other locations for me to add.
-
-### International
-
-[Google Play](https://play.google.com/store/books/details/Steve_Fenton_Pro_TypeScript?id=ZEtADwAAQBAJ).
-
-### USA
-
-[Apress US](https://www.apress.com/us/book/9781484232484)
-
-### Canada
-
-[Amazon](https://www.amazon.ca/Pro-TypeScript-Application-Scale-JavaScript-Development-ebook/dp/B077R9WMWJ/).
-
-### UK
-
-[Apress UK](https://www.apress.com/gb/book/9781484232484)
-
-[Wordery](https://wordery.com/pro-typescript-steve-fenton-9781484232484)
-
-[Blackwells](https://blackwells.co.uk/bookshop/product/9781484232484)
-
-[Springer](http://www.springer.com/gb/book/9781484232484)
-
-[Waterstones](https://www.waterstones.com/book/pro-typescript/steve-fenton/9781484232484)
+You can buy Pro TypeScript from [SpringerLink](vhttps://link.springer.com/book/10.1007/978-1-4842-3249-)

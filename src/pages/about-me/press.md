@@ -3,11 +3,19 @@ layout: src/layouts/Default.astro
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-keywords: 
-description: 
+modDate: 2022-11-05
+keywords: steve fenton,press
+description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## Campus Morning Mail - Must Reads of the Week
+
+November 2022
+Colin Simpson's "ed tech must-reads of the week" featured my post about [moving to Mastodon](https://www.stevefenton.co.uk/blog/2022/10/moving-to-mastodon/).
+
+[Campus Morning Mail](https://campusmorningmail.com.au/news/colin-simpsons-ed-tech-must-reads-of-the-week-34/)
 
 ## Bas – Microsoft MVP Primer
 

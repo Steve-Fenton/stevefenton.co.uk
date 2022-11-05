@@ -3,9 +3,11 @@ layout: src/layouts/Default.astro
 title: Affirmation
 navOrder: 1000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: affirmation,inspiration
+description: My personal affirmation page, which gives me daily inspiration.
 ---
+
+This is my personal affirmation page, which gives me daily inspiration.
 
 - Disciplined
 - Calm

@@ -4,8 +4,8 @@ title: Web Ops Dashboards, Monitoring, and Alerting
 navTitle: Web Ops
 navOrder: 2000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: web operations,devops,monitoring,dashboards
+description: This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.
 ---
 
 :::figure{.inset-medium}
@@ -15,9 +15,17 @@ description:
 
 This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.
 
-If you are wondering which metrics are important, confused about the kind of chart you should add to your dashboards, or want to discover how to find and fix incidents before your customers even know there is a problem; this book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with, and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
+From general principles to practical tips, this books helps software delivery teams new to DevOps, web ops, and running their apps in production. Find out:
+
+- Which metrics are important
+- What charts to use on dashboards
+- How to find and fix problems before customers are impacted
+
+This book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
 
 ## Free Content
+
+Here's a bunch of free content from the book or related to its contents:
 
 [Uptime and SLAs](/blog/2017/12/uptime-and-slas/)
 

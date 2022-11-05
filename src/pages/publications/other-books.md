@@ -3,11 +3,11 @@ layout: src/layouts/Default.astro
 title: Other Books
 navOrder: 9000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: book,websites,typescript
+description: Here are some of the older books that aren't generally available any more.
 ---
 
-Here's some of the older books, which aren't generally available any more.
+Here are some of the older books that aren't generally available any more.
 
 ## TypeScript Succinctly
 

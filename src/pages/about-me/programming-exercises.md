@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: Programming Exercises
 navOrder: 3000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: programming,exercises
+description: I have some programming exercises available on GitHub. Here is a quick overview of what they are and how to use them.
 ---
 
 I have some programming exercises available on GitHub. Here is a quick overview of what they are and how to use them.

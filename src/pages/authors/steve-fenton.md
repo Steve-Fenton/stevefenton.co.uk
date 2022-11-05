@@ -8,7 +8,7 @@ pubDate: 2022-09-17
 keywords: steve fenton
 description: Steve Fenton's profile on Astro Accelerator
 bannerImage:
-    src: /i/400/authors/steve-fenton.webp
+    src: /img/authors/steve-fenton.png
     alt: Steve Fenton
 ---
 

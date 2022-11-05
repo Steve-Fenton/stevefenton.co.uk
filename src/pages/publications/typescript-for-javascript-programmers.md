@@ -4,8 +4,8 @@ title: TypeScript for JavaScript Programmers
 navTitle: TypeScript (JavaScript ed.)
 navOrder: 8000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: typescript,javascript,book
+description: This was the first book ever published on the TypeScript programming language.
 ---
 
 :::figure{.inset-medium}

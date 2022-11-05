@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: About Me
 navOrder: 4000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: about,steve fenton
+description: A short biography of Steve Fenton.
 ---
 
 Steve Fenton is an **Octonaut** at [Octopus Deploy](https://www.octopus.com/) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist. He has written books on [TypeScript](/publications/pro-typescript/), [Octopus Deploy](/publications/exploring-octopus-deploy/), and [Web Operations Monitoring](/publications/web-ops-dashboards-monitoring-and-alerting/) (and also occasionally writes *genre fiction disguised as literary fiction* inspired by J Sheridan La Fanu, Mary Shelley, and H. P. Lovecraft, such as [The Vanishing Room](https://smfenton.uk/the-vanishing-room/)).

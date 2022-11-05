@@ -5,8 +5,8 @@ navSearch: false
 navSitemap: false
 navMenu: false
 pubDate: 2022-09-17
-keywords: 
-description: 
+keywords: search
+description: Search Steve Fenton's website.
 ---
 
 Search the site below.

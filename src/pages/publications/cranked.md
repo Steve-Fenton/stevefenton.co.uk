@@ -3,8 +3,8 @@ layout: src/layouts/Default.astro
 title: Cranked
 navOrder: 5000
 pubDate: 2022-10-02
-keywords: 
-description: 
+keywords: agile,cranked,software
+description: Cranked helps teams and organisations to effectively deliver software in a changeable or uncertain environment.
 ---
 
 > Best Book on Agile Software Development
