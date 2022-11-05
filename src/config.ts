@@ -47,7 +47,6 @@ export const OPEN_GRAPH = {
 };
 
 export const HEADER_SCRIPTS = `
-<link rel="me" href="https://mastodon.social/@stevefenton" />
 <script>
 if (document.location.hostname === 'www.stevefenton.co.uk') {
     (function(c,l,a,r,i,t,y){
