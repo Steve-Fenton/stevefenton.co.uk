@@ -13,7 +13,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Node.js
+    - Node
 ---
 
 Part of being a responsible software developer is checking your dependencies. One of the most tedious tasks is checking licenses. If you're using Node.js and npm, you'll know that there's no such thing as "installing one package". Once you `npm install`, the floodgates are basically open.

@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - CSS
-    - pagedmedia
+    - 'Paged Media'
 ---
 
 One of the first questions I answered on a JavaScript forum when I first start programming was about printing web pages. The stock answer for a long time has been “you can’t do” whatever it was you wanted to do. Whether it was having some control over page breaks or customising headers and footers or adjusting margins – you just had no way of hinting to the browser what to do.

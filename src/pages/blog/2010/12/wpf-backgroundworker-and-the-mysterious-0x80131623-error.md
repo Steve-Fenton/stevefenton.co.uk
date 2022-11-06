@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - wpf
+    - WPF
 ---
 
 If you use Windows Presentation Foundation (WPF), you are very likely to come across the awesome BackgroundWorker and its best friend the Dispatcher. The BackgroundWorker lets you chuck a long-running process onto another thread, allowing the UI to remain responsive. When the BackgroundWorker needs to pop something on the UI, you ask the Dispatcher to send it back to the UI thread.

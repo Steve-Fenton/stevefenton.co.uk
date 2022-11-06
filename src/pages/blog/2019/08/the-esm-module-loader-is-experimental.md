@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Node.js
+    - Node
     - TypeScript
 ---
 

@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - CSS
-    - pagedmedia
+    - 'Paged Media'
 ---
 
 In my previous [introduction to the CSS Paged Media Module](/blog/2013/12/printing-web-pages-with-the-paged-media-module/), I briefly talked about adding page numbers to your footers. I’m going to nudge that concept on a little further by showing you how to grab content from the HTML page and inject it into the header.

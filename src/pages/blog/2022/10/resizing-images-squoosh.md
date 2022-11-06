@@ -13,8 +13,8 @@ authors:
 categories:
     - Programming
 tags:
+    - Node
     - JavaScript
-    - Node.js
 ---
 
 Recently I highlighted problems with [WEBP images in Open Graph data](https://www.stevefenton.co.uk/blog/2022/10/webp-opengraph-images/). This post demonstrates how you can manage your site's images, including automatically generating optimised and resized versions using the [Squoosh](https://squoosh.app/) API.
