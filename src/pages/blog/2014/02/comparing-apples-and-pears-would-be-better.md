@@ -6,7 +6,7 @@ pubDate: 2014-02-17T22:56:49+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Books
     - Economics

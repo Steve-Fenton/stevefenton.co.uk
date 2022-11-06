@@ -54,6 +54,12 @@
     $to = './src/pages/'
     robocopy $from $to 'search.json.ts'
 
+    ## Reports
+    $srcReports = $src + 'src/pages/report/'
+    $destReports = './src/pages/report/'
+
+    robocopy $srcReports $destReports
+
 # Standard copies
 
     $srcPlugins = $src + 'src/plugins'

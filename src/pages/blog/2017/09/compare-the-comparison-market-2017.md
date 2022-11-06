@@ -6,7 +6,7 @@ pubDate: 2017-09-03T18:14:24+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Comparison
     - Insurance
