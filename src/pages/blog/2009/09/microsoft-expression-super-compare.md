@@ -7,7 +7,6 @@ authors:
     - steve-fenton
 categories:
     - Browsers
-    - Programming
 tags:
     - CSS
     - HTML

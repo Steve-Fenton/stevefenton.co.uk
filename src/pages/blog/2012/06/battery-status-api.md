@@ -9,7 +9,6 @@ categories:
     - Browsers
     - Programming
 tags:
-    - FirefoxOS
     - JavaScript
 ---
 

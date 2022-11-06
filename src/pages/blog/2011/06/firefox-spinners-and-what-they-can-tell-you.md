@@ -7,6 +7,8 @@ authors:
     - steve-fenton
 categories:
     - Browsers
+tags:
+    - Firefox
 ---
 
 **Update**! In Firefox Quantum, the spinners were updated to Cylon-eyes. The TL;DR is that there are still two spinning states:

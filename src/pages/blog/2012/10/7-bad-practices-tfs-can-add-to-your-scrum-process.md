@@ -1,14 +1,15 @@
 ---
 layout: src/layouts/Default.astro
-title: '7 bad practices TFS can add to your Scrum process'
+title: '7 bad practices Azure DevOps can add to your Agile process'
 navMenu: false
 pubDate: 2012-10-27T23:23:23+01:00
 authors:
     - steve-fenton
 categories:
     - Process
-tags:
     - 'Azure DevOps'
+tags:
+    - Agile
 ---
 
 This article explains how using TFS for Agile can result in some really bad behaviours. This is not an attack on TFS; I believe it can be used effectively at all stages of the Agile process and feels more joined up than using one tool to manage a backlog, another to track bugs, yet another to perform and record tests, something else for version control and so on.

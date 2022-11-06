@@ -12,7 +12,6 @@ categories:
     - Browsers
 tags:
     - Edge
-    - Tabs
 ---
 
 I’ll be honest, it has taken a day or two to retrain my cerebellum for this one, but it is totally worth it. Modern day displays happen to be wider than you need. Horizontal real estate is in surplus and is cheap, but vertical space is more valuable. That’s why Microsoft Edge is getting a feature called Vertical Tabs. Which is easier shown than told, so let’s take a look.

@@ -7,6 +7,8 @@ authors:
     - steve-fenton
 categories:
     - Browsers
+tags:
+    - Firefox
 ---
 
 The “about:” URI schema has been around since the days of Netscape, but there is more to it than the common “about:blank” reference for an empty page. Some of these options give you an advanced view over Firefox and its cache – and others a just a bit of entertainment.
