@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Console
-    - Octopus
+    - 'Octopus Deploy'
     - PowerShell
 ---
 

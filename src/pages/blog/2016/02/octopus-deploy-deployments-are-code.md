@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 In the professional software development community, we use a disciplined approach to releasing our software. This is why many of us use tools such as Octopus Deploy to manage releases and deployments.

@@ -9,7 +9,7 @@ categories:
     - Automation
 tags:
     - Deployments
-    - Octopus
+    - 'Octopus Deploy'
     - SQL
 ---
 

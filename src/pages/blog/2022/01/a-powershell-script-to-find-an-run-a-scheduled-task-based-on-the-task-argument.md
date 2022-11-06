@@ -11,7 +11,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Octopus
+    - 'Octopus Deploy'
     - PowerShell
 ---
 

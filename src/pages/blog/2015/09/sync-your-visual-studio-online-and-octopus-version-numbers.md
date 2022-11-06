@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 I am using a [batch file to update the version number in an AssemblyInfo file](/blog/2012/11/automatically-updating-your-assemblyinfo-with-a-batch-file/) based on the Visual Studio Online build number. It overwrites a file named GloabalAssemblyInfo.cs that is linked to all of the projects in the set. This means the version automatically updates each time the software is built, and it means the components that are built together have the same version number.

@@ -9,7 +9,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - Octopus
+    - 'Octopus Deploy'
     - PowerShell
 ---
 

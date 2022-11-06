@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Octopus
+    - 'Octopus Deploy'
     - SQL
 ---
 

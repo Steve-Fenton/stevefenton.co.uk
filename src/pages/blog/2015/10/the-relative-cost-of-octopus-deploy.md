@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 One of the best things about Octopus Deploy is the simplicity of the pricing. These numbers were correct at the time of writing, but the exact numbers aren’t the interesting bit – it is the relative cost.

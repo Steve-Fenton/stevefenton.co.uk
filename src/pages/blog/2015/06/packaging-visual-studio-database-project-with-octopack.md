@@ -5,11 +5,10 @@ navMenu: false
 pubDate: 2015-06-24T18:21:57+01:00
 authors:
     - steve-fenton
-
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
     - PowerShell
     - SQL
 ---

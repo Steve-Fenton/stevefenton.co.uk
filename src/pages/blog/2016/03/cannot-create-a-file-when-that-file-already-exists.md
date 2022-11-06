@@ -9,7 +9,7 @@ categories:
     - Automation
 tags:
     - IIS
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 This is one of the few hitches you may come across when deploying to IIS from Octopus Deploy:

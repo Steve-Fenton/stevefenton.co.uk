@@ -10,7 +10,7 @@ categories:
     - Programming
 tags:
     - Deployments
-    - Octopus
+    - 'Octopus Deploy'
     - SQL
 ---
 

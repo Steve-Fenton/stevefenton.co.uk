@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 If you have a deployment in Octopus Deploy that contains multiple packages, and the deployment occurs automatically when one of those packages is updated; then the order you upload the packages matters.

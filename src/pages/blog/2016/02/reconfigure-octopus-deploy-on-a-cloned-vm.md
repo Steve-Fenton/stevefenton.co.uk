@@ -8,7 +8,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus
+    - 'Octopus Deploy'
     - PowerShell
 ---
 

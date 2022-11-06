@@ -13,7 +13,7 @@ categories:
     - Programming
 tags:
     - JavaScript
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 Some time ago, I wrote a JavaScript bookmarklet that you could use to highlight version numbers in your Octopus Deploy dashboard. This makes it easier to compare versions across your environments.

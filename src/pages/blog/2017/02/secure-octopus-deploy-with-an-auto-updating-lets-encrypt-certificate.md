@@ -12,7 +12,7 @@ categories:
 tags:
     - Deployments
     - IIS
-    - Octopus
+    - 'Octopus Deploy'
 ---
 
 Octopus Deploy has a web portal that runs a self-hosted website on whatever port you specify. You can even have Octopus generate a self-signed certificate in order to use HTTPS when browsing the web portal… but if you connect other application that are strictly validating certificates, they won’t be too pleased with self-signed certificates. Purchasing certificates can also be expensive.
