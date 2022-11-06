@@ -6,7 +6,6 @@ pubDate: 2021-08-19T14:51:52+01:00
 authors:
     - steve-fenton
 categories:
-    - Automation
     - Programming
 tags:
     - .net

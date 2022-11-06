@@ -11,7 +11,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - 'Google Analytics'
+    - Google
 ---
 
 Since this article was written, several high-profile cases have brought us to an impasse with Google Analytics. Some courts have found the data transfer to the US to be untenable, given the nature of some of the data being collected. Google's additional privacy controls may not be enough to bring Google Analytics into compliance with privacy laws.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Analytics
 tags:
-    - 'Google Analytics'
+    - Google
 ---
 
 This is a tip for how to manage lots of Google Analytics accounts using version 3. Goals are a pain to set up when you manage hundreds of accounts, so here is a quick way to do it using Goal Template URLs in Google.

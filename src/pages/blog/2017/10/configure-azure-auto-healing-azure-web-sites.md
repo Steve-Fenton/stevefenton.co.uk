@@ -6,9 +6,8 @@ pubDate: 2017-10-31T09:39:35+00:00
 authors:
     - steve-fenton
 categories:
-    - Automation
-tags:
     - Azure
+tags:
     - Monitoring
     - Operations
 ---

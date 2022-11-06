@@ -7,6 +7,9 @@ authors:
     - steve-fenton
 categories:
     - Analytics
+tags:
+    - Statistics
+    - Data
 ---
 
 There is a common question that crops up in analytics, which is *can you average your averages*. The short answer is no, but a longer explanation is probably needed.

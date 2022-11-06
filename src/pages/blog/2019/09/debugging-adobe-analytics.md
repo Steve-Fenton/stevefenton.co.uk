@@ -7,10 +7,8 @@ authors:
     - steve-fenton
 categories:
     - Analytics
-    - Programming
 tags:
     - Adobe
-    - JavaScript
 ---
 
 Adobe Analytics can sometimes be a bit of an enigma, so people often turn to browser extensions to help them with debugging Adobe Analytics. However, for those of us who spend most of our lives in browser tools; there’s a simple way to get x-ray vision into what Analytics is thinking.

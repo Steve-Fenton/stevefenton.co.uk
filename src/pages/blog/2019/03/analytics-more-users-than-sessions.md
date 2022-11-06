@@ -10,6 +10,9 @@ bannerImage:
     alt: Two Visitors, both visit in January and one visits again in Febrary
 categories:
     - Analytics
+tags:
+    - Statistics
+    - Data
 ---
 
 Analytics are super-useful but can get a bit tricky at times. For some reason, several of *those times* seem to have cropped up this week. So, following on from my article on [Why Unique Visitors in Analytics Never Adds Up](/blog/2019/02/why-unique-visitors-in-analytics-never-adds-up/) – I now have one about how you can sometimes have more sessions that users.

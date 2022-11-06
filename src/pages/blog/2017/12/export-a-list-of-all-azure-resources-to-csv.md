@@ -6,7 +6,10 @@ pubDate: 2017-12-04T13:43:33+00:00
 authors:
     - steve-fenton
 categories:
+    - Programming
+tags:
     - Azure
+    - PowerShell
 ---
 
 There’s a handy PowerShell command that you can use to export a list of all Azure resources to a CSV. It is part of the [AzureRM PowerShell](https://docs.microsoft.com/en-gb/powershell/module/azurerm.resources/?WT.mc_id=DT-MVP-5002938) module, which you can [find on GitHub along with installers](https://github.com/Azure/azure-powershell/releases) to get you on the latest version.

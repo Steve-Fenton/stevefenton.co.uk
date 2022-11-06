@@ -9,6 +9,7 @@ categories:
     - Programming
 tags:
     - Azure
+    - SQL
 ---
 
 If you need to allow connections from a specific IP address to your Azure SQL database, you can do this using the Azure SQL firewall.

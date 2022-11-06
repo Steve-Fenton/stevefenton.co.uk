@@ -13,8 +13,8 @@ categories:
     - Browsers
 tags:
     - Adobe
-    - Debugging
     - Google
+    - Debugging
 ---
 
 Recently, I wrote about [debugging Adobe Analytics](/blog/2019/09/debugging-adobe-analytics/), which uses the most widely-available tools that we all have; browser developer tools. It is possible to debug and test a whole host of analytics and tag manager scenarios using the Console and Network tabs of browsers tools if you are willing to scry the query parameters of the network requests that are sent for script files and the tracking calls they make.

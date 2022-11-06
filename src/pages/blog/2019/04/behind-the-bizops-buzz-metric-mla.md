@@ -11,12 +11,12 @@ bannerImage:
 categories:
     - Analytics
 tags:
-    - BizOps
+    - Data
 ---
 
 We all know that BizOps is gaining momemntum and that we need to think about how we take care of it in our own organisations. Not just because it’s yet another buzzword ending in “Ops”, but because of what we’ve been piecing together for many years. If you’ve read Start With Why, or The Lean Startup, or one of the many excellent business and management books to have been penned post-McGregor, you’ll know what lies at the heart of BizOps… adding some cold hard economic facts to our smushy organic human decisions. We’re not trying to replace those dendrites, axons, and neurons with robot decision making; we’re trying to supply some rational data to accompany the emotive stuff. That human part of the decision is still important, because your data isn’t going to come up with many ideas – so we need a way to test out the ideas that we come up with objectively and scientifically.
 
-I’m not going to talk much about scientific method or experiment design here. When you are ready for those you’ll find plenty of sources of that information. What I want to present is a few stages that I have found useful in setting up DevOps dashboards, monitoring, and alerting that I found were useful once again when setting up business-focussed dashboards, monitoring, and alerting. In other words – there are some principles that are well developed for technical decision making that apply equally to business decision making.
+I’m not going to talk much about the scientific method or experiment design here. When you are ready for those you’ll find plenty of sources of that information. What I want to present is a few stages that I have found useful in setting up DevOps dashboards, monitoring, and alerting that I found were useful once again when setting up business-focussed dashboards, monitoring, and alerting. In other words – there are some principles that are well developed for technical decision making that apply equally to business decision making.
 
 :::div{.inset}
 :img{src="/img/2019/04/conversions-per-week.jpg" alt="Conversions Per Week" loading="lazy"}
@@ -24,7 +24,7 @@ I’m not going to talk much about scientific method or experiment design here. 
 
 ## Data
 
-This applies to digital and physical products, but I’ll use a simple website example. Imagine you have a brochure site that you intended to use to convince potential customers that you have an awesome product – and you want to generate telephone calls into your sales team.
+This applies to digital and physical products, but I’ll use a simple website example. Imagine you have a brochure site you intend to use to convince potential customers that you have an awesome product – and you want to generate telephone calls into your sales team.
 
 You’ll need to follow the three steps below to get yourself some BizOps data:
 

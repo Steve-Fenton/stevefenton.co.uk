@@ -8,8 +8,9 @@ authors:
 bannerImage:
     src: /img/2020/07/flat-comparison.jpg
 categories:
-    - Azure
+    - Programming
 tags:
+    - Azure
     - 'Cost Management'
 ---
 

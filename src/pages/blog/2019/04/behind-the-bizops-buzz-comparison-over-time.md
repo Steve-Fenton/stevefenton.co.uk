@@ -11,7 +11,8 @@ bannerImage:
 categories:
     - Analytics
 tags:
-    - BizOps
+    - Statistics
+    - Data
 ---
 
 This is a quick note about checking trends over time, and why you probably ought to check both a rolling comparison over time *and* a fixed baseline comparison.

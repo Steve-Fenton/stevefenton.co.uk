@@ -6,8 +6,9 @@ pubDate: 2020-08-19T21:00:47+01:00
 authors:
     - steve-fenton
 categories:
-    - Azure
+    - Programming
 tags:
+    - Azure
     - Disks
     - SQL
     - 'Virtual Machine'
