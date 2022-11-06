@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - msbuild
-    - ncover
+    - NCover
 ---
 
 This article describes how to add NCover code coverage to your MSBuild scripts in an extensible way. By using and adapting the example below, you should be able to get NCover results across your entire code base, all compiled into an excellent web-based summary.

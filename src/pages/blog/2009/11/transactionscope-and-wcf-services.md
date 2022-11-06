@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - wcf
+    - WCF
 ---
 
 The problem I encountered was that, while I had started a TransactionScope in my calling method (and could even see a current transaction in my services) – an error in a second WCF service call was NOT rolling back the changes made in a previous WCF service call. The behaviour was as if each service had its own transaction, rather than joining the existing ambient transaction that I started in my client.

@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - IIS
-    - wcf
+    - WCF
 ---
 
 If you have come across this rather vague message ("Event Code 3005: An Unhandled Exception has Occurred"), you will have spotted that there are very few resources that give any reasonable answers on the root cause of the issue – that’s probably why you are here, so I will do my best to help.

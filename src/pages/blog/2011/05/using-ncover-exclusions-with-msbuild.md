@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - msbuild
-    - ncover
+    - NCover
 ---
 
 I have previously discussed [adding NCover to MSBuild](/blog/2011/02/adding-an-ncover-target-to-msbuild-to-get-code-coverage/) and also [how to get trend reporting as part of the NCover MSBuild target](/blog/2011/05/using-ncover-with-msbuild-to-get-reports-and-trends/). Let’s add to all of that by filtering the NCover results to exclude stuff that you don’t want in your coverage reports.

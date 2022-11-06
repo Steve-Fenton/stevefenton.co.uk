@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - msbuild
-    - ncover
+    - NCover
 ---
 
 A while ago I wrote an article about [how to get HTML Reports generated automatically by NCover as part of an MSBuild task](//blog/2011/02/adding-an-ncover-target-to-msbuild-to-get-code-coverage/). In this article, I extend the example in order to get trend reporting.

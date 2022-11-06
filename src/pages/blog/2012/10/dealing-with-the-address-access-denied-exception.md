@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - wcf
+    - WCF
 ---
 
 This article literally only exists because the link supplied in the System.ServiceModel.AddressAccessDeniedException didn’t work at all for me. The basic scenario is that you are debugging a WCF service in Visual Studio and you get this error:

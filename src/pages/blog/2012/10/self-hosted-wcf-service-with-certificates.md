@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - wcf
+    - WCF
 ---
 
 If you are self-hosting a WCF service, exposed via HTTP and requiring certificates for transport security, you’ll probably need to learn a little bit about netsh.
