@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - Java
-    - jks
+    - Certificates
 ---
 
 I have used the Windows certificate store quite a lot over the years, including fixing a really gnarly issue caused by a minor change in Windows Server 2003, but I haven’t used the Java Keystore at all until recently. One thing I learned very quickly is that the error messages are utterly terrible most of the time and you can lose hours of your life labouring under the misguided belief that the error relates to the actual problem.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - coffeescript
+    - CoffeeScript
 ---
 
 If you are reading this, it isn’t very likely that you need to be told what CoffeeScript is, but that’s not going to stop me from doing it anyway. CoffeeScript is just JavaScript (officially). It is actually an abstraction of JavaScript that allows you to write shorthand CoffeeScript statements that get compiled into tide JavaScript – which means at runtime it really is just JavaScript.

@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - HTML
-    - rdfa
+    - 'Structured Data'
 ---
 
 This is really the second half of my [article on microdata](/blog/2012/11/how-to-add-microdata-to-your-website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.

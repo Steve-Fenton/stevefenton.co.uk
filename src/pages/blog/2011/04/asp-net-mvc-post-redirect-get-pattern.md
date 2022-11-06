@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - MVC
-    - patterns
+    - Patterns
 ---
 
 This is just a quick article to hopefully dispel some common misunderstandings of the ASP.NET MVC Post/Redirect/Get Pattern. First up, a quick explanation of what the Post/Redirect/Get (or PRG) Pattern is for those who don’t know.

@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - ncrunch
+    - NCrunch
 ---
 
 I have spent a little time today setting up [NCrunch for Visual Studio](http://www.ncrunch.net/). NCrunch is a handy extension that runs all your tests (unit and integration) in the background while you code and reports any failures to you as they happen. It also shows you code coverage in the margin of your actual code files. This is awesome.

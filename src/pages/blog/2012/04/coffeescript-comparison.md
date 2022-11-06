@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - coffeescript
+    - CoffeeScript
 ---
 
 As I’m in the middle of writing a JavaScript unit testing framework, I thought the best way of trying out CoffeeScript would be to re-write an existing unit test class from JavaScript to CoffeeScript and then see what the compiled output looks like in comparison.

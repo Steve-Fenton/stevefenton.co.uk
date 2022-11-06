@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - MVC
-    - unity
+    - Unity
 ---
 
 Adding Unity V3 to your ASP.NET Web API project is so easy it very nearly hurts. Despite this, I can foresee a couple of “duh” moments if you don’t spot a couple of minor details.

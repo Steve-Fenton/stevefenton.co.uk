@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - 'Entity Framework'
-    - Rhino
+    - Mocking
 ---
 
 This is something that can take a little figuring out – using Rhino Mocks to mock a DbContext and the associated IDBSets. Because of this, I created a little generic method that helps a lot…

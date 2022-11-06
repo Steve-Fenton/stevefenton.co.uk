@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - patterns
+    - Patterns
 ---
 
 I have been looking at the State Pattern and I have noticed that the examples of the State Pattern online can be a bit confusing. This is largely due to the challenge of simplifying the code enough to make the example short.

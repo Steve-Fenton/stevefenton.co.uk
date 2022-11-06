@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - HTML
-    - microdata
+    - 'Structured Data'
 ---
 
 Everyone is talking about microdata these days (or indeed, [RDFa Lite](/blog/2012/11/how-to-add-rdfa-lite-to-your-website/)), but you may be wondering where to start with it.

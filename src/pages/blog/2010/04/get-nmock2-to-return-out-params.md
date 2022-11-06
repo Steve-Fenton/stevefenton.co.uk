@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - nmock
+    - Mocking
 ---
 
 There are plenty of mocking frameworks out there, with Rhino Mocks and Moq leading the way. Personal preferences aside, I am currently working on a project that is using NMock2 for mocking and found that the following feature isn’t very well known.

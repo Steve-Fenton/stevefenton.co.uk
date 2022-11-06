@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - ncrunch
+    - NCrunch
 ---
 
 If you are using [NCrunch awesomeness in Visual Studio](/blog/2011/12/some-handy-ncrunch-tips/), you may come across this slight bug. It is most likely to appear if you reference a COM component in your project:

@@ -8,8 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - microdata
-    - rdfa
+    - 'Structured Data'
 ---
 
 I’m not a big fan of the :abbr[SEO]{title="Search Engine Optimisation"} industry, mostly because of those utter crooks who constantly spam us all about it – but I do understand that any serious business will be concerned about being found online. I always try to steer people towards creating amazing content that real people will love, rather trying to play games with search engines. We all prefer a personal recommendation over a page of listings in the Yellow Pages when we need a plumber and real people sharing your content means a lot more than a search engine telling people you match a search.
