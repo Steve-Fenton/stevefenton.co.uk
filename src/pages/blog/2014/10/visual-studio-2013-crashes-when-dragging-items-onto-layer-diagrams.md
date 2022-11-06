@@ -8,7 +8,6 @@ authors:
 categories:
     - 'Visual Studio'
 tags:
-    - 'Visual Studio'
     - WIX
 ---
 

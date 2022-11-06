@@ -5,7 +5,6 @@ navMenu: false
 pubDate: 2015-05-02T00:09:39+01:00
 authors:
     - steve-fenton
-
 categories:
     - 'Visual Studio'
 tags:

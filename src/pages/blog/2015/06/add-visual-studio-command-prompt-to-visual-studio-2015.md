@@ -7,8 +7,6 @@ authors:
     - steve-fenton
 categories:
     - 'Visual Studio'
-tags:
-    - 'Visual Studio'
 ---
 
 If you need to add Visual Studio Command Prompt (essentially just a command window, but pre-prepared with all your Visual Studio paths), this is how you add it to Visual Studio 2015.

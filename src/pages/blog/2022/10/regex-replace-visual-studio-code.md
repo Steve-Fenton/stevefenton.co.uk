@@ -14,7 +14,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Visual Studio Code
+    - VSCode
     - Regular Expressions
 ---
 

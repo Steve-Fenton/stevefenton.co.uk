@@ -9,7 +9,7 @@ categories:
     - Process
 tags:
     - Optimization
-    - Process
+    - Agile
 ---
 
 I was listening to someone talking about being agile and lean in software development. The conversation was very interesting, but there was an underlying theme of urgency and efficiency that I found troubling. There is nothing wrong with delivering quickly, but we should never forget that “you can only go fast if you go right” (Robert Martin).
