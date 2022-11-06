@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - fitnesse
+    - Fitnesse
 ---
 
 Following on from this week’s blog posts on [using Fitnesse in .NET](/blog/2013/10/using-fitnesse-for-dot-net/) and [debugging Fitnesse tests](/blog/2013/10/debugging-your-fitnesse-tests/), I thought I’d write up how I am using sequence tests to provide a domain-specific language to the Fitnesse test pages.

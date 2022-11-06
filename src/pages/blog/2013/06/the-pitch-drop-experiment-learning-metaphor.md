@@ -8,7 +8,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - leadership
+    - Leadership
 ---
 
 :::div{.inset}

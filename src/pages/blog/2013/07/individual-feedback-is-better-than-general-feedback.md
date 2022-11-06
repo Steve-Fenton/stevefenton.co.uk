@@ -8,7 +8,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - leadership
+    - Leadership
 ---
 
 We’ve all been there – that awkward conversation that you have to have with someone you work with. It isn’t enjoyable and it is hard work. Nevertheless, don’t shy away from having that one-to-one conversation with the individual, because it is the best way to get the right outcome.

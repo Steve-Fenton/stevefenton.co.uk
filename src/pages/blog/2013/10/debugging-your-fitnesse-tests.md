@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - fitnesse
+    - Fitnesse
 ---
 
 I have been [using Fitnesse with FitSharp to run C# integration tests](/blog/2013/10/using-fitnesse-for-dot-net/) and I can happily state that it took a long time for me to find a scenario where I needed to debug a Fitnesse test. When a test fails it is abundantly clear why so you don’t need to spark up a debugger to tell you the information.

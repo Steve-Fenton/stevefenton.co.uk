@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - fitnesse
+    - Fitnesse
 ---
 
 Fitnesse is a stand-alone wiki for describing and running your acceptance tests. There is a highly satisfying feeling you can only get from editing a wiki page, pressing a button and seeing if your program works as expected and although Fitnesse has roots in Java, it is an awesome tool for .NET too.
