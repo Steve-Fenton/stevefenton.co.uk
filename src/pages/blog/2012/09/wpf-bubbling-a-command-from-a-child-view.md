@@ -10,8 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - wpf
-    - xaml
+    - WPF
 ---
 
 If you are writing a :abbr[WPF]{title="Windows Presentation Foundation"} application using re-usable views, you will at some point want to bubble an event or command up from the child view to its parent view. Luckily it is quite straight-forward to to with a RoutedEvent.

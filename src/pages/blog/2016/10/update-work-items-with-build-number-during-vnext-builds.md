@@ -26,7 +26,7 @@ Here’s how…
 
 You can generate a special token to use for this – so you don’t need to use your actual account.
 
-- Click your name when logged into the VSTS
+- Click your name when logged into the Azyre DevOps
 - Choose “Security”
 - Select “Personal Access Tokens”
 - Select “Add”
@@ -99,7 +99,7 @@ Add a variable named “VstsUsername” with your username and a variable named 
 
 ## PowerShell build step
 
-Now you can add a PowerShell build step to your vNext build, calling the PowerShell script and passing the VSTS Username and Password.
+Now you can add a PowerShell build step to your vNext build, calling the PowerShell script and passing the Username and Password.
 
 :::div{.inset}
 :img{src="/img/2016/10/vnext-powershell-step.png" alt="vNext PowerShell Step" loading="lazy"}

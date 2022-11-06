@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: 'Twilio SendSmsMessage returns null'
 navMenu: false
-pubDate: 2013-12-09T09:45:51+00:00
+pubDate: 2013-12-09
 authors:
     - steve-fenton
 categories:
@@ -10,7 +10,6 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - twilio
 ---
 
 :::div{.inset}

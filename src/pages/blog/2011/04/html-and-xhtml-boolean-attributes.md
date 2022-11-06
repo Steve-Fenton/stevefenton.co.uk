@@ -9,7 +9,6 @@ categories:
     - Programming
 tags:
     - HTML
-    - xhtml
 ---
 
 Boolean attributes in HTML are normally used to indicate things like whether a checkbox is checked or whether an option is selected or whether an input is disabled.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - language
+    - Language
 ---
 
 I am currently reading *Toward a Theory of Instruction* [(Bruner, 1966)](#ref1) and it expands on the famous article by George A Miller; *The Magical Number Seven, Plus or Minus Two* [(Miller, 1955)](#ref2).

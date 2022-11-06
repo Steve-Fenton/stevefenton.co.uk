@@ -10,7 +10,6 @@ categories:
 tags:
     - Drawing
     - Graphics
-    - paint.net
 ---
 
 If you have tried Paint.Net, you may have found that it lacks one rather fundamental feature that is often a deal-breaker for using it over other tools. This is a shame as Paint.Net is both excellent – and free!

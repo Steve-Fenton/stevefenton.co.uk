@@ -10,8 +10,8 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - unity
-    - webapi
+    - Unity
+    - 'Web API'
 ---
 
 We are currently using WebAPI.Testing by Jonathan Channon to test an ASP.NET Web API project from the outside in (rather than testing the controllers, it tests from outside of the routing, which means you can test your routes and controllers in one hit).

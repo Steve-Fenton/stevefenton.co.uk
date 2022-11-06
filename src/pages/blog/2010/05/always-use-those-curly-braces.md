@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: 'Always Use Those Curly Braces'
 navMenu: false
-pubDate: 2010-05-04T21:37:20+01:00
+pubDate: 2010-05-04
 authors:
     - steve-fenton
 categories:
@@ -13,7 +13,6 @@ tags:
     - Java
     - PHP
     - TypeScript
-    - vb
 ---
 
 I write a lot of code in a lot of different languages – but there is one common rule I apply to all of them… when you use an “if” block, always put in the curly braces even if you don’t need them. Many errors are related to violations of this simple style rule. I have lost count of the number of times I have seen an error that is related to missing curly braces.

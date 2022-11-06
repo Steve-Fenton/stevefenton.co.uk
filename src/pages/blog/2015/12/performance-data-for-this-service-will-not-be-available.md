@@ -8,9 +8,7 @@ authors:
 categories:
     - Windows
 tags:
-    - exctrlst
     - Monitoring
-    - perflib
 ---
 
 Here is a pretty common piece of static interference you may find in your event log. It is commonly reported against the background intelligent transfer service:

@@ -8,9 +8,8 @@ authors:
 categories:
     - Programming
 tags:
-    - Android
+    - Mobile
     - HTML
-    - ios
     - JavaScript
     - PHP
 ---

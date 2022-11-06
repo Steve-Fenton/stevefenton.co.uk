@@ -8,8 +8,7 @@ authors:
 categories:
     - Psychology
 tags:
-    - leadership
-    - proxy
+    - Leadership
 ---
 
 Are you using a web proxy to filter websites and monitor your employees Internet usage? Maybe it is time you asked yourself why you are doing that!

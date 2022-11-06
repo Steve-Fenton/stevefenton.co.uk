@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'programmer anarchy'
+    - Agile
 ---
 
 Programmer Anarchy, a term coined by Fred George, has been described in many different ways including “post-agile” amongst other giddy and gushing terms. I just wanted to clear up a little about what it is, what is new, what isn’t and where I think it is headed.

@@ -9,8 +9,7 @@ categories:
     - Programming
 tags:
     - Java
-    - jks
-    - pfs
+    - Certificates
 ---
 
 I am currently hopping back and forth between the world of Java and the world of .NET and consequently I am learning a lot of little tricks that developers bridging these two worlds may find handy.

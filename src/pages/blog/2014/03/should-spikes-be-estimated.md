@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - spikes
+    - Estimates
 ---
 
 If you are running a method whereby you estimate or size stories on your backlog and then plan chunks of work in time-boxed product increments, what do you do when you need to investigate some feature or technology to satisfy a future piece of work?

@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: 'SpecFlow living documentation VSTS extension'
+title: 'SpecFlow living documentation Azure DevOps extension'
 navMenu: false
 pubDate: 2017-08-01T08:47:16+01:00
 authors:
@@ -19,7 +19,7 @@ There is a new Azure DevOps extension called [SpecFlow+LivingDoc](https://market
 Here is a quick run-down of the steps to use the extension…
 
 1. Get a [trial license key from SpecFlow to try this out, or buy a license](http://specflow.org/plus/)
-2. [Add the SpecFlow+LivingDoc VSTS Extension](https://marketplace.visualstudio.com/items?itemName=techtalk.techtalk-specflow-plus&utm_source=fenton)
+2. [Add the SpecFlow+LivingDoc Azure DevOps Extension](https://marketplace.visualstudio.com/items?itemName=techtalk.techtalk-specflow-plus&utm_source=fenton)
 3. Go to a build that has feature files and add the “Utilities -> SpecFlow+ build step”. Choose the project file that contains feature files.
 4. Run the build
 

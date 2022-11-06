@@ -1,14 +1,14 @@
 ---
 layout: src/layouts/Default.astro
-title: 'TFS or VSTS task board has missing cards'
+title: 'Azure DevOps task board has missing cards'
 navMenu: false
 pubDate: 2016-06-05T06:47:54+01:00
 authors:
     - steve-fenton
 categories:
-    - 'Visual Studio'
+    - 'Azure DevOps'
 tags:
-    - Azure DevOps
+    - 'Task Boards'
 ---
 
 TL;DR: This is caused by adding a parent/child relationship between two cards.
@@ -17,7 +17,7 @@ We are using the new Kanban boards in Visual Studio Team Services (formerly know
 
 As this was an isolated incident we made a note of it, but it also made us go hawkeye for the issue and we spotted a few more times. A card would be on the board, but then it would “go invisible”.
 
-This started to affect our trust in the tools and we raised a big frown via the feedback form on VSTS.
+This started to affect our trust in the tools and we raised a big frown via the feedback form on Azue DevOps.
 
 In reality though, I have just spotted the cause for this effect.
 

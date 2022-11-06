@@ -8,7 +8,6 @@ authors:
 categories:
     - Programming
 tags:
-    - dynamics
     - JavaScript
     - TypeScript
 ---

@@ -8,7 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - music
+    - Music
 ---
 
 I have been using *the Spotify* for a long time now and I am in no hurry to go back to using CDs, MP3s or any other time-wasting format. Not only do I have (very nearly) all the music available in one place on Spotify, that place is with me wherever I am. When I had CDs, I could take a small selection. With an MP3 player I could take a larger collection. With Spotify, I take the lot – including stuff I’ve never heard yet.

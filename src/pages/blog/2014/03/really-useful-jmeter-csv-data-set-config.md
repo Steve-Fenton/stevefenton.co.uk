@@ -8,7 +8,6 @@ authors:
 categories:
     - Automation
 tags:
-    - csv
     - JMeter
 ---
 

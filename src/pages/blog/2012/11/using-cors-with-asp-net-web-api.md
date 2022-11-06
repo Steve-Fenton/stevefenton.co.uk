@@ -10,10 +10,9 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - cors
     - JavaScript
     - MVC
-    - web-api
+    - 'Web API'
 ---
 
 If you are writing an ASP.NET Web API and you want to call it from a JavaScript (CoffeeScript, TypeScript) program on another domain, here are the steps you need to take to make it happen. I know that you are smart and you know what you are doing, so I’m not bulking out this article with lectures on the dangers of cross-site requests from either the server or client perspective. There are tons of articles on this, which you will have found while searching for how to do it.

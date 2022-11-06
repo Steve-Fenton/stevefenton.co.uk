@@ -8,8 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - planning
-    - 'road map'
+    - Planning
 ---
 
 :::div{.inset}

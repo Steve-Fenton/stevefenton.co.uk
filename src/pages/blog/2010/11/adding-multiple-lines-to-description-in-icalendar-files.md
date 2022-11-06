@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - ical
+    - Calendar
 ---
 
 ICalendar files (or iCal files) are used to share event information. You just download the file and open it up using your preferred calendar tool and it adds the event to your calendar. This is great as it means you don’t need to copy and paste the event information into a new meeting.

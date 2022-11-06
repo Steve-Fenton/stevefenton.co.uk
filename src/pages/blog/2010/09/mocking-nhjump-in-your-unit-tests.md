@@ -10,9 +10,6 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - nhibernate
-    - nhjump
-    - nmock
 ---
 
 [NHJump](https://code.google.com/archive/p/nhjump/) is an excellent way to jump start your NHibernate implementation, giving you instant repositories and query definitions from the word go. Here is a quick bit of information on how you can go about stubbing and mocking the NHJump repository for the purposes of Unit Testing.

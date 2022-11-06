@@ -7,10 +7,8 @@ authors:
     - steve-fenton
 categories:
     - Programming
-    - Psychology
 tags:
-    - learning
-    - pluralsight
+    - Learning
 ---
 
 Firstly, I put my hands up and tell you that I am guilty as charged on all counts – but I think my experience with Pluralsight free trial cards will help others who are suffering as I am right now!

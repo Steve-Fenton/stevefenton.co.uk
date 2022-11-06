@@ -1,18 +1,18 @@
 ---
 layout: src/layouts/Default.astro
 navMenu: false
-title: 'Combining VSTS work item states and alerts'
-pubDate: 2016-06-26T10:20:33+01:00
+title: 'Combining Azure DevOps work item states and alerts'
+pubDate: 2016-06-26
 authors:
     - steve-fenton
 categories:
     - Process
-    - 'Visual Studio'
+    - 'Azure DevOps'
 tags:
     - 'Task Boards'
 ---
 
-Visual Studio Team Services recently got custom states for work items. The simplest way to use this new feature is to create a custom state for each column on your Kanban board (previously, tasks had to be “Committed” all the way through the board).
+Azure DevOps recently got custom states for work items. The simplest way to use this new feature is to create a custom state for each column on your Kanban board (previously, tasks had to be “Committed” all the way through the board).
 
 :::div{.inset}
 :img{src="/img/2016/06/vsts-states.png" alt="VSTS Custom States" loading="lazy"}

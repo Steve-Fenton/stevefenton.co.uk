@@ -8,8 +8,7 @@ authors:
 categories:
     - Opinion
 tags:
-    - hardware
-    - windows
+    - Windows
 ---
 
 :::div{.inset}

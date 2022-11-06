@@ -36,7 +36,7 @@ If you get errors during your build, it is likely you need to update the Visual 
 
 At the “Process” level of the build definition, there is an Agent Queue, which needs to be set to “Hosted VS2017”. If your phases inherit from the definition, setting it here will fix all phases, otherwise proceed to change each phase.
 
-VSTS builds now have tasks divided into phases. If you click on the phase, you’ll find it has a section called Agent Selection, containing an Agent Queue selection. This needs to be set to “Hosted VS2017”.
+Azure DevOps builds now have tasks divided into phases. If you click on the phase, you’ll find it has a section called Agent Selection, containing an Agent Queue selection. This needs to be set to “Hosted VS2017”.
 
 :::div{.inset}
 :img{src="/img/2018/03/agent-selection.png" alt="Agent Selection" loading="lazy"}

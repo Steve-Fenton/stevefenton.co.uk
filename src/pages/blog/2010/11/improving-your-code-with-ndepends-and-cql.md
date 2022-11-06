@@ -11,7 +11,7 @@ tags:
     - .net
     - C-Sharp
     - 'Code Analysis'
-    - cql
+    - CQLinq
     - NDepend
 ---
 

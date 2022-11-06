@@ -11,8 +11,7 @@ tags:
     - .net
     - C-Sharp
     - CSS
-    - pagedmedia
-    - pdf
+    - 'Paged Media'
 ---
 
 Having recently starting [adding CSS Paged Media to web pages](/blog/2013/12/printing-web-pages-with-the-paged-media-module/), and [generating dynamic headers from page content](/blog/date/2013/12/using-css-paged-media-to-add-dynamic-headers/) – I had a need to push the results of this to PDF. The use-case was two-fold, one was to generate a whole batch of PDFs to “print later” and the other was for sending the content for review, safe in the knowledge it would print correctly.
