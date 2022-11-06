@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - xml
+    - XML
 ---
 
 Ever inherited a .NET app that has the database connection string in 30 different app.config and web.config files? How about one that also had the connection string in the connections string config section as well as the app settings config section.

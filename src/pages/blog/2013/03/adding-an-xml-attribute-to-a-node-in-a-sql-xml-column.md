@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - SQL
-    - xml
+    - XML
 ---
 
 I’m not the world’s biggest fan of XML, but if you get locked in a room with a SQL Server XML column at a party, you need to make the best of it and start undoing buttons.

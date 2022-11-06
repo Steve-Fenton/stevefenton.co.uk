@@ -11,7 +11,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - xml
+    - XML
 ---
 
 I’m using Visual Studio 2012, but this works just as well in any sensibly modern version of Visual Studio.

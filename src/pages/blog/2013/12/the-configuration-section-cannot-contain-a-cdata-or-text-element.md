@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - xml
+    - XML
 ---
 
 If you have a quick trawl for the error message “The configuration section cannot contain a CDATA or text element” you’ll find that currently there isn’t much solid advice for this error message.
