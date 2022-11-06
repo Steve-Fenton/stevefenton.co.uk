@@ -6,7 +6,7 @@ pubDate: 2015-07-11T20:56:19+01:00
 authors:
     - steve-fenton
 categories:
-    - CMS
+    - 'Content Management'
     - Programming
 tags:
     - PHP

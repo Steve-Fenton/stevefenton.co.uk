@@ -7,7 +7,7 @@ authors:
     - steve-fenton
 categories:
     - Automation
-    - CMS
+    - 'Content Management'
 tags:
     - Kentico
 ---

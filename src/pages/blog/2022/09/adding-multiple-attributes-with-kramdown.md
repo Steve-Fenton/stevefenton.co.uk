@@ -12,7 +12,7 @@ bannerImage:
 authors:
     - steve-fenton
 categories:
-    - Content Management
+    - 'Content Management'
 tags:
     - Jekyll
     - Kramdown

@@ -6,7 +6,7 @@ pubDate: 2018-01-26T18:30:41+00:00
 authors:
     - steve-fenton
 categories:
-    - CMS
+    - 'Content Management'
 tags:
     - Kentico
 ---
