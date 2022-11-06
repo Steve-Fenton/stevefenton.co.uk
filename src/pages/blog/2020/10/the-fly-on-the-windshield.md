@@ -9,7 +9,7 @@ bannerImage:
     src: /img/uploads/2015/07/fly.jpg
     alt: A macro shot of a fly
 categories:
-    - Opinion
+    - Other
 tags:
     - Work
 ---

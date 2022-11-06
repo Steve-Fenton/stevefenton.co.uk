@@ -6,7 +6,7 @@ pubDate: 2018-11-15T07:00:18+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - People
 ---

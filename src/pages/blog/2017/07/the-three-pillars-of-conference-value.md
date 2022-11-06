@@ -6,7 +6,7 @@ pubDate: 2017-07-25T06:00:14+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Conference
 ---

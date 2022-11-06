@@ -6,7 +6,7 @@ pubDate: 2016-01-01T00:00:46+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - 'Social Media'
 ---

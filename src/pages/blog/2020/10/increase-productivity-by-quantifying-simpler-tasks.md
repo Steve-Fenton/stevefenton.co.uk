@@ -6,7 +6,7 @@ pubDate: 2020-10-21T08:21:12+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Productivity
 ---

@@ -6,7 +6,7 @@ pubDate: 2011-09-27T17:42:38+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 Why can’t you leave comments on my blogs? The software I’m using has the feature to allow comments, with a switch that even lets me approve them before they are added to the page, but I’ve switched them off. Why?

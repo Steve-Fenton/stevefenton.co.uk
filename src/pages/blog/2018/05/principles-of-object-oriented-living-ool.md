@@ -9,7 +9,7 @@ bannerImage:
     src: /img/2018/05/principles-of-light-and-colour.jpg
     alt: Principles of light and colour
 categories:
-    - Opinion
+    - Other
 tags:
     - OOP
 ---

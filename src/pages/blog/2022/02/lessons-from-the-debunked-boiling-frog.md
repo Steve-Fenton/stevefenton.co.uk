@@ -9,7 +9,7 @@ description: There are still some lessons from the fable of boiling a frog, even
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 There are still some lessons from the fable of boiling a frog, even though it has been debunked.

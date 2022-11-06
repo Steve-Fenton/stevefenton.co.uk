@@ -6,7 +6,7 @@ pubDate: 2020-10-14T06:00:28+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Remote
 ---

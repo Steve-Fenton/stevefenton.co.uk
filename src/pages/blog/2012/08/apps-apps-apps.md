@@ -6,7 +6,7 @@ pubDate: 2012-08-07T15:32:23+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I am very often amazed that content providers bother writing apps these days. Actually, I was amazed when content-only apps were written a long time ago, but it seems incredibly amazing that people are creating them in 2012.

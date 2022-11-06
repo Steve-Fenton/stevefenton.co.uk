@@ -12,7 +12,7 @@ bannerImage:
     src: /img/2022/02/PXL_20220215_1233074962.jpg
     alt: Microsoft modern wireless headset
 categories:
-    - Opinion
+    - Other
 tags:
     - Headset
     - Meetings

@@ -6,7 +6,7 @@ pubDate: 2020-01-01T20:19:37+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Competition
 ---

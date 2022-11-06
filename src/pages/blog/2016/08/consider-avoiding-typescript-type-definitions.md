@@ -6,7 +6,6 @@ pubDate: 2016-08-14T19:33:15+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
     - Programming
 tags:
     - TypeScript

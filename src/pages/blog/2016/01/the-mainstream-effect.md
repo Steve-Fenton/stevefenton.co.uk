@@ -6,7 +6,6 @@ pubDate: 2016-01-20T06:00:47+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
     - Psychology
 tags:
     - 'Mainstream Effect'

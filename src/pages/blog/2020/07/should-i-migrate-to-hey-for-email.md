@@ -6,7 +6,7 @@ pubDate: 2020-07-01T14:26:06+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Email
     - Hey

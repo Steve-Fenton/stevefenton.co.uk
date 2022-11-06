@@ -6,7 +6,7 @@ pubDate: 2016-11-18T06:00:00+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 There is a big difference between interviewing for a Theory-X company and a Theory-Y company. The good news is that when you are looking for a Theory-Y company; you don’t need to worry about adjusting your style based on the organisation.

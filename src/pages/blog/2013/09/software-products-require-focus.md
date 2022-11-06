@@ -6,7 +6,7 @@ pubDate: 2013-09-01T11:15:54+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I have worked in product development teams for a lot of different industries. I have seen a great many strategies at play. From finance, to retail, to communications, to health – no matter what the industry, the key to successful software product development is focus.

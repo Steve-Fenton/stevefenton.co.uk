@@ -8,7 +8,7 @@ authors:
 bannerImage:
     src: /img/2021/08/Boycriedwolfbarlow.jpg
 categories:
-    - Opinion
+    - Other
 tags:
     - Monitoring
     - Psychology

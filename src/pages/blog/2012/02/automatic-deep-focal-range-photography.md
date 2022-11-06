@@ -6,7 +6,7 @@ pubDate: 2012-02-16T16:55:53+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Photography
 ---

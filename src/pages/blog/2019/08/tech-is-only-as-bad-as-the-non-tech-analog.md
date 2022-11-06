@@ -6,7 +6,7 @@ pubDate: 2019-08-28T07:50:16+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Technology
 ---

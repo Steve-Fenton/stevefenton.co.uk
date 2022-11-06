@@ -6,7 +6,7 @@ pubDate: 2016-01-09T06:00:08+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Android
     - SmartWatch

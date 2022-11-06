@@ -6,7 +6,7 @@ pubDate: 2013-06-26T12:01:14+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I have made a few statements in the past that haven’t been far wrong from the truth, so I have something of a track record. I’m no Nostradamus by any means, but I can certainly see how some things are going to turn out based on my experiences.

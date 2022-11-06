@@ -9,7 +9,7 @@ bannerImage:
     src: /img/2018/05/full-ui.png
     alt: Cluttered user interface
 categories:
-    - Opinion
+    - Other
 tags:
     - Design
     - UX

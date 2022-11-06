@@ -6,7 +6,7 @@ pubDate: 2013-05-08T14:43:34+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Music
 ---

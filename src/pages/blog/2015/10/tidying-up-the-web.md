@@ -6,7 +6,6 @@ pubDate: 2015-10-04T12:00:24+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
     - Psychology
 tags:
     - Attention

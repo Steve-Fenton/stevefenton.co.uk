@@ -6,7 +6,7 @@ pubDate: 2013-11-01T10:13:59+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 Despite having moved house quite a few times, it dawned on me that I have never really thought about what size boxes I should use to move house. *Back In The Day*™ boxes were typically sourced from shops, who couldn’t wait to offload their waste cardboard on home-movers to avoid paying for them to be taken away. It would have seemed odd back then to think that we would end up paying for boxes to be sent out to us in order to pack up our stuff to move home.

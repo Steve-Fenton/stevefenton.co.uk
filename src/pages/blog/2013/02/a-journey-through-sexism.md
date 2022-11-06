@@ -6,7 +6,7 @@ pubDate: 2013-02-13T22:08:20+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I’m not perfect. I often accidentally generalise in many ways even though I am now hyper-aware of the problem. This isn’t a lecture where someone perfect condescends to a bunch of imperfect people. I am just an average person. I grew up listening to adults around me talking a certain way and because I respected them I absorbed some of those views along the way. It isn’t an excuse and I don’t blame them for it – they in turn may have been brought up in an environment that exposed them to even more extreme views. I didn’t even realise this until I starting thinking about it. *Really* thinking about it.

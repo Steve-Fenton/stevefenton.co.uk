@@ -6,7 +6,7 @@ pubDate: 2016-04-22T19:41:30+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I really enjoy watching the ITV television series “Agatha Christie’s Poirot”, starring David Suchet as Poirot and with enjoyable regular performances from Hugh Fraser, Philip Jackson, and Pauling Moran. The shows themselves are great fun, especially the lighter episodes; but that isn’t what makes this show such compelling viewing.

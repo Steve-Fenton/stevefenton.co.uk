@@ -6,7 +6,7 @@ pubDate: 2012-01-17T17:05:27+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 We seem to be great fans of getting into really deep discussions, and sometimes arguments, over what appears to be unnecessary detail. Immaterial things that actually don’t result in anything getting better. We like to argue about stuff that cannot be proven, except by personal taste. This is okay to a point, so long as we bear in mind that our personal emotional investment is proportional to the importance of the discussion.

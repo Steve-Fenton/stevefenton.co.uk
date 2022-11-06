@@ -6,7 +6,7 @@ pubDate: 2010-02-18T21:34:44+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 This is just a brief article to give a who’s who of people named Steve or Stephen Fenton the world over and gives you an idea of where to find some other sources of Steve Fenton genius. If you are another Steve or Stephen Fenton who would like a shout on this page, just [get in touch with your details](/contact/).

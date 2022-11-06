@@ -6,7 +6,7 @@ pubDate: 2010-01-28T22:13:28+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 The new Apple iPad has been revealed in a big ceremony with an impressive demo from Apple’s CEO. Despite Fujitsu possibly still owning the trademark “i-pad” for hand-held computing, it is an impressive bit of kit.

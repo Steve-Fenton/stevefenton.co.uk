@@ -6,7 +6,6 @@ pubDate: 2017-01-19T06:00:10+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
     - Programming
 tags:
     - Frameworks

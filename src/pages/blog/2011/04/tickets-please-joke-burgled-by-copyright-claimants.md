@@ -6,7 +6,7 @@ pubDate: 2011-04-27T19:33:48+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 You may have heard this joke before, but it is worth re-capping on the subject of some ridiculous copyright-claims.

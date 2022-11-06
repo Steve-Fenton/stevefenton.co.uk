@@ -6,7 +6,7 @@ pubDate: 2017-01-23T20:02:43+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - UX
 ---

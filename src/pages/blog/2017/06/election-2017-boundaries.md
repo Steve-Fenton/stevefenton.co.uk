@@ -6,7 +6,7 @@ pubDate: 2017-06-10T19:48:01+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Election
 ---

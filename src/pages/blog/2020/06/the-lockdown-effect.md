@@ -6,7 +6,7 @@ pubDate: 2020-06-03T09:33:42+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 As some countries around the world lift restrictions following COVID-19 lockdowns, we can start to see the effects the lockdown will have on different companies and industries. From the data I have seen so far, the lockdown effect seems to divide organisations into three broad categories: winners, losers, and recoverees. Let’s look at what this means.

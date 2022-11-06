@@ -6,7 +6,7 @@ pubDate: 2015-12-05T06:00:04+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Motivation
     - TypeScript

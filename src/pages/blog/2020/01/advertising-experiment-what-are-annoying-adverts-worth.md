@@ -6,7 +6,7 @@ pubDate: 2020-01-08T16:47:22+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Advertising
 ---

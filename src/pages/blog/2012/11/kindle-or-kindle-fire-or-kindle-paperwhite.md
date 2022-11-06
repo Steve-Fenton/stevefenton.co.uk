@@ -6,7 +6,7 @@ pubDate: 2012-11-12T23:06:48+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 After reading my article about [Kindle vs Kobo](/blog/2012/02/kobo-vs-kindle-comparison-the-ebook-reader-showdown/), a lot of people have been asking me whether to get a Kindle, Kindle Fire or Kindle Paperwhite. Rather than respond to everyone individually, I thought I’d put my opinions down in a follow up article. This article assumes that you’ve decided to buy a Kindle and compares what you get from each of the current models.

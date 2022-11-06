@@ -9,7 +9,7 @@ bannerImage:
     src: /img/2020/09/prediction-vs-recorded-cases.png
     alt: Prediction vs recorded cases
 categories:
-    - Opinion
+    - Other
 tags:
     - Data
 ---

@@ -6,7 +6,7 @@ pubDate: 2021-02-22T20:00:09+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Data
 ---

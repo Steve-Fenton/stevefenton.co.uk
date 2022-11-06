@@ -6,7 +6,7 @@ pubDate: 2015-09-19T11:00:08+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Gamification
 ---

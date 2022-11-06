@@ -6,7 +6,7 @@ pubDate: 2009-12-30T22:16:24+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 Back in the dark ages, we had to telephone around lots of insurance companies to find the best deal. Most people would try up to five companies before choosing the cheapest out of the ones they had called.

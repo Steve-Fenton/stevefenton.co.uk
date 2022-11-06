@@ -6,7 +6,7 @@ pubDate: 2015-09-04T07:30:53+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 Working hard verses thinking hard: Why weak management always falls back to measuring hours above all else.

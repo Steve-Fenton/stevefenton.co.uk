@@ -6,7 +6,7 @@ pubDate: 2017-07-18T09:39:37+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 When your body detects an infection, it will kick off an immune response that fights the infection with white blood cells (macrophages). If this doesn’t solve the problem, your body upgrades the response to white blood cells called T and B lymphocytes. Interestingly, there are two jobs undertaken by these two kinds of white blood cell. Some act as monitors and alert on invading viruses, while other act to destroy them. These cells hang around long after the virus has been destroyed, and have a long memory that means they will react much faster if they spot similar behaviour in the future.

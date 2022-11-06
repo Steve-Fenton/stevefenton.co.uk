@@ -6,7 +6,7 @@ pubDate: 2012-04-13T16:24:47+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 We have all heard the phrase “it’s not what you know, it’s who you know”. It seems to have came about in 1914 in “[The Electrical Worker](https://books.google.co.uk/books?id=SrQuAQAAIAAJ&hl=en)” and has become more and more common ever since.

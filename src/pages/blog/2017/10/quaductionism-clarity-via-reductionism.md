@@ -6,7 +6,7 @@ pubDate: 2017-10-24T22:15:14+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 How do you combat that paralysing feeling of paralysis you get when the problem is just too complex to tackle? The answer is *quaductionism*. I know what you’re thinking; you’re thinking that I just made this word up. That’s okay, because I did. But only because I needed a single word to sum up the awesome power of this common and simple reductionism trick.

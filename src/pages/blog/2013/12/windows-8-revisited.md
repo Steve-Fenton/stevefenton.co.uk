@@ -6,7 +6,7 @@ pubDate: 2013-12-27T09:30:52+00:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - Windows
 ---

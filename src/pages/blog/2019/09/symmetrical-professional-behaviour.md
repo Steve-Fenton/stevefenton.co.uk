@@ -6,7 +6,7 @@ pubDate: 2019-09-23T16:28:22+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 I started to write this from a leadership perspective, but soon realised that this is a general principle that applies at all levels within an organisation. It’s a principle I’m going to call *symmetrical professional behaviour*. It works like this… whatever formal or informal contracts you use to interact with other people, it needs to work the other way.

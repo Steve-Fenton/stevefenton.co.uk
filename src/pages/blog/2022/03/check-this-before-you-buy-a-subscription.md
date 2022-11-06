@@ -9,7 +9,7 @@ description:
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 Everything is becoming a subscription these days. The combination of convenient smaller regular payments for customers and a recurring revenue base for the provider means this model feels like the magic formula all around. Whether it’s kitchen appliances from AO, razors from Harry’s, food from Hello Fresh, or a car from Cazoo – you can enjoy the flexibility of subscription-based services for practially anything.

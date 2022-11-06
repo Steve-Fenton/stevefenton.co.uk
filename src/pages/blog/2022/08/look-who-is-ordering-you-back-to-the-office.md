@@ -12,7 +12,7 @@ bannerImage:
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 tags:
     - WFH
 ---

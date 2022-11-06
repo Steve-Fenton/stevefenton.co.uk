@@ -6,7 +6,6 @@ pubDate: 2017-06-04T20:24:49+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
     - Programming
 tags:
     - Approval

@@ -8,7 +8,7 @@ authors:
 bannerImage:
     src: /img/2020/04/MVIMG_20200316_191453-1.jpg
 categories:
-    - Opinion
+    - Other
 tags:
     - 'Office Storage'
 ---

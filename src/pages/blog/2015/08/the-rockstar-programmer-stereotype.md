@@ -6,7 +6,7 @@ pubDate: 2015-08-19T07:30:53+01:00
 authors:
     - steve-fenton
 categories:
-    - Opinion
+    - Other
 ---
 
 The term “Rockstar Programmer” label has been going back and forth for a while now. It started with people recruiting for “Rockstar Programmers”, then went into backlash with people bemoaning why you would want someone opinionated and difficult.
