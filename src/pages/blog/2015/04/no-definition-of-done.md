@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - Scrum
+    - Agile
 ---
 
 Have you even been on a new team and before you start your first iteration, you create a definition of done? Don’t do that.

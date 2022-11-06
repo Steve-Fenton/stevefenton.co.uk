@@ -9,7 +9,7 @@ categories:
     - Process
 tags:
     - Kanban
-    - Scrum
+    - Agile
     - XP
 ---
 

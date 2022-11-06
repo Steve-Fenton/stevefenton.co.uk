@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - aop
+    - 'Aspect-Oriented Programming'
     - TypeScript
 ---
 

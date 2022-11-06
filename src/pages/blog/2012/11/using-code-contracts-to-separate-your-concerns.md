@@ -9,7 +9,7 @@ categories:
     - Programming
 tags:
     - .net
-    - aop
+    - 'Aspect-Oriented Programming'
     - C-Sharp
 ---
 
