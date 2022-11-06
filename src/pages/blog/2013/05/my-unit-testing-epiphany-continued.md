@@ -8,7 +8,7 @@ authors:
 categories:
     - Programming
 tags:
-    - TDD
+    - Testing
 ---
 
 I had some great feedback on [my unit testing epiphany](/blog/2013/05/my-unit-testing-epiphany/). Normally I would append an update, but this was worth a proper follow up article. As a side-note, if you don’t have some friends who will question you, probe you and otherwise engage your mind on a topic – you really need to get some of those. They are much more important than the ones who just agree with everything.

@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'noestimates'
+    - Estimates
 ---
 
 What is it about “No Estimates” (or indeed, #NoEstimates) that gets people so angry? I had a great time last night at an open space discussion on this topic. Most of the room were using relative sizing, a small number used detailed estimates – but as a group we worked out what it would take to get away from estimating without throwing away the value we might get from them.

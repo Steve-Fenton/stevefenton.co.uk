@@ -12,7 +12,7 @@ categories:
 tags:
     - C-Sharp
     - 'Entity Framework'
-    - TDD
+    - Testing
 ---
 
 :::div{.inset}

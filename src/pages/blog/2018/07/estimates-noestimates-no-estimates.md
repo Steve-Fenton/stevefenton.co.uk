@@ -11,9 +11,7 @@ bannerImage:
 categories:
     - Process
 tags:
-    - 'noestimates'
     - Estimates
-    - Estimation
 ---
 
 I have said a thing or two about estimates in the past; and it generally leads to no good. What I do sometimes need to do is clarify my perspective, because people don’t get it. As always, definitions are important – so I’m to clarify what I think of when I talk about estimates, #NoEstimates, and no estimates.

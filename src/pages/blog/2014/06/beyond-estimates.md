@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'noestimates'
+    - Estimates
 ---
 
 In order to stop the flow of people who are so keen to tell me what my opinion is on the #NoEstimates debate – I have documented here my current position, which is neither entirely for nor against the use of estimates.

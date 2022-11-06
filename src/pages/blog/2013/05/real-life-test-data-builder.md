@@ -10,7 +10,7 @@ categories:
 tags:
     - .net
     - C-Sharp
-    - TDD
+    - Testing
 ---
 
 So having listened to Ian Cooper talking about Test Mothers and Test Data Builders and carefully considering both options (and trying them out without checking in any code) – I decided to go with the Test Data Builder for the project I am currently working on.

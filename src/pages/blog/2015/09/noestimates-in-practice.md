@@ -8,9 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'noestimates'
     - Estimates
-    - Estimation
 ---
 
 A fader is a control you can use to vary the volume of sound, the intensity of light, or the gain on a video or audio signal. We have all seen giant sound desks in expensive studios with arrays of motorised faders controlling the mix of a recording. The important thing to remember is that the correct location for a fader can be almost anywhere along its length. It depends on the circumstances; not just the instrument, but also the song, the moment within the song, and all of the other instruments. Occasionally the correct place will be “min” or “max”, but usually you’ll find the fader elsewhere.

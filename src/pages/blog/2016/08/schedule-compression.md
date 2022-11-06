@@ -8,9 +8,8 @@ authors:
 categories:
     - Process
 tags:
-    - 'noestimates'
+    - Estimates
     - Deadlines
-    - Estimation
 ---
 
 When a software team gives an estimate, it is not uncommon for the estimate to be “rejected”. I wanted to explore my thoughts on this matter.

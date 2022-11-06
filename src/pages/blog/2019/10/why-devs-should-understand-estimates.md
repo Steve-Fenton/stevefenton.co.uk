@@ -12,7 +12,6 @@ categories:
     - Process
     - Programming
 tags:
-    - 'noestimates'
     - Estimates
 ---
 

@@ -8,7 +8,7 @@ authors:
 categories:
     - Process
 tags:
-    - 'noestimates'
+    - Estimates
 ---
 
 It is believed that the Sami languages of Norway, Sweden, and Finland have as many as 300 words to describe snow and ice. Anthropologists have long argued that if you live in the Arctic Circle, you probably need more than the dozen or so words for snow and ice than we need further south. I once watched a documentary that followed a mountain rescue team. One mountaineer described in great detail the difference between different kinds of snow and how some forms are more prone to [avalanches](https://en.wikipedia.org/wiki/Avalanche) – read the first couple of paragraphs from the Wikipedia page on this subject reveals a colourful collection of descriptive terms that have been introduced to encapsulate concepts from the technical domain of avalanche study.
