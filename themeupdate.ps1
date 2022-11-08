@@ -12,9 +12,9 @@
 
     $src = '../astro-accelerator/'
 
-    cd $src
+    Set-Location $src
     git pull
-    cd $location
+    Set-Location $location
 
 # Your own custom copies
 #
