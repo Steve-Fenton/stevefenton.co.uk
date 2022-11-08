@@ -34,7 +34,8 @@ export const SITE = {
 	},
 	images: {
 		contentSize: '(max-width: 860px) 100vw, 620px',
-		listerSize: '(max-width: 860px) 90vw, 350px'
+		listerSize: '(max-width: 860px) 90vw, 350px',
+		authorSize: '50px',
 	}
 };
 

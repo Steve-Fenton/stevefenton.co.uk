@@ -760,7 +760,7 @@ article + .post-list {
 }
 
 .post-meta .author-image {
-    max-width: 50px;
+    width: 50px;
     margin-right: 1rem;
     aspect-ratio: 1/1;
     object-fit: cover;
