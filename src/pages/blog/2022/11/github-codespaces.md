@@ -50,9 +50,11 @@ When you first open GitHub Codespaces, it spins up an instance and presents you 
 
 One of the first things I spotted was Codespaces detects my `npm build` script and kicks it off. I didn't want to run this right away, so a quick <kbd>CTRL</kbd> + <kbd>C</kbd> stopped the automatic run until I was ready to build it myself.
 
-## Closing the Codespace
+## Stopping the Codespace
 
-There's an additional "Codespaces" button in the editor that opens the command palatte in Visual Studio Code. The option "Stop Current Codespace" stops the active session and 
+There's an additional "Codespaces" button in the editor that opens the command palatte in Visual Studio Code. The option "Stop Current Codespace" stops the active session.
+
+If you don't stop a session, it will automatically stop after 30 minutes of inactivity. This is good as it prevents you using up your free hours by forgetting to stop the Codespace.
 
 ## Working with files
 
