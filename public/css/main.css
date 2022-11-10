@@ -107,7 +107,7 @@ em {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    margin: 1.5em 0 0.6em 0;
+    margin: var(--block-gap) 0 var(--paragraph-margin) 0;
     color: var(--fore-headings);
     line-height: 1em;
     letter-spacing: -0.03em;
@@ -124,7 +124,9 @@ h1 {
 }
 
 main article h2, main article h3, main article h4, main article h5, main article h6 {
-    padding-left: 2rem;
+    margin: var(--block-gap) -1rem var(--paragraph-margin) -1rem;
+    background-color: var(--aft-block);
+    padding: 0.5em 0.5em 0.5em 2.5em;
 }
 
 h2 {
