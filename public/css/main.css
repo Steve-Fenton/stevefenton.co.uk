@@ -428,7 +428,8 @@ nav.site-nav h2 {
 
 /* Main content group */
 
-.article-grid {
+
+.content-group {
     display: grid; 
     grid-template-columns: var(--navigation-width) auto; 
     grid-template-rows: auto 1fr; 
@@ -436,41 +437,42 @@ nav.site-nav h2 {
     grid-template-areas: 
       "top top"
       "menu content";
-    width: 80%;
     max-width: var(--grid-max-width);
     justify-items: center;
     margin: 0 auto;
 }
 
-.article-grid > header {
+.content-group header {
     grid-area: top;
     text-align: center;
     padding-bottom: var(--block-gap);
 }
 
-.article-grid > header p {
+.content-group header p {
     width: 60%;
     margin: 0 auto;
     font-size: 2em;
     color: var(--fore-headings);
 }
 
-.article-grid > div {
-    grid-area: content;
-    max-width: calc(var(--grid-max-width) - var(--grid-gap) - var(--navigation-width));
-    border: 1px dashed var(--fore);
-    box-shadow: var(--box-shadow);
-    background-color: var(--aft-paper);
-    padding: 1rem;
-}
-
-.article-grid > nav {
+.content-group > nav {
     grid-area: menu;
     width: 100%;
 }
 
+.content-group main,
+.content-group article {
+    display: contents;
+}
+
+.content-group article > .page-content {
+    grid-area: content;
+    margin: 0;
+    max-width: calc(var(--grid-max-width) - var(--grid-gap) - var(--navigation-width));
+}
+
 @media (max-width: 860px) {
-    .article-grid {
+    .content-group {
         grid-template-columns: auto; 
         grid-template-rows: repeat(auto); 
         gap: var(--grid-gap);
@@ -479,6 +481,19 @@ nav.site-nav h2 {
           "content"
           "menu";
     }
+}
+
+.page-content {
+    border: 1px dashed var(--fore);
+    box-shadow: var(--box-shadow);
+    max-width: calc(var(--grid-max-width) - var(--navigation-width) - var(--grid-gap));
+    width: calc(var(--grid-width) - var(--navigation-width) - var(--grid-gap));
+    background-color: var(--aft-paper);
+    padding: 1rem;
+}
+
+.page-content > h2:nth-child(1) {
+    margin-top: 0;
 }
 
 /* Table of Contents (TOC) */

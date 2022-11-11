@@ -1,5 +1,6 @@
 ---
 import { SITE, Frontmatter } from '@config';
+import { getInlineHtmlFrom } from '@util/Markdown.astro';
 
 import Head from '@components/HtmlHead.astro';
 import Header from '@components/Header.astro';
@@ -21,6 +22,11 @@ const { frontmatter, headings } = Astro.props as Props;
 const lang = frontmatter.lang ?? SITE.default.lang;
 const textDirection = frontmatter.dir ?? SITE.default.dir;
 
+const title = await getInlineHtmlFrom(frontmatter.title ?? SITE.title);
+const subtitle = frontmatter.subtitle
+    ? await getInlineHtmlFrom(frontmatter.subtitle)
+    : null;
+
 const features = `<script>
 const site_url = '${SITE.url}';
 const site_features = ${JSON.stringify(SITE.featureFlags)};
@@ -32,26 +38,26 @@ const site_features = ${JSON.stringify(SITE.featureFlags)};
         <SkipLinks frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <Header frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <Breadcrumbs frontmatter={ frontmatter } headings={ headings } lang={ lang } />
-        <main id="site-main">
-            <article class="article-grid" itemscope itemtype="https://schema.org/Article">
-                <header>
-                    <h1 itemprop="name headline">{ frontmatter.title ?? SITE.title }</h1>
-                    {frontmatter.subtitle && (
-                        <p>{ frontmatter.subtitle }</p>
-                    )}
-                </header>
-                <div>
-                    <TableOfContents frontmatter={ frontmatter } headings={ headings } lang={ lang } />
-                    <Authors frontmatter={ frontmatter } lang={ lang } />
+        <div class="content-group">
+            <Navigation lang={ lang } />
+            <main id="site-main">
+                <article itemscope itemtype="https://schema.org/Article">
+                    <header>
+                        <h1 itemprop="name headline"><Fragment set:html={ title } /></h1>
+                        {subtitle && (
+                            <p><Fragment set:html={ subtitle } /></p>
+                        )}
+                    </header>
                     <div class="page-content anim-show-parent" itemprop="articleBody">
+                        <TableOfContents frontmatter={ frontmatter } headings={ headings } lang={ lang } />
+                        <Authors frontmatter={ frontmatter } lang={ lang } />
                         <slot />
                     </div>
                     <Taxonomy frontmatter={ frontmatter } lang={ lang } />
                     <Related frontmatter={ frontmatter } headings={ headings } lang={ lang } />
-                </div>
-                <Navigation lang={ lang } />
-            </article>
-        </main>
+                </article>
+            </main>
+        </div>
         <Footer frontmatter={ frontmatter } headings={ headings } lang={ lang } />
         <Fragment is:html="true" set:html={ features } />
         <script src={ SITE.subfolder + '/js/main.js' } type="module" async></script>
