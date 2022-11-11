@@ -439,7 +439,7 @@ nav.site-nav h2 {
       "menu content";
     max-width: var(--grid-max-width);
     justify-items: center;
-    margin: 0 auto;
+    margin: 0 auto var(--block-gap) auto;
 }
 
 .content-group header {
@@ -471,18 +471,6 @@ nav.site-nav h2 {
     max-width: calc(var(--grid-max-width) - var(--grid-gap) - var(--navigation-width));
 }
 
-@media (max-width: 860px) {
-    .content-group {
-        grid-template-columns: auto; 
-        grid-template-rows: repeat(auto); 
-        gap: var(--grid-gap);
-        grid-template-areas: 
-          "top"
-          "content"
-          "menu";
-    }
-}
-
 .page-content {
     border: 1px dashed var(--fore);
     box-shadow: var(--box-shadow);
@@ -494,6 +482,23 @@ nav.site-nav h2 {
 
 .page-content > h2:nth-child(1) {
     margin-top: 0;
+}
+
+@media (max-width: 860px) {
+    .content-group {
+        grid-template-columns: auto; 
+        grid-template-rows: repeat(auto); 
+        gap: var(--grid-gap);
+        grid-template-areas: 
+          "top"
+          "content"
+          "menu";
+    }
+
+    .page-content {
+        max-width: auto;
+        width: 90%;
+    }
 }
 
 /* Table of Contents (TOC) */
@@ -675,7 +680,6 @@ article + .post-list {
 }
 
 .post-list .list-item-content .post-meta {
-    margin: 0 auto;
     font-size: 0.8rem;
     text-align: left;
 }
