@@ -52,9 +52,9 @@ const site_features = ${JSON.stringify(SITE.featureFlags)};
                         <TableOfContents frontmatter={ frontmatter } headings={ headings } lang={ lang } />
                         <Authors frontmatter={ frontmatter } lang={ lang } />
                         <slot />
+                        <Taxonomy frontmatter={ frontmatter } lang={ lang } />
+                        <Related frontmatter={ frontmatter } headings={ headings } lang={ lang } />
                     </div>
-                    <Taxonomy frontmatter={ frontmatter } lang={ lang } />
-                    <Related frontmatter={ frontmatter } headings={ headings } lang={ lang } />
                 </article>
             </main>
         </div>
