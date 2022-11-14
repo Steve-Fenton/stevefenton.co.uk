@@ -1,6 +1,6 @@
 ---
 import type { Frontmatter } from '@config';
-import ThemeLayout from '@layouts/Search.astro';
+import Search from '@layouts/Search.astro';
 
 // Properties
 type Props = {
@@ -10,6 +10,6 @@ type Props = {
 const { frontmatter, headings } = Astro.props as Props;
 
 ---
-<ThemeLayout frontmatter={ frontmatter } headings={ headings }>
+<Search frontmatter={ frontmatter } headings={ headings }>
     <slot />
-</ThemeLayout>
+</Search>
