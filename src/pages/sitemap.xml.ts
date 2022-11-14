@@ -1,7 +1,9 @@
+// warning: This file is overwritten by Astro Accelerator
+
 // Generates an ATOM feed of recent posts
 import { SITE } from '@config';
-import { showInSitemap } from '@util/PageTypeFilters.astro';
-import { addSlashToAddress } from '@util/Url.astro';
+import { showInSitemap } from '@util/PageTypeFilters';
+import { addSlashToAddress } from '@util/Url';
 
 async function getData() {
   //@ts-ignore
