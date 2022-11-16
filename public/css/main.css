@@ -438,6 +438,7 @@ nav.site-nav h2 {
       "top top"
       "menu content";
     max-width: var(--grid-max-width);
+    width: var(--grid-width);
     justify-items: center;
     margin: 0 auto var(--block-gap) auto;
 }
@@ -446,6 +447,8 @@ nav.site-nav h2 {
     grid-area: top;
     text-align: center;
     padding-bottom: var(--block-gap);
+    width: 100%;
+    overflow: hidden;
 }
 
 .content-group header p {
@@ -495,9 +498,9 @@ nav.site-nav h2 {
           "menu";
     }
 
-    .page-content {
+    .content-group article > .page-content {
         max-width: auto;
-        width: 90%;
+        width: calc(90vw - 2rem)
     }
 }
 
