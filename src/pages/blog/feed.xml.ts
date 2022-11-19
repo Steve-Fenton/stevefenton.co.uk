@@ -2,8 +2,8 @@
 
 // Generates an ATOM feed of recent posts
 import { SITE } from '@config';
-import { addSlashToAddress } from '@util/Url';
-import { isListable } from '@util/PageTypeFilters';
+import { addSlashToAddress, isListable } from 'astro-accelerator-utils';
+import { getTextFrom } from '@util/Markdown';
 
 async function getData() {
   //@ts-ignore
@@ -15,6 +15,8 @@ async function getData() {
     const article: any = await allArticles[path]();
 
     if (isListable(article)) {
+      article.frontmatter.title = await getTextFrom(article.frontmatter.title ?? '');
+
       articles.push({
         url: article.url,
         frontmatter: article.frontmatter
@@ -31,7 +33,7 @@ async function getData() {
     <entry>
       <title>${a.frontmatter.title ?? ''}</title>
       <link href="${ SITE.url + a.url }" />
-      <id>${ SITE.url + addSlashToAddress(a.url) }</id>
+      <id>${ SITE.url + addSlashToAddress(a.url, SITE) }</id>
       <published>${ a.frontmatter.pubDate }</published>
       <updated>${ a.frontmatter.pubDate ?? a.frontmatter.pubDate }</updated>
       <summary>${ a.frontmatter.description ?? '' }</summary>

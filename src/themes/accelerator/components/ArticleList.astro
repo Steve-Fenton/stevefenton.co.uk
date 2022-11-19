@@ -1,8 +1,9 @@
 ---
 import type { MarkdownInstance } from 'astro';
 import { SITE, Frontmatter } from '@config';
-import { addSlashToAddress } from '@util/Url';
+import { addSlashToAddress } from 'astro-accelerator-utils';
 import { getImageInfo } from '@util/custom-markdown.mjs';
+import { getTextFrom } from '@util/Markdown';
 import AuthorsMini from '@components/AuthorsMini.astro';
 
 
@@ -14,15 +15,35 @@ type Props = {
 const { lang, posts } = Astro.props as Props;
 
 // Logic
-const articles = posts.map(p => {
-  return {
-    url: p.url,
+type ImageInfo = {
+  src: string;
+  srcset: string;
+  sizes: string;
+  class: string;
+};
+
+type Article = {
+  url: string;
+  frontmatter: Record<string, any>;
+  img: ImageInfo | null;
+};
+
+
+const articles: Article[] = [];
+
+for (let p of posts) {
+  const item = {
+    url: p.url ?? '',
     frontmatter: p.frontmatter,
     img: p.frontmatter.bannerImage
-      ? getImageInfo(p.frontmatter.bannerImage.src, '', SITE.images.listerSize)
-      : null
+    ? getImageInfo(p.frontmatter.bannerImage.src, '', SITE.images.listerSize)
+    : null
   };
-});
+  
+  item.frontmatter.title = await getTextFrom(p.frontmatter.title);
+
+  articles.push(item)
+}
 
 let articleIndex = 0;
 function getLoadingAttribute() {
@@ -34,7 +55,7 @@ function getLoadingAttribute() {
 ---
 <ul class="post-list anim-show-parent">
   {articles.map((post) => (
-  <li class="list-item" data-destination={ addSlashToAddress(post.url) } data-image={ (post.frontmatter.bannerImage?.src.length > 0).toString() }>
+  <li class="list-item" data-destination={ addSlashToAddress(post.url, SITE) } data-image={ (post.frontmatter.bannerImage?.src.length > 0).toString() }>
     <article>
       <div class="list-item-image">
       {post.img && (
@@ -49,7 +70,7 @@ function getLoadingAttribute() {
       </div>
       <div class="list-item-content">
         <h3>
-          <a href={ addSlashToAddress(post.url) }>{ post.frontmatter.title }</a>
+          <a href={ addSlashToAddress(post.url, SITE) }>{ post.frontmatter.title }</a>
         </h3>
         <AuthorsMini lang={ lang } frontmatter={ post.frontmatter as Frontmatter } />
       </div>

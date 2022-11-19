@@ -10,7 +10,6 @@ type Props = {
     headings: { depth: number; slug: string; text: string; }[];
 }
 const { frontmatter, headings } = Astro.props as Props;
-
 ---
 <Default frontmatter={ frontmatter } headings={ headings }>
     <slot />
