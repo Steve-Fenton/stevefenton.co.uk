@@ -2,7 +2,8 @@
 layout: src/layouts/Default.astro
 title: Secure Octopus Deploy with an auto-updating Let's Encrypt certificate
 navMenu: false
-pubDate: 2017-02-15T06:00:14+00:00
+pubDate: 2017-02-15
+modDate: 2022-11-23
 authors:
     - steve-fenton
 categories:
@@ -15,7 +16,7 @@ tags:
     - 'Octopus Deploy'
 ---
 
-Octopus Deploy has a web portal that runs a self-hosted website on whatever port you specify. You can even have Octopus generate a self-signed certificate in order to use HTTPS when browsing the web portal… but if you connect other application that are strictly validating certificates, they won’t be too pleased with self-signed certificates. Purchasing certificates can also be expensive.
+Octopus Deploy has a web portal that runs a self-hosted website on whatever port you specify. You can even have Octopus generate a self-signed certificate to use HTTPS when browsing the web portal… but if you connect other applications that are strictly validating certificates, they won’t be too pleased with self-signed certificates. Purchasing certificates can also be expensive.
 
 One solution is to use IIS as a proxy server, put it in front of Octopus Deploy, and have it handle the HTTPS traffic – with a free Let’s Encrypt certificate powering it (with automatic updates to the certificate as they only last 90 days).
 
@@ -39,8 +40,9 @@ Add a new website to your IIS sites called “octoproxy”.
 
 Open up the URL Rewrite feature in IIS Manager:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2017/02/rewrite-icon.png" alt="URL rewrite icon" loading="lazy"}
+::figcaption[URL rewrite icon]
 :::
 
 There are three rules to set up, and the order is important (and you can re-order them at any time to ensure they are in the order shown below):
@@ -49,8 +51,9 @@ There are three rules to set up, and the order is important (and you can re-orde
 - A rule to redirect HTTP traffic to HTTPS
 - A reverse proxy to rewrite requests to the local Octopus Web Portal
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2017/02/url-rewrite.png" alt="URL rewrite" loading="lazy"}
+::figcaption[URL rewrite]
 :::
 
 Rule 1: Add a new blank rule…
@@ -83,7 +86,7 @@ Rule 3: Add a new Reverse Proxy rule…
 
 Note! If you are prompted to enable :abbr[ARR]{title="Application Request Routing"}, click “OK” as this is needed for the reverse proxy to work.
 
-Enter the server name: http://localhost:8080/ and save the rule.
+Enter the server name: `http://localhost:8080/` and save the rule.
 
 Open the rule (which will be auto-named as ReverseProxyInboundRule1… snappy) and enter the following details:
 
@@ -99,22 +102,22 @@ And add the following condition to this rule:
 And add the following action to this rule:
 
 - Action Type: Rewrite
-- URL: http://localhost:8080/{R:1}
+- URL: `http://localhost:8080/{R:1}`
 - Append Query String: Yes
 - Stop Processing: Yes
 
 ## Octopus
 
-In Octopus Manager, click “Change Bindings” and remove all bindings except http://localhost:8080/ (you may need to add this binding if it does not exist).
+In Octopus Manager, click “Change Bindings” and remove all bindings except `http://localhost:8080/` (you may need to add this binding if it does not exist).
 
 ## Let’s Encrypt
 
-[Grab the latest zip from the release page of Lone Coder’s “LetsEncrypt-Win-Simple” project](https://github.com/Lone-Coder/letsencrypt-win-simple/wiki) and put it somewhere permanant on the server. This is the simplest Let’s Encrypt client, others are available.
+[Grab the latest zip from the release page of Lone Coder’s “LetsEncrypt-Win-Simple” project](https://github.com/Lone-Coder/letsencrypt-win-simple/wiki) and put it somewhere permanent on the server. This is the simplest Let’s Encrypt client, others are available.
 
 Run “letsencrypt.exe” as Administrator and follow the prompts. You’ll be asked to supply an email address (for failed certificate updates), and you’ll be asked to choose which IIS website you want to apply a certificate to.
 
-It automatically obtains a certificate, adds HTTPS bindings, and sets up a schedule to renew the certicate.
+It automatically obtains a certificate, adds HTTPS bindings, and sets up a schedule to renew the certificate.
 
 ## Summary
 
-You now have a certificate from Let’s Encrypt pointing at a :443 binding for your “octoproxy” website, which rewrites requests to the local instance of the Octopus Web Portal. If you check out Task Scheduler, you’ll see the automated renewal for the certiciate. If someone visits your Octopus Web Portal on HTTP, they will be redirected to HTTPS.
+You now have a certificate from Let’s Encrypt pointing at a `:443` binding for your “octoproxy” website, which rewrites requests to the local instance of the Octopus Web Portal. If you check out Task Scheduler, you’ll see the automated renewal for the certificate. If someone visits your Octopus Web Portal on HTTP, they will be redirected to HTTPS.
