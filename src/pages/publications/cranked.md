@@ -36,5 +36,3 @@ Buy online:
 [Cranked MOBI for Kindle (US)](https://www.amazon.com/Cranked-agile-software-development-method-ebook/dp/B00NMVLRX8/)
 
 [Cranked paperback (US)](https://www.amazon.com/Cranked-Steve-Fenton/dp/1291918795/)
-
-[Find more buying options](http://crankedalliance.org/buy-the-book/)…

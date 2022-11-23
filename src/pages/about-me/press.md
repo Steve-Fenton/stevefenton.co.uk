@@ -157,8 +157,6 @@ Corrado reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 
 > The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it, it starts from what happens under the hood: how code is transformed into pure ECMAScript compatible JavaScript and vice versa to how to start writing some code in Visual Studio after installing the required extension.
 
-[Read the article on Corrado’s Blog](http://codeworks.it/blog/?p=145)
-
 ## Fokko’s View on ALM
 
 17th June 2013  
@@ -191,7 +189,7 @@ I was honoured with a citation in the Chicago Tribune for my [thoughts on Pie Ch
 ## Maca is Rambling
 
 7th August 2011  
-I was very pleased to get a double-mention in an article about the best jQuery 3D effects plugins, with Three Dee and Image Parallax both getting a mention. You can read the full article on [Maca Is Rambling…](http://karlmac.com/2011/08/13-amazing-jquery-3d-effects-plugins/).
+I was very pleased to get a double mention in an article about the best jQuery 3D effects plugins, with Three Dee and Image Parallax both getting a mention.
 
 ## NCover
 

@@ -15,7 +15,7 @@ Here are some of the older books that aren't generally available any more.
 
 And…
 
-> The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it. <cite>[Corrado](http://codeworks.it/blog/?p=145)</cite>
+> The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it. <cite>Corrado</cite>
 
 ## The Reason Your Website Sucks
 
