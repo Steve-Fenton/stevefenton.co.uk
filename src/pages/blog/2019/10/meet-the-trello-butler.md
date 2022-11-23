@@ -7,6 +7,7 @@ authors:
     - steve-fenton
 bannerImage:
     src: /img/2019/10/trello-butler-workflow-automation.jpg
+    alt: Trello Butler
 categories:
     - Automation
 tags:

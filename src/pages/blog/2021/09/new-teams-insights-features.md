@@ -7,6 +7,7 @@ authors:
     - steve-fenton
 bannerImage:
     src: /img/2021/09/teams-praise-feature.png
+    alt: Microsoft Teams Praise
 categories:
     - Process
 tags:

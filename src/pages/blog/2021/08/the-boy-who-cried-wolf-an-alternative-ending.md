@@ -7,6 +7,7 @@ authors:
     - steve-fenton
 bannerImage:
     src: /img/2021/08/Boycriedwolfbarlow.jpg
+    alt: The Boy Who Cried Wolf
 categories:
     - Other
     - Psychology
