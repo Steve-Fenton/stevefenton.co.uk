@@ -2,11 +2,13 @@
 layout: src/layouts/Default.astro
 title: 'The DITE Cycle: Data Insight Theory Experiment'
 navMenu: false
-pubDate: 2019-09-02T07:50:53+01:00
+pubDate: 2019-09-02
+modDate: 2022-11-23
 authors:
     - steve-fenton
 bannerImage:
     src: /img/2019/08/dite-cycle.jpg
+    alt: The Data Insight Theory Experiment cycle
 categories:
     - Process
 tags:
@@ -14,7 +16,7 @@ tags:
     - DITE
 ---
 
-This is not my idea, though I’ve named it the DITE cycle in opposition to other available alternatives. There are lots of organisations and individuals doing something along these lines and they all give it different names. There are echoes of The Lean Startup, flashes of Spotify’s :abbr[DIBBs]{title="Data Insight Belief Bet"}, the velvety touch of Impact Mapping, and whiffs of the golden :abbr[PDCA]{title="Plan Do Check Act"} cycle (which has been re-invented and re-named many times before).
+This is not my idea, though I’ve named it the DITE cycle in opposition to other available alternatives. There are lots of organisations and individuals doing something along these lines and they all give it different names. There are echoes of The Lean Startup, flashes of Spotify’s :abbr[DIBBs]{title="Data Insight Belief Bet"}, the velvety touch of Impact Mapping, and whiffs of the golden :abbr[PDSA]{title="Plan Do Sense Act"} cycle (which has been re-invented and re-named many times before).
 
 The DITE cycle sums up all of this into the following four stages, which repeat infinitely:
 
@@ -27,11 +29,12 @@ The cycle is simple. You have some information. You realise something that the i
 
 That’s the DITE cycle. Data -> Insight -> Theory -> Experiment.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2019/08/dite-cycle.jpg" alt="Data -> Insight -> Theory -> Experiment" loading="lazy"}
+:figcaption[Data Insight Theory Experiment cycle]
 :::
 
-<aside>Why not a *bet*? While business is often about balancing risks and benefits and while the money we invest might not realise the expected return… you are going to isolate your execs if you start describing everything you do as a bet. Depending on your culture, betting might be associated with camel-coloured trenchcoats and people shouting at walls of televisions showing horse races. This isn’t the image you want to leverage to get people on board. The term *experiment* describes the process well, but brings to mind a more diciplined and rigorous image that is more likely to get people on board.</aside>
+<aside>Why not a *bet*? While business is often about balancing risks and benefits and while the money we invest might not realise the expected return… you are going to isolate your execs if you start describing everything you do as a bet. Depending on your culture, betting might be associated with camel-coloured trenchcoats and people shouting at walls of televisions showing horse races. This isn’t the image you want to leverage to get people on board. The term *experiment* describes the process well but brings to mind a more disciplined and rigorous image that is more likely to get people on board.</aside>
 
 ## Start with small wins
 
@@ -41,11 +44,11 @@ Although this was the smallest of wins, it was a major milestone. We repeated th
 
 ## Bigger victories
 
-Once a number of small wins have been recorded, you can repeat the exact same process on something bigger. This gets tricky if you don’t bring people along on the journey. You can’t use the DITE cycle aggressively because you’ll be defeated by stealth change. For DITE to work, you need to follow the cycle and have a theory *before* you make the change. The worst possible subversion of the process is making the change first and then justifying it by selecting data. If you don’t see the change you expected, but some other change instead, don’t jump to any conclusions; you’ve just gained an insight and need to write a theory so you can run an experiment to test it. Don’t try to short-circuit the cycle.
+Once some small wins have been recorded, you can repeat the exact same process on something bigger. This gets tricky if you don’t bring people along on the journey. You can’t use the DITE cycle aggressively because you’ll be defeated by stealth change. For DITE to work, you need to follow the cycle and have a theory *before* you make the change. The worst possible subversion of the process is making the change first and then justifying it by selecting data. If you don’t see the change you expected, but some other change instead, don’t jump to any conclusions; you’ve just gained insight and need to write a theory so you can run an experiment to test it. Don’t try to short-circuit the cycle.
 
 > You can only conclude the theory under experiment… not any other!
 
-You need to write down the theory and ensure you are measuing the right things *before* you make any changes. Once the impact of the change can be measured, you learn something. If the change had a positive impact you get a double bonus; you learned something and you got an improvement. If the change is neutral, you can at least scrub-out the theory. If the change is negative, you’ve learned something that’s actually very valuable – in fact, this is one of the best outcomes because it typically means you’ve disproved something that people would otherwise have taken-for-granted was true.
+You need to write down the theory and ensure you are measuring the right things *before* you make any changes. Once the impact of the change can be measured, you learn something. If the change had a positive impact you get a double bonus; you learned something and you got an improvement. If the change is neutral, you can at least scrub out the theory. If the change is negative, you’ve learned something that’s actually very valuable – in fact, this is one of the best outcomes because it typically means you’ve disproved something that people would otherwise have taken for granted was true.
 
 Publish the result of every experiment whether the impact on the test metric is positive, neutral, or negative.
 
