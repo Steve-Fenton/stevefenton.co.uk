@@ -85,7 +85,10 @@ Not only does this tell the code coverage tools I don't want to be told about th
 
 The Jest extension auto-runs the tests and adds coverage highlighting to the code editor, both of which I love. You keep your tests fast when they are running more often.
 
+:::figure{.inset}
 :img{src="/img/topic/jest/jest-coverage.png" alt="An example of Jest's code coverage output" loading="lazy"}
+::figcaption[Example code coverage report]
+:::
 
 ## Summary
 
