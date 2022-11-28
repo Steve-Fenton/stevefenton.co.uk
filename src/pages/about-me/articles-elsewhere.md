@@ -20,6 +20,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 ## DevOps and Continuous Delivery
 
+- [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 
 I have three white papers on DevOps and Continuous Delivery:
