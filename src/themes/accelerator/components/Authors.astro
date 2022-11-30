@@ -1,8 +1,7 @@
 ---
-import { Dates, Urls } from 'astro-accelerator-utils';
+import { PostQueries, DateFormatter, UrlFormatter } from 'astro-accelerator-utils';
 import { SITE, Frontmatter } from '@config';
 import { Translations, Lang } from '@util/Languages';
-import { getAuthorList } from '@util/Authors';
 import { getImageInfo } from '@util/custom-markdown.mjs';
 
 // Properties
@@ -16,11 +15,14 @@ const { lang, frontmatter } = Astro.props as Props;
 const _ = Lang(lang);
 
 // Logic
-const authorList = await getAuthorList(frontmatter);
+const dateFormatter = new DateFormatter(SITE.dateOptions);
+const urlFormatter = new UrlFormatter(SITE.url);
+const authorList = await PostQueries.getAuthors(frontmatter);
 
-const author = authorList.writers.slice(0, 1)[0];
-const authorImage = authorList?.image?.src ? getImageInfo(authorList.image.src, 'author-image', SITE.images.authorSize) : null;
-const contributors = authorList.writers.slice(1);
+// Get image info
+const authorImage = authorList?.image?.src 
+  ? getImageInfo(authorList.image.src, 'author-image', SITE.images.authorSize)
+  : null;
 ---
 {authorList.writers.length > 0 && 
 <div class="post-meta">
@@ -34,17 +36,17 @@ const contributors = authorList.writers.slice(1);
   }
   <div class="author-info">
     <span>{ _(Translations.post.written_by) }
-      {author &&
-        <a href={ Urls.addSlashToAddress(author.url, SITE) + '1/' } itemprop="author">{ author.frontmatter.title }</a>
-      }{contributors.map((writer) => (
-        <a href={ Urls.addSlashToAddress(writer.url, SITE) + '1/' } itemprop="contributor">{ writer.frontmatter.title }</a>
+      {authorList.mainAuthor &&
+        <a href={ urlFormatter.addSlashToAddress(authorList.mainAuthor.url) + '1/' } itemprop="author">{ authorList.mainAuthor.frontmatter.title }</a>
+      }{authorList.contributors.map((writer) => (
+        <a href={ urlFormatter.addSlashToAddress(writer.url) + '1/' } itemprop="contributor">{ writer.frontmatter.title }</a>
       ))}.
       <br /><time datetime={ frontmatter.pubDate.toString() } itemprop="datePublished">
-      { Dates.formatDate(frontmatter, lang, SITE) }
+      { dateFormatter.formatDate(frontmatter.pubDate, lang) }
       </time>
       {frontmatter.modDate &&
       <br /><time datetime={ frontmatter.modDate.toString() } itemprop="dateModified">
-        { _(Translations.post.last_modified) } { Dates.formatModifiedDate(frontmatter, lang, SITE) }
+        { _(Translations.post.last_modified) } { dateFormatter.formatDate(frontmatter.modDate, lang) }
       </time>
       }
     </span>

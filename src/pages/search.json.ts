@@ -1,14 +1,16 @@
 // warning: This file is overwritten by Astro Accelerator
 
+import { Markdown, PostFiltering, UrlFormatter } from 'astro-accelerator-utils';
 import type { MarkdownInstance } from 'astro';
 import { SITE } from '@config';
-import { PostFiltering, Urls } from 'astro-accelerator-utils';
-import { getTextFrom } from '@util/Markdown';
 
 const getData = async () => {
     //@ts-ignore
     const allPages = import.meta.glob('./**/*.md');
     const items = [];
+
+    const urlFormatter = new UrlFormatter(SITE.url);
+    const markdown = new Markdown();
 
     for (const path in allPages) {
         const page = await allPages[path]() as  MarkdownInstance<Record<string, any>>;
@@ -24,7 +26,7 @@ const getData = async () => {
         }
 
         const headings = await page.getHeadings();
-        const title = await getTextFrom(page.frontmatter.title ?? '');
+        const title = await markdown.getTextFrom(page.frontmatter.title ?? '');
               
         items.push({
             title: title,
@@ -33,7 +35,7 @@ const getData = async () => {
             }),
             description: page.frontmatter.description ?? '',
             tags: page.frontmatter.tags ?? [],
-            url: SITE.url + Urls.addSlashToAddress(url, SITE),
+            url: SITE.url + urlFormatter.addSlashToAddress(url),
             date: page.frontmatter.pubDate ?? ''
         });
     }

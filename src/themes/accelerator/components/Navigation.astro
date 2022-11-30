@@ -1,7 +1,9 @@
 ---
+import { Navigation } from 'astro-accelerator-utils';
 import { Translations, Lang } from '@util/Languages';
-import { getMenu } from '@util/Navigation';
 import NavigationItem from '@components/NavigationItem.astro';
+import { SITE } from '@config';
+import { menu } from '@data/navigation';
 
 // Properties
 type Props = {
@@ -14,7 +16,7 @@ const _ = Lang(lang);
 
 // Logic
 const currentUrl = new URL(Astro.request.url);
-const pages = await getMenu(currentUrl);
+const pages = await Navigation.getMenu(currentUrl, SITE, menu);
 ---
 <nav class="site-nav" id="site-nav" aria-label={ _(Translations.aria.site_navigation) }>
   <h2 class="site-nav-title">{ _(Translations.navigation.title) }</h2>

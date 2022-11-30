@@ -2,11 +2,10 @@
 // warning: This file is overwritten by Astro Accelerator
 
 // For listing by frontmatter.categories
+import { PostFiltering, PostOrdering, PostPaging } from 'astro-accelerator-utils';
 import { Translations, Lang } from '@util/Languages';
 import type { Page, MarkdownInstance } from 'astro';
 import { SITE, Frontmatter } from '@config';
-import { getPageLinks } from '@util/PageLinks';
-import { Cache, PostFiltering, PostOrdering } from 'astro-accelerator-utils';
 import Default from 'src/layouts/Default.astro';
 import ArticleList from '@components/ArticleList.astro';
 import Paging from '@components/Paging.astro';
@@ -37,46 +36,38 @@ const frontmatter: Frontmatter = {
 const _ = Lang(lang);
 
 // Logic
-type CacheData = {
+type CategoryData = {
   posts: MarkdownInstance<Record<string, any>>[];
   categories: string[];
 }
 
-export async function getCacheData() {
-  const key = 'pages_articles_[category]_[page]';
+export async function getData() {
+  // TODO: Replace with call to Posts.all()
+  const sourcePosts = await Astro.glob('../../**/*.md');
+  
+  const data: CategoryData = { posts: [], categories: []};
 
-  let cacheData: CacheData = await Cache.getItem(key);
+  data.posts = sourcePosts
+    .filter(PostFiltering.isListable)
+    .sort(PostOrdering.sortByPubDateDesc);
 
-  if (cacheData == null) {
-    // This uses a relative glob, so we only look in the current collection
-    const sourcePosts = await Astro.glob('../../**/*.md');
-    
-    cacheData = { posts: [], categories: []};
-
-    cacheData.posts = sourcePosts
-      .filter(PostFiltering.isListable)
-      .sort(PostOrdering.sortByPubDateDesc);
-
-    cacheData.posts.forEach(p => {
-      const auths: string[] = p.frontmatter.categories ?? [];
-      if (auths.length == 0) {
-        console.log('No categories found', p.url);
+    data.posts.forEach(p => {
+    const auths: string[] = p.frontmatter.categories ?? [];
+    if (auths.length == 0) {
+      console.log('No categories found', p.url);
+    }
+    auths.forEach(a => {
+      if (!data.categories.includes(a)) {
+        data.categories.push(a);
       }
-      auths.forEach(a => {
-        if (!cacheData.categories.includes(a)) {
-          cacheData.categories.push(a);
-        }
-      });
     });
-    
-    await Cache.setItem(key, cacheData);
-  }
+  });
 
-  return cacheData;
+  return data;
 }
 
 export async function getStaticPaths({ paginate }: any) {
-  let data = await getCacheData();
+  let data = await getData();
 
   return data.categories.map(c => {
     const filtered = data.posts.filter(p => {
@@ -92,7 +83,7 @@ export async function getStaticPaths({ paginate }: any) {
 }
 
 // Page Links
-const pageLinks = getPageLinks(SITE.pageLinks, page.lastPage, page.currentPage, page.url.current);
+const pageLinks = PostPaging.getPageLinks(SITE.pageLinks, page.lastPage, page.currentPage, page.url.current);
 ---
 <Default frontmatter={ frontmatter } headings={ headings }>
   <h2>{ _(Translations.articles.page_title).replace('{n}', page.currentPage.toString())}</h2>

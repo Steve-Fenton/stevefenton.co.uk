@@ -1,11 +1,9 @@
 ---
+import { Markdown, UrlFormatter } from 'astro-accelerator-utils';
 import type { MarkdownInstance } from 'astro';
-import { Urls } from 'astro-accelerator-utils';
 import { SITE, Frontmatter } from '@config';
 import { getImageInfo } from '@util/custom-markdown.mjs';
-import { getTextFrom } from '@util/Markdown';
 import AuthorsMini from '@components/AuthorsMini.astro';
-
 
 // Properties
 type Props = {
@@ -15,32 +13,38 @@ type Props = {
 const { lang, posts } = Astro.props as Props;
 
 // Logic
+const urlFormatter = new UrlFormatter(SITE.url);
+const markdown = new Markdown();
+
 type ImageInfo = {
   src: string;
   srcset: string;
   sizes: string;
   class: string;
+  metadata: {
+    width: number;
+    height: number;
+  }
 };
 
 type Article = {
   url: string;
+  title: string;
   frontmatter: Record<string, any>;
   img: ImageInfo | null;
 };
-
 
 const articles: Article[] = [];
 
 for (let p of posts) {
   const item = {
     url: p.url ?? '',
+    title: await markdown.getTextFrom(p.frontmatter.title),
     frontmatter: p.frontmatter,
     img: p.frontmatter.bannerImage
-    ? getImageInfo(p.frontmatter.bannerImage.src, '', SITE.images.listerSize)
-    : null
+      ? getImageInfo(p.frontmatter.bannerImage.src, '', SITE.images.listerSize)
+      : null
   };
-  
-  item.frontmatter.title = await getTextFrom(p.frontmatter.title);
 
   articles.push(item)
 }
@@ -55,7 +59,7 @@ function getLoadingAttribute() {
 ---
 <ul class="post-list anim-show-parent">
   {articles.map((post) => (
-  <li class="list-item" data-destination={ Urls.addSlashToAddress(post.url, SITE) } data-image={ (post.frontmatter.bannerImage?.src.length > 0).toString() }>
+  <li class="list-item" data-destination={ urlFormatter.addSlashToAddress(post.url) } data-image={ (post.frontmatter.bannerImage?.src.length > 0).toString() }>
     <article>
       <div class="list-item-image">
       {post.img && (
@@ -65,12 +69,14 @@ function getLoadingAttribute() {
           src={ post.img.src }
           alt={ post.frontmatter.bannerImage.alt }
           class={ post.img.class }
+          width={ post.img.metadata?.width }
+          height={ post.img.metadata?.height }
           loading={ getLoadingAttribute() } />
       )}
       </div>
       <div class="list-item-content">
         <h3>
-          <a href={ Urls.addSlashToAddress(post.url, SITE) }>{ post.frontmatter.title }</a>
+          <a href={ urlFormatter.addSlashToAddress(post.url) }>{ post.title }</a>
         </h3>
         <AuthorsMini lang={ lang } frontmatter={ post.frontmatter as Frontmatter } />
       </div>

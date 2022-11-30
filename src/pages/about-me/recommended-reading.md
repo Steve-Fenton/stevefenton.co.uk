@@ -9,6 +9,8 @@ description: Some personal recommendations of books for people in the software i
 
 As of July 2020, I have re-aligned my reading list to [The Software Punk Revolution](/blog/2020/07/the-software-punk-revolution/). We need a fundamental shift, and we need it now. These books contain the seeds that will grow in healthy ways inside your head.
 
+You can also read my [DevOps reading list in the DevOps engineer's handbook](https://octopus.com/devops/reading-list/)
+
 <article itemscope="" itemtype="http://schema.org/Book">
 
 ## <cite itemprop="name">Accelerate: The Science of Lean Software and DevOps</cite>
