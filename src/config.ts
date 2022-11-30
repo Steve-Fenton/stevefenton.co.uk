@@ -27,6 +27,7 @@ export const SITE = {
 		month: 'long',
 		day: 'numeric',
 	},
+	cacheMaxAge: 200,
 	featureFlags: {
 		codeBlocks: ['copy'],
 		figures: ['enlarge'],
@@ -77,33 +78,3 @@ if (document.location.hostname === 'www.stevefenton.co.uk') {
 </script>
 `.trim();
 
-type Mapped<T> = {
-    [P in keyof T]?: any
-}
-
-export type Site = Mapped<typeof SITE>;
-
-export type Frontmatter = {
-	layout: string;
-	title: string;
-	keywords: string;
-	description: string;
-	pubDate: Date;
-	modDate?: Date;
-	categories?: string[];
-	tags?: string[];
-	id?: string;
-	authors?: string[];
-	navTitle?: string;
-	navSection?: string;
-	navOrder?: number;
-	bannerImage?: { src: string; alt: string };
-	dir?: 'ltr' | 'rtl';
-	lang?: string;
-	paged?: boolean;
-	navSearch?: boolean;
-	navSitemap?: boolean;
-	navMenu?: boolean;
-	redirect?: string;
-	robots?: string;
-};
