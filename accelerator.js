@@ -40,6 +40,12 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
+  './node_modules/astro-accelerator/public/js/',
+  './public/js/',
+  true
+);
+
+copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/authors/',
     './src/pages/authors/',
     true

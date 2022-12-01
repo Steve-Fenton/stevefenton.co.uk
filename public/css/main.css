@@ -25,7 +25,7 @@ body {
     background: var(--aft);
     background-attachment: fixed;
     color: var(--fore);
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.8em;
     letter-spacing: 0.016em;
     font-family: var(--content-font);
@@ -119,9 +119,10 @@ h1 {
     text-transform: uppercase;
     text-decoration-color: var(--icon-block);
     text-decoration-line: underline;
-    text-decoration-thickness: 0.2em;
+    text-decoration-thickness: 0.3em;
     max-width: 10em;
-    margin: 0 auto;
+    margin: 1em auto 0.5em;
+    line-height: 1.3em;
 }
 
 main article h2, main article h3, main article h4, main article h5, main article h6 {
@@ -366,6 +367,10 @@ nav.site-nav h2 {
   }
 }
 
+.site-nav {
+    font-size: 0.9rem;
+}
+
 .site-nav li {
     list-style: none;
 }
@@ -555,6 +560,7 @@ nav.site-nav h2 {
     width: 100%;
     color: var(--fore-head);
     background-color: var(--aft-head);
+    margin-top: 4rem;
 }
 
 .site-footer h2 {
@@ -620,6 +626,36 @@ form.site-search button {
 .site-search-results a {
     display: block;
     padding: 0.2em;
+}
+
+.site-search-results > li > a {
+    font-size: 1.5rem;
+}
+
+.site-search-results > li {
+    margin-bottom: 3rem;
+}
+
+.site-search-results > li > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin: 0;
+}
+
+@media (max-width: 860px) {
+    .site-search-results > li > ul {
+        display: block;
+    }
+}
+
+.site-search-results > li > ul > li > a {
+    font-size: 0.9rem;
+}
+
+.site-search-results .result-headings {
+    font-size: 1rem;
+    padding: 0.5em 0 1em;
 }
 
 .site-search-results .result-text {
@@ -1072,8 +1108,7 @@ figure:focus .magnify-icon {
 
     .magnify-icon,
     .copy-button,
-    .anim-show-parent img,
-    .anim-show-parent > *:not(p, ul, li) {
+    .anim-show-parent img {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
