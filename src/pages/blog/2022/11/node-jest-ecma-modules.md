@@ -13,8 +13,8 @@ authors:
 categories:
     - Programming
 tags:
-    - TypeScript
-    - Playwright
+    - Node
+    - Jest
 ---
 
 Here are some notes on running Jest tests for a Node module that uses ECMA style modules. It took longer than I hoped to get going, so that made me want to write it down.
