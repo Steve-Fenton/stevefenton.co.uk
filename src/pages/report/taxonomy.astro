@@ -1,5 +1,5 @@
 ---
-import { Taxonomy } from 'astro-accelerator-utils';
+import { Accelerator } from 'astro-accelerator-utils';
 import { Lang } from '@util/Languages';
 import { Translations } from '@util/Languages';
 import { SITE } from '@config';
@@ -8,9 +8,10 @@ import { SITE } from '@config';
 const _ = Lang('en');
 
 // Logic
+const accelerator = new Accelerator(SITE);
 
-const links = Taxonomy.taxonomyLinks(Translations, _, SITE);
-const taxonomy = await Taxonomy.getTaxonomy();
+const links = accelerator.taxonomy.links(Translations, _, SITE.subfolder);
+const entries = accelerator.taxonomy.all();
 ---
 <!doctype html>
 <html>
@@ -28,14 +29,14 @@ const taxonomy = await Taxonomy.getTaxonomy();
                     <th>Count</th>
                 </tr>
             </thead>
-        {taxonomy.categories.sort(Taxonomy.sortByTitle).map(t => 
+        {entries.categories.map(t => 
         <tr>
             <td>{ links.category }</td>
             <td><a href={ links.getCategoryLink(t.title) }>{ t.title }</a></td>
             <td>{ t.count }</td>
         </tr>
         )}
-        {taxonomy.tags.sort(Taxonomy.sortByTitle).map(t => 
+        {entries.tags.map(t => 
         <tr>
             <td>{ links.tag }</td>
             <td><a href={ links.getTagLink(t.title) }>{ t.title }</a></td>
