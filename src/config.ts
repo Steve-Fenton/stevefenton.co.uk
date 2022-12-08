@@ -29,6 +29,7 @@ export const SITE = {
 	},
 	cacheMaxAge: 200,
 	featureFlags: {
+		stickyNav: { top: 100 },
 		codeBlocks: ['copy'],
 		figures: ['enlarge'],
 		youTubeLinks: ['embed'],

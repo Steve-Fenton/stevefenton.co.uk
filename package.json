@@ -12,7 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.40"
+    "astro-accelerator": "^0.0.45"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.0"
