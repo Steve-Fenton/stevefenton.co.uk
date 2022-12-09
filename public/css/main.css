@@ -120,7 +120,7 @@ h1 {
     text-decoration-color: var(--icon-block);
     text-decoration-line: underline;
     text-decoration-thickness: 0.3em;
-    max-width: 10em;
+    max-width: 15em;
     margin: 1em auto 0.5em;
     line-height: 1.3em;
 }
@@ -482,6 +482,7 @@ nav.site-nav h2 {
 
 .page-content {
     border: 1px dashed var(--fore);
+    border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
     max-width: calc(var(--grid-max-width) - var(--navigation-width) - var(--grid-gap));
     width: calc(var(--grid-width) - var(--navigation-width) - var(--grid-gap));
@@ -514,11 +515,17 @@ nav.site-nav h2 {
 
 .page-toc {
     background-color: var(--aft-block);
+    border-radius: 0.5rem 0.5rem 0 0;
     margin: var(--margin-size-negative) var(--margin-size-negative) var(--margin-size) var(--margin-size-negative);
+}
+
+.page-toc details {
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .page-toc summary {
     padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .page-toc ol {
@@ -854,13 +861,12 @@ article + .post-list {
 
 .post-taxonomy > div {
     margin: var(--margin-size) 0;
-
 }
 
 .post-taxonomy h2 {
     font-size: 1rem;
     font-family: var(--content-font);
-    margin: var(--margin-size) 0;
+    margin: var(--margin-size) var(--margin-size-negative);
     padding: var(--margin-size);
 }
 
