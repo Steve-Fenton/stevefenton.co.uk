@@ -128,7 +128,7 @@ h1 {
 main article h2, main article h3, main article h4, main article h5, main article h6 {
     margin: var(--block-gap) -1rem var(--paragraph-margin) -1rem;
     background-color: var(--aft-block);
-    padding: 0.5em 0.5em 0.5em 2.5em;
+    padding: 0.5em 1rem 0.5em 1rem;
 }
 
 h2 {
