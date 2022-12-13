@@ -9,10 +9,11 @@
     "test": "astro build && npx playwright test",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.45"
+    "astro-accelerator": "^0.0.48"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.0"
