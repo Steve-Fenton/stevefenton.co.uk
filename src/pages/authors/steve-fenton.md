@@ -6,7 +6,7 @@ navMenu: false
 navOrder: 1000
 pubDate: 2022-09-17
 keywords: steve fenton
-description: Steve Fenton's profile on Astro Accelerator
+description: Steve Fenton is an Octonaut at Octopus Deploy and five-time Microsoft MVP for developer technologies. He’s a Software Punk and writer.
 bannerImage:
     src: /img/authors/steve-fenton.png
     alt: Steve Fenton
