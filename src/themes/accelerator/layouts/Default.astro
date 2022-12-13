@@ -1,6 +1,7 @@
 ---
 import { Accelerator } from 'astro-accelerator-utils';
 import type { Frontmatter } from 'astro-accelerator-utils/types/Frontmatter';
+import { getImageInfo } from '@util/custom-markdown.mjs';
 import { SITE } from '@config';
 import Head from '@components/HtmlHead.astro';
 import Header from '@components/Header.astro';
@@ -24,6 +25,10 @@ const textDirection = frontmatter.dir ?? SITE.default.dir;
 
 // Logic
 const accelerator = new Accelerator(SITE);
+
+const metaImage = frontmatter.bannerImage
+      ? getImageInfo(frontmatter.bannerImage.src, '', SITE.images.contentSize)
+      : null
 
 const title = await accelerator.markdown.getInlineHtmlFrom(frontmatter.title ?? SITE.title);
 const subtitle = frontmatter.subtitle
@@ -55,6 +60,7 @@ const site_features = SITE.featureFlags;
                         <Authors frontmatter={ frontmatter } lang={ lang } />
                         <Taxonomy frontmatter={ frontmatter } lang={ lang } />
                         <Related frontmatter={ frontmatter } headings={ headings } lang={ lang } />
+                        {metaImage && <meta itemprop="image" content={ metaImage.src } />}
                     </div>
                 </article>
             </main>
