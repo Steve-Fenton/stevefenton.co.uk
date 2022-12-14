@@ -30,10 +30,11 @@
     --fore-link-alt: #3399ff;
     --aft-link-alt: #e6e6eC;
     
-
     --fore-head: #efefef;
     --aft-head: #225;
     --fore-link-head: #efefef;
+
+    --heading: #225;
 
     --fore-breadcrumb: #333;
     --aft-breadcrumb: #e8e8f9;
@@ -52,8 +53,8 @@
     --fore-table-row-even: #333;
     --aft-table-row-even: #f3f5ff;
 
-    --heading-font: 'akzidenz-cnd', sans-serif;
-    --content-font: 'akzidenz', sans-serif;
+    --heading-font: 'akzidenz-cnd', Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+    --content-font: Verdana, Geneva, sans-serif;
     --code-font: Consolas, 'Courier New', Courier, monospace;
 
     --paragraph-margin: 1.2rem;
@@ -90,6 +91,8 @@
         
         --fore-head: #CCC;
         --aft-head: #224;
+
+        --heading: #DDF;
 
         --fore-breadcrumb: #CCC;
         --aft-breadcrumb: #2C2C2C;
