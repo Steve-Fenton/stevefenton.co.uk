@@ -1114,13 +1114,13 @@ figure:focus .magnify-icon {
 
     .magnify-icon,
     .copy-button,
-    .anim-show-parent img {
+    .anim-show-parent img,
+    .anim-show-parent .list-item {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
     }
-
-    .post-list .list-item,
-    .post-list img {
-        transition: all 0.2s ease-in;
+    
+    .anim-show-parent .list-item img {
+        scale: 1;
     }
 }
