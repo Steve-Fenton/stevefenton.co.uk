@@ -34,25 +34,66 @@ Here's quick rundown of the script's concept.
 const issues = [];
 
 function warn(el) {
-  // Styles the detected issues
+  // Style the detected issues
   el.style.outline = '2px solid #FFCC00';
   el.style.backgroundColor = '#FFCC00';
   el.style.backgroundImage  = 'linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,204,0,1) 35%, rgba(0,212,255,1) 100%)';
 }
 
-document.querySelectorAll('*').forEach(el => {
-  // Find elements that overflow the document width
-  if (el.offsetWidth > document.documentElement.offsetWidth) {
-    warn(el);
-    issues.push(el);
-  }
+function checkScrollingAncestor(elem) {
+    if (!elem.parentElement || elem.parentElement.tagName.toLowerCase() === 'body') {
+        return false;
+    }
 
-  // Find elements that overflow their parent
-  if (el.parentElement && el.offsetWidth > el.parentElement.offsetWidth) {
-    warn(el);
-    issues.push(el);
-  }
-});
+    const computedStyle = window.getComputedStyle(elem.parentElement);
+
+    if (computedStyle.overflowX == 'auto') {
+        return true;
+    } else {
+        return checkScrollingAncestor(elem.parentElement);
+    }
+}
+
+function getSizedAncestor(elem) {
+    if (!elem.parentElement) {
+        return null;
+    }
+
+    if (elem.parentElement.offsetWidth > 0) {
+        return elem.parentElement;
+    } else {
+        return getSizedAncestor(elem.parentElement);
+    }
+}
+
+function checkElement(el) {
+    const hasScrollingAncestor = checkScrollingAncestor(el);
+    if (hasScrollingAncestor) {
+        return;
+    }
+
+    // Find elements that overflow the document width
+    if (el.offsetWidth > document.documentElement.offsetWidth) {
+        warn(el);
+        issues.push(el);
+    }
+
+    const ancestor = getSizedAncestor(el);
+    const info = window.getComputedStyle(el);
+
+    // Find any negative margins (deliberate outflow)
+    const adjustment = 
+        (info.marginLeft.startsWith('-') ? parseFloat(info.marginLeft) * -1 : 0)
+        +
+        (info.marginRight.startsWith('-') ? parseFloat(info.marginRight) * -1 : 0);
+
+    if (ancestor && (el.offsetWidth - adjustment) > ancestor.offsetWidth) {
+      warn(el);
+      issues.push(el);
+    }
+}
+
+document.querySelectorAll('*').forEach(checkElement);
 
 issues.length > 0 && issues[0].scrollIntoView();
 console.log(issues);
@@ -64,15 +105,6 @@ If you run this script in your developer tools' console, you'll see problem elem
 :img{src="/img/2022/12/overflow-detector.png" alt="A web page with a detection script that highlights overflowing elements" loading="lazy"}
 ::figcaption[An overflowing heading]
 :::
-
-## Limitations of the script
-
-There are some limitations to this script, which mean you'll need to check for some exception cases.
-
-- If you have an element within the page with scroll bars, it will be detected as an issue - even though you might have intended the scrolling
-- If you have invisible elements, they may be detected as overflowing because the parent has a width of zero
-
-You can visually check the elements on the page and discard issues that don't apply.
 
 ## Adding overflow detection to a Playwright test
 
@@ -92,7 +124,7 @@ function getLinks(): string[] {
 }
 
 function getIssues() {
-  const getSelector = function (el: Element | null): string {
+  const getSelector = function (el: HTMLElement | null): string {
     if (el == null) {
       return '';
     }
@@ -114,24 +146,77 @@ function getIssues() {
   }
 
   const issues: string[] = [];
-  document.querySelectorAll('*').forEach(el => {
-    if (el.offsetWidth > document.documentElement.offsetWidth
-        || el.parentElement && el.offsetWidth > el.parentElement.offsetWidth) {
-      const selector = getSelector(el);
 
-      // Special exceptions
-      if (selector.indexOf('.table-wrap >')) {
-        // .table-wrap provides a scrollable container for tables
-        return;
-      }
+  function warn(el: HTMLElement) {
+    // Style the detected issues
+    el.style.outline = '2px solid #FFCC00';
+    el.style.backgroundColor = '#FFCC00';
+    el.style.backgroundImage = 'linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(255,204,0,1) 35%, rgba(0,212,255,1) 100%)';
+  }
 
-      issues.push(selector);
+  function checkScrollingAncestor(elem: HTMLElement): boolean {
+    if (!elem.parentElement || elem.parentElement.tagName.toLowerCase() === 'body') {
+      return false;
     }
-  });
+
+    const computedStyle = window.getComputedStyle(elem.parentElement);
+
+    if (computedStyle.overflowX == 'auto') {
+      return true;
+    } else {
+      return checkScrollingAncestor(elem.parentElement);
+    }
+  }
+
+  function getSizedAncestor(elem: HTMLElement): HTMLElement | null {
+    if (!elem.parentElement) {
+      return null;
+    }
+
+    if (elem.parentElement.offsetWidth > 0) {
+      return elem.parentElement;
+    } else {
+      return getSizedAncestor(elem.parentElement);
+    }
+  }
+
+  function checkElement(el: Element) {
+    const elem = el as HTMLElement;
+    const hasScrollingAncestor = checkScrollingAncestor(el);
+    if (hasScrollingAncestor) {
+      return;
+    }
+
+    // Find elements that overflow the document width
+    if (elem.offsetWidth > document.documentElement.offsetWidth) {
+      warn(elem);
+      issues.push(getSelector(elem));
+    }
+
+    const ancestor = getSizedAncestor(elem);
+    const info = window.getComputedStyle(elem);
+
+    // Find any negative margins (deliberate outflow)
+    const adjustment =
+      (info.marginLeft.startsWith('-') ? parseFloat(info.marginLeft) * -1 : 0)
+      +
+      (info.marginRight.startsWith('-') ? parseFloat(info.marginRight) * -1 : 0);
+
+    if (ancestor && (elem.offsetWidth - adjustment) > ancestor.offsetWidth) {
+      warn(elem);
+      issues.push(getSelector(elem));
+    }
+  }
+
+  document.querySelectorAll('*').forEach(checkElement);
 
   return issues;
 }
 
+/**
+ * If this fails, use the script at: 
+ * https://www.stevefenton.co.uk/blog/2022/12/detect-overflowing-elements/
+ */
 test('Test pages for layout issues', async ({ page }) => {
   await page.goto('/');
   const links = await page.evaluate(getLinks);
