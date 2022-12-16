@@ -6,6 +6,7 @@
   "scripts": {
     "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
+    "dev14": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "test": "astro build && npx playwright test",
     "build": "astro build",
     "preview": "astro preview",
@@ -13,7 +14,7 @@
     "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.49"
+    "astro-accelerator": "^0.0.51"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.0"
