@@ -187,7 +187,7 @@ li::marker {
 }
 
 .page-content ul.post-list, .page-content ol.post-list {
-    margin: var(--paragraph-margin) 0;
+    margin: var(--paragraph-margin) auto;
 }
 
 p {
@@ -498,6 +498,10 @@ nav.site-nav h2 {
           "left menu right";
     }
 
+    .content-group > nav {
+        padding: 1rem;
+    }
+
     .content-group header {
         text-align: left;
     }
@@ -690,10 +694,6 @@ form.site-search button {
 
 .post-list {
     margin: 0;
-}
-
-article + .post-list {
-    margin: var(--margin-size);
 }
 
 .post-list .list-item {
@@ -990,7 +990,7 @@ pre.astro-code code {
 
 @media (max-width: 860px) {
     pre.astro-code {
-        width: calc(var(--content-width-mobile) - 5px);
+        width: calc(var(--content-width-mobile) - 2rem);
         margin: var(--margin-size) var(--margin-size-negative);
     }
 }
