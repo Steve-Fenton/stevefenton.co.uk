@@ -187,7 +187,7 @@ li::marker {
 }
 
 .page-content ul.post-list, .page-content ol.post-list {
-    margin: var(--paragraph-margin) var(--margin-size-negative);
+    margin: var(--paragraph-margin) 0;
 }
 
 p {
