@@ -990,7 +990,7 @@ pre.astro-code code {
 
 @media (max-width: 860px) {
     pre.astro-code {
-        width: calc(var(--content-width-mobile) - 2rem);
+        width: calc(var(--content-width-mobile) - 2rem - 5px);
         margin: var(--margin-size) var(--margin-size-negative);
     }
 }
