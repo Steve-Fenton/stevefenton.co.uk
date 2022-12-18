@@ -78,7 +78,7 @@
     --grid-width: 90vw;
 
     /* Calculate the mobile width by removing l/r columns */
-    --content-width-mobile: calc(100vw - (1rem * 2));
+    --content-width-mobile: calc(100vw - 4rem);
 }
 
 @media (prefers-color-scheme: dark) {
