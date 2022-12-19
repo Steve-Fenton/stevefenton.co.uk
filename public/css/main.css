@@ -186,6 +186,10 @@ li::marker {
     margin: var(--paragraph-margin) 0 var(--paragraph-margin) 1.2rem;
 }
 
+.page-content ul.post-list, .page-content ol.post-list {
+    margin: var(--paragraph-margin) auto;
+}
+
 p {
     margin: var(--paragraph-margin) 0;
 }
@@ -494,6 +498,10 @@ nav.site-nav h2 {
           "left menu right";
     }
 
+    .content-group > nav {
+        padding: 1rem;
+    }
+
     .content-group header {
         text-align: left;
     }
@@ -688,10 +696,6 @@ form.site-search button {
     margin: 0;
 }
 
-article + .post-list {
-    margin: var(--margin-size);
-}
-
 .post-list .list-item {
     list-style: none;
     color: var(--fore-block);
@@ -722,6 +726,8 @@ article + .post-list {
 .post-list .list-item-content .post-meta {
     font-size: 0.8rem;
     text-align: left;
+    margin: 0;
+    padding: 0;
     margin: 0;
     padding: 0;
 }
@@ -878,7 +884,7 @@ article + .post-list {
 
 .post-taxonomy li {
     display: inline-block;
-    margin-inline-end: 0.3em;
+    margin: 0.3em;
 }
 
 .post-taxonomy a {
@@ -964,6 +970,7 @@ code {
     background-color: var(--aft-block);
     font-family: var(--code-font);
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 pre.astro-code {
@@ -978,11 +985,13 @@ pre.astro-code {
 pre.astro-code code {
     font-weight: unset;
     background-color: unset;
+    overflow-wrap: unset;
 }
 
 @media (max-width: 860px) {
     pre.astro-code {
-        width: calc(var(--content-width-mobile) - 4rem);
+        width: calc(var(--content-width-mobile) - 2rem - 5px);
+        margin: var(--margin-size) var(--margin-size-negative);
     }
 }
 
