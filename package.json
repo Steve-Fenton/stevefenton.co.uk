@@ -7,16 +7,16 @@
     "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "dev14": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
-    "test": "astro build && npx playwright test",
+    "test": "astro build && npm playwright install --with-deps && npx playwright test",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.51"
+    "astro-accelerator": "^0.0.52"
   },
   "devDependencies": {
-    "@playwright/test": "^1.28.0"
+    "@playwright/test": "^1.29.1"
   }
 }
