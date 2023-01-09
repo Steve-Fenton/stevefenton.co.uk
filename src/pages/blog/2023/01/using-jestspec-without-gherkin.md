@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: Using JestSpec without Gherkin
 navMenu: false
 pubDate: 2023-01-09
-keywords: javascript,testing,gherkin,cucumber,jestspec
+keywords: javascript,testing,jestspec,natural language
 description: Find out how to use JestSpec to run a language-based Jest test without using Gherkin syntax.
 bannerImage:
     src: /img/topic/jest/jest.png
