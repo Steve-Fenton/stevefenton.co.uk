@@ -4,19 +4,19 @@
 */
 
 @font-face {
-    font-family: "akzidenz";
+    font-family: "hyper-reg";
     font-weight: normal;
     font-style: normal;
-    src: url("akzidenz-reg.woff");
-    font-display: swap;
+    src: url("Atkinson-Hyperlegible-Regular-102a.woff2");
+    font-display: block;
 }
 
 @font-face {
-    font-family: "akzidenz-cnd";
-    font-weight: normal;
+    font-family: "hyper-bold";
+    font-weight: bold;
     font-style: normal;
-    src: url("akzidenz-cnd.woff");
-    font-display: swap;
+    src: url("Atkinson-Hyperlegible-Bold-102a.woff2");
+    font-display: block;
 }
 
 :root {
@@ -53,8 +53,8 @@
     --fore-table-row-even: #333;
     --aft-table-row-even: #f3f5ff;
 
-    --heading-font: 'akzidenz-cnd', Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
-    --content-font: Verdana, Geneva, sans-serif;
+    --heading-font: 'hyper-bold', sans-serif;
+    --content-font: 'hyper-reg', Verdana, Geneva, sans-serif;
     --code-font: Consolas, 'Courier New', Courier, monospace;
 
     --paragraph-margin: 1.2rem;

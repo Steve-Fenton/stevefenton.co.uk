@@ -315,7 +315,6 @@ nav.skip-links a:focus {
 
 .site-header .site-title {
     letter-spacing: -0.03em;
-    text-transform: uppercase;
     margin: 0 30px;
     display: block;
     font-family: var(--heading-font);

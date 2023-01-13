@@ -50,6 +50,8 @@ export const OPEN_GRAPH = {
 };
 
 export const HEADER_SCRIPTS = `
+<link rel="preload" href="/css/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
 <script>
 if (document.location.hostname === 'www.stevefenton.co.uk') {
     (function(c,l,a,r,i,t,y){
