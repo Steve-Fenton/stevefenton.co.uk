@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: CSS web font performance
 navMenu: false
-pubDate: 2023-01-09
+pubDate: 2023-01-15
 keywords: css,web,font,performance
 description: Find out how I'm loading fonts on my website to try and give the best user experience.
 bannerImage:
