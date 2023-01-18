@@ -37,6 +37,6 @@ default forward 1
 The server id is specified against the real server configuration, and identifies a port on a server:
 
 ```
-server real server-name-1 1.2.3.4
+server real server-name-1 192.0.2.4
 port 80 server-id 2
 ```
