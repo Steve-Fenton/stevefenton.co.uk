@@ -14,7 +14,7 @@ categories:
     - Programming
 tags:
     - Microdata
-    -Structured Data
+    - Structured Data
 ---
 
 My website features breadcrumbs. They help users orient themselves within the site by representing the content within a hierarchy, but they can also help search engines understand how all the pages fit together.
