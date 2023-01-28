@@ -33,6 +33,14 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 			order: 1,
 			children: [],
 			rel: 'me',
+		},{
+			title: '♾️ DevOps engineer\'s handbook',
+			url: 'https://www.octopus.com/devops/authors/steve-fenton/1/',
+			ariaCurrent: false,
+			isOpen: false,
+			order: 1,
+			children: [],
+			rel: 'me',
 		}]
 }];
 
