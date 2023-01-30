@@ -6,7 +6,7 @@ pubDate: 2023-01-28
 keywords: azure,open ai, restsharp
 description: Find out how to call Azure Open API's REST endpoint using RestSharp.
 bannerImage:
-    src: /img/topic/open-ai.png
+    src: /img/topic/openai/open-ai.png
     alt: The Open AI logo
 authors:
     - steve-fenton
