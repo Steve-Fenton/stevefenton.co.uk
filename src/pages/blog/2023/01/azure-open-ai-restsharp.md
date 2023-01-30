@@ -13,7 +13,7 @@ authors:
 categories:
     - Programming
 tags:
-    - C#
+    - C-Sharp
 ---
 
 If you are an Azure customer, you'll soon be treated to an Open AI service on Azure that is built for scale. This post shows you how to call Azure Open AI using its REST endpoint. I'm using RestSharp, which supplies a friendly set of classes that are easier to use than the lower-level HTTP classes in .NET.
