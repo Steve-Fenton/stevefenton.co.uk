@@ -39,4 +39,4 @@ I have three white papers on DevOps and Continuous Delivery:
 
 ## Modern Lean/Agile
 
-- [The fundamental assumption of work culture]()https://www.octopus.com/blog/key-assumption-work-culture
+- [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
