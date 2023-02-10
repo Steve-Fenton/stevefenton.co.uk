@@ -68,7 +68,7 @@ To sum up the investigation, I wrote a lot of script just to discover that if I 
 
 ## Prototype solution
 
-At the moment, I'm running with a prototype solution of...
+I originall fixed this by running with a prototype solution of...
 
 ```javascript
 const item = document.querySelector('.article-nav');
@@ -80,6 +80,20 @@ Notes:
 1. It's not de-bounced because this would delay the fix (i.e. the user would now see the issue)
 2. `innerHTML` provided a solid fix, I tried changing something less dramatic and found it didn't reliably solve the issue
 3. Oh yes, I know how gnarly this fix is - I'm open to suggestions!
+
+## Final solution
+
+With all credit and thanks to [Maxim](https://mastodon.social/@mascon), who messaged me on Mastodon with a better fix.
+
+If you add any fixed-position element to the page, the bug with the sticky position element just goes away. The fixed-position element somehow triggers some form of tracking that probably ought to be triggered by sticky-positioned elements, too - so just by adding an empty element with `position: fixed` the problem is solved.
+
+```html
+<div style="position: fixed;"></div>
+```
+
+I love this solution as it doesn't require any JavaScript and it pokes the browser to handle the task of properly positioning elements when it adds and removes toolbars.
+
+Thanks Maxim!
 
 ## Summary
 
