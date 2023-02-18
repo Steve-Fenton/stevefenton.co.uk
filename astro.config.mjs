@@ -15,5 +15,6 @@ export default defineConfig({
             wrapTables
         ],
         extendDefaultPlugins: true,
+        trailingSlash: 'always'
     },
 });
