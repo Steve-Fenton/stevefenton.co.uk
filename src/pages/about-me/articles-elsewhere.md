@@ -23,6 +23,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps and Platform Engineering](https://www.octopus.com/blog/devops-platform-engineering)
 - [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
+- [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The new DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
