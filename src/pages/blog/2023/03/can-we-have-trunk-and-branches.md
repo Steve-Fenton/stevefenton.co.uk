@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Default.astro
-title: Can we have both trunk and
+title: 'Can we have both trunk-based development and branches?'
 navMenu: false
 pubDate: 2023-03-11
 keywords: git,trunk-based development,branches
