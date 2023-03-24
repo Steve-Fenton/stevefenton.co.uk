@@ -21,6 +21,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 ## DevOps and Continuous Delivery
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
+- [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [DevOps and Platform Engineering](https://www.octopus.com/blog/devops-platform-engineering)
 - [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
 - [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
