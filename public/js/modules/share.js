@@ -12,12 +12,19 @@ function handleClick() {
         url: url
     };
 
-    navigator.share(share);
+    if (navigator.share) {
+        navigator.share(share);
+    }
 }
 
 function enableSharing() {
+    const canShare = !!navigator.share;
     qsa('[data-share]').forEach((elem) => {
-        elem.addEventListener('click', handleClick);
+        if (canShare) {
+            elem.addEventListener('click', handleClick);
+        } else {
+            elem.style.display = 'none';
+        }
     });
 }
 
