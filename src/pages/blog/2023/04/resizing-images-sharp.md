@@ -2,8 +2,8 @@
 layout: src/layouts/Default.astro
 title: 'Automatically optimise and resize images with Sharp'
 navMenu: false
-pubDate: 2022-10-21
-keywords: node,image,optimisation,resize,squoosh
+pubDate: 2023-04-02
+keywords: node,image,optimisation,resize,sharp
 description: Generate optimised and resized image sets using Sharp and Node.
 bannerImage:
     src: /img/topic/cats/the-reverend-douglas-donaldson.jpg
