@@ -3,7 +3,7 @@ layout: src/layouts/Default.astro
 title: 'How to RegEx replace in Visual Studio Code'
 navMenu: false
 pubDate: 2022-10-07
-modDate: 2022-10-08
+modDate: 2023-04-17
 keywords: regex,visual studio code,vscode,replace
 description: Find out how to perform a complex search and replace in Visual Studio Code using a RegEx.
 bannerImage:
@@ -186,3 +186,13 @@ Using a RegEx with capture groups and tokens, you can completely transform conte
 Because automation amplifies actions, you can make something better *or* worse much faster with automation than you could manually. In my case, I fixed up more than five hundred images using this technique (though I wasn't converting the image into an HTML `img` tag - that was just a way to show what is possible).
 
 Don't skip those pre-flight checks or the post-change review. The super-power of this technique is discarding bad changes at the click of a button.
+
+## Other examples
+
+Remove the trailing slash from all markdown links, i.e. `[Link text](/your/link/here/)` to `[Link text](/your/link/here)`:
+
+Regex: `\[(.*)\]\(/(.*)/\)`
+
+Replacement: `[$1](/$2)`
+
+You apply this to "files to include: *.md".
