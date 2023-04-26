@@ -9,18 +9,26 @@ type Props = {
   lang: string;
   frontmatter: Frontmatter;
   headings: { depth: number; slug: string; text: string; }[];
+  expanded?: boolean | number;
 };
-const { lang, frontmatter, headings } = Astro.props satisfies Props;
+const { lang, frontmatter, headings, expanded } = Astro.props satisfies Props;
 
 // Language
 const _ = Lang(lang);
 
 // Logic
-// ...
+let openAttribute = null; 
+let openInteraction = null;
+
+if (typeof expanded === 'number') {
+  openInteraction = expanded;
+} else if (expanded === true) {
+  openAttribute = 'open';
+}
 ---
 {headings?.length > 0 &&
 <nav class="page-toc" aria-label={ _(Translations.aria.toc) }>
-  <details>
+  <details open={ openAttribute } data-openon={ openInteraction }>
     <summary>{ _(Translations.toc.title) }</summary>
     <ol>
       {headings.map((heading) =>(

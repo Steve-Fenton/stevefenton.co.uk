@@ -22,7 +22,6 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
-- [DevOps and Platform Engineering](https://www.octopus.com/blog/devops-platform-engineering)
 - [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
 - [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
@@ -38,6 +37,14 @@ I have three white papers on DevOps and Continuous Delivery:
   This paper provides a starting point for mapping deployment pipelines.
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops) \
   This paper provides guidance on using metrics and frameworks for good ways to measure software delivery.
+
+## Platform Engineering
+
+- [What is Platform Engineering?](https://octopus.com/devops/platform-engineering/)
+- [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
+- [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
+- [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
+- [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
 
 ## Modern Lean/Agile
 
