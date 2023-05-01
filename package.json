@@ -17,6 +17,6 @@
     "astro-accelerator": "^0.0.84"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.3"
+    "@playwright/test": "^1.33.0"
   }
 }
