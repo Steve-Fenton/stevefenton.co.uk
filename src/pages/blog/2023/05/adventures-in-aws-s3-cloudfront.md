@@ -2,7 +2,7 @@
 layout: src/layouts/Default.astro
 title: 'Adventures in AWS with S3 static websites and Cloudfront'
 navMenu: false
-pubDate: 2023-04-02
+pubDate: 2023-05-16
 keywords: cloud,aws,s3,static websites,cloudfront
 description: Some field notes on running a static website on AWS S3 behind Cloudfront.
 bannerImage:
