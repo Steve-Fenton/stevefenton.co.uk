@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
+modDate: 2023-05-17
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -22,12 +23,19 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
-- [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
-- [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
-- [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The new DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
+- [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
+- [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
+
+### Metrics
+
+- [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
+- [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
+- [How to measure MTTR](https://octopus.com/blog/how-to-measure-mean-time-to-resolve)
+
+### White papers
 
 I have three white papers on DevOps and Continuous Delivery:
 
