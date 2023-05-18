@@ -56,6 +56,7 @@
     --heading-font: 'hyper-bold', sans-serif;
     --content-font: 'hyper-reg', Verdana, Geneva, sans-serif;
     --code-font: Consolas, 'Courier New', Courier, monospace;
+    --unicode-font: font-family: "Segoe UI Symbol", "Arial Unicode MS", "DejaVu Sans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
 
     --paragraph-margin: 1.2rem;
     --margin-size: 1rem;
