@@ -28,6 +28,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
+- [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
 
 ### Metrics
 
