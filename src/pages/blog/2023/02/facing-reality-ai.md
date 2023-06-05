@@ -92,6 +92,21 @@ Machine-generated content does the opposite, amplifying noise and distortion unt
 
 There ought to be a directive that machines and automation should be a net negative cost to individual time and energy.
 
+## Getting philosophical with AI
+
+Does it save us time? Not just the person entering a prompt but all of us. Humanity. A frequent problem that has emerged with large language models is they save "authorship time" at the cost of significant "readership time". This readership time includes the people who consume content and those who edit and moderate it. Thanks to AI, the volunteer moderators on Stack Overflow now have longer queues. Small publishers are shutting down story submissions, thanks to AI.
+
+Sadly, the ability of machines to generate text, images, and video has led to the following:
+
+1. The devaluing of real content, thanks to...
+2. Growing skepticism about the origin of content
+
+Imagine if what we are facing with AI is the loss of faith in *all* content. To combat this, the only answer is to thoroughly reject all AI content. If you write original text, don't top it with an AI-generated image, and don't add AI-generated video alongside it. If you add *any* generated content, no matter how small, it devalues all other content alongside it. That one AI-generated image infects everything associated with it.
+
+If someone tries to pay you with a counterfeit banknote, you don't just view the banknote with suspicion. It affects your view of the whole person. If you use one *fake* image, the rest of your content is probably *fake*, too.
+
+If you create content with a tool like ChatGPT, it is of no use to anyone who has access to ChatGPT.
+
 ## Conclusion: AI-deas (yes, AI and ideas)
 
 One of the popular use cases for *AI* is asking it to generate ideas for content. Please take a moment to think about this!
