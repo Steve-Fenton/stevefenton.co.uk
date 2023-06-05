@@ -4,6 +4,12 @@ Disallow: /
 User-agent: Bingbot
 Disallow:
 
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: Exabot
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 
