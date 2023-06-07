@@ -3,6 +3,7 @@ layout: src/layouts/Default.astro
 title: 'Adventures in AWS with S3 static websites and Cloudfront'
 navMenu: false
 pubDate: 2023-05-16
+modDate: 2023-06-07
 keywords: cloud,aws,s3,static websites,cloudfront
 description: Some field notes on running a static website on AWS S3 behind Cloudfront.
 bannerImage:
@@ -161,10 +162,18 @@ By default, AWS will force a trailing slash on your site. This is usually the ri
 function handler(event) {
     var request = event.request;
     var uri = request.uri;
-    
+
     var params = '';
     if(('querystring' in request) && (request.querystring.length > 0)) {
-        params = '?'+request.querystring;
+        params = '?' + request.querystring;
+    }
+    
+    var fragment = '';
+    var hashPosition = uri.indexOf('#');
+    if (hashPosition >= 0) {
+        var parts = uri.split('#');
+        uri = parts[0];
+        fragment = '#' + parts[1];
     }
     
     if(uri.endsWith('/')) {
@@ -173,7 +182,10 @@ function handler(event) {
                 statusCode: 301,
                 statusDescription: 'Permanently moved',
                 headers:
-                { "location": { "value": `${uri.slice(0, -1) + params}` } } // remove trailing slash
+                {
+                    // remove trailing slash
+                    "location": { "value": `${uri = uri.slice(0, -1) + params + fragment}` }
+                }
             }
     
             return response;    
@@ -181,7 +193,9 @@ function handler(event) {
     }
     //Check whether the URI is missing a file extension.
     else if (!uri.includes('.')) {
-        request.uri += '/index.html';
+            uri = uri.split('?')[0];
+            console.log(uri);
+            request.uri = (uri + '/index.html').replace('//', '/') + params + fragment;
     }
 
     return request;
@@ -191,7 +205,7 @@ function handler(event) {
 Hit **Save changes**
 
 :::div{.note}
-This code was written by [Martin Hicks](https://github.com/hicksy) see the convo on [GitHub](https://github.com/sinovi/lambda-edge-remove-trailing-slash/issues/3).
+This code is based on an example written by [Martin Hicks](https://github.com/hicksy) see the convo on [GitHub](https://github.com/sinovi/lambda-edge-remove-trailing-slash/issues/3).
 :::
 
 You need to test your function before you publish it. To do this:
