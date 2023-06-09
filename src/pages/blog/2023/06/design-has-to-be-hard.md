@@ -4,7 +4,7 @@ title: 'Design has to be hard for web developers'
 navMenu: false
 pubDate: 2023-06-09
 keywords: web,design,css
-description: 'Having watched web design trends from the sharp end (HTML/CSS), here's a fundamental principle of design... It has to be hard.'
+description: Having watched web design trends from the sharp end (HTML/CSS), here's a fundamental principle of design... It has to be hard.
 bannerImage:
     src: /img/2023/06/apple-website.png
     alt: The Apple website circa 2007. It has gradients, shadows, a sheen on the text, and rounded corners everywhere.
