@@ -35,8 +35,8 @@ There are two reasons for this insatiable desire to look like Apple:
 Here's the website in 2007.
 
 :::figure
-:img { src="/img/2023/06/apple-website.png" alt="The Apple website circa 2007. It has gradients, shadows, a sheen on the text, and rounded corners everywhere" loading="lazy" }
-:figcaption[The Apple website around 2007]
+:img{ src="/img/2023/06/apple-website.png" alt="The Apple website circa 2007. It has gradients, shadows, a sheen on the text, and rounded corners everywhere" loading="lazy" }
+::figcaption[The Apple website around 2007]
 :::
 
 Look at this site. It's glassy - the text has a glossy sheen, there are gradients just about everywhere, shadows subtly enhance the elements.
