@@ -81,5 +81,6 @@ if (document.location.hostname === 'www.stevefenton.co.uk') {
   add_ga('G-Q3C5CMFDKJ')
 }
 </script>
+<script async src="https://js.sitesearch360.com/plugin/bundle/13820.js"></script>
 `.trim();
 
