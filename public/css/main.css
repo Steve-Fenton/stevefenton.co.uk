@@ -474,13 +474,13 @@ nav.site-nav h2 {
 
 @media (max-width: 860px) {
     .content-group {
-        grid-template-columns: 1rem auto 1rem;
+        margin-inline: 1rem;
+        grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
-        gap: var(--grid-gap) 0;
         grid-template-areas: 
-          "left top right"
-          "left content right"
-          "left menu right";
+          "toc"
+          "content"
+          "menu";
     }
 
     .content-group > nav {
