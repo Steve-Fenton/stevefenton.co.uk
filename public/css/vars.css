@@ -73,7 +73,7 @@
     --transform-selected: translate3d(0px, -1px, 0px);
 
     --content-width: 78vw;
-    --navigation-width: 280px;
+    --navigation-width: 300px;
     --grid-gap: 1rem;
     --grid-max-width: 70rem;
     --grid-width: 90vw;
