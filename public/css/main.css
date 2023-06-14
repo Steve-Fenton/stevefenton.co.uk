@@ -45,6 +45,10 @@ a, summary {
     border-radius: var(--block-radius);
 }
 
+summary {
+    text-decoration: none;
+}
+
 a:hover,
 a:focus {
     color: var(--fore-link-alt);
