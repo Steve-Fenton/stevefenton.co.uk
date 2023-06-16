@@ -54,7 +54,22 @@ I have three white papers on DevOps and Continuous Delivery:
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
 - [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
+- [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
 
 ## Modern Lean/Agile
 
 - [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
+
+## Software delivery history
+
+- [1950-1990: Early software delivery models](https://octopus.com/devops/history/early-software-delivery-models/)
+
+  It all started with phased models, like Lincoln Labs, waterfall, and the spiral model.
+
+- [1990-2010: Lightweight software delivery methods](https://octopus.com/devops/history/lightweight-software-delivery-methods/)
+
+  The lightweight revolution brought us Lean and Agile, things like Scrum, Extreme Programming (XP), and Kanban.
+
+- [2010-present: The modern era of research-backed software delivery](https://octopus.com/devops/history/research-backed-software-delivery/)
+
+  We are currently using quantitative and qualitative research to find out what works and assessing it against real organizational outcomes.
