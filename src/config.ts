@@ -63,24 +63,6 @@ if (document.location.hostname === 'www.stevefenton.co.uk') {
     })(window, document, "clarity", "script", "dz9of278l4");
 }
 </script>
-<!-- TODO: Remove GA -->
 <meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
-<script>
-function add_ga(id) {
-  var script = document.createElement('script');
-  script.setAttribute('async', 'async');
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
-  document.getElementsByTagName('head')[0].appendChild(script);
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', id, { 'anonymize_ip': true });
-  gtag('set', 'allow_ad_personalization_signals', false);
-}
-if (document.location.hostname === 'www.stevefenton.co.uk') {
-  add_ga('G-Q3C5CMFDKJ')
-}
-</script>
-<script async src="https://js.sitesearch360.com/plugin/bundle/13820.js"></script>
 `.trim();
 
