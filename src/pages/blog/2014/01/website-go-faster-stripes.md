@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Website go faster stripes'
 navMenu: false
 pubDate: 2014-01-06T23:25:05+00:00

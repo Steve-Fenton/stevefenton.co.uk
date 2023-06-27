@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: GitHub Copilot is coming to Visual Studio
 navMenu: false
 pubDate: 2022-03-29

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Node, Jest, and ECMA Modules'
 navMenu: false
 pubDate: 2022-11-26

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Simple conditional updates to entities in ASP.NET Core MVC
 navMenu: false
 pubDate: 2020-10-11T10:07:28+01:00

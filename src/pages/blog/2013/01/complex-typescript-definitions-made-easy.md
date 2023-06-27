@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Complex TypeScript definitions made easy'
 navMenu: false
 pubDate: 2013-01-23T22:27:10+00:00

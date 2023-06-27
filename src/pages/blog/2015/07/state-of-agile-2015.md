@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'State of Agile 2015'
 navMenu: false
 pubDate: 2015-07-18T17:56:31+01:00

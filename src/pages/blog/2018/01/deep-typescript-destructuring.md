@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Deep TypeScript destructuring'
 navMenu: false
 pubDate: 2018-01-25T08:45:29+00:00

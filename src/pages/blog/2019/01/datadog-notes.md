@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Datadog notes'
 navMenu: false
 pubDate: 2019-01-07T13:52:23+00:00

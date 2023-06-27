@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: C# 9 non-destructive mutation
 navMenu: false
 pubDate: 2020-05-22T06:30:26+01:00

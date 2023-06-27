@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Running sequence tests in Fitnesse'
 navMenu: false
 pubDate: 2013-10-25T10:40:08+01:00

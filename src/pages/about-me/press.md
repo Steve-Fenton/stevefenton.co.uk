@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02

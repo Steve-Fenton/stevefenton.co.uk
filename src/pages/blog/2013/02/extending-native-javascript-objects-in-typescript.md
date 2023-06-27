@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Extending native JavaScript objects in TypeScript'
 navMenu: false
 pubDate: 2013-02-16T22:04:27+00:00

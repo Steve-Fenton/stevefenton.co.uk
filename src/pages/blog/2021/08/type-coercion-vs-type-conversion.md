@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Type Coercion vs Type Conversion
 navMenu: false
 pubDate: 2021-08-19T09:29:17+01:00

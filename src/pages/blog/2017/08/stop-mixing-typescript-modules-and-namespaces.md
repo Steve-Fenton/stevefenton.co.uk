@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Stop mixing TypeScript modules and namespaces'
 navMenu: false
 pubDate: 2017-08-22T12:05:15+01:00

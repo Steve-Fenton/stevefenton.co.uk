@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Add Visual Studio Command Prompt to Visual Studio 2015'
 navMenu: false
 pubDate: 2015-06-16T23:34:39+01:00

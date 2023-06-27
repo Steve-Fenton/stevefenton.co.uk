@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Add X-Forwarded-For IP address to IIS logs'
 navMenu: false
 pubDate: 2016-08-08T16:52:55+01:00

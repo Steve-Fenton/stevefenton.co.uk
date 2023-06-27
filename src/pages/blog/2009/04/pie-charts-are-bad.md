@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Pie charts are bad
 navMenu: false
 pubDate: 2009-04-17

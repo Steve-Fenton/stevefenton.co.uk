@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Look who is ordering you back to the office
 navMenu: false
 pubDate: 2022-08-03

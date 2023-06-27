@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'NDepend for Beginners'
 navMenu: false
 pubDate: 2010-10-03T20:40:23+01:00

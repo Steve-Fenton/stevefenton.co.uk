@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'NuGet Packager Visual Studio extension'
 navMenu: false
 pubDate: 2014-11-03T20:17:38+00:00

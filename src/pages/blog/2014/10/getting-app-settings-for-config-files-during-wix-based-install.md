@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting app settings for config files during WiX-based install'
 navMenu: false
 pubDate: 2014-10-08T20:43:38+01:00

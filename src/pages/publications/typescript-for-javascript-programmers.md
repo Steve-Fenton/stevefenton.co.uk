@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: TypeScript for JavaScript Programmers
 navTitle: TypeScript (JavaScript ed.)
 navOrder: 8000

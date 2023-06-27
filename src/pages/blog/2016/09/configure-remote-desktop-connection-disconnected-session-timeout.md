@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Configure remote desktop connection disconnected session timeout'
 navMenu: false
 pubDate: 2016-09-27T09:06:05+01:00

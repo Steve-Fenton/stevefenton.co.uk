@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Octopus Deploy: Deployments are code'
 navMenu: false
 pubDate: 2016-02-17T07:00:11+00:00

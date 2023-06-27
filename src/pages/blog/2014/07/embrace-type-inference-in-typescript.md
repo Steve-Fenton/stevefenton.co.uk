@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Embrace type inference in TypeScript'
 navMenu: false
 pubDate: 2014-07-18T21:36:12+01:00

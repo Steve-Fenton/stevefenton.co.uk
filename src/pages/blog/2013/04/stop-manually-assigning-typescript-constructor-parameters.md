@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Stop manually assigning TypeScript constructor parameters'
 navMenu: false
 pubDate: 2013-04-15T15:13:19+01:00

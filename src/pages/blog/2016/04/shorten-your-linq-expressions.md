@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Shorten your Linq expressions'
 navMenu: false
 pubDate: 2016-04-14T06:00:11+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: '7 Japanese words from Lean you should learn'
 navMenu: false
 pubDate: 2015-01-24T16:25:57+00:00

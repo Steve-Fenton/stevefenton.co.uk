@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Paradigm shifts in software development'
 navMenu: false
 pubDate: 2015-04-04T00:35:14+01:00

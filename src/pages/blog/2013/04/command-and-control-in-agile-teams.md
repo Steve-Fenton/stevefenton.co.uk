@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Command and control in Agile teams'
 navMenu: false
 pubDate: 2013-04-19T15:12:20+01:00

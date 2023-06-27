@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Deep thinking and metacognition'
 navMenu: false
 pubDate: 2014-05-30T21:59:37+01:00

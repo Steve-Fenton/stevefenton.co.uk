@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Being effortless requires effort'
 navMenu: false
 pubDate: 2013-09-16T10:54:08+01:00

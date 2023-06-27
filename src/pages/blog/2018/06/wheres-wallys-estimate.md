@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Where's Wally's estimate?
 navMenu: false
 pubDate: 2018-06-17T21:19:07+01:00

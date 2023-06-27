@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'How to measure an Agile team'
 navMenu: false
 pubDate: 2013-09-04T10:56:06+01:00

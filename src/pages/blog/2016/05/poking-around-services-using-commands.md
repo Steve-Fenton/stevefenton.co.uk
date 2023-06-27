@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Poking around services using commands'
 navMenu: false
 pubDate: 2016-05-13T07:00:13+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Blog comments'
 navMenu: false
 pubDate: 2011-09-27T17:42:38+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript union type constraints'
 navMenu: false
 pubDate: 2015-02-01T16:16:52+00:00

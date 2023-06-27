@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Pomodoro Technique'
 navMenu: false
 pubDate: 2011-10-01T17:41:03+01:00

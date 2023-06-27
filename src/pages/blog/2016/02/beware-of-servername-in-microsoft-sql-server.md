@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Beware of @@SERVERNAME in Microsoft SQL Server'
 navMenu: false
 pubDate: 2016-02-23T12:10:30+00:00

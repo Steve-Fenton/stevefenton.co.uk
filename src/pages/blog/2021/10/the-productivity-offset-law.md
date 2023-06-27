@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: The Productivity Offset Law
 navMenu: false
 pubDate: 2021-10-22

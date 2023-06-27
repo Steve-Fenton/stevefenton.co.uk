@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Schedule compression'
 navMenu: false
 pubDate: 2016-08-02T06:00:03+01:00

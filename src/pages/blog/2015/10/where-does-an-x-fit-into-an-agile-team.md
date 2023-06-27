@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Where does an X fit into an Agile team?'
 navMenu: false
 pubDate: 2015-10-17T08:21:15+01:00

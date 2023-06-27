@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Import IIS log files to SQL Server with Web Log Importer
 navMenu: false
 pubDate: 2020-03-10T16:52:01+00:00

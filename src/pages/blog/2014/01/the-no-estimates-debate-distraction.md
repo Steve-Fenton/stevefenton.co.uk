@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The #NoEstimates debate distraction'
 navMenu: false
 pubDate: 2014-01-29T23:15:30+00:00

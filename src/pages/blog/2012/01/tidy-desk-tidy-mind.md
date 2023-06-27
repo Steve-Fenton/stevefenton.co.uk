@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Tidy desk. Tidy mind!'
 navMenu: false
 pubDate: 2012-01-28T17:01:00+00:00

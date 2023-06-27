@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Google Deliberately Writes Awful HTML'
 navMenu: false
 pubDate: 2010-08-05T20:56:17+01:00

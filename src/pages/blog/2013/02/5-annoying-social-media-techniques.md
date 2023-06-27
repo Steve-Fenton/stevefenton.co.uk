@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: '5 annoying social media techniques'
 navMenu: false
 pubDate: 2013-02-26T21:46:18+00:00

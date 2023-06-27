@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript: Depend only on what you need'
 navMenu: false
 pubDate: 2017-11-23T08:50:43+00:00

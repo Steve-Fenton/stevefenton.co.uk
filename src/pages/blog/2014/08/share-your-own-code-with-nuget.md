@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Share your own code with NuGet'
 navMenu: false
 pubDate: 2014-08-29T21:16:29+01:00

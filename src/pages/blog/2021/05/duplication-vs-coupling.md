@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Duplication vs Coupling
 navMenu: false
 pubDate: 2021-05-29T07:00:09+01:00

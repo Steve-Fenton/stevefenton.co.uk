@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Debugging your Fitnesse tests'
 navMenu: false
 pubDate: 2013-10-23T10:42:22+01:00

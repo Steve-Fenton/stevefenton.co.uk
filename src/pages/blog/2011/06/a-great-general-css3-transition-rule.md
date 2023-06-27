@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'A great general CSS3 transition rule'
 navMenu: false
 pubDate: 2011-06-18T18:04:58+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The relative cost of Octopus Deploy'
 navMenu: false
 pubDate: 2015-10-25T13:47:58+00:00

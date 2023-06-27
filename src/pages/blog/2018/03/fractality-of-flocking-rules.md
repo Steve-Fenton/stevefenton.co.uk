@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Fractality of Flocking Rules'
 navMenu: false
 pubDate: 2018-03-13T08:58:58+00:00

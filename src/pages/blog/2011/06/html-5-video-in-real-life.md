@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML5 video in real life'
 navMenu: false
 pubDate: 2011-06-16T18:06:37+01:00

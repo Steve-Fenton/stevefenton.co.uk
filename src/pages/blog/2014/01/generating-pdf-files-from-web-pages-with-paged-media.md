@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Generating PDF files from web pages with paged media'
 navMenu: false
 pubDate: 2014-01-17T23:20:18+00:00

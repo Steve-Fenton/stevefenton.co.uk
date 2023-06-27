@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Battery status API'
 navMenu: false
 pubDate: 2012-06-26T15:55:13+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Manager vs individual contributor vs lubricator
 navMenu: false
 pubDate: 2020-01-31T08:02:04+00:00

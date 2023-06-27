@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Web farm cookie encryption in ASP.NET'
 navMenu: false
 pubDate: 2016-02-24T10:56:23+00:00

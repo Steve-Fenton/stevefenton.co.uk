@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: The Int Betweeners (An extension method for numbers)
 navMenu: false
 pubDate: 2021-04-23T08:57:57+01:00

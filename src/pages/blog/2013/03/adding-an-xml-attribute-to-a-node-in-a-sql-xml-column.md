@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Adding an XML attribute to a node in a SQL XML column'
 navMenu: false
 pubDate: 2013-03-08T15:43:31+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'On Observing a Person'
 navMenu: false
 pubDate: 2013-08-05T11:35:46+01:00

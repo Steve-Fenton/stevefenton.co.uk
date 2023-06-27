@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: DotNet Publish, GitHub Actions, and Octopus Deploy
 navMenu: false
 pubDate: 2021-08-19T14:51:52+01:00

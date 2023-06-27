@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Extract an Excel column to a text file with PowerShell
 navMenu: false
 pubDate: 2020-04-11T07:50:03+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'WordPress custom query page size'
 navMenu: false
 pubDate: 2017-11-28T08:50:39+00:00

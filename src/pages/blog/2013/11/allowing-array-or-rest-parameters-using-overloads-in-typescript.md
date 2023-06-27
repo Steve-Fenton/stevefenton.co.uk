@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Allowing array or rest parameters using overloads in TypeScript'
 navMenu: false
 pubDate: 2013-11-06T10:06:42+00:00

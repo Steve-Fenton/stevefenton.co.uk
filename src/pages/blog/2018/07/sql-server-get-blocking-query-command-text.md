@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SQL Server: Get blocking query command text'
 navMenu: false
 pubDate: 2018-07-23T15:40:25+01:00

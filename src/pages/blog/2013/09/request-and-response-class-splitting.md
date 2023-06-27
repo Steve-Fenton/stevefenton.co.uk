@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Request and response class splitting'
 navMenu: false
 pubDate: 2013-09-27T10:52:09+01:00

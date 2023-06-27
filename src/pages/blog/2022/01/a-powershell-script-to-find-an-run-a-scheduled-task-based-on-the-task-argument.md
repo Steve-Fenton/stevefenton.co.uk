@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: A PowerShell script to find and run a scheduled task based on the task argument
 navMenu: false
 pubDate: 2022-01-19

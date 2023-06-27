@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Welcome to my Astro site'
 navMenu: false
 pubDate: 2022-10-05
@@ -96,7 +95,6 @@ You can then write pages using markdown. The frontmatter sets the layout and pro
 
 ```markdown
 ---
-layout: src/layouts/Default.astro
 title: 'Hello World'
 ---
 

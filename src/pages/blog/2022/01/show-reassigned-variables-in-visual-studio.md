@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Show Reassigned Variables in Visual Studio
 navMenu: false
 pubDate: 2022-01-04

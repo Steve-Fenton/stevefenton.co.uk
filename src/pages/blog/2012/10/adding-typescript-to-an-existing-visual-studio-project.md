@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Adding TypeScript to an Existing Visual Studio project'
 navMenu: false
 pubDate: 2012-10-04T23:36:32+01:00

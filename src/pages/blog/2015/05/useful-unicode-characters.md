@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Useful Unicode characters'
 navMenu: false
 pubDate: 2015-05-12T06:00:30+01:00

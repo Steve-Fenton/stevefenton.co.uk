@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Where to Place your desk in relation to your windows
 navMenu: false
 pubDate: 2020-04-05T08:21:58+01:00

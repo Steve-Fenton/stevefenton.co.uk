@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Update work items with build number during vNext builds'
 navMenu: false
 pubDate: 2016-10-13T12:23:49+01:00

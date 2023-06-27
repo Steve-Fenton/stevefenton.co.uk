@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Publish an NPM package'
 navMenu: false
 pubDate: 2014-11-29T19:59:46+00:00

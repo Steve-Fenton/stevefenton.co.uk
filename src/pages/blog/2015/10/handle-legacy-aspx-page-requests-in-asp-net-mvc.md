@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Handle legacy .aspx page requests in ASP.NET MVC'
 navMenu: false
 pubDate: 2015-10-05T19:00:26+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Sociable Pomodoro Timer'
 navMenu: false
 pubDate: 2019-04-14T16:34:44+01:00

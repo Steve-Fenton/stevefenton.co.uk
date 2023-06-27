@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'Combining Azure DevOps work item states and alerts'
 pubDate: 2016-06-26

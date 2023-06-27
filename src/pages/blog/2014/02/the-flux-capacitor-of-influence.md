@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Flux Capacitor of influence'
 navMenu: false
 pubDate: 2014-02-05T23:07:40+00:00

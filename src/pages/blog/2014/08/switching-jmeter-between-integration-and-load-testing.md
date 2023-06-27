@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Switching JMeter between integration and load testing'
 navMenu: false
 pubDate: 2014-08-20T21:20:52+01:00

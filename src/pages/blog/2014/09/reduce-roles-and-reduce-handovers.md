@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Reduce roles and reduce handovers'
 navMenu: false
 pubDate: 2014-09-28T12:07:30+01:00

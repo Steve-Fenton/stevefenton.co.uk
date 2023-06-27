@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Three Pillars of conference value'
 navMenu: false
 pubDate: 2017-07-25T06:00:14+01:00

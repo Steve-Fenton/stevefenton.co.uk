@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting started with BDD IntelliJ'
 navMenu: false
 pubDate: 2015-01-17T16:33:28+00:00

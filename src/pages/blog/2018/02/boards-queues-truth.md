@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Boards, queues, truth'
 navMenu: false
 pubDate: 2018-02-02T09:50:29+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Self-hosted WCF service with certificates'
 navMenu: false
 pubDate: 2012-10-09T23:33:06+01:00

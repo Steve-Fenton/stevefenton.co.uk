@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Check CSS support in CSS using @supports rules
 navMenu: false
 pubDate: 2021-04-20T13:15:19+01:00

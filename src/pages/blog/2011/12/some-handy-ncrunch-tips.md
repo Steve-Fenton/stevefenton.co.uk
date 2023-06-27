@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Some handy NCrunch tips'
 navMenu: false
 pubDate: 2011-12-07T17:14:43+00:00

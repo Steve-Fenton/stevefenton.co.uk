@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Say goodbye to TypeScript reference comments'
 navMenu: false
 pubDate: 2013-08-08T11:26:40+01:00

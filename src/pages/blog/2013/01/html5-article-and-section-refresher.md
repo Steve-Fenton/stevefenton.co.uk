@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML5 article and section refresher'
 navMenu: false
 pubDate: 2013-01-13T22:35:36+00:00

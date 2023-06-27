@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Adventures in AWS with S3 static websites and Cloudfront'
 navMenu: false
 pubDate: 2023-05-16

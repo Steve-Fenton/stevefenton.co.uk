@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Detect overflowing elements on a web page'
 navMenu: false
 pubDate: 2022-12-15

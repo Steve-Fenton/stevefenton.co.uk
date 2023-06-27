@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Disable swipe navigation in Chrome and Edge (Chromium edition)'
 navMenu: false
 pubDate: 2019-10-23T13:08:49+01:00

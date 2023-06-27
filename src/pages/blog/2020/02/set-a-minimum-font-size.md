@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Set a minimum font size
 navMenu: false
 pubDate: 2020-02-14T16:04:22+00:00

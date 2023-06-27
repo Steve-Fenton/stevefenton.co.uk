@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Global Using Statements and Code Clues
 navMenu: false
 pubDate: 2021-08-11T09:56:51+01:00

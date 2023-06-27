@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using CSS paged media to add dynamic headers'
 navMenu: false
 pubDate: 2013-12-04T09:52:35+00:00

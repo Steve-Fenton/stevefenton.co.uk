@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Mock-up tools are constraining'
 navMenu: false
 pubDate: 2015-05-01T00:17:18+01:00

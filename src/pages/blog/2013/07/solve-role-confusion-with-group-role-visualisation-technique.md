@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Solve role confusion with Group Role Visualisation technique'
 navMenu: false
 pubDate: 2013-07-03T11:58:44+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Avoiding the any type where possible'
 navMenu: false
 pubDate: 2014-07-14T21:39:08+01:00

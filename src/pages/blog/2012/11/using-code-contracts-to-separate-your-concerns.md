@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using code contracts to separate your concerns'
 navMenu: false
 pubDate: 2012-11-05T23:07:47+00:00

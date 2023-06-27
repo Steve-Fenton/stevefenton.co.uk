@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Wrapping simple types in a class for identities'
 navMenu: false
 pubDate: 2012-09-04T00:14:08+01:00

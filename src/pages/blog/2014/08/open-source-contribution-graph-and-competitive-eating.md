@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Open-source contribution graph and competitive eating'
 navMenu: false
 pubDate: 2014-08-01T21:26:55+01:00

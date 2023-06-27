@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Open Redirection Attack'
 navMenu: false
 pubDate: 2011-04-09T19:36:28+01:00

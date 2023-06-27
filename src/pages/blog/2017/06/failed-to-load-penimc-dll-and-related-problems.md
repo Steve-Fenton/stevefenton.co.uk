@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Failed to load penimc.dll and related problems'
 navMenu: false
 pubDate: 2017-06-20T10:13:25+01:00

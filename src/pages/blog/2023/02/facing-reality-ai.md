@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Facing the reality of AI
 navMenu: false
 pubDate: 2023-02-19

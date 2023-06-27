@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Unable to rebuild performance counter setting from System Backup Store'
 navMenu: false
 pubDate: 2016-04-16T10:20:41+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Katelyn Crawler to find all domain references'
 navMenu: false
 pubDate: 2017-11-01T05:00:41+00:00

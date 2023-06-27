@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Remove multiple headers with HAProxy'
 navMenu: false
 pubDate: 2017-02-02T13:38:29+00:00

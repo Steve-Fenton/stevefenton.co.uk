@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'X-Agile vs Y-Agile'
 navMenu: false
 pubDate: 2016-03-10T22:48:32+00:00

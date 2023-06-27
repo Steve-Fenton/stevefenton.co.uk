@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Delete all local git branches except the main branch
 navMenu: false
 pubDate: 2022-04-07T14:41:30+01:00

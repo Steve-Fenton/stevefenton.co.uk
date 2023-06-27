@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Automate Windows Task Scheduler with PowerShell
 navMenu: false
 pubDate: 2021-11-02

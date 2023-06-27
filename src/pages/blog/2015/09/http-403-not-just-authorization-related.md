@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTTP 403 is not just authorization related'
 navMenu: false
 pubDate: 2015-09-29T08:19:42+01:00

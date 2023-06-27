@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Calculating Coronavirus timings with Excel
 navMenu: false
 pubDate: 2021-02-22T20:00:09+00:00

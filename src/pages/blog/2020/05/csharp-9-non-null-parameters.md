@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: C# 9 non-null parameters
 navMenu: false
 pubDate: 2020-05-25T06:30:42+01:00

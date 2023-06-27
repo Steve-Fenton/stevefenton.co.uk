@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Get the command text for a SQL Query based on its SPID'
 navMenu: false
 pubDate: 2016-12-06T08:55:05+00:00

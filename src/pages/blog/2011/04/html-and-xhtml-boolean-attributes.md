@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML and XHTML boolean attributes'
 navMenu: false
 pubDate: 2011-04-05T19:41:32+01:00

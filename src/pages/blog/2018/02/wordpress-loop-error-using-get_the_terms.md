@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'WordPress loop error using get_the_terms'
 navMenu: false
 pubDate: 2018-02-01T08:50:44+00:00

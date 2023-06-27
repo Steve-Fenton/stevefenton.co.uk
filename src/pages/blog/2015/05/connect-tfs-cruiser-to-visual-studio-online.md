@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Connect TFS Cruiser to Visual Studio Team Services'
 navMenu: false
 pubDate: 2015-05-11T23:55:49+01:00

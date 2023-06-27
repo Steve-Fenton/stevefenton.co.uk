@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'If HTML5 was invented in 2018'
 navMenu: false
 pubDate: 2018-06-01T22:19:17+01:00

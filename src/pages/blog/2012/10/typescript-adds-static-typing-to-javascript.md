@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript adds static typing to JavaScript'
 navMenu: false
 pubDate: 2012-10-01T23:50:30+01:00

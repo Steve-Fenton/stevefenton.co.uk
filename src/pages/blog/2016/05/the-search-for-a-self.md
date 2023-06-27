@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The search for a Self'
 navMenu: false
 pubDate: 2016-05-29T17:41:45+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Real Linq-style operations using ECMAScript 6'
 navMenu: false
 pubDate: 2014-03-21T22:27:58+00:00

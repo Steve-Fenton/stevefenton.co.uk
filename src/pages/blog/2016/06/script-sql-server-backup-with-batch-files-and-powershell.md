@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Script SQL Server backup with batch files and PowerShell'
 navMenu: false
 pubDate: 2016-06-15T15:51:59+01:00

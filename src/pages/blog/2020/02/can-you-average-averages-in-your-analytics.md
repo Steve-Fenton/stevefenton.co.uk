@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Can you average averages in your analytics?
 navMenu: false
 pubDate: 2020-02-14T07:57:53+00:00

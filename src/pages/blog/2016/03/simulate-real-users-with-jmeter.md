@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Simulate real users with JMeter'
 navMenu: false
 pubDate: 2016-03-19T21:51:27+00:00

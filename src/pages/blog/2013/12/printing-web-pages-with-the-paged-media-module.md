@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Printing web pages with the Paged Media module'
 navMenu: false
 pubDate: 2013-12-02T09:58:37+00:00

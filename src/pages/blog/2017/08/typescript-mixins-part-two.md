@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript Mixins part two'
 navMenu: false
 pubDate: 2017-08-26T16:21:55+01:00

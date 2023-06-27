@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Other Books
 navOrder: 9000
 pubDate: 2022-10-02

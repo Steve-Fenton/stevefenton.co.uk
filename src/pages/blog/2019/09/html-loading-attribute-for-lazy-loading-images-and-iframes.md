@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML loading attribute for lazy loading images and iframes'
 navMenu: false
 pubDate: 2019-09-16T14:15:35+01:00

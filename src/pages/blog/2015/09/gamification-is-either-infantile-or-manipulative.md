@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Gamification is either infantile or manipulative'
 navMenu: false
 pubDate: 2015-09-19T11:00:08+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'ASP .NET MVC post-redirect-get pattern'
 navMenu: false
 pubDate: 2011-04-05T19:39:08+01:00

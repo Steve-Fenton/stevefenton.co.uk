@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The pie chart that is wrong several times'
 navMenu: false
 pubDate: 2012-06-12T16:02:02+01:00

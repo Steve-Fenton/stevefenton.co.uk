@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'You get what you measure'
 navMenu: false
 pubDate: 2013-07-08T11:56:56+01:00

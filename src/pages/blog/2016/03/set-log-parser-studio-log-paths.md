@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Set Log Parser Studio log paths'
 navMenu: false
 pubDate: 2016-03-29T13:46:05+01:00

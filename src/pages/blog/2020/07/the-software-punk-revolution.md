@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: The Software Punk Revolution
 navMenu: false
 pubDate: 2020-07-05T19:30:53+01:00

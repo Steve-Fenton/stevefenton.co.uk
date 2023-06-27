@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Recruitment agent exclusivity'
 navMenu: false
 pubDate: 2015-12-15T11:27:52+00:00

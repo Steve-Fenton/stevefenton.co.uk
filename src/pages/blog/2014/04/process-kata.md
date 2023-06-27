@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Process Kata'
 navMenu: false
 pubDate: 2014-04-14T22:22:48+01:00

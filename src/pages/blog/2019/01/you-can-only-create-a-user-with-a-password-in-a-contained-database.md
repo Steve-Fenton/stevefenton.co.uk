@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'You can only create a user with a password in a contained database'
 navMenu: false
 pubDate: 2019-01-04T07:00:34+00:00

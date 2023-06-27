@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Did I ever mention pie charts?'
 navMenu: false
 pubDate: 2014-10-13T20:39:14+01:00

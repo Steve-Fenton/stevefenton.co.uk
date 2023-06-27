@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Expecting one out of two members in TypeScript types'
 navMenu: false
 pubDate: 2019-09-06T06:30:29+01:00

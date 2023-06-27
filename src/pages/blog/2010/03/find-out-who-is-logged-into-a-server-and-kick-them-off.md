@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Find Out Who is Logged In to a Server and Kick Them Off'
 navMenu: false
 pubDate: 2010-03-06T22:04:27+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The DITE Cycle: Data Insight Theory Experiment'
 navMenu: false
 pubDate: 2019-09-02

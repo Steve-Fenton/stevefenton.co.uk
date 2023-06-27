@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Squash ASP.NET MVC ModelState errors into a string or JSON'
 navMenu: false
 pubDate: 2016-12-09T08:07:46+00:00

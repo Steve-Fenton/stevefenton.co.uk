@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What is a closure in JavaScript'
 navMenu: false
 pubDate: 2014-01-13T23:23:13+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: New Teams insights features
 navMenu: false
 pubDate: 2021-09-20T15:48:38+01:00

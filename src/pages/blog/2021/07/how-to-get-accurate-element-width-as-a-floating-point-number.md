@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: How to get accurate element width as a floating point number
 navMenu: false
 pubDate: 2021-07-02T18:15:51+01:00

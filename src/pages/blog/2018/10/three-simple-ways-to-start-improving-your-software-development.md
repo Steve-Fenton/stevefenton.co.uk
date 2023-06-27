@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Simple ways to improve your software development process'
 navMenu: false
 pubDate: 2018-10-06T12:00:55+01:00

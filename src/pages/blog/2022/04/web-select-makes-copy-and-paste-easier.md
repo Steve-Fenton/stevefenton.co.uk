@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Web select makes copy and paste easier
 navMenu: false
 pubDate: 2022-04-04

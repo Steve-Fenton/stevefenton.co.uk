@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Additional specification by example benefits'
 navMenu: false
 pubDate: 2014-07-02T21:45:56+01:00

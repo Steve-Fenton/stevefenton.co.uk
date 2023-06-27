@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Avoid expensive innerHTML manipulation with insertAdjacentHTML
 navMenu: false
 pubDate: 2020-02-29T15:45:07+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Cool new Visual Studio features'
 navMenu: false
 pubDate: 2014-11-12T20:12:39+00:00

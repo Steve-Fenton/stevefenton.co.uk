@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'If'
 pubDate: 2017-08-18T05:00:44+01:00

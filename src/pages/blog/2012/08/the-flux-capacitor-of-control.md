@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Flux Capacitor of control'
 navMenu: false
 pubDate: 2012-08-09T09:53:33+01:00

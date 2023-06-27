@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting TAP output from TypeSpec'
 navMenu: false
 pubDate: 2015-12-01T06:00:09+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Reduce costs by 12x on Azure
 navMenu: false
 pubDate: 2020-07-28T20:00:24+01:00

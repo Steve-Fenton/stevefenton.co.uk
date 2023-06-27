@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Specification by example by example'
 navMenu: false
 pubDate: 2014-05-07T22:15:36+01:00

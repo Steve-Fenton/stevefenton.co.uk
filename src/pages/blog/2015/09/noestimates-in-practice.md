@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: '#NoEstimates in practice'
 navMenu: false
 pubDate: 2015-09-10T07:00:13+01:00

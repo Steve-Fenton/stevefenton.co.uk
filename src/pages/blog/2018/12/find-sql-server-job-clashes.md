@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Find SQL Server job clashes'
 navMenu: false
 pubDate: 2018-12-27T20:00:43+00:00

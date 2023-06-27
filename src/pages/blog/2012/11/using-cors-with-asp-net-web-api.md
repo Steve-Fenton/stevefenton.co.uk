@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using CORS with ASP NET Web API'
 navMenu: false
 pubDate: 2012-11-01T23:14:02+00:00

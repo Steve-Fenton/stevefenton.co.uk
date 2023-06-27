@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Clean UI trends and how to do it right'
 navMenu: false
 pubDate: 2018-05-03T08:50:35+01:00

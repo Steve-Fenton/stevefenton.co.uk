@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Migrating existing tests to ApprovalTests'
 navMenu: false
 pubDate: 2018-04-14T14:10:35+01:00

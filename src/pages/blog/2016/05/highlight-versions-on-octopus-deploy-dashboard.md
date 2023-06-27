@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Highlight versions on the Octopus Deploy dashboard'
 navMenu: false
 pubDate: 2016-05-18T18:03:44+01:00

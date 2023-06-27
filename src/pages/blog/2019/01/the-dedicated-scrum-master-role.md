@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The dedicated Scrum Master role'
 navMenu: false
 pubDate: 2019-01-20T11:34:05+00:00

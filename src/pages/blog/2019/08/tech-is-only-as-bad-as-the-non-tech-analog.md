@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Tech is only as bad as the non-tech analog'
 navMenu: false
 pubDate: 2019-08-28T07:50:16+01:00

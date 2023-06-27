@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Install C++ redistributable with your WiX Installer'
 navMenu: false
 pubDate: 2014-11-03T20:22:24+00:00

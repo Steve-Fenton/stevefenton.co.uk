@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Get a list of gaps in a sequence in SQL Server'
 navMenu: false
 pubDate: 2017-02-22T10:50:28+00:00

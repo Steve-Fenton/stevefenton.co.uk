@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Humans vs Machines: Augmented AI'
 navMenu: false
 pubDate: 2019-04-29T21:10:46+01:00

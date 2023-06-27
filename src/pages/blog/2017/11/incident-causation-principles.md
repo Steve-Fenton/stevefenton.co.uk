@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Incident Causation Principles'
 navMenu: false
 pubDate: 2017-11-13T05:00:42+00:00

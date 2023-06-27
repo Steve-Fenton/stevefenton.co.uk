@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Speed up dynamic websites with static pages'
 navMenu: false
 pubDate: 2013-03-01T15:48:52+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Context switching comes at the price of delivery'
 navMenu: false
 pubDate: 2012-06-10T16:05:51+01:00

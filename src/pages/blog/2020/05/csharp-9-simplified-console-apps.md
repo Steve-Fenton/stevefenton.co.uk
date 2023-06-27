@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: C# 9 simplified console apps
 navMenu: false
 pubDate: 2020-05-20T06:30:13+01:00

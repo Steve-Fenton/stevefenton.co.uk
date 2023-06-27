@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'C# interfaces: Default implementations'
 navMenu: false
 pubDate: 2018-11-16T19:17:50+00:00

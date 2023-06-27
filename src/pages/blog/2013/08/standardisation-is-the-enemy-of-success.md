@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Standardisation is the enemy of success'
 navMenu: false
 pubDate: 2013-08-19T11:17:37+01:00

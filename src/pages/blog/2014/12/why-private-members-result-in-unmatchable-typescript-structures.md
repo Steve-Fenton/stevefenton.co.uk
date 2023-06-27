@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Why private members result in unmatchable TypeScript structures'
 navMenu: false
 pubDate: 2014-12-03T19:47:54+00:00

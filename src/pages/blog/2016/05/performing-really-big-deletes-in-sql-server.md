@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Performing really big deletes in SQL Server'
 navMenu: false
 pubDate: 2016-05-01T15:25:29+01:00

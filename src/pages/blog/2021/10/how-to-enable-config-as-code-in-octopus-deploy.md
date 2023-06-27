@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: How to enable config-as-code in Octopus Deploy
 navMenu: false
 pubDate: 2021-10-07

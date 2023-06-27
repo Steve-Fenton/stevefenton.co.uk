@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Privacy Policy
 navOrder: 7000
 pubDate: 2022-10-02

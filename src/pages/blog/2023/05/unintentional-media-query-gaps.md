@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Unintentional CSS media query gaps'
 navMenu: false
 pubDate: 2023-05-31

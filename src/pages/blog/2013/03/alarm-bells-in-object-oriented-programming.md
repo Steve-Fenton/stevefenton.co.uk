@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Alarm bells in object oriented programming'
 navMenu: false
 pubDate: 2013-03-06T15:46:29+00:00

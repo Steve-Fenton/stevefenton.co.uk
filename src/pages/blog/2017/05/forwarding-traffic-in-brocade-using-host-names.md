@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Forwarding traffic in Brocade using host names'
 navMenu: false
 pubDate: 2017-05-03T12:34:12+01:00

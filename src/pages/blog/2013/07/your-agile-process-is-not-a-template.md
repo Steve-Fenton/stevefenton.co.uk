@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Your Agile process is not a template'
 navMenu: false
 pubDate: 2013-07-05T11:57:51+01:00

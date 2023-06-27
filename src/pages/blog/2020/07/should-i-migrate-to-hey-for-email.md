@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Should I migrate to Hey for e-mail?
 navMenu: false
 pubDate: 2020-07-01T14:26:06+01:00

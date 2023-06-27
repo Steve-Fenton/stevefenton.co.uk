@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What is the difference between symbol, branch, and method code coverage'
 navMenu: false
 pubDate: 2011-08-16T17:54:37+01:00

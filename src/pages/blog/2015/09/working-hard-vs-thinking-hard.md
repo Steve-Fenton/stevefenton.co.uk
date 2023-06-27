@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Working hard vs thinking hard'
 navMenu: false
 pubDate: 2015-09-04T07:30:53+01:00

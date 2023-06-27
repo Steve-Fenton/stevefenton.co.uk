@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML5 forms special input elements'
 navMenu: false
 pubDate: 2011-05-23T19:14:03+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'How to decouple Adobe Analytics from your website'
 navMenu: false
 pubDate: 2019-10-10T07:50:01+01:00

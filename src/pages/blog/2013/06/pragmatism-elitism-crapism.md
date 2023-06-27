@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Pragmatism. Elitism. Crapism.'
 navMenu: false
 pubDate: 2013-06-05T12:12:37+01:00

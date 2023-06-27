@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Publications
 navOrder: 3000
 pubDate: 2022-10-02

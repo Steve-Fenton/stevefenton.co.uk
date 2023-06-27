@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SAML front channel and back channel examples'
 navMenu: false
 pubDate: 2018-06-20T07:00:26+01:00

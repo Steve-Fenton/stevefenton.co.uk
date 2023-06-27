@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting the right set up for TypeScript'
 navMenu: false
 pubDate: 2013-01-25T22:26:19+00:00

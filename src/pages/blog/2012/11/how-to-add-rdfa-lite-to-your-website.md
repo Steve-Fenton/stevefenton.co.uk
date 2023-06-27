@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'How to add RDFa Lite to your website'
 navMenu: false
 pubDate: 2012-11-29T22:44:53+00:00

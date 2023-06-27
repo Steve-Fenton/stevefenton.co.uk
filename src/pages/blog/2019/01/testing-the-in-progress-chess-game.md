@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Testing the in-progress Chess game'
 navMenu: false
 pubDate: 2019-01-27T18:29:46+00:00

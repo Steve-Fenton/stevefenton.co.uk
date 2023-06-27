@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: C# namespace declarations
 navMenu: false
 pubDate: 2021-09-06T07:50:56+01:00

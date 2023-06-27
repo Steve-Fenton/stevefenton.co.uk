@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Disciplined reading'
 navMenu: false
 pubDate: 2013-05-20T14:21:45+01:00

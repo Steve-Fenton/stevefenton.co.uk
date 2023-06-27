@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Waterfall vs Agile graph'
 navMenu: false
 pubDate: 2014-01-31T23:13:25+00:00

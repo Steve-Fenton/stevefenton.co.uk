@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript enumerations are numbers'
 navMenu: false
 pubDate: 2014-09-12T20:56:08+01:00

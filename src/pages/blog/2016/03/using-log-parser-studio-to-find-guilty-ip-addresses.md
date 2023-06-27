@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find guilty IP addresses'
 navMenu: false
 pubDate: 2016-03-30T06:00:20+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Create and hydrate a TypeScript class from JSON'
 navMenu: false
 pubDate: 2018-11-29T11:15:26+00:00

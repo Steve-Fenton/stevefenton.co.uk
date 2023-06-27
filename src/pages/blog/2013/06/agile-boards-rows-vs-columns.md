@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'Agile boards: Rows vs columns'
 pubDate: 2013-06-12T12:09:03+01:00

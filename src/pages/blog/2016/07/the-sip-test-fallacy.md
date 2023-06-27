@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Sip Test Fallacy'
 navMenu: false
 pubDate: 2016-07-21T06:30:50+01:00

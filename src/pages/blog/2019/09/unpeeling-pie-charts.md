@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Unpeeling pie charts'
 navMenu: false
 pubDate: 2019-09-23T16:53:42+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Should you code in your spare time?'
 navMenu: false
 pubDate: 2017-11-22T08:40:19+00:00

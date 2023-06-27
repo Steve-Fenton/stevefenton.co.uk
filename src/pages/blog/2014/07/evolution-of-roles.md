@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Evolution of roles'
 navMenu: false
 pubDate: 2014-07-24T12:10:25+01:00

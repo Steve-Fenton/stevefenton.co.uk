@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Visual Studio Online PowerShell build steps to publish NuGet packages'
 navMenu: false
 pubDate: 2015-11-18T07:00:45+00:00

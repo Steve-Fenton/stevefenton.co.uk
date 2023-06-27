@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'How to create your own code snippet in Visual Studio'
 navMenu: false
 pubDate: 2013-02-03T22:20:50+00:00

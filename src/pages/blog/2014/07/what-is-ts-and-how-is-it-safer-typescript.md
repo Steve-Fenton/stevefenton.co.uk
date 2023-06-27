@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What is TS* and how is it safer TypeScript?'
 navMenu: false
 pubDate: 2014-07-07T21:44:41+01:00

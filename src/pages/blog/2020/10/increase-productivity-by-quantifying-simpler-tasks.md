@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Increase productivity by quantifying simpler tasks
 navMenu: false
 pubDate: 2020-10-21T08:21:12+01:00

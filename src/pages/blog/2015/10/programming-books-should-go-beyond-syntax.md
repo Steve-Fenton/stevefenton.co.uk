@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Programming books should go beyond syntax'
 navMenu: false
 pubDate: 2015-10-27T07:31:21+00:00

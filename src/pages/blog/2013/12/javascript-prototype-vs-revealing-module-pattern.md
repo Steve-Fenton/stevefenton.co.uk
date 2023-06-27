@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JavaScript prototype vs revealing module pattern'
 navMenu: false
 pubDate: 2013-12-11T09:40:14+00:00

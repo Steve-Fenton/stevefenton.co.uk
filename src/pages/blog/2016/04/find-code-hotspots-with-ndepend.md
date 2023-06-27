@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Find code hotspots with NDepend'
 navMenu: false
 pubDate: 2016-04-24T19:56:54+01:00

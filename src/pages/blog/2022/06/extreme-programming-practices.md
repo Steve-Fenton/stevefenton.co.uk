@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Extreme Programming practices
 navMenu: false
 pubDate: 2022-06-01

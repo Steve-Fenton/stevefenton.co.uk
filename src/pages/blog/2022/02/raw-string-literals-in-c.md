@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Raw string literals in C#
 navMenu: false
 pubDate: 2022-02-17

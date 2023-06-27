@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript NotFunction type'
 navMenu: false
 pubDate: 2018-11-24T12:09:48+00:00

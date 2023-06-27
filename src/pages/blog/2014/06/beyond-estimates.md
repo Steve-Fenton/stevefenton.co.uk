@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Beyond estimates'
 navMenu: false
 pubDate: 2014-06-18T21:52:44+01:00

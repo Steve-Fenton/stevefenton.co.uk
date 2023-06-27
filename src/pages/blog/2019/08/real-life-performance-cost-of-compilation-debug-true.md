@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Real life performance cost of compilation debug="true"'
 navMenu: false
 pubDate: 2019-08-07T17:13:37+01:00

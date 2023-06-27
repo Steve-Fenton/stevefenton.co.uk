@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Astro paging and listing by category'
 navMenu: false
 pubDate: 2022-10-02

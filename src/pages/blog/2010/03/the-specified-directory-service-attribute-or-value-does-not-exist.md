@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Specified Directory Service Attribute or Value Does Not Exist'
 navMenu: false
 pubDate: 2010-03-16T22:02:18+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Minification failed: Returning unminified contents'
 navMenu: false
 pubDate: 2019-03-13T11:39:09+00:00

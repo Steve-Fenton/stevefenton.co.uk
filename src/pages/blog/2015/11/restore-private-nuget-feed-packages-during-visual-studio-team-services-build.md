@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Restore private NuGet feed packages during Visual Studio Team Services builds'
 navMenu: false
 pubDate: 2015-11-20T06:30:32+00:00

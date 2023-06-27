@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JavaScript key constants'
 navMenu: false
 pubDate: 2015-08-17T07:30:55+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: AJAX Request Interceptor
 navMenu: false
 pubDate: 2021-02-02T11:06:44+00:00

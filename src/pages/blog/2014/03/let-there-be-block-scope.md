@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Let there be block scope'
 navMenu: false
 pubDate: 2014-03-07T22:38:06+00:00

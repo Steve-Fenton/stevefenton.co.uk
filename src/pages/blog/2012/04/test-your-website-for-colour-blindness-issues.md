@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Test your website for colour blindness issues'
 navMenu: false
 pubDate: 2012-04-29T16:16:00+01:00

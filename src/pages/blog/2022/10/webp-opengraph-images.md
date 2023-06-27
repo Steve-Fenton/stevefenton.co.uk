@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Examples of WEBP format issues with Open Graph images'
 navMenu: false
 pubDate: 2022-10-15

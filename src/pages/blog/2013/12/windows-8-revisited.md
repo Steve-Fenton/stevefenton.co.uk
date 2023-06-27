@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Windows 8 revisited'
 navMenu: false
 pubDate: 2013-12-27T09:30:52+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Catching null and undefined without side effects'
 navMenu: false
 pubDate: 2018-04-03T21:35:09+01:00

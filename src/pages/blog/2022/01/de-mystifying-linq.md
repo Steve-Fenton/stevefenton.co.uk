@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: De-mystifying Linq
 navMenu: false
 pubDate: 2022-01-24

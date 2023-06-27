@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using personas for more than usability'
 navMenu: false
 pubDate: 2015-02-22T16:06:42+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Do I need to validate my HTML?'
 navMenu: false
 pubDate: 2011-08-07T17:56:37+01:00

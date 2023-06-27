@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JMeter throughput shaping tip'
 navMenu: false
 pubDate: 2014-11-19T20:04:50+00:00

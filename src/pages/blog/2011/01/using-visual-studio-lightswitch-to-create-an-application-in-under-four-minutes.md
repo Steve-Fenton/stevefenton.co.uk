@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Visual Studio LightSwitch to create an application in under four minutes'
 navMenu: false
 pubDate: 2011-01-14T20:00:57+00:00

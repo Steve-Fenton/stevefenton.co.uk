@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: '7 bad practices Azure DevOps can add to your Agile process'
 navMenu: false
 pubDate: 2012-10-27T23:23:23+01:00

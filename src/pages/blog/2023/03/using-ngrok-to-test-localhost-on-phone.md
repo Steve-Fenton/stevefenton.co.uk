@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using ngrok to test localhost on your phone'
 navMenu: false
 pubDate: 2023-03-17

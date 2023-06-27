@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Boy Who Cried Wolf: An Alternative Ending'
 navMenu: false
 pubDate: 2021-08-07T07:12:51+01:00

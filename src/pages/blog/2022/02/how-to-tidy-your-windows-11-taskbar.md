@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: How to tidy your Windows 11 Taskbar
 navMenu: false
 pubDate: 2022-02-16

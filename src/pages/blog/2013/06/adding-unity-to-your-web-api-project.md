@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Adding Unity to your Web API project'
 navMenu: false
 pubDate: 2013-06-10T12:09:46+01:00

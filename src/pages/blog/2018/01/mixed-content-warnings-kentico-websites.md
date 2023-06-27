@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Mixed content warnings on Kentico websites'
 navMenu: false
 pubDate: 2018-01-26T18:30:41+00:00

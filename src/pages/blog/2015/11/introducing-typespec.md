@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Introducing TypeSpec'
 navMenu: false
 pubDate: 2015-11-29T11:13:42+00:00

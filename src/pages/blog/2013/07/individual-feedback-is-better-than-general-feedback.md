@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Individual feedback is better than general feedback'
 navMenu: false
 pubDate: 2013-07-19T11:46:29+01:00

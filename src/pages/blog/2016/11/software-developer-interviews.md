@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Software developer interviews'
 navMenu: false
 pubDate: 2016-11-18T06:00:00+00:00

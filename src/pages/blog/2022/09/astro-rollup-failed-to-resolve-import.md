@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Astro: Rollup failed to resolve import'
 navMenu: false
 pubDate: 2022-09-20

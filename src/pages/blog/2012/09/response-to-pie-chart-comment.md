@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Response to pie chart comment'
 navMenu: false
 pubDate: 2012-09-06T00:08:56+01:00

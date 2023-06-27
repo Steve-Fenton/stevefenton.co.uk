@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: How to create important messages in Teams
 navMenu: false
 pubDate: 2021-06-11T11:56:35+01:00

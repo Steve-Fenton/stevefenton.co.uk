@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What are self-organising teams?'
 navMenu: false
 pubDate: 2012-07-02T15:46:28+01:00

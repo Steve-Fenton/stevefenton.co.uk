@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Make the RESTClient body input bigger'
 navMenu: false
 pubDate: 2014-12-01T19:51:49+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The pie chart so bad I had to censor It'
 navMenu: false
 pubDate: 2011-09-05T17:51:30+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Chromium-based Edge: The first month'
 navMenu: false
 pubDate: 2019-06-01T15:58:39+01:00

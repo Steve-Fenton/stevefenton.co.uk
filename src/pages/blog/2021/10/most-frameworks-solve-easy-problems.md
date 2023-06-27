@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Most frameworks solve easy problems
 navMenu: false
 pubDate: 2021-10-07

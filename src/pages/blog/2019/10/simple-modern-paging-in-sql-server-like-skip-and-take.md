@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Simple modern paging in SQL Server: Like Skip and Take'
 navMenu: false
 pubDate: 2019-10-02T08:08:20+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Make Azure Virtual Machine disks smaller
 navMenu: false
 pubDate: 2020-08-19T21:00:47+01:00

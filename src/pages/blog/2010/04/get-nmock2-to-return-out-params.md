@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Get NMock2 to Return Out Params'
 navMenu: false
 pubDate: 2010-04-29T21:41:44+01:00

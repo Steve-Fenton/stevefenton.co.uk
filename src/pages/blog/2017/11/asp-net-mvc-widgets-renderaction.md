@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'ASP.NET MVC widgets with RenderAction'
 navMenu: false
 pubDate: 2017-11-18T08:50:25+00:00

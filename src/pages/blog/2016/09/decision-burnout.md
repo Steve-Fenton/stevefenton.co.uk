@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Decision burnout'
 navMenu: false
 pubDate: 2016-09-17T14:51:22+01:00

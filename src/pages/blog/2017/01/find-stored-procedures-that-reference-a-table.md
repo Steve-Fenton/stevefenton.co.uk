@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Find stored procedures that reference a table'
 navMenu: false
 pubDate: 2017-01-24T10:45:36+00:00

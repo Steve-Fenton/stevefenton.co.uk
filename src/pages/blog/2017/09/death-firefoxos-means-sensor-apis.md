@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What the death of FirefoxOS means for sensor APIs'
 navMenu: false
 pubDate: 2017-09-09T15:29:36+01:00

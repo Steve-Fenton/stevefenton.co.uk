@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript Dictarray options'
 navMenu: false
 pubDate: 2018-11-14T09:21:48+00:00

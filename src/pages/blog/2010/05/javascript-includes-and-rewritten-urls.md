@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JavaScript Includes and Rewritten URLs'
 navMenu: false
 pubDate: 2010-05-19T21:34:29+01:00

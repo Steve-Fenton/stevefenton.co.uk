@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'My Windows Service is running but cannot be found'
 navMenu: false
 pubDate: 2014-10-17T20:33:58+01:00

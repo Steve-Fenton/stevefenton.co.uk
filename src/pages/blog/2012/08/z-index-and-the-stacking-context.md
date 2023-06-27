@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Z-index and the stacking context'
 navMenu: false
 pubDate: 2012-08-08T15:29:50+01:00

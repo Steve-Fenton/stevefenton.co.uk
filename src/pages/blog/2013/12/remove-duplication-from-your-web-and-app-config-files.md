@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'Remove duplication from your web and app config files'
 pubDate: 2013-12-06T09:49:15+00:00

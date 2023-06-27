@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Real-life Test Data Builder'
 navMenu: false
 pubDate: 2013-05-10T14:32:39+01:00

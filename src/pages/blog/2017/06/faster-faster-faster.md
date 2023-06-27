@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Faster! Faster! Faster!'
 navMenu: false
 pubDate: 2017-06-15T10:28:27+01:00

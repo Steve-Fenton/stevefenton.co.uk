@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Surgical team vs foreman metaphors'
 navMenu: false
 pubDate: 2014-02-26T22:41:50+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: Log to Datadog from .NET using Hound's LogHound class
 pubDate: 2018-03-19T08:50:09+00:00

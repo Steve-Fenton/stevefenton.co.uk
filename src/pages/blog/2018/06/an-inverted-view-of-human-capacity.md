@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'An inverted view of human capacity'
 navMenu: false
 pubDate: 2018-06-01T07:00:19+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Uptime and SLAs'
 navMenu: false
 pubDate: 2017-12-11T08:50:14+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Analytics: More users than sessions'
 navMenu: false
 pubDate: 2019-03-01T07:00:03+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Pie charts: The quick version'
 navMenu: false
 pubDate: 2017-05-09T08:24:48+01:00

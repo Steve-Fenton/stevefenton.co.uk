@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Combinatorial and pairwise testing with NUnit'
 navMenu: false
 pubDate: 2015-04-11T00:29:28+01:00

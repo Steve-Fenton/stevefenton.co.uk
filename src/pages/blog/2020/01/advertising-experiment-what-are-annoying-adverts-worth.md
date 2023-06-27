@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Advertising experiment: What are annoying adverts worth?'
 navMenu: false
 pubDate: 2020-01-08T16:47:22+00:00

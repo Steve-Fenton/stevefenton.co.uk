@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The best browser extensions for analytics and tag debugging'
 navMenu: false
 pubDate: 2019-10-16T14:53:51+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Adding an NCover target to MSBuild to get code coverage'
 navMenu: false
 pubDate: 2011-02-09T19:54:07+00:00

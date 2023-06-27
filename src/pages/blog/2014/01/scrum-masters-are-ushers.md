@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Scrum Masters are ushers'
 navMenu: false
 pubDate: 2014-01-24T23:17:29+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Multiple certificates for the same HAProxy front-end binding'
 navMenu: false
 pubDate: 2017-04-28T09:57:56+01:00

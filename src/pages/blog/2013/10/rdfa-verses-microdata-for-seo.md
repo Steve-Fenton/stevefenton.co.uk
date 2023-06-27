@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'RDFa vs Microdata for SEO'
 navMenu: false
 pubDate: 2013-10-09T10:46:56+01:00

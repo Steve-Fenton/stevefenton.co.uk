@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Don't worry about The Cargo Cult
 navMenu: false
 pubDate: 2017-06-08T08:27:49+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: The Ultimate Productivity Suite
 navMenu: false
 pubDate: 2021-09-25T07:00:36+01:00

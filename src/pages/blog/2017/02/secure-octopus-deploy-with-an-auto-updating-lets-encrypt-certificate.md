@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Secure Octopus Deploy with an auto-updating Let's Encrypt certificate
 navMenu: false
 pubDate: 2017-02-15

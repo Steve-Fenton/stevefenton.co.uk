@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Your Web Proxy is killing productivity'
 navMenu: false
 pubDate: 2013-03-20T15:26:48+00:00

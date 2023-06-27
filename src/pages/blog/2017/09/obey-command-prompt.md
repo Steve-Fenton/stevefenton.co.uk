@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Obey my command (prompt)'
 navMenu: false
 pubDate: 2017-09-26T06:00:49+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Tabs vs spaces in Visual Studio Code'
 navMenu: false
 pubDate: 2015-07-30T07:30:00+01:00

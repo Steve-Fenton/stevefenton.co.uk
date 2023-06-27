@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript is five years old today'
 navMenu: false
 pubDate: 2017-10-01T01:00:50+01:00

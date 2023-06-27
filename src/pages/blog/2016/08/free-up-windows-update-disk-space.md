@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Free up Windows Update disk space'
 navMenu: false
 pubDate: 2016-08-24T14:42:13+01:00

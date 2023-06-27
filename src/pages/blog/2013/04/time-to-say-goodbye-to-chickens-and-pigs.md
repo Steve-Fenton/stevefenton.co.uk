@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Time to say goodbye to chickens And pigs'
 navMenu: false
 pubDate: 2013-04-26T14:53:01+01:00

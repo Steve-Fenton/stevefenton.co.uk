@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Why you never expose your domain model as your MVC model'
 navMenu: false
 pubDate: 2013-03-14T15:27:53+00:00

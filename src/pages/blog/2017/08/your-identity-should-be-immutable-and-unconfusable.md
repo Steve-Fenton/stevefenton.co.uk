@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Your identity should be immutable and unconfusable'
 navMenu: false
 pubDate: 2017-08-23T10:53:22+01:00

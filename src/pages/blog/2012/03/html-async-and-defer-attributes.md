@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML async and defer attributes'
 navMenu: false
 pubDate: 2012-03-08T16:36:17+00:00

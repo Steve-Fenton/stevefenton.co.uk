@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Stop shooting at the invisible ghost'
 navMenu: false
 pubDate: 2016-05-13T14:35:49+01:00

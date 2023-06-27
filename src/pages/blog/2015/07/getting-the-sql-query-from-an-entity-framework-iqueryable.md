@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting the SQL query from an Entity Framework IQueryable'
 navMenu: false
 pubDate: 2015-07-24T07:30:57+01:00

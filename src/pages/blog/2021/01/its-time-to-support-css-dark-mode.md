@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: It's time to support CSS dark mode
 navMenu: false
 pubDate: 2021-01-28T06:00:57+00:00

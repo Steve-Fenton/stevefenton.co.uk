@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Web Ops Dashboards, Monitoring, and Alerting
 navTitle: Web Ops
 navOrder: 2000

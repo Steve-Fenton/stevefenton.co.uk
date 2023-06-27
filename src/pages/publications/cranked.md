@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Cranked
 navOrder: 5000
 pubDate: 2022-10-02

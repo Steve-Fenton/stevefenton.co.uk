@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Generate multiple themes from the same LESS file'
 navMenu: false
 pubDate: 2016-07-20T17:16:07+01:00

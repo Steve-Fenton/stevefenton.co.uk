@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Advanced CSS grid layouts'
 navMenu: false
 pubDate: 2022-12-08

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Compare the comparison market 2017'
 navMenu: false
 pubDate: 2017-09-03T18:14:24+01:00

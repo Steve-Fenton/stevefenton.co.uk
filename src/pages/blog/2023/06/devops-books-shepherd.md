@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'I wrote a list of DevOps books for Shepherd'
 navMenu: false
 pubDate: 2023-06-19

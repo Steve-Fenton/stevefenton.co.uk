@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Apply TypeScript types honestly'
 navMenu: false
 pubDate: 2018-02-26T08:40:30+00:00

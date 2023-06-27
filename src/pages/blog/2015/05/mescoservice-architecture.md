@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Mescoservice architecture'
 navMenu: false
 pubDate: 2015-05-14T23:54:57+01:00

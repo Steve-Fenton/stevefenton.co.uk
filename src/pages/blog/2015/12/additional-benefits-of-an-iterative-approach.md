@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Additional benefits of an iterative approach'
 navMenu: false
 pubDate: 2015-12-12T00:50:43+00:00

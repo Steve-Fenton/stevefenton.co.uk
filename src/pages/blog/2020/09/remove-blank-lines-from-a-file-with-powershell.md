@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Remove blank lines from a file with PowerShell
 navMenu: false
 pubDate: 2020-09-11T08:14:11+01:00

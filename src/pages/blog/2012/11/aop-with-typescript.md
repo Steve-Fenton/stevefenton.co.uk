@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'AOP with TypeScript'
 navMenu: false
 pubDate: 2012-11-14T23:04:49+00:00

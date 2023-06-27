@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Updated Dynamics localization in TypeScript'
 navMenu: false
 pubDate: 2014-03-26T22:24:42+00:00

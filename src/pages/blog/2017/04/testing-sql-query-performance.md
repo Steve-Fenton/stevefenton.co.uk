@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Testing SQL query performance'
 navMenu: false
 pubDate: 2017-04-13T16:25:09+01:00

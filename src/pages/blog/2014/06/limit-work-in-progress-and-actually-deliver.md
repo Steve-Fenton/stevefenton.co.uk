@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Limit work in progress and actually deliver'
 navMenu: false
 pubDate: 2014-06-25T21:51:45+01:00

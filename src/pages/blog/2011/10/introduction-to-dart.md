@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Introduction to Dart'
 navMenu: false
 pubDate: 2011-10-15T17:36:44+01:00

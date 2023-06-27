@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Change your process at regular intervals'
 navMenu: false
 pubDate: 2019-10-07T17:05:47+01:00

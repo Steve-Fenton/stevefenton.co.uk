@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'PHP doc comments look hideous'
 navMenu: false
 pubDate: 2011-10-24T17:26:21+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Custom states break population of Azure DevOps work item closed date'
 navMenu: false
 pubDate: 2016-07-29T09:06:14+01:00

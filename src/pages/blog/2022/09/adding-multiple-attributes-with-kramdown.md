@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Adding multiple attributes with Kramdown
 navMenu: false
 pubDate: 2022-09-06

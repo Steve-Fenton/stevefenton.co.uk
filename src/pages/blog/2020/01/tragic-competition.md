@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Tragic Competition
 navMenu: false
 pubDate: 2020-01-01T20:19:37+00:00

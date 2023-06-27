@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: '5 DbUp tips from Paul Stovell'
 navMenu: false
 pubDate: 2019-02-20T22:17:03+00:00

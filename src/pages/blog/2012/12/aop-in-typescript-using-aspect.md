@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'AOP in TypeScript using Aspect'
 navMenu: false
 pubDate: 2012-12-01T22:41:47+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Use PowerShell to count the number of elements in XML files'
 navMenu: false
 pubDate: 2019-03-12T07:30:24+00:00

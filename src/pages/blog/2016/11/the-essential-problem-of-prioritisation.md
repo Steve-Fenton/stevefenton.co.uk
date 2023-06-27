@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The essential problem of prioritisation'
 navMenu: false
 pubDate: 2016-11-16T08:34:01+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Log Parser Studio custom IIS log queries'
 navMenu: false
 pubDate: 2016-08-09T06:00:58+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SQL Server index fragmentation'
 navMenu: false
 pubDate: 2018-05-18T07:00:52+01:00

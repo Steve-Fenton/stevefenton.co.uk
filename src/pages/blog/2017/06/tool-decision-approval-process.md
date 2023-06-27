@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Tool decision approval process'
 navMenu: false
 pubDate: 2017-06-04T20:24:49+01:00

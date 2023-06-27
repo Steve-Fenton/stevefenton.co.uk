@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Magical Number Of Misunderstandings'
 navMenu: false
 pubDate: 2015-06-02T23:44:02+01:00

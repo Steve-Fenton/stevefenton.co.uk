@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Creating lots of Astro redirects with PowerShell'
 navMenu: false
 pubDate: 2022-10-04

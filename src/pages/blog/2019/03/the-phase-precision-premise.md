@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Phase Precision Premise'
 navMenu: false
 pubDate: 2019-03-04T19:25:16+00:00

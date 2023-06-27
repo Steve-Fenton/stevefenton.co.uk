@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Pro TypeScript - Second Edition
 navTitle: Pro TypeScript
 navOrder: 1000

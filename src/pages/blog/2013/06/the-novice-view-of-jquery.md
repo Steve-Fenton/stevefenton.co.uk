@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The novice view of jQuery'
 navMenu: false
 pubDate: 2013-06-24T12:02:24+01:00

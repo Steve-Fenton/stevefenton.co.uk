@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'No definition of done'
 navMenu: false
 pubDate: 2015-04-05T00:33:54+01:00

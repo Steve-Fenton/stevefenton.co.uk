@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What size boxes should I use to move house?'
 navMenu: false
 pubDate: 2013-11-01T10:13:59+00:00

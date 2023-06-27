@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Pie charts don't belong in the board room
 navMenu: false
 pubDate: 2017-11-25T13:26:55+00:00

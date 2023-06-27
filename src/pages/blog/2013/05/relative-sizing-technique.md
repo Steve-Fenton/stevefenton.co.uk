@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Relative sizing technique'
 navMenu: false
 pubDate: 2013-05-22T14:20:27+01:00

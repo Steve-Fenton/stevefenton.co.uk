@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Thinking about hand offs and coffee'
 navMenu: false
 pubDate: 2013-08-09T11:23:51+01:00

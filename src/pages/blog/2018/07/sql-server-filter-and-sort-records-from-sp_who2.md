@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SQL Server: Filter and sort records from sp_who2'
 navMenu: false
 pubDate: 2018-07-19T14:36:44+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Reacting to Clarity insights'
 navMenu: false
 pubDate: 2022-10-08

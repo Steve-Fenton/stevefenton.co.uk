@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Dynamically creating TypeScript classes based on a type argument'
 navMenu: false
 pubDate: 2015-12-31T07:56:12+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Consider avoiding TypeScript type definitions'
 navMenu: false
 pubDate: 2016-08-14T19:33:15+01:00

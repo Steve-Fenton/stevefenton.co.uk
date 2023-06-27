@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript no-implicit-any compiler flag'
 navMenu: false
 pubDate: 2013-07-26T11:40:54+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Behind the BizOps buzz: Metric MLA'
 navMenu: false
 pubDate: 2019-04-02T07:50:21+01:00

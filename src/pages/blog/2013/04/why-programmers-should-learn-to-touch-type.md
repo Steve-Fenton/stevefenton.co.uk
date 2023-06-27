@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Why programmers should learn to touch type'
 navMenu: false
 pubDate: 2013-04-02T15:17:00+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Moving to Mastodon'
 navMenu: false
 pubDate: 2022-10-28

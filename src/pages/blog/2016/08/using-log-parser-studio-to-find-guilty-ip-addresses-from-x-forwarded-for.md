@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find guilty IP addresses from X-Forwarded-For'
 navMenu: false
 pubDate: 2016-08-08T16:57:58+01:00

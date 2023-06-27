@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The State Pattern'
 navMenu: false
 pubDate: 2011-10-19T17:29:43+01:00

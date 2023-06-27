@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Investigate JavaScript execution times using Edge Dev Tools
 navMenu: false
 pubDate: 2020-05-11T16:48:19+01:00

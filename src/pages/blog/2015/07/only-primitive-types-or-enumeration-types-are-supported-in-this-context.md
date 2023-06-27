@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Only primitive types or enumeration types are supported in this context'
 navMenu: false
 pubDate: 2015-07-27T07:30:41+01:00

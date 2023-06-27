@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: The Humans are Dead
 navOrder: 6000
 pubDate: 2022-10-02

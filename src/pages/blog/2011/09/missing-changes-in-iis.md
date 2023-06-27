@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Missing changes in IIS'
 navMenu: false
 pubDate: 2011-09-06T17:49:11+01:00

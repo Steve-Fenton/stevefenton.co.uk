@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Custom tasks in Visual Studio Code'
 navMenu: false
 pubDate: 2015-05-04T00:03:26+01:00

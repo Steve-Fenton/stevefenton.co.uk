@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Using JestSpec without Gherkin
 navMenu: false
 pubDate: 2023-01-09

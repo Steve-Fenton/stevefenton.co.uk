@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Software product development requires focus'
 navMenu: false
 pubDate: 2013-09-01T11:15:54+01:00

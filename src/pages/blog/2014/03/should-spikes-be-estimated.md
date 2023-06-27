@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'Should spikes be estimated'
 pubDate: 2014-03-03T22:41:05+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Grinders vs Growers: Millenial falcons fly free'
 navMenu: false
 pubDate: 2018-11-15T07:00:18+00:00

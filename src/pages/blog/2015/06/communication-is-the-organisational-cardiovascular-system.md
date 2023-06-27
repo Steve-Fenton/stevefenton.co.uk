@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Communication is the organisational cardiovascular system'
 navMenu: false
 pubDate: 2015-06-06T23:41:29+01:00

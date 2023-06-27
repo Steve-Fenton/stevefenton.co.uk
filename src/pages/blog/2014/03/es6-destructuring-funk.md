@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: 'ES6 destructuring funk'
 pubDate: 2014-03-17T22:30:39+00:00

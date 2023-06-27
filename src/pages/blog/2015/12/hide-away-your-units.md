@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Hide away your units'
 navMenu: false
 pubDate: 2015-12-04T14:26:34+00:00

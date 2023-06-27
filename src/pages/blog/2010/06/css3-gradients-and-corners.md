@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'CSS3 Gradients and Corners'
 navMenu: false
 pubDate: 2010-06-22T21:16:10+01:00

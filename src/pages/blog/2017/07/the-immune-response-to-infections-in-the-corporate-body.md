@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The immune response to infections in the corporate body'
 navMenu: false
 pubDate: 2017-07-18T09:39:37+01:00

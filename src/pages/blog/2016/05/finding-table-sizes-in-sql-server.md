@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Finding table sizes in SQL Server'
 navMenu: false
 pubDate: 2016-05-10T10:56:22+01:00

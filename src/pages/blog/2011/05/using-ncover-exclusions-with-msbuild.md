@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using NCover exclusions with MSBuild'
 navMenu: false
 pubDate: 2011-05-30T18:24:04+01:00

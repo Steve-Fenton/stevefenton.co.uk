@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JavaScript: What is this and how do I use it'
 navMenu: false
 pubDate: 2010-08-10T20:54:34+01:00

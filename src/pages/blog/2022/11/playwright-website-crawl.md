@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Playwright website crawl testing'
 navMenu: false
 pubDate: 2022-11-03

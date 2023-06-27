@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Digital video recorders, slack, decisiveness, and focus'
 navMenu: false
 pubDate: 2018-07-29T19:03:29+01:00

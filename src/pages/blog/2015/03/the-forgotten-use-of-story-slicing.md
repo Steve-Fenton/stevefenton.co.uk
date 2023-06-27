@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The forgotten use of story slicing'
 navMenu: false
 pubDate: 2015-03-07T16:02:28+00:00

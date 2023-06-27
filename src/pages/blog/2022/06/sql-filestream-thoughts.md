@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: SQL Filestream thoughts
 navMenu: false
 pubDate: 2022-06-07

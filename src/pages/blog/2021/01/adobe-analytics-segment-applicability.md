@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Adobe Analytics segment applicability
 navMenu: false
 pubDate: 2021-01-14

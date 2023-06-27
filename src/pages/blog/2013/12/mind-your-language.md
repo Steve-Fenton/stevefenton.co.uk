@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Mind your language'
 navMenu: false
 pubDate: 2013-12-01T10:00:55+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Knowledge Hardwork Attitide Coincidence or Not'
 navMenu: false
 pubDate: 2015-12-05T06:00:04+00:00

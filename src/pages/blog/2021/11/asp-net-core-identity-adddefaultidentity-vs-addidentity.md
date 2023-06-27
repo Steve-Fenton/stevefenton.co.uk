@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: ASP.NET Core Identity AddDefaultIdentity vs AddIdentity
 navMenu: false
 pubDate: 2021-11-12

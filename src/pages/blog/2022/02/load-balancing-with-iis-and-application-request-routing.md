@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: Load balancing with IIS and Application Request Routing
 pubDate: 2022-02-28

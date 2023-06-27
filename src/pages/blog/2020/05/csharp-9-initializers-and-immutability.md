@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: C# 9 initializers and immutability
 navMenu: false
 pubDate: 2020-05-21T06:30:55+01:00

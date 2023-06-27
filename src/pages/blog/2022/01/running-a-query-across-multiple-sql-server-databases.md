@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Running a query across multiple SQL Server databases
 navMenu: false
 pubDate: 2022-01-18

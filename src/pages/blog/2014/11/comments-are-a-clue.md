@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Comments are a clue'
 navMenu: false
 pubDate: 2014-11-16T20:05:39+00:00

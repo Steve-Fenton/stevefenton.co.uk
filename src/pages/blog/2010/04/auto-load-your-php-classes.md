@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Auto Load Your PHP Classes'
 navMenu: false
 pubDate: 2010-04-07T21:48:09+01:00

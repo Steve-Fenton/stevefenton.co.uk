@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Useful SpecFlow regular expressions'
 navMenu: false
 pubDate: 2015-01-31T16:22:01+00:00

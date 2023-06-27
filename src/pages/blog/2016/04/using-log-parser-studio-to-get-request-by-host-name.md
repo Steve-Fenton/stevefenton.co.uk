@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to get request by host name'
 navMenu: false
 pubDate: 2016-04-19T06:00:21+01:00

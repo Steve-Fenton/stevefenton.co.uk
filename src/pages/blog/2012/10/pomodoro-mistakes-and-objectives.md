@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Pomodoro mistakes and objectives'
 navMenu: false
 pubDate: 2012-10-17T23:29:29+01:00

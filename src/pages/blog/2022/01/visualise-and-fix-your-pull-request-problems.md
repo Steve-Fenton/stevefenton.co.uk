@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Visualise and fix your pull request problems
 navMenu: false
 pubDate: 2022-01-05

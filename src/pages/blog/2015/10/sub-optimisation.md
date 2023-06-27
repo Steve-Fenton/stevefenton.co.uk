@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Sub-optimisation
 navMenu: false
 pubDate: 2015-10-01T06:45:14+01:00

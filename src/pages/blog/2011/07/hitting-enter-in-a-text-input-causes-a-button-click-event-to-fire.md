@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Hitting enter in a text input causes a button click event to fire'
 navMenu: false
 pubDate: 2011-07-15T17:57:59+01:00

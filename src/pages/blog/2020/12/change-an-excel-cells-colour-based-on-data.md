@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Change an Excel cell's colour based on data
 navMenu: false
 pubDate: 2020-12-21T08:30:41+00:00

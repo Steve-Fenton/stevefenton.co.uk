@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Logging to Windows Event Log'
 navMenu: false
 pubDate: 2014-10-15T20:37:57+01:00

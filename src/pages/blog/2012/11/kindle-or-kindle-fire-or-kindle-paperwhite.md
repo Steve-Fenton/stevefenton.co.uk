@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Kindle or Kindle Fire or Kindle Paperwhite'
 navMenu: false
 pubDate: 2012-11-12T23:06:48+00:00

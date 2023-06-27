@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'A few #NoEstimates straw men'
 navMenu: false
 pubDate: 2014-05-26T22:14:21+01:00

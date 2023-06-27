@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Kanban in the kitchen'
 navMenu: false
 pubDate: 2011-12-13T17:10:54+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Firefox responsive mode'
 navMenu: false
 pubDate: 2014-06-30T21:46:52+01:00

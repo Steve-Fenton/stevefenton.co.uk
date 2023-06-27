@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Design has to be hard for web developers'
 navMenu: false
 pubDate: 2023-06-09

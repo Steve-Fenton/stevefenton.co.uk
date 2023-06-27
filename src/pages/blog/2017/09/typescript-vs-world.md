@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript vs the world'
 navMenu: false
 pubDate: 2017-09-24T11:22:42+01:00

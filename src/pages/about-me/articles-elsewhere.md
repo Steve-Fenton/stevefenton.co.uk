@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Why I prefer native TypeScript libraries'
 navMenu: false
 pubDate: 2016-01-07T20:23:14+00:00

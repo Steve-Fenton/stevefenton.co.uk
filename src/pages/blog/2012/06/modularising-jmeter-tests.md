@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Modularising JMeter tests'
 navMenu: false
 pubDate: 2012-06-27T15:50:34+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Include JavaScript and TypeScript tests in Visual Studio'
 navMenu: false
 pubDate: 2013-02-05T22:16:09+00:00

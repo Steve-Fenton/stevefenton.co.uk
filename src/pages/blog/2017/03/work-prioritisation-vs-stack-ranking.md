@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Work prioritisation vs stack ranking'
 navMenu: false
 pubDate: 2017-03-24T06:00:14+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML required attribute works on select elements'
 navMenu: false
 pubDate: 2013-11-20T10:05:00+00:00

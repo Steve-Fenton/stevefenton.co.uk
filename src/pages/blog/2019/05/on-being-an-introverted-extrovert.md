@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'On Being an Introverted Extrovert'
 navMenu: false
 pubDate: 2019-05-12T08:00:21+01:00

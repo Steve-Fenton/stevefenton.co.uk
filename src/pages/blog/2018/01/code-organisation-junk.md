@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Code organisation and junk'
 navMenu: false
 pubDate: 2018-01-05T06:00:45+00:00

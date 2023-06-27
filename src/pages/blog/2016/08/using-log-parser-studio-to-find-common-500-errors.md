@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using Log Parser Studio to find common 500 errors'
 navMenu: false
 pubDate: 2016-08-25T19:15:17+01:00

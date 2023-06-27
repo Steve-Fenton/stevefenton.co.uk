@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'jQuery Get Text While Excluding Children'
 navMenu: false
 pubDate: 2010-07-05T21:06:23+01:00

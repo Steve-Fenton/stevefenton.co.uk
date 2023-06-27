@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Octopus Deploy package upload order matters'
 navMenu: false
 pubDate: 2016-02-03T06:00:24+00:00

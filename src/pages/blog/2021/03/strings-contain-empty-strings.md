@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Strings contain empty strings
 navMenu: false
 pubDate: 2021-03-16T11:13:21+00:00

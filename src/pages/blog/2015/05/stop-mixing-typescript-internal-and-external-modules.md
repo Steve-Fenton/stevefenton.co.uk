@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Stop mixing TypeScript Internal and external modules'
 navMenu: false
 pubDate: 2015-05-28T23:52:05+01:00

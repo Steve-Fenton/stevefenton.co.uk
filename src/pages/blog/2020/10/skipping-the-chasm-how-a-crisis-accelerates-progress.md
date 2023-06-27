@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Skipping the chasm: How a crisis accelerates progress'
 navMenu: false
 pubDate: 2020-10-14T06:00:28+01:00

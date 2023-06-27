@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 navMenu: false
 title: Title case text with MySql
 pubDate: 2022-05-17

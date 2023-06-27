@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'When a pie chart is the correct chart'
 navMenu: false
 pubDate: 2018-01-19T08:30:37+00:00

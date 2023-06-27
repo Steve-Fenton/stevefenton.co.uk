@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Why unique visitors in analytics never adds up'
 navMenu: false
 pubDate: 2019-02-26T17:33:19+00:00

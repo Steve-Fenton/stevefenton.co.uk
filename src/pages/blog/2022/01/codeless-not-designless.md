@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Codeless != Designless
 navMenu: false
 pubDate: 2022-01-07

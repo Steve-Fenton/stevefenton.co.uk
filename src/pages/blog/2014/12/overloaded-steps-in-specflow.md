@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Overloaded steps in SpecFlow'
 navMenu: false
 pubDate: 2014-12-10T19:40:04+00:00

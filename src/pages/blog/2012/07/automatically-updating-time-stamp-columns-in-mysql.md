@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Automatically updating time stamp columns in MySql'
 navMenu: false
 pubDate: 2012-07-23T15:34:41+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Column charts can lie too'
 navMenu: false
 pubDate: 2012-03-11T16:29:09+00:00

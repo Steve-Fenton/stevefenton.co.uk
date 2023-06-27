@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Sony SmartWatch 3'
 navMenu: false
 pubDate: 2016-01-09T06:00:08+00:00

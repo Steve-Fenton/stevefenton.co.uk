@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What to do about that line of code'
 navMenu: false
 pubDate: 2013-10-28T10:37:45+00:00

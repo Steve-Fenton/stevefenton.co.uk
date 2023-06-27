@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Code contracts fail to fire'
 navMenu: false
 pubDate: 2012-10-09T23:30:50+01:00

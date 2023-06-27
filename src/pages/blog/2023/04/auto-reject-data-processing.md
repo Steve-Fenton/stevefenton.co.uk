@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Auto-reject data processing'
 navMenu: false
 pubDate: 2023-04-02

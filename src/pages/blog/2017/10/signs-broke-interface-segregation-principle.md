@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Signs you broke the Interface Segregation Principle'
 navMenu: false
 pubDate: 2017-10-12T09:15:49+01:00

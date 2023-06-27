@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeSpec compared to SpecFlow'
 navMenu: false
 pubDate: 2015-12-15T06:00:38+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02

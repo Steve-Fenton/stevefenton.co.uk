@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Upgrading Octopus GitHub Actions'
 navMenu: false
 pubDate: 2022-12-19

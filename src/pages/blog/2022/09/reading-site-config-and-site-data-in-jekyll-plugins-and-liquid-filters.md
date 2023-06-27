@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Reading site.config and site.data in Jekyll plugins and Liquid filters
 navMenu: false
 pubDate: 2022-09-13

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The Microservices vs Conway Test'
 navMenu: false
 pubDate: 2019-10-26T17:00:54+01:00

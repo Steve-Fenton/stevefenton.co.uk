@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Visual Studio IntelliCode'
 navMenu: false
 pubDate: 2018-05-09T07:15:04+01:00

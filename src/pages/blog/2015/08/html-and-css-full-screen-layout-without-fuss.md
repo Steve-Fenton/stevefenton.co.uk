@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML and CSS full screen layout without fuss'
 navMenu: false
 pubDate: 2015-08-10T07:30:02+01:00

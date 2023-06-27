@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Dashes vs underscores in web addresses'
 navMenu: false
 pubDate: 2011-08-28T17:53:22+01:00

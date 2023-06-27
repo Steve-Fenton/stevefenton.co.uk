@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Home
 navOrder: 0
 pubDate: 2022-10-02

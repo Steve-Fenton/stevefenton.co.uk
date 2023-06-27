@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Software development method adoption'
 navMenu: false
 pubDate: 2015-07-10T08:21:11+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Fakes, stubs, and shims in Visual Studio 2012'
 navMenu: false
 pubDate: 2012-07-08T15:39:10+01:00

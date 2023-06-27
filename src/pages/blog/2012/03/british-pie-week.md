@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'British Pie Week'
 navMenu: false
 pubDate: 2012-03-05T16:37:11+00:00

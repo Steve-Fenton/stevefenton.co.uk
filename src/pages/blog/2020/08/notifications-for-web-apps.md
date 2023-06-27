@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Notifications for web apps
 navMenu: false
 pubDate: 2020-08-05T06:00:10+01:00

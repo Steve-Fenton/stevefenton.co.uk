@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Open Visual Studio with Source Control Explorer open'
 navMenu: false
 pubDate: 2016-10-11T15:12:28+01:00

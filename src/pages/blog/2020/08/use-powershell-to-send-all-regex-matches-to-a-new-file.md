@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Use PowerShell to send all regex matches to a new file
 navMenu: false
 pubDate: 2020-08-14T17:19:22+01:00

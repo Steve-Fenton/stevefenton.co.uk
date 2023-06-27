@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Firefox About URI Schema'
 navMenu: false
 pubDate: 2010-04-15T21:47:22+01:00

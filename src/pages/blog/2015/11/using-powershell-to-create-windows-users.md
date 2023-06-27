@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Using PowerShell to create Windows users'
 navMenu: false
 pubDate: 2015-11-27T06:30:58+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Prevent AJAX requests making sessions infinite in ASP.NET MVC'
 navMenu: false
 pubDate: 2019-09-04T09:40:31+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Steve Fenton and Stephen Fenton Roll Call'
 navMenu: false
 pubDate: 2010-02-18T21:34:44+00:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Conditionally apply IIS URLRewrite rules'
 navMenu: false
 pubDate: 2017-10-15T05:00:51+01:00

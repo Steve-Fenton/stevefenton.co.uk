@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'TypeScript Pixel Counter'
 navMenu: false
 pubDate: 2018-01-21T20:00:23+00:00

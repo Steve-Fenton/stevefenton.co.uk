@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'What is a Nanoconference?'
 navMenu: false
 pubDate: 2015-10-19T20:00:27+01:00

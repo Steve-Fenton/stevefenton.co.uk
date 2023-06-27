@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Visual Studio Code keyboard shortcuts'
 navMenu: false
 pubDate: 2015-05-03T00:08:00+01:00

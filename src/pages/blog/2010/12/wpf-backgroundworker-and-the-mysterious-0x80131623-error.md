@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'WPF BackgroundWorker and the mysterious 0x80131623 error'
 navMenu: false
 pubDate: 2010-12-30T20:05:47+00:00

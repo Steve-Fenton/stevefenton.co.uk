@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Affirmation
 navOrder: 1000
 pubDate: 2022-10-02

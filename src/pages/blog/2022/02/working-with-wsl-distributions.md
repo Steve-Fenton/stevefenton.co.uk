@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Working with WSL distributions
 navMenu: false
 pubDate: 2022-02-21

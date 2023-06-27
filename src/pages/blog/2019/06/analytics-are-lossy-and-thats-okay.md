@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Analytics are lossy and that's okay
 navMenu: false
 pubDate: 2019-06-12T07:50:13+01:00

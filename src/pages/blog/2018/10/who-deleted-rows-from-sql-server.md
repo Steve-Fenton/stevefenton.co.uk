@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Who deleted rows from SQL Server'
 navMenu: false
 pubDate: 2018-10-09T06:00:56+01:00

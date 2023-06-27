@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Azure DevOps task board has missing cards'
 navMenu: false
 pubDate: 2016-06-05T06:47:54+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Who broke the build?'
 navMenu: false
 pubDate: 2013-04-24T15:05:56+01:00

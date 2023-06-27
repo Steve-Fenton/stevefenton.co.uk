@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Useful Apache mod rewrite rules'
 navMenu: false
 pubDate: 2015-07-19T08:00:57+01:00

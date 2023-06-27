@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'HTML5 form elements new attributes'
 navMenu: false
 pubDate: 2011-05-23T19:16:26+01:00

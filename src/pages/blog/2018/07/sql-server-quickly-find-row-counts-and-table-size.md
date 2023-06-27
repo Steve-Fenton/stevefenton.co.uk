@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SQL Server: Quickly find row counts and table size'
 navMenu: false
 pubDate: 2018-07-04T13:53:10+01:00

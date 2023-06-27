@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Continuous Delivery and JavaScript bundling'
 navMenu: false
 pubDate: 2017-10-12T06:00:39+01:00

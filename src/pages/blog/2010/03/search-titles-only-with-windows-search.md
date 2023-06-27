@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Search Titles Only with Windows Search'
 navMenu: false
 pubDate: 2010-03-09T22:03:14+00:00

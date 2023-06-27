@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: How to resolve missing field "id" in "item list element item"
 navMenu: false
 pubDate: 2023-01-24

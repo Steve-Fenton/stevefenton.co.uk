@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'AJAX Ready State Codes'
 navMenu: false
 pubDate: 2010-04-23T21:45:46+01:00

@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Software development: Process does not matter'
 navMenu: false
 pubDate: 2020-07-08T19:03:25+01:00

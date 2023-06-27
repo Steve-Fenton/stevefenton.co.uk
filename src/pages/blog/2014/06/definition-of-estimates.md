@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Definition of estimates'
 navMenu: false
 pubDate: 2014-06-16T21:53:57+01:00

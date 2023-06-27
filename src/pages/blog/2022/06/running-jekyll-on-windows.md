@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Running Jekyll on Windows
 navMenu: false
 pubDate: 2022-06-29

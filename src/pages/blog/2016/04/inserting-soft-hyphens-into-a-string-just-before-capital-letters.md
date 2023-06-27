@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Inserting soft hyphens into a string just before capital letters'
 navMenu: false
 pubDate: 2016-04-08T06:00:08+01:00

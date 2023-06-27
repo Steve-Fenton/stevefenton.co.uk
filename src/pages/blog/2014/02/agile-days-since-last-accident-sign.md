@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Agile days since last accident sign'
 navMenu: false
 pubDate: 2014-02-19T22:52:44+00:00

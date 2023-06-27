@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'The configuration section cannot contain a CDATA or text element'
 navMenu: false
 pubDate: 2013-12-13T09:38:44+00:00

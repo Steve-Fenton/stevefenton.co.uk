@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Firefox 3D mode'
 navMenu: false
 pubDate: 2014-06-27T21:50:22+01:00

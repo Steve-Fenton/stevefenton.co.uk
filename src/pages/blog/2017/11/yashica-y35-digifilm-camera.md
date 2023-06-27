@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Yashica Y35 digiFILM camera'
 navMenu: false
 pubDate: 2017-11-19T13:59:15+00:00

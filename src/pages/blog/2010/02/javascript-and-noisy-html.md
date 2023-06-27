@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'JavaScript and Noisy HTML'
 navMenu: false
 pubDate: 2010-02-10T22:06:45+00:00

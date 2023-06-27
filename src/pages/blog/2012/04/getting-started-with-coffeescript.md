@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Getting started with CoffeeScript'
 navMenu: false
 pubDate: 2012-04-20T16:19:33+01:00

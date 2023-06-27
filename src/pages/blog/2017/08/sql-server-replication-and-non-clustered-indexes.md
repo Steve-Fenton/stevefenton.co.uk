@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'SQL Server replication and non-clustered indexes'
 navMenu: false
 pubDate: 2017-08-21T15:12:43+01:00

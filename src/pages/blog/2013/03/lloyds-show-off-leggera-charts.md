@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Lloyds show off leggera charts'
 navMenu: false
 pubDate: 2013-03-12T15:39:29+00:00

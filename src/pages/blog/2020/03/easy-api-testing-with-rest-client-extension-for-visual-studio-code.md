@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: Easy API testing with REST Client extension for Visual Studio Code
 navMenu: false
 pubDate: 2020-03-16T19:02:17+00:00

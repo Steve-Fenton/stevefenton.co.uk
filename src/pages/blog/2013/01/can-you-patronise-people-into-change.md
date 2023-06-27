@@ -1,5 +1,4 @@
 ---
-layout: src/layouts/Default.astro
 title: 'Can you patronise people into change?'
 navMenu: false
 pubDate: 2013-01-03T22:38:23+00:00
