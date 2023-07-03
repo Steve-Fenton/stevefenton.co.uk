@@ -54,15 +54,6 @@ export const OPEN_GRAPH = {
 export const HEADER_SCRIPTS = `
 <link rel="preload" href="/css/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/css/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
-<script>
-if (document.location.hostname === 'www.stevefenton.co.uk') {
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "dz9of278l4");
-}
-</script>
 <meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
 `.trim();
 
