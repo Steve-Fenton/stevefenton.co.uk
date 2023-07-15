@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--fore-headings);
     line-height: 1;
     letter-spacing: -0.03em;
+    text-wrap: balance;
 }
 
 h1 {
