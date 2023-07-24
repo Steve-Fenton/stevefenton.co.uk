@@ -20,6 +20,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
+- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
 
 ## Platform Engineering
 
@@ -57,7 +58,6 @@ Here is some content I’ve written elsewhere that you might be interested in.
   Discover the best way to divide your deployment projects to keep things organised.
 - [Mapping manual deployments](https://octopus.com/blog/mapping-manual-deployments) \
   Use Octopus to document and track manual deployments and use this as a jumping-off point to automate steps.
-
 
 ### White papers
 
