@@ -2,6 +2,7 @@ export const SITE = {
 	url: 'https://www.stevefenton.co.uk',
 	subfolder: '',
 	useTrailingUrlSlash: true,
+	captureStatistics: false,
 	feedUrl: '/blog/feed.xml',
 	title: 'Steve Fenton',
 	description: 'My website, tech blog, and other information.',
