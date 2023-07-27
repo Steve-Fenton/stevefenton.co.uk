@@ -32,6 +32,8 @@
     
     --fore-head: #efefef;
     --aft-head: #225;
+    --aft-head-g1: #111144;
+    --aft-head-g2: #333366;
     --fore-link-head: #efefef;
 
     --heading: #225;
@@ -96,6 +98,9 @@
         
         --fore-head: #CCC;
         --aft-head: #224;
+        --aft-head-g1: #111144;
+        --aft-head-g2: #333366;
+        --fore-link-head: #efefef;
 
         --heading: #DDF;
 

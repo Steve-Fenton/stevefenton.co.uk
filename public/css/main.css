@@ -775,6 +775,7 @@ form.site-search button {
 
 .post-list .list-item[data-image='true'] .list-item-image {
     background-color: var(--aft-head);
+    background: linear-gradient(135deg, var(--aft-head-g1) 0%, var(--aft-head-g2) 80%);
     padding: 1.5rem;
 }
 
