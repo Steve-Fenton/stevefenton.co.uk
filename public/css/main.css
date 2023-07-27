@@ -480,8 +480,7 @@ nav.site-nav h2 {
         text-align: left;
     }
 
-    .content-group article > .page-content {
-        width: unset;
+    .content-group {
         max-width: var(--content-width-mobile);
     }
 }
