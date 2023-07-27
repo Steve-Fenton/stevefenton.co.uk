@@ -23,6 +23,8 @@
     --fore: #222;
     --fore-headings: #111;
     --aft: #f5f5f8;
+    --aft-g-1: #e9e9ec;
+    --aft-g-2: #f6f6f9;
     --aft-paper: #fefefe;
     --aft-image: #fefefe;
 
@@ -89,6 +91,8 @@
         --fore: #CCC;
         --fore-headings: #CDE;
         --aft: #333;
+        --aft-g1: #222;
+        --aft-g2: #4F4F4F;
         --aft-paper: #222;
         --aft-image: #DDD;
     

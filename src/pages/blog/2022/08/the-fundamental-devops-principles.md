@@ -85,9 +85,10 @@ The summary is short and sharp…
 
 These white papers can be downloaded for free from Octopus Deploy.
 
-- [The importance of Continuous Delivery](https://octopus.com/whitepapers/lv-the-importance-of-continuous-delivery): In this white paper, I provide a definition of Continuous Delivery and explain why teams should be adopting it with vigor.
-- [How to map your deployment pipeline](https://octopus.com/whitepapers/lv-how-to-map-your-deployment-pipeline): In this white paper, I discuss some practical steps you can take to start creating a deployment pipeline.
-- [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops): In this white paper, I discuss some of the principles and practices of good metric design and share some well-designed ways to measure Continuous Delivery and DevOps.
+- [The importance of Continuous Delivery](https://octopus.com/whitepapers/the-importance-of-continuous-delivery): In this white paper, I provide a definition of Continuous Delivery and explain why teams should be adopting it with vigour.
+- [How to map your deployment pipeline](https://octopus.com/whitepapers/how-to-map-your-deployment-pipeline): In this white paper, I discuss some practical steps you can take to start creating a deployment pipeline.
+- [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/measuring-continuous-delivery-and-devops): In this white paper, I discuss some of the principles and practices of good metric design and share some well-designed ways to measure Continuous Delivery and DevOps.
+- [A modern view of multi-tenancy](https://octopus.com/whitepapers/a-modern-view-of-multi-tenancy): Revisits the concept of multi-tenancy and expands it beyond just software architecture.
 
 ## Further reading
 

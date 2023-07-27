@@ -22,7 +22,7 @@ html {
 
 body {
     background-color: var(--aft);
-    background: var(--aft);
+    background: linear-gradient(135deg, var(--aft-g1) 0%, var(--aft-g2) 80%);
     background-attachment: fixed;
     color: var(--fore);
     font-size: 18px;
@@ -299,6 +299,7 @@ nav.skip-links a:focus {
 .site-header {
     color: var(--fore-head);
     background-color: var(--aft-head);
+    background: linear-gradient(135deg, var(--aft-head-g1) 0%, var(--aft-head-g2) 80%);
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
@@ -358,17 +359,7 @@ nav.site-nav.sticky {
 
 nav.site-nav h2 {
     margin-top: 0.1em;
-    display: none;
-}
-
-@media (max-width: 860px) {
-  nav.site-nav h2 {
-      display: block;
-  }
-
-  nav.site-nav {
-      grid-row: 2;
-  }
+    display: block;
 }
 
 .site-nav {
@@ -440,16 +431,22 @@ nav.site-nav h2 {
 /* Main content group */
 
 .content-group {
-    margin-inline: 2rem;
-    grid-template-columns: var(--navigation-width) minmax(300px, 800px) var(--navigation-width);
+    margin-inline: auto;
     display: grid; 
-    grid-template-rows: auto; 
     gap: var(--grid-gap-main);
-    max-width: 100vw;
+    max-width: 800px;
     justify-content: center;
-    grid-template-areas:
-      "menu content toc";
     padding-top: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+      "toc"
+      "content"
+      "menu";
+}
+
+.content-group > nav {
+    padding: 1rem;
 }
 
 .content-group header {
@@ -477,29 +474,7 @@ nav.site-nav h2 {
     margin-top: 0;
 }
 
-@media (max-width: 1468px) {
-    .content-group {
-        grid-template-columns: var(--navigation-width) minmax(300px, 800px);
-        grid-template-rows: auto; 
-        grid-template-areas:
-          "menu content";
-    }
-}
-
 @media (max-width: 860px) {
-    .content-group {
-        margin-inline: 1rem;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-          "toc"
-          "content"
-          "menu";
-    }
-
-    .content-group > nav {
-        padding: 1rem;
-    }
 
     .content-group header {
         text-align: left;
@@ -567,6 +542,7 @@ nav.site-nav h2 {
     width: 100%;
     color: var(--fore-head);
     background-color: var(--aft-head);
+    background: linear-gradient(135deg, var(--aft-head-g1) 0%, var(--aft-head-g2) 80%);
     margin-top: 4rem;
 }
 
@@ -626,29 +602,34 @@ form.site-search button {
     display: none;
 }
 
-.site-search-results {
+.page-content .site-search-results {
     font-size: 1.3rem;
-    margin-inline-start: 2rem;
+    margin: var(--paragraph-margin) 0 var(--paragraph-margin) 2em;
 }
 
-.site-search-results a {
+.page-content .site-search-results a {
     display: block;
     padding: 0.2em;
 }
 
-.site-search-results > li > a {
+.page-content .site-search-results > li > a {
     font-size: 1.5rem;
 }
 
-.site-search-results > li {
+.page-content .site-search-results > li {
     margin-bottom: 1rem;
 }
 
-.site-search-results > li > ul {
+.page-content .site-search-results > li > ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     margin: 0;
+}
+
+.result-headings {
+    font-size: 1rem;
+    padding: 0.5em 0 0 0;
 }
 
 .result-headings li {
@@ -689,11 +670,6 @@ form.site-search button {
 
 .site-search-results > li > ul > li > a {
     font-size: 0.9rem;
-}
-
-.site-search-results .result-headings {
-    font-size: 1rem;
-    padding: 0.5em 0 1em;
 }
 
 .site-search-results .result-text {
@@ -775,7 +751,6 @@ form.site-search button {
 
 .post-list .list-item[data-image='true'] .list-item-image {
     background-color: var(--aft-head);
-    background: linear-gradient(135deg, var(--aft-head-g1) 0%, var(--aft-head-g2) 80%);
     padding: 1.5rem;
 }
 
