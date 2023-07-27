@@ -41,6 +41,14 @@ export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
 			order: 1,
 			children: [],
 			rel: 'me',
+		},{
+			title: '📚 The New Stack',
+			url: 'https://thenewstack.io/author/steve-fenton/',
+			ariaCurrent: false,
+			isOpen: false,
+			order: 1,
+			children: [],
+			rel: 'me',
 		}]
 }];
 
