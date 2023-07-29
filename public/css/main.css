@@ -31,13 +31,6 @@ body {
     font-family: var(--content-font);
 }
 
-@media (max-width: 680px) {
-    /* Special Case - We let it be two-column until later */
-    body {
-        background: linear-gradient(0deg, var(--aft-block) 0%, var(--aft) 100%);
-    }
-}
-
 a, summary {
     color: var(--fore-link);
     text-decoration: underline;
@@ -431,13 +424,12 @@ nav.site-nav h2 {
 /* Main content group */
 
 .content-group {
-    margin-inline: auto;
+    margin-inline: 1rem;
     display: grid; 
     gap: var(--grid-gap-main);
-    max-width: 800px;
     justify-content: center;
     padding-top: 0;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 800px);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
       "toc"
@@ -1043,6 +1035,8 @@ pre.astro-code code {
 
 .bookmark-link::before {
     content: '🔗 ';
+    position: relative;
+    top: 0.2em;
 }
 
 .bookmark-link:hover,

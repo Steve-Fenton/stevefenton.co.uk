@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
+    "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "dev14": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
