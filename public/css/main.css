@@ -428,6 +428,7 @@ nav.site-nav h2 {
     display: grid; 
     gap: var(--grid-gap-main);
     justify-content: center;
+    max-width: calc(100vw - 2rem);
     padding-top: 0;
     grid-template-columns: minmax(0, 800px);
     grid-template-rows: auto auto auto;
@@ -467,13 +468,8 @@ nav.site-nav h2 {
 }
 
 @media (max-width: 860px) {
-
     .content-group header {
         text-align: left;
-    }
-
-    .content-group {
-        max-width: var(--content-width-mobile);
     }
 }
 
