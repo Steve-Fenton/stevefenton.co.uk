@@ -549,11 +549,11 @@ nav.site-nav h2 {
 .overlay {
     position: fixed;
     top: 0;
-    width: calc(100% - 3em);
+    width: calc(100% - 2em);
     height: calc(100% - 7rem);
     max-height: 100vh;
     background-color: var(--aft);
-    padding : 5rem 2em 2rem 1em;
+    padding : 5rem 1em 2rem 1em;
     overflow-y: auto;
     z-index: 1;
 }
