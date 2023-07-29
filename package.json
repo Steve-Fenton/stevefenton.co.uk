@@ -16,7 +16,7 @@
     "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.108"
+    "astro-accelerator": "^0.0.109"
   },
   "devDependencies": {
     "@playwright/test": "^1.36.1"

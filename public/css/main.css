@@ -233,6 +233,7 @@ tbody tr:nth-child(odd) {
 }
 
 /* Skip Links */
+
 nav.skip-links {
     position: absolute;
 }
@@ -295,15 +296,21 @@ nav.skip-links a:focus {
     background: linear-gradient(135deg, var(--aft-head-g1) 0%, var(--aft-head-g2) 80%);
     text-align: center;
     font-size: 2rem;
-    padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
+    display: grid;
+    grid-template-columns: 40px minmax(0, calc(720px - 2em)) 40px;
+    gap: 1em;
+    justify-content: center;
 }
 
 .site-header a {
     color: var(--link-head);
     text-decoration: none;
+    align-self: center;
+    height: 40px;
+    padding: 0.4rem 0;
 }
 
 .site-header a:hover,
@@ -314,25 +321,12 @@ nav.skip-links a:focus {
 
 .site-header .site-title {
     letter-spacing: -0.03em;
-    margin: 0 30px;
-    display: block;
     font-family: var(--heading-font);
-    line-height: 1;
-}
-
-.site-header .navigation-icon {
-    top: 10px;
-    left: 10px;
-}
-
-.site-header .search-icon {
-    top: 10px;
-    right: 10px;
+    line-height: 1.3;
 }
 
 .site-header .navigation-icon,
 .site-header .search-icon {
-    position: fixed;
     stroke: var(--link-head);
 }
 
@@ -555,11 +549,11 @@ nav.site-nav h2 {
 .overlay {
     position: fixed;
     top: 0;
-    width: calc(100% - 2em);
+    width: calc(100% - 3em);
     height: calc(100% - 7rem);
     max-height: 100vh;
     background-color: var(--aft);
-    padding : 5rem 1em 2rem 1em;
+    padding : 5rem 2em 2rem 1em;
     overflow-y: auto;
     z-index: 1;
 }
