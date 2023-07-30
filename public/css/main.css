@@ -138,6 +138,24 @@ h4, h5, h6 {
     font-size: 1.7em;
 }
 
+@media (max-width: 860px) {
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h4, h5, h6 {
+        font-size: 1.3em;
+    }
+}
+
 hr {
     border: 0.5px dashed var(--fore);
     opacity: 0.5;
