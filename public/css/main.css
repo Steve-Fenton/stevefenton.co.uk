@@ -353,8 +353,13 @@ nav.site-nav h2 {
     font-size: 0.9rem;
 }
 
+.site-nav ul {
+    border-top: 1px solid var(--fore-link);
+}
+
 .site-nav li {
     list-style: none;
+    border-bottom: 1px solid var(--fore-link);
 }
 
 .site-nav a {
@@ -363,6 +368,7 @@ nav.site-nav h2 {
     display: inline-block;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    padding: 1rem;
 }
 
 .site-nav li.has-children summary span {
@@ -371,6 +377,7 @@ nav.site-nav h2 {
     display: inline-block;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    padding: 1rem;
 }
 
 .site-nav li.has-children ul a {
@@ -396,18 +403,6 @@ nav.site-nav h2 {
     font-size: 1.4em;
 }
 
-.overlay-menu .site-nav ul {
-    border-top: 1px solid var(--fore-link);
-}
-
-.overlay-menu .site-nav li {
-    border-bottom: 1px solid var(--fore-link);
-}
-
-.overlay-menu .site-nav a,
-.overlay-menu .site-nav li.has-children summary span {
-    padding: 1rem;
-}
 
 @media (max-width: 860px) {
     .overlay-menu .site-nav {
