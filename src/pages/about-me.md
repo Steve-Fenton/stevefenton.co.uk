@@ -18,9 +18,10 @@ You can read [what other people say about Steve](/about-me/press/), and look thr
 
 You might also like to visit his friends:
 
-- [Martin Milsom](https://martinmilsom.co.uk/) – occasional posts on development topics
-- [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – posts on C#, Azure, SQL, and more
-- [Dave Beaumont](https://www.dave-beaumont.co.uk/) – posts on JavaScript frameworks, Kentico, C#, TypeScript, and more
+- [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
+- [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
+- [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
+- [Martin Milsom](https://martinmilsom.co.uk/) – development topics
 
 - - - - - -
 
