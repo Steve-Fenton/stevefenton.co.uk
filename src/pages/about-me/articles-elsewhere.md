@@ -71,3 +71,8 @@ I have three white papers on DevOps and Continuous Delivery:
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops) \
   This paper provides guidance on using metrics and frameworks for good ways to measure software delivery.
 
+And one on multi-tenancy:
+
+- [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy)
+  This paper challenges the traditional narrow view of multi-tenancy as an application architecture.
+
