@@ -21,6 +21,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
+- [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 
 ## Platform Engineering
 
