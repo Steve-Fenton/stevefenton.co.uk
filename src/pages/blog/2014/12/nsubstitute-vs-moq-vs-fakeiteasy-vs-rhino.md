@@ -15,7 +15,7 @@ tags:
 
 The long and short of this article is that I tried out a whole load of mocking frameworks and decided I liked NSubstitute the best. This is currently a reasonably simple decision, because on the whole, Moq, FakeItEasy, Rhino, JustMock and many others besides are all essentially syntactical best friends.
 
-:::div{.hint}
+:::div{.note}
 
 As of v4.20, Moq has [added a package called SponsorLink that communicates with a remote server](https://github.com/moq/moq/issues/1372). This has caused developers to remove Moq from [Testable HTTP client](https://github.com/testablehttpclient/TestableHttpClient/issues/232), [Brighter Command](https://github.com/BrighterCommand/Brighter/issues/2773), [Avalonia](https://github.com/AvaloniaUI/Avalonia/issues/12486) and more. This is not just for direct concerns about the remote calls, but also the related concerns about project governance that allowed the change to be introduced.
 
