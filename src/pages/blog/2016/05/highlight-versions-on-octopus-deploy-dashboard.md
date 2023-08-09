@@ -85,6 +85,6 @@ window.clearInterval(window.octodashInterval);
 window.octodashInterval= window.setInterval(colouring, 10000);
 ```
 
-This script has been updated for the latest version of Octopus (July 2020).
+This script has been updated for the latest version of Octopus (v2023.3).
 
 You can test the scriptlet on the [Octopus Demo](https://demo.octopusdeploy.com/app#/).
