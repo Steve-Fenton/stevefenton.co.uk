@@ -2,6 +2,7 @@
 title: 'Highlight versions on the Octopus Deploy dashboard'
 navMenu: false
 pubDate: 2016-05-18T18:03:44+01:00
+modDate: 2023-08-09
 authors:
     - steve-fenton
 bannerImage:
@@ -47,7 +48,7 @@ const colouring = function () {
     var nextColorIndex = 0;
     var versions = [];
 
-    var elems = document.querySelectorAll('[class^=style_version__');
+    var elems = document.querySelectorAll('span[class^="style-module_version__"]');
     console.log(`Found ${elems.length} items`);
 
     for (var i = 0; i < elems.length; i++) {
