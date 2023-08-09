@@ -2,6 +2,7 @@
 title: 'NSubstitute vs Moq vs FakeItEasy vs Rhino'
 navMenu: false
 pubDate: 2014-12-20T19:35:36+00:00
+modDate: 2023-08-09
 authors:
     - steve-fenton
 categories:
@@ -13,6 +14,12 @@ tags:
 ---
 
 The long and short of this article is that I tried out a whole load of mocking frameworks and decided I liked NSubstitute the best. This is currently a reasonably simple decision, because on the whole, Moq, FakeItEasy, Rhino, JustMock and many others besides are all essentially syntactical best friends.
+
+:::div{.hint}
+
+As of v4.20, Moq has [added a package called SponsorLink that communicates with a remote server](https://github.com/moq/moq/issues/1372). This has caused developers to remove Moq from [Testable HTTP client](https://github.com/testablehttpclient/TestableHttpClient/issues/232), [Brighter Command](https://github.com/BrighterCommand/Brighter/issues/2773), [Avalonia](https://github.com/AvaloniaUI/Avalonia/issues/12486) and more. This is not just for direct concerns about the remote calls, but also the related concerns about project governance that allowed the change to be introduced.
+
+:::
 
 There may be some minor differences between “A.Fake<T>”, “MockRepository.GenerateStub<T>”, “Mock.Create<T>” and “new Mock<T>” but when you consider that this line of code sums them all up in one hit – you can see they are all in the same club.
 
