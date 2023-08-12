@@ -53,6 +53,7 @@ export const OPEN_GRAPH = {
 };
 
 export const HEADER_SCRIPTS = `
+<meta name="copyright" content="Steve Fenton" />
 <link rel="preload" href="/css/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/css/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
