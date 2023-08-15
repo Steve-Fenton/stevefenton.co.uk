@@ -27,7 +27,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 > reject authority \
 > say what’s on your mind \
 > make a lot of noise \
-> - Steve Albini
+> <cite>Steve Albini</cite>
 
 ## Writing reminder
 
