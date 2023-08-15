@@ -26,7 +26,8 @@ This is my personal affirmation page, which gives me daily inspiration.
 > don’t sign to major labels \
 > reject authority \
 > say what’s on your mind \
-> make a lot of noise \
+> make a lot of noise
+> 
 > <cite>Steve Albini</cite>
 
 ## Writing reminder
