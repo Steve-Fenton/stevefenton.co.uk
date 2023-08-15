@@ -23,10 +23,10 @@ This is my personal affirmation page, which gives me daily inspiration.
 :img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 
-> don’t sign to major labels
-> reject authority
-> say what’s on your mind
-> make a lot of noise
+> don’t sign to major labels \
+> reject authority \
+> say what’s on your mind \
+> make a lot of noise \
 > - Steve Albini
 
 ## Writing reminder
