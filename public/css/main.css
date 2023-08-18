@@ -82,8 +82,8 @@ blockquote::after {
     top: 3.4rem;
 }
 
-blockquote > *:first-child {
-    text-indent: 2em;
+blockquote > * {
+    margin-inline-start: 2em;
 }
 
 blockquote cite {
