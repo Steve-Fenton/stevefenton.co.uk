@@ -82,7 +82,8 @@ blockquote::after {
     top: 3.4rem;
 }
 
-blockquote > * {
+blockquote > *,
+blockquote > p {
     margin-inline-start: 2em;
 }
 
