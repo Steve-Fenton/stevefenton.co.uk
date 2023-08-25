@@ -62,7 +62,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 ### White papers
 
-I have three white papers on DevOps and Continuous Delivery:
+#### DevOps and Continuous Delivery:
 
 - [The importance of Continuous Delivery](https://octopus.com/whitepapers/lv-the-importance-of-continuous-delivery) \
   This paper outlines Continuous Delivery and draws on research to highlight the benefits.
@@ -71,8 +71,13 @@ I have three white papers on DevOps and Continuous Delivery:
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops) \
   This paper provides guidance on using metrics and frameworks for good ways to measure software delivery.
 
-And one on multi-tenancy:
+#### Multi-tenancy:
 
 - [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy)
   This paper challenges the traditional narrow view of multi-tenancy as an application architecture.
+
+#### Deployments
+
+- [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023)
+  Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
 
