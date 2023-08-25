@@ -15,7 +15,7 @@ August 2023
 
 John Bristowe and I present a new perspective on multi-tenancy that looks beyond software.
 
-[Watch "A modern view of multi-tenancy](https://www.youtube.com/watch?v=GB6IYvCf_C0)
+[Watch "A modern view of multi-tenancy"](https://www.youtube.com/watch?v=GB6IYvCf_C0)
 
 ## Octopus - The State of Continuous Delivery Report
 
