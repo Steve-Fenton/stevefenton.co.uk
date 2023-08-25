@@ -9,6 +9,14 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## Octopus - A modern view of multi-tenancy
+
+August 2023
+
+John Bristowe and I present a new perspective on multi-tenancy that looks beyond software.
+
+[Watch "A modern view of multi-tenancy](https://www.youtube.com/watch?v=GB6IYvCf_C0)
+
 ## Octopus - The State of Continuous Delivery Report
 
 May 2023
