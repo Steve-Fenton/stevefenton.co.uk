@@ -36,6 +36,7 @@ export const SITE = {
 		figures: ['enlarge'],
 		youTubeLinks: ['embed'],
 		headers: ['link'],
+		search: ['dialog'],
 	},
 	images: {
 		contentSize: '(max-width: 860px) 100vw, 620px',
