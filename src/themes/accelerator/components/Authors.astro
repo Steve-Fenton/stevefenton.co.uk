@@ -5,6 +5,10 @@ import { SITE } from '@config';
 import { Translations, Lang } from '@util/Languages';
 import { getImageInfo } from '@util/custom-markdown.mjs';
 
+const accelerator = new Accelerator(SITE);
+const stats = new accelerator.statistics('accelerator/components/Authors.astro');
+stats.start();
+
 // Properties
 type Props = {
   lang: string;
@@ -16,10 +20,6 @@ const { lang, frontmatter } = Astro.props satisfies Props;
 const _ = Lang(lang);
 
 // Logic
-const accelerator = new Accelerator(SITE);
-const stats = new accelerator.statistics('accelerator/components/Authors.astro');
-stats.start();
-
 const authorList = accelerator.authors.forPost(frontmatter);
 
 // Get image info
@@ -54,7 +54,7 @@ stats.stop();
       </time>
       {frontmatter.modDate &&
       <br /><time datetime={ frontmatter.modDate.toString() } itemprop="dateModified">
-        { _(Translations.post.last_modified) } { accelerator.dateFormatter.formatDate(frontmatter.modDate, lang) }
+        { _(Translations.post.last_modified) + ' ' + accelerator.dateFormatter.formatDate(frontmatter.modDate, lang) }
       </time>
       }{authorList.mainAuthor &&
         <p>{ authorList.mainAuthor.frontmatter.description }</p>

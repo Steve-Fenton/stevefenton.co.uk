@@ -16,6 +16,6 @@
     "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.0.112"
+    "astro-accelerator": "^0.3.0"
   }
 }
