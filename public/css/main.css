@@ -698,7 +698,7 @@ form.site-search #site-search-button {
     padding: 2rem 3rem;
     border-radius: var(--block-radius);
     box-shadow: var(--box-shadow);
-    calc(70vh - 4em);
+    height: calc(70vh - 4em);
     width: calc(80vw - 6em);
     max-width: 860px;
 }
