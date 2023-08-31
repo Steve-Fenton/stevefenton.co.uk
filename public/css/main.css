@@ -694,11 +694,11 @@ form.site-search #site-search-button {
 /* Search dialog */
 
 .search-dialog {
-    margin: auto;
+    margin: 5rem auto 0 auto;
     padding: 2rem 3rem;
     border-radius: var(--block-radius);
     box-shadow: var(--box-shadow);
-    height: calc(90vh - 4em);
+    calc(70vh - 4em);
     width: calc(80vw - 6em);
     max-width: 860px;
 }
@@ -715,11 +715,12 @@ form.site-search #site-search-button {
     background: none;
     cursor: pointer;
     font-size: 2rem;
-    stroke: var(--link-head);
+    stroke: var(--icon-block);
 }
 
 @media (max-width: 860px) {
     .search-dialog {
+        margin: 0;
         /* Fallback */
         height: calc(100vh - 4rem);
         width: calc(100vw - 6rem);
