@@ -119,6 +119,50 @@ Open `astro.config.mjs` and add the following:
     },
 ```
 
+### Future breaking changes
+
+I wrote a couple of utilties for returning JSON or XML responses. The basic pattern for these in version 2 was:
+
+```typescript
+async function getData() {
+    // Code that gets the data
+
+    return {
+        body: JSON.stringify(items)
+    }
+}
+
+export const get = getData;
+```
+
+There are two changes needed for this.
+
+1. Lower case method names are being deprecated, so `get` needs to be `GET` (nice and easy)
+2. Simple response objects are being replaced with proper `Reponse` objects
+
+Here's the example updated for both.
+
+```typescript
+async function getData() {
+    // Code that gets the data
+
+    return new Response(JSON.stringify(items), {
+        status: 200,
+        headers: {
+        'Content-Type': "application/json"
+        }
+    });
+}
+
+export const GET = getData;
+```
+
+This needed to be fixed in utilties for:
+
+- search.json.ts - A json file with search data, to power the site search
+- sitemap.xml.ts - A sitemap for search engines
+- feed.xml.ts - An Atom XML feed
+
 ### Running Astro
 
 Running Astro works like before, except `npm run` is replaced with `pnpm`, for example:
