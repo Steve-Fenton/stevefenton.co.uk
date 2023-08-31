@@ -3,17 +3,21 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@8.7.0",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
   "scripts": {
     "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
     "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
-    "dev14": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
     "test": "astro build && npm playwright install --with-deps && npx playwright test",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "theme": "npm install --save astro-accelerator@latest && node ./accelerator.js"
+    "theme": "pnpm update astro-accelerator -L && node ./accelerator.js"
   },
   "dependencies": {
     "astro-accelerator": "^0.3.0"
