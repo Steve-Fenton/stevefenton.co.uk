@@ -1,53 +1,35 @@
-import type { NavPage } from '@util/NavigationTypes.astro';
+import type { MenuItem } from '@util/NavigationTypes.astro';
 
-export const menu: (NavPage | 'categories' | 'tags' | 'toptags')[] = [
+export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 	'categories',
 	'toptags',
 	{
 		title: 'Quick Links',
-		url: '',
-		ariaCurrent: false,
-		isOpen: false,
 		order: 1,
 		children: [{
 			title: '🐘 Mastodon',
 			url: 'https://mastodon.social/@stevefenton',
-			ariaCurrent: false,
-			isOpen: false,
 			order: 1,
-			children: [],
 			rel: 'me',
 		},{
 			title: '🐈 GitHub',
 			url: 'https://github.com/Steve-Fenton',
-			ariaCurrent: false,
-			isOpen: false,
 			order: 1,
-			children: [],
 			rel: 'me',
 		},{
 			title: '🏢 LinkedIn',
 			url: 'https://www.linkedin.com/in/stevefenton/',
-			ariaCurrent: false,
-			isOpen: false,
 			order: 1,
-			children: [],
 			rel: 'me',
 		},{
 			title: '♾️ DevOps engineer\'s handbook',
 			url: 'https://www.octopus.com/devops/authors/steve-fenton/1/',
-			ariaCurrent: false,
-			isOpen: false,
 			order: 1,
-			children: [],
 			rel: 'me',
 		},{
 			title: '📚 The New Stack',
 			url: 'https://thenewstack.io/author/steve-fenton/',
-			ariaCurrent: false,
-			isOpen: false,
 			order: 1,
-			children: [],
 			rel: 'me',
 		}]
 }];

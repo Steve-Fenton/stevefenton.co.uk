@@ -1,6 +1,6 @@
-import type { NavPage } from '@util/NavigationTypes.astro';
+import type { MenuItem } from '@util/NavigationTypes.astro';
 
-export const menu: (NavPage | 'auto')[] = [
+export const menu: (MenuItem | 'auto')[] = [
 	'auto'
 ];
 
@@ -10,7 +10,7 @@ export const menu: (NavPage | 'auto')[] = [
 * Use the string 'auto' in the menu to automatically generate the navigation,
 * or specify items individually to have full control. The simplest example is:
 
-export const menu: (NavPage | 'auto')[] = [
+export const menu: (MenuItem | 'auto')[] = [
 	'auto'
 ];
 
@@ -23,7 +23,7 @@ export const menu: (NavPage | 'auto')[] = [
 * of automatic and manual entries is "merged", so you don't need to place 'auto'
 * anywhere specific in this list. Set the order fields instead.
 
-export const menu: (NavPage | 'auto')[] = [
+export const menu: (MenuItem | 'auto')[] = [
 	'auto',
 	{
 		title: 'Section',
