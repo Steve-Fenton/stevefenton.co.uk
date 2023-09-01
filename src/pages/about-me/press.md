@@ -9,6 +9,14 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## Techzine - DevOps, DevEx, and Continuous Delivery
+
+September 2023
+
+An interview article, with Adrian Bridgwater on Techzine about the positive influence your deployment pipeline can bring to developer experience and organizational culture.
+
+[Read "A positive flush down the developer pipeline"](https://www.techzine.eu/blogs/collaboration/110831/octopus-deploy-a-positive-flush-down-the-developer-pipeline/)
+
 ## Octopus - A modern view of multi-tenancy
 
 August 2023
