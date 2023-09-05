@@ -29,8 +29,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
-- [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
-- [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
+- [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
 
 ## Modern Lean/Agile
 
@@ -41,6 +40,8 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
 - [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
 - [How to measure MTTR](https://octopus.com/blog/how-to-measure-mean-time-to-resolve)
+- [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
+- [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
 
 ## Software delivery history
 
@@ -60,6 +61,11 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [Mapping manual deployments](https://octopus.com/blog/mapping-manual-deployments) \
   Use Octopus to document and track manual deployments and use this as a jumping-off point to automate steps.
 
+#### Multi-tenancy:
+
+- [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/)
+  This article describes how changes since multi-tenancy emerged mean a new approach is needed.
+
 ### White papers
 
 #### DevOps and Continuous Delivery:
@@ -74,7 +80,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 #### Multi-tenancy:
 
 - [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy)
-  This paper challenges the traditional narrow view of multi-tenancy as an application architecture.
+  This white paper challenges the traditional narrow view of multi-tenancy as an application architecture.
 
 #### Deployments
 
