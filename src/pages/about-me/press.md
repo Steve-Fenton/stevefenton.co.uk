@@ -25,6 +25,22 @@ John Bristowe and I present a new perspective on multi-tenancy that looks beyond
 
 [Watch "A modern view of multi-tenancy"](https://www.youtube.com/watch?v=GB6IYvCf_C0)
 
+## Octopus - Community Town Hall July 2023
+
+July 2023
+
+I join John Bristow, Bob Walker, Ian Khor, and James Chatmas for the community town hall event.
+
+[Watch the Octopus July 2023 Community Town Hall](https://www.youtube.com/watch?v=3H2PI_U_HUQ)
+
+## Techstrong TV - The State of Continuous Delivery Report
+
+June 2023
+
+A panel discussion on the State of Continuous Delivery Report with Alan Shimel, Melissa McKay, Andrew Fong, Liam Dodd, and me.
+
+[Watch The State of Continuous Delivery Report 2023 – The CD Pipeline EP 7](https://techstrong.tv/videos/cd-pipeline/the-state-of-continuous-delivery-report-2023-the-cd-pipeline-ep-7)
+
 ## Octopus - The State of Continuous Delivery Report
 
 May 2023
