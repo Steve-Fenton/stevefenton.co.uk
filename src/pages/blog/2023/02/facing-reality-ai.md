@@ -10,7 +10,7 @@ bannerImage:
 authors:
     - steve-fenton
 categories:
-    - Opinions
+    - Opinion
 tags:
     - AI
 ---
