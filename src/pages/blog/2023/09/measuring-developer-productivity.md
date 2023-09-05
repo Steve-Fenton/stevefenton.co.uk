@@ -17,7 +17,17 @@ tags:
     - Productivity
 ---
 
-[McKinsey](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity) published an article on measuring developer productivity, and it gets enough things right that we should be concerned about the wrong bits.
+[McKinsey](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity) published an article on measuring developer productivity, and it gets enough things right that we should be concerned about parts that are likely to lead us into trouble.
+
+This article is arranged as follows:
+
+1. The key things I think McKinsey got right
+2. The crucial thing they got wrong
+3. A discussion on productivity in the context of throughput and responsiveness
+4. The thing I found interesting about their approach
+5. What you should _actually_ do instead
+
+The concrete suggestions all come in those last two sections, so skip down the page if you want to get straight to the answer without all the discussion. You should know, though, that some people enjoyed reading this.
 
 I've been writing about [DevOps](https://www.stevefenton.co.uk/tag/devops/1/) and [metrics](https://octopus.com/devops/metrics/) for some time both here and [elsewhere](https://www.stevefenton.co.uk/about-me/articles-elsewhere/). I'm also a DORA Community Guide, which I mention as I get to speak to some super-smart folks at DORA and in the DevOps community. I've also worked for companies of many different sizes (and cultures) in hands-on development, architecture, management, and director roles. I haven't worked everywhere, but I've seen a lot. I haven't read all published research, but I've read a lot.
 
