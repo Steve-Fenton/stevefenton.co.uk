@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   astro-accelerator:
-    specifier: ^0.3.6
-    version: 0.3.6
+    specifier: ^0.3.7
+    version: 0.3.7
 
 packages:
 
@@ -987,8 +987,8 @@ packages:
     resolution: {integrity: sha512-qN1EiESBi4GXBO5hvNINtNaOBbPMIYrFUhq7ouFXfCxJ01+WYy0FyST3p+JclB3AxhaFTCs1zzLuTA4IFKlo/Q==}
     dev: false
 
-  /astro-accelerator@0.3.6:
-    resolution: {integrity: sha512-HdgU5oYIzRR7IG3FjokgLDXsfy5gXC6BNopFGGLqh7J63RFCwqSY7r2WONEjAHk00SXpmQ7VcG5g/m3IQlbNFA==}
+  /astro-accelerator@0.3.7:
+    resolution: {integrity: sha512-uguTgcKgtyWzsGaUHf0kJU7CE3O/RqrScrxpVyMgTmG5CvWtvSNXPb3Et1tTFzS5VvZ8F7Hcvk21fQ8SOg+tSQ==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       '@astrojs/mdx': 1.0.0(astro@3.0.8)
