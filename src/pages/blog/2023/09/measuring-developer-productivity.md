@@ -17,80 +17,78 @@ tags:
     - Productivity
 ---
 
-[McKinsey](src/pages/blog/2023/08/astro-3-and-pnpm.md) published an article on measuring developer productivity and it gets enough right that we should be concerned about the wrong bits. 
+[McKinsey](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity) published an article on measuring developer productivity and it gets enough things right that we should be concerned about the wrong bits.
 
-I've been writing about DevOps, Continuous Delivery, and metrics for some time. I'm also a DORA Community Guide, which I mention as I get to speak to some super-smart folks at DORA and in the DevOps community. I've also worked for companies of many different sizes in development, management, and director roles. I haven't worked everywhere, but I've seen a lot. I haven't read all the research ever published, but I've read a lot.
+I've been writing about [DevOps](https://www.stevefenton.co.uk/tag/devops/1/) and [metrics](https://octopus.com/devops/metrics/) for some time both here and [elsewhere](https://www.stevefenton.co.uk/about-me/articles-elsewhere/). I'm also a DORA Community Guide, which I mention as I get to speak to some super-smart folks at DORA and in the DevOps community. I've also worked for companies of many different sizes (and cultures) in hands-on development, architecture, management, and director roles. I haven't worked everywhere, but I've seen a lot. I haven't read all the research ever published, but I've read a lot.
 
-There are some famous responses already to this article, but I'm hoping to bring a down-to-earth perspective.
+The McKinsey article already has some famous responses ([part 1](https://tidyfirst.substack.com/p/measuring-developer-productivity) and [part 2](https://tidyfirst.substack.com/p/measuring-developer-productivity-440)), but I'm hoping to bring a different perspective.
 
 ## What they get right
 
-The premise of this article is that "functions such as sales or customer operations" have power-point numbers they can present to say whether they are doing a great job. There is an appetite from the C-suite to have a similar pow-pow-pow fingerbanging set of numbers from development, because the updates are usually narrative-based and so-yawn.
+The premise of the McKinsey article is that "functions such as sales or customer operations" have power-point numbers they can present to say whether they are doing a great job. There is an appetite from the C-suite to have a similar *pow-pow-pow* fingerbanging set of numbers for software development. Existing development updates are usually narrative-based and _so yawn_.
 
-On top of the lack of headline numbers to say how good (or bad) the software engineers are, the software is now superbly important to the success of the organization. The C-suite depend on this software, which they are not "knowledgeable enough to assess" (see below), and they are worried about it.
+On top of the lack of headline numbers to say how good (or bad) the software engineers are, software is now superbly important to an organization's success. The C-suite depend on this software, which they are not "knowledgeable enough to assess" software delivery (not my words), and they are worried about it.
 
-Yes #1: There's no standard headline number accepted by the industry that tells you how software engineering is going.
+> ...only trained engineers are knowledgeable enough to assess the performance of their peers.
 
-Yes #2: Software is critical to many, or even most, organizations.
+So, we can agree that:
 
-Yes #3: The C-suite are anxious about software delivery.
+**Yes #1**: There's no standard headline number accepted by the industry to explain the performance of software engineering.
 
-If you are working in a large organization, or one where the C-suite are disconnected from software delivery, you absolutely need to think about how you are communicating with them.
+**Yes #2**: Software is critical to many, perhaps most, organizations.
+
+**Yes #3**: The C-suite are anxious about software delivery.
+
+If you are working in a large organization, or one where the C-suite is disconnected from software delivery, you absolutely need to think about how you are communicating with them. A skill I had to develop as a software leader was finding appropriate ways to connect the great work the team was doing to the things the C-suite might lose sleep over.
 
 ## What they get wrong
 
-They talk a great deal about measuring at the sysytem, team, and individual level. This is insteresting because individual measurement is a common source of dyfunction that harms an organisation. I've worked in organisations where the sales team was so individually-motivated they would lose deals. If you are competing against other members of your team for an incentivised league table, it becomes hard to do the right thing for the organisation.
+Fundamentally, [recent two-year study at Google](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) suggests a top factor in developer productivity is psychological safety. Some activities that will damage psychological safety include:
 
-In ice hockey, if you only rewarded goals and assists, nobody would be a netminder.
+1. Collecting metrics at the individual level.
+2. Inappropriate comparisons between team level metrics.
 
-The article also places heavy emphasis on the role of management in _optimization_ and in driving improvements. This is madness and teams need to be given more autonomy to optimize their work. As a manager, you should be interested in these activities and coach teams to help them build their continuous improvement muscles - but sitting in an office redesigning how everyone works is the old command and control way. We know this isn't how you achieve the best outcomes.
+I'm assuming you want to measure productivity because you want it to improve. If you damage psychological safety, it's not going to improve. Some of the recommendations in the McKinsey article will harm psychological safety.
 
-The problem with measuring software delivery is that it returns us to the bad-old-days. The biggest problem with zooming into the software engineering activities is that you can achieve very high performance numbers by delivering lots of the wrong things. While you are busy patting yourselves on the back for delivering a thousand features, your competitor took it easy and just delivered the five things that relegate your product to being "the cheap alternative to something great".
+I have some thoughts about the emphasis in the original article on mangement driving optimizations, I think teams should be given the autonomy to do this with leaders taking on more of a coaching role. I don't think command and control software delivery will ever be more productive than modern self-organising methods.
 
-No #1: Measuring individuals in software delivery.
+> Other functions can be measured reasonably well, some even with just a single metric; whereas in software development, the link between inputs and outputs is considerably less clear
 
-No #2: Managers tell the team how to work in an optimal way.
+The quote is a big problem. If you've worked closely with sales teams, contact centre teams, and other business functions you'll find that the common measurement techniques can be awful. Metrics can cause terrible outcomes for these functions and it needs finesse and strong leadership to guide organizations away from dysfunctional measurement systems. Our very own NHS has a key measurement for how long it takes to be treated in A&E, so hospitals have developed policies that in some cases allow admission to a closed ward, thus stopping the clock, improving the metric, and abandoning the patient for hours in a dark hospital wing.
 
-No #3: Technical myopia stops you solving more important problems.
+If you haven't been subjected to healthcare shennanigans, you have almost certainly hit contact centre problems when your call gets a little to close to the target resolution time. "We handled 20% higher call volume this month with an average completion time of three minutes." Oh dear, I think I've been disconnected. I'll have to call them back.
 
-## Why you should be wary
+Additionally, software delivery has an asymmetry to it. There's an element of invention to it - you can register a patent, but only a few are worth the big bucks. When you don't think hard about this subject, you inevitably end up counting things that don't matter. As you congratulate a team for delivering a hundred features, your competitor is popping corks for the five features they delivered that are winning them market share.
 
+No amount of software delivery makes up for poor / lack of product management. Using developer productivity to report into the C-suite seems like the wrong angle entirely. More on this later.
 
-Part of the problem is the assumption that software engineers should be hammering out code all the time, or it's not "real work". A strong software team has some folks who fly at the coding stage, but they depend heavily on other folks who get less keyboard hours. Any system of measurement is going to bias measurable tasks over intangible knowledge work.
+I originally listed a number of "no" items, like I did for the "yes" items. Instead, though, let's respect the prime nope!
 
-For example, as a software engineer I often coded a little less than my colleagues, but I spent a bit more time connecting the work to the needs of users and the business. I might not have reviewed as many pull requests, but I did read the EU regulations to work out how they impacted software we delivered there. I may have contributed fewer lines of code, because I also took charge of the deployment pipeline and a bunch of ops tasks.
+**The prime nope**: You can't improve productivity while harming psychological safety.
 
-Essentially, I'm exactly the kind of team member the techniques in this article are likely to repel because I did the work that was hard to count to help other team members complete work that was easy to count.
+## It's more complex than that
 
-With some business functions, the number-to-outcome relationship is symmetrical. If you land a new customer paying $1,000 a month - that's $12,000 a year coming in for the lifetime of the subscription. Yay. The payback for features is asymmetrical. You'll invest some dollars into creating the feature, but you obviously anticipate returns in multiples of the original invesment.
+Something I've learned in software delivery is that there's all this work that isn't coding that adds a ton of value. Some of it could be brought into a measurement system - the folks writing documentation to help other developers, the person who makes improvements to the deployment pipeline, the people taking care of monitoring. There are also some critical things that you just can't measure. The glue work, networking, and keeping up-to-date with technical, industry, and legal developments that may affect the product.
 
-If your features aren't delivering the expected returns, do you fix it by coding the features twice as fast, or by coming up with features that are more relevant to your potential customers?
+I may have coded less than other folks on my team, but I did _walkie lookie_ to find out what was stopping users being productive. Any individual wins I got by abandoning these walks would be a net loss to the organization. Yes, there are organizations where bureaucratic culture result in one hour of coding and seven hours of procedural manoeuvres. That needs to be fixed. Do you need to hit one-hundred-percent coding? No.
 
-## The properties of good software delivery
+Is productivity even the thing we want from software development? In many cases, I think not. Most organizations place a value on responsiveness. If they discover a problem that's upsetting customers, they value a quick resolution more than they value the efficient completion of whatever feature is currently in-flight.
 
-There is great value in software delivery in the ability to respond quickly to change. It's widely recognised that this requires slack in the system, small batches, short lead times. Things that are encouraged by the [DORA metrics](https://octopus.com/devops/metrics/dora-metrics/). Improving these metrics leads you to improve your responsiveness.
+Responsiveness requires slack in the system. You need to work in small batches and keep short lead times. These things that are encouraged by the [DORA metrics](https://octopus.com/devops/metrics/dora-metrics/), but they don't measure productivity, they measure something more valuable to many organizations.
 
-I used to phrase this question within organisations as "if you came up with your best idea today, a market beating feature idea that will put you ahead of your competition, how long would it be before you started work on it and how long until you gave it to a customer?"
-
-
-
+Responsiveness and throughput have a natural tension. Productivity tends to favour throughput, which isn't always a good thing.
 
 ## What's interesting in their approach
 
-What I found interesting in their approach is that they measured the success of their metric framework by looking at its impact on:
+When everyone was debating [Agile vs Waterfall](https://www.stevefenton.co.uk/blog/2014/01/waterfall-verses-agile-graph/), the CHAOS report provided evidence that Agile beat waterfall at it's own game. The metrics used in the CHAOs report aren't the ones you'd choose to measure Agile software teams, but Agile teams still beat waterfall teams at their own game.
+
+What's interesting in the McKinsey article is that they propose a measurement system, but judge their success based on something else. In particular, they suggest the measurement system can improve:
 
 - Customer-reported production defects
 - Employee experience scores
 - Customer satisfaction ratings
 
-If these are the important outcomes, maybe you start measuring these instead?
-
-
-They claim that "only trained engineers are knowledgeable enough to assess the performance of their peers".
-
-
-
-> Other functions can be measured reasonably well, some even with just a single metric; whereas in software development, the link between inputs and outputs is considerably less clear
+I'm just saying, you might do better with these three metrics than with the McKinsey developer productivity metrics (but please see the links at the end for some better suggestions).
 
 ## What you should actually do
 
