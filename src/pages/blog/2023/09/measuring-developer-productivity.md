@@ -1,8 +1,8 @@
 ---
 title: 'Measuring developer productivity'
 navMenu: false
-pubDate: 2023-08-31
-modDate: 2023-08-31
+pubDate: 2023-09-05
+modDate: 2023-09-05
 keywords: developer,productivity,measurement,metrics
 description: Can you measure software developer productivity and is it the right thing to measure?
 bannerImage:
