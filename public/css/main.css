@@ -1194,6 +1194,69 @@ figure:focus .magnify-icon {
     }
 }
 
+/* Detail tabs */
+
+.tab-list {
+    padding-inline: 10px;
+}
+
+.tab-list button,
+.tab-list button:focus,
+.tab-list button:hover {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    top: 2px;
+    margin: 0;
+    margin-top: 4px;
+    border: 2px solid var(--aft-block);
+    border-radius: var(--block-radius) var(--block-radius) 0 0;
+    background: var(--aft-block);
+    outline: none;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.tab-list button[aria-selected="true"] {
+    margin-top: 0;
+    border-width: 2px;
+    border-top-width: 6px;
+    border-top-color: var(--fore-link);
+    border-inline-color: var(--fore-link);
+    border-bottom-color: var(--aft);
+    background-color: var(--aft);
+}
+
+.tab-list button[aria-selected="false"] {
+    top: 0px;
+}
+
+.tab-list button span.focus {
+    display: inline-block;
+    margin: 2px;
+    padding: 4px 6px;
+    outline: none;
+}
+
+[role="tabpanel"] {
+    position:relative;
+    padding: 1rem;
+    border: 2px solid var(--fore-link);
+    border-radius: var(--block-radius);
+    background: var(--aft);
+    min-height: 10em;
+    overflow: auto;
+}
+
+[role="tabpanel"].is-hidden {
+    display: none;
+}
+
+[role="tabpanel"] p {
+    margin: 0;
+}
+
 /* Animation */
 
 @media (prefers-reduced-motion: no-preference) {
