@@ -108,6 +108,31 @@ Firstly, I don't think you should be following the advice in the McKinsey articl
 
 Instead, clear your head and return to the long-running research. Listen to folks like [Dr. Nicole Forsgren](https://nicolefv.com/), and [DORA](https://dora.dev/). Build a muscle for reading research (including the method) and dive into statistics to understand some of the trip hazards. David Spiegelhalter and Tim Harford have great books on statistics.
 
-I have a free white paper on [measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/measuring-continuous-delivery-and-devops) that explains different types and levels of measurement and how to avoid unintended consequences of a measurement system. It talks about different measurement techniques and provides other ways to find inspiration for improvements, like the statements of Continuous Delivery.
+I have a free white paper on [measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/measuring-continuous-delivery-and-devops) that explains different types and levels of measurement and how to avoid unintended consequences of a measurement system. It talks about different measurement techniques and provides other ways to find *inspiration for improvements*, like the statements of Continuous Delivery.
 
 For the continuous improvement process, teams and their coaches should collect metrics for their own use in generating improvement ideas. They should also be able to change what they measure when the current set stops providing the prompts they need to discover the next area to improve.
+
+## Further reading and watching
+
+Dave Farley explains why the DORA keys are a bit different to other metrics and why this difference is crucial.
+
+> The problem is not one of productivity but rather one of team contribution; and that's not measured by dumb mechanistic Taylorist measures of individual performance.
+>
+> :cite[Dave Farley]
+
+[Watch Dave Farley - Response to the NONSENSE McKinsey article on developer productivity](https://www.youtube.com/watch?v=yuUBZ1pByzM)
+
+This Sleuth TV episode with Nathen Harvey touches on the subject, amongst lots of great content.
+
+[Watch How to make your software team awesome](https://www.youtube.com/watch?v=lfOX0bS8N9M&t=873s)
+
+There's also a famous two-parter from Gergely Orosz and Kent Beck
+
+- [Part one](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity)
+- [Part two](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-part-2)
+
+Martin Fowler also wrote about this (some time ago, rather than in response to McKinsey).
+
+- [Cannot measure productivity](https://martinfowler.com/bliki/CannotMeasureProductivity.html)
+
+
