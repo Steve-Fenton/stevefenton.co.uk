@@ -11,5 +11,5 @@ bannerImage:
     src: /img/authors/steve-fenton.png
     alt: Steve Fenton
 summary: >-
-    Steve Fenton is an Octonaut at [Octopus Deploy](https://octopus.com) and five-time Microsoft MVP for developer technologies. He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/) and writer. You can find out [more about Steve Fenton here](/about-me/).
+    Steve Fenton is an **Octonaut** at [Octopus Deploy](https://www.octopus.com/) and six-time Microsoft MVP for developer technologies. He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist.
 ---
