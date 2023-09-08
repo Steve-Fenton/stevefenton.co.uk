@@ -2,6 +2,7 @@
 title: Facing the reality of AI
 navMenu: false
 pubDate: 2023-02-19
+modDate: 2023-09-08
 keywords: ai,artifical intelligence,maching learning,chatgpt
 description: Facing the reality of the current wave of Chat-GPT hype and large language models.
 bannerImage:
@@ -15,17 +16,21 @@ tags:
     - AI
 ---
 
-I want to explain, first, that I don't want to talk about AI, machine learning, Chat-GPT, and large language models. The nature of tech hype means we sometimes need to add a footnote to history, even if the masses will largely ignore it. I'm not someone who jumps into publishing opinions at the drop of a hat. I have strong views on things like front-end JavaScript frameworks and crypto. These are well-known to my friends, but I don't continually publish these thoughts. The hype around AI and machine learning, though, needs some reason.
+I want to explain, first, that I don't want to talk about AI, machine learning, Chat-GPT, and large language models. The nature of tech hype means we sometimes need to add a footnote to history, even if the masses will largely ignore it. I'm not someone who jumps into publishing opinions at the drop of a hat. I have strong views on things like front-end JavaScript frameworks and crypto. These are well-known to my friends, but I don't continually publish these thoughts. The hype around generative AI, though, needs some reason.
+
+:::div{.note}
+AI. Yes. The term *AI* has lost all meaning as the hasty rebranding of things that weren't AI confuses things as simple as basic algorithms with self-aware dystopian robots. I can't deal with that here, but people have written books on it!
+:::
 
 ## In general, it's automation
 
-Let's quickly talk about automation. Automation comes with responsibility. I call this the [ethics of scale](https://www.stevefenton.co.uk/blog/2020/12/the-ethics-of-scale/). When a human does some task and gets it wrong, work speed often limits the extent of the mistake.
+Let's quickly talk about automation. Automation comes with responsibility. I call this the [ethics of scale](https://www.stevefenton.co.uk/blog/2020/12/the-ethics-of-scale/). When a human does some task and gets it wrong, the extent of the mistake is limited to the speed they can introduce errors.
 
-Imagine you managed a forest and needed to thin out a population of Ash trees to reduce the spread of Ash dieback. Gerald heads out with an axe to begin the work, and you catch up to him at lunchtime.
-
-In a couple of hours, Gerald has brought down several trees and hacked off the larger branches to make them easier to pull through the forest without getting snagged. You find him sitting on a rather neat pile of beech tree logs. Gerald's mistake is bad but limited. Had Gerald used a tree machine connected to a computer program, his mistake could have been a hundred times worse.
+Imagine you managed a forest and needed to thin out a population of Ash trees to reduce the spread of Ash dieback. Gerald heads out with an axe to begin the work, and you catch up to him at lunchtime. In a couple of hours, Gerald has brought down several trees and hacked off the larger branches to make them easier to pull through the forest without getting snagged. You find him sitting on a rather neat pile of beech tree logs. Gerald's mistake is bad but limited. Had Gerald used a tree-felling *machine*, his mistake could have been a hundred times worse.
 
 Automation of any kind opens up the possibility of making high-velocity mistakes. The size and speed of error is often overlooked unless it makes a headline. In the UK, mistakes in the Post Office computer system led to [hundreds of sub-postmasters being wrongfully prosecuted](https://www.theguardian.com/business/2021/may/08/post-office-contacts-hundreds-who-may-have-been-wrongfully-prosecuted). In my opinion, accidentally sending an email to vast numbers of people that might cause anxiety or loss of time is also wrong. It also happens with alarming frequency, as my good friend *{{name}}* will tell you.
+
+You may be thinking: "But some human mistakes are catastriphic". You're right, there are well known disasters caused by human error spurred on by systemic problems. The proverbial repair tag covering the warning light, if you will. Although these were *huge* events, they affected one big thing. Automation may have affected many more big things - it would scale the big disaster even further.
 
 ## The trash heap already exists
 
@@ -85,11 +90,11 @@ The thought of search engines abandoning the organisations of information and be
 
 ## Don't forget the good stuff
 
-I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals.
+I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals. I also love [Visual Studio's *IntelliCode*](https://www.stevefenton.co.uk/blog/2018/05/visual-studio-intellicode/) and similar assistive tools (some of which are based on the same bones as generative AI, which can make the disussion confusing).
 
-Machine-generated content does the opposite, amplifying noise and distortion until all signal is lost.
+Machine-generated content does the opposite of useful forms of AI, amplifying noise and distortion until all signal is lost.
 
-There ought to be a directive that machines and automation should be a net negative cost to individual time and energy.
+There ought to be a directive that **machines and automation should be a net saving for individual time and energy**.
 
 ## Getting philosophical with AI
 
@@ -119,5 +124,7 @@ Writing isn't simply adding words to a page. The process of writing does magical
 Blaise Pascal once wrote, "I have made this longer than usual because I have not had time to make it shorter". Amusingly, John Locke later used a variation of this excuse when he wrote what might we may imagine to be a parody of the explanation:
 
 > I will not deny, but possibly it might be reduced to a narrower Compass than it is; and that some Parts of it might be contracted: The way it has been writ in, by Catches, and many long Intervals of Interruption, being apt to cause some Repetitions. But to confess the Truth, I am now too lazy, or too busy to make it shorter.
+
+We should hold onto the directive that **machines and automation should be a net saving for individual time and energy**. Any AI that fails this test must be detested.
 
 If you have an idea, then write, dear friends. If the creative waters give forth not the fish of inspiration, take instead a swim.
