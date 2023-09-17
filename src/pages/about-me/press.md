@@ -290,3 +290,21 @@ You can read the full article on the [Smashing Magazine website](https://web.arc
 22nd March 2010  
 
 W3 Avenue published an article dedicated to the Two Sided Multi-Selector jQuery Plugin, which you can read in full on the [W3 Avenue website](https://web.archive.org/web/20160813065311/http://www.w3avenue.com/2010/03/22/two-sided-multi-selector/).
+
+## Hampshire Chronicle
+
+25th July 2008
+
+An article from *The Mag Awards* in 2008, the second awards show hosted by the magazine (now [Phonotonal - 2008 Awards](https://www.phonotonal.com/2020/07/retro-the-mag-awards-2008/)).
+
+[Hampshire Chronicle](https://www.hampshirechronicle.co.uk/news/2409332.talented-bands-come-together-for-awards-night/)
+
+## BBC Hampshire and Isle of Wight
+
+Coverage from *The Mag Awards* in 2007, the first awards show hosted by the magazine (now [Phonotonal - 2007 Awards](https://www.phonotonal.com/2007/07/winners-of-the-mag-awards-2007/)).
+
+[BBC](https://www.bbc.co.uk/hampshire/content/articles/2007/06/06/mag_awards_feature.shtml)
+
+## The Mag Awards 2007
+
+[Watch highlights of The Mag Awards 2007](https://www.youtube.com/watch?v=FBbPluSnXdU)
