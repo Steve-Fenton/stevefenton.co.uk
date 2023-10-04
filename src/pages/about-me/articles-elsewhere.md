@@ -13,6 +13,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
+- [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
 - [The new DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
@@ -47,6 +48,8 @@ Here is some content I’ve written elsewhere that you might be interested in.
 
 - [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/)
   This article describes how changes since multi-tenancy emerged mean a new approach is needed.
+- [The cost dynamics of multi-tenancy](https://thenewstack.io/the-cost-dynamics-of-multitenancy/)
+  This talks about how multi-tenancy impacts your SaaS pricing strategy and economics over time.
 
 ## Software delivery history
 
