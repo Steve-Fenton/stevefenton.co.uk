@@ -20,6 +20,11 @@
     "theme": "pnpm update astro-accelerator -L && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.3.10"
+    "astro-accelerator": "^0.3.11"
+  },
+  "pnpm": {
+    "overrides": {
+      "zod@<=3.22.2": ">=3.22.3"
+    }
   }
 }
