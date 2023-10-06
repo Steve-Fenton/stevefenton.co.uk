@@ -14,14 +14,15 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
-- [The new DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
+- [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
+- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
+- [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
+- [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
-- [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
-- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
 - [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 
 ## Platform Engineering
