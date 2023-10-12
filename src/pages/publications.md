@@ -7,6 +7,10 @@ description: Steve Fenton's published and self-published books.
 id: 105
 ---
 
+<div class="simple-grid">
+
+<article>
+
 ## Pro TypeScript
 
 Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler.
@@ -101,3 +105,5 @@ The first edition of Pro TypeScript, which took eight months to write, replaced 
 If you have any questions about my active titles, [please get in touch](/contact/).
 
 </article>
+
+</div>
