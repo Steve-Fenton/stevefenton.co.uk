@@ -15,12 +15,13 @@
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
     "test": "astro build && npm playwright install --with-deps && npx playwright test",
     "build": "astro build",
+    "clean": "rm -rf dist && rm -rf .log",
     "preview": "astro preview",
     "astro": "astro",
     "theme": "pnpm update astro-accelerator -L && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.3.11"
+    "astro-accelerator": "^0.3.12"
   },
   "pnpm": {
     "overrides": {
