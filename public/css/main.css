@@ -1184,6 +1184,10 @@ figure:focus .magnify-icon {
 }
 
 @media (max-width: 680px) {
+    .simple-grid {
+         grid-template-columns: 1fr;
+    }
+    
     .note,
     .inset,
     .inset-small,
