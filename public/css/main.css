@@ -103,7 +103,7 @@ blockquote cite::before {
 dl {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 1em;
+    gap: var(--grid-gap);
 }
 
 dt {
