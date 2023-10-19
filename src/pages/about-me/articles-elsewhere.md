@@ -15,6 +15,8 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
 - [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
+- [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
+- [Practical routes to heathy culture](https://octopus.com/blog/practical-routes-healthy-culture)
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
 - [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
