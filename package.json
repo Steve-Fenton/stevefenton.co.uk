@@ -13,6 +13,8 @@
     "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
+    "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only | cspell --file-list stdin",
+    "spellcheckall": "cspell \"**\"",
     "test": "astro build && npm playwright install --with-deps && npx playwright test",
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
@@ -21,7 +23,8 @@
     "theme": "pnpm update astro-accelerator -L && node ./accelerator.js"
   },
   "dependencies": {
-    "astro-accelerator": "^0.3.12"
+    "astro-accelerator": "^0.3.12",
+    "cspell": "^7.3.8"
   },
   "pnpm": {
     "overrides": {

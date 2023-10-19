@@ -2,6 +2,10 @@
 
 This repo powers my [website](https://www.stevefenton.co.uk) with [Astro](https://astro.build)
 
+## Spellcheck
+
+Use the VSCode extension "Code Spell Checker" or the command `pnpm spellcheck`.
+
 ## Taxonomy
 
 Category-wise... it's all tech. Let's make it easy to find out what tech.
