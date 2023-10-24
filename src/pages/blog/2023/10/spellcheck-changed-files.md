@@ -36,8 +36,10 @@ The requirement is for a pull request to get a spellcheck using [cspell](https:/
 We can get a list of changed files by comparing the current branch to the main branch.
 
 ```powershell
-git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only
+git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB
 ```
+
+You can use the `--diff-filter` to pass every change type *except* delete, as this would cause a problem finding the deleted file to check it.
 
 You can try this in a branch and it will simply provide a list of file names.
 
@@ -46,7 +48,7 @@ You can try this in a branch and it will simply provide a list of file names.
 We can pipe the git command into the cspell command. I've added cspell as a project dependency with `pnpm install cspell`.
 
 ```powershell
-git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only | cspell --file-list stdin
+git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --file-list stdin
 ```
 
 This passes the files to cspell, limiting the check to the changed files.
@@ -85,7 +87,7 @@ I like to run this command locally, so it's polite to provide myself with a shor
 
 ```json
     "scripts": {
-        "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only | cspell --file-list stdin"
+        "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --file-list stdin"
     },
 ```
 
