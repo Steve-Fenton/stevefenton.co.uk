@@ -48,7 +48,7 @@ You can try this in a branch and it will simply provide a list of file names.
 We can pipe the git command into the cspell command. I've added cspell as a project dependency with `pnpm install cspell`.
 
 ```powershell
-git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --file-list stdin
+git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --no-must-find-files --file-list stdin
 ```
 
 This passes the files to cspell, limiting the check to the changed files.
@@ -87,7 +87,7 @@ I like to run this command locally, so it's polite to provide myself with a shor
 
 ```json
     "scripts": {
-        "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --file-list stdin"
+        "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --no-must-find-files --file-list stdin"
     },
 ```
 
