@@ -10,10 +10,16 @@ Disallow:
 User-agent: Exabot
 Disallow:
 
+User-agent: Kagi
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 
 User-agent: Googlebot-Image
+Disallow:
+
+User-agent: Mojeek
 Disallow:
 
 Sitemap: https://www.stevefenton.co.uk/sitemap.xml
