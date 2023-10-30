@@ -9,6 +9,20 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## Octopus - Platform Engineering: To adopt, or not to adopt
+
+October 2023
+
+I joined Adam Close to talk about Platform Engineering foundations, adoption, and alternatives.
+
+Useful links:
+
+- [When to adopt Platform Engineering](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
+- [Platform Engineering patterns and anti-patterns](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
+- [Using MONK metrics to measure Platform Engineering](https://octopus.com/devops/metrics/monk-metrics/)
+
+[Watch "Platform Engineering: To adopt, or not to adopt"](https://www.youtube.com/watch?v=qX0Pk5LchBI)
+
 ## Techzine - DevOps, DevEx, and Continuous Delivery
 
 September 2023
