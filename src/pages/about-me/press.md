@@ -9,6 +9,12 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## Shepherd - Best Books 2023
+
+Following on from my list of [the best DevOps books from before DevOps was invented](https://shepherd.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Shepherd's [Best Books of 2023](https://shepherd.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
+
+[Read my best reads of 2023](https://shepherd.com/bboy/2023/f/steve-fenton)
+
 ## Octopus - Platform Engineering: To adopt, or not to adopt
 
 October 2023
