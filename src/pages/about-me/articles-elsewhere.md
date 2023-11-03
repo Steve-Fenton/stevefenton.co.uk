@@ -34,6 +34,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
 - [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
+- [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
 
 ## Modern Lean/Agile
 
