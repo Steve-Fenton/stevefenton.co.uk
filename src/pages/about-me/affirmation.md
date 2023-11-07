@@ -15,6 +15,11 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 > …in the end, it’s not about what we do, it’s about **who we are** when we do it…
 
+> We've never taken ourselves too seriously... on stage. But on music
+> and creatively, then yes [we take that seriously].
+>
+> <cite>Travis Barker</cite>
+
 [Church of Roswell - Rocketeer](https://www.youtube.com/watch?v=LkIe4wYR1f8)
 
 :::div{.simple-grid}
