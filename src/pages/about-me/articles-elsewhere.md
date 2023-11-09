@@ -7,38 +7,47 @@ keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
 
-Here is some content I’ve written elsewhere that you might be interested in.
+I've written for Octopus Deploy, The New Stack, DORA, and more. Here is some content I’ve written elsewhere that you might be interested in.
+
+I'm aware these lists are growing rapidly, so I'll try to organize things a bit as I add more content.
 
 ## DevOps and Continuous Delivery
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
-- [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
-- [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
 - [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
-- [Practical routes to heathy culture](https://octopus.com/blog/practical-routes-healthy-culture)
-- [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
-- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
+- [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
+- [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
-- [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
+
+### DevOps culture
+
+- [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
+- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
+- [Practical routes to heathy culture](https://octopus.com/blog/practical-routes-healthy-culture)
+- [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
+
+### DevOps research
+
+- [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
-- [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
-- [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
+
+### DevOps and software delivery
+
+- [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
+- [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
+- [Why maturity models are fundamentally broken](https://thenewstack.io/why-maturity-models-are-fundamentally-broken/)
 
 ## Platform Engineering
 
 - [What is Platform Engineering?](https://octopus.com/devops/platform-engineering/)
-- [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
 - [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
+- [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
 - [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
-
-## Modern Lean/Agile
-
-- [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
 
 ## Metrics
 
@@ -47,6 +56,7 @@ Here is some content I’ve written elsewhere that you might be interested in.
 - [How to measure MTTR](https://octopus.com/blog/how-to-measure-mean-time-to-resolve)
 - [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
 - [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
+- [How measurement elevation and aggregation change behaviours](https://thenewstack.io/how-measurement-elevation-and-aggregation-change-behaviors/)
 
 ## Multi-tenancy:
 
