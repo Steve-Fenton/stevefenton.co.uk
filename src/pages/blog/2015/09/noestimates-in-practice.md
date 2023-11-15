@@ -2,6 +2,7 @@
 title: '#NoEstimates in practice'
 navMenu: false
 pubDate: 2015-09-10T07:00:13+01:00
+modDate: 2023-11-15
 authors:
     - steve-fenton
 categories:
@@ -61,6 +62,10 @@ The following books will assist with these issues. You’ll be hard pressed to f
 [Agile Estimating and Planning](https://www.amazon.co.uk/Agile-Estimating-Planning-Robert-Martin/dp/0131479415)
 
 [Software Estimation: Demystifying the Black Art](https://www.amazon.co.uk/Software-Estimation-Demystifying-Black-Art/dp/0735605351/)
+
+[The Principles of Product Development Flow](https://www.amazon.co.uk/Principles-Product-Development-Flow-Generation/dp/1935401009/)
+
+[How to Measure Anything](https://www.amazon.co.uk/How-Measure-Anything-Intangibles-Business/dp/1118539273/)
 
 ## No Estimates
 
