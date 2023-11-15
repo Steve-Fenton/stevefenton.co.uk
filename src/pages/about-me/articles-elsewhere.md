@@ -19,6 +19,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
 - [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
+- [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 
 ### DevOps culture
 
