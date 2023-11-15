@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "astro-accelerator": "^0.3.18",
-    "cspell": "^7.3.8"
+    "cspell": "^8.0.0"
   },
   "pnpm": {
     "overrides": {
