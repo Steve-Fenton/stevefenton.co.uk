@@ -8,6 +8,9 @@ overrides:
   zod@<=3.22.2: '>=3.22.3'
 
 dependencies:
+  '@astrojs/mdx':
+    specifier: ^1.1.5
+    version: 1.1.5(astro@3.5.4)
   astro-accelerator:
     specifier: ^0.3.19
     version: 0.3.19
