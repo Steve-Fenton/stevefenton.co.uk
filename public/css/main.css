@@ -828,6 +828,23 @@ form.site-search #site-search-button {
     scale: 1.2;
 }
 
+.recent-updates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin-inline: 0;
+    padding-inline: 0;
+    gap: 2rem;
+}
+
+.recent-updates li {
+    margin-block-end: 1em;
+}
+
+.recent-updates time {
+    display: block;
+}
+
 @media (max-width: 680px) {
     .post-list .list-item .list-item-image img {
         filter: grayscale(calc(1 - var(--imgshown)));
@@ -839,6 +856,10 @@ form.site-search #site-search-button {
     .post-list .list-item[data-image='true'] > article {
         display: unset;
         grid-template-columns: unset;
+    }
+
+    .recent-updates {
+        grid-template-columns: 1fr;
     }
 }
 
