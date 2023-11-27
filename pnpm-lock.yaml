@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.1.5
     version: 1.1.5(astro@3.5.5)
   astro-accelerator:
-    specifier: ^0.3.20
-    version: 0.3.20
+    specifier: ^0.3.25
+    version: 0.3.25
   cspell:
     specifier: ^8.0.0
     version: 8.0.0
@@ -106,14 +106,6 @@ packages:
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@babel/code-frame@7.22.13:
-    resolution: {integrity: sha512-XktuhWlJ5g+3TJXc5upd9Ks1HutSArik6jf2eAjYFyIOf4ej3RN+184cZbzDvbPnuTJIUhPKKJE3cIsYTiAT3w==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/highlight': 7.22.20
-      chalk: 2.4.2
     dev: false
 
   /@babel/code-frame@7.23.4:
@@ -264,15 +256,6 @@ packages:
       '@babel/types': 7.23.4
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@babel/highlight@7.22.20:
-    resolution: {integrity: sha512-dkdMCN3py0+ksCgYmGG8jKeGA/8Tk+gJwSYYlFGxG5lmhfKNoAy004YpLxpS1W2J8m/EK2Ew+yOs9pVRwO89mg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.22.20
-      chalk: 2.4.2
-      js-tokens: 4.0.0
     dev: false
 
   /@babel/highlight@7.23.4:
@@ -1416,8 +1399,8 @@ packages:
     resolution: {integrity: sha512-vliaNZqWsrJynqjqFVzX5dCpFrL6XLH6ysP0ab0+rgCj/WY5pL8mM0v7qexzmt5lcwZl6pnhK3br92YOxZLJGQ==}
     dev: false
 
-  /astro-accelerator@0.3.20:
-    resolution: {integrity: sha512-toOuUgHQIIZq7YBEa/GAUNnZIxLU1uhWsB1zLFzMGdj2giGy0kjNXjo7NmTgo28YQywckVgsYcruF5eVV1EUsA==}
+  /astro-accelerator@0.3.25:
+    resolution: {integrity: sha512-/TvlvRrQvIuJZCqWSL874ZWRC/Iq9RuAlZ1WHU05HdRcEcfqNCRffeF1sWhifEumaq6ruo70ftdf7CS6FXP/Gg==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       '@astrojs/mdx': 1.1.5(astro@3.5.5)
@@ -4027,7 +4010,7 @@ packages:
     resolution: {integrity: sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/code-frame': 7.22.13
+      '@babel/code-frame': 7.23.4
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
