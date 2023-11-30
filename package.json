@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^1.1.5",
-    "astro-accelerator": "^0.3.20",
+    "astro-accelerator": "^0.3.28",
     "cspell": "^8.0.0"
   },
   "pnpm": {
