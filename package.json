@@ -23,7 +23,7 @@
     "theme": "pnpm update astro-accelerator -L && node ./accelerator.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/mdx": "^2.0.1",
     "astro-accelerator": "^4.0.0",
     "cspell": "^8.1.3"
   },
