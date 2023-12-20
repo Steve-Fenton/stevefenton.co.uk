@@ -49,6 +49,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
 - [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
 - [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
+- [You don't need a product manager for Platform Engineering](https://thenewstack.io/is-your-product-manager-hurting-platform-engineering/)
 
 ## Metrics
 
