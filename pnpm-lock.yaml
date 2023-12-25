@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@astrojs/mdx':
-    specifier: ^2.0.1
-    version: 2.0.1(astro@4.0.3)
+    specifier: ^2.0.2
+    version: 2.0.2(astro@4.0.3)
   astro-accelerator:
     specifier: ^4.0.0
     version: 4.0.0
@@ -81,8 +81,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@2.0.1(astro@4.0.3):
-    resolution: {integrity: sha512-lWbiNoVV/6DO8hAf6eZmcN28hY/herif9eglw2PXZ5lEPoRu175BvBtuNTt9rH9YA/Ldm5mkNXhvMWNEnMqJkw==}
+  /@astrojs/mdx@2.0.2(astro@4.0.3):
+    resolution: {integrity: sha512-pTkUb0+aiVU8MZU6XQKA/FyXdNOKxHwq+3uCIuzWyqjZyRB9hN3G3iokmkXFJhwgxl6gilkYeAKmmciVwnpq6w==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^4.0.0
@@ -1397,7 +1397,7 @@ packages:
     resolution: {integrity: sha512-Elc6CaYBecnHyjBi+ZcXUaPS5iVnQGIJmNqPPwZwayUCQr22roa8xpwHm9Q85Mwlq4aHaHuPxi77XAvI8kDYuA==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
-      '@astrojs/mdx': 2.0.1(astro@4.0.3)
+      '@astrojs/mdx': 2.0.2(astro@4.0.3)
       astro: 4.0.3
       astro-accelerator-utils: 0.3.5
       cspell: 8.1.3
