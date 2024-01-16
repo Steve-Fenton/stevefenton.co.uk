@@ -14,6 +14,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 ## DevOps and Continuous Delivery
 
 - [The DevOps engineer's handbook](https://octopus.com/devops/)
+- [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
