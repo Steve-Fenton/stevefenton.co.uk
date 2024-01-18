@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2023-07-07
+modDate: 2024-01-18
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -41,6 +41,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
 - [Why maturity models are fundamentally broken](https://thenewstack.io/why-maturity-models-are-fundamentally-broken/)
+- [2 Ways to Reduce Bottlenecks with the Theory of Constraints](https://thenewstack.io/2-ways-to-reduce-bottlenecks-with-the-theory-of-constraints/)
 
 ## Platform Engineering
 
