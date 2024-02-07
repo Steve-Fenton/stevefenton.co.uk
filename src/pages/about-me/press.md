@@ -11,9 +11,19 @@ I have been enjoying some coverage in various magazines and blogs and will be sh
 
 ## Shepherd - Best Books 2023
 
+December 2023
+
 Following on from my list of [the best DevOps books from before DevOps was invented](https://shepherd.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Shepherd's [Best Books of 2023](https://shepherd.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
 
 [Read my best reads of 2023](https://shepherd.com/bboy/2023/f/steve-fenton)
+
+## The New Stack - Measuring Developer Productivity: Who’s Winning the Debate?
+
+October 2023
+
+My opinions on the productivity debacle were featured in this TNS post, with a rare "diagreement" with Kent Beck (though I doubt we really disagree on the fundamentals, I have nothing but respect for his awesome work).
+
+[Read the full article on TNS](https://thenewstack.io/measuring-developer-productivity-whos-winning-the-debate/)
 
 ## Octopus - Platform Engineering: To adopt, or not to adopt
 
