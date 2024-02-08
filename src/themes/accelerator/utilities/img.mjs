@@ -1,3 +1,8 @@
+/**
+ * This javascript file comes from Astro Accelerator
+ * Edits will be overwritten if you change the file locally
+ */
+
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
@@ -13,8 +18,6 @@ const imagePath = path.join('public', imagePaths.src);
 const outputPath = path.join('public', imagePaths.dest);
 const imageDirectory = path.join(workingDirectory, imagePath);
 
-console.log(imageDirectory);
-
 const filesToProcess = [];
 
 function getDestinationFilePathless(source, s) {
@@ -25,7 +28,7 @@ function getDestinationFilePathless(source, s) {
 
 async function createDestinationFolder(destinationFile) {
     const file = path.parse(destinationFile + '.txt');
-    console.log(file.dir);
+    
     await fs.promises.mkdir(file.dir, { recursive: true });
 }
 
@@ -77,10 +80,7 @@ async function recurseFiles(directory) {
 
 await recurseFiles('');
 
-console.log(`Found ${filesToProcess.length} files to process`);
-
 for (const file of filesToProcess) {
-    console.log(file.path);
     const source = path.join(imageDirectory, file.path);
     const destination = getDestinationFilePathless(file.path, 'x');
     await createDestinationFolder(destination);
@@ -138,5 +138,3 @@ for (const file of filesToProcess) {
         }
     }
 }
-
-console.log(`Finished`);

@@ -1,5 +1,9 @@
 // @ts-check
 
+/**
+ * This javascript file comes from Astro Accelerator
+ * Edits will be overwritten if you change the file locally
+ */
 import { qs, qsa } from './query.js';
 import { getFocusableElement, trapFocusForward, trapReverseFocus } from './focus.js';
 
@@ -81,8 +85,7 @@ function addMobileNav(resizedEventName) {
         const w2 = document.body.getBoundingClientRect().width;
         document.documentElement.style.color = 'red';
         document.documentElement.style.paddingInlineEnd = (w2 - w1) + 'px';
-
-        console.log(w1, w2, w1 - w2);
+        
         const menuElement = qs('#' + navigationSelector);
         
         overlay.innerHTML = menuElement.outerHTML;

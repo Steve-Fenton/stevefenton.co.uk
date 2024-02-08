@@ -1,4 +1,6 @@
 ---
+// warning: This file is overwritten by Astro Accelerator
+
 import { PostOrdering, PostFiltering, Accelerator } from 'astro-accelerator-utils';
 import { SITE } from '@config';
 
@@ -21,8 +23,6 @@ const pages = allPages
   .filter(PostFiltering.isListable)
   .sort(PostOrdering.sortByModDateDesc)
   .slice(0, Math.min(count, pageCount));
-
-console.log('Recent Pages: ' + pageCount);
 
 stats.stop();
 ---

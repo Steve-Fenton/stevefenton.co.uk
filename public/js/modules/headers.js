@@ -1,3 +1,7 @@
+/**
+ * This javascript file comes from Astro Accelerator
+ * Edits will be overwritten if you change the file locally
+ */
 import { qsa } from './query.js';
 
 /** 
@@ -11,7 +15,7 @@ function enhanceHeaders() {
         linkContainer.href = `#${elem.id}`;
         linkContainer.className = 'bookmark-link';
         linkContainer.innerHTML = 'Bookmark'
-        console.log(elem, typeof elem);
+        
         elem.appendChild(linkContainer);
     });
 

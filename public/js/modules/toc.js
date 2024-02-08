@@ -1,5 +1,9 @@
 // @ts-check
 
+/**
+ * This javascript file comes from Astro Accelerator
+ * Edits will be overwritten if you change the file locally
+ */
 import { qsa } from './query.js';
 
 let links = [];
@@ -71,7 +75,6 @@ function recheck() {
     const item = validItems.pop();
 
     if (item && item.id !== current) {
-        console.log('Reading', item.id);
         current = item.id;
         highlight(item.id);
     }
