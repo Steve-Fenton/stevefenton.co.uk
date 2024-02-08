@@ -11,9 +11,19 @@ I have been enjoying some coverage in various magazines and blogs and will be sh
 
 ## Shepherd - Best Books 2023
 
+December 2023
+
 Following on from my list of [the best DevOps books from before DevOps was invented](https://shepherd.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Shepherd's [Best Books of 2023](https://shepherd.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
 
 [Read my best reads of 2023](https://shepherd.com/bboy/2023/f/steve-fenton)
+
+## The New Stack - Measuring Developer Productivity: Who’s Winning the Debate?
+
+October 2023
+
+My opinions on the productivity debacle were featured in this TNS post, with a rare "diagreement" with Kent Beck (though I doubt we really disagree on the fundamentals, I have nothing but respect for his awesome work).
+
+[Read the full article on TNS](https://thenewstack.io/measuring-developer-productivity-whos-winning-the-debate/)
 
 ## Octopus - Platform Engineering: To adopt, or not to adopt
 
@@ -184,7 +194,7 @@ Natali Vlatko talks about #NoEstimates and mentions some of my thoughts on the s
 
 > Fenton advises that to eventually work without estimates requires a building of trust that may not already exist, therefore you shouldn’t be aiming for #NoEstimates without it. He feels the anger that has been thrust upon the topic has come out of a misunderstanding of the framework, with people interpreting the phrase ‘some teams have found that they don’t need to use estimates’ as ‘YOU must stop using estimates’.
 
-[Read the full article on JAXenter](http://jaxenter.com/role-estimates-software-development-115345.html).
+[Read the full article on JAXenter](https://web.archive.org/web/20220521093718/https://jaxenter.com/role-estimates-software-development-115345.html).
 
 ## Rob D Moore
 
@@ -223,8 +233,6 @@ August 2013
 Microsoft gave a shout-out for my free TypeScript Succinctly ebook, available from Syncfusion.
 
 > The e-book is specifically aimed at .NET developers, based on version 0.9 of Typescript.
-
-[Read the article on Microsoft.com](http://www.microsoft.com/germany/visualstudio/aktuell/news/show.aspx?id=msdn_de_49962)
 
 ## Corrado’s Blog
 
@@ -283,7 +291,7 @@ The folks over at NCover posted a link to my blog on NCover exclusions, which de
 
 22nd October 2010  
 
-The Web Design Journal published an article on 10 Fresh jQuery Plugins and Tutorials and features my Mega Select List. You can read the full article on [The Web Design Ledger](http://webdesignledger.com/tutorials/10-fresh-jquery-plugins-and-tutorials).
+The Web Design Journal published an article on 10 Fresh jQuery Plugins and Tutorials and features my Mega Select List. You can read the full article on [The Web Design Ledger](https://web.archive.org/web/20101023173249/http://webdesignledger.com/tutorials/10-fresh-jquery-plugins-and-tutorials).
 
 ## 1st Web Designer
 
