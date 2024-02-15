@@ -84,6 +84,16 @@
 
     /* Calculate the mobile width by removing l/r columns */
     --content-width-mobile: calc(100vw - 4rem);
+
+        /* Search variables */
+        --white: #fff;
+        --search-height: 3rem;
+        --search-border-radius: calc(var(--search-height)/2);
+        --search-results-padding: 1rem;
+        --search-border: 0.0625rem solid #76A1C2;
+        --search-dropdown-height: 65vh;
+        --search-dropdown-duration: 0.3s;
+        --search-item-border-color: #DAE2E9;
 }
 
 @media (prefers-color-scheme: dark) {

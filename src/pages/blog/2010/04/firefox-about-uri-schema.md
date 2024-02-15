@@ -20,30 +20,30 @@ To use any of these, simply type them into the address bar.
 
 General information about Firefox (version, copyright, license)
 
-## about:blank
+## about\:blank
 
 A blank page
 
-## about:cache
+## about\:cache
 
 Detailed information about the contents, size and location of the memory, disk and offline caches.
 
-## about:config
+## about\:config
 
 Detailed lists of configuration options, including many that aren’t available in the settings pages.
 
-## about:license
+## about\:license
 
 Details of the license.
 
-## about:logo
+## about\:logo
 
 The Firefox logo.
 
-## about:mozilla
+## about\:mozilla
 
 An enigmatic quote.
 
-## about:plugins
+## about\:plugins
 
 A list of plugins with their MIME type, version and state.
