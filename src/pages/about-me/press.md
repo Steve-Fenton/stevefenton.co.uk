@@ -2,12 +2,20 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2022-11-05
+modDate: 2024-02-15
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## The AI governance policy engineering managers needed yesterday
+
+Jennifer Riggins wrote a really practical guide about the need for people to get their policy in order around generative AI. I was lucky enough to be included with my thoughts on the allure of volume. At Octopus, we have a company value about _doing fewer things at a higher quality_.
+
+> “We’re taking a deliberate path of avoiding the allure of volume. Yes, we could get more things by pumping them out, but we’re more interested in creating fewer things at higher quality. That makes some of the options – [like] ChatGPT – less appealing,” Octopus Deploy’s Fenton said. “When software delivery is the constraint, a business has to make choices. Imagine if that constraint were removed, so you could have all the features you ever wanted – would that be good software?”
+
+[Read the AI policy article on LeadDev](https://leaddev.com/process/ai-governance-policy-engineering-managers-needed-yesterday)
 
 ## Shepherd - Best Books 2023
 
