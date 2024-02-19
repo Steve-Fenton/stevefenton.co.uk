@@ -71,6 +71,11 @@ function checkElement(el) {
         return;
     }
 
+    const isHidden = (el.offsetParent === null);
+    if (isHidden) {
+      return;
+    }
+
     // Find elements that overflow the document width
     if (el.offsetWidth > document.documentElement.offsetWidth) {
         warn(el);
@@ -183,6 +188,11 @@ function getIssues() {
     const elem = el as HTMLElement;
     const hasScrollingAncestor = checkScrollingAncestor(el);
     if (hasScrollingAncestor) {
+      return;
+    }
+
+    const isHidden = (elem.offsetParent === null);
+    if (isHidden) {
       return;
     }
 
