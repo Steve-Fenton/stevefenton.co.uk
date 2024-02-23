@@ -64,9 +64,9 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ## Multi-tenancy:
 
-- [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/)
+- [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/) \
   This article describes how changes since multi-tenancy emerged mean a new approach is needed.
-- [The cost dynamics of multi-tenancy](https://thenewstack.io/the-cost-dynamics-of-multitenancy/)
+- [The cost dynamics of multi-tenancy](https://thenewstack.io/the-cost-dynamics-of-multitenancy/) \
   This talks about how multi-tenancy impacts your SaaS pricing strategy and economics over time.
 
 ## Software delivery history
