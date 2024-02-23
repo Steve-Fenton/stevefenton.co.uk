@@ -86,6 +86,13 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
   Discover the best way to divide your deployment projects to keep things organised.
 - [Mapping manual deployments](https://octopus.com/blog/mapping-manual-deployments) \
   Use Octopus to document and track manual deployments and use this as a jumping-off point to automate steps.
+- [Octolint best practices](https://octopus.com/blog/octolint-best-practices) \
+  The excellent Octolint tool surfaces some good practices that are super useful for Octopus users.
+
+## Kubernetes
+
+- [Kubernetes predictions were wrong](https://thenewstack.io/kubernetes-predictions-were-wrong/) \
+  Why has the solution to the Kubernetes complexity problem proven so elusive?
 
 ### White papers
 
