@@ -2,6 +2,7 @@
 title: 'Detect overflowing elements on a web page'
 navMenu: false
 pubDate: 2022-12-15
+modDate: 2024-02-19
 keywords: html,overflowing,content
 description: Find out how to identify overflowing content on a web page with a JavaScript script.
 bannerImage:
@@ -69,6 +70,11 @@ function checkElement(el) {
     const hasScrollingAncestor = checkScrollingAncestor(el);
     if (hasScrollingAncestor) {
         return;
+    }
+
+    const isHidden = (el.offsetParent === null);
+    if (isHidden) {
+      return;
     }
 
     // Find elements that overflow the document width
@@ -183,6 +189,11 @@ function getIssues() {
     const elem = el as HTMLElement;
     const hasScrollingAncestor = checkScrollingAncestor(el);
     if (hasScrollingAncestor) {
+      return;
+    }
+
+    const isHidden = (elem.offsetParent === null);
+    if (isHidden) {
       return;
     }
 
