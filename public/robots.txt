@@ -13,6 +13,9 @@ Disallow:
 User-agent: Kagi
 Disallow:
 
+User-agent: Kukei.eu-Bot
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 
