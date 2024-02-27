@@ -67,6 +67,7 @@
     --margin-size-negative: -1rem;
     --block-gap: 2rem;
     --block-radius: 0.3rem;
+    --block-radius-round: 20px;
 
     --marker-size: 1.2rem;
 
@@ -85,15 +86,10 @@
     /* Calculate the mobile width by removing l/r columns */
     --content-width-mobile: calc(100vw - 4rem);
 
-        /* Search variables */
-        --white: #fff;
-        --search-height: 3rem;
-        --search-border-radius: calc(var(--search-height)/2);
-        --search-results-padding: 1rem;
-        --search-border: 0.0625rem solid #76A1C2;
-        --search-dropdown-height: 65vh;
-        --search-dropdown-duration: 0.3s;
-        --search-item-border-color: #DAE2E9;
+    /* Search variables */
+    --search-height: 2rem;
+    --search-dropdown-height: 65vh;
+    --search-dropdown-duration: 0.2s;
 }
 
 @media (prefers-color-scheme: dark) {

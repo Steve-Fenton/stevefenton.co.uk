@@ -1,16 +1,21 @@
 /**
  * This javascript file comes from Astro Accelerator
  * Edits will be overwritten if you change the file locally
+ *
+ * @format
  */
+
+// @ts-check
+
 import { qs, qsa } from './query.js';
 
 const activeClass = 'magnify-icon';
 
-/** 
+/**
  * Enables opening image in new tab
-*/
+ */
 function enhanceFigures() {
-    qsa(`figure > p > img`).forEach(node => {
+    qsa(`figure > p > img, [data-image] > .image__img`).forEach((node) => {
         const src = node.src;
 
         const magnify = document.createElement('button');
@@ -29,4 +34,4 @@ function enhanceFigures() {
     });
 }
 
-export { enhanceFigures }
+export { enhanceFigures };
