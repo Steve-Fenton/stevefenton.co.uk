@@ -334,6 +334,14 @@ nav.skip-links a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-inline: 1em;
+}
+
+@media (max-width: 930px) {
+    .site-header {
+        gap: 0;
+        justify-content: space-between;
+    }
 }
 
 a.site-title,
@@ -360,6 +368,7 @@ a.site-search__mobile:focus {
     letter-spacing: -0.03em;
     font-family: var(--heading-font);
     line-height: 1.3;
+    flex-shrink: 0;
 }
 
 .site-header .navigation-icon {
@@ -618,7 +627,7 @@ nav.site-nav h2 {
 }
 
 .site-search__wrapper.is-active {
-    max-width: 27rem;
+    max-width: 40rem;
 }
 
 .site-search {
@@ -637,14 +646,13 @@ nav.site-nav h2 {
     width: 130%;
     padding: 0;
     list-style-type: none;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     transition-property:  padding, transform, visibility;
     transition-duration: var(--search-dropdown-duration);
     transition-timing-function: ease-in-out;
     visibility: hidden;
     transform: translateY(0) scaleY(0);
     z-index: 1;
-    max-height: var(--search-dropdown-height);
     transform-origin: top;
     will-change: transform;
     margin-inline-start: -15%;
@@ -661,8 +669,10 @@ nav.site-nav h2 {
     margin-inline-start: 0;
 }
 
-.site-search-results ul:not(.post-list) {
+.site-search-results ul:not(.post-list):not(.result-headings) {
     margin: 0;
+    max-height: var(--search-dropdown-height);
+    overflow-y: scroll;
 }
 
 .site-search-results .show-more {
@@ -719,6 +729,12 @@ nav.site-nav h2 {
     position: relative;
 }
 
+.site-search-results__item:hover, .site-search-results__item:focus-within {
+    --hover-color: rgba(13, 128, 216, 0.07);
+    background-color: var(--aft-breadcrumb);
+    border-color: var(--aft-breadcrumb);
+}
+
 .site-search-results__item::after {
     content: "";
     display: inline-block;
@@ -755,10 +771,6 @@ nav.site-nav h2 {
     flex-direction: column;
     gap: 0.56rem;
     text-align: start;
-}
-
-.result-wrapper:hover {
-    background-color: initial;
 }
 
 @media (max-width: 930px) {
