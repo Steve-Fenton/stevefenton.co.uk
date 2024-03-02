@@ -42,7 +42,7 @@ I updated my working [image optimization example](https://github.com/Steve-Fento
 
 Here's the step-by-step guide.
 
-### Install Squoosh
+### Install Sharp
 
 You can add Sharp to your project with npm:
 
