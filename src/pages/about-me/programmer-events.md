@@ -24,6 +24,30 @@ In the keynote theatre at DevOps Live in London.
 
 Find out how you can use the State of DevOps research to make an impact on the toughest challenge in technology: culture.
 
+### October
+
+#### 26th October 2023: Platform Engineering: To Adopt or Not To Adopt
+
+Platform Engineering foundations, adoption, and alternatives.
+
+### August
+
+#### 22nd August 2023: A Modern View of Multitenancy
+
+A new perspective on multi-tenancy that looks beyond software.
+
+### June
+
+#### 26th June 2023: The State of Continuous Delivery Report 2023
+
+A panel conversation about the State of Continuous Delivery 2023 Report analysis.
+
+### May
+
+19th May 2023: The State of Continuous Delivery Report 2023
+
+John and I talk about the State of CD Report.
+
 ## 2022
 
 ### January 2022
@@ -96,18 +120,27 @@ Using test-first techniques in Visual Studio and .NET.
 
 ### August 2019
 
-21st August 2019 (Wednesday): Test Automation with Visual Studio (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-69272545047)  
+#### 21st August 2019 (Wednesday): Test Automation with Visual Studio
+
 Using test-first techniques in Visual Studio and .NET.
+
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-69272545047)  
 
 ### July 2019
 
-31st July 2019 (Wednesday): Basingstoke Coding Dojo (Free) [Book on Eventbrite](https://basingstoke-coding-dojo.eventbrite.co.uk)  
+#### 31st July 2019 (Wednesday): Basingstoke Coding Dojo
+
 Write an app using TDD in Microsoft Visual Studio.
+
+[Book on Eventbrite](https://basingstoke-coding-dojo.eventbrite.co.uk)  
 
 ### April 2019
 
-2nd April 2019 (Tuesday): Visual Studio 2019 Launch Event (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/visual-studio-2019-launch-watch-event-tickets-56631440162)  
+#### 2nd April 2019 (Tuesday): Visual Studio 2019 Launch Event
+
 Watch the launch event for Visual Studio 2019 live.
+
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/visual-studio-2019-launch-watch-event-tickets-56631440162)  
 
 ## 2016-2018
 
@@ -119,37 +152,58 @@ I used a paid events app to track events from 2015-2019 and I deleted my subscri
 
 ## 2014
 
-25th June 2014: TypeScript and Jasmine  
-11th April 2014: Process Kata  
-3rd March 2014: API Testing with JMeter  
+25th June 2014: TypeScript and Jasmine
+
+11th April 2014: Process Kata
+
+3rd March 2014: API Testing with JMeter
+
 13th February 2014: JavaScript Bad Stuff and Good Stuff
 
 ## 2013
 
-18th November 2013: Impact Mapping – Why?  
-17th November 2013: TypeScript – Big JavaScript  
-19th September 2013: Group Refactoring Kata  
-12th September 2013: Code Kata  
-28th August 2013: Code Kata  
-30th July 2013: Code Kata  
-24th June 2013: Unity IOC  
-23rd May 2013: Estimation vs Sizing  
-8th May 2013: Truth, Mistakes and Lies in TDD  
-22nd January 2013: Pomodoro Technique in 25 Minutes  
+18th November 2013: Impact Mapping – Why?
+
+17th November 2013: TypeScript – Big JavaScript
+
+19th September 2013: Group Refactoring Kata
+
+12th September 2013: Code Kata
+
+28th August 2013: Code Kata
+
+30th July 2013: Code Kata
+
+24th June 2013: Unity IOC
+
+23rd May 2013: Estimation vs Sizing
+
+8th May 2013: Truth, Mistakes and Lies in TDD
+
+22nd January 2013: Pomodoro Technique in 25 Minutes
+
 10th January 2013: HTML5 and NEWT
 
 ## 2012
 
-30th November 2012: Attacking Websites  
-19th November 2012: Attacking Websites  
-19th October 2012: Introduction to TypeScript  
-21st June 2012: Create An HTML5 Phone App In Under An Hour  
-22nd March 2012: Pomodoro Technique in 25 Minutes  
-12th January 2012: JavaScript – Things That Might Surprise You  
+30th November 2012: Attacking Websites
+
+19th November 2012: Attacking Websites
+
+19th October 2012: Introduction to TypeScript
+
+21st June 2012: Create An HTML5 Phone App In Under An Hour
+
+22nd March 2012: Pomodoro Technique in 25 Minutes
+
+12th January 2012: JavaScript – Things That Might Surprise You
+
 5th January 2012: SOPA – A Balanced View
 
 ## 2011
 
-24th November 2011: TDD – Discuss!  
-10th November 2011: Code Kata  
+24th November 2011: TDD – Discuss!
+
+10th November 2011: Code Kata
+
 27th October 2011: HTML5
