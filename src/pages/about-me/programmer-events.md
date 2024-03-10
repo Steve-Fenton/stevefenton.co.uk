@@ -8,57 +8,91 @@ description: A list of my online and in-person events.
 
 I’ll update this page with any programmer events that I’m running, attending, or speaking at.
 
+## 2024
+
+### March
+
+#### 6th March 2024 (Wednesday): Effective DevOps Metrics
+
+In the keynote theatre at DevOps Live in London.
+
+## 2023
+
+### November
+
+#### 15th November 2023 (Wednesday): DORA, DevOps, and Deployments
+
+Find out how you can use the State of DevOps research to make an impact on the toughest challenge in technology: culture.
+
 ## 2022
 
 ### January 2022
 
-24th February 2022 (Monday): De-mystifying Linq (Free)  
+#### 24th February 2022 (Monday): De-mystifying Linq
+
 Live-coding our own Linq extension methods to show how things work under the hood.
 
 ## 2021
 
 ### February 2021
 
-16th February 2021 (Tuesday): Online TDD/Refactoring With Visual Studio (Free)  
+#### 16th February 2021 (Tuesday): Online TDD/Refactoring With Visual Studio
+
 Group-selected exercise with breakouts.
 
 ## 2020
 
 ### August 2020
 
-19th August 2020 (Wednesday): Using the Approval Tests Library with Visual Studio (Free)  
+#### 19th August 2020 (Wednesday): Using the Approval Tests Library with Visual Studio
+
 Converting a suite of manual assertions to Approval Tests gold copies.
 
 ### May 2020
 
-13th May 2020 (Wednesday): Online FizzBuzz in C# with Visual Studio (Free)  
+#### 13th May 2020 (Wednesday): Online FizzBuzz in C# with Visual Studio
+
 A FizzBuzz implementation from scratch in C# with Visual Studio and MSTest.
 
 ### March 2020
 
-27th March 2020 (Wednesday): Online Refactoring with Visual Studio Session (Free)  
+#### 27th March 2020 (Wednesday): Online Refactoring with Visual Studio Session
+  
 Using refactoring tools and techniques in Visual Studio and .NET.
 
-11th March 2020 (Wednesday): Refactoring with Visual Studio (Free)  
+#### 11th March 2020 (Wednesday): Refactoring with Visual Studio
+
 Using refactoring tools and techniques in Visual Studio and .NET.
 
 ## 2019
 
 ### October 2019
 
-3rd October 2019 (Thursday): Refactoring with Visual Studio (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/refactoring-with-visual-studio-tickets-73414299145)  
+#### 3rd October 2019 (Thursday): Refactoring with Visual Studio
+
 Using refactoring tools and techniques in Visual Studio and .NET.
+
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/refactoring-with-visual-studio-tickets-73414299145)  
 
 ### September 2019
 
-23rd September 2019 (Monday): .NET Conf Keynote Live Stream Event (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/net-conf-keynote-live-stream-basingstoke-tickets-69839001333)  
+#### 23rd September 2019 (Monday): .NET Conf Keynote Live Stream Event
+
 The live keynote beamed from the Pacific Coast to our screen in Basingstoke.
 
-17th September 2019 (Tuesday): Test Automation with Visual Studio (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-71666762215)  
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/net-conf-keynote-live-stream-basingstoke-tickets-69839001333)  
+
+#### 17th September 2019 (Tuesday): Test Automation with Visual Studio
+
 Using test-first techniques in Visual Studio and .NET.
 
-4th September 2019 (Wednesday): Test Automation with Visual Studio (Free) [Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-70121692871)  
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-71666762215)  
+
+#### 4th September 2019 (Wednesday): Test Automation with Visual Studio
+
 Using test-first techniques in Visual Studio and .NET.
+
+[Book on Eventbrite](https://www.eventbrite.co.uk/e/test-automation-with-visual-studio-tickets-70121692871)  
 
 ### August 2019
 
