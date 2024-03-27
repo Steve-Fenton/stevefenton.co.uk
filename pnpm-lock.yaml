@@ -17,6 +17,9 @@ dependencies:
   astro-accelerator:
     specifier: ^4.0.25
     version: 4.0.25
+  astro-accelerator-utils:
+    specifier: ^0.3.7
+    version: 0.3.7
   cspell:
     specifier: ^8.4.1
     version: 8.4.1
