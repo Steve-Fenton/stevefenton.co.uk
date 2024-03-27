@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@astrojs/mdx':
-    specifier: ^2.2.0
-    version: 2.2.0(astro@4.4.5)
+    specifier: ^2.2.2
+    version: 2.2.2(astro@4.4.5)
   '@img/sharp-linux-x64':
     specifier: ^0.33.2
     version: 0.33.2
@@ -69,8 +69,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/markdown-remark@4.3.0:
-    resolution: {integrity: sha512-iZOgYj/yNDvBRfKqkGuAvjeONhjQPq8Uk3HjyIgcTK5valq03NiUgSc5Ovq00yUVBeYJ/5EDx23c8xqtkkBlPw==}
+  /@astrojs/markdown-remark@4.3.2:
+    resolution: {integrity: sha512-4Oa4VaYiBd0MatB+rWIU/0A8pZH/sK3c2QkRYb+OO2lPl+qzevJtWaZY8hAQc4qurIOlRdn6B6ofDAGhWw+DSg==}
     dependencies:
       '@astrojs/prism': 3.0.0
       github-slugger: 2.0.0
@@ -94,13 +94,13 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@2.2.0(astro@4.4.5):
-    resolution: {integrity: sha512-EkcCniYdGwsh9k5LknqRrz/UyOnMNXdRk7fgDAw/zUDKnm7zgQAG8hIx0FxG1L2IINxLfu7IcjgZb3f5TFpxKw==}
+  /@astrojs/mdx@2.2.2(astro@4.4.5):
+    resolution: {integrity: sha512-5SIFtOctC813HFyqJwBf5TBvlT9sbiOOv+bdvzAoiBSab95dC7PZhss22EvUEx+897c81YoIZ4F9fg4ZkxBFIw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      '@astrojs/markdown-remark': 4.3.0
+      '@astrojs/markdown-remark': 4.3.2
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
       astro: 4.4.5
@@ -1467,7 +1467,7 @@ packages:
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
-      '@astrojs/mdx': 2.2.0(astro@4.4.5)
+      '@astrojs/mdx': 2.2.2(astro@4.4.5)
       astro: 4.4.5
       astro-accelerator-utils: 0.3.7
       cspell: 8.6.0
