@@ -21,6 +21,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
+- [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
 
 ### DevOps culture
 
