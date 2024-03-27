@@ -29,7 +29,7 @@
     "astro-accelerator-utils": "^0.3.7",
     "cspell": "^8.6.0",
     "optional": "^0.1.4",
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.3"
   },
   "pnpm": {
     "overrides": {
