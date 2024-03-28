@@ -3,7 +3,7 @@ title: 'Platform Engineering adoption'
 navMenu: false
 pubDate: 2024-03-27
 keywords: platform engineering,adoption
-description: Why rapid adoption of PLatform Engineering spells trouble for the community.
+description: Why rapid adoption of Platform Engineering spells trouble for the community.
 bannerImage:
     src: /img/topic/platforms/workers-on-platform.jpg
     alt: Mobile Suspended Platform by Terry Hammonds, shows workers on a platform suspended from a bridge.
