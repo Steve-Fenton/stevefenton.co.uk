@@ -29,4 +29,4 @@ In a break from tradition, I have made the book available under the [Creative Co
 
 [The Productivity Workbook – Full Interior (A5)](/downloads/the-productivity-workbook-smaller.pdf)
 
-You can also [purchase a copy of the *smaller edition* (A5) from Lulu](https://www.lulu.com/shop/steve-fenton/the-productivity-workbook-pocket-edition/paperback/product-pq72zy.html).
+You can also [purchase a copy of the *smaller edition* (A5) from Lulu](https://www.lulu.com/shop/steve-fenton/the-productivity-workbook-spiral-bound/paperback/product-zm8zj8n.html).
