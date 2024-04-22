@@ -2,7 +2,7 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2024-02-15
+modDate: 2024-04-22
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
@@ -86,6 +86,14 @@ May 2023
 John Bristowe and I talk about the State of Continuous Delivery Report.
 
 [Watch "The State of Continuous Delivery Report"](https://www.youtube.com/watch?v=yrIg9kpBXnU)
+
+## DEV.to - Solid Principles
+
+February 2023
+
+A little mention of an LSP example I created.
+
+[Read SOLID PRINCIPLES on DEV.to](https://dev.to/cnavya/solid-principles-29c9)
 
 ## Campus Morning Mail - Must Reads of the Week
 
