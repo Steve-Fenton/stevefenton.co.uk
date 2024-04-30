@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-01-18
+modDate: 2024-04-16
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -37,6 +37,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
+- [The State of CI/CD Report 2024: The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)
 
 ### DevOps and software delivery
 
