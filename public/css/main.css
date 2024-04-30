@@ -346,7 +346,7 @@ nav.skip-links a:focus {
 
 a.site-title,
 a.navigation-icon,
-a.site-search__mobile {
+a.site-search-mobile {
     color: var(--link-head);
     text-decoration: none;
     align-self: center;
@@ -358,8 +358,8 @@ a.site-title:hover,
 a.site-title:focus,
 a.navigation-icon:hover,
 a.navigation-icon:focus,
-a.site-search__mobile:hover,
-a.site-search__mobile:focus {
+a.site-search-mobile:hover,
+a.site-search-mobile:focus {
     color: var(--link-alt-head);
     background-color: unset;
 }
@@ -378,7 +378,7 @@ a.site-search__mobile:focus {
     height: var(--icon-width);
 }
 
-.site-header .site-search__mobile {
+.site-header .site-search-mobile {
     --icon-width: 40px;
     fill: var(--link-head);
     width: var(--icon-width);
@@ -390,8 +390,8 @@ a.site-search__mobile:focus {
     stroke: var(--link-alt-head);
 }
 
-.site-header .site-search__mobile:hover,
-.site-header .site-search__mobile:focus {
+.site-header .site-search-mobile:hover,
+.site-header .site-search-mobile:focus {
     fill: var(--link-alt-head);
 }
 
@@ -618,7 +618,7 @@ nav.site-nav h2 {
 
 /* Site Search */
 
-.site-search__wrapper {
+.site-search-wrapper {
     position: relative;
     width: 100%;
     max-width: 20rem;
@@ -626,7 +626,7 @@ nav.site-nav h2 {
     font-size: 1.3rem;
 }
 
-.site-search__wrapper.is-active {
+.site-search-wrapper.is-active {
     max-width: 40rem;
 }
 
@@ -685,7 +685,7 @@ nav.site-nav h2 {
     cursor: pointer;
 }
 
-.site-search__overlay {
+.site-search-overlay {
     opacity: 0;
     visibility: hidden;
     background: rgba(12, 26, 36, 0.30);
@@ -698,7 +698,7 @@ nav.site-nav h2 {
     z-index: 1;
 }
 
-.site-search__wrapper.is-active .site-search__overlay {
+.site-search-wrapper.is-active .site-search-overlay {
     opacity: 1;
     visibility: visible;
 }
@@ -711,15 +711,15 @@ nav.site-nav h2 {
     width: calc(100% - 2rem);
 }
 
-.search-results__heading {
+.search-results-heading {
     visibility: hidden;
 }
 
-.site-search.is-active+.site-search-results>.search-results__heading {
+.site-search.is-active+.site-search-results>.search-results-heading {
     visibility: visible;
 }
 
-.site-search-results__item {
+.site-search-results-item {
     background-color: transparent;
     transition-property: background-color, border-color;
     transition-duration: var(--search-dropdown-duration);
@@ -729,13 +729,13 @@ nav.site-nav h2 {
     position: relative;
 }
 
-.site-search-results__item:hover, .site-search-results__item:focus-within {
+.site-search-results-item:hover, .site-search-results-item:focus-within {
     --hover-color: rgba(13, 128, 216, 0.07);
     background-color: var(--aft-breadcrumb);
     border-color: var(--aft-breadcrumb);
 }
 
-.site-search-results__item::after {
+.site-search-results-item::after {
     content: "";
     display: inline-block;
     width: 0.75rem;
@@ -753,13 +753,13 @@ nav.site-nav h2 {
     transition-timing-function: ease-in-out;
 }
 
-.site-search-results__item:hover::after {
+.site-search-results-item:hover::after {
     opacity: 1;
     transform: translateY(-50%) translateX(0);
 }
 
 @media (max-width: 930px) {
-    .site-search-results__item {
+    .site-search-results-item {
         padding: 1rem;
     }
 }
@@ -779,7 +779,7 @@ nav.site-nav h2 {
     }
 }
 
-.site-search-results__item mark {
+.site-search-results-item mark {
     background: none;
     text-decoration: underline;
 }
@@ -793,11 +793,11 @@ nav.site-nav h2 {
     color: var(--fore-breadcrumb);
 }
 
-.result-path__icon {
+.result-path-icon {
     stroke: var(--fore-breadcrumb);
 }
 
-.result-path__segment:last-child {
+.result-path-segment:last-child {
     display: none;
 }
 
@@ -820,7 +820,7 @@ nav.site-nav h2 {
     padding: 0 1rem;
 }
 
-.site-search__remove-btn {
+.site-search-remove {
     margin-left: auto;
     background-color: transparent;
     padding: 0.5rem;
@@ -829,20 +829,20 @@ nav.site-nav h2 {
     transition: transform var(--search-dropdown-duration) ease-in-out;
 }
 
-.site-search__remove-btn:hover {
+.site-search-remove:hover {
     transform: scale(1.2);
 }
 
-.site-search.is-active .site-search__remove-btn {
+.site-search.is-active .site-search-remove {
     visibility: visible;
 }
 
-.site-search__mobile {
+.site-search-mobile {
     display: none;
 }
 
 @media (max-width: 930px) {
-    .site-header .site-search__wrapper {
+    .site-header .site-search-wrapper {
         max-width: fit-content;
     }
 
@@ -850,7 +850,7 @@ nav.site-nav h2 {
         display: none;
     }
 
-    .site-header .site-search__mobile {
+    .site-header .site-search-mobile {
         --search-mobile-size: 40px;
         display: flex;
         width: var(--search-mobile-size);
