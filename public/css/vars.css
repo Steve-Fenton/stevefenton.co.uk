@@ -38,6 +38,9 @@
     --aft-head-g2: #333366;
     --fore-link-head: #efefef;
 
+    --fore-input: var(--fore);
+    --aft-input: var(--aft-paper);
+
     --heading: #225;
 
     --fore-breadcrumb: #333;
@@ -111,6 +114,9 @@
         --aft-head-g1: #111144;
         --aft-head-g2: #333366;
         --fore-link-head: #efefef;
+
+        --fore-input: #efefef;
+        --aft-input: var(--aft-paper);
 
         --heading: #DDF;
 

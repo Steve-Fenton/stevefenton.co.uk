@@ -38,6 +38,21 @@ a, summary {
     border-radius: var(--block-radius);
 }
 
+form {
+    fill: var(--link-head);
+}
+
+input {
+    color: var(--fore-input);
+    background-color: var(--aft-input);
+}
+
+input::placeholder {
+    color: var(--fore-input);
+    opacity: 0.8;
+  }
+  
+
 summary {
     text-decoration: none;
 }
@@ -696,7 +711,6 @@ nav.site-nav h2 {
 
 .site-search-query {
     width: 100%;
-    background: transparent;
     height: 100%;
     padding: 0 1rem;
     width: calc(100% - 2rem);
