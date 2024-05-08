@@ -18,7 +18,7 @@ But also, I'm a naturally curious person. That means I ask questions to find out
 
 ## Platform Engineering
 
-My current thread to pull on is Platform Engineering. I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and tehnical motivations for Platform Engineering.
+My current thread to pull on is Platform Engineering. I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
 
 Our plan is to:
 
@@ -27,6 +27,14 @@ Our plan is to:
 - Run the survey to get a broad picture of Platform Engineering
 
 By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
+
+:::div{.note}
+
+We have a short questionnaire (5 questions) for anyone involved in Platform Engineering, and we'd love it if you could submit a response. You can do so anonymously.
+
+Help out by [completing our questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfm0fRGfxsz8YcC8ZsEWL57y0zg9Av7zrhY_2wCwzKTn0Y88w/viewform).
+
+:::
 
 ## Get updates
 
