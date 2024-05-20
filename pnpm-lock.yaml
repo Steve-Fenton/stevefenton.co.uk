@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.3.1
     version: 2.3.1(astro@4.7.0)
   '@img/sharp-linux-x64':
-    specifier: ^0.33.3
-    version: 0.33.3
+    specifier: ^0.33.4
+    version: 0.33.4
   astro-accelerator:
     specifier: ^4.0.26
     version: 4.0.26
@@ -1005,6 +1005,16 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    optionalDependencies:
+      '@img/sharp-libvips-linux-x64': 1.0.2
+    dev: false
+    optional: true
+
+  /@img/sharp-linux-x64@0.33.4:
+    resolution: {integrity: sha512-GoR++s0XW9DGVi8SUGQ/U4AeIzLdNjHka6jidVwapQ/JebGVQIpi52OdyxCNVRE++n1FCLzjDovJNozif7w/Aw==}
+    engines: {glibc: '>=2.26', node: ^18.17.0 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0', yarn: '>=3.2.0'}
+    cpu: [x64]
+    os: [linux]
     optionalDependencies:
       '@img/sharp-libvips-linux-x64': 1.0.2
     dev: false
