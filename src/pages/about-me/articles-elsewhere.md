@@ -22,7 +22,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 - [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
-- [Gatekeepers Limit Continuous Delivery’s Benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
+- [Gatekeepers limit Continuous Delivery’s benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
+- [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 
 ### DevOps culture
 
