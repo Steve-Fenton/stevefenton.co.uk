@@ -2,29 +2,43 @@
 title: Exploring Octopus Deploy
 navOrder: 3000
 pubDate: 2022-10-02
+modDate: 2024-06-12
 keywords: octopus deploy,book
-description: This book teaches you how to use the features of Octopus Deploy using an example application.
+description: This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
 ---
 
-This book teaches you how to use the features of Octopus Deploy using an example application. The application is simple, but it has been designed to show the entire process of deployment automation. Once you have mastered the techniques used to deploy this example application and its database, you will be able to transfer what you have learned to your own complex software.
+Welcome to Octopus! This book is for the explorers. The automators. The improvers. It's for all the software, platform, operations, and site-reliability engineers. It doesn't matter whether you just downloaded your first Octopus Deploy trial or you're an old friend. This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
 
 :::figure{.inset-medium}
-:img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
-::figcaption[Exploring Octopus Deploy]
+:img{src="/img/topic/books/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
+::figcaption[The cover of the second edition of Exploring Octopus Deploy]
 :::
 
-You will learn:
+## A journey to simplify deployments and operations tasks with powerful automation
 
-- How to package your applications and database
-- How to install Octopus Server and Tentacles
-- How to publish packages to Octopus
-- How to create and deploy releases
-- How to pause a deployment until it is approved
+You'll learn:
 
-[Exploring Octopus Deploy on Amazon (UK)](http://www.amazon.co.uk/Exploring-Octopus-Deploy-Deployment-Automation-ebook/dp/B00ZE75P40/)
+- How automation brings more than just speed
+- What excellent deployments look like
+- What makes operations runbooks great
+- An overview of Octopus Deploy features, concepts, and terms
+- How you can use Octopus to level up deployments and runbooks
 
-[Exploring Octopus Deploy on Amazon (US)](http://www.amazon.com/Exploring-Octopus-Deploy-Deployment-Automation-ebook/dp/B00ZE75P40/)
+The second edition is a complete rewrite of Exploring Octopus Deploy. It has been updated with all the features that have been added or updated since the first edition. Find out how to get the most from Octopus by using it for deployments, operations tasks, and self-service actions for your teams.
+
+## Buy the book
+
+[Exploring Octopus Deploy on Amazon (UK)](https://www.amazon.co.uk/dp/B0D6VKQNBK/)
+
+[Exploring Octopus Deploy on Amazon (US)](https://www.amazon.com/dp/B0D6VKQNBK/)
+
+[Exploring Octopus Deploy on Amazon (AU)](https://www.amazon.com.au/dp/B0D6VKQNBK/)
 
 > I enjoyed this book. I wish that it had existed a year ago when I embarked on the journey of implementing Octopus Deploy for a hosting provider and their customers…
 > 
 > <cite>Joakim Westin (Amazon)</cite>
+
+:::figure{.inset-medium}
+:img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
+::figcaption[The cover of the first edition of Exploring Octopus Deploy]
+:::
