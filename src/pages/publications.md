@@ -2,12 +2,28 @@
 title: Publications
 navOrder: 3000
 pubDate: 2022-10-02
+modeDate: 2024-06-12
 keywords: books,steve fenton,typescript,web operations
 description: Steve Fenton's published and self-published books.
 id: 105
 ---
 
 <div class="simple-grid">
+
+<article>
+
+## Exploring Octopus Deploy
+
+The second edition of Exploring Octopus Deploy is written from the ground up to provide more concepts and less step-by-step guides.
+
+[Read more about Exploring Octopus Deploy](/publications/exploring-octopus-deploy/).
+
+:::figure{.inset-medium}
+:img{src="/img/topic/books/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy - Second Edition"}
+::figcaption[Exploring Octopus Deploy]
+:::
+
+</article>
 
 <article>
 
@@ -35,21 +51,6 @@ A rapid introduction to the important metrics, charts, and monitoring concepts n
 :::figure{.inset-medium}
 :img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
 ::figcaption[Web Operations dashboards, monitoring, and alerting]
-:::
-
-</article>
-
-<article>
-
-## Exploring Octopus Deploy
-
-An introduction to Octopus Deploy that shows you how to package, publish, and deploy your applications.
-
-[Read more about Exploring Octopus Deploy](/publications/exploring-octopus-deploy/).
-
-:::figure{.inset-medium}
-:img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy, Monitoring, and Alerting" loading="lazy"}
-::figcaption[Exploring Octopus Deploy]
 :::
 
 </article>
