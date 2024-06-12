@@ -1,5 +1,9 @@
 html {
     box-sizing: border-box;
+
+    @media (prefers-reduced-motion: no-preference) {
+        scroll-behavior: smooth;
+    }
 }
 
 *,
@@ -16,9 +20,12 @@ html {
     vertical-align: baseline;
  }
 
- html {
+html {
     scroll-padding-top: 5em;
- }
+    @media (prefers-reduced-motion: no-preference) {
+        scroll-behavior: smooth;
+    }
+}
 
 body {
     background-color: var(--aft);
@@ -36,6 +43,11 @@ a, summary {
     text-decoration: underline;
     cursor: pointer;
     border-radius: var(--block-radius);
+
+    @media (prefers-reduced-motion: no-preference) {
+        transition: all 200ms ease-in-out;
+    }
+    
 }
 
 form {
@@ -1382,14 +1394,19 @@ figure:focus .magnify-icon {
 }
 
 .book-grid article {
-    background-color: var(--aft-block);
+    background-color: var(--aft-g1);
+    border-radius: var(--block-radius);
+    box-shadow: var(--box-shadow-slight);
+    margin-block-end: var(--block-gap);
     padding: 1rem;
-    box-shadow: var(--box-shadow);
-    margin-block-end: 2rem;
+
+    @media (prefers-reduced-motion: no-preference) {
+        transition: background-color 0.2s ease;
+    }
 
     display: grid;
     gap: 1rem;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 250px auto;
     grid-template-rows: fit-content(1em) 1fr;
     grid-template-areas:
         "image title"
@@ -1404,6 +1421,12 @@ figure:focus .magnify-icon {
     }
 }
 
+.book-grid article:hover,
+.book-grid article:focus-within {
+    box-shadow: var(--box-shadow);
+    background-color: var(--aft-g2);
+}
+
 .book-grid article > h2 {
     grid-area: title;
 
@@ -1416,7 +1439,10 @@ figure:focus .magnify-icon {
     grid-area: image;
 }
 
-.book-grid article > img {
+.book-grid article img {
+    background-color: var(--aft-block);
+    border-radius: var(--block-radius);
+
     @media (max-width: 680px) {
         max-height: 300px;
         object-fit: contain;
@@ -1536,14 +1562,6 @@ figure:focus .magnify-icon {
 /* Animation */
 
 @media (prefers-reduced-motion: no-preference) {
-    body, html {
-        scroll-behavior: smooth;
-    }
-
-    a {
-        transition: all 200ms ease-in-out;
-    }
-
     .magnify-icon,
     .copy-button,
     .anim-show-parent img,
