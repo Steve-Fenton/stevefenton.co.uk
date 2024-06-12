@@ -1381,6 +1381,53 @@ figure:focus .magnify-icon {
     width: 66%;
 }
 
+.book-grid article {
+    background-color: var(--aft-block);
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+    margin-block-end: 2rem;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 300px auto;
+    grid-template-rows: fit-content(1em) 1fr;
+    grid-template-areas:
+        "image title"
+        "image content";
+
+    @media (max-width: 680px) {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "title"
+        "image"
+        "content";
+    }
+}
+
+.book-grid article > h2 {
+    grid-area: title;
+
+    .bookmark-link {
+        display: none;
+    }
+}
+
+.book-grid article > p:has(img) {
+    grid-area: image;
+}
+
+.book-grid article > img {
+    @media (max-width: 680px) {
+        max-height: 300px;
+        object-fit: contain;
+    }
+}
+
+.book-grid article > div {
+    grid-area: content;
+    justify-self: top;
+}
+
 .simple-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
