@@ -26,7 +26,7 @@ You'll learn:
 
 The second edition is a complete rewrite of Exploring Octopus Deploy. It has been updated with all the features that have been added or updated since the first edition. Find out how to get the most from Octopus by using it for deployments, operations tasks, and self-service actions for your teams.
 
-## Buy the book
+## Buy the second edition
 
 [Exploring Octopus Deploy on Amazon (UK)](https://www.amazon.co.uk/dp/B0D6VKQNBK/)
 
@@ -34,9 +34,23 @@ The second edition is a complete rewrite of Exploring Octopus Deploy. It has bee
 
 [Exploring Octopus Deploy on Amazon (AU)](https://www.amazon.com.au/dp/B0D6VKQNBK/)
 
+The first edition paperback was published in 2015 with ISBN 978-1326294441.
+
+The second edition paperback was published in 2024 with ISBN 979-8327759039.
+ 
+## Praise for the first edition
+
+> I found this was an excellent starting place to get to grips with Octopus deploy. I recommend it to anyone who wants to understand what it does and can do for them!
+>
+> <cite>Graham (Amazon)</cite>
+
 > I enjoyed this book. I wish that it had existed a year ago when I embarked on the journey of implementing Octopus Deploy for a hosting provider and their customers…
 > 
-> <cite>Joakim Westin (Amazon)</cite>
+> <cite>Joakim (Amazon)</cite>
+
+> Was in depth enough to get me up and running without too much guess work.
+>
+> <cite>Justin (Amazon)</cite>
 
 :::figure{.inset-medium}
 :img{src="/img/2015/07/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
