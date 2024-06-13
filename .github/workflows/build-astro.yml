@@ -33,9 +33,6 @@ jobs:
        
       - name: Install, build, and upload your site
         uses: withastro/action@v2
-        with:
-          package-manager: pnpm
-          pnpm-version: 8.7.0
 
   deploy:
     needs: build
