@@ -5,6 +5,9 @@ pubDate: 2022-10-02
 modDate: 2024-06-12
 keywords: octopus deploy,book
 description: This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
+bannerImage:
+    src: '/img/topic/books/exploring-octopus-deploy.jpg'
+    alt: Exploring Octopus Deploy: A journey to simplify deployments and operations tasks with powerful automation
 ---
 
 Welcome to Octopus! This book is for the explorers. The automators. The improvers. It's for all the software, platform, operations, and site-reliability engineers. It doesn't matter whether you just downloaded your first Octopus Deploy trial or you're an old friend. This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
