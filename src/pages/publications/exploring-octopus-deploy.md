@@ -5,7 +5,12 @@ pubDate: 2022-10-02
 modDate: 2024-06-12
 keywords: octopus deploy,book
 description: This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
+bannerImage:
+  src: '/img/topic/books/exploring-octopus-deploy.jpg'
+  alt: 'Exploring Octopus Deploy: A journey to simplify deployments and operations tasks with powerful automation'
 ---
+
+## New edition for 2024
 
 Welcome to Octopus! This book is for the explorers. The automators. The improvers. It's for all the software, platform, operations, and site-reliability engineers. It doesn't matter whether you just downloaded your first Octopus Deploy trial or you're an old friend. This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
 
@@ -13,6 +18,8 @@ Welcome to Octopus! This book is for the explorers. The automators. The improver
 :img{src="/img/topic/books/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy"}
 ::figcaption[The cover of the second edition of Exploring Octopus Deploy]
 :::
+
+Excited? You can get a [free download of Exploring Octopus Deploy](https://octopus.com/publications/exploring-octopus-deploy) from the Octopus website.
 
 ## A journey to simplify deployments and operations tasks with powerful automation
 
@@ -26,13 +33,17 @@ You'll learn:
 
 The second edition is a complete rewrite of Exploring Octopus Deploy. It has been updated with all the features that have been added or updated since the first edition. Find out how to get the most from Octopus by using it for deployments, operations tasks, and self-service actions for your teams.
 
-## Buy the second edition
+## Free download
 
-[Exploring Octopus Deploy on Amazon (UK)](https://www.amazon.co.uk/dp/B0D6VKQNBK/)
+[⇾ Free download from Octopus Deploy (PDF)](https://octopus.com/publications/exploring-octopus-deploy)
 
-[Exploring Octopus Deploy on Amazon (US)](https://www.amazon.com/dp/B0D6VKQNBK/)
+## Buy the second edition paperback
 
-[Exploring Octopus Deploy on Amazon (AU)](https://www.amazon.com.au/dp/B0D6VKQNBK/)
+[⇾ Exploring Octopus Deploy on Amazon (UK)](https://www.amazon.co.uk/dp/B0D6VKQNBK/)
+
+[⇾ Exploring Octopus Deploy on Amazon (US)](https://www.amazon.com/dp/B0D6VKQNBK/)
+
+[⇾ Exploring Octopus Deploy on Amazon (AU)](https://www.amazon.com.au/dp/B0D6VKQNBK/)
 
 The first edition paperback was published in 2015 with ISBN 978-1326294441.
 
