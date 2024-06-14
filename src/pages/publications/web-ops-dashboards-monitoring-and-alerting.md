@@ -1,7 +1,7 @@
 ---
 title: Web Ops Dashboards, Monitoring, and Alerting
 navTitle: Web Ops
-navOrder: 2000
+navOrder: 4000
 pubDate: 2022-10-02
 keywords: web operations,devops,monitoring,dashboards
 description: This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.

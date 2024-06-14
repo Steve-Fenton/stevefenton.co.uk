@@ -1,6 +1,6 @@
 ---
 title: Cranked
-navOrder: 5000
+navOrder: 7000
 pubDate: 2022-10-02
 keywords: agile,cranked,software
 description: Cranked helps teams and organisations to effectively deliver software in a changeable or uncertain environment.

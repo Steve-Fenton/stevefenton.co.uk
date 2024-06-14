@@ -1,6 +1,6 @@
 ---
 title: Software Delivery Research
-navOrder: 900
+navOrder: 2000
 pubDate: 2024-05-01
 keywords: software,delivery,research
 description: Research-related publications and updates.

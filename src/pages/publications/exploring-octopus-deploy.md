@@ -1,6 +1,6 @@
 ---
 title: Exploring Octopus Deploy
-navOrder: 3000
+navOrder: 1000
 pubDate: 2022-10-02
 modDate: 2024-06-12
 keywords: octopus deploy,book

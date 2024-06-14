@@ -1,7 +1,7 @@
 ---
 title: Pro TypeScript - Second Edition
 navTitle: Pro TypeScript
-navOrder: 1000
+navOrder: 3000
 pubDate: 2022-10-02
 keywords: pro typescript,typescript,book,apress
 description: Explore the features of TypeScript, an innovative open-source language. Explains the type system and features.
