@@ -10,6 +10,8 @@ bannerImage:
   alt: 'Exploring Octopus Deploy: A journey to simplify deployments and operations tasks with powerful automation'
 ---
 
+## New edition for 2024
+
 Welcome to Octopus! This book is for the explorers. The automators. The improvers. It's for all the software, platform, operations, and site-reliability engineers. It doesn't matter whether you just downloaded your first Octopus Deploy trial or you're an old friend. This book explains the concepts and features of Octopus Deploy that help you make your complex deployments and runbooks a breeze.
 
 :::figure{.inset-medium}
