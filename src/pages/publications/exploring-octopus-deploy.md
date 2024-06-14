@@ -17,6 +17,8 @@ Welcome to Octopus! This book is for the explorers. The automators. The improver
 ::figcaption[The cover of the second edition of Exploring Octopus Deploy]
 :::
 
+Excited? You can get a [free download of Exploring Octopus Deploy](https://octopus.com/publications/exploring-octopus-deploy) from the Octopus website.
+
 ## A journey to simplify deployments and operations tasks with powerful automation
 
 You'll learn:
