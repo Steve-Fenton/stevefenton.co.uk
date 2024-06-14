@@ -2,7 +2,7 @@
 title: Publications
 navOrder: 3000
 pubDate: 2022-10-02
-modeDate: 2024-06-12
+modDate: 2024-06-12
 keywords: books,steve fenton,typescript,web operations
 description: Steve Fenton's published and self-published books.
 id: 105
