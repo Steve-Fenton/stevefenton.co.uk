@@ -15,7 +15,17 @@ June 2024
 
 The 2024 State of Continuous Integration and Continuous Delivery (CI/CD) Report, commissioned by the Continuous Delivery Foundation (CDF) and Cloudbees, and authored by SlashData, unveils the current landscape of the CI/CD developer ecosystem while exploring its evolution over the past two and a half years. This comprehensive report looks at what proportion of developers are engaged in the broader DevOps space and examines how many work with CD technologies in particular.
 
-[The CD Pipeline Show EP 12](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12)
+[Watch the CD Pipeline Show EP 12](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12)
+
+## The State of CI/CD 2024
+
+May 2024
+
+This is a recording of a webinar we hosted about the 2024 State of CI/CD Report by the CD Foundation. In this video, we explore the latest CI/CD trends and insights and discuss the critical role of DevOps in improving development processes. We'll also cover challenges, like tool interoperability and integrating security practices, and how technological advances shape organizational efficiency in the tech sector.
+
+Speakers: John Bristowe, Steve Fenton, and Dan Garfield
+
+[Watch the State of CI/CD 2024.](https://www.youtube.com/watch?v=vXo8O9PlFDA)
 
 ## The AI governance policy engineering managers needed yesterday
 
