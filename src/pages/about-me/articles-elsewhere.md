@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-04-16
+modDate: 2024-06-17
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -24,6 +24,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
 - [Gatekeepers limit Continuous Delivery’s benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
+- [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 
 ### DevOps culture
 
