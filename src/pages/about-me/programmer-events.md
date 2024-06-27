@@ -2,7 +2,7 @@
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02
-modDate: 2024-03-09
+modDate: 2024-06-27
 keywords: programmer,events
 description: A list of my online and in-person events.
 ---
