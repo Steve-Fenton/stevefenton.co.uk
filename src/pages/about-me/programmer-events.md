@@ -11,6 +11,22 @@ I’ll update this page with any programmer events that I’m running, attending
 
 ## 2024
 
+### June
+
+#### 26th June 2024 (Wednesday): Merging to Main
+
+Live stream webinar on Merging to Main on the topic of Platform Engineering.
+
+#### 17th June 2024 (Monday): The CD Pipeline Show
+
+Panel discussion on the 2024 State of CI/CD Report from the CDF and SlashData.
+
+### May
+
+#### 14th May 2024 (Tuesday): The State of CI/CD 2024
+
+Webinar to look at the State of CI/CD Report from the CDF and SlashData.
+
 ### March
 
 #### 6th March 2024 (Wednesday): Effective DevOps Metrics
