@@ -2,14 +2,22 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2024-06-17
+modDate: 2024-06-27
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
-## Technstrong TV - Navigating the CI/CD Frontier
+## Merging to Main: Productising the Internal Developer Platform
+
+June 2024
+
+Codefresh hosted a discussion on Platform Engineering, which I joined along with host Paul O'Reilly and Bartek Antoniak (VirtusLab), Jordan Chernev (Zillow), and Scott Hiland (Hunter Strategy).
+
+[Watch Merging to Main: Productising the Internal Developer Platform](https://www.youtube.com/watch?v=KbOPrVgBp0U)
+
+## Techstrong TV - Navigating the CI/CD Frontier
 
 June 2024
 
@@ -49,7 +57,7 @@ Following on from my list of [the best DevOps books from before DevOps was inven
 
 October 2023
 
-My opinions on the productivity debacle were featured in this TNS post, with a rare "diagreement" with Kent Beck (though I doubt we really disagree on the fundamentals, I have nothing but respect for his awesome work).
+My opinions on the productivity debacle were featured in this TNS post, with a rare "disagreement" with Kent Beck (though I doubt we really disagree on the fundamentals, I have nothing but respect for his awesome work).
 
 [Read the full article on TNS](https://thenewstack.io/measuring-developer-productivity-whos-winning-the-debate/)
 
