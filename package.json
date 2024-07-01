@@ -26,7 +26,7 @@
     "@astrojs/mdx": "^3.1.2",
     "@img/sharp-linux-x64": "^0.33.4",
     "astro-accelerator": "^4.0.29",
-    "astro-accelerator-utils": "^0.3.7",
+    "astro-accelerator-utils": "^0.3.8",
     "cspell": "^8.9.1",
     "optional": "^0.1.4",
     "sharp": "^0.33.4"
