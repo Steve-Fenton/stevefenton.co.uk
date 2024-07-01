@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.0.29
     version: 4.0.29
   astro-accelerator-utils:
-    specifier: ^0.3.7
-    version: 0.3.7
+    specifier: ^0.3.8
+    version: 0.3.8
   cspell:
     specifier: ^8.9.1
     version: 8.9.1
@@ -1527,8 +1527,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-accelerator-utils@0.3.7:
-    resolution: {integrity: sha512-oQvDPZvEUPtk85F3z+ISYv5IuIQF1iAnbNASPJb/capGE22wqyGqiKRH6q+BhL4FtlitapwH0bs1a5R9q6SSbQ==}
+  /astro-accelerator-utils@0.3.8:
+    resolution: {integrity: sha512-H/MuJ3xsdtHrb4hOZJYMdsnJlsfTRGH8xW4DuawK7yLg7O0q6A8WQEBe4gKUqswqktUYfAm+ikwuNZa4X+r8dA==}
     dev: false
 
   /astro-accelerator@4.0.29:
@@ -1538,7 +1538,7 @@ packages:
       optional: 0.1.4
       '@astrojs/mdx': 2.3.1(astro@4.11.3)
       astro: 4.11.3
-      astro-accelerator-utils: 0.3.7
+      astro-accelerator-utils: 0.3.8
       cspell: 8.9.1
       csv: 6.3.9
       hast-util-from-selector: 3.0.0
