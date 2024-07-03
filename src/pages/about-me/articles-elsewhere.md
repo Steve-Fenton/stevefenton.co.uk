@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-06-17
+modDate: 2024-07-03
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -53,6 +53,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [What is Platform Engineering?](https://octopus.com/devops/platform-engineering/)
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
+- [How to measure Platform Engineering](https://thenewstack.io/how-to-measure-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
 - [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
 - [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
