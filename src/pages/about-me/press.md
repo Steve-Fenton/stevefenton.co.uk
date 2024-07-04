@@ -9,6 +9,14 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## John Bristowe Interview - Exploring Octopus Deploy
+
+June 2024
+
+John Bristowe asked me about the publication of [Exploring Octopus Deploy](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/). Find out why I wrote a new edition and what's changed in this interview.
+
+[Watch John and Steve in conversation](https://www.youtube.com/watch?v=khCGMQiLqLg)
+
 ## Merging to Main: Productising the Internal Developer Platform
 
 June 2024
