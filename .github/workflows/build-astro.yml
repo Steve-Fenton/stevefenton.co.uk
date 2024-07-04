@@ -23,15 +23,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
        
       - name: Install, build, and upload your site
-        uses: withastro/action@v0
+        uses: withastro/action@v2
         with:
-          package-manager: pnpm
-          pnpm-version: 8.7.0
+          package-manager: pnpm@8.7.0
 
   deploy:
     needs: build
@@ -42,7 +41,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
 
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@v0.3.0
