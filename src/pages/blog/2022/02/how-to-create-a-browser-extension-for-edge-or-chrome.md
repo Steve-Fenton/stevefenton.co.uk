@@ -2,7 +2,7 @@
 title: How to create a browser extension for Edge or Chrome
 navMenu: false
 pubDate: 2022-02-08
-modDate: 2022-10-15
+modDate: 2024-07-08
 keywords: browser extension,edge,chrome
 description: Find out how to create a browser extension that can be installed on Edge or Chrome.
 authors:
@@ -95,13 +95,13 @@ Packaging is pretty simple. Just add all the files to a ZIP archive.
 
 ## Publishing
 
-You will need to [register as a developer](https://developer.chrome.com/docs/webstore/register/) for the Chrome Web Store.
+You will need to [register as a developer](https://developer.chrome.com/docs/webstore/register/) for the Chrome Web Store - and here's a quick link to your [dashboard](https://chrome.google.com/u/1/webstore/devconsole/) once you've registered.
 
 Once registered, you can upload your ZIP file and fill in the forms to provide the information Google needs for the listing.
 
 When completed, you can submit your extension for review. If it passes, it will be listed in the store.
 
-You need to [register in the partner centre](https://partner.microsoft.com/) for the Microsft Edge marketplace.
+You need to [register in the partner centre](https://partner.microsoft.com/) for the Microsft Edge marketplace. Here's the [dashboard](https://partner.microsoft.com/en-us/dashboard/microsoftedge/overview) link for when you've registered.
 
 The process for adding the extension is very similar to the Chrome Web Store and has a review stage before the extension is published.
 
