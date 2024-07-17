@@ -2,7 +2,7 @@
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02
-modDate: 2024-07-02
+modDate: 2024-07-11
 keywords: programmer,events
 description: A list of my online and in-person events.
 ---
@@ -11,17 +11,19 @@ I’ll update this page with any programmer events that I’m running, attending
 
 ## 2024
 
-26th June 2024 (Wednesday): Merging to Main
+12th July 2024: Frontify - The DevOps Effect
 
-17th June 2024 (Monday): The CD Pipeline Show
+26th June 2024: Merging to Main
 
-14th May 2024 (Tuesday): The State of CI/CD 2024
+17th June 2024: The CD Pipeline Show
 
-6th March 2024 (Wednesday): DevOps Live: Effective DevOps Metrics (Keynote theatre)
+14th May 2024: The State of CI/CD 2024
+
+6th March 2024: DevOps Live: Effective DevOps Metrics (Keynote theatre)
 
 ## 2023
 
-15th November 2023 (Wednesday): SHIPPED! DORA, DevOps, and Deployments
+15th November 2023: SHIPPED! DORA, DevOps, and Deployments
 
 26th October 2023: Platform Engineering: To Adopt or Not To Adopt
 
@@ -33,37 +35,37 @@ I’ll update this page with any programmer events that I’m running, attending
 
 ## 2022
 
-24th February 2022 (Monday): De-mystifying Linq
+24th February 2022: De-mystifying Linq
 
 ## 2021
 
-16th February 2021 (Tuesday): Online TDD/Refactoring With Visual Studio
+16th February 2021: Online TDD/Refactoring With Visual Studio
 
 ## 2020
 
-19th August 2020 (Wednesday): Using the Approval Tests Library with Visual Studio
+19th August 2020: Using the Approval Tests Library with Visual Studio
 
-13th May 2020 (Wednesday): Online FizzBuzz in C# with Visual Studio
+13th May 2020: Online FizzBuzz in C# with Visual Studio
 
-27th March 2020 (Wednesday): Online Refactoring with Visual Studio Session
+27th March 2020: Online Refactoring with Visual Studio Session
 
-11th March 2020 (Wednesday): Refactoring with Visual Studio
+11th March 2020: Refactoring with Visual Studio
 
 ## 2019
 
-3rd October 2019 (Thursday): Refactoring with Visual Studio
+3rd October 2019: Refactoring with Visual Studio
 
-23rd September 2019 (Monday): .NET Conf Keynote Watch Party
+23rd September 2019: .NET Conf Keynote Watch Party
 
-17th September 2019 (Tuesday): Test Automation with Visual Studio
+17th September 2019: Test Automation with Visual Studio
 
-4th September 2019 (Wednesday): Test Automation with Visual Studio
+4th September 2019: Test Automation with Visual Studio
 
-21st August 2019 (Wednesday): Test Automation with Visual Studio
+21st August 2019: Test Automation with Visual Studio
 
-31st July 2019 (Wednesday): Write an app using TDD in Microsoft Visual Studio
+31st July 2019: Write an app using TDD in Microsoft Visual Studio
 
-2nd April 2019 (Tuesday): Visual Studio 2019 Launch Event
+2nd April 2019: Visual Studio 2019 Launch Event
 
 ## 2016-2018
 
