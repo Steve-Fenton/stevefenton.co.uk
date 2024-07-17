@@ -1189,6 +1189,15 @@ nav.site-nav h2 {
     color: var(--aft);
 }
 
+.author-page {
+    display: flex;
+    gap: var(--grid-gap);
+}
+
+.author-page > img {
+    align-self: self-start;
+}
+
 /* Taxonomy */
 
 .footer-columns {
