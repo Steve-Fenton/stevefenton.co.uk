@@ -27,7 +27,7 @@
     "@img/sharp-linux-x64": "^0.33.4",
     "astro-accelerator": "^4.0.34",
     "astro-accelerator-utils": "^0.3.9",
-    "cspell": "^8.11.0",
+    "cspell": "^8.12.1",
     "optional": "^0.1.4",
     "sharp": "^0.33.4"
   },
