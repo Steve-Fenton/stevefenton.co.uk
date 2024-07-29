@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.33.4
     version: 0.33.4
   astro-accelerator:
-    specifier: ^4.0.37
-    version: 4.0.37
+    specifier: ^4.0.39
+    version: 4.0.39
   astro-accelerator-utils:
     specifier: ^0.3.10
     version: 0.3.10
@@ -1500,8 +1500,8 @@ packages:
     resolution: {integrity: sha512-C5YLvhh0ayhu6BuJ5sOiIPWxSws/X8rzLORScnriM9elbipYBMmlmEVIHL0hgiflzvZlxo2K7q/thn7mQDnDwQ==}
     dev: false
 
-  /astro-accelerator@4.0.37:
-    resolution: {integrity: sha512-5Go30hg/oZ3i+eip8ThzoWi6IlUdGZNGJ+cbN2XgDB5dZvEOeo/oeZabplxrhCBKZJVE/HsblgjHyipVm8lelg==}
+  /astro-accelerator@4.0.39:
+    resolution: {integrity: sha512-zMx+NeM0TiNEtCghV1fQs1Q0S4Y70WIwOpr2LcDU6PY2np3GUlpNeaLHaALaKSmvTCugelN8dPA8CqrBsNOO5w==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
@@ -1572,7 +1572,7 @@ packages:
       http-cache-semantics: 4.1.1
       js-yaml: 4.1.0
       kleur: 4.1.5
-      magic-string: 0.30.10
+      magic-string: 0.30.11
       mrmime: 2.0.0
       ora: 8.0.1
       p-limit: 6.1.0
@@ -2846,8 +2846,8 @@ packages:
       yallist: 3.1.1
     dev: false
 
-  /magic-string@0.30.10:
-    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
+  /magic-string@0.30.11:
+    resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: false
