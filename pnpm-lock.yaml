@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.33.4
     version: 0.33.4
   astro-accelerator:
-    specifier: ^4.0.42
-    version: 4.0.42
+    specifier: ^4.0.43
+    version: 4.0.43
   astro-accelerator-utils:
     specifier: ^0.3.15
     version: 0.3.15
@@ -1492,8 +1492,8 @@ packages:
     resolution: {integrity: sha512-3t0i79FZR3eWTr0A87qLbM7qPe7bcp51PJkLf/PNVyU7XTDc0WsPVXZZHYiKZtQXES1yDgbcgdjofdsWL0D5Gg==}
     dev: false
 
-  /astro-accelerator@4.0.42:
-    resolution: {integrity: sha512-AukS1rFQqQNcV6uZhmOQNlJ939id7hJLsJ2P5g2G9Qrw99oNVtKCO+X7EjFDpurllfBBhQSC/sB+drYl29/EHA==}
+  /astro-accelerator@4.0.43:
+    resolution: {integrity: sha512-wxkI+dsxb/66WeFkEMEH41tKe1naE9vqHsh6O7MPef59Air2cg00cSsUkSlo5r7x7Dp3vLWOGLQYizotU5T58w==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
