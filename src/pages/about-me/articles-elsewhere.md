@@ -26,13 +26,14 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 
-### DevOps culture
+### DevOps culture and developer experience (DevEx)
 
 - [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
 - [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
 - [Practical routes to heathy culture](https://octopus.com/blog/practical-routes-healthy-culture)
 - [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
 - [GitOps Makes for Great DevEx, but Pragmatism Matters](https://thenewstack.io/developers-want-pragmatic-gitops-and-better-cd-tools/)
+- [The doorway effect and developer experience: Why it matters](https://thenewstack.io/the-doorway-effect-and-developer-experience-why-it-matters/)
 
 ### DevOps research
 
@@ -54,6 +55,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [What is Platform Engineering?](https://octopus.com/devops/platform-engineering/)
 - [When to adopt Platform Engineering (and when to choose a different solution)](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
 - [How to measure Platform Engineering](https://thenewstack.io/how-to-measure-platform-engineering/)
+- [8 real-world reasons to adopt Platform Engineering](https://thenewstack.io/8-real-world-reasons-to-adopt-platform-engineering/)
 - [Patterns and anti-patters in Platform Engineering](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
 - [Paved versus golden paths in Platform Engineering](https://octopus.com/blog/paved-versus-golden-paths-platform-engineering)
 - [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
