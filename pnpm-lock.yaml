@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.33.5
     version: 0.33.5
   astro-accelerator:
-    specifier: ^4.0.45
-    version: 4.0.45(typescript@5.5.4)
+    specifier: ^4.0.46
+    version: 4.0.46(typescript@5.5.4)
   astro-accelerator-utils:
     specifier: ^0.3.17
     version: 0.3.17
@@ -1506,8 +1506,8 @@ packages:
     resolution: {integrity: sha512-9h4YVhktboXIwHhJTGJcBXjq00iwLpKIZTbX9Eiz6kkLxjITqfjbDuv4fyAX1SmgY+ffCSmWWYRsmw5RAvjWqA==}
     dev: false
 
-  /astro-accelerator@4.0.45(typescript@5.5.4):
-    resolution: {integrity: sha512-ekcu/qd7WHmpS4lTsMVHjRzeVXODWth/UBENidgVv2T5YUIJrAL6b9YS3i9yzbxyFp59O+wfzNd93XK6MElsog==}
+  /astro-accelerator@4.0.46(typescript@5.5.4):
+    resolution: {integrity: sha512-sfQy05fwTWTRluLm9lvT7hcfz14FoIsgHx9QQnqNHg88iAHq64lHT4WNPDbGdwYNoA7Tv6vvlJfMsduNeIeKAA==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
@@ -4525,7 +4525,7 @@ packages:
     resolution: {integrity: sha512-x30XE43V+InwGpvTySRNz9kB7qFU8DlyEy7BsSTCHPH1R0QasMmHWZDCzYm6bVXtj/9NNJAZF3jW8rzFvH5OFA==}
     peerDependencies:
       typescript: ^4.9.4 || ^5.0.2
-      zod: ^3
+      zod: '>=3.22.3'
     dependencies:
       typescript: 5.5.4
       zod: 3.23.8
