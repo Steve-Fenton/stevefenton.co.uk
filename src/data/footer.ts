@@ -31,6 +31,11 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			url: 'https://thenewstack.io/author/steve-fenton/',
 			order: 1,
 			rel: 'me',
+		},{
+			title: '🔮 Medium',
+			url: 'https://medium.com/@steve.fenton',
+			order: 1,
+			rel: 'me',
 		}]
 }];
 
