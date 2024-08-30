@@ -23,6 +23,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 - [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
 - [Gatekeepers limit Continuous Delivery’s benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
+- [Deploy on Friday? Moratorium doesn't achieve admirable goal](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 
