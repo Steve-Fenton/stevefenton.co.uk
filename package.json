@@ -23,10 +23,10 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.4",
+    "@astrojs/mdx": "^3.1.5",
     "@img/sharp-linux-x64": "^0.33.5",
-    "astro-accelerator": "^4.0.48",
-    "astro-accelerator-utils": "^0.3.17",
+    "astro-accelerator": "^4.0.49",
+    "astro-accelerator-utils": "^0.3.18",
     "cspell": "^8.14.2",
     "optional": "^0.1.4",
     "sharp": "^0.33.5"
