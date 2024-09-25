@@ -2,6 +2,7 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
+modDate: 2024-09-23
 keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
@@ -16,9 +17,23 @@ My favourite research efforts are:
 
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
 
+## State of GitOps
+
+The State of GitOps Survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
+
+By participating, you'll:
+
+- Be the first to get the State of GitOps report
+- Learn where and how teams are using GitOps
+- Discover the real benefits (and challenges) teams face
+
+Thank you in advance for contributing your unique perspective on this topic.
+
+[Submit a response now!](https://octopusdeploy.typeform.com/state-of-gitops)
+
 ## Platform Engineering
 
-My current thread to pull on is Platform Engineering. I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
+I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
 
 Our plan is to:
 
