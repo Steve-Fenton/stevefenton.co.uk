@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/e2d1aa44-21ce-4786-a1ce-e7604aa2c658)---
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
@@ -19,7 +19,9 @@ But also, I'm a naturally curious person. That means I ask questions to find out
 
 ## State of GitOps
 
-The State of GitOps Survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
+I'm working with a team of smart folks on [The State of GitOps Report](https://octopus.com/publications/state-of-gitops-report). The survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
+
+If you can [share the survey](https://octopusdeploy.typeform.com/state-of-gitops), to get it outside of our bubble, that would be amazing, too!
 
 By participating, you'll:
 
