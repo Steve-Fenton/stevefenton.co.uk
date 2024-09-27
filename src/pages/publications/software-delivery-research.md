@@ -2,7 +2,7 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2024-09-23
+modDate: 2024-09-27
 keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
@@ -17,9 +17,9 @@ My favourite research efforts are:
 
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
 
-## State of GitOps
+## State of GitOps report
 
-I'm working with a team of smart folks on [The State of GitOps Report](https://octopus.com/publications/state-of-gitops-report). The survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
+I'm working with a team of smart folks on [The state of GitOps report](https://octopus.com/publications/state-of-gitops-report). The survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
 
 If you can [share the survey](https://octopusdeploy.typeform.com/state-of-gitops), to get it outside of our bubble, that would be amazing, too!
 
