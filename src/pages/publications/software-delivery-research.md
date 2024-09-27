@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e2d1aa44-21ce-4786-a1ce-e7604aa2c658)---
+---
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
