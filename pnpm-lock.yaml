@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.33.5
     version: 0.33.5
   astro-accelerator:
-    specifier: ^4.1.3
-    version: 4.1.3(typescript@5.6.3)
+    specifier: ^4.1.4
+    version: 4.1.4(typescript@5.6.3)
   astro-accelerator-utils:
     specifier: ^0.3.24
     version: 0.3.24
@@ -1560,8 +1560,8 @@ packages:
     resolution: {integrity: sha512-wYx0eOBBbGeHQP0ThMrBIOlyDaDl7j30IcRQeDZLBO46edXrFa35z2MeeABXMKs1hrVOlNP15T9Ok/S0WnpBkw==}
     dev: false
 
-  /astro-accelerator@4.1.3(typescript@5.6.3):
-    resolution: {integrity: sha512-BfqO/B9ZfQQt74owKRGzcjocVeSz3G8UxJBIJFJ8dF6fioaXey2fYG5JYVuryzKFLt2+DzcMg0AalL8RXiE6PQ==}
+  /astro-accelerator@4.1.4(typescript@5.6.3):
+    resolution: {integrity: sha512-E9sAQ+CrtD3OUxrYRbx9f/4fpHB8AJoPpI9/h2rMOw6R4X1CneCfioOwPxvId/rfLd7W9q8LHm+U5E1eOehB9w==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
