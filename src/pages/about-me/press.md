@@ -2,12 +2,22 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2024-06-27
+modDate: 2024-10-23
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## 2024 Accelerate State of DevOps Report
+
+October 2024
+
+I'm really thankful for another hat-tip in the Accelerate State of DevOps report, which is a long-running research effort that investigates what makes great software teams and organizations.
+
+:img{src="/img/topic/dora/sodr-2024-acknowledgements.jpg" alt="The acknowledgements page in the 2024 State of DevOps Report, I'm in great company once again!"}
+
+[Get the 2024 report](https://dora.dev/research/2024/dora-report/)
 
 ## John Bristowe Interview - Exploring Octopus Deploy
 
@@ -60,6 +70,16 @@ December 2023
 Following on from my list of [the best DevOps books from before DevOps was invented](https://shepherd.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Shepherd's [Best Books of 2023](https://shepherd.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
 
 [Read my best reads of 2023](https://shepherd.com/bboy/2023/f/steve-fenton)
+
+## 2023 Accelerate State of DevOps Report
+
+October 2023
+
+I was lucky enough to get a hat-tip in the Accelerate State of DevOps report, which is a long-running research effort that investigates what makes great software teams and organizations.
+
+:img{src="/img/topic/dora/sodr-2023-acknowledgements.jpg" alt="The acknowledgements page in the 2023 State of DevOps Report, I'm in great company!"}
+
+[Get the 2023 report](https://dora.dev/research/2023/dora-report/)
 
 ## The New Stack - Measuring Developer Productivity: Who’s Winning the Debate?
 
