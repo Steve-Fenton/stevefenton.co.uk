@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-07-03
+modDate: 2024-10-23
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -27,6 +27,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
+- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
+- [Stop blaming regulation for poor software delivery performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 
 ### DevOps culture and developer experience (DevEx)
 
@@ -51,6 +53,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [DevOps vs SDLC](https://www.octopus.com/blog/devops-versus-sdlc)
 - [Why maturity models are fundamentally broken](https://thenewstack.io/why-maturity-models-are-fundamentally-broken/)
 - [2 Ways to Reduce Bottlenecks with the Theory of Constraints](https://thenewstack.io/2-ways-to-reduce-bottlenecks-with-the-theory-of-constraints/)
+- [The 2024 DevOps performance clusters](https://octopus.com/blog/2024-devops-performance-clusters)
 
 ## Platform Engineering
 
