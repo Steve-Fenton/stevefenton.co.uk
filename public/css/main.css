@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    interpolate-size: allow-keywords;
 
     @media (prefers-reduced-motion: no-preference) {
         scroll-behavior: smooth;
@@ -48,6 +49,24 @@ a, summary {
         transition: all 200ms ease-in-out;
     }
     
+}
+
+details {
+    overflow: hidden;
+}
+
+details::details-content {
+    block-size: 0;
+    
+    @media (prefers-reduced-motion: no-preference) {
+        transition-property: block-size, content-visibility;
+        transition-duration: .3s;
+        transition-behavior: allow-discrete;
+    }
+}
+
+details[open]::details-content {
+    block-size: auto;
 }
 
 form {
@@ -795,6 +814,7 @@ nav.site-nav h2 {
 .site-search-results-item mark {
     background: none;
     text-decoration: underline;
+    color: var(--fore-head);
 }
 
 .result-path {
