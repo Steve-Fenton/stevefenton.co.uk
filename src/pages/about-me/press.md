@@ -9,6 +9,22 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## Octopus Runbooks webinar
+
+October 2024
+
+Michael Richardson and I discussed what runbooks are, why they are useful, and how people are using them in the real world!
+
+[Watch "Free your teams from maintenance tasks with runbooks"](https://www.youtube.com/watch?v=UEysbmos2T0)
+
+## Cloud Native FM - Platform Engineering
+
+October 2024
+
+Saim and I have been looking into Platform Engineering and we shared some early insights on Clound Native FM.
+
+[Watch People, Processes, Power, and Performance with Platform Engineering](https://www.youtube.com/watch?v=fC-TTfW9S0M)
+
 ## 2024 Accelerate State of DevOps Report
 
 October 2024
