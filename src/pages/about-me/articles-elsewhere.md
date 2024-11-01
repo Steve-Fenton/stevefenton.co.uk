@@ -38,6 +38,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
 - [GitOps Makes for Great DevEx, but Pragmatism Matters](https://thenewstack.io/developers-want-pragmatic-gitops-and-better-cd-tools/)
 - [The doorway effect and developer experience: Why it matters](https://thenewstack.io/the-doorway-effect-and-developer-experience-why-it-matters/)
+- [Speed means nothing without real feedback](https://thenewstack.io/speed-means-nothing-without-real-feedback/)
 
 ### DevOps research
 
