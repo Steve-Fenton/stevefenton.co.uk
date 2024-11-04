@@ -14,5 +14,6 @@
         "src/pages/2020/": true,
         "src/pages/2021/": true,
         "src/pages/2022/": true
-    }
+    },
+    "markdown.replaceSmartQuotes": true
 }
