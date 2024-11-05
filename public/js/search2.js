@@ -1,6 +1,7 @@
 /**
  * This javascript file comes from Astro Accelerator
  * Edits will be overwritten if you change the file locally
+ * THIS IS THE PREVIOUS SEARCH VERSION
  *
  * @format
  */
@@ -27,17 +28,6 @@ function enabled(settings, option) {
 }
 
 /**
- *
- * @param {any} value
- * @param {number} index
- * @param {any[]} array
- * @returns
- */
-function unique(value, index, array) {
-    return array.indexOf(value) === index;
-}
-
-/**
 @typedef {
     {
         text: string;
@@ -49,7 +39,6 @@ function unique(value, index, array) {
 @typedef {
     {
         foundWords: number;
-        foundTerms: string[];
         score: number;
         depth: number;
         title: string;
@@ -84,7 +73,6 @@ function initializeSearch() {
     var currentQuery = '';
     var dataUrl = siteSearchElement.dataset.sourcedata;
 
-    // Legacy scoring
     var scoring = {
         depth: 5,
         phraseTitle: 60,
@@ -95,14 +83,6 @@ function initializeSearch() {
         termDescription: 15,
         termTags: 15,
         termKeywords: 15,
-    };
-
-    // Found word scoring
-    const scores = {
-        titleExact: 20,
-        titleContains: 15,
-        headingContains: 10,
-        contentContains: 1,
     };
 
     var ready = false;
@@ -267,7 +247,6 @@ function initializeSearch() {
     /**
      * Replaces synonyms
      * @param {string[]} queryTerms
-     * @returns {Promise<string[]>}
      */
     async function replaceSynonyms(queryTerms) {
         const synonyms = await getSynonyms();
@@ -275,16 +254,11 @@ function initializeSearch() {
         for (let i = 0; i < queryTerms.length; i++) {
             const term = queryTerms[i];
             if (synonyms[term] != null) {
-                if (synonyms[term].length === 0) {
-                    // @ts-ignore
-                    queryTerms[i] = null;
-                } else {
-                    queryTerms.push(synonyms[term]);
-                }
+                queryTerms.push(synonyms[term]);
             }
         }
 
-        return queryTerms.filter((qt) => qt != null);
+        return queryTerms;
     }
 
     /**
@@ -306,7 +280,7 @@ function initializeSearch() {
         }
 
         /** @type {SearchEntry[]} */
-        let needles = [];
+        const needles = [];
 
         // Clean the input
         const cleanQuery = sanitise(s);
@@ -332,7 +306,6 @@ function initializeSearch() {
         cleanQuery.length > 0 &&
             haystack.forEach((item) => {
                 item.foundWords = 0;
-                item.foundTerms = [];
                 item.score = 0;
                 item.matchedHeadings = [];
 
@@ -342,12 +315,12 @@ function initializeSearch() {
 
                 // Title
                 if (item.safeTitle === currentQuery) {
-                    item.foundWords += scores.titleExact;
+                    item.foundWords += 2;
                 }
 
                 if (contains(item.safeTitle, currentQuery)) {
                     item.score = item.score + scoring.phraseTitle;
-                    item.foundWords += scores.titleContains;
+                    item.foundWords += 2;
                 }
 
                 // Headings
@@ -355,21 +328,19 @@ function initializeSearch() {
                     if (contains(c.safeText, currentQuery)) {
                         item.score = item.score + scoring.phraseHeading;
                         item.matchedHeadings.push(c);
-                        item.foundWords += scores.headingContains;
+                        item.foundWords++;
                     }
                 });
 
                 // Description
                 if (contains(item.description, currentQuery)) {
                     item.score = item.score + scoring.phraseDescription;
-                    item.foundWords += scores.contentContains;
+                    item.foundWords++;
                 }
 
                 // Part 2 - Term Matches, i.e. "Kitchen" or "Sink"
 
                 let foundWords = 0;
-                /** @type{string[]} */
-                let foundTerms = [];
 
                 allTerms.forEach((term) => {
                     let isTermFound = false;
@@ -377,7 +348,6 @@ function initializeSearch() {
                     // Title
                     if (contains(item.safeTitle, term)) {
                         item.score = item.score + scoring.termTitle;
-                        item.foundWords += scores.titleContains / 2;
                         isTermFound = true;
                     }
 
@@ -385,7 +355,6 @@ function initializeSearch() {
                     item.headings.forEach((c) => {
                         if (contains(c.safeText, term)) {
                             item.score = item.score + scoring.termHeading;
-                            item.foundWords += scores.headingContains / 2;
                             isTermFound = true;
 
                             if (
@@ -420,14 +389,10 @@ function initializeSearch() {
 
                     if (isTermFound) {
                         foundWords++;
-                        foundTerms.push(term);
                     }
                 });
 
                 item.foundWords += foundWords;
-                item.foundTerms = item.foundTerms
-                    .concat(foundTerms)
-                    .filter(unique);
 
                 if (item.score > 0) {
                     needles.push(item);
@@ -448,16 +413,12 @@ function initializeSearch() {
             }
         });
 
-        needles = needles.sort(function (a, b) {
-            if (b.foundTerms.length === a.foundTerms.length) {
-                if (b.foundWords === a.foundWords) {
-                    return b.score - a.score;
-                }
-
-                return b.foundWords - a.foundWords;
+        needles.sort(function (a, b) {
+            if (b.foundWords === a.foundWords) {
+                return b.score - a.score;
             }
 
-            return b.foundTerms.length - a.foundTerms.length;
+            return b.foundWords - a.foundWords;
         });
 
         const total = needles.reduce(function (accumulator, needle) {
