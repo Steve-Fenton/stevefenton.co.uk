@@ -13,7 +13,7 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			rel: 'me',
 		},{
 			title: '🦋 Bluesky',
-			url: 'https://bsky.app/profile/steve-fenton.bsky.social',
+			url: 'https://bsky.app/profile/stevefenton.co.uk',
 			order: 20,
 			rel: 'me',
 		},{
