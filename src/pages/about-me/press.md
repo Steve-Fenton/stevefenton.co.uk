@@ -2,12 +2,20 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2024-10-23
+modDate: 2024-11-12
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## DevEx Connect Manchester
+
+October 2024
+
+My talk from the first ever DevEx Connect event in Manchester, Effective DevOps Metrics. The super-friendly crowd made this a lot of fun to explore.
+
+[Watch Effective DevOps Metrics](https://www.youtube.com/watch?v=Rvr4Nr_-510)
 
 ## Octopus Runbooks webinar
 
@@ -75,7 +83,7 @@ February 2024
 
 Jennifer Riggins wrote a really practical guide about the need for people to get their policy in order around generative AI. I was lucky enough to be included with my thoughts on the allure of volume. At Octopus, we have a company value about _doing fewer things at a higher quality_.
 
-> “We’re taking a deliberate path of avoiding the allure of volume. Yes, we could get more things by pumping them out, but we’re more interested in creating fewer things at higher quality. That makes some of the options – [like] ChatGPT – less appealing,” Octopus Deploy’s Fenton said. “When software delivery is the constraint, a business has to make choices. Imagine if that constraint were removed, so you could have all the features you ever wanted – would that be good software?”
+> "We're taking a deliberate path of avoiding the allure of volume. Yes, we could get more things by pumping them out, but we're more interested in creating fewer things at higher quality. That makes some of the options – [like] ChatGPT – less appealing," Octopus Deploy's Fenton said. "When software delivery is the constraint, a business has to make choices. Imagine if that constraint were removed, so you could have all the features you ever wanted – would that be good software?"
 
 [Read the AI policy article on LeadDev](https://leaddev.com/process/ai-governance-policy-engineering-managers-needed-yesterday)
 
@@ -97,7 +105,7 @@ I was lucky enough to get a hat-tip in the Accelerate State of DevOps report, wh
 
 [Get the 2023 report](https://dora.dev/research/2023/dora-report/)
 
-## The New Stack - Measuring Developer Productivity: Who’s Winning the Debate?
+## The New Stack - Measuring Developer Productivity: Who's Winning the Debate?
 
 October 2023
 
@@ -181,7 +189,7 @@ August 2021
 
 [Basarat Ali Syed](https://basarat.com/) – Microsoft MVP, Cypress Ambassador, author, open-sourcer, and more – gave me a very kind mention in his Microsoft MVP Primer video.  
 
-[Watch Bas’s YouTube video MVP Primer.](https://www.youtube.com/watch?v=LM5GP0g9Z48)
+[Watch Bas's YouTube video MVP Primer.](https://www.youtube.com/watch?v=LM5GP0g9Z48)
 
 ## CSS Tricks – Map Interactivity Issues
 
@@ -189,7 +197,7 @@ March 2021
 
 Chris Coyier delves a bit deeper into the usability issues that occur when you embed a map on your web page (I posted a method to [help users trapped in maps here](/blog/2021/03/here-maps-scroll-wheel-temporary-fix/)).  
 
-[See Chris’ Article on CSS Tricks](https://css-tricks.com/maps-scroll-wheel-fix/).
+[See Chris' Article on CSS Tricks](https://css-tricks.com/maps-scroll-wheel-fix/).
 
 ## 2019 BIG Innovation Awards – Glasswall
 
@@ -214,9 +222,9 @@ React DOM, the React newsletter, featured Pro TypeScript in their list of the be
 
 The What Pixel top ten TypeScript books features Pro TypeScript in the top spot. They said:
 
-> This is perhaps one of the best books for beginners and experts alike. If you’re brand new to TypeScript you will learn everything you need by reading Pro TypeScript. The author Steve Fenton does an excellent job of explaining the fundamentals and how TS compiles down into JavaScript.
+> This is perhaps one of the best books for beginners and experts alike. If you're brand new to TypeScript you will learn everything you need by reading Pro TypeScript. The author Steve Fenton does an excellent job of explaining the fundamentals and how TS compiles down into JavaScript.
 > 
-> But Steve also explains specific design patterns and best practices for writing quality TypeScript code. Each chapter builds upon the last and you never feel like you’re left out to dry on your own. – [What Pixel](http://whatpixel.com/top-10-typescript-books/)
+> But Steve also explains specific design patterns and best practices for writing quality TypeScript code. Each chapter builds upon the last and you never feel like you're left out to dry on your own. – [What Pixel](http://whatpixel.com/top-10-typescript-books/)
 
 [View the list on What Pixel](http://whatpixel.com/top-10-typescript-books/).
 
@@ -224,14 +232,14 @@ The What Pixel top ten TypeScript books features Pro TypeScript in the top spot.
 
 June 2016  
 
-Glasswall’s Email Security solution has won “Best Email Security Solution” in the SC Magazine Awards.  
+Glasswall's Email Security solution has won "Best Email Security Solution" in the SC Magazine Awards.  
 [View all of the award winners on SC Magazine](https://web.archive.org/web/20160712110643/http://www.scmagazineuk.com/sc-awards-europe-2016-winners-announcements/article/500995/).
 
 ## ZenHub on Medium
 
 June 2016  
 
-ZenHub used a little quote in their article “How to use GitHub for agile project management”.
+ZenHub used a little quote in their article "How to use GitHub for agile project management".
 
 > If a developer is interrupted with a question, it could put their work back by hours for each interruption. This is because of the amount of stuff they are holding in their immediate memory while they are working on a feature. They will have parsed lots of code in the area they will be working on and will have projected their changes in their mind before they start coding and the interruption will impact their focus on this information.  
 > Once interrupted the developer may decide to batch other interruptions like email into the break — but this elongates the gap and makes it more likely that the information will be squirrelled away into harder to access places.
@@ -280,7 +288,7 @@ March 2015
 
 Natali Vlatko talks about #NoEstimates and mentions some of my thoughts on the subject (along with those of some of the #NoEstimates thought leaders).
 
-> Fenton advises that to eventually work without estimates requires a building of trust that may not already exist, therefore you shouldn’t be aiming for #NoEstimates without it. He feels the anger that has been thrust upon the topic has come out of a misunderstanding of the framework, with people interpreting the phrase ‘some teams have found that they don’t need to use estimates’ as ‘YOU must stop using estimates’.
+> Fenton advises that to eventually work without estimates requires a building of trust that may not already exist, therefore you shouldn't be aiming for #NoEstimates without it. He feels the anger that has been thrust upon the topic has come out of a misunderstanding of the framework, with people interpreting the phrase 'some teams have found that they don't need to use estimates' as 'YOU must stop using estimates'.
 
 [Read the full article on JAXenter](https://web.archive.org/web/20220521093718/https://jaxenter.com/role-estimates-software-development-115345.html).
 
@@ -288,13 +296,13 @@ Natali Vlatko talks about #NoEstimates and mentions some of my thoughts on the s
 
 January 2015  
 
-Rob Moore mentioned my Unit Testing Epiphany article in a post discussing Ian Cooper’s “TDD Where Did it all Go Wrong” talk.
+Rob Moore mentioned my Unit Testing Epiphany article in a post discussing Ian Cooper's "TDD Where Did it all Go Wrong" talk.
 
-> Ian suggests that the original TDD Flow outlined by Kent Beck has been lost in translation by most people. This is summed up nicely by Steve Fenton in his summary of Ian’s talk
+> Ian suggests that the original TDD Flow outlined by Kent Beck has been lost in translation by most people. This is summed up nicely by Steve Fenton in his summary of Ian's talk
 
-[Read the full article on Rob’s website](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/).
+[Read the full article on Rob's website](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/).
 
-## Franky’s Notes
+## Franky's Notes
 
 March 2014  
 
@@ -302,17 +310,17 @@ Franky kindly recommended my InfoQ book, TypeScript for C# Programmers.
 
 > Great book that in less than hundred pages, explains to me how to code in TypeScript. I feel so comfortable already I will add TypeScript in my next web project, and I will strongly recommend this book to everyone.
 
-[Read the article on Franky’s Notes](http://www.frankysnotes.com/2014/03/reading-notes-132.html)
+[Read the article on Franky's Notes](http://www.frankysnotes.com/2014/03/reading-notes-132.html)
 
-## Ryan O’Neill
+## Ryan O'Neill
 
 February 2014  
 
-Ryan O’Neill reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
+Ryan O'Neill reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 
-> If you just want the summary, get the book, it’s free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast. This book was my introduction to TypeScript and has enabled me to build a lot of tested JavaScript. If you are unsure if you need TypeScript then read on.
+> If you just want the summary, get the book, it's free, well written, does not waffle on (unlike myself) and gets you started with TypeScript fast. This book was my introduction to TypeScript and has enabled me to build a lot of tested JavaScript. If you are unsure if you need TypeScript then read on.
 
-[Read the full review in Ryan’s article](https://web.archive.org/web/20160318141933/http://ryanoneill.com/typescript-succintly/).
+[Read the full review in Ryan's article](https://web.archive.org/web/20160318141933/http://ryanoneill.com/typescript-succintly/).
 
 ## Microsoft
 
@@ -322,15 +330,15 @@ Microsoft gave a shout-out for my free TypeScript Succinctly ebook, available fr
 
 > The e-book is specifically aimed at .NET developers, based on version 0.9 of Typescript.
 
-## Corrado’s Blog
+## Corrado's Blog
 
 August 2013  
 
 Corrado reviewed my free TypeScript Succinctly ebook, available from Syncfusion.
 
-> The book doesn’t pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it, it starts from what happens under the hood: how code is transformed into pure ECMAScript compatible JavaScript and vice versa to how to start writing some code in Visual Studio after installing the required extension.
+> The book doesn't pretend to make you a TypeScript guru but its a great introduction if you want seriously mastering it, it starts from what happens under the hood: how code is transformed into pure ECMAScript compatible JavaScript and vice versa to how to start writing some code in Visual Studio after installing the required extension.
 
-## Fokko’s View on ALM
+## Fokko's View on ALM
 
 17th June 2013  
 
@@ -338,7 +346,7 @@ Fokko Veegens kindly mentioned my articles on unit testing after speaking at SDN
 
 > …During my talk at the SDN conference, I told about misconceptions regarding unit testing. Some people were looking at me with a frown when I told this. I would like to refer to the blog of Steve Fenton who wrote about this subject and I rate his post on this topic quite high.
 
-[Read the full article in Fokko’s View on ALM…](http://veegens.wordpress.com/2013/06/17/sdn-june-2013-conference-additional-links/).
+[Read the full article in Fokko's View on ALM…](http://veegens.wordpress.com/2013/06/17/sdn-june-2013-conference-additional-links/).
 
 ## .NET Magazine
 
@@ -346,7 +354,7 @@ Fokko Veegens kindly mentioned my articles on unit testing after speaking at SDN
 
 I was quoted in an article in .NET Magazine on the new TypeScript language:
 
-> …Steve Fenton calling it a “great new take on the JavaScript problem”, and “the first that doesn’t assume that JavaScript is a problem in the first place”. He said TypeScript “just adds some syntactic sugar that makes the development experience more productive”.
+> …Steve Fenton calling it a "great new take on the JavaScript problem", and "the first that doesn't assume that JavaScript is a problem in the first place". He said TypeScript "just adds some syntactic sugar that makes the development experience more productive".
 
 [Read the full article in .NET Magazine…](http://www.creativebloq.com/javascript/microsoft-unveils-typescript-10126055).
 
@@ -385,7 +393,7 @@ The Web Design Journal published an article on 10 Fresh jQuery Plugins and Tutor
 
 6th August 2010  
 
-I received a great write up on 1st Web Designer for my jQuery Constant Footer plugin. They said… “I love plugins that aren’t spread out. They do only one thing, but do it as good as possible. And jQuery.constantfooter is one of those plugins”.
+I received a great write up on 1st Web Designer for my jQuery Constant Footer plugin. They said… "I love plugins that aren't spread out. They do only one thing, but do it as good as possible. And jQuery.constantfooter is one of those plugins".
 
 ## Save Delete
 
@@ -398,7 +406,7 @@ On 16th December 2010, I was also lucky enough to be featured in the Save Delete
 
 28th April 2010  
 
-Smashing Magazine published an article titled “40 Useful jQuery Techniques and Plugins” and my Two Sided Multi-Selector plugin got a great mention.  
+Smashing Magazine published an article titled "40 Useful jQuery Techniques and Plugins" and my Two Sided Multi-Selector plugin got a great mention.  
 You can read the full article on the [Smashing Magazine website](https://web.archive.org/web/20100830170308/https://www.smashingmagazine.com/2010/04/27/45-useful-jquery-techniques-and-plugins/).
 
 ## W3 Avenue
