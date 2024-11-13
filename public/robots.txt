@@ -1,28 +1,37 @@
 User-agent: *
 Disallow: /
+DisallowAITraining: *
 
 User-agent: Bingbot
 Disallow:
+DisallowAITraining: *
 
 User-agent: DuckDuckBot
 Disallow:
+DisallowAITraining: *
 
 User-agent: Exabot
 Disallow:
+DisallowAITraining: *
 
 User-agent: Kagi
 Disallow:
+DisallowAITraining: *
 
 User-agent: Kukei.eu-Bot
 Disallow:
+DisallowAITraining: *
 
 User-agent: Googlebot
 Disallow:
+DisallowAITraining: *
 
 User-agent: Googlebot-Image
 Disallow:
+DisallowAITraining: *
 
 User-agent: Mojeek
 Disallow:
+DisallowAITraining: *
 
 Sitemap: https://www.stevefenton.co.uk/sitemap.xml
