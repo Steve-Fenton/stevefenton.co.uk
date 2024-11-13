@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-10-25
+modDate: 2024-11-12
 keywords: writing,octopus,devops,continous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -104,6 +104,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
   Use Octopus to document and track manual deployments and use this as a jumping-off point to automate steps.
 - [Octolint best practices](https://octopus.com/blog/octolint-best-practices) \
   The excellent Octolint tool surfaces some good practices that are super useful for Octopus users.
+- [Free your teams from maintenance tasks with runbooks](https://octopus.com/blog/reduce-maintenance-toil-with-runbooks) \
+  Use Octopus to provide push-button self-service tasks and ditch all the toil.
 
 ## Kubernetes
 
