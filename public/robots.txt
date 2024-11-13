@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /
-DisallowAITraining: *
+DisallowAITraining: /
 
 User-agent: Bingbot
 Disallow:
