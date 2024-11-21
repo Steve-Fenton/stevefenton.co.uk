@@ -77,6 +77,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
 - [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
 - [How measurement elevation and aggregation change behaviours](https://thenewstack.io/how-measurement-elevation-and-aggregation-change-behaviors/)
+- [Relax about your DORA metrics](https://thenewstack.io/relax-about-your-dora-metrics/)
 
 ## Multi-tenancy:
 
