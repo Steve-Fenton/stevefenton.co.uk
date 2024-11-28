@@ -15,5 +15,17 @@
         "src/pages/2021/": true,
         "src/pages/2022/": true
     },
-    "markdown.replaceSmartQuotes": true
+    "markdown.replaceSmartQuotes": true,
+    "markdown.validate.enabled": false,
+    "files.associations": {
+        "*.mdx": "markdown"
+    },
+    "[markdown]": {
+    },
+    "markdownlint.run": "onSave",
+    "markdownlint.config": {
+        "emphasis": { "style": "asterisk" },
+        "no-inline-html": false,
+        "ul-style": { "style": "dash" }
+    },
 }
