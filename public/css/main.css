@@ -222,6 +222,7 @@ figure {
     background-color: var(--aft-block);
     padding: 1rem;
     box-shadow: var(--box-shadow);
+    border-radius: var(--block-radius);
 }
 
 figure > p {
