@@ -3,7 +3,7 @@ title: Facing the reality of AI
 navMenu: false
 pubDate: 2023-02-19
 modDate: 2024-09-24
-keywords: ai,artifical intelligence,maching learning,chatgpt
+keywords: ai,artificial intelligence,machine learning,chatgpt
 description: Facing the reality of the current wave of Chat-GPT hype and large language models.
 bannerImage:
     src: /img/topic/abstract/ai.png
@@ -30,7 +30,7 @@ Imagine you managed a forest and needed to thin out a population of Ash trees to
 
 Automation of any kind opens up the possibility of making high-velocity mistakes. The size and speed of error is often overlooked unless it makes a headline. In the UK, mistakes in the Post Office computer system led to [hundreds of sub-postmasters being wrongfully prosecuted](https://www.theguardian.com/business/2021/may/08/post-office-contacts-hundreds-who-may-have-been-wrongfully-prosecuted). In my opinion, accidentally sending an email to vast numbers of people that might cause anxiety or loss of time is also wrong. It also happens with alarming frequency, as my good friend *{{name}}* will tell you.
 
-You may be thinking: "But some human mistakes are catastriphic". You're right, there are well known disasters caused by human error spurred on by systemic problems. The proverbial repair tag covering a warning light, if you will. Although these were *huge* events, they affected one big thing. Automation may have affected many more big things - it would scale a big disaster to even more extreme extents.
+You may be thinking: "But some human mistakes are catastrophic". You're right, there are well known disasters caused by human error spurred on by systemic problems. The proverbial repair tag covering a warning light, if you will. Although these were *huge* events, they affected one big thing. Automation may have affected many more big things - it would scale a big disaster to even more extreme extents.
 
 ## The trash heap already exists
 
@@ -80,17 +80,17 @@ Yes, the people who were happy to copy/paste their way to engagement and page vi
 
 ## Search engine answers
 
-Each time we have depended on a central platform, it has proven that the best feature of The Web is decentralisation. We are re-discovering [RSS feeds](https://www.stevefenton.co.uk/blog/feed.xml) and realising that the Fediverse is an escape from centralised social platforms that exist to pay dividends or to serve the whims of billionaire owners.
+Each time we have depended on a central platform, it has proven that the best feature of The Web is decentralisation. We are re-discovering [RSS feeds](https://www.stevefenton.co.uk/feed.xml) and realising that the Fediverse is an escape from centralised social platforms that exist to pay dividends or to serve the whims of billionaire owners.
 
 People are even coming to terms with the fact that HTML and CSS are the best way to make websites, rather than hundreds or thousands of lines of JavaScript.
 
-No matter how high we jump away from the terra firma that is The Web, gravity always brings us back to the [orginal concept](https://www.w3.org/History/1989/proposal.html).
+No matter how high we jump away from the terra firma that is The Web, gravity always brings us back to the [original concept](https://www.w3.org/History/1989/proposal.html).
 
 The thought of search engines abandoning being *organisers of information* to become a source of word-soup is more than disappointing. It further centralizes our source of information when we should instead be decentralising it.
 
 ## Don't forget the good stuff
 
-I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals. I also love [Visual Studio's *IntelliCode*](https://www.stevefenton.co.uk/blog/2018/05/visual-studio-intellicode/) and similar assistive tools (some of which are based on the same bones as generative AI, which can make the disussion confusing).
+I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals. I also love [Visual Studio's *IntelliCode*](https://www.stevefenton.co.uk/blog/2018/05/visual-studio-intellicode/) and similar assistive tools (some of which are based on the same bones as generative AI, which can make the discussion confusing).
 
 Like other automation, AI should be removing toil. Machine-generated content does the opposite, amplifying noise and distortion until all signal is lost.
 
@@ -105,7 +105,7 @@ Volunteer moderators on Stack Overflow now have longer queues. Small publishers 
 Sadly, the ability of machines to generate text, images, and video has led to the following:
 
 1. The devaluing of real content, thanks to...
-2. Growing skepticism about the origin of content
+2. Growing scepticism about the origin of content
 
 Imagine if what we are facing with AI is the loss of faith in *all* content. To combat this, the only answer is to thoroughly reject all AI content. If you write original text, don't top it with an AI-generated image, and don't add AI-generated video alongside it. If you add *any* generated content, no matter how small, it devalues all other content alongside it. That one AI-generated image infects everything associated with it.
 
@@ -117,7 +117,7 @@ If you create content with a tool like ChatGPT, it is of no use to anyone who ha
 
 One of the popular use cases for *AI* is asking it to generate ideas for content. Please take a moment to think about this!
 
-Is it a good idea for someone bereft of original ideas to be sat in contemplation of writing? Wouldn't it be better for that person to read instead? 
+Is it a good idea for someone bereft of original ideas to be sat in contemplation of writing? Wouldn't it be better for that person to read instead?
 
 That way, they may be the source of original thoughts in the future (a great deal of invention is assembling disparate concepts into some new combination).
 
