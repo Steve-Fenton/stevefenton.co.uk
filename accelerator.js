@@ -94,6 +94,13 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
+  './node_modules/astro-accelerator/src/pages/articles/feed.xml.ts',
+  './src/pages/feed.xml.ts',
+  true
+);
+
+
+copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/search.md',
     './src/pages/search.md',
     true

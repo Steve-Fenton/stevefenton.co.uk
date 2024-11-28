@@ -3,7 +3,7 @@ export const SITE = {
 	subfolder: '',
 	useTrailingUrlSlash: true,
 	captureStatistics: false,
-	feedUrl: '/blog/feed.xml',
+	feedUrl: '/feed.xml',
 	title: 'Steve Fenton',
 	description: 'My website, tech blog, and other information.',
 	defaultLanguage: 'en',
