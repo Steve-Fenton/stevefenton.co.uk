@@ -42,11 +42,13 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ### DevOps research
 
+- [Focus returns to transformational leadership](https://cd.foundation/blog/2024/11/19/transformational-leadership/)
+- [The State of CI/CD Report 2024: The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)
 - [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
+- [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
-- [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
-- [The State of CI/CD Report 2024: The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)
+
 
 ### DevOps and software delivery
 
@@ -77,6 +79,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Platform Engineering metrics - the MONK metrics](https://octopus.com/devops/metrics/monk-metrics/)
 - [DevEx (Developer Experience) metrics](https://octopus.com/devops/metrics/devex-metrics/)
 - [How measurement elevation and aggregation change behaviours](https://thenewstack.io/how-measurement-elevation-and-aggregation-change-behaviors/)
+- [Relax about your DORA metrics](https://thenewstack.io/relax-about-your-dora-metrics/)
 
 ## Multi-tenancy:
 
