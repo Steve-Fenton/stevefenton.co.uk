@@ -2,6 +2,7 @@
 title: Lookup DNS on a specific nameserver with NSLOOKUP
 navMenu: false
 pubDate: 2020-11-10T16:06:11+00:00
+modDate: 2024-12-05
 authors:
     - steve-fenton
 categories:
@@ -15,10 +16,10 @@ The `nslookup` command is really easy to use. You just type `nslookup [host-name
 
 ## Find the nameservers with NSLOOKUP
 
-Let’s look up the nameservers for our website. We’ll usually get back multiple answers. Two or three is pretty common. We can use `nslookup -querytype=ns [root domain]` to do this.
+Let's look up the nameservers for our website. We'll usually get back multiple answers. Two or three is pretty common. We can use `nslookup -q=ns [root domain]` to do this.
 
 ```cmd
-nslookup -querytype=ns stevefenton.co.uk
+nslookup -q=ns stevefenton.co.uk
 Server:  UnKnown
 Address:  1.1.1.1
 
@@ -52,21 +53,25 @@ Simple DNS Check
 
 ```cmd
 nslookup [host-name]
+
 nslookup www.example.com
 ```
 
 Specific Record Type Check
 
 ```cmd
-nslookup -querytype=[record-type] [host-name]
-nslookup -querytype=mx example.com
+nslookup -q=[record-type] [host-name]
+
+nslookup -q=txt example.com
+nslookup -q=mx example.com
 ```
 
 Nameserver Lookup
 
 ```cmd
-nslookup -querytype=ns [host-name]
-nslookup -querytype=ns example.com
+nslookup -q=ns [host-name]
+
+nslookup -q=ns example.com
 ```
 
 DNS Check Against Specific Nameserver
@@ -75,3 +80,5 @@ DNS Check Against Specific Nameserver
 nslookup [host-name] [nameserver]
 nslookup www.example.com a.iana-servers.net
 ```
+
+Note: The `-q` flag was formerly known as `-querytype`.
