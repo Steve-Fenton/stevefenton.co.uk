@@ -1005,12 +1005,14 @@ nav.site-nav h2 {
 
 .post-list .list-item[data-image='true'] > article {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "content img";
 
     @media (max-width: 680px) {
         /* Special Case - We let it be two-column until later */
         display: unset;
         grid-template-columns: unset;
+        grid-template-areas: unset;
     }
 }
 
@@ -1019,6 +1021,7 @@ nav.site-nav h2 {
     display: grid;
     grid-template-rows: auto fit-content(5rem);
     grid-gap: 1rem;
+    grid-area: content;
 }
 
 .post-list .list-item-content .post-meta {
@@ -1042,7 +1045,7 @@ nav.site-nav h2 {
 }
 
 .post-list .list-item[data-image='true'] .list-item-image {
-    background-color: var(--aft-head);
+    background-color: var(--fore-link);
     padding: 1.5rem;
 }
 
@@ -1055,6 +1058,8 @@ nav.site-nav h2 {
     box-shadow: var(--box-shadow);
     transform: rotate(-3deg);
     border-radius: var(--block-radius);
+    grid-area: img;
+    border: 3px solid var(--fore-link);
 
     @media (max-width: 680px) {
         filter: grayscale(calc(1 - var(--imgshown)));
