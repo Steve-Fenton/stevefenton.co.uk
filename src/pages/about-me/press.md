@@ -9,13 +9,21 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## SHIPPED24
+
+November 2024
+
+My second appearance at the free virtual conference, SHIPPED. This year I talked about effective DevOps metrics.
+
+[Watch Effective DevOps Metrics (SHIPPED24)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
+
 ## DevEx Connect Manchester
 
 October 2024
 
 My talk from the first ever DevEx Connect event in Manchester, Effective DevOps Metrics. The super-friendly crowd made this a lot of fun to explore.
 
-[Watch Effective DevOps Metrics](https://www.youtube.com/watch?v=Rvr4Nr_-510)
+[Watch Effective DevOps Metrics (DevEx Connect)](https://www.youtube.com/watch?v=Rvr4Nr_-510)
 
 ## Octopus Runbooks webinar
 
@@ -81,7 +89,7 @@ Speakers: John Bristowe, Steve Fenton, and Dan Garfield
 
 February 2024
 
-Jennifer Riggins wrote a really practical guide about the need for people to get their policy in order around generative AI. I was lucky enough to be included with my thoughts on the allure of volume. At Octopus, we have a company value about _doing fewer things at a higher quality_.
+Jennifer Riggins wrote a really practical guide about the need for people to get their policy in order around generative AI. I was lucky enough to be included with my thoughts on the allure of volume. At Octopus, we have a company value about *doing fewer things at a higher quality*.
 
 > "We're taking a deliberate path of avoiding the allure of volume. Yes, we could get more things by pumping them out, but we're more interested in creating fewer things at higher quality. That makes some of the options – [like] ChatGPT – less appealing," Octopus Deploy's Fenton said. "When software delivery is the constraint, a business has to make choices. Imagine if that constraint were removed, so you could have all the features you ever wanted – would that be good software?"
 
@@ -223,7 +231,7 @@ React DOM, the React newsletter, featured Pro TypeScript in their list of the be
 The What Pixel top ten TypeScript books features Pro TypeScript in the top spot. They said:
 
 > This is perhaps one of the best books for beginners and experts alike. If you're brand new to TypeScript you will learn everything you need by reading Pro TypeScript. The author Steve Fenton does an excellent job of explaining the fundamentals and how TS compiles down into JavaScript.
-> 
+>
 > But Steve also explains specific design patterns and best practices for writing quality TypeScript code. Each chapter builds upon the last and you never feel like you're left out to dry on your own. – [What Pixel](http://whatpixel.com/top-10-typescript-books/)
 
 [View the list on What Pixel](http://whatpixel.com/top-10-typescript-books/).
