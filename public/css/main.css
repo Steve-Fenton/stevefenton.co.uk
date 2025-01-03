@@ -1141,9 +1141,10 @@ nav.site-nav h2 {
     margin: var(--margin-size) var(--margin-size-negative);
     padding: 1rem;
     background-color: var(--aft-block);
+    gap: var(--block-gap);
 
     @media (max-width: 860px) {
-        display: block;
+        flex-direction: column;
     }
 }
 
