@@ -2,12 +2,23 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2024-11-12
+modDate: 2025-01-06
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## Solutions Review: WorkTech Predictions
+
+December 2024
+
+I was quoted in a mega-predictions article from Solutions Review on WorkTech trends in 2025 with two predictions:
+
+1. Platform Engineering will be thinner
+2. Continuous Delivery will be re-discovered for PaaS, Kubernetes, and serverless
+
+[59 WorkTech Predictions from Industry Experts for 2025](https://solutionsreview.com/enterprise-resource-planning/worktech-predictions-from-industry-experts-for-2025/)
 
 ## SHIPPED24
 
