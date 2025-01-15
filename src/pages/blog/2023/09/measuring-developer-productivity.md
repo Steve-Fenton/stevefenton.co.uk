@@ -25,7 +25,7 @@ This article is arranged as follows:
 2. The crucial thing they got wrong
 3. A discussion on productivity in the context of throughput and responsiveness
 4. The thing I found interesting about their approach
-5. What you should _actually_ do instead
+5. What you should *actually* do instead
 
 The concrete suggestions all come in those last two sections, so skip down the page if you want to get straight to the answer without all the discussion. You should know, though, that some people enjoyed reading this.
 
@@ -35,7 +35,7 @@ The McKinsey article already has some famous responses ([part 1](https://tidyfir
 
 ## What they get right
 
-The premise of the McKinsey article is that "functions such as sales or customer operations" have power point numbers they can present to say whether they are doing a great job. The C-suite has an appetite for a similar *pow-pow-pow* fingerbanging set of numbers for software development. Existing development updates are usually narrative-based and _so yawn_.
+The premise of the McKinsey article is that "functions such as sales or customer operations" have power point numbers they can present to say whether they are doing a great job. The C-suite has an appetite for a similar *pow-pow-pow* finger-gun set of numbers for software development. Existing development updates are usually narrative-based and *so yawn*.
 
 On top of the lack of headline numbers to say how good (or bad) the software engineers are, the software is now crucial to an organization's success. The C-suite depends on this software, which they are not "knowledgeable enough to assess" (not my words) and they are worried about it.
 
@@ -82,7 +82,7 @@ I originally listed several "no" items, as I did for the "yes" items. Instead, t
 
 Something I've learned in software delivery is that there's all this work that isn't coding that adds a ton of value. Some of it could be brought into a measurement system - the folks writing documentation to help other developers, the person who makes improvements to the deployment pipeline, and the people taking care of monitoring. There are also some critical things that you can't measure. The glue work, networking, and keeping up-to-date with technical, industry, and legal developments that may affect the product.
 
-I may have coded less than other folks on my team, but I did _walkie lookie_ to find out what was stopping users from being productive. Any individual wins I got by abandoning these walks would be a net loss to the organization. Yes, there are organizations where bureaucratic culture results in one hour of coding and seven hours of procedural manoeuvres. That needs to be fixed. Do you need to hit one-hundred-percent coding? No.
+I may have coded less than other folks on my team, but I did *walkie lookie* to find out what was stopping users from being productive. Any individual wins I got by abandoning these walks would be a net loss to the organization. Yes, there are organizations where bureaucratic culture results in one hour of coding and seven hours of procedural manoeuvres. That needs to be fixed. Do you need to hit one-hundred-percent coding? No.
 
 Is productivity even the thing we want from software development? In many cases, I think not. Most organizations place a value on responsiveness. If they discover a problem that's upsetting customers, they value a quick resolution more than the efficient completion of whatever feature is in-flight.
 
@@ -104,9 +104,9 @@ I'm just saying... you might do better with these three metrics than with the Mc
 
 ## What you should actually do
 
-Firstly, I don't think you should be following the advice in the McKinsey article. It is a great pitch, with enough substance to fool the target audience, who I suspect are the very C-suite folks who they describe as not knowledgeable enough to assess software delivery performance.
+Firstly, I don't think you should be following the advice in the McKinsey article. It is a great pitch, with enough substance to fool the target audience, who are the very C-suite folks who they describe as *not knowledgeable enough to assess software delivery performance*.
 
-Instead, clear your head and return to the long-running research. Listen to folks like [Dr. Nicole Forsgren](https://nicolefv.com/), and [DORA](https://dora.dev/). Build a muscle for reading research (including the method) and dive into statistics to understand some of the trip hazards. David Spiegelhalter and Tim Harford have great books on statistics.
+Instead, clear your head and return to the long-running research. Listen to folks like [Dr. Nicole Forsgren](https://nicolefv.com/), and [DORA](https://dora.dev/). Check out the [developer thriving framework](https://www.pluralsight.com/resources/blog/business-and-leadership/developer-thriving-framework-white-paper) by Cat Hicks PhD, Carol Lee PhD, and Morgan Ramsey and published on Pluralsight Flow. Build a muscle for reading research (including the method), dive into statistics to understand some of the trip hazards, and validate the findings in your own context. David Spiegelhalter and Tim Harford have great books on statistics.
 
 I have a free white paper on [measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/measuring-continuous-delivery-and-devops) that explains different types and levels of measurement and how to avoid unintended consequences of a measurement system. It talks about different measurement techniques and provides other ways to find *inspiration for improvements*, like the statements of Continuous Delivery.
 
@@ -134,5 +134,3 @@ There's also a famous two-parter from Gergely Orosz and Kent Beck
 Martin Fowler also wrote about this (some time ago, rather than in response to McKinsey).
 
 - [Cannot measure productivity](https://martinfowler.com/bliki/CannotMeasureProductivity.html)
-
-
