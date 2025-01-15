@@ -2,7 +2,7 @@
 title: 'Measuring developer productivity'
 navMenu: false
 pubDate: 2023-09-05
-modDate: 2023-09-05
+modDate: 2025-01-15
 keywords: developer,productivity,measurement,metrics
 description: Can you measure software developer productivity and is it the right thing to measure?
 bannerImage:
@@ -53,7 +53,7 @@ Suppose you work in a large organization or one where the C-suite is disconnecte
 
 ## What they get wrong
 
-Fundamentally, [recent two-year study at Google](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) suggests psychological safety is a top factor in developer productivity. Some activities that will damage psychological safety include:
+Fundamentally, a [two-year study at Google](https://web.archive.org/web/20181106145524/https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) found that psychological safety is a top factor in developer productivity. Some activities that will damage psychological safety include:
 
 1. Collecting metrics at the individual level.
 2. Inappropriate comparisons between team-level metrics.
