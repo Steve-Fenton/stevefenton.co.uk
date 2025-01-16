@@ -6,6 +6,7 @@ export const SITE = {
 	feedUrl: '/feed.xml',
 	title: 'Steve Fenton',
 	description: 'My website, tech blog, and other information.',
+	startYear: '2009',
 	defaultLanguage: 'en',
 	themeColor: '#222255',
 	owner: 'Steve Fenton',
