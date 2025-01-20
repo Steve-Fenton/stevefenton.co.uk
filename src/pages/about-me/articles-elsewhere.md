@@ -3,11 +3,11 @@ title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
 modDate: 2024-11-12
-keywords: writing,octopus,devops,continous delivery
+keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
 
-I've written for Octopus Deploy, The New Stack, DORA, and more. Here is some content I’ve written elsewhere that you might be interested in.
+I've written for Octopus Deploy, The New Stack, DORA, and more. Here is some content I've written elsewhere that you might be interested in.
 
 I'm aware these lists are growing rapidly, so I'll try to organize things a bit as I add more content.
 
@@ -22,7 +22,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 - [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
-- [Gatekeepers limit Continuous Delivery’s benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
+- [Gatekeepers limit Continuous Delivery's benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
 - [Deploy on Friday? Moratorium doesn't achieve admirable goal](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
@@ -49,7 +49,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 
-
 ### DevOps and software delivery
 
 - [Comparing Lean, Agile, and Continuous Delivery](https://www.octopus.com/blog/lean-agile-continuous-delivery)
@@ -57,7 +56,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Why maturity models are fundamentally broken](https://thenewstack.io/why-maturity-models-are-fundamentally-broken/)
 - [2 ways to reduce bottlenecks with the Theory of Constraints](https://thenewstack.io/2-ways-to-reduce-bottlenecks-with-the-theory-of-constraints/)
 - [The 2024 DevOps performance clusters](https://octopus.com/blog/2024-devops-performance-clusters)
-- [AI won’t fix your software delivery problems](https://thenewstack.io/ai-wont-fix-your-software-delivery-problems/)
+- [AI won't fix your software delivery problems](https://thenewstack.io/ai-wont-fix-your-software-delivery-problems/)
+- [What organizations get wrong with user-centricity](https://thenewstack.io/what-organizations-get-wrong-with-user-centricity/)
 
 ## Platform Engineering
 
@@ -82,7 +82,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Relax about your DORA metrics](https://thenewstack.io/relax-about-your-dora-metrics/)
 - [Effective DevOps metrics](https://octopus.com/blog/effective-devops-metrics)
 
-## Multi-tenancy:
+## Multi-tenancy
 
 - [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/) \
   This article describes how changes since multi-tenancy emerged mean a new approach is needed.
@@ -136,4 +136,3 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023)
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
-
