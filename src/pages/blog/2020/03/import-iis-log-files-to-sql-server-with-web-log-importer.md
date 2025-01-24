@@ -17,9 +17,9 @@ tags:
     - 'Web Log Importer'
 ---
 
-In the past I have used [Log Parser Studio](/tag/log-parser-studio/) to run SQL style queries against IIS logs, but it can take a fair bit of time to do this. Sometimes you just want to run a quick SQL query against the log data that IIS has collected. SQL Server is a super quick way of running queries to discover what is going on in your log files, but you need to import your IIS log files first to be able to take advantage of the speed and familiarity of your SQL queries.
+In the past I have used [Log Parser Studio](/tag/log-parser-studio/1/) to run SQL style queries against IIS logs, but it can take a fair bit of time to do this. Sometimes you just want to run a quick SQL query against the log data that IIS has collected. SQL Server is a super quick way of running queries to discover what is going on in your log files, but you need to import your IIS log files first to be able to take advantage of the speed and familiarity of your SQL queries.
 
-This calls for a quick .net Core Console App, which I’ve written and placed on GitHub, called [Web Log Importer](https://github.com/Steve-Fenton/WebLogImporter).
+This calls for a quick .net Core Console App, which I've written and placed on GitHub, called [Web Log Importer](https://github.com/Steve-Fenton/WebLogImporter).
 
 ## How does it work
 
@@ -50,9 +50,9 @@ WebLogs         [dbo].[LogEntry]    cci          CLUSTERED INDEX    0
 
 ## Running SQL Queries Over IIS log files
 
-Now the data has been imported, you can just run plain-old, super-quick, lovely SQL queries to see what’s going on.
+Now the data has been imported, you can just run plain-old, super-quick, lovely SQL queries to see what's going on.
 
-Here’s a complete example that creates a league table of client IP addresses ranked by number of log entries. It filters the logs by date, and time.
+Here's a complete example that creates a league table of client IP addresses ranked by number of log entries. It filters the logs by date, and time.
 
 ```sql
 SELECT
@@ -70,30 +70,30 @@ ORDER BY
     COUNT(1) DESC
 ```
 
-As the date and time are split between different columns, you can query them independently… i.e. you can look across the 4pm to 5pm time without choosing a date to see early-evening trends across multiple dates, and you can use “date =” to select a single day (which you can’t do when there is a time component to the date).
+As the date and time are split between different columns, you can query them independently… i.e. you can look across the 4pm to 5pm time without choosing a date to see early-evening trends across multiple dates, and you can use "date =" to select a single day (which you can't do when there is a time component to the date).
 
 ## Column names
 
-Because you already know IIS log files, and you already know SQL, I’ve tried not to fiddle too much with things.
+Because you already know IIS log files, and you already know SQL, I've tried not to fiddle too much with things.
 
-The column names reflect the headers within standard IIS log files, although I’ve incorporated the X-Forwarded-For header, which is a pretty common addition these days.
+The column names reflect the headers within standard IIS log files, although I've incorporated the X-Forwarded-For header, which is a pretty common addition these days.
 
 Where a header contains a hyphen `-` it has to be an underscore in the table `_`; so `c-ip` becomes `c_ip`.
 
-The IIS log files follow a convention where “s-” is a server value, “c-” is a client value. Where things are passed from client to server, you’ll see “cs-” and when the reverse is true you’ll see “sc-“. For example, the query string is passed by the client and used by the server, so it’s `cs-uri-query` and the response code is passed from the server and used by the client, so it’s `sc-status`.
+The IIS log files follow a convention where "s-" is a server value, "c-" is a client value. Where things are passed from client to server, you'll see "cs-" and when the reverse is true you'll see "sc-". For example, the query string is passed by the client and used by the server, so it's `cs-uri-query` and the response code is passed from the server and used by the client, so it's `sc-status`.
 
 ## Speeding it up
 
 The best way to speed up your import process is to configure IIS to rollover log files when they hit a particular size.
 
-Go to IIS, hit the “Logging” tile and set “Log File Rollover” to be based on “Maximum file size (in bytes): 10000000”. You can play with different sizes, but between 5-10 megabytes tends to be reasonable.
+Go to IIS, hit the "Logging" tile and set "Log File Rollover" to be based on "Maximum file size (in bytes): 10000000". You can play with different sizes, but between 5-10 megabytes tends to be reasonable.
 
 There are two benefits in terms of speed here.
 
 1. Each file is small
 2. You can just import files from the time period you are interested in
 
-## Why it’s useful
+## Why it's useful
 
 The benefits of running SQL queries against your data are pretty obvious, but there are also benefits to the loading process. Because it will merge and load IIS log files, you can drop in logs from several different servers and have them all loaded into a single view. If you have a web farm, you can quickly get a view across all your web farm servers using this tool.
 

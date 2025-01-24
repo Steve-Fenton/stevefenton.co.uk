@@ -11,19 +11,19 @@ tags:
     - Nuget
 ---
 
-Update: you can also use the [NuGet Package Visual Studio Extension](/blog/2014/11/nuGet-packager-visual-studio-extension/) – it works similarly to the New-NuGet Package code described in this article, but keeps all of the NuGet stuff in a separate project (which is supplied as a project template type of NuGet Package). On release build, it will publish to your preferred NuGet repository. For class libraries, I actually prefer the “it just works” style described in this article.
+Update: you can also use the [NuGet Package Visual Studio Extension](/blog/2014/11/nuget-packager-visual-studio-extension/) – it works similarly to the New-NuGet Package code described in this article, but keeps all of the NuGet stuff in a separate project (which is supplied as a project template type of NuGet Package). On release build, it will publish to your preferred NuGet repository. For class libraries, I actually prefer the "it just works" style described in this article.
 
-This article is just a technical dump of an end-to-end solution for sharing code between many solutions within the organisation using NuGet. I have worked in teams that have checked in “shared DLLs” to source control and shared common code that way, but it can be painful when a change is made that breaks lots of solutions.
+This article is just a technical dump of an end-to-end solution for sharing code between many solutions within the organisation using NuGet. I have worked in teams that have checked in "shared DLLs" to source control and shared common code that way, but it can be painful when a change is made that breaks lots of solutions.
 
 Using NuGet allows code to be shared with minimal pain and allows each solution to upgrade when ready, rather than getting updated DLLs thrust upon it.
 
 ## NuGet
 
-You will need to [download the latest version of NuGet](http://nuget.codeplex.com/releases/view/58939) in order to create your package. Ideally, you install this on any machine that will be used to create NuGet packages and add it to the paths so you can use “nuget” without the full path each time.
+You will need to [download the latest version of NuGet](http://nuget.codeplex.com/releases/view/58939) in order to create your package. Ideally, you install this on any machine that will be used to create NuGet packages and add it to the paths so you can use "nuget" without the full path each time.
 
 ## Powershell Scripts
 
-There are some handy PowerShell scripts you can use to do all of the hard work. For the purpose of this example, you can dump the files in a subfolder of your solution named “PowerShell”.
+There are some handy PowerShell scripts you can use to do all of the hard work. For the purpose of this example, you can dump the files in a subfolder of your solution named "PowerShell".
 
 You can grab these PowerShell scripts from the snappily titled [New-NuGetPackage PowerShell Scripts NuGet package](https://newnugetpackage.codeplex.com/)!
 
@@ -39,7 +39,7 @@ The example code in this article assumes a folder structure of:
         - NuGet.exe
 ```
 
-You don’t need NuGet.exe to be in the same path as the Powershell scripts, this is just for convenience for the example. As long as NuGet is installed on your machine and is in your paths it can be anywhere you like.
+You don't need NuGet.exe to be in the same path as the Powershell scripts, this is just for convenience for the example. As long as NuGet is installed on your machine and is in your paths it can be anywhere you like.
 
 ## Post-Build Event
 
@@ -58,13 +58,13 @@ he package will be saved in your bin folder (with the version number in your Ass
 
 ## Package Server
 
-To serve up your packages, you’ll need a package server. [Pro Get](http://inedo.com/proget/pricing) is a great package server with all the features you need, such as users, uploading packages, package feeds and so on. You can start with Pro Get free edition and upgrade as your needs grow.
+To serve up your packages, you'll need a package server. [Pro Get](http://inedo.com/proget/pricing) is a great package server with all the features you need, such as users, uploading packages, package feeds and so on. You can start with Pro Get free edition and upgrade as your needs grow.
 
 Pro Get knows when you are uploading a new version of a package and handles all of those details for you. You can upload the packages via the web UI or you can script the package uploads from your build server (i.e. only upload them once all the tests pass).
 
 ## Configure Visual Studio
 
-To see your feed in Visual Studio, open up NuGet Package Manager and hit the “Settings” button. You can then add the name and URL of your package source:
+To see your feed in Visual Studio, open up NuGet Package Manager and hit the "Settings" button. You can then add the name and URL of your package source:
 
 :::div{.inset}
 :img{src="/img/2015/07/nuget-add-package-source.png" alt="NuGet Add Package Source" loading="lazy"}
@@ -76,4 +76,4 @@ Once you save this configuration, your package feed will appear right next to th
 :img{src="/img/2015/07/nuget-use-package-source.png" alt="NuGet Use Package Source" loading="lazy"}
 :::
 
-And that’s all there is to it. Creating, publishing and consuming your own NuGet packages to share your code within your organisation – or even further afield.
+And that's all there is to it. Creating, publishing and consuming your own NuGet packages to share your code within your organisation – or even further afield.

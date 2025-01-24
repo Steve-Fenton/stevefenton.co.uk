@@ -11,7 +11,7 @@ tags:
     - HTML
 ---
 
-Revised, July 2014 – Please [see my update on dropping the HTML5 shim](/blog/2014/01/Goodbye-Old-Browsers/).
+Revised, July 2014 – Please [see my update on dropping the HTML5 shim](/blog/2014/01/goodbye-old-browsers/).
 
 Having managed to get the HTML5 website working in all the popular browsers, I ran a test on a larger number of browsers and operating systems with the following result: If you are running the latest version of any major browser – it almost certainly works.It even works on my mobile phone, which is running an old version of Windows mobile.
 

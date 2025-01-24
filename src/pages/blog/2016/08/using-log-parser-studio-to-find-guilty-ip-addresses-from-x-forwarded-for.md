@@ -30,11 +30,11 @@ ORDER BY
     count(X-Forwarded-For) DESC
 ```
 
-Don’t forget to change the date when you run this query.
+Don't forget to change the date when you run this query.
 
 ## Web Log Importer
 
-If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
+If you are using [Web Log Importer](/tag/web-log-importer/1/), you can get the same information using the following query:
 
 ```sql
 SELECT

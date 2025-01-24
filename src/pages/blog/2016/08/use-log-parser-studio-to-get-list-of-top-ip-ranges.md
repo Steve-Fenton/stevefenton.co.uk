@@ -14,7 +14,7 @@ tags:
     - 'Web Log Importer'
 ---
 
-If you are getting suspicious traffic, it often comes from a range of IP addresses. The below queries get the count using the first three octets of an IP address, so for “192.168.0.1” it will return “192.168.0” and a count of all traffic for the 192.168.0.1/24 range (192.168.0.1 – 192.168.0.255).
+If you are getting suspicious traffic, it often comes from a range of IP addresses. The below queries get the count using the first three octets of an IP address, so for "192.168.0.1" it will return "192.168.0" and a count of all traffic for the 192.168.0.1/24 range (192.168.0.1 – 192.168.0.255).
 
 To get the first three octets of the **IP address**, and the count of hits use:
 
@@ -46,7 +46,7 @@ ORDER BY COUNT(ip-range) DESC
 
 ## Web Log Importer
 
-If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
+If you are using [Web Log Importer](/tag/web-log-importer/1/), you can get the same information using the following query:
 
 ```sql
 SELECT

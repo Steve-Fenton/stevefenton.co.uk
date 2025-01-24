@@ -9,17 +9,17 @@
     "pnpm": ">=8"
   },
   "scripts": {
-    "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
+    "build": "astro build",
+    "clean": "rm -rf dist && rm -rf .log",
     "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
+    "crawl": "linkinator http://[::1]:3000 --skip \"^(?!http://\\[\\:\\:1\\]\\:3000)\" --recurse  --verbosity error",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
+    "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
+    "preview": "astro preview",
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
     "spellcheck": "git fetch origin main:refs/remotes/origin/main && git diff origin/main --name-only --diff-filter=ACMRTUXB | cspell --no-must-find-files --file-list stdin",
     "spellcheckall": "cspell \"**\"",
     "test": "astro build && npm playwright install --with-deps && npx playwright test",
-    "build": "astro build",
-    "clean": "rm -rf dist && rm -rf .log",
-    "preview": "astro preview",
-    "astro": "astro",
     "theme": "pnpm update && node ./accelerator.js"
   },
   "dependencies": {
@@ -28,6 +28,7 @@
     "astro-accelerator": "^5.0.1",
     "astro-accelerator-utils": "^0.3.35",
     "cspell": "^8.17.2",
+    "linkinator": "^6.1.2",
     "optional": "^0.1.4",
     "sharp": "^0.33.5"
   },

@@ -16,7 +16,7 @@ tags:
 
 I am working on an application that accepts request for many different domain names, and sends back different content for each one. This means there is one log file for multiple logical sites, because they all run within the same instance of the web application.
 
-To make diagnostics easier, I have enabled the “cs-host” column in IIS to log the host name in the log files.
+To make diagnostics easier, I have enabled the "cs-host" column in IIS to log the host name in the log files.
 
 The following log parser studio query will get you the number of requests for a given host name in log parser studio:
 
@@ -53,7 +53,7 @@ ORDER BY
 
 ## Web Log Importer
 
-If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query for host names:
+If you are using [Web Log Importer](/tag/web-log-importer/1/), you can get the same information using the following query for host names:
 
 ```sql
 SELECT TOP 20
@@ -86,4 +86,4 @@ ORDER BY
     COUNT(1) DESC
 ```
 
-Note: to use sc\_bytes you have to have enabled it in your IIS logs. Web Log Importer won’t create columns for fields that are not present in your log files.
+Note: to use sc\_bytes you have to have enabled it in your IIS logs. Web Log Importer won't create columns for fields that are not present in your log files.

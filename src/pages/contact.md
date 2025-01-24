@@ -10,4 +10,4 @@ Hello! Thanks for showing interest in contacting me. Your best bet is to find me
 
 Comment on an article: At-me on [Mastodon](https://mastodon.social/@stevefenton)
 
-[Find out more about moving to Mastodon](/blog/2022/10/28/moving-to-mastodon/)
+[Find out more about moving to Mastodon](/blog/2022/10/moving-to-mastodon/)

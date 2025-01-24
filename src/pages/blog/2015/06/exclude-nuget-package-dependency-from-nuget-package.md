@@ -11,9 +11,9 @@ tags:
     - Nuget
 ---
 
-I have been using the [Create New NuGet Package](/blog/2014/08/Share-Your-Own-Code-With-NuGet/) utility for auto-generating NuGet packages for some time. You add this as a NuGet package to your project and It Just Works™. It uses your assembly information to generate the metadata so you don’t even need a nuspec file.
+I have been using the [Create New NuGet Package](/blog/2014/08/share-your-own-code-with-nuget/) utility for auto-generating NuGet packages for some time. You add this as a NuGet package to your project and It Just Works&trade;. It uses your assembly information to generate the metadata so you don't even need a nuspec file.
 
-The one thing you will want to ensure is that the “Create New…” package itself is not bundled into the NuGet package you create… otherwise you’ll be turning all your consumers into NuGet packages in some kind of strange copy-left packaging cascade.
+The one thing you will want to ensure is that the "Create New…" package itself is not bundled into the NuGet package you create… otherwise you'll be turning all your consumers into NuGet packages in some kind of strange copy-left packaging cascade.
 
 To prevent this, you just need to add the development dependency attribute in your packages.config file:
 

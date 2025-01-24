@@ -35,7 +35,7 @@ ORDER BY
 
 ## Web Log Importer
 
-If you are using [Web Log Importer](/tag/web-log-importer/), you can get the same information using the following query:
+If you are using [Web Log Importer](/tag/web-log-importer/1/), you can get the same information using the following query:
 
 ```sql
 SELECT TOP 20

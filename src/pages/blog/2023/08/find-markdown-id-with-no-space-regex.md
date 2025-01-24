@@ -20,9 +20,9 @@ I like to keep tabs on my RegEx solutions and today's challenge was to find a pa
 
 If you use markdown, you'll want to extend it at some point (or you'll have to force your users to write an increasing amount of HTML, which defeats the point to some extent).
 
-In the [Astro Accelerator](src/pages/blog/2023/07/astro-javascript-heap-out-of-memory.md), I've added extensions to support the following...
+In the [Astro Accelerator](/blog/2023/07/astro-javascript-heap-out-of-memory), I've added extensions to support the following...
 
-```
+```markdown
 A syntax for :span[inline elements].
 
 :::div
@@ -40,13 +40,13 @@ I have some bad custom ids on headings, which were causing an issue.
 
 The headings should have been:
 
-```
+```markdown
 ## Heading {#custom-id}
 ```
 
 But they were:
 
-```
+```markdown
 ## Heading{#custom-id}
 ```
 
@@ -56,7 +56,7 @@ The lack of space meant it wasn't converted into an id, but displayed as part of
 
 I didn't want to just fix this instance, I wanted to find other similar mistakes. Time for VS Code and some RegEx.
 
-```
+```text
 \S\{#
 ```
 

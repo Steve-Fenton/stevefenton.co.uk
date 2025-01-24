@@ -16,7 +16,7 @@ tags:
     - Jekyll
 ---
 
-You don’t need a plugin to add a sitemap to your Jekyll site. You can use this basic template and extend it as required.
+You don't need a plugin to add a sitemap to your Jekyll site. You can use this basic template and extend it as required.
 
 ## Supporting frontmatter
 
@@ -39,7 +39,7 @@ sitemap: true
 
 You can loop `site.pages` in Jekyll, filtering out pages that aren't flagged to be shown in the sitemap. The `<loc>` needs to be absolute.
 
-```xml
+```astro
 ---
 layout: null
 ---

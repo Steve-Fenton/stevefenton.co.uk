@@ -13,7 +13,7 @@ tags:
     - 'Paged Media'
 ---
 
-Having recently starting [adding CSS Paged Media to web pages](/blog/2013/12/printing-web-pages-with-the-paged-media-module/), and [generating dynamic headers from page content](/blog/date/2013/12/using-css-paged-media-to-add-dynamic-headers/) – I had a need to push the results of this to PDF. The use-case was two-fold, one was to generate a whole batch of PDFs to “print later” and the other was for sending the content for review, safe in the knowledge it would print correctly.
+Having recently starting [adding CSS Paged Media to web pages](/blog/2013/12/printing-web-pages-with-the-paged-media-module/), and [generating dynamic headers from page content](/blog/2013/12/using-css-paged-media-to-add-dynamic-headers/) – I had a need to push the results of this to PDF. The use-case was two-fold, one was to generate a whole batch of PDFs to "print later" and the other was for sending the content for review, safe in the knowledge it would print correctly.
 
 Having reviewed a very long list of free and paid HTML to PDF conversion tools I found one that really nails the CSS Paged Media Module, HTML5, CSS and images all in one go: [Prince (Print with CSS)](http://www.princexml.com/) – it actually supports paged media better than all the current web browsers. Good job.
 
@@ -65,7 +65,7 @@ public class PrincePdfConverter
 
 ## Using Prince To Convert HTML To PDF
 
-And now you are ready to rock. Here is a sample MVC controller that converts a supplied URL to PDF and streams back the result (obviously you wouldn’t just accept any URL in the world, but for the purposes of the example it seemed pointless to show code that generates a URL). I have hard-coded a bunch of stuff you wouldn’t in the real world, like file names and such.
+And now you are ready to rock. Here is a sample MVC controller that converts a supplied URL to PDF and streams back the result (obviously you wouldn't just accept any URL in the world, but for the purposes of the example it seemed pointless to show code that generates a URL). I have hard-coded a bunch of stuff you wouldn't in the real world, like file names and such.
 
 ```csharp
 public class PdfController
@@ -103,7 +103,7 @@ public class PdfController
 
 ## Summary
 
-This is a pretty straightforward converter to use. It was definitely “as easy” if not easier than the other libraries I tried. Obviously, I would have loved to have found a free library that did everything that Prince does – but nothing came close in respect of the CSS Paged Media support. Not only does it handle the page breaks and continuation instructions well, it managed to beat all the browsers when it came to the headers and footers.
+This is a pretty straightforward converter to use. It was definitely "as easy" if not easier than the other libraries I tried. Obviously, I would have loved to have found a free library that did everything that Prince does – but nothing came close in respect of the CSS Paged Media support. Not only does it handle the page breaks and continuation instructions well, it managed to beat all the browsers when it came to the headers and footers.
 
 A few converters say they support paged media, but actually they only support page-breaks – not headers, footers and dynamic data.
 
