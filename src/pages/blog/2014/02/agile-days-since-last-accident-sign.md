@@ -33,11 +33,9 @@ But in times of crisis it is easy to forget these reminders and take in work wit
 So use this sign responsibly to encourage the focus on following your own process.
 
 :::div{.inset}
-:img{src="/img/2015/07/sprint-rules.gif" alt="Agile Days Since Last Accident" loading="lazy"}
+:img{src="/img/2015/07/sprint-rules.png" alt="Agile Days Since Last Accident" loading="lazy"}
 :::
-
-[Click for a larger version](/img/2015/07/sprint-rules.gif)
 
 Sign credit: Days Without Breaking Sprint Rules, by Steve Fenton. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US).
 
-Cartoon credit: [Cornered](http://cornered.co.nr/), &copy; Mike Baldwin (107258/144419).
+Cartoon credit: Cornered &copy; Mike Baldwin (107258/144419).
