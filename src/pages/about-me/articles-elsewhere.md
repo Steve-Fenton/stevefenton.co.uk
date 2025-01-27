@@ -81,6 +81,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [How measurement elevation and aggregation change behaviours](https://thenewstack.io/how-measurement-elevation-and-aggregation-change-behaviors/)
 - [Relax about your DORA metrics](https://thenewstack.io/relax-about-your-dora-metrics/)
 - [Effective DevOps metrics](https://octopus.com/blog/effective-devops-metrics)
+- [Poorly designed rewards crush improvement efforts](https://thenewstack.io/poorly-designed-rewards-crush-improvement-efforts/)
 
 ## Multi-tenancy
 
