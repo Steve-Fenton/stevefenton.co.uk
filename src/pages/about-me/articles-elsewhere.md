@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2024-11-12
+modDate: 2025-01-30
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -70,6 +70,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [DevOps and Platform Engineering (is DevOps dead?)](https://www.octopus.com/blog/devops-platform-engineering)
 - [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
 - [You don't need a product manager for Platform Engineering](https://thenewstack.io/is-your-product-manager-hurting-platform-engineering/)
+- [The rise of thin platforms](https://builtin.com/articles/thin-platforms-future-platform-engineering)
 
 ## Metrics
 
