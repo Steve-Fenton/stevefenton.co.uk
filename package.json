@@ -12,7 +12,7 @@
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
     "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
-    "crawl": "linkinator http://[::1]:3000 --skip \"^(?!http://\\[\\:\\:1\\]\\:3000)\" --recurse  --verbosity error",
+    "crawl": "linkinator ./dist --skip \"^(?!http://localhost)\" --recurse  --verbosity error",
     "dev": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "img": "node --no-experimental-fetch ./src/themes/accelerator/utilities/img.mjs",
     "preview": "astro preview",

@@ -1142,7 +1142,8 @@ nav.site-nav h2 {
 
 .post-meta {
     display: flex;
-    margin: var(--margin-size) var(--margin-size-negative);
+    font-size: 0.9rem;
+    margin: var(--block-gap) var(--margin-size-negative);
     padding: 1rem;
     background-color: var(--aft-block);
     gap: var(--block-gap);

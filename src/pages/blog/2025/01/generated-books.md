@@ -1,5 +1,5 @@
 ---
-title: The 6 warning signs of an AI-generated book'
+title: The 6 warning signs of an AI-generated book
 navMenu: false
 pubDate: 2025-01-01
 keywords: books,reading
