@@ -33,10 +33,14 @@ body {
     background: linear-gradient(135deg, var(--aft-g1) 0%, var(--aft-g2) 80%);
     background-attachment: fixed;
     color: var(--fore);
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.8;
     letter-spacing: 0.016em;
     font-family: var(--content-font);
+
+    @media (max-width: 860px) {
+        font-size: 20px;
+    }
 }
 
 a, summary {
@@ -1296,17 +1300,13 @@ code {
 }
 
 pre.astro-code {
-    border-left: 5px solid var(--fore-link-alt);
+    border: 1px solid var(--fore-link-alt);
     border-radius: var(--block-radius);
     font-family: var(--code-font);
-    margin: var(--margin-size) auto;
+    font-size: 0.8rem;
+    margin: var(--margin-size) -2rem;
     overflow: auto;
     padding: 1rem;
-
-    @media (max-width: 860px) {
-        width: calc(var(--content-width-mobile) - 5px);
-        margin: var(--margin-size) var(--margin-size-negative);
-    }
 }
 
 pre.astro-code code {
