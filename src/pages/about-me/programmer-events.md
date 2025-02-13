@@ -17,130 +17,67 @@ I’ll update this page with any programmer events that I’m running, attending
 
 ## 2024
 
-November 2024: [SHIPPED! Effective DevOps Metrics (Virtual Conference)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
-
-October 2024: [Free Your Teams From Maintenance Tasks With Runbooks (Webinar)](https://www.youtube.com/watch?v=UEysbmos2T0)
-
-October 2024: [Cloud Native FM - Platform Engineering (Webinar)](https://www.youtube.com/watch?v=fC-TTfW9S0M)
-
-12th July 2024: Frontify - The DevOps Effect
-
-26th June 2024: Merging to Main
-
-17th June 2024: The CD Pipeline Show
-
-14th May 2024: The State of CI/CD 2024
-
-6th March 2024: DevOps Live: Effective DevOps Metrics (Keynote theatre)
+- November 2024: [SHIPPED! Effective DevOps Metrics (Virtual Conference)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
+- October 2024: [Free Your Teams From Maintenance Tasks With Runbooks (Webinar)](https://www.youtube.com/watch?v=UEysbmos2T0)
+- October 2024: [Cloud Native FM - Platform Engineering (Webinar)](https://www.youtube.com/watch?v=fC-TTfW9S0M)
+- July 2024: Frontify - The DevOps Effect
+- June 2024: Merging to Main
+- June 2024: The CD Pipeline Show
+- May 2024: The State of CI/CD 2024
+- March 2024: DevOps Live: Effective DevOps Metrics (Keynote theatre)
 
 ## 2023
 
-15th November 2023: SHIPPED! DORA, DevOps, and Deployments
+- November 2023: SHIPPED! DORA, DevOps, and Deployments
+- October 2023: Platform Engineering: To Adopt or Not To Adopt
+- August 2023: A Modern View of Multitenancy
+- June 2023: The State of Continuous Delivery Report 2023
+- May 2023: The State of Continuous Delivery Report 2023
 
-26th October 2023: Platform Engineering: To Adopt or Not To Adopt
+## Older stuff
 
-22nd August 2023: A Modern View of Multitenancy
+- February 2022: De-mystifying Linq
+- February 2021: Online TDD/Refactoring With Visual Studio
+- August 2020: Using the Approval Tests Library with Visual Studio
+- May 2020: Online FizzBuzz in C# with Visual Studio
+- March 2020: Online Refactoring with Visual Studio Session
+- March 2020: Refactoring with Visual Studio
+- October 2019: Refactoring with Visual Studio
+- September 2019: .NET Conf Keynote Watch Party
+- September 2019: Test Automation with Visual Studio
+- September 2019: Test Automation with Visual Studio
+- August 2019: Test Automation with Visual Studio
+- July 2019: Write an app using TDD in Microsoft Visual Studio
+- April 2019: Visual Studio 2019 Launch Event
 
-26th June 2023: The State of Continuous Delivery Report 2023
+## Gap in records!
 
-19th May 2023: The State of Continuous Delivery Report 2023
+Note: Events were in an events app, not listed on my website... so I have a gap in the history (sad face).
 
-## 2022
+## Ancient stuff!
 
-24th February 2022: De-mystifying Linq
-
-## 2021
-
-16th February 2021: Online TDD/Refactoring With Visual Studio
-
-## 2020
-
-19th August 2020: Using the Approval Tests Library with Visual Studio
-
-13th May 2020: Online FizzBuzz in C# with Visual Studio
-
-27th March 2020: Online Refactoring with Visual Studio Session
-
-11th March 2020: Refactoring with Visual Studio
-
-## 2019
-
-3rd October 2019: Refactoring with Visual Studio
-
-23rd September 2019: .NET Conf Keynote Watch Party
-
-17th September 2019: Test Automation with Visual Studio
-
-4th September 2019: Test Automation with Visual Studio
-
-21st August 2019: Test Automation with Visual Studio
-
-31st July 2019: Write an app using TDD in Microsoft Visual Studio
-
-2nd April 2019: Visual Studio 2019 Launch Event
-
-## 2016-2018
-
-I used a paid events app to track events from 2015-2019 and I deleted my subscription. Sorry if you were looking for something that happened in this timeframe.
-
-## 2015
-
-15th January 2015: Code Kata
-
-## 2014
-
-25th June 2014: TypeScript and Jasmine
-
-11th April 2014: Process Kata
-
-3rd March 2014: API Testing with JMeter
-
-13th February 2014: JavaScript Bad Stuff and Good Stuff
-
-## 2013
-
-18th November 2013: Impact Mapping – Why?
-
-17th November 2013: TypeScript – Big JavaScript
-
-19th September 2013: Group Refactoring Kata
-
-12th September 2013: Code Kata
-
-28th August 2013: Code Kata
-
-30th July 2013: Code Kata
-
-24th June 2013: Unity IOC
-
-23rd May 2013: Estimation vs Sizing
-
-8th May 2013: Truth, Mistakes and Lies in TDD
-
-22nd January 2013: Pomodoro Technique in 25 Minutes
-
-10th January 2013: HTML5 and NEWT
-
-## 2012
-
-30th November 2012: Attacking Websites
-
-19th November 2012: Attacking Websites
-
-19th October 2012: Introduction to TypeScript
-
-21st June 2012: Create An HTML5 Phone App In Under An Hour
-
-22nd March 2012: Pomodoro Technique in 25 Minutes
-
-12th January 2012: JavaScript – Things That Might Surprise You
-
-5th January 2012: SOPA – A Balanced View
-
-## 2011
-
-24th November 2011: TDD – Discuss!
-
-10th November 2011: Code Kata
-
-27th October 2011: HTML5
+- June 2014: TypeScript and Jasmine
+- April 2014: Process Kata
+- March 2014: API Testing with JMeter
+- February 2014: JavaScript Bad Stuff and Good Stuff
+- November 2013: Impact Mapping – Why?
+- November 2013: TypeScript – Big JavaScript
+- September 2013: Group Refactoring Kata
+- September 2013: Code Kata
+- August 2013: Code Kata
+- July 2013: Code Kata
+- June 2013: Unity IOC
+- May 2013: Estimation vs Sizing
+- May 2013: Truth, Mistakes and Lies in TDD
+- January 2013: Pomodoro Technique in 25 Minutes
+- January 2013: HTML5 and NEWT
+- November 2012: Attacking Websites
+- November 2012: Attacking Websites
+- October 2012: Introduction to TypeScript
+- June 2012: Create An HTML5 Phone App In Under An Hour
+- March 2012: Pomodoro Technique in 25 Minutes
+- January 2012: JavaScript – Things That Might Surprise You
+- January 2012: SOPA – A Balanced View
+- November 2011: TDD – Discuss!
+- November 2011: Code Kata
+- October 2011: HTML5
