@@ -7,7 +7,7 @@
     font-family: "hyper-reg";
     font-weight: normal;
     font-style: normal;
-    src: url("Atkinson-Hyperlegible-Regular-102a.woff2");
+    src: url("AtkinsonHyperlegibleNext-Regular.otf");
     font-display: block;
 }
 
@@ -15,7 +15,15 @@
     font-family: "hyper-bold";
     font-weight: bold;
     font-style: normal;
-    src: url("Atkinson-Hyperlegible-Bold-102a.woff2");
+    src: url("AtkinsonHyperlegibleNext-Bold.otf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "hyper-mono";
+    font-weight: bold;
+    font-style: normal;
+    src: url("AtkinsonHyperlegibleMono-Regular.otf");
     font-display: block;
 }
 
@@ -62,7 +70,7 @@
 
     --heading-font: 'hyper-bold', sans-serif;
     --content-font: 'hyper-reg', Verdana, Geneva, sans-serif;
-    --code-font: Consolas, 'Courier New', Courier, monospace;
+    --code-font: 'hyper-mono', Consolas, 'Courier New', Courier, monospace;
     --unicode-font: font-family: "Segoe UI Symbol", "Arial Unicode MS", "DejaVu Sans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
 
     --paragraph-margin: 1.2rem;

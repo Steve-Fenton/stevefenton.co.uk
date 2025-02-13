@@ -62,7 +62,7 @@ For example, a tiny 1px difference in the height of the font will mean something
 
 My initial solution was to bin all the fonts and use a couple of *classic* font stacks for my styles. Something like this:
 
-```
+```css
 :root {
     --heading-font: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
     --content-font: Verdana, Geneva, sans-serif;
@@ -87,12 +87,11 @@ I'm using the [Atkinson Hyperlegible font](https://brailleinstitute.org/freefont
 - Atkinson Hyperlegible Bold (WOFF2) is 17kb
 - Atkinson Hyperlegible Regular (WOFF2) is 16kb
 
-
 ### Preloading fonts
 
 ```html
-<link rel="preload" href="/css/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/css/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/AtkinsonHyperlegibleNext-Bold.otf" as="font" crossorigin>
+<link rel="preload" href="/css/AtkinsonHyperlegibleNext-Regular.otf" as="font" crossorigin>
 ```
 
 These `link` tags give the browser advance warning of the fonts, so it can start retrieving them straight away. This reduces the chain from the web page, to the CSS, to the font files.
@@ -110,7 +109,7 @@ I've left out all the other variables and just shown my two font family variable
     font-family: "hyper-reg";
     font-weight: normal;
     font-style: normal;
-    src: url("Atkinson-Hyperlegible-Regular-102a.woff2");
+    src: url("AtkinsonHyperlegibleNext-Regular.otf");
     font-display: block;
 }
 
@@ -118,7 +117,7 @@ I've left out all the other variables and just shown my two font family variable
     font-family: "hyper-bold";
     font-weight: bold;
     font-style: normal;
-    src: url("Atkinson-Hyperlegible-Bold-102a.woff2");
+    src: url("AtkinsonHyperlegibleNext-Bold.otf");
     font-display: block;
 }
 
