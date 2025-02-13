@@ -2,14 +2,26 @@
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02
-modDate: 2024-07-11
+modDate: 2025-02-13
 keywords: programmer,events
 description: A list of my online and in-person events.
 ---
 
 I’ll update this page with any programmer events that I’m running, attending, or speaking at.
 
+## 2025
+
+13th March 2025: DevOps Live London - Modern Multi-Tenancy
+
+12th March 2025: DevOps Live London - Improve Your DevOps Culture
+
 ## 2024
+
+November 2024: [SHIPPED! Effective DevOps Metrics (Virtual Conference)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
+
+October 2024: [Free Your Teams From Maintenance Tasks With Runbooks (Webinar)](https://www.youtube.com/watch?v=UEysbmos2T0)
+
+October 2024: [Cloud Native FM - Platform Engineering (Webinar)](https://www.youtube.com/watch?v=fC-TTfW9S0M)
 
 12th July 2024: Frontify - The DevOps Effect
 
