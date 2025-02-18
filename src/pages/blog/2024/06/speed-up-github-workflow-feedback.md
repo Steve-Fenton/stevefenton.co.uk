@@ -96,7 +96,6 @@ concurrency:
   cancel-in-progress: true
 ```
 
-
 When you add commits and new workflows are triggered, any in-flight workflows in the same group will be canceled. The group name can be any string or expression that identifies the collection of workflows that should cancel each other. Usually, you'd want to identify a group by the name of the workflow and the branch.
 
 :img{src="/img/2024/06/github-cancel-in-progress.png" alt="Workflows running when a new one starts are cancelled"}
