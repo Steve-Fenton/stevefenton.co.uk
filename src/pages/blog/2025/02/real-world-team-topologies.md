@@ -5,7 +5,7 @@ pubDate: 2025-02-18
 keywords: team topologies,team design,devops
 description: Find out how I used Team Topologies to understand and improve a team that had no formal structure.
 bannerImage:
-    src: /img/topic/teams/team-topologies-interaction-modes
+    src: /img/topic/teams/team-topologies-interaction-modes.png
     alt: A diagram of the three core interaction modes in Team Topologies. Facilitating, x-as-a-service, and collaboration.
 authors:
     - steve-fenton
