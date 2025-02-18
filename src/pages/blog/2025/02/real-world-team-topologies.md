@@ -1,5 +1,5 @@
 ---
-title: Real-world Team Topologies
+title: Using Team Topologies to map and move your team design
 navMenu: false
 pubDate: 2025-02-18
 keywords: team topologies,team design,devops
@@ -68,3 +68,5 @@ I wanted to share this little example, because it shows that using just one comp
 
 - [Team Topologies website](https://teamtopologies.com/)
 - [Team Topologies in the real world](https://newsletter.bryanross.me/p/team-topologies-in-the-real-world) by Bryan Ross
+- [On Team Topologies and Deep Work](https://menzen.ski/posts/2025/02/15/on-team-topologies-and-deep-work/) by Matt Menzenski
+ 
