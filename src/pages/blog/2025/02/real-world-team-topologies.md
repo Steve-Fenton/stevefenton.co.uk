@@ -1,11 +1,11 @@
 ---
-title: Real-world Team Topologies
+title: Using Team Topologies to map and move your team design
 navMenu: false
 pubDate: 2025-02-18
 keywords: team topologies,team design,devops
 description: Find out how I used Team Topologies to understand and improve a team that had no formal structure.
 bannerImage:
-    src: /img/topic/teams/team-topologies-interaction-modes
+    src: /img/topic/teams/team-topologies-interaction-modes.png
     alt: A diagram of the three core interaction modes in Team Topologies. Facilitating, x-as-a-service, and collaboration.
 authors:
     - steve-fenton
@@ -68,3 +68,5 @@ I wanted to share this little example, because it shows that using just one comp
 
 - [Team Topologies website](https://teamtopologies.com/)
 - [Team Topologies in the real world](https://newsletter.bryanross.me/p/team-topologies-in-the-real-world) by Bryan Ross
+- [On Team Topologies and Deep Work](https://menzen.ski/posts/2025/02/15/on-team-topologies-and-deep-work/) by Matt Menzenski
+ 
