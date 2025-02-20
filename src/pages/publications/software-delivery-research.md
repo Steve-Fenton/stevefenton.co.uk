@@ -2,7 +2,7 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2024-09-27
+modDate: 2025-02-20
 keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
@@ -19,19 +19,19 @@ But also, I'm a naturally curious person. That means I ask questions to find out
 
 ## State of GitOps report
 
-I'm working with a team of smart folks on [The state of GitOps report](https://octopus.com/publications/state-of-gitops-report). The survey is now open. Please share your industry insights, whether GitOps is a driving force or a distant plan for your team. There's also a chance to win one of five $100 Amazon vouchers.
+I'm working with a team of smart folks on [The state of GitOps report](https://octopus.com/publications/state-of-gitops-report). The survey has now closed.
 
-If you can [share the survey](https://octopusdeploy.typeform.com/state-of-gitops), to get it outside of our bubble, that would be amazing, too!
+We are looking at the data and will share industry insights soon.
 
-By participating, you'll:
+Everyone who completed the survey will:
 
 - Be the first to get the State of GitOps report
 - Learn where and how teams are using GitOps
 - Discover the real benefits (and challenges) teams face
 
-Thank you in advance for contributing your unique perspective on this topic.
+Thank you to everyone who contributed.
 
-[Submit a response now!](https://octopusdeploy.typeform.com/state-of-gitops)
+[Keep an eye out for the report!]([https://octopusdeploy.typeform.com/state-of-gitops](https://octopus.com/publications/state-of-gitops-report))
 
 ## Platform Engineering
 
