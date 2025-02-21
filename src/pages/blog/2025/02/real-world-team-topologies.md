@@ -68,5 +68,6 @@ I wanted to share this little example, because it shows that using just one comp
 
 - [Team Topologies website](https://teamtopologies.com/)
 - [Team Topologies in the real world](https://newsletter.bryanross.me/p/team-topologies-in-the-real-world) by Bryan Ross
-- [On Team Topologies and Deep Work](https://menzen.ski/posts/2025/02/15/on-team-topologies-and-deep-work/) by Matt Menzenski
- 
+- [On Team Topologies and deep work](https://menzen.ski/posts/2025/02/15/on-team-topologies-and-deep-work/) by Matt Menzenski
+- [How Team Topologies is redefining culture](https://www.linkedin.com/pulse/behind-engineering-revolution-how-team-topologies-redefining-casto-eiwif/?trackingId=Hdk1sCp7S6mIS5m9AEyAgA%3D%3D)
+ by Graziano Casto

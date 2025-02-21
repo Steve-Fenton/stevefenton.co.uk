@@ -7,7 +7,7 @@ keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
 
-We have solidly moved into the era of research-backed software delivery. Over the past ten years, we've learned a great deal about what works and what doesn't. We no longer depend solely on _strong voices_ as we now have _solid data_.
+We have solidly moved into the era of research-backed software delivery. Over the past ten years, we've learned a great deal about what works and what doesn't. We no longer depend solely on *strong voices* as we now have *solid data*.
 
 My favourite research efforts are:
 
@@ -39,19 +39,13 @@ I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.you
 
 Our plan is to:
 
-- Speak to practitioners to find out key motivations for internal developer platforms
-- Design a survey based on what we learn
-- Run the survey to get a broad picture of Platform Engineering
+- (Done!) Speak to practitioners to find out key motivations for internal developer platforms
+- (Done!) Design a survey based on what we learn
+- (Done!) Run the survey to get a broad picture of Platform Engineering
 
 By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
 
-:::div{.note}
-
-We have a short questionnaire (5 questions) for anyone involved in Platform Engineering, and we'd love it if you could submit a response. You can do so anonymously.
-
-Help out by [completing our questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfm0fRGfxsz8YcC8ZsEWL57y0zg9Av7zrhY_2wCwzKTn0Y88w/viewform).
-
-:::
+We have our first batch of survey responses and we'll be analyzing them and sharing results soon!
 
 ## Get updates
 
