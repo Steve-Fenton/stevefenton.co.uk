@@ -33,14 +33,10 @@ body {
     background: linear-gradient(135deg, var(--aft-g1) 0%, var(--aft-g2) 80%);
     background-attachment: fixed;
     color: var(--fore);
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.016em;
     font-family: var(--content-font);
-
-    @media (max-width: 860px) {
-        font-size: 20px;
-    }
 }
 
 a, summary {
@@ -1041,6 +1037,7 @@ nav.site-nav h2 {
 .post-list .list-item-content h3 {
     margin: 0;
     padding: 0;
+    font-size: 1.6rem;
 }
 
 .post-list .list-item-content h2 a,
