@@ -71,3 +71,4 @@ I wanted to share this little example, because it shows that using just one comp
 - [On Team Topologies and deep work](https://menzen.ski/posts/2025/02/15/on-team-topologies-and-deep-work/) by Matt Menzenski
 - [How Team Topologies is redefining culture](https://www.linkedin.com/pulse/behind-engineering-revolution-how-team-topologies-redefining-casto-eiwif/?trackingId=Hdk1sCp7S6mIS5m9AEyAgA%3D%3D)
  by Graziano Casto
+- [What Die Hard teaches us about Platform Engineering and Team Topologies](https://dipeshkpatel.substack.com/p/yippee-ki-yay) by Dipesh Patel
