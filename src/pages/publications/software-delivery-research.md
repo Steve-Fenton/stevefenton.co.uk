@@ -2,7 +2,7 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2025-02-20
+modDate: 2025-03-05
 keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
@@ -17,11 +17,11 @@ My favourite research efforts are:
 
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
 
-## State of GitOps report
+## State of GitOps
 
-I'm working with a team of smart folks on [The state of GitOps report](https://octopus.com/publications/state-of-gitops-report). The survey has now closed.
+I'm working with a team of smart folks on [The state of GitOps report](https://octopus.com/publications/state-of-gitops-report). 
 
-We are looking at the data and will share industry insights soon.
+The survey has now closed and we are looking at the data. Industry insights coming soon.
 
 Everyone who completed the survey will:
 
@@ -31,11 +31,11 @@ Everyone who completed the survey will:
 
 Thank you to everyone who contributed.
 
-[Keep an eye out for the report!]([https://octopusdeploy.typeform.com/state-of-gitops](https://octopus.com/publications/state-of-gitops-report))
+[Keep an eye out for the report!](https://octopus.com/publications/state-of-gitops-report)
 
 ## Platform Engineering
 
-I'm working with Saim Safdar, host of the [Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
+I'm working with Saim Safdar, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
 
 Our plan is to:
 
