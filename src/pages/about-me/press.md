@@ -9,6 +9,15 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
+## DevPro Journal: US Software Deployments
+
+March 2025
+
+We ran a study of software deployments across the US to see where the acticity hubs were, broken down by state and city. DevPro covered the findings in their article.
+
+[Study data: US cities, states with the most annual software deployments
+](https://www.devprojournal.com/software-development-trends/study-data-us-cities-states-with-the-most-annual-software-deployments/)
+
 ## Solutions Review: WorkTech Predictions
 
 December 2024
