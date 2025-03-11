@@ -11,6 +11,8 @@ I’ll update this page with any programmer events that I’m running, attending
 
 ## 2025
 
+25th March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
+
 13th March 2025: DevOps Live London - Modern Multi-Tenancy
 
 12th March 2025: DevOps Live London - Improve Your DevOps Culture
