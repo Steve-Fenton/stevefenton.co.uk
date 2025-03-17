@@ -48,6 +48,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Key Findings: State of CD Report 2023](https://cd.foundation/blog/2023/05/09/key-findings-state-of-cd-report-2023/)
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
+- [What's missing with AI-generated code? Refactoring.](https://thenewstack.io/whats-missing-with-ai-generated-code-refactoring/)
 
 ### DevOps and software delivery
 
