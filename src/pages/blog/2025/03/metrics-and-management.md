@@ -71,4 +71,5 @@ Not only is this healthier for the team, it's more appropriate for your audience
 
 - [Metrics that matter](https://newsletter.bryanross.me/p/metrics-that-matter) by Bryan Ross
 - [Measuring what actually matters](https://www.linkedin.com/pulse/6-art-measuring-what-actually-matters-platform-graziano-casto-rkv3f) by Graziano Casto
+- [DX Core 4](https://www.gitpod.io/blog/dx-core-4-eng-leaders) by Lou Bichard
 - [Discussion about metrics while walking home](https://www.youtube.com/watch?v=6lxvY3d2E8M) (video) by Kalle Sirkesalo
