@@ -1181,6 +1181,8 @@ nav.site-nav h2 {
     margin: 1.5rem 0;
     border-top: 1px dashed var(--fore);
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .post-taxonomy > div {
@@ -1190,12 +1192,12 @@ nav.site-nav h2 {
 .post-taxonomy h2 {
     font-size: 1rem;
     font-family: var(--content-font);
-    margin: var(--margin-size) var(--margin-size-negative);
-    padding: var(--margin-size);
+    margin: 0;
+    padding: 0;
 }
 
 .post-taxonomy ul {
-    margin: var(--margin-size) 0;
+    margin: 0;
     list-style: none;
 }
 
