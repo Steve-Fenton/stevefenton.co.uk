@@ -14,7 +14,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 - Professional
 - Joyful
 
-> …in the end, it’s not about what we do, it’s about **who we are** when we do it…
+> …in the end, it's not about what we do, it's about **who we are** when we do it…
 
 > We've never taken ourselves too seriously... on stage. But on music
 > and creatively, then yes [we take that seriously].
@@ -29,9 +29,9 @@ This is my personal affirmation page, which gives me daily inspiration.
 :img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 
-> don’t sign to major labels \
+> don't sign to major labels \
 > reject authority \
-> say what’s on your mind \
+> say what's on your mind \
 > make a lot of noise
 > 
 > <cite>Steve Albini</cite>
@@ -48,7 +48,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 ## Writing reminder
 
 1. Research first
-2. Create an outline with… 
+2. Create an outline with…
     1. Subheadings
     2. Questions to answer
     3. Key points
@@ -57,8 +57,28 @@ This is my personal affirmation page, which gives me daily inspiration.
     6. Sources
 3. First pass; just write with no filter, let it flow
 4. Write the introduction
-5. Editing phase 
+5. Editing phase
     1. Read through
     2. Improvements
     3. Style
     4. Read aloud edit
+
+## Mac setup reminder
+
+### Apps
+
+1. Magnet
+2. Vivaldi
+3. GitHub Desktop
+4. VS Code
+5. OneDrive
+
+### Keyboard
+
+What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`</kbd>, <kbd>\</kbd>, <kbd>@</kbd>, <kbd>"</kbd>, and <kbd>#</kbd> all switching round, but not the command key location.
+
+1. System settings > Keyboard
+2. Keyboard settings > Modifier Keys
+3. Map
+   1. Control => Command
+   2. Command => Control
