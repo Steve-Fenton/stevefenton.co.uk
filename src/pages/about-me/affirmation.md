@@ -75,6 +75,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 5. PNPM
 6. OneDrive
 7. Seashore
+8. Pinta
 
 ### Keyboard
 
