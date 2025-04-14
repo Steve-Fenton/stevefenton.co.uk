@@ -16,6 +16,8 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 > …in the end, it's not about what we do, it's about **who we are** when we do it…
 
+## Quotes and inspiration
+
 > We've never taken ourselves too seriously... on stage. But on music
 > and creatively, then yes [we take that seriously].
 >
@@ -36,12 +38,11 @@ This is my personal affirmation page, which gives me daily inspiration.
 > 
 > <cite>Steve Albini</cite>
 
-
 > I told my wife I was going out to buy an envelope. 'Oh,' she says. 'Well, you're not a poor man. You know, why don't you go online and buy a hundred envelopes and put them in the closet?
 > 
 > And so I pretend not to hear her. And go out to get an envelope because I'm going to have a hell of a good time in the process of buying one envelope. I meet a lot of people. And, see some great looking babes. And a fire engine goes by. And I give them the thumbs up. And, and ask a woman what kind of dog that is. 
 >
-> And, and I don't know. The moral of the story is, is we're here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don't realize, or they don't care, is we're dancing animals. You know, we love to move around. And, we're not supposed to dance at all anymore.
+> And, and I don't know. The moral of the story is, is we're here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don't realize, or they don't care, is we're dancing animals. You know, we love to move around. And, we're not supposed to dance at all any more.
 >
 > <cite>Kurt Vonnegut. Interviewed by David Brancaccio, NOW (PBS) <a href="http://web.archive.org/web/20200203182317/http://www.pbs.org/now/arts/vonnegut.html">Archived</a></cite>
 
@@ -71,10 +72,15 @@ This is my personal affirmation page, which gives me daily inspiration.
 2. Vivaldi
 3. GitHub Desktop
 4. VS Code
-5. OneDrive
+5. PNPM
+6. OneDrive
+7. Seashore
 
 ### Keyboard
 
+I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
+
+<del>
 What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`</kbd>, <kbd>\</kbd>, <kbd>@</kbd>, <kbd>"</kbd>, and <kbd>#</kbd> all switching round, but not the command key location.
 
 1. System settings > Keyboard
@@ -82,3 +88,5 @@ What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`
 3. Map
    1. Control => Command
    2. Command => Control
+
+</del>
