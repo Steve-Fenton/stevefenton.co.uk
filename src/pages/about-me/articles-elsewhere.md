@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-01-30
+modDate: 2025-04-14
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -84,6 +84,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Relax about your DORA metrics](https://thenewstack.io/relax-about-your-dora-metrics/)
 - [Effective DevOps metrics](https://octopus.com/blog/effective-devops-metrics)
 - [Poorly designed rewards crush improvement efforts](https://thenewstack.io/poorly-designed-rewards-crush-improvement-efforts/)
+- [Understanding measurement types](https://octopus.com/blog/measuring-cd-and-devops-measurement-types)
 
 ## Multi-tenancy
 
