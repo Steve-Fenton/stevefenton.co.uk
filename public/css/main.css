@@ -1223,10 +1223,19 @@ nav.site-nav h2 {
 .author-page {
     display: flex;
     gap: var(--grid-gap);
+
+    @media (max-width: 860px) {
+        flex-direction: column;
+    }
 }
 
 .author-page > img {
     align-self: self-start;
+
+    @media (max-width: 860px) {
+        display: block;
+        margin-inline: auto;
+    }
 }
 
 /* Taxonomy */
