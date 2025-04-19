@@ -29,6 +29,6 @@ This is more common when software is used to manage boards, but creating a board
 
 ## No WIP limits
 
-Failing to apply WIP limits is one of the most common problems on Kanban boards. You could write a book on the benefits of limiting work in process (and Jim Benson has), yet teams and organisations still have a mindset of wanting everything, yesterday. The failure to apply WIP limits is a symptom of utilisation-thinking rather than flow-thinking. If you can’t stand the thought of a person being idle, you are a utilisation-thinker. You will need to study hard to find out whey keeping the work moving is more important than keeping people busy.
+Failing to apply WIP limits is one of the most common problems on Kanban boards. You could write a book on the benefits of limiting work in process (and Jim Benson has), yet teams and organisations still have a mindset of wanting everything, yesterday. The failure to apply WIP limits is a symptom of utilisation-thinking rather than flow-thinking. If you can’t stand the thought of a person being idle, you are a utilisation-thinker. You will need to study hard to find out why keeping the work moving is more important than keeping people busy.
 
-On the whole, unless you have an expert-level of knowledge of Theory of Constraints and Kanban, you’d be better off avoiding software boards as they encourage a myriad bad behaviours. Once you have the expert-knowledge, you are likely to avoid software boards for a whole different reason.
+On the whole, unless you have an expert-level of knowledge of Theory of Constraints and Kanban, you’d be better off avoiding software boards as they encourage myriad bad behaviours. Once you have the expert-knowledge, you are likely to avoid software boards for a whole different reason.
