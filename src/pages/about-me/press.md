@@ -9,7 +9,7 @@ description: A roll call of mentions I've received elsewhere.
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
 
-## CD Foundation: Continuous Enthusiast Nomination
+## CD Foundation: Continuous Enthusiast Nomination
 
 April 2025
 
