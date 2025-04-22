@@ -2,12 +2,22 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-04-16
+modDate: 2025-04-22
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## CD Foundation: Continuous Enthusiast Nomination
+
+April 2025
+
+I'm really honoured to have received a nomination for the CD Foundation's *Continuous Enthusiast Award*.
+
+> I am honored to nominate [Steve Fenton](https://cd.foundation/blog/2024/07/22/continuous-spotlight-meet-steve-fenton/) for the Continuous Enthusiast Award. He has written a few blog posts about the State of CI/CD Report over the years, including "[The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)" in 2024, was part of the [Techstrong panel](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12) about the State of CI/CD Report, and was on the Program Committee for the [CD Mini Summit 2024](https://cd.foundation/cd-mini-summit-vienna/).
+
+[See all the nominees on CDF GitHub](https://github.com/cdfoundation/foundation/issues/460#issuecomment-2821565195)
 
 ## TechStrong: DevOps
 
