@@ -76,6 +76,8 @@ This is my personal affirmation page, which gives me daily inspiration.
 6. OneDrive
 7. Seashore
 8. Pinta
+9. [Keyboard Maestro](https://www.keyboardmaestro.com/)
+10. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 
 ### Keyboard
 
