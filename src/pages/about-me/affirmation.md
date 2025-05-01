@@ -68,16 +68,18 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 ### Apps
 
-1. Magnet
-2. Vivaldi
-3. GitHub Desktop
-4. VS Code
-5. PNPM
-6. OneDrive
-7. Seashore
-8. Pinta
+1. Magnet (App store)
+2. [Vivaldi](https://vivaldi.com)
+3. [GitHub Desktop](https://desktop.github.com/download/)
+4. [VS Code](https://code.visualstudio.com)
+5. [PNPM](https://pnpm.io)
+6. OneDrive (App store)
+7. Seashore (App store)
+8. [Pinta](https://www.pinta-project.com)
 9. [Keyboard Maestro](https://www.keyboardmaestro.com/)
 10. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+11. [Shottr](https://shottr.cc)
+12. Narrly (App store)
 
 ### Keyboard
 
