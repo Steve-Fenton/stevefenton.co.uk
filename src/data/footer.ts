@@ -45,6 +45,11 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			url: 'https://medium.com/@steve.fenton',
 			order: 70,
 			rel: 'me',
+		},{
+			title: '⛽ DEV',
+			url: 'https://dev.to/_steve_fenton_',
+			order: 80,
+			rel: 'me',
 		}]
 }];
 
