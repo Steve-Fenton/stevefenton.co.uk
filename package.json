@@ -9,6 +9,7 @@
     "pnpm": ">=8"
   },
   "scripts": {
+    "refresh": "pnpm update && node ./accelerator.js",
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
     "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
@@ -22,10 +23,10 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.6",
+    "@astrojs/mdx": "^4.3.0",
     "@img/sharp-linux-x64": "^0.33.5",
-    "astro-accelerator": "^5.0.12",
-    "astro-accelerator-utils": "^0.3.42",
+    "astro-accelerator": "^5.9.0",
+    "astro-accelerator-utils": "^0.3.43",
     "cspell": "^8.19.4",
     "linkinator": "^6.1.2",
     "optional": "^0.1.4",
