@@ -16,9 +16,11 @@ My favourite research efforts are:
 
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
 
-## State of GitOps
+## The State of GitOps report
 
-At Octopus, we ran an industry survey to find out more about GitOps. Based on 660 responses to our survey, we're investigating:
+I lead a research effort to understand GitOps adoption, practices, and outcomes. The results are based on 660 survey responses and interviews with expert practitioners.
+
+The report covers topics such as:
 
 - What good GitOps looks like
 - Current industry adoption of GitOps
@@ -27,7 +29,7 @@ At Octopus, we ran an industry survey to find out more about GitOps. Based on 66
 - The benefits of GitOps
 - Which GitOps practices drive outcomes
 
-The report is likely to come out in June 2025. Sign up to get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report). 
+The report is likely to come out in **June 2025**. Sign up to get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report). 
 
 ## Platform Engineering
 
@@ -38,6 +40,8 @@ Our plan is to:
 - (Done!) Speak to practitioners to find out key motivations for internal developer platforms
 - (Done!) Design a survey based on what we learn
 - (Done!) Run the survey to get a broad picture of Platform Engineering
+- Product a mini-report based on what we learn
+- Extend this by adjusting our survey instrument and getting a broader sample
 
 By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
 
