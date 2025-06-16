@@ -51,7 +51,7 @@ We have our first batch of survey responses and we'll be analyzing them and shar
 
 I've created a [research-only mailing list](https://oc.to/research-updates) for folks who want to stay updated.
 
-<iframe width="540" height="305" src="https://sibforms.com/serve/MUIFAPDnrZI-NoozGdJ2Yl2sW4ZeTb_IP2vOOEBZwCYhS8DA-LNQHnccCfJyxElaWZM8h104CRnTJW7aqE3IRwvi58V9m3Ns8nzZmCcbW2QbGkvBvj3a4gYpQ9erVOE6BZ-P6VZh_1xfej8huScT4cDHmS2ROUX4miuJ-NsVczdZP-2mpFkCWDCuY_pybOOZ0H4GxAOEVxGK7ijs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;width: 100%;"></iframe>
+<iframe width="540" height="355" src="https://sibforms.com/serve/MUIFAPDnrZI-NoozGdJ2Yl2sW4ZeTb_IP2vOOEBZwCYhS8DA-LNQHnccCfJyxElaWZM8h104CRnTJW7aqE3IRwvi58V9m3Ns8nzZmCcbW2QbGkvBvj3a4gYpQ9erVOE6BZ-P6VZh_1xfej8huScT4cDHmS2ROUX4miuJ-NsVczdZP-2mpFkCWDCuY_pybOOZ0H4GxAOEVxGK7ijs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;width: 100%;"></iframe>
 
 ## Frequently asked questions
 
