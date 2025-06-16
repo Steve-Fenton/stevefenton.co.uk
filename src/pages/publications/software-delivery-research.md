@@ -61,11 +61,11 @@ This is a bit like a frequently asked questions section, except it's more like a
 
 No. When I collect survey data, I promise people I won't share it. There are usually enough bits in the survey data that you could reverse engineer it and either identify companies and individuals, or mis-identify them. That means the data must be kept securely and I can't share it. If you want to test the results, I can give you the questions and you can collect your own data in a responsible way. I'd definitely be interested in hearing what you find if you do this, in fact it might become a condition of getting the questions that you report back to tell me how it went.
 
-### Where has the survey come from?
+### Where has the survey come from?
 
 This is a crucial question to ask with all surveys and reports. My natural curiosity is the source of all my research, though some of my research is paid for by my employer. I'm not a fan of "9 out of 10 cats" research, because it's really marketing in disguise. To avoid falling into this trap, all my research starts with a number of hypotheses to test. I faithfully note down whether they are confirmed or busted, because research is exciting either way.
 
-### What questions does the survey ask?
+### What questions does the survey ask?
 
 I take great care to ask questions that eliminate bias, depend on knowledge respondents might not have, or that lead the respondents. This is the great challenge of survey design and I'm refining my skills here all the time. I usually share at least some of the questions alongside reports. Contact me if you want questions from one of the reports I've worked on and we can talk.
 
