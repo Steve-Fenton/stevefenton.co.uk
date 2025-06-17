@@ -124,9 +124,9 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Kubernetes predictions were wrong](https://thenewstack.io/kubernetes-predictions-were-wrong/) \
   Why has the solution to the Kubernetes complexity problem proven so elusive?
 
-### White papers
+## White papers
 
-#### DevOps and Continuous Delivery white papers
+### DevOps and Continuous Delivery white papers
 
 - [The importance of Continuous Delivery](https://octopus.com/whitepapers/lv-the-importance-of-continuous-delivery) \
   This paper outlines Continuous Delivery and draws on research to highlight the benefits.
@@ -135,17 +135,17 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops) \
   This paper provides guidance on using metrics and frameworks for good ways to measure software delivery.
 
-#### Multi-tenancy white papers
+### Multi-tenancy white papers
 
 - [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy) \
   This white paper challenges the traditional narrow view of multi-tenancy as an application architecture.
 
-#### Deployment white papers
+### Deployment white papers
 
 - [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023) \
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
 
-## GitOps
+### GitOps
 
 - [The State of GitOps report](https://octopus.com/publications/state-of-gitops-report) \
   Investigates the adoption, practices, and benefits of a GitOps approach, based on data from 660 survey responses and interviews experts and practitioners.
