@@ -137,10 +137,15 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 #### Multi-tenancy white papers
 
-- [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy)
+- [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy) \
   This white paper challenges the traditional narrow view of multi-tenancy as an application architecture.
 
 #### Deployment white papers
 
-- [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023)
+- [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023) \
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
+
+## GitOps
+
+- [The State of GitOps report](https://octopus.com/publications/state-of-gitops-report) \
+  Investigates the adoption, practices, and benefits of a GitOps approach, based on data from 660 survey responses and interviews experts and practitioners.
