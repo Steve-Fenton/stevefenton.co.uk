@@ -5,8 +5,8 @@ pubDate: 2025-06-17
 keywords: octopus deploy, slack, notifications
 description: How to add add links to Octopus notifications to Slack
 bannerImage:
-    src: /img/topic/space/nasa-atmosphere-layers.jpg
-    alt: The layers of the atmosphere, by NASA.
+    src: /img/topic/octopus/exploring-octopus-banner.png
+    alt: A banner featuring the book Exploring Octopus Deploy (second edition)
 authors:
     - steve-fenton
 categories:
