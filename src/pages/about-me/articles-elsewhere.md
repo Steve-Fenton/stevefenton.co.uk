@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-04-14
+modDate: 2025-06-17
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -11,10 +11,14 @@ I've written for Octopus Deploy, The New Stack, DORA, and more. Here is some con
 
 I'm aware these lists are growing rapidly, so I'll try to organize things a bit as I add more content.
 
+## Crucial ideas
+
+- [Work Is Water: Beat developer infinity by paying attention to flow](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
+- [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
+- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
+
 ## DevOps and Continuous Delivery
 
-- [The DevOps engineer's handbook](https://octopus.com/devops/)
-- [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
@@ -27,7 +31,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
-- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Stop blaming regulation for poor software delivery performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 
 ### DevOps culture and developer experience (DevEx)
