@@ -46,6 +46,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ### DevOps research
 
+- [State of GitOps report launched](https://octopus.com/blog/announcing-the-first-state-of-gitops-report)
 - [Focus returns to transformational leadership](https://cd.foundation/blog/2024/11/19/transformational-leadership/)
 - [The State of CI/CD Report 2024: The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)
 - [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
