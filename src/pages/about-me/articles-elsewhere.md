@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-04-14
+modDate: 2025-06-17
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -11,10 +11,14 @@ I've written for Octopus Deploy, The New Stack, DORA, and more. Here is some con
 
 I'm aware these lists are growing rapidly, so I'll try to organize things a bit as I add more content.
 
+## Crucial ideas
+
+- [Work Is Water: Beat developer infinity by paying attention to flow](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
+- [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
+- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
+
 ## DevOps and Continuous Delivery
 
-- [The DevOps engineer's handbook](https://octopus.com/devops/)
-- [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
@@ -27,7 +31,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
-- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Stop blaming regulation for poor software delivery performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 
 ### DevOps culture and developer experience (DevEx)
@@ -121,9 +124,9 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Kubernetes predictions were wrong](https://thenewstack.io/kubernetes-predictions-were-wrong/) \
   Why has the solution to the Kubernetes complexity problem proven so elusive?
 
-### White papers
+## White papers
 
-#### DevOps and Continuous Delivery white papers
+### DevOps and Continuous Delivery white papers
 
 - [The importance of Continuous Delivery](https://octopus.com/whitepapers/lv-the-importance-of-continuous-delivery) \
   This paper outlines Continuous Delivery and draws on research to highlight the benefits.
@@ -132,12 +135,17 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Measuring Continuous Delivery and DevOps](https://octopus.com/whitepapers/lv-measuring-continuous-delivery-and-devops) \
   This paper provides guidance on using metrics and frameworks for good ways to measure software delivery.
 
-#### Multi-tenancy white papers
+### Multi-tenancy white papers
 
-- [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy)
+- [A modern view of multi-tenancy](https://octopus.com/whitepapers/modern-view-of-multi-tenancy) \
   This white paper challenges the traditional narrow view of multi-tenancy as an application architecture.
 
-#### Deployment white papers
+### Deployment white papers
 
-- [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023)
+- [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023) \
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
+
+### GitOps
+
+- [The State of GitOps report](https://octopus.com/publications/state-of-gitops-report) \
+  Investigates the adoption, practices, and benefits of a GitOps approach, based on data from 660 survey responses and interviews experts and practitioners.
