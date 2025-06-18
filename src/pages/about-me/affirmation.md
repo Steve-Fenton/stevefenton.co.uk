@@ -84,6 +84,8 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 ### .NET development
 
+Try to avoid ever needing multiple versions!
+
 ```bash
 brew install dotnet
 ```
