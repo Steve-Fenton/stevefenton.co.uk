@@ -82,6 +82,12 @@ This is my personal affirmation page, which gives me daily inspiration.
 12. Narrly (App store)
 13. Flow (App store)
 
+### .NET development
+
+```bash
+brew install dotnet
+```
+
 ### Keyboard
 
 I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
