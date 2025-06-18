@@ -88,6 +88,12 @@ This is my personal affirmation page, which gives me daily inspiration.
 brew install dotnet
 ```
 
+To install specific SDKs:
+
+```bash
+brew install --cask dotnet-sdk8
+```
+
 ### Keyboard
 
 I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
