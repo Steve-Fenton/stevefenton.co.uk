@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-06-17
+modDate: 2025-06-19
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -46,7 +46,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ### DevOps research
 
-- [State of GitOps report launched](https://octopus.com/blog/announcing-the-first-state-of-gitops-report)
 - [Focus returns to transformational leadership](https://cd.foundation/blog/2024/11/19/transformational-leadership/)
 - [The State of CI/CD Report 2024: The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)
 - [The 2023 DevOps performance clusters](https://octopus.com/blog/software-delivery-performance-clusters-2023)
@@ -77,6 +76,11 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
 - [You don't need a product manager for Platform Engineering](https://thenewstack.io/is-your-product-manager-hurting-platform-engineering/)
 - [The rise of thin platforms](https://builtin.com/articles/thin-platforms-future-platform-engineering)
+
+## GitOps
+
+- [State of GitOps report launched](https://octopus.com/blog/announcing-the-first-state-of-gitops-report)
+- [The GitOps gap: Few use declarative configuration to manage state](https://thenewstack.io/gitops-gap-few-use-declarative-configuration-to-manage-state/)
 
 ## Metrics
 
@@ -146,7 +150,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023) \
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
 
-### GitOps
+### GitOps white papers
 
 - [The State of GitOps report](https://octopus.com/publications/state-of-gitops-report) \
   Investigates the adoption, practices, and benefits of a GitOps approach, based on data from 660 survey responses and interviews experts and practitioners.
