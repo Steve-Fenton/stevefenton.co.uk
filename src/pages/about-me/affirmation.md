@@ -86,6 +86,10 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
 
+The one thing I can't seem to retrain is how home and end work. I'm very used to this working per line, i.e., home goes to the start of a line, end goes to the end of the line. On Mac, it works per document and I keep zipping off to the start or end of a document and losing my place.
+
+So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from [PC style shortcuts](https://ke-complex-modifications.pqrs.org/#pc_shortcuts) import **End key to the end of the line (Control + e)** and **Home key to the beginning of the line (Control + a)** rules.
+
 <del>
 What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`</kbd>, <kbd>\</kbd>, <kbd>@</kbd>, <kbd>"</kbd>, and <kbd>#</kbd> all switching round, but not the command key location.
 
