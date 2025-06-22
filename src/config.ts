@@ -58,7 +58,6 @@ export const HEADER_SCRIPTS = `
 <meta name="copyright" content="Steve Fenton" />
 <link rel="preload" href="/css/AtkinsonHyperlegibleNext-Bold.otf" as="font" crossorigin>
 <link rel="preload" href="/css/AtkinsonHyperlegibleNext-Regular.otf" as="font" crossorigin>
-<meta name="google-site-verification" content="yMPNx-fUOFkHhPCbuRMPgjQzZ6fOdT8YKZP6RVtAw7M" />
 <script defer src="https://cloud.umami.is/script.js" data-website-id="6873987a-df53-4cf3-bd80-5a66c1af0886"></script>
 `.trim();
 
