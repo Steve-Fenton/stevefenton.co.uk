@@ -1,5 +1,5 @@
 export const SITE = {
-	url: 'https://www.stevefenton.co.uk',
+	url: 'https://stevefenton.co.uk',
 	subfolder: '',
 	useTrailingUrlSlash: true,
 	captureStatistics: false,
