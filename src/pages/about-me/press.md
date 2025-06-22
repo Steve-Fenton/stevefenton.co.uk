@@ -25,7 +25,7 @@ April 2025
 
 Saqib Jan wrote an article on the impact of CI/CD pipelines on Developer Experience (DevEx).
 
-> Beyond productivity and morale, a poorly functioning CI/CD pipeline can also erode trust across the wider business. Steve Fenton, director of developer relations at Octopus Deploy, describes this as a trust-loss spiral. “When developers struggle to get changes quickly and reliably through the CI/CD pipeline, it doesn’t just slow feedback. A more damaging effect is the loss of trust. Though developers are doing their best to deliver features without regressions or deployment failures, when changes are delayed or cause customer-impacting issues, the business loses confidence in their ability to deliver.” This often leads to increased bureaucracy and slower processes, further exacerbating the problem.
+> Beyond productivity and morale, a poorly functioning CI/CD pipeline can also erode trust across the wider business. Steve Fenton, director of developer relations at Octopus Deploy, describes this as a trust-loss spiral. "When developers struggle to get changes quickly and reliably through the CI/CD pipeline, it doesn't just slow feedback. A more damaging effect is the loss of trust. Though developers are doing their best to deliver features without regressions or deployment failures, when changes are delayed or cause customer-impacting issues, the business loses confidence in their ability to deliver." This often leads to increased bureaucracy and slower processes, further exacerbating the problem.
 
 [Optimizing CI/CD pipelines for developer happiness and high performance](https://devops.com/optimizing-ci-cd-pipelines-for-developer-happiness-and-high-performance/)
 
@@ -35,7 +35,7 @@ March 2025
 
 We ran a study of software deployments across the US to see where the acticity hubs were, broken down by state and city. DevPro covered the findings in their article.
 
-> Software industry research has led Octopus to the conclusion that frequent software deployments are a feature of high-performing development teams. They were interested in ﬁnding out which US states did the most deployments each year to see if this information matched population size, or the location of US tech hubs, such as those featured in Bloomberg’s 2019 Brain Concentration Index.
+> Software industry research has led Octopus to the conclusion that frequent software deployments are a feature of high-performing development teams. They were interested in ﬁnding out which US states did the most deployments each year to see if this information matched population size, or the location of US tech hubs, such as those featured in Bloomberg's 2019 Brain Concentration Index.
 
 [Study data: US cities, states with the most annual software deployments
 ](https://www.devprojournal.com/software-development-trends/study-data-us-cities-states-with-the-most-annual-software-deployments/)
@@ -49,7 +49,7 @@ I was quoted in a mega-predictions article from Solutions Review on WorkTech tre
 1. Platform Engineering will be thinner
 2. Continuous Delivery will be re-discovered for PaaS, Kubernetes, and serverless
 
-> “Platform engineering has become a path towards DevOps efficiency and developer productivity. In 2025, organizations will realize they can achieve the goals of platform engineering with fewer lines of bespoke code. Instead of trying to build a grand unifying platform, existing tools will provide solutions that reduce fragmentation, apply standards, and integrate security into software delivery.”
+> "Platform engineering has become a path towards DevOps efficiency and developer productivity. In 2025, organizations will realize they can achieve the goals of platform engineering with fewer lines of bespoke code. Instead of trying to build a grand unifying platform, existing tools will provide solutions that reduce fragmentation, apply standards, and integrate security into software delivery."
 
 [59 WorkTech Predictions from Industry Experts for 2025](https://solutionsreview.com/enterprise-resource-planning/worktech-predictions-from-industry-experts-for-2025/)
 
@@ -99,7 +99,7 @@ I'm really thankful for another hat-tip in the Accelerate State of DevOps report
 
 June 2024
 
-John Bristowe asked me about the publication of [Exploring Octopus Deploy](https://www.stevefenton.co.uk/publications/exploring-octopus-deploy/). Find out why I wrote a new edition and what's changed in this interview.
+John Bristowe asked me about the publication of [Exploring Octopus Deploy](/publications/exploring-octopus-deploy/). Find out why I wrote a new edition and what's changed in this interview.
 
 [Watch John and Steve in conversation](https://www.youtube.com/watch?v=khCGMQiLqLg)
 
@@ -231,7 +231,7 @@ A little mention of an LSP example I created.
 
 November 2022
 
-Colin Simpson's "ed tech must-reads of the week" featured my post about [moving to Mastodon](https://www.stevefenton.co.uk/blog/2022/10/moving-to-mastodon/).
+Colin Simpson's "ed tech must-reads of the week" featured my post about [moving to Mastodon](/blog/2022/10/moving-to-mastodon/).
 
 [Campus Morning Mail](https://campusmorningmail.com.au/news/colin-simpsons-ed-tech-must-reads-of-the-week-34/)
 

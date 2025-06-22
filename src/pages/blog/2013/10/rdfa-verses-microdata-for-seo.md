@@ -16,7 +16,7 @@ So enough with the disclaimer. Ethical SEO is a real concern for people and so t
 
 The general opinion in respect to SEO was that Microdata would be better because Google support it – but I was concerned that, while RDFa is a W3C recommendation, Microdata is still a draft (and there is a lot of debate about whether it adds anything that RDFa cannot already do).
 
-So I did the homework and found out the answer. Google supports both RDFa and Microdata. You can test it for yourself on [Google's Stuctured Data Testing Tool (example using my Recommended Reading Page)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fwww.stevefenton.co.uk%2Fpublications%2Frecommended-reading%2F).
+So I did the homework and found out the answer. Google supports both RDFa and Microdata. You can test it for yourself on [Google's Structured Data Testing Tool (example using my Recommended Reading Page)](https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fstevefenton.co.uk%2Fpublications%2Frecommended-reading%2F).
 
 So don't base your decision on RDFa verses Microdata on Google support – it happily uses both (as it should as Google want to give search users the best possible results).
 

@@ -26,7 +26,7 @@ I have spent more time battling modules recently than I have spent doing any oth
 
 Early modules using CommonJS were nice and simple. You called a `require()` function passing in the path to the module. If your environment didn't have a `require` you could write one, or grab one like RequireJS. Anyway, this is a digression. We eventually settled on ECMA-style modules, where you use `import ... from ...` syntax to load modules. This offers flexibility as you can import specific things, `import { oneThing } from ...` and alias the whole import `import * as Allthings from ...`.
 
-If you're writing a Node module, you will have done battle with this. I'm writing [a module that will be both a Node module and run in a browser](https://www.stevefenton.co.uk/blog/2022/11/modules-node-and-browsers/) and things were tricky.
+If you're writing a Node module, you will have done battle with this. I'm writing [a module that will be both a Node module and run in a browser](/blog/2022/11/modules-node-and-browsers/) and things were tricky.
 
 The long and short of things is that it's ECMA modules, running on Node v18, and I want to test it with Jest.
 

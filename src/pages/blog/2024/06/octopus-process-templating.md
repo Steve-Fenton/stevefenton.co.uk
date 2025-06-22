@@ -16,7 +16,7 @@ tags:
     - Platform Engineering
 ---
 
-Whether or not you formally adopt the approach, Platform Engineering encourages us to get re-use from our toolchains - just like we do within our code. Some time ago I applied this thinking to a suite of [JMeter tests](https://www.stevefenton.co.uk/blog/2012/06/modularising-jmeter-tests/), using controllers to make modules more re-usable and reducing the amount of work involved in changing the test suite. Today, I'm going to apply the same thought process to [Octopus Deploy](https://octopus.com).
+Whether or not you formally adopt the approach, Platform Engineering encourages us to get re-use from our toolchains - just like we do within our code. Some time ago I applied this thinking to a suite of [JMeter tests](/blog/2012/06/modularising-jmeter-tests/), using controllers to make modules more re-usable and reducing the amount of work involved in changing the test suite. Today, I'm going to apply the same thought process to [Octopus Deploy](https://octopus.com).
 
 ::::div{.note}
 

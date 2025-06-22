@@ -17,7 +17,7 @@ If you want to add my set of Log Parser Studio custom queries to your LPS librar
 
 Note: if you want to merge these with your existing queries, just copy the inner nodes into your LPS library file – if you just want to use my custom set without searching through the huge list of standard queries, you can overwrite your LPS library file.
 
-You can find the LPS library file next to the LPS.exe file. It is called “LPSV2Library.XML”.
+You can find the LPS library file next to the LPS.exe file. It is called "LPSV2Library.XML".
 
 Many of these queries are adapted from the standard versions, and others will be particularly helpful if you…
 
@@ -35,7 +35,7 @@ SELECT
     cs(User-Agent),
     COUNT(cs(User-Agent)) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY cs(User-Agent)
@@ -55,7 +55,7 @@ SELECT
     COUNT(*) AS Total,  
     SUM(sc-bytes) AS TotBytesSent 
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY date
@@ -76,7 +76,7 @@ SELECT
     COUNT(*) AS Total,  
     SUM(sc-bytes) AS TotBytesSent 
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY H
@@ -112,12 +112,12 @@ ORDER BY M</QueryData>
     <QueryDescription>Top list of URIs.</QueryDescription>
     <QueryData>
 SELECT TOP 20
-   	cs-uri-stem, 
-	COUNT(*) AS Total, 
-	MAX(time-taken) AS MaxTime, 
-	AVG(time-taken) AS AvgTime
+       cs-uri-stem, 
+    COUNT(*) AS Total, 
+    MAX(time-taken) AS MaxTime, 
+    AVG(time-taken) AS AvgTime
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY cs-uri-stem
@@ -140,9 +140,9 @@ SELECT TOP 20
     AVG(time-taken) AS AvgTime,
     AVG(sc-bytes) AS AvgBytes
 FROM
-	'[LOGFILEPATH]' 
+    '[LOGFILEPATH]' 
 WHERE
-	cs-host = 'example.com'
+    cs-host = 'example.com'
 AND
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY cs-uri-stem
@@ -161,7 +161,7 @@ SELECT TOP 20
     cs-host, 
     COUNT(*) AS Total
 FROM
-	'[LOGFILEPATH]' 
+    '[LOGFILEPATH]' 
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY cs-host
@@ -179,7 +179,7 @@ ORDER BY Total DESC</QueryData>
     EXTRACT_PREFIX(c-ip, 2, '.') AS ip-range,
     COUNT(ip-range) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY ip-range
@@ -198,7 +198,7 @@ SELECT
     c-ip,
     count(c-ip) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY c-ip 
@@ -217,7 +217,7 @@ ORDER BY count(c-ip) DESC</QueryData>
     EXTRACT_PREFIX(c-ip, 2, '.') AS ip-range,
     COUNT(c-ip) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 AND
@@ -240,7 +240,7 @@ SELECT TOP 25
     MIN(time-taken) AS Min,  
     Avg(time-taken) AS Average  
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY URL  
@@ -259,9 +259,9 @@ SELECT TOP 25
     sc-status,
     COUNT(*) AS Hits  
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
-    date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))	
+    date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))    
 GROUP BY sc-status  
 ORDER BY Hits DESC </QueryData>
     <QueryID>e80a8693-c0be-49fd-bcab-7e8f6512cfd7</QueryID>
@@ -275,13 +275,13 @@ ORDER BY Hits DESC </QueryData>
     <QueryDescription>Top list of HTTP verbs.</QueryDescription>
     <QueryData>
 SELECT TOP 20
- 	cs-method, 
-	COUNT(*) AS Total, 
-	MAX(time-taken) AS MaxTime, 
-	AVG(time-taken) AS AvgTime, 
-	AVG(sc-bytes) AS AvgBytesSent 
+     cs-method, 
+    COUNT(*) AS Total, 
+    MAX(time-taken) AS MaxTime, 
+    AVG(time-taken) AS AvgTime, 
+    AVG(sc-bytes) AS AvgBytesSent 
 FROM
-	'[LOGFILEPATH]' 
+    '[LOGFILEPATH]' 
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY cs-method 
@@ -301,7 +301,7 @@ SELECT
     EXTRACT_PREFIX(X-Forwarded-For, 2, '.') AS ip-range,
     COUNT(ip-range) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY ip-range
@@ -320,7 +320,7 @@ SELECT
     X-Forwarded-For,
     COUNT(X-Forwarded-For) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 GROUP BY X-Forwarded-For
@@ -340,7 +340,7 @@ SELECT
     EXTRACT_PREFIX(X-Forwarded-For, 2, '.') AS ip-range,
     COUNT(X-Forwarded-For) AS requestcount
 FROM
-	'[LOGFILEPATH]'
+    '[LOGFILEPATH]'
 WHERE
     date &gt; SUB(TO_LOCALTIME(SYSTEM_TIMESTAMP()), TIMESTAMP('0000-01-02 00:00', 'yyyy-MM-dd HH:mm'))
 AND

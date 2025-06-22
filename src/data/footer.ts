@@ -8,7 +8,7 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 		order: 1,
 		children: [{
     title: '🗼 RSS feed',
-    url: 'https://www.stevefenton.co.uk/feed.xml',
+    url: 'https://stevefenton.co.uk/feed.xml',
     order: 0
   },{
 			title: '🐘 Mastodon',

@@ -16,7 +16,7 @@ tags:
     - JavaScript
 ---
 
-Recently I highlighted problems with [WEBP images in Open Graph data](https://www.stevefenton.co.uk/blog/2022/10/webp-opengraph-images/). This post demonstrates how you can manage your site's images, including automatically generating optimised and resized versions using the [Sharp](https://www.npmjs.com/package/sharp/v/0.5.2) package.
+Recently I highlighted problems with [WEBP images in Open Graph data](/blog/2022/10/webp-opengraph-images/). This post demonstrates how you can manage your site's images, including automatically generating optimised and resized versions using the [Sharp](https://www.npmjs.com/package/sharp/v/0.5.2) package.
 
 Does this article look familiar... I did the same with a Sqoosh package, but it has been discontinued. However, this turned out to be a good thing as Sharp does seem to give comparable results and runs a little faster.
 

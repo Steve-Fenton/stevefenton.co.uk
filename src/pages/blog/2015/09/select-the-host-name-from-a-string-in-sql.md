@@ -14,17 +14,17 @@ If you have a table containing web addresses and you need to get hold of the hos
 
 ```sql
 SELECT 
-	/* Get just the host name from a URL */
-	SUBSTRING(@WebAddress,
-		/* Starting Position (After any '//') */
-		(CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END),
-		/* Length (ending on first '/' or on a '?') */
-		CASE
-			WHEN CHARINDEX('/', @WebAddress, CHARINDEX('//', @WebAddress) + 2) > 0 THEN CHARINDEX('/', @WebAddress, CHARINDEX('//', @WebAddress) + 2) - (CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END)
-			WHEN CHARINDEX('?', @WebAddress, CHARINDEX('//', @WebAddress) + 2) > 0 THEN CHARINDEX('?', @WebAddress, CHARINDEX('//', @WebAddress) + 2) - (CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END)
-			ELSE LEN(@WebAddress)
-		END
-	) AS 'HostName'
+    /* Get just the host name from a URL */
+    SUBSTRING(@WebAddress,
+        /* Starting Position (After any '//') */
+        (CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END),
+        /* Length (ending on first '/' or on a '?') */
+        CASE
+            WHEN CHARINDEX('/', @WebAddress, CHARINDEX('//', @WebAddress) + 2) > 0 THEN CHARINDEX('/', @WebAddress, CHARINDEX('//', @WebAddress) + 2) - (CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END)
+            WHEN CHARINDEX('?', @WebAddress, CHARINDEX('//', @WebAddress) + 2) > 0 THEN CHARINDEX('?', @WebAddress, CHARINDEX('//', @WebAddress) + 2) - (CASE WHEN CHARINDEX('//', @WebAddress)= 0 THEN 1 ELSE CHARINDEX('//', @WebAddress) + 2 END)
+            ELSE LEN(@WebAddress)
+        END
+    ) AS 'HostName'
 ```
 
 You can use this against a variable (as per the examples on this web page) or you can run it against a table just as easily. Just pop the column name in the script instead of @WebAddress.
