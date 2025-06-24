@@ -1,6 +1,6 @@
 # Steve Fenton
 
-This repo powers my [website](https://www.stevefenton.co.uk) with [Astro](https://astro.build)
+This repo powers my [website](https://stevefenton.co.uk) with [Astro](https://astro.build)
 
 ## Spellcheck
 

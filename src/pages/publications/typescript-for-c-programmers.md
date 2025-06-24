@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Redirect.astro
-redirect: https://www.stevefenton.co.uk/publications/other-books/
+redirect: https://stevefenton.co.uk/publications/other-books/
 title: TypeScript for C# Programmers
 navTitle: TypeScript (C# ed.)
 navSearch: false

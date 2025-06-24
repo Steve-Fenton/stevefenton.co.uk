@@ -15,7 +15,7 @@ tags:
     - Books
 ---
 
-If you know me, you know I love books. I have a [reading list](https://www.stevefenton.co.uk/about-me/recommended-reading/) on my site to remind me of important books I've read and I help maintain a substantial [interactive DevOps reading list](https://octopus.com/devops/reading-list/) containing all the books I've read that are worth sharing in the DevOps field.
+If you know me, you know I love books. I have a [reading list](/about-me/recommended-reading/) on my site to remind me of important books I've read and I help maintain a substantial [interactive DevOps reading list](https://octopus.com/devops/reading-list/) containing all the books I've read that are worth sharing in the DevOps field.
 
 I sit in the shadow of two book cases filled with books and a whole cubby is dedicated to my <abbr title="to be read">TBR</abbr> pile.
 
@@ -30,7 +30,7 @@ Trust me. I love books.
 
 Ben Fox is an avid reader and entrepreneur. He created [Shepherd](https://shepherd.com) to reproduce that feeling you get when you walk through a book store looking for your next read. I often get that itch of wanting to find something new to read, where I don't know what book I want - I just want to discover it. That's the idea here.
 
-As part of this, I was invited to write a book list. This brought to mind those cards you see in your local bookstore where someone tells you why they loved a book; a personal recommendation.
+As part of this, I was invited to write a book list. This brought to mind those cards you see in your local book store where someone tells you why they loved a book; a personal recommendation.
 
 ## DevOps books that pre-date DevOps
 
@@ -42,4 +42,4 @@ There are lists in the same wheelhouse [from other writers here](https://shepher
 
 ## Books!
 
-Reading books is like adding years of experience to your career. You get to absorb situations you weren't directly involved with and learn from folks who you might never meet. If you don't have time to read, [check this out](https://www.stevefenton.co.uk/blog/2022/01/when-people-say-i-dont-have-time-to-read/).
+Reading books is like adding years of experience to your career. You get to absorb situations you weren't directly involved with and learn from folks who you might never meet. If you don't have time to read, [check this out](/blog/2022/01/when-people-say-i-dont-have-time-to-read/).

@@ -21,7 +21,7 @@ While many moderate people like to say that teams often use a mix of Scrum and K
 
 :::div{.note}
 
-This is my first attempt at explaining my thoughts, so feel free to [hit me with feedback](https://www.stevefenton.co.uk/contact/) so I can sharpen this up.
+This is my first attempt at explaining my thoughts, so feel free to [hit me with feedback](/contact/) so I can sharpen this up.
 
 :::
 
@@ -103,4 +103,4 @@ As of 2024, I think most of the reasons Scrum remains popular are toxic. The org
 
 Is this the intention of Scrum's authors? Absolutely not. But like [Benington and Royce](https://octopus.com/devops/history/early-software-delivery-models/), they're faced with rather nasty-looking interpretations of their work that don't resemble its intention. Remember when Benington said that the *top-down programming* approach where specifications had to be completed before code started was a *misleading and dangerous* interpretation of the Lincoln Labs model? Well, so it goes for every author of such a process, sadly.
 
-However, I would argue that even a textbook implementation of Scrum can never be the end state for a software development team. Not while competitors are moving beyond it. However, I think that your [software development process probably doesn't matter as much as *intent*](https://www.stevefenton.co.uk/blog/2020/07/software-development-process-does-not-matter/).
+However, I would argue that even a textbook implementation of Scrum can never be the end state for a software development team. Not while competitors are moving beyond it. However, I think that your [software development process probably doesn't matter as much as *intent*](/blog/2020/07/software-development-process-does-not-matter/).

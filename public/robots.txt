@@ -26,4 +26,4 @@ Disallow:
 User-agent: Mojeek
 Disallow:
 
-Sitemap: https://www.stevefenton.co.uk/sitemap.xml
+Sitemap: https://stevefenton.co.uk/sitemap.xml

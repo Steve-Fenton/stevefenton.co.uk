@@ -113,7 +113,7 @@ This is a super-useful tool for editing when you want to hear the text rather th
 
 Code Spell Checker can check all kinds of files for spelling issues. It works excellently in markdown and within code blocks in markdown.
 
-You can maintain a custom dictionary of terms you want to accept and you can add a build step to [check the spelling of all changed files](https://www.stevefenton.co.uk/blog/2023/10/spellcheck-changed-files/).
+You can maintain a custom dictionary of terms you want to accept and you can add a build step to [check the spelling of all changed files](/blog/2023/10/spellcheck-changed-files/).
 
 ## Summary
 

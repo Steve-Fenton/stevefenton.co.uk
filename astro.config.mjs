@@ -6,7 +6,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://www.stevefenton.co.uk',
+    site: 'https://stevefenton.co.uk',
     integrations: [mdx()],
     markdown: {
         shikiConfig: {
@@ -24,7 +24,4 @@ export default defineConfig({
     server: {
         port: 3000
     },
-    // experimental: {
-    //     contentCollectionCache: true,
-    // },
 });

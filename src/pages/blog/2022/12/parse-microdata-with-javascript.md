@@ -129,7 +129,7 @@ test('Check home page microdata', async ({ page }) => {
     expect(article.image).toBe('/i/x/2022/12/mobile-phones.png');
     expect(article.author.itemType).toBe('https://schema.org/Person');
     expect(article.author.name).toBe('Steve Fenton');
-    expect(article.author.url).toBe('https://www.stevefenton.co.uk/authors/steve-fenton/1/');
+    expect(article.author.url).toBe('https://stevefenton.co.uk/authors/steve-fenton/1/');
 });
 ```
 
@@ -142,7 +142,7 @@ As you can see, the data is available as a neat object:
   //...
   author: {
     name: 'Steve Fenton',
-    url: 'https://www.stevefenton.co.uk/authors/steve-fenton/1/',
+    url: 'https://stevefenton.co.uk/authors/steve-fenton/1/',
     // ...
   }
 }]

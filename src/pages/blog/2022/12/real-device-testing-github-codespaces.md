@@ -23,7 +23,7 @@ With Codespaces, you don't need to configure your local machine to serve files t
 
 ## Setting up for real-device testing
 
-[Set up a GitHub Codespace](https://www.stevefenton.co.uk/blog/2022/11/github-codespaces/) if you haven't already.
+[Set up a GitHub Codespace](/blog/2022/11/github-codespaces/) if you haven't already.
 
 Open the browser on your mobile device and sign in to [GitHub](https://github.com/). You will only be able to see the site if you are signed in, which is a neat security feature.
 

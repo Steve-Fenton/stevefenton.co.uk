@@ -17,7 +17,7 @@ tags:
 
 I found out about [ngrok](https://ngrok.com/) during this week's DEPLOY on FRIDAY episode. I grabbed it out of curiosity and fired it up... and I got the joy of using something that *just works*.
 
-There are more advanced use cases that their website covers, but a common pain point for me is running a website on localhost and testing it on a device like my phone or tablet. You can achieve this in [GitHub codespaces](https://www.stevefenton.co.uk/blog/2022/12/real-device-testing-github-codespaces/), but ngrok is a *really* easy way to do it from whatever machine you're on.
+There are more advanced use cases that their website covers, but a common pain point for me is running a website on localhost and testing it on a device like my phone or tablet. You can achieve this in [GitHub codespaces](/blog/2022/12/real-device-testing-github-codespaces/), but ngrok is a *really* easy way to do it from whatever machine you're on.
 
 [DEPLOY on FRIDAY](https://www.youtube.com/watch?v=25_TJUi8EL8)
 
@@ -38,7 +38,7 @@ That's literally it. If you remove the up-front installation tasks, your next de
 
 When you run ngrok, it provides the info you need to access the site. You'll see the following when you run ngrok:
 
-```
+```bash
 Session Status                online
 Account                       YOUR-EMAIL-ADDRESS (Plan: Free)
 Version                       3.2.1

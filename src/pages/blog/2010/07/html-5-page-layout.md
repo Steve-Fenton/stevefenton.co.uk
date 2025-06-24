@@ -36,9 +36,9 @@ This example was last updated on 16/08/2011 with changes to the use of the secti
         </header>
         <nav id="navigation">
             <ul>
-                <li><a href="https://www.stevefenton.co.uk/">Home</a></li>
-                <li><a href="https://www.stevefenton.co.uk/blog/">My Blog</a></li>
-                <li><a href="https://www.stevefenton.co.uk/contact/">Contact me</a></li>
+                <li><a href="https://stevefenton.co.uk/">Home</a></li>
+                <li><a href="https://stevefenton.co.uk/blog/">My Blog</a></li>
+                <li><a href="https://stevefenton.co.uk/contact/">Contact me</a></li>
             </ul>
         </nav>
         <section>
@@ -51,7 +51,7 @@ This example was last updated on 16/08/2011 with changes to the use of the secti
                 </header>
                 <aside>
                     <p>If you have any comments on this article, please
-                    <a href="https://www.stevefenton.co.uk/contact/">contact me</a>!</p>
+                    <a href="https://stevefenton.co.uk/contact/">contact me</a>!</p>
                 </aside>
                 <p>In this example you'll notice that the page has a header and footer of its own, and that each
                 article (and there can be more than one article on a page) can also have its own header and
@@ -82,7 +82,7 @@ This example was last updated on 16/08/2011 with changes to the use of the secti
                 </header>
                 <aside>
                     <p>If you have any comments on this article, please
-                    <a href="http://www.stevefenton.co.uk/contact/">contact me</a>!</p>
+                    <a href="http://stevefenton.co.uk/contact/">contact me</a>!</p>
                 </aside>
                 <p>This is just an example of another article within the section.</p>
                 <footer>
@@ -91,7 +91,7 @@ This example was last updated on 16/08/2011 with changes to the use of the secti
             </article>
         </section>
         <footer>
-            <p>© Copyright 2010 Steve Fenton</p>
+            <p>&copy; Copyright 2010 Steve Fenton</p>
         </footer>
     </body>
 </html>

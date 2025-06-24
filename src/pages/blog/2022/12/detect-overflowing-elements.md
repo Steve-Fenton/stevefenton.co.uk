@@ -225,7 +225,7 @@ function getIssues() {
 
 /**
  * If this fails, use the script at: 
- * https://www.stevefenton.co.uk/blog/2022/12/detect-overflowing-elements/
+ * https://stevefenton.co.uk/blog/2022/12/detect-overflowing-elements/
  */
 test('Test pages for layout issues', async ({ page }) => {
   await page.goto('/');

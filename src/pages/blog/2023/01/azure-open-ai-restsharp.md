@@ -212,7 +212,7 @@ There are many good uses for this technology, for example:
 
 ... but it is clear that people are going to try and go beyond these cases and end up sinking in the tar pit.
 
-You may agree or disagree with the [#NoEstimates](https://www.stevefenton.co.uk/blog/2015/09/noestimates-in-practice/) movement, but the machine doesn't care either way. It will argue just a vehemently both for and against estimates. The models can't answer questions, they just provide the words you ask for...
+You may agree or disagree with the [#NoEstimates](/blog/2015/09/noestimates-in-practice/) movement, but the machine doesn't care either way. It will argue just a vehemently both for and against estimates. The models can't answer questions, they just provide the words you ask for...
 
 For
 

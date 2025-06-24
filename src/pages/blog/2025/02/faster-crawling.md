@@ -17,7 +17,7 @@ tags:
     - Testing
 ---
 
-To catch broken internal links and missing images or resources, I wrote a [crawl test in Playwright](https://www.stevefenton.co.uk/blog/2022/11/playwright-website-crawl/). It would start on the home page and follow links (visiting each one only once) to make sure they all existed. This caught lots of issues that would eventually have been someone messaging me to tell me something was missing. The only issue was the time it takes to run.
+To catch broken internal links and missing images or resources, I wrote a [crawl test in Playwright](/blog/2022/11/playwright-website-crawl/). It would start on the home page and follow links (visiting each one only once) to make sure they all existed. This caught lots of issues that would eventually have been someone messaging me to tell me something was missing. The only issue was the time it takes to run.
 
 So, I sat down and replaced the test with Linkinator.
 

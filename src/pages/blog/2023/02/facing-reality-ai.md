@@ -24,7 +24,7 @@ AI. Yes. The term *AI* has lost all meaning as the hasty rebranding of things th
 
 ## In general, it's automation
 
-Let's quickly talk about automation. Automation comes with responsibility. I call this the [ethics of scale](https://www.stevefenton.co.uk/blog/2020/12/the-ethics-of-scale/). When a human does some task and gets it wrong, the extent of the mistake is limited by the speed they can introduce errors.
+Let's quickly talk about automation. Automation comes with responsibility. I call this the [ethics of scale](/blog/2020/12/the-ethics-of-scale/). When a human does some task and gets it wrong, the extent of the mistake is limited by the speed they can introduce errors.
 
 Imagine you managed a forest and needed to thin out a population of Ash trees to reduce the spread of Ash dieback. Woodsman Gerald heads out with an axe to begin the work, and you catch up to him at lunchtime. In a couple of hours, Gerald has brought down several trees and hacked off the larger branches to make them easier to pull through the forest without getting snagged. You find him sitting on a rather neat pile of beech tree logs. Gerald's mistake is bad but limited. Had Gerald used a tree-felling *machine*, his mistake could have been a hundred times worse.
 
@@ -80,7 +80,7 @@ Yes, the people who were happy to copy/paste their way to engagement and page vi
 
 ## Search engine answers
 
-Each time we have depended on a central platform, it has proven that the best feature of The Web is decentralisation. We are re-discovering [RSS feeds](https://www.stevefenton.co.uk/feed.xml) and realising that the Fediverse is an escape from centralised social platforms that exist to pay dividends or to serve the whims of billionaire owners.
+Each time we have depended on a central platform, it has proven that the best feature of The Web is decentralisation. We are re-discovering [RSS feeds](https://stevefenton.co.uk/feed.xml) and realising that the Fediverse is an escape from centralised social platforms that exist to pay dividends or to serve the whims of billionaire owners.
 
 People are even coming to terms with the fact that HTML and CSS are the best way to make websites, rather than hundreds or thousands of lines of JavaScript.
 
@@ -90,7 +90,7 @@ The thought of search engines abandoning being *organisers of information* to be
 
 ## Don't forget the good stuff
 
-I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals. I also love [Visual Studio's *IntelliCode*](https://www.stevefenton.co.uk/blog/2018/05/visual-studio-intellicode/) and similar assistive tools (some of which are based on the same bones as generative AI, which can make the discussion confusing).
+I don't dislike machine assistance. Imagine you had a vast digital archive of photographs (most people have built up extensive collections). Using AI to understand what is in each picture, detect text, and categorise the images makes them immediately more accessible. There are many examples where AI could be filtering out and amplifying signals. I also love [Visual Studio's *IntelliCode*](/blog/2018/05/visual-studio-intellicode/) and similar assistive tools (some of which are based on the same bones as generative AI, which can make the discussion confusing).
 
 Like other automation, AI should be removing toil. Machine-generated content does the opposite, amplifying noise and distortion until all signal is lost.
 

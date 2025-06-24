@@ -1,20 +1,4 @@
 {
-    "files.exclude": {
-        "src/pages/2009/": true,
-        "src/pages/2010/": true,
-        "src/pages/2011/": true,
-        "src/pages/2012/": true,
-        "src/pages/2013/": true,
-        "src/pages/2014/": true,
-        "src/pages/2015/": true,
-        "src/pages/2016/": true,
-        "src/pages/2017/": true,
-        "src/pages/2018/": true,
-        "src/pages/2019/": true,
-        "src/pages/2020/": true,
-        "src/pages/2021/": true,
-        "src/pages/2022/": true
-    },
     "markdown.replaceSmartQuotes": true,
     "markdown.validate.enabled": false,
     "files.associations": {

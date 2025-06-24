@@ -29,7 +29,7 @@ This article is arranged as follows:
 
 The concrete suggestions all come in those last two sections, so skip down the page if you want to get straight to the answer without all the discussion. You should know, though, that some people enjoyed reading this.
 
-I've been writing about [DevOps](https://www.stevefenton.co.uk/tag/devops/1/) and [metrics](https://octopus.com/devops/metrics/) for some time both here and [elsewhere](https://www.stevefenton.co.uk/about-me/articles-elsewhere/). I'm also a DORA Community Guide, which I mention as I get to speak to some super-smart folks at DORA and in the DevOps community. I've also worked for companies of many different sizes (and cultures) in hands-on development, architecture, management, and director roles. I haven't worked everywhere, but I've seen a lot. I haven't read all published research, but I've read a lot.
+I've been writing about [DevOps](/tag/devops/1/) and [metrics](https://octopus.com/devops/metrics/) for some time both here and [elsewhere](/about-me/articles-elsewhere/). I'm also a DORA Community Guide, which I mention as I get to speak to some super-smart folks at DORA and in the DevOps community. I've also worked for companies of many different sizes (and cultures) in hands-on development, architecture, management, and director roles. I haven't worked everywhere, but I've seen a lot. I haven't read all published research, but I've read a lot.
 
 The McKinsey article already has some famous responses ([part 1](https://tidyfirst.substack.com/p/measuring-developer-productivity) and [part 2](https://tidyfirst.substack.com/p/measuring-developer-productivity-440)), but I'm hoping to bring a different perspective.
 
@@ -92,7 +92,7 @@ Responsiveness and throughput have a natural tension. Productivity tends to favo
 
 ## What's interesting in their approach
 
-When everyone was debating [Agile vs Waterfall](https://www.stevefenton.co.uk/blog/2014/01/waterfall-verses-agile-graph/), the CHAOS report provided evidence that Agile beat waterfall at it's own game. The metrics used in the CHAOs report aren't the ones you'd choose to measure Agile software teams, but Agile teams still beat waterfall teams at their own game.
+When everyone was debating [Agile vs Waterfall](/blog/2014/01/waterfall-verses-agile-graph/), the CHAOS report provided evidence that Agile beat waterfall at it's own game. The metrics used in the CHAOs report aren't the ones you'd choose to measure Agile software teams, but Agile teams still beat waterfall teams at their own game.
 
 What's interesting in the McKinsey article is that they propose a measurement system but judge its success based on something else. In particular, they suggest the measurement system can improve the following measures:
 
