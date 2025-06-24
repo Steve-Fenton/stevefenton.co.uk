@@ -32,6 +32,10 @@ jobs:
         with:
           package-manager: pnpm@8.7.0
 
+      - name: Crawl test
+        run: |
+          pnpm crawl
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
