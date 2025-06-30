@@ -23,7 +23,7 @@ Disallow:
 User-agent: Googlebot-Image
 Disallow:
 
-User-agent: Mojeek
+User-agent: MojeekBot
 Disallow:
 
 Sitemap: https://stevefenton.co.uk/sitemap.xml
