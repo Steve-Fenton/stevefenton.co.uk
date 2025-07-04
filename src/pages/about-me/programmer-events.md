@@ -2,14 +2,20 @@
 title: Programmer Events
 navOrder: 2000
 pubDate: 2022-10-02
-modDate: 2025-02-13
+modDate: 2025-07-04
 keywords: programmer,events
 description: A list of my online and in-person events.
 ---
 
-I’ll update this page with any programmer events that I’m running, attending, or speaking at.
+I'll update this page with any programmer events that I'm running, attending, or speaking at.
 
 ## 2025
+
+10th July 2025: Developer Nation Meetup - The State of GitOps report
+
+25th June 2025: Cloud Therapist - PlatformCon Live StereamPanel Discussion
+
+20th May 2025: DORA Community - User Centricity
 
 25th March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
 

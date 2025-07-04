@@ -2,12 +2,24 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-04-22
+modDate: 2025-07-04
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## The State of GitOps report coverage
+
+June 2025
+
+The State of GitOps report has received coverage:
+
+- [DevOps.com](https://devops.com/survey-pace-of-increased-adoption-of-gitops-varies-widely/)
+- [TNS - Argo vs Flux](https://thenewstack.io/survey-argocd-leaves-flux-and-other-gitops-platforms-behind/)
+- [Software Delivery Notebook podcast](https://software-delivery-notebook.uk/podcast/the-2025-state-of-gitops-report/)
+- [StreetInsider](https://www.streetinsider.com/Evertise+Financial/Octopus+Deploy+Announces+the+Release+of+the+State+of+GitOps+Report/24952179.html)
+- [Yahoo Finance](https://finance.yahoo.com/news/octopus-deploy-announces-release-state-045039293.html)
 
 ## CD Foundation: Continuous Enthusiast Nomination
 

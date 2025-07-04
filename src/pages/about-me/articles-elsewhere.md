@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-06-19
+modDate: 2025-07-04
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -42,7 +42,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [GitOps Makes for Great DevEx, but Pragmatism Matters](https://thenewstack.io/developers-want-pragmatic-gitops-and-better-cd-tools/)
 - [The doorway effect and developer experience: Why it matters](https://thenewstack.io/the-doorway-effect-and-developer-experience-why-it-matters/)
 - [Speed means nothing without real feedback](https://thenewstack.io/speed-means-nothing-without-real-feedback/)
-- [Beyond ROWE: Why Results-only work isn’t always a win](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
+- [Beyond ROWE: Why Results-only work isn't always a win](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
 
 ### DevOps research
 
