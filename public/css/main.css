@@ -391,8 +391,7 @@ a.site-title {
     text-decoration: none;
 }
 
-a.navigation-icon,
-a.site-search-mobile {
+a.navigation-icon {
     color: var(--link-head);
     text-decoration: none;
     align-self: center;
@@ -403,9 +402,7 @@ a.site-search-mobile {
 a.site-title:hover,
 a.site-title:focus,
 a.navigation-icon:hover,
-a.navigation-icon:focus,
-a.site-search-mobile:hover,
-a.site-search-mobile:focus {
+a.navigation-icon:focus {
     color: var(--link-alt-head);
     background-color: unset;
 }
@@ -659,6 +656,8 @@ nav.site-nav h2 {
     padding: 0.5em;
     font-size: 1.3rem;
     border-radius: var(--block-radius);
+    background-color: var(--aft-g2);
+    color: var(--fore);
 }
 
 .site-search-wrapper input {
@@ -699,6 +698,7 @@ nav.site-nav h2 {
     color: var(--aft-link-alt);
     background-color: var(--fore-link);
     cursor: pointer;
+    width: auto;
 }
 
 .result-wrapper mark,
