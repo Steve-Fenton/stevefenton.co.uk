@@ -72,16 +72,23 @@ function unique(value, index, array) {
  */
 
 function initializeSearch() {
-    const siteSearchInput = qs('[data-site-search-query]');
-    const siteSearchWrapper = qs('[data-site-search-wrapper]');
-    const siteSearchElement = qs('[data-site-search]');
-    const siteSearchResults = qs('[data-site-search-results');
-    const removeSearchButton = qs('[data-site-search-remove]');
+    const siteSearchInput = /** @type {HTMLInputElement} */ (
+        qs('.site-search-query')
+    );
+    const siteSearchWrapper = /** @type {HTMLElement} */ (
+        qs('.site-search-wrapper')
+    );
+    const siteSearchElement = /** @type {HTMLFormElement} */ (
+        qs('.site-search-wrapper > form')
+    );
+    const siteSearchResults = /** @type {HTMLElement} */ (
+        qs('.site-search-results')
+    );
 
     /** @type {SearchEntry[]} */
     var haystack = [];
     var currentQuery = '';
-    var dataUrl = siteSearchElement.dataset.sourcedata;
+    var dataUrl = /** @type {string} */ (siteSearchElement.dataset.sourcedata);
 
     // Legacy scoring
     var scoring = {
@@ -105,109 +112,6 @@ function initializeSearch() {
     };
 
     var ready = false;
-    var scrolled = false;
-
-    siteSearchInput.addEventListener('focus', () => activateInput());
-
-    function deactivate(e) {
-        if (
-            !siteSearchElement.contains(e.target) &&
-            !siteSearchResults.contains(e.target)
-        ) {
-            closeDropdown();
-
-            const duration = getComputedStyle(
-                siteSearchWrapper
-            ).getPropertyValue('--search-dropdown-duration');
-
-            // Convert duration to milliseconds for setTimeout
-            const durationMs =
-                parseFloat(duration) * (duration.endsWith('ms') ? 1 : 1000);
-
-            setTimeout(() => {
-                deactivateInput();
-            }, durationMs);
-        }
-    }
-
-    // Close the dropdown upon activity outside the search
-    document.addEventListener('click', deactivate);
-    document.addEventListener('keydown', deactivate);
-
-    function removeSearch() {
-        clearInput();
-        deactivateInput();
-        debounceSearch();
-        siteSearchInput.focus();
-    }
-
-    // Clear the search input
-    removeSearchButton.addEventListener('click', () => {
-        removeSearch();
-    });
-
-    // Dropdown accessibility controls
-    document.addEventListener('keydown', handleDropdownKeyboardNavigation);
-
-    function activateInput() {
-        if (
-            siteSearchWrapper.classList.contains('is-active') ||
-            siteSearchInput.value.trim().length === 0
-        ) {
-            return;
-        }
-        siteSearchWrapper.classList.add('is-active');
-        openDropdown();
-    }
-
-    function deactivateInput() {
-        if (!siteSearchWrapper.classList.contains('is-active')) {
-            return;
-        }
-        siteSearchWrapper.classList.remove('is-active');
-    }
-
-    function openDropdown() {
-        siteSearchElement.classList.add('is-active');
-    }
-
-    function closeDropdown() {
-        siteSearchElement.classList.remove('is-active');
-    }
-
-    function clearInput() {
-        closeDropdown();
-        siteSearchInput.value = '';
-    }
-
-    function handleDropdownKeyboardNavigation(e) {
-        // Proceed only if search dropdown is active
-        if (!siteSearchWrapper.classList.contains('is-active')) return;
-
-        if (e.key === 'Escape') {
-            removeSearch();
-            return;
-        }
-
-        if (e.key === 'Tab') {
-            const firstElement = siteSearchInput;
-            const lastElement =
-                siteSearchResults.querySelector('button') ||
-                siteSearchResults.querySelector(
-                    '.site-search-results-item:last-child .result-wrapper'
-                );
-
-            if (e.shiftKey && document.activeElement === firstElement) {
-                // Shift + Tab: Move focus to the last element if the first element is currently focused
-                e.preventDefault();
-                if (lastElement) lastElement.focus();
-            } else if (!e.shiftKey && document.activeElement === lastElement) {
-                // Tab: Move focus to the first element if the last element is currently focused
-                e.preventDefault();
-                firstElement.focus();
-            }
-        }
-    }
 
     /** @type{Synonyms | null} */
     var _synonyms = null;
@@ -262,15 +166,6 @@ function initializeSearch() {
      */
     async function search(s, r) {
         const numberOfResults = r ?? 12;
-
-        // Add 'is-active' class when search is performed
-        if (s && s.trim().length > 0) {
-            activateInput();
-            openDropdown();
-        } else if (siteSearchElement.classList.contains('is-active')) {
-            // Remove 'is-active' class when search is cleared
-            closeDropdown();
-        }
 
         /** @type {SearchEntry[]} */
         let needles = [];
@@ -434,7 +329,7 @@ function initializeSearch() {
         const results = siteSearchResults;
 
         const ul = document.createElement('ul');
-        ul.className = 'site-search-results__list';
+        ul.className = 'site-search-results-list';
 
         const limit = Math.min(needles.length, numberOfResults);
 
@@ -453,6 +348,7 @@ function initializeSearch() {
             listElementWrapper.className = 'result-wrapper';
 
             const listElementTitle = document.createElement('span');
+
             // Only highlight user query terms, not stemmed terms
             listElementTitle.innerHTML = highlight(needle.title, queryTerms);
             listElementTitle.className = 'result-title';
@@ -554,7 +450,7 @@ function initializeSearch() {
             await search(s, newTotal);
             window.setTimeout(function () {
                 const previousPosition = qs(
-                    `.site-search-results__list li:nth-child(${oldTotal}) > a`
+                    `.site-search-results-list li:nth-child(${oldTotal}) > a`
                 );
                 console.log(previousPosition.outerHTML);
                 previousPosition.focus();
@@ -587,7 +483,7 @@ function initializeSearch() {
         var input = siteSearchInput;
 
         if (input == null) {
-            throw new Error('Cannot find data-site-search-query');
+            throw new Error('Cannot find .site-search-query');
         }
 
         // Words chained with . are combined, i.e. System.Text is "systemtext"
@@ -632,7 +528,7 @@ function initializeSearch() {
 
             if (siteSearch == null || siteSearchQuery == null) {
                 throw new Error(
-                    'Cannot find #site-search or data-site-search-query'
+                    'Cannot find #site-search or .site-search-query'
                 );
             }
 
@@ -644,10 +540,6 @@ function initializeSearch() {
 
             siteSearchQuery.addEventListener('keyup', function (e) {
                 e.preventDefault();
-                if (!scrolled) {
-                    scrolled = true;
-                    this.scrollIntoView(true);
-                }
                 debounceSearch();
                 return false;
             });
@@ -674,9 +566,7 @@ function initializeSearch() {
 }
 
 if (document.readyState === 'loading') {
-    // Loading hasn't finished yet
     document.addEventListener('DOMContentLoaded', initializeSearch);
 } else {
-    // `DOMContentLoaded` has already fired
     initializeSearch();
 }
