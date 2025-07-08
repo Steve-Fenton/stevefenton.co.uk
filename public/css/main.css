@@ -676,7 +676,7 @@ nav.site-nav h2 {
     z-index: 1
 }
 
-.site-search-results {
+header .site-search-results {
     background-color: var(--aft-paper);
     border-radius: var(--block-radius-round);
     position: absolute;
@@ -707,7 +707,7 @@ nav.site-nav h2 {
     margin-inline-start: 0;
 }
 
-.site-search-results ul:not(.post-list):not(.result-headings) {
+header .site-search-results ul:not(.post-list):not(.result-headings) {
     margin: 0;
     max-height: var(--search-dropdown-height);
     overflow-y: scroll;
@@ -801,7 +801,6 @@ nav.site-nav h2 {
 
 .result-wrapper {
     display: flex;
-    padding: 1.5rem 3.6rem 1.75rem;
     text-decoration: none;
     flex-direction: column;
     gap: 0.56rem;
@@ -810,6 +809,10 @@ nav.site-nav h2 {
     @media (max-width: 930px) {
         padding: 1rem;
     }
+}
+
+header .result-wrapper {
+    padding: 1.5rem 3.6rem 1.75rem;
 }
 
 .site-search-results-item mark {

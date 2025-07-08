@@ -9,7 +9,6 @@
 
 import { qs } from './modules/query.js';
 import { raiseEvent } from './modules/events.js';
-import { removeScroll, resetScroll } from './modules/scrollbar.js';
 import { contains, sanitise, explode, highlight } from './modules/string.js';
 import { stemmer } from './modules/stemmer.js';
 
@@ -158,7 +157,6 @@ function initializeSearch() {
             return;
         }
         siteSearchWrapper.classList.add('is-active');
-        removeScroll();
         openDropdown();
     }
 
@@ -167,41 +165,10 @@ function initializeSearch() {
             return;
         }
         siteSearchWrapper.classList.remove('is-active');
-        resetScroll();
     }
 
     function openDropdown() {
         siteSearchElement.classList.add('is-active');
-
-        requestAnimationFrame(() => {
-            const dropdownHeightPercentage = parseFloat(
-                getComputedStyle(siteSearchWrapper).getPropertyValue(
-                    '--search-dropdown-height'
-                )
-            );
-            // Convert vh to pixels
-            const dropdownHeight =
-                window.innerHeight * (dropdownHeightPercentage / 100) + 32;
-            const siteSearchElementRect =
-                siteSearchElement.getBoundingClientRect();
-            const offsetFromBottomToElement =
-                window.innerHeight - siteSearchElementRect.bottom;
-
-            if (offsetFromBottomToElement < dropdownHeight) {
-                document.body.style.overflow = '';
-
-                // Scroll to the siteSearchElement
-                siteSearchElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start',
-                });
-
-                // Delay the overflow to allow for smooth scrolling
-                setTimeout(() => {
-                    document.body.style.overflow = 'hidden';
-                }, 300);
-            }
-        });
     }
 
     function closeDropdown() {
