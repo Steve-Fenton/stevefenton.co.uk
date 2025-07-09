@@ -723,17 +723,17 @@ nav.site-nav h2 {
 }
 
 .result-path-segment:last-child {
-    color: var(--link-head);
+    color: var(--fore-link);
 }
 
 .result-title {
-    color: var(--link-head);
+    color: var(--fore-link);
     font-size: 1.5rem;
     font-weight: 700;
 }
 
 .result-description {
-    color: var(--fore-head);
+    color: var(--fore-block);
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
