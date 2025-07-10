@@ -7,9 +7,9 @@ keywords: about,steve fenton
 description: A short biography of Steve Fenton.
 ---
 
-Steve Fenton is a Principal DevEx Researcher at [Octopus Deploy](https://www.octopus.com/), a DORA Community Guide, and a seven-time Microsoft MVP for developer technologies. He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist. He has written books on [TypeScript](/publications/pro-typescript/), [Octopus Deploy](/publications/exploring-octopus-deploy/), and [Web Operations Monitoring](/publications/web-ops-dashboards-monitoring-and-alerting/) (and also occasionally writes *genre fiction disguised as literary fiction* inspired by J Sheridan La Fanu, Mary Shelley, and H. P. Lovecraft, such as [The Vanishing Room](https://smfenton.uk/the-vanishing-room/)).
+Steve Fenton is a Principal DevEx Researcher at [Octopus Deploy](https://www.octopus.com/), a DORA Community Guide, and a eight-time Microsoft MVP (most recently for DevOps). He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist. He has written books on [TypeScript](/publications/pro-typescript/), [Octopus Deploy](/publications/exploring-octopus-deploy/), and [Web Operations Monitoring](/publications/web-ops-dashboards-monitoring-and-alerting/) (and also occasionally writes *genre fiction disguised as literary fiction* inspired by J Sheridan La Fanu, Mary Shelley, and H. P. Lovecraft, such as [The Vanishing Room](https://smfenton.uk/the-vanishing-room/)).
 
-His current day job is *writing*. His previous day jobs have spanned the worlds of Product Management, Data and Analytics, Support, and Software Development, typically in leadership roles. These are brought together in the [DITE Cycle](/blog/2019/09/the-dite-cycle-data-insight-theory-experiment/).
+His current day job is *writing and research*. His previous day jobs have spanned the worlds of Product Management, Data and Analytics, Support, and Software Development, typically in leadership roles. These are brought together in the [DITE Cycle](/blog/2019/09/the-dite-cycle-data-insight-theory-experiment/).
 
 Like many of you, he’s too busy to remember all of this stuff, so he writes it all down here. Some of his friends also do this, see the links at the end of this page.
 
@@ -19,6 +19,7 @@ You can read [what other people say about Steve](/about-me/press/), and look thr
 
 You might also like to visit his friends:
 
+- [Matt Allford](https://mattallford.com/) - automation and ops
 - [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
 - [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
 - [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
