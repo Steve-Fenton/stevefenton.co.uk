@@ -13,6 +13,8 @@ I'll update this page with any programmer events that I'm running, attending, or
 
 10th July 2025: Developer Nation Meetup - The State of GitOps report
 
+8th July 2025: Techstrong TV - The State of GitOps report
+
 25th June 2025: Cloud Therapist - PlatformCon Live StereamPanel Discussion
 
 20th May 2025: DORA Community - User Centricity
