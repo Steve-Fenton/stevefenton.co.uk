@@ -13,6 +13,7 @@ categories:
     - Other
 tags:
     - Social Media
+    - Mastodon
 ---
 
 There are a bunch of Mastodon features I've accumulated over time and I realized I should write them down before I forget how I did them. There's a mix of post and profile features.
