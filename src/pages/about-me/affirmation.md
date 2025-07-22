@@ -31,6 +31,10 @@ This is my personal affirmation page, which gives me daily inspiration.
 :img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 
+> There is no point trying to impose certainty on a situation which contains high uncertainty.
+>
+> <cite>Eli Goldratt</cite>
+
 > don't sign to major labels \
 > reject authority \
 > say what's on your mind \
