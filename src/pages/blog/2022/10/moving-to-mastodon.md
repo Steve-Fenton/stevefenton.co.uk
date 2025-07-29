@@ -13,7 +13,7 @@ authors:
 categories:
     - Other
 tags:
-    - Social
+    - Social Media
     - Mastodon
 ---
 
