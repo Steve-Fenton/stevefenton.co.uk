@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-07-04
+modDate: 2025-07-29
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -84,6 +84,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ## Metrics
 
+- [The productivity delusion](https://octopus.com/blog/productivity-delusion)
 - [Common mistakes in DevOps metrics](https://www.octopus.com/blog/common-mistakes-devops-metrics)
 - [Why are there so many definitions of lead time?](https://octopus.com/blog/definitions-of-lead-time)
 - [How to measure MTTR](https://octopus.com/blog/how-to-measure-mean-time-to-resolve)
