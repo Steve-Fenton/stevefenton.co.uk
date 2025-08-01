@@ -2,12 +2,22 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-07-04
+modDate: 2025-08-01
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+
+## Techstrong TV - GitOps Trends and the Future of Continuous Delivery
+
+July 2025
+
+Alam Shimel was the awesome host for a conversation about research around GitOps and Continuous Delivery.
+
+> Steve Fenton shares insights on his role at Octopus Deploy and the company’s focus on continuous delivery. He discusses the recent GitOps report, which received 660 community responses, revealing strong enthusiasm for GitOps. Key findings highlight the significance of the reconciliation loop and the preference for imperative configuration over declarative methods. The Linux Foundation’s GitOps principles are also noted as essential for community collaboration.
+
+[View the video on Techstrong TV](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery).
 
 ## The State of GitOps report coverage
 
