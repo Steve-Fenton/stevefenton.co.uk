@@ -11,11 +11,13 @@ I'll update this page with any programmer events that I'm running, attending, or
 
 ## 2025
 
-10th July 2025: Developer Nation Meetup - The State of GitOps report
+20th August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
 
-8th July 2025: Techstrong TV - The State of GitOps report
+10th July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
 
-25th June 2025: Cloud Therapist - PlatformCon Live StereamPanel Discussion
+8th July 2025: [Techstrong TV - The State of GitOps report](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery)
+
+25th June 2025: [Cloud Therapist - PlatformCon Live Steream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
 
 20th May 2025: DORA Community - User Centricity
 
