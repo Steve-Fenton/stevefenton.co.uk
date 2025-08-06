@@ -81,6 +81,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [State of GitOps report launched](https://octopus.com/blog/announcing-the-first-state-of-gitops-report)
 - [The GitOps gap: Few use declarative configuration to manage state](https://thenewstack.io/gitops-gap-few-use-declarative-configuration-to-manage-state/)
+- [6 GitOps practices that actually work](https://thenewstack.io/6-gitops-practices-that-actually-work/)
 
 ## Metrics
 
