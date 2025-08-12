@@ -42,7 +42,7 @@ I want to share all your concerns. I agree! These billionaires are disconnected 
 
 Despite this, we need to build a safe space to talk about the practical application of these tools. So, I'm creating a page (this page) that I can point to with my terms of engagement for this discussion.
 
-You can use it, too. And it's in a [Git repo](https://github.com/Steve-Fenton/stevefenton.co.uk/blob/main/src/pages/blog/2025/08/facing-reality-ai.md) that you can use if you want to collaborate with me in good faith. Raise an issue or suggest an edit that's in the spirit of this post.
+You can use it, too. And it's in a [Git repo](https://github.com/Steve-Fenton/stevefenton.co.uk/blob/main/src/pages/blog/2025/08/pragmatic-ai-discussions.md) that you can use if you want to collaborate with me in good faith. Raise an issue or suggest an edit that's in the spirit of this post.
 
 ## Pragmatic limits on the discussion of applying AI tools to our work
 
