@@ -99,12 +99,18 @@ copyRecursiveSync(
     true
 );
 
+// Use the longer-form rss.xml.ts for the article feed
 copyRecursiveSync(
-  './node_modules/astro-accelerator/src/pages/articles/feed.xml.ts',
-  './src/pages/feed.xml.ts',
+  './node_modules/astro-accelerator/src/pages/rss.xml.ts',
+  './src/pages/blog/feed.xml.ts',
   true
 );
 
+copyRecursiveSync(
+  './node_modules/astro-accelerator/src/pages/rss.xml.ts',
+  './src/pages/feed.xml.ts',
+  true
+);
 
 copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/search.md',
