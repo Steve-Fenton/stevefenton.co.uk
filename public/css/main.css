@@ -73,6 +73,12 @@ form {
     fill: var(--link-head);
 }
 
+fieldset {
+    border: 1px solid var(--fore-block);
+    padding: 1rem;
+    border-radius: var(--block-radius);
+}
+
 input {
     color: var(--fore-input);
     background-color: var(--aft-input);
@@ -81,8 +87,19 @@ input {
 input::placeholder {
     color: var(--fore-input);
     opacity: 0.8;
-  }
-  
+}
+
+textarea {
+    padding: 0.5rem;
+    width: calc(100% - 1rem);
+    font-family: var(--code-font);
+}
+
+button {
+    padding: 0.3rem 0.5rem;
+    border-radius: var(--block-radius);
+    cursor: pointer;
+}
 
 summary {
     text-decoration: none;
@@ -643,7 +660,6 @@ nav.site-nav h2 {
 }
 
 /* Site Search */
-
 
 .site-search > fieldset {
     height: 100%;
