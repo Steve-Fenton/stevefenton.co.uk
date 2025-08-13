@@ -42,6 +42,7 @@ body {
 a, summary {
     color: var(--fore-link);
     text-decoration: underline;
+    text-decoration-skip-ink: auto;
     cursor: pointer;
     border-radius: var(--block-radius);
 
