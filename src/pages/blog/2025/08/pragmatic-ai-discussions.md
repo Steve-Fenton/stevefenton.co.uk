@@ -49,7 +49,18 @@ You can use it, too. And it's in a [Git repo](https://github.com/Steve-Fenton/st
 Here are the terms under which I'm discussing AI. If I'm not responding to your tangential debates, it's likely due to this.
 
 1. We want to talk to other people about how they use this technology, and how we use it, without being hauled off topic by the concerns we list and acknowledge below.
-2. We acknowledge the ethical and moral problems attached to this technology, which are yet to be resolved.
-3. We agree that the environmental impact of this technology must be considered at a time when we are already experiencing climate change.
+2. We acknowledge the ethical and moral problems involved in the training and operation of this technology by vendors, which are yet to be resolved.
+3. We agree that the environmental impact of this technology must be considered, especially now when we are already experiencing climate change.
 4. We understand some people are very excited about this technology, possibly even beyond its capabilities.
 5. We will be responsible when we talk about "productivity," as this is not a useful measure of the outcomes of this technology.
+
+What's still part of the discussion.
+
+- What tools you use
+- How you use them, what works, what doesn't
+- How you balance the automation with human involvement and oversight
+- The ethicality of specific uses (for example, using it to do something illegal, like fraud)
+
+The ethicality part is complex, thanks to the vendors being so careless. I get that. There's a good razor to use for all this debate that can help decide if it's in or out.
+
+> Are the people who could solve that in the room?
