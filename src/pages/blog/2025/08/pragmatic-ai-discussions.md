@@ -2,7 +2,7 @@
 title: Pragmatic AI discussions
 navMenu: false
 pubDate: 2025-08-12
-modDate: 2025-08-12
+modDate: 2025-08-17
 keywords: ai,artificial intelligence,machine learning
 description: Here are the terms under which I'm discussing AI. If I'm not responding to your tangential debates, it's likely due to this.
 bannerImage:
@@ -17,6 +17,8 @@ tags:
 ---
 
 There's no doubt about it, we need to talk about AI. Many dimensions need to be discussed, and the wiring between these dimensions is getting crossed. The problem is, AI is a trigger subject, and you end up trapped between the sabot-wielding righteous and the foaming-at-the-mouth robot overlord devotees.
+
+You can [skip straight to the framework](#ai-discussion-framework) if you don't want to read the reasons behind it.
 
 ## The need for terms of engagement
 
@@ -44,23 +46,24 @@ Despite this, we need to build a safe space to talk about the practical applicat
 
 You can use it, too. And it's in a [Git repo](https://github.com/Steve-Fenton/stevefenton.co.uk/blob/main/src/pages/blog/2025/08/pragmatic-ai-discussions.md) that you can use if you want to collaborate with me in good faith. You can raise an issue or suggest an edit as long as it's in the spirit of this post.
 
-## Pragmatic limits on the discussion of applying AI tools to our work
+## AI discussion framework
 
-Here are the terms under which I'm discussing AI. If I'm not responding to your tangential debates, it's likely due to this.
+This framework for AI discussion can be used to guide a productive discussion on using these tools.
 
-1. We want to talk to other people about how they use this technology, and how we use it, without being hauled off topic by the concerns we list and acknowledge below.
-2. We acknowledge the ethical and moral problems involved in the training and operation of this technology by vendors, which are yet to be resolved.
-3. We agree that the environmental impact of this technology must be considered, especially now when we are already experiencing climate change.
-4. We understand some people are very excited about this technology, possibly even beyond its capabilities.
-5. We will be responsible when we talk about "productivity," as this is not a useful measure of the outcomes of this technology.
+*We acknowledge the broader concerns about this technology, but will focus today on its practical use.*
 
-What's still part of the discussion.
+1. **Stay on topic**: Discuss actual usage without derailing into unresolved systemic issues.
+2. **Acknowledge harm**: We recognize unresolved ethical and moral ~~problems~~ in AI training and operation.
+3. **Consider climate impact**: Environmental costs matter, especially given current climate crisis.
+4. **Check enthusiasm**: Some people overestimate AI capabilities; we'll stay grounded.
+5. **Define "productivity"**: We'll be specific about outcomes rather than using vague productivity claims.
 
-- What tools you use
-- How you use them, what works, what doesn't
-- How you balance the automation with human involvement and oversight
-- The ethicality of specific uses (for example, using it to do something illegal, like fraud)
+### What We Discuss
 
-The ethicality part is complex, thanks to the vendors being so careless. I get that. There's a good razor to use for all this debate that can help decide if it's in or out.
+- **Tools and techniques**: Which tools, how you use them, what works/fails.
+- **Human oversight**: How you balance automation with human involvement.
+- **Specific ethics**: Legality and appropriateness of particular use cases.
 
-> Are the people who could solve that in the room?
+### The Razor
+
+For complex ethical debates: **Are the people who could solve this problem in the room?** If not, acknowledge the issue and move on to actionable discussion.
