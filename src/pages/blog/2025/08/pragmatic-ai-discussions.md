@@ -53,7 +53,7 @@ This framework for AI discussion can be used to guide a productive discussion on
 *We acknowledge the broader concerns about this technology, but will focus today on its practical use.*
 
 1. **Stay on topic**: Discuss actual usage without derailing into unresolved systemic issues.
-2. **Acknowledge harm**: We recognize unresolved ethical and moral ~~problems~~ in AI training and operation.
+2. **Acknowledge harm**: We recognize unresolved ethical and moral problems in AI training and operation.
 3. **Consider climate impact**: Environmental costs matter, especially given current climate crisis.
 4. **Check enthusiasm**: Some people overestimate AI capabilities; we'll stay grounded.
 5. **Define "productivity"**: We'll be specific about outcomes rather than using vague productivity claims.
