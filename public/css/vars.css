@@ -28,7 +28,7 @@
 }
 
 :root {
-    --fore: #222;
+    --fore: #225;
     --aft: #fefefe;
     --aft-image: #fefefe;
 
@@ -36,21 +36,8 @@
     --fore-link-alt: #3399ff;
     --aft-link-alt: #e6e6eC;
     
-    --aft-head: #e5e5e8;
-    --aft-head-g1: #111144;
-    --aft-head-g2: #333366;
-    --fore-link-head: #efefef;
-
     --fore-input: var(--fore);
     --aft-input: var(--aft);
-
-    --heading: #225;
-
-    --fore-breadcrumb: #333;
-    --aft-breadcrumb: #e8e8f9;
-
-    --link-head: #336699;
-    --link-alt-head: #3399ff;
 
     --fore-block: #333;
     --aft-block: #f3f3f9;
@@ -99,29 +86,16 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --fore: #CCC;
+        --fore: #DDF;
         --aft: #223;
         --aft-image: #DDD;
     
-        --fore-link: #6699CC;
-        --fore-link-alt: #99CCFF;
+        --fore-link: #AAF;
+        --fore-link-alt: #CCF;
         --aft-link-alt: #232323;
-        
-        --aft-head: #224;
-        --aft-head-g1: #111144;
-        --aft-head-g2: #333366;
-        --fore-link-head: #efefef;
 
-        --fore-input: #efefef;
+        --fore-input: #var(--fore);
         --aft-input: var(--aft);
-
-        --heading: #DDF;
-
-        --fore-breadcrumb: #CCC;
-        --aft-breadcrumb: #2C2C2C;
-
-        --link-head: #6699CC;
-        --link-alt-head: #99CCFF;
 
         --fore-block: #CCC;
         --aft-block: #001;

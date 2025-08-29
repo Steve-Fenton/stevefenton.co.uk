@@ -19,6 +19,7 @@ html {
     outline: 0;
     padding: 0;
     vertical-align: baseline;
+    text-decoration-skip-ink: auto;
  }
 
 html {
@@ -40,7 +41,6 @@ body {
 a, summary {
     color: var(--fore-link);
     text-decoration: underline;
-    text-decoration-skip-ink: auto;
     cursor: pointer;
     border-radius: var(--block-radius);
 
@@ -69,7 +69,7 @@ details[open]::details-content {
 }
 
 form {
-    fill: var(--link-head);
+    fill: var(--fore-link);
 }
 
 fieldset {
@@ -184,46 +184,41 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
     letter-spacing: -0.03em;
     text-wrap: balance;
+    border-bottom: 4px solid var(--icon-block);
+    display: inline-block;
 }
 
 h1 {
-    font-size: 3em;
-    max-width: 15em;
-    margin: 1em auto 0.5em;
+    font-size: 3rem;
     line-height: 1.3;
-    color: var(--heading);
     border-bottom: 8px solid var(--icon-block);
 
     @media (max-width: 860px) {
-        font-size: 2.3em;
+        font-size: 2.3rem;
     }
 }
 
-.page-content > h2, .page-content > h3, .page-content > h4, .page-content > h5, .page-content > h6 {
-    border-bottom: 1px solid var(--icon-block);
-}
-
 h2 {
-    font-size: 2.3em;
+    font-size: 2.3rem;
 
     @media (max-width: 860px) {
-        font-size: 2em;
+        font-size: 2rem;
     }
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2rem;
 
     @media (max-width: 860px) {
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
 }
 
 h4, h5, h6 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
 
     @media (max-width: 860px) {
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 }
 
@@ -263,7 +258,6 @@ img.resp-img {
 
 figure img {
     border-radius: var(--block-radius);
-    border: 1px solid var(--fore-breadcrumb);
 }
 
 .page-content ul, .page-content ol {
@@ -396,7 +390,7 @@ a.site-title {
 }
 
 a.navigation-icon {
-    color: var(--link-head);
+    color: var(--fore-link);
     text-decoration: none;
     align-self: center;
     height: 40px;
@@ -407,7 +401,7 @@ a.site-title:hover,
 a.site-title:focus,
 a.navigation-icon:hover,
 a.navigation-icon:focus {
-    color: var(--link-alt-head);
+    color: var(--fore-link-alt);
     background-color: unset;
 }
 
@@ -420,14 +414,14 @@ a.navigation-icon:focus {
 
 .site-header .header-icon {
     --icon-width: 40px;
-    stroke: var(--link-head);
+    stroke: var(--fore-link);
     width: var(--icon-width);
     height: var(--icon-width);
 }
 
 .site-header .header-icon:hover,
 .site-header .header-icon:focus {
-    stroke: var(--link-alt-head);
+    stroke: var(--fore-link-alt);
 }
 
 .site-header .header-icon[data-navigationid='site-nav'] {
@@ -436,11 +430,6 @@ a.navigation-icon:focus {
 }
 
 /* Navigation */
-
-nav.site-nav h2 {
-    margin-top: 0.1em;
-    display: block;
-}
 
 .site-nav {
     font-size: 0.9rem;
@@ -686,7 +675,7 @@ nav.site-nav h2 {
 }
 
 .result-path-icon {
-    stroke: var(--fore-breadcrumb);
+    stroke: var(--fore);
 }
 
 .result-path-segment:last-child {
