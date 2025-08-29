@@ -75,7 +75,7 @@
 
     --paragraph-margin: 1.2rem;
     --margin-size: 1rem;
-    --margin-size-negative: -2rem;
+    --margin-size-negative: -1rem;
     --block-gap: 2rem;
     --block-radius: 0.3rem;
     --block-radius-round: 20px;
@@ -88,14 +88,14 @@
     --box-shadow-unselected: rgb(0 0 0 / 6%) 0px 2px 4px, rgb(0 0 0 / 5%) 0px 0.5px 1px;
     --transform-selected: translate3d(0px, -1px, 0px);
 
-    --content-width: 78vw;
+    --content-width: 50rem;
     --navigation-width: 300px;
     --grid-gap: 1rem;
     --grid-max-width: 70rem;
     --grid-width: 90vw;
 
     /* Calculate the mobile width by removing l/r columns */
-    --content-width-mobile: calc(100vw - 4rem);
+    --content-width-mobile: calc(100vw - 1rem);
 
     /* Search variables */
     --search-height: 2rem;
