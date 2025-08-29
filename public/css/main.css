@@ -117,7 +117,6 @@ nav a:focus,
 nav summary:hover,
 nav summary:focus {
     color: var(--fore-link-alt);
-    background-color: var(--aft-link-alt);
 }
 
 .input-keyboard :focus {
@@ -181,7 +180,7 @@ em {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    margin: var(--block-gap) 0 var(--paragraph-margin) 0;
+    margin: 2em 0 1em 0;
     color: var(--fore-headings);
     line-height: 1;
     letter-spacing: -0.03em;
@@ -547,9 +546,6 @@ nav.site-nav h2 {
 }
 
 .page-content {
-    border-radius: 0.5rem;
-    box-shadow: var(--box-shadow);
-    background-color: var(--aft-paper);
     padding: 1rem;
 }
 
@@ -560,18 +556,11 @@ nav.site-nav h2 {
 /* Table of Contents (TOC) */
 
 .page-toc {
-    background-color: var(--aft-block);
-    border-radius: 0.5rem 0.5rem 0 0;
     margin: var(--margin-size-negative) var(--margin-size-negative) var(--margin-size) var(--margin-size-negative);
-}
-
-.page-toc details {
-    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .page-toc summary {
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .page-toc ol {
@@ -765,12 +754,13 @@ nav.site-nav h2 {
 }
 
 .post-list .list-item {
-    list-style: none;
-    color: var(--fore-block);
     background-color: var(--aft-block);
-    position: relative;
+    border-radius: var(----block-radius);
     box-shadow: var(--box-shadow-unselected);
+    color: var(--fore-block);
+    list-style: none;
     margin-bottom: var(--block-gap);
+    position: relative;
 }
 
 .post-list .list-item:hover,
@@ -803,8 +793,6 @@ nav.site-nav h2 {
 .post-list .list-item-content .post-meta {
     font-size: 0.8rem;
     text-align: left;
-    margin: 0;
-    padding: 0;
     margin: 0;
     padding: 0;
 }
@@ -881,13 +869,15 @@ nav.site-nav h2 {
 /* Paging */
 
 .post-paging {
+    display: flex;
+    flex-direction: row;
     margin-top: var(--block-gap);
-    text-align: center;
+    gap: 0.5rem;
 }
 
 .post-paging > * {
-    display: inline-block;
-    padding: 0.3rem;
+    flex: 1;
+    text-align: center; 
 }
 
 .post-paging a[aria-current] {
@@ -914,12 +904,12 @@ nav.site-nav h2 {
 }
 
 .post-meta {
+    background-color: var(--aft-block);
     display: flex;
     font-size: 0.9rem;
-    margin: var(--block-gap) var(--margin-size-negative);
-    padding: 1rem;
-    background-color: var(--aft-block);
     gap: var(--block-gap);
+    margin: calc(var(--block-gap) * 2) var(--margin-size-negative);
+    padding: 1rem;
 
     @media (max-width: 860px) {
         flex-direction: column;
@@ -1128,8 +1118,9 @@ pre.astro-code code {
     color: var(--fore-link);
     display: block;
     opacity: 0.5;
-    position: absolute;
+    position: relative;
     font-size: 0.7em;
+    top: 1.18em;
 }
 
 .bookmark-link::before {
