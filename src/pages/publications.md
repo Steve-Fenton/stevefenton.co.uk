@@ -8,13 +8,19 @@ description: Steve Fenton's published and self-published books.
 id: 105
 ---
 
-<div class="book-grid">
+<ul class="post-list">
 
-<article data-destination="/publications/exploring-octopus-deploy/">
+<li class="list-item" data-destination="/publications/exploring-octopus-deploy/" data-image="true">
+<article>
+<div class="list-item-image">
+
+:img{src="/img/topic/books/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy - Second Edition"}
+
+</div>
+
+:::div{.list-item-content}
 
 ## Exploring Octopus Deploy
-
-:::div
 
 The second edition of Exploring Octopus Deploy is written from the ground up to provide more concepts and less step-by-step guides.
 
@@ -22,15 +28,20 @@ The second edition of Exploring Octopus Deploy is written from the ground up to 
 
 :::
 
-:img{src="/img/topic/books/exploring-octopus-deploy.jpg" alt="Exploring Octopus Deploy - Second Edition"}
-
 </article>
+</li>
 
-<article data-destination="/publications/pro-typescript/">
+<li class="list-item" data-destination="/publications/pro-typescript/" data-image="true">
+<article>
+<div class="list-item-image">
+
+:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
+
+</div>
+
+:::div{.list-item-content}
 
 ## Pro TypeScript
-
-:::div
 
 Explore the features of this innovative open source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler.
 
@@ -38,15 +49,20 @@ Explore the features of this innovative open source language in depth, from work
 
 :::
 
-:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
-
 </article>
+</li>
 
-<article data-destination="/publications/web-ops-dashboards-monitoring-and-alerting/">
+<li class="list-item" data-destination="/publications/web-ops-dashboards-monitoring-and-alerting/" data-image="true">
+<article>
+<div class="list-item-image">
+
+:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
+
+</div>
+
+:::div{.list-item-content}
 
 ## Web Operations Dashboards, Monitoring, and Alerting
-
-:::div
 
 A rapid introduction to the important metrics, charts, and monitoring concepts needed to kick start your web operations journey.
 
@@ -54,15 +70,20 @@ A rapid introduction to the important metrics, charts, and monitoring concepts n
 
 :::
 
-:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting" loading="lazy"}
-
 </article>
+</li>
 
-<article data-destination="/publications/the-humans-are-dead/">
+<li class="list-item" data-destination="/publications/the-humans-are-dead/" data-image="true">
+<article>
+<div class="list-item-image">
+
+:img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
+
+</div>
+
+:::div{.list-item-content}
 
 ## The Humans are Dead
-
-:::div
 
 A short collection of thoughts on automation and, in particular, test automation. An Amazon Top 25 title.
 
@@ -70,15 +91,20 @@ A short collection of thoughts on automation and, in particular, test automation
 
 :::
 
-:img{src="/img/2015/07/the-humans-are-dead.jpg" alt="The Humans Are Dead" loading="lazy"}
-
 </article>
+</li>
 
-<article data-destination="/publications/cranked/">
+<li class="list-item" data-destination="/publications/cranked/" data-image="true">
+<article>
+<div class="list-item-image">
+
+:img{src="/img/2015/07/cranked-book.jpg" alt="Cranked" loading="lazy"}
+
+</div>
+
+:::div{.list-item-content}
 
 ## Cranked
-
-:::div
 
 An overview of how our team created a process that enabled us to write software with zero defects.
 
@@ -86,11 +112,10 @@ An overview of how our team created a process that enabled us to write software 
 
 :::
 
-:img{src="/img/2015/07/cranked-book.jpg" alt="Cranked" loading="lazy"}
-
 </article>
+</li>
 
-</div>
+</ul>
 
 ## Notes on Publications
 
@@ -106,7 +131,7 @@ I have written a few books, but the images above show my active book projects:
 
 Please note that Pro TypeScript (Second Edition) is my prime book on the TypeScript language. My older TypeScript books are quite dated now. I wrote TypeScript for JavaScript Programmers in October 2012 and TypeScript for C# Programmers in July 2013.
 
-The first edition of Pro TypeScript, which took eight months to write, replaced all of these mini-book projects for me. The second edition of Pro TypeScript (January 2018) contains so many updates I can’t rightly recommend any of the older books.
+The first edition of Pro TypeScript, which took eight months to write, replaced all of these mini-book projects for me. The second edition of Pro TypeScript (January 2018) contains so many updates I can't rightly recommend any of the older books.
 
 If you have any questions about my active titles, [please get in touch](/contact/).
 

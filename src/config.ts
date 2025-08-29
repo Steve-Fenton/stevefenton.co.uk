@@ -36,7 +36,7 @@ export const SITE = {
 		codeBlocks: ['copy'],
 		figures: ['enlarge'],
 		youTubeLinks: ['embed'],
-		headers: ['link'],
+		headers: [],
 		search: ['dialog','headings'],
 	},
 	images: {

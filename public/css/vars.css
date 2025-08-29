@@ -29,25 +29,20 @@
 
 :root {
     --fore: #222;
-    --fore-headings: #111;
-    --aft: #f5f5f8;
-    --aft-g1: #f6f6f9;
-    --aft-g2: #e9e9f9;
-    --aft-paper: #fefefe;
+    --aft: #fefefe;
     --aft-image: #fefefe;
 
     --fore-link: #336699;
     --fore-link-alt: #3399ff;
     --aft-link-alt: #e6e6eC;
     
-    --fore-head: #336699;
     --aft-head: #e5e5e8;
     --aft-head-g1: #111144;
     --aft-head-g2: #333366;
     --fore-link-head: #efefef;
 
     --fore-input: var(--fore);
-    --aft-input: var(--aft-paper);
+    --aft-input: var(--aft);
 
     --heading: #225;
 
@@ -74,9 +69,8 @@
     --unicode-font: font-family: "Segoe UI Symbol", "Arial Unicode MS", "DejaVu Sans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
 
     --paragraph-margin: 1.2rem;
-    --margin-size: 1rem;
-    --margin-size-negative: -1rem;
     --block-gap: 2rem;
+    --block-gap-l: 3rem;
     --block-radius: 0.3rem;
     --block-radius-round: 20px;
 
@@ -106,25 +100,20 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --fore: #CCC;
-        --fore-headings: #CDE;
         --aft: #223;
-        --aft-g1: #222;
-        --aft-g2: #4F4F4F;
-        --aft-paper: #112;
         --aft-image: #DDD;
     
         --fore-link: #6699CC;
         --fore-link-alt: #99CCFF;
         --aft-link-alt: #232323;
         
-        --fore-head: #CCC;
         --aft-head: #224;
         --aft-head-g1: #111144;
         --aft-head-g2: #333366;
         --fore-link-head: #efefef;
 
         --fore-input: #efefef;
-        --aft-input: var(--aft-paper);
+        --aft-input: var(--aft);
 
         --heading: #DDF;
 
