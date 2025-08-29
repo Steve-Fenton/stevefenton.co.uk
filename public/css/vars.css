@@ -40,8 +40,8 @@
     --fore-link-alt: #3399ff;
     --aft-link-alt: #e6e6eC;
     
-    --fore-head: #efefef;
-    --aft-head: #225;
+    --fore-head: #336699;
+    --aft-head: #e5e5e8;
     --aft-head-g1: #111144;
     --aft-head-g2: #333366;
     --fore-link-head: #efefef;
@@ -54,8 +54,8 @@
     --fore-breadcrumb: #333;
     --aft-breadcrumb: #e8e8f9;
 
-    --link-head: #efefef;
-    --link-alt-head: #efefef;
+    --link-head: #336699;
+    --link-alt-head: #3399ff;
 
     --fore-block: #333;
     --aft-block: #f3f3f9;
@@ -107,10 +107,10 @@
     :root {
         --fore: #CCC;
         --fore-headings: #CDE;
-        --aft: #333;
+        --aft: #223;
         --aft-g1: #222;
         --aft-g2: #4F4F4F;
-        --aft-paper: #222;
+        --aft-paper: #112;
         --aft-image: #DDD;
     
         --fore-link: #6699CC;
@@ -135,7 +135,7 @@
         --link-alt-head: #99CCFF;
 
         --fore-block: #CCC;
-        --aft-block: #111;
+        --aft-block: #001;
         --icon-block: #FE117D;
 
         --fore-table-head: #CCC;

@@ -394,6 +394,7 @@ nav.skip-links a:focus {
     width: var(--content-width);
     margin-inline: auto;
     max-width: calc(100vw - 2rem);
+    stroke: var(--fore-head);
 }
 
 a.site-title {
@@ -1084,11 +1085,9 @@ code {
 }
 
 pre.astro-code {
-    border: 1px solid var(--fore-link-alt);
-    border-radius: var(--block-radius);
     font-family: var(--code-font);
     font-size: 0.8rem;
-    margin: var(--margin-size) -2rem;
+    margin: var(--margin-size) var(--margin-size-negative);
     overflow: auto;
     padding: 1rem;
 }
@@ -1377,13 +1376,9 @@ figure:focus .magnify-icon {
 @media (prefers-reduced-motion: no-preference) {
     .magnify-icon,
     .copy-button,
-    .anim-show-parent img,
+    .anim-show-parent .list-item img,
     .anim-show-parent .list-item {
         transition: all 0.2s ease-in;
         scale: calc(0.75 + (var(--shown, 1) * 0.25));
-    }
-
-    .anim-show-parent .list-item img {
-        scale: 1;
     }
 }
