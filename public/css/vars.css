@@ -23,19 +23,19 @@
 }
 
 :root {
-    --fore: #225;
-    --aft: #fefefe;
-    --aft-image: #fefefe;
+    --fore: #223;
+    --aft: #DDF;
+    --aft-image: #DDF;
 
-    --fore-link: #336699;
-    --fore-link-alt: #3399ff;
+    --fore-link: #335;
+    --fore-link-alt: #669;
     --aft-link-alt: #e6e6eC;
     
     --fore-input: var(--fore);
     --aft-input: var(--aft);
 
     --fore-block: #333;
-    --aft-block: #f3f3f9;
+    --aft-block: #CCF;
     --icon-block: #fe117D;
 
     --fore-table-head: #fdfdfe;
@@ -91,15 +91,15 @@
         --fore-input: #var(--fore);
         --aft-input: var(--aft);
 
-        --fore-block: #CCC;
+        --fore-block: #DDF;
         --aft-block: #001;
         --icon-block: #FE117D;
 
-        --fore-table-head: #CCC;
-        --aft-table-head: #222; 
-        --fore-table-row-odd: #CCC;
-        --aft-table-row-odd: #333;
-        --fore-table-row-even: #CCC;
-        --aft-table-row-even: #444;
+        --fore-table-head: #DDF;
+        --aft-table-head: #224; 
+        --fore-table-row-odd: #DDF;
+        --aft-table-row-odd: #335;
+        --fore-table-row-even: #DDF;
+        --aft-table-row-even: #446;
     }
 }
