@@ -14,7 +14,7 @@ This issue originally came up some time between 2004 and 2006 while I was workin
 
 If you have ever used X509 certificates on Windows Server 2003, you will already know about the additional security that was added to certificates in the certificate store. On previous versions of Windows Server, the Network Service had implicit permission to access the private key of certificates in the store, but Windows Server 2003 contained a change that removed this permission.
 
-If you have some .NET code that needs the private key, you will need to grant access to the Network Service if you want to be able to retrieve it, otherwise you’ll be denied with a `System.Security.Cryptography.CryptographicException` error such as “The handle is invalid” or “Access is denied”.
+If you have some .NET code that needs the private key, you will need to grant access to the Network Service if you want to be able to retrieve it, otherwise you'll be denied with a `System.Security.Cryptography.CryptographicException` error such as "The handle is invalid" or "Access is denied".
 
 The good news is that if you like a bit of command line prompt-age, you can download a command utility from Microsoft that will tell you what accounts have access to the private key of a given certificate and will also allow you to grant permission to Network Service.
 
@@ -28,9 +28,9 @@ The following command will list all accounts with access to the private key.
 WinHttpCertCfg.exe -l -c LOCAL_MACHINE\MY -s "IssuedToName"
 ```
 
-## Grant access to “Network Service”
+## Grant access to "Network Service"
 
-The following command will grant permission for Network Service to access the private key of the certificate. Even though you’ll see the user with a space, be careful not to place a space inbetween Network and Service.
+The following command will grant permission for Network Service to access the private key of the certificate. Even though you'll see the user with a space, be careful not to place a space in between Network and Service.
 
 ```powershell
 WinHttpCertCfg.exe -g -c LOCAL_MACHINE\MY -s "IssuedToName" -a "NetworkService"

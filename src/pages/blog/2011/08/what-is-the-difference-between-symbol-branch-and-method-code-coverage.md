@@ -8,7 +8,7 @@ categories:
     - Programming
 ---
 
-If you are using a code coverage tool, you will be familiar with the terms “Symbol Coverage”, “Branch Coverage” and “Method Coverage”. Each of these usually has its own statistic to demonstrate how much coverage you have, for example these coverage results from an application I am currently writing.
+If you are using a code coverage tool, you will be familiar with the terms "Symbol Coverage", "Branch Coverage" and "Method Coverage". Each of these usually has its own statistic to demonstrate how much coverage you have, for example these coverage results from an application I am currently writing.
 
 - Symbol Coverage: 99.12% (112 of 113)
 - Branch Coverage: 78.95% (45 of 57)
@@ -24,11 +24,11 @@ On a more complex level, symbol coverage is actually points in your code where t
 
 ## Branch Coverage
 
-If you have an if statement in your code, their are two different routes that can be taken through the code. One if where the if statement evaluates to true and the other is if it doesn’t. Each of these divergences is a branch in your code.
+If you have an if statement in your code, their are two different routes that can be taken through the code. One if where the if statement evaluates to true and the other is if it doesn't. Each of these divergences is a branch in your code.
 
 Branch coverage counts these paths through your code and reports on how many are covered. If you have a single if statement, you would have two branches and both paths would need to be covered by your tests to achieve 100% branch coverage.
 
-This doesn’t just apply to if statements, but to any pathway through your code, for example a switch, or a loop.
+This doesn't just apply to if statements, but to any pathway through your code, for example a switch, or a loop.
 
 ## Method Coverage
 

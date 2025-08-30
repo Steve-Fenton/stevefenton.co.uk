@@ -10,16 +10,16 @@ categories:
 
 If you remote onto a Windows server with any kind of regularity, you will probably have come across a scenario where the number of concurrent connections has reached the limit. This is often followed by shouting across the office or sending an email asking people if they are connected and whether they can log off so you can get on.
 
-Well, shout no longer as you can find out who’s logged onto a machine by running this simple command in command prompt. In this example, the server name is “YOURSERVERNAME”.
+Well, shout no longer as you can find out who's logged onto a machine by running this simple command in command prompt. In this example, the server name is "YOUR-SERVER-NAME".
 
 ```powershell
-query session /server:YOURSERVERNAME
+query session /server:YOUR-SERVER-NAME
 ```
 
-And if you find out that someone has logged in and then left the country, you can kick them off too – the above command will tell you each user’s session id and you can use this to boot them off the box. In this example, the session id is 1.
+And if you find out that someone has logged in and then left the country, you can kick them off too – the above command will tell you each user's session id and you can use this to boot them off the box. In this example, the session id is 1.
 
 ```powershell
-rwinsta /server:YOURSERVERNAME 1
+rwinsta /server:YOUR-SERVER-NAME 1
 ```
 
 There – problem solved!

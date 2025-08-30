@@ -12,7 +12,7 @@ tags:
 
 In PHP you can create classes to organise your code and represent objects that you want to pass around. This has long been a feature of other languages and was a fundamentally important step forward for PHP.
 
-There was one thing, though, that I didn’t like about PHP classes. If I wanted to instantiate a new “Customer” or “Product”, I had to make sure that I included the PHP file that contained the “Customer” or “Product” class. This meant doing this:
+There was one thing, though, that I didn't like about PHP classes. If I wanted to instantiate a new "Customer" or "Product", I had to make sure that I included the PHP file that contained the "Customer" or "Product" class. This meant doing this:
 
 ```php
 include_once 'classes/Customer.php';
@@ -26,9 +26,9 @@ include_once 'classes/Customer.php';
 include_once 'classes/Product.php';
 ```
 
-When you have 50 classes and you include them all, but only use 2 or 3 depending on the particular request, this seems very wrong. Also, adding “include\_once” statements everywhere you instantiate a class seems rather nasty too.
+When you have 50 classes and you include them all, but only use 2 or 3 depending on the particular request, this seems very wrong. Also, adding "include\_once" statements everywhere you instantiate a class seems rather nasty too.
 
-The solution to this is simple. Don’t include any of your classes. Just instantiate them at will… for example, wouldn’t it be great if you could just do this:
+The solution to this is simple. Don't include any of your classes. Just instantiate them at will… for example, wouldn't it be great if you could just do this:
 
 ```php
 $Customer = new Customer();
@@ -47,6 +47,6 @@ function __autoload($class_name) {
 For this to work you need to ensure:
 
 1. All of your classes are in the same directory
-2. You name your file exactly after the class, for example “new Customer()” will look for “Customer.php” in the “classes/” directory
+2. You name your file exactly after the class, for example "new Customer()" will look for "Customer.php" in the "classes/" directory
 
-This is the best way to include your class files in PHP as it will mean you only include a class file if it is being used, not “just in case it gets used” – and you don’t need to manually include\_once every time.
+This is the best way to include your class files in PHP as it will mean you only include a class file if it is being used, not "just in case it gets used" – and you don't need to manually include\_once every time.

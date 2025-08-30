@@ -12,9 +12,9 @@ tags:
 
 Dependency Injection solves the problem of dependencies in complex applications. Because we want to re-use our code rather than duplicate it in many places, we end up with more dependencies in our code, but Dependency Injection can ease the pain of dependencies and also make your code easier to test.
 
-One of the most popular forms of Dependency Injection is “Constructor Injection”, which is where you supply the dependencies when you first create the object. It is common to have two constructors in this scenario. The first takes the dependency and is used for testing or where the dependency is switched at run time and the second takes no arguments and creates the default dependency.
+One of the most popular forms of Dependency Injection is "Constructor Injection", which is where you supply the dependencies when you first create the object. It is common to have two constructors in this scenario. The first takes the dependency and is used for testing or where the dependency is switched at run time and the second takes no arguments and creates the default dependency.
 
-In PHP, you can’t overload the constructor, so what are the options? Let’s look at some examples, starting with a class that has no dependency injection at all…
+In PHP, you can't overload the constructor, so what are the options? Let's look at some examples, starting with a class that has no dependency injection at all…
 
 ```php
 class ExampleSearchClass
@@ -56,7 +56,7 @@ class ExampleSearchClass
 $exampleSearchClass = new ExampleSearchClass(new SearchProvider());
 ```
 
-This solves the initial problem, but now all of the code that creates an instance of ExampleSearchClass also needs to know about the SearchProvider. If you only ever substitute this in your tests, you have really infected all your code base with a bit of knowledge that it really doesn’t need. In some languages you can create multiple constructors, one that accepts the dependency and one that creates the default if one isn’t supplied. PHP doesn’t allow for multiple constructors, but there are some ways around this problem.
+This solves the initial problem, but now all of the code that creates an instance of ExampleSearchClass also needs to know about the SearchProvider. If you only ever substitute this in your tests, you have really infected all your code base with a bit of knowledge that it really doesn't need. In some languages you can create multiple constructors, one that accepts the dependency and one that creates the default if one isn't supplied. PHP doesn't allow for multiple constructors, but there are some ways around this problem.
 
 ## The Null By Default Parameter
 
@@ -83,11 +83,11 @@ class ExampleSearchClass
 $exampleSearchClass = new ExampleSearchClass();
 ```
 
-In this example, we simply allow the parameter to be omitted and use a default instead. This means that your code doesn’t need to know about the dependency unless it needs something other than the default to be used. This is very similar to the multiple overloaded constructor design used in other languages.
+In this example, we simply allow the parameter to be omitted and use a default instead. This means that your code doesn't need to know about the dependency unless it needs something other than the default to be used. This is very similar to the multiple overloaded constructor design used in other languages.
 
 ## The Factory Pattern
 
-This isn’t as scary as it sounds. This is just where you ask for the ExampleSearchClass from another class that is responsible for creating it and its dependencies. This means that the Factory is the only bit of code that needs to concern itself with dependencies. It is also handy as you can create a fake version of the Factory that returns fake versions of the classes it creates when you are testing.
+This isn't as scary as it sounds. This is just where you ask for the ExampleSearchClass from another class that is responsible for creating it and its dependencies. This means that the Factory is the only bit of code that needs to concern itself with dependencies. It is also handy as you can create a fake version of the Factory that returns fake versions of the classes it creates when you are testing.
 
 ```php
 class ExampleSearchClass
@@ -122,7 +122,7 @@ This is a useful pattern because if you need to add an extra dependency to the E
 
 ## Faux Overloaded Constructor
 
-PHP has some neat language features that mean you could create something that works like multiple constructors. I don’t recommend this option because it isn’t immediately apparent what is happening in the code, which means when you come back to look at it some time in the future you will have to re-acquaint yourself with the concept.
+PHP has some neat language features that mean you could create something that works like multiple constructors. I don't recommend this option because it isn't immediately apparent what is happening in the code, which means when you come back to look at it some time in the future you will have to re-acquaint yourself with the concept.
 
 ```php
 class ExampleSearchClass
@@ -168,7 +168,7 @@ The actual constructor checks the number of arguments and then calls into the co
 
 These are just a couple of suggestions. There are more alternatives that you should be aware of just so you know the options.
 
-Setter Injection: You have a method such as “setSearchProvider” that can be called to pass in a SearchProvider or fake SearchProvider for your tests.
+Setter Injection: You have a method such as "setSearchProvider" that can be called to pass in a SearchProvider or fake SearchProvider for your tests.
 
 Static GetInstance: This is a halfway house towards the Factory Pattern. You put a static method on the ExampleSearchClass that constructs the ExampleSearchClass with its dependencies…
 
@@ -196,4 +196,4 @@ class ExampleSearchClass
 $exampleSearchClass = ExampleSearchClass::getInstance();
 ```
 
-If you aren’t ready to fully implement the Factory Pattern, this is a good way of isolating the rest of your code form changes to the constructor and you could always change this static method to call the factory later.
+If you aren't ready to fully implement the Factory Pattern, this is a good way of isolating the rest of your code form changes to the constructor and you could always change this static method to call the factory later.

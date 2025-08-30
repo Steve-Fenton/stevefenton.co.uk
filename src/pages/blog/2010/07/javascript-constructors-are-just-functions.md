@@ -10,11 +10,11 @@ tags:
     - JavaScript
 ---
 
-I was recently asked a question about JavaScript constructors, which highlighted to me that this statement isn’t as well known as it ought to be:
+I was recently asked a question about JavaScript constructors, which highlighted to me that this statement isn't as well known as it ought to be:
 
 > JavaScript Constructors are Just Functions!
 
-There is absolutely no difference between the two, except how you use them. It’s a bit like a pencil. In my hands it is a writing and drawing instrument, but to some people I know it’s a device for removing ear-wax.
+There is absolutely no difference between the two, except how you use them. It's a bit like a pencil. In my hands it is a writing and drawing instrument, but to some people I know it's a device for removing ear-wax.
 
 So here are some examples to back up the statement. Firstly, a function…
 
@@ -30,11 +30,11 @@ var a = AddTwoNumbers(3, 5);
 var b = new AddTwoNumbers(3, 5);
 ```
 
-In this example, a will be equal to 8, but b will be a new object instance of “AddTwoNumbers”.
+In this example, a will be equal to 8, but b will be a new object instance of "AddTwoNumbers".
 
-Obviously this is entirely useless behaviour. You should probably never write a dual function/constructor as it is no use to anyone, but the important thing to take away from this example is that a function is only ever a constructor when you call it with the “new” keyword.
+Obviously this is entirely useless behaviour. You should probably never write a dual function/constructor as it is no use to anyone, but the important thing to take away from this example is that a function is only ever a constructor when you call it with the "new" keyword.
 
-Here is a more useful example where the variables passed to the constructor are stored as part of the object’s state, and then used when the `result` method is called.
+Here is a more useful example where the variables passed to the constructor are stored as part of the object's state, and then used when the `result` method is called.
 
 ```javascript
 function AddTwoNumbers(first, second) {

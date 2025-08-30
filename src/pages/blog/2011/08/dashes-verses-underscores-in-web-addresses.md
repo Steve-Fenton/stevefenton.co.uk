@@ -10,11 +10,11 @@ tags:
     - HTML
 ---
 
-Google have confirmed that they treat dashes (-) and underscores (\_) differently when they index your website in preparation of people searching for your awesome content. The difference is subtle, but important. Let’s explore it with a simple example. The example is:
+Google have confirmed that they treat dashes (-) and underscores (\_) differently when they index your website in preparation of people searching for your awesome content. The difference is subtle, but important. Let's explore it with a simple example. The example is:
 
 Your-Article-Name – or with underscores, Your\_Article\_Name
 
-The first example, Your-Article-Name, is treated by Google as meaning “Your Article Name”. This is probably what you expected to happen. In the second example, though, Your\_Article\_Name gets treated as “YourArticleName”. Quite different!
+The first example, Your-Article-Name, is treated by Google as meaning "Your Article Name". This is probably what you expected to happen. In the second example, though, Your\_Article\_Name gets treated as "YourArticleName". Quite different!
 
 So the dash acts as a separator, whereas the underscore is a joiner.
 

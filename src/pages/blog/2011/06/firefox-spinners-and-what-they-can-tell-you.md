@@ -32,4 +32,4 @@ When you click, the anti-clockwise grey spinner starts. This continues while you
 
 As soon as the web server starts to send a response, the spinner changes into the clockwise green spinner. This one is telling you that the web page is on its way.
 
-So why is this useful? Well it is actually handy because you can tell the difference between a page that is taking a long time to load (but is on its way – because you have a green clockwise spinner) and a request that isn’t even getting a response from the server, because you’re stuck on a grey anti-clockwise spinner.
+So why is this useful? Well it is actually handy because you can tell the difference between a page that is taking a long time to load (but is on its way – because you have a green clockwise spinner) and a request that isn't even getting a response from the server, because you're stuck on a grey anti-clockwise spinner.

@@ -16,7 +16,7 @@ I was adding a wild card mapping in IIS for an isapi dll, and performing a quick
 
 There are several ways to avoid this common mistake and here are three of them.
 
-## Option 1 – Recycle the App Pool instead.
+## Option 1 – Recycle the App Pool instead
 
 Microsoft point out that an `IISRESET` is just as severe as re-starting a web server – here is a quote from MSDN:
 
@@ -30,9 +30,9 @@ Recycling an application pool causes the world wide web service to shut down all
 
 ## Option 2 – Ask IIS to save the config before you do the IIS RESET
 
-Another option is to ask IIS to save the configuration, which forces changes to be immediately visible. If you are performing the IISRESET to just make your IIS changes visible, this is a good alternative and no IISRESET is required. If you are performing the IISREET for a different reason, you can call this first to ensure IIS changes are saved. (Solution courtesy of James Bossingham)
+Another option is to ask IIS to save the configuration, which forces changes to be immediately visible. If you are performing the IISRESET to just make your IIS changes visible, this is a good alternative and no IISRESET is required. If you are performing the IISRESET for a different reason, you can call this first to ensure IIS changes are saved. (Solution courtesy of James Bossingham)
 
-> You can use the command-line script iiscnfg.vbs, which is stored in `systemroot\System32`, to immediately save configuration changes to disk. Administrators can use this script tool to make changes immediately visible in the metabase.xml.
+> You can use the command-line script `iiscnfg.vbs`, which is stored in `systemroot\System32`, to immediately save configuration changes to disk. Administrators can use this script tool to make changes immediately visible in the `metabase.xml`.
 
 ```powershell
 cscript.exe %SYSTEMROOT%\system32\iiscnfg.vbs /save
@@ -40,7 +40,7 @@ cscript.exe %SYSTEMROOT%\system32\iiscnfg.vbs /save
 
 ## Option 3 – Perform an IISRESET with NOFORCE
 
-If you must perform an IISRESET, use the noforce option (solution courtesy of Steve Bond). This gives everything a fair chance to shut down gracefully and doesn’t force the restart if something won’t shut down within the 60 second limit.
+If you must perform an IISRESET, use the noforce option (solution courtesy of Steve Bond). This gives everything a fair chance to shut down gracefully and doesn't force the restart if something won't shut down within the 60 second limit.
 
 ```powershell
 iisreset /noforce

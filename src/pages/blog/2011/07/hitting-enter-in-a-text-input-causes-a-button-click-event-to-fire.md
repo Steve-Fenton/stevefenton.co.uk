@@ -11,9 +11,9 @@ tags:
     - JavaScript
 ---
 
-So you have a textbox, followed by a button to kick off the search, but if you press the enter key when you are typing in the text box, some other button fires an event. What’s going on?
+So you have a textbox, followed by a button to kick off the search, but if you press the enter key when you are typing in the text box, some other button fires an event. What's going on?
 
-The simple rule for this is that forms are designed to be used by keyboard users. People shouldn’t have to use a mouse to make things happen! So if you have a form like this, you should be able to hit enter to submit it:
+The simple rule for this is that forms are designed to be used by keyboard users. People shouldn't have to use a mouse to make things happen! So if you have a form like this, you should be able to hit enter to submit it:
 
 ```html
 <form method="post" action="">
@@ -22,7 +22,7 @@ The simple rule for this is that forms are designed to be used by keyboard users
 </form>
 ```
 
-This works in almost all browsers. Type in some stuff and hit enter and off it goes. You may notice that in one particular old browser (come on people, upgrade to the latest version) that this doesn’t actually allow you to hit enter. If you need to support this browser, you can use this fix…
+This works in almost all browsers. Type in some stuff and hit enter and off it goes. You may notice that in one particular old browser (come on people, upgrade to the latest version) that this doesn't actually allow you to hit enter. If you need to support this browser, you can use this fix…
 
 ```html
 <form method="post" action="">
@@ -34,7 +34,7 @@ This works in almost all browsers. Type in some stuff and hit enter and off it g
 
 The browser in question will only behave like all the others if there are more than one input on the form, so you need to have a hidden fake field to trick it into behaving normally.
 
-But what about the other issue of strange events being fired when you hit enter? Well, to be honest, you have probably JavaScripted yourself into a corner on this one – but don’t worry, I will show you how to solve your issue…
+But what about the other issue of strange events being fired when you hit enter? Well, to be honest, you have probably JavaScripted yourself into a corner on this one – but don't worry, I will show you how to solve your issue…
 
 Here is an example of a form that only works if you have JavaScript enabled…
 
@@ -74,4 +74,4 @@ In most cases, you would solve this issue by having a single purpose for each fo
 
 The other downside to the dummy button is that, while it stops the wrong button from being included in the enter-key event, it means that the right button is also excluded – so you need to make sure things still happen when people use a keyboard.
 
-Recommendation?! Don’t work in this way!
+Recommendation?! Don't work in this way!

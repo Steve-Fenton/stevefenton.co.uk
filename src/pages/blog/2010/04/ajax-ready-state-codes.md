@@ -10,7 +10,7 @@ tags:
     - JavaScript
 ---
 
-If you are hand-cranking an AJAX request, you’ll be looking for a Ready State of 4 and a Status of 200. But what other Ready State Codes are there and what do they mean?
+If you are hand-cranking an AJAX request, you'll be looking for a Ready State of 4 and a Status of 200. But what other Ready State Codes are there and what do they mean?
 
 ```javascript
 request.onreadystatechange = function () {
@@ -18,7 +18,7 @@ request.onreadystatechange = function () {
 };
 ```
 
-```
+```text
 0. Uninitialized
 1. Set up, but not sent
 2. Sent

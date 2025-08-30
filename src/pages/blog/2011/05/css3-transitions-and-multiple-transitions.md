@@ -10,9 +10,9 @@ tags:
     - CSS
 ---
 
-CSS3 transitions have been with us for a little while now thanks to some browser-vendors adding custom transition support. The reason I’m shouting about it now is because it is actually pretty widely supported and it is now getting a point of maturity that means you can actually use it with reasonable confidence.
+CSS3 transitions have been with us for a little while now thanks to some browser-vendors adding custom transition support. The reason I'm shouting about it now is because it is actually pretty widely supported and it is now getting a point of maturity that means you can actually use it with reasonable confidence.
 
-Of course, not all browsers support it, but the best thing about CSS3 transitions is that nobody will even notice if their browser isn’t supplying the funk.
+Of course, not all browsers support it, but the best thing about CSS3 transitions is that nobody will even notice if their browser isn't supplying the funk.
 
 So first up, here is a simple transition of the background-color property, with definitions for Firefox, WebKit and the official CSS3 property:
 

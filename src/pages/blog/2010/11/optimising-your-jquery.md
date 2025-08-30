@@ -1,5 +1,5 @@
 ---
-title: 'Optimising Your jQuery'
+title: 'Optimising your jQuery'
 navMenu: false
 pubDate: 2010-11-11T20:17:22+00:00
 authors:
@@ -42,7 +42,7 @@ $('.example').each( function () {
 });
 ```
 
-The second optimisation is to avoid using jQuery when you don’t need to. This is also built into the example, when we call `$(this).attr("id")`. Instead of instantiating a jQuery object in order to get the id, we could simple call `this.id`. The calls to height() and width() need to be jQuery calls, because the jQuery framework evens out browser differences for us, but for simple attribute calls, there’s no need to use it. Here is the example with this optimisation added to the first suggestion.
+The second optimisation is to avoid using jQuery when you don't need to. This is also built into the example, when we call `$(this).attr("id")`. Instead of instantiating a jQuery object in order to get the id, we could simple call `this.id`. The calls to height() and width() need to be jQuery calls, because the jQuery framework evens out browser differences for us, but for simple attribute calls, there's no need to use it. Here is the example with this optimisation added to the first suggestion.
 
 ```javascript
 $('.example').each( function () {
@@ -54,7 +54,7 @@ $('.example').each( function () {
 });
 ```
 
-These techniques might not seem like much – but don’t forget that the class selector can return many elements, which means this little bit of code could run many times over, which is the other thing I’d like to mention.
+These techniques might not seem like much – but don't forget that the class selector can return many elements, which means this little bit of code could run many times over, which is the other thing I'd like to mention.
 
 ## Think Loop
 
@@ -62,4 +62,4 @@ When you select elements by anything other than id, you may get many results, so
 
 Even more importantly, if you are responding to an event such as keypress or scroll, the event can be called many times per second, so these techniques become even more important.
 
-The two main optimisation techniques in this article can really make a big difference to your jQuery code. It doesn’t take any time at all to do things the optimal way, but it might make your JavaScript perform much faster.
+The two main optimisation techniques in this article can really make a big difference to your jQuery code. It doesn't take any time at all to do things the optimal way, but it might make your JavaScript perform much faster.

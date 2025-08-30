@@ -16,13 +16,13 @@ I have spent a little time today setting up [NCrunch for Visual Studio](http://w
 
 So once you have downloaded NCrunch, what do you do? Here are my top tips for a trouble-free first run.
 
-Open up NCrunch options, from the NCrunch menu in the Visual Studio Toolbar. For all projects in your solution, set “CopyReferencedAssembliesToWorkspace” to true. This means that referenced projects will end up in the bin directory of the copy that NCrunch creates – this is important if you want stuff to run.
+Open up NCrunch options, from the NCrunch menu in the Visual Studio Toolbar. For all projects in your solution, set "CopyReferencedAssembliesToWorkspace" to true. This means that referenced projects will end up in the bin directory of the copy that NCrunch creates – this is important if you want stuff to run.
 
 If you have signed assemblies and have used the dummy-file VS\_KEY hack, you need to include your dummy VS\_KEY files in your project so they get copied to the folder NCrunch uses to run the tests.
 
-If something doesn’t appear to be working, open up the NCrunch options and set “LogToOuputWindow” to true and “LogVerbosity” to medium.
+If something doesn't appear to be working, open up the NCrunch options and set "LogToOuputWindow" to true and "LogVerbosity" to medium.
 
-The final tip is to make use of the NCrunch Environment Variable wherever you need to do something special for NCrunch. In my case, I’m using it to point NCrunch at a local database for integration tests.
+The final tip is to make use of the NCrunch Environment Variable wherever you need to do something special for NCrunch. In my case, I'm using it to point NCrunch at a local database for integration tests.
 
 ```csharp
 return Environment.GetEnvironmentVariable("NCrunch") == "1" ?
@@ -30,4 +30,4 @@ return Environment.GetEnvironmentVariable("NCrunch") == "1" ?
     ConfigurationManager.AppSettings["dbConnectionString"];
 ```
 
-These may seem like simple things, but knowing them now will save you a bit of time when you get started with NCrunch. I can’t over-state just how excellent this extension is, especially for TDD teams.
+These may seem like simple things, but knowing them now will save you a bit of time when you get started with NCrunch. I can't over-state just how excellent this extension is, especially for TDD teams.

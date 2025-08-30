@@ -11,7 +11,7 @@ tags:
     - Visualisation
 ---
 
-If you are going to use a pie chart ([please don’t use a pie chart](/blog/2009/04/pie-charts-are-bad/)) then you need to know the rules of the pie chart. I actually don’t think anyone ever needs to use a pie chart, they are <del>very nearly</del> always the wrong chart for the data you want to display and despite the fact that you now think that your chart is in the small percentage of charts that would work as a pie chart you are actually wrong and should think about perhaps using a column chart, or a pie chart or a line graph. Not as sexy as a pie chart, but much better for displaying data.
+If you are going to use a pie chart ([please don't use a pie chart](/blog/2009/04/pie-charts-are-bad/)) then you need to know the rules of the pie chart. I actually don't think anyone ever needs to use a pie chart, they are <del>very nearly</del> always the wrong chart for the data you want to display and despite the fact that you now think that your chart is in the small percentage of charts that would work as a pie chart you are actually wrong and should think about perhaps using a column chart, or a pie chart or a line graph. Not as sexy as a pie chart, but much better for displaying data.
 
 So with this in mind, what are the rules of the pie chart, and just how many of them does this chart break?
 
@@ -20,15 +20,15 @@ So with this in mind, what are the rules of the pie chart, and just how many of 
 ::figcaption[Pie chart]
 :::
 
-I would like to point out that I didn’t create this chart, it was displayed during a presentation and I took a hasty photo with my smart phone in order to share it with you. This is also the reason why I appear in the reflection on the display screen!
+I would like to point out that I didn't create this chart, it was displayed during a presentation and I took a hasty photo with my smart phone in order to share it with you. This is also the reason why I appear in the reflection on the display screen!
 
 ## Type Of Data
 
-The one argument in favour of pie charts is that it succinctly shows that the data is part of a whole. For example, each slice represents a percentage of an entirety, for example “out of the 100 people we asked, 50% of them said yes, 30% said no and 20% said maybe”. Because these are all plotted on a circle we can see all four values (50, 30, 20 and 100).
+The one argument in favour of pie charts is that it succinctly shows that the data is part of a whole. For example, each slice represents a percentage of an entirety, for example "out of the 100 people we asked, 50% of them said yes, 30% said no and 20% said maybe". Because these are all plotted on a circle we can see all four values (50, 30, 20 and 100).
 
-You don’t actually need to use a pie chart to demonstrate this, but this is one of the most reasonable arguments for using a pie chart.
+You don't actually need to use a pie chart to demonstrate this, but this is one of the most reasonable arguments for using a pie chart.
 
-It is not advisable to use a pie chart to plot data that doesn’t make up a whole. It is also a bad idea to use a pie chart to show data over time. A line graph or column chart is much better suited to this.
+It is not advisable to use a pie chart to plot data that doesn't make up a whole. It is also a bad idea to use a pie chart to show data over time. A line graph or column chart is much better suited to this.
 
 Error number one, this pie chart shows data over time.
 
@@ -56,23 +56,23 @@ Error five, the segments are actually arranged anti-clockwise, which will make i
 
 ## What Time Is It?
 
-Another piece of important advice for pie-charts is that you should start the first segment at 12 o’clock. It is easier to interpret the values of segments that start at 0, 90, 180 and 270 degrees. It is unlikely that subsequent values will start at these points, but you can help everyone out by starting the first value at 0 degrees!
+Another piece of important advice for pie-charts is that you should start the first segment at 12 o'clock. It is easier to interpret the values of segments that start at 0, 90, 180 and 270 degrees. It is unlikely that subsequent values will start at these points, but you can help everyone out by starting the first value at 0 degrees!
 
-If you imagine a pie chart with three values, 50%, 25% and 25%, you wouldn’t need any value labels to know those numbers – it would be really obvious. Sadly, real life data often fails to divide itself nicely right-angled segments.
+If you imagine a pie chart with three values, 50%, 25% and 25%, you wouldn't need any value labels to know those numbers – it would be really obvious. Sadly, real life data often fails to divide itself nicely right-angled segments.
 
 Error five, not a single value is placed on 0, 90, 180 or 270 degrees.
 
 ## Too Much Information
 
-Pie charts stop working entirely when you add too many segments. The safe bet is to stick the first four segments on and then gather up everything else into an “Other” segment. Attempting to display every segment of information often ends up in [a car-crash of pie chart labels](/blog/2011/09/the-latest-shameful-pie-chart/).
+Pie charts stop working entirely when you add too many segments. The safe bet is to stick the first four segments on and then gather up everything else into an "Other" segment. Attempting to display every segment of information often ends up in [a car-crash of pie chart labels](/blog/2011/09/the-latest-shameful-pie-chart/).
 
 Error six, too many segments.
 
 ## Enough Already
 
-That is surely plenty to be getting on with. The main error is actually using a pie chart in the first place, but it really doesn’t help when you ignore all of the sensible conventions for using a chart. If you broke this many rules with any chart it would look terrible, but it is so easy to mess up a pie chart because it is fundamentally flawed in the first place.
+That is surely plenty to be getting on with. The main error is actually using a pie chart in the first place, but it really doesn't help when you ignore all of the sensible conventions for using a chart. If you broke this many rules with any chart it would look terrible, but it is so easy to mess up a pie chart because it is fundamentally flawed in the first place.
 
-Let’s just imagine what things might have looked like if we had just used a more appropriate chart in the first place – for fairness I have styled this to also look like it was made in the eighties!
+Let's just imagine what things might have looked like if we had just used a more appropriate chart in the first place – for fairness I have styled this to also look like it was made in the eighties!
 
 :::figure{.inset}
 :img{src="/img/2015/07/same_thing_but_with_columns.jpg" alt="This Column Chart Provides Chronology" loading="lazy"}

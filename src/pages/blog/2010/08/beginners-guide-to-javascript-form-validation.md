@@ -13,11 +13,11 @@ tags:
 
 Update! You may want to [check out some native HTML validation attributes](/blog/2011/05/html-5-form-elements-new-attributes/) that are way better than JavaScript validation!
 
-JavaScript form validation is a great way to hint to your users what they should be typing into your web page. It isn’t a replacement for validation on the server, as it can be bypasses incredibly easy – but if you want to tell people that they’ve missed a field or that the value in a field isn’t acceptable without round-tripping to the server, JavaScript is a really easy way to check input values
+JavaScript form validation is a great way to hint to your users what they should be typing into your web page. It isn't a replacement for validation on the server, as it can be bypasses incredibly easy – but if you want to tell people that they've missed a field or that the value in a field isn't acceptable without round-tripping to the server, JavaScript is a really easy way to check input values
 
 ## Adding Validation
 
-Let’s start with a simple form, such as this:
+Let's start with a simple form, such as this:
 
 ```html
 <form method="post" action="">
@@ -27,7 +27,7 @@ Let’s start with a simple form, such as this:
 </form>
 ```
 
-So let’s start by adding a validation function to the page.
+So let's start by adding a validation function to the page.
 
 ```html
 <form method="post" action="" onsubmit="return Validate(this);">
@@ -43,15 +43,15 @@ function Validate(form) {
 </script>
 ```
 
-This isn’t much of a validation sample, but here are the really important bits.
+This isn't much of a validation sample, but here are the really important bits.
 
-1. We have added an onsubmit event to the form. Note that we don’t just call the validate function, we return its value to the onsubmit event. This means if we return true from the Validate function, the form will submit and if we return false, it won’t submit.
-2. We are passing “this” into the Validation function, this means that the validation function will instantly have a handle on the form element, which makes things easier.
+1. We have added an onsubmit event to the form. Note that we don't just call the validate function, we return its value to the onsubmit event. This means if we return true from the Validate function, the form will submit and if we return false, it won't submit.
+2. We are passing "this" into the Validation function, this means that the validation function will instantly have a handle on the form element, which makes things easier.
 3. In our validation function, we are returning false. Try out this example and the form will never submit.
 
-If you ever find that your validation isn’t firing when you submit a form, the most likely reason is that you missed the “return ” bit in “return Validate(this);”.
+If you ever find that your validation isn't firing when you submit a form, the most likely reason is that you missed the "return " bit in "return Validate(this);".
 
-Let’s make it a bit more useful. We will make the Name field mandatory, if the name isn’t typed in, the form won’t submit.
+Let's make it a bit more useful. We will make the Name field mandatory, if the name isn't typed in, the form won't submit.
 
 ```javascript
 function Validate(form) {
@@ -63,7 +63,7 @@ function Validate(form) {
 }
 ```
 
-And that’s all you need to know to make validation work.
+And that's all you need to know to make validation work.
 
 Here are some improvements on this simple example that make the experience a bit slicker.
 
@@ -82,9 +82,9 @@ function Validate(form) {
 }
 ```
 
-## Improvement 2: Don’t mess up your HTML
+## Improvement 2: Don't mess up your HTML
 
-I don’t like having JavaScript attributes in my HTML, it makes things messy. So rather than putting the onsubmit attribute on the form, add the event handler like this.
+I don't like having JavaScript attributes in my HTML, it makes things messy. So rather than putting the onsubmit attribute on the form, add the event handler like this.
 
 ```html
 <form method="post" action="" id="myForm">
@@ -143,4 +143,4 @@ document.getElementById("myForm").onsubmit = function () {
 
 This is just a beginners guide to validation. I strongly recommend that you start with the last example on this page, which has a nicer way of telling the user what the errors are, highlights the problem fields and prevents the form submission until all validation passes.
 
-Don’t forget that you still need to check the values on the server side as JavaScript can be switched off in just two clicks of a mouse.
+Don't forget that you still need to check the values on the server side as JavaScript can be switched off in just two clicks of a mouse.

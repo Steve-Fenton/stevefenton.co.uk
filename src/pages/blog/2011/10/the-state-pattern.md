@@ -34,7 +34,7 @@ callState.Retrieve();
 callState.Disconnect();
 ```
 
-If you look at this code, it looks like you create a CallStateContext and then call methods on it such as “Answer”, “Hold” or “Retrieve”. To the calling code, it looks like a single object that knows what to do with all of these requests and that can also validate that each transition is valid. If this was the case (it isn’t) we could expect to see a grand series of if and switch statements that split down lots of logical branches in the code. If you made a change or introduced a new state, all of those if and switch statements would need to be revised and tested. This is one of the problems the State Pattern wants to solve.
+If you look at this code, it looks like you create a CallStateContext and then call methods on it such as "Answer", "Hold" or "Retrieve". To the calling code, it looks like a single object that knows what to do with all of these requests and that can also validate that each transition is valid. If this was the case (it isn't) we could expect to see a grand series of if and switch statements that split down lots of logical branches in the code. If you made a change or introduced a new state, all of those if and switch statements would need to be revised and tested. This is one of the problems the State Pattern wants to solve.
 
 ## So how does it work?
 
@@ -42,11 +42,11 @@ Actually, the State Pattern is a clever variation on the Strategy Pattern. In th
 
 The state pattern takes this idea a step further by allowing the object to be switched at any time. It uses this switch to replace the current state object with a new state object. So in our example or a phone call, the following happens.
 
-- We create CallStateContext and start it in the “RingingState”.
+- We create CallStateContext and start it in the "RingingState".
 - We call callState.Answer() – this actually calls RingingState.Answer() under the hood, and RingingState replaces itself with ActiveState
 - When we call callState.Hold() this actually calls ActiveState.Hold() – remember, RingingState replaced itself with ActiveState, so our new call now goes to ActiveState. In this case, ActiveState replaces itself with HeldState…
-- By now, you should be thinking “the next call I make will actually result in a method call on HeldState” – you are correct!
-So how do we keep replacing these different state objects – let’s look at some code. First of all, here is the interface for our ICallStateContext – this dictates all the methods that can be called on our CallStateContext object when we create it…
+- By now, you should be thinking "the next call I make will actually result in a method call on HeldState" – you are correct!
+So how do we keep replacing these different state objects – let's look at some code. First of all, here is the interface for our ICallStateContext – this dictates all the methods that can be called on our CallStateContext object when we create it…
 
 ```csharp
 public interface ICallStateContext
@@ -60,7 +60,7 @@ public interface ICallStateContext
 
 These all look sensible right? We have some methods that describe transitions we want to make between states. For example, Disconnect() is the transition from ActiveState to NullState, or from HoldState to NullState (or from any state to any other state depending on the context).
 
-Here is the full implementation of CallStateContext. In a real world example, it would contain more “context”, i.e. any data that is required to perform the state transitions, for example a CallId.
+Here is the full implementation of CallStateContext. In a real world example, it would contain more "context", i.e. any data that is required to perform the state transitions, for example a CallId.
 
 ```csharp
 public class CallStateContext
@@ -101,7 +101,7 @@ public class CallStateContext
 }
 ```
 
-Note that the CallStateContext doesn’t perform any transitions, it calls the CallState `_state` object to do this. It is this `_state` member that will be replaced with the different states at runtime. The CallStateContext also doesn’t decide what goes in this field, this is actually decided by each state. This means that if you call Hold when you are in the ActiveState, you can decide to transition to HeldState. If you call Hold when you are in the RingingState, you might decide that this maps to QueuedState. All of these implementation details are encapsulated within each different state, with no switch or if statements necessary.
+Note that the CallStateContext doesn't perform any transitions, it calls the CallState `_state` object to do this. It is this `_state` member that will be replaced with the different states at runtime. The CallStateContext also doesn't decide what goes in this field, this is actually decided by each state. This means that if you call Hold when you are in the ActiveState, you can decide to transition to HeldState. If you call Hold when you are in the RingingState, you might decide that this maps to QueuedState. All of these implementation details are encapsulated within each different state, with no switch or if statements necessary.
 
 So what do the states look like. All of our states are based on an abstract class called CallState.
 
@@ -117,7 +117,7 @@ public abstract class CallState
 }
 ```
 
-We can implement any number of states that can each have a different implementation of these methods. Each concrete state will decide whether a transition is allowed (and what to do if it isn’t), how the transition takes place and what the next state will be after the transition.
+We can implement any number of states that can each have a different implementation of these methods. Each concrete state will decide whether a transition is allowed (and what to do if it isn't), how the transition takes place and what the next state will be after the transition.
 
 In the following example concrete state, ActiveState, I have removed all implementation about how the transition takes place (for example, a call to a telephony component to signal that the call is being picked up) but left in the validation and the setting of the new state.
 

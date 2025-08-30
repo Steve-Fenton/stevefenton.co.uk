@@ -10,11 +10,11 @@ tags:
     - HTML
 ---
 
-One of the most inspiring sections of Tech Days in London today was the introduction to HTML 5 form elements, part of [Bruce Lawson’s](http://www.brucelawson.co.uk/) presentation. Bruce introduced many of the new form elements and also touched on the new attributes you can use in conjunction with the new types.
+One of the most inspiring sections of Tech Days in London today was the introduction to HTML 5 form elements, part of [Bruce Lawson's](http://www.brucelawson.co.uk/) presentation. Bruce introduced many of the new form elements and also touched on the new attributes you can use in conjunction with the new types.
 
 Essentially, you now have input types for date, email, web address, numbers, ranges and searches and you have attributes for auto-focus, validation and place-holders. All of this excitement got me reading the draft specifications.
 
-To start off, let’s look at the new HTML5 input attributes that are used on the test page.
+To start off, let's look at the new HTML5 input attributes that are used on the test page.
 
 ## HTML5 Input Attributes
 
@@ -22,9 +22,9 @@ There are a few new attributes to help with HTML5 forms and each deserves a reas
 
 ### Autofocus
 
-We already create the feature using JavaScript – the page loads and we focus one of the input elements in order to help our users. There are problems with the JavaScript implementation of this. Firstly, if the page takes a little longer to load, the user may have already typed in the first field and moved onto the next, and we are now plopping them unceremoniously back to where they have already been. This can be frustrating, but it can also lead to people accidentally revealing their password by typing it into the “username” field that we have plonked them back into. The other big problem with our JavaScript implementation is that it isn’t very accessible. We have dropped the user into the middle of the page without giving any context, which isn’t very helpful.
+We already create the feature using JavaScript – the page loads and we focus one of the input elements in order to help our users. There are problems with the JavaScript implementation of this. Firstly, if the page takes a little longer to load, the user may have already typed in the first field and moved onto the next, and we are now plopping them unceremoniously back to where they have already been. This can be frustrating, but it can also lead to people accidentally revealing their password by typing it into the "username" field that we have plonked them back into. The other big problem with our JavaScript implementation is that it isn't very accessible. We have dropped the user into the middle of the page without giving any context, which isn't very helpful.
 
-Enter the HTML5 “autofocus” attribute. This leaves the implementation to the browser and we can assume that they will hone the behaviour to avoid the common pitfalls of the autofocus scripts we used in the past. Here is how you use it!
+Enter the HTML5 "autofocus" attribute. This leaves the implementation to the browser and we can assume that they will hone the behaviour to avoid the common pitfalls of the autofocus scripts we used in the past. Here is how you use it!
 
 ```html
 <input type="text" name="autofocus" autofocus>
@@ -60,8 +60,8 @@ This one takes the required attribute even further, allowing you to use a JavaSc
 <input type="text" name="pattern" pattern="[A-Za-z]" required>
 ```
 
-Bear in mind that the message displayed by browsers may not be very descriptive, so you’ll need to make sure your label is clear as my tests have shown messages with no text and messages with “Please match the required expression”, which aren’t much help to your users.
+Bear in mind that the message displayed by browsers may not be very descriptive, so you'll need to make sure your label is clear as my tests have shown messages with no text and messages with "Please match the required expression", which aren't much help to your users.
 
-## Next Episode!
+## Next Episode
 
 Check back soon for my next instalment on HTML5 Forms, which will deal with some [new special types of input elements](/blog/2011/05/html-5-forms-special-input-elements/).

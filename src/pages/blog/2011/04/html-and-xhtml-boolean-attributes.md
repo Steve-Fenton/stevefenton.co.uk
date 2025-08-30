@@ -24,7 +24,7 @@ When XHTML came along, the strict requirement for all attributes to have a value
 <input type="text" name="example" disabled="disabled">
 ```
 
-Why on Earth this couldn’t be disabled=”true”, I’ll never know. In fact, some people started to say that using true and false values was the “HTML 4” method and using weird repetitive words was the “XHTML” way. This is actually incorrect as [the HTML 4 specification](https://www.w3.org/TR/1998/REC-html40-19980424/intro/sgmltut.html#h-3.3.4.2) actually says that you should use either the same method as XHTML or the minimised form.
+Why on Earth this couldn't be disabled="true", I'll never know. In fact, some people started to say that using true and false values was the "HTML 4" method and using weird repetitive words was the "XHTML" way. This is actually incorrect as [the HTML 4 specification](https://www.w3.org/TR/1998/REC-html40-19980424/intro/sgmltut.html#h-3.3.4.2) actually says that you should use either the same method as XHTML or the minimised form.
 
 ```html
 <input type="text" name="exampleA" disabled="disabled">
@@ -41,6 +41,6 @@ This rule remains in HTML 5, where the following variations are allowed…
 <input type="text" name="example5" disabled>
 ```
 
-> If the attribute is present, its value must either be the empty string or a value that is a case-insensitive match for the attribute’s canonical name, with no leading or trailing white-space.
+> If the attribute is present, its value must either be the empty string or a value that is a case-insensitive match for the attribute's canonical name, with no leading or trailing white-space.
 
-Personally, I think we should all stick to the simple minimised form (example 5). It works in all browsers, it doesn’t pretend to be XHTML and it doesn’t imply that the value of the attribute is useful. If the value of the attribute was true / false, it would make sense – but it isn’t and it doesn’t.
+Personally, I think we should all stick to the simple minimised form (example 5). It works in all browsers, it doesn't pretend to be XHTML and it doesn't imply that the value of the attribute is useful. If the value of the attribute was true / false, it would make sense – but it isn't and it doesn't.

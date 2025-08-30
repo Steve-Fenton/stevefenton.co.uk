@@ -53,12 +53,12 @@ You should now have a Coverage.xml file and an NCover.trend file stored in the l
 Follow these instructions to view the trends…
 
 - Open NCover Explorer
-- Click on “Coverage File” > “Open” and browse to Coverage.xml
+- Click on "Coverage File" > "Open" and browse to Coverage.xml
 - Once you have loaded Coverage.xml, you can load the trend information
-- Click on “Load Trends” and browse to NCover.trend
-- Click on “Trends And Statistics” to view reports
+- Click on "Load Trends" and browse to NCover.trend
+- Click on "Trends And Statistics" to view reports
 
-Important note – when you first add trends, the graph will only have a single data point. You will need to let the “Total Executions” count build up in order to get trends over time, this means you need to let the MSBuild task happen regularly to get long-term statistics.
+Important note – when you first add trends, the graph will only have a single data point. You will need to let the "Total Executions" count build up in order to get trends over time, this means you need to let the MSBuild task happen regularly to get long-term statistics.
 
 Here is the complete example, which shows how it all slots together.
 
@@ -69,9 +69,7 @@ Here is the complete example, which shows how it all slots together.
     <SolutionFile Include="$(SourceDirectory)\Solution.sln"/>
 </ItemGroup>
 <PropertyGroup>
-    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0#/>
-
-#/NUnitPath>
+    <NUnitPath>C:\Program Files$(ProgramFilesSuffix)\NUnit 2.5.9\bin\net-2.0<NUnitPath>
     <NCoverPath>C:\Program Files\NCover</NCoverPath>
     <NCoverOutputPath>C:\Inetpub\wwwroot\NCover</NCoverOutputPath>
 </PropertyGroup>

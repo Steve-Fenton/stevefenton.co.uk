@@ -10,7 +10,7 @@ tags:
     - PHP
 ---
 
-I’m currently contributing to an open source framework, written in PHP. I really want to be a good boy and do everything by the book, but I am really struggling with PHP Doc comments.
+I'm currently contributing to an open source framework, written in PHP. I really want to be a good boy and do everything by the book, but I am really struggling with PHP Doc comments.
 
 The idea behind PHP Doc comments is okay (given the lack of real types). Any public API should be well documented, but when comment blocks account for more than 50% of a page it is time to question whether we are doing it right.
 
@@ -74,7 +74,7 @@ class CountingMachine {
 }
 ```
 
-How much do we really need these? Isn’t it better to name things well in the first place so the code ultimately documents itself?
+How much do we really need these? Isn't it better to name things well in the first place so the code ultimately documents itself?
 
 ```php
 class CountingMachine {  
@@ -98,12 +98,12 @@ class CountingMachine {
 }
 ```
 
-Do we need to be told what “getTotal” or “addNumber” does? Do we need a description for the running total now that we have named it after what it does?
+Do we need to be told what "getTotal" or "addNumber" does? Do we need a description for the running total now that we have named it after what it does?
 
 Ultimately, PHP Doc comments are noise. They make the page hard to read and impossible to love. I remember people getting excited about the same stuff in other languages (Java, C#) but ultimately the lesson was learned and the comments were dropped.
 
-Note that in my second example I leave in the PHP Doc comments that help to guide you about the types of the parameters and properties. This is because PHP isn’t strongly typed like other languages, so you can help developers and IDEs by hinting the types.
+Note that in my second example I leave in the PHP Doc comments that help to guide you about the types of the parameters and properties. This is because PHP isn't strongly typed like other languages, so you can help developers and IDEs by hinting the types.
 
-Now I’m not advocating that we all start deleting all comment blocks. The question is, could the comment be removed if the code was more self-documenting? Does the comment just repeat what the code is already telling us? Are there more lines in the file dedicated to doc block comments than actual code?
+Now I'm not advocating that we all start deleting all comment blocks. The question is, could the comment be removed if the code was more self-documenting? Does the comment just repeat what the code is already telling us? Are there more lines in the file dedicated to doc block comments than actual code?
 
-People of the PHP world, you are clever folks – don’t be told you have to create this kind of noise in your code. Let’s set the PHP world free!
+People of the PHP world, you are clever folks – don't be told you have to create this kind of noise in your code. Let's set the PHP world free!

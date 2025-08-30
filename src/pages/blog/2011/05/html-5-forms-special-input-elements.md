@@ -14,7 +14,7 @@ Continuing my thread of HTML5 form goodies, this article concentrates on some ne
 
 ## Email
 
-The email input is useful for several reasons. Firstly, the browser can take care of validating that the input is a valid email address. If you have ever researched the correct regular expression for an email address, you will have discovered that the most common regular expression in use actually won’t allow many valid email addresses. On top of this, mobile browsers can show the right keyboard layout for entering email addresses.
+The email input is useful for several reasons. Firstly, the browser can take care of validating that the input is a valid email address. If you have ever researched the correct regular expression for an email address, you will have discovered that the most common regular expression in use actually won't allow many valid email addresses. On top of this, mobile browsers can show the right keyboard layout for entering email addresses.
 
 ```html
 <input type="email" name="email" placeholder="Enter your email">
@@ -44,6 +44,6 @@ The color input type is a complete transformation of the input field. Instead of
 <input type="color" name="colour">
 ```
 
-## Next Episode!
+## Next Episode
 
 My next episode will deal with [the various date inputs that are available in HTML5](/blog/2011/05/html-5-forms-date-input-elements/).

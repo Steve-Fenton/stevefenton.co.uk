@@ -1,5 +1,5 @@
 ---
-title: 'Mocking NHJump In Your Unit Tests'
+title: 'Mocking NHJump in your unit tests'
 navMenu: false
 pubDate: 2010-09-16T20:41:33+01:00
 authors:
@@ -58,10 +58,10 @@ Stub.On(myMockExecutableQuery).Method("Unique")
     .Will(Return.Value(myMockValue));
 ```
 
-And as you often get an IValue back from the repository, you’ll need to mock it like this:
+And as you often get an IValue back from the repository, you'll need to mock it like this:
 
 ```csharp
 Stub.On(myMockValue).GetProperty("Value").Will(Return.Value(myDomainObject));
 ```
 
-If you have some tips and tricks that make this even easier, please shout and I’ll update the examples.
+If you have some tips and tricks that make this even easier, please shout and I'll update the examples.

@@ -14,17 +14,17 @@ tags:
 
 If you use Windows Presentation Foundation (WPF), you are very likely to come across the awesome BackgroundWorker and its best friend the Dispatcher. The BackgroundWorker lets you chuck a long-running process onto another thread, allowing the UI to remain responsive. When the BackgroundWorker needs to pop something on the UI, you ask the Dispatcher to send it back to the UI thread.
 
-This is actually one of my favourite features of WPF – using additional threads is incredibly simple. The only thing you have to watch out for is the mysterious 0x80131623 error, which you’ll find in your Output window in Visual Studio just after the UI disappears.
+This is actually one of my favourite features of WPF – using additional threads is incredibly simple. The only thing you have to watch out for is the mysterious 0x80131623 error, which you'll find in your Output window in Visual Studio just after the UI disappears.
 
 You may find that you get this error every time you run your UI, but you may also find it only happens occasionally. Here are the things you need to check before you go back to running everything on the UI thread.
 
 ## Never Cross The Threads
 
-If you need to get something off of the UI to use in the BackgroundWorker, you need to send it as an argument. You can’t go and grab it while you are in the asynchronous process. You may find that this does sometimes work – but it will be unpredictable depending on whether anything on the UI thread is also accessing the item.
+If you need to get something off of the UI to use in the BackgroundWorker, you need to send it as an argument. You can't go and grab it while you are in the asynchronous process. You may find that this does sometimes work – but it will be unpredictable depending on whether anything on the UI thread is also accessing the item.
 
 ## Watch Out For Event Handlers
 
-When you send something back to the UI, make sure you use the Dispatcher. Be aware that the instruction may fire off an event that you have set up. For example, if you trigger your BackgroundWorker from the text-changed event of a TextBox, and you use the Dispatcher to send text back to the TextBox, it will trigger the text-changed event and you’ll just keep going around and around.
+When you send something back to the UI, make sure you use the Dispatcher. Be aware that the instruction may fire off an event that you have set up. For example, if you trigger your BackgroundWorker from the text-changed event of a TextBox, and you use the Dispatcher to send text back to the TextBox, it will trigger the text-changed event and you'll just keep going around and around.
 
 ## Simple Example
 

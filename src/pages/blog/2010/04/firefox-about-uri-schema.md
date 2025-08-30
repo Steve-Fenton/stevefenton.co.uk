@@ -10,7 +10,7 @@ tags:
     - Firefox
 ---
 
-The “about:” URI schema has been around since the days of Netscape, but there is more to it than the common “about:blank” reference for an empty page. Some of these options give you an advanced view over Firefox and its cache – and others a just a bit of entertainment.
+The "about:" URI schema has been around since the days of Netscape, but there is more to it than the common "about:blank" reference for an empty page. Some of these options give you an advanced view over Firefox and its cache – and others a just a bit of entertainment.
 
 Here is a list of some common examples, all of these work in Firefox (tested in Firefox 3.6.3).
 
@@ -30,7 +30,7 @@ Detailed information about the contents, size and location of the memory, disk a
 
 ## about\:config
 
-Detailed lists of configuration options, including many that aren’t available in the settings pages.
+Detailed lists of configuration options, including many that aren't available in the settings pages.
 
 ## about\:license
 

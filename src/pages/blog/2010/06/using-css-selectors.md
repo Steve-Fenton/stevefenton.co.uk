@@ -10,9 +10,9 @@ tags:
     - CSS
 ---
 
-It has been said about CSS that you can learn it in a day, but it takes years to master. Actually, it isn’t that hard to master if you have the right information to hand. Today I’m just going to dump a load of information on CSS selectors, which is the most common CSS question I get asked.
+It has been said about CSS that you can learn it in a day, but it takes years to master. Actually, it isn't that hard to master if you have the right information to hand. Today I'm just going to dump a load of information on CSS selectors, which is the most common CSS question I get asked.
 
-If you are interested in performance, the most performant selector is the id-selector, which gets you a single element. Most other selectors work by getting a list of all elements of the correct type and then filtering the list based on the CSS rule. However, to be practical you don’t need to get too worked up about CSS performance in most cases, so don’t go around adding hundreds of id tags to all of your elements.
+If you are interested in performance, the most performant selector is the id-selector, which gets you a single element. Most other selectors work by getting a list of all elements of the correct type and then filtering the list based on the CSS rule. However, to be practical you don't need to get too worked up about CSS performance in most cases, so don't go around adding hundreds of id tags to all of your elements.
 
 ## Element selectors
 
@@ -62,7 +62,7 @@ These selectors are useful when you want to do something a bit more specific to 
 .classname
 ```
 
-Gets all elements with the specified class name. In this example all elements with class=”classname”.
+Gets all elements with the specified class name. In this example all elements with class="classname".
 
 ```css
 div.classname
@@ -71,16 +71,16 @@ div.classname
 Gets all div elements with the specified class name.
 
 ```css
-#myid
+#my-id
 ```
 
-Gets the element (there should be only one) with the specified id. In this example, the element with id=”myid”.
+Gets the element (there should be only one) with the specified id. In this example, the element with `id="my-id"`.
 
-Note: You probably never need to specify div#myid to specifically select a div element with an id of “myid” as id attributes must be unique in an HTML document. If you have the same id on different elements in different documents… well maybe look into BEM!!!
+Note: You probably never need to specify `div#my-id` to specifically select a `div` element with an id of `my-id` as id attributes must be unique in an HTML document. If you have the same id on different elements in different documents you may need to be more specific.
 
 ## Attribute selectors
 
-These selectors are useful if you want to get hold of an element of group of elements that don’t have any other distinguishing feature, but you might want to consider adding a class name somewhere instead. In these examples I use an anchor tag `<a>` to demonstrate the features.
+These selectors are useful if you want to get hold of an element of group of elements that don't have any other distinguishing feature, but you might want to consider adding a class name somewhere instead. In these examples I use an anchor tag `<a>` to demonstrate the features.
 
 ```css
 a[rel]
@@ -92,13 +92,13 @@ Gets all a elements that have a rel attribute, no matter what the value of the r
 a[rel='example']
 ```
 
-Gets all a elements with a rel tag that have the value “example”.
+Gets all a elements with a rel tag that have the value "example".
 
 ```css
 a[rel|='exam']
 ```
 
-Gets all a elements that have a rel attribute that begins with “exam”. So you would get both of the elements in the previous example.
+Gets all a elements that have a rel attribute that begins with "exam". So you would get both of the elements in the previous example.
 
 ## Nesting your selections
 
@@ -141,19 +141,19 @@ You will also find that you need to apply the same style to many items, so it is
 div p
 ```
 
-By placing a space between the selectors, you get all p elements that are inside of a div element. The space denotes “descendants”. They don’t have to be direct children, but anywhere inside of the element.
+By placing a space between the selectors, you get all p elements that are inside of a div element. The space denotes "descendants". They don't have to be direct children, but anywhere inside of the element.
 
 ```css
 div > p
 ```
 
-By placing a “greater than” sign between the selectors you get all p elements that are direct children of a div element.
+By placing a "greater than" sign between the selectors you get all p elements that are direct children of a div element.
 
 ```css
 div + p
 ```
 
-By placing a “plus” sign between the selectors, you get all p elements that directly follow a div element.
+By placing a "plus" sign between the selectors, you get all p elements that directly follow a div element.
 
 ```css
 div, p

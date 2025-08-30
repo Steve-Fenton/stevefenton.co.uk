@@ -29,7 +29,7 @@ If you are using [NCrunch awesomeness in Visual Studio](/blog/2011/12/some-handy
  at nCrunch.Compiler.RemoteBuildRunner.Build(ComponentBuildParameters parameters)
 ```
 
-Don’t panic – there is a work around for this. Open NCrunch configuration and find the project that fails with this error and change the setting “InstrumentAssembly” to false. It is the NCrunch instrumentation that has a problem, so this will allow the project to build and for the tests to run.
+Don't panic – there is a work around for this. Open NCrunch configuration and find the project that fails with this error and change the setting "InstrumentAssembly" to false. It is the NCrunch instrumentation that has a problem, so this will allow the project to build and for the tests to run.
 
 :::div{.inset}
 :img{src="/img/2015/07/NCrunchInstrumentationSetting.jpg" alt="NCrunch" loading="lazy"}

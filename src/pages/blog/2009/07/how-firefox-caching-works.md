@@ -10,17 +10,17 @@ tags:
     - Firefox
 ---
 
-If you’re developing a website and you’re wondering how Firefox caches the files, here’s a run down of the behaviour. I’ve spend some time researching this for a project I’m working on and the information is surprising, but very useful.
+If you're developing a website and you're wondering how Firefox caches the files, here's a run down of the behaviour. I've spend some time researching this for a project I'm working on and the information is surprising, but very useful.
 
-## What’s In The Cache
+## What's In The Cache
 
 In Firefox, you can see everything that has been cached by typing the following into your address bar:
 
 > about:cache
 
-On this page, you’ll see the three aspects of the Firefox cache; the Memory Cache, the Disk Cache and the Offline Cache.
+On this page, you'll see the three aspects of the Firefox cache; the Memory Cache, the Disk Cache and the Offline Cache.
 
-If you want to truly understand why certain elements are refreshed and others aren’t when you’re debugging your web application (or optimising its performance) bear in mind the following cache-clearing pointers.
+If you want to truly understand why certain elements are refreshed and others aren't when you're debugging your web application (or optimising its performance) bear in mind the following cache-clearing pointers.
 
 ## Memory Cache
 

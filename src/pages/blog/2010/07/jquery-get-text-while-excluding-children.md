@@ -11,11 +11,11 @@ tags:
     - jQuery
 ---
 
-I recently came across a problem while obtaining the text from an HTML label element, based on the fact that I knew the form element that related to the label. This came about because there are two valid ways to use a label. The first way is to use the “for” attribute on the label to tell the page the id of the form element the label relates to, the second is to wrap the entire form element with the label element.
+I recently came across a problem while obtaining the text from an HTML label element, based on the fact that I knew the form element that related to the label. This came about because there are two valid ways to use a label. The first way is to use the "for" attribute on the label to tell the page the id of the form element the label relates to, the second is to wrap the entire form element with the label element.
 
-The problem I had was that when the latter of these two methods is used, I need to obtain the first bit of text from the label, without all of the text from the form element, which in my case was a select list. While it isn’t obvious, there is a way to get the text from an element using jQuery without also getting the text of all the children – and this is how.
+The problem I had was that when the latter of these two methods is used, I need to obtain the first bit of text from the label, without all of the text from the form element, which in my case was a select list. While it isn't obvious, there is a way to get the text from an element using jQuery without also getting the text of all the children – and this is how.
 
-First of all, here are the two valid ways you can mark up your form with a label. Firstly, using the “for”attribute.
+First of all, here are the two valid ways you can mark up your form with a label. Firstly, using the "for"attribute.
 
 ```html
 <label for="mySelectList">Select a day</label>
@@ -50,7 +50,7 @@ if (labelText === "") {
 }
 ```
 
-We have successfully obtained the right element in this example, but if the label is wrapping the form element in our example, instead of getting “Select a day” we end up getting “Select a day Monday Tuesday”, because `jQuery.text()` brings back the text from the selected element and all of its descendants.
+We have successfully obtained the right element in this example, but if the label is wrapping the form element in our example, instead of getting "Select a day" we end up getting "Select a day Monday Tuesday", because `jQuery.text()` brings back the text from the selected element and all of its descendants.
 
 So here is how you get the text from just the parent element while excluding all of the child element text.
 

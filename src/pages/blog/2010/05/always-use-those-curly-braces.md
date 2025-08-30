@@ -14,16 +14,16 @@ tags:
     - TypeScript
 ---
 
-I write a lot of code in a lot of different languages – but there is one common rule I apply to all of them… when you use an “if” block, always put in the curly braces even if you don’t need them. Many errors are related to violations of this simple style rule. I have lost count of the number of times I have seen an error that is related to missing curly braces.
+I write a lot of code in a lot of different languages – but there is one common rule I apply to all of them… when you use an "if" block, always put in the curly braces even if you don't need them. Many errors are related to violations of this simple style rule. I have lost count of the number of times I have seen an error that is related to missing curly braces.
 
-To illustrate, let’s look at the *wrong* way of doing things. I’ll pop the example in JavaScript – but this applies equally to many other C-Like languages, such as TypeScript, C#, Java, PHP and so on.
+To illustrate, let's look at the *wrong* way of doing things. I'll pop the example in JavaScript – but this applies equally to many other C-Like languages, such as TypeScript, C#, Java, PHP and so on.
 
 ```javascript
 if (something == 10)
     alert("Something equals 10");
 ```
 
-In this example, if the variable “something” is equal to 10, an alert will pop up to tell you so. If it doesn’t equal 10, no alert will pop up. This is all well and good until the code is modified. For example, there is a requirement to reset something to 0 when it gets to 10. This leads to the following common error:
+In this example, if the variable "something" is equal to 10, an alert will pop up to tell you so. If it doesn't equal 10, no alert will pop up. This is all well and good until the code is modified. For example, there is a requirement to reset something to 0 when it gets to 10. This leads to the following common error:
 
 ```javascript
 if (something == 10)
@@ -39,11 +39,11 @@ if (something == 10) {
 }
 ```
 
-This example leaves us in no doubt whatsoever about what is included in the if statement and what isn’t. It doesn’t matter that it is a one liner – this is the most readable and maintainable state for the code to be in.
+This example leaves us in no doubt whatsoever about what is included in the if statement and what isn't. It doesn't matter that it is a one liner – this is the most readable and maintainable state for the code to be in.
 
 ## More Than Just Curly Braces
 
-Of course, this doesn’t stop at curly braces – the same error happens all the time in HTML because people aren’t in the habit of laying out their nested tags properly. It isn’t OCD to layout your code neatly, it is fundamental to the readability of your code. I’ll finish with the updated second bit of code, which properly resets something to 0 when it equals 10.
+Of course, this doesn't stop at curly braces – the same error happens all the time in HTML because people aren't in the habit of laying out their nested tags properly. It isn't OCD to layout your code neatly, it is fundamental to the readability of your code. I'll finish with the updated second bit of code, which properly resets something to 0 when it equals 10.
 
 ```javascript
 if (something == 10) {
@@ -56,7 +56,7 @@ if (something == 10) {
 
 One additional benefit of having a rigorous style for all of your if-statements, and other code structures, is that it make your refactoring job easier. This is especially true if you are applying the [Flocking Rules](https://www.sandimetz.com/99bottles/) to refactoring, as I am. When you are looking for duplication, it is easier to spot it when the duplication has the same geography.
 
-Let’s look at two extremes, where the code is semantically similar. The stylistic differences make the duplication either easier, or harder, to spot.
+Let's look at two extremes, where the code is semantically similar. The stylistic differences make the duplication either easier, or harder, to spot.
 
 Here is an example of bad geography for refactoring:
 
@@ -93,4 +93,4 @@ if (something == 10) {
 
 Ideally, where the if-statement uses the same condition, it should be obvious that it is the same. When you are looking for duplication, it helps if the duplication has the colour and the shape of other instances – just like Dave Grohl envisaged when he wrote the album of the same name, maybe.
 
-So go beyond the simple “always use those curly braces” and aim for a level of uniformity that will let you ace your refactoring too.
+So go beyond the simple "always use those curly braces" and aim for a level of uniformity that will let you ace your refactoring too.

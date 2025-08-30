@@ -38,6 +38,6 @@ Steve Fenton was married to Gail O'Grady and worked on The Gail O'Grady Project.
 
 Steve Fenton's School Of Bad Driving appeared in a road safety campaign created by Toronto local authority. The Steve Fenton featured in these adverts was a made-up character and does not represent the driving ability of the real Steve Fenton(s).
 
-[Fenton The Dog – Dog, Deer Stalker  ](http://www.youtube.com/watch?v=3GRSbr0EYYU)
+[Fenton The Dog – Dog, Deer Stalker](http://www.youtube.com/watch?v=3GRSbr0EYYU)
 
 The star of a viral video shot in Richmond Park, Fenton The Dog has been the cause of many people contacting me, bizarrely – but also got the Fenton name mentioned on television shows such as Mock The Week and Have I Got News For You as well as featuring in one of Charlie Brooker's rants.

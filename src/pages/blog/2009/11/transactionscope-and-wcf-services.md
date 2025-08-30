@@ -32,7 +32,7 @@ The problem I encountered was that, while I had started a TransactionScope in my
 
 ## Solution
 
-In order to create an ambient transaction in your client and ensure that it is used by your WCF services, you need to make sure you’ve done the following…
+In order to create an ambient transaction in your client and ensure that it is used by your WCF services, you need to make sure you've done the following…
 
 ### Configure Your Binding
 
@@ -49,6 +49,7 @@ In your WCF service, you will need to make sure that your binding has transactio
           bindingConfiguration="wsHttpTransactional" 
           contract="WcfServiceLibrary1.IService1">
 ```
+
 ### Attribute Up Your Interface
 
 You now need to add TransactionFlow attributes to your interface – so if it looks like this:

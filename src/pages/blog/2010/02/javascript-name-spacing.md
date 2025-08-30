@@ -12,9 +12,9 @@ tags:
 
 This is just a quick article to demonstrate a quick bit of JavaScript namespacing.
 
-Why would you do this? Well, this allows you to put functions and variables inside of an identifier. It acts like a “box of stuff” and prevents variable and function name conflicts. It also supplies a neat way to organise and access your code in logical blocks.
+Why would you do this? Well, this allows you to put functions and variables inside of an identifier. It acts like a "box of stuff" and prevents variable and function name conflicts. It also supplies a neat way to organise and access your code in logical blocks.
 
-If you’re interested, here’s how you do it.
+If you're interested, here's how you do it.
 
 ```javascript
 var MyNamespace = (function() {
@@ -45,4 +45,4 @@ MyNamespace.sayGoodbye('John');
 MyNamespace.publicFunction();
 ```
 
-Obviously, in this example it’s all a bit basic, but if you had JavaScript functions that you’d like to group together, this is a great way to do it – not a genuine name-space, but some distance towards organising your code.
+Obviously, in this example it's all a bit basic, but if you had JavaScript functions that you'd like to group together, this is a great way to do it – not a genuine name-space, but some distance towards organising your code.

@@ -32,7 +32,7 @@ In 2009, the British people selected their representatives to sit on the Europea
 
 So, what's wrong with this pie chart? While it's reasonably clear that the Conservative Party got the single biggest chunk of the vote, it is tough to tell the difference between the following three parties: UKIP, Labour, and the Liberal Democrats. This is a bit of a problem as the whole point of the chart should be to give us this kind of information. It is also hard to tell the difference between the next two parties: Green and BNP.
 
-Let’s rearrange the data onto a column chart. This is usually a good choice for comparing values, as readers only need to evaluate the height of each column.
+Let's rearrange the data onto a column chart. This is usually a good choice for comparing values, as readers only need to evaluate the height of each column.
 
 :::figure{.inset}
 :img{src="/img/2015/07/column001.png" alt="Fantastic Euro Election Column Chart" loading="lazy"}
@@ -45,7 +45,7 @@ I wanted to keep the comparison between these as fair as possible. I have carefu
 
 ## Size matters
 
-Let's look at size using the same data as the previous example. No matter what anyone tells you, size *does* matter. So what happens when we change the size of our graphical statistical tools. Pie charts demonstrate further problems. When you make a pie chart bigger, nothing happens. A larger chart doesn’t reveal more information. It is just as useless as it was when it was tiny. Just look at this waste of space.
+Let's look at size using the same data as the previous example. No matter what anyone tells you, size *does* matter. So what happens when we change the size of our graphical statistical tools. Pie charts demonstrate further problems. When you make a pie chart bigger, nothing happens. A larger chart doesn't reveal more information. It is just as useless as it was when it was tiny. Just look at this waste of space.
 
 :::figure{.inset-small}
 :img{src="/img/2015/07/pie002.png" alt="Shocking Tiny Pie" loading="lazy"}
@@ -86,7 +86,7 @@ Could second-place party Labour team up with third-place Liberal Democrats to cr
 ::figcaption[UK election pie chart]
 :::
 
-It is actually quite hard to tell. You have to compare the lilac section with the combined purple and yellow sections. It isn’t easy to tell which is bigger when displayed on a pie chart.
+It is actually quite hard to tell. You have to compare the lilac section with the combined purple and yellow sections. It isn't easy to tell which is bigger when displayed on a pie chart.
 
 If we return to our trusty column chart, things are a little more obvious.
 
@@ -97,11 +97,11 @@ If we return to our trusty column chart, things are a little more obvious.
 
 Now it's clear. The Liberal Democrats were in a uniquely gifted situation. If they were to team up with Labour, the combined party would be bigger than the Conservative Party. Equally, if they teamed up with the Conservatives, they would be the outright winners. The Lib Dems were the king-makers of this general election.
 
-And the kings of the chart world? Let’s agree it isn’t the pie chart.
+And the kings of the chart world? Let's agree it isn't the pie chart.
 
 ## Additional arguments
 
-There are many, many reasons to avoid pie charts. I have kept the arguments small in number to spend time illustrating them. I haven’t gone into discussions on polar pie charts, complex spie charts, multi-level pie charts, donut charts, or other variations. Suffice it to say, they don’t work in their simplest form and making them more complicated does nothing to improve things.
+There are many, many reasons to avoid pie charts. I have kept the arguments small in number to spend time illustrating them. I haven't gone into discussions on polar pie charts, complex spie charts, multi-level pie charts, donut charts, or other variations. Suffice it to say, they don't work in their simplest form and making them more complicated does nothing to improve things.
 
 ## Summary
 
@@ -110,7 +110,7 @@ Pie charts should be avoided if you want to gain insights from your data. There 
 Though I have made no effort to be impartial about the hateful pie chart, I took care to follow some rules to ensure a fair comparison.
 
 1. Real statistics  
-    I have used real statistics in these charts. I haven’t invented statistics to make pie charts look bad.
+    I have used real statistics in these charts. I haven't invented statistics to make pie charts look bad.
 2. Same real estate  
     I have used similarly sized charts in each comparison.
 3. Plain display
@@ -120,4 +120,4 @@ Though I have made no effort to be impartial about the hateful pie chart, I took
 
 At their very essence, pie charts fail to add depth or understanding to data. Many other chart types are available, most of which offer the benefit of chronological interpretation and comparisons. While other charts help increase your understanding, pie charts are nothing more than colourful circles.
 
-So the next time somebody asks you, “are pie charts good?” Tell them instantly: “No, pie charts are bad”.
+So the next time somebody asks you, "are pie charts good?" Tell them instantly: "No, pie charts are bad".
