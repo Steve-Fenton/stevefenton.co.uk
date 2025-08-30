@@ -41,9 +41,9 @@
     --fore-table-head: #fdfdfe;
     --aft-table-head: #2F3141;
     --fore-table-row-odd: #333;
-    --aft-table-row-odd: #fdfdfe;
+    --aft-table-row-odd: #DDF;
     --fore-table-row-even: #333;
-    --aft-table-row-even: #f3f5ff;
+    --aft-table-row-even: #CCF;
 
     --heading-font: 'hyper-bold', sans-serif;
     --content-font: 'hyper-reg', Verdana, Geneva, sans-serif;
