@@ -1,0 +1,69 @@
+---
+// warning: This file is overwritten by Astro Accelerator
+
+// For listing all articles in this folder
+import { PostFiltering, PostOrdering, Accelerator } from 'astro-accelerator-utils';
+import type { Frontmatter } from 'astro-accelerator-utils/types/Frontmatter';
+import type { MarkdownInstance } from 'astro-accelerator-utils/types/Astro';
+import type { Page } from 'astro';
+import { SITE } from '@config';
+import { Translations, Lang } from '@util/Languages';
+import Default from 'src/layouts/Default.astro';
+import ArticleList from '@components/ArticleList.astro';
+import PagingLinks from '@components/PagingLinks.astro';
+
+const accelerator = new Accelerator(SITE);
+const stats = new accelerator.statistics('pages/articles/[page].astro');
+stats.start();
+
+const lang = SITE.default.lang;
+
+// Language
+const _ = Lang(lang);
+
+// Props
+type Props = {
+  page: Page<MarkdownInstance>;
+  headings: { depth: number; slug: string; text: string; }[];
+  pubDate: Date;
+};
+const { page, headings, pubDate } = Astro.props satisfies Props;
+
+// Enhance the title
+const pageTitle = `${_(Translations.articles.articles_title)} - ${_(Translations.articles.page_title).replace('{n}', page.currentPage.toString())}`;
+
+const frontmatter: Frontmatter = {
+  layout: 'src/layouts/Default.astro',
+  title: pageTitle,
+  keywords: `articles`,
+  description: `${SITE.title} articles.`,
+  pubDate: pubDate
+};
+
+// Logic
+export async function getData() {
+  const sourcePosts = Object.values(import.meta.glob('./**/*.md*', { eager: true })) satisfies MarkdownInstance[];
+  const posts = sourcePosts
+    .filter(PostFiltering.isListable)
+    .sort(PostOrdering.sortByModDateDesc);
+
+  return posts;
+}
+
+export async function getStaticPaths({ paginate }: any) {
+  let data = await getData();
+  return paginate(data, {
+    props: { pubDate: data[0].frontmatter.pubDate },
+    pageSize: SITE.pageSize
+  });
+}
+
+// Page Links
+const pageLinks = accelerator.paging.links(SITE.pageLinks, page.lastPage, page.currentPage, page.url.current);
+
+stats.stop();
+---
+<Default frontmatter={ frontmatter } headings={ headings }>
+  <ArticleList lang={ lang } posts={ page.data } />
+  <PagingLinks lang={ lang } page={ page } pageLinks={ pageLinks } />
+</Default>

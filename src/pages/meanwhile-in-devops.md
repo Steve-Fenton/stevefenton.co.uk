@@ -1,0 +1,10 @@
+---
+layout: src/layouts/Redirect.astro
+title: Meanwhile in DevOps
+paged: true
+navOrder: 2000
+navSearch: false
+navSitemap: false
+pubDate: 2025-09-30
+redirect: /meanwhile-in-devops/1/
+---
