@@ -382,7 +382,7 @@ nav.skip-links a:focus {
     padding-block: 2rem;
     width: var(--content-width);
     margin-inline: auto;
-    max-width: calc(100vw - 2rem);
+    max-width: calc(100vw - 1rem);
     stroke: var(--fore);
 }
 
