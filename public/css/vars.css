@@ -72,8 +72,6 @@
     --content-width: 50rem;
     --navigation-width: 300px;
     --grid-gap: 1rem;
-    --grid-max-width: 70rem;
-    --grid-width: 90vw;
 
     /* Calculate the mobile width by removing l/r columns */
     --content-width-mobile: calc(100vw - 1rem);

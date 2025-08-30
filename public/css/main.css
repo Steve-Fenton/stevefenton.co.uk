@@ -184,14 +184,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
     letter-spacing: -0.03em;
     text-wrap: balance;
-    border-bottom: 4px solid var(--icon-block);
-    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: var(--icon-block);
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
 }
 
 h1 {
     font-size: 3rem;
     line-height: 1.3;
-    border-bottom: 8px solid var(--icon-block);
+    text-decoration-thickness: 8px;
 
     @media (max-width: 860px) {
         font-size: 2.3rem;
@@ -492,7 +494,7 @@ a.navigation-icon:focus {
 .content-group {
     margin-inline: 0.5rem;
     display: grid; 
-    gap: var(--grid-gap-main);
+    gap: var(--grid-gap);
     justify-content: center;
     max-width: 100vw;
     padding-top: 0;
