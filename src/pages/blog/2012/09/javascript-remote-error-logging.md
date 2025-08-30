@@ -10,9 +10,9 @@ tags:
     - JavaScript
 ---
 
-If you have written an application, you’ll know how useful error and exception logging can be. When a user detects a problem, the logs can often explain how it happened better than the user and very often you can find problems before anyone realises something has gone wrong.
+If you have written an application, you'll know how useful error and exception logging can be. When a user detects a problem, the logs can often explain how it happened better than the user and very often you can find problems before anyone realises something has gone wrong.
 
-So wouldn’t it be nice if your error log contained JavaScript errors as well as all the problems that got logged on the server. Of course it would. The great news is that it is very easy to forward the JavaScript errors to your server for proper logging.
+So wouldn't it be nice if your error log contained JavaScript errors as well as all the problems that got logged on the server. Of course it would. The great news is that it is very easy to forward the JavaScript errors to your server for proper logging.
 
 Here is a contrived full example, which shows errors be forwarded using an AJAX request. In addition to the AJAX request, there is logging to the console so you can see what is going on when you run the example. You will also notice that the existing window.onerror handlers are also called.
 

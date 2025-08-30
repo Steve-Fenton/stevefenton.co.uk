@@ -26,7 +26,7 @@ public Person GetPerson(PersonId personId) {
 
 My initial thoughts were, why wrap an int in an object and make your life harder. But then the benefits of this approach began to win me over.
 
-The first benefit to this approach is that it stops you from making a stupid mistake. It turns a massive cock up into a simple compiler error. This isn’t an uncommon mistake:
+The first benefit to this approach is that it stops you from making a stupid mistake. It turns a massive cock up into a simple compiler error. This isn't an uncommon mistake:
 
 ```csharp
 var person = GetPerson(company.ProfileId);
@@ -38,9 +38,9 @@ By enforcing a type of identifier, we would get a compiler error stating that `P
 
 There are other benefits too.
 
-When you get the 2,147,483,648th Person in your system and need to switch from Int32 to Int64 (or to an unsigned Int32 or a Guid or a string – that discussion is for another day) – you only need to change your `PersonId` class and whatever maps to it. You don’t need to chase parameters throughout your system to update them all.
+When you get the 2,147,483,648th Person in your system and need to switch from Int32 to Int64 (or to an unsigned Int32 or a Guid or a string – that discussion is for another day) – you only need to change your `PersonId` class and whatever maps to it. You don't need to chase parameters throughout your system to update them all.
 
-This technique doesn’t just apply to identities. Consider situations where you are passing simple types that may cause confusion. For example, if you are passing width, height and depth to a method would it be better to have an object that represents this set of parameters that will make it more readable and less error prone:
+This technique doesn't just apply to identities. Consider situations where you are passing simple types that may cause confusion. For example, if you are passing width, height and depth to a method would it be better to have an object that represents this set of parameters that will make it more readable and less error prone:
 
 ```csharp
 var table = new Table(200, 300, 240);

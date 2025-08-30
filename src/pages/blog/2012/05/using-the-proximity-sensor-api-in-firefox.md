@@ -14,7 +14,7 @@ tags:
 Following up on my post about [Using The Light Sensor API In Firefox](/blog/2012/05/using-the-light-sensor-api-in-firefox/) and with all the same caveats (new feature, just in one browser so far, specification may change), I thought I would also note down the Proximity Sensor API in Firefox.
 
 ```javascript
-var proximiyFeatureCallback = function (proximity) {
+var proximityFeatureCallback = function (proximity) {
     if (proximity.near) {
         alert('You are close!');
     } else {
@@ -22,7 +22,7 @@ var proximiyFeatureCallback = function (proximity) {
     }
 };
 
-window.addEventListener('userproximity', proximiyFeatureCallback, true);
+window.addEventListener('userproximity', proximityFeatureCallback, true);
 ```
 
 You can also get hold of proximity.value, and proximity.min and proximity.max values from the proximity object that is passed to your callback.

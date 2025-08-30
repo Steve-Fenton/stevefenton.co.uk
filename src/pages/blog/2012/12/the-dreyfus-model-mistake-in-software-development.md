@@ -21,7 +21,7 @@ The Dreyfus Model was proposed in 1980 by Stuart and Hubert Dreyfus. It describe
 
 The full model is described under the title:
 
-[“A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition”](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
+["A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition"](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
 
 ## The Dunning-Kruger Effect Quickly
 
@@ -29,16 +29,16 @@ Also known as second-order incompetence, The Dunning\_Kruger effect was proposed
 
 The full theory is described under the title:
 
-“Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”
+"Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments"
 
 ## So what is the big mistake?
 
 When we apply these two studies to software development, we tend to do it as a whole. This is the mistake. I believe that The Dreyfus Model applies on a per-skill basis. You can be a novice at relational data-stores, but competent at restful services. You have a different level of competence for each technology or practice or principle that you apply to software development.
 
-Why does this matter? When you form a software team, you very often end up with a technical lead who is held in high regard as a general “Expert Software Developer”, but as I’ve mentioned, this is a mistake as there will be areas where they may well be competent, proficient or even expert – but also many areas where they are a novice.
+Why does this matter? When you form a software team, you very often end up with a technical lead who is held in high regard as a general "Expert Software Developer", but as I've mentioned, this is a mistake as there will be areas where they may well be competent, proficient or even expert – but also many areas where they are a novice.
 
 If your technical lead is riding roughshod over developers who are actually more competent in specific areas, you end up making the wrong decisions as a team.
 
-The Dunning-Kruger Effect is slightly different. I believe there is an epiphany with this theory that leads to a shift in awareness. If you don’t know anything about The Dunning-Kruger Effect, I believe it is possible to suffer the effect on a per-skill basis. Once you become aware of the study and realise how you have been a good example of second-order incompetence, I believe that you will be more cautious in estimating your ability.
+The Dunning-Kruger Effect is slightly different. I believe there is an epiphany with this theory that leads to a shift in awareness. If you don't know anything about The Dunning-Kruger Effect, I believe it is possible to suffer the effect on a per-skill basis. Once you become aware of the study and realise how you have been a good example of second-order incompetence, I believe that you will be more cautious in estimating your ability.
 
-So write down the particular skills that are relevant to a given task and try to plot your position in the five levels of competency – whilst bearing in mind that you may be exhibiting The Dunning-Kruger Effect and don’t get caught in the myth of the “Expert Software Developer” generalisation.
+So write down the particular skills that are relevant to a given task and try to plot your position in the five levels of competency – whilst bearing in mind that you may be exhibiting The Dunning-Kruger Effect and don't get caught in the myth of the "Expert Software Developer" generalisation.

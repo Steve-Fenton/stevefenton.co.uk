@@ -21,4 +21,4 @@ So why is this one so bad? Simple. A two-dimensional pie chart has been proven t
 
 On top of all this, this bizarre example has pie charts being measured not only in degrees-round-a-circle, but they also have different stack heights. While we could have taken a rough guess at the purple slice being about half the size of the green slice in a 2D pie chart, we now have to judge the difference in height – it is twice as height or three times as high? Is the purple segment half the value of the green segment, or just one sixth? Who knows.
 
-It is so easy for a pie chart to be bad that you really don’t need to convert it into a pie-chart-based circular column chart.
+It is so easy for a pie chart to be bad that you really don't need to convert it into a pie-chart-based circular column chart.

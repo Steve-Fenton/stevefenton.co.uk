@@ -12,13 +12,13 @@ tags:
     - C-Sharp
 ---
 
-If you are using Code Contracts in .NET and you find that they aren’t running, there are a few simple checks to perform to work out why those clever little definitions aren’t working.
+If you are using Code Contracts in .NET and you find that they aren't running, there are a few simple checks to perform to work out why those clever little definitions aren't working.
 
-If you have used Code Contracts a couple of times, these are the most likely reasons the Code Contracts aren’t doing anything when you call a method that you think is being checked.
+If you have used Code Contracts a couple of times, these are the most likely reasons the Code Contracts aren't doing anything when you call a method that you think is being checked.
 
 ## Attribute Problem
 
-It is highly likely that you’ve forgotten to add both of the required attributes – one to the interface and one to the contract definition.
+It is highly likely that you've forgotten to add both of the required attributes – one to the interface and one to the contract definition.
 
 ```csharp
 [ContractClass(typeof(ContractsForIRepository<,>))]
@@ -34,7 +34,7 @@ internal abstract class ContractsForIRepository<T, TId> : IRepository<T, TId> wh
 
 ## Project Problem
 
-It is also highly likely that you’ve forgotten to set up Code Contracts against your project in Visual Studio!
+It is also highly likely that you've forgotten to set up Code Contracts against your project in Visual Studio!
 
 If you go to Project > Properties and select the Code Contracts tab, you may have forgotten to switch them on! Here are the settings I generally use – everything not mentioned is not ticked!
 

@@ -12,7 +12,7 @@ I am very often amazed that content providers bother writing apps these days. Ac
 
 Instead of writing a grand history of devices and the growth in form-factors and operating systems and versions, culminating in the revelation that HTML5 has been around all this time (it was conceived in 2004 and proposed back to the W3C in 2007). But I decided instead to splat the whole story into a big graphic that shows on the left how many HTML5 apps you would have needed to write and on the right how many apps you would have needed to write.
 
-I’m not saying that no apps should be written, but if you have a website full of content, why spread yourself thin trying to maintain a ton of apps that display that content when you could put that effort into an awesome website instead.
+I'm not saying that no apps should be written, but if you have a website full of content, why spread yourself thin trying to maintain a ton of apps that display that content when you could put that effort into an awesome website instead.
 
 :::div{.inset}
 :img{src="/img/2015/07/AppsAppsApps.jpg" alt="Apps Apps Apps"}

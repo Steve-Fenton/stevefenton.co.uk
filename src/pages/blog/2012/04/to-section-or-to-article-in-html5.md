@@ -20,9 +20,9 @@ This is a great explanation because it shows the strong relationship between the
 
 So as a quick reminder, an article is a stand alone chunk of content. Imagine lifting the article off of the web page and it still makes sense in its own right. Most web pages could be divided into one or more of these independent articles.
 
-So what is a section for? The first use is to group similar articles together. If you had a list of articles related to “music” and a list or articles related to “film”, you could group these articles into two section elements. The section then gives additional meaning to your mark-up. It says “whilst each of these articles are independent, they are also related to each other”. So a section adds a relationship between articles.
+So what is a section for? The first use is to group similar articles together. If you had a list of articles related to "music" and a list or articles related to "film", you could group these articles into two section elements. The section then gives additional meaning to your mark-up. It says "whilst each of these articles are independent, they are also related to each other". So a section adds a relationship between articles.
 
-The second use is inside of an article. You can use sections to divide an article into meaningful chunks. This can be useful if you have a large article and the sections at as “chapters” inside of the article. You could even pop an id on each section and provide hyperlinks to jump to the various chapters.
+The second use is inside of an article. You can use sections to divide an article into meaningful chunks. This can be useful if you have a large article and the sections at as "chapters" inside of the article. You could even pop an id on each section and provide hyperlinks to jump to the various chapters.
 
 In my opinion, the section element is not a semantic element until it relates to one or more article elements. A section element on a page without any article elements has no meaning. As soon as it surrounds some articles it has meaning. As soon as some section elements are surrounded by an article, they have meaning. Otherwise they are just division elements.
 

@@ -11,9 +11,9 @@ tags:
     - C-Sharp
 ---
 
-Before we get started, [Ewald Hofman has an excellent blog post on how to write your own custom activities](http://www.ewaldhofman.nl/post/2010/05/13/Customize-Team-Build-2010-e28093-Part-5-Increase-AssemblyVersion.aspx) to do the same thing, which is actually quite a lot more graceful than using a batch file. If you are confused about which approach to take, use Ewald’s way of doing this. I suppose you could call this article “Automatically Updating Your AssemblyInfo *The Wrong Way*“.
+Before we get started, [Ewald Hofman has an excellent blog post on how to write your own custom activities](http://www.ewaldhofman.nl/post/2010/05/13/Customize-Team-Build-2010-e28093-Part-5-Increase-AssemblyVersion.aspx) to do the same thing, which is actually quite a lot more graceful than using a batch file. If you are confused about which approach to take, use Ewald's way of doing this. I suppose you could call this article "Automatically Updating Your AssemblyInfo *The Wrong Way*".
 
-If there is some constraint or reason that means you really must use a batch file, I’m not here to preach at you or tell you that those constraints are not valid. You know your domain better than I do!
+If there is some constraint or reason that means you really must use a batch file, I'm not here to preach at you or tell you that those constraints are not valid. You know your domain better than I do!
 
 So here is how you would integrate a batch file into your TFS Build process to update your version automatically.
 
@@ -21,7 +21,7 @@ This example is based on a few environmental assumptions.
 
 I am using a shared file, rather than looping through every AssemblyInfo.cs. Each project still has its own AssemblyInfo.cs with any specific information that is needed, which means AssemblyInfoShared.cs just has the common properties. The shared file lives next to the solution file and is referenced as a linked file in each project.
 
-I am using Visual Studio 2012 and TFS 2012, but things should be similar in Visual Studio 2010, which also has the XAML based build definition workflows. This definitely won’t apply to Visual Studio 2005 or 2008 as they just used MSBuild.
+I am using Visual Studio 2012 and TFS 2012, but things should be similar in Visual Studio 2010, which also has the XAML based build definition workflows. This definitely won't apply to Visual Studio 2005 or 2008 as they just used MSBuild.
 
 Lastly, although my examples do some specific things, please generalise them and adapt them to your specific scenario. Use your own agreen build number formats and decide what properties belong in the shared files.
 
@@ -29,17 +29,17 @@ Lastly, although my examples do some specific things, please generalise them and
 
 The default build number format is:
 
-```
+```text
 $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)
 ```
 
-This results in a build number of “BUILD\_NIGHTLY-20121201.0”. I am using my own custom build number format:
+This results in a build number of "BUILD\_NIGHTLY-20121201.0". I am using my own custom build number format:
 
-```
+```text
 $(TeamProject)-1.0.0$(Rev:.r)
 ```
 
-This results in “ProjectName-1.0.0.0”. When we come to use this build number, we won’t want “ProjectName-“, so we’ll just take the rest. You can invent whatever numbering scheme you like, but in this specific case the first three numbers a hard-coded. That is because sales and marketing wanted control over the major and minor version and the third number was used for patches. For example:
+This results in "ProjectName-1.0.0.0". When we come to use this build number, we won't want "ProjectName-", so we'll just take the rest. You can invent whatever numbering scheme you like, but in this specific case the first three numbers a hard-coded. That is because sales and marketing wanted control over the major and minor version and the third number was used for patches. For example:
 
 - `1.1.\*.\*` is a marketing decision
 - `2.0.\*.\*` is a big marketing decision
@@ -48,9 +48,9 @@ This results in “ProjectName-1.0.0.0”. When we come to use this build number
 
 ## Batch File
 
-The batch file replaces the entire contents of the shared Assembly Info file every time the build runs. It also deals with source control. Whether you need to version this shared file will depend on your individual and unique situation. Generally speaking it is better if you don’t have to version it, but in my specific case, there was a need for developers to pull the latest and create DLLs that were the correct version to drop onto their test environments, so it was easier if they didn’t have to check and edit this file manually.
+The batch file replaces the entire contents of the shared Assembly Info file every time the build runs. It also deals with source control. Whether you need to version this shared file will depend on your individual and unique situation. Generally speaking it is better if you don't have to version it, but in my specific case, there was a need for developers to pull the latest and create DLLs that were the correct version to drop onto their test environments, so it was easier if they didn't have to check and edit this file manually.
 
-The file accepts two parameters. The version number and the file path. This allows TFS to pass this information when it executes the batch file. I also parameterised the path to the TF source control command line (which you only need if you want to check-out and check-in the file) and the current year, for the copyright message. The batch file can also be executed manually, so it prompts for the arguments if they haven’t been supplied.
+The file accepts two parameters. The version number and the file path. This allows TFS to pass this information when it executes the batch file. I also parameterized the path to the TF source control command line (which you only need if you want to check-out and check-in the file) and the current year, for the copyright message. The batch file can also be executed manually, so it prompts for the arguments if they haven't been supplied.
 
 ```powershell
 set version=%~1
@@ -68,7 +68,7 @@ echo //This file is auto generated by AssemblyVersion.bat >> %outfile%
 echo [assembly: AssemblyConfiguration("")] >> %outfile%
 echo [assembly: AssemblyCompany("Your Company")] >> %outfile%
 echo [assembly: AssemblyProduct("Your Cool Product")] >> %outfile%
-echo [assembly: AssemblyCopyright("Copyright Â© 2007-%year% Your Company. All rights reserved.")] >> %outfile%
+echo [assembly: AssemblyCopyright("Copyright Â&copy; 2007-%year% Your Company. All rights reserved.")] >> %outfile%
 echo [assembly: AssemblyTrademark("")] >> %outfile%
 echo [assembly: AssemblyCulture("")] >> %outfile%
 echo [assembly: ComVisible(false)] >> %outfile%
@@ -77,7 +77,7 @@ echo [assembly: AssemblyFileVersion("%version%")] >> %outfile%
 %tfstool% checkin %outfile% /comment:"***NO_CI*** Assembly Info Increment" /noprompt
 ```
 
-You can remove the three lines containing the text “%tfstool%” if you don’t want to version the file. Here is a breakdown of what the file does.
+You can remove the three lines containing the text "%tfstool%" if you don't want to version the file. Here is a breakdown of what the file does.
 
 **Check Out File**
 
@@ -87,7 +87,7 @@ You can remove the three lines containing the text “%tfstool%” if you don’
 
 **Make File Writable**
 
-If you aren’t checking out the file, you’ll need to make it writable.
+If you aren't checking out the file, you'll need to make it writable.
 
 ```powershell
 attrib -r %outfile%
@@ -111,15 +111,15 @@ On check-in, we specify the exact file to check in, add a comment that prevents 
 
 ## InvokeProcess Task
 
-To make the magic happen, we need to call the batch file from the build definition. TFS has an InvokeProcess task that is ideal for this. You’ll need to open up the build process definition XAML file to do this. I added the InvokeProcess activity in the “Run On Agent” step that you’ll find in the default template, just after “Initialize Workspace” activity.
+To make the magic happen, we need to call the batch file from the build definition. TFS has an InvokeProcess task that is ideal for this. You'll need to open up the build process definition XAML file to do this. I added the InvokeProcess activity in the "Run On Agent" step that you'll find in the default template, just after "Initialize Workspace" activity.
 
-You’ll need to set a couple of properties on the InvokeProcess task.
+You'll need to set a couple of properties on the InvokeProcess task.
 
 **Arguments**
 
 The arguments property contains the string that you would pass in the command line to call the batch file. We create the string using some TFS built-in properties that tell us where the build directory is and to remove the project name from the version number.
 
-```
+```text
 LabelName.Replace("ProjectName-", "") + " " + SourcesDirectory + "\Main\Source\AssemblyInfoShared.cs"
 ```
 
@@ -127,19 +127,19 @@ LabelName.Replace("ProjectName-", "") + " " + SourcesDirectory + "\Main\Source\A
 
 Again we use the TFS properties to get the build directory so we can pass in the full path to the shared Assembly Info file.
 
-```
+```text
 SourcesDirectory + "\Path\AssemblyVersion.bat"
 ```
 
 You can also drag a WriteBuildMessage and WriteBuildWarning activity onto the InvokeProcess activity to push happy and sad messages into the build log.
 
-And that’s it. A SharedAssemblyInfo.cs file, a batch file and an InvokeProcess activity are all you need to auto-increment your build numbers.
+And that's it. A SharedAssemblyInfo.cs file, a batch file and an InvokeProcess activity are all you need to auto-increment your build numbers.
 
 ## Troubleshooting…
 
-In later versions of TFS, you’ll need to get the SourcesDirectory and LabelName in a slightly different way…
+In later versions of TFS, you'll need to get the SourcesDirectory and LabelName in a slightly different way…
 
-1. Create variables for buildNumber and sourcesDirectory (add these using the “Variables” link at the bottom of your IDE)
+1. Create variables for buildNumber and sourcesDirectory (add these using the "Variables" link at the bottom of your IDE)
 2. Add a couple of GetEnvironmentVariable activities to ship the values into those variables
 3. Use those variables in place of LabelName and SourcesDirectory
 
@@ -150,4 +150,4 @@ The GetEnvironmentVariables activity has the following properties:
 
 ## Warning
 
-In my example I change both AssemblyVersion and AssemblyFileVersion. If you change the AssemblyVersion, you may make your assemblied incompatible with code that is using a fixed version. You can opt to just change the AssemblyFileVersion automatically and move the AssemblyVersion into a concious decision (i.e. manually update the batch file when you want to change it, or leave it out of the shared file so it can be set in each project).
+In my example I change both AssemblyVersion and AssemblyFileVersion. If you change the AssemblyVersion, you may make your assemblies incompatible with code that is using a fixed version. You can opt to just change the AssemblyFileVersion automatically and move the AssemblyVersion into a concious decision (i.e. manually update the batch file when you want to change it, or leave it out of the shared file so it can be set in each project).

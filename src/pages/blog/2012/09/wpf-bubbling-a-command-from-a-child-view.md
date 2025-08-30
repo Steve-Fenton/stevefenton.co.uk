@@ -23,7 +23,7 @@ In our example, we will have the following components:
 - **ChildControlBase**  
     This is where we will define the event, so it can be raised from multiple child controls and still get easily handled in the parent window
 
-Let’s start right down at the bottom of this stack. In ChildControlBase you need to define the event.
+Let's start right down at the bottom of this stack. In ChildControlBase you need to define the event.
 
 ```csharp
 public class ChildControlBase : UserControl
@@ -44,7 +44,7 @@ public class ChildControlBase : UserControl
 }
 ```
 
-I have used “MyCustom” as the event name, in real life you would name this specifically after the intention of the event, for example “MajorIncidentAlert”.
+I have used "MyCustom" as the event name, in real life you would name this specifically after the intention of the event, for example "MajorIncidentAlert".
 
 In each child control that will *raise* the event, we inherit from our ChildControlBase, rather than directly from UserControl.
 
@@ -79,7 +79,7 @@ public partial class ChildControl
 }
 ```
 
-The last piece of the puzzle is to *handle* the event. It is worth remembering that the event can be handled by the child control and still be bubbled up to the parent window – this pattern doesn’t just allow you to raise an event to the parent, it can be handled multiple times as it bubbles up through the tree and each handler can do something different and specific.
+The last piece of the puzzle is to *handle* the event. It is worth remembering that the event can be handled by the child control and still be bubbled up to the parent window – this pattern doesn't just allow you to raise an event to the parent, it can be handled multiple times as it bubbles up through the tree and each handler can do something different and specific.
 
 In the XAML for the parent window, we need to tell it that it can expect the event:
 
@@ -91,7 +91,7 @@ In the XAML for the parent window, we need to tell it that it can expect the eve
         MyNamespace:ChildControlBase.MyCustom="HandleChildEvent">
 ```
 
-The last line in this example is the important bit – it tells the window to listen out for a “MyCustom” event and when it gets one, send it our “HandleChildEvent” event handler. Our code behind looks like this:
+The last line in this example is the important bit – it tells the window to listen out for a "MyCustom" event and when it gets one, send it our "HandleChildEvent" event handler. Our code behind looks like this:
 
 ```csharp
 public partial class MainWindow
@@ -112,4 +112,4 @@ public partial class MainWindow
 
 The HandleChildEvent method can take whatever action is necessary for the event, in the context of the parent window.
 
-If we don’t want the event to continue bubbling up through the tree, we simply use e.Handled = true. I have put this in as an example, but as we are on the parent window, the event has nowhere further to bubble up to. This is a mechanism you could use to stop the event from propagating if you decide to fully handle it elsewhere.
+If we don't want the event to continue bubbling up through the tree, we simply use e.Handled = true. I have put this in as an example, but as we are on the parent window, the event has nowhere further to bubble up to. This is a mechanism you could use to stop the event from propagating if you decide to fully handle it elsewhere.

@@ -12,9 +12,9 @@ tags:
     - C-Sharp
 ---
 
-I’m not going to talk to much about this one, I’m just going to show you an example because in the case of Code Contracts, the actual code speaks for itself.
+I'm not going to talk to much about this one, I'm just going to show you an example because in the case of Code Contracts, the actual code speaks for itself.
 
-The existing code that I’m working on is a simple repository, but I’m sure you’ll see this kind of code in many places in your own applications.
+The existing code that I'm working on is a simple repository, but I'm sure you'll see this kind of code in many places in your own applications.
 
 Before using code contracts, the Person repository had a Persist method that looked like this:
 
@@ -33,7 +33,7 @@ public Person Persist(Person person)
 
 And it was the same in every repository – the same six lines of code over and over again.
 
-Now let’s look at the method again, after Code Contracts have been added!
+Now let's look at the method again, after Code Contracts have been added!
 
 ```csharp
 public Person Persist(Person person)
@@ -42,7 +42,7 @@ public Person Persist(Person person)
 }
 ```
 
-Isn’t that better. Of course it is. Now we don’t get this free of charge. We still need to code the business rules – but Code Contracts let us do it neatly and in one place.
+Isn't that better. Of course it is. Now we don't get this free of charge. We still need to code the business rules – but Code Contracts let us do it neatly and in one place.
 
 Here is the interface for all the repositories before the change:
 
@@ -84,6 +84,6 @@ internal abstract class ContractsForIRepository<T, TId> : IRepository<T, TId> wh
 
 And that is just for the Persist method. We can now add to our ContractsForIRepository class for GetById and Remove and make similar savings.
 
-This isn’t just about lines of code though, the most important gain is that we now have a single abstract class that is responsible for these rules, rather than distributing them throughout many repository classes.
+This isn't just about lines of code though, the most important gain is that we now have a single abstract class that is responsible for these rules, rather than distributing them throughout many repository classes.
 
 If the rules change, the change affects one file, not every single repository implementation!

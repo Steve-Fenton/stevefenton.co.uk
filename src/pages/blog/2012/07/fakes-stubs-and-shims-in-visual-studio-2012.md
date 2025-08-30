@@ -13,7 +13,7 @@ tags:
 
 Visual Studio 2012 has a really cool new feature called Fakes. It gives you two things for free, it gives you stubs and shims with minimal code needed to use them.
 
-To generate these free stubs and shims, right-click on the reference to the assembly you are going to fake and select “Add Fakes assembly”.
+To generate these free stubs and shims, right-click on the reference to the assembly you are going to fake and select "Add Fakes assembly".
 
 ## Stubs
 
@@ -30,11 +30,11 @@ var target = new ClassToTest(stub);
 
 ## Shims
 
-When you can’t refactor the code but need to test it, you can use a shim.
+When you can't refactor the code but need to test it, you can use a shim.
 
 > Isolating the brute force way <cite>Peter Provost</cite>
 
-Again, right-click on the reference to the assembly you want to shim and select “Add Fakes assembly”.
+Again, right-click on the reference to the assembly you want to shim and select "Add Fakes assembly".
 
 We then add a ShimsContext to prevent any shims from interfering with other tests and use the shim.
 

@@ -14,7 +14,7 @@ tags:
 :img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts"}
 :::
 
-Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, from 22nd March 2012, which was delivered within the time limit, including questions.
+Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from 22nd March 2012, which was delivered within the time limit, including questions.
 
 ## What Is Pomodoro?
 
@@ -27,13 +27,13 @@ Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, 
 - Set your timer (traditionally a Tomato kitchen timer – more on that later) for 25 minutes
 - Work on the task until the timer rings
 - Record the Pomodoro against the task (you want to know how many Pomodoros you manage in a day, and how many it took to complete the task)
-- Take a 5 minute break, or a longer break if you’ve done 4 Pomodoros since your last longer break
+- Take a 5 minute break, or a longer break if you've done 4 Pomodoros since your last longer break
 
 ## Interruptions
 
 - If someone needs you when you are on a Pomodoro, ask them if they can wait until the end of the Pomodoro.
 - If they can, write down their name on a sheet of paper.
-- If they can’t abandon the Pomodoro – “Once a Pomodoro begins, it has to ring” – if you are going to break this rule, it had better be for a real good reason
+- If they can't abandon the Pomodoro – "Once a Pomodoro begins, it has to ring" – if you are going to break this rule, it had better be for a real good reason
 - When you get to the end of a Pomodoro, make sure you catch up with each of the people who needed you
 
 ## Positive Pomodoro
@@ -47,8 +47,8 @@ Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, 
 - Interruptions are harmful to progress because of the cognitive context-switch and also because the sheer number of them sometimes. 25 minutes of uninterrupted work allows a surprising amount of progress.
 - Taking a break helps you stay in the flow, rather than in the zone. It gives you a chance to think about what you are trying to achieve while your keyboard cools down.
 - The fact you can see a timer counting down really motivates you to get your rage on.
-- You can measure how many Pomodoro’s you get done in a day and analyse why the number is a bit low.
-- You can estimate tasks in “Pomodoros”
+- You can measure how many Pomodoro's you get done in a day and analyse why the number is a bit low.
+- You can estimate tasks in "Pomodoros"
 
 ## When To Use It
 
@@ -71,9 +71,9 @@ Here are the notes from my presentation “Pomodoro Technique in 25 Minutes”, 
 
 [The Official Pomodoro Technique Book](https://cirillocompany.de/pages/pomodoro-technique/book/)
 
-## Tip On Recording Pomdoros
+## Tip On Recording Pomodoros
 
-For most people, keeping things low tech works best for Pomodoro and it certainly helps to start that way before you dive into an app as it will help you to use the app better. I record all of my Pomodoros and interruptions on a sheet of paper and draw my own charts by hand to see how I’m getting on.
+For most people, keeping things low tech works best for Pomodoro and it certainly helps to start that way before you dive into an app as it will help you to use the app better. I record all of my Pomodoros and interruptions on a sheet of paper and draw my own charts by hand to see how I'm getting on.
 
 :::div{.inset}
 :img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts" loading="lazy"}

@@ -66,7 +66,7 @@ var example = new ExampleClass();
 example.exampleMethod();
 ```
 
-Without AOP, calling exampleMethod on an instance of ExampleClass would result in an alert containing the text “Hello” – but without changing the ExampleClass definition we can hook into code points to add our additional logic. In our case, we add more annoying alerts, one before and one after.
+Without AOP, calling exampleMethod on an instance of ExampleClass would result in an alert containing the text "Hello" – but without changing the ExampleClass definition we can hook into code points to add our additional logic. In our case, we add more annoying alerts, one before and one after.
 
 In the real world, the AOP code would most likely live in a separate file based on the cross-cutting concern it was adding.
 

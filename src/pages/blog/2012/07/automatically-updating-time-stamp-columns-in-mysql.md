@@ -20,7 +20,7 @@ LastUpdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 You can see this in action in the following example.
 
-Firstly, let’s create a table that includes our LastUpdate column.
+Firstly, let's create a table that includes our LastUpdate column.
 
 ```sql
 CREATE TABLE t1 (
@@ -31,31 +31,31 @@ CREATE TABLE t1 (
 );
 ```
 
-And we’ll add a row to the table.
+And we'll add a row to the table.
 
 ```sql
 INSERT INTO t1 (a, b, c) VALUES ('a', 'b', 'c');
 ```
 
-We haven’t specified a value for LastUpdate in our query, so it will use the default value, which is CURRENT\_TIMESTAMP. We can see this by looking at the row.
+We haven't specified a value for LastUpdate in our query, so it will use the default value, which is CURRENT\_TIMESTAMP. We can see this by looking at the row.
 
 ```sql
 SELECT * FROM t1;
 ```
 
-Now let’s update any column except our LastUpdate column and see what happens.
+Now let's update any column except our LastUpdate column and see what happens.
 
 ```sql
 UPDATE t1 SET a = 'd' WHERE a = 'a';
 ```
 
-If we look again at our row, we’ll see the LastUpdate has been moved on.
+If we look again at our row, we'll see the LastUpdate has been moved on.
 
 ```sql
 SELECT * FROM t1;
 ```
 
-The only downside is that you can’t have two columns for this information. My preference would be to have a “Created” column with a default value of CURRENT\_TIMESTAMP and a “LastUpdated” column with an ON UPDATE CURRENT\_TIMESTAMP value, but according to the [MySql documentation](http://dev.mysql.com/doc/refman/5.0/en/timestamp-initialization.html):
+The only downside is that you can't have two columns for this information. My preference would be to have a "Created" column with a default value of CURRENT\_TIMESTAMP and a "LastUpdated" column with an ON UPDATE CURRENT\_TIMESTAMP value, but according to the [MySql documentation](http://dev.mysql.com/doc/refman/5.0/en/timestamp-initialization.html):
 
 > It is not possible to have the current timestamp be the default value for one column and the auto-update value for another column.
 

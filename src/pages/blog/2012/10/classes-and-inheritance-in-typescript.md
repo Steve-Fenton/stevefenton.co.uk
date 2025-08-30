@@ -10,11 +10,11 @@ tags:
     - TypeScript
 ---
 
-Yesterday I wrote [a very brief introduction to TypeScript](/blog/2012/10/typescript-adds-static-typing-to-javascript/). Today, I’m going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
+Yesterday I wrote [a very brief introduction to TypeScript](/blog/2012/10/typescript-adds-static-typing-to-javascript/). Today, I'm going to talk more about some of the object orientation TypeScript can add to your JavaScript code.
 
-The two topics for conversation today are classes and inheritance – topics that you’ll be familiar with if you are using a first class object oriented language, or one that supports it if you happen to have used those features.
+The two topics for conversation today are classes and inheritance – topics that you'll be familiar with if you are using a first class object oriented language, or one that supports it if you happen to have used those features.
 
-Let’s look at an example of a class – a very contrived Car object!
+Let's look at an example of a class – a very contrived Car object!
 
 ```typescript
 class Car {
@@ -48,15 +48,15 @@ We can call the code like this:
 
 ```typescript
 var myCar = new Car(1.6, 45);
-var salesmansCar = new CorporateCar(1.6, 45);
+var salesCar = new CorporateCar(1.6, 45);
 
 document.write(
     "I have " + myCar.milesBeforeRefuel(10) + " left," +
-    "We pretend that the salesman has " + salesmansCar.milesBeforeRefuel(10) + " left."
+    "We pretend that the salesman has " + salesCar.milesBeforeRefuel(10) + " left."
 );
 ```
 
-And we get the output “I have 450 left,We pretend that the salesman has 360 left”.
+And we get the output "I have 450 left,We pretend that the salesman has 360 left".
 
 Like CoffeeScript, this will chuck out a smattering of JavaScript that is a bit harder to read than our short-hand but does the right job of containing our scope.
 
@@ -93,7 +93,7 @@ var CorporateCar = (function (_super) {
     return CorporateCar;
 })(Car);
 var myCar = new Car(1.6, 45);
-var salesmansCar = new CorporateCar(1.6, 45);
+var salesCar = new CorporateCar(1.6, 45);
 document.write("I have " + myCar.milesBeforeRefuel(10) + " left," +
-    "We pretend that the salesman has " + salesmansCar.milesBeforeRefuel(10) + " left.");
+    "We pretend that the salesman has " + salesCar.milesBeforeRefuel(10) + " left.");
 ```

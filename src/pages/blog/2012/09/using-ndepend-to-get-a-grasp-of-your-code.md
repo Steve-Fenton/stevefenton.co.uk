@@ -18,11 +18,11 @@ Whenever I land in a new team and get given a big chunk of source code to famili
 
 The Application Metrics can also be very telling, giving you an instant handle on the kind of code base you are dealing with by detailing the numbers of just about everything; lines of code, assemblies, namespaces types, methods and a great deal more.
 
-Of course, once you’ve got a handle on exactly what you are dealing with, the rules summary gives you great indication of where to expend the clean-up effort. The default settings work best when you first start using NDepend, although you’ll almost certainly change the naming convention for static fields and instance fields, but when you do change these two rules you’ll realise how easy it is to change every rule in this product.
+Of course, once you've got a handle on exactly what you are dealing with, the rules summary gives you great indication of where to expend the clean-up effort. The default settings work best when you first start using NDepend, although you'll almost certainly change the naming convention for static fields and instance fields, but when you do change these two rules you'll realise how easy it is to change every rule in this product.
 
 Once you have reigned in the codebase, I recommend revisiting the rules to make them more strict. Rather than 500 lines of code defining a method that is too big, why not reduce this number. Instead of 8 parameters being too many for a method, why not reduce it. It takes about 10 seconds to edit a rule written in CQLinq from:
 
-```
+```text
 warnif count > 0 from t in JustMyCode.Types where
    t.NbLinesOfCode > 500 ||
    t.NbILInstructions > 3000
@@ -33,7 +33,7 @@ select new { t, t.NbLinesOfCode,
 
 To:
 
-```
+```text
 warnif count > 0 from t in JustMyCode.Types where
    t.NbLinesOfCode > 250 ||
    t.NbILInstructions > 1500

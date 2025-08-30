@@ -11,9 +11,9 @@ tags:
     - 'Structured Data'
 ---
 
-This is really the second half of my [article on microdata](/blog/2012/11/how-to-add-microdata-to-your-website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to “RDFa Lite Microdata” – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and “RDFa” just isn’t sexy enough.
+This is really the second half of my [article on microdata](/blog/2012/11/how-to-add-microdata-to-your-website/), because there are two competing specifications (Microdata and RDFa Lite). I personally believe that if RDFa Lite wants to be the one true specification, they need to re-brand the specification to "RDFa Lite Microdata" – because everyone is talking about microdata and it just sounds cooler. Given the choice between the two and the lack of substantial differences in the specifications, developers will choose the one that sounds cool and "RDFa" just isn't sexy enough.
 
-So this article follows the same process as my microdata article, but adds “RDFa Data-Tome” attributes rather than microdata attributes.
+So this article follows the same process as my microdata article, but adds "RDFa Data-Tome" attributes rather than microdata attributes.
 
 So here is my mark-up before I added RDFa Lite:
 
@@ -30,7 +30,7 @@ So here is my mark-up before I added RDFa Lite:
 </article>
 ```
 
-So let’s start adding some attributes. The first attribute is the vocab. This tells people where the schema is defined.
+So let's start adding some attributes. The first attribute is the vocab. This tells people where the schema is defined.
 
 ```html
 <article vocab="http://schema.org/">
@@ -38,7 +38,7 @@ So let’s start adding some attributes. The first attribute is the vocab. This 
 </article>
 ```
 
-The second attribute is “typeof”. This describes the type of the item – and you stick it on the same element as your “vocab” attribute. In my case, I’m using the “Book” type, but there are many, many types to choose from on schema.org. By adding this attribute to the article, we are now saying “each article describes a book”.
+The second attribute is "typeof". This describes the type of the item – and you stick it on the same element as your "vocab" attribute. In my case, I'm using the "Book" type, but there are many, many types to choose from on schema.org. By adding this attribute to the article, we are now saying "each article describes a book".
 
 ```html
 <article vocab="http://schema.org/" typeof="Book">
@@ -46,7 +46,7 @@ The second attribute is “typeof”. This describes the type of the item – an
 </article>
 ```
 
-Now we have defined the kind of thing we are describing, we can pick out the bits of data that are within the article. I have picked out the book’s “name”, the “author” and the “url” of the book.
+Now we have defined the kind of thing we are describing, we can pick out the bits of data that are within the article. I have picked out the book's "name", the "author" and the "url" of the book.
 
 ```html
 <article vocab="http://schema.org/" typeof="Book">
@@ -61,14 +61,14 @@ Now we have defined the kind of thing we are describing, we can pick out the bit
 </article>
 ```
 
-And we’re done. This example is hardly any different to the microdata example. Only time will tell which specification will gain the wider adoption, but I suppose everyone is going to have to end up supporting both, which is kind of ridiculous!
+And we're done. This example is hardly any different to the microdata example. Only time will tell which specification will gain the wider adoption, but I suppose everyone is going to have to end up supporting both, which is kind of ridiculous!
 
 ## Additional notes
 
-Bear in mind that the types are case sensitive, so use “Book” not “book”. You can check this by adding the vocab and typeof attributes and pasting them into a browser – in this case “http://schema.org/Book”.
+Bear in mind that the types are case sensitive, so use "Book" not "book". You can check this by adding the vocab and typeof attributes and pasting them into a browser – in this case "http://schema.org/Book".
 
 You can [test your RDFa code on the RDFa](http://rdfa.info/play/) Playground to make sure it is valid and makes sense.
 
-Lastly, the author links should ideally point to a page about the author, so in this example the links should point to “http://www.brucelawson.co.uk/about/”, not just the home page. I have updated the final example to show this, but is isn’t obvious unless I point it out (which I’ve just done).
+Lastly, the author links should ideally point to a page about the author, so in this example the links should point to `http://www.brucelawson.co.uk/about/`, not just the home page. I have updated the final example to show this, but is isn't obvious unless I point it out (which I've just done).
 
 Massive thanks to [Manu Sporny](http://manu.sporny.org/) for his help in making this article as accurate as possible. Manu is the man on the inside when it comes to RDFa. Thank you also to Stephane Corlosquet for double checking the article.

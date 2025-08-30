@@ -10,9 +10,9 @@ tags:
     - CoffeeScript
 ---
 
-As I’m in the middle of writing a JavaScript unit testing framework, I thought the best way of trying out CoffeeScript would be to re-write an existing unit test class from JavaScript to CoffeeScript and then see what the compiled output looks like in comparison.
+As I'm in the middle of writing a JavaScript unit testing framework, I thought the best way of trying out CoffeeScript would be to re-write an existing unit test class from JavaScript to CoffeeScript and then see what the compiled output looks like in comparison.
 
-If you want to play along and haven’t set up CoffeeScript, [read how to get started with CoffeeScript](/blog/2012/04/getting-started-with-coffeescript/).
+If you want to play along and haven't set up CoffeeScript, [read how to get started with CoffeeScript](/blog/2012/04/getting-started-with-coffeescript/).
 
 ## My Hand Cranked JavaScript
 
@@ -84,4 +84,4 @@ One command later, we have a JavaScript file that looks like this:
 }).call(this);
 ```
 
-And that isn’t a million miles away from the original – but with the benefit of a (subjectively) tidier file to work with – it was 14 lines of JavaScript and 9 lines of CoffeeScript, with less chuff around the edges and with a clever compiler that knows what Douglas Crockford thinks we should be doing.
+And that isn't a million miles away from the original – but with the benefit of a (subjectively) tidier file to work with – it was 14 lines of JavaScript and 9 lines of CoffeeScript, with less chuff around the edges and with a clever compiler that knows what Douglas Crockford thinks we should be doing.

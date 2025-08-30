@@ -29,17 +29,17 @@ At the time of writing, apps can be placed along a slider that runs from full na
 - An app written in HTML, but using an API that allows calls to native sensors
 - An app written in HTML just like any web page
 
-From a technical point of view, as of the start of 2012, if you want to access things like contacts, camera, proximity sensor or other on-board gadgets, you need some link back to the native operating system. This is all about to change though as JavaScript APIs that will allow access to these things (with the user’s permission) are being created and standardised, such as [the light sensor API](/blog/2012/05/using-the-light-sensor-api-in-firefox/) and [the proximity sensor API](/blog/2012/05/using-the-proximity-sensor-api-in-firefox/).
+From a technical point of view, as of the start of 2012, if you want to access things like contacts, camera, proximity sensor or other on-board gadgets, you need some link back to the native operating system. This is all about to change though as JavaScript APIs that will allow access to these things (with the user's permission) are being created and standardised, such as [the light sensor API](/blog/2012/05/using-the-light-sensor-api-in-firefox/) and [the proximity sensor API](/blog/2012/05/using-the-proximity-sensor-api-in-firefox/).
 
-Enough talk. Let’s assume that you don’t need any of these gadgets but you want to write an HTML5 app that runs from the home screen and doesn’t look any different from any other native app on your phone.
+Enough talk. Let's assume that you don't need any of these gadgets but you want to write an HTML5 app that runs from the home screen and doesn't look any different from any other native app on your phone.
 
-This example is not just for iPhones. If you write this app it will work on any phone. I have tested it on iPhone 4S and Android 2.2.1 and the results are largely similar. The main difference you will notice is that it will look identical to native apps on the iPhone, whereas it will look a bit like a native app in most versions of Android. There are rumours that some later versions of Android have a more iPhone-esque behaviour. So let’s write a simple app.
+This example is not just for iPhones. If you write this app it will work on any phone. I have tested it on iPhone 4S and Android 2.2.1 and the results are largely similar. The main difference you will notice is that it will look identical to native apps on the iPhone, whereas it will look a bit like a native app in most versions of Android. There are rumours that some later versions of Android have a more iPhone-esque behaviour. So let's write a simple app.
 
 ## Nothing Special
 
-The first thing to note about writing an HTML5 app is that there is nothing special about it. The HTML is just HTML, the CSS is just CSS and the JavaScript is just normal JavaScript. This means you already know how to write it, how to put your CSS and JavaScript into separate files, how to namespace your JavaScript and all that stuff. Just because it is an app for a phone, it doesn’t mean you should start getting into sloppy habits.
+The first thing to note about writing an HTML5 app is that there is nothing special about it. The HTML is just HTML, the CSS is just CSS and the JavaScript is just normal JavaScript. This means you already know how to write it, how to put your CSS and JavaScript into separate files, how to namespace your JavaScript and all that stuff. Just because it is an app for a phone, it doesn't mean you should start getting into sloppy habits.
 
-In our example, we’re going to write a really simple clock app that tells you the current time. It isn’t going to set the world on fire – especially given that you don’t need to open an app to see the time – but this is just a good way to demonstrate the process.
+In our example, we're going to write a really simple clock app that tells you the current time. It isn't going to set the world on fire – especially given that you don't need to open an app to see the time – but this is just a good way to demonstrate the process.
 
 As you can expect, we create an HTML file, a CSS file and a JavaScript file for our boring old clock.
 
@@ -52,7 +52,7 @@ There are just a few things to add to your normal web page to make it awesome on
 
 ### Offline Cache
 
-This is a relatively new web standard that allows you to specify files that you would like the user’s machine to cache. Browsers already do some temporary caching to make browsing faster, but you can now explicitly request that a bunch of files get remembered.
+This is a relatively new web standard that allows you to specify files that you would like the user's machine to cache. Browsers already do some temporary caching to make browsing faster, but you can now explicitly request that a bunch of files get remembered.
 
 This is handy, because we want our app to behave like it is native, which means it will still open and function if they are in their bunker!
 
@@ -64,7 +64,7 @@ In your HTML, you specify the location of the cache manifest on your html tag:
 <html manifest="manifest.php">
 ```
 
-My cache manifest is PHP, because I need to set the response type to be “text/cache-manifest”. You could also do this via your web server configuration. However you do it, it is important that your server the manifest with the correct content type.
+My cache manifest is PHP, because I need to set the response type to be "text/cache-manifest". You could also do this via your web server configuration. However you do it, it is important that your server the manifest with the correct content type.
 
 Here is the file – the PHP block is only needed if you are setting the content type the same way as me:
 
@@ -103,7 +103,7 @@ Important note, if you are having trouble getting items to stay in the offline c
 <meta name="apple-mobile-web-app-capable" content="yes">
 ```
 
-This will allow the content to be stored offline, but sadly results in the app not running full screen. This appears to be a difference between Safari, which has a reliable offline cache and the browser used for home screen apps on iPhone, which doesn’t.
+This will allow the content to be stored offline, but sadly results in the app not running full screen. This appears to be a difference between Safari, which has a reliable offline cache and the browser used for home screen apps on iPhone, which doesn't.
 
 ## Images
 
@@ -129,7 +129,7 @@ for(var i = 0; i < anchors.length; i++)
 }
 ```
 
-This effectively cancels the default behaviour of opening the link in Safari and will keep your application in full-screen mode. It also won’t affect the app on other devices – although you will have to be careful if you have other onclick events that this may replace, or that may replace this.
+This effectively cancels the default behaviour of opening the link in Safari and will keep your application in full-screen mode. It also won't affect the app on other devices – although you will have to be careful if you have other onclick events that this may replace, or that may replace this.
 
 ## Usability Improvements
 
@@ -147,18 +147,18 @@ Here are a couple of usability improvements I have found that make the app behav
 So it is really simple to create a native looking pure HTML5 app. All you need to do to add the app to your home page is…
 
 - iPhone  
-    Go to the web page you created and press the share icon. Select the “Add to Home Screen” option.
+    Go to the web page you created and press the share icon. Select the "Add to Home Screen" option.
 - Android  
-    Go to the web page you created and press the menu button. Select “More” and then “Add shortcut to Home”. In some versions of Android you will need to add a bookmark before you’ll get the home screen option.
+    Go to the web page you created and press the menu button. Select "More" and then "Add shortcut to Home". In some versions of Android you will need to add a bookmark before you'll get the home screen option.
 
-To test offline caching in your application, switch your phone to airplane mode, which switches off your Internet connection, and then open your app. It should load with all the scripts and images it needs because of the offline cache.
+To test offline caching in your application, switch your phone to aeroplane mode, which switches off your Internet connection, and then open your app. It should load with all the scripts and images it needs because of the offline cache.
 
 In a real application scenario, I have tended to ignore the offline requirement. This is because it makes the application more complicated and harder to maintain for little benefit (the applications in question require data from the server for nearly all functionality). The decision on whether to offline will be unique to each project, but think carefully about this subject before you add the extra complexity.
 
 Useful Tools:
 
 - [Manifest File Validator](http://manifest-validator.com/)
-- In Firefox, use <about:cache> to view stored files, there is a dedicated Offline Cache section
+- In Firefox, use `about:cache` to view stored files, there is a dedicated Offline Cache section
 
 ## Questions And Answers
 
@@ -174,4 +174,4 @@ Once the app is installed, the cache manifest requests that the files are stored
 
 What happens if the user clears their offline cache?
 
-If the user clears their offline cache (which can be done via their settings) the app will need to re-cache the files on the next load, which will require an Internet connection. On the iPhone, your splash image will be displayed while the files are re-fetched whereas on Android it will be the same as opening a web page. You can test your app offline using the airplane mode on your phone.
+If the user clears their offline cache (which can be done via their settings) the app will need to re-cache the files on the next load, which will require an Internet connection. On the iPhone, your splash image will be displayed while the files are re-fetched whereas on Android it will be the same as opening a web page. You can test your app offline using the aeroplane mode on your phone.

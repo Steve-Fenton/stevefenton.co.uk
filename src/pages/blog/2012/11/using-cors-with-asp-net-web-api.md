@@ -14,16 +14,16 @@ tags:
     - 'Web API'
 ---
 
-If you are writing an ASP.NET Web API and you want to call it from a JavaScript (CoffeeScript, TypeScript) program on another domain, here are the steps you need to take to make it happen. I know that you are smart and you know what you are doing, so I’m not bulking out this article with lectures on the dangers of cross-site requests from either the server or client perspective. There are tons of articles on this, which you will have found while searching for how to do it.
+If you are writing an ASP.NET Web API and you want to call it from a JavaScript (CoffeeScript, TypeScript) program on another domain, here are the steps you need to take to make it happen. I know that you are smart and you know what you are doing, so I'm not bulking out this article with lectures on the dangers of cross-site requests from either the server or client perspective. There are tons of articles on this, which you will have found while searching for how to do it.
 
-I’m going to divide things into two sections. Stuff you need to do in ASP.NET Web API on the server and stuff you need to do in JavaScript in your client.
+I'm going to divide things into two sections. Stuff you need to do in ASP.NET Web API on the server and stuff you need to do in JavaScript in your client.
 
 ## ASP.NET Web API
 
 There are just a couple of things to add to your ASP.NET Web API project to enable CORS requests.
 
 1. CorsMessageHandler  
-    When you use CORS to make a request, the browser sends a pre-flight OPTIONS request before it sends the real request. The CorsMessageHandler intercepts the OPTIONS requests and sends the correct response to allow the CORS request. If you don’t respond correctly to the OPTIONS request, the browser will never send the real request – and you’ll be confused by what you see in your developer tools!
+    When you use CORS to make a request, the browser sends a pre-flight OPTIONS request before it sends the real request. The CorsMessageHandler intercepts the OPTIONS requests and sends the correct response to allow the CORS request. If you don't respond correctly to the OPTIONS request, the browser will never send the real request – and you'll be confused by what you see in your developer tools!
 2. HandlerConfig  
     The handler configuration just registers the CorsMessageHandler in your global configuration.
 3. Global  
@@ -58,18 +58,18 @@ namespace YourApplication.MessageHandlers
         const string AccessControlAllowMethods = "Access-Control-Allow-Methods";
         const string AccessControlAllowHeaders = "Access-Control-Allow-Headers";
 
-        protected override Task<httpresponsemessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        protected override Task<HttpRequestMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
             return request.Headers.Contains(Origin) ?
                 ProcessCorsRequest(request, ref cancellationToken) :
                 base.SendAsync(request, cancellationToken);
         }
 
-        private Task<httpresponsemessage> ProcessCorsRequest(HttpRequestMessage request, ref CancellationToken cancellationToken)
+        private Task<HttpRequestMessage> ProcessCorsRequest(HttpRequestMessage request, ref CancellationToken cancellationToken)
         {
             if (request.Method == HttpMethod.Options)
             {
-                return Task.Factory.StartNew<httpresponsemessage>(() =>
+                return Task.Factory.StartNew<HttpRequestMessage>(() =>
                 {
                     HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
                     AddCorsResponseHeaders(request, response);
@@ -78,7 +78,7 @@ namespace YourApplication.MessageHandlers
             }
             else
             {
-                return base.SendAsync(request, cancellationToken).ContinueWith<httpresponsemessage>(task =>
+                return base.SendAsync(request, cancellationToken).ContinueWith<HttpRequestMessage>(task =>
                 {
                     HttpResponseMessage resp = task.Result;
                     resp.Headers.Add(AccessControlAllowOrigin, request.Headers.GetValues(Origin).First());
@@ -156,13 +156,13 @@ namespace YourApplication
 
 ## JavaScript Changes
 
-The essence of making things work in JavaScript is to ensure you set an “X-Requested-With” header. If you are using jQuery, this is built into the jQuery.ajax component. If you are rolling your own AJAX code, you need to use:
+The essence of making things work in JavaScript is to ensure you set an "X-Requested-With" header. If you are using jQuery, this is built into the jQuery.ajax component. If you are rolling your own AJAX code, you need to use:
 
 ```javascript
 xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest"];
 ```
 
-If you are using jQuery, you’ll need to ask it nicely to do this for you:
+If you are using jQuery, you'll need to ask it nicely to do this for you:
 
 ```javascript
 jQuery.support.cors = true;
@@ -188,7 +188,7 @@ myXmlHttpRequest.withCredentials = true;
 
 ## Config File
 
-You may come across a situation where the initial OPTIONS request never gets handled by your .NET application. The request might get a 200 OK response, but with the wrong headers to allow your cross-origin request to proceed. If you don’t get the 200 response, check that IIS allows the OPTIONS verb – but if you get the 200, but it isn’t hitting your code, you might need to add the OPTIONSVerbHandler line to the handlers section of your web.config file:
+You may come across a situation where the initial OPTIONS request never gets handled by your .NET application. The request might get a 200 OK response, but with the wrong headers to allow your cross-origin request to proceed. If you don't get the 200 response, check that IIS allows the OPTIONS verb – but if you get the 200, but it isn't hitting your code, you might need to add the OPTIONSVerbHandler line to the handlers section of your web.config file:
 
 ```xml
 <handlers>
@@ -199,4 +199,4 @@ You may come across a situation where the initial OPTIONS request never gets han
 
 ## Summary
 
-And that’s all there is to it (okay, there was quite a bit of code to copy and paste, but the principle of it all is very simple). Kudos to the guys who made things so configurable in ASP.NET MVC / ASP.NET Web API!
+And that's all there is to it (okay, there was quite a bit of code to copy and paste, but the principle of it all is very simple). Kudos to the guys who made things so configurable in ASP.NET MVC / ASP.NET Web API!

@@ -20,7 +20,7 @@ The best news is that modern DSLR cameras will now do the work for you, taking m
 
 So here is a suggestion that came up in conversation with a friend: Automatic Deep Focal Range Photography. This is where you set up the camera to take several shots adjusting the focus slightly between each shot. Essentially, the same as the automatic bracketing used in HDR photography, but instead of adjusting the aperture, adjust the focal length.
 
-This would allow the best of several shots to be selected, for example in portrait photography you could select the shot with best focus on the eye – but could also be used to combine several shallow depth-of-field shots to highlight detail. If you have ever taken a photo of a hoverfly, you’ll know that you have to choose between focus on the eyes or focus on the wings.
+This would allow the best of several shots to be selected, for example in portrait photography you could select the shot with best focus on the eye – but could also be used to combine several shallow depth-of-field shots to highlight detail. If you have ever taken a photo of a hoverfly, you'll know that you have to choose between focus on the eyes or focus on the wings.
 
 :::div{.inset}
 :img{src="/img/2015/07/fly.jpg" alt="Fly" loading="lazy"}

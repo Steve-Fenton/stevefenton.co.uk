@@ -17,7 +17,7 @@ Normally, you would expect a z-index of 2 to appear underneath a z-index of 100,
 
 You have discovered Stacking Context!
 
-Stacking Context is actually really useful once you know it exists, but can be a bit confusing if you don’t know about it. The simple explanation is this: If you have nested elements that both use position and z-index, the child elements are within the Stacking Context of the parent element. Like this:
+Stacking Context is actually really useful once you know it exists, but can be a bit confusing if you don't know about it. The simple explanation is this: If you have nested elements that both use position and z-index, the child elements are within the Stacking Context of the parent element. Like this:
 
 ```html
 <div style="position: absolute; z-index: 100;">

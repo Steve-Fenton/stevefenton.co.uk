@@ -11,9 +11,9 @@ tags:
     - HTML
 ---
 
-When I created [Cruiser, a CruiseControl.NET Wall-board](/blog/2012/02/cruiser-cruise-control-information-radiator/) I wanted to make it as easy as possible for people to use. I didn’t want to force people to download a zip archive and extract files into specific locations. I wanted people to be able to drop a single file onto their build server and get instant results.
+When I created [Cruiser, a CruiseControl.NET Wall-board](/blog/2012/02/cruiser-cruise-control-information-radiator/) I wanted to make it as easy as possible for people to use. I didn't want to force people to download a zip archive and extract files into specific locations. I wanted people to be able to drop a single file onto their build server and get instant results.
 
-Because you only need to load the page once, with all the updates happening via AJAX requests, I didn’t mind including all my JavaScript on the page, rather than within an include file. With most build servers running over a network and with the concept of a wall-board being that you switch it on and leave it running, I could live without the JavaScript being cached. In fact, the same was true for the CSS and for the images – but the question was how do you include your images in a single HTML file?
+Because you only need to load the page once, with all the updates happening via AJAX requests, I didn't mind including all my JavaScript on the page, rather than within an include file. With most build servers running over a network and with the concept of a wall-board being that you switch it on and leave it running, I could live without the JavaScript being cached. In fact, the same was true for the CSS and for the images – but the question was how do you include your images in a single HTML file?
 
 The answer is, you can include them in your CSS, or include them in the src attribute of an image tag. Here are some examples:
 
@@ -46,7 +46,7 @@ The image itself is Base 64 encoded and included with the data: prefix (in our c
 
 So why would you do this?!
 
-The answer to this question is: “When you have carefully considered all the options”. If you include an image in your CSS, it will make your CSS quite a lot bigger, although your included CSS files will get cached. On the flip side, each image that is included in your CSS will be an HTTP request saved, which makes things faster – and you have to admit that they are easier to manage and less error-prone than image sprites!
+The answer to this question is: "When you have carefully considered all the options". If you include an image in your CSS, it will make your CSS quite a lot bigger, although your included CSS files will get cached. On the flip side, each image that is included in your CSS will be an HTTP request saved, which makes things faster – and you have to admit that they are easier to manage and less error-prone than image sprites!
 
 You can do something similar with image tags too.
 
