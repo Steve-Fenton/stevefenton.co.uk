@@ -63,7 +63,7 @@ The word count extension adds the number of words in your document to the editor
 
 :::figure{.inset}
 :img{src="/img/2022/03/word-count.jpg" alt="Status bar reads 24 words" loading="lazy"}
-:ficaption[Word count]
+:figcaption[Word count]
 :::
 
 ## Markdown Table Prettifier

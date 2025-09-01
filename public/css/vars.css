@@ -50,6 +50,14 @@
     --code-font: 'hyper-mono', Consolas, 'Courier New', Courier, monospace;
     --unicode-font: font-family: "Segoe UI Symbol", "Arial Unicode MS", "DejaVu Sans", "Meiryo UI", "MS UI Gothic", "Everson Mono Unicode", Meiryo, "MS Gothic", "MS Mincho", "MS PGothic", "MS PMincho", "Meslo LG L", "Meslo LG L DZ", "Meslo M L", "Meslo M L DZ", "Meslo S L", "Meslo S L DZ", "Symbola", "DejaVu Sans Condensed", "DejaVu Sans Mono", Code2000, "Everson Mono", Quivira, sans-serif;
 
+    --font-size-meta: 0.9rem;
+    --font-size-h1: 3rem;
+    --font-size-h2: 2.3rem;
+    --font-size-h3: 2rem;
+    --font-size-h4: 1.7rem;
+    --font-size-h5: 1.7rem;
+    --font-size-h6: 1.7rem;
+
     --paragraph-margin: 1.2rem;
     --block-gap: 2rem;
     --block-gap-l: 3rem;

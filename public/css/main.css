@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: var(--font-size-h1);
     line-height: 1.3;
     text-decoration-thickness: 8px;
 
@@ -201,7 +201,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.3rem;
+    font-size: var(--font-size-h2);
 
     @media (max-width: 860px) {
         font-size: 2rem;
@@ -209,15 +209,15 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: var(--font-size-h3);
 
     @media (max-width: 860px) {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 }
 
 h4, h5, h6 {
-    font-size: 1.7rem;
+    font-size: var(--font-size-h4);
 
     @media (max-width: 860px) {
         font-size: 1.3rem;
@@ -434,7 +434,7 @@ a.navigation-icon:focus {
 /* Navigation */
 
 .site-nav {
-    font-size: 0.9rem;
+    font-size: var(--font-size-meta);
 }
 
 .site-nav ul {
@@ -531,6 +531,7 @@ a.navigation-icon:focus {
 
 .page-toc {
     margin: 0 0 var(--paragraph-margin) 0;
+    font-size: var(--font-size-meta);
 }
 
 .page-toc ol {
@@ -865,7 +866,7 @@ a.navigation-icon:focus {
 .post-meta:not(.mini) {
     border-top: 1px solid var(--icon-block);
     display: flex;
-    font-size: 0.9rem;
+    font-size: var(--font-size-meta);
     gap: var(--block-gap);
     margin: var(--block-gap) 0 0 0;
     padding: var(--block-gap) 0;
@@ -899,7 +900,7 @@ a.navigation-icon:focus {
 }
 
 .post-meta.mini {
-    font-size: 0.9rem;
+    font-size: var(--font-size-meta);
     margin: 0 0 var(--paragraph-margin) 0;
 }
 
@@ -1025,7 +1026,7 @@ a.navigation-icon:focus {
     background-color: var(--aft);
     padding: 0.1em 0.7em;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: var(--font-size-meta);
 }
 
 .footer-columns a:hover,
