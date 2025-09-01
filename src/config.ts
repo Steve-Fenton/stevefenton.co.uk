@@ -30,6 +30,11 @@ export const SITE = {
 		month: 'long',
 		day: 'numeric',
 	},
+	shortDateOptions: {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+	},
 	cacheMaxAge: 200,
 	featureFlags: {
 		stickyNav: { top: 100 },

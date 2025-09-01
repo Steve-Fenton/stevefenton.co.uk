@@ -745,13 +745,6 @@ a.navigation-icon:focus {
     grid-area: content;
 }
 
-.post-list .list-item-content .post-meta {
-    font-size: 0.8rem;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-}
-
 .post-list .list-item-content h2,
 .post-list .list-item-content h3 {
     margin: 0;
@@ -869,13 +862,13 @@ a.navigation-icon:focus {
     padding-left: 0.6rem;
 }
 
-.post-meta {
-    background-color: var(--aft-block);
+.post-meta:not(.mini) {
+    border-top: 1px solid var(--icon-block);
     display: flex;
     font-size: 0.9rem;
     gap: var(--block-gap);
-    margin: var(--block-gap-l) 0 var(--block-gap-l) 0;
-    padding: 1rem;
+    margin: var(--block-gap) 0 0 0;
+    padding: var(--block-gap) 0;
 
     @media (max-width: 860px) {
         flex-direction: column;
@@ -895,21 +888,35 @@ a.navigation-icon:focus {
     }
 }
 
-.post-meta time {
-    display: block;
-}
-
-.post-meta time[itemprop="datePublished"] {
-    display: inline-block;
+.post-meta > .author-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .post-meta time[itemprop="dateModified"] {
     font-style: italic;
-    display: block;
+}
+
+.post-meta.mini {
+    font-size: 0.9rem;
+    margin: 0 0 var(--paragraph-margin) 0;
+}
+
+.post-meta.mini > .author-info > *:nth-child(n + 3)::before {
+    content: '|';
+    padding: 0 0.3rem;
+    opacity: 0.5;
+}
+
+.post-meta.mini > .author-info > .author-image {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.3rem 0 0;
 }
 
 .post-taxonomy {
-    margin: var(--block-gap-l) 0;
+    margin: 0 0 var(--block-gap-l) 0;
 }
 
 .post-taxonomy h2 {
