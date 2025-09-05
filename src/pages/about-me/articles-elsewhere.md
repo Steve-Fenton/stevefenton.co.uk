@@ -2,7 +2,7 @@
 title: Articles elsewhere
 navOrder: 6000
 pubDate: 2022-10-02
-modDate: 2025-07-29
+modDate: 2025-09-05
 keywords: writing,octopus,devops,continuous delivery
 description: Articles and white papers I've written that are available elsewhere.
 ---
@@ -44,6 +44,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Speed means nothing without real feedback](https://thenewstack.io/speed-means-nothing-without-real-feedback/)
 - [Beyond ROWE: Why Results-only work isn't always a win](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
 - [Vibe Coding: The shadow IT problem no one saw coming](https://thenewstack.io/vibe-coding-the-shadow-it-problem-no-one-saw-coming/)
+- [Stop force-feeding AI to your developers](https://thenewstack.io/stop-force-feeding-ai-to-your-developers/)
 
 ### DevOps research
 
@@ -77,6 +78,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Platform Engineering should be part of DevOps](https://octopus.com/blog/platform-engineering-part-of-devops)
 - [You don't need a product manager for Platform Engineering](https://thenewstack.io/is-your-product-manager-hurting-platform-engineering/)
 - [The rise of thin platforms](https://builtin.com/articles/thin-platforms-future-platform-engineering)
+- [How organisations measure Platform Engineering](https://octopus.com/blog/how-organizations-measure-platform-engineering)
 
 ## GitOps
 
