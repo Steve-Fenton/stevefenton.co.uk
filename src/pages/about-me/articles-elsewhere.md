@@ -154,6 +154,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [Deployment survey report 2023](https://octopus.com/whitepapers/deployment-survey-report-2023) \
   Co-authored with Ella Pradella, this paper shares the results of an industry survey by Octopus.
+- [Compliance through Continuous Delivery Report](https://octopus.com/publications/compliance-through-continuous-delivery) \
+  How the financial service industry and other regulated organizations can manage compliance and innovation without compromise.
 
 ### GitOps white papers
 
