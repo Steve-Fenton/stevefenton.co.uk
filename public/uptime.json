@@ -39,10 +39,6 @@
         },
         {
             "type": ["uptime", "certificate"],
-            "url": "https://champagne.updnhq.com"
-        },
-        {
-            "type": ["uptime", "certificate"],
             "url": "https://www.updnhq.com"
         }
     ]
