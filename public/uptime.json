@@ -15,15 +15,7 @@
         },
         {
             "type": ["uptime", "certificate"],
-            "url": "https://glassonandwebb.com"
-        },
-        {
-            "type": ["uptime", "certificate"],
             "url": "https://www.phonotonal.com"
-        },
-        {
-            "type": ["uptime", "certificate"],
-            "url": "https://phonotonal.com"
         },
         {
             "type": ["uptime", "certificate"],
@@ -42,12 +34,12 @@
             "url": "https://stevefenton.co.uk"
         },
         {
-            "type": ["certificate"],
-            "url": "https://www.stevefenton.co.uk"
+            "type": ["uptime", "certificate"],
+            "url": "https://www.swift-point.co.uk"
         },
         {
             "type": ["uptime", "certificate"],
-            "url": "https://www.swift-point.co.uk"
+            "url": "https://champagne.updnhq.com"
         },
         {
             "type": ["uptime", "certificate"],
