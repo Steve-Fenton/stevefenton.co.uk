@@ -82,6 +82,12 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
+    './node_modules/astro-accelerator/public/css/main.css',
+    './public/css/main.css',
+    true
+);
+
+copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/404.md',
     './src/pages/404.md',
     true
