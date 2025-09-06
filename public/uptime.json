@@ -6,72 +6,52 @@
     },
     "checks": [
         {
-            "type": "uptime",
+            "type": ["uptime", "certificate"],
             "url": "https://basher.biz"
         },
         {
-            "type": "uptime",
+            "type": ["uptime", "certificate"],
             "url": "https://www.glassonandwebb.com"
         },
         {
-            "type": "uptime",
-            "url": "https://www.phonotonal.com"
-        },
-        {
-            "type": "uptime",
-            "url": "https://smfenton.uk"
-        },
-        {
-            "type": "uptime",   
-            "url": "https://software-delivery-notebook.uk"
-        },
-        {
-            "type": "uptime",
-            "url": "https://www.sohnee.co.uk"
-        },
-        {
-            "type": "uptime",
-            "url": "https://stevefenton.co.uk"
-        },
-        {
-            "type": "uptime",
-            "url": "https://www.swift-point.co.uk"
-        },
-        {
-            "type": "certificate",
-            "url": "https://basher.biz"
-        },
-        {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
             "url": "https://glassonandwebb.com"
         },
         {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
+            "url": "https://www.phonotonal.com"
+        },
+        {
+            "type": ["uptime", "certificate"],
             "url": "https://phonotonal.com"
         },
         {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
             "url": "https://smfenton.uk"
         },
         {
-            "type": "certificate",   
+            "type": ["uptime", "certificate"],
             "url": "https://software-delivery-notebook.uk"
         },
         {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
             "url": "https://www.sohnee.co.uk"
         },
         {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
             "url": "https://stevefenton.co.uk"
         },
         {
-            "type": "certificate",
+            "type": ["certificate"],
             "url": "https://www.stevefenton.co.uk"
         },
         {
-            "type": "certificate",
+            "type": ["uptime", "certificate"],
             "url": "https://www.swift-point.co.uk"
+        },
+        {
+            "type": ["uptime", "certificate"],
+            "url": "https://www.updnhq.com"
         }
     ]
 }
