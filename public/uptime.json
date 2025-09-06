@@ -1,0 +1,81 @@
+{
+    "delay": 1000,
+    "delayAfter": {
+        "uptime": 60000,
+        "certificate": 28800000
+    },
+    "checks": [
+        {
+            "type": "uptime",
+            "url": "https://basher.biz"
+        },
+        {
+            "type": "uptime",
+            "url": "https://glassonandwebb.com"
+        },
+        {
+            "type": "uptime",
+            "url": "https://phonotonal.com"
+        },
+        {
+            "type": "uptime",
+            "url": "https://smfenton.uk"
+        },
+        {
+            "type": "uptime",   
+            "url": "https://software-delivery-notebook.uk"
+        },
+        {
+            "type": "uptime",
+            "url": "https://www.sohnee.co.uk"
+        },
+        {
+            "type": "uptime",
+            "url": "https://stevefenton.co.uk"
+        },
+        {
+            "type": "uptime",
+            "url": "https://www.stevefenton.co.uk"
+        },
+        {
+            "type": "uptime",
+            "url": "https://www.swift-point.co.uk"
+        },
+        {
+            "type": "certificate",
+            "url": "https://basher.biz"
+        },
+        {
+            "type": "certificate",
+            "url": "https://glassonandwebb.com"
+        },
+        {
+            "type": "certificate",
+            "url": "https://phonotonal.com"
+        },
+        {
+            "type": "certificate",
+            "url": "https://smfenton.uk"
+        },
+        {
+            "type": "certificate",   
+            "url": "https://software-delivery-notebook.uk"
+        },
+        {
+            "type": "certificate",
+            "url": "https://www.sohnee.co.uk"
+        },
+        {
+            "type": "certificate",
+            "url": "https://stevefenton.co.uk"
+        },
+        {
+            "type": "certificate",
+            "url": "https://www.stevefenton.co.uk"
+        },
+        {
+        "type": "certificate",
+        "url": "https://www.swift-point.co.uk"
+        }
+    ]
+}
