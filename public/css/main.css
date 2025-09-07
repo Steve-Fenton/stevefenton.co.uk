@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     interpolate-size: allow-keywords;
+    scrollbar-gutter: stable;
 
     @media (prefers-reduced-motion: no-preference) {
         scroll-behavior: smooth;
@@ -22,13 +23,7 @@ html {
     padding: 0;
     vertical-align: baseline;
     text-decoration-skip-ink: auto;
-}
-
-html {
-    scroll-padding-top: 5em;
-    @media (prefers-reduced-motion: no-preference) {
-        scroll-behavior: smooth;
-    }
+    scrollbar-gutter: stable;
 }
 
 body {
@@ -106,6 +101,7 @@ button {
 }
 
 summary {
+    padding-inline: 0;
     text-decoration: none;
 }
 
@@ -446,37 +442,32 @@ a.navigation-icon:focus {
 /* Navigation */
 
 .site-nav {
+    --site-nav-indent: 0.5rem;
     font-size: var(--font-size-meta);
 }
 
-.site-nav ul {
-    border-top: 1px solid var(--fore-link);
+.site-nav > ul {
+    border-bottom: 1px solid var(--fore-link);
 }
 
 .site-nav li {
     list-style: none;
-    border-bottom: 1px solid var(--fore-link);
+}
+
+.site-nav > ul > li {
+    border-top: 1px solid var(--fore-link);
+}
+
+.site-nav > ul > li li {
+    border-top: 1px solid color-mix(in srgb, var(--fore-link) 50%, transparent);
 }
 
 .site-nav a {
     text-indent: var(--marker-size);
     width: calc(100% - 2.07rem);
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 1rem var(--site-nav-indent);
     text-decoration: none;
-    padding: 1rem;
-}
-
-.site-nav li.has-children summary span {
-    text-indent: 0;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    padding: 1rem;
-}
-
-.site-nav li.has-children ul a {
-    text-indent: calc(var(--marker-size) * 2);
 }
 
 .site-nav a[aria-current] {
@@ -491,6 +482,21 @@ a.navigation-icon:focus {
 .site-nav details summary::marker {
     font-size: var(--marker-size);
     width: 1em;
+}
+
+.site-nav li.has-children summary span {
+    text-indent: 0;
+    display: inline-block;
+    padding: 1rem var(--site-nav-indent);
+    text-decoration: none;
+}
+
+details.sub-nav {
+    padding: 0rem !important;
+}
+
+details.sub-nav details {
+    margin-inline-start: calc(var(--marker-size) + var(--site-nav-indent));
 }
 
 .overlay-menu .site-nav {
@@ -609,11 +615,11 @@ a.navigation-icon:focus {
 .overlay {
     position: fixed;
     top: 0;
-    width: calc(100% - 2em);
-    height: calc(100% - 7rem);
+    width: calc(100vw - 6rem);
+    height: calc(100vh - 7rem);
     max-height: 100vh;
     background-color: var(--aft);
-    padding: 5rem 1em 2rem 1em;
+    padding: 5rem 3rem 2rem 3rem;
     overflow-y: auto;
     z-index: 1;
 }
