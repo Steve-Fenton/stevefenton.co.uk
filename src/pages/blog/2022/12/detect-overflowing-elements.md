@@ -16,6 +16,7 @@ tags:
     - HTML
     - CSS
     - JavaScript
+    - Playwright
 ---
 
 It is pretty common to discover a mis-behaving element on your web page, which overflows the width you intended. This is especially common at mobile breakpoints. You can use JavaScript to detect and highlight elements that overflow the viewport, or their parent.
@@ -23,8 +24,8 @@ It is pretty common to discover a mis-behaving element on your web page, which o
 Here's quick rundown of the script's concept.
 
 1. Grab all the elements on the page
-2. Check the element is _not_ wider than the document width
-3. Check the element is _not_ wider than the parent's width
+2. Check the element is *not* wider than the document width
+3. Check the element is *not* wider than the parent's width
 4. Visually highlight the problem elements
 5. Add the problem elements to a list of issues
 
