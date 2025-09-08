@@ -429,12 +429,16 @@ a.navigation-icon:focus {
     height: var(--icon-width);
 }
 
+.site-header .header-icon {
+    text-decoration: none;
+}
+
 .site-header .header-icon:hover,
 .site-header .header-icon:focus {
     stroke: var(--fore-link-alt);
 }
 
-.site-header .header-icon[data-navigationid='site-nav'] {
+.site-header .header-icon[data-navigation-id='site-nav'] {
     position: relative;
     z-index: 100;
 }
@@ -798,8 +802,8 @@ details.sub-nav details {
     border: 3px solid var(--fore-link);
 
     @media (max-width: 680px) {
-        filter: grayscale(calc(1 - var(--imgshown)));
-        scale: calc(1 + (0.2 * var(--imgshown)));
+        filter: grayscale(calc(1 - var(--img-shown)));
+        scale: calc(1 + (0.2 * var(--img-shown)));
         transform: rotate(3deg);
     }
 }
@@ -904,7 +908,6 @@ details.sub-nav details {
 
     @media (max-width: 860px) {
         display: block;
-        margin: 0 auto;
     }
 }
 
