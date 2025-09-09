@@ -79,6 +79,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [You don't need a product manager for Platform Engineering](https://thenewstack.io/is-your-product-manager-hurting-platform-engineering/)
 - [The rise of thin platforms](https://builtin.com/articles/thin-platforms-future-platform-engineering)
 - [How organisations measure Platform Engineering](https://octopus.com/blog/how-organizations-measure-platform-engineering)
+- [Your IDP needs DDD](https://octopus.com/blog/your-idp-needs-ddd)
 
 ## GitOps
 
