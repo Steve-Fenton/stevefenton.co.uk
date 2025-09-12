@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.34.3
     version: 0.34.3
   astro-accelerator:
-    specifier: ^5.10.14
-    version: 5.10.14(typescript@5.9.2)
+    specifier: ^5.10.15
+    version: 5.10.15(typescript@5.9.2)
   astro-accelerator-utils:
     specifier: ^0.3.55
     version: 0.3.55
@@ -1423,8 +1423,8 @@ packages:
     resolution: {integrity: sha512-c6mqKtmMIYaqZMMc8B9ILkY+U8UdTk/1/HtLZNQJ4RxsnWKHyY0TSaQsn39eSmYarkYUB9Qh9QS02FXMZ5nkEw==}
     dev: false
 
-  /astro-accelerator@5.10.14(typescript@5.9.2):
-    resolution: {integrity: sha512-NbXkSBRC+YJ0kZxknxqQ/SOy7g0lA7ikPFCZd1PkZ2wRKxYygqZwq4tNp8NfRmqy9GZkKp8MqA3osgyRlVJ+IA==}
+  /astro-accelerator@5.10.15(typescript@5.9.2):
+    resolution: {integrity: sha512-eE1js2lLkfooS+2JDltpu3BXJ63gLDPkXH53KZ9SFMYlOoTQv04GahZfbwtboJfT0xXZQwA/cjSTtx3yJbfD8g==}
     engines: {node: '>=18.14.1', pnpm: '>=8.6.12'}
     dependencies:
       optional: 0.1.4
@@ -2728,7 +2728,7 @@ packages:
       htmlparser2: 10.0.0
       marked: 13.0.3
       meow: 13.2.0
-      mime: 4.0.7
+      mime: 4.1.0
       server-destroy: 1.0.1
       srcset: 5.0.1
     transitivePeerDependencies:
@@ -3352,8 +3352,8 @@ packages:
       - supports-color
     dev: false
 
-  /mime@4.0.7:
-    resolution: {integrity: sha512-2OfDPL+e03E0LrXaGYOtTFIYhiuzep94NSsuhrNULq+stylcJedcHdzHtz0atMUuGwJfFYs0YL5xeC/Ca2x0eQ==}
+  /mime@4.1.0:
+    resolution: {integrity: sha512-X5ju04+cAzsojXKes0B/S4tcYtFAJ6tTMuSPBEn9CPGlrWr8Fiw7qYeLT0XyH80HSoAoqWCaz+MWKh22P7G1cw==}
     engines: {node: '>=16'}
     hasBin: true
     dev: false
