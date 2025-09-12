@@ -19,7 +19,7 @@ There's a current trend about the positive effects of being bored. Two elements 
 
 Firstly, you get space. We're so busy these days that there's no space anywhere. We're an overlapping infinity of saishimi-like tasks, and you just can't think when you hit 100% capacity. You can only do.
 
-Secondly, when you're bored, you pay attention to all the stuff you're usually distracted from. Phones are pinging. Slack messages are a leaking sewer pipe of constant interruptions. Someone on the net disagrees with something.
+Secondly, when you're bored, you pay attention to all the stuff you're usually distracted from. We can't do this while phones are pinging, Slack messages are a leaking sewer pipe of constant interruptions, and Someone on the net disagrees with something.
 
 So boredom gives the gifts of space and attention. When you have both, incredible things happen. It's why people have so many revelations while waiting for something in a coffee shop, pizzeria, or laundrette. (If you don't believe me, there's the [Agile quick fix diet](https://stevefenton.co.uk/blog/2015/07/state-of-agile-2015/), [hand-offs and coffee](https://stevefenton.co.uk/blog/2013/08/thinking-about-hand-offs-and-coffee/), or [Agilevale spring water](https://stevefenton.co.uk/blog/2024/04/agilevale-spring/).)
 
@@ -43,19 +43,19 @@ My Digital Sales Messaging Guide heads off to find me a deal for a similar hands
 
 "I have a deal for you where you can get the deal with new device at just 43.67GBP per month with unlimited data :)"
 
-This is a little more expensive than my order, so I push back a little to say we didn't select the unlimited plan, and asked if switching the plan would bring the price closer to our original order.
+This is a little more expensive than my order. I'm tempted to accept, because there's a smiley face. But I push back a little to say we didn't select the unlimited plan, and asked if switching the plan would bring the price closer to our original order.
 
-"I can understand your point. However, that was with the old device that is currently unavailable with the stocks, this is the reason your order could not placed from our end. However, we do have a deal with the new device that one you picked was refurbished here you can get the new device with unlimited data at just 43.67GBP with the new device."
+"I can understand your point," they tell me. "However, that was with the old device that is currently unavailable with the stocks, this is the reason your order could not placed from our end. However, we do have a deal with the new device that one you picked was refurbished here you can get the new device with unlimited data at just 43.67GBP with the new device."
 
-Okay. The handset is a newer model. I get it. While I'm typing a reluctant acceptance, another message comes in to tell me about their broadband, but I quickly dismiss this. Switching broadband is not a task for the near future.
+Okay. The handset is new. I get it, though they did push very hard on the "like new" angle with their other offer. While I'm typing a reluctant acceptance, another message comes in to tell me about their broadband, but I quickly dismiss this. Switching broadband is not a task for the near future.
 
 ## The bait is taken, do the switch
 
 That's when my Digital Sales Messaging Guide grabs the rug with both hands and pulls. You see, the price they gave me in the first place is only available if I also buy the broadband. You know, they just forgot to mention that until I said yes. Telesales 101: Get them to say yes before you make your move.
 
-"Trust me this will be the great deal for you even better you can get the most reliable speed and the zero fluctuation Wi-Fi.?"
+"Trust me," they say. "This will be the great deal for you even better you can get the most reliable speed and the zero fluctuation Wi-Fi.?"
 
-And here's our first problem. You've just pulled a bait and switch on me and you then ask me to trust you. That's a problem. In fact, it's a giant sky-darkening-godzilla-silhouette problem.
+And here's our first problem. You've just pulled a bait and switch on me and you then ask me to trust you. That's a problem. In fact, it's a giant sky-darkening-godzilla-silhouette problem. I dismiss my concerns about how much my current broadband must be fluctuating and switch mode as the conversation isn't making me happy.
 
 "Okay," I reply. "I don't think I'm interested as this doesn't seem like a 'problem with my order' conversation. It feels like a churn conversation."
 
