@@ -55,6 +55,7 @@ jobs:
 
   clean:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - uses: yanovation/delete-old-actions@v1
         with:
