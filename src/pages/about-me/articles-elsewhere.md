@@ -81,6 +81,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [How organisations measure Platform Engineering](https://octopus.com/blog/how-organizations-measure-platform-engineering)
 - [Your IDP needs DDD](https://octopus.com/blog/your-idp-needs-ddd)
 - [The top 5 features of internal developer platforms](https://octopus.com/blog/top-5-features-of-internal-developer-platforms)
+- [Navigating Platform Engineering with the maturity model assessment](https://cloudnativeplatforms.com/blog/navigating-platform-engineering/)
 
 ## GitOps
 
