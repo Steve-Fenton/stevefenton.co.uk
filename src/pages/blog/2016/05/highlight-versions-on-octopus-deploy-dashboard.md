@@ -2,7 +2,7 @@
 title: 'Highlight versions on the Octopus Deploy dashboard'
 navMenu: false
 pubDate: 2016-05-18T18:03:44+01:00
-modDate: 2024-07-08
+modDate: 2025-09-18
 authors:
     - steve-fenton
 bannerImage:
@@ -48,7 +48,8 @@ const colouring = function () {
     var nextColorIndex = 0;
     var versions = [];
 
-    var elems = document.querySelectorAll('a[class^="style-module_internalLink__"] > div > div > span[title]');
+    // Octopus v2025.4.1297
+    var elems = document.querySelectorAll('table > tbody > tr > td > div > a > div > div > span');
     console.log(`Found ${elems.length} items`);
 
     for (var i = 0; i < elems.length; i++) {
@@ -85,6 +86,6 @@ window.clearInterval(window.octodashInterval);
 window.octodashInterval= window.setInterval(colouring, 10000);
 ```
 
-This script has been updated for the latest version of Octopus (v2023.3).
+This script has been updated for the latest version of Octopus (v2025.4).
 
 You can test the scriptlet on the [Octopus Demo](https://demo.octopusdeploy.com/app#/).
