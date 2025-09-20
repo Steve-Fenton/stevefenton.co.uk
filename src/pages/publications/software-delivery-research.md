@@ -2,7 +2,7 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2025-06-12
+modDate: 2025-09-20
 keywords: software,delivery,research
 description: Research-related publications and updates.
 ---
@@ -16,7 +16,13 @@ My favourite research efforts are:
 
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
 
-## The State of GitOps report
+## 2026: The Future of Platform Engineering report
+
+Taking the lessons from the Platform Engineering Pulse report, we're running a large-scale survey to get deeper insights into Platform Engineering.
+
+I'll share more news soon.
+
+## 2025: The State of GitOps report
 
 I lead a research effort to understand GitOps adoption, practices, and outcomes. The results are based on 660 survey responses and interviews with expert practitioners.
 
@@ -29,29 +35,28 @@ The report covers topics such as:
 - The benefits of GitOps
 - Which GitOps practices drive outcomes
 
-The report is likely to come out in **June 2025**. Sign up to get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report). 
+Get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report) from Octopus.
 
-## Platform Engineering
+## 2025: Platform Engineering Pulse report
 
-I'm working with Saim Safdar, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm) to find out the business and technical motivations for Platform Engineering.
+This report was a joint project with Saim Safder, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm). We wanted to find out the business and technical motivations for Platform Engineering.
 
-Our plan is to:
+The research involved the following stages:
 
-- (Done!) Speak to practitioners to find out key motivations for internal developer platforms
-- (Done!) Design a survey based on what we learn
-- (Done!) Run the survey to get a broad picture of Platform Engineering
-- Product a mini-report based on what we learn
-- Extend this by adjusting our survey instrument and getting a broader sample
+- Speak to practitioners to find out key motivations for internal developer platforms
+- Design a survey based on what we learn
+- Run the survey to get a broad picture of Platform Engineering
+- Produce a mini-report based on what we learn
 
 By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
 
-We have our first batch of survey responses and we'll be analyzing them and sharing results soon!
+You can download the [Platform Engineering Pulse report](https://octopus.com/publications/platform-engineering-pulse) from Octopus.
 
 ## Get updates
 
 I've created a [research-only mailing list](https://oc.to/research-updates) for folks who want to stay updated.
 
-<iframe width="540" height="355" src="https://sibforms.com/serve/MUIFAPDnrZI-NoozGdJ2Yl2sW4ZeTb_IP2vOOEBZwCYhS8DA-LNQHnccCfJyxElaWZM8h104CRnTJW7aqE3IRwvi58V9m3Ns8nzZmCcbW2QbGkvBvj3a4gYpQ9erVOE6BZ-P6VZh_1xfej8huScT4cDHmS2ROUX4miuJ-NsVczdZP-2mpFkCWDCuY_pybOOZ0H4GxAOEVxGK7ijs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;width: 100%;"></iframe>
+<iframe width="540" height="540" src="https://sibforms.com/serve/MUIFAPDnrZI-NoozGdJ2Yl2sW4ZeTb_IP2vOOEBZwCYhS8DA-LNQHnccCfJyxElaWZM8h104CRnTJW7aqE3IRwvi58V9m3Ns8nzZmCcbW2QbGkvBvj3a4gYpQ9erVOE6BZ-P6VZh_1xfej8huScT4cDHmS2ROUX4miuJ-NsVczdZP-2mpFkCWDCuY_pybOOZ0H4GxAOEVxGK7ijs" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;width: 100%;"></iframe>
 
 ## Frequently asked questions
 
@@ -75,7 +80,7 @@ I usually put this number in a prominent place on a full report. In addition to 
 
 ### Are the claims reasonable?
 
-The hype wore me down a long time ago. I'm not interested in creating click bait or outrageous claims. When I find something surprising, I muffle my excitement long enought to reflect on what I might have missed. I also work with other people so they can check my work.
+The hype wore me down a long time ago. I'm not interested in creating click bait or outrageous claims. When I find something surprising, I muffle my excitement long enough to reflect on what I might have missed. I also work with other people so they can check my work.
 
 ### How would you describe your research?
 
