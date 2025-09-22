@@ -2,12 +2,20 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-08-01
+modDate: 2025-09-22
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
-I have been enjoying some coverage in various magazines and blogs and will be sharing some of the features here.
+Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
+
+## Cloud State of Play
+
+September 2025
+
+Richard Simon was kind enough to let me make a guest appearance on the Cloud State of Play where we discussed GitOps, API protocols, and moonshots!
+
+[Watch Cloud State of Play](https://www.youtube.com/watch?v=As_qfWIyzKk)
 
 ## Techstrong TV - GitOps Trends and the Future of Continuous Delivery
 
