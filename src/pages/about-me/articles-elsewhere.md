@@ -46,6 +46,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Beyond ROWE: Why Results-only work isn't always a win](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
 - [Vibe Coding: The shadow IT problem no one saw coming](https://thenewstack.io/vibe-coding-the-shadow-it-problem-no-one-saw-coming/)
 - [Stop force-feeding AI to your developers](https://thenewstack.io/stop-force-feeding-ai-to-your-developers/)
+- [Vibe coding... you keep using that word!](https://coderlegion.com/5121/vibe-coding-you-keep-using-that-word)
 
 ### DevOps research
 
