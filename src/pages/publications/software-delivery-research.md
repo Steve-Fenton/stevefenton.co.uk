@@ -22,6 +22,10 @@ Taking the lessons from the Platform Engineering Pulse report, we're running a l
 
 I'll share more news soon.
 
+:::div{.simple-grid}
+
+<div>
+
 ## 2025: The State of GitOps report
 
 I lead a research effort to understand GitOps adoption, practices, and outcomes. The results are based on 660 survey responses and interviews with expert practitioners.
@@ -37,6 +41,16 @@ The report covers topics such as:
 
 Get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report) from Octopus.
 
+</div>
+
+:img{ src="/img/topic/books/state-of-gitops-report.png" alt="The Platform Engineering Pulse report" loading="lazy" }
+
+:::
+
+:::div{.simple-grid}
+
+<div>
+
 ## 2025: Platform Engineering Pulse report
 
 This report was a joint project with Saim Safder, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm). We wanted to find out the business and technical motivations for Platform Engineering.
@@ -51,6 +65,12 @@ The research involved the following stages:
 By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
 
 You can download the [Platform Engineering Pulse report](https://octopus.com/publications/platform-engineering-pulse) from Octopus.
+
+</div>
+
+:img{ src="/img/topic/books/platform-engineering-pulse.png" alt="The Platform Engineering Pulse report" loading="lazy" }
+
+:::
 
 ## Get updates
 
