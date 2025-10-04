@@ -2,7 +2,7 @@
 title: Lookup DNS on a specific nameserver with NSLOOKUP
 navMenu: false
 pubDate: 2020-11-10T16:06:11+00:00
-modDate: 2024-12-05
+modDate: 2025-10-04
 authors:
     - steve-fenton
 categories:
@@ -18,7 +18,7 @@ The `nslookup` command is really easy to use. You just type `nslookup [host-name
 
 Let's look up the nameservers for our website. We'll usually get back multiple answers. Two or three is pretty common. We can use `nslookup -q=ns [root domain]` to do this.
 
-```cmd
+```bash
 nslookup -q=ns stevefenton.co.uk
 Server:  UnKnown
 Address:  1.1.1.1
@@ -32,7 +32,7 @@ stevefenton.co.uk       nameserver = amy.ns.cloudflare.com
 
 This is how you look up records from a specific name server. It uses the syntax `nslookup [host-name] [nameserver]`. You can supply the name of the nameserver: `nslookup www.stevefenton.co.uk amy.ns.cloudflare.com`, or its IP address: `nslookup www.stevefenton.co.uk 2a06:98c1:50::ac40:2065`.
 
-```cmd
+```bash
 nslookup www.stevefenton.co.uk amy.ns.cloudflare.com
 Server:  amy.ns.cloudflare.com
 Address:  2a06:98c1:50::ac40:2065
@@ -49,36 +49,69 @@ Repeat this for each nameserver and keep an eye out for any that are giving out 
 
 And finally, some quick `nslookup` tips.
 
-Simple DNS Check
+### Simple DNS check
 
-```cmd
+The simplest DNS check gets you an IP address for a host name.
+
+```bash
 nslookup [host-name]
+```
 
+```bash
 nslookup www.example.com
 ```
 
-Specific Record Type Check
+### Specific record type check
 
-```cmd
+To check specific record types, like `TXT`, `A`, or `CNAME` you can add a record type to the query.
+
+```bash
 nslookup -q=[record-type] [host-name]
+```
 
+```bash
 nslookup -q=txt example.com
 nslookup -q=mx example.com
 ```
 
-Nameserver Lookup
+### Let's Encrypt
 
-```cmd
+Here's how to check your Let's Encrypt DNS value has been updated (this example uses Cloudflare's nameserver, `1.1.1.1`)
+
+```bash
+nslookup -q=txt _acme-challenge.[domain]  [nameserver]
+```
+
+```bash
+nslookup -q=txt _acme-challenge.example.com 1.1.1.1
+```
+
+### Nameserver Lookup
+
+Find out which nameservers are responsible for a host name.
+
+```bash
 nslookup -q=ns [host-name]
+```
 
+```bash
 nslookup -q=ns example.com
 ```
 
-DNS Check Against Specific Nameserver
+### DNS Check Against Specific Nameserver
 
-```cmd
+You can make the lookup against specific nameservers either by name or IP address:
+
+```~~bash~~
 nslookup [host-name] [nameserver]
+```
+
+```bash
 nslookup www.example.com a.iana-servers.net
+```
+
+```bash
+nslookup www.example.com 1.1.1.1
 ```
 
 Note: The `-q` flag was formerly known as `-querytype`.
