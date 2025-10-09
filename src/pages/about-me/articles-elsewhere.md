@@ -105,6 +105,10 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Poorly designed rewards crush improvement efforts](https://thenewstack.io/poorly-designed-rewards-crush-improvement-efforts/)
 - [Understanding measurement types](https://octopus.com/blog/measuring-cd-and-devops-measurement-types)
 
+# AI
+
+- [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
+
 ## Multi-tenancy
 
 - [The past, present, and future of multi-tenancy](https://thenewstack.io/the-past-present-and-future-of-multitenancy/) \
