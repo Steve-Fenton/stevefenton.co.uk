@@ -32,7 +32,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
-- [Stop blaming regulation for poor software delivery performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
+- [AI is an Amplifier, Not a Silver Bullet](https://coderlegion.com/5638/ai-is-an-amplifier-not-a-silver-bullet)
 
 ### DevOps culture and developer experience (DevEx)
 
@@ -104,6 +104,10 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Effective DevOps metrics](https://octopus.com/blog/effective-devops-metrics)
 - [Poorly designed rewards crush improvement efforts](https://thenewstack.io/poorly-designed-rewards-crush-improvement-efforts/)
 - [Understanding measurement types](https://octopus.com/blog/measuring-cd-and-devops-measurement-types)
+
+# AI
+
+- [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
 
 ## Multi-tenancy
 
