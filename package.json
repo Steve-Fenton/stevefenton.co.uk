@@ -23,12 +23,12 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.6",
+    "@astrojs/mdx": "^4.3.7",
     "@img/sharp-linux-x64": "^0.34.4",
-    "astro-accelerator": "^5.10.18",
-    "astro-accelerator-utils": "^0.3.56",
+    "astro-accelerator": "^5.10.19",
+    "astro-accelerator-utils": "^0.3.57",
     "cspell": "^9.2.1",
-    "linkinator": "^6.1.4",
+    "linkinator": "^6.3.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.4"
   },
