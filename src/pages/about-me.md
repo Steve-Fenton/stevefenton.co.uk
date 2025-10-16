@@ -19,7 +19,6 @@ You might also like to visit his friends:
 - [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
 - [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
 - [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
-- [Martin Milsom](https://martinmilsom.co.uk/) – development topics
 
 - - - - - -
 
