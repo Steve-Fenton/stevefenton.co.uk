@@ -57,6 +57,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [What's missing with AI-generated code? Refactoring.](https://thenewstack.io/whats-missing-with-ai-generated-code-refactoring/)
+- [The DORA 4 key metrics become 5](https://cd.foundation/blog/2025/10/16/dora-5-metrics/)
 
 ### DevOps and software delivery
 
