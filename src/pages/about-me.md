@@ -2,20 +2,16 @@
 title: About Me
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-04-22
+modDate: 2025-10-16
 keywords: about,steve fenton
-description: A short biography of Steve Fenton.
+description: Steve Fenton researches the socio-technical systems behind software delivery—how organizations, people, and technology actually work together (or don't).
 ---
 
-Steve Fenton is a Principal DevEx Researcher at [Octopus Deploy](https://www.octopus.com/), a DORA Community Guide, and a eight-time Microsoft MVP (most recently for DevOps). He’s a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist. He has written books on [TypeScript](/publications/pro-typescript/), [Octopus Deploy](/publications/exploring-octopus-deploy/), and [Web Operations Monitoring](/publications/web-ops-dashboards-monitoring-and-alerting/) (and also occasionally writes *genre fiction disguised as literary fiction* inspired by J Sheridan La Fanu, Mary Shelley, and H. P. Lovecraft, such as [The Vanishing Room](https://smfenton.uk/the-vanishing-room/)).
+Steve Fenton researches the socio-technical systems behind software delivery; how organizations, people, and technology actually work together (or don't). At Octopus Deploy, he explores GitOps, Platform Engineering, Continuous Delivery, and compliance through a lens shaped by punk history, psychology, and the kind of genre fiction that asks uncomfortable questions about systems and society.
 
-His current day job is *writing and research*. His previous day jobs have spanned the worlds of Product Management, Data and Analytics, Support, and Software Development, typically in leadership roles. These are brought together in the [DITE Cycle](/blog/2019/09/the-dite-cycle-data-insight-theory-experiment/).
+He's an eight-time Microsoft MVP (DevOps), a DORA Community Guide, and a member of the CNCF Platform Engineering Community Group. He's written books on TypeScript, Octopus Deploy, and Web Operations Monitoring, and occasionally writes horror fiction that reveals truths about how things actually work.
 
-Like many of you, he’s too busy to remember all of this stuff, so he writes it all down here. Some of his friends also do this, see the links at the end of this page.
-
-Steve studied *Psychology* at OSC, and ***Anarchy in the UK**: A History of Punk from 1976-1978* at the University of Reading.
-
-You can read [what other people say about Steve](/about-me/press/), and look through [some of his favourite books](/about-me/recommended-reading/).
+A self-described Software Punk, pragmatist-abstractionist, and generalising-generalist, Steve studied _Psychology_ at OSC and the _history of punk (1976-1978)_ at the University of Reading. Those aren't side interests; they're how he thinks.
 
 You might also like to visit his friends:
 
