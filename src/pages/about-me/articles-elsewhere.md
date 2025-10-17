@@ -110,6 +110,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 # AI
 
 - [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
+- [How to measure AI’s organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
 
 ## Multi-tenancy
 
