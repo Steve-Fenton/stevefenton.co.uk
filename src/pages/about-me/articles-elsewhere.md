@@ -57,6 +57,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Announcing the 2022 Accelerate State of DevOps Report](https://octopus.com/blog/2022-state-of-devops-report)
 - [The 2022 DevOps performance clusters](https://www.octopus.com/blog/new-devops-performance-clusters)
 - [What's missing with AI-generated code? Refactoring.](https://thenewstack.io/whats-missing-with-ai-generated-code-refactoring/)
+- [The DORA 4 key metrics become 5](https://cd.foundation/blog/2025/10/16/dora-5-metrics/)
 
 ### DevOps and software delivery
 
@@ -84,6 +85,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Your IDP needs DDD](https://octopus.com/blog/your-idp-needs-ddd)
 - [The top 5 features of internal developer platforms](https://octopus.com/blog/top-5-features-of-internal-developer-platforms)
 - [Navigating Platform Engineering with the maturity model assessment](https://cloudnativeplatforms.com/blog/navigating-platform-engineering/)
+- [Leveling up your deployment pipelines](https://octopus.com/blog/leveling-up-deployment-pipelines)
 
 ## GitOps
 
@@ -108,6 +110,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 # AI
 
 - [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
+- [How to measure AI’s organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
 
 ## Multi-tenancy
 
