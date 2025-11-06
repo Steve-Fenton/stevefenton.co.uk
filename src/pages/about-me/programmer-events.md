@@ -11,21 +11,16 @@ I'll update this page with any programmer events that I'm running, attending, or
 
 ## 2025
 
-20th August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
-
-10th July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
-
-8th July 2025: [Techstrong TV - The State of GitOps report](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery)
-
-25th June 2025: [Cloud Therapist - PlatformCon Live Steream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
-
-20th May 2025: DORA Community - User Centricity
-
-25th March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
-
-13th March 2025: DevOps Live London - Modern Multi-Tenancy
-
-12th March 2025: DevOps Live London - Improve Your DevOps Culture
+- December 2025: [SHIPPED25](https://octopus.com/shipped). The Research Panel. DORA: Beyond the metrics.
+- October 2025: [Decoding DORA 2025](https://www.youtube.com/watch?v=s9slFT52Pgw&t=1s)
+- August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
+- July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
+- July 2025: [Techstrong TV - The State of GitOps report](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery)
+- June 2025: [Cloud Therapist - PlatformCon Live Steream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
+- May 2025: [DORA Community - User Centricity](https://www.youtube.com/watch?v=auD5sM6V9oc)
+- March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
+- March 2025: [DevOps Live London - The Nimona Method](https://www.youtube.com/watch?v=DuWvmYP4oQs)
+- March 2025: [DevOps Live London - Improve Your DevOps Culture](https://www.youtube.com/watch?v=ZH3Kc98-u64)
 
 ## 2024
 
@@ -36,11 +31,11 @@ I'll update this page with any programmer events that I'm running, attending, or
 - June 2024: Merging to Main
 - June 2024: The CD Pipeline Show
 - May 2024: The State of CI/CD 2024
-- March 2024: DevOps Live: Effective DevOps Metrics (Keynote theatre)
+- March 2024: [DevOps Live: Effective DevOps Metrics (Keynote theatre)](https://www.youtube.com/watch?v=DuWvmYP4oQs)
 
 ## 2023
 
-- November 2023: SHIPPED! DORA, DevOps, and Deployments
+- November 2023: [SHIPPED! DORA, DevOps, and Deployments](https://www.youtube.com/watch?v=DLHfHlY7fDM)
 - October 2023: Platform Engineering: To Adopt or Not To Adopt
 - August 2023: A Modern View of Multitenancy
 - June 2023: The State of Continuous Delivery Report 2023
@@ -61,13 +56,6 @@ I'll update this page with any programmer events that I'm running, attending, or
 - August 2019: Test Automation with Visual Studio
 - July 2019: Write an app using TDD in Microsoft Visual Studio
 - April 2019: Visual Studio 2019 Launch Event
-
-## Gap in records!
-
-Note: Events were in an events app, not listed on my website... so I have a gap in the history (sad face).
-
-## Ancient stuff!
-
 - June 2014: TypeScript and Jasmine
 - April 2014: Process Kata
 - March 2014: API Testing with JMeter
