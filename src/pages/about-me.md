@@ -21,7 +21,9 @@ You might also like to visit his friends:
 - [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
 
 - - - - - -
-<div>
+
+<div class="simple-grid">
+
 :::figure
 :img{src="/img/topic/awards/devops-evangelist.jpg" alt="Best DevOps vendor evangelist finalist" loading="lazy"}
 ::figcaption[Best DevOps vendor evangelist finalist]]
@@ -33,6 +35,7 @@ You might also like to visit his friends:
 :::
 
 </div>
+
 :::figure{.inset-small}
 :img{src="/img/2022/04/steve.jpg" alt="Mid-Era Steve" loading="lazy"}
 ::figcaption[Mid-era Steve]
