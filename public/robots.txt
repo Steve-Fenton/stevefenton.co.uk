@@ -17,13 +17,17 @@ Disallow:
 User-agent: Kukei.eu-Bot
 Disallow:
 
+User-agent: MojeekBot
+Disallow:
+
+User-agent: Qwantbot
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 
 User-agent: Googlebot-Image
 Disallow:
 
-User-agent: MojeekBot
-Disallow:
-
 Sitemap: https://stevefenton.co.uk/sitemap.xml
+
