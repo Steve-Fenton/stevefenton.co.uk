@@ -2,7 +2,7 @@
 title: About Me
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-10-16
+modDate: 2025-11-11
 keywords: about,steve fenton
 description: Steve Fenton researches the socio-technical systems behind software delivery—how organizations, people, and technology actually work together (or don't).
 ---
@@ -21,7 +21,18 @@ You might also like to visit his friends:
 - [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
 
 - - - - - -
+<div>
+:::figure
+:img{src="/img/topic/awards/devops-evangelist.jpg" alt="Best DevOps vendor evangelist finalist" loading="lazy"}
+::figcaption[Best DevOps vendor evangelist finalist]]
+:::
 
+:::figure
+:img{src="/img/topic/awards/devops-research.jpg" alt="Best DevOps survey/report finalist" loading="lazy"}
+::figcaption[Best DevOps survey/research/report finalist]
+:::
+
+</div>
 :::figure{.inset-small}
 :img{src="/img/2022/04/steve.jpg" alt="Mid-Era Steve" loading="lazy"}
 ::figcaption[Mid-era Steve]
