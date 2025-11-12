@@ -25,18 +25,13 @@ You might also like to visit his friends:
 <div class="simple-grid">
 
 :::figure
-:img{src="/img/topic/awards/devops-evangelist.jpg" alt="Best DevOps vendor evangelist finalist" loading="lazy"}
-::figcaption[Best DevOps vendor evangelist finalist]]
+:img{src="/img/topic/awards/devops-evangelist.png" alt="Best DevOps vendor evangelist finalist" loading="lazy"}
+:figcaption[Best DevOps vendor evangelist finalist]
 :::
 
 :::figure
-:img{src="/img/topic/awards/devops-research.jpg" alt="Best DevOps survey/report finalist" loading="lazy"}
+:img{src="/img/topic/awards/devops-research.png" alt="Best DevOps survey/report finalist" loading="lazy"}
 ::figcaption[Best DevOps survey/research/report finalist]
 :::
 
 </div>
-
-:::figure{.inset-small}
-:img{src="/img/2022/04/steve.jpg" alt="Mid-Era Steve" loading="lazy"}
-::figcaption[Mid-era Steve]
-:::
