@@ -33,6 +33,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 - [AI is an Amplifier, Not a Silver Bullet](https://coderlegion.com/5638/ai-is-an-amplifier-not-a-silver-bullet)
+- [Process theater versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
 
 ### DevOps culture and developer experience (DevEx)
 
