@@ -12,6 +12,7 @@ I'll update this page with any programmer events that I'm running, attending, or
 ## 2025
 
 - December 2025: [SHIPPED25](https://octopus.com/shipped). The Research Panel. DORA: Beyond the metrics.
+- November 2025: [DevOps London: What Just Happened? Surprises From Our Platform Engineering Research] (https://www.meetup.com/london-devops/events/311749333/)
 - October 2025: [Decoding DORA 2025](https://www.youtube.com/watch?v=s9slFT52Pgw&t=1s)
 - August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
 - July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
