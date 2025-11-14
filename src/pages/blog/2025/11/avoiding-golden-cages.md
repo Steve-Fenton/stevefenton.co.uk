@@ -25,7 +25,7 @@ We're also thinking about this topic this month in the [content club (CNCF Slack
 
 :::
 
-In particular, the question of whether platforms should be optional or mandatory has a lot of talking points. It also intersects with the golden cages problem, as an inflexible platform intensivies the nastiest problems of mandatory platforms.
+In particular, the question of whether platforms should be optional or mandatory has a lot of talking points. It also intersects with the golden cages problem, as an inflexible platform intensifies the nastiest problems of mandatory platforms.
 
 As we're continuously talking golden paths, we'll head to Oz to look through the hazards and how they come together to cause some serious problems.
 
