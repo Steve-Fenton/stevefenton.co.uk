@@ -15,6 +15,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+    NODE_VERSION: 24
+    PNPM_VERSION: 10.22.0
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,12 +29,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ env.NODE_VERSION }}
        
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
-          package-manager: pnpm@8.7.0
+          package-manager: pnpm@${{ env.PNPM_VERSION }}
 
       - name: Crawl test
         run: |
