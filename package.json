@@ -3,16 +3,16 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@8.7.0",
+  "packageManager": "pnpm@10.22.0",
   "engines": {
-    "node": ">=18",
-    "pnpm": ">=8"
+      "node": ">=24",
+      "pnpm": ">=10"
   },
   "scripts": {
     "refresh": "pnpm update && node ./accelerator.js",
+    "update-node": "bash -c 'source $NVM_DIR/nvm.sh && nvm install --lts && npm install -g pnpm'",
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
-    "css": "powershell 'C:\\Users\\steve\\Source\\Repos\\stevefenton.co.uk\\copycss.ps1'",
     "crawl": "linkinator ./dist --skip \"^(?!http://localhost)\" --skip \"/404/\" --recurse  --verbosity error",
     "dev": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "img": "node ./src/themes/accelerator/utilities/img.mjs",
@@ -25,10 +25,10 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.10",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^5.10.21",
+    "astro-accelerator": "^5.10.22",
     "astro-accelerator-utils": "^0.3.59",
     "cspell": "^9.3.1",
-    "linkinator": "^6.3.0",
+    "linkinator": "^7.5.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
   },
