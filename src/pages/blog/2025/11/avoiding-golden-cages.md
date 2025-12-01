@@ -22,6 +22,8 @@ I zipped up to London last night to share the [Platform Engineering Pulse report
 We're also thinking about this topic this month in the [content club (CNCF Slack)](https://cloud-native.slack.com/archives/C0897G6N1ML), so you may also want to check out:
 
 - [Golden Paths: One Size Does Not Fit All](https://newsletter.bryanross.me/p/golden-paths-one-size-does-not-fit?hide_intro_popup=true) by Bryan Ross
+- [When a Golden Path Becomes a Golden Cage
+](https://menzen.ski/when-a-golden-path-becomes-a-golden-cage/) by Matt Menzenski
 
 :::
 
