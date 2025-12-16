@@ -9,6 +9,14 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
+## Developer Tech: The AI party hangover
+
+I got quoted in an article on software delivery prediction for 2026.
+
+> Steve Fenton, Director of DevRel at Octopus Deploy, notes that platform budgets will face scrutiny. “When technology leaders don’t see a competitive benefit to the platform, they are likely to start reallocating platform team members to other areas,” Fenton cautions. Teams must demonstrate tangible value to avoid being stranded on platforms that cannot adapt to new requirements.
+
+[Read the 2026 predictions article](https://www.developer-tech.com/news/software-development-in-2026-curing-ai-party-hangover/).
+
 ## Cloud State of Play
 
 September 2025
