@@ -9,13 +9,23 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
+## Solutions Review: Worktech predictions
+
+I was included in a mega-predictions article for 2026 on Solutions Review.
+
+> Software delivery fluctuates between technical methods and management frameworks. Over the past year, there has been a growing trend towards less technical working practices. The effect is cyclical. When managers explore the technical route, it reveals increasing levels of required complexity. The management frameworks appear far simpler and seem to offer an escape from complicated sets of techniques and practices. Eventually, the management frameworks fail to deliver sustainable and reliable software delivery, and we must return to technical routes once more.
+> 
+> Organizations that are moving away from DevOps will start to see cracks appearing in 2026, and managers will be ready to accept once more that software requires technical skills by the end of the year.
+
+[Read the 2026 predictions on Solutions Review](https://solutionsreview.com/enterprise-resource-planning/worktech-predictions-from-industry-experts-for-2026/).
+
 ## Developer Tech: The AI party hangover
 
 I got quoted in an article on software delivery prediction for 2026.
 
 > Steve Fenton, Director of DevRel at Octopus Deploy, notes that platform budgets will face scrutiny. “When technology leaders don’t see a competitive benefit to the platform, they are likely to start reallocating platform team members to other areas,” Fenton cautions. Teams must demonstrate tangible value to avoid being stranded on platforms that cannot adapt to new requirements.
 
-[Read the 2026 predictions article](https://www.developer-tech.com/news/software-development-in-2026-curing-ai-party-hangover/).
+[Read the 2026 predictions on Developer Tech](https://www.developer-tech.com/news/software-development-in-2026-curing-ai-party-hangover/).
 
 ## Cloud State of Play
 
