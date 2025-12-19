@@ -119,7 +119,7 @@ nav summary:focus {
 }
 
 :focus-visible {
-    outline: 2px dashed var(--fore-link-alt);
+    outline: 2px dashed var(--icon-block);
     border-radius: 5px;
 }
 
