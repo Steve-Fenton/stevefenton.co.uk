@@ -118,7 +118,7 @@ nav summary:focus {
     color: var(--fore-link-alt);
 }
 
-.input-keyboard :focus {
+:focus-visible {
     outline: 2px dashed var(--fore-link-alt);
     border-radius: 5px;
 }
