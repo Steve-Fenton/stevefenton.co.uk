@@ -11,6 +11,8 @@ Sometimes I get to pop up on a podcast, magazine, or video and I share when it h
 
 ## Solutions Review: Worktech predictions
 
+December 2025
+
 I was included in a mega-predictions article for 2026 on Solutions Review.
 
 > Software delivery fluctuates between technical methods and management frameworks. Over the past year, there has been a growing trend towards less technical working practices. The effect is cyclical. When managers explore the technical route, it reveals increasing levels of required complexity. The management frameworks appear far simpler and seem to offer an escape from complicated sets of techniques and practices. Eventually, the management frameworks fail to deliver sustainable and reliable software delivery, and we must return to technical routes once more.
@@ -21,9 +23,11 @@ I was included in a mega-predictions article for 2026 on Solutions Review.
 
 ## Developer Tech: The AI party hangover
 
+December 2025
+
 I got quoted in an article on software delivery prediction for 2026.
 
-> Steve Fenton, Director of DevRel at Octopus Deploy, notes that platform budgets will face scrutiny. “When technology leaders don’t see a competitive benefit to the platform, they are likely to start reallocating platform team members to other areas,” Fenton cautions. Teams must demonstrate tangible value to avoid being stranded on platforms that cannot adapt to new requirements.
+> Steve Fenton, Director of DevRel at Octopus Deploy, notes that platform budgets will face scrutiny. "When technology leaders don't see a competitive benefit to the platform, they are likely to start reallocating platform team members to other areas," Fenton cautions. Teams must demonstrate tangible value to avoid being stranded on platforms that cannot adapt to new requirements.
 
 [Read the 2026 predictions on Developer Tech](https://www.developer-tech.com/news/software-development-in-2026-curing-ai-party-hangover/).
 
@@ -41,7 +45,7 @@ July 2025
 
 Alam Shimel was the awesome host for a conversation about research around GitOps and Continuous Delivery.
 
-> Steve Fenton shares insights on his role at Octopus Deploy and the company’s focus on continuous delivery. He discusses the recent GitOps report, which received 660 community responses, revealing strong enthusiasm for GitOps. Key findings highlight the significance of the reconciliation loop and the preference for imperative configuration over declarative methods. The Linux Foundation’s GitOps principles are also noted as essential for community collaboration.
+> Steve Fenton shares insights on his role at Octopus Deploy and the company's focus on continuous delivery. He discusses the recent GitOps report, which received 660 community responses, revealing strong enthusiasm for GitOps. Key findings highlight the significance of the reconciliation loop and the preference for imperative configuration over declarative methods. The Linux Foundation's GitOps principles are also noted as essential for community collaboration.
 
 [View the video on Techstrong TV](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery).
 
