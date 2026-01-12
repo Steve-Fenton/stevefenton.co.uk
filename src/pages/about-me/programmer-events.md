@@ -9,6 +9,25 @@ description: A list of my online and in-person events.
 
 I'll update this page with any programmer events that I'm running, attending, or speaking at.
 
+## 2026
+
+- June 23\
+  **PlatformCon Live Day London**\
+  London\
+  [Register for PlatformCon Live Day London](https://platformcon.com/live-day-london)
+- March 23-26\
+  **KubeCon Europe**\
+  Amsterdam\
+  [Resgister for KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)
+- March 4-5\
+  **DevOps Live London**\
+  Excel London\
+  [Register for DevOps Live and Tech Show London](https://www.techshowlondon.co.uk/dev-ops-live-london)
+- February 26. 9am to 2pm\
+  **Octopus/Cloudsmith London Roundtable**\
+  HMS Belfast, London\
+  Invite only
+
 ## 2025
 
 - December 2025: [SHIPPED25](https://octopus.com/shipped). The Research Panel. DORA: Beyond the metrics.
