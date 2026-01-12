@@ -102,7 +102,7 @@ nslookup -q=ns example.com
 
 You can make the lookup against specific nameservers either by name or IP address:
 
-```~~bash~~
+```bash
 nslookup [host-name] [nameserver]
 ```
 
