@@ -21,7 +21,7 @@ I'll update this page with any events that I'm running, attending, or speaking a
 - March 23-26\
   **KubeCon Europe**\
   Amsterdam\
-  [Resgister for KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)
+  [Register for KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)
 - March 13\
   **DevOps Not Dead**\
   London\
@@ -30,7 +30,7 @@ I'll update this page with any events that I'm running, attending, or speaking a
   **DevOps Live London**\
   Excel London\
   [Register for DevOps Live and Tech Show London](https://www.techshowlondon.co.uk/dev-ops-live-london)
-- February 26. 9am to 2pm\
+- February 26\
   **Octopus/Cloudsmith London Roundtable**\
   HMS Belfast, London\
   Invite only
