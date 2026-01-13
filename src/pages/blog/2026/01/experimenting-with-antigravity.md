@@ -3,7 +3,7 @@ title: Experimenting with Antigravity
 navMenu: false
 pubDate: 3000-01-15
 keywords: ai,antigravity
-description: Initial experiments with Antigravity agentic coding.
+description: "Initial experiments with Antigravity agentic coding."
 authors:
     - steve-fenton
 categories:
@@ -57,6 +57,38 @@ Let's add "agentic" to the cspell config to fix the spelling error.
 ```
 
 Antigravity found the `cspell.json` file and added "agentic" to the list of words to ignore. It also put it in the correct place alphabetically.
+
+## Bigger tasks
+
+```text
+Can we go through all the blog posts and identify any that don't have a description in the frontmatter, and add one based on the blog post?
+```
+
+Antigravity created an implementation plan and changed 805 files. It checked in with me a few times to confirm the next action, because I have it set to review mode, not agentic mode.
+
+Now, the commit here was significant. We have to be realistic here that humans are not going to want to review over 800 changed files. This is why code review has become a crucial flashpoint in software delivery pipelines.
+
+But, dear reader, I'm not entirely human. In fact, I'm officially classified as an alien (on more than 99% of planets). So, I did check them all. Here are some of the issues I detected.
+
+- 1 instance of a `:` that made the frontmatter invalid.
+- 1 instance of a spelling error in the original page being transposed into the description.
+- Many, many instances of the description being hard truncated with a partial word and three full stops. These were fixable with the in-editor suggestions.
+
+Crucially, there were long blocks of changed files that were fine. No changes needed. Some folks might check the first 10 and think everything was fine.
+
+```text
+The pnpm build command failed. Can we fix it?
+```
+
+This triggered a process where Antigravity ran `pnpm build`, fixed the reported error, then cycled through a process of repeating builds, fixing errors, realizing a general class of error, proposing a script to fix them all...
+
+Here's a new problem. You now have 930 changes. You've created too much change to _really_ manage. People are going to feel invested in all this change. We just keep going until we find a way out of this cave system. But maybe the right answer is to back up. We should try this from the beginning with a smaller set of files. Smaller batches, right?
+
+I wonder how many people will kinda head down this rabbit hole and fear the giant "undo". They will be knee deep and digging frantically. I decided to back up. All that research about small change sets can't be wrong.
+
+## Checking in
+
+Antigravity checked with me before running any terminal commands, or when it created a larger implementation plan to execute.
 
 ## Parallelism rather than productivity
 
