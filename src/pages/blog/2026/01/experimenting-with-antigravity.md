@@ -36,7 +36,7 @@ Great. Please can we move events for past years (2025 and before) from events.md
 
 It did a fair bit of analysis on this to determine what was in the original file and which parts needed to move. This took longer than doing it myself manually as I could see I just needed to cut all text from the "2025" heading onwards, and paste it in the new file.
 
-It added a link to the events page to point people to the archive. I didn't ask for this, but it was well anticipated.
+It added a link to the events page to point people to the archive. I didn't ask for this, but it was well anticipated. The link was incorrect as it pointed to the `.md` file and was missing the relative path.
 
 ```text
 Can we set the frontmatter on events-archive.md so the page doesn't appear in the main navigation. I'm using Astro Accelerator and there's a frontmatter item navMenu: false for this.

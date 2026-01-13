@@ -35,4 +35,4 @@ I'll update this page with any events that I'm running, attending, or speaking a
   HMS Belfast, London\
   Invite only
 
-For older events, see the [Events Archive](events-archive.md).
+For older events, see the [Events Archive](/about-me/events-archive/).
