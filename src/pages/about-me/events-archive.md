@@ -5,6 +5,7 @@ pubDate: 2026-01-13
 modDate: 2026-01-13
 keywords: programmer,events,archive
 description: An archive of my past online and in-person events.
+navMenu: false
 ---
 
 This page contains an archive of past events.
@@ -17,7 +18,7 @@ This page contains an archive of past events.
 - August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
 - July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
 - July 2025: [Techstrong TV - The State of GitOps report](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery)
-- June 2025: [Cloud Therapist - PlatformCon Live Steream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
+- June 2025: [Cloud Therapist - PlatformCon Live Stream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
 - May 2025: [DORA Community - User Centricity](https://www.youtube.com/watch?v=auD5sM6V9oc)
 - March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
 - March 2025: [DevOps Live London - The Nimona Method](https://www.youtube.com/watch?v=DuWvmYP4oQs)
