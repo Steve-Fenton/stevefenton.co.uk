@@ -145,3 +145,13 @@ One observation I'd make is that working on small-scale tasks were not faster th
 In many cases, Antigravity was slower (I could have completed the moving events task faster), but effortless.
 
 Mr Crosby definitely influenced my thinking. Whenever we used calculators in class, he drilled us to estimate the answer before we hit the `=` button. That way, we'd know if we'd keyed a number badly as the answer wouldn't be close to our estimated one. So, I thought about what change I'd make so I was prepared to review the changes and react with surprise if it did something I hadn't anticipated.
+
+## Continuous Delivery suddenly matters even more
+
+The number of saves made by my Continuous Delivery pipeline made me realize my build process and tests are intensely valuable.
+
+A few things slipped past my manual review. In particular, changes that were made in anticipation of my need caused problems because my "think through the change" process hadn't included the unspoken requirement. The changes I asked for were easier to review, as I expected a certain result. When it worked ahead of me, I hadn't thought it through, so I ended up reviewing it with "oh, that's neat that it thought of doing that", instead of checking its correctness.
+
+This is when my pipeline caught the problem and flagged it to me.
+
+That test-driven development, with high coverage of behaviors you depend on, pays dividends.
