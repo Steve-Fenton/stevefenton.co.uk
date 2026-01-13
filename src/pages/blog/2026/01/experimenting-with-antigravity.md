@@ -18,6 +18,8 @@ Notes so far...
 
 Download Antigravity from [The official website](https://antigravity.google).
 
+I'm initially using Antigravity in the mode where it confirms all actions with me as it goes. This means it creates a list of files it wants to change and lets me review them before applying the changes. You can switch this to agentic mode to let it crack on and change things, with version control changes providing checkpoint review opportunities.
+
 Antigravity is a fork of VS Code, so it's very familiar.
 
 Tasks tested
@@ -56,4 +58,10 @@ Let's add "agentic" to the cspell config to fix the spelling error.
 
 Antigravity found the `cspell.json` file and added "agentic" to the list of words to ignore. It also put it in the correct place alphabetically.
 
+## Parallelism rather than productivity
 
+One observation I'd make is that working on small-scale tasks were not faster than I could do myself. Instead, I didn't need to sweat the small stuff. Put it this way, I didn't need to open the file tree, find the right file, scroll around, find the bit I wanted, and make the change. Antigravity did all of that for me.
+
+In many cases, Antigravity was slower (I could have completed the moving events task faster), but effortless.
+
+Mr Crosby definitely influenced my thinking. Whenever we used calculators in class, he drilled us to estimate the answer before we hit the `=` button. That way, we'd know if we'd keyed a number badly as the answer wouldn't be close to our estimated one. So, I thought about what change I'd make so I was prepared to review the changes and react with surprise if it did something I hadn't anticipated.
