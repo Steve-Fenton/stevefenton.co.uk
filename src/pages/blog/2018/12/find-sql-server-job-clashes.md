@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL query to identify scheduled job clashes and suggests using prime number intervals to reduce overlaps.
 ---
 
 If you are working on an older application that has a lot of logic inside of the SQL database in jobs, procedures, and functions – you may find that your job schedules cause a repeating wave of SQL compilation peaks. If you suspect jobs may be the cause, you can use a query to find SQL server job clashes.

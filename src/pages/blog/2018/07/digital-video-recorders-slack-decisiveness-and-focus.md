@@ -9,6 +9,7 @@ bannerImage:
     alt: A hard disk
 categories:
     - Process
+description: Uses a DVR storage metaphor to explain product management concepts like slack, decisiveness, and focusing on finishing work.
 ---
 
 For those reading this in the future, digital video recorders (DVRs) were quite prevalent in 2018. They allow you to record programs that are being broadcast and watch them later. Before DVRs there were other ways to record programs that involved writing them to magnetic tape based on a timer. Before that you just had to organise your life around the broadcast schedule, or miss stuff.

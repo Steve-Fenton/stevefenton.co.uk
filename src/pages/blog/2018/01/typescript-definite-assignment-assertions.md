@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Explains the definite assignment assertion operator (!) introduced in TypeScript 2.7, which suppresses errors for uninitialized properties.
 ---
 
 TypeScript never stops improving, although most changes over the past year have been “non syntactical” – i.e. there have been a huge swathe of improvements to how types are handled, and a large slice of improvements to make the tooling even better. It has a been a while, though, since we got a new character to decorate our code. The wait is over, thanks to the TypeScript Definite Assignment Assertion. Let’s take a look at it with a short example.

@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - JavaScript
+description: JavaScript function to normalize strings for comparison by removing special characters, accents, and diacritics.
 ---
 
 This is the JavaScript edition, but I also have a [C# method to remove special characters diacritic marks](/blog/2020/03/removing-special-characters-and-diacritic-marks-in-c/). I was working on a search system that needed to simplify the strings for comparison. It needed to compare the text regardless of special characters (diacritic marks) or casing. The following function breaks the special characters into their component parts, before removing the “special” parts and lower-casing the whole thing.

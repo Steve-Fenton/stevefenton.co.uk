@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - People
+description: Uses the metaphors of buckets and soap dispensers to explain why humans need slack and recovery time rather than being filled to capacity with work.
 ---
 
 Human capacity is hard to understand, so we create metaphors to simplify things. When people talk about capacity, thought-bubbles emerge from the heads of some managers, revealing an interesting problem. They view capacity as a bucket into which you pour liquid-work until it is full. This metaphor for capacity leads to bad outcomes. Work isn’t like water; and people aren’t like buckets.

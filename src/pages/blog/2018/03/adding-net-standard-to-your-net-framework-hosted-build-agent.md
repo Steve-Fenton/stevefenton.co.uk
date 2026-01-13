@@ -11,6 +11,7 @@ tags:
     - Builds
     - C-Sharp
     - msbuild
+description: Guide on configuring a hosted build agent to support .NET Standard 2.0 libraries within a .NET Framework application using Visual Studio 2017.
 ---
 
 I had an existing .NET Framework project, from which I wanted to reference a .NET Standard 2.0 NuGet package. Due to the project having some history, I needed to make a few changes to get it building via a hosted build agent. Here is a run down of all the changes – if your project was created more recently you may find you need to perform less of these steps.

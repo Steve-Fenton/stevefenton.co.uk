@@ -8,6 +8,7 @@ categories:
     - Other
 tags:
     - Productivity
+description: Quantifying simple tasks like typing can increase productivity through gamification, but may hinder complex tasks like writing.
 ---
 
 The full title of this article should really be “Increase Productivity by Quantifying Simple Tasks; Protect Complex Task Productivity by *Not* Quantifying It”. This is the result of a study by Aruna Ranganathan, co-authored by Alan Benson, that studied workers in a garment factory and I’ve added my opinion because sometimes I’m a narcissist like that.

@@ -6,6 +6,7 @@ authors:
     - steve-fenton
 categories:
     - 'Pie Charts'
+description: A humorous defense of pie charts as a comedic device, arguing that their delayed readability makes them perfect for jokes but terrible for business data.
 ---
 
 I know you may have opened an article, written by me, titled “When a Pie Chart is the Correct Chart” expecting to see a massive banner with the word *NEVER* in all-caps, followed by an inappropriate number of exclamation marks – but wait; I actually have a use case where a pie chart is usually the correct choice.

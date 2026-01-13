@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SAML
+description: Explains the architectural differences between Front-Channel and Back-Channel SAML authentication flows with clear diagrams.
 ---
 
 :abbr[SAML]{title="Security Assertion Markup Language"} is a mechanism authenticating users and authorising them for a service in cases where the identify provider is external to the service. There are three parties involved:

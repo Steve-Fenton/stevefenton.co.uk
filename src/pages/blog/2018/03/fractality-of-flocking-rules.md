@@ -11,6 +11,7 @@ categories:
     - Programming
 tags:
     - OOP
+description: Explores the fractal nature of principles like Flocking Rules and SOLID, showing how they apply from individual lines of code up to system architecture and beyond.
 ---
 
 :::div{.inset}

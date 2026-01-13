@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Demonstrates that TypeScript mixins also correctly handle static properties when composing classes.
 ---
 
 Don’t worry, the mechanism for creating TypeScript mixins hasn’t changed, but I just wanted to demonstrate that the technique described in [TypeScript Mixins Part Two](/blog/2017/08/typescript-mixins-part-two/) is valid for use with static properties.

@@ -10,6 +10,7 @@ tags:
     - 'Artificial Intelligence'
     - 'Augmented Intelligence'
     - 'Machine Learning'
+description: Argues for "Augmented Intelligence" where AI handles routine tasks and humans handle creative tasks, leading to higher combined accuracy.
 ---
 
 I recently attended an event in Manchester, organised by BJSS and Microsoft, on the subject of :abbr[AI]{title="Aritificial Intelligence"} and :abbr[ML]{title="Machine Learning"}. The schedule was jam packed with interesting insights and useful case studies that got my head buzzing. Having had some time to reflect on everything I absorbed on the day, I have realised that we are back into familiar territory with these technologies, which makes available a decade of debate that is directly relevant.

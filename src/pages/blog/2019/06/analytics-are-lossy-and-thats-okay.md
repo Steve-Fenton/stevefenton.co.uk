@@ -8,6 +8,7 @@ categories:
     - Analytics
 tags:
     - Data
+description: Explains that analytics data is inherently lossy due to various technical and user factors, but trends remain reliable for insights.
 ---
 
 This is the latest in my flurry of articles on [analytics](/category/analytics/), which have all come from various questions and misconceptions about what analytics are, what they are for, and how they work. Today, I’m going to explain that analytics are lossy, what that means, and why it’s okay. Let’s define what we mean by “lossy”.

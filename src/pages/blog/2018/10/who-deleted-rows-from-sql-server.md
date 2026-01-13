@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL script to query the transaction log and identify who deleted rows from a database table.
 ---
 
 Want to know who deleted rows from your SQL database? The script below joins up delete transactions with users in order to find out who just deleted something. Because this comes from the transaction log, you’ll only find stuff that is still available in there. This means it will be affected by retention/recovery modes. If you know something just got deleted, it can be pretty useful.

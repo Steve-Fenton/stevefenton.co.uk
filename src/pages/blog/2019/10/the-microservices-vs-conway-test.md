@@ -14,6 +14,7 @@ tags:
     - Architecture
     - Complexity
     - Conway
+description: Proposes a formula to test how well software architecture fits the organization, based on Conway's Law.
 ---
 
 Following on from my article on [Mescoservices](/blog/2015/05/mescoservice-architecture/) back in 2015, this article expands on an idea I had last month on how monoliths, mescoservices, and microservices fit into organisation design. The microservices vs Conway test encodes a common piece of advice into a first-draft formula for testing your architecture against your organisation.

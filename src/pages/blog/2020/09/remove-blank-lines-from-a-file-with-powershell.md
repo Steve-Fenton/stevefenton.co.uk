@@ -9,6 +9,7 @@ categories:
     - Programming
 tags:
     - PowerShell
+description: Quickly remove blank lines from files using a simple PowerShell one-liner to ensure data import compatibility.
 ---
 
 When importing a file full of data into a test system, I discovered that the CSV library I was using to do all the work was stopping when it reached a blank line. That makes sense, it thinks the data has ended. On inspection, I found quite a lot of blank lines, so there was no way I was going to fix them all manually. Instead of spending five minutes manually removing lines, I spent five minutes writing this PowerShell to do it… and I’ve made it run each time the test file is created.

@@ -12,6 +12,7 @@ categories:
 tags:
     - Documentation
     - Waterfall
+description: Re-examines Winston Royce's 1970 documentation estimates by adjusting for inflation, offering a fresh perspective on documentation requirements.
 ---
 
 Back in 1970, Winston Royce made a suggestion for the amount of documentation needed for software development efforts. His influence fifty years later is unquestionable. But there is a problem with numbers (and how time affects them) that I think is missed by many people. Let’s look at the original quote.

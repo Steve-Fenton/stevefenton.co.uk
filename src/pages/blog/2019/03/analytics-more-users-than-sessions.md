@@ -12,6 +12,7 @@ categories:
 tags:
     - Statistics
     - Data
+description: Explains why analytics reports can seemingly show more users than sessions due to widget filtering errors or different counting rules for sessions and users.
 ---
 
 Analytics are super-useful but can get a bit tricky at times. For some reason, several of *those times* seem to have cropped up this week. So, following on from my article on [Why Unique Visitors in Analytics Never Adds Up](/blog/2019/02/why-unique-visitors-in-analytics-never-adds-up/) – I now have one about how you can sometimes have more sessions that users.

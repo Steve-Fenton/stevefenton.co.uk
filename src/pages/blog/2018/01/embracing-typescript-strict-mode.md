@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Encourages the use of TypeScript strict mode to catch null reference errors at compile time, and demonstrates how to use type guards instead of assertions.
 ---
 
 TypeScript has had the `strict` compiler option for a while now. It enables several more stringent checks, including two of my favourites: `noImplicitAny` and `strictNullChecks`. My summary of strict mode would be this…

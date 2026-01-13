@@ -9,6 +9,7 @@ categories:
 tags:
     - Node
     - TypeScript
+description: Resolve "ESM module loader is experimental" warnings in Node.js by setting the module type in package.json or using commonjs compiler options.
 ---
 
 If you fire up a new TypeScript app and whack it into Node, you might come across the following error about *The ESM Module Loader is Experimental*.

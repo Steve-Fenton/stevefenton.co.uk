@@ -9,6 +9,7 @@ categories:
 tags:
     - Images
     - TypeScript
+description: Walkthrough of building a TypeScript utility to count pixels in an image by colour, featuring performance optimizations for blocking UI threads.
 ---
 
 In the process of writing an article on Pie Charts, I was faced with a situation where I needed to programmatically count the pixels on the pie chart in order to reverse-engineer the original values. To do this, I wrote a quick utility in TypeScript to do the following:

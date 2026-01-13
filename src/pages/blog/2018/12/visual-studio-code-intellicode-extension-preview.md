@@ -9,6 +9,7 @@ categories:
     - 'Visual Studio'
 tags:
     - TypeScript
+description: Reviews the IntelliCode extension for VS Code which uses AI to prioritize auto-completion suggestions.
 ---
 
 IntelliCode brings AI-assisted power-ups to your auto-completion. It has been in preview within Visual Studio for some time (you can [read about Visual Studio IntelliCode here](/blog/2018/05/visual-studio-intellicode/)) – but it has now landed in Visual Studio Code, which is exceptionally handy if you’re a TypeScript programmer like me.

@@ -9,6 +9,7 @@ categories:
 tags:
     - .net
     - C-Sharp
+description: C# 9 introduces record types, offering a concise syntax for immutable data models with built-in value equality.
 ---
 
 **Update**! Since this article was published, it is *almost certain* that the keyword for record types will actually be `record` not `data` as it was in this early preview. I’ve updated code examples to reflect this.

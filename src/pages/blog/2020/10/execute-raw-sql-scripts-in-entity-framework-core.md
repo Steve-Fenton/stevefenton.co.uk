@@ -9,6 +9,7 @@ categories:
 tags:
     - C-Sharp
     - 'Entity Framework'
+description: Use ExecuteSqlInterpolatedAsync in EF Core for efficient bulk operations like deletions, avoiding the overhead of tracking entities.
 ---
 
 Most of the time, Entity Framework Core will just *do the right thing*. Every now and then, though, you’ll find that it’s doing something in a bit of a sticky way and you’ll want to take control. Usually it’s when you’re deleting a range on a table with cascading deletes.

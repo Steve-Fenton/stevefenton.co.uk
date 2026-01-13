@@ -9,6 +9,7 @@ categories:
     - 'Content Management'
 tags:
     - Kentico
+description: Troubleshooting tip for Kentico Marketing Automation where unconnected steps in the visual designer can silently fail to execute.
 ---
 
 I found this problem while investigating a marketing automation issue in Kentico. The problem reported was that the standard abandoned basket feature wasn’t sending the configured email. I must admit, my first checks were to ensure the SMTP configuration was correct – and that the scheduled task within Kentico was running. The actual fix was much simpler.

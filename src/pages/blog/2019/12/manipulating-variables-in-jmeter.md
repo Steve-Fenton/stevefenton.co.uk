@@ -10,6 +10,7 @@ categories:
 tags:
     - JavaScript
     - JMeter
+description: Demonstrates how to manipulate JMeter variables using JavaScript pre-processors, useful for cleaning data from CSV configs.
 ---
 
 There are many reasons for manipulating variables in JMeter, especially when you are loading data from a [CSV data set](/blog/2014/03/really-useful-jmeter-csv-data-set-config/) config element. You might want to trim a JMeter variable, or grab just a substring.

@@ -10,6 +10,7 @@ categories:
 tags:
     - Monitoring
     - Operations
+description: Introduces the Monitor Matrix technique, combining monitoring types (Availability, Utilisation, Performance) with targets (Network, Server, App) to create comprehensive operational visibility.
 ---
 
 This is the last in a series of posts to share some techniques that I wrote about in [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). In this final bite-size chunk, I’m going to talk about the Monitor Matrix.

@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - C-Sharp
+description: Explains C# 8 Recursive Patterns as "power if statements" allowing complex condition matching and variable extraction.
 ---
 
 One of the new features in C# 8.0 is Recursive Patterns, or *Power If Statements*. The easiest way to explain this new feature is to unpack the example from the [Building C# 8.0 article](https://blogs.msdn.microsoft.com/dotnet/2018/11/12/building-c-8-0/).

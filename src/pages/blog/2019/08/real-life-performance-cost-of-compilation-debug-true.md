@@ -9,6 +9,7 @@ categories:
 tags:
     - ASP.NET
     - Performance
+description: Setting compilation debug="true" in ASP.NET can reduce application performance by 3% to 12%, so ensure it's removed in production.
 ---
 
 There is a little setting in your ASP.NET Web.config file that sets compilation debug to true. If you debug your application locally, this gets set for you if it hasn’t been set already…

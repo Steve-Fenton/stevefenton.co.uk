@@ -9,6 +9,7 @@ categories:
 tags:
     - C-Sharp
     - Linq
+description: Introduces a Map extension method for single objects in C#, enabling LINQ-style fluent mapping syntax.
 ---
 
 Linq is not just the go-to .NET library for handling IEnumerable data sources, it’s the inspiration for many successful and unsucessful attempts to reproduce the style in other languages.

@@ -11,6 +11,7 @@ categories:
     - Other
 tags:
     - OOP
+description: A philosophical take on applying the SOLID principles of object-oriented programming to daily life and personal growth.
 ---
 
 I thought I’d have a bit of fun applying Bob Martin’s [SOLID Principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) to life. Obviously, this is a metaphor that could be stretched too far; but here are the principles of object-oriented living. If you aren’t familiar with these principles as applied to programming, you probably ought to start with Bob Martin’s article linked above.

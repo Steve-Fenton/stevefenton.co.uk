@@ -14,6 +14,7 @@ tags:
     - Keyboard
     - PowerShell
     - 'Touch Portal'
+description: Use an old phone and Touch Portal to create a programmable keyboard for shortcuts, batch files, and PowerShell scripts.
 ---
 
 It seems like everyone has a high-quality, expensive, programmable deck on their desk these days. Elgato’s Stream Deck, with it’s glowing LCD buttons, comes in flavours that cost between £100 and £200 (depending on how many buttons you want). It’s beautiful bit of kit that glows its way into the hearts of tech geeks everywhere. If you’re on a budget, though, you can hack together some neat shortcuts using just an old phone, and Touch Portal.

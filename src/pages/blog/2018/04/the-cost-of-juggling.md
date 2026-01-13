@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - WIP
+description: Uses the analogy of juggling Rubik's cubes to demonstrate how high work-in-process (WIP) and multitasking drastically reduce efficiency in software development.
 ---
 
 On the 2nd of September 2017, in Middletown USA, Patrick Ponce achieved the world record for solving a Rubik’s Cube by twisting that damn thing into the correct position in 4.69 seconds. He got a [certificate](http://www.guinnessworldrecords.com/world-records/72863-fastest-time-to-solve-a-rubiks-cube) for it from Guinness World Records Limited. Rafael Solano commented on this saying:

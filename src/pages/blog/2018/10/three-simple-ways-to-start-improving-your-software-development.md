@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - Agile
+description: Suggests three fundamental ways to improve software development. Make Work Visible, Limit Work in Process, and Deliver Early and Often.
 ---
 
 These are the three things I encourage people to look at when they aren’t getting what they need out of their software development process. Because I had started with these so many times, I sometimes imagine everyone knows all about them; but each time I start helping a software team turn things around I find that these techniques have yet to be applied.

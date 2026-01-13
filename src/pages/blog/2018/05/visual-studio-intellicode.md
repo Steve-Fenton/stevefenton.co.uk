@@ -12,6 +12,7 @@ categories:
     - 'Visual Studio'
 tags:
     - Productivity
+description: Introduces Visual Studio IntelliCode, an AI-powered version of IntelliSense that orders suggestions by relevance and infers coding styles.
 ---
 
 I have been writing C# code in Visual Studio since 2003. One of the big attractions of C# is the tooling. Visual Studio is awesome. Over the years I have worked in lots of IDEs and editors, but my go-to tools are Visual Studio and Visual Studio Code. I don’t know who writes these tools, but they know what they are doing.

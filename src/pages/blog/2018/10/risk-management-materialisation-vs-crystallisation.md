@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - 'Risk Management'
+description: Explains the difference between risk materialisation (when an event happens) and crystallisation (when the impact is realized) using practical examples.
 ---
 
 Risk Management was first made interesting for me by Tom DeMarco and Timothy Lister in *Waltzing with Bears*. If you want to know more about the subject, that’s an excellent place to start. But what is the difference between *materialisation* and *crystallisation* in the world of risk?

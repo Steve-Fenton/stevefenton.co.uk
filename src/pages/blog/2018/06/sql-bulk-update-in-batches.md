@@ -11,6 +11,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL script to perform large updates in small batches, avoiding table locks and allowing progress tracking.
 ---
 
 :::div{.inset}

@@ -12,6 +12,7 @@ categories:
 tags:
     - Design
     - UX
+description: Discusses the benefits of clean UI design while warning against usability pitfalls like hiding controls until hover, which can frustrate users.
 ---
 
 There used to be a trend in software creation where users would ask software developers to “add a type drop down to the auto date section”; and the developer would just do it. The result of this obedient style of software development did not result in a clean UI. The screenshot below can be found with several others on [this review of Bulk Rename Utility](http://www.softpedia.com/reviews/windows/Bulk-Rename-Utility--82549.shtml). This is a highly organised user interface, but is very cluttered.

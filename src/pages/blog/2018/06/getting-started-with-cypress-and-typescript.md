@@ -13,6 +13,7 @@ tags:
     - Cypress
     - Testing
     - TypeScript
+description: A quick start guide for setting up Cypress with TypeScript, including package configuration and a sample Component Object Model test.
 ---
 
 Cypress is a front-end testing utility that allows you to write UI tests using Mocha and Chai. It has auto-waits, time-travel (look back at snapshots from within test runs), and automatic discovery of tests. This blog provides a quick start for getting started with Cypress and TypeScript.

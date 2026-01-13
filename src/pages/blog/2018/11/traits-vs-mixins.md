@@ -9,6 +9,7 @@ categories:
 tags:
     - Mixins
     - Traits
+description: Explains difference between Traits (stateless) and Mixins (stateful) in context of C# 8 default implementations.
 ---
 
 Here is a quick disambiguation between Traits vs Mixins for programmers.

@@ -12,6 +12,7 @@ categories:
 tags:
     - Estimates
     - 'Product Management'
+description: Introduces the Phase Precision Premise to contextually manage products by matching estimation precision to the relationship between cost and benefit.
 ---
 
 When I worked on the technical side of software development, I talked a great deal about [\#NoEstimates](/tag/estimates/1/). I'm now on the business side of software development (in charge of all products and data for a global :abbr[SaaS]{title="Software as a Service"} provider). I thought it would be a good time to revisit estimates and put them in context using the Phase Precision Premise.

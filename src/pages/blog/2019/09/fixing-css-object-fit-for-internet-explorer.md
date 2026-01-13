@@ -10,6 +10,7 @@ tags:
     - CSS
     - HTML
     - JavaScript
+description: Guide to fixing CSS object-fit support in Internet Explorer using a JavaScript shim.
 ---
 
 A common problem with images, especially if they are user-generated, is that they don’t have the correct aspect ratio for their intended purpose. Also, as we re-flow pages for many different devices, we often want the image to work with different aspect ratios. This is where the CSS `object-fit` property comes in very useful. There are a number of possible values for `object-fit`, but the most-used of them all is `object-fit: cover;`. This asks the browser to fill the rectangle with the image by cropping it, rather than stretching it.

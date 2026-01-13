@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Use TypeScript type annotations sparingly, primarily on function parameters and return values, to leverage type inference and reduce noise.
 ---
 
 I have long held fast to a basic principle of [letting type inference do your work for you](/blog/2014/07/embrace-type-inference-in-typescript/). That means not adding type annotations unless you have a good reason to. I thought I would supply a bit more information on where to put your TypeScript type annotations and when they add value rather than noise.

@@ -10,6 +10,7 @@ tags:
     - Chromium
     - Edge
     - 'Internet Explorer'
+description: Reviews the developer preview of Chromium-based Edge, highlighting its performance, compatibility, and potential to compete in the browser market.
 ---
 
 Full disclosure. I’m about to discuss Microsoft browsers and I’m a Microsoft MVP. More importantly, I’ve been using web browsers since before either Firefox or Chrome existed, and for ten years I haven’t used a Microsoft browser as my default. So, read on and let’s talk about browsers!

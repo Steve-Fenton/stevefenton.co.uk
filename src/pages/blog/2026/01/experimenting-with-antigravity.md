@@ -111,7 +111,29 @@ This is where I learned the keyboard shortcuts. `ALT` + `Enter` to accept a chan
 One piece of feedback I have is that the hover bar telling you these shortcut keys obscures the first line of the change, which isn't ideal.
 
 Getting fluid with this mechanism is going to be key to success. This may be a better way to review changes than mopping up in the source control changes at the end. That hover box position needs to be fixed to make this work well.
-  
+
+```text
+That worked well. Let's do another 50. This time, don't allow any : characters in the description as it messes with YAML. I'd rather not use that character than start quoting the stings.
+```
+
+I notice at this point that you can approve changes while it's still working. You don't have to wait for all 50 files to be ready. That's a neat bit of parallelism.
+
+If you overtake Antigravity, you can pause and use the keyboard shortcut to find the next change when it's ready.
+
+It did add another item with a `:` character, which would have been a YAML error. I fixed it during the review process.
+
+I also noticed during this workflow, I had reviewed 97 changes and it's still going. The 50 file limit has been forgotten here.
+
+It would be nice if it didn't keep tabs open for changes I accept. I don't like opening lots of tabs or trying to find the file I *have* manually edited. I only want the tab to remain if I've made a change, not if I just accepted the change. I compare this to the source control changes process, where it re-uses the diff window, unless you manually change the file in which case it opens a new diff for the next change and reuses that.
+
+The fact it's ignoring the 50 file limit isn't bad from a review perspective. It does mean we're moving too far forward before running the build and tests.
+
+This run kept going until I hit my model limit.
+
+This is probably a good time to look at pricing for higher limits. As of January 2026, it's about £20 per month for a pro plan and £240 for an ultra plan. You get a quota and a rate limit. The quota is the amount of stuff you can, the rate limit is the time it takes to refresh your quota. I can't find specific information on the quota, but rate limits are weekly on free plans and every 5 hours on paid plans.
+
+Hitting the quote didn't seem to prevent in-editor suggestions, just the Antigravity chat interface.
+
 ## Checking in
 
 Antigravity checked with me before running any terminal commands, or when it created a larger implementation plan to execute.

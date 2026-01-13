@@ -10,6 +10,7 @@ tags:
     - Datadog
     - DevOps
     - Monitoring
+description: Explains how to use the Datadog Notes widget to annotate dashboards with descriptive text.
 ---
 
 When you think about Datadog, you are very often thinking about charts. Which visualisations will bring forth insights from your metrics. What actionable information can you present on your wallboards. What you might not be thinking about is the humble subject of Datadog notes.
