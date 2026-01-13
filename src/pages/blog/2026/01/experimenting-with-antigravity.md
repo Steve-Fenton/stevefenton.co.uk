@@ -96,6 +96,11 @@ We don't want to just use the first line of the post. It should be a summary of 
 We'll do 10 at a time so we can check and refine the process before we do more.
 ```
 
+- Did a grep to find pages without a description
+- Looked at files to generate a summary for each one
+- Ran pnpm build to check for errors
+- Confirmed all the changes back to me
+  
 ## Checking in
 
 Antigravity checked with me before running any terminal commands, or when it created a larger implementation plan to execute.

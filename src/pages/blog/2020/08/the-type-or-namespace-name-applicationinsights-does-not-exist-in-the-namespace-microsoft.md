@@ -10,6 +10,7 @@ tags:
     - ASP.NET
     - C-Sharp
     - MVC
+description: Fix the 'ApplicationInsights does not exist' error in ASP.NET Core MVC by removing references from the _ViewImports.cshtml file after uninstalling the package.
 ---
 
 If you uninstall the Application Insights package from a .NET Core MVC project, you might get a few errors as it can’t “remove all the references” that might have made it into your application. The changes to StartUp.cs will be pretty self-explantory, but elsewhere you will get something a bit more off-the-wall as it references .cshtml.g.cs files.

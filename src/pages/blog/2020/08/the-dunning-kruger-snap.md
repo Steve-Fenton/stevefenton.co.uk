@@ -8,6 +8,7 @@ categories:
     - Psychology
 tags:
     - 'Dunning-Kruger Effect'
+description: The Dunning-Kruger Snap is the jarring realisation that the effect applies to you, not just others. Embrace this moment of self-awareness to become a better human.
 ---
 
 This is a short post, which assumes you are already familiar with the Dunning-Kruger Effect.
