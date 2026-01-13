@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - Azure
+description: Save money by scheduling Azure App Services to start and stop automatically. A step-by-step guide to using Azure Logic Apps with recurrence triggers.
 ---
 
 Although starting and stopping a web app doesn’t in itself save you a great deal of cash, in situations where you have Web Jobs running and a serverless database, you can effectively run a “business hours” app at a lower cost if you stop it outside of business hours.

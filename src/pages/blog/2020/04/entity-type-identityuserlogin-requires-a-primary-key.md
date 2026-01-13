@@ -12,6 +12,7 @@ tags:
     - Core
     - 'Entity Framework'
     - Identity
+description: Fix the IdentityUserLogin requires a primary key error in EF Core. Ensure you call the base OnModelCreating method when overriding it.
 ---
 
 You will usually come across this problem in .net Core Entity Framework when you first override the `OnModelCreating` method in your `DbContext`.

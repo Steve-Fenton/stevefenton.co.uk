@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Drop SQL Server constraints without knowing their names. A T-SQL script to lookup and remove constraints by table and column.
 ---
 
 If you are looking after a database that has been haphazardly maintained in the past, you might come across inconsistent naming of things such as constraints. When you come to delete the existing one, it might be tricky if it doesn’t have the same name across environments.

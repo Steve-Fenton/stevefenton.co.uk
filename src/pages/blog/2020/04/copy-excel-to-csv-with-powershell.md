@@ -10,6 +10,7 @@ categories:
 tags:
     - Excel
     - PowerShell
+description: Automate converting Excel files to CSV with PowerShell. A simple script to save worksheets as CSV files without opening Excel.
 ---
 
 Having opened up the same Excel spreadsheet to save the data as a CSV for the third time, I wrote a PowerShell script to do it for me.

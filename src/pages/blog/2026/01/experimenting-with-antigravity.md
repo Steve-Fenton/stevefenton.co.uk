@@ -99,7 +99,16 @@ We'll do 10 at a time so we can check and refine the process before we do more.
 - Did a grep to find pages without a description
 - Looked at files to generate a summary for each one
 - Ran pnpm build to check for errors
+- This is an old machine, so it took a while, so it waited for the command to finish
 - Confirmed all the changes back to me
+
+```text
+Can we now do another 50.
+```
+
+This is where I learned the keyboard shortcuts. `ALT` + `Enter` to accept a change. `ALT` + `L` to move to the next change. You can also use `ALT` + `Shift` + `Backspace` to reject a change. I did that last one by accident!
+
+One piece of feedback I have is that the hover bar telling you these shortcut keys obscures the first line of the change, which isn't ideal.
   
 ## Checking in
 

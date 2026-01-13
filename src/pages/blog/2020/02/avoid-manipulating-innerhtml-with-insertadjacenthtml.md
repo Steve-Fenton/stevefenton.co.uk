@@ -9,6 +9,7 @@ categories:
 tags:
     - JavaScript
     - TypeScript
+description: Avoid inefficient innerHTML manipulation by using insertAdjacentHTML. Learn how to securely insert HTML before or after elements without full serialization.
 ---
 
 It is pretty well known these days that fiddling with `innerHTML` is terribly inefficient. It triggers serialization, and it can result in invalid markup. Nevertheless, you’ll still find this being done in many applications.

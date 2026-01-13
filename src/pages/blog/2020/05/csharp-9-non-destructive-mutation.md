@@ -9,6 +9,7 @@ categories:
 tags:
     - .net
     - C-Sharp
+description: C# 9 Feature. Non-destructive mutation with `with` expressions. Create modified copies of record types while preserving the original immutable state.
 ---
 
 There are some phrases in programming that feel like they belong in a superhero movie. Non-destructive mutation is just such as phrase. It refers to a concept in functional programming that means when you want to change the state of an object, you create a copy with the change – rather than changing the original.

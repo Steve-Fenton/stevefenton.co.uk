@@ -10,6 +10,7 @@ categories:
 tags:
     - DNS
     - Nameservers
+description: Troubleshoot DNS issues with nslookup. Learn commands to check specific nameservers, record types, and propagation.
 ---
 
 The `nslookup` command is really easy to use. You just type `nslookup [host-name]` and you get an answer. But what do you do when it looks like it is working, but your monitoring is detecting intermittent issues connecting to a website? The answer is, you check each nameserver individually to make sure they are all giving out the same answer.

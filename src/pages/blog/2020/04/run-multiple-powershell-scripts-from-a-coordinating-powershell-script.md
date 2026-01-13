@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - PowerShell
+description: Organize complex PowerShell tasks by calling multiple scripts from a master coordinator. Keep your scripts modular and maintainable.
 ---
 
 Having put together some individual scripts that ripped data out of an Excel spreadsheet, I decided to co-ordinate them with a co-ordinating PowerShell script that would contain my variables and call out to neat little scripts to do work. PowerShell gets tricky to read when it gets big, so I prefer to have a couple of smaller files doing specific things.

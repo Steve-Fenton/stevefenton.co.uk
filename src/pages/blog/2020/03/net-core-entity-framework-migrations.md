@@ -10,6 +10,7 @@ tags:
     - .net
     - Core
     - 'Entity Framework'
+description: Manage database changes with Entity Framework Core Migrations. Learn commands to add, update, and remove migrations, plus troubleshooting tips.
 ---
 
 When you don’t want to script out your own database, Entity Framework Core has your back. When you change your database context or the models it uses, you can use a couple of commands to create and update your database to keep it in sync with your model. These examples run in the Package Manager console (and if you have trouble running them, check the end of this post).

@@ -12,6 +12,7 @@ categories:
 tags:
     - Excel
     - VBA
+description: Use VBA to dynamically change Excel cell colors based on RGB data. A simple guide to the Worksheet_Change event for visual feedback.
 ---
 
 This might be a bit niche, but I needed to collect :abbr[RGB]{title="red, green, blue"} values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!

@@ -6,6 +6,7 @@ authors:
     - steve-fenton
 categories:
     - Other
+description: A light hearted argument for why the new decade starts in 2020. Reclaiming 'the twenties' from pedantic date definitions.
 ---
 
 As we entered 2020, you will have no doubt heard people celebrating the new decade. Just as certainly, you will have heard those declaring that this is not the start of a decade, because we have to wait until 2021. In this post, I rebut this tiresome pseudo-intellectual peacocking and gift back to the humble people of the world the decade that is, to the 21st century, the twenties.
