@@ -22,6 +22,10 @@ I'll update this page with any events that I'm running, attending, or speaking a
   **KubeCon Europe**\
   Amsterdam\
   [Resgister for KubeCon Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/)
+- March 13\
+  **DevOps Not Dead**\
+  London\
+  [Register for DevOps Not Dead](https://devopsnotdead.com/2026-london-q1/)
 - March 4-5\
   **DevOps Live London**\
   Excel London\
