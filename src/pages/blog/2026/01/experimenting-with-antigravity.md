@@ -109,6 +109,8 @@ Can we now do another 50.
 This is where I learned the keyboard shortcuts. `ALT` + `Enter` to accept a change. `ALT` + `L` to move to the next change. You can also use `ALT` + `Shift` + `Backspace` to reject a change. I did that last one by accident!
 
 One piece of feedback I have is that the hover bar telling you these shortcut keys obscures the first line of the change, which isn't ideal.
+
+Getting fluid with this mechanism is going to be key to success. This may be a better way to review changes than mopping up in the source control changes at the end. That hover box position needs to be fixed to make this work well.
   
 ## Checking in
 
