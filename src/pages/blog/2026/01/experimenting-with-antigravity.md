@@ -86,6 +86,16 @@ Here's a new problem. You now have 930 changes. You've created too much change t
 
 I wonder how many people will kinda head down this rabbit hole and fear the giant "undo". They will be knee deep and digging frantically. I decided to back up. All that research about small change sets can't be wrong.
 
+```text
+Okay, we'll track back a bit here. I've reverted changes so we're in a clean state. The temporary scripts are all gone and we're going to try things differently.
+
+Let's find 10 blog posts without a description in the front matter and create a description that's about 160-180 characters long that summarizes the post. This will be shown to users on list pages, so it just needs to tell them what they'll find if they click through.
+
+We don't want to just use the first line of the post. It should be a summary of the post.
+
+We'll do 10 at a time so we can check and refine the process before we do more.
+```
+
 ## Checking in
 
 Antigravity checked with me before running any terminal commands, or when it created a larger implementation plan to execute.
