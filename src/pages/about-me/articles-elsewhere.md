@@ -112,6 +112,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
 - [How to measure AI’s organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
+- [Stop wasting AI investment on a broken change approval process](https://thenewstack.io/stop-wasting-ai-investment-on-a-broken-change-approval-process/)
 
 ## Multi-tenancy
 
