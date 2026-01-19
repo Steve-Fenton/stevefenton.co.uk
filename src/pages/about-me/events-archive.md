@@ -8,7 +8,7 @@ description: An archive of my past online and in-person events.
 navMenu: false
 ---
 
-This page contains an archive of past events.
+This page captures past events. You can view [my current event list here](/about-me/events/).
 
 ## 2025
 
