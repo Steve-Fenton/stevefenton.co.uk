@@ -11,7 +11,7 @@ I'll update this page with any events that I'm running, attending, or speaking a
 
 ## 2026
 
-<div class="timeline">
+<div class="timeline" data-timeline>
 
 <div class="timeline-event">
 <button aria-expanded="false">

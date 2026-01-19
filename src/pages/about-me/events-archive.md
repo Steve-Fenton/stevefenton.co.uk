@@ -12,7 +12,7 @@ This page contains an archive of past events.
 
 ## 2025
 
-<div class="timeline">
+<div class="timeline" data-timeline>
 
 <div class="timeline-event">
 <button aria-expanded="false">
@@ -149,7 +149,7 @@ This page contains an archive of past events.
 
 ## 2024
 
-<div class="timeline">
+<div class="timeline" data-timeline>
 
 <div class="timeline-event">
 <button aria-expanded="false">
@@ -247,7 +247,7 @@ This page contains an archive of past events.
 
 ## 2023
 
-<div class="timeline">
+<div class="timeline" data-timeline>
 
 <div class="timeline-event">
 <button aria-expanded="false">
