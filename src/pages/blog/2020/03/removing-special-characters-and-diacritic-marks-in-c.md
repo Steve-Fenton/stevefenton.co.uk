@@ -9,6 +9,7 @@ categories:
 tags:
     - .net
     - C-Sharp
+description: Simplify strings for comparison in C# by removing diacritic marks and special characters. A code snippet for normalizing text.
 ---
 
 I did this trick in [JavaScript to remove diacritic marks](/blog/2019/09/simplify-strings-for-comparison-by-removing-special-characters-and-diacritic-marks/) a while back and the need to perform a similar transformation in C# came up this week.

@@ -9,6 +9,7 @@ categories:
 tags:
     - .net
     - C-Sharp
+description: C# 9 Feature. Covariant Return Types. Learn how to override methods to return more specific types, avoiding the need for generics or casting.
 ---
 
 Just a quick note on a neat feature in C# 9 that will allow sub-classes to return a covariant return type… what?! Okay, it allows you to return a more specific, or narrower type.

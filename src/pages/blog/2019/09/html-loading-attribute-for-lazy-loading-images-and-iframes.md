@@ -9,6 +9,7 @@ categories:
 tags:
     - HTML
     - JavaScript
+description: Introduction to the native HTML loading attribute for lazy loading images and iframes, with fallback strategies.
 ---
 
 If you have been writing websites or web apps for any length of time, you will almost certainly have implemented some form of lazy-loading using JavaScript. I recently worked on a web app that implemented a search that benefitted to the tune of half-a-gig by deferring the loading of images until those images were actually likely to be shown to a user. While you still need to keep these implementations for a little longer, there is an interesting new HTML loading attribute on the horizon that allows you to defer image and iframe loading until they are close to being shown. The WHATWG have a [pull request](https://github.com/whatwg/html/pull/3752) for this feature, and it’s already [part of Chromium (as of v76)](https://web.dev/native-lazy-loading).

@@ -12,6 +12,7 @@ categories:
 tags:
     - Statistics
     - Data
+description: Clarifies why unique visitor counts for longer periods are lower than the sum of shorter periods due to returning visitors.
 ---
 
 Whether you use Google Analytics, Adobe Analytics, or some other package to learn about your web traffic, you are likely to come across some odd looking numbers when you start cutting up your Unique Visitors. For example, when you look at your monthly reports and compare them to your annual report you’ll find that you have less unique visitors per year than you expected based on your month-on-month reporting. This article will explain why this is perfectly fine.

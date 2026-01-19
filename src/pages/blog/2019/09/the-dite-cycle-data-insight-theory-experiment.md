@@ -13,6 +13,7 @@ categories:
 tags:
     - Data
     - DITE
+description: Explains the DITE (Data, Insight, Theory, Experiment) cycle for iterative, data-driven product development.
 ---
 
 This is not my idea, though I’ve named it the DITE cycle in opposition to other available alternatives. There are lots of organisations and individuals doing something along these lines and they all give it different names. There are echoes of The Lean Startup, flashes of Spotify’s :abbr[DIBBs]{title="Data Insight Belief Bet"}, the velvety touch of Impact Mapping, and whiffs of the golden :abbr[PDSA]{title="Plan Do Sense Act"} cycle (which has been re-invented and re-named many times before).

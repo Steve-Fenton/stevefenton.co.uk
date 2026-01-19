@@ -8,6 +8,7 @@ categories:
     - Analytics
 tags:
     - Adobe
+description: Guide on using custom events and data elements to decouple Adobe Analytics from your website's implementation details.
 ---
 
 Websites change. Often. If your analytics depend too much on the exact implementation details of your website your world will be full of hurt when you change it later on. This is why I prefer to use custom events to decouple Adobe Analytics from the website it is tracking.

@@ -9,6 +9,7 @@ categories:
 tags:
     - Agile
     - Lean
+description: Argues that organizational processes must evolve alongside goals, illustrating this with the outdated format of The Apprentice.
 ---
 
 The Apprentice (UK). It started out as a show that offered the prize of a job working for Sir (now Lord) Alan Sugar. If you trust in the magic of television, you’ll believe that a series of tasks were devised to test the many skills needed to take on a job in one of the chief’s many eponymous companies. If you stretched your imagination you could, perhaps, map the light-comedy entertainment back to skills such as negotiation, forecasting, decision-making, leadership, and hell-camp management shouting. The process was, fictionally, designed as a twelve-installment interview for a real job. Well, a job.

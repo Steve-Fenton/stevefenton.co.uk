@@ -8,6 +8,7 @@ categories:
     - Process
 tags:
     - Pomodoro
+description: Recommends the Oregon Scientific TW331 timer for Pomodoro technique as it offers a visible but silent countdown.
 ---
 
 When you are using [The Pomodoro Technique®](https://francescocirillo.com/pages/pomodoro-technique) there is always a bit of a choice to make about your timer. I started out with a proper mechanical Tomato timer, I tried a phone app for Pomodoro, and I tried just the standard clock app.

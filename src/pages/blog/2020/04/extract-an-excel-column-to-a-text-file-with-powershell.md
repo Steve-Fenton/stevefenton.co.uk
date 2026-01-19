@@ -10,6 +10,7 @@ categories:
 tags:
     - Excel
     - PowerShell
+description: Automate Excel data extraction with PowerShell. A script to export a specific column range to a text file for test automation.
 ---
 
 Having opened up the same Excel spreadsheet to copy out a list of domain names into a text file for my test automation tools to consume for the third time, I wrote a PowerShell script to do it for me. Yes, it’s the same spreadsheet I mentioned before, it is full of interesting data and is super useful for pumping into a ton of different kinds of test automation that I wrote. I would hazard a guess that my test automation is equivalent to two people checking stuff full time.

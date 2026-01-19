@@ -11,6 +11,7 @@ tags:
     - DbUp
     - Deployments
     - SQL
+description: Enhance database deployments with DbUp using sequential naming, idempotent scripts, immutability, folder organization, and universal usage.
 ---
 
 I tuned into the [Octopus Deploy](https://octopus.com/) and [Clear Measure](https://www.clear-measure.com/) live stream on safe, automated, and drama-free database deployments and there was a flurry of really useful [DbUp](https://dbup.readthedocs.io/en/latest/) tips from Paul Stovell that I wanted to share.

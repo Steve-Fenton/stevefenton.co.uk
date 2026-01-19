@@ -11,6 +11,7 @@ categories:
     - Analytics
 tags:
     - Data
+description: Discusses defining BizOps metrics with Metric, Lifetime, and Accuracy (MLA) to ensure they drive correct business decisions.
 ---
 
 We all know that BizOps is gaining momemntum and that we need to think about how we take care of it in our own organisations. Not just because it’s yet another buzzword ending in “Ops”, but because of what we’ve been piecing together for many years. If you’ve read Start With Why, or The Lean Startup, or one of the many excellent business and management books to have been penned post-McGregor, you’ll know what lies at the heart of BizOps… adding some cold hard economic facts to our smushy organic human decisions. We’re not trying to replace those dendrites, axons, and neurons with robot decision making; we’re trying to supply some rational data to accompany the emotive stuff. That human part of the decision is still important, because your data isn’t going to come up with many ideas – so we need a way to test out the ideas that we come up with objectively and scientifically.

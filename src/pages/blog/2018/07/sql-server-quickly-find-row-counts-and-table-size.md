@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Shows how to use `sp_spaceused` to quickly retrieve row counts and storage usage for large SQL Server tables.
 ---
 
 I have a [script I use to find table sizes in SQL server](/blog/2016/05/finding-table-sizes-in-sql-server/). Sometimes, though, I need to find the rough table size of a massive table without the need for absolute precision.

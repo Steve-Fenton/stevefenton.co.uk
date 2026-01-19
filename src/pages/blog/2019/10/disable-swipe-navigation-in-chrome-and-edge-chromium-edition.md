@@ -9,6 +9,7 @@ categories:
 tags:
     - Chrome
     - Edge
+description: Explains how to disable the overscroll history navigation feature in Chrome and Edge to prevent accidental back actions.
 ---
 
 There’s a feature in Google Chrome and the new Chromium version of Microsoft Edge that navigates back or forward through your browser history when you swipe. It navigates on touch interactions, and also on track-pad interaction. If you use some web-based tools that feature horizontal scrolling (such as online Kanban boards) – this becomes infuriating.

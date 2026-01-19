@@ -8,6 +8,7 @@ categories:
     - 'Visual Studio'
 tags:
     - Productivity
+description: Optimize Visual Studio productivity by docking the properties panel, moving the test explorer, and disabling state restoration on load.
 ---
 
 Inspired by the short video by Mads Kristensen (part of a series conceived by Microsoft’s [Misty Madonna](https://twitter.com/mistymadonna))… I was inspired to update my Visual Studio layout for the first time in over ten years. What?! Ten years? Yes, for ten years I have installed Visual Studio, selected “Dark Theme”, and used it without adjustments. This was the result of the previous era of customising fonts, colours, layouts, and short-cut keys thinking I was the boss.

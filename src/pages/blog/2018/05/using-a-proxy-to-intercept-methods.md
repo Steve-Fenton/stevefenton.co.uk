@@ -12,6 +12,7 @@ categories:
 tags:
     - JavaScript
     - TypeScript
+description: Demonstrates how to use the JavaScript Proxy object to intercept method calls, using `console.log` as a practical example.
 ---
 
 :::div{.inset}

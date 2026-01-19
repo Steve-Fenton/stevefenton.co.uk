@@ -9,6 +9,7 @@ bannerImage:
     alt: Manager vs individual contributor
 categories:
     - Process
+description: Explore the three work modes. Manager, Individual Contributor, and Lubricator. How to balance focus time with responsive tasks and leadership.
 ---
 
 You can’t have been following leadership literature for very long if you haven’t heard of manager time vs individual contributor time. The general concept is that individual contributors need some big chunks of time to *get stuff done*, and managers (partly to protect these big chunks for their team) work in small fragments of time. You could loosely say that managers work in half-hour fragments, whereas individual contributors need to work in half-day chunks. It’s not precise; you could track it on a sun dial in winter.

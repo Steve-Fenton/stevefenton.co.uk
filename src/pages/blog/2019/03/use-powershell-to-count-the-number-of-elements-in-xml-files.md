@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - PowerShell
+description: Provides a PowerShell script to recursively count specific XML elements across multiple files in a directory.
 ---
 
 I needed to know how many pictures were being sent in a collection of XML documents, so I wrote a PowerShell script to count the number of picture elements.

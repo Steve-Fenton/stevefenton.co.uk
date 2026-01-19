@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - HAProxy
+description: Provides an HAProxy backend rule to strip spaces from the HTTP Referer header to fix issues with malformed browser extension requests.
 ---
 
 There is some shared code out in the wild that browser extensions are using to make requests, which might cause problems if you parse the Referer header in your website.

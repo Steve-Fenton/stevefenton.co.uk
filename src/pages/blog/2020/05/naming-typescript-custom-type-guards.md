@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Ensure TypeScript custom type guard names and return types accurately reflect the checks performed to avoid misleading consumers.
 ---
 
 This is a super quick one. Be super-careful about how you name your custom type guards to stop consumers falling into a trap. Basically, the name you give a custom type guard *and* the return type you specify form a kind of promise that you have to be able to keep. Take this example:

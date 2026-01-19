@@ -9,6 +9,7 @@ categories:
 tags:
     - Ethics
     - Scale
+description: Automation mistakes scale rapidly. Explore the ethical implications of errors at scale and why additional safeguards are critical for large systems.
 ---
 
 One of the tenets of automation is that while you can produce stuff faster, your mistakes will happen at the same speed. You might replace manually updating 100 files with a process that updates them all in the blink of an eye… but what if it updates more files than you intended. In developer terms, it’s a `DELETE FROM` with a missing `WHERE` clause. Errors happen at the speed of automation. But what about scale? Why does this become an ethical issue?

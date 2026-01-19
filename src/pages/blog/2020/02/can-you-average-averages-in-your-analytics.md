@@ -9,6 +9,7 @@ categories:
 tags:
     - Statistics
     - Data
+description: Why averaging averages leads to statistical errors. Understand the importance of weighted averages and how to calculate them correctly.
 ---
 
 There is a common question that crops up in analytics, which is *can you average your averages*. The short answer is no, but a longer explanation is probably needed.

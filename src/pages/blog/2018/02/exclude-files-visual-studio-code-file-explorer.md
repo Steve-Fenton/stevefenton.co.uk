@@ -10,6 +10,7 @@ categories:
 tags:
     - TypeScript
     - VSCode
+description: Tutorial on using the `files.exclude` setting in Visual Studio Code to hide compiled files (like .js) and system folders from the file explorer.
 ---
 
 This is a quick note with an updated version on how to exclude files from the Visual Studio Code file explorer. I originally wrote about this in 2015 before the UI was as polished as it is now. I have also found I get asked about this a great deal due to conflicting information I have encountered on this subject (mostly related to the format for matching files by file extension).

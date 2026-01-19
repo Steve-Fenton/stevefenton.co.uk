@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL script to resolve the "You can only create a user with a password in a contained database" error in SQL Server.
 ---
 
 If you attempt to create a user in SQL Server and get the following error:

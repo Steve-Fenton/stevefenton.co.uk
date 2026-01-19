@@ -9,6 +9,7 @@ categories:
 tags:
     - .net
     - C-Sharp
+description: C# 9 introduces top-level programs, removing the need for a class and Main method boilerplate in console applications.
 ---
 
 At Microsoft Build 2020, an interesting new “see less boilerplate” feature from C# 9 was demonstrated.

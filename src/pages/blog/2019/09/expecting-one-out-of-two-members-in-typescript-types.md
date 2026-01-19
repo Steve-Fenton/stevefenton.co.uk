@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Explains how to use TypeScript intersection and union types to enforce that at least one of two properties must be present.
 ---
 
 We’re going to use a simple restaurant set-menu example to explore TypeScript types. By the end of this thought-process, we’re going to be able to require one out of two members that are present on a type.

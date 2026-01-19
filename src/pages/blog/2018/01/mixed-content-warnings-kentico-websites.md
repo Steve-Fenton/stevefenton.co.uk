@@ -8,6 +8,7 @@ categories:
     - 'Content Management'
 tags:
     - Kentico
+description: Fix for mixed content warnings in Kentico when using Azure CDN, by updating the CMSAzureCDNEndpoint setting to use HTTPS.
 ---
 
 This can happen on any website, for the same reasons (there is usually a pesky non-secure image being loaded into your secure page) – but having seen the issue occur for the same reason on a couple of Kentico websites I thought I’d write down the fix.

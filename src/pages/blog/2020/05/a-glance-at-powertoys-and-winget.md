@@ -13,6 +13,7 @@ categories:
 tags:
     - 'Power Toys'
     - WinGet
+description: A look at Microsoft PowerToys and WinGet. Boost productivity with PowerToys Run and manage packages easily with the Windows Package Manager.
 ---
 
 PowerToys and WinGet are exciting previews for Windows Users. If you are a civilian, you’ll be getting these in general release soon, but for technical folks might want to try things out early. Or now!

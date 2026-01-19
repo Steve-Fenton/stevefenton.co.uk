@@ -9,6 +9,7 @@ categories:
 tags:
     - HTML
     - Usability
+description: Toggle switches vs. Checkboxes. A usability analysis. Why the humble checkbox often outperforms the trendy toggle switch for clarity and accessibility.
 ---
 
 The toggle switch has very suddenly become a ubiquitous feature of web user interfaces. You can’t hardly fill in an HTML form these days without finding one; especially as 99% of forms we now fill in are concerned with “cookie consent”. Why isn’t the toggle switch a first-class citizen of HTML, you may ask… to which the only reply is that it kind-of-is and it’s called a checkbox.

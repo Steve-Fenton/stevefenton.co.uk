@@ -15,6 +15,7 @@ tags:
     - Core
     - IIS
     - 'Web Log Importer'
+description: Analyze IIS logs efficiently by importing them into SQL Server. Use the Web Log Importer tool to query traffic patterns with standard SQL.
 ---
 
 In the past I have used [Log Parser Studio](/tag/log-parser-studio/1/) to run SQL style queries against IIS logs, but it can take a fair bit of time to do this. Sometimes you just want to run a quick SQL query against the log data that IIS has collected. SQL Server is a super quick way of running queries to discover what is going on in your log files, but you need to import your IIS log files first to be able to take advantage of the speed and familiarity of your SQL queries.

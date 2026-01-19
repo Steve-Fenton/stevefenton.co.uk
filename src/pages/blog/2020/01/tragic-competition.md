@@ -8,6 +8,7 @@ categories:
     - Other
 tags:
     - Competition
+description: When increased competition hurts consumers. A look at 'tragic competition' in subscription services where fragmentation leads to higher costs.
 ---
 
 Tragic Competition occurs when the service fragments between many service providers, and each charges a similar subscription. For example, you can currently subscribe to a music service provider who will give you “all music” for $10/month… imagine if this was replaced with multiple partial offerings at the same cost, for example each record label offering exclusive access to their artists.

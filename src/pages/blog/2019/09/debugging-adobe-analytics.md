@@ -8,6 +8,7 @@ categories:
     - Analytics
 tags:
     - Adobe
+description: Shows how to enable debug mode for Adobe Analytics in the browser console using _satellite.setDebug(true).
 ---
 
 Adobe Analytics can sometimes be a bit of an enigma, so people often turn to browser extensions to help them with debugging Adobe Analytics. However, for those of us who spend most of our lives in browser tools; there’s a simple way to get x-ray vision into what Analytics is thinking.

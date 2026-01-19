@@ -6,6 +6,7 @@ authors:
     - steve-fenton
 categories:
     - Other
+description: Supporting Depaul UK's SleepBedless campaign. Raising awareness for hidden homelessness by sleeping without a bed and donating to the cause.
 ---
 
 This month (June 2020), Depaul UK launched the #SleepBedless campaign. They asked members of the public to [sleep without beds for a night](https://uk.depaulcharity.org/sleepbedless-campaign-launched) to raise awareness of hidden homelessness and to help fundraise to help them with their coronavirus crisis costs.

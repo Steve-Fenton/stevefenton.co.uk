@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Demonstrates how to insert `sp_who2` results into a temporary table to enable filtering and sorting of active sessions.
 ---
 
 Sometimes you need to filter and sort the records you get from `sp_who2`. You can’t do this directly, but you can use a temporary table to do it.

@@ -9,6 +9,7 @@ categories:
 tags:
     - Data
     - Visualisation
+description: A humorous guide to "unpeeling" pie charts to transform them into more readable formats like stacked bars.
 ---
 
 For those of you still keen on using [pie charts](/category/pie-charts/), let’s embrace those big blobs of colour and do something cool with them. We’re going to unpeel a bunch of them. So, what’s the use of unpeeling pie charts – and how do we do it?

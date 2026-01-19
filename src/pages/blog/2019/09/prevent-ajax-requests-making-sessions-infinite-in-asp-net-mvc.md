@@ -11,6 +11,7 @@ tags:
     - ASP.NET
     - C-Sharp
     - MVC
+description: How to prevent AJAX polling from keeping ASP.NET MVC sessions alive indefinitely by suppressing the auth cookie in responses.
 ---
 
 If you are terminating inactive sessions in your ASP.NET MVC application and you add an AJAX polling call, the chances are you’ll make your sessions last forever thanks to the AJAX request bringing down an updated session cookie.

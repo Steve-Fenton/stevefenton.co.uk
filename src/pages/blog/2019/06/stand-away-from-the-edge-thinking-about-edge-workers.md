@@ -9,6 +9,7 @@ bannerImage:
     alt: A mind the gap sign spray painted on a train station platform edge
 categories:
     - Programming
+description: Discusses the trade-offs of using edge workers like Cloudflare, noting that they increase dependency and reduce architectural flexibility.
 ---
 
 As today’s Cloudflare outage rages on, with a multitude of services that depend on Cloudflare being knocked out of operation simultaneously, we are all reminded about resilience. In particular, it’s a good time to think again about edge workers.

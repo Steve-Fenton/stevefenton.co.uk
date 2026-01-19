@@ -8,6 +8,7 @@ categories:
     - Process
 tags:
     - Estimates
+description: Proposes replacing software estimates with problem budgets, where teams experiment with options until the budget is exhausted.
 ---
 
 This is an early view over a process we are experimenting with in my organisation; budgets not estimates. It represents a re-ordering of components in the planning process that generates more options and reduces single-option big bets.

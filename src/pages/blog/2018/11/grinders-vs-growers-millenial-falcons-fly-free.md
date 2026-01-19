@@ -8,6 +8,7 @@ categories:
     - Other
 tags:
     - People
+description: Contrasts "Grinders" who stagnate in toxic jobs vs "Growers" who leave to protect their career growth, advising against staying in bad environments.
 ---
 
 There is an emerging theme of videos and articles aimed at millennials, telling them that they need to stay in jobs longer and learn “grit and perseverance”.

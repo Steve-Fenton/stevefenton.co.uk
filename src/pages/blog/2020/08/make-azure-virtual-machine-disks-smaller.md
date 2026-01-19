@@ -11,6 +11,7 @@ tags:
     - Disks
     - SQL
     - 'Virtual Machine'
+description: Reducing Azure VM disk size isn't supported in the portal. Learn how to replace large disks with smaller ones by creating new disks and copying data manually.
 ---
 
 Making a disk larger on Azure is a simple process in the Azure portal. You just stop the machine, edit the disk, enter a new size and hit “Save”. When you try to make a disk smaller, you’ll be told: “New disk size should be greater than 1024 GiB. Disks can only be resized to a larger size”. Whoops. I created the VM with a pair of one-terabyte disks, and I’m using about 300MB on each one. Let’s make these Azure Virtual Machine disks smaller by replacing them with two new disks.

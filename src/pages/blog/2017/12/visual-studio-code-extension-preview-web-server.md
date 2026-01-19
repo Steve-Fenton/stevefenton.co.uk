@@ -9,6 +9,7 @@ categories:
 tags:
     - HTML
     - VSCode
+description: Recommends the "Preview on Web Server" extension for Visual Studio Code to easily launch and view local web projects.
 ---
 
 This is just a nod to the handy little Visual Studio Code Extension: [Preview on Web Server](https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server).

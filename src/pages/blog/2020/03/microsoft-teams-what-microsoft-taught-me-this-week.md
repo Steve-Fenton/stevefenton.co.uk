@@ -9,6 +9,7 @@ categories:
 tags:
     - 'Microsoft Teams'
     - WFH
+description: Tips for effective online meetings from the Microsoft MVP Summit. Learn about efficient scheduling, muting habits, and using video.
 ---
 
 After my day job this week I’m attending the Virtual MVP Summit that Microsoft are running. The event is normally held in-person, but due to the current events it was switched to 100% online with attendees *and* presenters all joining sessions from home using Microsoft Teams. When you stick 150 people into an online video call, you get to test the edges of technology, but there are some neat tricks that I have learned by watching the experts in action.

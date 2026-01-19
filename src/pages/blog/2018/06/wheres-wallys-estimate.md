@@ -9,6 +9,7 @@ bannerImage:
     alt: Where's Wally world record attempt in Dublin
 categories:
     - Process
+description: Explores estimation challenges using "Where's Wally" as a metaphor, discussing dysfunctional estimation versus useful, purpose-driven estimation.
 ---
 
 This is a balancing post to follow on from work I have done in several teams on estimates. Firstly, I’d like to confirm that in some teams, I have eliminated estimates; and in others I have improved the discipline of estimates. Both are valid approaches in different situations. What I never do is leave dysfunctional estimation in place.

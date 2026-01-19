@@ -10,6 +10,7 @@ tags:
     - .net
     - Core
     - Identity
+description: Explains how to use custom login and error pages in .NET Core Identity by removing the default UI configuration.
 ---
 
 This is a quick article about using .NET Core Identity without the standard pages. It was almost titled “why does .NET Core Identity ignore my LoginPath that I set in options?”.

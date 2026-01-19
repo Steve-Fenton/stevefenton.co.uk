@@ -11,6 +11,7 @@ tags:
     - C-Sharp
     - Core
     - MVC
+description: Troubleshoot the "IISExpress.exe exited with access violation" error in ASP.NET Core. This crash can be caused by type mismatches in view component parameters.
 ---
 
 I was happily typing away at some ASP.NET Core controllers and views, calling a view component to render out some paging links, when this happened…

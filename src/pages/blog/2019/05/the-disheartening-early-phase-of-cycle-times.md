@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - 'Cycle Time'
+description: Explains why cycle time metrics often appear to worsen initially before stabilizing as data accumulation reveals true averages.
 ---
 
 Whenever I implement cycle-time as a metric, I have to explain that there is a slightly disheartening early phase to the collection of this information.

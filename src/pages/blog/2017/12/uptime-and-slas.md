@@ -9,6 +9,7 @@ categories:
 tags:
     - Monitoring
     - Operations
+description: Debunks common myths about Uptime and SLAs, explaining the math behind "five nines" and why SLA rebates rarely cover the true business cost of downtime.
 ---
 
 This is a bonus post that follows up on some information that is useful if you read [Web Operations Dashboards, Monitoring, and Alerting](/publications/web-ops-dashboards-monitoring-and-alerting/). This article is all about uptime and SLAs.

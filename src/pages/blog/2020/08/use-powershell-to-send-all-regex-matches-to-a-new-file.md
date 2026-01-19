@@ -10,6 +10,7 @@ categories:
 tags:
     - PowerShell
     - RegEx
+description: Automate text extraction tasks using PowerShell. This script uses Get-Content, Select-String, and Out-File to find regex matches and save them to a new file.
 ---
 
 Yesterday I had to look at a list of stuff on a third-party website and match it up to a list of stuff we control. It took quite a bit of time and some Excel shenanigans to complete the task and as I know it’s going to crop up again, I decided to employ PowerShell to do it in the future.

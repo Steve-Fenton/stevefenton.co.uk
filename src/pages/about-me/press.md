@@ -31,6 +31,14 @@ I got quoted in an article on software delivery prediction for 2026.
 
 [Read the 2026 predictions on Developer Tech](https://www.developer-tech.com/news/software-development-in-2026-curing-ai-party-hangover/).
 
+## Platform Engineering: Platform table stakes just raised
+
+November 2025
+
+> Fenton explains that his perceptions in this space are drawn from working with the CNCF platform engineering community, talking to real-world developer-practitioners at events like PlatformCon, KubeCon, DevOps Live and Fast Flow Conf. He has also been doing some original research in the platform engineering space, so this is not armchair speculation.
+
+[Read platform table stakes just raised](https://platformengineering.com/features/octopus-deploy-dev-lead-platform-table-stakes-just-raised/)
+
 ## Cloud State of Play
 
 September 2025

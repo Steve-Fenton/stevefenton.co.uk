@@ -8,6 +8,7 @@ categories:
     - Other
 tags:
     - Remote
+description: Discusses how crises like the pandemic accelerate technology adoption, closing the gap between early adopters and the majority.
 ---
 
 Full credit to Geoffrey Moore, whose seminal *Crossing the Chasm* keeps proving to be a useful book thirty years after it was written. Credit also to Hans Baumhardt who introduced me to the book and who critically shaped my thinking about work and life. What I hope do, now that the credits are over, is explain how we are all currently being affected by a crisis in a positive way.

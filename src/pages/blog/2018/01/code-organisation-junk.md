@@ -13,6 +13,7 @@ tags:
     - C-Sharp
     - Java
     - TypeScript
+description: Suggests using a class's import list as a diagnostic tool to identify poor cohesion and guide refactoring into smaller, more focused units.
 ---
 
 Code organisation feels like hard work at times; but there are some mental tricks you can apply to help break the inertia. This article contains a couple of ideas that will help you get moving when you don’t know where to start. I’m not going to go through the steps you need to take to refactor your code, I’m only going to share some tricks I use to decide what needs to move.

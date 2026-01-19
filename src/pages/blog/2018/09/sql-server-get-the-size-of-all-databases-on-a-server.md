@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL query to retrieve the data and log file sizes for all databases on a SQL Server instance.
 ---
 
 The following query will get you the database size and log file size for all databases on a SQL Server instance.

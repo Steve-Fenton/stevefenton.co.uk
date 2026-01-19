@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Provides a SQL script to list availability groups and identify which server is currently the primary replica.
 ---
 
 Here is a quick SQL script that will get back information on SQL availability groups, including the role of each server. This can help you find the primary server in an availability group.

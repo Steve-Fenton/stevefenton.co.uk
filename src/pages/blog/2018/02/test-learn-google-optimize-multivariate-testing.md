@@ -10,6 +10,7 @@ tags:
     - Multivariate
     - Testing
     - Univariate
+description: A comprehensive guide to A/B and multivariate testing strategies, covering hypothesis creation, noise reduction, and implementation using Google Optimize.
 ---
 
 I started writing this article and realised it was going to be epic, so I’ve tried to break it into sections to make it easier to read. You can skip past sections that you feel you are already comfortable with.

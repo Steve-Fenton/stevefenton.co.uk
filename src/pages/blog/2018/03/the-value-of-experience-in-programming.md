@@ -12,6 +12,7 @@ categories:
 tags:
     - Economics
     - Experience
+description: Presents data from a 12-month study showing that experienced developers are significantly more cost-effective and faster than junior developers per feature delivered.
 ---
 
 It is really hard to work out the value of experience in programming. To do this effectively, you’d need to study a reasonable number of people over a reasonable time period. You’d use the data to see whether there was a demonstrable benefit to experience. This is what I did over a 12 month period.

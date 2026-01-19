@@ -11,6 +11,7 @@ categories:
     - Process
 tags:
     - Queues
+description: Explains why consolidated work boards (queues) are superior to multiple single-server queues, using a Post Office analogy to demonstrate impact on flow and variability.
 ---
 
 At the Post Office in the UK, you used to enter the building and scan the room to perform an analysis of the queues. There were a number of open windows housing counter staff, and a queue for each one. A rookie would look for the shortest queue and join the end of it, but a pro would invest a few more seconds analysing the queues. Here are some common queues with their important visual clues:

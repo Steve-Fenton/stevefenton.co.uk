@@ -9,6 +9,7 @@ categories:
 tags:
     - C-Sharp
     - JavaScript
+description: Criticises the habit of reassigning loop variables inside foreach loops, a vestige of old for-loop patterns that leads to poor variable naming.
 ---
 
 If you are a curly-braces programmer of a certain vintage, you will have done this a great deal in the past.

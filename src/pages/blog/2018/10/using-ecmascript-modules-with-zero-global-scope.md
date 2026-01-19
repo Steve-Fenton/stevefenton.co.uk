@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - TypeScript
+description: Demonstrates how to use ECMAScript modules in the browser with `type="module"` to avoid polluting the global scope.
 ---
 
  I had a question from Bruce about ECMAScript modules following on from my post on [not mixing namespaces and modules in TypeScript](/blog/2017/08/stop-mixing-typescript-modules-and-namespaces/). The question was:

@@ -11,6 +11,7 @@ categories:
     - Programming
 tags:
     - JavaScript
+description: Web notifications are useful when used correctly. Learn how to implement the Notifications API with permission checks and user-friendly request timing.
 ---
 
 Although it has been abused with an enthusiasm that borders on the insane, there are good reasons to use the [Notifications API](https://notifications.spec.whatwg.org/) in your web apps. For example, you write a mail client that allows the user to request notifications for key contacts… if they are browsing your web-based app, they should get notifications.

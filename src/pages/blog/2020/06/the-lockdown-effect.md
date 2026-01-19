@@ -6,6 +6,7 @@ authors:
     - steve-fenton
 categories:
     - Other
+description: Analyzing the business impact of COVID-19 lockdowns. Explore the concepts of winners, losers, and recoverees in the post-lockdown economy.
 ---
 
 As some countries around the world lift restrictions following COVID-19 lockdowns, we can start to see the effects the lockdown will have on different companies and industries. From the data I have seen so far, the lockdown effect seems to divide organisations into three broad categories: winners, losers, and recoverees. Let’s look at what this means.

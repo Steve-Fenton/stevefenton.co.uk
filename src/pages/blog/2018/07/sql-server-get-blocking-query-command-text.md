@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - SQL
+description: Combines `sp_who2` and `DBCC INPUTBUFFER` to find blocking queries and identify the specific SQL command causing the block.
 ---
 
 If you have a blocking query, you probably follow a set of manual steps a bit like this…

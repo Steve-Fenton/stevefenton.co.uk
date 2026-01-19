@@ -11,6 +11,7 @@ categories:
 tags:
     - HTML
     - 'Random Thought'
+description: A lighthearted observation that if HTML5 were invented today, semantic elements would likely be replaced by class-based names like "container" and "col-md-6".
 ---
 
 :::div{.inset}

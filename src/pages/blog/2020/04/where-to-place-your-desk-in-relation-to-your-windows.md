@@ -10,6 +10,7 @@ categories:
     - Other
 tags:
     - 'Office Storage'
+description: Optimize your home office desk position. Tips on lighting and ergonomics to reduce eye strain and improve comfort.
 ---
 
 *Half-human, half-bird; the sirens lured hapless sailors to their destruction*. Your window could be doing the same to you in your new :abbr[WFH]{title="Working From Home"} set up.

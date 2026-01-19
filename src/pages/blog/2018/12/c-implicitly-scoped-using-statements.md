@@ -8,6 +8,7 @@ categories:
     - Programming
 tags:
     - C-Sharp
+description: Explains the new implicitly scoped `using` statement in C# 8, which simplifies code by removing braces.
 ---
 
 This is a little gold nugget that is coming in C# 8 – implicitly scoped using statements.

@@ -13,6 +13,7 @@ tags:
     - Agile
     - DevOps
     - Operations
+description: Argues that DevOps is not a replacement for Agile but rather an evolution towards "Continuous Everything", unifying development and operations.
 ---
 
 I saw a picture that hinted that DevOps was a substitute or successor for Agile. This made me consider the question “Is DevOps a replacement for Agile?”. It had a chart that represented time from left to right, and suggested that Agile was “waterfall with shorter iterations” and that DevOps was “agile with even shorter iterations”. Here is a re-creation of the original chart.

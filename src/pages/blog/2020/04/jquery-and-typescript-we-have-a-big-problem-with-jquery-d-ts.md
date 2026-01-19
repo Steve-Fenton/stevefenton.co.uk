@@ -9,6 +9,7 @@ categories:
 tags:
     - jQuery
     - TypeScript
+description: Addressing correctness issues in jQuery's TypeScript definitions. Why the assumption that jQuery only handles HTMLElements is problematic for SVG support.
 ---
 
 This is a call to all my TypeScript connections. This is a call to all. We have a big problem with the official Definitely Typed definition for jQuery. The most fundamental definition for the JQuery interface is incorrect, as you can see in the snippet from jquery.d.ts below. We can fix it, but not without pain.
