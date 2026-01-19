@@ -51,9 +51,6 @@ jobs:
           mkdir -p dist
           tar -xvf artifact.tar -C dist
           rm artifact.tar
-          ls
-          cd dist
-          ls
 
       - name: Setup Node
         uses: actions/setup-node@v6

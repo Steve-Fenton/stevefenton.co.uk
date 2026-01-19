@@ -15,7 +15,7 @@ I'll update this page with any events that I'm running, attending, or speaking a
   **PlatformCon Live Day London**\
   London\
   [Register for PlatformCon Live Day London](https://platformcon.com/live-day-london)
-- May 6\
+- June 3\
   **Cloud Native London** (TBC)\
   Waiting to confirm
 - March 23-26\
