@@ -12,36 +12,300 @@ This page contains an archive of past events.
 
 ## 2025
 
-- December 2025: [SHIPPED25](https://octopus.com/shipped). The Research Panel. DORA: Beyond the metrics.
-- November 2025: [DevOps London: What Just Happened? Surprises From Our Platform Engineering Research](https://www.meetup.com/london-devops/events/311749333/)
-- October 2025: [Decoding DORA 2025](https://www.youtube.com/watch?v=s9slFT52Pgw&t=1s)
-- August 2025: [LeadDev - Measuring productivity without freaking people out](https://leaddev.com/event/measuring-productivity-without-freaking-people-out)
-- July 2025: [Developer Nation Meetup - The State of GitOps report](https://lu.ma/kpbns8a7?tk=Ip7t3q)
-- July 2025: [Techstrong TV - The State of GitOps report](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery)
-- June 2025: [Cloud Therapist - PlatformCon Live Stream Panel Discussion](https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739)
-- May 2025: [DORA Community - User Centricity](https://www.youtube.com/watch?v=auD5sM6V9oc)
-- March 2025: DORA Community Book Connections - The Field Guide to "Human" Error
-- March 2025: [DevOps Live London - The Nimona Method](https://www.youtube.com/watch?v=DuWvmYP4oQs)
-- March 2025: [DevOps Live London - Improve Your DevOps Culture](https://www.youtube.com/watch?v=ZH3Kc98-u64)
+<div class="timeline">
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-03-01">March 2025</time>
+<h3>DORA Community Book Connections - The Field Guide to "Human" Error</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>DORA Community Book Connections discussion.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-03-01">March 2025</time>
+<h3>DevOps Live London - The Nimona Method</h3>
+<span class="timeline-location">London, UK</span>
+<div class="timeline-details">
+<p>Presentation on The Nimona Method at DevOps Live London.</p>
+<a href="https://www.youtube.com/watch?v=DuWvmYP4oQs">Watch the session</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-03-01">March 2025</time>
+<h3>DevOps Live London - Improve Your DevOps Culture</h3>
+<span class="timeline-location">London, UK</span>
+<div class="timeline-details">
+<p>Session on improving DevOps culture at DevOps Live London.</p>
+<a href="https://www.youtube.com/watch?v=ZH3Kc98-u64">Watch the session</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-05-01">May 2025</time>
+<h3>DORA Community - User Centricity</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>DORA Community discussion on user centricity.</p>
+<a href="https://www.youtube.com/watch?v=auD5sM6V9oc">Watch the session</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-06-01">June 2025</time>
+<h3>Cloud Therapist - PlatformCon Live Stream Panel Discussion</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>PlatformCon live stream panel discussion.</p>
+<a href="https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739">Watch the panel</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-07-01">July 2025</time>
+<h3>Developer Nation Meetup - The State of GitOps report</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Presentation on The State of GitOps report.</p>
+<a href="https://lu.ma/kpbns8a7?tk=Ip7t3q">Event details</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-07-01">July 2025</time>
+<h3>Techstrong TV - The State of GitOps report</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Interview on GitOps trends and the future of continuous delivery.</p>
+<a href="https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery">Watch the interview</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-08-01">August 2025</time>
+<h3>LeadDev - Measuring productivity without freaking people out</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Session on measuring developer productivity thoughtfully.</p>
+<a href="https://leaddev.com/event/measuring-productivity-without-freaking-people-out">Event details</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-10-01">October 2025</time>
+<h3>Decoding DORA 2025</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Analysis and discussion of the DORA 2025 report.</p>
+<a href="https://www.youtube.com/watch?v=s9slFT52Pgw&t=1s">Watch the session</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-11-01">November 2025</time>
+<h3>DevOps London: What Just Happened? Surprises From Our Platform Engineering Research</h3>
+<span class="timeline-location">London, UK</span>
+<div class="timeline-details">
+<p>Presentation on platform engineering research findings.</p>
+<a href="https://www.meetup.com/london-devops/events/311749333/">Event details</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2025-12-01">December 2025</time>
+<h3>SHIPPED25 - The Research Panel. DORA: Beyond the metrics</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Research panel discussion on DORA metrics and beyond.</p>
+<a href="https://octopus.com/shipped">Event details</a>
+</div>
+</button>
+</div>
+
+</div>
 
 ## 2024
 
-- November 2024: [SHIPPED! Effective DevOps Metrics (Virtual Conference)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
-- October 2024: [Free Your Teams From Maintenance Tasks With Runbooks (Webinar)](https://www.youtube.com/watch?v=UEysbmos2T0)
-- October 2024: [Cloud Native FM - Platform Engineering (Webinar)](https://www.youtube.com/watch?v=fC-TTfW9S0M)
-- July 2024: Frontify - The DevOps Effect
-- June 2024: Merging to Main
-- June 2024: The CD Pipeline Show
-- May 2024: The State of CI/CD 2024
-- March 2024: [DevOps Live: Effective DevOps Metrics (Keynote theatre)](https://www.youtube.com/watch?v=DuWvmYP4oQs)
+<div class="timeline">
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-03-01">March 2024</time>
+<h3>DevOps Live: Effective DevOps Metrics</h3>
+<span class="timeline-location">London, UK</span>
+<div class="timeline-details">
+<p>Keynote theatre presentation on effective DevOps metrics.</p>
+<a href="https://www.youtube.com/watch?v=DuWvmYP4oQs">Watch the keynote</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-05-01">May 2024</time>
+<h3>The State of CI/CD 2024</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Presentation on The State of CI/CD 2024 report.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-06-01">June 2024</time>
+<h3>Merging to Main</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Discussion on trunk-based development and merging practices.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-06-01">June 2024</time>
+<h3>The CD Pipeline Show</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Podcast appearance on The CD Pipeline Show.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-07-01">July 2024</time>
+<h3>Frontify - The DevOps Effect</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Discussion on the DevOps effect with Frontify.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-10-01">October 2024</time>
+<h3>Free Your Teams From Maintenance Tasks With Runbooks</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Webinar on using runbooks to reduce maintenance overhead.</p>
+<a href="https://www.youtube.com/watch?v=UEysbmos2T0">Watch the webinar</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-10-01">October 2024</time>
+<h3>Cloud Native FM - Platform Engineering</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Webinar discussing platform engineering practices.</p>
+<a href="https://www.youtube.com/watch?v=fC-TTfW9S0M">Watch the webinar</a>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2024-11-01">November 2024</time>
+<h3>SHIPPED! Effective DevOps Metrics</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Virtual conference session on effective DevOps metrics.</p>
+<a href="https://www.youtube.com/watch?v=_gZCUwecZ9E">Watch the session</a>
+</div>
+</button>
+</div>
+
+</div>
 
 ## 2023
 
-- November 2023: [SHIPPED! DORA, DevOps, and Deployments](https://www.youtube.com/watch?v=DLHfHlY7fDM)
-- October 2023: Platform Engineering: To Adopt or Not To Adopt
-- August 2023: A Modern View of Multitenancy
-- June 2023: The State of Continuous Delivery Report 2023
-- May 2023: The State of Continuous Delivery Report 2023
+<div class="timeline">
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2023-05-01">May 2023</time>
+<h3>The State of Continuous Delivery Report 2023</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Presentation on The State of Continuous Delivery Report 2023.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2023-06-01">June 2023</time>
+<h3>The State of Continuous Delivery Report 2023</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Presentation on The State of Continuous Delivery Report 2023.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2023-08-01">August 2023</time>
+<h3>A Modern View of Multitenancy</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Discussion on modern multitenancy approaches.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2023-10-01">October 2023</time>
+<h3>Platform Engineering: To Adopt or Not To Adopt</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Exploring platform engineering adoption considerations.</p>
+</div>
+</button>
+</div>
+
+<div class="timeline-event">
+<button aria-expanded="false">
+<time datetime="2023-11-01">November 2023</time>
+<h3>SHIPPED! DORA, DevOps, and Deployments</h3>
+<span class="timeline-location">Online</span>
+<div class="timeline-details">
+<p>Session on DORA metrics, DevOps practices, and deployment strategies.</p>
+<a href="https://www.youtube.com/watch?v=DLHfHlY7fDM">Watch the session</a>
+</div>
+</button>
+</div>
+
+</div>
 
 ## Older stuff
 
