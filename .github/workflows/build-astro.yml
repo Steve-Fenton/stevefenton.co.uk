@@ -62,7 +62,7 @@ jobs:
 
       - name: Crawl test
         run: |
-          npx linkinator ./dist --skip \"^(?!http://localhost)\" --skip \"/404/\" --recurse --verbosity error
+          npx linkinator ./dist --skip "^(?!http://localhost)" --skip "/404/" --recurse --verbosity error
 
   deploy:
     needs: test
