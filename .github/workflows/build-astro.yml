@@ -60,9 +60,10 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      # Use pinned version as newer versions get stuck in a loop
       - name: Crawl test
         run: |
-          npx linkinator ./dist --skip "^(?!http://localhost)" --skip "/404/" --recurse --verbosity error
+          npx linkinator@7.5.3 ./dist --skip "^(?!http://localhost)" --skip "/404/" --recurse --verbosity error
 
   deploy:
     needs: test
