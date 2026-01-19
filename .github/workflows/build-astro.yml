@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-{{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
   
 # Allow this job to clone the repo and create a page deployment
@@ -36,12 +36,36 @@ jobs:
         with:
           package-manager: pnpm@${{ env.PNPM_VERSION }}
 
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download GitHub Pages artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: .
+
+      - name: Extract artifact to dist folder
+        run: |
+          mkdir -p dist
+          tar -xvf artifact.tar -C dist
+          rm artifact.tar
+          ls
+          cd dist
+          ls
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
       - name: Crawl test
         run: |
-          pnpm crawl
+          npx linkinator ./dist --skip \"^(?!http://localhost)\" --skip \"/404/\" --recurse --verbosity error
 
   deploy:
-    needs: build
+    needs: test
     runs-on: ubuntu-latest
     environment:
       name: github-pages
