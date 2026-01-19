@@ -18,8 +18,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^5.10.32
-        version: 5.10.32(@types/node@25.0.3)(rollup@4.55.2)(typescript@5.9.3)(yaml@2.8.2)
+        specifier: ^5.10.33
+        version: 5.10.33(@types/node@25.0.3)(rollup@4.55.2)(typescript@5.9.3)(yaml@2.8.2)
       astro-accelerator-utils:
         specifier: ^0.3.67
         version: 0.3.67
@@ -860,8 +860,8 @@ packages:
   astro-accelerator-utils@0.3.67:
     resolution: {integrity: sha512-i2bgzXNU+/IvgvJgW6HcXdcte8wrGP3Iz0rjtPom8VxAtUwVbG0dH7MXkcp/63uwcvhieBHS5zLvVAmQ4iL+DA==}
 
-  astro-accelerator@5.10.32:
-    resolution: {integrity: sha512-JtgzikWKidM9TTxh809D6RB/2bu5aOmUucd2Ut+Uj63clkBBo4J6FTK8ACW9FWYJUkcavzIcMRmpg/gTZR8JrA==}
+  astro-accelerator@5.10.33:
+    resolution: {integrity: sha512-3cxyL1c6lWTlHZKBCERy9n8rgaXojViS2EQCCDv29zKkEmYSLefe8LI/WnSfGoIYCt9Uwd3gOx8onFXe6dbj4Q==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@5.16.11:
@@ -1184,8 +1184,8 @@ packages:
   estree-walker@3.0.3:
     resolution: {integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==}
 
-  eventemitter3@5.0.2:
-    resolution: {integrity: sha512-RQ5d+HfzVjGO537vWau+KVFHUSj3sBOzd1nVQcnRMCak/OyXwwUTBh++rZrI3un9gtfSpg63jjOHUvhQnQBuAA==}
+  eventemitter3@5.0.4:
+    resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
@@ -2861,7 +2861,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.67: {}
 
-  astro-accelerator@5.10.32(@types/node@25.0.3)(rollup@4.55.2)(typescript@5.9.3)(yaml@2.8.2):
+  astro-accelerator@5.10.33(@types/node@25.0.3)(rollup@4.55.2)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
       optional: 0.1.4
       '@astrojs/mdx': 4.3.13(astro@5.16.11(@types/node@25.0.3)(rollup@4.55.2)(typescript@5.9.3)(yaml@2.8.2))
@@ -3369,7 +3369,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.8
 
-  eventemitter3@5.0.2: {}
+  eventemitter3@5.0.4: {}
 
   extend@3.0.2: {}
 
@@ -4191,7 +4191,7 @@ snapshots:
 
   p-queue@8.1.1:
     dependencies:
-      eventemitter3: 5.0.2
+      eventemitter3: 5.0.4
       p-timeout: 6.1.4
 
   p-timeout@6.1.4: {}
