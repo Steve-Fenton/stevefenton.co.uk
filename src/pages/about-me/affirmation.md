@@ -78,13 +78,12 @@ This is my personal affirmation page, which gives me daily inspiration.
 4. [VS Code](https://code.visualstudio.com)
 5. [PNPM](https://pnpm.io)
 6. OneDrive (App store)
-7. Seashore (App store)
-8. [Pinta](https://www.pinta-project.com)
-9. [Keyboard Maestro](https://www.keyboardmaestro.com/)
-10. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
-11. [Shottr](https://shottr.cc)
-12. Narrly (App store)
-13. Flow (App store)
+7. [Pinta](https://www.pinta-project.com)
+8. [Keyboard Maestro](https://www.keyboardmaestro.com/)
+9. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+10. [Shottr](https://shottr.cc)
+11. Flow (App store)
+12. Bookify: Send to Kindle (App store)
 
 ### Keyboard
 
