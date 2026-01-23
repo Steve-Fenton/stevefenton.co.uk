@@ -7,10 +7,9 @@ keywords: web operations,devops,monitoring,dashboards
 description: This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.
 ---
 
-:::figure{.inset-medium}
-:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting"}
-::figcaption[Web Operations Dashboards, Monitoring, and Alerting]
-:::
+<div class="simple-grid l-s">
+
+<div>
 
 This book is for anyone in software development who needs practical tips to kick off their web operations monitoring journey.
 
@@ -20,7 +19,16 @@ From general principles to practical tips, this books helps software delivery te
 - What charts to use on dashboards
 - How to find and fix problems before customers are impacted
 
-This book can fill those gaps in just a couple of commutes. I’ll explain what metrics to start with and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
+This book can fill those gaps in just a couple of commutes. I'll explain what metrics to start with and how you can use a simple process to refine your strategy over time to find metrics that are appropriate to your context.
+
+</div>
+
+:::figure
+:img{src="/img/2017/08/web-operations-monitoring.jpg" alt="Web Operations Dashboards, Monitoring, and Alerting"}
+::figcaption[Web Operations Dashboards, Monitoring, and Alerting]
+:::
+
+</div>
 
 ## Free Content
 
