@@ -84,6 +84,17 @@ This is my personal affirmation page, which gives me daily inspiration.
 10. [Shottr](https://shottr.cc)
 11. Flow (App store)
 12. Bookify: Send to Kindle (App store)
+13. Davinci Resolve
+
+#### Davinci tips
+
+I seem to get away with a minimal toolset!
+
+`CMD` + `B` cuts all tracks in the timeline at the selected point
+
+`D` toggles the selected track on or off
+
+When you have a pre-roll clip idea, select the video and audio, copy, go back to the beginning and use **Paste Insert** from the **Edit** menu. Select all and add empty space before the pre-roll, then de-select the pre-roll and move everything else to add empty space after the pre-roll.
 
 ### Keyboard
 
