@@ -84,15 +84,34 @@ This is my personal affirmation page, which gives me daily inspiration.
 10. [Shottr](https://shottr.cc)
 11. Flow (App store)
 12. Bookify: Send to Kindle (App store)
-13. Davinci Resolve
+13. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
 
 #### Davinci tips
 
-I seem to get away with a minimal toolset!
+1. Fix each video first (zoom, position, etc)
+2. Add intro/outro videos
+3. Editing
+4. Add appropriate fade-in/out (but otherwise hard cut throughout)
+5. Insert pre-roll
+
+Export settings
+
+- Choose the rocket ship icon at the bottom
+- QuickTime
+- H.264
+- 3840 x 2160 Ultra HD
+- 29.97 frame rate
+- Quality **Restrict to** `100000`
+
+I seem to get away with a minimal toolset! It will likely expand over time.
 
 `CMD` + `B` cuts all tracks in the timeline at the selected point
 
 `D` toggles the selected track on or off
+
+It seems most natural to truncate dead air at the point you're cutting to different video track.
+
+When sound bounces around (like everyone laughs at something) it feels natural to show that to the viewer so the sound has more context, like movement and facial expressions.
 
 When you have a pre-roll clip idea, select the video and audio, copy, go back to the beginning and use **Paste Insert** from the **Edit** menu. Select all and add empty space before the pre-roll, then de-select the pre-roll and move everything else to add empty space after the pre-roll.
 
