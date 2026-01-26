@@ -103,6 +103,13 @@ Export settings
 - 29.97 frame rate
 - Quality **Restrict to** `100000`
 
+Audio export settings
+
+- Choose the **Audio Only** preset
+- Format: MP3
+- Constant bit rate
+- 320 Kb/s
+
 I seem to get away with a minimal toolset! It will likely expand over time.
 
 `CMD` + `B` cuts all tracks in the timeline at the selected point
