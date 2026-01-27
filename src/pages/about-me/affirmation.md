@@ -130,16 +130,6 @@ The one thing I can't seem to retrain is how home and end work. I'm very used to
 
 So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from [PC style shortcuts](https://ke-complex-modifications.pqrs.org/#pc_shortcuts) import **End key to the end of the line (Control + e)** and **Home key to the beginning of the line (Control + a)** rules.
 
-<del>
-What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`</kbd>, <kbd>\</kbd>, <kbd>@</kbd>, <kbd>"</kbd>, and <kbd>#</kbd> all switching round, but not the command key location.
-
-1. System settings > Keyboard
-2. Keyboard settings > Modifier Keys
-3. Map
-   1. Control => Command
-   2. Command => Control
-  
-
 ## WIP: Tech diet
 
 Prefer smaller, privacy-prioritizing, tends-toward-good offerings. 
@@ -153,5 +143,3 @@ Ring -> ... TBC
 Spotify -> [Deezer](https://www.deezer.com/)
 Twitter -> [Mastodon](https://mastodon.social/)
 WhatsApp -> [Signal](https://signal.org)
-
-</del>
