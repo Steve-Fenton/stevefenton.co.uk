@@ -138,5 +138,20 @@ What can I say. I've used Windows for decades. I'm choosing to live with <kbd>\`
 3. Map
    1. Control => Command
    2. Command => Control
+  
+
+## WIP: Tech diet
+
+Prefer smaller, privacy-prioritizing, tends-toward-good offerings. 
+
+Audible -> [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890)
+Chrome -> [Vivaldi](https://vivaldi.com)
+Goodreads -> ... not sure I'll satisfy my use case with the alternatives
+Hey -> [Proton Mail](https://pr.tn/ref/SSJJ2D36)
+OneDrive -> [Proton Drive](https://pr.tn/ref/SSJJ2D36)
+Ring -> ... TBC
+Spotify -> [Deezer](https://www.deezer.com/)
+Twitter -> [Mastodon](https://mastodon.social/)
+WhatsApp -> [Signal](https://signal.org)
 
 </del>
