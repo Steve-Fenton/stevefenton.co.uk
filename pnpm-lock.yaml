@@ -18,11 +18,11 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^5.10.38
-        version: 5.10.38(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2)
+        specifier: ^5.10.39
+        version: 5.10.39(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2)
       astro-accelerator-utils:
-        specifier: ^0.3.68
-        version: 0.3.68
+        specifier: ^0.3.69
+        version: 0.3.69
       cspell:
         specifier: ^9.6.2
         version: 9.6.2
@@ -865,11 +865,11 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-accelerator-utils@0.3.68:
-    resolution: {integrity: sha512-ppqexfjCNs3S+WR95wfANtckd2jjqlbcd9o86lS4enXteXx821R7qpbor7274KisSI8pamKbpUu1Hs03oq06rg==}
+  astro-accelerator-utils@0.3.69:
+    resolution: {integrity: sha512-K0SM/Y8GEc6bHzk1btNXIvnwCK0P1NEF32BkFCwANVyFSwYeJp11BWrvhUDX17ca/O60fLCg54kt2tL8DuCWDQ==}
 
-  astro-accelerator@5.10.38:
-    resolution: {integrity: sha512-VzqPo2GRe9gDrasR+t3IpvMMI/+9ABmZn63JtNzDRc1kL3wXwCMG5iic1HfCz76IVXO17EdZmIKC6WZIXj20nQ==}
+  astro-accelerator@5.10.39:
+    resolution: {integrity: sha512-RKnCI1TBc01BZSlgH/xy+rAN34xN/J14rfYJjnB1imLHUhU9BqmNccgswTcx/66yKCpEpZB919HOPw7Rj2XbAg==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@5.17.0:
@@ -2877,15 +2877,15 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-accelerator-utils@0.3.68: {}
+  astro-accelerator-utils@0.3.69: {}
 
-  astro-accelerator@5.10.38(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2):
+  astro-accelerator@5.10.39(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
       optional: 0.1.4
       '@astrojs/mdx': 4.3.13(astro@5.17.0(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2))
       '@img/sharp-linux-x64': 0.34.5
       astro: 5.17.0(@types/node@25.0.3)(rollup@4.57.0)(typescript@5.9.3)(yaml@2.8.2)
-      astro-accelerator-utils: 0.3.68
+      astro-accelerator-utils: 0.3.69
       cspell: 9.6.2
       csv: 6.4.1
       glob: 13.0.0
