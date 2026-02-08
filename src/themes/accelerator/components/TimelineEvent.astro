@@ -7,7 +7,7 @@ interface Props {
     endDate?: string;
     title: string;
     location: string;
-    description: string;
+    description?: string;
     linkHref: string;
     linkText: string;
 }
@@ -16,19 +16,22 @@ const { date, endDate, title, location, description, linkHref, linkText } =
     Astro.props;
 
 const accelerator = new Accelerator(SITE);
+
+const eventDate = new Date(date);
+const threeMonthsAgo = new Date();
+threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
+const isOld = eventDate < threeMonthsAgo;
+
+const displayDate = isOld
+    ? accelerator.dateFormatter.formatDateWithoutDay(date, SITE.default.locale)
+    : accelerator.dateFormatter.formatShortDate(date, SITE.default.locale);
 ---
 
 <div class="timeline-event">
     <div>
-        <time datetime={date}
-            >{
-                accelerator.dateFormatter.formatShortDate(
-                    date,
-                    SITE.default.locale,
-                )
-            }</time
-        >{
-            endDate && (
+        <time datetime={date}>{displayDate}</time>{
+            !isOld && endDate && (
                 <Fragment>
                     &dash;
                     <time datetime={endDate}>
@@ -42,7 +45,8 @@ const accelerator = new Accelerator(SITE);
         }
         <h3>{title}</h3>
         <span class="timeline-location">{location}</span>
-        <p>{description}</p>
+        {description && <p>{description}</p>}
+        <slot />
         {
             linkHref && (
                 <a href={linkHref} class="button">
