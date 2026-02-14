@@ -70,6 +70,12 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
+    './node_modules/astro-accelerator/src/pages/events/',
+    './src/pages/events/',
+    true
+);
+
+copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/report/',
     './src/pages/report/',
     true

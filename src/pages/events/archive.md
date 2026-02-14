@@ -1,7 +1,6 @@
 ---
 layout: src/layouts/Events.astro
 title: Events Archive
-navOrder: 2010
 pubDate: 2026-01-13
 modDate: 2026-02-14
 keywords: programmer,events,archive

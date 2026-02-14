@@ -8,4 +8,4 @@ keywords: programmer,events
 description: A list of my online and in-person events.
 ---
 
-I'll update this page with any events that I'm running, attending, or speaking at. If you're looking for older events, check out the [events archive](/events-archive/).
+I'll update this page with any events that I'm running, attending, or speaking at. If you're looking for older events, check out the [events archive](/events/archive/).
