@@ -4,5 +4,7 @@ startDate: 2025-03-01
 location: "Online"
 linkHref: ""
 linkText: ""
+description: "DORA Community Book Connections discussion."
 ---
+
 DORA Community Book Connections discussion.

@@ -7,6 +7,9 @@
         "title": {
           "type": "string"
         },
+        "description": {
+          "type": "string"
+        },
         "startDate": {
           "anyOf": [
             {
@@ -54,6 +57,7 @@
       },
       "required": [
         "title",
+        "description",
         "startDate",
         "location"
       ],

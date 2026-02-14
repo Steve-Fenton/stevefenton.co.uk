@@ -4,5 +4,7 @@ startDate: 2024-10-01
 location: "Online"
 linkHref: "https://www.youtube.com/watch?v=fC-TTfW9S0M"
 linkText: "Watch the webinar"
+description: "Webinar discussing platform engineering practices."
 ---
+
 Webinar discussing platform engineering practices.
