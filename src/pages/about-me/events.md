@@ -1,10 +1,9 @@
 ---
 layout: src/layouts/Redirect.astro
-title: Meanwhile in DevOps
-paged: true
+title: Events
 navOrder: 2100
 navSearch: false
 navSitemap: false
-pubDate: 2025-09-30
-redirect: /meanwhile-in-devops/1/
+pubDate: 2022-10-02
+redirect: /events/
 ---

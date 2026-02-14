@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Events.astro"
+layout: src/layouts/Events.astro
 title: Events Archive
 navOrder: 2010
 pubDate: 2026-01-13
@@ -10,4 +10,4 @@ navMenu: false
 isArchive: true
 ---
 
-This page captures past events. You can view [my current event list here](/about-me/events/).
+This page captures past events. You can view [my current event list here](/events/).

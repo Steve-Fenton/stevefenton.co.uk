@@ -1,0 +1,11 @@
+---
+layout: src/layouts/Events.astro
+title: Events
+navOrder: 2000
+pubDate: 2022-10-02
+modDate: 2026-02-14
+keywords: programmer,events
+description: A list of my online and in-person events.
+---
+
+I'll update this page with any events that I'm running, attending, or speaking at. If you're looking for older events, check out the [events archive](/events-archive/).
