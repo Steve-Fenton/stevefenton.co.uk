@@ -18,8 +18,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^5.10.45
-        version: 5.10.45(@types/node@25.0.3)(rollup@4.57.1)(typescript@5.9.3)(yaml@2.8.2)
+        specifier: ^5.10.46
+        version: 5.10.46(@types/node@25.0.3)(rollup@4.57.1)(typescript@5.9.3)(yaml@2.8.2)
       astro-accelerator-utils:
         specifier: ^0.3.70
         version: 0.3.70
@@ -1024,8 +1024,8 @@ packages:
   astro-accelerator-utils@0.3.70:
     resolution: {integrity: sha512-2r0+J2CUquwL54ZdmqWpAf6pUY9MBlQQzgvhk590z8bVG7UyeNJK+rDGJtzquRsR6EDZVy4wYPPBhClKlYxrTQ==}
 
-  astro-accelerator@5.10.45:
-    resolution: {integrity: sha512-gruddS4tVQ4S1lFIW4UrFoR/hyv5wY+Y2WPFMlWP6Daz4UujhDX+K/wQNz911zFUx1Z1KjR9rjwOj6uFIe8lIQ==}
+  astro-accelerator@5.10.46:
+    resolution: {integrity: sha512-jHHCY1270P8Kz3spDF9+tPoJ4SPBJ23SYr2A6T6y+kBVf/gqTV430tuRjVCQkxluGU2kBhMNrk2Yp96K8sgr8g==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@5.17.2:
@@ -3132,7 +3132,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.70: {}
 
-  astro-accelerator@5.10.45(@types/node@25.0.3)(rollup@4.57.1)(typescript@5.9.3)(yaml@2.8.2):
+  astro-accelerator@5.10.46(@types/node@25.0.3)(rollup@4.57.1)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
       optional: 0.1.4
       '@astrojs/mdx': 4.3.13(astro@5.17.2(@types/node@25.0.3)(rollup@4.57.1)(typescript@5.9.3)(yaml@2.8.2))
