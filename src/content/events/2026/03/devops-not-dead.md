@@ -9,7 +9,9 @@ linkText: "Register for DevOps Not Dead"
 
 Proving that DevOps is here to stay, events in New York and London to level up your practice.
 
+:::div{.hint}
 Catch my talk "What if DevOps was really simple?" at 11 am on March 13, 2026. Screen 2 / Track 2.
+:::
 
 Feel free to stop me for a chat about DevOps, Continuous Delivery, metrics, and deployment automation if you spot me walking around the conference floor.
 

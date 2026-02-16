@@ -8,3 +8,5 @@ linkText: ""
 ---
 
 HMS Belfast, London. Invite only.
+
+A fireside chat and roundtable discussion on provenance in software delivery. Diving into how you make sure what you built is what you deployed.
