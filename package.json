@@ -28,7 +28,7 @@
     "astro-accelerator": "^5.11.1",
     "astro-accelerator-utils": "^0.3.70",
     "cspell": "^9.6.4",
-    "linkinator": "7.5.3",
+    "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
   },
