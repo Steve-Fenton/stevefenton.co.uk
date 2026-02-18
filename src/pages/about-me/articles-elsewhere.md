@@ -108,7 +108,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Poorly designed rewards crush improvement efforts](https://thenewstack.io/poorly-designed-rewards-crush-improvement-efforts/)
 - [Understanding measurement types](https://octopus.com/blog/measuring-cd-and-devops-measurement-types)
 
-# AI
+## AI
 
 - [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
 - [How to measure AI’s organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
@@ -176,3 +176,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 - [The State of GitOps report](https://octopus.com/publications/state-of-gitops-report) \
   Investigates the adoption, practices, and benefits of a GitOps approach, based on data from 660 survey responses and interviews experts and practitioners.
+
+### AI white papers
+
+- [The AI Pulse report](https://octopus.com/publications/ai-pulse-report) \
+  The goal of this report was to explore current AI adoption patterns, AI capabilities, AI’s impact on developers, and identify recommendations for a sustainable path forward.
