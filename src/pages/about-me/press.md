@@ -2,12 +2,20 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2025-09-22
+modDate: 2026-02-18
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
+
+## Pluse 2.0: AI Pulse report warns of senior developer shortage
+
+February 2026
+
+> Octopus Deploy has released its [2026 AI Pulse Report](https://octopus.com/publications/ai-pulse-report): AI adoption and its impact on developer productivity, finding that while AI tools are delivering measurable productivity gains for software teams, they are also accelerating a structural shift in junior hiring that could result in a senior developer shortage within the next three to five years.
+
+[Read the article on Pulse 2.0](https://pulse2.com/octopus-deploy-ai-pulse-report/)
 
 ## Solutions Review: Worktech predictions
 
@@ -16,7 +24,7 @@ December 2025
 I was included in a mega-predictions article for 2026 on Solutions Review.
 
 > Software delivery fluctuates between technical methods and management frameworks. Over the past year, there has been a growing trend towards less technical working practices. The effect is cyclical. When managers explore the technical route, it reveals increasing levels of required complexity. The management frameworks appear far simpler and seem to offer an escape from complicated sets of techniques and practices. Eventually, the management frameworks fail to deliver sustainable and reliable software delivery, and we must return to technical routes once more.
-> 
+>
 > Organizations that are moving away from DevOps will start to see cracks appearing in 2026, and managers will be ready to accept once more that software requires technical skills by the end of the year.
 
 [Read the 2026 predictions on Solutions Review](https://solutionsreview.com/enterprise-resource-planning/worktech-predictions-from-industry-experts-for-2026/).
@@ -51,7 +59,7 @@ Richard Simon was kind enough to let me make a guest appearance on the Cloud Sta
 
 July 2025
 
-Alam Shimel was the awesome host for a conversation about research around GitOps and Continuous Delivery.
+Alan Shimel was the awesome host for a conversation about research around GitOps and Continuous Delivery.
 
 > Steve Fenton shares insights on his role at Octopus Deploy and the company's focus on continuous delivery. He discusses the recent GitOps report, which received 660 community responses, revealing strong enthusiasm for GitOps. Key findings highlight the significance of the reconciliation loop and the preference for imperative configuration over declarative methods. The Linux Foundation's GitOps principles are also noted as essential for community collaboration.
 
@@ -97,8 +105,7 @@ We ran a study of software deployments across the US to see where the acticity h
 
 > Software industry research has led Octopus to the conclusion that frequent software deployments are a feature of high-performing development teams. They were interested in ﬁnding out which US states did the most deployments each year to see if this information matched population size, or the location of US tech hubs, such as those featured in Bloomberg's 2019 Brain Concentration Index.
 
-[Study data: US cities, states with the most annual software deployments
-](https://www.devprojournal.com/software-development-trends/study-data-us-cities-states-with-the-most-annual-software-deployments/)
+[Study data: US cities, states with the most annual software deployments](https://www.devprojournal.com/software-development-trends/study-data-us-cities-states-with-the-most-annual-software-deployments/)
 
 ## Solutions Review: WorkTech Predictions
 
