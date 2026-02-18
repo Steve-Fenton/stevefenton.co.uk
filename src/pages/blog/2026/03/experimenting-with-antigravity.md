@@ -82,7 +82,7 @@ The pnpm build command failed. Can we fix it?
 
 This triggered a process where Antigravity ran `pnpm build`, fixed the reported error, then cycled through a process of repeating builds, fixing errors, realizing a general class of error, proposing a script to fix them all...
 
-Here's a new problem. You now have 930 changes. You've created too much change to _really_ manage. People are going to feel invested in all this change. We just keep going until we find a way out of this cave system. But maybe the right answer is to back up. We should try this from the beginning with a smaller set of files. Smaller batches, right?
+Here's a new problem. You now have 930 changes. You've created too much change to *really* manage. People are going to feel invested in all this change. We just keep going until we find a way out of this cave system. But maybe the right answer is to back up. We should try this from the beginning with a smaller set of files. Smaller batches, right?
 
 I wonder how many people will kinda head down this rabbit hole and fear the giant "undo". They will be knee deep and digging frantically. I decided to back up. All that research about small change sets can't be wrong.
 
