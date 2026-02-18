@@ -75,9 +75,9 @@ This is my personal affirmation page, which gives me daily inspiration.
 1. Magnet (App store)
 2. [Vivaldi](https://vivaldi.com)
 3. [GitHub Desktop](https://desktop.github.com/download/)
-4. [VS Code](https://code.visualstudio.com)
+4. [Antigravity](https://antigravity.google)
 5. [PNPM](https://pnpm.io)
-6. OneDrive (App store)
+6. [Proton Drive](https://proton.me/drive)
 7. [Pinta](https://www.pinta-project.com)
 8. [Keyboard Maestro](https://www.keyboardmaestro.com/)
 9. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
@@ -85,6 +85,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 11. Flow (App store)
 12. Bookify: Send to Kindle (App store)
 13. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
+14. [Apple Containers](https://github.com/apple/container)
 
 #### Davinci tips
 
