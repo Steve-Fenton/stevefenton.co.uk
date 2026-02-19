@@ -4,6 +4,9 @@ avMenu: false
 pubDate: 2026-02-14
 keywords: npm,github
 description: "How to set GitHub as a trusted publisher for npm."
+bannerImage:
+    src: /img/topic/npm/npm.png
+    alt: Three Ways to Improve Software Development
 authors:
     - steve-fenton
 categories:

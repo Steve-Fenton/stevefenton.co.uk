@@ -9,6 +9,14 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
+## AI Pulse report reveals a potential skills shortage
+
+February 2026
+
+> Octopus Deploy has released the 2026 AI Pulse Report, looking at how AI adoption is actually impacting developer workflows. The findings reveal the drawbacks of AI-generated code and that a serious talent shortage could be on the horizon. 
+
+[Read the article on I Programmer](https://www.i-programmer.info/news/240-devops/18672-ai-pulse-report-reveals-a-potential-skills-shortage-.html)
+
 ## Pluse 2.0: AI Pulse report warns of senior developer shortage
 
 February 2026

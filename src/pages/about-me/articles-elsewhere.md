@@ -111,9 +111,11 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 ## AI
 
 - [Developers don't trust AI... and that's a good thing](https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/)
-- [How to measure AI’s organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
+- [How to measure AI's organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
 - [Stop wasting AI investment on a broken change approval process](https://thenewstack.io/stop-wasting-ai-investment-on-a-broken-change-approval-process/)
 - [How AI coding makes developers 56% and 19% slower](https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/)
+- [Developer Productivity in the Age of AI: Why Your Past Predicts Your Future](https://octopus.com/blog/developer-productivity-age-ai)
+
 
 ## Multi-tenancy
 
@@ -180,4 +182,4 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 ### AI white papers
 
 - [The AI Pulse report](https://octopus.com/publications/ai-pulse-report) \
-  The goal of this report was to explore current AI adoption patterns, AI capabilities, AI’s impact on developers, and identify recommendations for a sustainable path forward.
+  The goal of this report was to explore current AI adoption patterns, AI capabilities, AI's impact on developers, and identify recommendations for a sustainable path forward.

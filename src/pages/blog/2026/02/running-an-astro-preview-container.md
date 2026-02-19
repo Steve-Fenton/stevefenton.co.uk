@@ -4,6 +4,9 @@ avMenu: false
 pubDate: 2026-02-19
 keywords: astro,containers
 description: "Learn how to preview Astro sites in a container with live updates."
+bannerImage:
+    src: /img/2022/10/astro.png
+    alt: The Astro rocket logo
 authors:
     - steve-fenton
 categories:
