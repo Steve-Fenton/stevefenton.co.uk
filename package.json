@@ -25,10 +25,10 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^5.11.3",
-    "astro-accelerator-utils": "^0.3.70",
+    "astro-accelerator": "^5.11.4",
+    "astro-accelerator-utils": "^0.3.71",
     "cspell": "^9.6.4",
-    "linkinator": "7.5.3",
+    "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
   },
