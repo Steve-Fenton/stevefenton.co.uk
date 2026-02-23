@@ -1,6 +1,6 @@
 ---
 title: "Cloud Native London"
-startDate: 2026-08-05
+startDate: 2026-07-01
 location: "London, UK"
 description: "Waiting to confirm."
 ---
