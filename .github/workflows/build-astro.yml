@@ -33,39 +33,26 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
        
-      - name: Install, build, and upload your site
-        uses: withastro/action@v5
-        with:
-          package-manager: pnpm@${{ env.PNPM_VERSION }}
+      - name: Install pnpm
+        run: npm install -g pnpm@${{ env.PNPM_VERSION }}
 
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download GitHub Pages artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: .
+      - name: Install dependencies
+        run: pnpm install
 
-      - name: Extract artifact to dist folder
-        run: |
-          mkdir -p dist
-          tar -xvf artifact.tar -C dist
-          rm artifact.tar
+      - name: Build site
+        run: pnpm run build
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      # Use pinned version as newer versions get stuck in a loop
       - name: Crawl test
-        run: |
-          npx linkinator@7.5.3 ./dist --skip "^(?!http://localhost)" --skip "/404/" --recurse --verbosity error
+        run: pnpm crawl
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
 
   deploy:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
