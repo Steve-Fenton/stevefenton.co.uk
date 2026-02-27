@@ -86,6 +86,7 @@ This is my personal affirmation page, which gives me daily inspiration.
 12. Bookify: Send to Kindle (App store)
 13. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
 14. [Rancher Desktop](https://rancherdesktop.io)
+15. Whisper Notes - Speech to Text (App store)
 
 #### Davinci tips
 
