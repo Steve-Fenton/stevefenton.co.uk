@@ -2,7 +2,7 @@
 title: Affirmation
 navOrder: 1000
 pubDate: 2022-10-02
-modDate: 2024-03-12
+modDate: 2026-03-02
 keywords: affirmation,inspiration
 description: My personal affirmation page, which gives me daily inspiration.
 ---
@@ -124,6 +124,18 @@ When sound bounces around (like everyone laughs at something) it feels natural t
 
 When you have a pre-roll clip idea, select the video and audio, copy, go back to the beginning and use **Paste Insert** from the **Edit** menu. Select all and add empty space before the pre-roll, then de-select the pre-roll and move everything else to add empty space after the pre-roll.
 
+#### Video snips
+
+Grab with [yt-dlp](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options)!
+
+```bash
+yt-dlp --output "~/Downloads/%(title)s.%(ext)s" <id>
+```
+
+Edit!
+
+There's a "slides" render preset (MP4 H.264 1920x1080 restrict 8000 kb/s. Scrunch it with [Free Convert](https://www.freeconvert.com/video-compressor/download)
+
 ### Keyboard
 
 I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
@@ -136,12 +148,12 @@ So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from 
 
 Prefer smaller, privacy-prioritizing, tends-toward-good offerings. 
 
-Audible -> [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890)
-Chrome -> [Vivaldi](https://vivaldi.com)
-Goodreads -> ... not sure I'll satisfy my use case with the alternatives
-Hey -> [Proton Mail](https://pr.tn/ref/SSJJ2D36)
-OneDrive -> [Proton Drive](https://pr.tn/ref/SSJJ2D36)
-Ring -> ... TBC
-Spotify -> [Deezer](https://www.deezer.com/)
-Twitter -> [Mastodon](https://mastodon.social/)
-WhatsApp -> [Signal](https://signal.org)
+- Audible -> [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890)
+- Chrome -> [Vivaldi](https://vivaldi.com)
+- Goodreads -> ... not sure I'll satisfy my use case with the alternatives
+- Hey -> [Proton Mail](https://pr.tn/ref/SSJJ2D36)
+- OneDrive -> [Proton Drive](https://pr.tn/ref/SSJJ2D36)
+- Ring -> ... TBC
+- Spotify -> [Deezer](https://www.deezer.com/)
+- Twitter -> [Mastodon](https://mastodon.social/)
+- WhatsApp -> [Signal](https://signal.org)
