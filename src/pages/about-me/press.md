@@ -9,13 +9,21 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
+## Remote Winners: How remote professionals conquer challenges
+
+March 2026
+
+> Opportunities to connect in person, such as at events or local meet-ups, are beneficial for remote teams. Using ‘radical candour1‘ and high levels of clarity ensures that the intended meaning is understood, as being overly polite can sometimes make the message less certain. It is also more effective to use public channels instead of direct messages to keep information open and accessible to everyone
+
+[Proven expert strategies: How remote professionals conquer challenges](https://remotewinners.com/proven-expert-strategies-remote-work-challenges/)
+
 ## AI Pulse report reveals a potential skills shortage
 
 February 2026
 
 > Octopus Deploy has released the 2026 AI Pulse Report, looking at how AI adoption is actually impacting developer workflows. The findings reveal the drawbacks of AI-generated code and that a serious talent shortage could be on the horizon. 
 
-[Read the article on I Programmer](https://www.i-programmer.info/news/240-devops/18672-ai-pulse-report-reveals-a-potential-skills-shortage-.html)
+[AI Pulse report reveals a potential skills shortage](https://www.i-programmer.info/news/240-devops/18672-ai-pulse-report-reveals-a-potential-skills-shortage-.html)
 
 ## Pluse 2.0: AI Pulse report warns of senior developer shortage
 
@@ -23,7 +31,7 @@ February 2026
 
 > Octopus Deploy has released its [2026 AI Pulse Report](https://octopus.com/publications/ai-pulse-report): AI adoption and its impact on developer productivity, finding that while AI tools are delivering measurable productivity gains for software teams, they are also accelerating a structural shift in junior hiring that could result in a senior developer shortage within the next three to five years.
 
-[Read the article on Pulse 2.0](https://pulse2.com/octopus-deploy-ai-pulse-report/)
+[AI Pulse report warns of senior developer shortage as AI reshapes hiring and productivity](https://pulse2.com/octopus-deploy-ai-pulse-report/)
 
 ## Solutions Review: Worktech predictions
 
