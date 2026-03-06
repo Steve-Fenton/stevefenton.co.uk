@@ -9,7 +9,7 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
-## Remote Winners: How remote professionals conquer challenges
+## Remote Winners: How remote professionals conquer challenges
 
 March 2026
 
