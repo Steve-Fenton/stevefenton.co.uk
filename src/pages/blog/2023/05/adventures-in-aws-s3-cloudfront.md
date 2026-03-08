@@ -107,7 +107,7 @@ If you run security scanning on your site, you'll probably get recommendations t
 
 1. Open Cloudfront Functions
 2. Hit **Create function**
-3. Name it "ResponseHeaders" 
+3. Name it "ResponseHeaders"
 4. In the **Build** tab, enter the function code, example below
 
 ```javascript
@@ -116,7 +116,7 @@ function handler(event) {
     var headers = response.headers;
 
     // Set HTTP security headers
-    headers['x-content-type-options'] = { value: 'nosniff'}; 
+    headers['x-content-type-options'] = { value: 'nosniff'};
     headers['x-frame-options'] = {value: 'SAMEORIGIN'};
     headers['strict-transport-security'] = { value: 'max-age=63072000; preload' }
     headers['referrer-policy'] = { value: 'strict-origin-when-cross-origin' }
@@ -234,14 +234,14 @@ Function associations join up your functions to events on a distribution. You ca
 
 Enter the following details:
 
-- Distrubution: Select the distribution from the list
+- Distribution: Select the distribution from the list
 - Event type: Choose the correct event type - it's the one you tested
-- Cache behavior: Choose from the list. This means the result is cached, just like you would cache a page or image (and therefore runs the function less often)
+- Cache behaviour: Choose from the list. This means the result is cached, just like you would cache a page or image (and therefore runs the function less often)
 - Hit **Add association**
 
 You can repeat this process for each distribution you want to link to the function.
 
-After changing associations, I recommend running an invaliation...
+After changing associations, I recommend running an invalidation...
 
 ## Cloudfront invalidations
 

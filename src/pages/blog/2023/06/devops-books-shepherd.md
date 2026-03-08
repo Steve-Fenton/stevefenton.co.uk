@@ -40,6 +40,6 @@ You can read [my top 5 DevOps books from before DevOps was invented here](https:
 
 There are lists in the same wheelhouse [from other writers here](https://shepherd.com/bookshelf/project-management).
 
-## Books!
+## Books
 
 Reading books is like adding years of experience to your career. You get to absorb situations you weren't directly involved with and learn from folks who you might never meet. If you don't have time to read, [check this out](/blog/2022/01/when-people-say-i-dont-have-time-to-read/).

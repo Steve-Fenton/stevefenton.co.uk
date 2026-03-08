@@ -29,7 +29,7 @@ So, JestSpec was written to work within Jest (and can also be used within other 
 
 Install JestSpec with [NPM](https://www.npmjs.com/package/jest-spec).
 
-```
+```bash
 npm install jest-spec --save-dev
 ```
 
@@ -37,7 +37,7 @@ All the source code is on [GitHub](https://github.com/Steve-Fenton/JestSpec).
 
 If you haven't already installed Jest, you can use NPM for that, too.
 
-```
+```bash
 npm install jest --save-dev
 ```
 
@@ -141,10 +141,10 @@ It's a best practice to only call `spec.run` once per test. You *could* call mul
 
 As I mentioned earlier, when talking about specification workshops, scenario outlines provide a powerful way to explore a new feature. When working in the healthcare industry, we ran these workshops with a cross-functional product team that included a clinically trained nurse, a test analyst, and several developers. By writing up a table of examples as we talked about the feature, questions would come up such as:
 
--  What if this is less than zero?
--  What's the maximum this can be?
--  Why does this happen differently in this case?
--  Can we exclude this case from this version of the feature?
+- What if this is less than zero?
+- What's the maximum this can be?
+- Why does this happen differently in this case?
+- Can we exclude this case from this version of the feature?
 
 Having a test analyst in the same room as the business expert certainly led to an increased understanding of what we were doing. Equally, having the business expert look at the plain text scenario meant they thought of stuff that wouldn't have come up outside of the discussion until much later.
 
@@ -184,7 +184,7 @@ The only time you need to add new code is...
 
 You can run the tests using:
 
-```
+```bash
 node node_modules/jest/bin/jest.js --collectCoverage
 ```
 

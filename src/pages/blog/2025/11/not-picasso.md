@@ -22,13 +22,13 @@ This involves removing previous wall coverings, filling holes and divots in the 
 
 The preparation checklist:
 
-* Fill holes and cracks  
-* Sand the walls  
-* Clean the walls  
-* Let the walls dry  
-* Apply paint
+- Fill holes and cracks
+- Sand the walls
+- Clean the walls
+- Let the walls dry
+- Apply paint
 
-You may need to add additional tasks to the list, such as removing mildew or priming the surface, if these are required in your expert judgment. This is the model professional decorators have refined over decades. It's not glamorous, but it works.  
+You may need to add additional tasks to the list, such as removing mildew or priming the surface, if these are required in your expert judgement. This is the model professional decorators have refined over decades. It's not glamorous, but it works.  
 So far, so good.
 
 ## Enter the robot
@@ -56,11 +56,11 @@ Of course, they haven't discovered everything on the simple checklist used by ev
 
 Eventually, they'll have a pre-robot preparation checklist that looks something like the one we had in the first place:
 
-* Fill holes and cracks  
-* Sand the walls  
-* Clean the walls  
-* Let the walls dry  
-* Apply paint
+- Fill holes and cracks  
+- Sand the walls  
+- Clean the walls  
+- Let the walls dry  
+- Apply paint
 
 ## We've seen this movie before
 

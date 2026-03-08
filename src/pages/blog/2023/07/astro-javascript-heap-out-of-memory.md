@@ -91,7 +91,7 @@ npx madge  --circular ./start.js
 
 ### Check for greedy MDX files
 
-And finally, check for greedy MDX files. My process for this was embarassingly unscientific. I ran task manager and watched the Node process at the same time as watching the output from `npm run build` in Astro.
+And finally, check for greedy MDX files. My process for this was embarrassingly unscientific. I ran task manager and watched the Node process at the same time as watching the output from `npm run build` in Astro.
 
 What I found was the memory spiked when an `.mdx` file imported a large number of markdown files.
 

@@ -28,8 +28,10 @@ I'm working with a static site written in markdown. When the site is built (with
 First, we need to add Linkinator.
 
 ```bash
-pnpm install linkinator
+pnpm install linkinator@7.0.0
 ```
+
+Note: I'm pinning Linkinator to 7.0.0 as I'm finding an odd issue with later versions when it comes to checking large sites.
 
 Then we add a script to the `package.json`, so there's a short-hand name for the command. We don't want to type this every time!
 

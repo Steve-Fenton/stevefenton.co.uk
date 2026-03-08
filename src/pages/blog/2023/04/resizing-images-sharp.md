@@ -18,7 +18,7 @@ tags:
 
 Recently I highlighted problems with [WEBP images in Open Graph data](/blog/2022/10/webp-opengraph-images/). This post demonstrates how you can manage your site's images, including automatically generating optimised and resized versions using the [Sharp](https://www.npmjs.com/package/sharp/v/0.5.2) package.
 
-Does this article look familiar... I did the same with a Sqoosh package, but it has been discontinued. However, this turned out to be a good thing as Sharp does seem to give comparable results and runs a little faster.
+Does this article look familiar... I did the same with a Squoosh package, but it has been discontinued. However, this turned out to be a good thing as Sharp does seem to give comparable results and runs a little faster.
 
 ## Image workflow
 
@@ -57,8 +57,8 @@ You can now use Sharp's simple API to grab an image, convert it, and send it to 
 ```javascript
 import sharp from 'sharp';
 
-const source = 'sourceimage.png';
-const destination = 'destinationimage.webp';
+const source = 'source-image.png';
+const destination = 'destination-image.webp';
 
 sharp(source)
     .webp({ quality: 80 })
@@ -71,12 +71,11 @@ You can add a resize operation to your pipeline, which is nice. You can provide 
 
 In this example, we want the image to be 1,000 pixels wide, and however high it needs to be.
 
-
 ```javascript
 import sharp from 'sharp';
 
-const source = 'sourceimage.png';
-const destination = 'destinationimage.webp';
+const source = 'source-image.png';
+const destination = 'destination-image.webp';
 
 sharp(source)
     .resize(1000, null)

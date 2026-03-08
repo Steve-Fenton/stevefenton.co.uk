@@ -15,11 +15,11 @@ tags:
     - CSS
 ---
 
-Here's an interesting little issue I came across with media querie ranges. I don't normally use ranges for media queries, so I've not encountered this specific problem before.
+Here's an interesting little issue I came across with media query ranges. I don't normally use ranges for media queries, so I've not encountered this specific problem before.
 
 The most common media query issue I find myself fixing is where there are overlaps or gaps in the queries, so the page fights itself for two or three pixels around the breakpoint. This is often caused by the problem of CSS not yet supporting variables in media queries - so it's possible for someone to type a bad number if you don't have a pre-processor.
 
-Todays' problem came from a utitlity that allows art-direction use cases on content, by letting people add alternate content for different screen sizes. I've created a simpler version of it for demonstration purposes.
+Today's problem came from a utility that allows art-direction use cases on content, by letting people add alternate content for different screen sizes. I've created a simpler version of it for demonstration purposes.
 
 ## Showing content for specific sizes
 
@@ -93,7 +93,7 @@ A casual test confirms this all works. A more rigorous test finds there are issu
 
 ## Pixels aren't always integers
 
-The problem we have here is that we don't really have 199px of width, we have 199.5px or some other non-integer value. This is all part of the [pixel identity crisis](https://alistapart.com/article/a-pixel-identity-crisis/), where nobody knows what a pixel is anymore. Importantly, whatever a pixel is, it might not be an integer.
+The problem we have here is that we don't really have 199px of width, we have 199.5px or some other non-integer value. This is all part of the [pixel identity crisis](https://alistapart.com/article/a-pixel-identity-crisis/), where nobody knows what a pixel is any more. Importantly, whatever a pixel is, it might not be an integer.
 
 When you look back at the table, a value of 199.5 is above the "small" size, and below the "medium" size. That means none of the existing rules apply.
 
@@ -132,7 +132,7 @@ Breakpoint 2: 500px and up
 }
 ```
 
-With 199.9 we beat rounding related to pixel density and everything now works. Maybe there is some future point where there are _so many pixels_ even this needs to change. I guess we add more nines (don't add more nines now as 199.99 creates the opposite problem, where nothing is shown at 200px).
+With 199.9 we beat rounding related to pixel density and everything now works. Maybe there is some future point where there are *so many pixels* even this needs to change. I guess we add more nines (don't add more nines now as 199.99 creates the opposite problem, where nothing is shown at 200px).
 
 ## A less head-scratching alternative
 
@@ -142,7 +142,7 @@ You can use the syntax: `(num) <= width < (num)` to create ranges that don't suf
 
 The key point is to use `<=` on the left, and `<` on the right, to ensure there is no overlap. Otherwise two contents will show at the same time.
 
-This is more precise than the 1px gaps we left in the original problem CSS and less "hand wavey" than adding nines.
+This is more precise than the 1px gaps we left in the original problem CSS and less "hand-wavy" than adding nines.
 
 Here's the working code in action.
 
@@ -183,6 +183,6 @@ Now the browser can handle the numbers, and you can get to the pub.
 
 ## Conclusion
 
-Playing with the numbers confirmed we had non-integer gaps in our range, because _pixels_.
+Playing with the numbers confirmed we had non-integer gaps in our range, because *pixels*.
 
 This can be fixed using the Media Queries Level 4 syntax, which is [supported in all the modern browsers](https://caniuse.com/css-media-range-syntax).

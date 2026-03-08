@@ -18,7 +18,7 @@ tags:
 
 I read books all the time. I frequently have to tidy my home office to stop it looking like a scene from the library in Ghostbusters with vertical <abbr title="To Be Read">TBR</abbr> stacks sprouting between the furniture. When [generative AI](/blog/2023/02/facing-reality-ai/) came on the scene, I kinda knew this day was coming, but here it is.
 
-I'm currently levelling up my statistics and data chops so I can understand and contribute to research projects I'm involved in. I want to understand better so I can interpret research and undertake [my own applied research](/publications/software-delivery-research/). I've read great books by Halford, Spiegelhalter, Hall, Frost/Sturt et al, Hubbard, and more. Books on data analysis, statistics, research, and so on.
+I'm currently levelling up my statistics and data chops so I can understand and contribute to research projects I'm involved in. I want to understand better so I can interpret research and undertake [my own applied research](/publications/software-delivery-research/). I've read great books by Halford, Spiegelhalter, Hall, Frost/Stuart et al, Hubbard, and more. Books on data analysis, statistics, research, and so on.
 
 But today, I found one of the books I ordered was a word salad that surely can only have come from a generative AI model.
 

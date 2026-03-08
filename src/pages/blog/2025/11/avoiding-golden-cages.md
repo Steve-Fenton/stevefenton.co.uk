@@ -22,8 +22,7 @@ I zipped up to London last night to share the [Platform Engineering Pulse report
 We're also thinking about this topic this month in the [content club (CNCF Slack)](https://cloud-native.slack.com/archives/C0897G6N1ML), so you may also want to check out:
 
 - [Golden Paths: One Size Does Not Fit All](https://newsletter.bryanross.me/p/golden-paths-one-size-does-not-fit?hide_intro_popup=true) by Bryan Ross
-- [When a Golden Path Becomes a Golden Cage
-](https://menzen.ski/when-a-golden-path-becomes-a-golden-cage/) by Matt Menzenski
+- [When a Golden Path Becomes a Golden Cage](https://menzen.ski/when-a-golden-path-becomes-a-golden-cage/) by Matt Menzenski
 
 :::
 
@@ -61,7 +60,7 @@ On day one, golden paths and golden cages look exactly the same. You only really
 
 As standardization is high on the list of goals organizations have for Platform Engineering, it's no surprise to find platform teams taking this to a rigid extreme. Developers may want 90% of what the golden cage offers, but if they can't achieve the other 10% they become frustrated. This is a contributing factor to cases where developers circumvent the rulebook and find a way to bypass the platform entirely.
 
-Signals of golden cages include a heck of a lot of negging the platform, highlighting its flaws, pointing out that development goals will be missed, and generally wearing down dev managers until they sign off on letting developers do things their own way. 
+Signals of golden cages include a heck of a lot of negging the platform, highlighting its flaws, pointing out that development goals will be missed, and generally wearing down dev managers until they sign off on letting developers do things their own way.
 
 The solution isn't to correct the developers. You have to correct the platform. It should provide extensibility points and escape hatches, so developers can achieve their goals within the policy constraints set by the organization.
 
@@ -77,7 +76,7 @@ Except this is the breeding ground for some very toxic outcomes. Everybody has s
 
 Now, you may think your developers are low on the rebel-scale, so you'll be okay. You can tell them what to do. The thing is, while those high on the rebel-scale will provide noisy dissent, those lower on the scale will be more silent and subversive. When a mandated platform introduces friction, everyone will rebel, and they'll do so in their own wonderful and unique style.
 
-You _could_ have a great platform and make it mandatory, and maybe never see this problem. If you mix mandatory adoption with a golden cage, you're guaranteed to see strange behaviors as teams thrash around trying to achieve their conflicting goals. Developers are supposed to be delivering valuable software, platform teams are trying to force compliance, and the two are in constant conflict.
+You *could* have a great platform and make it mandatory, and maybe never see this problem. If you mix mandatory adoption with a golden cage, you're guaranteed to see strange behaviors as teams thrash around trying to achieve their conflicting goals. Developers are supposed to be delivering valuable software, platform teams are trying to force compliance, and the two are in constant conflict.
 
 If this sounds familiar, it's because DevOps was the solution to this problem. When you have two silos with conflicting goals, you're in flying monkey territory without a monkey-proof umbrella. The solution to this mandated golden cage conundrum is simple. You need to align goals, encourage collaboration, and let people do the good work.
 

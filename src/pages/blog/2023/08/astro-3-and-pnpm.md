@@ -21,7 +21,7 @@ This is a double-hitter as I've upgraded to Astro 3 and moved from NPM to PNPM. 
 
 ## PNPM
 
-I'm not going to explain why PNPM has advantages over NPM. You probably already know that it does clever stuff to reduce the amount of _stuff_ you download every time you run an install. Great.
+I'm not going to explain why PNPM has advantages over NPM. You probably already know that it does clever stuff to reduce the amount of *stuff* you download every time you run an install. Great.
 
 Here's the upgrade notes.
 
@@ -58,7 +58,7 @@ Preparing pnpm@latest for immediate activation...
 
 ### Clean up first
 
-Before we _actually use_ PNPM we want to clean up.
+Before we *actually use* PNPM we want to clean up.
 
 1. Delete `node_modules` and all its contents
 2. Delete `package-lock.json`
@@ -83,11 +83,11 @@ As some of my scripts previously used NPM, I updated them to replace the `npm ..
 
 ### Shamefully hoist
 
-Hoist up the thing. Batten down the wotsit. (See the end of the article for an explanation.) Yes. With Astro in particular you need to tell PNPM to "shamefully hoist" the dependencies. By default PNPM nests them to prevent them being used except explicitly. Rather than re-list all of Astro's dependencies in your own project (and keeping them in sync) you can add a file to have hoisting done. You decide whether you feel the shame or not.
+Hoist up the thing. Batten down the whatsit. (See the end of the article for an explanation.) Yes. With Astro in particular you need to tell PNPM to "shamefully hoist" the dependencies. By default PNPM nests them to prevent them being used except explicitly. Rather than re-list all of Astro's dependencies in your own project (and keeping them in sync) you can add a file to have hoisting done. You decide whether you feel the shame or not.
 
 Add a file named `.npmrc` alongside your `package.json`. Add the contents:
 
-```
+```ini
 shamefully-hoist=true
 ```
 
@@ -121,7 +121,7 @@ Open `astro.config.mjs` and add the following:
 
 ### Future breaking changes
 
-I wrote a couple of utilties for returning JSON or XML responses. The basic pattern for these in version 2 was:
+I wrote a couple of utilities for returning JSON or XML responses. The basic pattern for these in version 2 was:
 
 ```typescript
 async function getData() {
@@ -138,7 +138,7 @@ export const get = getData;
 There are two changes needed for this.
 
 1. Lower case method names are being deprecated, so `get` needs to be `GET` (nice and easy)
-2. Simple response objects are being replaced with proper `Reponse` objects
+2. Simple response objects are being replaced with proper `Response` objects
 
 Here's the example updated for both.
 

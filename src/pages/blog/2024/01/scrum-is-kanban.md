@@ -87,7 +87,7 @@ So how is Scrum really just Kanban? Well, Kanban works by mapping *what you curr
 
 Are all the hand-offs and queues represented? If not, add them to make them visible.
 
-At this stage, Scrum and Kanban are the same thing. You represent your process with a to-do column that represents a sprint backlog, with a WIP limit of whatever you use to determine the size of a spring backlog. Crucially, though, this WIP limit is too high.
+At this stage, Scrum and Kanban are the same thing. You represent your process with a to-do column that represents a sprint backlog, with a WIP limit of whatever you use to determine the size of a sprint backlog. Crucially, though, this WIP limit is too high.
 
 It's now up to you to make little changes to this process and measure the result. There's no end state as improvement is continuous in Kanban.
 

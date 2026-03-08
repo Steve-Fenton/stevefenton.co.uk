@@ -62,4 +62,4 @@ If you ever find yourself thinking of "giving up and hitting *accept all*" becau
 
 If you are in a location that has laws to protect your privacy, please don't complain about consent notices and red tape. The alternative is unfettered profile building. You know how your password for some website got leaked, and you had to change it? Well, imagine what will happen when these profiles get leaked.
 
-If a site doesn't let you choose between *accept* and *reject all*, they are already shifting towards dark patterns. If you are forced to untick 50+ check boxes, they are a long way down the path to full shady behavior. Use the script, but consider taking more direct action... like closing the website down and heading elsewhere.
+If a site doesn't let you choose between *accept* and *reject all*, they are already shifting towards dark patterns. If you are forced to untick 50+ check boxes, they are a long way down the path to full shady behaviour. Use the script, but consider taking more direct action... like closing the website down and heading elsewhere.

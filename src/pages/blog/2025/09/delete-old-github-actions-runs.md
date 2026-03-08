@@ -44,7 +44,7 @@ The step takes a `token`. It needs this to access the actions to delete them. I 
 
 It also takes a `days-ago` argument, which I've set to `30`.
 
-## Dry runs
+## Dry runs
 
 You can ask the action to do a dry run, where it will tell you what it would have deleted. This is useful to get a feel for the destruction before you mete it out.
 

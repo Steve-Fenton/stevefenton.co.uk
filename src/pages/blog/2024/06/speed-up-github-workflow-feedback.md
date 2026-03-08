@@ -106,7 +106,7 @@ The "Deploy to Channel" workflows are canceled when a new workflow supersedes th
 
 At Octopus Deploy, we wanted to see where we can help reduce developer friction for users of Octopus and GitHub. We added [OpenID Connect for GitHub Actions](https://roadmap.octopus.com/c/70-openid-connect-oidc-for-github-actions) last year to simplify integrations and remove the toil of manually rotating secrets. We recently launched the [Octopus Deploy GitHub app](https://github.com/marketplace/octopus-deploy).
 
-And more recently, our [Octopus GitHub Copilot extension]|(https://octopus.com/docs/administration/copilot) was announced during Satya Nadella's keynote at Microsoft Build. You use the extension to ask questions and show information from the GitHub Copilot chat window in response to instructions such as:
+And more recently, our [Octopus GitHub Copilot extension](https://octopus.com/docs/administration/copilot) was announced during Satya Nadella's keynote at Microsoft Build. You use the extension to ask questions and show information from the GitHub Copilot chat window in response to instructions such as:
 
 ```text
 @octopus-ai-app show the dashboard for the "Default" space

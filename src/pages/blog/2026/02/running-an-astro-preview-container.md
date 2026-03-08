@@ -115,6 +115,7 @@ The first time I ran this, I started things up with:
 ```bash
 docker compose up --build
 ```
+
 You can then stop the container with
 
 ```bash

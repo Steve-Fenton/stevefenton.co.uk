@@ -24,7 +24,7 @@ I'm going to pick one example of this to illustrate the point, but trust me - it
 
 ## An example of hard design
 
-If you designed websites in ecommerce around the turn of the century, you'd get hit with the Apple stick regularly. Stakeholders were obsessed with Apple's website and each time it received an update, teams across the globe were asked "can we make it more like Apple?"
+If you designed websites in e-commerce around the turn of the century, you'd get hit with the Apple stick regularly. Stakeholders were obsessed with Apple's website and each time it received an update, teams across the globe were asked "can we make it more like Apple?"
 
 There are two reasons for this insatiable desire to look like Apple:
 

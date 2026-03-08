@@ -17,7 +17,7 @@ tags:
 
 There's a current trend about the positive effects of being bored. Two elements of boredom enhance your ability to think and create.
 
-Firstly, you get space. We're so busy these days that there's no space anywhere. We're an overlapping infinity of saishimi-like tasks, and you just can't think when you hit 100% capacity. You can only do.
+Firstly, you get space. We're so busy these days that there's no space anywhere. We're an overlapping infinity of sashimi-like tasks, and you just can't think when you hit 100% capacity. You can only do.
 
 Secondly, when you're bored, you pay attention to all the stuff you're usually distracted from. We can't do this while phones are pinging, Slack messages are a leaking sewer pipe of constant interruptions, and Someone on the net disagrees with something.
 
@@ -73,9 +73,7 @@ Then they offer me the original price, without having to take up the broadband. 
 
 "I can go ahead with the same getting an exception from our end," the Digital Sales Messaging Guide says. "Trust me this will be the good deal."
 
-"No," I type firmly. "The thing is, these company/customer relationships are built on trust. I 
-know you're running the standard script, but the rug-pull of providing a price and then revealing it's only available if I buy another product damages that trust. When this happens, all those years of reliable service on multiple 
-devices gets de-railed. I value that trust above all else, including price."
+"No," I type firmly. "The thing is, these company/customer relationships are built on trust. I know you're running the standard script, but the rug-pull of providing a price and then revealing it's only available if I buy another product damages that trust. When this happens, all those years of reliable service on multiple devices gets de-railed. I value that trust above all else, including price."
 
 Twenty minutes between requesting cancellation and getting cancellation. Twenty minutes of dodging and diving, while repeating "trust me" with a frequency that suggests they are perhaps aware that what they're doing isn't trustworthy.
 

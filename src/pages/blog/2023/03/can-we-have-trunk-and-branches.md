@@ -44,7 +44,7 @@ The first point is trivial. The second is more interesting. It says that we want
 
 If we have these two super powers, we could potentially increase the maximum number of branches and their duration - because we have an indication of the problems far earlier.
 
-## Dicussion
+## Discussion
 
 This is really just the start of a discussion. I'm keen to find out if anyone thinks this is a good idea or what problems it might cause. Could it be refined further?
 

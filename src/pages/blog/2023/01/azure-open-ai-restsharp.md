@@ -147,7 +147,7 @@ Console.ReadKey();
 
 The output from this call is this 71-word description of DevOps, which is not unlike a description you would get if you asked a random person at a conference.
 
-```
+```text
 DevOps is a software development methodology that emphasizes collaboration between development and operations teams. It is used to reduce development and deployment timeframes, facilitate faster troubleshooting, and improve the overall quality of software. It is a combination of practices, tools and philosophies that facilitate the rapid delivery of high quality, reliable and efficient IT services. DevOps focuses on automation, rapid feedback loops, continuous integration, Infrastructure as Code, and shorter release cycles.
 ```
 
@@ -159,23 +159,23 @@ OpenAIRequest prompt = new(150, "Summarise DevOps for a child");
 
 Now we get a totally different response, tailored for children.
 
-```
+```text
 DevOps is a way of working that helps teams make sure software products are delivered quickly and with high quality. It involves closely collaborating between two teams: developers and operations. Developers create and update the software, and operations make sure the software is deployed and runs efficiently. DevOps encourages people to use automation tools and good processes to help collaborate quickly and efficiently.
 ```
 
 I asked Open AI to "summarise DevOps for a Scrum Master" and I got the same output (you can steal that joke and insert whatever job title you like... it pretty much works for all of 'em). Seriously though, this is what I actually got back:
 
-```
+```text
 DevOps is an approach to software development that focuses on collaboration between software developers, operations staff, and quality assurance teams throughout the entire process. It allows teams to work more effectively by automating and streamlining processes, such as code integration, version control, testing, deployment, and monitoring in an integrated environment. As a Scrum Master, it is important to foster collaboration across all departments and to motivate the team to embrace DevOps as a way to improve process efficiency. The DevOps approach encourages test-driven development, continuous integration, continuous delivery and mutual feedback from the development team and operations team throughout the entire project lifecycle.
 ```
 
 ## Picking holes in AI
 
-Now look, I'm the first to find fault in these descriptions. I'm deeply interested in DevOps and I've written about why I don't like the use of the phrases such as "software development lifecycle" or "efficiency" as I think they are used incorrectly within DevOps. However, the machine is *only about as wrong as the typical human you might ask*. That's because language models are based on a kind of average knowledge. We collectively fed in the wrongness in our efforts to share knowledge on The Web.
+Now look, I'm the first to find fault in these descriptions. I'm deeply interested in DevOps and I've written about why I don't like the use of the phrases such as "software development lifecycle" or "efficiency" as I think they are used incorrectly within DevOps. However, the machine is *only about as wrong as the typical human you might ask*. That's because language models are based on a kind of average knowledge (an average of right and wrong answers isn't going to be correct). We collectively fed in the wrongness in our efforts to share knowledge on The Web.
 
 What does this mean for using AI? We simply don't know yet. We need to be cautious with it, obviously. I think we need to treat it with a similar level of scepticism as we would the introduction to a Wikipedia article. Ultimately, I feel no better about [this summary](https://en.wikipedia.org/wiki/DevOps):
 
-```
+```text
 DevOps is a methodology in the software development and IT industry. Used as a set of practices and tools, DevOps integrates and automates the work of software development (Dev) and IT operations (Ops) as a means for improving and shortening the systems development life cycle. DevOps is complementary to agile software development; several DevOps aspects came from the agile way of working.
 ```
 
@@ -202,7 +202,7 @@ The biggest errors I predict as things progress through the hype cycle are:
 
 ## Summary
 
-AI has hit high-levels of hype since language and image models were made available. What they produce depends very much on the prompts, but also on the prevelance of text on the World *Wild* Web. This means there are two sources of bias, uncorrected by real experience or opinion.
+AI has hit high-levels of hype since language and image models were made available. What they produce depends very much on the prompts, but also on the prevalence of text on the World *Wild* Web. This means there are two sources of bias, uncorrected by real experience or opinion.
 
 There are many good uses for this technology, for example:
 
@@ -230,8 +230,8 @@ I'll just leave this here.
 
 > **Goalkeepers**: Gordon Banks, Peter Shilton, David Seaman
 >
-> **Defenders**: Bobby Moore, Ashley Cole, Rio Ferdinand, Gary Neville, Jonathan Woodgate, Stuart Pearce, Sol Campbell, John Terry 
+> **Defenders**: Bobby Moore, Ashley Cole, Rio Ferdinand, Gary Neville, Jonathan Woodgate, Stuart Pearce, Sol Campbell, John Terry
 >
-> **Midfielders**: Bobby Charlton, Paul Gascoigne, Steven Gerrard, David Beckham, Frank Lampard, Paul Scholes, Bryan Robson 
+> **Midfielders**: Bobby Charlton, Paul Gascoigne, Steven Gerrard, David Beckham, Frank Lampard, Paul Scholes, Bryan Robson
 >
 > **Forwards**: Alan Shearer, Gary Lineker, Michael Owen, Wayne Rooney, Harry Kane, Raheem Sterling, Teddy Sheringham

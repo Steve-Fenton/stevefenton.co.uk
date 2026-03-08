@@ -142,4 +142,4 @@ And here's the profile with all the green stuff.
 ::figcaption[A profile with tag links and verified links]
 :::
 
-Have fun leveling-up your Mastodon game.
+Have fun levelling-up your Mastodon game.

@@ -23,7 +23,7 @@ The breadcrumbs are validated within Google Search Console, but a recent change 
 > Missing field "id" (in "itemListElement.item")
 > Items with this issue are invalid. Invalid items are not eligible for Google Search's rich results
 
-This error was conufusing because the `id` shouldn't be needed for breadcrumbs. I'm using RDFa, so I have a `BreadcrumbList` that contains an `itemListElement` for each level, of type `ListItem`. However, you could get the same error using Microdata format as it maps to the same schema.
+This error was confusing because the `id` shouldn't be needed for breadcrumbs. I'm using RDFa, so I have a `BreadcrumbList` that contains an `itemListElement` for each level, of type `ListItem`. However, you could get the same error using Microdata format as it maps to the same schema.
 
 ## Fixing breadcrumbs
 
