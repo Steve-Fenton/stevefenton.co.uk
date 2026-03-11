@@ -36,13 +36,13 @@ Here's my full notification message.
 
 ## Before
 
-```h
+```text
 #{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} #{AWS.Website}
 ```
 
 ## After
 
-```h
+```text
 #{Octopus.Project.Name} release #{Octopus.Release.Number} to <#{AWS.Website}|#{Octopus.Environment.Name} ↗️
 ```
 
