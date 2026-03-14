@@ -27,12 +27,12 @@ updates:
       interval: "weekly"
 ```
 
-In my case I already had configuration for my pnpm dependencies:
+In my case I already had configuration for my npm dependencies:
 
 ```yaml
 version: 2
 updates:
-  - package-ecosystem: "pnpm"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -43,7 +43,7 @@ But it's trivial to add multiple updates to the same file:
 ```yaml
 version: 2
 updates:
-  - package-ecosystem: "pnpm"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
