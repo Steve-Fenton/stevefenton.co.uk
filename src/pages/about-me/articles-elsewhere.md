@@ -35,6 +35,11 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [AI is an Amplifier, Not a Silver Bullet](https://coderlegion.com/5638/ai-is-an-amplifier-not-a-silver-bullet)
 - [Process theater versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
 
+### CD Office Hours
+
+- [Ep.1: Continuous Delivery should be your top priority](https://octopus.com/blog/continuous-delivery-office-hours-e1)
+- [Ep.2: Remaining deployable at all times](https://octopus.com/blog/continuous-delivery-office-hours-e2)
+
 ### DevOps culture and developer experience (DevEx)
 
 - [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
@@ -115,6 +120,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Stop wasting AI investment on a broken change approval process](https://thenewstack.io/stop-wasting-ai-investment-on-a-broken-change-approval-process/)
 - [How AI coding makes developers 56% and 19% slower](https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/)
 - [Developer Productivity in the Age of AI: Why Your Past Predicts Your Future](https://octopus.com/blog/developer-productivity-age-ai)
+- [Why AI systems are failing in familiar ways](https://thenewstack.io/ai-agents-batch-size-gravity/)
 
 
 ## Multi-tenancy

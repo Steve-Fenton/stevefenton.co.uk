@@ -46,8 +46,8 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
-    './node_modules/astro-accelerator/src/content/',
-    './src/content/',
+    './node_modules/astro-accelerator/src/content.config.ts',
+    './src/content.config.ts',
     true
 );
 
