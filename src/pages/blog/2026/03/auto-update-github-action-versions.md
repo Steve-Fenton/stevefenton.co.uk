@@ -4,6 +4,9 @@ navMenu: false
 pubDate: 2026-03-14
 keywords: github actions,dependabot
 description: "Automatically update GitHub Action versions."
+bannerImage:
+    src: /img/topic/github/github-universe.png
+    alt: A chrome rainbow Octocat GitHub logo floats in space.
 authors:
     - steve-fenton
 categories:
