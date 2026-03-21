@@ -52,17 +52,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 'lts/*'
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v3
+        uses: pnpm/action-setup@v5
         with:
           version: 10
 
@@ -76,7 +76,7 @@ jobs:
           pnpm run refresh
           
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore(deps): update dependencies"
@@ -84,7 +84,6 @@ jobs:
           body: "Automated PR to update all dependencies via `pnpm refresh`."
           branch: update-dependencies
           base: main
-
 ```
 
 ## Once a week, press a button
