@@ -92,6 +92,8 @@ jobs:
 
 As I check the process, I'll be checking the pull requests and pressing the merge button myself.
 
+![A pull request containing dependency updates](/img/2026/03/update-deps-pr.png)
+
 Once I've proven things out, I'll likely get this into a state where it will auto merge. I validate pull requests with a series of checks, so I'll know if something breaks. When all the checks pass, I should get things to merge without needing me to press a button.
 
 ## What about dependabot?
