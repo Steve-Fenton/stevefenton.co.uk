@@ -1,7 +1,7 @@
 ---
 title: Best of KubeCon Europe 2026
 navMenu: false
-pubDate: 2026-03-25
+pubDate: 2026-03-24
 keywords: kubecon,kubernetes,argo cd,ci/cd,deployments
 description: "Let me share some of the best moments from KubeCon Europe 2026 at RAI in Amsterdam."
 bannerImage:
@@ -98,7 +98,10 @@ Argo CD landed in Octopus in October 2025, adding to the Kubernetes API and Kube
 
 When I looked more closely at GitOps in the State of GitOps report, the data painted a very clear picture that the Open GitOps principles have a deeply positive impact on many of the things I care about: Software delivery performance, security, compliance, auditability, reduced access, and drift prevention.
 
-![The GitOps model shows 9 capabilities that lead to 3 DevOps outcomes and 5 GitOps outcomes](/img/topic/gitops/gitops-model-full.png)
+:::figure
+:img{src="/img/topic/gitops/gitops-model-full.png" alt="The GitOps model shows 9 capabilities that lead to 3 DevOps outcomes and 5 GitOps outcomes" loading="lazy"}
+::figcaption[GitOps model]
+:::
 
 Combining Argo CD, designed for GitOps, with Octopus's powerful modeling gives you a scalable way to manage deployments. In Platform Hub, Octopus uses Rego to set policies and powerful template management, making it easy for teams to meet policy requirements.
 

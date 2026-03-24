@@ -61,7 +61,10 @@ updates:
 
 When you first commit this file, you'll notice pull requests start appearing for your review.
 
-![Dependabot pull request to update a GitHub Action version](/img/2026/03/dependabot-action-update.jpg)
+:::figure
+:img{src="/img/2026/03/dependabot-action-update.jpg" alt="Dependabot pull request to update a GitHub Action version" loading="lazy"}
+::figcaption[Dependabot pull request to update a GitHub Action version]
+:::
 
 ```yaml
 - name: Setup pnpm cache
