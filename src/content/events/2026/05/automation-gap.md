@@ -4,7 +4,7 @@ startDate: 2026-05-07
 location: "Virtual"
 linkHref: ""
 linkText: ""
-description: "."
+description: "Organizations are heavily investing in AI tools, expecting productivity gains to translate into faster, more reliable software delivery. Yet only 1% of companies consider themselves 'mature' on the deployment spectrum..."
 ---
 
 Organizations are heavily investing in AI tools, expecting productivity gains to translate into faster, more reliable software delivery. Yet only 1% of companies consider themselves "mature" on the deployment spectrum, and research consistently shows that most are struggling to scale AI beyond individual productivity gains or isolated wins. The companies that are seeing real returns share some common characteristics, which focus on the systems already in place, like the underlying automated infrastructure built before AI tools came into play. 
