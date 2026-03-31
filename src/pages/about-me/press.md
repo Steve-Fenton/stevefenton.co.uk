@@ -15,7 +15,7 @@ March 2026
 
 I joined Dan Garfield and Kostis Kapelonis for the Argo Unpacked podcast. We talked about the Helm Sandwich, Argo CD vs the world, and answered some Argo questions on Reddit.
 
-[Watch Argo Unpacked Ep.24](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=-9VB6FkaC1A)
+[Watch Argo Unpacked Ep.24](https://www.youtube.com/watch?v=-9VB6FkaC1A)
 
 ## Project Management: Sprint retrospectives
 
