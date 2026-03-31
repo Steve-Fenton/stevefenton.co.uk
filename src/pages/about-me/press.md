@@ -9,6 +9,24 @@ description: A roll call of mentions I've received elsewhere.
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
 
+## Argo Unpacked Ep.24
+
+March 2026
+
+I joined Dan Garfield and Kostis Kapelonis for the Argo Unpacked podcast. We talked about the Helm Sandwich, Argo CD vs the world, and answered some Argo questions on Reddit.
+
+[Watch Argo Unpacked Ep.24](https://www.youtube.com/watch?v=-9VB6FkaC1A)
+
+## Project Management: Sprint retrospectives
+
+March 2026
+
+I provided some notes on psychological safety and facilitation for this deep dive on retrospectives.
+
+> “For any format to work, you need to be absolutely clear about when you’re in the divergent stage and want to hear all ideas, and when you are in the convergent stage and need to narrow the field down to a small number of actions. Crucially… these actions need to become part of the Sprint plan or they won’t happen... Retrospectives only work under conditions of psychological safety. If there are any repercussions for honest participation, there’s no point even attempting to run one”
+
+[How to Run a Sprint Retrospective](https://project-management.com/sprint-retrospective/).
+
 ## Remote Winners: How remote professionals conquer challenges
 
 March 2026
