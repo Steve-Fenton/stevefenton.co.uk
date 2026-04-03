@@ -22,7 +22,7 @@
     "spellcheckall": "cspell \"**\"",
     "theme": "pnpm update && node ./accelerator.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@astrojs/mdx": "^5.0.3",
     "@img/sharp-linux-x64": "^0.34.5",
     "astro-accelerator": "^6.0.5",
