@@ -31,19 +31,25 @@ This is my personal affirmation page, which gives me daily inspiration.
 :img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
 :::
 
+Uncertainty...
+
 > There is no point trying to impose certainty on a situation which contains high uncertainty.
 >
 > <cite>Eli Goldratt</cite>
+
+Ungovernable...
 
 > don't sign to major labels \
 > reject authority \
 > say what's on your mind \
 > make a lot of noise
-> 
+>
 > <cite>Steve Albini</cite>
 
+Unconventional...
+
 > I told my wife I was going out to buy an envelope. 'Oh,' she says. 'Well, you're not a poor man. You know, why don't you go online and buy a hundred envelopes and put them in the closet?
-> 
+>
 > And so I pretend not to hear her. And go out to get an envelope because I'm going to have a hell of a good time in the process of buying one envelope. I meet a lot of people. And, see some great looking babes. And a fire engine goes by. And I give them the thumbs up. And, and ask a woman what kind of dog that is. 
 >
 > And, and I don't know. The moral of the story is, is we're here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don't realize, or they don't care, is we're dancing animals. You know, we love to move around. And, we're not supposed to dance at all any more.
@@ -73,23 +79,23 @@ This is my personal affirmation page, which gives me daily inspiration.
 ### Apps
 
 1. Magnet (App store)
-2. [Vivaldi](https://vivaldi.com)
-3. [GitHub Desktop](https://desktop.github.com/download/)
-4. [Antigravity](https://antigravity.google)
-5. [OpenCode](https://opencode.ai)
-6. [PNPM](https://pnpm.io)
-7. [Proton Drive](https://proton.me/drive)
-8. [Pinta](https://www.pinta-project.com)
-8. [Keyboard Maestro](https://www.keyboardmaestro.com/)
-10. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
-11. [Shottr](https://shottr.cc)
-12. Flow (App store)
-13. Bookify: Send to Kindle (App store)
-14. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
+1. [Vivaldi](https://vivaldi.com)
+1. [GitHub Desktop](https://desktop.github.com/download/)
+1. [Antigravity](https://antigravity.google)
+1. [OpenCode](https://opencode.ai)
+1. [PNPM](https://pnpm.io)
+1. [Proton Drive](https://proton.me/drive)
+1. [Pinta](https://www.pinta-project.com)
+1. [Keyboard Maestro](https://www.keyboardmaestro.com/)
+1. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+1. [Shottr](https://shottr.cc)
+1. Flow (App store)
+1. Bookify: Send to Kindle (App store)
+1. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
+1. [Rancher Desktop](https://rancherdesktop.io)
+1. Whisper Notes - Speech to Text (App store)
 
 To add... Homebrew and commands to install the stuff I want!
-14. [Rancher Desktop](https://rancherdesktop.io)
-15. Whisper Notes - Speech to Text (App store)
 
 #### Davinci tips
 
