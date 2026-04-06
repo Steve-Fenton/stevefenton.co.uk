@@ -40,16 +40,10 @@ function enhanceYoutubeLinks() {
         video.classList.add('init');
         video.setAttribute('role', 'button');
 
-        const text = video.textContent;
         video.innerHTML = `<div class="yt-video">
         <div class="play-icon" style="background-image: url(https://img.youtube.com/vi/${id}/0.jpg)">▶</div>
-        <div class="title"></div>
+        <div class="title">${video.textContent}</div>
         </div>`;
-        
-        const titleEl = video.querySelector('.title');
-        if (titleEl) {
-            titleEl.textContent = text;
-        }
     }
 
     /**
