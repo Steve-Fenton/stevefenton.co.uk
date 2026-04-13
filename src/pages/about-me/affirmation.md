@@ -97,6 +97,8 @@ Unconventional...
 
 To add... Homebrew and commands to install the stuff I want!
 
+- `brew install ffmpeg`
+
 #### Davinci tips
 
 1. Fix each video first (zoom, position, etc)
@@ -138,12 +140,14 @@ When you have a pre-roll clip idea, select the video and audio, copy, go back to
 Grab with [yt-dlp](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options)!
 
 ```bash
-yt-dlp --output "~/Downloads/%(title)s.%(ext)s" <id>
+yt-dlp --output "~/Downloads/%(title)s.%(ext)s" <yt-url>
 ```
 
-Edit!
+And any conversions can be done with FFMPEG
 
-There's a "slides" render preset (MP4 H.264 1920x1080 restrict 8000 kb/s. Scrunch it with [Free Convert](https://www.freeconvert.com/video-compressor/download)
+```bash
+ffmpeg -i input.mkv -c:v copy -c:a aac output.mp4
+```
 
 ### Keyboard
 
