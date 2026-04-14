@@ -1,6 +1,6 @@
 ---
 title: "Cloud State of Play Livestream"
-startDate: 2026-04-02
+startDate: 2026-04-15
 location: "Virtual"
 linkHref: "https://youtube.com/live/KCucy93eseo"
 linkText: "Join the livestream"
