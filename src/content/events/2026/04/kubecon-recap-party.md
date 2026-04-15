@@ -2,8 +2,8 @@
 title: "KubeCon Recap Party"
 startDate: 2026-04-02
 location: "Virtual"
-linkHref: "https://streamyard.com/watch/8exz7rWknkyp"
-linkText: "Register now"
+linkHref: "https://www.youtube.com/watch?v=dT-QVUm8qQA"
+linkText: "Watch on YouTube"
 description: "KubeCon EU 2026 is done. Now let’s talk about what actually mattered. This recap session covers the biggest announcements, the talks everyone’s still discussing, and the trends that look like they’ll stick."
 ---
 
