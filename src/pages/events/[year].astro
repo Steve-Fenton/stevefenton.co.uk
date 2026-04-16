@@ -7,7 +7,11 @@ import TimelineEvent from "@components/TimelineEvent.astro";
 
 export async function getStaticPaths() {
     const allEvents = await getCollection("events");
-    const years = [...new Set(allEvents.map((event) => event.data.startDate.getFullYear()))];
+    const years = [
+        ...new Set(
+            allEvents.map((event) => event.data.startDate.getFullYear()),
+        ),
+    ];
 
     return years.map((year) => ({
         params: { year: year.toString() },
@@ -19,11 +23,18 @@ const { year } = Astro.props;
 const lang = SITE.default.lang;
 const _ = Lang(lang);
 
-const events = await getCollection("events", ({ data }) => {
+const allEvents = await getCollection("events");
+const years = [
+    ...new Set(allEvents.map((event) => event.data.startDate.getFullYear())),
+].sort((a, b) => b - a);
+
+const events = allEvents.filter(({ data }) => {
     return data.startDate.getFullYear() === year;
 });
 
-const sortedEvents = events.sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime());
+const sortedEvents = events.sort(
+    (a, b) => b.data.startDate.getTime() - a.data.startDate.getTime(),
+);
 
 const frontmatter = {
     title: `Events in ${year}`,
@@ -32,10 +43,6 @@ const frontmatter = {
 
 const breadcrumbs = [
     {
-        url: "/events/",
-        title: "Events",
-    },
-    {
         url: `/events/${year}/`,
         title: year.toString(),
         ariaCurrent: "page",
@@ -43,8 +50,26 @@ const breadcrumbs = [
 ];
 ---
 
-<DefaultLayout frontmatter={frontmatter as any} headings={[]} breadcrumbs={breadcrumbs}>
-    <p>This page captures events from {year}. You can view <a href="/events/">the current event list here</a>.</p>
+<DefaultLayout
+    frontmatter={frontmatter as any}
+    headings={[]}
+    breadcrumbs={breadcrumbs}>
+    <nav class="post-taxonomy">
+        <ul>
+            <li><a href="/events/">Current</a></li>
+            {
+                years.map((y) => (
+                    <li>
+                        <a
+                            href={`/events/${y}/`}
+                            aria-current={y === year ? "page" : undefined}
+                            >{y}</a
+                        >
+                    </li>
+                ))
+            }
+        </ul>
+    </nav>
 
     <h2>{year}</h2>
     <div class="timeline" data-timeline>
@@ -64,27 +89,3 @@ const breadcrumbs = [
         }
     </div>
 </DefaultLayout>
-
-<style is:global>
-    /* Events timeline (copied from themes/accelerator/layouts/Events.astro) */
-    .timeline {
-        --timeline-gap: 1rem;
-        position: relative;
-    }
-
-    .timeline h2,
-    .timeline h3 {
-        margin: 0 0 0.5rem 0;
-        font-size: var(--font-size-h4);
-    }
-
-    .timeline::before {
-        background-color: var(--icon-block);
-        bottom: 0;
-        content: "";
-        left: var(--timeline-gap);
-        position: absolute;
-        top: calc((var(--block-gap) + 1px) * -1);
-        width: 0.4rem;
-    }
-</style>
