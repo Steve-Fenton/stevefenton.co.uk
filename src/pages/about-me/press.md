@@ -2,12 +2,20 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2026-02-18
+modDate: 2026-04-16
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
+
+## Cloud State of Play LIVE
+
+April 2026
+
+I joined Richard Simon and Paul Bevan, along with guest star Cheryl Hung, for the first ever Cloud State of Play livestream. We talked about DevOps, cloud network security, and the latest from KubeCon.
+
+[Watch Cloud State of Play LIVE](https://www.youtube.com/watch?v=KCucy93eseo)
 
 ## Argo Unpacked Ep.24
 
