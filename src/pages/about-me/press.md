@@ -47,7 +47,7 @@ March 2026
 
 February 2026
 
-> Octopus Deploy has released the 2026 AI Pulse Report, looking at how AI adoption is actually impacting developer workflows. The findings reveal the drawbacks of AI-generated code and that a serious talent shortage could be on the horizon. 
+> Octopus Deploy has released the 2026 AI Pulse Report, looking at how AI adoption is actually impacting developer workflows. The findings reveal the drawbacks of AI-generated code and that a serious talent shortage could be on the horizon.
 
 [AI Pulse report reveals a potential skills shortage](https://www.i-programmer.info/news/240-devops/18672-ai-pulse-report-reveals-a-potential-skills-shortage-.html)
 
@@ -125,7 +125,7 @@ April 2025
 
 I'm really honoured to have received a nomination for the CD Foundation's *Continuous Enthusiast Award*.
 
-> I am honored to nominate [Steve Fenton](https://cd.foundation/blog/2024/07/22/continuous-spotlight-meet-steve-fenton/) for the Continuous Enthusiast Award. He has written a few blog posts about the State of CI/CD Report over the years, including "[The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)" in 2024, was part of the [Techstrong panel](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12) about the State of CI/CD Report, and was on the Program Committee for the [CD Mini Summit 2024](https://cd.foundation/cd-mini-summit-vienna/).
+> I am honoured to nominate [Steve Fenton](https://cd.foundation/blog/2024/07/22/continuous-spotlight-meet-steve-fenton/) for the Continuous Enthusiast Award. He has written a few blog posts about the State of CI/CD Report over the years, including "[The Journey of DevOps Tooling Adoption](https://cd.foundation/blog/2024/04/16/state-cicd-devops-tooling-adoption/)" in 2024, was part of the [Techstrong panel](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12) about the State of CI/CD Report, and was on the Program Committee for the [CD Mini Summit 2024](https://cd.foundation/cd-mini-summit-vienna/).
 
 [See all the nominees on CDF GitHub](https://github.com/cdfoundation/foundation/issues/460#issuecomment-2821565195)
 
@@ -143,9 +143,9 @@ Saqib Jan wrote an article on the impact of CI/CD pipelines on Developer Experie
 
 March 2025
 
-We ran a study of software deployments across the US to see where the acticity hubs were, broken down by state and city. DevPro covered the findings in their article.
+We ran a study of software deployments across the US to see where the activity hubs were, broken down by state and city. DevPro covered the findings in their article.
 
-> Software industry research has led Octopus to the conclusion that frequent software deployments are a feature of high-performing development teams. They were interested in ﬁnding out which US states did the most deployments each year to see if this information matched population size, or the location of US tech hubs, such as those featured in Bloomberg's 2019 Brain Concentration Index.
+> Software industry research has led Octopus to the conclusion that frequent software deployments are a feature of high-performing development teams. They were interested in finding out which US states did the most deployments each year to see if this information matched population size, or the location of US tech hubs, such as those featured in Bloomberg's 2019 Brain Concentration Index.
 
 [Study data: US cities, states with the most annual software deployments](https://www.devprojournal.com/software-development-trends/study-data-us-cities-states-with-the-most-annual-software-deployments/)
 
@@ -190,7 +190,7 @@ Michael Richardson and I discussed what runbooks are, why they are useful, and h
 
 October 2024
 
-Saim and I have been looking into Platform Engineering and we shared some early insights on Clound Native FM.
+Saim and I have been looking into Platform Engineering and we shared some early insights on Cloud Native FM.
 
 [Watch People, Processes, Power, and Performance with Platform Engineering](https://www.youtube.com/watch?v=fC-TTfW9S0M)
 
@@ -308,7 +308,7 @@ John Bristowe and I present a new perspective on multi-tenancy that looks beyond
 
 July 2023
 
-I join John Bristow, Bob Walker, Ian Khor, and James Chatmas for the community town hall event.
+I join John Bristowe, Bob Walker, Ian Khor, and James Chatmas for the community town hall event.
 
 [Watch the Octopus July 2023 Community Town Hall](https://www.youtube.com/watch?v=3H2PI_U_HUQ)
 
