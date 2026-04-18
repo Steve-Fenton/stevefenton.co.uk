@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Steve-Fenton/pnpm-updater@v1
+      - uses: Steve-Fenton/pnpm-updater@v0.0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           update_script: 'pnpm run refresh'
