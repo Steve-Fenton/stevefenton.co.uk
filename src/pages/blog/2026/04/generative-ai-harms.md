@@ -5,8 +5,8 @@ pubDate: 2026-04-19
 keywords: generative ai,harm,risk
 description: "Generative AI: A model for acceptance"
 bannerImage:
-    src: /img/topic/github/github-universe.png
-    alt: A chrome rainbow Octocat GitHub logo floats in space.
+    src: /img/2026/04/motorwagen.jpg
+    alt: The Benz Patent-Motorwagen was the first practical automobile put into production.
 authors:
     - steve-fenton
 categories:
@@ -15,7 +15,7 @@ tags:
     - AI
 ---
 
-Throughout our history as a species we have grappled in the quagmire of complexity around the decisions we make. There are ethical, moral, and social impacts to every new development and we continue to navigate this confusing landscape in a process where things constantly shift and no end state is available.
+Throughout our history as a species, we have grappled in the quagmire of complexity around the decisions we make. There are ethical, moral, and social impacts to every new development and we continue to navigate this confusing landscape in a process where things constantly shift and no end state is available.
 
 This article, or perhaps essay, is long. This is necessary to capture the thought process, rather than just the outcome. Just as a student may gain bonus points for a wrong answer that uses the correct method of calculation, I hope we can debate where in this mental exercise the two of us diverge in agreement, rather than having a binary debate about it being entirely *right* or *wrong*.
 
@@ -38,7 +38,7 @@ Source: [Wikimedia Commons](https://en.wikipedia.org/wiki/File:1885Benz.jpg).
 
 One thing is very clear. 150 years has not been enough to perfect the system and we are still making adjustments as we balance a system that’s subject to shifting concerns. There are vast differences in how these systems are governed around the world based on social views, like the priority of vehicles, bicycles, or pedestrians, or balancing personal autonomy with congestion. These social attitudes also shift over time in response to factors like environmental impact, or evolving views of fairness.
 
-At the time of writing, we seem close to proving that well-designed subsidized public transport is superior to personal transport in many cases. Congested cities using freeway removal to introduce (or re-introduce) public spaces. This is a complete reversal of policies enacted in the second half of the 20th century, where freeway expansion proliferated.
+At the time of writing, we seem close to proving that well-designed subsidized public transport is superior to personal transport in many cases. Congested cities are using freeway removal to introduce (or re-introduce) public spaces. This is a complete reversal of policies enacted in the second half of the 20th century, where freeway expansion proliferated.
 
 If the motorwagen had never been invented, what might our towns and cities look like? It’s almost impossible to imagine as so many of us have grown up surrounded by roads, even if we don’t own a vehicle. This is the question we must now ask in order to challenge the current state of things and create something better. And it would have been equally challenging for people in 1885 to imagine what the motorwagen would do to their towns, cities, and lifestyle.
 
@@ -57,7 +57,7 @@ Source: [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Waterfront_Park,_
 
 With the historical lesson of the motorwagen firmly in mind, we must now look ahead to imagine what our towns and cities might look like with generative AI. The analogy is apt because, just as with personal transport, the speed and convenience are much celebrated and the harms (emissions, road deaths, environmental impact, congestion, centralization) are far less clear.
 
-We might find it instructive to look at how the debate took shape in the 1920s, when the harms of motor vehicles were becoming more apparent as motorists began to compete in earnest with the space formerly occupied by people. While both public opinion and that expressed by judges was vastly in favour of the rights of pedestrians, the wealth at the disposable of the motoring minority allowed them to build the rhetorical force to petition for rights against the majority view.
+We might find it instructive to look at how the debate took shape in the 1920s, when the harms of motor vehicles were becoming more apparent as motorists began to compete in earnest with the space formerly occupied by people. While both public opinion and that expressed by judges was vastly in favour of the rights of pedestrians, the wealth at the disposal of the motoring minority allowed them to build the rhetorical force to petition for rights against the majority view.
 
 > The transformation was not a natural evolution, a side effect of technological progress, the choice of a democratic majority, or the product of a free market.
 >
@@ -67,7 +67,7 @@ And now we must transfer these lessons to the subject of generative AI, a term w
 
 ## A model concerning utility and harms
 
-Much of the conversation  around generative AI has been polarized into extremes described as either hype and hate to describe those with a positive or negative view of generative AI. We can certainly draw a comparison between pedestrians and motorists in this respect, though how large the minority is when compared the majority is less clear.
+Much of the conversation  around generative AI has been polarized into extremes labelled *hype* and *hate* to describe those with a positive or negative view of generative AI. We can certainly draw a comparison between pedestrians and motorists in this respect, though how large the minority is when compared to the majority is less clear.
 
 In fact, we might imagine the situation before the 1920s, when the motorwagen was a novelty and the true picture of the utility and harms were not yet clear. What model could have been used to integrate this new form of transport into society with the least harm?
 
@@ -120,9 +120,9 @@ Removing harms invites broader participation and reduces the need for city and s
 - *I will negotiate with others how motorists and non-motorists co-exist*
 - *We will collectively look for new harms and pressure those responsible to remove them, and pressure authorities to remove them if those responsible neglect their duty*
 
-Specifically, if we can now begin to move to the topic of generative AI, as a technologist who has always enjoyed trying new ideas, techniques, and technologies, would be able to commit to experimenting with generative AI to discover its utility in depth, and could participate in the social process to determine where we accept its use and where we don’t.
+Specifically, if we can now begin to move to the topic of generative AI, as a technologist who has always enjoyed trying new ideas, techniques, and technologies, I would be able to commit to experimenting with generative AI to discover its utility in depth, and could participate in the social process to determine where we accept its use and where we don’t.
 
-My gut feeling is that if generative AI removed most or all of the harms identified to date, and was responsive in removing latent harms as they are discovered, is that generative AI certainly has utility, for example in assistive technology, just as I’m convinced that I don’t want to read books or articles written using generative AI. What I can’t explore at this stage is the complicated middle.
+My gut feeling is that generative AI has utility if the harms were to be removed, including those we haven't uncovered yet. For example, I have seen positive examples of generative AI being used to assist people through assistive technology. Even so, I’m convinced that I don’t want to read books or articles written using generative AI.
 
 ## Model of harms for generative AI
 
@@ -168,11 +168,11 @@ Examples of specific harms:
 
 ## Practical use of the model
 
-The model isn’t final and the examples are illustrative, but we can now build a path forward. Based on the current examples, I could create a generative AI model using my own data, or data I’ve obtained permission to use for this purpose. During the preparation use ecologically sound infrastructure and perform checks to identify sources that may pollute my model with inaccuracy or bias.
+The model isn’t final and the examples are illustrative, but we can now build a path forward. Based on the current examples, I could create a generative AI model using my own data, or data I’ve obtained permission to use for this purpose. During the preparation, I would use ecologically sound infrastructure and perform checks to identify sources that may pollute my model with inaccuracy or bias.
 
 When the model is put to use, I use it to crawl through my photographs and apply labels based on what is found in each image. The tags allow me to search my photographs when I need to find something, instead of scrolling through a huge collection of thumbnails.
 
-In this example, we’ve taken care to limit the known harms across all categories and responsibilities. The source, preparation, and application of the generative AI deal with known harms and the outcome has high utility. There may still be unintended harms, and those we’ll tackle when we identify them.
+In this example, we’ve taken care to limit the known harms across all categories and responsibilities. The source, preparation, and application of the generative AI deal with known harms and the outcome has high utility. There may still be unintended harms, and we will tackle them as we identify them.
 
 ## Why it works
 
@@ -180,9 +180,9 @@ The generative AI debate is highly charged and has quickly polarized into the hy
 
 The model is the mechanism to provide the path forward. It doesn’t dismiss the harms, but actively surfaces them and offers them to those responsible to resolve, just as we asked motor vehicle manufacturers to make cars safer and motorists to drive responsibly. When manufacturers and motorists fail to meet the standards society demands, we ask authorities to intervene.
 
-Meanwhile we choose our own relationship with motor vehicles within the agreed legal and social contracts, using them where we decide they are useful.
+Meanwhile, we choose our own relationship with motor vehicles within the agreed legal and social contracts, using them where we decide they are useful.
 
-Because our understanding and empathy shift all the time in society, we may one day decide that personal transportation isn’t the appropriate solution to our transport needs. We might make a personal decision, or we might make structural changes to public transport and city design that affect everyone. These changes don’t necessarily eliminate motor vehicles, but it can alter how we structure their use.
+Because our understanding and empathy shift all the time in society, we may one day decide that personal transportation isn’t the appropriate solution to our transport needs. We might make a personal decision, or we might make structural changes to public transport and city design that affect everyone. These changes don’t necessarily eliminate motor vehicles, but they can alter how we structure their use.
 
 ## Get involved
 
