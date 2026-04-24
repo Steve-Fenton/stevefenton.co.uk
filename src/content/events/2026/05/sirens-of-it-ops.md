@@ -3,7 +3,7 @@ title: "The sirens of IT Ops want to drown your platform crew"
 startDate: 2026-05-27
 location: "Virtual"
 linkHref: "https://platformengineering.org/events/the-sirens-of-it-ops-want-to-drown-your-platform-crew-2026-05-27"
-linkText: "Research your spot"
+linkText: "Reserve your spot"
 description: "The sirens of IT Ops are seductive. With familiar processes, existing tooling, the comfort of a queue. But they'll wreck your platform team on the rocks."
 ---
 
