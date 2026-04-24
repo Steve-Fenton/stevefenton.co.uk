@@ -18,8 +18,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^6.0.18
-        version: 6.0.18(@types/node@25.0.3)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3)
+        specifier: ^6.0.20
+        version: 6.0.20(@types/node@25.0.3)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3)
       astro-accelerator-utils:
         specifier: ^0.3.82
         version: 0.3.82
@@ -595,7 +595,6 @@ packages:
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@img/sharp-linuxmusl-arm64@0.34.5':
     resolution: {integrity: sha512-fprJR6GtRsMt6Kyfq44IsChVZeGN97gTD331weR1ex1c1rypDEABN6Tm2xa1wE6lYb5DdEnk03NZPqA7Id21yg==}
@@ -918,8 +917,8 @@ packages:
   astro-accelerator-utils@0.3.82:
     resolution: {integrity: sha512-Zk7p4n1w3ZZoJNGP5PpAIwBNrXo4ElQ6tAMcDbF61078CVV950O9OeLcnImam42wG6AkJkF0WmncffsE+pCouA==}
 
-  astro-accelerator@6.0.18:
-    resolution: {integrity: sha512-tvRVa9bCQMs+eNGHCmcSDpgodxyci5SORV/6BZvyqMGDLfX1SNavpvKcJCybcZOcWtC3EF7qbl3st98aQwYpfw==}
+  astro-accelerator@6.0.20:
+    resolution: {integrity: sha512-ZtEY0TyG7pMfrG4xc74irZWHHTCC8ivruz26niRJ9j/CMlukno8+yHfHxbGmLs94PrWcltAYKGULikGG12ydLQ==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@6.1.7:
@@ -2947,7 +2946,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.82: {}
 
-  astro-accelerator@6.0.18(@types/node@25.0.3)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3):
+  astro-accelerator@6.0.20(@types/node@25.0.3)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3):
     dependencies:
       optional: 0.1.4
       '@astrojs/mdx': 5.0.3(astro@6.1.7(@types/node@25.0.3)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3))
