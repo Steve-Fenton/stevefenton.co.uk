@@ -29,6 +29,8 @@ Here's an adaptable strategy I apply to my PNPM dependencies that seeks the Gold
 
 `minimumReleaseAgeExclude` lists packages that are exempt from the quarantine period above. Packages in this list are installed immediately, regardless of how recently they were published. In this case `astro-accelerator` and `astro-accelerator-utils` are first-party packages (I made them), so they don't need the same level of scrutiny as third-party dependencies.
 
+Note: There's currently a [bug outstanding](https://github.com/pnpm/pnpm/issues/10361) in PNPM that means this setting isn't currently working!
+
 ## Trust policy
 
 `trustPolicy` controls whether pnpm will install lifecycle scripts (pre/post-install hooks) for packages. Setting it to `no-downgrade` means packages that were previously allowed to run scripts can continue to do so, but newly added packages must be explicitly approved before their scripts will run. This prevents a supply-chain attack from sneaking malicious install scripts in through a new dependency.
