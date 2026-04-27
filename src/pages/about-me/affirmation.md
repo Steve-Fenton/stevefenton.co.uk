@@ -149,6 +149,14 @@ And any conversions can be done with FFMPEG
 ffmpeg -i input.mkv -c:v copy -c:a aac output.mp4
 ```
 
+#### Reduce video file size
+
+Reduce file size by running it through FFMPEG for a 1080p output.
+
+```
+ffmpeg -i input.mov -vf scale=-1:1080 output.mov
+```
+
 ### Keyboard
 
 I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
