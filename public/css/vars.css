@@ -1,3 +1,55 @@
+:root,
+body.mode-light {
+    --fore: #223;
+    --aft: #DDF;
+    --aft-image: #DDF;
+
+    --fore-link: #335;
+    --fore-link-alt: #669;
+    --aft-link-alt: #e6e6eC;
+
+    --fore-input: var(--fore);
+    --aft-input: var(--aft);
+
+    --fore-block: #333;
+    --aft-block: #CCF;
+    --icon-block: #fe117D;
+    --icon-block-alpha: rgba(from var(--icon-block) r g b / 0.4);
+
+    --fore-table-head: #DDF;
+    --aft-table-head: #223;
+    --fore-table-row-odd: #333;
+    --aft-table-row-odd: #DDF;
+    --fore-table-row-even: #333;
+    --aft-table-row-even: #CCF;
+}
+
+body.mode-dark {
+    --fore: #DDF;
+    --aft: #223;
+    --aft-image: #DDD;
+
+    --fore-link: #AAF;
+    --fore-link-alt: #CCF;
+    --aft-link-alt: #232323;
+
+    --fore-input: #var(--fore);
+    --aft-input: var(--aft);
+
+    --fore-block: #DDF;
+    --aft-block: #001;
+    --icon-block: #FE117D;
+    --icon-block-alpha: rgba(from var(--icon-block) r g b / 0.4);
+
+    --fore-table-head: #DDF;
+    --aft-table-head: #224;
+    --fore-table-row-odd: #DDF;
+    --aft-table-row-odd: #335;
+    --fore-table-row-even: #DDF;
+    --aft-table-row-even: #446;
+}
+
+
 @font-face {
     font-family: "hyper-reg";
     font-weight: normal;
@@ -23,28 +75,6 @@
 }
 
 :root {
-    --fore: #223;
-    --aft: #DDF;
-    --aft-image: #DDF;
-
-    --fore-link: #335;
-    --fore-link-alt: #669;
-    --aft-link-alt: #e6e6eC;
-    
-    --fore-input: var(--fore);
-    --aft-input: var(--aft);
-
-    --fore-block: #333;
-    --aft-block: #CCF;
-    --icon-block: #fe117D;
-
-    --fore-table-head: #DDF;
-    --aft-table-head: #223;
-    --fore-table-row-odd: #333;
-    --aft-table-row-odd: #DDF;
-    --fore-table-row-even: #333;
-    --aft-table-row-even: #CCF;
-
     --heading-font: 'hyper-bold', sans-serif;
     --content-font: 'hyper-reg', Verdana, Geneva, sans-serif;
     --code-font: 'hyper-mono', Consolas, 'Courier New', Courier, monospace;
@@ -68,6 +98,7 @@
 
     --box-shadow: 0 12px 24px -12px rgb(0 0 0 / 50%);
     --box-shadow-slight: 0 6px 12px -6px rgb(0 0 0 / 40%);
+    --box-glow: 0 0 12px 0 var(--icon-block-alpha);
 
     --box-shadow-unselected: rgb(0 0 0 / 6%) 0px 2px 4px, rgb(0 0 0 / 5%) 0px 0.5px 1px;
     --transform-selected: translate3d(0px, -1px, 0px);
@@ -84,30 +115,4 @@
     --search-height: 2rem;
     --search-dropdown-height: 65vh;
     --search-dropdown-duration: 0.2s;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --fore: #DDF;
-        --aft: #223;
-        --aft-image: #DDD;
-    
-        --fore-link: #AAF;
-        --fore-link-alt: #CCF;
-        --aft-link-alt: #232323;
-
-        --fore-input: #var(--fore);
-        --aft-input: var(--aft);
-
-        --fore-block: #DDF;
-        --aft-block: #001;
-        --icon-block: #FE117D;
-
-        --fore-table-head: #DDF;
-        --aft-table-head: #224; 
-        --fore-table-row-odd: #DDF;
-        --aft-table-row-odd: #335;
-        --fore-table-row-even: #DDF;
-        --aft-table-row-even: #446;
-    }
 }
