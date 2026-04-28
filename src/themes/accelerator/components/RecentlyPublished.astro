@@ -6,7 +6,7 @@ import { SITE } from '@config';
 import ArticleList from '@components/ArticleList.astro';
 
 const accelerator = new Accelerator(SITE);
-const stats = new accelerator.statistics('accelerator/components/RecentlyUpdated.astro');
+const stats = new accelerator.statistics('accelerator/components/RecentlyPublished.astro');
 stats.start();
 
 // Properties
@@ -30,7 +30,7 @@ const pages = allPages
     const postUrl = post.url || '';
     return postUrl === normalizedPath || postUrl.startsWith(`${normalizedPath}/`);
   })
-  .sort(PostOrdering.sortByModDateDesc)
+  .sort(PostOrdering.sortByPubDateDesc)
   .slice(0, count);
 
 stats.stop();
