@@ -121,6 +121,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [How AI coding makes developers 56% and 19% slower](https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/)
 - [Developer Productivity in the Age of AI: Why Your Past Predicts Your Future](https://octopus.com/blog/developer-productivity-age-ai)
 - [Why AI systems are failing in familiar ways](https://thenewstack.io/ai-agents-batch-size-gravity/)
+- [AI: You Asked for a Dog, They're Selling You a Cheetah](https://thenewstack.io/feedback-driven-ai-adoption/)
 
 
 ## Multi-tenancy
