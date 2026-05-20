@@ -9,16 +9,9 @@ description: Steve Fenton researches the socio-technical systems behind software
 
 Steve Fenton researches the socio-technical systems behind software delivery; how organizations, people, and technology actually work together (or don't). At Octopus Deploy, he explores GitOps, Platform Engineering, Continuous Delivery, and compliance through a lens shaped by punk history, psychology, and the kind of genre fiction that asks uncomfortable questions about systems and society.
 
-He's an eight-time Microsoft MVP (DevOps), a DORA Community Guide, and a member of the CNCF Platform Engineering Community Group. He's written books on TypeScript, Octopus Deploy, and Web Operations Monitoring, and occasionally writes horror fiction that reveals truths about how things actually work.
+He's an eight-time Microsoft MVP (DevOps), a DORA Community Guide, a CD Foundation Governing Board member, and a contributor to the CNCF Platform Engineering Community Group. He's written books on TypeScript, Octopus Deploy, and Web Operations Monitoring, and occasionally writes horror fiction.
 
 A self-described Software Punk, pragmatist-abstractionist, and generalising-generalist, Steve studied _Psychology_ at OSC and the _history of punk (1976-1978)_ at the University of Reading. Those aren't side interests; they're how he thinks.
-
-You might also like to visit his friends:
-
-- [Matt Allford](https://mattallford.com/) - automation and ops
-- [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
-- [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
-- [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
 
 - - - - - -
 
@@ -35,3 +28,10 @@ You might also like to visit his friends:
 :::
 
 </div>
+
+You might also like to visit his friends:
+
+- [Matt Allford](https://mattallford.com/) - automation and ops
+- [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
+- [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
+- [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
