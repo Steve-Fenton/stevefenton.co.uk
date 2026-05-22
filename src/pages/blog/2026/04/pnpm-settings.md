@@ -53,6 +53,20 @@ trustPolicy: no-downgrade
 blockExoticSubdeps: true
 ```
 
+I have an additional bit of configuration here, because I want to force a specific version of a development dependency (as newer versions collapse when I use them at the scale I'm working).
+
+```yaml
+overrides:
+  "example-dependency-name": "12.0.0"
+```
+
+You can also use overrides if you have a "dependency of dependency" that uses an older version and you want to force it to use a newer one.
+
+```yaml
+overrides:
+  "zod@<=3.22.2": ">=3.22.3"
+```
+
 ## Serious dependency security
 
 If you're working on a system where a malicious package could cause widespread damage, for example a regulated industry, or a tool vendor for tools used in sensitive areas like build pipelines where you have secrets that could be exfiltrated, you need to go a bit deeper.
