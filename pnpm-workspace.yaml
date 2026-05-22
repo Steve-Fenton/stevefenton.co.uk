@@ -9,6 +9,7 @@ blockExoticSubdeps: true
 
 overrides:
   "zod@<=3.22.2": ">=3.22.3"
+  "linkinator": "7.0.0"
 
 updateConfig:
   ignoreDependencies:
