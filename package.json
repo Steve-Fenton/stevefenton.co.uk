@@ -9,7 +9,7 @@
     "pnpm": ">=10"
   },
   "scripts": {
-    "refresh": "pnpm update --latest && node ./accelerator.js",
+    "refresh": "pnpm update && node ./accelerator.js",
     "update-node": "bash -c 'source $NVM_DIR/nvm.sh && nvm install --lts && npm install -g pnpm'",
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@astrojs/mdx": "^5.0.6",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^6.1.6",
+    "astro-accelerator": "^6.1.7",
     "astro-accelerator-utils": "^0.3.86",
     "cspell": "^10.0.0",
     "linkinator": "7.0.0",

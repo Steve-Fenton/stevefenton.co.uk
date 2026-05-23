@@ -19,8 +19,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^6.1.6
-        version: 6.1.6(@types/node@25.0.3)(rollup@4.60.4)(yaml@2.9.0)
+        specifier: ^6.1.7
+        version: 6.1.7(@types/node@25.0.3)(rollup@4.60.4)(yaml@2.9.0)
       astro-accelerator-utils:
         specifier: ^0.3.86
         version: 0.3.86
@@ -925,8 +925,8 @@ packages:
   astro-accelerator-utils@0.3.86:
     resolution: {integrity: sha512-UjN/ok+dYNcmo0bzTCVAfvSUhF95mM6G1qFMCFqab64xdTkSYiQ260gfbu7wGAXyyKNeHPJL7fB+G6KrsGFfxQ==}
 
-  astro-accelerator@6.1.6:
-    resolution: {integrity: sha512-ZO2LhSaRVXn0tULd3SvLGwxA7ObN/B4QL0YuttAYf2W0Mrac6yp8n69E4Kl3tyGwolY48ttd9/US3U0nIobaGw==}
+  astro-accelerator@6.1.7:
+    resolution: {integrity: sha512-NyDnjhDaLoPWmYgus1yF5UIg1WLOd+w6H0uC1yKXW3jmw8l1PWtYNuGLiVKMEwr6h9cZdDYLOBfPmaEslKmLaw==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@6.3.3:
@@ -1720,8 +1720,8 @@ packages:
     resolution: {integrity: sha512-7cIXg/Z0M5WZRblrsOla88S4wAK+zOQQWeBYfV3qJuJXMr+LnbYjaadrFaS0JILfEDPVqHyKnZ1Z/1d6J9VVUw==}
     engines: {node: '>=20'}
 
-  p-queue@9.2.0:
-    resolution: {integrity: sha512-dWgLE8AH0HjQ9fe74pUkKkvzzYT18Inp4zra3lKHnnwqGvcfcUBrvF2EAVX+envufDNBOzpPq/IBUONDbI7+3g==}
+  p-queue@9.3.0:
+    resolution: {integrity: sha512-7NED7xhQ74Ngp4JP/2e0VZHp7vSWfJfqeiR92jPgxsz6m0Se4P03YoTKa9dDXyZ3r6P616gUXttrB6nnHYKang==}
     engines: {node: '>=20'}
 
   p-timeout@7.0.1:
@@ -2947,7 +2947,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.86: {}
 
-  astro-accelerator@6.1.6(@types/node@25.0.3)(rollup@4.60.4)(yaml@2.9.0):
+  astro-accelerator@6.1.7(@types/node@25.0.3)(rollup@4.60.4)(yaml@2.9.0):
     dependencies:
       optional: 0.1.4
       '@astrojs/mdx': 5.0.6(astro@6.3.3(@types/node@25.0.3)(rollup@4.60.4)(yaml@2.9.0))
@@ -3029,7 +3029,7 @@ snapshots:
       neotraverse: 0.6.18
       obug: 2.1.1
       p-limit: 7.3.0
-      p-queue: 9.2.0
+      p-queue: 9.3.0
       package-manager-detector: 1.6.0
       piccolore: 0.1.3
       picomatch: 4.0.4
@@ -4274,7 +4274,7 @@ snapshots:
     dependencies:
       yocto-queue: 1.2.2
 
-  p-queue@9.2.0:
+  p-queue@9.3.0:
     dependencies:
       eventemitter3: 5.0.4
       p-timeout: 7.0.1
