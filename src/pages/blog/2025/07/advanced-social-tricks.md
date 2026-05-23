@@ -101,7 +101,7 @@ meta:
  - name: 'fediverse:creator'
       content: '@stevefenton@mastodon.social'
 links:
- - text: <i class="fa-brands fa-mastodon" aria-label="Mastodon"></i>
+ - text: "Mastodon"
       url: https://mastodon.social/@stevefenton
       rel: me
 ---
