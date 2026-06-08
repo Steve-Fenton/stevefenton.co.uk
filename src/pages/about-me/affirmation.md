@@ -2,9 +2,9 @@
 title: Affirmation
 navOrder: 1000
 pubDate: 2022-10-02
-modDate: 2026-03-02
-keywords: affirmation,inspiration
-description: My personal affirmation page, which gives me daily inspiration.
+modDate: 2026-06-08
+keywords: "affirmation,inspiration"
+description: "My personal affirmation page, which gives me daily inspiration."
 ---
 
 This is my personal affirmation page, which gives me daily inspiration.
@@ -18,18 +18,11 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 ## Quotes and inspiration
 
-> We've never taken ourselves too seriously... on stage. But on music
-> and creatively, then yes [we take that seriously].
+> When I first wrote this book, in 1976, the readers I had in mind were a relatively small segment of the population: students, writers, editors and people who wanted to learn to write. I wrote it on a typewriter, the highest technology then available. I had no inkling of the electronic marvels just around the corner that were about to revolutionize the act of writing... Ultimately, however, good writing rests on craft and always will. I don't know what still newer electronic marvels are waiting just around the corner to make writing twice as easy and twice as fast in the next 25 years. But I do know they won't make writing twice as good. That will still require plain old hard work—clear thinking—and the plain old tools of the English language.
 >
-> <cite>Travis Barker</cite>
+> <cite>William Zinsser, On Writing Well (25th Anniversary Edition). 2001.</cite>
 
 [Church of Roswell - Rocketeer](https://www.youtube.com/watch?v=LkIe4wYR1f8)
-
-:::div{.simple-grid}
-:img{src="/img/2020/10/idhtbcaw.jpg" alt="It Doesn't Have to be Crazy at Work" loading="lazy"}
-
-:img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
-:::
 
 Uncertainty...
 
@@ -55,6 +48,19 @@ Unconventional...
 > And, and I don't know. The moral of the story is, is we're here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don't realize, or they don't care, is we're dancing animals. You know, we love to move around. And, we're not supposed to dance at all any more.
 >
 > <cite>Kurt Vonnegut. Interviewed by David Brancaccio, NOW (PBS) <a href="http://web.archive.org/web/20200203182317/http://www.pbs.org/now/arts/vonnegut.html">Archived</a></cite>
+
+Unserious, in general...
+
+> We've never taken ourselves too seriously... on stage. But on music
+> and creatively, then yes [we take that seriously].
+>
+> <cite>Travis Barker</cite>
+
+:::div{.simple-grid}
+:img{src="/img/2020/10/idhtbcaw.jpg" alt="It Doesn't Have to be Crazy at Work" loading="lazy"}
+
+:img{src="/img/2020/10/the-manual.jpg" alt="The Manual" loading="lazy"}
+:::
 
 ## Writing reminder
 
@@ -153,7 +159,7 @@ ffmpeg -i input.mkv -c:v copy -c:a aac output.mp4
 
 Reduce file size by running it through FFMPEG for a 1080p output.
 
-```
+```bash
 ffmpeg -i input.mov -vf scale=-1:1080 output.mov
 ```
 
@@ -167,7 +173,7 @@ So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from 
 
 ## WIP: Tech diet
 
-Prefer smaller, privacy-prioritizing, tends-toward-good offerings. 
+Prefer smaller, privacy-prioritizing, tends-toward-good offerings.
 
 - Audible -> [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890)
 - Chrome -> [Vivaldi](https://vivaldi.com)
