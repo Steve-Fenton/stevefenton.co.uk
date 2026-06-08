@@ -5,12 +5,12 @@ minimumReleaseAgeExclude:
   - astro-accelerator
   - astro-accelerator-utils
 trustPolicy: no-downgrade
+trustPolicyExclude:
+  - 'tinyclip@0.1.13'
 blockExoticSubdeps: true
-
 overrides:
   "zod@<=3.22.2": ">=3.22.3"
   "linkinator": "7.0.0"
-
 updateConfig:
   ignoreDependencies:
     - linkinator
