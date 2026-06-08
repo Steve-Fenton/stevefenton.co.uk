@@ -14,6 +14,7 @@
     "build": "astro build",
     "clean": "rm -rf dist && rm -rf .log",
     "crawl": "linkinator ./dist --skip \"^(?!http://localhost)\" --skip \"/404/\" --recurse  --verbosity error",
+    "cve": "cve-lite .",
     "dev": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "img": "node ./src/themes/accelerator/utilities/img.mjs",
     "preview": "astro preview",
@@ -29,6 +30,7 @@
     "astro-accelerator-utils": "^0.3.86",
     "cspell": "^10.0.0",
     "linkinator": "7.0.0",
+    "cve-lite-cli": "^1.18.2",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
   }

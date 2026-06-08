@@ -45,6 +45,9 @@ jobs:
       - name: Crawl test
         run: pnpm crawl
 
+      - name: CVE check
+        run: pnpm cve
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:

@@ -39,3 +39,6 @@ jobs:
 
       - name: Crawl test
         run: pnpm crawl
+
+      - name: CVE check
+        run: pnpm cve
