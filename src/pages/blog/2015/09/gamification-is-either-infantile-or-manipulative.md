@@ -1,35 +1,49 @@
 ---
-title: 'Gamification is either infantile or manipulative'
+title: Gamification is either infantile or manipulative
 navMenu: false
-pubDate: 2015-09-19T11:00:08+01:00
+pubDate: 2015-09-19
+modDate: 2026-06-09
 authors:
-    - steve-fenton
+  - steve-fenton
 categories:
-    - Other
+  - Other
 tags:
-    - Gamification
+  - Gamification
 ---
 
 :::div{.inset}
 :img{src="/img/2015/09/gamification.jpg" alt="Gamification - image by Kenny Louie"}
 :::
 
-I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a “cool software company” that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
+I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a "cool software company" that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
 
-> Gamification – the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
+- **Gamification**: the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
+- **Funification** – adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
 
-> Funification – adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
+Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I'm bored of it.
 
-Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I’m bored of it.
+## ...but I'm already motivated
 
-Here is my problem. I actually enjoy software development. I like solving problems. I like writing well crafted code. I like talking about how we could do it better. I don’t need to turn any of these things into a game in order to find enjoyment in what I do. I enjoy all aspects of software development in “serious mode”. I don’t need it to be turned into fun. It is enjoyable already.
+Here is my problem. I actually enjoy software development. I like solving problems. I like writing well crafted code. I like talking about how we could do it better. I don't need to turn any of these things into a game in order to find enjoyment in what I do. I enjoy all aspects of software development in "serious mode". I don't need it to be turned into fun. It is enjoyable already.
 
-Attempting to make a game out of everything is an infantile and simplistic way of trying to inject enjoyment into something that, when done right, is incredibly satisfying. Software development is full of difficult work from which immense satisfaction can be found. Rather than trying to turn it into a game, try turning it into a profession. Doing things the “software craftsmanship” way is hard, but ultimately more satisfying than turning it into a game. The dark side of gamification is when it is used as a mechanism to manipulate people, or to disguise poor working conditions (for example, lack of autonomy).
+Attempting to make a game out of everything is an infantile and simplistic way of trying to inject "enjoyment" into something that, when done right, is incredibly satisfying. Software development is full of difficult work from which immense satisfaction can be found. Rather than trying to turn it into a game, try turning it into a profession. Doing things the "software craftsmanship" way is hard, but ultimately more satisfying than turning it into a game. The dark side of gamification is when it is used as a mechanism to manipulate people, or to disguise poor working conditions (for example, lack of autonomy).
 
-> I actually think that the agile community’s obsession with Lego and other games/toys is one of the reasons the ideas aren’t taken seriously. <cite>[Neil Killick](http://neilkillick.com/)</cite>
+> I actually think that the agile community's obsession with Lego and other games/toys is one of the reasons the ideas aren't taken seriously. <cite>[Neil Killick](http://neilkillick.com/)</cite>
 
 As a software developer (i.e. anyone involved in delivering software), I expect you would enjoy your job more if it could be performed under the right conditions. Self-actualisation is better when it is fuelled by genuine personal achievement and a sense of growth. As someone working with software developers it is better to get software written by people who are motivated by creating software, rather than simulated achievement.
 
-Don’t let the games become the reason you write software.
+## ...that's not how play works
 
-<small>Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)</small>
+Beyond the nonsensical idea that creating great software is a satisfying pursuit without adding elements of fun and games, there's a problem that happens whenever people try to design play. If you think back to unstructured play as a child, it involved picking up some object and imagining it into something else.
+
+For example... it's a spaceship not a cola bottle... it's a sword not a stick. Developing the ability to subvert simple things into many forms of play turns out to be how we develop the best kind of innovation agility.
+
+The institutionalisation of play is visible everywhere. Your local kids playground looks exactly like my local kids playground. It's structured. The items are welded into unflinching rigid purpose. Stick kids in a forest, surrounded by fallen leaves, vines, and branches, and they make new worlds.
+
+The best play is constrained by what you have to hand, but unstructured in what you do with it. This is the magic Lego has tapped into, because your parents buy you a "fire station", but you can build a moon base or whatever else you want using the bricks you have to hand.
+
+In software, the work has this same mix of unstructured responses to constraints. Your ability to bring something novel to what you build is where the special moments happen.
+
+Don't let the games become the reason you write software.
+
+&lt;small&gt;Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)&lt;/small&gt;
