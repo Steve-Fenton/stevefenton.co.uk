@@ -2,8 +2,8 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2025-09-20
-keywords: software,delivery,research
+modDate: 2026-06-11
+keywords: "software,delivery,research"
 description: Research-related publications and updates.
 ---
 
@@ -14,7 +14,7 @@ My favourite research efforts are:
 - The [Accelerate State of DevOps Report](https://dora.dev/research/) from [DORA](https://dora.dev/)
 - The [State of CI/CD Report](https://cd.foundation/reports/) from the [CD Foundation](https://cd.foundation/) and [SlashData](https://www.slashdata.co/)
 
-But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For this reason, I'll be running some research to find out more about how we're all working.
+But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For that reason, I've been running several research projects to find out more about how we're all working. Recently, I've had the pleasure of working on these projects with Neuroscientist PhD researcher, Dr Charlotte Fleming.
 
 ## 2026: The Future of Platform Engineering report
 
@@ -22,9 +22,9 @@ Taking the lessons from the Platform Engineering Pulse report, we're running a l
 
 I'll share more news soon.
 
-:::div{.simple-grid}
+::::div{.simple-grid}
 
-<div>
+:::div
 
 ## 2025: The State of GitOps report
 
@@ -41,15 +41,15 @@ The report covers topics such as:
 
 Get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report) from Octopus.
 
-</div>
+:::
 
 :img{ src="/img/topic/books/state-of-gitops-report.png" alt="The Platform Engineering Pulse report" loading="lazy" }
 
-:::
+::::
 
-:::div{.simple-grid}
+::::div{.simple-grid}
 
-<div>
+:::div
 
 ## 2025: Platform Engineering Pulse report
 
@@ -66,11 +66,29 @@ By collaborating on this project, we hope create an independent research effort 
 
 You can download the [Platform Engineering Pulse report](https://octopus.com/publications/platform-engineering-pulse) from Octopus.
 
-</div>
+:::
 
 :img{ src="/img/topic/books/platform-engineering-pulse.png" alt="The Platform Engineering Pulse report" loading="lazy" }
 
+::::
+
+::::div{.simple-grid}
+
+:::div
+
+## 2026: The AI Pulse report
+
+Led by Dr Charlotte Fleming, this report has original data and meta-analysis of AI trends and impacts.
+
+The goal of this report was to explore current AI adoption patterns, AI capabilities, AI's impact on developers, and identify recommendations for a sustainable path forward.
+
+Get a free copy of [the AI Pulse report](https://octopus.com/publications/ai-pulse-report) from Octopus.
+
 :::
+
+:img{ src="/img/topic/books/ai-pulse-report.png" alt="The AI Pulse report" loading="lazy" }
+
+::::
 
 ## Get updates
 
@@ -88,11 +106,11 @@ No. When I collect survey data, I promise people I won't share it. There are usu
 
 ### Where has the survey come from?
 
-This is a crucial question to ask with all surveys and reports. My natural curiosity is the source of all my research, though some of my research is paid for by my employer. I'm not a fan of "9 out of 10 cats" research, because it's really marketing in disguise. To avoid falling into this trap, all my research starts with a number of hypotheses to test. I faithfully note down whether they are confirmed or busted, because research is exciting either way.
+This is a crucial question to ask with all surveys and reports. My natural curiosity is the source of all my research, though most of my research is funded for by my employer, [Octopus Deploy](https://octopus.com). I'm not a fan of "9 out of 10 cats" research, because it's really marketing in disguise. To avoid falling into this trap, all my research starts with a number of hypotheses to test. I faithfully note down whether they are confirmed or busted, because research is exciting either way.
 
 ### What questions does the survey ask?
 
-I take great care to ask questions that eliminate bias, depend on knowledge respondents might not have, or that lead the respondents. This is the great challenge of survey design and I'm refining my skills here all the time. I usually share at least some of the questions alongside reports. Contact me if you want questions from one of the reports I've worked on and we can talk.
+I take great care to design questions to eliminate bias, avoid depending on knowledge respondents might not have, or that are suggestive of "correct answers". This is the great challenge of survey design and I'm refining my skills here all the time. I usually share at least some of the questions alongside reports. Contact me if you want questions from one of the reports I've worked on and we can talk.
 
 ### How many people were asked?
 
