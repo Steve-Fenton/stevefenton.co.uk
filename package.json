@@ -29,7 +29,7 @@
     "astro-accelerator": "^6.1.8",
     "astro-accelerator-utils": "^0.3.89",
     "cspell": "^10.0.1",
-    "cve-lite-cli": "^1.18.2",
+    "cve-lite-cli": "^1.19.2",
     "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
