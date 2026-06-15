@@ -31,7 +31,7 @@ March 2026
 
 I provided some notes on psychological safety and facilitation for this deep dive on retrospectives.
 
-> “For any format to work, you need to be absolutely clear about when you’re in the divergent stage and want to hear all ideas, and when you are in the convergent stage and need to narrow the field down to a small number of actions. Crucially… these actions need to become part of the Sprint plan or they won’t happen... Retrospectives only work under conditions of psychological safety. If there are any repercussions for honest participation, there’s no point even attempting to run one”
+> "For any format to work, you need to be absolutely clear about when you're in the divergent stage and want to hear all ideas, and when you are in the convergent stage and need to narrow the field down to a small number of actions. Crucially… these actions need to become part of the Sprint plan or they won't happen... Retrospectives only work under conditions of psychological safety. If there are any repercussions for honest participation, there's no point even attempting to run one"
 
 [How to Run a Sprint Retrospective](https://project-management.com/sprint-retrospective/).
 
@@ -39,7 +39,7 @@ I provided some notes on psychological safety and facilitation for this deep div
 
 March 2026
 
-> Opportunities to connect in person, such as at events or local meet-ups, are beneficial for remote teams. Using ‘radical candour1‘ and high levels of clarity ensures that the intended meaning is understood, as being overly polite can sometimes make the message less certain. It is also more effective to use public channels instead of direct messages to keep information open and accessible to everyone
+> Opportunities to connect in person, such as at events or local meet-ups, are beneficial for remote teams. Using 'radical candour1' and high levels of clarity ensures that the intended meaning is understood, as being overly polite can sometimes make the message less certain. It is also more effective to use public channels instead of direct messages to keep information open and accessible to everyone
 
 [Proven expert strategies: How remote professionals conquer challenges](https://remotewinners.com/proven-expert-strategies-remote-work-challenges/)
 
@@ -248,13 +248,13 @@ Jennifer Riggins wrote a really practical guide about the need for people to get
 
 [Read the AI policy article on LeadDev](https://leaddev.com/process/ai-governance-policy-engineering-managers-needed-yesterday)
 
-## Shepherd - Best Books 2023
+## Book DNA - Best Books 2023
 
 December 2023
 
-Following on from my list of [the best DevOps books from before DevOps was invented](https://shepherd.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Shepherd's [Best Books of 2023](https://shepherd.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
+Following on from my list of [the best DevOps books from before DevOps was invented](https://bookdna.com/best-books/devops-from-before-devops-was-invented), I was invited to contribute to Book DNA's [Best Books of 2023](https://bookdna.com/bboy/2023). Having done the hard work of choosing just three titles as my top reads, I'm delighted to share what I think are all amazing books.
 
-[Read my best reads of 2023](https://shepherd.com/bboy/2023/f/steve-fenton)
+[Read my best reads of 2023](https://bookdna.com/bboy/2023/f/steve-fenton)
 
 ## 2023 Accelerate State of DevOps Report
 

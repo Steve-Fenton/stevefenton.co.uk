@@ -1,9 +1,9 @@
 ---
-title: 'I wrote a list of DevOps books for Shepherd'
+title: 'I wrote a list of DevOps books for Book DNA'
 navMenu: false
 pubDate: 2023-06-19
-keywords: books,devops,shepherd,project management
-description: I wrote a list of the best DevOps books from before DevOps was invented for Shepherd.
+keywords: books,devops,book dna,project management
+description: I wrote a list of the best DevOps books from before DevOps was invented for Book DNA.
 bannerImage:
     src: /img/topic/books/steve-fenton-holding-books.jpg
     alt: Steve Fenton holding a stack of books, sat in front of bookshelves, and thinking about books
@@ -26,9 +26,9 @@ Trust me. I love books.
 ::figcaption[I'm surrounded by books]
 :::
 
-## Shepherd
+## Book DNA
 
-Ben Fox is an avid reader and entrepreneur. He created [Shepherd](https://shepherd.com) to reproduce that feeling you get when you walk through a book store looking for your next read. I often get that itch of wanting to find something new to read, where I don't know what book I want - I just want to discover it. That's the idea here.
+Ben Fox is an avid reader and entrepreneur. He created [Book DNA](https://bookdna.com) to reproduce that feeling you get when you walk through a book store looking for your next read. I often get that itch of wanting to find something new to read, where I don't know what book I want - I just want to discover it. That's the idea here.
 
 As part of this, I was invited to write a book list. This brought to mind those cards you see in your local book store where someone tells you why they loved a book; a personal recommendation.
 
@@ -36,9 +36,9 @@ As part of this, I was invited to write a book list. This brought to mind those 
 
 My idea for the book list was to create a list of DevOps books, but from before DevOps was even a concept. Old books that are immensely valuable to modern software delivery.
 
-You can read [my top 5 DevOps books from before DevOps was invented here](https://shepherd.com/best-books/devops-from-before-devops-was-invented).
+You can read [my top 5 DevOps books from before DevOps was invented here](https://bookdna.com/best-books/devops-from-before-devops-was-invented).
 
-There are lists in the same wheelhouse [from other writers here](https://shepherd.com/bookshelf/project-management).
+There are lists in the same wheelhouse [from other writers here](https://bookdna.com/bookshelf/project-management).
 
 ## Books
 
