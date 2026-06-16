@@ -26,10 +26,10 @@
   "devDependencies": {
     "@astrojs/mdx": "^5.0.6",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^6.1.8",
-    "astro-accelerator-utils": "^0.3.89",
+    "astro-accelerator": "^6.1.10",
+    "astro-accelerator-utils": "^0.3.91",
     "cspell": "^10.0.1",
-    "cve-lite-cli": "^1.19.2",
+    "cve-lite-cli": "^1.21.0",
     "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "sharp": "^0.34.5"
