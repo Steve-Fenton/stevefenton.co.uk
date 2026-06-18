@@ -2,7 +2,7 @@
 title: Affirmation
 navOrder: 1000
 pubDate: 2022-10-02
-modDate: 2026-06-08
+modDate: 2026-06-18
 keywords: "affirmation,inspiration"
 description: "My personal affirmation page, which gives me daily inspiration."
 ---
@@ -18,19 +18,25 @@ This is my personal affirmation page, which gives me daily inspiration.
 
 ## Quotes and inspiration
 
+I'm giving the first quote to William Zinsser, from *On Writing Well*.
+
+> The race in writing is not to the swift but to the original
+
+And Zinsser gets the second quote, too. From the introduction to the same book:
+
 > When I first wrote this book, in 1976, the readers I had in mind were a relatively small segment of the population: students, writers, editors and people who wanted to learn to write. I wrote it on a typewriter, the highest technology then available. I had no inkling of the electronic marvels just around the corner that were about to revolutionize the act of writing... Ultimately, however, good writing rests on craft and always will. I don't know what still newer electronic marvels are waiting just around the corner to make writing twice as easy and twice as fast in the next 25 years. But I do know they won't make writing twice as good. That will still require plain old hard work—clear thinking—and the plain old tools of the English language.
 >
 > <cite>William Zinsser, On Writing Well (25th Anniversary Edition). 2001.</cite>
 
 [Church of Roswell - Rocketeer](https://www.youtube.com/watch?v=LkIe4wYR1f8)
 
-Uncertainty...
+Goldratt gives us some valuable advice on uncertainty:
 
 > There is no point trying to impose certainty on a situation which contains high uncertainty.
 >
 > <cite>Eli Goldratt</cite>
 
-Ungovernable...
+And Albini reminds us to be ungovernable:
 
 > don't sign to major labels \
 > reject authority \
@@ -39,17 +45,17 @@ Ungovernable...
 >
 > <cite>Steve Albini</cite>
 
-Unconventional...
+Vonnegut said this some time ago and Josh Doyle said something similar on the first Dumdums album ("I'm gonna dance. I wanna be a dancer. Nothings gonna stop me"):
 
 > I told my wife I was going out to buy an envelope. 'Oh,' she says. 'Well, you're not a poor man. You know, why don't you go online and buy a hundred envelopes and put them in the closet?
 >
-> And so I pretend not to hear her. And go out to get an envelope because I'm going to have a hell of a good time in the process of buying one envelope. I meet a lot of people. And, see some great looking babes. And a fire engine goes by. And I give them the thumbs up. And, and ask a woman what kind of dog that is. 
+> And so I pretend not to hear her. And go out to get an envelope because I'm going to have a hell of a good time in the process of buying one envelope. I meet a lot of people. And, see some great looking babes. And a fire engine goes by. And I give them the thumbs up. And, and ask a woman what kind of dog that is.
 >
 > And, and I don't know. The moral of the story is, is we're here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don't realize, or they don't care, is we're dancing animals. You know, we love to move around. And, we're not supposed to dance at all any more.
 >
 > <cite>Kurt Vonnegut. Interviewed by David Brancaccio, NOW (PBS) <a href="http://web.archive.org/web/20200203182317/http://www.pbs.org/now/arts/vonnegut.html">Archived</a></cite>
 
-Unserious, in general...
+Barker talks about taking things seriously only at the right moment:
 
 > We've never taken ourselves too seriously... on stage. But on music
 > and creatively, then yes [we take that seriously].
