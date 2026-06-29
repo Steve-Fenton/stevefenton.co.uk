@@ -24,10 +24,10 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^5.0.6",
+    "@astrojs/mdx": "^7.0.0",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^6.1.11",
-    "astro-accelerator-utils": "^0.3.92",
+    "astro-accelerator": "^7.0.0",
+    "astro-accelerator-utils": "^0.3.93",
     "cspell": "^10.0.1",
     "cve-lite-cli": "^1.25.0",
     "linkinator": "7.0.0",
