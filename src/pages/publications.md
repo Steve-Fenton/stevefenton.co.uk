@@ -35,7 +35,7 @@ The second edition of Exploring Octopus Deploy is written from the ground up to 
 <article>
 <div class="list-item-image">
 
-:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
+:img{src="/img/topic/typescript/pro-typescript.jpg" alt="Pro TypeScript Second Edition"}
 
 </div>
 

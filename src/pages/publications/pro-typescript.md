@@ -3,8 +3,9 @@ title: Pro TypeScript - Second Edition
 navTitle: Pro TypeScript
 navOrder: 3000
 pubDate: 2022-10-02
-keywords: pro typescript,typescript,book,apress
-description: Explore the features of TypeScript, an innovative open-source language. Explains the type system and features.
+modDate: 2026-07-01
+keywords: "pro typescript,typescript,book,apress"
+description: "Explore the features of TypeScript, an innovative open-source language. Explains the type system and features."
 ---
 
 Explore the features of this innovative open-source language in depth, from working with the type system through object-orientation to understanding the runtime and the TypeScript compiler. This fully revised and updated second edition of Steve Fenton’s popular book covers everything you need to discover this fascinating language and transform your experience of JavaScript development.
@@ -12,8 +13,11 @@ Explore the features of this innovative open-source language in depth, from work
 [Buy Pro TypeScript from Apress](https://www.apress.com/us/book/9781484232484)
 
 :::figure{.inset-medium}
-:img{src="/img/2015/07/pro-typescript-second-edition.png" alt="Pro TypeScript Second Edition"}
-::figcaption[Pro TypeScript]
+
+:img{ src="/img/topic/typescript/pro-typescript.jpg" alt="Pro TypeScript" loading="lazy" }
+
+::figcaption[Pro TypeScript Second Edition]
+
 :::
 
 ## What’s New in The Second Edition
