@@ -9,4 +9,4 @@ linkText: "Register Fast Flow Conf"
 
 FastFlowConf focuses on the approach and methodologies described in Team Topologies, by Matthew Skelton and Manuel Pais.
 
-https://www.fastflowconf.com
+[Find out more about Fast Flow Conf](https://www.fastflowconf.com)
