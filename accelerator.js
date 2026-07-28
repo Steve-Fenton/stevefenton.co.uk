@@ -100,12 +100,6 @@ copyRecursiveSync(
 );
 
 copyRecursiveSync(
-    './node_modules/astro-accelerator/src/pages/404.md',
-    './src/pages/404.md',
-    true
-);
-
-copyRecursiveSync(
     './node_modules/astro-accelerator/src/pages/search.json.ts',
     './src/pages/search.json.ts',
     true
