@@ -11,11 +11,12 @@
   "scripts": {
     "refresh": "pnpm version patch &&pnpm update && node ./accelerator.js",
     "update-node": "bash -c 'source $NVM_DIR/nvm.sh && nvm install --lts && npm install -g pnpm'",
-    "build": "astro build",
+    "build": "pnpm css-version && astro build",
     "clean": "rm -rf dist && rm -rf .log",
     "crawl": "linkinator ./dist --skip \"^(?!http://localhost)\" --skip \"/404/\" --recurse  --verbosity error",
+    "css-version": "node ./src/themes/accelerator/utilities/css-version.mjs",
     "cve": "cve-lite .",
-    "dev": "node ./src/themes/accelerator/utilities/img.mjs && astro dev",
+    "dev": "pnpm css-version && node ./src/themes/accelerator/utilities/img.mjs && astro dev",
     "img": "node ./src/themes/accelerator/utilities/img.mjs",
     "preview": "astro preview",
     "stats": "node ./src/themes/accelerator/utilities/stats.mjs",
@@ -26,7 +27,7 @@
   "devDependencies": {
     "@astrojs/mdx": "^7.0.3",
     "@img/sharp-linux-x64": "^0.34.5",
-    "astro-accelerator": "^7.0.10",
+    "astro-accelerator": "^7.0.12",
     "astro-accelerator-utils": "^0.3.103",
     "cspell": "^10.0.1",
     "cve-lite-cli": "^1.27.0",

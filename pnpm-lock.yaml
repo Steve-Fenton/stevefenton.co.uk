@@ -19,8 +19,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^7.0.10
-        version: 7.0.10(@astrojs/markdown-satteri@0.3.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@25.0.3)(rollup@4.62.2)(yaml@2.9.0)
+        specifier: ^7.0.12
+        version: 7.1.12(@astrojs/markdown-satteri@0.3.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@25.0.3)(rollup@4.62.2)(yaml@2.9.0)
       astro-accelerator-utils:
         specifier: ^0.3.103
         version: 0.3.103
@@ -838,7 +838,6 @@ packages:
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@img/sharp-linux-x64@0.35.3':
     resolution: {integrity: sha512-8pqvxubL2PGdhlPy6GLqzDYMUjyRmKAwKHYKixpdJYBUK7PJ0C029XdsnpFIdgRZG68fZiGdHVWcKPvtiPB4cA==}
@@ -1328,8 +1327,8 @@ packages:
   astro-accelerator-utils@0.3.103:
     resolution: {integrity: sha512-NBYxvPKepaNoYHTI+QLDiTcWnzZBCZrp8pXGcZlW2higGL2m0C5BeHksLTu7rqMiTga0NOAAMIZ2XAIfkbJ2+A==}
 
-  astro-accelerator@7.0.10:
-    resolution: {integrity: sha512-aGRibxZ/g6HlaSbsIWpu48Rx99mSSa/V6UkqwlMqbPzry6P9WjuR56gdngA3qgILdikW47Pa8W0l+CkYtv41tg==}
+  astro-accelerator@7.1.12:
+    resolution: {integrity: sha512-M3GFX0tfROOF0mW7hCpGxLovX4Hkpas8+QibdH9xjAux6p1UA5d8LJeLxKZUdEovDtplgMzL9Q7U0RDeFKgI8w==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@7.1.3:
@@ -3853,7 +3852,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.103: {}
 
-  astro-accelerator@7.0.10(@astrojs/markdown-satteri@0.3.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@25.0.3)(rollup@4.62.2)(yaml@2.9.0):
+  astro-accelerator@7.1.12(@astrojs/markdown-satteri@0.3.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@25.0.3)(rollup@4.62.2)(yaml@2.9.0):
     dependencies:
       optional: 0.1.4
       '@astrojs/markdown-remark': 7.2.1
