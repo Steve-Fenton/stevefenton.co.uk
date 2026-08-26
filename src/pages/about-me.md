@@ -32,6 +32,7 @@ A self-described Software Punk, pragmatist-abstractionist, and generalising-gene
 You might also like to visit his friends:
 
 - [Matt Allford](https://mattallford.com/) - automation and ops
+- [Heidi Waterhouse](https://heidiwaterhouse.com/blog/) - software development, tools, and people
 - [Christopher Bimson](https://christopher-bimson.github.io/) - software and architecture
 - [Dan Horrocks-Burgess](https://www.danhb.co.uk/) – C#, Azure, SQL, and more
 - [Dave Beaumont](https://www.dave-beaumont.co.uk/) – JavaScript frameworks, Kentico, C#, TypeScript, and more
