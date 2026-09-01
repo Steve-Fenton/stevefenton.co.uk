@@ -9,7 +9,7 @@
     "pnpm": ">=10"
   },
   "scripts": {
-    "refresh": "pnpm version patch &&pnpm update && node ./accelerator.js",
+    "refresh": "pnpm version patch && pnpm update && node ./accelerator.js && pnpm css-version",
     "update-node": "bash -c 'source $NVM_DIR/nvm.sh && nvm install --lts && npm install -g pnpm'",
     "build": "pnpm css-version && astro build",
     "clean": "rm -rf dist && rm -rf .log",
