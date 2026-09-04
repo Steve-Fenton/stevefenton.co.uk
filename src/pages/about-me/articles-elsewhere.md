@@ -33,12 +33,18 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 - [AI is an Amplifier, Not a Silver Bullet](https://coderlegion.com/5638/ai-is-an-amplifier-not-a-silver-bullet)
-- [Process theater versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
+- [Process theatre versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
 
 ### CD Office Hours
 
 - [Ep.1: Continuous Delivery should be your top priority](https://octopus.com/blog/continuous-delivery-office-hours-e1)
 - [Ep.2: Remaining deployable at all times](https://octopus.com/blog/continuous-delivery-office-hours-e2)
+- [Ep.3: Branching strategies](https://octopus.com/blog/continuous-delivery-office-hours-e3)
+- [Ep.4: Mono, micro, mesco](https://octopus.com/blog/continuous-delivery-office-hours-e4)
+- [Ep.5: Delivering database changes](https://octopus.com/blog/continuous-delivery-office-hours-e5)
+- [Ep.6: Change approvals](https://octopus.com/blog/continuous-delivery-office-hours-e6)
+- [Ep.7: Modern multi-tenancy](https://octopus.com/blog/continuous-delivery-office-hours-e7)
+- [Ep.8: AI efficiency and effectiveness](https://octopus.com/blog/continuous-delivery-office-hours-e8)
 
 ### DevOps culture and developer experience (DevEx)
 
@@ -53,6 +59,8 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Vibe Coding: The shadow IT problem no one saw coming](https://thenewstack.io/vibe-coding-the-shadow-it-problem-no-one-saw-coming/)
 - [Stop force-feeding AI to your developers](https://thenewstack.io/stop-force-feeding-ai-to-your-developers/)
 - [Vibe coding... you keep using that word!](https://coderlegion.com/5121/vibe-coding-you-keep-using-that-word)
+- [Why Octopus invests in DevEx](https://octopus.com/blog/octopus-invests-in-developer-experience)
+- [Modern developer experience has deep roots](https://octopus.com/blog/developer-experience-roots)
 
 ### DevOps research
 
@@ -74,6 +82,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [The 2024 DevOps performance clusters](https://octopus.com/blog/2024-devops-performance-clusters)
 - [AI won't fix your software delivery problems](https://thenewstack.io/ai-wont-fix-your-software-delivery-problems/)
 - [What organizations get wrong with user-centricity](https://thenewstack.io/what-organizations-get-wrong-with-user-centricity/)
+- [Roll up your chair: How one small change sparked a DevOps revolution](https://octopus.com/blog/roll-up-your-chair)
 
 ## Platform Engineering
 
@@ -91,7 +100,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Your IDP needs DDD](https://octopus.com/blog/your-idp-needs-ddd)
 - [The top 5 features of internal developer platforms](https://octopus.com/blog/top-5-features-of-internal-developer-platforms)
 - [Navigating Platform Engineering with the maturity model assessment](https://cloudnativeplatforms.com/blog/navigating-platform-engineering/)
-- [Leveling up your deployment pipelines](https://octopus.com/blog/leveling-up-deployment-pipelines)
+- [Levelling up your deployment pipelines](https://octopus.com/blog/leveling-up-deployment-pipelines)
 
 ## GitOps
 
@@ -119,10 +128,12 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [How to measure AI's organizational impact](https://thenewstack.io/how-to-measure-ais-organizational-impact/)
 - [Stop wasting AI investment on a broken change approval process](https://thenewstack.io/stop-wasting-ai-investment-on-a-broken-change-approval-process/)
 - [How AI coding makes developers 56% and 19% slower](https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/)
+- [Code review isn't your bottleneck, even with AI](https://octopus.com/blog/code-review-not-bottleneck-even-with-ai)
 - [Developer Productivity in the Age of AI: Why Your Past Predicts Your Future](https://octopus.com/blog/developer-productivity-age-ai)
 - [Why AI systems are failing in familiar ways](https://thenewstack.io/ai-agents-batch-size-gravity/)
-- [AI: You Asked for a Dog, They're Selling You a Cheetah](https://thenewstack.io/feedback-driven-ai-adoption/)
-
+- [AI: You Asked for a Dog, They're Selling You a Cheetah](https://thenewstack.io/feedback-driven-ai-adoption/)
+- [AI *hasn't* shifted the bottleneck from coding to code review](https://thenewstack.io/ai-code-bottleneck-myth/)
+- [Your coding agent got the onboarding your developers never did](https://thenewstack.io/coding-agents-developer-neglect/)
 
 ## Multi-tenancy
 
