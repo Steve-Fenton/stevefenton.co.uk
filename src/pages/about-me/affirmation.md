@@ -181,13 +181,15 @@ So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from 
 
 Prefer smaller, privacy-prioritizing, tends-toward-good offerings.
 
-- Audible -> [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890)
-- Chrome -> [Vivaldi](https://vivaldi.com)
-- Goodreads -> ... not sure I'll satisfy my use case with the alternatives
-- Hey -> [Proton Mail](https://pr.tn/ref/SSJJ2D36)
-- OneDrive -> [Proton Drive](https://pr.tn/ref/SSJJ2D36)
-- 1password -> [Proton Pass](https://pr.tn/ref/SSJJ2D36)
-- Ring -> ... [Teknet self-powered wireless doorbell](https://tecknet.co.uk/products/tecknet-twin-self-powered-wireless-doorbell-plug-in-cordless-door-chime-1?variant=44127241437505)
-- Spotify -> [Navidrome](https://www.phonotonal.com/2026/08/take-back-control-of-your-music-collection/)
-- Twitter -> [Mastodon](https://mastodon.social/)
-- WhatsApp -> [Signal](https://signal.org)
+| From | To |
+|---|---|
+| Audible | [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890) |
+| Chrome | [Vivaldi](https://vivaldi.com) |
+| Goodreads | [the StoryGraph](https://app.thestorygraph.com/profile/steve_fenton) |
+| Hey | [Proton Mail](https://pr.tn/ref/SSJJ2D36) |
+| OneDrive | [Proton Drive](https://pr.tn/ref/SSJJ2D36) |
+| 1Password | [Proton Pass](https://pr.tn/ref/SSJJ2D36) |
+| Ring | [Tecknet self-powered wireless doorbell](https://tecknet.co.uk/products/tecknet-twin-self-powered-wireless-doorbell-plug-in-cordless-door-chime-1?variant=44127241437505) |
+| Spotify | [Navidrome](https://www.phonotonal.com/2026/08/take-back-control-of-your-music-collection/) |
+| Twitter | [Mastodon](https://mastodon.social/) |
+| WhatsApp | [Signal](https://signal.org) |
