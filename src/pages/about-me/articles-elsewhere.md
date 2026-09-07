@@ -49,7 +49,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 ### DevOps culture and developer experience (DevEx)
 
 - [How to empower software delivery teams as a business leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
-- [Westrum's organizational cultures are vital but misunderstood](https://thenewstack.io/westrums-organizational-cultures-are-vital-but-misunderstood/)
 - [Practical routes to heathy culture](https://octopus.com/blog/practical-routes-healthy-culture)
 - [The fundamental assumption of work culture](https://www.octopus.com/blog/key-assumption-work-culture)
 - [GitOps Makes for Great DevEx, but Pragmatism Matters](https://thenewstack.io/developers-want-pragmatic-gitops-and-better-cd-tools/)
