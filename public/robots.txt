@@ -17,6 +17,9 @@ Disallow:
 User-agent: Kukei.eu-Bot
 Disallow:
 
+User-agent: search.marginalia.nu
+Disallow:
+
 User-agent: MojeekBot
 Disallow:
 
