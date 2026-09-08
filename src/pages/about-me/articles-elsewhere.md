@@ -34,6 +34,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
 - [AI is an Amplifier, Not a Silver Bullet](https://coderlegion.com/5638/ai-is-an-amplifier-not-a-silver-bullet)
 - [Process theatre versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
+- [Let's not water down the terms Continuous Integration and Continuous Delivery](https://octopus.com/blog/watering-down-ci-cd)
 
 ### CD Office Hours
 
