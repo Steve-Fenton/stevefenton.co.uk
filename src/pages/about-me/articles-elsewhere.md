@@ -23,7 +23,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [DevOps uses a capability model, not a maturity model](https://octopus.com/blog/devops-uses-capability-not-maturity)
 - [Understanding performance through team types](https://octopus.com/blog/understanding-performance-team-types)
 - [Creating a high-performance DevOps toolchain](https://octopus.com/blog/high-performance-devops-toolchains)
-- [DevOps toolchains beat off-the-shelf platforms](https://thenewstack.io/devops-toolchains-beat-off-the-shelf-platforms/)
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 - [Elite performance is wasted on feature factories](https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/)
@@ -134,6 +133,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [AI: You Asked for a Dog, They're Selling You a Cheetah](https://thenewstack.io/feedback-driven-ai-adoption/)
 - [AI *hasn't* shifted the bottleneck from coding to code review](https://thenewstack.io/ai-code-bottleneck-myth/)
 - [Your coding agent got the onboarding your developers never did](https://thenewstack.io/coding-agents-developer-neglect/)
+- [Winter is coming for AI tool budgets](https://thenewstack.io/ai-coding-duplication-rose/)
 
 ## Multi-tenancy
 
