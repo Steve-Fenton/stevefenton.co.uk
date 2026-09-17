@@ -1,6 +1,6 @@
 ---
 title: "CTO Craft Con: Fintech"
-description: "CTO Craft Con: Fintech brings together senior technology leaders from fintechs, banks, and regulated platforms to share how they're navigating AI, compliance, delivery friction, and what it actually takes to ship safely."
+description: "I'm speaking at CTO Craft Con: Fintech. This conference brings together senior technology leaders from fintechs, banks, and regulated platforms to share how they're navigating AI, compliance, delivery friction, and what it actually takes to ship safely."
 startDate: 2026-11-02
 endDate: 2026-11-03
 location: "London, UK"
