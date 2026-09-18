@@ -134,6 +134,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [AI *hasn't* shifted the bottleneck from coding to code review](https://thenewstack.io/ai-code-bottleneck-myth/)
 - [Your coding agent got the onboarding your developers never did](https://thenewstack.io/coding-agents-developer-neglect/)
 - [Winter is coming for AI tool budgets](https://thenewstack.io/ai-coding-duplication-rose/)
+- [Developers are addicted to AI, and managers are making it worse](https://thenewstack.io/study-developers-are-addicted/)
 
 ## Multi-tenancy
 
