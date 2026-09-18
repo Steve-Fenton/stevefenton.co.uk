@@ -19,8 +19,8 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       astro-accelerator:
-        specifier: ^7.1.19
-        version: 7.1.19(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.0)
+        specifier: ^7.1.20
+        version: 7.1.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.0)
       astro-accelerator-utils:
         specifier: ^0.3.109
         version: 0.3.109
@@ -855,7 +855,6 @@ packages:
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@img/sharp-linux-x64@0.35.4':
     resolution: {integrity: sha512-9qvvEAuk8k89TfWUoX2htWjbAMX8p+NxCppjpcg5k6xMsjhBQPTsoIh36h9Qde4WRuGpJeYnOjdosDn/cnv+OA==}
@@ -1200,8 +1199,8 @@ packages:
   astro-accelerator-utils@0.3.109:
     resolution: {integrity: sha512-j5OSMDl+691bezoEo9cfqJKSbQNgTC8gtI42AeMSPVOmz8JpnlZSuImabQnhl1xPpAdRCXbKlx0C2iY3Fd6uag==}
 
-  astro-accelerator@7.1.19:
-    resolution: {integrity: sha512-s6Ys57GMPm30NiYvFxdA5dwN6IpNQhD3OOZB5UuT5eLmyXBI/yTKUJVjeUJ1G2+jvvNpkm36m/GCDLq7SFrtFA==}
+  astro-accelerator@7.1.20:
+    resolution: {integrity: sha512-gbybPM6BfcQJ1BjFca7yzNUmftLqX2ojTcdsJt6LqnOu3QkgKnu40U6esNGjFGa6ahHE51iJBsdikHDGP61dWA==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@7.3.2:
@@ -3685,7 +3684,7 @@ snapshots:
 
   astro-accelerator-utils@0.3.109: {}
 
-  astro-accelerator@7.1.19(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.0):
+  astro-accelerator@7.1.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.0):
     dependencies:
       optional: 0.1.4
       '@astrojs/markdown-remark': 7.3.1
