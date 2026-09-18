@@ -11,8 +11,8 @@ meta:
   - name: "fediverse:creator"
     content: "@stevefenton@mastodon.social"
 bannerImage:
-  src: /img/authors/steve-fenton.png
-  alt: Steve Fenton
+  src: /img/authors/steve-design-thinking.png
+  alt: Steve Fenton by Design Thinking Comic
 summary: "Steve Fenton is a Principal DevEx Researcher at [Octopus Deploy](https://www.octopus.com/) and eight-time Microsoft MVP for developer technologies.\n\nHe's a [Software Punk](/blog/2020/07/the-software-punk-revolution/), an author, a programming-architect, a pragmatist/abstractionist, and a generalising-generalist."
 links:
   - text: "LinkedIn"
