@@ -25,6 +25,7 @@ These are the apps I use all the time as a basic consumer of things. Web pages, 
 | App | From | To |
 | --- | --- | --- |
 | Web | Chrome | [Vivaldi](https://vivaldi.com) |
+| Search | Google | [Ecosia](https://www.ecosia.org) |
 | Audio books | Audible | [Libro.fm](https://libro.fm/referral?rf_code=lfm1080890) |
 | Reading | Goodreads | [the StoryGraph](https://app.thestorygraph.com/profile/steve_fenton) |
 | Music | Spotify | [Navidrome](https://www.phonotonal.com/2026/08/take-back-control-of-your-music-collection/) |
