@@ -2,6 +2,9 @@
 title: 'Apps! Apps! Apps!'
 navMenu: false
 pubDate: 2012-08-07T15:32:23+01:00
+bannerImage:
+    src: /img/2015/07/AppsAppsApps.jpg
+    alt: A timeline from 2007 to 2012 showing an ever increasing number of devices to support through apps, with the conclusion that creating a solid web page is a better option in most cases.
 authors:
     - steve-fenton
 categories:
@@ -14,6 +17,6 @@ Instead of writing a grand history of devices and the growth in form-factors and
 
 I'm not saying that no apps should be written, but if you have a website full of content, why spread yourself thin trying to maintain a ton of apps that display that content when you could put that effort into an awesome website instead.
 
-:::div{.inset}
-:img{src="/img/2015/07/AppsAppsApps.jpg" alt="Apps Apps Apps"}
+:::figure
+:img{src="/img/2015/07/AppsAppsApps.jpg" alt="A timeline from 2007 to 2012 showing an ever increasing number of devices to support through apps, with the conclusion that creating a solid web page is a better option in most cases."}
 :::

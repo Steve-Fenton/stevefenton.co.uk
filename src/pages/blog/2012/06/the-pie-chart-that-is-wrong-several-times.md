@@ -2,6 +2,9 @@
 title: 'The pie chart that is wrong several times'
 navMenu: false
 pubDate: 2012-06-12T16:02:02+01:00
+bannerImage:
+    src: /img/2015/07/nooo-my-eyes1.jpg
+    alt: A donut chart with a colour scheme that makes it very hard to differentiate the label keys with segments in no particular order.
 authors:
     - steve-fenton
 categories:
@@ -13,8 +16,8 @@ tags:
 
 Before we get started I just wanted to confirm that I do not go out in search of bad charts on The Web. In all the cases where I highlight the problems of a given chart, they have come to me as part of daily life. Because of this, they sometimes appear on a website I actually have a lot of respect for and this is exactly what has happened today.
 
-:::div{.inset}
-:img{src="/img/2015/07/nooo-my-eyes1.jpg" alt="CSS Pre-Processor Chart"}
+:::div
+:img{src="/img/2015/07/nooo-my-eyes1.jpg" alt="CSS Pre-Processor Chart: A donut chart with a colour scheme that makes it very hard to differentiate the label keys with segments in no particular order."}
 :::
 
 Now this is actually a very pretty little chart showing the distribution of CSS preprocessors (more on this later). But it has more than one error. Let's get started.
@@ -29,7 +32,7 @@ As always with pie charts and their descendants, less is more. Once you have mor
 
 So here is a chart that displays the same information without the need to create a mental link between the labels, values and visuals…
 
-:::div{.inset}
+:::div
 :img{src="/img/2015/07/nooo-my-eyes-21.jpg" alt="Adjusted CSS Pre-Processor Chart" loading="lazy"}
 :::
 
@@ -41,7 +44,7 @@ It is not a deep semantic dive to find the discrepancy between this question and
 
 And this general disconnect between the question and answer is mirrored in the list of responses available for selection. "Don't Like" makes no sense at all as an answer to either of the two possible questions.
 
-- What is your preferred CSS preprocessor syntax? – Don't like (Presumably "None" would be the most appropriate answer)
+- What is your preferred CSS preprocessor syntax? - Don't like (Presumably "None" would be the most appropriate answer)
 - Have you used a CSS preprocessor? Don't like (Presumably "Yes" if you have decided you don't like them, so select the appropriate one you have tried)
 
 Maybe the fault here is that the chart is trying to answer too many questions. Have you used a CSS preprocessor? Which one did you use? Which one do you use now? Do your prefer working with or without a CSS preprocessor?

@@ -2,6 +2,9 @@
 title: 'A great example of a terrible pie chart'
 navMenu: false
 pubDate: 2011-10-03T17:38:31+01:00
+bannerImage:
+    src: /img/2015/07/calvin_harris_got_love_for_this_chart.jpg
+    alt: The pie chart has coloured segments and a legend you have to look up labels for on the right hand side.
 authors:
     - steve-fenton
 categories:
@@ -15,8 +18,8 @@ If you are going to use a pie chart ([please don't use a pie chart](/blog/2009/0
 
 So with this in mind, what are the rules of the pie chart, and just how many of them does this chart break?
 
-:::figure{.inset}
-:img{src="/img/2015/07/calvin_harris_got_love_for_this_chart.jpg" alt="This Pie Chart Was Born In The Eighties"}
+:::figure
+:img{src="/img/2015/07/calvin_harris_got_love_for_this_chart.jpg" alt="This Pie Chart Was Born In The Eighties. The pie chart has coloured segments and a legend you have to look up labels for on the right hand side."}
 ::figcaption[Pie chart]
 :::
 
@@ -72,9 +75,9 @@ Error six, too many segments.
 
 That is surely plenty to be getting on with. The main error is actually using a pie chart in the first place, but it really doesn't help when you ignore all of the sensible conventions for using a chart. If you broke this many rules with any chart it would look terrible, but it is so easy to mess up a pie chart because it is fundamentally flawed in the first place.
 
-Let's just imagine what things might have looked like if we had just used a more appropriate chart in the first place – for fairness I have styled this to also look like it was made in the eighties!
+Let's just imagine what things might have looked like if we had just used a more appropriate chart in the first place - for fairness I have styled this to also look like it was made in the eighties!
 
-:::figure{.inset}
+:::figure
 :img{src="/img/2015/07/same_thing_but_with_columns.jpg" alt="This Column Chart Provides Chronology" loading="lazy"}
 ::figcaption[Column chart provides chronology]
 :::

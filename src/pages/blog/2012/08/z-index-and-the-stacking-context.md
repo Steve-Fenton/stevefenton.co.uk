@@ -2,6 +2,9 @@
 title: 'Z-index and the stacking context'
 navMenu: false
 pubDate: 2012-08-08T15:29:50+01:00
+bannerImage:
+    src: /img/2015/07/stackingcontext.jpg
+    alt: Hand-drawn diagram showing how stacking context works in a browser.
 authors:
     - steve-fenton
 categories:
@@ -35,6 +38,6 @@ A has a z-index of 100, so it is on top of C, which has a z-index of 90 *and is 
 
 B is on top of A and C, because it has a z-index of 2, but is in the Stacking Context of A, so think of it as A + 2, or 100 + 2.
 
-:::div{.inset}
-:img{src="/img/2015/07/stackingcontext.jpg" alt="Stacking Context" loading="lazy"}
+:::figure
+:img{src="/img/2015/07/stackingcontext.jpg" alt="Hand-drawn diagram showing how stacking context works in a browser." loading="lazy"}
 :::

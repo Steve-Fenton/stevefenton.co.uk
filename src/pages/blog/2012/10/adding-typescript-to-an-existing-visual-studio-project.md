@@ -1,7 +1,10 @@
 ---
-title: 'Adding TypeScript to an Existing Visual Studio project'
+title: 'Adding TypeScript to an existing Visual Studio project'
 navMenu: false
 pubDate: 2012-10-04T23:36:32+01:00
+bannerImage:
+    src: /img/2015/07/typescript-configured.png
+    alt: TypeScript Configured
 authors:
     - steve-fenton
 categories:
@@ -11,7 +14,7 @@ tags:
     - TypeScript
 ---
 
-Quick Update! As of 2017, the best way of adding TypeScript to any project (in any development environment) is to add a `.tsconfig` file – if you add one to a Visual Studio project, it will override the project settings anyway. You can do lots more with a `.tsconfig` file and it works with task runners too. Right, here's the long answer that applied back in 2012.
+Quick Update! As of 2017, the best way of adding TypeScript to any project (in any development environment) is to add a `.tsconfig` file - if you add one to a Visual Studio project, it will override the project settings anyway. You can do lots more with a `.tsconfig` file and it works with task runners too. Right, here's the long answer that applied back in 2012.
 
 The chances are that if you are going to use TypeScript, you'll want to add it to an existing project. The great news is that it is really simple to do.
 
@@ -21,7 +24,7 @@ As of December 2013 things are a bit different than when I first wrote this arti
 
 If you are using Visual Studio 2013 and you have the [TypeScript Visual Studio Extension](https://www.typescriptlang.org/) installed, you'll get the following message as soon as you add a TypeScript file to your project…
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/typescript-configured.png" alt="TypeScript Configured" loading="lazy"}
 :::
 

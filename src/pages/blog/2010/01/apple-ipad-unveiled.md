@@ -2,6 +2,9 @@
 title: 'Apple iPad Unveiled'
 navMenu: false
 pubDate: 2010-01-28T22:13:28+00:00
+bannerImage:
+    src: /img/2015/07/ipada.jpg
+    alt: The first Apple iPad showing a cover-flow of images and an app bar.
 authors:
     - steve-fenton
 categories:
@@ -11,7 +14,7 @@ categories:
 The new Apple iPad has been revealed in a big ceremony with an impressive demo from Apple's CEO. Despite Fujitsu possibly still owning the trademark "i-pad" for hand-held computing, it is an impressive bit of kit.
 
 :::figure{.inset}
-:img{src="/img/2015/07/ipada.jpg" alt="iPad"}
+:img{src="/img/2015/07/ipada.jpg" alt="The first Apple iPad showing a cover-flow of images and an app bar."}
 ::figcaption[Apple iPad]
 :::
 
@@ -22,6 +25,6 @@ Having seen the awesome demo of the iPad, I suddenly had a brilliant idea. The m
 Here's a mock-up of what the iPad might look like with this modification.
 
 :::figure{.inset}
-:img{src="/img/2015/07/ipadb.jpg" alt="iPad - Keyboard Edition" loading="lazy"}
+:img{src="/img/2015/07/ipadb.jpg" alt="iPad - Keyboard Edition (this is actually a picture of a MacBook)" loading="lazy"}
 ::figcaption[iPad with keyboard]
 :::

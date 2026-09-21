@@ -2,7 +2,10 @@
 title: Google uses image sprites
 navMenu: false
 pubDate: 2009-05-01
-modData: 2022-10-23
+modDate: 2022-10-23
+bannerImage:
+    src: /img/2015/07/google_a.jpg
+    alt: A Google page shows a hint of an image sprite.
 authors:
     - steve-fenton
 categories:

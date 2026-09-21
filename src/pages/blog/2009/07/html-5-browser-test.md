@@ -2,6 +2,9 @@
 title: HTML5 Browser Test
 navMenu: false
 pubDate: 2009-07-28T22:26:20+01:00
+bannerImage:
+    src: /img/2015/07/html5_full.png
+    alt: My HTML5 website running successfully in a browser. 
 authors:
     - steve-fenton
 categories:
@@ -11,9 +14,9 @@ tags:
     - HTML
 ---
 
-Revised, July 2014 – Please [see my update on dropping the HTML5 shim](/blog/2014/01/goodbye-old-browsers/).
+Revised, July 2014 - Please [see my update on dropping the HTML5 shim](/blog/2014/01/goodbye-old-browsers/).
 
-Having managed to get the HTML5 website working in all the popular browsers, I ran a test on a larger number of browsers and operating systems with the following result: If you are running the latest version of any major browser – it almost certainly works.It even works on my mobile phone, which is running an old version of Windows mobile.
+Having managed to get the HTML5 website working in all the popular browsers, I ran a test on a larger number of browsers and operating systems with the following result: If you are running the latest version of any major browser - it almost certainly works.It even works on my mobile phone, which is running an old version of Windows mobile.
 
 If you are using a different browser to those listed below, [please get in touch](/contact/) to tell me how things look. I will be experimenting with the fixes to see if more browser coverage can be achieved.
 

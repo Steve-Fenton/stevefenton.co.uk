@@ -2,6 +2,9 @@
 title: 'Writing a mobile app using HTML5'
 navMenu: false
 pubDate: 2012-06-16T15:57:01+01:00
+bannerImage:
+    src: /img/2015/07/iphone-app.png
+    alt: An iPhone desktop showing a HTML5 app icon.
 authors:
     - steve-fenton
 categories:
@@ -12,10 +15,6 @@ tags:
     - JavaScript
     - PHP
 ---
-
-:::div{.inset}
-:img{src="/img/2015/07/iphone-app.png" alt="iPhone App"}
-:::
 
 Everyone is keen on writing apps these days. For an organisation, apps are the buzz. For consumers, apps are the convenience. The only problem is that writing apps that target every operating system (and then every version of an operating system that has a wide distribution between versions) can be quite a task.
 
@@ -30,6 +29,10 @@ At the time of writing, apps can be placed along a slider that runs from full na
 - An app written in HTML just like any web page
 
 From a technical point of view, as of the start of 2012, if you want to access things like contacts, camera, proximity sensor or other on-board gadgets, you need some link back to the native operating system. This is all about to change though as JavaScript APIs that will allow access to these things (with the user's permission) are being created and standardised, such as [the light sensor API](/blog/2012/05/using-the-light-sensor-api-in-firefox/) and [the proximity sensor API](/blog/2012/05/using-the-proximity-sensor-api-in-firefox/).
+
+:::figure{.inset}
+:img{src="/img/2015/07/iphone-app.png" alt="An iPhone desktop showing a HTML5 app icon."}
+:::
 
 Enough talk. Let's assume that you don't need any of these gadgets but you want to write an HTML5 app that runs from the home screen and doesn't look any different from any other native app on your phone.
 

@@ -82,7 +82,7 @@ The long and short of this electoral scenario is that you must do a few sums. Th
 Could second-place party Labour team up with third-place Liberal Democrats to create a combined force with more parliamentary seats than the Conservatives? Check out this pie chart and decide for yourselves. (Data: [BBC News 2010 General Election Result](http://news.bbc.co.uk/1/shared/election2010/results/))
 
 :::figure{.inset}
-:img{src="/img/2015/07/pie004.png" alt="Disasterous UK Election Pie Chart" loading="lazy"}
+:img{src="/img/2015/07/pie004.png" alt="Disastrous UK Election Pie Chart" loading="lazy"}
 ::figcaption[UK election pie chart]
 :::
 

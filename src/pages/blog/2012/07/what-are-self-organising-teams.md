@@ -2,6 +2,9 @@
 title: 'What are self-organising teams?'
 navMenu: false
 pubDate: 2012-07-02T15:46:28+01:00
+bannerImage:
+    src: /img/2015/07/self-organising-pawn.jpg
+    alt: A pawn chess piece with a very angry face.
 authors:
     - steve-fenton
 categories:
@@ -10,10 +13,6 @@ tags:
     - Teams
 ---
 
-:::div{.inset}
-:img{src="/img/2015/07/self-organising-pawn.jpg" alt="Self-Organising Pawn"}
-:::
-
 If you have a background in a "traditional" software development methodology, such as Waterfall, you probably won't have come across the concept of self-organising teams. I know development managers and project managers who baulk at the very phrase, but actually it makes a lot of sense when you think of it in different terms.
 
 The self-organising team in software development is borrowed from a principle in lean car manufacturing. Rather than have 5 wheel guys putting on wheels under the supervision of a clipboard-wielding whip-cracker, whose job is to tell the 5 wheel guys how they could do their job faster and better – you just make sure your wheel guys are experts and tell them to work out the best process for putting on wheels. This all stems from the concept that if you employ experts to do a job, they actually want to do the right thing and as they have amazing knowledge in their subject area, they will come up with the best method for delivering quality in good time. The person holding the clipboard can throw it away, stop managing the low level details and instead allow their gaze to take in the "bigger picture".
@@ -21,6 +20,10 @@ The self-organising team in software development is borrowed from a principle in
 The problem with this example is that it relies on you actually caring about cars to really engage with the example. To me, the thought of putting wheels on a car isn't terribly interesting and trying to imagine what optimisations might improve quality or speed just doesn't get me excited at all.
 
 That's why I have decided to use chess to provide a better example. Better because chess is a game, not a car and better because it gives us an opportunity to view the subject in an entirely different way.
+
+:::figure{.inset}
+:img{src="/img/2015/07/self-organising-pawn.jpg" alt="Self-Organising Pawn: A pawn chess piece with a very angry face."}
+:::
 
 So picture this. You are not a chess player, you are the manager of a team of wooden employees with a wide and varied skill set. In traditional management, you decide where every piece moves and hold in your head the overall plan for your next 16 moves. Your plan has a fixed goal and you know exactly how you are going to manage each piece in order to get it exactly where you think it needs to be to get your win. The problem is, all the time you are moving your pieces, your opponent is moving theirs and so your plan keeps on getting messed up and you need to constantly re-work it to try and get to your eventual goal.
 
