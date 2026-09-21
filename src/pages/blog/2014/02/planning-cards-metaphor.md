@@ -2,15 +2,14 @@
 navMenu: false
 title: 'Planning cards metaphor for quality'
 pubDate: 2014-02-01T23:11:55+00:00
+bannerImage:
+    src: /img/2015/07/playing-cards.jpg
+    alt: A series of playing cards.
 authors:
     - steve-fenton
 categories:
     - Process
 ---
-
-:::div{.inset}
-:img{src="/img/2015/07/playing-cards.jpg" alt="Playing Cards"}
-:::
 
 I rather enjoyed discovering a metaphor about quality, born out of the planning game itself!
 
@@ -20,6 +19,6 @@ This is all rather unremarkable. Except this happened… Last time the planning 
 
 > You can only go fast if you go right! <cite>Robert Martin</cite>
 
-What a great (and largely inexpensive) demonstration of Robert Martin’s quote. Going fast without going right costs you later – sometimes not all that far into the future either. And there was the evidence right in front of us. Leave yourself a mess and you’ll have to pay later – the cards were all in order in sets before the meeting finished, so it was just the messy way they were put in the box for next time that cost the time in the next meeting.
+What a great (and largely inexpensive) demonstration of Robert Martin's quote. Going fast without going right costs you later - sometimes not all that far into the future either. And there was the evidence right in front of us. Leave yourself a mess and you'll have to pay later - the cards were all in order in sets before the meeting finished, so it was just the messy way they were put in the box for next time that cost the time in the next meeting.
 
-Maybe today we’ll put them back right, so the next planning game can start faster.
+Maybe today we'll put them back right, so the next planning game can start faster.

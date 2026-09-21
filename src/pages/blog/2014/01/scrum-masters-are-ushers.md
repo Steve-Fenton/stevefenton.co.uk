@@ -2,15 +2,14 @@
 title: 'Scrum Masters are ushers'
 navMenu: false
 pubDate: 2014-01-24T23:17:29+00:00
+bannerImage:
+    src: /img/2015/07/scrum-usher.jpg
+    alt: A theatre usher in a red outfit, pointing you to your seat.
 authors:
     - steve-fenton
 categories:
     - Process
 ---
-
-:::div{.inset}
-:img{src="/img/2015/07/scrum-usher.jpg" alt="Scrum Usher"}
-:::
 
 Metaphors are at the heart of agile. From describing processes to providing a system vision, drawing comparisons with familiar reference points can provide the light-bulb moment that makes you understand a concept.
 

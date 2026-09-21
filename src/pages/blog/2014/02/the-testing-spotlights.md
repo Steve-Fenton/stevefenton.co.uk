@@ -2,15 +2,18 @@
 title: 'The testing spotlights'
 navMenu: false
 pubDate: 2014-02-03T23:09:34+00:00
+bannerImage:
+    src: /img/2015/07/spotlight.png
+    alt: 
 authors:
     - steve-fenton
 categories:
     - Programming
 ---
 
-There are lots of different ways to test software at many different stages in the software development cycle, but as we all know, there is no panacea. There isn’t even room for a discussion about which one method is the most effective – because any individual class of testing is utterly inadequate.
+There are lots of different ways to test software at many different stages in the software development cycle, but as we all know, there is no panacea. There isn't even room for a discussion about which one method is the most effective - because any individual class of testing is utterly inadequate.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/spotlight.png" alt="Spotlight"}
 :::
 
@@ -24,7 +27,7 @@ To look at some common examples of defect detection rates:
 
 So the simple fact of the matter is this. If you use any single class of testing, you are doomed!
 
-Think of each class of testing as a spotlight that you can shine into a dark room. If you perform unit-testing, the beam will reveal perhaps a third of the room. If you switch on integration testing, its beam will also cover about a third of the room (but it is reasonably likely that its beam will cover some of the area already covered by unit-testing). Adding a third-spotlight for regression testing covers a quarter of the room – again, some of the areas will already been lit by the other spotlights.
+Think of each class of testing as a spotlight that you can shine into a dark room. If you perform unit-testing, the beam will reveal perhaps a third of the room. If you switch on integration testing, its beam will also cover about a third of the room (but it is reasonably likely that its beam will cover some of the area already covered by unit-testing). Adding a third-spotlight for regression testing covers a quarter of the room - again, some of the areas will already been lit by the other spotlights.
 
 It is the combination of a range of techniques that results in the highest rates of defect-detection.
 
@@ -40,6 +43,6 @@ Remember though, you need to combine many methods to get the highest detection r
 
 ## Further Reading
 
-The statistics and quotes in this article can be found in the massive and awesome [Code Complete by Steve McConnell](http://www.amazon.co.uk/Code-Complete-Practical-Handbook-Construction/dp/0735619670). The hard data in Steve’s book is priceless and it is well researched, with useful citations and plenty of additional resources listed.
+The statistics and quotes in this article can be found in the massive and awesome [Code Complete by Steve McConnell](http://www.amazon.co.uk/Code-Complete-Practical-Handbook-Construction/dp/0735619670). The hard data in Steve's book is priceless and it is well researched, with useful citations and plenty of additional resources listed.
 
 <small>[Image by Mateusz Stachowski](http://www.sxc.hu/profile/Mattox)</small>

@@ -2,6 +2,9 @@
 title: 'Goodbye old browsers'
 navMenu: false
 pubDate: 2014-01-03T23:26:43+00:00
+bannerImage:
+    src: /img/2015/07/browser-test-rekonq.png
+    alt: 
 authors:
     - steve-fenton
 categories:
@@ -12,9 +15,9 @@ tags:
     - JavaScript
 ---
 
-I am officially ditching the [HTML5 shim for old browsers](/blog/2009/07/html-5-browser-test/) and here is why.
+I am officially ditching the [HTML5 shim for old browsers](/blog/2009/07/html-5-browser-test/) and here's why.
 
-I have dropped all stats from my website, so I won’t be able to tell when my “Internet Explorer 6” user base reaches zero. However, last time I checked it was just **0.**05500982318% of you. This is less than 100 people this week. Please upgrade to a newer version!
+I have dropped all stats from my website, so I won't be able to tell when my "Internet Explorer 6" user base reaches zero. However, last time I checked it was just **0.05500982318%** of you. This is less than 100 people this week. Please upgrade to a newer version!
 
 The impact of this is that for most people, there is one less JavaScript file to download and store in your cache.
 
@@ -22,13 +25,13 @@ The impact of this is that for most people, there is one less JavaScript file to
 <script src="/cms/engine/scripts/html5.js"></script>
 ```
 
-This file has always annoyed me because it needs to load before the DOM because if it hasn’t run, some browsers don’t recognise HTML5 elements. This means that this script is responsible for slowing down the rendering of my pages.
+This file has always annoyed me because it needs to load before the DOM because if it hasn't run, some browsers don't recognise HTML5 elements. This means that this script is responsible for slowing down the rendering of my pages.
 
-For older browsers, the worst case scenario is that the block elements in HTML5 are ignored for styling or treated as inline elements. It will look rubbish – but if you are searching my blog to find answers to a question, you’ll still find all the answers. Ultimately, you will still be able to access all of the content – it just won’t be as pretty.
+For older browsers, the worst case scenario is that the block elements in HTML5 are ignored for styling or treated as inline elements. It will look rubbish – but if you are searching my blog to find answers to a question, you'll still find all the answers. Ultimately, you will still be able to access all of the content – it just won't be as pretty.
 
 ## Working Browsers
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/browser-test-rekonq.png" alt="Browser Test Rekonq" loading="lazy"}
 :::
 
@@ -50,7 +53,7 @@ Here are just some of the browsers everything looks fine in (I have put the mini
 
 ## Working Text Browsers
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/browser-test-lynx.png" alt="Browser Test Lynx" loading="lazy"}
 :::
 
@@ -61,7 +64,7 @@ These browsers are fine too (but are text-browsers):
 
 ## Shonky Browsers
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/browser-test-konqueror.png" alt="Browser Test Konqueror" loading="lazy"}
 :::
 

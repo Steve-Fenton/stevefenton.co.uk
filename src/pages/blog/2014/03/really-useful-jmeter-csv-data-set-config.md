@@ -2,6 +2,9 @@
 title: 'Really useful JMeter CSV data set config'
 navMenu: false
 pubDate: 2014-03-14T22:33:06+00:00
+bannerImage:
+    src: /img/2015/07/jmeter-csv-data-set.png
+    alt: JMeter configuration screen for CSV data sets.
 authors:
     - steve-fenton
 categories:
@@ -29,7 +32,7 @@ The first row contains the column titles, then each row is a set of data. It is 
 
 Now you can add your CSV Data Set Config element.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/jmeter-csv-data-set.png" alt="JMeter CSV Data Set" loading="lazy"}
 :::
 

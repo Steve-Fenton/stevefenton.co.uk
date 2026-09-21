@@ -2,14 +2,18 @@
 title: 'Agile days since last accident sign'
 navMenu: false
 pubDate: 2014-02-19T22:52:44+00:00
+bannerImage:
+    src: /img/2015/07/mban1987h.jpg
+    alt: Accident Free Days. The worker updating the billboard from 13 to 14 accident-free days plummets from the platform.
 authors:
     - steve-fenton
 categories:
     - Process
 ---
 
-:::div{.inset}
-:img{src="/img/2015/07/mban1987h.jpg" alt="Accident Free Days"}
+:::figure
+:img{src="/img/2015/07/mban1987h.jpg" alt="Accident Free Days. The worker updating the billboard from 13 to 14 accident-free days plummets from the platform."}
+<figcaption>Cartoon credit: Cornered &copy; Mike Baldwin (107258/144419).</figcaption>
 :::
 
 No matter what process you are using based on the Agile manifesto and principles, there will always be external pressures to break your own rules.
@@ -32,10 +36,8 @@ But in times of crisis it is easy to forget these reminders and take in work wit
 
 So use this sign responsibly to encourage the focus on following your own process.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/sprint-rules.png" alt="Agile Days Since Last Accident" loading="lazy"}
 :::
 
 Sign credit: Days Without Breaking Sprint Rules, by Steve Fenton. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/deed.en_US).
-
-Cartoon credit: Cornered &copy; Mike Baldwin (107258/144419).

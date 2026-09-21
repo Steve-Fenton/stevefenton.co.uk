@@ -2,6 +2,9 @@
 title: 'Specification by example by example'
 navMenu: false
 pubDate: 2014-05-07T22:15:36+01:00
+bannerImage:
+    src: /img/2015/07/specification-by-example-by-example.jpg
+    alt: A sign in a public toilet that says, please only put toilet tissue down the toilet.
 authors:
     - steve-fenton
 categories:
@@ -14,17 +17,17 @@ The requirement was absolutely clear. It read:
 
 > Please only put toilet tissue down the toilet.
 
-:::div{.inset}
-:img{src="/img/2015/07/specification-by-example-by-example.jpg" alt="Specification by Example"}
+:::figure
+:img{src="/img/2015/07/specification-by-example-by-example.jpg" alt="A sign in a public toilet that says, please only put toilet tissue down the toilet."}
 :::
 
 The Original Requirement!
 
-As far as I was concerned, this is an entirely unambiguous statement. I had read it just in time. After quietly using the unorthodox method that this required of squatting in the corner to do my business, I quietly placed only toilet tissue down the toilet and flushed.
+As far as I was concerned, this is an entirely unambiguous statement. I had read it just in time. After quietly using the unorthodox method that this required (squatting in the corner to do my business), I quietly placed only toilet tissue down the toilet and flushed.
 
 Although it was uncomfortable and not a technique I would ever use at home, I had stuck faithfully to the requirement. Job done.
 
-And this is why we need Specification by Example. Instead of stating “please only put toilet tissue down the toilet”, a specification workshop would almost certainly have resulted in the following examples:
+And this is why we need Specification by Example. Instead of stating "please only put toilet tissue down the toilet", a specification workshop would almost certainly have resulted in the following examples:
 
 | Item          | Allowed Down The Toilet |
 |---------------|-------------------------|
@@ -39,4 +42,4 @@ And suddenly all of the assumptions, errors and ambiguities in the original requ
 
 So this is my Specification by Example by Example.
 
-If you aren’t already following Gojko Adzic, look him up or even buy his excellent book [Bridging the Communication Gap](https://www.amazon.co.uk/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610), which is all about this subject.
+If you aren't already following Gojko Adzic, look him up or even buy his excellent book [Bridging the Communication Gap](https://www.amazon.co.uk/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610), which is all about this subject.
