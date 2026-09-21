@@ -9,16 +9,20 @@ categories:
   - Other
 tags:
   - Gamification
+bannerImage:
+  src: /img/2015/09/gamification.jpg
+  alt: Photo by Kenny Louie. A Lego stormtrooper sits at a computer surrounded by clowns.
 ---
 
 :::div{.inset}
-:img{src="/img/2015/09/gamification.jpg" alt="Gamification - image by Kenny Louie"}
+:img{src="/img/2015/09/gamification.jpg" alt="A Lego stormtrooper sits at a computer surrounded by clowns."}
+<figcaption>Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)</figcaption>
 :::
 
 I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a "cool software company" that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
 
 - **Gamification**: the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
-- **Funification** – adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
+- **Funification**: adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
 
 Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I'm bored of it.
 
@@ -45,5 +49,3 @@ The best play is constrained by what you have to hand, but unstructured in what 
 In software, the work has this same mix of unstructured responses to constraints. Your ability to bring something novel to what you build is where the special moments happen.
 
 Don't let the games become the reason you write software.
-
-&lt;small&gt;Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)&lt;/small&gt;
