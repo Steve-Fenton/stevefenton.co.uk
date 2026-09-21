@@ -13,7 +13,7 @@ authors:
 categories:
   - Opinion
 tags:
-  - Culture
+  - Architecture
 meta:
     - name: canonical
       content: https://thenewstack.io/the-cost-dynamics-of-multitenancy/
