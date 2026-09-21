@@ -7,7 +7,7 @@ keywords: "multi-tenancy,saas,cloud"
 navMenu: false
 bannerImage:
   src: /img/topic/architecture/london-night-water.jpg
-  alt: A view across the Thames in London near Westminster Bridge. Lights from the city across the water are reflected in long coloured lines in the dark water.
+  alt: Photo by Steve Fenton. A view across the Thames in London near Westminster Bridge. Lights from the city across the water are reflected in long coloured lines in the dark water.
 authors:
   - steve-fenton
 categories:

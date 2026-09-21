@@ -136,11 +136,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Winter is coming for AI tool budgets](https://thenewstack.io/ai-coding-duplication-rose/)
 - [Developers are addicted to AI, and managers are making it worse](https://thenewstack.io/study-developers-are-addicted/)
 
-## Multi-tenancy
-
-- [The cost dynamics of multi-tenancy](https://thenewstack.io/the-cost-dynamics-of-multitenancy/) \
-  This talks about how multi-tenancy impacts your SaaS pricing strategy and economics over time.
-
 ## Software delivery history
 
 - [1950-1990: Early software delivery models](https://octopus.com/devops/history/early-software-delivery-models/) \

@@ -7,7 +7,7 @@ keywords: "culture,westrum,typology"
 navMenu: false
 bannerImage:
   src: /img/topic/office/desk-cat.png
-  alt: A fluffy long-haired grey and white cat is owning the oak desk. Behind them is a set up including a Microsoft Surface book and ergonomic keyboard.
+  alt: Photo by Steve Fenton. A fluffy long-haired grey and white cat is owning the oak desk. Behind them is a set up including a Microsoft Surface book and ergonomic keyboard.
 authors:
   - steve-fenton
 categories:

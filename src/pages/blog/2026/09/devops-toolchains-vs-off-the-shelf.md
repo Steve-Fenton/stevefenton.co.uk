@@ -7,7 +7,7 @@ keywords: "devops,toolchain,platforms"
 navMenu: false
 bannerImage:
   src: /img/topic/architecture/rai-amsterdam.jpg
-  alt: The curved roof of a large hall at RAI Amsterdam, with steel beams, roof sections, and windows all following the organic lines of the roof.
+  alt: Photo by Steve Fenton. The curved roof of a large hall at RAI Amsterdam, with steel beams, roof sections, and windows all following the organic lines of the roof.
 authors:
   - steve-fenton
 categories:
