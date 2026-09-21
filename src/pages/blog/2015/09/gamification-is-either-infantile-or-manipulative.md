@@ -14,6 +14,13 @@ bannerImage:
   alt: Photo by Kenny Louie. A Lego stormtrooper sits at a computer surrounded by clowns.
 ---
 
+I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a "cool software company" that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
+
+- **Gamification**: the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
+- **Funification**: adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
+
+Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I'm bored of it.
+
 :::div{.inset}
 :img{src="/img/2015/09/gamification.jpg" alt="A Lego stormtrooper sits at a computer surrounded by clowns."}
 <figcaption>
@@ -22,13 +29,6 @@ Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)
 
 </figcaption>
 :::
-
-I may be alone on this one, but I utterly hate *gamification* and *funification*. As soon as something gets *gamified* I lose a good portion of interest in it. This is an increasing problem as people attempt to adhere to a mythological image they hold of a "cool software company" that has everyone turning up to work in fancy dress, climbing playground equipment to get to their office, riding around the building on electric scooters, and using crayons to design their software.
-
-- **Gamification**: the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity.
-- **Funification**: adorning work space with toys, brightly coloured objects, and pub games with a view to introducing artificially-created fun.
-
-Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I'm bored of it.
 
 ## ...but I'm already motivated
 
