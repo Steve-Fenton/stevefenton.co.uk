@@ -38,7 +38,7 @@ Using a sample from a web server with one day of traffic, the whole process took
 
 During a debug run, the memory and CPU used by the application is low/stable.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/03/web-log-importer.jpg" alt="Web Log Importer Diagnostics" loading="lazy"}
 :::
 

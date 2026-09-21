@@ -38,7 +38,7 @@ const htmlElement: HTMLElement = path[0];
 
 An `SVGPathElement` doth not an `HTMLElement` make. In fact, both of these are sub-classes of `Element`.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/04/element-class-hierarchy.jpg" alt="Element Class Hierarchy" loading="lazy"}
 :::
 
@@ -55,23 +55,23 @@ This means that the following line of code should…
 const svgPathElement: JQuery<HTMLElement> = $('path');
 ```
 
-## So, why don’t we just fix it?
+## So, why don't we just fix it?
 
 There are many, many cases where code works because it complies with the fundamental assumption.
 
-If you have code that both assumes jQuery always handles `HTMLElement`, and also always *does* handle `HTMLElement`, fixing this error will bring you potentially thousands of errors. This is essentially true in all cases where you’re running jQuery in a web page and you’re not touching SVGs, or handling XML. Your code will become littered with warnings that you’ll either need to fix by changing types, or by running a type guard to ensure you really do have an `HTMLElement`.
+If you have code that both assumes jQuery always handles `HTMLElement`, and also always *does* handle `HTMLElement`, fixing this error will bring you potentially thousands of errors. This is essentially true in all cases where you're running jQuery in a web page and you're not touching SVGs, or handling XML. Your code will become littered with warnings that you'll either need to fix by changing types, or by running a type guard to ensure you really do have an `HTMLElement`.
 
-## So, why don’t we leave it broken?
+## So, why don't we leave it broken?
 
-Because the whole point of a type system is that it should help you with type confusion. If you have written plain DOM code without TypeScript, you’ll constantly be running into the differences between `querySelectorAll`, which returns a static `NodeList`, or `getElementsByClassName`, which returns a live `HTMLCollection`. It seems like every time someone adds a way to query the DOM it comes with a new kind of list, or a new representation of a DOM object.
+Because the whole point of a type system is that it should help you with type confusion. If you have written plain DOM code without TypeScript, you'll constantly be running into the differences between `querySelectorAll`, which returns a static `NodeList`, or `getElementsByClassName`, which returns a live `HTMLCollection`. It seems like every time someone adds a way to query the DOM it comes with a new kind of list, or a new representation of a DOM object.
 
-When you do the same *with* TypeScript, it helps you understand what you’ve ended up with. Oh, it’s a `Node` so you can’t do some things you could do it it was an `Element`. Thank you TypeScript compiler!
+When you do the same *with* TypeScript, it helps you understand what you've ended up with. Oh, it's a `Node` so you can't do some things you could do it it was an `Element`. Thank you TypeScript compiler!
 
-At the moment, jquery.d.ts is leading some small proportion of users down a blind alley – supplying type information and auto-completion that is misleading. In fact, it’s going to be allowing exactly the kind of mistakes that a type system is there to catch.
+At the moment, jquery.d.ts is leading some small proportion of users down a blind alley – supplying type information and auto-completion that is misleading. In fact, it's going to be allowing exactly the kind of mistakes that a type system is there to catch.
 
-## Schrödinger’s definition
+## Schrödinger's definition
 
-And this is where we come to in the discussion. This debate leaves the jquery.d.ts type definition both broken and not broken; but it’s time to open the box and find out the correct answer.
+And this is where we come to in the discussion. This debate leaves the jquery.d.ts type definition both broken and not broken; but it's time to open the box and find out the correct answer.
 
 To fix the misleading type, we would need to be super-clear that for many codebases, pinning the version until the warnings can be fixed might be a good idea. It will also be a potentially big change to make to the type definition, that will impact any tests that make the current (and incorrect) assumption.
 

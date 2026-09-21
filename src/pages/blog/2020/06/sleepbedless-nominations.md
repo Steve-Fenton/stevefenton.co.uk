@@ -25,7 +25,7 @@ The #SleepBedless campaign asks you to do three simple actions:
 
 Why three people? Because £15 is enough to provide a bed for one night for a vulnerable young person. It makes sense doesn't it.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/06/sleep-bedless.jpg" alt="Steve Fenton - Sleep Bedless" loading="lazy"}
 :::
 

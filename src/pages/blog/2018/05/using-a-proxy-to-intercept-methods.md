@@ -15,19 +15,19 @@ tags:
 description: Demonstrates how to use the JavaScript Proxy object to intercept method calls, using `console.log` as a practical example.
 ---
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/05/esspresso-filter.jpg" alt="Espresso filter"}
 :::
 
 This is just a short note on how to use an ECMAScript Proxy to intercept methods. There are plenty of examples that intercept properties, but examples with methods seem absent currently.
 
-For demonstration purposes, we’re going to intercept a very famous method. The console log method takes any number of arguments of any type. This is the call we’re going to intercept:
+For demonstration purposes, we're going to intercept a very famous method. The console log method takes any number of arguments of any type. This is the call we're going to intercept:
 
 ```javascript
 console.log('Test', 1);
 ```
 
-To replace the original, we’ll create a new `Proxy`. This requires the original object, and a handler that will be called in its place. The proxy pretty much always looks the same – and object with a `get` function.
+To replace the original, we'll create a new `Proxy`. This requires the original object, and a handler that will be called in its place. The proxy pretty much always looks the same – and object with a `get` function.
 
 The `obj` parameter is the original object. That means you can supply original values back should you want to, for example if you need to pass back values from the original object. The `prop` parameter is the name of the property that has been requested. This will typically be a string, but remember it can also be a symbol. As I know the `log` method name will be a string, I can check for it with a conditional statement.
 

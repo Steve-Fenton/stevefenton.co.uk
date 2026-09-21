@@ -18,26 +18,26 @@ Go to your Google Analytics account and choose the property with your nicely con
 
 Then open Admin > View > Goals
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/03/goal-view-001.jpg" alt="Goal View in Google Analytics" loading="lazy"}
 :::
 
-Either use the tick box to select all, or choose specific goals from the list. When you do this, a “Share” option appears in the toolbar.
+Either use the tick box to select all, or choose specific goals from the list. When you do this, a "Share" option appears in the toolbar.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/03/goal-view-002.jpg" alt="Goal Sharing Link" loading="lazy"}
 :::
 
-Click on this share option and choose “Share template link”. This will create a shareable link that can be used to add goals to any other Google Analytics v3 view (by someone who has permissions to do so).
+Click on this share option and choose "Share template link". This will create a shareable link that can be used to add goals to any other Google Analytics v3 view (by someone who has permissions to do so).
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2021/03/share-template-link.jpg" alt="Share Template Link" loading="lazy"}
 :::
 
-You’ll get a message containing a link that you need to copy and keep somewhere to re-use, like your favourites bar.
+You'll get a message containing a link that you need to copy and keep somewhere to re-use, like your favourites bar.
 
 > Copy the URL below to share  
 > You are only sharing the goal configuration. No traffic data is being shared.  
 > \[[Link](https://analytics.google.com/analytics/web/template?uid=1rzch8lETnCeo7SQNairCQ)\]
 
-Anyone using the link can choose which goals to import, and which “slot” to import them to.
+Anyone using the link can choose which goals to import, and which "slot" to import them to.

@@ -15,11 +15,11 @@ tags:
 description: Use VBA to dynamically change Excel cell colors based on RGB data. A simple guide to the Worksheet_Change event for visual feedback.
 ---
 
-This might be a bit niche, but I needed to collect :abbr[RGB]{title="red, green, blue"} values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It’s old school, but I can respect that!
+This might be a bit niche, but I needed to collect :abbr[RGB]{title="red, green, blue"} values in an Excel spreadsheet and I though it would be neat to preview the colour in another cell. To cut a long story short, the only way I could make this happen was with a bit of Visual Basic for Applications. It's old school, but I can respect that!
 
 My set up is that I have Red, Green, and Blue in cells E, F, and G. I want to leave a gap and then fill cell I based on the input in those cells.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/12/excel-rgb-cells.jpg" alt="Excel RGB Cells (Before)" loading="lazy"}
 :::
 
@@ -35,12 +35,12 @@ Private Sub Worksheet_Change(ByVal Target As Range)
 End Sub
 ```
 
-Important notes… because I want to leave a gap after the RGB cells before I fill a cell, my offsets are -4 (red), -3 (green), and -2 (blue). If you were filling the cell directly after the RGB values, you’d use -3, -2, -1 because this is basically how far away from the coloured cell the values can be found.
+Important notes… because I want to leave a gap after the RGB cells before I fill a cell, my offsets are -4 (red), -3 (green), and -2 (blue). If you were filling the cell directly after the RGB values, you'd use -3, -2, -1 because this is basically how far away from the coloured cell the values can be found.
 
 You need to specify the cell range containing the RGB colour value (in my case `E:G`) and the cell you want to paint (for me `I`).
 
 The result is a preview of each value that updates automatically whenever you edit a value.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/12/excel-rgb-cells-preview-background-color.jpg" alt="Excel RGB Cells with Colour Preview in Background" loading="lazy"}
 :::

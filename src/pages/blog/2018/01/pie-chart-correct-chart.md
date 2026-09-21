@@ -9,21 +9,21 @@ categories:
 description: A humorous defense of pie charts as a comedic device, arguing that their delayed readability makes them perfect for jokes but terrible for business data.
 ---
 
-I know you may have opened an article, written by me, titled “When a Pie Chart is the Correct Chart” expecting to see a massive banner with the word *NEVER* in all-caps, followed by an inappropriate number of exclamation marks – but wait; I actually have a use case where a pie chart is usually the correct choice.
+I know you may have opened an article, written by me, titled "When a Pie Chart is the Correct Chart" expecting to see a massive banner with the word *NEVER* in all-caps, followed by an inappropriate number of exclamation marks – but wait; I actually have a use case where a pie chart is usually the correct choice.
 
 Comedy.
 
-The basic structure of comedy is that you lead people down a path, and then use a switch to change the direction of the story in a way that surprises and amuses. You can do this quickly, as Tim Vine (“*Velcro… what a rip off!”*) or Steward Francis (“*I used to have a job as a pantomime horse, but quit while I was a head.*“) do, or you can take your time to really build the narrative like Rhod Gilbert:
+The basic structure of comedy is that you lead people down a path, and then use a switch to change the direction of the story in a way that surprises and amuses. You can do this quickly, as Tim Vine ("*Velcro… what a rip off!"*) or Steward Francis ("*I used to have a job as a pantomime horse, but quit while I was a head.*") do, or you can take your time to really build the narrative like Rhod Gilbert:
 
 [Luggage](https://www.youtube.com/watch?v=OISGykO6Z7U)
 
-Amazingly, no matter how much time you spend doing it, the basic narrative switch trick is the fundamental part of all good jokes. I won’t comment on the class of jokes that dispense with this in favour of bluster.
+Amazingly, no matter how much time you spend doing it, the basic narrative switch trick is the fundamental part of all good jokes. I won't comment on the class of jokes that dispense with this in favour of bluster.
 
-So why are pie charts good for comedy? For exactly the same reasons they are bad for information. You need to interpret a pie chart. You won’t notice this, because they are so common you will be doing it every time you see one. For most people this is daily. The time it takes to read the title, observe the segments, compare their size, and read the key to find out what the segments represent is all good comedic narrative building. By the time you “get the pie chart”, you have made a number of assumptions shaped by your own bias.
+So why are pie charts good for comedy? For exactly the same reasons they are bad for information. You need to interpret a pie chart. You won't notice this, because they are so common you will be doing it every time you see one. For most people this is daily. The time it takes to read the title, observe the segments, compare their size, and read the key to find out what the segments represent is all good comedic narrative building. By the time you "get the pie chart", you have made a number of assumptions shaped by your own bias.
 
-If you were to use a proper chart, the answer would be apparent too quickly. It just wouldn’t be as funny. You can make jokes out of other charts, but pie charts are just naturals. Here is a great example from [Introvert Doodles](http://introvertdoodles.com/), titled “[Honestly Though](http://introvertdoodles.com/comic/honestly-though/)“:
+If you were to use a proper chart, the answer would be apparent too quickly. It just wouldn't be as funny. You can make jokes out of other charts, but pie charts are just naturals. Here is a great example from [Introvert Doodles](http://introvertdoodles.com/), titled "[Honestly Though](http://introvertdoodles.com/comic/honestly-though/)":
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/01/introverted-doodles.jpg" alt="Introvert Doodles" loading="lazy"}
 :::
 

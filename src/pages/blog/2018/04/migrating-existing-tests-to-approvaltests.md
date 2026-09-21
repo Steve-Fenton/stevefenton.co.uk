@@ -14,7 +14,7 @@ tags:
 description: A step-by-step guide to migrating verbose unit tests to ApprovalTests, using "Bottles of Beer" code as an example.
 ---
 
-This is a short article to describe how I migrated a bunch of existing verbose tests to ApprovalTests. All of the examples in this article are based on my [Shameless Green in C#](https://github.com/Steve-Fenton/BottlesOfBeer) library, which will be familiar to reader’s of [99 Bottles of OOP](https://www.sandimetz.com/99bottles/).
+This is a short article to describe how I migrated a bunch of existing verbose tests to ApprovalTests. All of the examples in this article are based on my [Shameless Green in C#](https://github.com/Steve-Fenton/BottlesOfBeer) library, which will be familiar to reader's of [99 Bottles of OOP](https://www.sandimetz.com/99bottles/).
 
 Here are some quick links you might want once you finish reading.
 
@@ -23,9 +23,9 @@ Here are some quick links you might want once you finish reading.
 
 ## Starting code
 
-I’m going to start with an existing test. This makes it easy to show the difference between a traditional unit test, and once that uses this library.
+I'm going to start with an existing test. This makes it easy to show the difference between a traditional unit test, and once that uses this library.
 
-Here is the test before any changes. It is a pretty simple MSTest with Shouldly (ApprovalTests doesn’t care which test framework you are using). It is quite texty, and this is just one of the shorter tests. One of the benefits of the ApprovalTests library is that it moves the expectation into a file in its own right, but I’ll talk about some of the other benefits shortly.
+Here is the test before any changes. It is a pretty simple MSTest with Shouldly (ApprovalTests doesn't care which test framework you are using). It is quite texty, and this is just one of the shorter tests. One of the benefits of the ApprovalTests library is that it moves the expectation into a file in its own right, but I'll talk about some of the other benefits shortly.
 
 ```csharp
 [TestMethod]
@@ -60,7 +60,7 @@ public void TestTheFirstVerse()
 
 This attribute does nothing and your tests still pass! We can now introduce a verification call to ApprovalTests. This is where we see a difference to many other test workflows. When you first write a verification and run the test, it will fail. When it does this, it creates two files on the file system and opens them for comparison. You can choose to approve the text and save the result, at which point the test will go green. All future tests will be run against your approved gold copy.
 
-In the test below, I have added the call to `Approvals.Verify`. Note that I have left my existing assertion in place. I won’t remove that until I have seen the verification fail, approved the text, and seen both the new verification and the old test go green together. This will ensure that the new approval is a good analog for the old one before I delete it.
+In the test below, I have added the call to `Approvals.Verify`. Note that I have left my existing assertion in place. I won't remove that until I have seen the verification fail, approved the text, and seen both the new verification and the old test go green together. This will ensure that the new approval is a good analog for the old one before I delete it.
 
 ```csharp
 [TestMethod]
@@ -81,19 +81,19 @@ public void TestTheFirstVerse()
 
 Running this for the first time opens up the diff tool.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/04/approvaltests-first-diff.png" alt="Test Verification Failure Diff Tool" loading="lazy"}
 :::
 
 If the text is correct, I simply copy-right to move it into the gold copy and save the file. At this stage, the test window shows a failure:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/04/test-window.png" alt="ApprovalTests Test Window Failure" loading="lazy"}
 :::
 
 But re-running the test now the gold copy is approved will turn it green.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/04/green-test-window.png" alt="Test Window Pass" loading="lazy"}
 :::
 
@@ -110,9 +110,9 @@ public void TestTheFirstVerse()
 }
 ```
 
-The gold copy is stored in a simple text file, so you can commit it to source control and track the versions just like your source code. You’ll see it if you enable all files in the solution explorer and can add it to the solution. The file is named to match the test it belongs to.
+The gold copy is stored in a simple text file, so you can commit it to source control and track the versions just like your source code. You'll see it if you enable all files in the solution explorer and can add it to the solution. The file is named to match the test it belongs to.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/04/gold-copy-test-file.png" alt="Gold Copy Text File" loading="lazy"}
 :::
 
@@ -120,7 +120,7 @@ By repeating this for each of the tests in the Bottles of Beer project, and effe
 
 ## Summary
 
-You don’t just have to use this library to verify text states, it works with complex object types too. This makes it a powerful way to verify complicated states without writing multiple assertions.
+You don't just have to use this library to verify text states, it works with complex object types too. This makes it a powerful way to verify complicated states without writing multiple assertions.
 
 ApprovalTests also has flavours to help you test specific project types, for example there is a technique that allows you to test MVC views.
 

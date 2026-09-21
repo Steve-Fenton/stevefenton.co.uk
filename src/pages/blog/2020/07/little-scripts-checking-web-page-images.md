@@ -16,7 +16,7 @@ This is a note-to-future-self as I just threw together a little script to test i
 - Images that are not lazy loaded
 - Images that are much bigger than their display size
 
-As images sizes aren’t reliable until the image is displayed, you will need to run it if your page is updated (i.e. hidden images are displayed or background requests add content).
+As images sizes aren't reliable until the image is displayed, you will need to run it if your page is updated (i.e. hidden images are displayed or background requests add content).
 
 Just paste this whole thing into your browser console… and then call `checkAllImages()` each time you want to re-check.
 
@@ -115,9 +115,9 @@ window.checkAllImages = (function () {
 checkAllImages();
 ```
 
-Here’s an example of it running against my home page:
+Here's an example of it running against my home page:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/check-images.jpg" alt="Result of Checking Images" loading="lazy"}
 :::
 

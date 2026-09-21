@@ -15,7 +15,7 @@ These notes will help you to easily collect an audit history on SQL Server table
 
 A big thanks to Dave Beaumont for the code review for the samples in this article.
 
-For the purposes of the example, we’ll use the following table definition. It’s just a Tenant table. Each Tenant record has an Id, Title, Updated date and time (UTC), and an author.
+For the purposes of the example, we'll use the following table definition. It's just a Tenant table. Each Tenant record has an Id, Title, Updated date and time (UTC), and an author.
 
 ```sql
 CREATE TABLE [dbo].[tblTenant] (
@@ -32,7 +32,7 @@ GO
 
 ## Optional but sensible columns
 
-You should already have columns on your table that contain the data you would look for in the audit history. For example, the user who made the change is almost always needed. So, although you won’t be forced to add this data it’s up to you to ensure the history row is useful when you finally need to use it.
+You should already have columns on your table that contain the data you would look for in the audit history. For example, the user who made the change is almost always needed. So, although you won't be forced to add this data it's up to you to ensure the history row is useful when you finally need to use it.
 
 ## Mandatory start and end time columns
 
@@ -40,7 +40,7 @@ We can have our history table generated for us, but there is one condition… yo
 
 In the example below, we have added SysStartTime, SysEndTime, and linked them together into a period.
 
-Here’s the addition…
+Here's the addition…
 
 ```sql
 [SysStartTime] DATETIME2 GENERATED ALWAYS AS ROW START NOT NULL, 
@@ -69,7 +69,7 @@ GO
 
 ## Automatic history table
 
-Now you have the right columns, you can ask SQL Server to add an automatic *temporal version history table*. Sounds cool, and can be done using one additional line in your table definition. The only part to change is the name of the table. I call all my temporal history tables “tblHistoryOf…” – followed by the table name. So in our case “tblHistoryOfTenant”. You’ll thank yourself for using this convention later on as it makes it super-clear which tables are “data” and which tables are “history”.
+Now you have the right columns, you can ask SQL Server to add an automatic *temporal version history table*. Sounds cool, and can be done using one additional line in your table definition. The only part to change is the name of the table. I call all my temporal history tables "tblHistoryOf…" – followed by the table name. So in our case "tblHistoryOfTenant". You'll thank yourself for using this convention later on as it makes it super-clear which tables are "data" and which tables are "history".
 
 The additional line is…
 
@@ -100,7 +100,7 @@ GO
 
 You will see your table get a new icon, and a nested temporal history table with the audit history:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2019/09/temporal-audit-history-sql-server.jpg" alt="Temporal Audit History Table Icon and Nested Table" loading="lazy"}
 :::
 
@@ -114,7 +114,7 @@ modelBuilder
     .ToTable("Tenant", b => b.IsTemporal());
 ```
 
-When using EF Core to do this, you’ll get a `TenantHistory` table with automatic `PeriodStart` and `PeriodEnd` columns. You can override these defaults if you need to:
+When using EF Core to do this, you'll get a `TenantHistory` table with automatic `PeriodStart` and `PeriodEnd` columns. You can override these defaults if you need to:
 
 ```csharp
 modelBuilder

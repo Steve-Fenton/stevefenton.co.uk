@@ -22,7 +22,7 @@ At the Post Office in the UK, you used to enter the building and scan the room t
 
 So we know that the amateur Post Office customer is going to pick the middle queue, because it has fewer people. But the expert customer heads over to the queue with five people in it. Are they crazy? Of course not, they just have a good appreciation for variability.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/02/queue.jpg" alt="A long queue" loading="lazy"}
 :::
 
@@ -36,7 +36,7 @@ The Post Office newbie watches as the longer queues stream past – and learns a
 
 When you have as many queues as you have queue processors, the queues are badly affected by variability. A lucky queue will process many times faster than an unlucky queue (assuming variability is simply down to luck!)
 
-This is why the Post Office changed their system. If you visit a Post Office today, while you still can, you’ll find that there is a single queue being processed by multiple windows. Everyone joins the queue on arrival and is processed as fast as they can be, rather than based on luck or judgement. If someone ahead of you wants to renew their passport *and* their driving license it no longer matters. They will tie up a window, but the queue will continue to be served by other windows. This is a parallel-server queue.
+This is why the Post Office changed their system. If you visit a Post Office today, while you still can, you'll find that there is a single queue being processed by multiple windows. Everyone joins the queue on arrival and is processed as fast as they can be, rather than based on luck or judgement. If someone ahead of you wants to renew their passport *and* their driving license it no longer matters. They will tie up a window, but the queue will continue to be served by other windows. This is a parallel-server queue.
 
 ## Boards are queues
 
@@ -44,7 +44,7 @@ When you set up a board to track work, you are creating a queue. You may be temp
 
 ## Boards are truth
 
-A second problem with multiple boards is that you have no definite source of truth. You can’t look at “the board” and see all of your work in progress. You end up generating lots of confusion and lose your ability to manage the work. Questions will arise, such as:
+A second problem with multiple boards is that you have no definite source of truth. You can't look at "the board" and see all of your work in progress. You end up generating lots of confusion and lose your ability to manage the work. Questions will arise, such as:
 
 - Where will you pull your next task from?
 - What are you working on right now?
@@ -56,6 +56,6 @@ A second problem with multiple boards is that you have no definite source of tru
 
 If you are already in a situation where you have myriad boards, your first fix should be to work towards one board per unit. You need to work out what a unit *currently* looks like in your organisation. If you have teams of two people, you should start by reducing the number of boards so you have one queue per two-person team. This allows each of these teams to answer all of the important questions. Over time, you should reduce the number of boards further, especially where teams interact over the same work, have interdependencies, or you simply want to encourage more collaboration.
 
-If you ask an individual the questions listed above, you’ll find out whether the boards are effective. If you don’t even need to ask, because you can just look at the board and see the answers; that’s even better.
+If you ask an individual the questions listed above, you'll find out whether the boards are effective. If you don't even need to ask, because you can just look at the board and see the answers; that's even better.
 
 <small>Photo: Queue for Waterloo & City by [Stephen Colebourne](https://www.flickr.com/photos/jodastephen/)</small>

@@ -16,21 +16,21 @@ tags:
 description: A look at Microsoft PowerToys and WinGet. Boost productivity with PowerToys Run and manage packages easily with the Windows Package Manager.
 ---
 
-PowerToys and WinGet are exciting previews for Windows Users. If you are a civilian, you’ll be getting these in general release soon, but for technical folks might want to try things out early. Or now!
+PowerToys and WinGet are exciting previews for Windows Users. If you are a civilian, you'll be getting these in general release soon, but for technical folks might want to try things out early. Or now!
 
 ## PowerToys
 
-[PowerToys](https://github.com/microsoft/PowerToys/tree/master/src/modules/launcher) has been in preview for a while. You’ll install it when someone shows off FancyZones, which gives you templated tiles to organise your desktop… but you’ll keep it because of the <kb>Alt</kb> + <kb>Space</kb> Run command.
+[PowerToys](https://github.com/microsoft/PowerToys/tree/master/src/modules/launcher) has been in preview for a while. You'll install it when someone shows off FancyZones, which gives you templated tiles to organise your desktop… but you'll keep it because of the <kb>Alt</kb> + <kb>Space</kb> Run command.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/05/powertoys-run.jpg" alt="PowerToys Run Command" loading="lazy"}
 :::
 
-This gives you super easy access to apps or open Windows, with a “Run as Administrator” shortcut and an “Open Folder” shortcut. If the application is already running, you’ll see the option with the “Running” annotation alongside it.
+This gives you super easy access to apps or open Windows, with a "Run as Administrator" shortcut and an "Open Folder" shortcut. If the application is already running, you'll see the option with the "Running" annotation alongside it.
 
 You can also launch a shell command by starting your input with `>`.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/05/powertoys-run-shell-command.jpg" alt="PowerToys Run Shell Command with winget install vscode" loading="lazy"}
 :::
 
@@ -38,17 +38,17 @@ It remembers common commands that you run, to save you time.
 
 And finally, you can just use it as a calculator by typing in your calculations.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/05/powertoys-run-calculations.jpg" alt="PowerToys Run with 1452 * 2309" loading="lazy"}
 :::
 
 ## WinGet quick start
 
-WinGet is basically that thing we all really, really, really wanted for Christmas and we now have it seven months early. It’s a package manager for Windows that let’s you get the apps you want.
+WinGet is basically that thing we all really, really, really wanted for Christmas and we now have it seven months early. It's a package manager for Windows that let's you get the apps you want.
 
 There is a [super-cool early preview of WinGet available](https://github.com/microsoft/winget-cli/releases) for those who can handle early sight of things… your quick start is to run `winget show vscode` to view the Visual Studio Code package.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/05/winget-show.jpg" alt="Command Window with winget show vscode" loading="lazy"}
 :::
 
@@ -58,10 +58,10 @@ Installing Visual Studio Code is as simple as the following command… you even 
 winget install vscode
 ```
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/05/winget-install.jpg" alt="Command Window with winget install vscode" loading="lazy"}
 :::
 
-Create yourself a file with the “stuff your team all uses” and check it into your source control system so you can all keep it up to date. That way, your new folks can be up and running in no time!
+Create yourself a file with the "stuff your team all uses" and check it into your source control system so you can all keep it up to date. That way, your new folks can be up and running in no time!
 
 PowerToys is awesome and WinGet is ace… and you can use them together too.

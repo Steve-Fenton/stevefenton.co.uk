@@ -15,17 +15,17 @@ tags:
 description: Proposed interim solutions for using optional chaining-like syntax in TypeScript before the feature was officially added to the language.
 ---
 
-ECMAScript has an optional chaining proposal on the way (see [TC39 on GitHub](https://tc39.github.io/proposal-optional-chaining/)). It uses `?.` to chain together an expression in a way that forgives a breaking chain. For example, `myObj.items[0].data` can fail if `myObj` is null, or undefined, or doesn’t have an items member, or there are no entries in the items collection, or the first item doesn’t have a member named data! This will be adopted into TypeScript as soon as the syntax is agreed – but what do you do in the meantime when you want to use optional chaining in TypeScript?
+ECMAScript has an optional chaining proposal on the way (see [TC39 on GitHub](https://tc39.github.io/proposal-optional-chaining/)). It uses `?.` to chain together an expression in a way that forgives a breaking chain. For example, `myObj.items[0].data` can fail if `myObj` is null, or undefined, or doesn't have an items member, or there are no entries in the items collection, or the first item doesn't have a member named data! This will be adopted into TypeScript as soon as the syntax is agreed – but what do you do in the meantime when you want to use optional chaining in TypeScript?
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/05/optional-chaining.jpg" alt="A broken chain with rusty links"}
 :::
 
 ## Optional chaining magic ˀ
 
-This isn’t really magic and it doesn’t have to be called `ˀ`. This is just a function with a name that hints at a question mark with a valid ASCII character (the glottal stop). Let’s look at two functions that can solve the temporary lack of optional chaining.
+This isn't really magic and it doesn't have to be called `ˀ`. This is just a function with a name that hints at a question mark with a valid ASCII character (the glottal stop). Let's look at two functions that can solve the temporary lack of optional chaining.
 
-The object we’re dealing with is shown below, followed by two functions that can be used to chain.
+The object we're dealing with is shown below, followed by two functions that can be used to chain.
 
 ```typescript
 interface MyObj {
@@ -41,7 +41,7 @@ const myObj: MyObj = { items: [{ data: 'Data String' }] };
 const result = myObj.items[0].data;
 ```
 
-The first function, which we’ll call `ˀ` for now, allows you to interlace your statement with calls to this optional chaining mechanism.
+The first function, which we'll call `ˀ` for now, allows you to interlace your statement with calls to this optional chaining mechanism.
 
 ```typescript
 function ˀ<T>(obj: T, d: T = {} as T) : T {
@@ -55,7 +55,7 @@ This would be used as shown below:
 const result = ˀ(ˀ(ˀ(ˀ(myObj).items)[0]).data, 'Default');
 ```
 
-The second option is to borrow the “try” pattern that is common in .NET:
+The second option is to borrow the "try" pattern that is common in .NET:
 
 ```typescript
 function tryˀ<T>(exp: () => T, d: T) {
@@ -75,7 +75,7 @@ This would be used as shown below:
 const result = tryˀ(() => myObj.items[0].data, 'Default');
 ```
 
-The first function is a bit messier to use, the second function isn’t strictly the same as optional chaining (but it’s close).
+The first function is a bit messier to use, the second function isn't strictly the same as optional chaining (but it's close).
 
 ## Examples
 

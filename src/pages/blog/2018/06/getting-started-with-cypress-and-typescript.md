@@ -18,7 +18,7 @@ description: A quick start guide for setting up Cypress with TypeScript, includi
 
 Cypress is a front-end testing utility that allows you to write UI tests using Mocha and Chai. It has auto-waits, time-travel (look back at snapshots from within test runs), and automatic discovery of tests. This blog provides a quick start for getting started with Cypress and TypeScript.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/cypress-tree.jpg" alt="Cypress Tree"}
 :::
 
@@ -47,7 +47,7 @@ You can run Cypress with the open command:
 npx cypress open
 ```
 
-If you leave it running while you’re writing tests, it will update as files change. You can also run a test suite and leave it open to see the tests automatically re-run when you change them.
+If you leave it running while you're writing tests, it will update as files change. You can also run a test suite and leave it open to see the tests automatically re-run when you change them.
 
 ## Code location and TS Config
 
@@ -80,13 +80,13 @@ I am putting my TypeScript files in the root of the test app, with component obj
 
 ## First test
 
-I won’t patronise you with a “true equals true” assertion. We’ll just put together an entire test. Tests use Mocha and Chai, so anyone who has used these (or Jasmine, or Jest)… will know exactly how to write their tests. Anyone who has used Selenium will know to use classes to represent components. You’ll hear this referred to as Page Object Models; but actually you should represent components, or widgets, rather than whole pages.
+I won't patronise you with a "true equals true" assertion. We'll just put together an entire test. Tests use Mocha and Chai, so anyone who has used these (or Jasmine, or Jest)… will know exactly how to write their tests. Anyone who has used Selenium will know to use classes to represent components. You'll hear this referred to as Page Object Models; but actually you should represent components, or widgets, rather than whole pages.
 
-Let’s throw a complete set of files into the mix to show this in action. If you are following along, please point your tests at a website you own!
+Let's throw a complete set of files into the mix to show this in action. If you are following along, please point your tests at a website you own!
 
 First of all, here are some component object models to represent a home page, a search component, and a search result page.
 
-You’ll see call to `cy`, which is the global Cypress variable. You will also notice that I tend to return the component, or a substitute component, from each method. This makes things chainable and also makes using the right object super-easy.
+You'll see call to `cy`, which is the global Cypress variable. You will also notice that I tend to return the component, or a substitute component, from each method. This makes things chainable and also makes using the right object super-easy.
 
 `./pages/home.ts`
 
@@ -156,17 +156,17 @@ describe('Site Search', () => {
 });
 ```
 
-Hopefully you’ll notice that the specification itself knows nothing about Cypress, or the DOM, or element selectors.
+Hopefully you'll notice that the specification itself knows nothing about Cypress, or the DOM, or element selectors.
 
 As soon as the compiler outputs the JavaScript files for this application, the UI will pick them up and list them.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/cypress-ui.png" alt="Cypress UI" loading="lazy"}
 :::
 
 You can then click on it and it will run.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/cypress-runner.png" alt="Cypress Runner" loading="lazy"}
 :::
 

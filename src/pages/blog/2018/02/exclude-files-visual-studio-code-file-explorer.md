@@ -17,9 +17,9 @@ This is a quick note with an updated version on how to exclude files from the Vi
 
 ## Workspace settings
 
-The most appropriate place for the list of exclusions is in the Workspace Settings. The most appropriate way to add this file is to navigate to `File -> Preferences -> Settings` and select the all-caps “Workspace Settings” tab.
+The most appropriate place for the list of exclusions is in the Workspace Settings. The most appropriate way to add this file is to navigate to `File -> Preferences -> Settings` and select the all-caps "Workspace Settings" tab.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/02/vscode-settings.png" alt="VSCode Workspace Settings" loading="lazy"}
 :::
 
@@ -35,6 +35,6 @@ Within this file, you can add a `files.exclude` setting, as shown below.
 }
 ```
 
-All of these exclusions are done by file extension, which is the most common way to do this, especially if you are a TypeScript programmer. You’ll want to see your TypeScript files listed, but you are totally too faded to deal with all the noise of the JavaScript files, and type definitions.
+All of these exclusions are done by file extension, which is the most common way to do this, especially if you are a TypeScript programmer. You'll want to see your TypeScript files listed, but you are totally too faded to deal with all the noise of the JavaScript files, and type definitions.
 
 Save these settings to hide the files in the file explorer, which will now be free from the files you wanted to exclude.

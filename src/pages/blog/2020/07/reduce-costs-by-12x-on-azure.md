@@ -14,7 +14,7 @@ tags:
 description: Reduce Azure costs by using Cost Analysis tools and optimizing resource usage. Learn how right-sizing VMs and scheduling downtimes can significantly lower your bill.
 ---
 
-I’m in the process of writing a little test app that I’d like to run on Azure to keep an eye on a suite of 1,000 websites. It’s a .NET Core app that replaces a test pack written with JMeter that has been manually “push-button” executed in the past. It means the tests can run continuously with alarms if there’s an issue. Removing manual work is worth some money, but there’s no reason to spend more than you have to, so let’s look at a week of gentle optimisation of costs.
+I'm in the process of writing a little test app that I'd like to run on Azure to keep an eye on a suite of 1,000 websites. It's a .NET Core app that replaces a test pack written with JMeter that has been manually "push-button" executed in the past. It means the tests can run continuously with alarms if there's an issue. Removing manual work is worth some money, but there's no reason to spend more than you have to, so let's look at a week of gentle optimisation of costs.
 
 The test app is pretty simple. A data store, a user-interface to add more tests to the pack and to review test runs, and a little robot that actually does all the work.
 
@@ -22,27 +22,27 @@ My first guess for the Azure set up was a serverless SQL database for the data s
 
 ## Azure Cost Management
 
-The Azure Portal has a really neat area for cost management, which includes something called *Cost Analysis*. You’ll find that in the menu as shown below.
+The Azure Portal has a really neat area for cost management, which includes something called *Cost Analysis*. You'll find that in the menu as shown below.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/azure-cost-analysis.jpg" alt="Azure Cost Analysis Menu" loading="lazy"}
 :::
 
 This is the best place to start as it breaks down the cost per resource and provides a forecast of spending. This screen is able to provide reasonable forecasts after a couple of days of normal operation.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/forecast.jpg" alt="Cost Forecast" loading="lazy"}
 :::
 
-My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app](/blog/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn’t required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
+My first attempt to save money was to write some basic scheduling to [switch off the app service on a schedule using an Azure logic app](/blog/2020/07/start-and-stop-an-azure-app-service-on-a-schedule-with-azure-logic-apps/). The user-interface wasn't required out-of-hours. This saved a little bit of money, but with the robot working full time the app services was still the expensive resource. As it was costing more than a basic Virtual Machine, I decided to shift the robot out of a web job and into a small Virtual Machine. This achieved a bigger saving.
 
-A quick aside… this article is not “using a small virtual machine is cheaper than using a web job”! It depends on what you are doing. This article is “here are tools you can use to find what works for you”.
+A quick aside… this article is not "using a small virtual machine is cheaper than using a web job"! It depends on what you are doing. This article is "here are tools you can use to find what works for you".
 
 ## Park My Cloud
 
 The next cost saving tool is [Park My Cloud](https://www.parkmycloud.com/). It works across a number of providers, including Azure, and provides a simple way to create schedules that automatically run. It also looks at your Virtual Machines and suggests right-sizing fixes too. For my purposes, using one of the standard schedules to power-down the machine out of hours removed around half the cost of the Virtual Machine.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/park-my-cloud.jpg" alt="Park My Cloud Scheduling" loading="lazy"}
 :::
 
@@ -52,13 +52,13 @@ Park My Cloud is like having an accountant for your cloud spend; they basically 
 
 The first chart shows the changing cost curve as different changes were applied.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/chart-actual-spend.jpg" alt="Actual Spend Chart" loading="lazy"}
 :::
 
-Taking “today” as day zero, we can compare the long-term costs before and after the cost saving measures.
+Taking "today" as day zero, we can compare the long-term costs before and after the cost saving measures.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/07/flat-comparison.jpg" alt="Comparison of Different Configurations" loading="lazy"}
 :::
 

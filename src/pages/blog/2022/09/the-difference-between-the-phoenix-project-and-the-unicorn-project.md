@@ -20,17 +20,17 @@ This short post explains the difference between The Phoenix Project and The Unic
 
 ## The Phoenix Project
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2022/09/phoenix.jpg" alt="The Phoenix Project" loading="lazy"}
 :::
 
-Written by Gene Kim, Kevin Behr, and George Spafford, The Phoenix Project is a business novel following Bill, IT Manager for Parts Unlimited. The project is critical to the company's survival, but it’s a mess.
+Written by Gene Kim, Kevin Behr, and George Spafford, The Phoenix Project is a business novel following Bill, IT Manager for Parts Unlimited. The project is critical to the company's survival, but it's a mess.
 
-Bill, assisted by a mysterious mentor (a nod to Goldratt’s *Jonah*), must learn new techniques if he wants to save the project and the company.
+Bill, assisted by a mysterious mentor (a nod to Goldratt's *Jonah*), must learn new techniques if he wants to save the project and the company.
 
 ## The Unicorn Project
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2022/09/unicorn.jpg" alt="The Unicorn Project" loading="lazy"}
 :::
 

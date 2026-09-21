@@ -25,7 +25,7 @@ The basic mechanism is pretty simple; but it sometimes helps to overlay the sequ
 
 Front-channel SAML is performed in full view of the user agent. The UA follows instructions to perform an exchange of information. It is the user agent that passes the data between the other parties, as shown below:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/SAML-front-channel-overview.png" alt="SAML Front Channel Overview" loading="lazy"}
 :::
 
@@ -36,9 +36,9 @@ The two unspecified parts of this diagram are the exact mechanisms for:
 
 The two mechanisms for communication are HTTP redirects, and form POSTs. The HTTP redirect sends the user to the identity provider with a SAML request in the query string. The form POST returns them to the service provider with a SAML assertion. Once this process has completed successfully, there is a further HTTP redirect to send the user to the resource they originally requested.
 
-Let’s re-paint the overview with some imaginary addresses:
+Let's re-paint the overview with some imaginary addresses:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/SAML-front-channel-example.png" alt="SAML Front Channel Example" loading="lazy"}
 :::
 
@@ -46,17 +46,17 @@ Although the contents of the SAML request and assertion form are omitted, this p
 
 ## Back-channel SAML
 
-The key difference with back-channel SAML is additional direct communication between the service provider and identity provider. Typically, the identity provider won’t send the full assertion to the user agent in the form. Instead, it supplies a reference to the assertion. The service provider will use this reference to request the assertion directly from the identity provider.
+The key difference with back-channel SAML is additional direct communication between the service provider and identity provider. Typically, the identity provider won't send the full assertion to the user agent in the form. Instead, it supplies a reference to the assertion. The service provider will use this reference to request the assertion directly from the identity provider.
 
 Because the back-channel can be secured, and because the assertion is not visible to the user agent, this makes things more secure.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/SAML-back-channel-overview.png" alt="SAML Back Channel Overview" loading="lazy"}
 :::
 
-Let’s overlay the back-channel sequence with the sample addresses:
+Let's overlay the back-channel sequence with the sample addresses:
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/SAML-back-channel-example.png" alt="SAML Back Channel Example" loading="lazy"}
 :::
 

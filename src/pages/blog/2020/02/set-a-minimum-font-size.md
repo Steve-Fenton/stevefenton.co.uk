@@ -32,13 +32,13 @@ This is just a little script I needed to use to increase text size conditionally
 
 Before Image
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/02/text-size-before.jpg" alt="Text Size Before" loading="lazy"}
 :::
 
 After Image
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/02/text-size-after.jpg" alt="Text Size After" loading="lazy"}
 :::
 

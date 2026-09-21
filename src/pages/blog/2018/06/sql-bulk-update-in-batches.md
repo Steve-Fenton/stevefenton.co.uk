@@ -14,13 +14,13 @@ tags:
 description: Provides a SQL script to perform large updates in small batches, avoiding table locks and allowing progress tracking.
 ---
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/a-pile-of-ram.jpg" alt="A Pile of RAM" loading="lazy"}
 :::
 
 When you perform a SQL bulk update, you *can* just press go and wait. Most humans, though, get an increasing feeling of impending doom when the clock ticks up towards several hours with no visible progress.
 
-If you are running a transaction and have other things competing for the table, you’ll start hearing about slow downs as everyone competes for the rows.
+If you are running a transaction and have other things competing for the table, you'll start hearing about slow downs as everyone competes for the rows.
 
 You can solve this with the following SQL bulk update script. This script updates in small transaction batches of 1000 rows at a time. You can use the general idea for any bulk update as long as you are okay with having the change committed in batches, and possibly being partially applied.
 
@@ -92,4 +92,4 @@ COUNT 4100
 COUNT 4000
 ```
 
-<small>Photo: [“a pile of RAM” by Blake Patterson](https://www.flickr.com/photos/blakespot/6173837649). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)</small>
+<small>Photo: ["a pile of RAM" by Blake Patterson](https://www.flickr.com/photos/blakespot/6173837649). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)</small>

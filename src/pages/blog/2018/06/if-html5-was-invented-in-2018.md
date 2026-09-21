@@ -14,10 +14,10 @@ tags:
 description: A lighthearted observation that if HTML5 were invented today, semantic elements would likely be replaced by class-based names like "container" and "col-md-6".
 ---
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/06/Screenshot_2018-06-01-22-13-36.jpg" alt="Thinking Cat"}
 :::
 
 When HTML5 was created, the new elements came from a study of class names from millions of websites.
 
-If HTML5 was conceived today, the new elements would probably have been called “container” and “col-md-6”.
+If HTML5 was conceived today, the new elements would probably have been called "container" and "col-md-6".

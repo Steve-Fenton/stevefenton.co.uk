@@ -18,7 +18,7 @@ I was investigating an issue with am Azure SQL Server database that was much big
 
 There are a couple of nasty side effects to index fragmentation. It makes your indexes less efficient, but it can also result in a great deal of storage being used up unnecessarily.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/05/fragments.jpg" alt="Shattering glass containing buttons"}
 :::
 
@@ -51,7 +51,7 @@ If you have too much fragmentation (more than 30%), you can fix it by running:
 ALTER INDEX ALL ON dbo.MyTableName REBUILD WITH (ONLINE=ON)
 ```
 
-Certain data types prevent you using `ONLINE=ON` (like big text fields). In these cases, you can’t do it with this option enabled, so you have to use:
+Certain data types prevent you using `ONLINE=ON` (like big text fields). In these cases, you can't do it with this option enabled, so you have to use:
 
 ```sql
 ALTER INDEX ALL ON dbo.MyTableName REBUILD
@@ -63,7 +63,7 @@ If you have index with less than 30% fragmentation, you can reorganise them by r
 ALTER INDEX [PK_MyTableName] ON dbo.MyTableName REORGANIZE;
 ```
 
-You can also fix them all by pulling the table names into a cursor and running it for each one, as shown below. Note that there is a `MinPercentage` parameter that you can use to set the level at which you want to rebuild and index. You can use this to reduce the number of indexes you rebuild. Use a higher number if you are running this for the first time, and lower it for subsequent runs. Ideally, you shouldn’t have more than 10% fragmentation on any index.
+You can also fix them all by pulling the table names into a cursor and running it for each one, as shown below. Note that there is a `MinPercentage` parameter that you can use to set the level at which you want to rebuild and index. You can use this to reduce the number of indexes you rebuild. Use a higher number if you are running this for the first time, and lower it for subsequent runs. Ideally, you shouldn't have more than 10% fragmentation on any index.
 
 ```sql
 DECLARE @MinPercentage INT = 50

@@ -11,9 +11,9 @@ tags:
 description: Quantifying simple tasks like typing can increase productivity through gamification, but may hinder complex tasks like writing.
 ---
 
-The full title of this article should really be “Increase Productivity by Quantifying Simple Tasks; Protect Complex Task Productivity by *Not* Quantifying It”. This is the result of a study by Aruna Ranganathan, co-authored by Alan Benson, that studied workers in a garment factory and I’ve added my opinion because sometimes I’m a narcissist like that.
+The full title of this article should really be "Increase Productivity by Quantifying Simple Tasks; Protect Complex Task Productivity by *Not* Quantifying It". This is the result of a study by Aruna Ranganathan, co-authored by Alan Benson, that studied workers in a garment factory and I've added my opinion because sometimes I'm a narcissist like that.
 
-> When workers completing simple tasks have their work quantified, they’re more likely to turn the experience into a personal game, a concept known as “auto-gamification.” They compete against themselves to increase efficiency, even when there’s no reward for doing so and no punishment if they don’t.
+> When workers completing simple tasks have their work quantified, they're more likely to turn the experience into a personal game, a concept known as "auto-gamification." They compete against themselves to increase efficiency, even when there's no reward for doing so and no punishment if they don't.
 > 
 > In contrast, those who perform complex tasks that require higher levels of artisanship believe quantification to be an imperfect measure of their on-the-job performance and are thus demotivated by such real-time scorekeeping. <cite>Deborah Lynn Blumburg – [Stanford Business](https://www.gsb.stanford.edu/insights/good-bad-measuring-worker-output-real-time)</cite>
 
@@ -23,15 +23,15 @@ Please heed previous warnings on [gamification and funification](/blog/2015/09/g
 
 The question of whether quantification will improve or hinder performance is not complex. Unlike many simple things that are hard to do, this one is easy. If the task is simpler than than the numbers, productivity will increase. If the task is harder than the numbers, productivity will decrease. The measurement acts a bit like a gravitational force.
 
-Let’s take two examples that look the same to see this effect.
+Let's take two examples that look the same to see this effect.
 
-Simple task. Typing. I stick up a piece of paper with some text on it and type it into a text editor to practice my touch typing. I set up my editor to collect words per minute. The task is very simple as I’m just copying text from a printed page into a text editor. By measuring my words per minute, I can track my progress pretty accurately and will have an intrinsic desire to improve my count. The simple task gravitates upwards to the measurement.
+Simple task. Typing. I stick up a piece of paper with some text on it and type it into a text editor to practice my touch typing. I set up my editor to collect words per minute. The task is very simple as I'm just copying text from a printed page into a text editor. By measuring my words per minute, I can track my progress pretty accurately and will have an intrinsic desire to improve my count. The simple task gravitates upwards to the measurement.
 
 Complex task. Writing an article. I open a blank text editor and start writing an article. If I try to quantify my progress by words per minute, the measurement is simpler than the task. My productivity diminishes as the gravitational force of the numbers drags it downwards.
 
-Let’s drop them on a picture, with the measurement of “Words per Minute” in the middle, and its gravitational effect on the touch typing task and the article writing task…
+Let's drop them on a picture, with the measurement of "Words per Minute" in the middle, and its gravitational effect on the touch typing task and the article writing task…
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/10/complexity-gravity.jpg" alt="Measurement Complexity Creates a Gravitational Force" loading="lazy"}
 :::
 

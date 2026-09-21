@@ -13,7 +13,7 @@ description: Provides a SQL query to identify scheduled job clashes and suggests
 
 If you are working on an older application that has a lot of logic inside of the SQL database in jobs, procedures, and functions – you may find that your job schedules cause a repeating wave of SQL compilation peaks. If you suspect jobs may be the cause, you can use a query to find SQL server job clashes.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/12/five-minute-query-spike.png" alt="Repeating Wave of Peaks"}
 :::
 
@@ -53,13 +53,13 @@ For example, imagine you have the following jobs set up:
 
 You will have clashed with up to three concurrent jobs and on many time slots before your lunch.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/12/jobs-round-number-scheduling.png" alt="Round Number Scheduling of Jobs" loading="lazy"}
 :::
 
 If you change the interval to 7, 17, and 11 minutes respectively you get only three clashes, and of only two concurrent jobs. Quite an improvement.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/12/jobs-prime-number-interval.png" alt="Jobs With Prime Number Intervals" loading="lazy"}
 :::
 
@@ -69,10 +69,10 @@ If you need to go further in reducing clashes, you can calculate the start times
 - 10:34 every seventeen minutes
 - 11:06 every eleven minutes
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2018/12/jobs-prime-number-schedule-and-interval.png" alt="Jobs With Prime Number Schedule and Interval" loading="lazy"}
 :::
 
 If you are still having trouble, reduce the frequency by increasing the interval (rather than getting even more complicated with numbers!)
 
-Your mileage will vary, because if your jobs run for a terribly long time, it makes it more likely jobs will overlap. You’ll need to add a bit of thinking based on your own context. If your jobs are reasonably fast running when they don’t clash, this works wonders.
+Your mileage will vary, because if your jobs run for a terribly long time, it makes it more likely jobs will overlap. You'll need to add a bit of thinking based on your own context. If your jobs are reasonably fast running when they don't clash, this works wonders.

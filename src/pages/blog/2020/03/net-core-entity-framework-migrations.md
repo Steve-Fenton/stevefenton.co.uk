@@ -13,11 +13,11 @@ tags:
 description: Manage database changes with Entity Framework Core Migrations. Learn commands to add, update, and remove migrations, plus troubleshooting tips.
 ---
 
-When you don’t want to script out your own database, Entity Framework Core has your back. When you change your database context or the models it uses, you can use a couple of commands to create and update your database to keep it in sync with your model. These examples run in the Package Manager console (and if you have trouble running them, check the end of this post).
+When you don't want to script out your own database, Entity Framework Core has your back. When you change your database context or the models it uses, you can use a couple of commands to create and update your database to keep it in sync with your model. These examples run in the Package Manager console (and if you have trouble running them, check the end of this post).
 
 Your package manager console can be found in Visual Studio using Tools -> NuGet Package Manager -> Package Manager Console.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2020/03/tools-nuget-package-manager-console.jpg" alt="Package Manager Location"}
 :::
 
@@ -57,13 +57,13 @@ public class ApplicationDbContext
 
 ## Create the initial version
 
-To create the first migration file, run the `dotnet ef migrations add` command, and name the migration “InitialCreate”:
+To create the first migration file, run the `dotnet ef migrations add` command, and name the migration "InitialCreate":
 
 ```cmd
 dotnet ef migrations add InitialCreate
 ```
 
-You will find some new files in your project, named using a date-stamp and the name of your version. For example `20200328212129_InitialCreate.cs`. You can view the file and see what it does, it will all look pretty familiar. There is an “Up” method and a “Down” method. This allows you to apply or reverse the migration.
+You will find some new files in your project, named using a date-stamp and the name of your version. For example `20200328212129_InitialCreate.cs`. You can view the file and see what it does, it will all look pretty familiar. There is an "Up" method and a "Down" method. This allows you to apply or reverse the migration.
 
 To apply all migrations and get the database into the up-to-date state, run:
 
@@ -74,7 +74,7 @@ Done.
 
 ## Applying changes
 
-Each time you have changes you want to push into the database, you run the `ef migrations add` command with an appropriate name. In the example below, the “Container” table is going to be added…
+Each time you have changes you want to push into the database, you run the `ef migrations add` command with an appropriate name. In the example below, the "Container" table is going to be added…
 
 ```cmd
 PM> dotnet ef migrations add AddContainers
@@ -123,7 +123,7 @@ PM> dotnet ef migrations bundle --force --connection "Data Source=.;Database=Exa
 
 ## Troubleshooting
 
-The most likely error you’ll encounter is “Could not execute because the specified command or file was not found”.
+The most likely error you'll encounter is "Could not execute because the specified command or file was not found".
 
 When this happens, you just need to add the following to your .csproj file:
 
@@ -139,13 +139,13 @@ Or you can just install the tool globally:
 dotnet tool install --global dotnet-ef
 ```
 
-To update the tool, use the following command, passing the appropriate version (you’ll be told the version when you get warned you are out of date).
+To update the tool, use the following command, passing the appropriate version (you'll be told the version when you get warned you are out of date).
 
 ```cmd
 dotnet tool update --global --version 3.1.5 dotnet-ef
 ```
 
-If the tool can’t work out which project to use, you can give it a hint. All the commands accept the `--project` parameter.
+If the tool can't work out which project to use, you can give it a hint. All the commands accept the `--project` parameter.
 
 ```cmd
 dotnet ef migrations add InitialCreate --project Fenton.MigrationExample
