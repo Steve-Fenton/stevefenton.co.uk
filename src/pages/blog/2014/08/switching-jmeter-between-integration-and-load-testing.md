@@ -2,6 +2,9 @@
 title: 'Switching JMeter between integration and load testing'
 navMenu: false
 pubDate: 2014-08-20T21:20:52+01:00
+bannerImage:
+    src: /img/2015/07/jmeter-tree-integration-and-load.png
+    alt: 
 authors:
     - steve-fenton
 categories:
@@ -16,7 +19,7 @@ If you are using JMeter in the same way, you may find that you are constantly ad
 
 Here is an overview of how we avoid updating a ton of configuration each time we want to switch between these two modes of operation.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2015/07/jmeter-tree-integration-and-load.png" alt="Integration Tests Tree" loading="lazy"}
 :::
 
@@ -38,13 +41,13 @@ When not in use, both the load test thread and the integration test thread are s
 
 When we want to run a load test, we simply configure the number of threads and number of loops on the load test thread group and the tests run indefinitely.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/load-test-threads.png" alt="Load Test Threads" loading="lazy"}
 :::
 
 When we want to run an integration test, we set the load test thread group to 0 threads, and set the integration test thread group number of threads to 1, as shown below.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/integration-test-threads.png" alt="Integration Test Threads" loading="lazy"}
 :::
 

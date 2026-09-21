@@ -2,6 +2,9 @@
 title: 'Making errors visible in Visual Studio'
 navMenu: false
 pubDate: 2014-09-10T20:58:36+01:00
+bannerImage:
+    src: /img/2015/07/visual-studio-with-errors.png
+    alt: Visual Studio screen with errors highlighted.
 authors:
     - steve-fenton
 categories:
@@ -10,20 +13,22 @@ categories:
 
 There are lots of ways of making errors pop out in Visual Studio and I use all of them! I even added a new one today. Here is my current display, followed by some info on how to get each element.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/visual-studio-with-errors.png" alt="Visual Studio with Errors"}
 :::
 
 There are three parts to this display:
 
-1. The underlined code with the error – great if it is in view.
-2. A note about errors, “3 errors”, which links to the error window.
+1. The underlined code with the error - great if it is in view.
+2. A note about errors, "3 errors", which links to the error window.
 3. A scrollbar that shows red marks where the errors are.
 
-You get the red-squiggle for free, but depending on your screen size, it is sometimes out of your view. This is where the Error Watcher extension by Mads Kristensen can help out – it gets your attention about any errors in the current file. The warning links to the errors window for you.
+You get the red-squiggle for free, but depending on your screen size, it is sometimes out of your view. This is where the Error Watcher extension by Mads Kristensen can help out - it gets your attention about any errors in the current file. The warning links to the errors window for you.
 
 The other handy helper, once your attention has been obtained, is the preview scrollbar. The scrollbar shows a zoomed out version of your code with highlights where you have errors (it also highlights other things like breakpoints). You can hover over the scrollbar preview to see a zoomed in version of the code at the hover location, or click to scroll to the code.
 
-You can enable this feature (and adjust its size) in Tools > Options > Text Editor > All Languages > Scroll Bars > Show Preview Tooltip – Source Overview – as per the below screenshot.
+You can enable this feature (and adjust its size) in Tools > Options > Text Editor > All Languages > Scroll Bars > Show Preview Tooltip - Source Overview - as per the below screenshot.
 
+:::figure
 :img{src="/img/2015/07/scrollbar-preview-options.png" alt="Scrollbar Preview Options" loading="lazy"}
+:::

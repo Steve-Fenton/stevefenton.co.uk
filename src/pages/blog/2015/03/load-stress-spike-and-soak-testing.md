@@ -2,18 +2,20 @@
 title: 'Load, stress, spike, and soak testing'
 navMenu: false
 pubDate: 2015-03-14T15:59:51+00:00
+bannerImage:
+    src: /img/2015/07/load-stress-spike-soak.png
+    alt: A chart illustrating the difference between different performance testing techniques.
 authors:
     - steve-fenton
-
 categories:
     - Automation
 tags:
     - Testing
 ---
 
-This article talks about what I like to call the “Four Ss” of performance testing. They don’t actually all begin with “S” – but if reading, writing, and arithmetic can be described as the “Three Rs”, I’m not going to constrain myself either.
+This article talks about what I like to call the "Four Ss" of performance testing. They don't actually all begin with "S" - but if reading, writing, and arithmetic can be described as the "Three Rs", I'm not going to constrain myself either.
 
-Quick aside: it is only really *performance* testing if you are measuring an aspect of performance such as response times, throughput etc – if you run any of these tests without such measures, you aren’t actually performance testing – just testing resilience or failure recovery.
+Quick aside: it is only really *performance* testing if you are measuring an aspect of performance such as response times, throughput etc - if you run any of these tests without such measures, you aren't actually performance testing - just testing resilience or failure recovery.
 
 So here are the Four Ss?
 
@@ -22,9 +24,9 @@ So here are the Four Ss?
 - Spike
 - Soak
 
-Feel free to pronounce the first one “Sload”.
+Feel free to pronounce the first one "Sload" to assist the alliteration.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/load-stress-spike-soak.png" alt="Load Stress Spike Soak" loading="lazy"}
 :::
 
@@ -40,6 +42,6 @@ The picture above highlights the difference between the Four Ss.
 
 You can, of course, combine these kinds of testing. For example, if you run a soak test, what happens if there is a spike? Does the application ever catch up? What ambient volume is needed to allow the application to catch up after a spike?
 
-For example, if you had an email relay that could process 50 messages per second – how does it handle 5 seconds of 100 messages per second? Does it end up with a backlog of messages in a queue waiting to process (i.e. processing times increase until there is a period of <50 messages per second)? Maybe it rejects emails or loses some along the way.
+For example, if you had an email relay that could process 50 messages per second - how does it handle 5 seconds of 100 messages per second? Does it end up with a backlog of messages in a queue waiting to process (i.e. processing times increase until there is a period of <50 messages per second)? Maybe it rejects emails or loses some along the way.
 
 So it is worth understanding that there are found kinds of performance test that can help to expose different problems in an application when it is asked to go beyond the call of duty.

@@ -2,6 +2,9 @@
 title: 'Introducing TypeSpec'
 navMenu: false
 pubDate: 2015-11-29T11:13:42+00:00
+bannerImage:
+    src: /img/2015/11/typespec-browser-output.png
+    alt: TypeSpec Browser Output
 authors:
     - steve-fenton
 categories:
@@ -12,8 +15,8 @@ tags:
     - TypeSpec
 ---
 
-:::div{.inset}
-:img{src="/img/2015/11/typespec-browser-output.png" alt="TypeSpec Browser Ouput"}
+:::figure
+:img{src="/img/2015/11/typespec-browser-output.png" alt="TypeSpec Browser Output"}
 :::
 
 Having completed the [MVP roadmap](https://github.com/Steve-Fenton/TypeSpec/issues?q=milestone%3Av0.5), [TypeSpec](https://github.com/Steve-Fenton/TypeSpec) is now available to use.
@@ -22,17 +25,17 @@ TypeSpec is a BDD framework for TypeScript designed to work with separate specif
 
 You can grab it from NuGet:
 
-```
+```bash
 PM> Install-Package TypeSpec 
 ```
 
 You can grap it from NPM:
 
-```
+```bash
 npm install typespec-bdd
 ```
 
-If you are familiar with BDD from frameworks such as SpecFlow, Cucumber, or similar – you’ll find a familiar set of tools that you can apply straight to TypeScript.
+If you are familiar with BDD from frameworks such as SpecFlow, Cucumber, or similar – you'll find a familiar set of tools that you can apply straight to TypeScript.
 
 - Features, Scenarios, and Scenario Outlines
 - Scenario tagging
@@ -70,30 +73,30 @@ And here is the full set of steps that covers this feature (and quite a few othe
 import { Assert, given, when, then } from './TypeSpec/TypeSpec';
 
 export interface CalculatorTestContext {
-	done: () => void; // Standard TypeSpec aync done method.
-	calculator: Calculator;
+    done: () => void; // Standard TypeSpec aync done method.
+    calculator: Calculator;
 }
 
 export class CalculatorSteps {
-	@given(/^I am using a calculator$/i)
-	usingACalculator(context: CalculatorTestContext) {
-		context.calculator = new Calculator();
-	}
+    @given(/^I am using a calculator$/i)
+    usingACalculator(context: CalculatorTestContext) {
+        context.calculator = new Calculator();
+    }
 
-	@given(/^I have entered (\"\d+\") into the calculator$/i)
-	passingArguments(context: CalculatorTestContext, num: number) {
-		calculator.add(num);
-	}
+    @given(/^I have entered (\"\d+\") into the calculator$/i)
+    passingArguments(context: CalculatorTestContext, num: number) {
+        calculator.add(num);
+    }
 
-	@when(/^I press the total button$/gi)
-	pressTotal() {
-	}
+    @when(/^I press the total button$/gi)
+    pressTotal() {
+    }
 
-	@then(/^the result should be (\"\d+\") on the screen$/i)
-	resultShouldBe(context: CalculatorTestContext, expected: number) {
-		var actual = context.calculator.getTotal();
-		Assert.areIdentical(expected, actual);
-	}
+    @then(/^the result should be (\"\d+\") on the screen$/i)
+    resultShouldBe(context: CalculatorTestContext, expected: number) {
+        var actual = context.calculator.getTotal();
+        Assert.areIdentical(expected, actual);
+    }
 }
 ```
 

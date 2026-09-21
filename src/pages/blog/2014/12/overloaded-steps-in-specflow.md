@@ -2,6 +2,9 @@
 title: 'Overloaded steps in SpecFlow'
 navMenu: false
 pubDate: 2014-12-10T19:40:04+00:00
+bannerImage:
+    src: /img/2015/07/specflow-before.png
+    alt: A SpecFlow binding for a test.
 authors:
     - steve-fenton
 categories:
@@ -25,13 +28,13 @@ Scenario: Binding Test
     And the third line should not be bound
 ```
 
-The specification says it all – I have defined a step for the second line:
+The specification says it all - I have defined a step for the second line:
 
-> And this line accepts “a string” in
+> And this line accepts "a string" in
 
-But I haven’t defined a step for the third line:
+But I haven't defined a step for the third line:
 
-> And this line accepts “a string” in and “another string” in
+> And this line accepts "a string" in and "another string" in
 
 However, thanks to the following step definition, both lines happily get matched.
 
@@ -43,7 +46,7 @@ public void GivenThisLineAcceptsIn(string p0)
 }
 ```
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/specflow-before.png" alt="SpecFlow Before" loading="lazy"}
 :::
 
@@ -63,11 +66,11 @@ As you can see, the RegEx has been changed from the default: `(.*)`
 
 To the more specific quote-inclusive: `([^\""]*)`
 
-You might also want to note that there is a double-quote after the \\ – this is because the RegEx is inside of the string attribute, so needs to be escaped – the actual RegEx that is used is `([^\"]*)`
+You might also want to note that there is a double-quote after the \\ - this is because the RegEx is inside of the string attribute, so needs to be escaped - the actual RegEx that is used is `([^\"]*)`
 
 The result of this is the expected behaviour:
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/specflow-after.png" alt="SpecFlow After" loading="lazy"}
 :::
 

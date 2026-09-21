@@ -2,6 +2,9 @@
 title: 'NuGet Packager Visual Studio extension'
 navMenu: false
 pubDate: 2014-11-03T20:17:38+00:00
+bannerImage:
+    src: /img/2015/07/nuget-packager-project.png
+    alt: 
 authors:
     - steve-fenton
 categories:
@@ -15,15 +18,15 @@ This is a quick article that describes how to use the ace [NuGet Packager](https
 
 ## Step One
 
-Download *NuGet Packager using Tools > Extensions and Updates > Online* (search for “NuGet Packager”).
+Download *NuGet Packager using Tools > Extensions and Updates > Online* (search for "NuGet Packager").
 
 ## Step Two
 
-Add a new project to your solution, ideally name it exactly as you want your package to appear on NuGet, for example “tsUnit” if you want your package to end up at *https://www.nuget.org/packages/tsUnit/*. You don’t have to name it exactly like this, but it will mean you need to edit more of the settings that will be created for you.
+Add a new project to your solution, ideally name it exactly as you want your package to appear on NuGet, for example "tsUnit" if you want your package to end up at `https://www.nuget.org/packages/tsUnit/`. You don't have to name it exactly like this, but it will mean you need to edit more of the settings that will be created for you.
 
 Choose the NuGet Packager project type (just search for it in the new project dialog).
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/nuget-packager-project.png" alt="NuGet Packager Project" loading="lazy"}
 :::
 
@@ -33,7 +36,7 @@ Add your content. Use build events to push your libraries and content into the f
 
 ## Step Four
 
-Update NuGet.config… unless you are planning on publishing to the most likely place, NuGet (you can also add your organisation’s repository or any other NuGet repository).
+Update NuGet.config… unless you are planning on publishing to the most likely place, NuGet (you can also add your organisation's repository or any other NuGet repository).
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -48,7 +51,7 @@ Update NuGet.config… unless you are planning on publishing to the most likely 
 
 ## Step Five
 
-Update Package.nuspec… especially if you couldn’t name your project exactly as you wanted the package to be named.
+Update Package.nuspec… especially if you couldn't name your project exactly as you wanted the package to be named.
 
 ```xml
 <?xml version="1.0"?>
@@ -88,8 +91,8 @@ Update Package.nuspec… especially if you couldn’t name your project exactly 
 
 ## Done
 
-When you build in Debug mode, you’ll get a “.nupkg” file in the root folder of your NuGet Packager project. Rename it to be a “.zip” file and have a check through it to see if contains everything you’d expect.
+When you build in Debug mode, you'll get a ".nupkg" file in the root folder of your NuGet Packager project. Rename it to be a ".zip" file and have a check through it to see if contains everything you'd expect.
 
 Double check your NuSpec file to make sure the id and title are spot on and that your project URL points to the most useful introduction to your project.
 
-When you build in Release mode, it will automatically publish to NuGet. You’ll need your NuGet API key handy as it will prompt you to enter it. You only need to do this once.
+When you build in Release mode, it will automatically publish to NuGet. You'll need your NuGet API key handy as it will prompt you to enter it. You only need to do this once.

@@ -2,9 +2,11 @@
 title: 'Connect TFS Cruiser to Visual Studio Team Services'
 navMenu: false
 pubDate: 2015-05-11T23:55:49+01:00
+bannerImage:
+    src: /img/2015/07/visual-studio-online-my-profile.png
+    alt: 
 authors:
     - steve-fenton
-
 categories:
     - Automation
     - 'Azure DevOps'
@@ -16,11 +18,11 @@ If you have used TFS Cruiser for your on-prem instance of TFS, you may wonder ho
 
 ## Step One – Credentials
 
-You definitely don’t want to put your user name and password into the TFS Cruiser config file. Instead, you should set up alternate credentials to use with the API. You can do this by navigating to the following option in Visual Studio Online:
+You definitely don't want to put your user name and password into the TFS Cruiser config file. Instead, you should set up alternate credentials to use with the API. You can do this by navigating to the following option in Visual Studio Online:
 
 My Profile > Credentials > Add alternate credentials
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/visual-studio-online-my-profile.png" alt="Visual Studio Online - My Profile" loading="lazy"}
 :::
 

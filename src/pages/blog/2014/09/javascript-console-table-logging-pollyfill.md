@@ -2,6 +2,9 @@
 title: 'JavaScript console table logging polyfill'
 navMenu: false
 pubDate: 2014-09-01T21:13:44+01:00
+bannerImage:
+    src: /img/2015/07/console-table.png
+    alt: 
 authors:
     - steve-fenton
 categories:
@@ -11,7 +14,7 @@ tags:
     - JavaScript
 ---
 
-There is a rather neat addition to the console in Chrome that lets you log an array of objects using the new console.table method. You can simply pass some data, or you can pass a list of columns you are interested in – like this:
+There is a rather neat addition to the console in Chrome that lets you log an array of objects using the new console.table method. You can simply pass some data, or you can pass a list of columns you are interested in - like this:
 
 ```javascript
 var items = [
@@ -27,9 +30,9 @@ console.table(items);
 console.table(items, ['name', 'occupation', 'title']);
 ```
 
-Of course, this doesn’t work anywhere else – but you can use this hastily written pollyfill to get support everywhere else… the table isn’t as pretty, only handles specifically arrays of objects and you can’t sort it in the console, but it works while you’re waiting for browsers to decide it is a great idea.
+Of course, this doesn't work anywhere else - but you can use this hastily written polyfill to get support everywhere else… the table isn't as pretty, only handles specifically arrays of objects and you can't sort it in the console, but it works while you're waiting for browsers to decide it is a great idea.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/console-table.png" alt="Console Table" loading="lazy"}
 :::
 

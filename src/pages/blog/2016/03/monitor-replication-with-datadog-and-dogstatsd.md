@@ -2,6 +2,9 @@
 title: 'Monitor replication with DataDog and DogStatsd'
 navMenu: false
 pubDate: 2016-03-08T06:00:47+00:00
+bannerImage:
+    src: /img/2016/03/datadog-replication.png
+    alt: DataDog Replication Monitoring
 authors:
     - steve-fenton
 categories:
@@ -13,17 +16,17 @@ tags:
     - Monitoring
 ---
 
-:::div{.inset}
-:img{src="/img/2016/03/datadog-replication.png" alt="DataDog Replication Monitoring"}
-:::
-
 Although [DataDog](https://www.datadoghq.com/) comes with a healthy selection of integrations, there is always going to be something custom that you want to monitor. This is why [DogStatsd](http://docs.datadoghq.com/guides/dogstatsd/) has been made available.
 
 > DogStatsd is a small server that aggregates your custom app metrics.
 
-Let’s look at monitoring SQL Server Replication using DogStatsd and C#.
+Let's look at monitoring SQL Server Replication using DogStatsd and C#.
 
-DogStatsd runs on port 8125 by default, although you can change this if you would like to. You will be collecting metrics from the same box, so you don’t need to let anyone external see this port. You can configure the port in your datadog.conf file:
+:::figure
+:img{src="/img/2016/03/datadog-replication.png" alt="DataDog Replication Monitoring"}
+:::
+
+DogStatsd runs on port 8125 by default, although you can change this if you would like to. You will be collecting metrics from the same box, so you don't need to let anyone external see this port. You can configure the port in your datadog.conf file:
 
 ```yaml
 # ========================================================================== #
@@ -37,7 +40,7 @@ It is best to run DataDog locally (pointing at a development organisation) to de
 
 Next, start up a Windows Service project and add the [C# client library for DogStatsd using NuGet](https://www.nuget.org/packages/DogStatsD-CSharp-Client/), which is [also available on GitHub](https://github.com/DataDog/dogstatsd-csharp-client).
 
-Everything in this library is static, so you need to make sure you configure it before you use it. The prefix in the configuration shown below will group your custom stats – this is usually an indication of the kind of metrics you are collecting, for example “iis” in “iis.net.num\_connections”. You might choose to use your organisation name for custom metrics you create.
+Everything in this library is static, so you need to make sure you configure it before you use it. The prefix in the configuration shown below will group your custom stats - this is usually an indication of the kind of metrics you are collecting, for example "iis" in "iis.net.num\_connections". You might choose to use your organisation name for custom metrics you create.
 
 ```csharp
 var dogstatsdConfig = new StatsdConfig
@@ -65,7 +68,7 @@ The information I am interested in here includes…
 - The replication statuc
 - The replication warning status
 
-I will turn each of these values into a “gauge”. The gauge metric type keeps tabs on a value over time, for example “how much coffee is in my cup” would collect the current amount of coffee each time the metric is collected. This is perfect for keeping tabs on the current number of replication subscribers over time, for example. Using a gauge is as simple as supplying a name and a value. All values are essentially doubles as far as the metrics are concerned:
+I will turn each of these values into a "gauge". The gauge metric type keeps tabs on a value over time, for example "how much coffee is in my cup" would collect the current amount of coffee each time the metric is collected. This is perfect for keeping tabs on the current number of replication subscribers over time, for example. Using a gauge is as simple as supplying a name and a value. All values are essentially doubles as far as the metrics are concerned:
 
 ```csharp
 DogStatsd.Gauge("somename.here", 1);
@@ -124,9 +127,9 @@ using (SqlCommand command = new SqlCommand(query, connection))
 }
 ```
 
-In this code, if I get no stats back it means replication has been accidentally switched off – or “disaster”. I am setting the subscribers to zero and the status to 6 (error) in this case. In all other cases, I’m reporting back the numbers for the subscription.
+In this code, if I get no stats back it means replication has been accidentally switched off - or "disaster". I am setting the subscribers to zero and the status to 6 (error) in this case. In all other cases, I'm reporting back the numbers for the subscription.
 
-I am using a couple of hard-coded values and a some little helper methods in the example above for brevity, the helper methods are shown below for completeness – but you can do better than this in production code!
+I am using a couple of hard-coded values and a some little helper methods in the example above for brevity, the helper methods are shown below for completeness - but you can do better than this in production code!
 
 ```csharp
 private int GetIntFromReader(IDataReader reader, string key)

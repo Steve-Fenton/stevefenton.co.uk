@@ -18,7 +18,7 @@ tags:
 
 Some time ago, I wrote a JavaScript bookmarklet that you could use to highlight version numbers in your Octopus Deploy dashboard. This makes it easier to compare versions across your environments.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/05/octodash-pastel.jpg" alt="Octodash Output"}
 :::
 
@@ -32,7 +32,7 @@ You can install it from the [Octodash Chrome Extension page](https://chrome.goog
 
 Or, you can install it from the [Octodash Edge Extension page](https://microsoftedge.microsoft.com/addons/search/octodash).
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/05/octodash.png" alt="Octodash Listing" loading="lazy"}
 :::
 
@@ -40,7 +40,7 @@ You can also find out more about [writing browser extensions](/blog/2022/02/how-
 
 ## The original script
 
-The original script is below, you can just run it via your browser tools’ console tab. You can change the `colors` array if you want a different colour set.
+The original script is below, you can just run it via your browser tools' console tab. You can change the `colors` array if you want a different colour set.
 
 ```javascript
 const colouring = function () {

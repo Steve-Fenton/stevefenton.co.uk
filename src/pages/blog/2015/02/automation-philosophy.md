@@ -16,13 +16,13 @@ Routine work is well defined. It can be processed using written procedure or che
 
 Eccentric work is irregular, uncommon or highly variable. It may require novel solutions on a regular basis. It needs a level of thinking to be solved efficiently.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/Definitely-Routine-to-Definitely-Eccentric.png" alt="Definitely Routine to Definitely Eccentric" loading="lazy"}
 :::
 
 ## Isolation vs Collaboration
 
-Routine work can be performed in isolation. It isn’t very stimulating work, so it is often too little to keep even one human brain occupied. Eccentric work, however, benefits from collaboration. Two or more people working on the problem will be more likely to create a wide range of possible solutions. Two or more people working together will create a more novel solution.
+Routine work can be performed in isolation. It isn't very stimulating work, so it is often too little to keep even one human brain occupied. Eccentric work, however, benefits from collaboration. Two or more people working on the problem will be more likely to create a wide range of possible solutions. Two or more people working together will create a more novel solution.
 
 ## What to Automate
 
@@ -30,7 +30,7 @@ It is hopefully not too surprising to discover that these two categories can be 
 
 > *Routine work should be automated. Eccentric work should be undertaken by humans working together.*
 
-Routine work is a perfect candidate for automation because it is easy to create an automated version of the already well-defined procedure for undertaking the work. Machines and computers are the perfect choice for routine tasks because they don’t get bored of doing the same task over and over and they won’t forget a step or become distracted – which humans will certainly do when faced with tasks that are not engaging.
+Routine work is a perfect candidate for automation because it is easy to create an automated version of the already well-defined procedure for undertaking the work. Machines and computers are the perfect choice for routine tasks because they don't get bored of doing the same task over and over and they won't forget a step or become distracted – which humans will certainly do when faced with tasks that are not engaging.
 
 Eccentric work is a perfect candidate for human collaboration because it requires a series of steps too complex to efficiently delegate to a machine or computer. Humans are able to react and invent on the fly as they undertake the work and can apply grand archives of knowledge and experience to the problem at hand.
 
@@ -38,7 +38,7 @@ The line between routine and eccentric may move over time. It is not inconceivab
 
 ## Highly Effective
 
-So why is this automation philosophy so effective? Because it creates a positive spiral. If you automate routine work, you free human effort from the mundane and allow it to work on the eccentric. This means you do more than save the time it was taking to perform work manually, you actually increase the organisation’s intellectual potential.
+So why is this automation philosophy so effective? Because it creates a positive spiral. If you automate routine work, you free human effort from the mundane and allow it to work on the eccentric. This means you do more than save the time it was taking to perform work manually, you actually increase the organisation's intellectual potential.
 
 Over time, eccentric work will become less uncertain as human thinking is applied to refining how the work is done and more is learned about the work. This will move it from eccentric to routine and it can be automated too. Over time, the human work becomes more and more fulfilling.
 

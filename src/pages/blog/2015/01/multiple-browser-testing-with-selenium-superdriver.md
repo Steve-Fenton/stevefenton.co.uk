@@ -2,6 +2,9 @@
 title: 'Multiple browser testing with Selenium SuperDriver'
 navMenu: false
 pubDate: 2015-01-18T16:29:20+00:00
+bannerImage:
+    src: /img/2015/07/web-driver-super.png
+    alt: Diagram showing how SuperDriver dispatches requests to multiple browser drivers at once.
 authors:
     - steve-fenton
 
@@ -17,7 +20,7 @@ tags:
 
 If you have undertaken any amount of testing with Selenium WebDriver you will have come across the desire to run your suite of tests against multiple browsers simultaneously.
 
-To make this easier in .NET projects, I have started up a project called “[Selenium Super Driver](https://github.com/Steve-Fenton/SeleniumSuperDriver)“, which is a drop-in replacement for an IWebDriver. Using the SuperWebDriver class is just like using a FirefoxDriver or a ChromeDriver and works with local or remote testing.
+To make this easier in .NET projects, I have started up a project called "[Selenium Super Driver](https://github.com/Steve-Fenton/SeleniumSuperDriver)", which is a drop-in replacement for an IWebDriver. Using the SuperWebDriver class is just like using a FirefoxDriver or a ChromeDriver and works with local or remote testing.
 
 Here is a typical line of code instantiating a driver:
 
@@ -41,16 +44,16 @@ SuperWebDriver uses deep-wrapping. For example, calling FindElement on a driver 
 
 Here is a typical structure for a single web driver, such as the FirefoxDriver.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/web-driver-normal.png" alt="Normal WebDriver" loading="lazy"}
 :::
 
 And here is the SuperWebDriver, which hides multiple drivers and distributes commands to multiple drivers and co-ordinates the responses to allow a single coherent response to your test code.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/web-driver-super.png" alt="Super WebDriver" loading="lazy"}
 :::
 
 The fundamental principle of the Super Driver project is to take a single command from your test code and send it out to multiple browsers and then apply the same principle in reverse to hide the multiple responses within a super wrapper to ensure your test code never knows that there are many browsers running at the same time.
 
-The project is relatively new and the features are being driven by real use cases, so if you need to use a feature that doesn’t seem to do what you want, please [raise a new issue](https://github.com/Steve-Fenton/SeleniumSuperDriver/issues) and supply an example of how you want to use the SuperWebDriver. For example, some calls don’t lend themselves to a full wrapping implementation – but they are (currently) not calls we would expect to see in tests (i.e. grabbing window handles).
+The project is relatively new and the features are being driven by real use cases, so if you need to use a feature that doesn't seem to do what you want, please [raise a new issue](https://github.com/Steve-Fenton/SeleniumSuperDriver/issues) and supply an example of how you want to use the SuperWebDriver. For example, some calls don't lend themselves to a full wrapping implementation - but they are (currently) not calls we would expect to see in tests (i.e. grabbing window handles).

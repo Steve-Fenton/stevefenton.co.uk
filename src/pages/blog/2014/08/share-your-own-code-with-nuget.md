@@ -2,6 +2,9 @@
 title: 'Share your own code with NuGet'
 navMenu: false
 pubDate: 2014-08-29T21:16:29+01:00
+bannerImage:
+    src: /img/2015/07/nuget-use-package-source.png
+    alt: 
 authors:
     - steve-fenton
 categories:
@@ -29,7 +32,7 @@ You can grab these PowerShell scripts from the snappily titled [New-NuGetPackage
 
 The example code in this article assumes a folder structure of:
 
-```
+```text
 - Project Folder
 - PowerShell 
     - Config.ps1
@@ -66,13 +69,13 @@ Pro Get knows when you are uploading a new version of a package and handles all 
 
 To see your feed in Visual Studio, open up NuGet Package Manager and hit the "Settings" button. You can then add the name and URL of your package source:
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/nuget-add-package-source.png" alt="NuGet Add Package Source" loading="lazy"}
 :::
 
 Once you save this configuration, your package feed will appear right next to the nuget.org package feed in Visual Studio and you can install any of the packages you have uploaded.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/nuget-use-package-source.png" alt="NuGet Use Package Source" loading="lazy"}
 :::
 
