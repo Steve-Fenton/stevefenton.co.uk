@@ -55,9 +55,9 @@ logCustomer(new RewardCustomer());
 logCustomer({ id: 3, name: 'Tuck' });
 ```
 
-This example demonstrates that a function that must be passed a “Customer Shape” will take any compatible structure. We are not in a nominal language that *must* be passed `Customer` or an explicit sub-class.
+This example demonstrates that a function that must be passed a "Customer Shape" will take any compatible structure. We are not in a nominal language that *must* be passed `Customer` or an explicit sub-class.
 
-You’ll also see that by using the `implements` keyword, we don’t inherit from the `Customer` class but instead must implement the members as it if were an interface.
+You'll also see that by using the `implements` keyword, we don't inherit from the `Customer` class but instead must implement the members as it if were an interface.
 
 In the same way, you can create an interface from a class, like this:
 
@@ -67,15 +67,15 @@ interface NamedEntity extends Customer {
 }
 ```
 
-The `NamedEntity` interface gets all of the members of the `Customer` class. That’s currently the id and the name.
+The `NamedEntity` interface gets all of the members of the `Customer` class. That's currently the id and the name.
 
 The flexibility of using classes as interfaces seems great, but there are some major architectural concerns to bear in mind.
 
 ## The Stable Abstractions Principle
 
-I’m going to summarise quite a broad architectural concern here, there is a lot more to this than I can cover briefly. Your code can be charted on the “I/A” graph, where abstractness (A) is plotted against stability (I). The main sequence of your code should follow the diagonal line from the top left (highly abstract, highly stable) to the bottom right (highly concrete, highly unstable).
+I'm going to summarise quite a broad architectural concern here, there is a lot more to this than I can cover briefly. Your code can be charted on the "I/A" graph, where abstractness (A) is plotted against stability (I). The main sequence of your code should follow the diagonal line from the top left (highly abstract, highly stable) to the bottom right (highly concrete, highly unstable).
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2017/11/zone-of-pain-and-zone-of-uselessness.png" alt="Zone of Pain and Zone of Uselessness" loading="lazy"}
 :::
 
@@ -85,15 +85,15 @@ By using classes as interfaces, you land right in the zone of pain. This is the 
 
 ## Interface Segregation Principle
 
-By using a class as an interface you will also unwittingly break the Interface Segregation Principle (ISP). That’s the *I* in *SOLID*.
+By using a class as an interface you will also unwittingly break the Interface Segregation Principle (ISP). That's the *I* in *SOLID*.
 
-The class-as-an-interface will contain all of the members of the class. That’s the members it has now – and everything you add in the future. This is largely equivalent to all those people that have a 1:1 relationship between classes and interfaces in other languages.
+The class-as-an-interface will contain all of the members of the class. That's the members it has now – and everything you add in the future. This is largely equivalent to all those people that have a 1:1 relationship between classes and interfaces in other languages.
 
-Let’s look at this way, the ISP states:
+Let's look at this way, the ISP states:
 
 > …no client should be forced to depend on methods it does not use…
 
-Now imagine your class-as-an-interface has trickled out into five or six locations and you add a new method to the original class. Now you get errors because the method is missing. Functions that previously accepted an object will now reject it – because it is missing a member that the function doesn’t even need. This is not SOLID code.
+Now imagine your class-as-an-interface has trickled out into five or six locations and you add a new method to the original class. Now you get errors because the method is missing. Functions that previously accepted an object will now reject it – because it is missing a member that the function doesn't even need. This is not SOLID code.
 
 Here is an updated `Customer` class from the original examples in this article.
 
@@ -127,7 +127,7 @@ class Customer {
 }
 ```
 
-We have a similar problem to when we added a public member, except things are a lot worse. You actually cannot create any matching types to `Customer` any more, because it has a private member. For example, you can’t fix `RewardCustomer` by adding the method:
+We have a similar problem to when we added a public member, except things are a lot worse. You actually cannot create any matching types to `Customer` any more, because it has a private member. For example, you can't fix `RewardCustomer` by adding the method:
 
 ```typescript
 class RewardCustomer implements Customer {
@@ -140,11 +140,11 @@ class RewardCustomer implements Customer {
 }
 ```
 
-If you try this, you’ll be told that:
+If you try this, you'll be told that:
 
-> Class ‘RewardCustomer’ incorrectly implements interface ‘Customer’. Types have separate declarations of a private property ‘encapsulatedMethod’.
+> Class 'RewardCustomer' incorrectly implements interface 'Customer'. Types have separate declarations of a private property 'encapsulatedMethod'.
 
-That’s excepting the fact that your `RewardCustomer` doesn’t actually want to add the method in the first place.
+That's excepting the fact that your `RewardCustomer` doesn't actually want to add the method in the first place.
 
 You can see that the end result of this problem will be that the `private` access modifier will be changed to fix the problem, breaking the principle of least privilege and breaking encapsulation all in one go.
 
@@ -197,8 +197,8 @@ logCustomer(new RewardCustomer());
 logCustomer({ id: 3, name: 'Tuck' });
 ```
 
-One particular element to zoom in on here is the `logCustomer` function. It depends on the `NamedEntity` interface and uses all of its members. This means the function can be called from the widest range of types. Compared to the situation with the class-as-an-interface, where the function depends on an increasing number of members that it doesn’t actually use – and hopefully the benefits become clear.
+One particular element to zoom in on here is the `logCustomer` function. It depends on the `NamedEntity` interface and uses all of its members. This means the function can be called from the widest range of types. Compared to the situation with the class-as-an-interface, where the function depends on an increasing number of members that it doesn't actually use – and hopefully the benefits become clear.
 
 ## Summary
 
-Hopefully you will be a little cautious about using classes as interfaces. There are many pitfalls to that approach. Just because one of the largest projects on the planet mentions it in a style guide doesn’t make it right.
+Hopefully you will be a little cautious about using classes as interfaces. There are many pitfalls to that approach. Just because one of the largest projects on the planet mentions it in a style guide doesn't make it right.

@@ -19,17 +19,17 @@ I was very excited about the Yashica Y35 digiFILM Camera, which successfully fun
 :img{src="/img/2017/11/bushbaby-joiners-001.jpg" alt="Bushbaby at The Joiners" loading="lazy"}
 :::
 
-I could do things with the Yashica that I never managed with other cameras. I’d do things like trick it into believing the flash would fire, but hold my finger over the flash… or take a longer exposure while swinging the camera around to get light-blurs. These are all things I worked out how to do on my Nikon DSLR, but it took more science and effort. With the Yashica you could get amazing character just by messing around with it.
+I could do things with the Yashica that I never managed with other cameras. I'd do things like trick it into believing the flash would fire, but hold my finger over the flash… or take a longer exposure while swinging the camera around to get light-blurs. These are all things I worked out how to do on my Nikon DSLR, but it took more science and effort. With the Yashica you could get amazing character just by messing around with it.
 
 And this is why the Yashica Y35 digiFILM camera caught my eye…
 
 > You like taking photos, and wishing the time still. But what I want is to capture the moment, and to remember the long-lasting feel. <cite>The Silence of Story</cite>
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2017/11/yashica-y35-digifilm.jpg" alt="Yashica Y35 digiFILM" loading="lazy"}
 :::
 
-While this is a digital camera, with an f2.0 lens and a 1/2.5 inch CMOS sensor; this is much more like a 35mm film camera than you might first think. First off, you can’t preview your images. There is no screen on the back, and the screen that isn’t there doesn’t tilt or swing or otherwise help you to take a picture. There is a small viewfinder like I had on the Yashica T4. You take a picture now; you find out later.
+While this is a digital camera, with an f2.0 lens and a 1/2.5 inch CMOS sensor; this is much more like a 35mm film camera than you might first think. First off, you can't preview your images. There is no screen on the back, and the screen that isn't there doesn't tilt or swing or otherwise help you to take a picture. There is a small viewfinder like I had on the Yashica T4. You take a picture now; you find out later.
 
 The next interesting part of this camera is the digiFILM concept. This is basically a series of films, each with their own character, that you can swap by opening the back of the camera. The films give you various styles such as a high-speed film, standard colour film, or moody black and white film. Each film affects the noise and mood of the photographs… just like real film did when you bought it without understanding what an ISO was.
 
