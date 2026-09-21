@@ -1,7 +1,10 @@
 ---
-title: 'The Three Pillars of conference value'
+title: 'The three pillars of conference value'
 navMenu: false
 pubDate: 2017-07-25T06:00:14+01:00
+bannerImage:
+    src: /img/2017/07/conference-pillars-1.png
+    alt: Conference Pillars
 authors:
     - steve-fenton
 categories:
@@ -16,16 +19,16 @@ From the perspective of an organisation, there are three pillars you need to ben
 
 - Attendance: you need to actually send people on your own dollar
 - Deployment: you need to let people implement what they learn
-- Reward: you need to acknowledge each individual’s value
+- Reward: you need to acknowledge each individual's value
 
 Here is a quick summary of the interaction of these pillars.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2017/07/conference-pillars-1.png" alt="Conference Pillars" loading="lazy"}
 :::
 
-The matrix visualises the impact of your organisation’s investment in people; just because you drop your employees into the “Stagnating” zone doesn’t mean that they aren’t developing their own skills. The object of stagnation is your organisation, not necessarily the people.
+The matrix visualises the impact of your organisation's investment in people; just because you drop your employees into the "Stagnating" zone doesn't mean that they aren't developing their own skills. The object of stagnation is your organisation, not necessarily the people.
 
-There are a surprising number of organisations happy to sit in the “Frustrated” zone. Paying for people to attend, but giving them no opportunity to use what they learn. The only zone that works is the “Engaged” zone, which requires all three pillars.
+There are a surprising number of organisations happy to sit in the "Frustrated" zone. Paying for people to attend, but giving them no opportunity to use what they learn. The only zone that works is the "Engaged" zone, which requires all three pillars.
 
 How would you rate your organisation against this matrix?

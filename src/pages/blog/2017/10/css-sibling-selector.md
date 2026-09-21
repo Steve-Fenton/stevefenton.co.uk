@@ -2,6 +2,9 @@
 title: 'The CSS sibling selector'
 navMenu: false
 pubDate: 2017-10-19T12:08:23+01:00
+bannerImage:
+    src: /img/2017/10/css-sibling-selector.png
+    alt: CSS Sibling Selector
 authors:
     - steve-fenton
 categories:
@@ -36,12 +39,12 @@ Here is an example HTML snippet that shows where the CSS sibling selector will a
     </div>
 ```
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2017/10/css-sibling-selector.png" alt="CSS Sibling Selector" loading="lazy"}
 :::
 
-## Doesn’t traverse up
+## Doesn't traverse up
 
 A common misunderstanding is that you can use the sibling selector to traverse up to the parent in order to navigate to a sibling of the left-hand selector, so in the above example, people want the `div ~ p` selector to find the two paragraphs that are siblings of the inner `div` tag. This is still not possible in CSS yet, but we live in hope.
 
-If you need to find the “Not a sibling” and “Sibling one” paragraphs as siblings of “Not a p”… you’ll need to resort to some JavaScript.
+If you need to find the "Not a sibling" and "Sibling one" paragraphs as siblings of "Not a p"… you'll need to resort to some JavaScript.

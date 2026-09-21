@@ -3,6 +3,9 @@ title: 'Quaductionism: Clarity via reductionism'
 navMenu: false
 pubDate: 2017-10-24T22:15:14+01:00
 modDate: 2023-09-14
+bannerImage:
+    src: /img/2017/10/quaductionism.jpg
+    alt: Quaductionism
 authors:
     - steve-fenton
 categories:
@@ -21,7 +24,7 @@ Perhaps the most famous example of quaductionism is the Eisenhower Method, popul
 
 … and in quaductionist terms:
 
-:::div{.inset}
+:::figure
 :img{src="/img/2017/10/quaductionism.jpg" alt="Quaductionism" loading="lazy"}
 :::
 
@@ -30,7 +33,7 @@ Perhaps the most famous example of quaductionism is the Eisenhower Method, popul
 - Bottom-Left: Urgent (but not important)
 - Bottom-Right: (neither urgent nor important)
 
-We can immediately ignore the bottom-right quadrant, which represents things that are neither urgent nor important. We should then focus on the top-left quadrant, which is both urgent *and* important. If we value longevity, we can subequently tackle the non-urgent important stuff. (There is an alternative pattern whereby you "tactical yourself to death" by heading from the top-left to the bottom-left. The result is that the stuff on the top right keeps moving into the top left).
+We can immediately ignore the bottom-right quadrant, which represents things that are neither urgent nor important. We should then focus on the top-left quadrant, which is both urgent *and* important. If we value longevity, we can subsequently tackle the non-urgent important stuff. (There is an alternative pattern whereby you "tactical yourself to death" by heading from the top-left to the bottom-left. The result is that the stuff on the top right keeps moving into the top left).
 
 ## First steps
 
