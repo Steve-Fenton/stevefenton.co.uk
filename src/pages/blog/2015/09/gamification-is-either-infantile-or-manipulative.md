@@ -21,8 +21,10 @@ I may be alone on this one, but I utterly hate *gamification* and *funification*
 
 Gamification and funification are leaking into every aspect of software development, from programming to retrospectives. I'm bored of it.
 
-:::div{.inset}
+:::figure
+
 :img{src="/img/2015/09/gamification.jpg" alt="A Lego stormtrooper sits at a computer surrounded by clowns."}
+
 <figcaption>
 
 Image by [Kenny Louie](https://www.flickr.com/photos/kwl/)
