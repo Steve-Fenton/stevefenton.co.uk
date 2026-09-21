@@ -2,6 +2,9 @@
 title: 'Add X-Forwarded-For IP address to IIS logs'
 navMenu: false
 pubDate: 2016-08-08T16:52:55+01:00
+bannerImage:
+    src: /img/2016/08/iis-log-custom-fields.png
+    alt: Log X-Forwarded-For in IIS logs
 authors:
     - steve-fenton
 categories:
@@ -17,9 +20,9 @@ Most load balancers will allow you to send the IP address in an alternate header
 
 This header can be abused, so you may need to have a similar architecture to get the full benefit of this fix without opening yourself up to problems. In my case, the load balancer is public, but the web servers are all hidden behind it and cannot be accessed directly.
 
-In IIS, open up the “Logging” module. I manage this at the server level, rather than at the individual site level. You will need to use “One log file per Site” for this to work for you.
+In IIS, open up the "Logging" module. I manage this at the server level, rather than at the individual site level. You will need to use "One log file per Site" for this to work for you.
 
-In the Log File configuration, select the “Select Fields…” option.
+In the Log File configuration, select the "Select Fields…" option.
 
 In this view, you can add Custom Fields.
 
@@ -29,10 +32,10 @@ Add a new field:
 - Source Type: Request Header
 - Source: X-Forwarded-For
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/08/iis-log-custom-fields.png" alt="Log X-Forwarded-For in IIS logs" loading="lazy"}
 :::
 
-Don’t forget to hit “Apply” in the Logging module screen.
+Don't forget to hit "Apply" in the Logging module screen.
 
 This will now log an additional column in your log file for the origin IP address.

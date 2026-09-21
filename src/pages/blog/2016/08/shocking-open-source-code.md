@@ -2,6 +2,9 @@
 title: 'Shocking open source code'
 navMenu: false
 pubDate: 2016-08-05T06:00:06+01:00
+bannerImage:
+    src: /img/2016/08/fhd008BTS_Rob_Schneider_003.jpg
+    alt: Rob Schneider saying, For Freeeeeeeeee.
 authors:
     - steve-fenton
 categories:
@@ -15,9 +18,9 @@ I received the following issue on GitHub:
 
 > I was literally shocked to discover that nuget.exe is committed into version control.
 
-The thing is, this kind of feedback doesn’t help. If we want to encourage more people to share their code with the world then we need to be more careful with how we communicate. Yes, you have to put up with my awful projects on GitHub if you want to avoid putting off the developer who has something really awesome that she is considering gifting to the world, for free.
+The thing is, this kind of feedback doesn't help. If we want to encourage more people to share their code with the world then we need to be more careful with how we communicate. Yes, you have to put up with my awful projects on GitHub if you want to avoid putting off the developer who has something really awesome that she is considering gifting to the world, for free.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2016/08/fhd008BTS_Rob_Schneider_003.jpg" alt="For Freeeeeeeeee"}
 :::
 
@@ -27,4 +30,4 @@ Being shocked by something found on some small project on a code sharing site is
 
 Of course there are lots of things that could be improved, but like most open source developers I have to find that elusive spare time to dedicate to open source in amongst having a fulfilling family life, and a challenging job.
 
-My experience has led to values I hold at this stage in my life that tell me that I won’t regret not fixing a project structure on GitHub when I’m on my death bed – even if I have failed to add NuGet.exe to the gitignore file.
+My experience has led to values I hold at this stage in my life that tell me that I won't regret not fixing a project structure on GitHub when I'm on my death bed - even if I have failed to add NuGet.exe to the gitignore file.

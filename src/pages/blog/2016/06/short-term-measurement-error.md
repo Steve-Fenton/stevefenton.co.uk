@@ -3,6 +3,9 @@ title: 'Short-term measurement error'
 navMenu: false
 pubDate: 2016-06-01T18:44:03+01:00
 modDate: 2024-05-28
+bannerImage:
+    src: /img/2016/06/short-term-mistake.jpg
+    alt: Short-term measurement makes small improvements visible while hiding long-term negative consequences
 authors:
     - steve-fenton
 categories:
@@ -29,7 +32,7 @@ I originally wrote about magic numbers on [LinkedIn](https://www.linkedin.com/pu
 2. The earliest indicator, of...
 3. The broadest set of outcomes
 
-On a general level, the current _magic numbers_ for software delivery are [DORA's four keys](https://octopus.com/devops/metrics/dora-metrics/):
+On a general level, the current *magic numbers* for software delivery are [DORA's four keys](https://octopus.com/devops/metrics/dora-metrics/):
 
 1. Deployment frequency
 2. Lead time for changes
@@ -38,7 +41,7 @@ On a general level, the current _magic numbers_ for software delivery are [DORA'
 
 I also love the idea from [Jim Benson](https://www.linkedin.com/in/jimbenson/) and [Tonianne DeMaria Barry](https://www.linkedin.com/in/tonianne-demaria-ba307922/) about using subjective wellbeing as a measure, because it's a great indicator of the team's future performance.
 
-Magic numbers are used in context, not reported up the management chain. You use them locally as part of your continuous improvement process. Using metrics at the wrong level of elevation is one way your magic numbers become _tragic_ numbers. Another source of tragic numbers are metrics whose very use encourages dysfunction. The commonly used _velocity_ metric in Scrum is the most common tragic metric, but based on our goals, something like customer satisfaction can be tragic as it's a trailing indicator, so it arrives tragically late.
+Magic numbers are used in context, not reported up the management chain. You use them locally as part of your continuous improvement process. Using metrics at the wrong level of elevation is one way your magic numbers become *tragic* numbers. Another source of tragic numbers are metrics whose very use encourages dysfunction. The commonly used *velocity* metric in Scrum is the most common tragic metric, but based on our goals, something like customer satisfaction can be tragic as it's a trailing indicator, so it arrives tragically late.
 
 Some magic numbers are good permanent indicators. Others are contextual. You might introduce a specific measurement as part of an improvement idea. If you don't measure something useful, how will you know if things are getting better?
 
@@ -46,7 +49,7 @@ And that leads us to the next topic!
 
 ## Short-term measurement error
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/06/short-term-mistake.jpg" alt="Short-term measurement makes small improvements visible while hiding long-term negative consequences"}
 :::
 
@@ -59,7 +62,7 @@ There are two reasons this approach fails and they sit at each end of a scale:
 
 ### Jumping to conclusions
 
-You _could_ speed up your development process by saying, "let's not bother writing automated tests". You deliver each feature in three days, instead of five. In the next retrospective, you bank the +8 day win and dance into the warm glow of your own brilliance.
+You *could* speed up your development process by saying, "let's not bother writing automated tests". You deliver each feature in three days, instead of five. In the next retrospective, you bank the +8 day win and dance into the warm glow of your own brilliance.
 
 The problem is, from that initial moment, a growing negative consequence begins to build. It might take longer than one improvement cycle to recognize this problem. Eventually, without test automation, it takes you ten days to deliver a feature. You've soon lost all the hours from the early measurement plus a load more. Yikes.
 
@@ -87,13 +90,13 @@ One of the mistakes I see in Agile teams is the expectation of an instant return
 
 ## The problem is everywhere
 
-This isn't exclusive to software delivery, the problem is found everywhere in business. Commonly manifesting itself in punishment systems (miss this deadline and you’re in trouble), and reward systems (performance-related bonuses, employee of the month awards, etc). Using any of these methods will show a short-term improvement, but the net effect is negative in the longer term. This issue is so common that people will swear by their reward programs and show you proof that it works… but that proof will all suffer from the short-term measurement error. The long term effects of rewards are that they damage business.
+This isn't exclusive to software delivery, the problem is found everywhere in business. Commonly manifesting itself in punishment systems (miss this deadline and you're in trouble), and reward systems (performance-related bonuses, employee of the month awards, etc). Using any of these methods will show a short-term improvement, but the net effect is negative in the longer term. This issue is so common that people will swear by their reward programs and show you proof that it works… but that proof will all suffer from the short-term measurement error. The long term effects of rewards are that they damage business.
 
-So beware of measuring the short-term "green line" and double check that you aren’t missing out on a much more fundamental "red line" – even when using Magical Numbers. Give things a reasonable time to provide a useful result. Don't tie it to "one improvement cycle".
+So beware of measuring the short-term "green line" and double check that you aren't missing out on a much more fundamental "red line" - even when using Magical Numbers. Give things a reasonable time to provide a useful result. Don't tie it to "one improvement cycle".
 
 Further Reading:
 
-- The Human Side of Enterprise – Doug McGregor
-- Get Rid of the Performance Review – Sam Culbert
-- Punished by Rewards – Alfie Kohn
-- Drive – Dan Pink
+- The Human Side of Enterprise - Doug McGregor
+- Get Rid of the Performance Review - Sam Culbert
+- Punished by Rewards - Alfie Kohn
+- Drive - Dan Pink

@@ -2,6 +2,9 @@
 title: 'Custom states break population of Azure DevOps work item closed date'
 navMenu: false
 pubDate: 2016-07-29T09:06:14+01:00
+bannerImage:
+    src: /img/2016/07/query-workaround.png
+    alt: Query Workaround
 authors:
     - steve-fenton
 categories:
@@ -17,13 +20,13 @@ UPDATE: Derrick Fu, the Azure DevOps Program Manager has sent a quick update and
 
 When the Azure DevOps team announced custom work item states, I was delighted.
 
-Before this change, work was “New”, “Approved”, “Committed”, and “Done”. The problem with this set up is that it is based on a process where “Done” means “we’ve finished working on it… I suppose someone might release it”. This doesn’t match the process we are using, where “Done” means “Customers now have this feature”. When custom states arrived, this solved a major problem for us – visualising the state of the work in process. We could now have states that represented where the work really was, such as a “Deploying” state.
+Before this change, work was "New", "Approved", "Committed", and "Done". The problem with this set up is that it is based on a process where "Done" means "we've finished working on it… I suppose someone might release it". This doesn't match the process we are using, where "Done" means "Customers now have this feature". When custom states arrived, this solved a major problem for us - visualising the state of the work in process. We could now have states that represented where the work really was, such as a "Deploying" state.
 
-But there’s a problem. Somewhere deep inside of Azue DevOps is an “OOB Transition Rule” that detects when a card moves from “Approved” or “Comitted” to “Done” and sets the “Closed Date”. This is one of the most important dates associated with a work item. Everything from cycle times to date of release are represented by this date. Despite all of our custom states being functionally equivalent to “Committed” (i.e. they are all described as “In Progress” states), the transition rule does not fire for custom states.
+But there's a problem. Somewhere deep inside of Azure DevOps is an "OOB Transition Rule" that detects when a card moves from "Approved" or "Committed" to "Done" and sets the "Closed Date". This is one of the most important dates associated with a work item. Everything from cycle times to date of release are represented by this date. Despite all of our custom states being functionally equivalent to "Committed" (i.e. they are all described as "In Progress" states), the transition rule does not fire for custom states.
 
-We are currently using a workaround to get similar data by adding “WHERE ChangedDate…” alongside our “WHERE ClosedDate…” clauses – but beware… if a card is “Changed” after it is “Done” it will pop back into your reports:
+We are currently using a workaround to get similar data by adding "WHERE ChangedDate…" alongside our "WHERE ClosedDate…" clauses - but beware… if a card is "Changed" after it is "Done" it will pop back into your reports:
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/07/query-workaround.png" alt="Query Workaround" loading="lazy"}
 :::
 

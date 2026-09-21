@@ -2,6 +2,9 @@
 title: 'Sources of risk'
 navMenu: false
 pubDate: 2016-09-14T06:00:40+01:00
+bannerImage:
+    src: /img/2016/09/risk-function-change.jpg
+    alt: Risk as a function of change
 authors:
     - steve-fenton
 categories:
@@ -9,11 +12,11 @@ categories:
     - Programming
 ---
 
-In software development, there is a simplistic model that says that risk is a function of time, or money. Lots of graphs have been published to show that as the duration of a project increases, so does the risk… or as the cost of the project increases the risk goes up. Of course, in many cases these two things are closely linked. A 12 month project will cost more than a 6 month project and so on. You may even be tempted to say that risk is tied to the time and money, with some kind of relationship between these two (let’s add them together by normalising them to shared unit… or multiply one by the other).
+In software development, there is a simplistic model that says that risk is a function of time, or money. Lots of graphs have been published to show that as the duration of a project increases, so does the risk… or as the cost of the project increases the risk goes up. Of course, in many cases these two things are closely linked. A 12 month project will cost more than a 6 month project and so on. You may even be tempted to say that risk is tied to the time and money, with some kind of relationship between these two (let's add them together by normalising them to shared unit… or multiply one by the other).
 
 > r = *f*(*t*)
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2016/09/risk-function-time.jpg" alt="Risk as a function of time (or money)"}
 :::
 
@@ -21,13 +24,13 @@ But risk does not necessarily have to be tied to the length of time, or the amou
 
 So we should be thinking about genuine closed loops when we think of risk… but are we concerned about time since the last feedback loop, or the cost since the last feedback loop? Neither. It is the amount of change since the last feedback loop.
 
-So risk is really about the change that has accumulated, where change is defined as “change that is unchecked by a closed feedback loop”.
+So risk is really about the change that has accumulated, where change is defined as "change that is unchecked by a closed feedback loop".
 
 > r = *f*(*c*)
 
 This means that we can make a project of any budget, and any duration, successful. We just need to manage the feedback loops (without resorting to artificial indicators of progress). So long as we reduce the risk with regular feedback loops, we can continue indefinitely.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2016/09/risk-function-change.jpg" alt="Risk as a function of change" loading="lazy"}
 :::
 
@@ -39,11 +42,11 @@ There are many sources of risk that can be managed with closed feedback loops.
 
 Opportunity Loss: usually a hard straight line or a steeply angled line that cuts over suddenly from gain to loss, or that significantly affects the amount of gain. The classic example would be a regulatory deadline, where delivery before the deadline means avoiding a big fine.
 
-Delivery vs desire error: This is caused by specification error, communication failures, or poor delivery. The risk associated with this kind of source is usually parabolic or exponential (either way, you can solve a lot of problems by validating things before the steep rise). It basically means you get something, but it turns out that isn’t what you need.
+Delivery vs desire error: This is caused by specification error, communication failures, or poor delivery. The risk associated with this kind of source is usually parabolic or exponential (either way, you can solve a lot of problems by validating things before the steep rise). It basically means you get something, but it turns out that isn't what you need.
 
-Scope instability: this is caused by scope changing before the original delivery has been validated. On a basic level, this is assumptions layered over assumptions (i.e. we asked for “A”, now we need “B”… “A” hasn’t been delivered so there is an assumption about what “A” actually is. The difference between the unchecked “A” and the new “B” is also an assumption. “B” is also two assumptions – the assumption that “B” is what we need and the assumption that “B” is what we’ll get. Assumptions-cubed).
+Scope instability: this is caused by scope changing before the original delivery has been validated. On a basic level, this is assumptions layered over assumptions (i.e. we asked for "A", now we need "B"… "A" hasn't been delivered so there is an assumption about what "A" actually is. The difference between the unchecked "A" and the new "B" is also an assumption. "B" is also two assumptions – the assumption that "B" is what we need and the assumption that "B" is what we'll get. Assumptions-cubed).
 
-Market and competition: Features that turn out to be unwanted, or come later than a competitor, or fall short compared to a competitor. Anything where we *think* something is valuable but haven’t validated the theory.
+Market and competition: Features that turn out to be unwanted, or come later than a competitor, or fall short compared to a competitor. Anything where we *think* something is valuable but haven't validated the theory.
 
 Knowledge leak: caused by staff turnover, especially by persistent or high levels of churn.
 
@@ -57,20 +60,20 @@ A feedback loop should include the following:
 
 For feedback loops to be effective, you need to use techniques like [Impact Mapping](https://www.impactmapping.org/), and [Specification by Example](https://www.thoughtworks.com/insights/blog/specification-example). Impact Mapping creates clear goals, makes assumptions explicit, and makes you think about how you validate those assumptions. Specification by Example improves communication between people who want things and people who will supply the things those people want.
 
-I speak to a lot of people who don’t do either of these practices… and who have the exact problems that are solved by these practices.
+I speak to a lot of people who don't do either of these practices… and who have the exact problems that are solved by these practices.
 
 There are multiple feedback loops and each one is enclosed with the next one. The shortest loops are cheaper and earlier. The longer ones are more concrete, more refined.
 
-1. Specification by Example also provides the tightest feedback loop. You can find out that something doesn’t add up at the point you are asking for it. There is zero change at this point, so you get the perfect payback as you prevented risk accumulating immediately.
+1. Specification by Example also provides the tightest feedback loop. You can find out that something doesn't add up at the point you are asking for it. There is zero change at this point, so you get the perfect payback as you prevented risk accumulating immediately.
 2. You get to close another feedback loop when the software is released as people can now see it. If you do this regularly, you limit risk because you reduce the amount of change in each release. This is why some companies release multiple times a day – if you add up the risk of 6 releases, it will be less than the risk of one release with all six changes (remember the curve is not linear).
-3. Impact Mapping closes a feedback loop a little later, because it usually involves collecting some data following a release. The difference between this feedback loop and previous one is that it is validated. You either make progress towards your goal, or you don’t. You *know* now, whereas before you just *think* you do.
+3. Impact Mapping closes a feedback loop a little later, because it usually involves collecting some data following a release. The difference between this feedback loop and previous one is that it is validated. You either make progress towards your goal, or you don't. You *know* now, whereas before you just *think* you do.
 
-:::div{.inset}
+:::figure{.inset}
 :img{src="/img/2016/09/feedback-loops.jpg" alt="Feedback Loops" loading="lazy"}
 :::
 
 ## Faking it
 
-There are lots of practices baked into organisations whereby you fake a feedback loop. A status report where something is “80% done” is an example of faking it. Pretending that something you can demo is that same as something that you have deployed into production is an example of faking it. “Internal-only” releases that aren’t being validated with real customers is an example of faking it. If you aren’t closing all three loops, you aren’t managing the risk.
+There are lots of practices baked into organisations whereby you fake a feedback loop. A status report where something is "80% done" is an example of faking it. Pretending that something you can demo is that same as something that you have deployed into production is an example of faking it. "Internal-only" releases that aren't being validated with real customers is an example of faking it. If you aren't closing all three loops, you aren't managing the risk.
 
-Think of it this way. You fake it by showing a Product Owner each week the progress on the software. After six months, have you managed the risk… or is it still possible you’ll release the product and find out that nobody wants to buy it? Or that it doesn’t actually work for real cases, only with your carefully managed example data? Or that it installs fine on your test environment, but not on your live environment?
+Think of it this way. You fake it by showing a Product Owner each week the progress on the software. After six months, have you managed the risk… or is it still possible you'll release the product and find out that nobody wants to buy it? Or that it doesn't actually work for real cases, only with your carefully managed example data? Or that it installs fine on your test environment, but not on your live environment?

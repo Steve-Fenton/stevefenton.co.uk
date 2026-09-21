@@ -2,6 +2,9 @@
 title: 'Update work items with build number during vNext builds'
 navMenu: false
 pubDate: 2016-10-13T12:23:49+01:00
+bannerImage:
+    src: /img/2016/10/vnext-build-variables.png
+    alt: vNext Build Variables
 authors:
     - steve-fenton
 categories:
@@ -13,32 +16,32 @@ tags:
     - PowerShell
 ---
 
-In the days of XAML Builds in TFS, the build would rather handily update the work item with the appropriate “Integration Build” value… so you knew which release would include your fix. Happy days.
+In the days of XAML Builds in TFS, the build would rather handily update the work item with the appropriate "Integration Build" value… so you knew which release would include your fix. Happy days.
 
-Along came vNext builds in TFS / Visual Studio Online / Visual Studio Team Services, which solved all of the pain of setting up and maintaining builds, but which also didn’t update the “Integration Build” value on the work items.
+Along came vNext builds in TFS / Visual Studio Online / Visual Studio Team Services, which solved all of the pain of setting up and maintaining builds, but which also didn't update the "Integration Build" value on the work items.
 
 The good news is, we can handle this in vNext builds using the [Team Services REST API for Work Items](https://www.visualstudio.com/en-us/docs/integrate/api/wit/work-items).
 
-Here’s how…
+Here's how…
 
 ## Security
 
-You can generate a special token to use for this – so you don’t need to use your actual account.
+You can generate a special token to use for this - so you don't need to use your actual account.
 
 - Click your name when logged into the Azyre DevOps
-- Choose “Security”
-- Select “Personal Access Tokens”
-- Select “Add”
-- Call it “Update Integration Build” and select the Build (read) and Work items (read and write) scopes
-- Click “Create Token”
+- Choose "Security"
+- Select "Personal Access Tokens"
+- Select "Add"
+- Call it "Update Integration Build" and select the Build (read) and Work items (read and write) scopes
+- Click "Create Token"
 
-You’ll use this token to talk to the REST API.
+You'll use this token to talk to the REST API.
 
 ## PowerShell script
 
 You can either add the following PowerShell script into your code repository, on use the inline option to add it directly to the build task.
 
-NOTE: If your work items are not in the same collection as your code and build, you can still follow along using [this alternate PowerShell script](#alternate-powershell-script).
+NOTE: If your work items are not in the same collection as your code and build, you can still follow along using the alternate PowerShell script.
 
 ```powershell
 param(
@@ -84,15 +87,15 @@ Catch
 }
 ```
 
-This script will dynamically obtain the base addresses of your team collection and will get the work items related to the build, and then update the “Integration Build” value.
+This script will dynamically obtain the base addresses of your team collection and will get the work items related to the build, and then update the "Integration Build" value.
 
 ## Build variables
 
-Edit your vNext build and choose the “Variables” section.
+Edit your vNext build and choose the "Variables" section.
 
-Add a variable named “VstsUsername” with your username and a variable named “VstsPassword” with your newly minted token.
+Add a variable named "VstsUsername" with your username and a variable named "VstsPassword" with your newly minted token.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/10/vnext-build-variables.png" alt="vNext Build Variables" loading="lazy"}
 :::
 
@@ -100,7 +103,7 @@ Add a variable named “VstsUsername” with your username and a variable named 
 
 Now you can add a PowerShell build step to your vNext build, calling the PowerShell script and passing the Username and Password.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/10/vnext-powershell-step.png" alt="vNext PowerShell Step" loading="lazy"}
 :::
 
@@ -108,7 +111,7 @@ Now you can add a PowerShell build step to your vNext build, calling the PowerSh
 
 The next time a build triggers for a changeset that has associated work items, those work items will be updated with the build number…
 
-:::div{.inset}
+:::figure
 :img{src="/img/2016/10/vnext-automatic-build-number.png" alt="vNext Automatic Build Number" loading="lazy"}
 :::
 
@@ -116,7 +119,7 @@ You can make that visible on your board, it appears in the work item details, an
 
 ## Code and Work Items in Different Collections
 
-This slightly more looping example will traverse collections to update the work item even when the code and build are in another collections – as long as they are part of the same account.
+This slightly more looping example will traverse collections to update the work item even when the code and build are in another collections - as long as they are part of the same account.
 
 ```powershell
 param(
