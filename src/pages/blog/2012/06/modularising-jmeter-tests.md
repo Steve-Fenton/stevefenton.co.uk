@@ -2,6 +2,9 @@
 title: 'Modularising JMeter tests'
 navMenu: false
 pubDate: 2012-06-27T15:50:34+01:00
+bannerImage:
+    src: /img/2015/07/jmeter003.jpg
+    alt: A JMeter test tree with icons for different step types.
 authors:
     - steve-fenton
 categories:
@@ -42,7 +45,7 @@ So to create our new reusable block, we add a new Thread Group, and add a new Si
 - Thread Group
   - Simple Controller
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/jmeter001.jpg" alt="JMeter Simple Controller" loading="lazy"}
 :::
 
@@ -79,7 +82,7 @@ Now, where the sign in HTTP Request used to be, we add a new Module Controller, 
     - (Testing something in a loop)
   - HTTP Request (Sign Out)
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/jmeter002.jpg" alt="Module Controller" loading="lazy"}
 :::
 
@@ -87,6 +90,6 @@ We can repeat this process for anything that can be reused and use a Module Cont
 
 Here is our actual JMeter structure after doing this:
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/jmeter003.jpg" alt="JMeter Tree" loading="lazy"}
 :::

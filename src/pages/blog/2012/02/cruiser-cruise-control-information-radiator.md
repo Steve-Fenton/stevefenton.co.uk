@@ -2,6 +2,9 @@
 title: 'Cruiser: Cruise Control information radiator'
 navMenu: false
 pubDate: 2012-02-22T16:51:14+00:00
+bannerImage:
+    src: /img/2015/07/cruiser_mobile.jpg
+    alt: Cruiser dashboard with blocks of green, red, purple, and blue showing visual status of builds.
 authors:
     - steve-fenton
 categories:
@@ -13,11 +16,11 @@ tags:
     - JavaScript
 ---
 
-:::div{.inset}
+I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn't have is a nice information radiator / visualisation for your team wall-board.
+
+:::figure
 :img{src="/img/2015/07/cctray_radiator.jpg" alt="Cruise Control Radiator"}
 :::
-
-I work on a team that uses [CruiseControl.Net](http://cruisecontrolnet.org/) for Continuous Integration. There is a handy task-bar utility called CCTray that provides notifications and status messages when builds run, pass and fail. What it doesn't have is a nice information radiator / visualisation for your team wall-board.
 
 What you really need is a big display that makes it really obvious when a build breaks, so I sketched out a quick idea of some big square boxes to represent each project that change colour and display some kind of "epic fail" icon when something goes wrong.
 
@@ -29,12 +32,12 @@ Feel free to use it, but please bear in mind that it is a work in progress. You 
 
 The display fills the available screen, so it works at virtually any size from a small window on your developer machine to a massive plasma screen on the wall in the dev room, normal browser features like zoom and full-screen work just fine.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/cruiser.jpg" alt="Cruiser - CC.NET Build Status" loading="lazy"}
 :::
 
 And if you can't wait to get back to the office to check your build status, you can check it whilst down the pub using your mobile phone.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/cruiser_mobile.jpg" alt="Cruiser on Mobile" loading="lazy"}
 :::

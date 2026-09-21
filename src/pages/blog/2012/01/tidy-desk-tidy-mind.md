@@ -2,6 +2,9 @@
 title: 'Tidy desk. Tidy mind!'
 navMenu: false
 pubDate: 2012-01-28T17:01:00+00:00
+bannerImage:
+    src: /img/2015/07/desk.jpg
+    alt: Photo by Steve Fenton. A desk with nothing except the computer and its peripherals on it.
 authors:
     - steve-fenton
 categories:
@@ -14,6 +17,6 @@ All that is left are a couple of monitors, some headphones a keyboard and a mous
 
 Take a look and revel in the tidiness!
 
-:::div{.inset}
-:img{src="/img/2015/07/desk.jpg" alt="My Desk" loading="lazy"}
+:::figure
+:img{src="/img/2015/07/desk.jpg" alt="A desk with nothing except the computer and its peripherals on it." loading="lazy"}
 :::

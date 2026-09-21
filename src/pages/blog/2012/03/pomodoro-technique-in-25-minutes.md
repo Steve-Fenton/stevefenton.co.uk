@@ -2,6 +2,9 @@
 title: 'Pomodoro Technique in 25 minutes'
 navMenu: false
 pubDate: 2012-03-22T16:27:05+00:00
+bannerImage:
+    src: /img/2015/07/pomodoro_chart.jpg
+    alt: Hand-drawn charts showing information from Pomodoro Technique sessions.
 authors:
     - steve-fenton
 categories:
@@ -9,10 +12,6 @@ categories:
 tags:
     - Pomodoro
 ---
-
-:::div{.inset}
-:img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts"}
-:::
 
 Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from 22nd March 2012, which was delivered within the time limit, including questions.
 
@@ -23,8 +22,8 @@ Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from
 
 ## How Does It Work?
 
-- Choose a task – Pomodoro works best against a specific task
-- Set your timer (traditionally a Tomato kitchen timer – more on that later) for 25 minutes
+- Choose a task - Pomodoro works best against a specific task
+- Set your timer (traditionally a Tomato kitchen timer - more on that later) for 25 minutes
 - Work on the task until the timer rings
 - Record the Pomodoro against the task (you want to know how many Pomodoros you manage in a day, and how many it took to complete the task)
 - Take a 5 minute break, or a longer break if you've done 4 Pomodoros since your last longer break
@@ -33,7 +32,7 @@ Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from
 
 - If someone needs you when you are on a Pomodoro, ask them if they can wait until the end of the Pomodoro.
 - If they can, write down their name on a sheet of paper.
-- If they can't abandon the Pomodoro – "Once a Pomodoro begins, it has to ring" – if you are going to break this rule, it had better be for a real good reason
+- If they can't abandon the Pomodoro - "Once a Pomodoro begins, it has to ring" - if you are going to break this rule, it had better be for a real good reason
 - When you get to the end of a Pomodoro, make sure you catch up with each of the people who needed you
 
 ## Positive Pomodoro
@@ -54,13 +53,13 @@ Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from
 
 - Whenever you feel that progress is being stalled due to interruptions or lack of focus
 - It works great alongside pair-programming
-- Not all the time – you get a lot done, but using Pomodoro all the time can wear you out fast, so use it when appropriate
+- Not all the time - you get a lot done, but using Pomodoro all the time can wear you out fast, so use it when appropriate
 
 ## Rule
 
 - One a Pomodoro Begins, It Has To Ring
 - 25 mins, 5 minute break, 30 minute break every 4 Pomodoros.
-- A Pomodoro is indivisible – no half / quarter Pomodoros. Tasks should be grouped to make at least one, or broken down to take less than 7
+- A Pomodoro is indivisible - no half / quarter Pomodoros. Tasks should be grouped to make at least one, or broken down to take less than 7
 - Protect the Pomodoro
 - Pace should be maintainable
 - The next Pomodoro will go better
@@ -75,6 +74,6 @@ Here are the notes from my presentation "Pomodoro Technique in 25 Minutes", from
 
 For most people, keeping things low tech works best for Pomodoro and it certainly helps to start that way before you dive into an app as it will help you to use the app better. I record all of my Pomodoros and interruptions on a sheet of paper and draw my own charts by hand to see how I'm getting on.
 
-:::div{.inset}
-:img{src="/img/2015/07/pomodoro_chart.jpg" alt="Pomodoro Charts" loading="lazy"}
+:::figure
+:img{src="/img/2015/07/pomodoro_chart.jpg" alt="Hand-drawn charts showing information from Pomodoro Technique sessions."}
 :::

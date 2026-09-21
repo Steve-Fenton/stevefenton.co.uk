@@ -2,21 +2,24 @@
 title: 'Kobo vs Kindle comparison: The ebook reader showdown'
 navMenu: false
 pubDate: 2012-02-29T16:44:44+00:00
+bannerImage:
+    src: /img/2015/07/kindle_vs_kobo_6.jpg
+    alt: 
 authors:
     - steve-fenton
 categories:
     - Other
 ---
 
-:::div{.inset}
-:img{src="/img/2015/07/kindle_vs_kobo_6.jpg" alt="Kindle vs Kobo"}
-:::
-
 On paper, there isn't much to separate Kobo from Kindle, so the only real way to tell the difference is to get your hands on the real thing and see how they perform. I have done exactly that and pitched a Kobo Touch against a new Kindle in order to see if there is anything notable to pick out against these two lightweight e-book reading devices.
 
 ## Kobo vs Kindle
 
 I'm going to compare just about everything from start to finish, so feel free to skip past the bits you aren't very interested in in order to get to the comparisons that matter to you. I have read multiple book on each device, so this very much a hands-on Kobo vs Kindle comparison; not a paper exercise.
+
+:::figure
+:img{src="/img/2015/07/kindle_vs_kobo_6.jpg" alt="Kindle vs Kobo"}
+:::
 
 I would have loved to compare the Kindle Touch to the Kobo Touch, but the Kindle Touch edition isn't currently available in the UK. Suffice to say, you pay around 25% extra to get the touch capability on either device, although this feature in itself has pros and cons. Textual input is much easier on a touch device, as the on-screen touch keyboard is what you would expect from a mobile phone (just slower) but as with all touch-screen devices, the more you put your greasy paws on the screen, the worse the reading experience is.
 
@@ -28,7 +31,7 @@ The Kindle comes in the new Amazon hassle-free packaging. Not only is this reall
 
 ## Form
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/kindle_vs_kobo_4.jpg" alt="Kindle vs Kobo" loading="lazy"}
 :::
 
@@ -40,13 +43,13 @@ Both devices have a USB input in the middle on the bottom side. The Kobo has its
 
 ## Screen
 
-The Kobo and the Kindle have nearly identical six-inch e-ink screen, but side-by-side you can see quite a difference between these two readers. The Kindle is by far the sharpest and clearest of the two screens and appears to have higher contrast – the difference between the surface and the text makes the Kindle look black and white, whereas the Kobo has text that appears grey. This is really big score for the Kindle, because readability is so high on the list of priorities for a device such as this.
+The Kobo and the Kindle have nearly identical six-inch e-ink screen, but side-by-side you can see quite a difference between these two readers. The Kindle is by far the sharpest and clearest of the two screens and appears to have higher contrast - the difference between the surface and the text makes the Kindle look black and white, whereas the Kobo has text that appears grey. This is really big score for the Kindle, because readability is so high on the list of priorities for a device such as this.
 
 This is the first category where there is a notable difference between the two devices.
 
 ## Battery
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/kindle_vs_kobo_2.jpg" alt="Kindle vs Kobo" loading="lazy"}
 :::
 
@@ -54,13 +57,13 @@ Given the duration of your smart-phone's battery these days, the battery life of
 
 ## Reading
 
-There is much more to talk about when it comes to reading books on these e-book readers. First and foremost, when it comes to page-turns, the Kindle is an order of magnitude faster than the Kobo. I think Kobo users will get into the habit of initiating the page turn before they have finished reading the page in an attempt to bring some flow to their reading. The Kindle on the other hand is very fast indeed – not as fast as a computer screen, but much faster than the Kobo. I think this will be one of the biggest frustration for people reading on the Kobo.
+There is much more to talk about when it comes to reading books on these e-book readers. First and foremost, when it comes to page-turns, the Kindle is an order of magnitude faster than the Kobo. I think Kobo users will get into the habit of initiating the page turn before they have finished reading the page in an attempt to bring some flow to their reading. The Kindle on the other hand is very fast indeed - not as fast as a computer screen, but much faster than the Kobo. I think this will be one of the biggest frustration for people reading on the Kobo.
 
-This is also one aspect of reading where the physical buttons of the non-touch device are preferable to the tap and swipe actions of the touch screen. I had big problems with the delays on the Kobo because on some occasions it didn't register my page turn, which meant I had to try again – and at other times I tried a second swipe just as the first swipe resulted in a page turn, which meant I skipped a page and had to go back.
+This is also one aspect of reading where the physical buttons of the non-touch device are preferable to the tap and swipe actions of the touch screen. I had big problems with the delays on the Kobo because on some occasions it didn't register my page turn, which meant I had to try again - and at other times I tried a second swipe just as the first swipe resulted in a page turn, which meant I skipped a page and had to go back.
 
 ## Storage
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/kindle_vs_kobo_3.jpg" alt="Kindle vs Kobo" loading="lazy"}
 :::
 
@@ -68,7 +71,7 @@ Both the Kobo and the Kindle offer more storage than you are likely to need. The
 
 The Kindle stores a back-up of all your content on-line, whether you buy the books on Amazon or elsewhere, which means you can archive your books to save space on the device if your collection is massive and then download whichever books you want using the built-in wi-fi.
 
-So despite the Kobo being expandable by quite a few extra gigabytes, both devices come with plenty of storage in the first place and offer a way to store your books somewhere other than your device in a location that makes them easy to download on demand (although with the Kobo this only applies to the books you purchased via the Kobo store – any other books will need to be added via the USB cable).
+So despite the Kobo being expandable by quite a few extra gigabytes, both devices come with plenty of storage in the first place and offer a way to store your books somewhere other than your device in a location that makes them easy to download on demand (although with the Kobo this only applies to the books you purchased via the Kobo store - any other books will need to be added via the USB cable).
 
 ## Book Stores
 
@@ -88,7 +91,7 @@ This is another important consideration where the Kindle beats the Kobo.
 
 ## Buying From Other Stores
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/kindle_vs_kobo_5.jpg" alt="Kindle vs Kobo" loading="lazy"}
 :::
 
@@ -106,13 +109,13 @@ The chances are that I will buy many books through the native book store, but fo
 
 ## Summary
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/kindle_vs_kobo_1.jpg" alt="Kindle vs Kobo" loading="lazy"}
 :::
 
-Where these two e-book readers are similar, they are very similar – but in all respects where there is a significant difference the Kindle comes out on top. If you want to have the most seamless reading experience there is no question that you should buy the Kindle.
+Where these two e-book readers are similar, they are very similar - but in all respects where there is a significant difference the Kindle comes out on top. If you want to have the most seamless reading experience there is no question that you should buy the Kindle.
 
-There are a lot of features on both devices that could be compared, but they both have a web browser, which works about as well as you would expect on a monochrome display, they both have a dictionary to obtain definitions, they both have slightly different ways of navigating the books in your library and finding books via the book store on the device – but there just isn't a significant difference in any of these aspects.
+There are a lot of features on both devices that could be compared, but they both have a web browser, which works about as well as you would expect on a monochrome display, they both have a dictionary to obtain definitions, they both have slightly different ways of navigating the books in your library and finding books via the book store on the device - but there just isn't a significant difference in any of these aspects.
 
 It is also very easy to be distracted by technical specifications and features that aren't important. If you are buying an e-book reader in order to read books, the features that matter are the ones listed below and nothing else should really affect your buying decision.
 
@@ -138,7 +141,7 @@ Decided on a Kindle, but don't know which Kindle to buy? I have written [a handy
 
 ## Feedback
 
-Here is some of the feedback I received on this article – I responded personally to these messages where possible. I am unable to publish all of the messages I receive as some are very specific.
+Here is some of the feedback I received on this article - I responded personally to these messages where possible. I am unable to publish all of the messages I receive as some are very specific.
 
 > Hey there — thanks for the Kobo vs. Kindle piece. You have helped me decide which product I will purchase. The Kindle Paperwhite.
 

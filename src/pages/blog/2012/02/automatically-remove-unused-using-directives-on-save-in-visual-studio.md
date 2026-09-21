@@ -2,6 +2,9 @@
 title: 'Automatically remove unused using directives on save in Visual Studio'
 navMenu: false
 pubDate: 2012-02-14T16:58:06+00:00
+bannerImage:
+    src: /img/2015/07/using_directives_1.png
+    alt: Visual Studio Remove and Sort
 authors:
     - steve-fenton
 categories:
@@ -15,7 +18,7 @@ I like to keep my using directives tidy when I'm using Visual Studio. If you let
 
 There is a built-in feature in Visual Studio that allows you to organise your using directives by removing the unused ones and sorting the rest.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/using_directives_1.png" alt="Visual Studio Remove and Sort"}
 :::
 
@@ -23,8 +26,8 @@ But there is a better way. Go and get yourself the PowerCommands for Visual Stud
 
 The options for PowerCommands are available through the normal Tools > Options menu.
 
-:::div{.inset}
+:::figure
 :img{src="/img/2015/07/using_directives_2.png" alt="Automatically Remove Unused Using Directives" loading="lazy"}
 :::
 
-Note – if you think PowerTools is removing using directives that it ought not to, make sure your code compiles. If it doesn't compile, it may accidentally remove a using directive that is actually in use – I've seen this behaviour mostly with System.Linq. Also, bear in mind that the feature is actually built-in to Visual Studio – PowerTools is just triggering the feature on save, which is really handy.
+Note: if you think PowerTools is removing using directives that it ought not to, make sure your code compiles. If it doesn't compile, it may accidentally remove a using directive that is actually in use, I've seen this behaviour mostly with System.Linq. Also, bear in mind that the feature is actually built-in to Visual Studio, PowerTools is just triggering the feature on save, which is really handy.
