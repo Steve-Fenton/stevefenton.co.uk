@@ -45,6 +45,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Ep.6: Change approvals](https://octopus.com/blog/continuous-delivery-office-hours-e6)
 - [Ep.7: Modern multi-tenancy](https://octopus.com/blog/continuous-delivery-office-hours-e7)
 - [Ep.8: AI efficiency and effectiveness](https://octopus.com/blog/continuous-delivery-office-hours-e8)
+- [Ep.9: The compliance ratchet](https://octopus.com/blog/continuous-delivery-office-hours-e9)
 
 ### DevOps culture and developer experience (DevEx)
 
