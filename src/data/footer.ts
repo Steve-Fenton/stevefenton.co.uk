@@ -16,7 +16,7 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			order: 10,
 			rel: 'me',
 		}, {
-		title: '🐦 Tweet',
+   title: '🐦 Tweet',
 			url: 'https://signup.tweet.app/r/stevefenton',
 			order: 15,
 			rel: 'me',
@@ -36,11 +36,6 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			order: 40,
 			rel: 'me',
 		}, {
-			title: '♾️ DevOps',
-			url: 'https://www.octopus.com/devops/authors/steve-fenton/1/',
-			order: 50,
-			rel: 'me',
-		}, {
 			title: '🐙 Octopus blog',
 			url: 'https://www.octopus.com/blog/authors/steve-fenton/1/',
 			order: 50,
@@ -49,16 +44,6 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			title: '📚 The New Stack',
 			url: 'https://thenewstack.io/author/steve-fenton/',
 			order: 60,
-			rel: 'me',
-		}, {
-			title: '🔮 Medium',
-			url: 'https://medium.com/@steve.fenton',
-			order: 70,
-			rel: 'me',
-		}, {
-			title: '⛽ DEV',
-			url: 'https://dev.to/_steve_fenton_',
-			order: 80,
 			rel: 'me',
 		}, {
 			title: '💻 Coderlegion',
