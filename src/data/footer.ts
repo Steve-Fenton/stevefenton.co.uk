@@ -16,6 +16,11 @@ export const menu: (MenuItem | 'categories' | 'tags' | 'toptags')[] = [
 			order: 10,
 			rel: 'me',
 		}, {
+		title: '🐦 Tweet',
+			url: 'https://signup.tweet.app/r/stevefenton',
+			order: 15,
+			rel: 'me',
+		}, {
 			title: '🦋 Bluesky',
 			url: 'https://bsky.app/profile/stevefenton.co.uk',
 			order: 20,
