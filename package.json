@@ -26,15 +26,15 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^8.0.0",
+    "@astrojs/mdx": "^8.0.1",
     "@img/sharp-linux-x64": "^0.35.4",
-    "astro-accelerator": "^7.1.20",
-    "astro-accelerator-utils": "^0.3.109",
-    "cspell": "^10.3.0",
-    "cve-lite-cli": "^1.34.0",
+    "astro-accelerator": "^7.1.23",
+    "astro-accelerator-utils": "^0.3.110",
+    "cspell": "^10.3.3",
+    "cve-lite-cli": "^1.35.0",
     "linkinator": "7.0.0",
     "optional": "^0.1.4",
-    "sharp": "^0.35.4",
-    "rimraf": "^6.1.3"
+    "rimraf": "^6.1.3",
+    "sharp": "^0.35.4"
   }
 }
