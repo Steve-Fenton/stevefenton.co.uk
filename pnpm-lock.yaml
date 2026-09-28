@@ -28,8 +28,8 @@ importers:
         specifier: ^10.3.3
         version: 10.3.3
       cve-lite-cli:
-        specifier: ^1.35.0
-        version: 1.35.0
+        specifier: ^1.36.0
+        version: 1.36.0
       linkinator:
         specifier: 7.0.0
         version: 7.0.0
@@ -1259,8 +1259,8 @@ packages:
     resolution: {integrity: sha512-X2AnOgcxqV+OdLm1M2FOl+bPQrM1LK1jwo4FhEoq8hi8JTR0tQ8ZWv3x3N2gVMIuUmpb4CLrV08rTP49IdFQ8w==}
     engines: {node: '>= 0.1.90'}
 
-  cve-lite-cli@1.35.0:
-    resolution: {integrity: sha512-xytzZIpw3B4JfJFacGQaJ03gmNghRJxyDZweNYAcHvNeplKqVQvWudyVvzhhfHYPEzpa++gbiX+kaEa7S6mdoQ==}
+  cve-lite-cli@1.36.0:
+    resolution: {integrity: sha512-2R1qjeYmT1gcEwy7lOLoCXtSMw5ruh7B3rT0UK1Kqu3JPeRk+dCZQzseRHWKnsOF9Z9VlY46PASgHBkW9fOYCw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1414,8 +1414,8 @@ packages:
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
 
-  fast-equals@6.0.3:
-    resolution: {integrity: sha512-IECu4C0fFZFoUC2cA2rDaNUuVIfWIZMwh3tY+ng924vOuD9OaUFFrcIrVwCKbV7TJDkGmrHfhwZ7R0AnHfVhyw==}
+  fast-equals@6.0.4:
+    resolution: {integrity: sha512-JiBeR0k76FIahi9zAtQR7X1jgZDKLE+fs5S9ryjOGYZWZCOcm8QiwgeahkFvaboS3i6PkGBopRznHKuKhm9zpg==}
     engines: {node: '>=6.0.0'}
 
   fast-string-truncated-width@3.0.3:
@@ -3668,7 +3668,7 @@ snapshots:
       '@cspell/cspell-pipe': 10.3.3
       '@cspell/cspell-types': 10.3.3
       cspell-trie-lib: 10.3.3(@cspell/cspell-types@10.3.3)
-      fast-equals: 6.0.3
+      fast-equals: 6.0.4
 
   cspell-gitignore@10.3.3:
     dependencies:
@@ -3783,7 +3783,7 @@ snapshots:
       csv-stringify: 6.8.3
       stream-transform: 3.5.1
 
-  cve-lite-cli@1.35.0:
+  cve-lite-cli@1.36.0:
     dependencies:
       better-sqlite3: 12.11.1
       fflate: 0.8.3
@@ -3952,7 +3952,7 @@ snapshots:
 
   extend@3.0.2: {}
 
-  fast-equals@6.0.3: {}
+  fast-equals@6.0.4: {}
 
   fast-string-truncated-width@3.0.3: {}
 
