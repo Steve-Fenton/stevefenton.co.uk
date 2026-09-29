@@ -19,17 +19,17 @@ importers:
         specifier: ^0.35.4
         version: 0.35.4
       astro-accelerator:
-        specifier: ^7.1.25
-        version: 7.1.25(@astrojs/markdown-satteri@0.4.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1)
+        specifier: ^7.1.26
+        version: 7.1.26(@astrojs/markdown-satteri@0.4.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1)
       astro-accelerator-utils:
-        specifier: ^0.3.110
-        version: 0.3.110
+        specifier: ^0.3.111
+        version: 0.3.111
       cspell:
         specifier: ^10.3.3
         version: 10.3.3
       cve-lite-cli:
-        specifier: ^1.36.0
-        version: 1.36.0
+        specifier: ^1.36.1
+        version: 1.36.1
       linkinator:
         specifier: 7.0.0
         version: 7.0.0
@@ -1041,11 +1041,11 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-accelerator-utils@0.3.110:
-    resolution: {integrity: sha512-hLYPAitPGnEwaPss2FevTLLnlZFzMlPJaN9iWH8zVOXJFkDWhd6oLI8G9ynv/AqDQJUY/txSYbAvaIhAFM4VsQ==}
+  astro-accelerator-utils@0.3.111:
+    resolution: {integrity: sha512-CUc3HCtjOjlPBQvg/iQgJwtC6p0+jckSFvLESFPsaRCpmcGCkO+ZxBa4HnsXHnA1fCRkITprO9N4Gz+iuIuSrw==}
 
-  astro-accelerator@7.1.25:
-    resolution: {integrity: sha512-P2D5VI03eqOMgLTsaihCfS+meNxF/249MzETQftdL+8sfX7p2lEpkaUdZ5w7qLTZJ3El+xHqDyIHrrr0+7a/lQ==}
+  astro-accelerator@7.1.26:
+    resolution: {integrity: sha512-Y/goOclBo48UoSAJKaYWZ0PsNsG4Ox1kv2yoMr+MOlLYhJXW6YamRzh7gFLnKpZu+uhCIVSkNuPrTkfeG0/J1w==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@7.3.3:
@@ -1259,8 +1259,8 @@ packages:
     resolution: {integrity: sha512-X2AnOgcxqV+OdLm1M2FOl+bPQrM1LK1jwo4FhEoq8hi8JTR0tQ8ZWv3x3N2gVMIuUmpb4CLrV08rTP49IdFQ8w==}
     engines: {node: '>= 0.1.90'}
 
-  cve-lite-cli@1.36.0:
-    resolution: {integrity: sha512-2R1qjeYmT1gcEwy7lOLoCXtSMw5ruh7B3rT0UK1Kqu3JPeRk+dCZQzseRHWKnsOF9Z9VlY46PASgHBkW9fOYCw==}
+  cve-lite-cli@1.36.1:
+    resolution: {integrity: sha512-mlQUaFMF/d0/wEzSXMa0o1+WsWS6B/ruXVu5x8j64zmawHf7et3DimfDl2A3tFFA07G4xvwBKhtts2lCUeXQOA==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2235,8 +2235,8 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  smol-toml@1.8.0:
-    resolution: {integrity: sha512-kCZr2V3ch9i00x8zXRhjUNVcjG9ijES5dDudkXvUVCT5QlJNQWElSJdZqyPemffHoLNUYwOcou0Fy+ojN0uHSQ==}
+  smol-toml@1.9.0:
+    resolution: {integrity: sha512-hpd+HLON7HdZXqYchMM/+LaTTbdK0AU3NngIJ4KVyWbY9bfQqdL9cD+4yf6dUoU2Ap4VsU0JkQi6FxAI1B2mXQ==}
     engines: {node: '>= 18'}
 
   source-map-js@1.2.1:
@@ -2340,8 +2340,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@8.10.2:
-    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
+  undici@8.11.0:
+    resolution: {integrity: sha512-AdzuGcAkzhbha3GgCSoUBx2P0quwym6qdFNCQz/fDGZc8w9XJ741wHUbt2kTmfPz+ZIOMkySFkiY7RXmiDDC8w==}
     engines: {node: '>=22.19.0'}
 
   unified@11.0.5:
@@ -2631,7 +2631,7 @@ snapshots:
       picomatch: 4.0.7
       retext-smartypants: 6.2.0
       shiki: 4.4.3
-      smol-toml: 1.8.0
+      smol-toml: 1.9.0
       unified: 11.0.5
 
   '@astrojs/markdown-remark@7.3.1':
@@ -3408,16 +3408,16 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-accelerator-utils@0.3.110: {}
+  astro-accelerator-utils@0.3.111: {}
 
-  astro-accelerator@7.1.25(@astrojs/markdown-satteri@0.4.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1):
+  astro-accelerator@7.1.26(@astrojs/markdown-satteri@0.4.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1):
     dependencies:
       optional: 0.1.4
       '@astrojs/markdown-remark': 7.3.1
       '@astrojs/mdx': 8.0.1(@astrojs/markdown-remark@7.3.1)(@astrojs/markdown-satteri@0.4.1)(astro@7.3.3(@astrojs/markdown-remark@7.3.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1))
       '@img/sharp-linux-x64': 0.35.4
       astro: 7.3.3(@astrojs/markdown-remark@7.3.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@25.0.3)(yaml@2.9.1)
-      astro-accelerator-utils: 0.3.110
+      astro-accelerator-utils: 0.3.111
       csv: 6.6.3
       hast-util-from-selector: 3.0.1
       html-to-text: 10.0.1
@@ -3501,7 +3501,7 @@ snapshots:
       piccolore: 0.1.3
       picomatch: 4.0.7
       shiki: 4.4.3
-      smol-toml: 1.8.0
+      smol-toml: 1.9.0
       svgo: 4.1.0
       tinyclip: 0.1.15
       tinyexec: 1.3.1
@@ -3659,7 +3659,7 @@ snapshots:
     dependencies:
       '@cspell/cspell-types': 10.3.3
       comment-json: 5.0.0
-      smol-toml: 1.8.0
+      smol-toml: 1.9.0
       yaml: 2.9.1
 
   cspell-dictionary@10.3.3:
@@ -3783,7 +3783,7 @@ snapshots:
       csv-stringify: 6.8.3
       stream-transform: 3.5.1
 
-  cve-lite-cli@1.36.0:
+  cve-lite-cli@1.36.1:
     dependencies:
       better-sqlite3: 12.11.1
       fflate: 0.8.3
@@ -5238,7 +5238,7 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  smol-toml@1.8.0: {}
+  smol-toml@1.9.0: {}
 
   source-map-js@1.2.1: {}
 
@@ -5345,7 +5345,7 @@ snapshots:
   undici-types@7.16.0:
     optional: true
 
-  undici@8.10.2: {}
+  undici@8.11.0: {}
 
   unified@11.0.5:
     dependencies:
@@ -5361,7 +5361,7 @@ snapshots:
     dependencies:
       css-tree: 3.2.1
       ohash: 2.0.12
-      undici: 8.10.2
+      undici: 8.11.0
 
   unist-util-find-after@5.0.0:
     dependencies:

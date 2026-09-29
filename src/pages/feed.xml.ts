@@ -82,7 +82,8 @@ async function getData() {
     .sort(PostOrdering.sortByModDateDesc)
     .slice(0, limit)
     .map(
-      (a) => `
+      (a) => {
+        return `
     <entry>
       <title>${escapeXml(a.frontmatter.title ?? '')}</title>
       <link href="${SITE.url + a.url}" />
@@ -90,11 +91,15 @@ async function getData() {
       <published>${a.frontmatter.pubDate}</published>
       <updated>${a.frontmatter.modDate ?? a.frontmatter.pubDate}</updated>
       <summary>${escapeXml(a.frontmatter.description ?? '')}</summary>
+      ${a.frontmatter.bannerImage?.src
+        ? `<link rel="enclosure" href="${SITE.url + a.frontmatter.bannerImage?.src}" type="image/*" />`
+        : ''}
       <author>
         <name>${escapeXml(getAuthorName(a.frontmatter))}</name>
       </author>
-      <content type="html"><![CDATA[${contentItems[a.url] ?? ''}]]></content>
-    </entry>`
+      <content type="html"><![CDATA[${(a.url && contentItems[a.url]) ?? ''}]]></content>
+    </entry>`;
+      }
     );
 
   stats.stop();
