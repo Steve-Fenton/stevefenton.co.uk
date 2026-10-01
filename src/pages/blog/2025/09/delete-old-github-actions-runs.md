@@ -2,6 +2,7 @@
 title: Automatically delete old GitHub Actions runs
 navMenu: false
 pubDate: 2025-09-16
+modDate: 2026-10-01
 keywords: github,actions,delete old runs
 description: How to clear out old GitHub Actions runs automatically.
 bannerImage:
@@ -23,16 +24,17 @@ So you need to throw your old GitHub Actions into a salt bath, melt them down, a
 
 ## The delete-old-actions action
 
-There's an action called [delete-old-actions](https://github.com/yanovation/delete-old-actions) that does exactly what we need. It doesn't use a bath or salt, but it does bin off all your old runs. It's like a robot that cleans your house while you're at the beach.
+There's an action called [prune-old-actions](https://github.com/marketplace/actions/prune-old-github-actions-runs) that does exactly what we need. It doesn't use a bath or salt, but it does bin off all your old runs. It's like a robot that cleans your house while you're at the beach.
 
 Here's how I use it to clean out runs once they exceed a 30 day threshold.
 
 ```yaml
-  clean:
+clean:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: yanovation/delete-old-actions@v1
+      - uses: actions/checkout@v7
+      - uses: yanovian/prune-old-actions@v1
         with:
           token: ${{ secrets.CLEAN_ACTIONS_TOKEN }}
           days-ago: 30
@@ -49,7 +51,12 @@ It also takes a `days-ago` argument, which I've set to `30`.
 You can ask the action to do a dry run, where it will tell you what it would have deleted. This is useful to get a feel for the destruction before you mete it out.
 
 ```yaml
- - uses: yanovation/delete-old-actions@v1
+clean:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: yanovian/prune-old-actions@v1
         with:
           token: ${{ secrets.CLEAN_ACTIONS_TOKEN }}
           days-ago: 30
@@ -61,10 +68,14 @@ You can ask the action to do a dry run, where it will tell you what it would hav
 It's possible you don't run your GitHub Actions that often, so you might want to make sure you keep a few runs even if they exceed the age you specify. You can use the keep-latest parameter to specify how many to hold onto.
 
 ```yaml
- - uses: yanovation/delete-old-actions@v1
+clean:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: yanovian/prune-old-actions@v1
         with:
           token: ${{ secrets.CLEAN_ACTIONS_TOKEN }}
-          days-ago: 30
           keep-latest: 3
 ```
 
