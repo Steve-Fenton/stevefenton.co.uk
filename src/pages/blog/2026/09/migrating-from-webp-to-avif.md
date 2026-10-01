@@ -45,21 +45,25 @@ Having got the resizing working, I tested the results. The images passed the cri
 
 Visually, the images still had the required pop, but now they came in under the size budget.
 
-| Image                 |      Webp |     Avif 90 |   Avif 80 |
-| :-------------------- | --------: | ----------: | --------: |
-| cat-etiquette         |      69.2 |        99.6 |      62.4 |
-| steve-design-thinking |      16.7 |        16.3 |      13.3 |
-| st-ives-skyline       |     157.0 |       190.0 |     135.0 |
-| london-night-water    |     111.0 |       168.0 |     102.0 |
-| rai-amsterdam         |     268.0 |       312.0 |     213.0 |
-| desk-cat              |     118.0 |       153.0 |     102.0 |
-| rego                  |      77.9 |        93.4 |      69.6 |
-| gamification          |      59.8 |        95.6 |      57.5 |
-| github-universe       |      46.9 |        76.2 |      43.1 |
-| astro                 |      16.2 |        16.3 |      12.1 |
-| npm                   |      10.4 |        14.0 |       9.3 |
-| **Total**             | **951.1** | **1,234.4** | **819.3** |
-| Change                |       0.0 |       283.3 |    -131.8 |
+| Image                 |      Webp |     Avif 90 |   Avif 80 |   Avif 70 |
+| :-------------------- | --------: | ----------: | --------: | --------: |
+| cat-etiquette         |      69.2 |        99.6 |      62.4 |      13.4 |
+| steve-design-thinking |      16.7 |        16.3 |      13.3 |      11.1 |
+| st-ives-skyline       |     157.0 |       190.0 |     135.0 |      18.8 |
+| london-night-water    |     111.0 |       168.0 |     102.0 |      17.1 |
+| rai-amsterdam         |     268.0 |       312.0 |     213.0 |      32.9 |
+| desk-cat              |     118.0 |       153.0 |     102.0 |      17.5 |
+| rego                  |      77.9 |        93.4 |      69.6 |      33.4 |
+| gamification          |      59.8 |        95.6 |      57.5 |      10.7 |
+| github-universe       |      46.9 |        76.2 |      43.1 |       8.3 |
+| astro                 |      16.2 |        16.3 |      12.1 |       4.4 |
+| npm                   |      10.4 |        14.0 |       9.3 |       3.4 |
+| **Total**             | **951.1** | **1,234.4** | **819.3** | **171.0** |
+| Change                |       0.0 |       283.3 |    -131.8 |    -780.1 |
+
+I decided to push things a little further and set the quality 70. There's a crucial note to add to this decision. When I tried it I wanted to just see what would happen and I fully expected to bump back up to 80 once more. When I've worked on optimizing JPEG images, a quality of 70 is usually visually poor compared to 80, there's a shelf somewhere just below 80 on a JPEG where it just looks terrible.
+
+With AVIF files, everything looked just fine at 70, which surprised me. Additionally, file sizes were utterly tiny. For example, the St. Ives Skyline picture size suddenly evaporated. It went from 157 kB (90) to 135 kB (80) to an incredible 19 kB (70). So, I'll be leaving it set to 70 for now.
 
 ## Knowing when to stop
 

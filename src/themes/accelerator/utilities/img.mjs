@@ -159,7 +159,7 @@ for (const file of filesToProcess) {
         await createDestinationFolder(resizeDestination);
 
         const metadata = await sharp(source).metadata();
-        const avifQuality = 80;
+        const avifQuality = 70;
 
         if (metadata.width > size[key]) {
             // Only resize if the image is larger than the target size
