@@ -34,6 +34,22 @@ if (maxLevel == null) {
   maxLevel = 3;
 }
 
+const tocItems: {
+  heading: (typeof headings)[number];
+  children: (typeof headings)[number][];
+}[] = [];
+let currentParent: (typeof tocItems)[number] | undefined;
+
+for (const heading of (headings ?? []).filter((h) => h.depth <= maxLevel)) {
+  if (heading.depth === 3 && currentParent) {
+    currentParent.children.push(heading);
+  } else {
+    const item = { heading, children: [] };
+    tocItems.push(item);
+    currentParent = heading.depth === 2 ? item : undefined;
+  }
+}
+
 if (typeof expanded === "number") {
   openInteraction = expanded;
 } else if (expanded === true) {
@@ -49,13 +65,20 @@ stats.stop();
       <details open={openAttribute} data-openon={openInteraction}>
         <summary>{_(Translations.toc.title)}</summary>
         <ol>
-          {headings
-            .filter((h) => h.depth <= maxLevel)
-            .map((heading) => (
-              <li class={"toc-lev-" + heading.depth}>
-                <a href={"#" + heading.slug}>{heading.text}</a>
-              </li>
-            ))}
+          {tocItems.map(({ heading, children }) => (
+            <li class={"toc-lev-" + heading.depth}>
+              <a href={"#" + heading.slug}>{heading.text}</a>
+              {children.length > 0 && (
+                <ol>
+                  {children.map((child) => (
+                    <li class={"toc-lev-" + child.depth}>
+                      <a href={"#" + child.slug}>{child.text}</a>
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </li>
+          ))}
         </ol>
       </details>
     </nav>
@@ -63,41 +86,50 @@ stats.stop();
 }
 
 <style is:global>
+  /* Table of Contents (TOC) */
+
   .page-toc {
-    margin: 0 0 var(--paragraph-margin) 0;
     font-size: var(--font-size-meta);
-  }
+    margin: 0 0 var(--paragraph-margin) 0;
 
-  .page-toc ol {
-    list-style: none;
-  }
+    & ol {
+      list-style: square;
+      margin-block: 0;
+    }
 
-  .page-toc li a {
-    display: block;
-    padding: 0.5rem 1rem;
-  }
+    & li {
+      & a {
+        display: block;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
 
-  .page-toc li.toc-lev-2 {
-    margin-left: 0rem;
-  }
+      & ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
 
-  .page-toc li.toc-lev-3 a {
-    margin-left: 1rem;
-  }
+        & li {
+          text-align: left;
+          hyphens: none;
 
-  .page-toc li.toc-lev-4 a {
-    margin-left: 2rem;
-  }
+          & a {
+            border-radius: var(--block-radius);
+            background-color: var(--aft-block);
+            color: var(--fore-link);
+            display: inline-block;
+            margin-inline: 0 0.3rem;
+            margin-block: 0 0.3rem;
+            font-size: var(--font-size-meta);
+          }
 
-  .page-toc li.toc-lev-5 a {
-    margin-left: 3rem;
-  }
-
-  .page-toc li.toc-lev-6 a {
-    margin-left: 4rem;
-  }
-
-  .page-toc summary {
-    cursor: pointer;
+          & a:hover,
+          a:focus {
+            background-color: var(--fore-link-alt);
+            color: var(--aft);
+          }
+        }
+      }
+    }
   }
 </style>
