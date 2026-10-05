@@ -19,11 +19,11 @@ importers:
         specifier: ^0.35.5
         version: 0.35.5
       astro-accelerator:
-        specifier: ^7.1.29
-        version: 7.1.29(@astrojs/markdown-satteri@0.4.2)(@types/node@25.0.3)(yaml@2.9.1)
+        specifier: ^7.1.31
+        version: 7.1.31(@astrojs/markdown-satteri@0.4.2)(@types/node@25.0.3)(yaml@2.9.1)
       astro-accelerator-utils:
-        specifier: ^0.3.111
-        version: 0.3.111
+        specifier: ^0.3.112
+        version: 0.3.112
       cspell:
         specifier: ^10.3.5
         version: 10.3.5
@@ -1047,11 +1047,11 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-accelerator-utils@0.3.111:
-    resolution: {integrity: sha512-CUc3HCtjOjlPBQvg/iQgJwtC6p0+jckSFvLESFPsaRCpmcGCkO+ZxBa4HnsXHnA1fCRkITprO9N4Gz+iuIuSrw==}
+  astro-accelerator-utils@0.3.112:
+    resolution: {integrity: sha512-UQyZOTVqblmA8s+i/uM+MrDaoQMqEwYYKQ5Gps0mUThWcePH05Gy/7ICrfIHIrLAhBrGXn0z1ghdBT0TJ6+fSw==}
 
-  astro-accelerator@7.1.29:
-    resolution: {integrity: sha512-VPH5xqlDsTkv15/ywdF2WnHtbvvnoxNT5GcfbM6Sw8hMr+883TpfZVedxeSXVWPMmb2o4Pa5I3Ua/w7D8M3Byw==}
+  astro-accelerator@7.1.31:
+    resolution: {integrity: sha512-onZwMMe5AZwLF2INr8A9cyFSn3Mt+3BroPjexBKEbt3QxTrBwRiOyPmDbaQJDra4u5SFlRy5mAHjseyUOP4E1Q==}
     engines: {node: '>=24', pnpm: '>=10'}
 
   astro@7.3.5:
@@ -3421,16 +3421,16 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-accelerator-utils@0.3.111: {}
+  astro-accelerator-utils@0.3.112: {}
 
-  astro-accelerator@7.1.29(@astrojs/markdown-satteri@0.4.2)(@types/node@25.0.3)(yaml@2.9.1):
+  astro-accelerator@7.1.31(@astrojs/markdown-satteri@0.4.2)(@types/node@25.0.3)(yaml@2.9.1):
     dependencies:
       optional: 0.1.4
       '@astrojs/markdown-remark': 7.3.1
       '@astrojs/mdx': 8.0.2(@astrojs/markdown-remark@7.3.1)(@astrojs/markdown-satteri@0.4.2)(astro@7.3.5(@astrojs/markdown-remark@7.3.1)(@types/node@25.0.3)(yaml@2.9.1))
       '@img/sharp-linux-x64': 0.35.5
       astro: 7.3.5(@astrojs/markdown-remark@7.3.1)(@types/node@25.0.3)(yaml@2.9.1)
-      astro-accelerator-utils: 0.3.111
+      astro-accelerator-utils: 0.3.112
       csv: 6.6.4
       hast-util-from-selector: 3.0.1
       html-to-text: 10.0.1
