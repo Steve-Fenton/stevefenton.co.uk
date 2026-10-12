@@ -13,7 +13,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ## Crucial ideas
 
-- [Work Is Water: Beat developer infinity by paying attention to flow](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
 - [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
 - [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Transformations always fail, especially when they succeed](https://thenewstack.io/the-cautionary-tale-of-the-browser-wars-and-why-business-transformations-often-fail/)
@@ -46,6 +45,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Ep.7: Modern multi-tenancy](https://octopus.com/blog/continuous-delivery-office-hours-e7)
 - [Ep.8: AI efficiency and effectiveness](https://octopus.com/blog/continuous-delivery-office-hours-e8)
 - [Ep.9: The compliance ratchet](https://octopus.com/blog/continuous-delivery-office-hours-e9)
+- [Ep.10: Modernizing legacy software](https://octopus.com/blog/continuous-delivery-office-hours-e10)
 
 ### DevOps culture and developer experience (DevEx)
 

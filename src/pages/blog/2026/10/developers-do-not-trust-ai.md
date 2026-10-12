@@ -16,7 +16,7 @@ tags:
   - AI
 meta:
   - name: canonical
-    content: "https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/"
+    content: https://thenewstack.io/developers-do-not-trust-ai-and-thats-a-good-thing/
 ---
 
 One of my old hobbies was writing for independent music magazines, such as Spill Magazine (distributed free at music venues) and DV8 (distributed free at hair salons). Over the years, I saw hundreds of unsigned bands and learned a crucial lesson: Amplification makes everything you do really loud, but it doesn't fundamentally change whether what you're doing is good or bad.
