@@ -1,7 +1,7 @@
 {
   "name": "stevefenton.co.uk",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "private": true,
   "packageManager": "pnpm@10.22.0",
   "engines": {
@@ -30,8 +30,8 @@
     "@img/sharp-linux-x64": "^0.35.5",
     "astro-accelerator": "^7.1.31",
     "astro-accelerator-utils": "^0.3.112",
-    "cspell": "^10.3.5",
-    "cve-lite-cli": "^1.37.0",
+    "cspell": "^10.3.6",
+    "cve-lite-cli": "^1.38.0",
     "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "rimraf": "^6.1.3",
