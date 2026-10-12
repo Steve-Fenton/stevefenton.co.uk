@@ -3,7 +3,7 @@ title: "Work is water"
 subtitle: "Beat developer infinity by paying attention to flow."
 pubDate: 2026-10-12
 description: "Find out why we can never be done and how rivers can show us the way."
-keywords: "ai,trust,developers"
+keywords: "work,flow,busy"
 navMenu: false
 bannerImage:
   src: /img/topic/nature/waterfalls.jpg
@@ -11,9 +11,9 @@ bannerImage:
 authors:
   - steve-fenton
 categories:
-  - Opinion
+  - Process
 tags:
-  - AI
+  - Work
 meta:
   - name: canonical
     content: https://thenewstack.io/work-is-water-beat-developer-infinity-by-paying-attention-to-flow/

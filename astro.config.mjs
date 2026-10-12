@@ -5,6 +5,7 @@ import { unified } from '@astrojs/markdown-remark';
 import { defaultLayout } from '/src/themes/accelerator/utilities/default-layout.mjs';
 import { attributeMarkdown, wrapTables } from './src/themes/accelerator/utilities/custom-markdown.mjs';
 import mdx from '@astrojs/mdx';
+import rego from './src/grammars/rego.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +14,11 @@ export default defineConfig({
   trailingSlash: "always",
   markdown: {
     shikiConfig: {
-      theme: "nord",
+      theme: "dracula-soft",
+      langs: [rego],
+      langAlias: {
+        opa: "rego",
+      },
     },
     processor: unified({
       remarkPlugins: [

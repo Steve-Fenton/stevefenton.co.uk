@@ -7,7 +7,7 @@ keywords: "rego,opa,policies,patterns"
 navMenu: false
 bannerImage:
   src: /img/topic/rego/rego.png
-  alt: A cuttlefish adorns the cover of Exploring Rego
+  alt: A cuttlefish adorns the cover of Exploring Rego.
 authors:
   - steve-fenton
 categories:

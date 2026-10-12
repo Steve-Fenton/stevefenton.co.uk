@@ -164,6 +164,7 @@
         "nmock",
         "nosniff",
         "npmjs",
+        "nord",
         "nslookup",
         "nullreferenceexception",
         "nunit",
@@ -174,6 +175,7 @@
         "Octonauts",
         "Octopack",
         "offs",
+        "opa",
         "openon",
         "Orosz",
         "Pais",
@@ -304,6 +306,7 @@
         "src/pages/2020/**",
         "src/pages/2021/**",
         "src/pages/2021/**",
-        "src/pages/2023/**"
+        "src/pages/2023/**",
+        "src/grammars/**"
     ]
 }
