@@ -13,7 +13,7 @@ The summit covers the full breadth of the cloud native and open source ecosystem
 
 ## AI Has Addictively Fast Feedback Loops
 
-October 13th, 2026 at 5 pm (UK)
+October 13th, 2026 at 4 pm (UK)
 
 I'll be exploring how AI-assisted development changes traditional engineering feedback loops, including the impact of fast AI interaction on focus, context switching and the way engineers structure and progress their work.
 
