@@ -64,9 +64,23 @@ When I was discussing the idea of AI etiquette with others in the software commu
 
 The more abstract idea sitting behind these principles is that low-effort production and low-effort review aren't helpful or welcome. If you don't have anything smarter to add than the AI tools, it may be better to sit back and let others work on it. This is why many AI-generated web articles are so worthless: you already got that exact text from the search engine's AI overview, and there is no additional expertise in the article to make it worth the reading time.
 
+## Sad patterns
+
+Thank you for sharing your stories! You've been in touch to tell me about how the formative rules of AI etiquette are being broken and it's starting to highlight common patterns.
+
+This is ordered by frequency of occurrence in the stories people shared with me.
+
+- **Transfer of burden**: Creating something verbose that you literally can't be bothered to read, and sending it to other people.
+- **"HAL said"**: Appealing to authority, but it's not "authority", it's AI.
+- **Premature implementation**: Doing things with no foresight or preparation because it's so easy, often things that don't need to be done at all.
+- **Expensive automation**: Using AI to automate deterministic work that could be done inexpensively another way.
+- **Disclosure error**: Catfishing friends and colleagues with undisclosed AI use, like automating your conversations with them or passing off AI generated content as your own work.
+
+Please share your real-world experiences to help me build on this list.
+
 ## Rules of etiquette
 
-Until we have broadly accepted terms of engagement around AI, teams and organizations will need to develop their own guidelines. If they do this openly, as [Oxide](https://rfd.shared.oxide.computer/rfd/0576) has done, it will help humans develop the much-needed shared etiquette. At Octopus, we have a [set of values](https://handbook.octopus.com/getting-oriented/values) that helps us navigate these decisions, not least "doing a smaller number of things at high quality," which has been instructive over the past few years..
+Until we have broadly accepted terms of engagement around AI, teams and organizations will need to develop their own guidelines. If they do this openly, as [Oxide](https://rfd.shared.oxide.computer/rfd/0576) has done, it will help humans develop the much-needed shared etiquette. At Octopus, we have a [set of values](https://handbook.octopus.com/getting-oriented/values) that helps us navigate these decisions, not least "doing a smaller number of things at high quality," which has been instructive over the past few years.
 
 Perhaps the most abstract view on this topic is to question which authentic part of yourself you have brought to the work. If you're not adding value over and above what can be statistically produced, you're doing a disservice to your colleagues. It also makes you the extinction target for this kind of technology, because if anyone could prompt their way to a similar result, what you do isn't needed.
 
