@@ -1,7 +1,7 @@
 {
   "name": "stevefenton.co.uk",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "private": true,
   "packageManager": "pnpm@10.22.0",
   "engines": {
@@ -26,12 +26,12 @@
     "theme": "pnpm update && node ./accelerator.js"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/mdx": "^8.0.3",
     "@img/sharp-linux-x64": "^0.35.5",
-    "astro-accelerator": "^7.1.31",
-    "astro-accelerator-utils": "^0.3.112",
+    "astro-accelerator": "^7.1.32",
+    "astro-accelerator-utils": "^0.3.113",
     "cspell": "^10.3.6",
-    "cve-lite-cli": "^1.38.0",
+    "cve-lite-cli": "^1.39.0",
     "linkinator": "7.0.0",
     "optional": "^0.1.4",
     "rimraf": "^6.1.3",
