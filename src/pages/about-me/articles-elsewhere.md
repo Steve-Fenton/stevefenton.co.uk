@@ -14,7 +14,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 ## Crucial ideas
 
 - [CI is not CD](https://thenewstack.io/ci-is-not-cd/)
-- [Why you *should* deploy on Friday](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Transformations always fail, especially when they succeed](https://thenewstack.io/the-cautionary-tale-of-the-browser-wars-and-why-business-transformations-often-fail/)
 
 ## DevOps and Continuous Delivery
