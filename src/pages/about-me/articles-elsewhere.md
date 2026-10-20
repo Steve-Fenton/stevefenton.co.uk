@@ -45,6 +45,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Ep.8: AI efficiency and effectiveness](https://octopus.com/blog/continuous-delivery-office-hours-e8)
 - [Ep.9: The compliance ratchet](https://octopus.com/blog/continuous-delivery-office-hours-e9)
 - [Ep.10: Modernizing legacy software](https://octopus.com/blog/continuous-delivery-office-hours-e10)
+- [Ep.11: Haute culture](https://octopus.com/blog/continuous-delivery-office-hours-e11)
 
 ### DevOps culture and developer experience (DevEx)
 
@@ -133,6 +134,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Your coding agent got the onboarding your developers never did](https://thenewstack.io/coding-agents-developer-neglect/)
 - [Winter is coming for AI tool budgets](https://thenewstack.io/ai-coding-duplication-rose/)
 - [Developers are addicted to AI, and managers are making it worse](https://thenewstack.io/study-developers-are-addicted/)
+- [AI and the Midas problem](https://thenewstack.io/ai-commoditizes-software-value/)
 
 ## Software delivery history
 
