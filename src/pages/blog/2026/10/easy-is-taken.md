@@ -16,9 +16,9 @@ tags:
   - AI
 ---
 
-Placing myself on a scale from hate to hype, I find I'm AI-cautious. That means I've spent time with an open mind trying out tools and techniques, I've formed an opinion about things that work and things that don't, and (crucially) I've realised that AI fundamentally can't make work easy.
+Placing myself on a scale of hate to hype, I find I'm AI-cautious. That means I've spent time with an open mind trying out tools and techniques, I've formed an opinion about things that work and things that don't, and (crucially) I've realised that AI fundamentally can't make work easy.
 
-Now, there are many unresolved problems with the companies, the data centers, the intellectual property, and the plain old "ick" of things made with coding agents, which I'm working through thank to the [model for acceptance](https://stevefenton.co.uk/blog/2026/04/generative-ai-harms/) (TL;DR if they removed all the harms, what would we collectively agree is good or bad use of this technology.).
+Now, there are many unresolved problems with the companies, the data centers, the intellectual property, and the plain old "ick" of things made with these tools, which I'm working through thanks to the [model for acceptance](https://stevefenton.co.uk/blog/2026/04/generative-ai-harms/) (TL;DR if they removed all the harms, what would we collectively agree is good or bad use of this technology.).
 
 :::figure
 
@@ -28,7 +28,7 @@ Now, there are many unresolved problems with the companies, the data centers, th
 
 :::
 
-But I'm sweeping aside all the ethical and moral concerns, and the need for [AI etiquette](https://stevefenton.co.uk/blog/2026/09/ai-etiquette/) to think through a "law of un-nature" that plagues AI.
+But I'm sweeping aside all the ethical and moral concerns, and the need for [AI etiquette](https://stevefenton.co.uk/blog/2026/09/ai-etiquette/) to think through a "law of (un)nature" that plagues AI.
 
 Let's get to it.
 
@@ -36,23 +36,25 @@ Let's get to it.
 
 Lot's of people do this. They take the *thing they do* and they delegate it to AI. They get some output from this process that ticks many of the boxes that were present before they used AI to do it. A proposal has a recognizable structure to it and, say, sixteen pages of words.
 
-That used to be hard work. Now you press a button and, as if by magic, you have the words arranged into the usual structure. Boom. Home time.
+That used to be hard work. Now you press a button and, as if by magic, you have lots of words arranged into the usual structure. Boom. Home time.
 
 Chuck it straight in the bin.
 
 ## For reasons you don't expect
 
-But wait. When I said check it in the bin, it sounds like I'm playing to the AI sceptics. The haters. But I'm not. This advice is for those embracing AI. I'm not suggesting you bin it because it's a pile of garbage, though I've reviewed some of these sixteen pagers and that's what inspired me to write up some thoughts on [AI etiquette](https://stevefenton.co.uk/blog/2026/09/ai-etiquette/).
+But wait. When I said chuck it in the bin, it sounds like I'm playing to the AI sceptics. The haters. But I'm not. This advice is also for those embracing AI. I'm not suggesting you bin it because it's a pile of garbage, though I've reviewed some of these sixteen pagers and that's what inspired me to write up my thoughts on [AI etiquette](https://stevefenton.co.uk/blog/2026/09/ai-etiquette/).
 
 No! I'm saying chuck it in the bin because it's too easy. If you can casually poke the machine and get a document, an article, or a software clone, its value is really the cost of the tokens and it's depreciating fast. You colleagues could have just asked their favourite AI engine, *Chat, j'ai pété*, for the same thing. Your boss could have prompted it out of the machine.
 
-The only exception to this is if you've imbued some deep skill and knowledge, some crucial insight, something that elevates what's produced from the text-equivalent of Excel's AVERAGE function into something that contains *real value*&trade;.
+The only exception to this is if you've imbued some deep skill, insight, or knowledge. You need to have some crucial insight, something that elevates what's produced from the text-equivalent of Excel's AVERAGE function into something that contains *real value*&trade;.
 
-And the kicker is that the thing you injected is probably the only part you need. Wrapping it in the purple foil of thousands of generated words mostly hides the cool bit you added.
+And the kicker is that the thing you injected is probably the only part you need. Wrapping it in the silver foil of thousands of generated words mostly hides the cool bit you contributed. 
+
+Why play hide and seek with your best thoughts?
 
 ## Nathaniel sits on a spike
 
-This issue of needing to add some *hard work* to the process isn't about some puritan ideal of cleansing ourselves through sweat and hardship. It's the a-ha moment behind a divergent approach to communicating with each other and producing things of value.
+This issue of needing to add some *hard work* to the process isn't about some puritan ideal of cleansing ourselves through sweat and hardship. It's the a-ha moment behind a divergent approach to communicating with each other or when building stuff.
 
 > &nbsp;
 >
@@ -67,7 +69,7 @@ This issue of needing to add some *hard work* to the process isn't about some pu
 >
 > <cite>Blackadder II, Episode 5. "Beer".</cite>
 
-Honestly, think about it. When it comes to the things AI can generate: words, images, code, diagrams... well, we're in a state of excess. It would be like discovering a spring that spewed out liquid gold at 1,064 degrees Celsius. You have a moment of thinking you're going to be rich, before realizing a plentiful thing ain't work so much. The coprolite industry gets a massive boost and becomes the only thing fashion designers want hanging around a model's neck.
+Honestly, think about it. When it comes to the things AI can generate: words, images, code, diagrams... well, we're in a state of excess. It would be like discovering a spring that spewed out liquid gold at 1,064 degrees Celsius. You have a moment of thinking you're going to be rich, before realizing a plentiful thing ain't worth so much. Days after you discover golden spring, the copper industry gets a massive boost and becomes the only thing fashion designers want hanging around a model's neck.
 
 So, we're not advocating for hard work as the only valid path to achieve value. What we're acknowledging is easy stuff doesn't need you as a mediator.
 
@@ -82,13 +84,13 @@ Now, almost every job has some things that are easy, but also boring. We often c
 5. Delegate them to an underling who carries on doing them, but also begins their own decision making process from point (1)
 6. Use AI to do the thing
 
-That full AI mode in point (6) seems like a real loser to me. For example, if you write a weekly update and then automate it from your Kanban board, it will likely become more concise with plain automation, but with AI, it becomes an essay or gives on that AI mouth-sick vibe. Nobody reads these, so go back to (1).
+That full AI mode in point (6) seems like a real loser to me. For example, if you write a weekly update and then automate it from your Kanban board, it will likely become more concise with plain automation, but with AI, it becomes an essay or gives people that AI mouth-sick vibe. Nobody reads these, so go back to (1).
 
 ## The hard way
 
 So we gotta go the hard way. Value is something we inject into the work. We can make that value land harder if we don't wrap it in silver-foil generated text, and not doing something at all is more efficient for everyone than opening up the LLM tap.
 
-If you only provide the polished nugget of pure <del>gold</del> coprolite, there's less change you'll accidentally plagiarise someone, include embarrassing errors, or waste everyone else's time. 
+If you only provide the polished nugget of pure <del>gold</del> copper, there's less chance you'll accidentally plagiarise someone, include embarrassing errors, or waste everyone else's time. 
 
 > It's not like the movies. They get 17 takes to get it right. We get one take. It lasts our whole lives. We mess it up and we're dead.
 >
