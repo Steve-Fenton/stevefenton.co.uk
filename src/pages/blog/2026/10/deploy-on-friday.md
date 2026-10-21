@@ -95,6 +95,6 @@ It's perfectly acceptable for your organization to decide they don't want to dep
 
 Working in small batches in known to improve software delivery performance. If you are following continuous delivery and DevOps, you might be deploying five times a day. If you rule out Fridays, you build up a Monday deployment that's five times bigger than your normal batch size. You are opting to downgrade your performance from "on demand" to "daily."
 
-The more continuously you deploy, the worse the idea of stopping for a day becomes. That means that the members the "don't deploy on Friday" movement, in the absence of specific organizational context, are opting for mediocrity.
+The more continuously you deploy, the worse the idea of stopping for a day becomes. That means that the members of the "don't deploy on Friday" movement, in the absence of specific organizational context, are opting for mediocrity.
 
 Don't just start deploying on Fridays. Take this as an opportunity to assess your situation, understand users and customers, and start improving your software delivery capabilities.
