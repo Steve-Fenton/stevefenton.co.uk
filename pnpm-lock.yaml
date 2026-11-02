@@ -22,8 +22,8 @@ importers:
         specifier: ^7.1.36
         version: 7.1.36(@astrojs/markdown-satteri@0.4.5)(@types/node@25.0.3)(esbuild@0.28.2)(yaml@2.9.1)
       astro-accelerator-utils:
-        specifier: ^0.3.115
-        version: 0.3.115
+        specifier: ^0.3.116
+        version: 0.3.116
       cspell:
         specifier: ^10.4.0
         version: 10.4.0
@@ -749,6 +749,7 @@ packages:
     engines: {node: '>=20.9.0'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@img/sharp-linuxmusl-arm64@0.35.5':
     resolution: {integrity: sha512-9HbMclmI1zlNkFRs3z9/eBtDjfD0sGlrX1z6b1qwmiFY5ElDLh4BC0LPBdVp7z1DXFiKlIcznf+ZlsuZzLxQqg==}
@@ -1042,9 +1043,6 @@ packages:
   astring@1.9.0:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
-
-  astro-accelerator-utils@0.3.115:
-    resolution: {integrity: sha512-ymv/hw0pxhalRPmIr6m5O+8Vmosdtrhd6Dvz2OwNoaCM8aziUm9VWRAenySdyjKNO3Ym1ixrdAeg9ntezQfiJA==}
 
   astro-accelerator-utils@0.3.116:
     resolution: {integrity: sha512-CE9K7WV3wXjgjS8YIxwW9Wd1beYKDCHUDhMNESU78mXWP70Iap5/dXeOoVhTo1wlmlnHEF26cOQYen6Rcd53Uw==}
@@ -3414,8 +3412,6 @@ snapshots:
   array-timsort@1.0.3: {}
 
   astring@1.9.0: {}
-
-  astro-accelerator-utils@0.3.115: {}
 
   astro-accelerator-utils@0.3.116: {}
 
