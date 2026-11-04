@@ -61,9 +61,9 @@ Visually, the images still had the required pop, but now they came in under the 
 | **Total**             | **951.1** | **1,234.4** | **310.6** |
 | Change                |       0.0 |       283.3 |    -640.5 |
 
-I decided to push things a little further and set the quality 70. There's a crucial note to add to this decision. When I tried it I wanted to just see what would happen and I fully expected to bump back up to 80 once more. When I've worked on optimizing JPEG images, a quality of 70 is usually visually poor compared to 80, there's a shelf somewhere just below 80 on a JPEG where it just looks terrible.
+I decided to push things a little further and set the quality to `50`. There's a crucial note to add to this decision. When I tried it I wanted to just see what would happen and I fully expected to bump back up once more. When I've worked on optimizing JPEG images, a quality of 70 is usually visually poor compared to 80, there's a shelf somewhere just below 80 on a JPEG where it just looks terrible.
 
-With AVIF files, everything looked just fine at 70, which surprised me. Additionally, file sizes were utterly tiny. For example, the St. Ives Skyline picture size suddenly evaporated. It went from 157 kB (90) to 135 kB (80) to an incredible 19 kB (70). So, I'll be leaving it set to 70 for now.
+With AVIF files, everything looked just fine at 50, which surprised me (until I learned this is essentially a JPEG with a quality of `80`). Additionally, file sizes were utterly tiny. For example, the St. Ives Skyline picture size suddenly evaporated. It went from 190.0 kB (90) to 49.6 kB (50). So, I'll be leaving it set as it is for now.
 
 ## Knowing when to stop
 
@@ -72,6 +72,6 @@ With AVIF files, everything looked just fine at 70, which surprised me. Addition
 :figcaption[A picture I took of a dramatic cloud.]
 :::
 
-I could squeeze the sponge harder, but I've saved more than 10% and images look better. That's enough to bank. WHenever I've used techniques like Impact Mapping, the clarity of knowing the target is great, but having a signal of when to stop is even more useful. If I really want to increase speed, I should create a "new map" of what success for that would look like, but I've hit the goal I needed.
+I could squeeze the sponge harder, but I've saved plenty and images look better. That's enough to bank. Whenever I've used techniques like Impact Mapping, the clarity of knowing the target is great, but having a signal of when to stop is even more useful. If I really want to increase speed, I should create a "new map" of what success for that would look like, but I've hit the goal I needed.
 
 My site isn't a visual feast of images. This is a place for words. Where you do find an image, it should be crisp and speedy. If you use Astro Accelerator, you can grab the latest version and re-generate your images to get the improvements.
