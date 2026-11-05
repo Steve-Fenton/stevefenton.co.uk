@@ -1,17 +1,27 @@
-shamefullyHoist: true
+blockExoticSubdeps: true
+
 ignoreScripts: true
+
 minimumReleaseAge: 10080
+
 minimumReleaseAgeExclude:
   - astro-accelerator
   - astro-accelerator-utils
   - astro@7.1.3
-trustPolicy: no-downgrade
-trustPolicyExclude:
-  - 'tinyclip@0.1.13'
-blockExoticSubdeps: true
+
 overrides:
-  "zod@<=3.22.2": ">=3.22.3"
-  "linkinator": "7.0.0"
+  glob@>=9.0.0 <=14.0.1: '>=14.0.2'
+  linkinator: 7.0.0
+  minimatch@>=7.0.0 <11.0.1: '>=11.0.1'
+  zod@<=3.22.2: '>=3.22.3'
+
+shamefullyHoist: true
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - tinyclip@0.1.13
+
 updateConfig:
   ignoreDependencies:
     - linkinator
