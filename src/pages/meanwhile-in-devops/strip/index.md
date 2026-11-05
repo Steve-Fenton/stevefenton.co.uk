@@ -1,6 +1,6 @@
 ---
 layout: src/layouts/Redirect.astro
-title: Redirect
+title: Strip
 redirect: /meanwhile-in-devops/1/
 navMenu: false
 pubDate: 2022-09-17
