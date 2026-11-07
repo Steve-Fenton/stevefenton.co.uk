@@ -7,7 +7,7 @@ authors:
 categories:
     - Programming
 tags:
-    - 'Octopus Deploy'
+    - Octopus
     - SQL
 ---
 
@@ -17,7 +17,7 @@ We are [using Octopus Deploy to perform model-driven deployments](/blog/2015/06/
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'MyDatabase' AND is_broker_enabled = 1)
     ALTER DATABASE [MyDatabase] SET ENABLE_BROKER
 ```
-This is caused by the script essentially waiting for everyone else’s connection to end, which isn’t likely to happen by chance.
+This is caused by the script essentially waiting for everyone else's connection to end, which isn't likely to happen by chance.
 
 To solve this problem, the script needs to be run in single user mode:
 

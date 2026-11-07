@@ -9,7 +9,7 @@ authors:
 categories:
     - Automation
 tags:
-    - 'Octopus Deploy'
+    - Octopus
 ---
 
 Config-as-code is a new feature that Octopus Deploy has just released into an early-access program. This feature allows you to store your deployment process in version control, using Git to manage your deployment as code - the same way you manage your application code.
@@ -26,7 +26,7 @@ If you have multiple deployment projects in the same repository, you can put the
 
 ## Enable config-as-code
 
-This feature preview is rolling out to Octopus Cloud customers at the time of writing. If you don’t see the configuration setting described below, check back in a few days to see if it has arrived. It will be made available to Octopus Server at a later date.
+This feature preview is rolling out to Octopus Cloud customers at the time of writing. If you don't see the configuration setting described below, check back in a few days to see if it has arrived. It will be made available to Octopus Server at a later date.
 
 From the dashboard in Octopus Deploy, navigate to **Configuration -> Features** to see if you have the Early Access settings group.
 
@@ -41,7 +41,7 @@ When you navigate to a deployment project, you will see a new setting called Ver
 
 ## Connect a Git repository
 
-I’m going to connect my deployment project to the same Git repository I use for the application code. I am using GitHub for this, but any Git repository can be used. You can also decide to store your deployment code in a separate repository if you would prefer to manage it that way.
+I'm going to connect my deployment project to the same Git repository I use for the application code. I am using GitHub for this, but any Git repository can be used. You can also decide to store your deployment code in a separate repository if you would prefer to manage it that way.
 
 There are two things you need to obtain from GitHub before you set up the Git repository in Octopus Deploy:
 
@@ -57,15 +57,15 @@ The URL of your GitHub repository can be found in the Code tab, using the drop-d
 
 You can obtain a new personal access token from **Profile -> Settings -> Developer settings -> Personal access tokens**.
 
-Click “Generate new token” and put in a descriptive name for the token in the Note field. For example “Octopus Deploy config-as-code Access”. The token will need to be assigned the repo permissions and the admin:repo\_hook read and write permissions. Once you generate the token, complete the next steps before you leave this page as it won’t be displayed again.
+Click "Generate new token" and put in a descriptive name for the token in the Note field. For example "Octopus Deploy config-as-code Access". The token will need to be assigned the repo permissions and the admin:repo\_hook read and write permissions. Once you generate the token, complete the next steps before you leave this page as it won't be displayed again.
 
 Go back to Octopus Deploy and open your deployment project. Navigate to **Settings -> Version Control**.
 
-Paste your repository URL, and enter your GitHub username and personal access token in the Authentication section. If your primary branch has a different name. For example, “trunk” rather than “main”, adjust the Default Branch Name.
+Paste your repository URL, and enter your GitHub username and personal access token in the Authentication section. If your primary branch has a different name. For example, "trunk" rather than "main", adjust the Default Branch Name.
 
-Use the TEST button to check your settings and the CONFIGURE… button to save the changes. You’ll be prompted to enter a commit message to be used to send the configuration to your repository. Check the permissions you assigned to your personal access token if your test fails.
+Use the TEST button to check your settings and the CONFIGURE… button to save the changes. You'll be prompted to enter a commit message to be used to send the configuration to your repository. Check the permissions you assigned to your personal access token if your test fails.
 
-If you navigate to your GitHub repository, you’ll see the new commit, along with a new “.octopus” folder. You can edit the text files in this folder using your normal developer workflow. The changes will be reflected in the Octopus Deploy dashboard. You can also continue to make edits in the dashboard and commit them back to version control. You can also use branches and pull requests to manage your changes. The Git repository becomes the single source of truth for the deployment process.
+If you navigate to your GitHub repository, you'll see the new commit, along with a new ".octopus" folder. You can edit the text files in this folder using your normal developer workflow. The changes will be reflected in the Octopus Deploy dashboard. You can also continue to make edits in the dashboard and commit them back to version control. You can also use branches and pull requests to manage your changes. The Git repository becomes the single source of truth for the deployment process.
 
 ## Testing branches
 
@@ -79,7 +79,7 @@ The other key change is the branch selection box. This allows you to switch to a
 
 Setting up config-as-code is just a matter of switching on the feature preview and entering your repository information.
 
-Once enabled, you can work trunk-based or within branches. You can make edits using your preferred text editor or within the Octopus Deploy dashboard. All the benefits of your team’s current development practices can be applied to the changes you make to the deployment process.
+Once enabled, you can work trunk-based or within branches. You can make edits using your preferred text editor or within the Octopus Deploy dashboard. All the benefits of your team's current development practices can be applied to the changes you make to the deployment process.
 
 Keep an eye on the [Octopus Blog](https://octopus.com/blog) for general availability, but why not try it out on a non-production app now?
 

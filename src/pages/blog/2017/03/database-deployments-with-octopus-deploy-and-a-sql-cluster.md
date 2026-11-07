@@ -8,7 +8,7 @@ categories:
     - Automation
 tags:
     - Deployments
-    - 'Octopus Deploy'
+    - Octopus
     - SQL
 ---
 
@@ -18,14 +18,14 @@ There are actually two strategies you can employ to do this, and you can choose 
 
 ## Cluster aware
 
-You’ll need to choose this option in the following circumstances:
+You'll need to choose this option in the following circumstances:
 
 - Your deployments are not replayable
-- You need to only run against the active server as the inactive one(s) isn’t reachable
+- You need to only run against the active server as the inactive one(s) isn't reachable
 
-To run cluster aware, or clustaware™, install the tentacle on one machine normally, and then on all of the others [using the same certificate](https://octopus.com/docs/how-to/export-and-import-tentacle-certificates-without-a-profile).
+To run cluster aware, or clustaware&trade;, install the tentacle on one machine normally, and then on all of the others [using the same certificate](https://octopus.com/docs/how-to/export-and-import-tentacle-certificates-without-a-profile).
 
-You can then make the service available via the cluster as a general service and configure Octopus using the cluster’s IP address. The deployment will be performed by whichever server is active at the time of the deployment. Because they all look alike to the Octopus Server (i.e. the same key) they are all treated like a single machine.
+You can then make the service available via the cluster as a general service and configure Octopus using the cluster's IP address. The deployment will be performed by whichever server is active at the time of the deployment. Because they all look alike to the Octopus Server (i.e. the same key) they are all treated like a single machine.
 
 ## Like multiple machines
 

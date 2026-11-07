@@ -11,7 +11,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'Octopus Deploy'
+    - Octopus
     - PowerShell
     - SQL
 ---

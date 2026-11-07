@@ -10,7 +10,7 @@ authors:
 categories:
     - Automation
 tags:
-    - 'Octopus Deploy'
+    - Octopus
 ---
 
 If you are using Octopus Deploy as part of a continuous delivery pipeline, you'll probably find that deployments don't fail very often. This means that when they do, people probably need to be told about it.

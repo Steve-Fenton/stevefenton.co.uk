@@ -8,7 +8,7 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'Octopus Deploy'
+    - Octopus
     - PowerShell
 ---
 
@@ -69,6 +69,6 @@ If (![string]::IsNullOrWhiteSpace($TestUrl)) {
 Write-Output "Done"
 ```
 
-I have placed this script in an Execute Script step at the end of the deployment, and the deployment will be marked as “failed” if the website cannot be reached.
+I have placed this script in an Execute Script step at the end of the deployment, and the deployment will be marked as "failed" if the website cannot be reached.
 
 You can extend the call to [Invoke-WebRequest to include certificates, credentials, and even data](https://technet.microsoft.com/en-us/library/hh849901.aspx).

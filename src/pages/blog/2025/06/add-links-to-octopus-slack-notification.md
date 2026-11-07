@@ -12,7 +12,7 @@ authors:
 categories:
     - Automation
 tags:
-    - Octopus Deploy
+    - Octopus
     - Slack
 ---
 

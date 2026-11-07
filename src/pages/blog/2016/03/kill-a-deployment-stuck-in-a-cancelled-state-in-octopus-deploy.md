@@ -9,15 +9,15 @@ categories:
     - Programming
 tags:
     - Deployments
-    - 'Octopus Deploy'
+    - Octopus
     - SQL
 ---
 
 This very rarely happens in Octopus Deploy, but if something catastrophic happens you may find it useful. I discovered this when the SQL Database server that has the OctopusDeploy database on was switched off during a deployment.
 
-Due to the loss of connectivity, the deployment got stuck, and cancelling it caused the deployment to get stuck in the “Cancelling” state.
+Due to the loss of connectivity, the deployment got stuck, and cancelling it caused the deployment to get stuck in the "Cancelling" state.
 
-So here is how you fix it. This is the long version, so everything will become clear – but you can see how you’d create your short version by fast-forwarding through it.
+So here is how you fix it. This is the long version, so everything will become clear – but you can see how you'd create your short version by fast-forwarding through it.
 
 ## Deployment ID
 
@@ -49,7 +49,7 @@ FROM [OctopusDeploy].[dbo].[ServerTask]
 WHERE Id = 'ServerTasks-8000'
 ```
 
-And you can un-stick it by setting its state to “Canceled” (just one “l”):
+And you can un-stick it by setting its state to "Canceled" (just one "l"):
 
 ```sql
 UPDATE [OctopusDeploy].[dbo].[ServerTask] 

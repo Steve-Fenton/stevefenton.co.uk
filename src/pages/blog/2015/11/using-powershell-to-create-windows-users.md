@@ -8,22 +8,22 @@ categories:
     - Automation
     - Programming
 tags:
-    - 'Octopus Deploy'
+    - Octopus
     - PowerShell
 ---
 
 Due to replication needing a few Windows users scattered about the place, I needed to write a PowerShell script to create the users as part of the Octopus Deploy automated deployment.
 
-For completeness, I have added some users to this script, but you can use “Sensitive” variables in Octopus Deploy to hide away important information such as passwords.
+For completeness, I have added some users to this script, but you can use "Sensitive" variables in Octopus Deploy to hide away important information such as passwords.
 
 ```powershell
 $computer = [ADSI]"WinNT://$Env:COMPUTERNAME,Computer"
 
 $users = @(
-    [pscustomobject]@{  Name="repl_distribution";   Description="Replication Distribution User";	Password="!" },
-    [pscustomobject]@{  Name="repl_logreader";      Description="Replication Log Reader User";		Password="!" },
-    [pscustomobject]@{  Name="repl_merge";          Description="Replication Merge User";		Password="!" },
-    [pscustomobject]@{  Name="repl_snapshot";       Description="Replication Snapshot User";		Password="!" }
+    [pscustomobject]@{  Name="repl_distribution";   Description="Replication Distribution User";    Password="!" },
+    [pscustomobject]@{  Name="repl_logreader";      Description="Replication Log Reader User";        Password="!" },
+    [pscustomobject]@{  Name="repl_merge";          Description="Replication Merge User";        Password="!" },
+    [pscustomobject]@{  Name="repl_snapshot";       Description="Replication Snapshot User";        Password="!" }
 )
 
 $accounts = $computer.Children | Where-Object {$_.SchemaClassName -eq 'user'}  | ForEach-Object {
@@ -73,10 +73,10 @@ If ($result.ReturnValue -eq 0 -or $result.ReturnValue -eq 22) {
 
 # Create list of users
 $users = @(
-    [pscustomobject]@{  Name="repl_distribution";   Description="Replication Distribution User";	Password="!" },
-    [pscustomobject]@{  Name="repl_logreader";      Description="Replication Log Reader User";		Password="!" },
-    [pscustomobject]@{  Name="repl_merge";          Description="Replication Merge User";		Password="!" },
-    [pscustomobject]@{  Name="repl_snapshot";       Description="Replication Snapshot User";		Password="!" }
+    [pscustomobject]@{  Name="repl_distribution";   Description="Replication Distribution User";    Password="!" },
+    [pscustomobject]@{  Name="repl_logreader";      Description="Replication Log Reader User";        Password="!" },
+    [pscustomobject]@{  Name="repl_merge";          Description="Replication Merge User";        Password="!" },
+    [pscustomobject]@{  Name="repl_snapshot";       Description="Replication Snapshot User";        Password="!" }
 )
 
 # Get list of local accounts

@@ -12,7 +12,7 @@ authors:
 categories:
     - Programming
 tags:
-    - Octopus Deploy
+    - Octopus
     - GitHub
 ---
 

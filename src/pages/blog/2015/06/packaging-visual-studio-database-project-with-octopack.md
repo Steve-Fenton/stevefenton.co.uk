@@ -7,28 +7,28 @@ authors:
 categories:
     - Automation
 tags:
-    - 'Octopus Deploy'
+    - Octopus
     - PowerShell
     - SQL
 ---
 
 The prevalent method of packaging databases for Octopus Deploy is to use update scripts, along with a tool such as DbUp or ReadyRoll to perform the upgrade and manage which scripts have been run on each environment.
 
-If you are using Visual Studio Database projects, though, you’ll be interested in how to perform a model-based upgrade using your dacpac file. There are a few examples out there, but they seem a little over-complicated.
+If you are using Visual Studio Database projects, though, you'll be interested in how to perform a model-based upgrade using your dacpac file. There are a few examples out there, but they seem a little over-complicated.
 
 So here is perhaps the simplest way to package your database project using OctoPack.
 
 ## Assembly Information
 
-Add an AssemblyInfo file (then drag it into the “Properties” folder). This is where you’ll control your version number and metadata.
+Add an AssemblyInfo file (then drag it into the "Properties" folder). This is where you'll control your version number and metadata.
 
-The most important part is the version numbers, which exist by default in your assembly information. You’ll need to change this each time you want to publish a package.
+The most important part is the version numbers, which exist by default in your assembly information. You'll need to change this each time you want to publish a package.
 
 ## Edit Project File
 
-You can’t add NuGet packages to your database project. Because you are almost certainly already using it for another project in your solution (the application the consumes the database, for example) you can piggy-back on it.
+You can't add NuGet packages to your database project. Because you are almost certainly already using it for another project in your solution (the application the consumes the database, for example) you can piggy-back on it.
 
-Edit your project file by inserting the following just before the closing “</Project>” tag.
+Edit your project file by inserting the following just before the closing "</Project>" tag.
 
 ```xml
 <Import Project="$(SolutionDir)\packages\OctoPack.3.0.42\tools\OctoPack.targets" 
@@ -55,11 +55,11 @@ msbuild YourSolution.sln /p:RunOctoPack=true
 
 The package will be placed in the database project directory:
 
-“\obj\octopacked\Your.Database.1.0.0.0.nupkg”
+"\obj\octopacked\Your.Database.1.0.0.0.nupkg"
 
 ## Add Deployment Script
 
->Add a deployment step to your project on the Octopus Deploy web portal, just after the database deployment step. Choose “Run PowerShell Script” and enter the following script. This will run your DacPac against the target database.
+>Add a deployment step to your project on the Octopus Deploy web portal, just after the database deployment step. Choose "Run PowerShell Script" and enter the following script. This will run your DacPac against the target database.
 
 ```powershell
 Write-Output "About to run PowerShell"
@@ -100,9 +100,9 @@ This script assumes you have set up the following Octopus Variables in your proj
 
 ## Troubleshooting
 
-To deploy a dacpac, you need to ensure the Data-Tier Application Framework is installed, this can be done by downloading the [DACFramework.msi installer](http://www.microsoft.com/en-us/download/details.aspx?id=38818) from Microsoft – if you have an x64 machine, **install both the x64 and x86** version. The Data-Tier Application Framework relies on the SQL ScriptDom, so you’ll need to install that too if it isn’t present. You can find them amongst the massive list on [Microsoft’s SQL Server Feature Pack page](https://www.microsoft.com/en-us/download/confirmation.aspx?id=29065).
+To deploy a dacpac, you need to ensure the Data-Tier Application Framework is installed, this can be done by downloading the [DACFramework.msi installer](http://www.microsoft.com/en-us/download/details.aspx?id=38818) from Microsoft – if you have an x64 machine, **install both the x64 and x86** version. The Data-Tier Application Framework relies on the SQL ScriptDom, so you'll need to install that too if it isn't present. You can find them amongst the massive list on [Microsoft's SQL Server Feature Pack page](https://www.microsoft.com/en-us/download/confirmation.aspx?id=29065).
 
-When deploying the database, you may get the error “This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.” – this is because PowerShell is attempting to run using .NET 2.0. You can update this by running the following two lines on the server.
+When deploying the database, you may get the error "This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded." – this is because PowerShell is attempting to run using .NET 2.0. You can update this by running the following two lines on the server.
 
 ```powershell
 reg add hklm\software\microsoft\.netframework /v OnlyUseLatestCLR /t REG_DWORD /d 1
