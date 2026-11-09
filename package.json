@@ -1,7 +1,7 @@
 {
   "name": "stevefenton.co.uk",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "private": true,
   "packageManager": "pnpm@10.22.0",
   "engines": {
