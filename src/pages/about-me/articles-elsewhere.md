@@ -123,7 +123,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 
 ## AI
 
-- [Stop wasting AI investment on a broken change approval process](https://thenewstack.io/stop-wasting-ai-investment-on-a-broken-change-approval-process/)
 - [How AI coding makes developers 56% and 19% slower](https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/)
 - [Code review isn't your bottleneck, even with AI](https://octopus.com/blog/code-review-not-bottleneck-even-with-ai)
 - [Developer Productivity in the Age of AI: Why Your Past Predicts Your Future](https://octopus.com/blog/developer-productivity-age-ai)
