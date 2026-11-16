@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript Mighty Morphing Mapped Types'
 navMenu: false
 pubDate: 2017-11-16T07:00:37+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Auto-close GitHub pull requests
 pubDate: 2026-05-27
 description: "Stop chasing old pull requests and get them marked as stale then kicked to oblivion when there's no activity"

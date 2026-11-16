@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The past, present and future of multi-tenancy
 subtitle: "Stronger data isolation without the drawbacks of earlier forms of dedicated infrastructure"
 pubDate: 2026-09-18

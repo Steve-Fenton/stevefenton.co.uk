@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Test and learn with Google Optimize multivariate testing'
 navMenu: false
 pubDate: 2018-02-05T08:50:21+00:00

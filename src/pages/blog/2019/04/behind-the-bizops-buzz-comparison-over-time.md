@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Behind the BizOps buzz: Comparison over time'
 navMenu: false
 pubDate: 2019-04-04T07:30:54+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript interfaces can extend classes'
 navMenu: false
 pubDate: 2013-06-14T12:07:44+01:00

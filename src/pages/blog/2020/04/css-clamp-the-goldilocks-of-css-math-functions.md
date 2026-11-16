@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'CSS Clamp: The Goldilocks of CSS math functions'
 navMenu: false
 pubDate: 2020-04-21T20:20:10+01:00

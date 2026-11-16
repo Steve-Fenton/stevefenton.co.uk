@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Upgrade Astro to v4'
 navMenu: false
 pubDate: 2023-12-07

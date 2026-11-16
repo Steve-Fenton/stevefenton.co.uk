@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'X509 certificates on Windows Server 2003'
 navMenu: false
 pubDate: 2011-01-14T19:59:16+00:00

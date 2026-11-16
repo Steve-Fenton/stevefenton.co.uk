@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Platform Engineering adoption'
 navMenu: false
 pubDate: 2024-03-27

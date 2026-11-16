@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The 1024 Byte Parable'
 navMenu: false
 pubDate: 2011-05-10T19:23:46+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Three Fs of event log monitoring'
 navMenu: false
 pubDate: 2017-11-06T05:00:07+00:00

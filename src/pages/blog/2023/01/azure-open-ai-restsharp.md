@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Calling Azure Open AI with RestSharp
 navMenu: false
 pubDate: 2023-01-28

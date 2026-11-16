@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Turn an old phone into a programmable keyboard
 navMenu: false
 pubDate: 2020-05-25T21:41:08+01:00

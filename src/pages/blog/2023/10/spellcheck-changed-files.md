@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Spellcheck only changed files with cspell'
 navMenu: false
 pubDate: 2023-10-01

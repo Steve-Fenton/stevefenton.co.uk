@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'ES6 destructuring funk'
 pubDate: 2014-03-17T22:30:39+00:00
 authors:

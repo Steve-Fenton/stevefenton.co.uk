@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Easily collect audit history on SQL Server tables'
 navMenu: false
 pubDate: 2019-09-26T07:50:22+01:00

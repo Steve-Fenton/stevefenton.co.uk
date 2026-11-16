@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Don't worry about the cargo cult
 navMenu: false
 pubDate: 2017-06-08T08:27:49+01:00

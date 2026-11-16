@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Just released tsUnit 1.6.0 with fakes'
 navMenu: false
 pubDate: 2014-11-13T20:08:39+00:00

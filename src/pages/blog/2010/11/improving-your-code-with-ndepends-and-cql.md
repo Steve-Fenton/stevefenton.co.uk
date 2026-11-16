@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Improving your code with NDepend and CQL'
 navMenu: false
 pubDate: 2010-11-22T20:13:43+00:00

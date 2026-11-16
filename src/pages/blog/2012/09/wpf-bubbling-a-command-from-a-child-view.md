@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'WPF bubbling a command from a child view'
 navMenu: false
 pubDate: 2012-09-20T23:57:08+01:00

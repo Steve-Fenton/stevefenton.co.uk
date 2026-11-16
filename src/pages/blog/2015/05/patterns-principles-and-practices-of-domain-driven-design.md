@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Patterns, principles, and practices of Domain Driven Design'
 navMenu: false
 pubDate: 2015-05-23T23:53:07+01:00

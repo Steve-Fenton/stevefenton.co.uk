@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Performance is a feature'
 navMenu: false
 pubDate: 2016-06-18T21:36:52+01:00

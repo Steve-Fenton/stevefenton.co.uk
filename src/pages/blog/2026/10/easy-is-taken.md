@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Easy is taken
 subtitle: "Why AI fundamentally can't make work easy."
 pubDate: 2026-10-19

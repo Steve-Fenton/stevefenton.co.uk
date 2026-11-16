@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Why do we love arbitrary arguments?'
 navMenu: false
 pubDate: 2012-01-17T17:05:27+00:00

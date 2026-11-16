@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Mocking NHJump in your unit tests'
 navMenu: false
 pubDate: 2010-09-16T20:41:33+01:00

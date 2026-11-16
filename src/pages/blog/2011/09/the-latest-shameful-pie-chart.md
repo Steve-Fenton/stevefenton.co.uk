@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The latest shameful pie chart'
 navMenu: false
 pubDate: 2011-09-26T17:43:34+01:00

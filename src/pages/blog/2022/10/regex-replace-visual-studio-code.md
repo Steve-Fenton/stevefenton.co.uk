@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to RegEx replace in Visual Studio Code'
 navMenu: false
 pubDate: 2022-10-07

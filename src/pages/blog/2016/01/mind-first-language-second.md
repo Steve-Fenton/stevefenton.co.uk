@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Mind first, language second'
 navMenu: false
 pubDate: 2016-01-31T19:04:43+00:00

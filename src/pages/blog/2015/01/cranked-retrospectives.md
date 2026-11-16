@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Cranked retrospectives'
 navMenu: false
 pubDate: 2015-01-03T16:53:59+00:00

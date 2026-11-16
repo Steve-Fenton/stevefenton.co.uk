@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "Stop automatic file tracking in VS Code's Explorer tab"
 subtitle: "For those who want to look at a folder while viewing a file from somewhere else!"
 pubDate: 2026-10-21

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to configure Google Analytics to protect privacy
 navMenu: false
 pubDate: 2022-01-31

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'There are no wrong answers only wrong questions'
 navMenu: false
 pubDate: 2014-01-20T23:18:51+00:00

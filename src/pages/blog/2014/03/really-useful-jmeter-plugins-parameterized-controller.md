@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Really useful JMeter plugins: Parameterized controller'
 navMenu: false
 pubDate: 2014-03-10T22:36:33+00:00

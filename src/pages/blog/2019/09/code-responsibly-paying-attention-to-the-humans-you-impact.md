@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Code responsibly: Paying attention to the humans you impact'
 navMenu: false
 pubDate: 2019-09-13T08:21:42+01:00

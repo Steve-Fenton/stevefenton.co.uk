@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Beach ball charts are worse than pie charts'
 navMenu: false
 pubDate: 2012-02-17T16:53:59+00:00

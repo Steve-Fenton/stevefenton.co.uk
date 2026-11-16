@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'The Alerting Principles'
 pubDate: 2017-11-20T05:00:40+00:00
 authors:

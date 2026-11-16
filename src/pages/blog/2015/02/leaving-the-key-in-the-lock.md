@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Leaving the key in the lock'
 navMenu: false
 pubDate: 2015-02-28T16:04:02+00:00

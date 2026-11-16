@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Visual Studio date and time string formatting improvements
 navMenu: false
 pubDate: 2021-10-26

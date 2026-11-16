@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Switch off rich link pasting in Edge
 navMenu: false
 pubDate: 2020-10-06T11:35:54+01:00

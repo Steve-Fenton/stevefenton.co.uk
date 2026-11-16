@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Stop writing web firmware'
 navMenu: false
 pubDate: 2017-11-30T08:50:47+00:00

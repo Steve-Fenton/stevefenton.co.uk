@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Why it is still important for a page to work without JavaScript'
 navMenu: false
 pubDate: 2011-08-09T17:55:18+01:00

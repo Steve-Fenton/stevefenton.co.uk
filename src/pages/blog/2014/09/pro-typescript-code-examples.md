@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Pro TypeScript code examples'
 navMenu: false
 pubDate: 2014-09-03T21:11:16+01:00

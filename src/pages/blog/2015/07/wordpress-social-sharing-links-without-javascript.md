@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'WordPress social sharing links without JavaScript'
 navMenu: false
 pubDate: 2015-07-11T20:56:19+01:00

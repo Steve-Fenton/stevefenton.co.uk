@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: A practical right-to-left example
 navMenu: false
 pubDate: 2022-01-28

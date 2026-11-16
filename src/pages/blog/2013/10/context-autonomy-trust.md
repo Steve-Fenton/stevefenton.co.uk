@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Context. Autonomy. Trust.'
 navMenu: false
 pubDate: 2013-10-11T10:45:38+01:00

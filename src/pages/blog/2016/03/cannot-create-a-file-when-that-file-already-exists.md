@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Cannot create a file when that file already exists'
 navMenu: false
 pubDate: 2016-03-21T14:12:57+00:00

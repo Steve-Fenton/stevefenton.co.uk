@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Embracing the TypeScript strict mode'
 navMenu: false
 pubDate: 2018-01-30T08:50:06+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript AMD dependency comment'
 navMenu: false
 pubDate: 2014-10-20T20:27:46+01:00

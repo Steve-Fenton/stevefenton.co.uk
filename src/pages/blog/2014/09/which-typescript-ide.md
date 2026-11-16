@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Which TypeScript IDE'
 navMenu: false
 pubDate: 2014-09-15T20:54:40+01:00

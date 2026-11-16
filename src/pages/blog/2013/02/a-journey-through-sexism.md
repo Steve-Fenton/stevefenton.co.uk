@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'A journey through sexism'
 navMenu: false
 pubDate: 2013-02-13T22:08:20+00:00

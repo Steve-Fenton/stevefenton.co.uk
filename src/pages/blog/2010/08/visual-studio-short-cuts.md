@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio Short Cuts'
 navMenu: false
 pubDate: 2010-08-14T20:52:39+01:00

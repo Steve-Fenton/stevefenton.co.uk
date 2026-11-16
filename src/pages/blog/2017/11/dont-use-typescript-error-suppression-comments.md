@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Don't use TypeScript error suppression comments
 navMenu: false
 pubDate: 2017-11-01T08:21:49+00:00

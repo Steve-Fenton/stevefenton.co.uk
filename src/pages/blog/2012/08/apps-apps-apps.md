@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Apps! Apps! Apps!'
 navMenu: false
 pubDate: 2012-08-07T15:32:23+01:00

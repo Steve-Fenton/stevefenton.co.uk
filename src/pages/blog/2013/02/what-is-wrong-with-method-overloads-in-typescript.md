@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'What is wrong with method overloads in TypeScript'
 navMenu: false
 pubDate: 2013-02-24T21:48:03+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The fundamentals of methodology'
 navMenu: false
 pubDate: 2015-12-06T07:00:12+00:00

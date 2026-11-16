@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Counting a non-generic IEnumerable
 navMenu: false
 pubDate: 2021-06-23T19:01:08+01:00

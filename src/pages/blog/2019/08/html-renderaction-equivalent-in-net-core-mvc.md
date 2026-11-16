@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Html.RenderAction equivalent in .NET Core MVC'
 navMenu: false
 pubDate: 2019-08-28T23:25:13+01:00

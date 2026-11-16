@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Converting markdown files to PDF in GitHub actions
 navMenu: false
 pubDate: 2022-04-14T13:24:36+01:00

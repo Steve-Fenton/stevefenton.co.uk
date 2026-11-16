@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Configure allowed IP addresses with Azure SQL Firewall'
 navMenu: false
 pubDate: 2018-02-07T11:48:47+00:00

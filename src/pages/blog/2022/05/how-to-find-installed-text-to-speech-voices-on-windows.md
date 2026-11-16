@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to find installed text-to-speech voices on Windows
 navMenu: false
 pubDate: 2022-05-16

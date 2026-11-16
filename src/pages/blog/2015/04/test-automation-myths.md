@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Test automation myths'
 navMenu: false
 pubDate: 2015-04-25T00:20:46+01:00

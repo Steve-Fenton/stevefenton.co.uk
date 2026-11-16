@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Measuring developer productivity'
 navMenu: false
 pubDate: 2023-09-05

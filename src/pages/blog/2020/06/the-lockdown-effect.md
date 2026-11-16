@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The Lockdown Effect
 navMenu: false
 pubDate: 2020-06-03T09:33:42+01:00

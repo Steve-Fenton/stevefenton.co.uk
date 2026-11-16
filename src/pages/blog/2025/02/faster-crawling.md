@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Faster crawl tests using Linkinator
 navMenu: false
 pubDate: 2025-02-13

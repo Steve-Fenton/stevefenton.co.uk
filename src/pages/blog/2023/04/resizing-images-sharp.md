@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automatically optimise and resize images with Sharp'
 navMenu: false
 pubDate: 2023-04-02

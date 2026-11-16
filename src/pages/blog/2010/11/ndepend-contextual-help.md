@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'NDepend contextual help'
 navMenu: false
 pubDate: 2010-11-05T20:38:27+00:00

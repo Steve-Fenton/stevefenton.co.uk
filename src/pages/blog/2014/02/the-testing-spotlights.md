@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The testing spotlights'
 navMenu: false
 pubDate: 2014-02-03T23:09:34+00:00

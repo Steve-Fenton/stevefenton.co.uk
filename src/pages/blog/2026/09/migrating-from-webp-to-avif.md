@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Migrating from WEBP to AVIF
 subtitle: "The format is for looks as much as speed"
 pubDate: 2026-09-26

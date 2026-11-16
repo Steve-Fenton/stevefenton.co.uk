@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'An early vision of TypeScript generics'
 navMenu: false
 pubDate: 2013-01-21T22:33:30+00:00

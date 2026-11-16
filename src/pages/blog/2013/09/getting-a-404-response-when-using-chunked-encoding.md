@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting a 404 response when using Chunked Encoding'
 navMenu: false
 pubDate: 2013-09-30T10:49:43+01:00

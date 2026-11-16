@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Operation could destabilize the runtime using fakes'
 navMenu: false
 pubDate: 2012-10-23T23:24:30+01:00

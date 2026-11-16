@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automatic deep focal range photography'
 navMenu: false
 pubDate: 2012-02-16T16:55:53+00:00

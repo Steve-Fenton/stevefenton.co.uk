@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Firefox spinners and what they can tell you'
 navMenu: false
 pubDate: 2011-06-15T18:08:02+01:00

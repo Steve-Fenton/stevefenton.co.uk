@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: DevOps Toolchains Beat Off-the-Shelf Platforms
 subtitle: "Many organizations search for a single platform they can buy and standardize on, but often teams struggle with a platform that doesn't work for them."
 pubDate: 2026-09-15

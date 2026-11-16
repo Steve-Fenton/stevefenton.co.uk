@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "Add Rego support to Astro"
 subtitle: "How to supply what Shiki needs to render your Rego code examples."
 pubDate: 2026-10-14

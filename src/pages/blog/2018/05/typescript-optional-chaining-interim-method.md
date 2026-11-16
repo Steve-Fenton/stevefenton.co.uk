@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript optional chaining interim method'
 navMenu: false
 pubDate: 2018-05-17T07:00:36+01:00

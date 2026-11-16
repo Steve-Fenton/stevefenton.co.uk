@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Welcome to my Astro site'
 navMenu: false
 pubDate: 2022-10-05

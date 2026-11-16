@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Great new testing features in Visual Studio 2012'
 navMenu: false
 pubDate: 2012-10-03T23:40:22+01:00

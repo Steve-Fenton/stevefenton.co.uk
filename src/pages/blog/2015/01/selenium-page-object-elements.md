@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Selenium page object elements'
 navMenu: false
 pubDate: 2015-01-01T16:57:40+00:00

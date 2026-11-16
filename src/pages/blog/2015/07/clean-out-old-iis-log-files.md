@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Clean out old IIS log files'
 navMenu: false
 pubDate: 2015-07-07T21:00:34+01:00

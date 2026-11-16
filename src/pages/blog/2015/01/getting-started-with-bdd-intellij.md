@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting started with BDD with IntelliJ'
 navMenu: false
 pubDate: 2015-01-17T16:33:28+00:00

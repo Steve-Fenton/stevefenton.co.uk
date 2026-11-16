@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Disband the committee and break established rules'
 navMenu: false
 pubDate: 2017-01-23T20:02:43+00:00

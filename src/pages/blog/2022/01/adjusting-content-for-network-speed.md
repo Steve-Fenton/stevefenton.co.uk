@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Adjusting Content for Network Speed
 navMenu: false
 pubDate: 2022-01-10

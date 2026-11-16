@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Universal tasks in Visual Studio Code'
 navMenu: false
 pubDate: 2015-07-22T07:30:21+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Java keytool and keystores: Common first-timer problems'
 navMenu: false
 pubDate: 2012-09-13T00:04:16+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Custom output from TypeSpec'
 navMenu: false
 pubDate: 2015-12-08T06:00:56+00:00

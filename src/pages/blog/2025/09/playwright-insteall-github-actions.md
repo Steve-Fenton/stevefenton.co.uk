@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Installing Playwright in GitHub Actions
 navMenu: false
 pubDate: 2025-09-07

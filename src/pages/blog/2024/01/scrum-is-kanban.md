@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Scrum is really just Kanban'
 navMenu: false
 pubDate: 2024-01-08

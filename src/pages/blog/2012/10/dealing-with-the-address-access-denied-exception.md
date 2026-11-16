@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Dealing with the address access denied exception'
 navMenu: false
 pubDate: 2012-10-05T23:35:28+01:00

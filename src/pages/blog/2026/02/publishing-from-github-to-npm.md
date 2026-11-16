@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Setting GitHub as a trusted publisher for npm
 avMenu: false
 pubDate: 2026-02-14

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Advanced Ruby gsub with regular expressions
 navMenu: false
 pubDate: 2022-08-03

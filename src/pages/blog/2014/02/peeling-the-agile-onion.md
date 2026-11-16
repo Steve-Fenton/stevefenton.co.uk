@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Peeling the Agile onion'
 navMenu: false
 pubDate: 2014-02-07T23:05:24+00:00

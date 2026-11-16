@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Convert a certificate from JKS format to PFX format'
 navMenu: false
 pubDate: 2012-09-24T23:54:20+01:00

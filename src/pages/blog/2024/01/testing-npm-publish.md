@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Testing NPM publish with a dry run'
 navMenu: false
 pubDate: 2024-02-08

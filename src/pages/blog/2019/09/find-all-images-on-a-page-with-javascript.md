@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Find all images on a page with JavaScript'
 navMenu: false
 pubDate: 2019-09-04T11:01:03+01:00

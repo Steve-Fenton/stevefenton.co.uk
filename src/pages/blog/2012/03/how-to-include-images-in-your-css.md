@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to include images in your CSS'
 navMenu: false
 pubDate: 2012-03-04T16:41:07+00:00

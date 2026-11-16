@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Debugging Adobe Analytics'
 navMenu: false
 pubDate: 2019-09-21T13:43:13+01:00

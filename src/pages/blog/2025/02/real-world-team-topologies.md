@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Using Team Topologies to map and move your team design
 navMenu: false
 pubDate: 2025-02-18

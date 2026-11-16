@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Is DevOps a replacement for Agile?'
 navMenu: false
 pubDate: 2018-06-21T07:00:03+01:00

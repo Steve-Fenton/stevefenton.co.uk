@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 and Skip to Content Links'
 navMenu: false
 pubDate: 2010-06-14T21:28:18+01:00

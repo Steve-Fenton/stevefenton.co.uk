@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to parse microdata with JavaScript'
 navMenu: false
 pubDate: 2022-12-13

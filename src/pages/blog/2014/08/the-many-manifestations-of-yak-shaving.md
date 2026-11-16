@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'The many manifestations of yak-shaving'
 pubDate: 2014-08-06T21:24:53+01:00
 authors:

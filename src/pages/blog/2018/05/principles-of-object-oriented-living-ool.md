@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Principles of Object-Oriented Living (OOL)'
 navMenu: false
 pubDate: 2018-05-23T07:00:02+01:00

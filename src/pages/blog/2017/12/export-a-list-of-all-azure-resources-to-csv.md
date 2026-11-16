@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Export a list of all Azure resources to CSV'
 navMenu: false
 pubDate: 2017-12-04T13:43:33+00:00

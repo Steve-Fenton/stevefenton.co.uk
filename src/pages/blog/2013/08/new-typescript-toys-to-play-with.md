@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'New TypeScript toys to play with'
 navMenu: false
 pubDate: 2013-08-06T11:29:15+01:00

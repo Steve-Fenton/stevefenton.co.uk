@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Invalid label JavaScript error'
 navMenu: false
 pubDate: 2011-02-15T19:51:32+00:00

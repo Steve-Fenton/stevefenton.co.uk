@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: JQuery and TypeScript - We Have a big problem with jquery.d.ts
 navMenu: false
 pubDate: 2020-04-27T07:00:34+01:00

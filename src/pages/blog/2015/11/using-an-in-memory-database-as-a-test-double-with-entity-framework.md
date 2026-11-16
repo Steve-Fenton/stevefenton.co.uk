@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using an in-memory database as a test double with Entity Framework'
 navMenu: false
 pubDate: 2015-11-10T07:00:41+00:00

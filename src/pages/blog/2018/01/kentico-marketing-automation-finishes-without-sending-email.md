@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Kentico marketing automation finishes without sending an email'
 navMenu: false
 pubDate: 2018-01-25T19:00:58+00:00

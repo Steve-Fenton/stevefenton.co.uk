@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'We need more precision, says #NoEstimates'
 navMenu: false
 pubDate: 2015-09-25T18:19:24+01:00

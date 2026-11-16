@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Lookup DNS on a specific nameserver with NSLOOKUP
 navMenu: false
 pubDate: 2020-11-10T16:06:11+00:00

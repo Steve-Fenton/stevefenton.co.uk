@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Filling-in the care gap'
 navMenu: false
 pubDate: 2016-08-20T05:00:39+01:00

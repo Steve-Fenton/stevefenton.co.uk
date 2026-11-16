@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Setting the default start-up project in Visual Studio'
 navMenu: false
 pubDate: 2015-10-28T08:12:59+00:00

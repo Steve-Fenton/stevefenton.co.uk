@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 URL input can be quite strict'
 navMenu: false
 pubDate: 2011-06-04T18:11:59+01:00

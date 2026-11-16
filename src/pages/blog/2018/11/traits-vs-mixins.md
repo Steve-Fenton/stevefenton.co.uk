@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Traits vs Mixins'
 navMenu: false
 pubDate: 2018-11-16T19:16:52+00:00

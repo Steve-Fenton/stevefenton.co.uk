@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Awesome Microsoft Edge vertical tabs
 navMenu: false
 pubDate: 2020-10-27T16:35:47+00:00

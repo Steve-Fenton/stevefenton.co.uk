@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Election 2017 boundaries'
 navMenu: false
 pubDate: 2017-06-10T19:48:01+01:00

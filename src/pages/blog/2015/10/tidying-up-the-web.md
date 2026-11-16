@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Tidying up The Web'
 navMenu: false
 pubDate: 2015-10-04T12:00:24+01:00

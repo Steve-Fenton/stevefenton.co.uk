@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'What data is missing?'
 navMenu: false
 pubDate: 2020-09-25T06:00:08+01:00

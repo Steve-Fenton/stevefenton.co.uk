@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'DataDog interactive monitor report'
 navMenu: false
 pubDate: 2016-04-12T06:00:23+01:00

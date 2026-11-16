@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Lessons from the debunked boiling frog
 navMenu: false
 pubDate: 2022-02-22

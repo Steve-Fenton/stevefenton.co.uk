@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio layout and option changes'
 navMenu: false
 pubDate: 2019-07-03T22:32:18+01:00

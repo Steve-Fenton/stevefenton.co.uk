@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Automatically delete old GitHub Actions runs
 navMenu: false
 pubDate: 2025-09-16

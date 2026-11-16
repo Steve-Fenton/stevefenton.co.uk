@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Sync your Visual Studio Online and Octopus Deploy version numbers'
 navMenu: false
 pubDate: 2015-09-17T16:55:53+01:00

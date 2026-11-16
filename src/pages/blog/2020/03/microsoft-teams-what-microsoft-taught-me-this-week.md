@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Microsoft Teams - What Microsoft taught me this week
 navMenu: false
 pubDate: 2020-03-17T18:07:56+00:00

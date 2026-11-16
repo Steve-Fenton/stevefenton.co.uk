@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Making work visible, board management, and software'
 navMenu: false
 pubDate: 2016-01-22T06:00:07+00:00

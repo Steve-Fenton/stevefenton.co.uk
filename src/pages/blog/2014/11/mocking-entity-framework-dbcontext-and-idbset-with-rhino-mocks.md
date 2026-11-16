@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Mocking Entity Framework DbContext and IDbSet with Rhino Mocks'
 navMenu: false
 pubDate: 2014-11-01T20:25:01+00:00

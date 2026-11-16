@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Agile boards: Rows vs columns'
 pubDate: 2013-06-12T12:09:03+01:00
 authors:

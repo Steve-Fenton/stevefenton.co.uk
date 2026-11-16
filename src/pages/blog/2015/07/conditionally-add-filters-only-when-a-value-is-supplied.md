@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Conditionally add filters only when a value is supplied'
 navMenu: false
 pubDate: 2015-07-25T07:30:26+01:00

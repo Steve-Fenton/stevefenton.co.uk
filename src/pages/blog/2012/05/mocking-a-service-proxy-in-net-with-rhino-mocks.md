@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Mocking a service proxy in .NET with Rhino Mocks'
 navMenu: false
 pubDate: 2012-05-10T16:12:30+01:00

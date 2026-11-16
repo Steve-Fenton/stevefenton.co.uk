@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Goodbye old browsers'
 navMenu: false
 pubDate: 2014-01-03T23:26:43+00:00

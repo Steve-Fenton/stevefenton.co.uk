@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Alternatives to reworking the Agile Manifesto'
 navMenu: false
 pubDate: 2014-02-12T23:03:53+00:00

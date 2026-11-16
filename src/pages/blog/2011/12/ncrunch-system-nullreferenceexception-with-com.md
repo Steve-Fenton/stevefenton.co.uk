@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'NCrunch system NullReferenceException with COM'
 navMenu: false
 pubDate: 2011-12-09T17:12:20+00:00

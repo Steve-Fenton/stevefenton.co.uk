@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Fenton JavaScript Ethos
 navMenu: false
 pubDate: 2009-06-20

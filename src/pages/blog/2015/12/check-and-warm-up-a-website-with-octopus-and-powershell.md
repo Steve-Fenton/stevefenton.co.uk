@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Check and warm up a website with Octopus Deploy and PowerShell'
 navMenu: false
 pubDate: 2015-12-02T06:00:59+00:00

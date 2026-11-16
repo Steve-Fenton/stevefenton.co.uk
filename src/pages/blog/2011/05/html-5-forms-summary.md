@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 forms summary'
 navMenu: false
 pubDate: 2011-05-23T19:07:50+01:00

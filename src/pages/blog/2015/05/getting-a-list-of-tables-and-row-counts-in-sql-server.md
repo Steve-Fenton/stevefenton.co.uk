@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting a list of tables and row counts in SQL Server'
 navMenu: false
 pubDate: 2015-05-09T00:01:42+01:00

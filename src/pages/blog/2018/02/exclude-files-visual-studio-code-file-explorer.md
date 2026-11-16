@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Exclude files from the Visual Studio Code file explorer'
 navMenu: false
 pubDate: 2018-02-27T08:50:12+00:00

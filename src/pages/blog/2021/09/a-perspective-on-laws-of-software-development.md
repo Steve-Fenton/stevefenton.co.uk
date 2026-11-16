@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: A perspective on laws of software development
 navMenu: false
 pubDate: 2021-09-14

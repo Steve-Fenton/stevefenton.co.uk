@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'NSubstitute vs Moq vs FakeItEasy vs Rhino'
 navMenu: false
 pubDate: 2014-12-20T19:35:36+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Special searches in Microsoft Word'
 navMenu: false
 pubDate: 2015-07-01T23:34:15+01:00

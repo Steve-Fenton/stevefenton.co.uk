@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Log phishing attack'
 navMenu: false
 pubDate: 2017-01-18T08:23:43+00:00

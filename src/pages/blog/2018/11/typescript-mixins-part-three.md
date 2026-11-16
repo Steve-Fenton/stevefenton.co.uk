@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript Mixins part three'
 navMenu: false
 pubDate: 2018-11-07T14:56:50+00:00

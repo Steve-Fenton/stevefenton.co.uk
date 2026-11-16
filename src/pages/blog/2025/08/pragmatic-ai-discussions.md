@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Pragmatic AI discussions
 navMenu: false
 pubDate: 2025-08-12

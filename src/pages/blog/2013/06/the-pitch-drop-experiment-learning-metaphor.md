@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The pitch drop experiment learning metaphor'
 navMenu: false
 pubDate: 2013-06-17T12:05:53+01:00

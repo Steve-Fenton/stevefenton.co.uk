@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Test-driven development and duplication'
 navMenu: false
 pubDate: 2017-08-04T10:36:40+01:00

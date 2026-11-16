@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Check certificate expiry date in .NET Core
 navMenu: false
 pubDate: 2020-04-04T15:35:51+01:00

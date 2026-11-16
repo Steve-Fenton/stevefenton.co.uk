@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Google uses image sprites
 navMenu: false
 pubDate: 2009-05-01

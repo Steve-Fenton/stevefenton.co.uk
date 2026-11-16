@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Partially cleaned hotel rooms
 navMenu: false
 pubDate: 2022-07-04

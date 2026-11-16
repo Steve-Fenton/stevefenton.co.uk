@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Always Use Those Curly Braces'
 navMenu: false
 pubDate: 2010-05-04

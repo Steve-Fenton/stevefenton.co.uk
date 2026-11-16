@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 forms number input elements'
 navMenu: false
 pubDate: 2011-05-23T19:08:55+01:00

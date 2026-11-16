@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Why devs (should) understand estimates'
 navMenu: false
 pubDate: 2019-10-24T13:30:11+01:00

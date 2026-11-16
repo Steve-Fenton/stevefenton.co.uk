@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio refactoring shortcuts'
 navMenu: false
 pubDate: 2013-09-12T10:55:14+01:00

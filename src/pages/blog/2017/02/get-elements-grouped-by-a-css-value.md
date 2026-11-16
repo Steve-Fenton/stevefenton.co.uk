@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Get elements grouped by a CSS value'
 navMenu: false
 pubDate: 2017-02-28T08:44:22+00:00

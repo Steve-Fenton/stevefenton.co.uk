@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Continued pie chart hatred'
 navMenu: false
 pubDate: 2010-12-02T20:11:46+00:00

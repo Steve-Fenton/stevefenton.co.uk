@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How Firefox Caching Works
 navMenu: false
 pubDate: 2009-07-23T22:30:52+01:00

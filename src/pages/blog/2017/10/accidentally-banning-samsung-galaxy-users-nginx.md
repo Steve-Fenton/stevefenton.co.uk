@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Accidentally banning Samsung Galaxy users with Nginx'
 navMenu: false
 pubDate: 2017-10-05T06:00:50+01:00

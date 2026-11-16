@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Your AI investment is eaten alive by your change approval process
 subtitle: Old knowledge provides the solution once again
 pubDate: 2026-11-09

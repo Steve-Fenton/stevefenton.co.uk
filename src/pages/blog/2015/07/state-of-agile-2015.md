@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'State of Agile 2015: The Quick Fix Diet'
 navMenu: false
 pubDate: 2015-07-18T17:56:31+01:00

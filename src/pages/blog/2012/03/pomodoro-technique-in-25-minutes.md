@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Pomodoro Technique in 25 minutes'
 navMenu: false
 pubDate: 2012-03-22T16:27:05+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The tree view that killed the program'
 navMenu: false
 pubDate: 2013-07-27T11:39:44+01:00

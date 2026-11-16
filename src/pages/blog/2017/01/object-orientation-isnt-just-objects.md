@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Object Orientation isn't just objects
 navMenu: false
 pubDate: 2017-01-21T12:56:30+00:00

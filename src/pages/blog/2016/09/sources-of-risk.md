@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Sources of risk'
 navMenu: false
 pubDate: 2016-09-14T06:00:40+01:00

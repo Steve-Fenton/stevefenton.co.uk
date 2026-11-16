@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Rockstar Programmer Stereotype'
 navMenu: false
 pubDate: 2015-08-19T07:30:53+01:00

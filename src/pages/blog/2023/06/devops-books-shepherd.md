@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'I wrote a list of DevOps books for Book DNA'
 navMenu: false
 pubDate: 2023-06-19

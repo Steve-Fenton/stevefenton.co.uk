@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'TypeScript definite assignment assertions'
 pubDate: 2018-01-17T20:06:02+00:00
 authors:

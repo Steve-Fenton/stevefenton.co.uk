@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Making errors visible in Visual Studio'
 navMenu: false
 pubDate: 2014-09-10T20:58:36+01:00

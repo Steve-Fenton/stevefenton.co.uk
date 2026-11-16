@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Background animation with JavaScript and CSS'
 navMenu: false
 pubDate: 2013-02-20T21:53:12+00:00

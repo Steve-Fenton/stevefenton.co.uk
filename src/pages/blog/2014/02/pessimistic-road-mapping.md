@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Pessimistic road mapping'
 navMenu: false
 pubDate: 2014-02-24T22:45:05+00:00

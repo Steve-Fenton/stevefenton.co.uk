@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Union types ease TypeScript getters and setters'
 navMenu: false
 pubDate: 2015-02-08T16:13:40+00:00

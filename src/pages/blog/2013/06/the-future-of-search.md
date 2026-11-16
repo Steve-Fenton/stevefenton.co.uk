@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The future of search'
 navMenu: false
 pubDate: 2013-06-26T12:01:14+01:00

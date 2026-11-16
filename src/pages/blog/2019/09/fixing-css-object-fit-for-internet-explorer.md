@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Fixing CSS object-fit for Internet Explorer'
 navMenu: false
 pubDate: 2019-09-20T07:00:45+01:00

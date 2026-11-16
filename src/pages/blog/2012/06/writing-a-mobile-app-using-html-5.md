@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Writing a mobile app using HTML5'
 navMenu: false
 pubDate: 2012-06-16T15:57:01+01:00

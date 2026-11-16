@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Conference circuit sexism'
 navMenu: false
 pubDate: 2013-08-02T11:36:40+01:00

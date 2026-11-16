@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Introducing an async pipeline in C#
 navMenu: false
 pubDate: 2021-10-25

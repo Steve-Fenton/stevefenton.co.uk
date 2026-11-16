@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Packaging and deploying a Visual Studio database project with OctoPack and Octopus Deploy'
 navMenu: false
 pubDate: 2015-06-24T18:21:57+01:00

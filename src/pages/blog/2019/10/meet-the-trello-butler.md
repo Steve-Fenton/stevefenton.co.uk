@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Meet the Trello Butler'
 navMenu: false
 pubDate: 2019-10-16T08:56:03+01:00

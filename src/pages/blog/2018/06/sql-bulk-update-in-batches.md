@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'SQL bulk update in batches'
 pubDate: 2018-06-29T17:12:18+01:00
 authors:

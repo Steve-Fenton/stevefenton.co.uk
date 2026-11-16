@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Run a console application with PowerShell'
 pubDate: 2016-09-29T11:56:11+01:00
 authors:

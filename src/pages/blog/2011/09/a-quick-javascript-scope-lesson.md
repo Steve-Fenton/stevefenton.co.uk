@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'A quick JavaScript scope lesson'
 navMenu: false
 pubDate: 2011-09-22T17:46:03+01:00

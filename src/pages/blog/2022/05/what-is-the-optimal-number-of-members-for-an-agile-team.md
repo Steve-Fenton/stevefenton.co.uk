@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: What is the optimal number of members for an agile team?
 navMenu: false
 pubDate: 2022-05-20

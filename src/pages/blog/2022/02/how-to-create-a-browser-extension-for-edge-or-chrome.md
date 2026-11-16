@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to create a browser extension for Edge or Chrome
 navMenu: false
 pubDate: 2022-02-08

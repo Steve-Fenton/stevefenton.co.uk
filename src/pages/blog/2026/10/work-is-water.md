@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "Work is water"
 subtitle: "Beat developer infinity by paying attention to flow."
 pubDate: 2026-10-12

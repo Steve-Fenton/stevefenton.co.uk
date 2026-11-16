@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Impact Mapping at the organisation level'
 navMenu: false
 pubDate: 2014-07-04T21:44:54+01:00

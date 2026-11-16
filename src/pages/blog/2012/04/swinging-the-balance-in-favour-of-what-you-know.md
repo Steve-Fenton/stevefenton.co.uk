@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Swinging the balance in favour of what you know'
 navMenu: false
 pubDate: 2012-04-13T16:24:47+01:00

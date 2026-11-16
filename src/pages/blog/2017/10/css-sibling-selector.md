@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The CSS sibling selector'
 navMenu: false
 pubDate: 2017-10-19T12:08:23+01:00

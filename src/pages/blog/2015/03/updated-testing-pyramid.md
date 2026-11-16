@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Updated testing pyramid'
 navMenu: false
 pubDate: 2015-03-21T15:56:48+00:00

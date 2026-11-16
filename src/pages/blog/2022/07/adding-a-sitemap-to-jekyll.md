@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Adding a sitemap to Jekyll
 navMenu: false
 pubDate: 2022-07-21

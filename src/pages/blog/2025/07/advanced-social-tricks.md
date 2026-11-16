@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Some useful advanced Mastodon tricks
 navMenu: false
 pubDate: 2025-07-22

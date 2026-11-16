@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using NCover with MSBuild to get reports and trends'
 navMenu: false
 pubDate: 2011-05-17T19:19:03+01:00

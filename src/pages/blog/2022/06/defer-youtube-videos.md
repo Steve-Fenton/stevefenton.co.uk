@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Defer YouTube Videos
 navMenu: false
 pubDate: 2022-06-12

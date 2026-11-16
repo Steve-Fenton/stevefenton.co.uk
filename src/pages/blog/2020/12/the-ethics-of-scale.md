@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The ethics of scale
 navMenu: false
 pubDate: 2020-12-03T06:00:37+00:00

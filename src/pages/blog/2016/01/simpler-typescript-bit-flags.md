@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Simpler TypeScript bit flags'
 navMenu: false
 pubDate: 2016-01-04T20:25:15+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using .NET Core Identity without the standard pages'
 navMenu: false
 pubDate: 2019-09-27T16:05:13+01:00

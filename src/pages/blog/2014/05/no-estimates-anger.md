@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: '#NoEstimates anger'
 navMenu: false
 pubDate: 2014-05-28T22:12:55+01:00

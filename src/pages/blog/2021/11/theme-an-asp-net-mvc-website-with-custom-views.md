@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Theme an ASP.NET MVC website with custom views
 navMenu: false
 pubDate: 2021-11-22

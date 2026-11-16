@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Show Links When Printing a Web Page'
 navMenu: false
 pubDate: 2010-07-07T21:02:19+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Removing special characters and diacritic marks in C#
 navMenu: false
 pubDate: 2020-03-26T13:18:16+00:00

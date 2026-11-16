@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Database deployments with Octopus Deploy and a SQL Cluster'
 navMenu: false
 pubDate: 2017-03-23T09:41:07+00:00

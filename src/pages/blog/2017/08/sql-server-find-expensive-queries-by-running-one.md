@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'SQL Server: Find expensive queries by running one'
 navMenu: false
 pubDate: 2017-08-07T16:10:08+01:00

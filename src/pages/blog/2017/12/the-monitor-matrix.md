@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Monitor Matrix'
 navMenu: false
 pubDate: 2017-12-04T05:00:06+00:00

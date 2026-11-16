@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript remote error logging'
 navMenu: false
 pubDate: 2012-09-07T00:06:46+01:00

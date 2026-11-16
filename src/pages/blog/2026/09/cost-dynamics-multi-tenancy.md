@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The cost dynamics of multi-tenancy
 subtitle: "Can software multi-tenancy equal infrastructure multi-tenancy when it comes to fair pricing?"
 pubDate: 2026-09-21

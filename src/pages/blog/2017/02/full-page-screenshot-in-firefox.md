@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Full page screenshot in Firefox'
 navMenu: false
 pubDate: 2017-02-01T06:00:32+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript generics and proposed breaking changes'
 navMenu: false
 pubDate: 2013-04-22T15:06:27+01:00

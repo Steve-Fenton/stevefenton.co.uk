@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'When to avoid using percentages'
 navMenu: false
 pubDate: 2013-01-05T22:37:12+00:00

@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'NUnit exception occurred while test discoverer was loading tests'
 pubDate: 2018-02-15T12:11:24+00:00
 authors:

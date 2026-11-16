@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The name BundleConfig does not exist in the current context'
 navMenu: false
 pubDate: 2013-02-18T22:01:11+00:00

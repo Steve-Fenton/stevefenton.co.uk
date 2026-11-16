@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Principles are combinative and contextual
 navMenu: false
 pubDate: 2022-02-14

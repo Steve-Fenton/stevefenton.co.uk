@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Execute raw SQL scripts in Entity Framework Core
 navMenu: false
 pubDate: 2020-10-13T07:00:36+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML Challenge: Toggle Switch vs Checkbox'
 navMenu: false
 pubDate: 2020-02-16T19:39:45+00:00

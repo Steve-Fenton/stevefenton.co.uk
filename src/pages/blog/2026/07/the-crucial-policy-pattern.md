@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The crucial policy pattern
 subtitle: When you use Rego and OPA you need to know this allow/deny trick
 pubDate: 2026-07-20

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Enabling SQL Service Broker hangs indefinitely'
 navMenu: false
 pubDate: 2015-08-12T14:23:42+01:00

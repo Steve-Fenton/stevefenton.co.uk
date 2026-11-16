@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Kill a deployment stuck in a cancelled state in Octopus Deploy'
 navMenu: false
 pubDate: 2016-03-09T06:00:01+00:00

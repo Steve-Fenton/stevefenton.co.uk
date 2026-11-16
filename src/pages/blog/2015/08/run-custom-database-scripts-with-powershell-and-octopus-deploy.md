@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Run custom database scripts with PowerShell and Octopus Deploy'
 navMenu: false
 pubDate: 2015-08-08T07:30:53+01:00

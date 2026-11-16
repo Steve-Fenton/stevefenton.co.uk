@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript: Using classes as interfaces'
 navMenu: false
 pubDate: 2017-11-05T16:05:52+00:00

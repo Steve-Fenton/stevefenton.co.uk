@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Monitor Selection Principles'
 navMenu: false
 pubDate: 2017-11-27T05:00:59+00:00

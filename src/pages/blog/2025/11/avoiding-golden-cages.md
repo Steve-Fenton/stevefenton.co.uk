@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Avoiding golden cages in Platform Engineering'
 navMenu: false
 pubDate: 2025-11-14

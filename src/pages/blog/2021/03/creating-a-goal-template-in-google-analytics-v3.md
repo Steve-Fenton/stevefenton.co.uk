@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Creating a goal template in Google Analytics v3
 navMenu: false
 pubDate: 2021-03-16T11:23:08+00:00

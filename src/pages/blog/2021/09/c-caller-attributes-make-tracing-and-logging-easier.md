@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: C# Caller Attributes make tracing and logging easier
 navMenu: false
 pubDate: 2021-09-03T07:50:24+01:00

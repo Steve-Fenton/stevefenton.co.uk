@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'A great example of a terrible pie chart'
 navMenu: false
 pubDate: 2011-10-03T17:38:31+01:00

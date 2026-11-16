@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Event code 3005: An unhandled exception has occurred'
 navMenu: false
 pubDate: 2011-01-18T19:57:45+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'All charts have the potential to suck'
 navMenu: false
 pubDate: 2011-07-11T18:01:53+01:00

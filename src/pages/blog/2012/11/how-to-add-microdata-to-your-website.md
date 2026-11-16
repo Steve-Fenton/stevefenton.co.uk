@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to add Microdata to your website'
 navMenu: false
 pubDate: 2012-11-28T22:48:31+00:00

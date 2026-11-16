@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Parameter Null Checking in C#
 navMenu: false
 pubDate: 2022-03-04

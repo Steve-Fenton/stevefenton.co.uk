@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Mainstream Effect'
 navMenu: false
 pubDate: 2016-01-20T06:00:47+00:00

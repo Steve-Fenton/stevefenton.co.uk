@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: A glance at PowerToys and WinGet
 navMenu: false
 pubDate: 2020-05-19T21:22:37+01:00

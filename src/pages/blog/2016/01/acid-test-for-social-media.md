@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Acid test for social media'
 navMenu: false
 pubDate: 2016-01-01T00:00:46+00:00

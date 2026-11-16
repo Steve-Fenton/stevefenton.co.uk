@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Kobo vs Kindle comparison: The ebook reader showdown'
 navMenu: false
 pubDate: 2012-02-29T16:44:44+00:00

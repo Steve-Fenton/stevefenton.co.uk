@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'A JavaScript resizeDone event for jQuery'
 navMenu: false
 pubDate: 2016-05-16T09:14:18+01:00

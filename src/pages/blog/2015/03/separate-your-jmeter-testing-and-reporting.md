@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Separate your JMeter testing and reporting'
 navMenu: false
 pubDate: 2015-03-28T15:45:26+00:00

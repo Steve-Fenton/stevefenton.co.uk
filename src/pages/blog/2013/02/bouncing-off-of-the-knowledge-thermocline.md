@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Bouncing off the knowledge thermocline'
 navMenu: false
 pubDate: 2013-02-28T15:51:24+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Upload all files in a folder to FTP
 navMenu: false
 pubDate: 2022-06-08

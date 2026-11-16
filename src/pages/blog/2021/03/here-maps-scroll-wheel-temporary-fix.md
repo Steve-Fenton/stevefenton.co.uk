@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Here Maps scroll wheel temporary fix
 navMenu: false
 pubDate: 2021-03-08T16:00:38+00:00

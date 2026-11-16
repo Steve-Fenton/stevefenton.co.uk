@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using Log Parser Studio to find user agents'
 navMenu: false
 pubDate: 2016-08-02T12:18:52+01:00

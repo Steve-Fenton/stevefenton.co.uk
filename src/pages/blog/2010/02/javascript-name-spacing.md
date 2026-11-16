@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript Namespacing'
 navMenu: false
 pubDate: 2010-02-03T22:11:14+00:00

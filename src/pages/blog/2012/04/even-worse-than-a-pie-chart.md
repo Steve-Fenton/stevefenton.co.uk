@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Even worse than a pie chart'
 navMenu: false
 pubDate: 2012-04-19T16:21:36+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript console table logging polyfill'
 navMenu: false
 pubDate: 2014-09-01T21:13:44+01:00

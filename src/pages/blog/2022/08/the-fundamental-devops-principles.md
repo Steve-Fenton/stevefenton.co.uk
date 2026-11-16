@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The Fundamental DevOps Principles
 navMenu: false
 pubDate: 2022-08-04

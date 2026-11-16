@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Running a query across multiple SQL Server databases
 navMenu: false
 pubDate: 2022-01-18

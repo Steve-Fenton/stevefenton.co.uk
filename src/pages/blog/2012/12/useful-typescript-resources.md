@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Useful TypeScript resources'
 navMenu: false
 pubDate: 2012-12-09T22:40:06+00:00

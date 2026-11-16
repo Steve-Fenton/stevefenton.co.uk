@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript Short Tags and XHTML'
 navMenu: false
 pubDate: 2010-05-20T21:32:10+01:00

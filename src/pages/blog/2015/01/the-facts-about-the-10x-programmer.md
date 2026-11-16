@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The facts about the 10x Programmer'
 navMenu: false
 pubDate: 2015-01-11T16:45:49+00:00

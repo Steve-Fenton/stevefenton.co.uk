@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Start and stop an Azure App Service on a schedule with Azure Logic Apps
 navMenu: false
 pubDate: 2020-07-22T19:00:05+01:00

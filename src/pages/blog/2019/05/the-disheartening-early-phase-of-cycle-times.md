@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The disheartening early phase of cycle times'
 navMenu: false
 pubDate: 2019-05-14T21:00:41+01:00

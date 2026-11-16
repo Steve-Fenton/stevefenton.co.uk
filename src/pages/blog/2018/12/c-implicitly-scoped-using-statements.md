@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'C# implicitly scoped using statements'
 navMenu: false
 pubDate: 2018-12-22T14:41:35+00:00

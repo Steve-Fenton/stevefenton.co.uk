@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Stretch targets in Agile teams'
 navMenu: false
 pubDate: 2013-07-10T11:56:08+01:00

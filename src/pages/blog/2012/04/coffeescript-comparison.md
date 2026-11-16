@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'CoffeeScript comparison'
 navMenu: false
 pubDate: 2012-04-21T16:17:26+01:00

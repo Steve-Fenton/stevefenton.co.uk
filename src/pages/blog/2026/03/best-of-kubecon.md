@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Best of KubeCon Europe 2026
 navMenu: false
 pubDate: 2026-03-24

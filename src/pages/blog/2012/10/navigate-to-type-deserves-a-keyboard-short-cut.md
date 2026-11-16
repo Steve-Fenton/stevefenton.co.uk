@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Navigate to type deserves a keyboard shortcut'
 navMenu: false
 pubDate: 2012-10-01T23:52:11+01:00

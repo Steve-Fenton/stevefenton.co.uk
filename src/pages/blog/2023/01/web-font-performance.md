@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: CSS web font performance
 navMenu: false
 pubDate: 2023-01-15

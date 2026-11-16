@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Help people cite your work with JavaScript'
 navMenu: false
 pubDate: 2015-08-12T07:30:26+01:00

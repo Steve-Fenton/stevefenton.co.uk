@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Westrum's organizational cultures are vital but misunderstood
 subtitle: "There's a robust way to test culture by focusing on information flow"
 pubDate: 2026-09-07

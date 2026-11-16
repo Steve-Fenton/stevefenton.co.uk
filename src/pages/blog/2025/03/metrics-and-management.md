@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Metrics at altitude
 navMenu: false
 pubDate: 2025-03-22

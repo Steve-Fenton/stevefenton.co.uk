@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Using sibling-selectors to style the element before the match
 navMenu: false
 pubDate: 2021-02-25T14:03:59+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'What is Cranked?'
 navMenu: false
 pubDate: 2014-05-06T12:02:28+01:00

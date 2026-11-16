@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Advanced CSS grid layouts'
 navMenu: false
 pubDate: 2022-12-08

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using a proxy to intercept methods'
 navMenu: false
 pubDate: 2018-05-21T07:00:17+01:00

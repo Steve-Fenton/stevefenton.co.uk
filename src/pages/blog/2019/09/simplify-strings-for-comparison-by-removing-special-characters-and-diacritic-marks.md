@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Simplify strings for comparison by removing special characters and diacritic marks'
 navMenu: false
 pubDate: 2019-09-13T16:30:49+01:00

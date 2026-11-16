@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting type safety for TypeScript promises'
 navMenu: false
 pubDate: 2017-11-21

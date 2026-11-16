@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Can labels save pie charts?'
 navMenu: false
 pubDate: 2013-05-06T14:44:28+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Harnessing the positive side of the Dunning Kruger Effect'
 navMenu: false
 pubDate: 2013-01-11T22:36:28+00:00

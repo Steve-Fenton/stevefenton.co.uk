@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using CSS Selectors'
 navMenu: false
 pubDate: 2010-06-21T21:19:46+01:00

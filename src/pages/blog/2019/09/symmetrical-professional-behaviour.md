@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Symmetrical Professional Behaviour'
 navMenu: false
 pubDate: 2019-09-23T16:28:22+01:00

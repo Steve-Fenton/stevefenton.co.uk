@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Apple iPad Unveiled'
 navMenu: false
 pubDate: 2010-01-28T22:13:28+00:00

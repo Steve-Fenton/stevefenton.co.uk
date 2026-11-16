@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How much do you want to spend on estimates'
 navMenu: false
 pubDate: 2013-08-01T11:38:04+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio selection tricks'
 navMenu: false
 pubDate: 2015-08-26T20:32:01+01:00

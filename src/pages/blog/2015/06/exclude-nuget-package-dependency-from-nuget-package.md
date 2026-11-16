@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Exclude NuGet package dependency from a NuGet package'
 navMenu: false
 pubDate: 2015-06-23T18:26:09+01:00

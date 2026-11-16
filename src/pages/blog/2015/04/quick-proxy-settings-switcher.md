@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Quick proxy settings switcher'
 navMenu: false
 pubDate: 2015-04-18T00:28:20+01:00

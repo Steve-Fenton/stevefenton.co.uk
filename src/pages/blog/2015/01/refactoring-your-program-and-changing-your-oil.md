@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Refactoring your program and changing your oil'
 navMenu: false
 pubDate: 2015-01-20T16:27:42+00:00

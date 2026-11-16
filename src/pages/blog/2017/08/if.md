@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'If'
 pubDate: 2017-08-18T05:00:44+01:00
 authors:

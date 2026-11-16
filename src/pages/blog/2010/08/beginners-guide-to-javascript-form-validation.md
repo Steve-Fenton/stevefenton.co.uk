@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Beginners Guide To JavaScript Form Validation'
 navMenu: false
 pubDate: 2010-08-23T20:46:26+01:00

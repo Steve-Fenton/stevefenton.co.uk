@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Short-term measurement error'
 navMenu: false
 pubDate: 2016-06-01T18:44:03+01:00

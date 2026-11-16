@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Slacker parsing in JavaScript'
 navMenu: false
 pubDate: 2014-02-15T23:00:40+00:00

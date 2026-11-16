@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Templating deployment processes in Octopus Deploy'
 navMenu: false
 pubDate: 2024-06-19

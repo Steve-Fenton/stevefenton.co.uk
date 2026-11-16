@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript default parameters'
 navMenu: false
 pubDate: 2013-05-24T14:15:05+01:00

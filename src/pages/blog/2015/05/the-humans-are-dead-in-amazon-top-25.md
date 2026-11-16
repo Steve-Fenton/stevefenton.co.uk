@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Humans Are Dead in Amazon Top 25'
 navMenu: false
 pubDate: 2015-05-30T23:45:51+01:00

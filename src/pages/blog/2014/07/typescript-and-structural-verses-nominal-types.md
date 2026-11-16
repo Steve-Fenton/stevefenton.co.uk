@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript and structural verses nominal types'
 navMenu: false
 pubDate: 2014-07-31T21:28:58+01:00

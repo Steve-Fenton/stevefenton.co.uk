@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Change availability of web farm servers with PowerShell
 navMenu: false
 pubDate: 2022-03-02

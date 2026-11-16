@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Dependency injection in PHP'
 navMenu: false
 pubDate: 2011-12-27T17:06:45+00:00

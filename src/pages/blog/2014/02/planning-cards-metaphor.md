@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Planning cards metaphor for quality'
 pubDate: 2014-02-01T23:11:55+00:00
 bannerImage:

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Avoiding Moral Hazard in your organisation
 navMenu: false
 pubDate: 2021-10-07

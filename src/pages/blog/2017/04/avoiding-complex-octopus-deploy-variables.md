@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Avoiding complex Octopus Deploy variables'
 navMenu: false
 pubDate: 2017-04-05T15:14:17+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'SQL Server: Get the size of all databases on a server'
 navMenu: false
 pubDate: 2018-09-04T08:34:33+01:00

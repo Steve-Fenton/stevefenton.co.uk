@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: TransactionScope and WCF Services
 navMenu: false
 pubDate: 2009-11-26T22:18:51+00:00

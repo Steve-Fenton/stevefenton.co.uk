@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to debug Google Analytics v4 (GA4)
 navMenu: false
 pubDate: 2021-06-14T08:22:03+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Risk Management: Materialisation vs Crystallisation'
 navMenu: false
 pubDate: 2018-10-16T19:58:15+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The for loop hangover in foreach land'
 navMenu: false
 pubDate: 2018-04-13T08:50:01+01:00

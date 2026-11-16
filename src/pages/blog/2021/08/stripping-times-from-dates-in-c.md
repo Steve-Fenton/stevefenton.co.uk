@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Stripping times from dates in C#
 navMenu: false
 pubDate: 2021-08-25T09:58:03+01:00

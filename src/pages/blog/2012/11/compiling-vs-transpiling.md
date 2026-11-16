@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Compiling vs transpiling'
 navMenu: false
 pubDate: 2012-11-18T23:02:16+00:00

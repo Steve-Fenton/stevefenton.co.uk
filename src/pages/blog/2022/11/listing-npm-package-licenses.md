@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Listing npm package licenses'
 navMenu: false
 pubDate: 2022-11-02

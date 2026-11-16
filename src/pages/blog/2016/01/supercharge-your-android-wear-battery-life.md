@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Supercharge your Android Wear battery life'
 navMenu: false
 pubDate: 2016-01-14T06:00:46+00:00

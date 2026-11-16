@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Common is not a name for an assembly'
 navMenu: false
 pubDate: 2012-03-05T16:39:05+00:00

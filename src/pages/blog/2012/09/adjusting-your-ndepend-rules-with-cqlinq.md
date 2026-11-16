@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Adjusting your NDepend rules with CQLinq'
 navMenu: false
 pubDate: 2012-09-16T00:01:07+01:00

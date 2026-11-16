@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript Constructors are Just Functions'
 navMenu: false
 pubDate: 2010-07-28T21:00:11+01:00

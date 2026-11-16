@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Why maturity models are fundamentally broken
 subtitle: "Maturity models make complex things appear simple, but we need to acknowledge the circumstances behind them being imposed on so many organizations."
 pubDate: 2026-09-28

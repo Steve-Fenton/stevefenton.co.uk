@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automating web login with HttpWebRequest'
 navMenu: false
 pubDate: 2012-10-19T23:26:12+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio Code IntelliCode extension preview'
 navMenu: false
 pubDate: 2018-12-06T09:50:27+00:00

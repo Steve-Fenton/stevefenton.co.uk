@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Classes and inheritance in TypeScript'
 navMenu: false
 pubDate: 2012-10-02T23:46:15+01:00

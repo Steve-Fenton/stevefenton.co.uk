@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Intermittent replication issue: Distribution agent failed to create temporary files'
 navMenu: false
 pubDate: 2016-04-20T06:00:12+01:00

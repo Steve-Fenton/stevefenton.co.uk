@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Entity type IdentityUserLogin<string> requires a primary key
 navMenu: false
 pubDate: 2020-04-14T07:50:23+01:00

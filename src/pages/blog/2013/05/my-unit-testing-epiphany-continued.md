@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'My unit testing epiphany continued'
 navMenu: false
 pubDate: 2013-05-13T14:30:28+01:00

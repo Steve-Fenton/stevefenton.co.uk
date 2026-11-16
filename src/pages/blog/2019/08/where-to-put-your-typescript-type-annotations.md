@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Where to put your TypeScript type annotations'
 navMenu: false
 pubDate: 2019-08-13T09:31:29+01:00

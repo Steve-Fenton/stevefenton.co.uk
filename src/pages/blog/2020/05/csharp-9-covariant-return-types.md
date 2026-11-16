@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: C# 9 covariant return types
 navMenu: false
 pubDate: 2020-05-26T06:30:22+01:00

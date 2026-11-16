@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Add page-specific permissions in Kentico'
 navMenu: false
 pubDate: 2017-11-29T08:50:01+00:00

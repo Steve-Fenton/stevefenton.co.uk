@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Pretty output from JSON.stringify
 navMenu: false
 pubDate: 2021-06-03T13:59:39+01:00

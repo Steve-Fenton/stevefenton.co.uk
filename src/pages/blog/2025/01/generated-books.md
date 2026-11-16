@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The 6 warning signs of an AI-generated book
 navMenu: false
 pubDate: 2025-01-01

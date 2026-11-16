@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Automatically update GitHub Action versions
 navMenu: false
 pubDate: 2026-03-14

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript and the search for typeless code'
 navMenu: false
 pubDate: 2013-03-10T15:41:36+00:00

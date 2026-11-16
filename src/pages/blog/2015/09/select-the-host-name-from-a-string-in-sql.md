@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Select the host name from a string in SQL'
 navMenu: false
 pubDate: 2015-09-14T08:43:46+01:00

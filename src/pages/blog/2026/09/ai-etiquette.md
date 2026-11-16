@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: AI etiquette
 subtitle: "An incomplete guide to working with humans when robots are in the room"
 pubDate: 2026-09-22

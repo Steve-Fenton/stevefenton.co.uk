@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How much documentation: Revisiting Royce'
 navMenu: false
 pubDate: 2018-05-24T07:00:34+01:00

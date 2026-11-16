@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Gamification is either infantile or manipulative
 navMenu: false
 pubDate: 2015-09-19

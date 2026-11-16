@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The difference between The Phoenix Project and The Unicorn Project
 navMenu: false
 pubDate: 2022-09-02

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Supercharge Your PHP Pages'
 navMenu: false
 pubDate: 2010-06-22T21:14:16+01:00

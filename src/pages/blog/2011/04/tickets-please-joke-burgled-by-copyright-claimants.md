@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Tickets Please joke burgled by copyright claimants'
 navMenu: false
 pubDate: 2011-04-27T19:33:48+01:00

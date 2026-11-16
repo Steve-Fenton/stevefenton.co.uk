@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting started: Microsoft Edge Tools for VS Code'
 navMenu: false
 pubDate: 2021-04-08T11:59:43+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Introduction to Aspects'
 navMenu: false
 pubDate: 2016-08-05T06:00:45+01:00

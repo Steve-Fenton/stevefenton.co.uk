@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Half-donut charts are still pie charts
 navMenu: false
 pubDate: 2020-01-01T20:56:17+00:00

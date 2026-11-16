@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Why Spotify will make music better'
 navMenu: false
 pubDate: 2013-05-08T14:43:34+01:00

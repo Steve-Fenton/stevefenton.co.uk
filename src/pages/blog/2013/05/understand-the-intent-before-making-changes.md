@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Understand the intent before making changes'
 navMenu: false
 pubDate: 2013-05-03T14:45:42+01:00

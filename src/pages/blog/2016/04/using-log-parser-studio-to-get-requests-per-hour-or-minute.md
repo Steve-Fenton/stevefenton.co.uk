@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using Log Parser Studio to get requests per hour or minute'
 navMenu: false
 pubDate: 2016-04-23T11:42:05+01:00

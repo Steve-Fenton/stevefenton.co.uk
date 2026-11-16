@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automation Philosophy'
 navMenu: false
 pubDate: 2015-02-14T16:11:17+00:00

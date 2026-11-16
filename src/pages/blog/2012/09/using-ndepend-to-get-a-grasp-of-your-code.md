@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using NDepend to get a grasp of your code'
 navMenu: false
 pubDate: 2012-09-04T00:11:39+01:00

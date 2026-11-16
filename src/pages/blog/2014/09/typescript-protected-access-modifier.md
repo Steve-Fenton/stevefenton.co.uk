@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript protected access modifier'
 navMenu: false
 pubDate: 2014-09-26T20:49:18+01:00

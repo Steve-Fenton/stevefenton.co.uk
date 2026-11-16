@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'CSS3 transitions and multiple transitions'
 navMenu: false
 pubDate: 2011-05-27T19:05:10+01:00

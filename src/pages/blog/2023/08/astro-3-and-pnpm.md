@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Upgrading to Astro 3.0 and PNPM'
 navMenu: false
 pubDate: 2023-08-31

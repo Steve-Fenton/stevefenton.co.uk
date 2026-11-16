@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Make HAProxy strip spaces from a request header'
 navMenu: false
 pubDate: 2019-11-19T16:14:53+00:00

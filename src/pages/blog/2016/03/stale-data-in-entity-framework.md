@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Stale data in Entity Framework'
 pubDate: 2016-03-23T16:10:57+00:00
 authors:

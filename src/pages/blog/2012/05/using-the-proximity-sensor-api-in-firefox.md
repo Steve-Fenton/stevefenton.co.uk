@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using the proximity sensor API in Firefox'
 navMenu: false
 pubDate: 2012-05-17T16:08:36+01:00

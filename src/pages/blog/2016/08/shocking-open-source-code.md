@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Shocking open source code'
 navMenu: false
 pubDate: 2016-08-05T06:00:06+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Mythical Man Month: Over-watering'
 navMenu: false
 pubDate: 2017-04-27T09:30:12+01:00

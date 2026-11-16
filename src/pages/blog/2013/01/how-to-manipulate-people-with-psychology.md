@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to manipulate people with psychology'
 navMenu: false
 pubDate: 2013-01-29T22:24:33+00:00

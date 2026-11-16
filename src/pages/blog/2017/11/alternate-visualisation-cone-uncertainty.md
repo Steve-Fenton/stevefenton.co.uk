@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Alternate visualisation of the Cone of Uncertainty'
 navMenu: false
 pubDate: 2017-11-16T08:50:46+00:00

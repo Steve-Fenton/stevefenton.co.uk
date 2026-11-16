@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: It may not be Picasso, but it is Brunel
 navMenu: false
 pubDate: 2025-11-06

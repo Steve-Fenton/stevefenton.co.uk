@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Optimising your jQuery'
 navMenu: false
 pubDate: 2010-11-11T20:17:22+00:00

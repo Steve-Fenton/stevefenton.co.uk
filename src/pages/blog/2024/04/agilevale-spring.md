@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The story of Agilevale Spring Water'
 navMenu: false
 pubDate: 2024-04-02

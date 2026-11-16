@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "Developers don't trust AI, and that's good"
 subtitle: "Encouraging people to increase their trust in AI can reduce agency, diminish personal responsibility, and lower vigilance."
 pubDate: 2026-10-05

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Linq style mapping for single objects'
 navMenu: false
 pubDate: 2019-08-25T14:19:27+01:00

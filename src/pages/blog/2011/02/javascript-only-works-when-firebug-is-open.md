@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript only works when Firebug is open'
 navMenu: false
 pubDate: 2011-02-16T19:46:07+00:00

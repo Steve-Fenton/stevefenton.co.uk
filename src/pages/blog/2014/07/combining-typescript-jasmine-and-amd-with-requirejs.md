@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Combining TypeScript, Jasmine, and AMD with RequireJS'
 navMenu: false
 pubDate: 2014-07-25T21:31:49+01:00

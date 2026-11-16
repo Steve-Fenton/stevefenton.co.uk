@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'To section or to article in HTML5'
 navMenu: false
 pubDate: 2012-04-05T16:26:06+01:00

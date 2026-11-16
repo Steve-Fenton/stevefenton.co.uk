@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: When people say I don't have time to read
 navMenu: false
 pubDate: 2022-01-06

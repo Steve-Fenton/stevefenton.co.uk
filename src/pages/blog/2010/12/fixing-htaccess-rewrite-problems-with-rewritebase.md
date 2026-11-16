@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Fixing .htaccess rewrite problems with RewriteBase'
 navMenu: false
 pubDate: 2010-12-06T20:07:52+00:00

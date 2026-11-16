@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Absent Boss Effect'
 navMenu: false
 pubDate: 2017-01-17T06:00:01+00:00

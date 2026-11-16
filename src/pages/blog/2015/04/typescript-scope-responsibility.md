@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript scope responsibility'
 navMenu: false
 pubDate: 2015-04-19T00:22:36+01:00

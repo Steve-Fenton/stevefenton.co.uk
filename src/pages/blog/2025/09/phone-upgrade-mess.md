@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The phone upgrade mess
 navMenu: false
 pubDate: 2025-09-12

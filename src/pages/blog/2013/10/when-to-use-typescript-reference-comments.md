@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'When to use TypeScript reference comments'
 navMenu: false
 pubDate: 2013-10-04T10:48:40+01:00

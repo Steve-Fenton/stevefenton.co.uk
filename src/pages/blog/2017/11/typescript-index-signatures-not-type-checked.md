@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript index signatures are not type checked'
 navMenu: false
 pubDate: 2017-11-28T21:11:21+00:00

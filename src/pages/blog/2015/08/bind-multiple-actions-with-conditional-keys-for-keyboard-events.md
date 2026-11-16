@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Bind multiple actions with conditional keys for keyboard events'
 navMenu: false
 pubDate: 2015-08-14T07:30:17+01:00

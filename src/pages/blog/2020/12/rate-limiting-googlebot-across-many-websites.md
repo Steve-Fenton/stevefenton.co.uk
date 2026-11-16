@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Rate-limiting Googlebot across many websites
 navMenu: false
 pubDate: 2020-12-31T06:00:32+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Multiple browser testing with Selenium SuperDriver'
 navMenu: false
 pubDate: 2015-01-18T16:29:20+00:00

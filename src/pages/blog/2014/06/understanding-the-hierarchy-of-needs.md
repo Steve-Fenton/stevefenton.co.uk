@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Understanding the hierarchy of needs'
 navMenu: false
 pubDate: 2014-06-01T21:55:44+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The cost of juggling'
 navMenu: false
 pubDate: 2018-04-20T20:14:13+01:00

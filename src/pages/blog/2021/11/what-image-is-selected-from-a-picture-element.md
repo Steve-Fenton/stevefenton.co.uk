@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The wrong image seems to be selected from a picture element
 navMenu: false
 pubDate: 2021-11-25T09:28:18+00:00

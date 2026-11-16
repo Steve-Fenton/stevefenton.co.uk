@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: HTML5 Browser Test
 navMenu: false
 pubDate: 2009-07-28T22:26:20+01:00

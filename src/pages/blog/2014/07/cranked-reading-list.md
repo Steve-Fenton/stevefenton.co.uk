@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Cranked reading list'
 navMenu: false
 pubDate: 2014-07-21T12:13:13+01:00

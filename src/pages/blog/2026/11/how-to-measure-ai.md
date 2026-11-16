@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "How to measure AI's impact"
 subtitle: "Don't repeat old mistakes on new technologies"
 pubDate: 2026-11-04

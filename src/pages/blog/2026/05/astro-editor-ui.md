@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: A local CMS for editing Astro sites
 pubDate: 2026-05-23
 description: A little project for editing Astro sites

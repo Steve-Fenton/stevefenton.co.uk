@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automatically remove unused using directives on save in Visual Studio'
 navMenu: false
 pubDate: 2012-02-14T16:58:06+00:00

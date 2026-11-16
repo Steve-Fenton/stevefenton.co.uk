@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Automatically updating your AssemblyInfo with a batch file'
 navMenu: false
 pubDate: 2012-11-20T23:00:50+00:00

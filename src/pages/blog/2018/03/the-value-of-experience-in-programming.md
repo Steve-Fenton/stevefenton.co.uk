@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The value of experience in programming'
 navMenu: false
 pubDate: 2018-03-28T13:38:59+01:00

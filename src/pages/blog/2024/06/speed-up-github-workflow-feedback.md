@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Speed up GitHub workflow feedback'
 navMenu: false
 pubDate: 2024-06-20

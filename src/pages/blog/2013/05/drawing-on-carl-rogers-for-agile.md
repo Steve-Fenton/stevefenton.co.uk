@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Drawing on Carl Rogers for Agile'
 navMenu: false
 pubDate: 2013-05-17T14:23:06+01:00

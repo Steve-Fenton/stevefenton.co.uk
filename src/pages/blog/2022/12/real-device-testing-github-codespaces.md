@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Use GitHub Codespaces to test your dev changes on real devices'
 navMenu: false
 pubDate: 2022-12-06

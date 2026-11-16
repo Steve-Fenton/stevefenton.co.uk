@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 Page Layout'
 navMenu: false
 pubDate: 2010-07-03T21:10:02+01:00

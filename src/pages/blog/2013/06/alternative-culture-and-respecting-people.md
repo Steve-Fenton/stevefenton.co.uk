@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Alternative culture and respecting people'
 navMenu: false
 pubDate: 2013-06-28T11:59:53+01:00

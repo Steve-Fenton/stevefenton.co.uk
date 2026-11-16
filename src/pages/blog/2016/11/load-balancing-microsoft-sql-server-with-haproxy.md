@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Load balancing Microsoft SQL Server with HAProxy'
 navMenu: false
 pubDate: 2016-11-04T13:03:17+00:00

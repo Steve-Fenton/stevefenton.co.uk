@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio 2013 crashes when dragging items onto layer diagrams'
 navMenu: false
 pubDate: 2014-10-10T20:41:59+01:00

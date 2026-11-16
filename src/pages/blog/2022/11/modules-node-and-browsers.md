@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Writing modules for both Node.js and web browsers'
 navMenu: false
 pubDate: 2022-11-03

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Programmer Anarchy opinion piece'
 navMenu: false
 pubDate: 2013-05-27T12:15:39+01:00

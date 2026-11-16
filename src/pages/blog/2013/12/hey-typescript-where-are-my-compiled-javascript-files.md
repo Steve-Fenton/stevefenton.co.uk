@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Hey TypeScript! Where are my compiled JavaScript files'
 navMenu: false
 pubDate: 2013-12-07T09:48:18+00:00

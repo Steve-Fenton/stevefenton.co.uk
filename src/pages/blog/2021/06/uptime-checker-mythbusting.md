@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Uptime checker myth busting
 navMenu: false
 pubDate: 2021-06-15T16:50:57+01:00

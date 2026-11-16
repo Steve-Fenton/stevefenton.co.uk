@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'C# recursive patterns: Power if-statements'
 navMenu: false
 pubDate: 2018-11-13T06:00:43+00:00

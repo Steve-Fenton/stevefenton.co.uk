@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Use NuGet to satisfy open-source license conditions'
 navMenu: false
 pubDate: 2014-09-09T20:52:21+01:00

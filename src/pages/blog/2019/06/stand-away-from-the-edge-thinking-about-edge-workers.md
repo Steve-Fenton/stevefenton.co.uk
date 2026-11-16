@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Stand away from the edge: Thinking about edge workers'
 navMenu: false
 pubDate: 2019-06-24T12:27:14+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Send a notification when deployments fail'
 navMenu: false
 pubDate: 2015-08-03T07:30:41+01:00

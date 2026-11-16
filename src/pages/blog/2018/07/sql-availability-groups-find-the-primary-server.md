@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'SQL Availability Groups: Find the primary server'
 navMenu: false
 pubDate: 2018-07-06T17:10:49+01:00

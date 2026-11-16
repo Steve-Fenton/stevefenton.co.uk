@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Coffee vs books'
 navMenu: false
 pubDate: 2014-02-17T22:56:49+00:00

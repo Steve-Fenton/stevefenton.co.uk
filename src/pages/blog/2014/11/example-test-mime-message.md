@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Example test MIME message'
 navMenu: false
 pubDate: 2014-11-21T20:03:15+00:00

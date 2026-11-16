@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: "You *should* deploy on Friday"
 subtitle: And why arguments against doing so are flawed.
 pubDate: 2026-10-20

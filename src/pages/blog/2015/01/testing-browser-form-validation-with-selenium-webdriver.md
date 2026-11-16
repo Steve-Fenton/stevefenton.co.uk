@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Testing browser form validation with Selenium WebDriver'
 navMenu: false
 pubDate: 2015-01-10T16:47:31+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Use Log Parser Studio to get a list of top IP ranges'
 navMenu: false
 pubDate: 2016-08-12T06:00:08+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'HTML5 forms date input elements'
 navMenu: false
 pubDate: 2011-05-23T19:11:45+01:00

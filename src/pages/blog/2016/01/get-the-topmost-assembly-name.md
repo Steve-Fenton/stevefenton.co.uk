@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Get the topmost assembly name'
 navMenu: false
 pubDate: 2016-01-23T06:00:50+00:00

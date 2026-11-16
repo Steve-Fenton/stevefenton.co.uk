@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Run multiple PowerShell scripts from a Co-ordinating PowerShell Script
 navMenu: false
 pubDate: 2020-04-12T07:50:45+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Genius in hindsight: TypeScript type annotations'
 navMenu: false
 pubDate: 2019-01-28T18:14:20+00:00

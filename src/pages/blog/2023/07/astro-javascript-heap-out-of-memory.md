@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'JavaScript heap out of memory with Astro and GitHub Actions'
 navMenu: false
 pubDate: 2023-07-18

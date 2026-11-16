@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Creating TypeScript classes dynamically'
 navMenu: false
 pubDate: 2014-07-11T21:41:44+01:00

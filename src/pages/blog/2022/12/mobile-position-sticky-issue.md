@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Mobile browser bars being hidden can affect CSS position sticky bottom'
 navMenu: false
 pubDate: 2022-12-07

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Naming TypeScript custom type guards
 navMenu: false
 pubDate: 2020-05-12T15:22:16+01:00

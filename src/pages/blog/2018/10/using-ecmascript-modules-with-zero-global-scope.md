@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using ECMAScript modules with zero global scope'
 navMenu: false
 pubDate: 2018-10-09T20:13:09+01:00

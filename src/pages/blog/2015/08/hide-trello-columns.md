@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Hide Trello columns'
 navMenu: false
 pubDate: 2015-08-07T07:30:57+01:00

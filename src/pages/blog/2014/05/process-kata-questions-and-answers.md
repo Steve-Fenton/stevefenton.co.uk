@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Process Kata questions and answers'
 navMenu: false
 pubDate: 2014-05-01T22:19:59+01:00

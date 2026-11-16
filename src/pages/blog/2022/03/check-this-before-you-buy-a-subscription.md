@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Check this before you buy a subscription
 navMenu: false
 pubDate: 2022-03-18

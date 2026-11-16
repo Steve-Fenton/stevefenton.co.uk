@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript with Visual Studio Code'
 navMenu: false
 pubDate: 2015-05-02T00:09:39+01:00

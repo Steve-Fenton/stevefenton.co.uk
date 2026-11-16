@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Reconfigure Octopus Deploy on a cloned VM'
 navMenu: false
 pubDate: 2016-02-22T09:24:21+00:00

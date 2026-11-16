@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using Fitnesse for .NET'
 navMenu: false
 pubDate: 2013-10-21T10:43:36+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Configure Azure Auto-Healing for your Azure Web Sites'
 navMenu: false
 pubDate: 2017-10-31T09:39:35+00:00

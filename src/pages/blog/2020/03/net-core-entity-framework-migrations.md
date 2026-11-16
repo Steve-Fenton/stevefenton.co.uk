@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: .NET Core Entity Framework Migrations
 navMenu: false
 pubDate: 2020-03-28T21:37:15+00:00

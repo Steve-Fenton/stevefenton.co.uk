@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'An update on TypeScript circular dependencies'
 navMenu: false
 pubDate: 2015-08-05T07:30:39+01:00

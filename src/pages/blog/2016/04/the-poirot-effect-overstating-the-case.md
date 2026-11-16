@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The Poirot Effect: Overstating the case'
 navMenu: false
 pubDate: 2016-04-22T19:41:30+01:00

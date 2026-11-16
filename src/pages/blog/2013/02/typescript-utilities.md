@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'TypeScript utilities'
 navMenu: false
 pubDate: 2013-02-22T21:51:52+00:00

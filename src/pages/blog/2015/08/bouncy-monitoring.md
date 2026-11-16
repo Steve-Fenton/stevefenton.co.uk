@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Bouncy monitoring'
 navMenu: false
 pubDate: 2015-08-01T07:30:17+01:00

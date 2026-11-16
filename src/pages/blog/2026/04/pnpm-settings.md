@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using PNPM settings to tame unruly dependencies'
 navMenu: false
 pubDate: 2026-04-22

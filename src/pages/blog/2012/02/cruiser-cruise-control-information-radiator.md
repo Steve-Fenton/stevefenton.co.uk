@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Cruiser: Cruise Control information radiator'
 navMenu: false
 pubDate: 2012-02-22T16:51:14+00:00

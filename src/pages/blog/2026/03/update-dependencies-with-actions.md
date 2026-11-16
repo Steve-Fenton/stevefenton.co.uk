@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Update dependencies with custom actions
 navMenu: false
 pubDate: 2026-03-21

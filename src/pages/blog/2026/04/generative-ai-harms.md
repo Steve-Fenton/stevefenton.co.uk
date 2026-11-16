@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Generative AI: A model for acceptance'
 navMenu: false
 pubDate: 2026-04-19

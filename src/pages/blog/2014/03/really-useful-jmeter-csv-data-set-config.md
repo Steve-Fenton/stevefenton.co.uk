@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Really useful JMeter CSV data set config'
 navMenu: false
 pubDate: 2014-03-14T22:33:06+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Car insurance comparison websites
 navMenu: false
 pubDate: 2009-12-30T22:16:24+00:00

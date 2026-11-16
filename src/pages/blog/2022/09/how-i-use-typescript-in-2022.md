@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How I use TypeScript in 2022
 navMenu: false
 pubDate: 2022-09-05

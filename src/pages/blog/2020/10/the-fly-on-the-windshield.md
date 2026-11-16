@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The fly on the windshield
 navMenu: false
 pubDate: 2020-10-07T07:05:43+01:00

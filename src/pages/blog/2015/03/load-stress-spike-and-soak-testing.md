@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Load, stress, spike, and soak testing'
 navMenu: false
 pubDate: 2015-03-14T15:59:51+00:00

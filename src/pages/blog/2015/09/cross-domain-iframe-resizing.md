@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Cross-domain iframe resizing'
 pubDate: 2015-09-24T07:00:41+01:00
 bannerImage:

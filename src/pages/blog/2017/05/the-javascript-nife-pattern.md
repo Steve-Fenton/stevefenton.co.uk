@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The JavaScript NIFE Pattern'
 navMenu: false
 pubDate: 2017-05-19T16:04:30+01:00

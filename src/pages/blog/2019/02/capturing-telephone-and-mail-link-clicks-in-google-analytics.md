@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Capturing telephone and mail link clicks in Google Analytics'
 navMenu: false
 pubDate: 2019-02-20T12:31:54+00:00

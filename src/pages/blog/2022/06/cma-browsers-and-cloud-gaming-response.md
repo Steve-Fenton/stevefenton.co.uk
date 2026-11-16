@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: CMA Browsers and Cloud Gaming Response
 navMenu: false
 pubDate: 2022-06-23

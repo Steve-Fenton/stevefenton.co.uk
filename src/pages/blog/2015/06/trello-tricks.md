@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Trello tricks'
 navMenu: false
 pubDate: 2015-06-08T23:38:43+01:00

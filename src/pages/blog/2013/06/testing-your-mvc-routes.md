@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Testing your MVC routes'
 navMenu: false
 pubDate: 2013-06-21T12:03:34+01:00

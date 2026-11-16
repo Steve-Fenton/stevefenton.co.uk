@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Microsoft Modern Wireless Headset unboxing
 navMenu: false
 pubDate: 2022-02-15

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Getting started with JestSpec
 navMenu: false
 pubDate: 2023-01-08

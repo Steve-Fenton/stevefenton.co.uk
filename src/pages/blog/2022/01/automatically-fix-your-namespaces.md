@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Automatically fix your namespaces
 navMenu: false
 pubDate: 2022-01-05

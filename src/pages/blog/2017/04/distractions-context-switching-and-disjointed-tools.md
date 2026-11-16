@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Distractions, context-switching, and disjointed tools'
 navMenu: false
 pubDate: 2017-04-05T08:29:39+01:00

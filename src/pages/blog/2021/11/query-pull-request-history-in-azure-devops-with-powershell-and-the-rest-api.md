@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Query pull request history in Azure DevOps with PowerShell and the REST API
 navMenu: false
 pubDate: 2021-11-30

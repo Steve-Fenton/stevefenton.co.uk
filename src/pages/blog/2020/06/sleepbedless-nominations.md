@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: '#SleepBedless nominations'
 navMenu: false
 pubDate: 2020-06-28T09:32:33+01:00

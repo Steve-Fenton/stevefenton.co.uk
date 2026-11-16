@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Adding Multiple Lines to Descriptions in ICalendar Files'
 navMenu: false
 pubDate: 2010-11-17T20:15:43+00:00

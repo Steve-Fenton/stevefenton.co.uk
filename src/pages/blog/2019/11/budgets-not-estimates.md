@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Budgets not Estimates'
 navMenu: false
 pubDate: 2019-11-30T19:53:30+00:00

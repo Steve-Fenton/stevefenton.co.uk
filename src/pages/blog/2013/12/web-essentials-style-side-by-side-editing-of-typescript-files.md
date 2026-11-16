@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Web Essentials style side-by-side editing of TypeScript files'
 navMenu: false
 pubDate: 2013-12-16T09:34:16+00:00

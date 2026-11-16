@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'SQL maintenance plan optimization'
 navMenu: false
 pubDate: 2017-05-30T14:10:41+01:00

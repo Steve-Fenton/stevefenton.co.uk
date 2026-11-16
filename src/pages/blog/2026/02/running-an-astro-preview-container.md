@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Running Astro in a preview container
 avMenu: false
 pubDate: 2026-02-19

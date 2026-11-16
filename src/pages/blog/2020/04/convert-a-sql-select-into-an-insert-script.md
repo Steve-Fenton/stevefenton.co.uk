@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Convert a SQL SELECT into an INSERT script
 navMenu: false
 pubDate: 2020-04-05T13:11:14+01:00

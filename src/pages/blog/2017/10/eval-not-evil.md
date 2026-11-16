@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Eval is not evil'
 navMenu: false
 pubDate: 2017-10-07T05:00:39+01:00

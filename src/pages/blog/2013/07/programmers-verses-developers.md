@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Programmers vs Developers'
 navMenu: false
 pubDate: 2013-07-24T11:42:41+01:00

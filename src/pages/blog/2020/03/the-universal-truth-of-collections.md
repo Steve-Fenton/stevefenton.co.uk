@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: The Universal Truth of Collections
 navMenu: false
 pubDate: 2020-03-12T20:29:00+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Run a Bash Script with Arguments in GitHub Actions
 navMenu: false
 pubDate: 2022-06-14

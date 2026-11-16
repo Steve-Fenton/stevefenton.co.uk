@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to drop a SQL Server constraint when you don't know its name
 navMenu: false
 pubDate: 2020-05-15T11:21:59+01:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Disk optimisation in your brain'
 navMenu: false
 pubDate: 2013-06-03T12:13:32+01:00

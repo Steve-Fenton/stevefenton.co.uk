@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using RequireJS and jQuery in TypeScript'
 navMenu: false
 pubDate: 2013-02-05T22:12:19+00:00

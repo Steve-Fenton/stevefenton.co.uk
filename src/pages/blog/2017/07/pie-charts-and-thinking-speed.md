@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Pie charts and thinking speed'
 navMenu: false
 pubDate: 2017-07-27T14:38:25+01:00

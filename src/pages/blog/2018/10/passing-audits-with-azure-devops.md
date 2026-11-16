@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Passing audits with Azure DevOps'
 navMenu: false
 pubDate: 2018-10-07T08:00:37+01:00

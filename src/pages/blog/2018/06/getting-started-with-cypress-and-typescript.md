@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Getting started with Cypress and TypeScript'
 navMenu: false
 pubDate: 2018-06-07T07:00:17+01:00

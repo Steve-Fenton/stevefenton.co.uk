@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Visual Studio 2015 diagnostic tools'
 navMenu: false
 pubDate: 2015-07-23T07:30:45+01:00

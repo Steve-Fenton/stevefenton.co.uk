@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Decision making classifications'
 navMenu: false
 pubDate: 2017-04-24T12:16:19+01:00

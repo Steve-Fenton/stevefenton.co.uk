@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Find markdown ids with no preceding space with RegEx'
 navMenu: false
 pubDate: 2023-08-29

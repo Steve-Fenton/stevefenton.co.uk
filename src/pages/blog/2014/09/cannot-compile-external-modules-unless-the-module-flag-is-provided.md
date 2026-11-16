@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Cannot compile external modules unless the module flag is provided'
 navMenu: false
 pubDate: 2014-09-05T21:02:12+01:00

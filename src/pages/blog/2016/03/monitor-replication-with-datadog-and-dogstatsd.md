@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Monitor replication with DataDog and DogStatsd'
 navMenu: false
 pubDate: 2016-03-08T06:00:47+00:00

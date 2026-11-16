@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Creating a TypeScript module for use with internal and external modules'
 navMenu: false
 pubDate: 2014-11-05T20:13:42+00:00

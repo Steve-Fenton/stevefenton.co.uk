@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'World No Resources Day'
 navMenu: false
 pubDate: 2015-05-01T00:19:01+01:00

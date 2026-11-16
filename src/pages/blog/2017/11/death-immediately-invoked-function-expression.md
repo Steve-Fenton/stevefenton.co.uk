@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The death of the immediately invoked function expression'
 navMenu: false
 pubDate: 2017-11-04T15:29:23+00:00

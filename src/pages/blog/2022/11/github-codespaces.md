@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using GitHub Codespaces'
 navMenu: false
 pubDate: 2022-11-10

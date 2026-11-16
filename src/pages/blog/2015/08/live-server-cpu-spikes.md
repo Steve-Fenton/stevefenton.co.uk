@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Live server CPU spikes'
 navMenu: false
 pubDate: 2015-08-21T07:30:19+01:00

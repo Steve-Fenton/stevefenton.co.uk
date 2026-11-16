@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The NoEstimates philosophical divide'
 navMenu: false
 pubDate: 2015-08-11T17:30:26+01:00

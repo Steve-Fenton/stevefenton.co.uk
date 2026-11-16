@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Writing in Visual Studio Code
 navMenu: false
 pubDate: 2022-03-23

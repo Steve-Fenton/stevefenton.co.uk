@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Can we have both trunk-based development and branches?'
 navMenu: false
 pubDate: 2023-03-11

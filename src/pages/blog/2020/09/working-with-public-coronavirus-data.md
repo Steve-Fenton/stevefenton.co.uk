@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Working with public Coronavirus data
 navMenu: false
 pubDate: 2020-09-21T10:14:50+01:00

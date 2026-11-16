@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Find the current identity of all tables in SQL'
 navMenu: false
 pubDate: 2017-02-20T08:10:06+00:00

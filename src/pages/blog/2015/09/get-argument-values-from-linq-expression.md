@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Get argument values from Linq expressions'
 navMenu: false
 pubDate: 2015-09-08T08:00:39+01:00

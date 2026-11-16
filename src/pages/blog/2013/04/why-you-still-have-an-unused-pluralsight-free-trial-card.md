@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Why you still have an unused Pluralsight free trial card'
 navMenu: false
 pubDate: 2013-04-12T15:15:29+01:00

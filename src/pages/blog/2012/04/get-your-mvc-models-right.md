@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Get your MVC models right'
 navMenu: false
 pubDate: 2012-04-13T16:23:31+01:00

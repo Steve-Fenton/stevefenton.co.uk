@@ -1,5 +1,6 @@
 ---
 navMenu: false
+layout: src/layouts/Article.astro
 title: 'Little scripts: Checking web page images'
 pubDate: 2020-07-28T13:43:07+01:00
 authors:

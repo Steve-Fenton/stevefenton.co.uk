@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Test Automation Philosophy'
 navMenu: false
 pubDate: 2015-02-21T16:08:36+00:00

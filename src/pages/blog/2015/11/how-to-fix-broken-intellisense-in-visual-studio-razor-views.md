@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'How to fix broken IntelliSense in Visual Studio razor views'
 navMenu: false
 pubDate: 2015-11-09T15:21:25+00:00

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The elusive text-overflow: ellipsis display issue'
 navMenu: false
 pubDate: 2021-11-18

@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: Add links to Octopus notifications to Slack
 navMenu: false
 pubDate: 2025-06-17

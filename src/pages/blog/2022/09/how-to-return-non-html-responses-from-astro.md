@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: How to return non-HTML responses from Astro
 navMenu: false
 pubDate: 2022-09-19

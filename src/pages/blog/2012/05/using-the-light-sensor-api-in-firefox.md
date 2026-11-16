@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Using the light sensor API in Firefox'
 navMenu: false
 pubDate: 2012-05-05T16:12:45+01:00

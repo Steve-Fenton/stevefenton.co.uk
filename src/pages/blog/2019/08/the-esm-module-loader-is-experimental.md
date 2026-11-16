@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'The ESM module loader is experimental'
 navMenu: false
 pubDate: 2019-08-23T08:17:04+01:00

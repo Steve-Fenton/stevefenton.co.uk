@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Estimating with time and relative sizes'
 navMenu: false
 pubDate: 2013-05-15T14:25:33+01:00

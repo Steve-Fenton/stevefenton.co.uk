@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'SpecFlow living documentation Azure DevOps extension'
 navMenu: false
 pubDate: 2017-08-01T08:47:16+01:00

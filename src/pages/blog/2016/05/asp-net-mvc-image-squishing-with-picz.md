@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'ASP.NET MVC image squishing with Picz'
 navMenu: false
 pubDate: 2016-05-12T07:00:20+01:00

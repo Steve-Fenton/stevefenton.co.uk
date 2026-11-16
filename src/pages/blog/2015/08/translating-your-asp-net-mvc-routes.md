@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Translating your ASP.NET MVC routes'
 navMenu: false
 pubDate: 2015-08-31T20:09:57+01:00

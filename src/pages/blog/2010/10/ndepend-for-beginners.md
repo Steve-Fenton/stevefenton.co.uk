@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'NDepend for beginners'
 navMenu: false
 pubDate: 2010-10-03T20:40:23+01:00

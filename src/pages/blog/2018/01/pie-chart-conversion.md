@@ -1,4 +1,5 @@
 ---
+layout: src/layouts/Article.astro
 title: 'Pie chart conversion'
 navMenu: false
 pubDate: 2018-01-22T08:50:32+00:00
