@@ -12,9 +12,9 @@ bannerImage:
 authors:
   - steve-fenton
 categories:
-  - Opinion
+  - Programming
 tags:
-  - AI
+  - Productivity
 meta:
   - name: canonical
     content: "https://thenewstack.io/elite-performance-is-wasted-on-feature-factories/"
