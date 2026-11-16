@@ -2,6 +2,7 @@
 title: AI etiquette
 subtitle: "An incomplete guide to working with humans when robots are in the room"
 pubDate: 2026-09-22
+modDate: 2026-11-16
 description: Why we need some etiquette around AI and what that looks like.
 keywords: "ai,etiquette"
 navMenu: false
@@ -80,7 +81,7 @@ Please share your real-world experiences to help me build on this list.
 
 ## Rules of etiquette
 
-Until we have broadly accepted terms of engagement around AI, teams and organizations will need to develop their own guidelines. If they do this openly, as [Oxide](https://rfd.shared.oxide.computer/rfd/0576) has done, it will help humans develop the much-needed shared etiquette. At Octopus, we have a [set of values](https://handbook.octopus.com/getting-oriented/values) that helps us navigate these decisions, not least "doing a smaller number of things at high quality," which has been instructive over the past few years.
+Until we have broadly accepted terms of engagement around AI, teams and organizations will need to develop their own guidelines. If they do this openly, as [Oxide](https://rfd.shared.oxide.computer/rfd/0576) has done, it will help humans develop the much-needed shared etiquette. The community has also created the [Slop Manifesto](https://www.slopmanifesto.com), which has several principles covering AI etiquette and I have endorsed it. At Octopus, we have a [set of values](https://handbook.octopus.com/getting-oriented/values) that helps us navigate these decisions, not least "doing a smaller number of things at high quality," which has been instructive over the past few years.
 
 Perhaps the most abstract view on this topic is to question which authentic part of yourself you have brought to the work. If you're not adding value over and above what can be statistically produced, you're doing a disservice to your colleagues. It also makes you the extinction target for this kind of technology, because if anyone could prompt their way to a similar result, what you do isn't needed.
 
