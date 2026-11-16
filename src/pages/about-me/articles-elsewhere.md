@@ -100,6 +100,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [The top 5 features of internal developer platforms](https://octopus.com/blog/top-5-features-of-internal-developer-platforms)
 - [Navigating Platform Engineering with the maturity model assessment](https://cloudnativeplatforms.com/blog/navigating-platform-engineering/)
 - [Levelling up your deployment pipelines](https://octopus.com/blog/leveling-up-deployment-pipelines)
+- [For platform teams, the challenge is the way](https://octopus.com/blog/platform-challenge-is-the-way)
 
 ## GitOps
 
