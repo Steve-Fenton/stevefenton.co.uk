@@ -2,7 +2,7 @@
 title: "Cloud Native & Open Source Global Summit"
 description: "I'm speaking at the global online summit for practitioners working across Kubernetes, cloud native engineering, open source AI, developer tools and open source infrastructure."
 startDate: 2026-10-13
-location: "Virtual"
+location: "Online"
 linkHref: "https://www.communitystack.io/conferences/cloud-native-virtual"
 linkText: "Register for the summit"
 ---

@@ -2,7 +2,7 @@
 title: "Introducing the AI Pulse Report"
 description: "Join us for Introducing the AI Pulse Report, a concise, insight-driven webinar that breaks down the findings and implications of Octopus Deploy's AI Pulse Report: AI adoption and its impact on developer productivity."
 startDate: 2026-03-10
-location: "Virtual"
+location: "Online"
 linkHref: "https://www.youtube.com/watch?v=K2e9IBnh0iE"
 linkText: "Watch on YouTube"
 ---

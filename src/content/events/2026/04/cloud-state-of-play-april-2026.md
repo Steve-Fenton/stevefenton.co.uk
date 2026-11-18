@@ -1,7 +1,7 @@
 ---
 title: "Cloud State of Play Livestream"
 startDate: 2026-04-15
-location: "Virtual"
+location: "Online"
 linkHref: ""
 linkText: ""
 description: "The Cloud Therapist channel is launching their very first Cloud State of Play Livestream, and I'll be joining them on Wednesday 15th April at 5PM BST."

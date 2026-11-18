@@ -1,7 +1,7 @@
 ---
 title: "TNS: The Automation Gap in your Delivery Pipeline Slowing AI Productivity"
 startDate: 2026-05-07
-location: "Virtual"
+location: "Online"
 linkHref: ""
 linkText: ""
 description: "Organizations are heavily investing in AI tools, expecting productivity gains to translate into faster, more reliable software delivery. Yet only 1% of companies consider themselves 'mature' on the deployment spectrum..."

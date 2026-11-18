@@ -2,7 +2,7 @@
 title: "LeadDev: Why good teams rely on bad workarounds"
 description: "Messy workarounds aren’t a symptom of careless teams, but of delivery pipelines that aren’t fit for purpose. Here’s how to root out the unnecessary friction."
 startDate: 2026-02-18
-location: "Virtual"
+location: "Online"
 linkHref: "https://leaddev.com/event/why-feedback-loops-fail-and-how-to-fix-them"
 linkText: "Register on LeadDev"
 ---

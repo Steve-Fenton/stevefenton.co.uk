@@ -2,7 +2,7 @@
 title: "Argo Unpacked"
 description: "I'm joining the Argo Unpacked crew to chat about some of the insights from the data used in the State of GitOps report."
 startDate: 2026-03-30
-location: "Virtual"
+location: "Online"
 linkHref: "https://www.youtube.com/watch?v=XasDjuPVSdw"
 linkText: "Watch on YouTube"
 ---

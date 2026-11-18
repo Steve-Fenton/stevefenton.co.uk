@@ -1,7 +1,7 @@
 ---
 title: "Techstrong: AI's Real Impact from Developer Tools to Organizational Outcomes"
 startDate: 2026-04-01
-location: "Virtual"
+location: "Online"
 linkHref: "https://webinars.techstronglearning.com/ais-real-impact-from-developer-tools-to-organizational-outcomes"
 linkText: "Watch on demand"
 description: "Organizations are investing heavily in AI, hoping to transform developer productivity into tangible organizational outcomes. But how is this investment delivering returns in practice, and what does it mean for the people building the software?"

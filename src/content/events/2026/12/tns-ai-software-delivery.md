@@ -3,7 +3,7 @@ title: "TNS: AI Sped Up Your Coding — But It Didn't Speed Up Your Delivery"
 description: "What the evidence says about high-performance software delivery in the AI era: why faster coding rarely means faster delivery."
 startDate: 2026-12-16
 endDate: 2026-12-16
-location: "Virtual"
+location: "Online"
 linkHref: "https://thenewstack.io/webinar/ai-code-review-delivery-bottleneck/"
 linkText: "Register on TNS"
 modDate: 2026-11-18
