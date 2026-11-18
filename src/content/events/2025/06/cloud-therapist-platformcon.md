@@ -2,9 +2,11 @@
 title: "Cloud Therapist - PlatformCon Live Stream Panel Discussion"
 startDate: 2025-06-01
 location: "Online"
-linkHref: "https://www.youtube.com/live/z8OkNNacX3o?si=bg0k7jfMmymy02jD&t=1739"
-linkText: "Watch the panel"
+linkHref: ""
+linkText: ""
 description: "PlatformCon live stream panel discussion."
 ---
 
 PlatformCon live stream panel discussion.
+
+[Watch the panel](https://www.youtube.com/watch?v=z8OkNNacX3o)

@@ -11,7 +11,7 @@ My friend Saim Safder (host of the CloudNativeFM YouTube channel) is taking the 
 
 I'll be joining resident guest Paul Bevan (Retired/Not Retired) and fellow special guest Cheryl Hung (Cloud Native Meetup London and ex-ARM Senior Software Engineer) to dive into a massive list of cloud topics.
 
-[Watch the recording](https://www.youtube.com/live/KCucy93eseo)
+[Watch the recording](https://www.youtube.com/watch?v=KCucy93eseo)
 
 Here's what we'll be breaking down on the livestream:
 
