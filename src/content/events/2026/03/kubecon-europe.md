@@ -4,8 +4,8 @@ description: "The Cloud Native Computing Foundation's flagship conference brings
 startDate: 2026-03-23
 endDate: 2026-03-26
 location: "Amsterdam, NL"
-linkHref: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/"
-linkText: "Register for KubeCon Europe"
+linkHref: ""
+linkText: ""
 ---
 
 The Cloud Native Computing Foundation's flagship conference brings together adopters and technologists from leading open source and cloud native communities.
@@ -13,3 +13,5 @@ The Cloud Native Computing Foundation's flagship conference brings together adop
 Find me at ArgoCon, Platform Engineering day, and Platform Coffee sessions as well as the Octopus booth for conversations on GitOps, Platform Engineering research, metrics, and deployment automation.
 
 I'll also be doing a short talk at the Cloudsmith booth on March 25, 2026 at 12 noon.
+
+[Watch the ArgoCon keynote: Argo CD vs the World](https://www.youtube.com/watch?v=6G2Rr2rQ2RI)
