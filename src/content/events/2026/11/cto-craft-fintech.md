@@ -16,3 +16,5 @@ CTO Craft Con: Fintech brings together senior technology leaders from fintechs, 
 November 3rd, 2026 at 11:25 am
 
 How missing pieces make everything look broken. When people started painting the walls of caves, they provided us with solid advice about software delivery that our industry forgets about once every 5 years. This session will look at why trendy software revolutions never materialise into real benefits if those old ideas are missing.
+
+[Watch Agile, Metrics, AI... Does nothing work?](https://youtu.be/tq9QPDAyyqE?si=CvMP_YZvAVfz_ixD)
