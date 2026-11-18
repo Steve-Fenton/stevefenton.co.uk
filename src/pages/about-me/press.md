@@ -2,20 +2,12 @@
 title: Press
 navOrder: 4000
 pubDate: 2022-10-02
-modDate: 2026-04-16
+modDate: 2026-11-18
 keywords: steve fenton,press
 description: A roll call of mentions I've received elsewhere.
 ---
 
 Sometimes I get to pop up on a podcast, magazine, or video and I share when it happens here.
-
-## Cloud State of Play LIVE
-
-April 2026
-
-I joined Richard Simon and Paul Bevan, along with guest star Cheryl Hung, for the first ever Cloud State of Play livestream. We talked about DevOps, cloud network security, and the latest from KubeCon.
-
-[Watch Cloud State of Play LIVE](https://www.youtube.com/watch?v=KCucy93eseo)
 
 ## Argo Unpacked Ep.24
 
@@ -89,24 +81,6 @@ November 2025
 
 [Read platform table stakes just raised](https://platformengineering.com/features/octopus-deploy-dev-lead-platform-table-stakes-just-raised/)
 
-## Cloud State of Play
-
-September 2025
-
-Richard Simon was kind enough to let me make a guest appearance on the Cloud State of Play where we discussed GitOps, API protocols, and moonshots!
-
-[Watch Cloud State of Play](https://www.youtube.com/watch?v=As_qfWIyzKk)
-
-## Techstrong TV - GitOps Trends and the Future of Continuous Delivery
-
-July 2025
-
-Alan Shimel was the awesome host for a conversation about research around GitOps and Continuous Delivery.
-
-> Steve Fenton shares insights on his role at Octopus Deploy and the company's focus on continuous delivery. He discusses the recent GitOps report, which received 660 community responses, revealing strong enthusiasm for GitOps. Key findings highlight the significance of the reconciliation loop and the preference for imperative configuration over declarative methods. The Linux Foundation's GitOps principles are also noted as essential for community collaboration.
-
-[View the video on Techstrong TV](https://techstrong.tv/videos/interviews/octopus-deploys-steve-fenton-on-gitops-trends-and-the-future-of-continuous-delivery).
-
 ## The State of GitOps report coverage
 
 June 2025
@@ -162,38 +136,6 @@ I was quoted in a mega-predictions article from Solutions Review on WorkTech tre
 
 [59 WorkTech Predictions from Industry Experts for 2025](https://solutionsreview.com/enterprise-resource-planning/worktech-predictions-from-industry-experts-for-2025/)
 
-## SHIPPED24
-
-November 2024
-
-My second appearance at the free virtual conference, SHIPPED. This year I talked about effective DevOps metrics.
-
-[Watch Effective DevOps Metrics (SHIPPED24)](https://www.youtube.com/watch?v=_gZCUwecZ9E)
-
-## DevEx Connect Manchester
-
-October 2024
-
-My talk from the first ever DevEx Connect event in Manchester, Effective DevOps Metrics. The super-friendly crowd made this a lot of fun to explore.
-
-[Watch Effective DevOps Metrics (DevEx Connect)](https://www.youtube.com/watch?v=Rvr4Nr_-510)
-
-## Octopus Runbooks webinar
-
-October 2024
-
-Michael Richardson and I discussed what runbooks are, why they are useful, and how people are using them in the real world!
-
-[Watch "Free your teams from maintenance tasks with runbooks"](https://www.youtube.com/watch?v=UEysbmos2T0)
-
-## Cloud Native FM - Platform Engineering
-
-October 2024
-
-Saim and I have been looking into Platform Engineering and we shared some early insights on Cloud Native FM.
-
-[Watch People, Processes, Power, and Performance with Platform Engineering](https://www.youtube.com/watch?v=fC-TTfW9S0M)
-
 ## 2024 Accelerate State of DevOps Report
 
 October 2024
@@ -211,32 +153,6 @@ June 2024
 John Bristowe asked me about the publication of [Exploring Octopus Deploy](/publications/exploring-octopus-deploy/). Find out why I wrote a new edition and what's changed in this interview.
 
 [Watch John and Steve in conversation](https://www.youtube.com/watch?v=khCGMQiLqLg)
-
-## Merging to Main: Productising the Internal Developer Platform
-
-June 2024
-
-Codefresh hosted a discussion on Platform Engineering, which I joined along with host Paul O'Reilly and Bartek Antoniak (VirtusLab), Jordan Chernev (Zillow), and Scott Hiland (Hunter Strategy).
-
-[Watch Merging to Main: Productising the Internal Developer Platform](https://www.youtube.com/watch?v=KbOPrVgBp0U)
-
-## Techstrong TV - Navigating the CI/CD Frontier
-
-June 2024
-
-The 2024 State of Continuous Integration and Continuous Delivery (CI/CD) Report, commissioned by the Continuous Delivery Foundation (CDF) and Cloudbees, and authored by SlashData, unveils the current landscape of the CI/CD developer ecosystem while exploring its evolution over the past two and a half years. This comprehensive report looks at what proportion of developers are engaged in the broader DevOps space and examines how many work with CD technologies in particular.
-
-[Watch the CD Pipeline Show EP 12](https://techstrong.tv/videos/cd-pipeline/navigating-the-ci-cd-frontier-insights-from-the-2024-state-of-continuous-integration-and-continuous-delivery-ci-cd-report-the-cd-pipeline-show-ep-12)
-
-## The State of CI/CD 2024
-
-May 2024
-
-This is a recording of a webinar we hosted about the 2024 State of CI/CD Report by the CD Foundation. In this video, we explore the latest CI/CD trends and insights and discuss the critical role of DevOps in improving development processes. We'll also cover challenges, like tool interoperability and integrating security practices, and how technological advances shape organizational efficiency in the tech sector.
-
-Speakers: John Bristowe, Steve Fenton, and Dan Garfield
-
-[Watch the State of CI/CD 2024.](https://www.youtube.com/watch?v=vXo8O9PlFDA)
 
 ## The AI governance policy engineering managers needed yesterday
 
@@ -274,20 +190,6 @@ My opinions on the productivity debacle were featured in this TNS post, with a r
 
 [Read the full article on TNS](https://thenewstack.io/measuring-developer-productivity-whos-winning-the-debate/)
 
-## Octopus - Platform Engineering: To adopt, or not to adopt
-
-October 2023
-
-I joined Adam Close to talk about Platform Engineering foundations, adoption, and alternatives.
-
-Useful links:
-
-- [When to adopt Platform Engineering](https://octopus.com/devops/platform-engineering/when-to-adopt-platform-engineering/)
-- [Platform Engineering patterns and anti-patterns](https://octopus.com/devops/platform-engineering/patterns-anti-patterns/)
-- [Using MONK metrics to measure Platform Engineering](https://octopus.com/devops/metrics/monk-metrics/)
-
-[Watch "Platform Engineering: To adopt, or not to adopt"](https://www.youtube.com/watch?v=qX0Pk5LchBI)
-
 ## Techzine - DevOps, DevEx, and Continuous Delivery
 
 September 2023
@@ -296,14 +198,6 @@ An interview article, with Adrian Bridgwater on Techzine about the positive infl
 
 [Read "A positive flush down the developer pipeline"](https://www.techzine.eu/blogs/collaboration/110831/octopus-deploy-a-positive-flush-down-the-developer-pipeline/)
 
-## Octopus - A modern view of multi-tenancy
-
-August 2023
-
-John Bristowe and I present a new perspective on multi-tenancy that looks beyond software.
-
-[Watch "A modern view of multi-tenancy"](https://www.youtube.com/watch?v=GB6IYvCf_C0)
-
 ## Octopus - Community Town Hall July 2023
 
 July 2023
@@ -311,22 +205,6 @@ July 2023
 I join John Bristowe, Bob Walker, Ian Khor, and James Chatmas for the community town hall event.
 
 [Watch the Octopus July 2023 Community Town Hall](https://www.youtube.com/watch?v=3H2PI_U_HUQ)
-
-## Techstrong TV - The State of Continuous Delivery Report
-
-June 2023
-
-A panel discussion on the State of Continuous Delivery Report with Alan Shimel, Melissa McKay, Andrew Fong, Liam Dodd, and me.
-
-[Watch The State of Continuous Delivery Report 2023 – The CD Pipeline EP 7](https://techstrong.tv/videos/cd-pipeline/the-state-of-continuous-delivery-report-2023-the-cd-pipeline-ep-7)
-
-## Octopus - The State of Continuous Delivery Report
-
-May 2023
-
-John Bristowe and I talk about the State of Continuous Delivery Report.
-
-[Watch "The State of Continuous Delivery Report"](https://www.youtube.com/watch?v=yrIg9kpBXnU)
 
 ## DEV.to - Solid Principles
 
