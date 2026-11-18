@@ -2,73 +2,28 @@
 title: Software Delivery Research
 navOrder: 2000
 pubDate: 2024-05-01
-modDate: 2026-06-11
+modDate: 2026-11-18
 keywords: "software,delivery,research"
 description: Research-related publications and updates.
 ---
 
 We have solidly moved into the era of research-backed software delivery. Over the past ten years, we've learned a great deal about what works and what doesn't. We no longer depend solely on *strong voices* as we now have *solid data*.
 
-My favourite research efforts are:
-
-- The [Accelerate State of DevOps Report](https://dora.dev/research/) from [DORA](https://dora.dev/)
-- The [State of CI/CD Report](https://cd.foundation/reports/) from the [CD Foundation](https://cd.foundation/) and [SlashData](https://www.slashdata.co/)
-
 But also, I'm a naturally curious person. That means I ask questions to find out more about how we're all delivering software. For that reason, I've been running several research projects to find out more about how we're all working. Recently, I've had the pleasure of working on these projects with Neuroscientist PhD researcher, Dr Charlotte Fleming.
+
+::::div{.simple-grid}
+
+:::div
 
 ## 2026: The Future of Platform Engineering report
 
-Taking the lessons from the Platform Engineering Pulse report, we're running a large-scale survey to get deeper insights into Platform Engineering.
+The Future of Platform Engineering report, led by Dr. Charlotte Fleming, PhD, examines where Platform Engineering stands as an established discipline, and what separates the platforms that succeed from those that struggle.
 
-I'll share more news soon.
-
-::::div{.simple-grid}
-
-:::div
-
-## 2025: The State of GitOps report
-
-I lead a research effort to understand GitOps adoption, practices, and outcomes. The results are based on 660 survey responses and interviews with expert practitioners.
-
-The report covers topics such as:
-
-- What good GitOps looks like
-- Current industry adoption of GitOps
-- Future plans for GitOps
-- The relationship between GitOps and DevOps
-- The benefits of GitOps
-- Which GitOps practices drive outcomes
-
-Get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report) from Octopus.
+Get a free copy of [the Future of Platform Engineering report](https://octopus.com/publications/future-of-platform-engineering-report) from Octopus.
 
 :::
 
-:img{ src="/img/topic/books/state-of-gitops-report.png" alt="The Platform Engineering Pulse report" loading="lazy" }
-
-::::
-
-::::div{.simple-grid}
-
-:::div
-
-## 2025: Platform Engineering Pulse report
-
-This report was a joint project with Saim Safder, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm). We wanted to find out the business and technical motivations for Platform Engineering.
-
-The research involved the following stages:
-
-- Speak to practitioners to find out key motivations for internal developer platforms
-- Design a survey based on what we learn
-- Run the survey to get a broad picture of Platform Engineering
-- Produce a mini-report based on what we learn
-
-By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
-
-You can download the [Platform Engineering Pulse report](https://octopus.com/publications/platform-engineering-pulse) from Octopus.
-
-:::
-
-:img{ src="/img/topic/books/platform-engineering-pulse.png" alt="The Platform Engineering Pulse report" loading="lazy" }
+:img{ src="/img/topic/books/2026-future-of-platform-engineering.png" alt="The Future of Platform Engineering report" loading="lazy" }
 
 ::::
 
@@ -87,6 +42,42 @@ Get a free copy of [the AI Pulse report](https://octopus.com/publications/ai-pul
 :::
 
 :img{ src="/img/topic/books/ai-pulse-report.png" alt="The AI Pulse report" loading="lazy" }
+
+::::
+
+::::div{.simple-grid}
+
+:::div
+
+## 2025: The State of GitOps report
+
+I lead a research effort to understand GitOps adoption, practices, and outcomes. The results are based on 660 survey responses and interviews with expert practitioners.
+
+The report covers topics like what good GitOps looks like, industry adoption, practices, and benefits.
+
+Get a free copy of [the state of GitOps report](https://octopus.com/publications/state-of-gitops-report) from Octopus.
+
+:::
+
+:img{ src="/img/topic/books/state-of-gitops-report.png" alt="The State of GitOps report" loading="lazy" }
+
+::::
+
+::::div{.simple-grid}
+
+:::div
+
+## 2025: Platform Engineering Pulse report
+
+This report was a joint project with Saim Safder, host of [the Cloud Native Podcast](https://www.youtube.com/@cloudnativefm). We wanted to find out the business and technical motivations for Platform Engineering.
+
+By collaborating on this project, we hope create an independent research effort and I'm sure our findings will make it into our writing, podcasts, and webinars.
+
+You can download the [Platform Engineering Pulse report](https://octopus.com/publications/platform-engineering-pulse) from Octopus.
+
+:::
+
+:img{ src="/img/topic/books/platform-engineering-pulse.png" alt="The Platform Engineering Pulse report" loading="lazy" }
 
 ::::
 
