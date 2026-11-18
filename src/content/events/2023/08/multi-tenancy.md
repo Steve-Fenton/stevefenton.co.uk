@@ -7,4 +7,6 @@ linkText: ""
 description: "Discussion on modern multi-tenancy approaches."
 ---
 
-Discussion on modern multi-tenancy approaches.
+John Bristowe and I present a new perspective on multi-tenancy that looks beyond software.
+
+[Watch the session](https://www.youtube.com/watch?v=GB6IYvCf_C0)
