@@ -24,7 +24,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Cloud Nomad Architecture](https://octopus.com/blog/cloud-nomad-architectures)
 - [Inside DevOps - Interview with Dan Horrocks-Burgess](https://octopus.com/blog/inside-devops-dan-horrocks-burgess)
 - [Gatekeepers limit Continuous Delivery's benefits](https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/)
-- [Deploy on Friday? Moratorium doesn't achieve admirable goal](https://thenewstack.io/deploy-on-friday-moratorium-doesnt-achieve-admirable-goal/)
 - [Stop Blaming Regulation for Poor Software Delivery Performance](https://thenewstack.io/stop-blaming-regulation-for-poor-software-delivery-performance/)
 - [Speed up GitHub workflow feedback](https://thenewstack.io/speed-up-github-workflow-feedback/)
 - [5 Deployment Strategies: The Pros and Cons](https://thenewstack.io/5-deployment-strategies-the-pros-and-cons/)
@@ -32,7 +31,7 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Process theatre versus technical excellence: A recurring software crisis](https://thenewstack.io/process-theater-vs-technical-excellence-a-recurring-software-crisis/)
 - [Let's not water down the terms Continuous Integration and Continuous Delivery](https://octopus.com/blog/watering-down-ci-cd)
 
-### CD Office Hours
+### Software Delivered (formerly CD Office Hours)
 
 - [Ep.1: Continuous Delivery should be your top priority](https://octopus.com/blog/continuous-delivery-office-hours-e1)
 - [Ep.2: Remaining deployable at all times](https://octopus.com/blog/continuous-delivery-office-hours-e2)
@@ -56,7 +55,6 @@ I'm aware these lists are growing rapidly, so I'll try to organize things a bit 
 - [Speed means nothing without real feedback](https://thenewstack.io/speed-means-nothing-without-real-feedback/)
 - [Beyond ROWE: Why Results-only work isn't always a win](https://thenewstack.io/beyond-rowe-why-results-only-work-isnt-always-a-win/)
 - [Vibe Coding: The shadow IT problem no one saw coming](https://thenewstack.io/vibe-coding-the-shadow-it-problem-no-one-saw-coming/)
-- [Stop force-feeding AI to your developers](https://thenewstack.io/stop-force-feeding-ai-to-your-developers/)
 - [Vibe coding... you keep using that word!](https://coderlegion.com/5121/vibe-coding-you-keep-using-that-word)
 - [Why Octopus invests in DevEx](https://octopus.com/blog/octopus-invests-in-developer-experience)
 - [Modern developer experience has deep roots](https://octopus.com/blog/developer-experience-roots)
