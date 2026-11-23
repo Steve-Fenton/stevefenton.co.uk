@@ -90,39 +90,29 @@ Barker talks about taking things seriously only at the right moment:
 
 ### Apps
 
-1. Magnet (App store)
 1. [Vivaldi](https://vivaldi.com)
-1. [GitHub Desktop](https://desktop.github.com/download/)
-1. [Antigravity](https://antigravity.google)
-1. [OpenCode](https://opencode.ai)
-1. [PNPM](https://pnpm.io)
-1. [Proton Drive](https://proton.me/drive)
-1. [Pinta](https://www.pinta-project.com)
-1. [Keyboard Maestro](https://www.keyboardmaestro.com/)
-1. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
-1. [Shottr](https://shottr.cc)
-1. Flow (App store)
-1. Bookify: Send to Kindle (App store)
-1. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
-1. [Rancher Desktop](https://rancherdesktop.io)
-1. Whisper Notes - Speech to Text (App store)
+2. [GitHub Desktop](https://desktop.github.com/download/)
+3. [PNPM](https://pnpm.io)
+4. [Proton Drive](https://proton.me/drive)
+5. [Pinta](https://www.pinta-project.com)
+6. [Keyboard Maestro](https://www.keyboardmaestro.com/)
+   - Map `CMD` + `J` to open quick app menu
+7. [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+   - Standard brightness keyboard keys will apply to current mouse-pointer screen
+8. [Shottr](https://shottr.cc)
+9. Bookify: Send to Kindle (App store)
+10. [Davinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve)
+11. [Rancher Desktop](https://rancherdesktop.io)
+12. Whisper Notes - Transcription (App store)
 
 To add... Homebrew and commands to install the stuff I want!
 
 - `brew install ffmpeg`
 
-#### Davinci tips
+## Davinci tips
 
 These tips have a new home in the [Davinci Resolve notes](/about-me/davinci-resolve-notes/)
 
-### Keyboard
-
-I'm making an effort to get used to the default keyboard layout, assisted by a Logitech Ergo K860 (US international). Just living with the defaults will make it easier to switch between my office and travel setup and future machines.
-
-The one thing I can't seem to retrain is how home and end work. I'm very used to this working per line, i.e., home goes to the start of a line, end goes to the end of the line. On Mac, it works per document and I keep zipping off to the start or end of a document and losing my place.
-
-So, I'm using [Karbiner elements](https://karabiner-elements.pqrs.org) and from [PC style shortcuts](https://ke-complex-modifications.pqrs.org/#pc_shortcuts) import **End key to the end of the line (Control + e)** and **Home key to the beginning of the line (Control + a)** rules.
-
-## WIP: Tech diet
+## Tech diet
 
 Moved to [smol tech](/about-me/smol-tech/)
