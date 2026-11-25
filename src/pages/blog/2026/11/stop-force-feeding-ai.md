@@ -48,7 +48,7 @@ If you genuinely want productive developers, start with the productivity blocker
 
 There have been several studies on the productivity benefits of AI. An expectation was set for some multiplicative factor benefit, like 2x or 10x productivity improvements. While you may achieve these numbers on an example task, they don't accrue to the organization unless you look at the whole value stream.
 
-The real-world productivity benefit of LLM-based tools is typically between 5% and \+20%.
+The real-world productivity benefit of LLM-based tools is typically between -5% and +20%.
 
 Assuming you've given your developers the basic tools of the trade (fast computers, plenty of screen real estate, the best development tools), here are five developer productivity boosts that all beat AI in terms of impact, based on research by [DX](https://getdx.com).
 
