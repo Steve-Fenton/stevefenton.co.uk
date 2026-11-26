@@ -49,13 +49,13 @@ Independent studies have been telling us for a while that the gains from AI are 
 
 AI assistants have no statistically significant effect on output. AI agents do better. They do boost developer output, but this is lost downstream; just as we'd expect if we don't use the broken model of "developers are the slowest part of software delivery".
 
-The Harvard study is interesting because it goes beyond "coding activity" and touches on outcomes further downstream. Still, even they don't investigate whether the changes make any difference to software users or the organization's balance sheet \- not that this matters if the effects didn't even make it to work-item level measures.
+The Harvard study is interesting because it goes beyond "coding activity" and touches on outcomes further downstream. Still, even they don't investigate whether the changes make any difference to software users or the organization's balance sheet - not that this matters if the effects didn't even make it to work-item level measures.
 
 This highlights how engineering leaders are focusing far too much on developer speed and activity and not enough on business outcomes, just as Dave was distracted by motor power while trying to drive on bare metal rims.
 
 ## Reject average
 
-These modest gains across the software industry might tempt you to give up altogether. Why waste all this money and effort trying to get the performance you want when the whole industry has failed? But not so fast\!
+These modest gains across the software industry might tempt you to give up altogether. Why waste all this money and effort trying to get the performance you want when the whole industry has failed? But not so fast!
 
 While it's true that most organizations are trundling along, happy to make the slimmest improvements and hoping to compound them into something meaningful, a small cohort is doing something far more impressive.
 
@@ -63,8 +63,8 @@ I looked at data from 2,406 organizations to understand how their deployment vol
 
 | Cluster | Share | Median | Middle 50% |
 | :---- | :---- | :---- | :---- |
-| Improvers | 95.8% | 1.1× | 1.0× \- 1.3× |
-| Accelerators | 2.1% | 3.5× | 2.8× \- 5.9× |
+| Improvers | 95.8% | 1.1× | 1.0× - 1.3× |
+| Accelerators | 2.1% | 3.5× | 2.8× - 5.9× |
 
 The 25th percentile is 1.0× for the improvers (which means the label "improvers" becomes somewhat generous) and 2.8× for accelerators, and the 75th percentile shows 1.3× for improvers and 5.9× for accelerators.
 
@@ -88,9 +88,9 @@ In addition to the two improvement clusters (improvers and accelerators), 2.1% o
 
 So what do the accelerators have that everyone else is missing? It isn't a better model for their AI agent or a more expensive AI license. Most organizations have access to the same AI tools, and it's just not a differentiator. Like Dave, they all have a similar enough motor, and it's not what's stopping them from pulling away faster.
 
-The difference is what happens after the code is written. When AI agents speed up implementation, the work piles up downstream: code reviews, testing, approvals, and deployment.
+The difference comes from a decade of research, and it's what happens after the code is written. When AI agents speed up implementation, the work piles up downstream: code reviews, testing, approvals, and deployment.
 
-And that's the secret. The practices that mattered all along are still the ones that matter; we've had enough [State of DevOps reports](https://dora.dev/research/) to be confident about this. The organizations pulling ahead had already done the work that gives their wheels traction: automated testing, fast feedback, deployment automation, small batches, and small autonomous teams that are trusted to ship their own changes. You won't find monthly change approval boards, manual regression testing, or deployment gatekeepers among the accelerators. When the motor got more powerful, they had somewhere for that power to go.
+And that's the secret. The practices that mattered all along are still the ones that matter; we've had enough [State of DevOps reports](https://dora.dev/research/) to be confident about this, and our [own research](https://futureof.dev) keeps finding the same threads. The organizations pulling ahead have already done the work that gives their wheels traction: automated testing, fast feedback, deployment automation, small batches, and small autonomous teams that are trusted to ship their own changes. You won't find monthly change approval boards, manual regression testing, or deployment gatekeepers among the accelerators. When the motor got more powerful, they had somewhere for that power to go.
 
 :::figure
 
